@@ -1,0 +1,150 @@
+{
+  "lessonId": "lesson-6-3",
+  "moduleId": "module-6",
+  "title": "Cultural Missteps That Cost Real Money",
+  "duration": 6,
+  "objectives": [
+    "Identify the most common cultural missteps international founders make in U.S. business",
+    "Explain how cultural miscommunication affects trust, deals, and partnerships",
+    "Apply specific strategies to avoid cultural friction in U.S. business interactions"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-6-3-1",
+      "title": "Real Stories, Real Costs",
+      "content": "<p>As we examined in the prior lessons on communication and meetings, small cultural gaps lead to big financial consequences. An Argentine founder heard \"I love your product. We should partner on this\" at a Miami trade show. He spent $15,000 on legal fees for a partnership agreement. The American's response: \"Oh, I was just saying we should explore it.\"</p>\n\n<h4>Misstep #1: Reading Enthusiasm as Commitment</h4>\n\n<p>What does this actually mean day to day? \"This is fantastic\" means \"I'm interested enough to keep listening\" — not \"I'm committing resources.\"</p>\n\n<p><strong>What to do instead:</strong> Ask: \"What would the next step look like on your end?\" If the answer is vague, the deal is exploratory. Don't spend money until you see written commitment : a signed LOI, buy order, or detailed email with agreed terms.</p>\n\n<h4>Misstep #2: Gift-Giving in Business Settings</h4>\n\n<p>A South Korean founder brought high-end electronics to a meeting with a county procurement officer. The officer refused the gift and removed the company from the bidding process.</p>\n\n<p><strong>What to do instead:</strong> Skip gifts at first meetings. After deals close, keep gifts under $50 for corporate contacts. Check government gift policies before giving anything to public-sector partners.</p>",
+      "wordCount": 195
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-3-wm",
+      "variant": "watch-money-costs",
+      "title": "Watch Your Money: What Cultural Missteps Actually Cost",
+      "content": "<p>These are real dollar figures from international founders who learned the hard way (as of early 2026):</p>\n\n<ul><li><strong>$15,000</strong> . Legal fees for a partnership agreement based on a casual \"we should partner\" comment that was never a commitment</li><li><strong>$8,000–$12,000</strong> . Wasted retainer for a business consultant hired based on a warm introduction that never converted to actual business</li><li><strong>$5,000–$20,000</strong> . Product customization costs for a \"verbal commitment\" from a U.S. buyer that evaporated when the order wasn't formalized in writing</li><li><strong>$3,000–$7,000</strong> . Flights, hotels, and travel costs for in-person meetings that could have been handled by a 30-minute video call first</li><li><strong>$2,000–$5,000</strong> . Marketing materials and trade show expenses targeting the wrong customer segment because the founder didn't validate market fit locally first</li></ul>\n\n<p><strong>Total avoidable loss for a single founder:</strong> $10,000–$50,000+ in the first year. These costs add up fast when every dollar matters.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-6-3-2",
+      "title": "More Missteps That Drain Your Budget",
+      "content": "<h4>Misstep #3: Avoiding Direct \"No\"</h4>\n\n<p>A Japanese founder said \"We'll consider it carefully\" instead of declining a joint venture. The American team spent six weeks developing a proposal. When she finally said no, the relationship soured.</p>\n\n<p><strong>What to do instead:</strong> \"Thank you for thinking of us, but this isn't the right fit right now.\" Americans respect a clean no — they don't respect a delayed no disguised as maybe.</p>\n\n<h4>Misstep #4: Over-Investing Before Validating</h4>\n\n<p>What does that mean for you? A Chilean tech startup signed a two-year Orlando office lease ($4,500/month) before having a single U.S. customer. Their clients ended up in Texas and California — $81,000 on an office nobody used.</p>\n\n<p><strong>What to do instead:</strong> Start lean with coworking or virtual addresses. Validate with actual sales before committing to fixed overhead.</p>\n\n<h4>Misstep #5: Rushing the In-Person Trip</h4>\n\n<p>Founders spend $3,000-$7,000 per trip for meetings that could be video calls.</p>\n\n<p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p>",
+      "wordCount": 171
+    },
+    {
+      "type": "table",
+      "id": "table-6-3-1",
+      "title": "U.S. Business Phrases — What They Really Mean",
+      "table": {
+        "headers": [
+          "What They Say",
+          "What They Probably Mean",
+          "What You Should Do"
+        ],
+        "rows": [
+          [
+            "\"Let's circle back on this\"",
+            "Not interested right now, possibly ever",
+            "Follow up once in two weeks. If no response, move on."
+          ],
+          [
+            "\"That's really interesting\"",
+            "Polite acknowledgment, not commitment",
+            "Ask a qualifying question: \"What would the next step look like?\""
+          ],
+          [
+            "\"Let me check with my team\"",
+            "Soft stall or genuine internal process",
+            "Wait one week, then send a brief follow-up email."
+          ],
+          [
+            "\"We should definitely get together\"",
+            "Social pleasantry — no plan attached",
+            "If you want the meeting, propose a specific date and time."
+          ],
+          [
+            "\"Let's put a pin in that\"",
+            "This topic is effectively dead",
+            "Don't raise it again unless you have a compelling new reason."
+          ],
+          [
+            "\"I'll have my people reach out\"",
+            "Unlikely to happen without your follow-up",
+            "Follow up directly with a specific contact request."
+          ],
+          [
+            "\"We're not quite ready yet\"",
+            "No current interest, but they're leaving the door open",
+            "Check back in 3 months with a new value proposition."
+          ]
+        ]
+      },
+      "styling": {
+        "headerBackground": "#2d5f8a",
+        "headerTextColor": "#ffffff",
+        "alternatingRows": true,
+        "borderColor": "#2d5f8a"
+      },
+      "placement": "after-section",
+      "sectionId": "text-6-3-2"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-3-latam",
+      "variant": "latam-supplement",
+      "title": "Latin America Focus — Cultural Bridge Resources",
+      "content": "<p>Central Florida offers specific resources to help Latin American founders navigate U.S. business culture:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong> . Networking events that bridge Latin American and U.S. business norms</li><li><strong>Prospera</strong> . Mentor matching program that pairs Latin American founders with bilingual U.S. business advisors</li><li><strong>SBDC Orlando</strong> . Bilingual business counseling sessions available</li><li><strong>CFITO trade delegations</strong> . Structured introductions to U.S. business contacts with cultural context built in</li></ul>"
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-6-3-1",
+      "title": "Your Cultural Risk Audit",
+      "placement": "after-section",
+      "sectionId": "text-6-3-2",
+      "prompt": "Review the five missteps covered in this lesson. Which one are you most likely to make? Be honest. Write down a specific situation where you've already made (or nearly made) one of these mistakes. Then write the concrete action you'll take differently next time. The founders who succeed in the U.S. aren't the ones who avoid all mistakes — they're the ones who recognize the patterns before the costs get serious."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-6-3-1",
+      "title": "Cultural Missteps Check",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder from Colombia meets a U.S. buyer at a conference. The buyer says, \"I love your product -- let's definitely partner on this!\" The founder is excited and considering hiring a lawyer to draft a partnership agreement. What should the founder do BEFORE spending any money?",
+          "options": [
+            "Immediately hire the lawyer because the American clearly committed to a partnership",
+            "Send a follow-up email asking a specific qualifying question like \"What would the next step look like on your end?\" and wait for written commitment before investing in legal work",
+            "Wait two weeks for the American to send a formal partnership proposal since they expressed interest first",
+            "Bring an expensive gift to the next meeting to strengthen the relationship and accelerate the deal"
+          ],
+          "correctAnswer": 1,
+          "explanation": "American enthusiasm does not equal commitment. Phrases like 'let's partner' often mean 'I'm interested enough to keep talking.' The correct approach is to ask a qualifying question and wait for written confirmation (signed LOI, purchase order, or detailed email with agreed terms) before spending money on legal fees or other deal-related costs."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-6-3-2",
+      "title": "Avoiding Costly Cultural Errors",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A Japanese founder is approached by a U.S. company about a joint venture that does not align with her business model. In her culture, saying \"no\" directly feels impolite. She tells the American team, \"We'll consider it carefully.\" The American team spends six weeks developing a proposal. What is the most likely outcome, and what should she have done instead?",
+          "options": [
+            "The Americans will appreciate her thoughtfulness and wait patiently for her decision",
+            "The relationship will likely sour because the Americans will feel their time was wasted deliberately; she should have declined politely but clearly from the start",
+            "The six-week delay will make the Americans more eager to close the deal",
+            "The Americans will interpret her response as a negotiation tactic and increase their offer"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In U.S. business culture, a delayed 'no' disguised as 'maybe' damages trust more than a direct, polite decline. Americans respect clear communication: 'Thank you for thinking of us, but this isn't the right fit for our business right now.' The American team invested six weeks based on perceived interest, and learning it was never real creates significant resentment and reputational damage."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-6-3-1",
+      "title": "Key Takeaway",
+      "content": "<p>Cultural missteps are expensive. The founders who avoid the biggest losses tend to share one habit: they don't spend money based on enthusiasm. They wait for written commitment. They validate before they invest. They learn the unwritten rules, read actions over words, and remember: in U.S. business, friendliness and commitment are two very different things.</p>"
+    }
+  ]
+}

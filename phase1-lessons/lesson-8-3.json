@@ -1,0 +1,116 @@
+{
+  "lessonId": "lesson-8-3",
+  "moduleId": "module-8",
+  "title": "Next Steps — Your UCF BIP Pathway",
+  "duration": 7,
+  "objectives": [
+    "Schedule a 1:1 consultation with the UCF BIP team",
+    "Understand what phases 2 and 3 of the UCF BIP program offer",
+    "Identify their top 3 priority actions for the next 30 days"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-8-3-1",
+      "title": "Schedule Your 1:1 with UCF BIP",
+      "content": "<p>In the previous lesson, you downloaded your resources and completed your readiness assessment. Now one action matters most: <strong>schedule your 1:1 meeting with Brian Bedrick and the UCF BIP team.</strong></p>\n\n<p>What does this actually mean day to day? This is a strategy session, not a sales call. A 30-minute conversation can save you months of trial and error.</p>\n\n<h4>What to Bring</h4>\n\n<ul><li><strong>Your readiness self-assessment scores</strong> from Lesson 8-1</li><li><strong>Your completed Expansion Decision Worksheet</strong> from Lesson 8-2</li><li><strong>Your top 3 questions</strong>: written down before the meeting</li><li><strong>Your business context</strong> : company, product, home market, and why you're considering the U.S.</li></ul>\n\n<h4>Book Your Meeting Now</h4>\n\n<p><strong>[BOOK YOUR 1:1 MEETING | Calendly link placeholder]</strong></p>\n\n<p>Free, low-pressure, and the natural next step.</p>",
+      "wordCount": 119
+    },
+    {
+      "type": "text",
+      "id": "text-8-3-2",
+      "title": "What Comes After Phase 1",
+      "content": "<p>This program is Phase 1: the foundation before spending money in the U.S. market. Some founders move forward independently. Others benefit from <strong>phases 2 and 3 of the UCF BIP market entry/soft landing program</strong>:</p>\n\n<ul><li><strong>Personalized advisory</strong> . One-on-one guidance specific to your business</li><li><strong>Professional connections</strong> . Warm introductions to attorneys, CPAs, and banking contacts</li><li><strong>Ecosystem access</strong> . Investors, industry contacts, and partner organizations</li><li><strong>Peer community</strong> . Other international founders at a similar stage</li><li><strong>Structured milestones</strong> . Progress tracking with regular check-ins</li></ul>\n\n<p>Here is the practical takeaway. Details are discussed during your 1:1 meeting. Your conversation will help determine which path makes sense.</p>",
+      "wordCount": 104
+    },
+    {
+      "type": "text",
+      "id": "text-8-3-3",
+      "title": "Your Top 3 Actions for the Next 30 Days",
+      "content": "<p>Pick your top three actions for the next 30 days. Three, not ten. Specific actions lead to higher follow-through than long lists.</p>\n\n<h4>Make Each Action Specific</h4>\n\n<p>What does that mean for you? <strong>Weak:</strong> \"Learn more about entity types.\" <strong>Strong:</strong> \"Schedule a consultation with a business attorney to discuss LLC vs. C-Corp for my visa situation by [date].\"</p>\n\n<p>High-impact 30-day actions:</p>\n\n<ol><li><strong>Book your 1:1 with UCF BIP</strong> . Do it today.</li><li><strong>Contact a specific professional</strong> . Attorney, CPA, or immigration lawyer. \"Email this referral by Friday.\"</li><li><strong>Complete one research task</strong> . SunBiz name check, USPTO search, or compile bank documentation.</li><li><strong>Register for a free resource</strong> . SBDC counseling, SCORE mentorship, or a chamber event.</li><li><strong>Complete the Expansion Decision Worksheet</strong> . Block 60 minutes before your 1:1.</li></ol>",
+      "wordCount": 126
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-8-3-1",
+      "title": "Write Down Your Top 3 Actions",
+      "placement": "after-section",
+      "sectionId": "text-8-3-3",
+      "instructions": "<p>Complete this exercise right now — do not save it for later. Write down your three highest-priority actions for the next 30 days. For each one, include:</p><ol><li><strong>The specific action</strong> . What exactly will you do?</li><li><strong>The deadline</strong> . By what date will you complete it?</li><li><strong>The first step</strong> . What is the very first thing you need to do to start? (An email to send, a website to visit, a phone call to make.)</li></ol><p><strong>Action 1:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 2:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 3:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p>If your first action is not \"Book my 1:1 with UCF BIP,\" reconsider. That meeting is free, it takes 30 minutes, and it gives you a sounding board for everything else on your list.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-3-disc",
+      "variant": "reality-check",
+      "title": "Important Reminder Before You Go",
+      "content": "<p>This program provides general educational information to help international founders understand the U.S. business environment. It does not constitute legal, tax, immigration, or financial advice. Founders should consult qualified professionals before making business decisions.</p>\n\n<p>This is not a formality. It is genuinely important. The information in this program gives you a strong foundation, but every founder's situation is different. Your entity choice, your tax obligations, your visa pathway, your IP strategy: all of these depend on your specific circumstances. The professionals you work with will take the general knowledge you gained here and apply it to your particular business, your country of origin, your industry, and your goals. That is how knowledge becomes safe, effective action.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-8-3-4",
+      "title": "One Last Thing — Your Feedback Matters",
+      "content": "<p>Before you close this program, two questions. Your answers help make this better for every founder after you.</p>\n\n<h4>Was This Program Worth Your Time?</h4>\n\n<p>Did it change your understanding of U.S. market entry? Help you avoid at least one costly mistake? Be honest. Positive and critical answers help equally.</p>\n\n<h4>What Would Make It Better?</h4>\n\n<p>A topic in more depth? An area too basic? A resource you wished existed? Share your thoughts during your 1:1 or send them to the UCF BIP team.</p>",
+      "wordCount": 83
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-8-3-1",
+      "title": "UCF BIP Pathway Check",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder has completed Phase 1 (this program), landed her first two U.S. customers, and generated early revenue. Which UCF BIP phase is designed for her current business stage?",
+          "options": [
+            "Phase 1. She should retake the program to reinforce the fundamentals",
+            "Phase 2, designed for founders establishing initial U.S. operations with a validated opportunity",
+            "Phase 3, designed for founders with early traction (customers and revenue) who need help scaling",
+            "She has outgrown the UCF BIP program and should work independently"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Phase 3 of the UCF BIP market entry/soft landing program is specifically designed for founders who already have initial traction : early customers, revenue, or signed partnerships. It focuses on growth strategy, investor connections, expanded networking, and operational support for scaling. Phase 2 is for founders still establishing initial operations."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-8-3-2",
+      "title": "Action Planning Check",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "According to the lesson's guidance on effective goal-setting, which of the following is the STRONGEST action item for a founder's 30-day plan?",
+          "options": [
+            "Learn more about U.S. taxes",
+            "Research the market and figure out pricing",
+            "Schedule a 30-minute consultation with a CPA who works with foreign-owned businesses by March 28",
+            "Get everything set up as soon as possible"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Effective action items must be specific, time-bound, and completable. 'Schedule a 30-minute consultation with a CPA who works with foreign-owned businesses by March 28' includes a specific action (schedule consultation), a specific qualifier (CPA with international experience), and a deadline. Vague goals like 'learn more' or 'research the market' lack the specificity needed for follow-through."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflection-8-3-1",
+      "title": "Value Reflection",
+      "placement": "after-section",
+      "sectionId": "text-8-3-4",
+      "prompt": "What was the single most valuable thing you got from this program? It might be a specific piece of knowledge, a framework for thinking about decisions, a resource you did not know existed, or simply the confidence that you now know what you do not know. Write it down in one or two sentences. This reflection is for you, but if you are willing to share it with the UCF BIP team during your 1:1, it helps them understand what matters most to founders like you."
+    },
+    {
+      "type": "reflection",
+      "id": "reflection-8-3-2",
+      "title": "Program Improvement Feedback",
+      "placement": "after-section",
+      "sectionId": "text-8-3-4",
+      "prompt": "If you could change one thing about this program : add a topic, remove a section, change the format, go deeper on something — what would it be? Your answer helps shape the next version. Be specific. \"More details on X\" is more useful than \"make it better.\" Share this feedback during your 1:1 meeting or send it directly to the UCF BIP team."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-8-3-1",
+      "title": "Key Takeaway",
+      "content": "<p>Your journey does not end here. It starts here. You have the knowledge, the resources, and the access to a team that wants to help you succeed. The founders who tend to get the most value from this program are the ones who take action within the first week. Book your 1:1 meeting. Pick your top 3 actions. Take the first step today. Central Florida is ready for you, and the UCF BIP team is ready to help you get there.</p>"
+    }
+  ]
+}

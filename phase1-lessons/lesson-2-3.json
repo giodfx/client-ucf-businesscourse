@@ -1,0 +1,121 @@
+{
+  "lessonId": "lesson-2-3",
+  "moduleId": "module-2",
+  "title": "Banking Deep Dive — The Reality for International Founders",
+  "duration": 8,
+  "objectives": [
+    "Identify the physical presence and documentation requirements for major U.S. banks",
+    "Explain why bank accounts get rejected and how to improve approval chances",
+    "Describe U.S. credit history requirements and realistic timelines for building credit"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-2-3-1",
+      "title": "Why Banks Say No — And What to Do About It",
+      "content": "<p>You can form your LLC in two days. But getting a bank account? That can take two months and three rejections. Why is banking so much harder than everything else?</p>\n\n<p>Here's where it gets real. As we discussed in the earlier banking basics lesson, you can form your LLC in two days, but getting a bank account can take two weeks to two months, and some founders get rejected multiple times. Banks reject international founders for specific, predictable reasons.</p>\n\n<p>What does this actually mean day to day? <strong>No U.S. credit history.</strong> Home-country credit doesn't transfer. A German founder with a 15-year Deutsche Bank relationship was turned away by Chase because he had no U.S. credit score.</p>\n\n<p><strong>Incomplete documentation.</strong> Every bank has a different checklist, and most don't publish it clearly. Walk in missing one document and you'll come back another day.</p>\n\n<p><strong>Entity type mismatch.</strong> Some banks prefer C-Corps over single-member LLCs. Others won't open accounts for entities less than 30 days old. Ask before you apply.</p>\n\n<p><strong>High-risk country flags.</strong> Anti-money-laundering regulations mean founders from certain countries face additional scrutiny or refusal. A Kenyan fintech founder applied at three banks, each requesting additional KYC documentation : proof of source of funds, notarized business records, a compliance letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p>\n\n<p>So what does this mean in practice? <strong>International-friendly banks (early 2026):</strong> Mercury, Relay, Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p>",
+      "wordCount": 263
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-note",
+      "variant": "reality-check",
+      "title": "Requirements Vary by Bank and May Change",
+      "content": "<p>Banking policies are not uniform across institutions, and they change frequently. The documentation requirements, account minimums, and approval criteria described in this lesson reflect general patterns as of early 2026. <strong>Always verify current requirements directly with your target bank before visiting a branch.</strong> What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-1",
+      "variant": "reality-check",
+      "title": "Reality Check: This Takes Longer Than You Think",
+      "content": "<p>Here's the thing. <strong>First bank account:</strong> 2 to 4 weeks if everything goes right. Some founders report 6 to 8 weeks with additional compliance review.</p>\n\n<p><strong>Business credit card:</strong> 3–6 months after account opening. Most require a U.S. credit score or a secured deposit.</p>\n\n<p><strong>Business credit line:</strong> 12–18 months of banking history and revenue documentation.</p>\n\n<p>Plan your cash flow around these timelines. Don't expect to walk into a bank on Monday and have an account by Friday.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-2",
+      "title": "Building U.S. Credit History From Zero",
+      "content": "<p>Your U.S. credit score starts at nothing — not low, nonexistent. Many automated systems reject applications where no score exists. Here's the path to build credit:</p>\n\n<p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. Mercury offers a business card connected to your Mercury account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking — it determines commercial lease terms, vendor payment terms (Net 30/Net 60), and access to financing. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
+      "wordCount": 178
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-3",
+      "title": "Payment Processors, Wire Transfers, and Moving Money",
+      "content": "<p>Think about this: while you work on getting a bank account, you still need to accept payments and move money.</p>\n\n<p><strong>Stripe:</strong> Requires a U.S. bank account for payouts. Fastest way to accept credit card payments online. Processing fee: 2.9% + $0.30 per transaction.</p>\n\n<p>The bottom line? <strong>PayPal:</strong> Set up with an EIN and U.S. address. Useful as an interim solution, but known for freezing accounts with sudden transaction spikes. A Brazilian founder had $12,000 frozen for 21 days after a product launch triggered fraud detection.</p>\n\n<p><strong>Wise (formerly TransferWise):</strong> Gives you a U.S. account number and routing number for ACH payments. Not a full bank replacement, but excellent for moving money between countries at favorable exchange rates.</p>\n\n<p>In other words, choose the right tool for the job. <strong>ACH vs. Wire vs. Check:</strong> ACH is the U.S. standard for recurring payments — free or low-cost, 1–3 business days. Wire transfers are for urgent or international payments ($25–$50 per transfer). Most B2B payments are ACH or credit card.</p>\n\n<p>International wire costs add up fast. Compare your bank ($30–$50 fee + 2–3% exchange markup) against Wise ($5–$10 fee + mid-market rate) — the difference can save hundreds per month.</p>",
+      "wordCount": 182
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-2",
+      "variant": "theme-watch-money",
+      "title": "Watch Your Money — Wire Transfer Fees Are Real",
+      "content": "<p>Here's where it adds up. International wires cost $25 to $50 each direction through traditional banks, plus unfavorable exchange rates that add another 1 to 3%. ACH transfers are free or low-cost but domestic only. Plan your money movement strategy: batch international transfers to reduce fees, use Wise or similar services for better rates, and switch to ACH for domestic payments as soon as your U.S. bank account is active.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-fund",
+      "title": "A Quick Word About Funding and Investors",
+      "content": "<p>Now, let's talk about a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or permanent resident. Non-citizen founders often don't qualify, even with a profitable Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the UCF BIP market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
+      "wordCount": 167
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-3",
+      "variant": "latam-supplement",
+      "title": "Latin America Resources — Banking",
+      "content": "<p>Central Florida has banking resources tailored for Latin American founders. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The Hispanic Chamber of Commerce of Metro Orlando hosts banking workshops that cover account setup and credit building. The SBDC at UCF offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-2-3-1",
+      "title": "Check Your Understanding: Banking for International Founders",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "An international founder with no U.S. credit history wants to start building credit immediately after opening a bank account. What is the recommended first step?",
+          "options": [
+            "Apply for a business line of credit from a major bank",
+            "Open a secured credit card with a cash deposit as collateral",
+            "Ask a U.S. friend to add them as an authorized user on their credit card",
+            "Wait 12 months and then apply for a standard credit card"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A secured credit card is the standard first step for building U.S. credit from zero. You deposit cash as collateral and use the card for small purchases, paying in full each month. After 6–12 months of consistent use, you'll have a basic credit score that opens doors to business cards and credit lines."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-2-3-2",
+      "title": "Credit Building and Funding Realities Check",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A Peruvian founder just arrived in Orlando and wants to sign a commercial lease for office space. Her landlord is asking for a larger security deposit because she has no U.S. credit history. What should she have done earlier to avoid this situation?",
+          "options": [
+            "Applied for an SBA loan to demonstrate financial stability",
+            "Opened a secured credit card immediately after getting her bank account and used it consistently for 6-12 months",
+            "Asked her home-country bank to transfer her credit score to a U.S. bureau",
+            "Paid the landlord in cash upfront to bypass the credit check entirely"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The lesson describes this exact scenario — a Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Starting with a secured credit card the day you open your bank account builds a basic credit score within 6-12 months. Home-country credit does not transfer to the U.S."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-2-3-1",
+      "title": "Reflection: Your Banking Strategy",
+      "placement": "after-section",
+      "sectionId": "text-2-3-fund",
+      "prompt": "What documents do you currently have ready for a U.S. bank account application? What's missing? Write down your plan for the first 12 months: which bank will you approach first, how will you handle international transfers, and when will you start building U.S. credit?"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-2-3-1",
+      "title": "Key Takeaway",
+      "content": "<p>Banking is one of the biggest friction points for international founders. Come to every bank visit with complete documentation, apply to international-friendly banks, and start building U.S. credit from day one with a secured credit card. Plan to bootstrap your first year — investors and SBA loans have requirements that take time to meet. Requirements vary by bank and change frequently, so always verify before you apply.</p>"
+    }
+  ]
+}

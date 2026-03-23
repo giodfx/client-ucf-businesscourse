@@ -1,0 +1,114 @@
+{
+  "lessonId": "lesson-7-2",
+  "moduleId": "module-7",
+  "title": "Central Florida — Your Market Opportunity",
+  "duration": 6,
+  "objectives": [
+    "Describe the qualitative character of Central Florida's startup ecosystem and why it attracts international founders",
+    "Explain UCF's role as an anchor institution and its connection to the regional research-to-market corridor",
+    "Identify the networking events, community hubs, and people that matter for a new founder in the region"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-7-2-1",
+      "title": "More Than a Market — A Place That Wants You to Succeed",
+      "content": "<p>What makes one U.S. city better than another for an international founder? It is not just the tax code. It is whether the ecosystem actually wants you there.</p>\n\n<p>Picking a U.S. base city is not only a spreadsheet exercise. Building on the foundations from earlier in this course, the numbers matter  ( the next lesson covers them — but first you need to understand something harder to quantify: whether a city actually wants you there. Central Florida does, and the evidence is in how the ecosystem behaves, not just in its tax code.</p>\n\n<p>Here is the practical takeaway. International founders here describe a consistent experience. People answer emails. Introductions happen within days, not months. Organizations like SBDC, CFITO, and the Hispanic Chamber run active programs, show up at events, and follow up. That responsiveness matters enormously when you are new to the country and building from zero.</p>",
+      "wordCount": 147
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-2",
+      "title": "UCF as the Anchor — The Research Corridor Effect",
+      "content": "<p>Every thriving startup ecosystem has an anchor institution. In Central Florida, it's UCF — and understanding how UCF shapes the ecosystem explains why this region works for founders.</p>\n\n<p>What does that mean for you? UCF is a research engine tied to the industries around it. The Institute for Simulation and Training (IST) partners with defense contractors and government agencies, which is why 200+ simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and CS programs produce graduates who stay local — because the jobs are here.</p>\n\n<p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at BIP orientation.</p>\n\n<p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p>",
+      "wordCount": 174
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-3",
+      "title": "The Startup Culture — Who's Here and How They Work",
+      "content": "<p>Central Florida's startup culture is collaborative rather than cutthroat. Founders describe it as \"pre-competitive\" : people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p>\n\n<h4>Founder Accessibility</h4>\n\n<p>The bottom line? Successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p>\n\n<h4>Industry Cross-Pollination</h4>\n\n<p>Because the ecosystem is mid-sized, founders meet people outside their sector regularly — a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p>\n\n<h4>Bilingual Business Community</h4>\n\n<p>Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p>\n\n<h4>The \"Gateway\" Mindset</h4>\n\n<p>An Ecuadorian food-tech founder launched in Orlando because the hospitality cluster gave her immediate customers : within two years she had expanded to Miami, Atlanta, and Houston.</p>",
+      "wordCount": 173
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-4",
+      "title": "Living Here — The Human Side of Relocation",
+      "content": "<p>International founders relocate not just a company but often a family. Central Florida's livability is part of its value proposition.</p>\n\n<h4>Family and Community</h4>\n\n<p>Let's put this in perspective. Orlando's international community is large and established : grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools in Orange and Seminole counties have experience with multilingual families. Bilingual pediatricians, immigration attorneys, and WhatsApp groups connect international families.</p>\n\n<h4>Lifestyle and Climate</h4>\n\n<p>Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate — a positive for Latin American founders who find northeastern winters challenging.</p>\n\n<h4>Practical Reality</h4>\n\n<p>You will need a car — public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p>",
+      "wordCount": 125
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-5",
+      "title": "Your Networking Map — Where to Show Up",
+      "content": "<p>Here are the high-value networking touchpoints for international founders:</p>\n\n<h4>Events That Matter</h4>\n\n<p><strong>Orlando Tech Association meetups</strong> . Monthly, meet local tech founders and service providers. Go within two weeks of arriving.</p>\n\n<p><strong>Starter Studio Demo Days</strong> . Accelerator demos connecting you with investors and mentors, even if you're not in the program.</p>\n\n<p>This is the part that catches people off guard. <strong>CFITO Trade Events</strong> . Trade delegations connecting you with importers, exporters, and logistics partners for LATAM-U.S. bridging.</p>\n\n<p><strong>UCF BIP Workshops</strong> . Sessions on IP, pitch prep, and more. The cohort format builds relationships with other founders.</p>\n\n<h4>Places to Work and Meet</h4>\n\n<p><strong>UCF Business Incubation facilities</strong> . Coworking embedded in the support ecosystem. Physical presence increases chance encounters with mentors.</p>\n\n<p><strong>Canvs at Creative Village</strong> . Downtown Orlando's coworking hub for creative and tech startups.</p>\n\n<p><strong>Orlando Public Library co-lab spaces</strong> . Free workspace and meeting rooms for budget-conscious founders.</p>\n\n<h4>People to Connect With Early</h4>\n\n<p>Your SBDC counselor (free, industry-matched). Your UCF BIP coordinator. At least one founder 6-12 months ahead of you — what they wish they had known is more valuable than any workshop.</p>",
+      "wordCount": 183
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-2-latam",
+      "variant": "latam-supplement",
+      "title": "Latin America Focus — Community and Connection",
+      "content": "<ul><li><strong>Prospera</strong> . Bilingual (Spanish/English) mentoring, training, and business planning for Hispanic entrepreneurs. They assign you a mentor who understands your background.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong> . Business matchmaking programs pairing international founders with established local businesses. Annual events draw hundreds of bilingual professionals.</li><li><strong>Colombian, Brazilian, Venezuelan community groups</strong> . Active WhatsApp and social media networks that share job leads, vendor recommendations, and family resources. Ask your BIP cohort-mates or SBDC counselor for introductions.</li><li><strong>Bilingual professional services</strong> . Immigration attorneys, CPAs, and business consultants who work in Spanish and Portuguese are well-established in the Orlando metro area.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-2-rc",
+      "variant": "reality-check",
+      "title": "Reality Check — The Ecosystem Is Growing, Not Finished",
+      "content": "<p>Central Florida's startup ecosystem is strong and getting stronger, but it is not Silicon Valley or New York. Be honest about what that means:</p>\n\n<ul><li><strong>Niche industries may have fewer local contacts.</strong> If you're in a very specialized vertical (quantum computing, advanced materials), the local network will be thinner. You may need to build national connections from day one.</li><li><strong>Venture capital is growing but still smaller</strong> than in major hubs. If you need Series A or B capital, you'll likely pitch investors in Miami, New York, or San Francisco — but you can live and operate here while doing so.</li><li><strong>\"Based in Orlando\" carries less brand weight</strong> with some investors and partners than \"based in San Francisco.\" This gap is closing, but it exists. Let your traction speak louder than your zip code.</li></ul>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-2-1",
+      "title": "Central Florida Ecosystem Check",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A Brazilian edtech founder is considering Central Florida. Which factor BEST illustrates the qualitative advantage of the region's startup culture?",
+          "options": [
+            "Florida has no state income tax, saving the founder money",
+            "UCF's research partnerships, accessible founders, bilingual support organizations, and a collaborative rather than cutthroat culture make it easier to build relationships and find early customers",
+            "The cost of living is lower than in Miami or New York",
+            "Orlando International Airport has many direct flights to Latin America"
+          ],
+          "correctAnswer": 1,
+          "explanation": "While tax benefits, cost savings, and flight connectivity are genuine advantages (covered in the next lesson's data), the qualitative strength of Central Florida is its culture: UCF as an anchor institution, founders who respond to messages, bilingual organizations like Prospera and the Hispanic Chamber, and an ecosystem where introductions happen quickly. That collaborative environment is what makes the region work for international founders beyond what the numbers alone can show."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-2-2",
+      "title": "Networking and Community",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "An international founder has just arrived in Central Florida and wants to build her local network quickly. Which combination of actions would give her the broadest initial connections?",
+          "options": [
+            "Rent an office in a suburban business park and focus on cold-emailing potential customers",
+            "Attend an Orlando Tech Association meetup, schedule an SBDC counselor meeting, and work from UCF BIP coworking space for chance encounters with mentors and peers",
+            "Fly to Silicon Valley for investor meetings before establishing any local relationships",
+            "Join three online forums and network exclusively through LinkedIn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Central Florida's ecosystem rewards physical presence and in-person connection. Attending local meetups introduces you to founders and hiring managers. Your SBDC counselor provides free, industry-specific guidance. And working from BIP space creates the chance encounters : with mentors, fellow founders, and program coordinators — that lead to introductions, partnerships, and early customers. Online networking is useful, but the ecosystem's strength is its accessibility in person."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-7-2-1",
+      "title": "Your Ecosystem Fit",
+      "placement": "after-section",
+      "sectionId": "text-7-2-5",
+      "prompt": "Think about the networking touchpoints described in this lesson. Identify the THREE that are most relevant to your business and write down: (1) what you'd hope to get from each (a customer lead, a mentor, a partner, a hire), and (2) what you'd bring to the table — because networking works best when you offer value, not just ask for it. What expertise, perspective, or connection from your home market could be useful to someone already in the Central Florida ecosystem?"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-7-2-1",
+      "title": "Key Takeaway",
+      "content": "<p>Central Florida's advantage for international founders goes beyond cost savings and flight schedules. The region has a collaborative startup culture anchored by UCF, a bilingual business community that actively supports international entrepreneurs, and a network of events, spaces, and organizations designed to help new founders build traction. The ecosystem is mid-sized and growing — which means you get access, responsiveness, and cross-industry connections that are harder to find in larger, more competitive metros. Show up in person, build relationships early, and use the community as your launchpad.</p>"
+    }
+  ]
+}

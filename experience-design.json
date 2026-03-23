@@ -1,0 +1,305 @@
+{
+  "courseId": "ucf-bip-market-readiness",
+  "version": "1.0",
+  "toneAndVoice": {
+    "voice": "Knowledgeable friend who has done this before",
+    "voiceDescription": "An experienced mentor who has helped international founders navigate the U.S. market. Speaks with earned authority but zero pretension. Like a friend who moved to the U.S. five years ago and is now sharing everything they wish someone had told them.",
+    "tone": "Direct, practical, conversational, and encouraging",
+    "toneDescription": "Warm but no-nonsense. Less academic, more informal. Acknowledges that the process is hard without sugar-coating. Uses real numbers, real timelines, and real examples. Never condescending, never academic. Never uses absolute statements about costs, timelines, or outcomes — always qualify with 'typically', 'often', 'may vary'.",
+    "formalityLevel": 2,
+    "formalityDescription": "Conversational and informal. Contractions welcome. Short sentences preferred. No jargon without explanation. Reads like a practical guide, not a textbook. Audience is business professionals who understand foundational business terminology but are non-native English speakers.",
+    "person": "second",
+    "personUsage": "Always 'you' for the learner. 'We' sparingly for shared experience. Never 'one should' or 'the learner'.",
+    "readingLevel": "8th-10th grade",
+    "readingLevelNotes": "ESL-friendly: target audience includes non-native English speakers across multiple languages. Use simple sentence structures. Define technical terms on first use. Avoid idioms without explanation. Short paragraphs. The Spanish version will also serve Spanish-as-second-language speakers.",
+    "eslGuidelines": [
+      "Use short, clear sentences — 15-20 words average",
+      "Avoid complex subordinate clauses",
+      "Define acronyms and technical terms on first use",
+      "Use 'for example' not 'e.g.', 'that is' not 'i.e.'",
+      "Avoid idioms or explain them immediately: 'get your foot in the door (start the process)'",
+      "Prefer active voice over passive voice",
+      "Use concrete examples over abstract concepts"
+    ],
+    "voiceCandor": {
+      "description": "The 'knowledgeable friend' voice requires emotional honesty, not just conversational grammar. Content must include moments of candor — acknowledging frustration, difficulty, or unfairness — before moving to solutions.",
+      "rules": [
+        "Do NOT immediately reassure. When a topic is hard (banking, taxes, cultural missteps), let the difficulty breathe for 1-2 sentences before offering solutions.",
+        "Include at least 2 founder anecdotes per module — brief, specific stories with country of origin and outcome. These cannot be replaced by generic advice.",
+        "Avoid the pattern: 'This can be challenging. Here is what to do.' Instead: 'This is the part that surprises most founders. [Brief story of what went wrong for someone]. Here is how to avoid that.'",
+        "The voice should occasionally show personality: mild frustration ('this part of the process is genuinely frustrating'), insider knowledge ('here is what they do not tell you on the website'), or earned confidence ('after helping dozens of founders through this, here is what actually works')."
+      ],
+      "antiPatterns": [
+        "State issue → bullet list → qualifier (flat, FAQ-like)",
+        "Every section opening with immediate reassurance ('This is manageable')",
+        "Content that reads identically whether written by AI or a human expert"
+      ]
+    }
+  },
+  "experienceMetaphor": {
+    "name": "The Founder's Road Trip — Central Florida Explorer",
+    "concept": "A driving journey through Central Florida's economic landscape. The founder sits behind the wheel of a car with a GPS dashboard showing destinations (modules) to explore. Each module is a Central Florida landmark that serves as both visual backdrop and content analogy. The journey is non-linear — explore destinations in any order.",
+    "navigationConcept": {
+      "entry": "Car dashboard POV with GPS screen showing all destinations. User selects where to go.",
+      "transition": "Time-lapse driving animation between destinations — car moves fast through the highway.",
+      "moduleView": "Each module opens with its landscape theme as visual backdrop. Content weaves in the landscape analogy throughout.",
+      "completion": "Return to dashboard with destination marked as explored."
+    },
+    "emotionalArc": {
+      "beginning": "Overwhelm and uncertainty — sitting in a car, looking at an unfamiliar map",
+      "middle": "Growing confidence as each destination reveals practical knowledge",
+      "end": "Readiness to take informed action — you know the territory now"
+    },
+    "landscapeThemes": {
+      "module-0": "Highway / Dashboard Entry",
+      "module-1": "City Landscape — downtown Orlando, business formation, government",
+      "module-2": "Financial District / Office Park — banking, corporate infrastructure",
+      "module-3": "Rocket Base — Cape Canaveral inspiration, science, protecting innovation",
+      "module-4": "Theme Park — teamwork, talent, massive operations engine",
+      "module-5": "Port / Shopping Center — commerce, logistics, reaching customers",
+      "module-6": "Beach / Shopping Center — casual surface, serious business underneath",
+      "module-7": "River Springs — full ecosystem, 'you are not alone', natural diversity",
+      "module-8": "UCF Headquarters — reflection, wrap-up, return to base"
+    },
+    "themeIntegrationRules": {
+      "description": "Landscape themes must serve the CONTENT, not just decorate it. A theme that can be removed without changing the teaching value is failing.",
+      "rules": [
+        "The opening analogy must MAP to the lesson's core concept — storefront=LLC is good because it teaches; 'financial district' as a label is not enough",
+        "Tier 1 modules (1, 2, 4, 7): Theme woven throughout — at least 2-3 references across the lesson that connect landscape to content",
+        "Tier 2 modules (3, 5, 6): Theme in opening + fun fact only — do not force analogies that weaken the teaching",
+        "Within a multi-lesson module, lessons must feel like stops on the SAME journey, not separate articles. Use the lessonTransitions concept.",
+        "TEST: If you remove all theme references and the lesson reads identically, the theme is decorative and needs rework"
+      ],
+      "tiers": {
+        "tier1_fullNarrative": ["module-1", "module-2", "module-4", "module-7"],
+        "tier2_visualOnly": ["module-3", "module-5", "module-6"],
+        "special": ["module-0", "module-8"]
+      }
+    },
+    "funFactsEasterEggs": {
+      "description": "Each module includes 1-2 discoverable Central Florida fun facts tied to the landscape theme. Visible and obvious (not truly hidden), but optionally expandable for detail.",
+      "purpose": "Gamification — finding all facts requires consuming all content. Also promotes Central Florida as a destination for business.",
+      "tone": "Did you know...? format. Exciting, enticing — making founders want to be in Central Florida.",
+      "integration": "Ideally woven into the content narrative, not just a sidebar. But if too complex, fallback to a 'UCF logo click for fun facts' pattern.",
+      "qualityRules": [
+        "Each fun fact must be SPECIFIC and SURPRISING — not generic chamber-of-commerce stats. Test: would this make someone pause and say 'really?'",
+        "Fun facts within the same module must be DISTINCT — never restate the same stat in different words",
+        "Fun facts should be TIED TO THE LESSON TOPIC, not just to Central Florida generally. A banking lesson gets a banking-related fact, not a general business formation stat.",
+        "Prefer facts that are also USEFUL — insider tips that help the founder take action, not just trivia",
+        "Bad example: 'Orlando ranks among the top cities for business formation' (vague, generic)",
+        "Good example: 'The IRS international line (267-941-1099) sometimes issues EINs in the same phone call — some founders walk into the bank the next morning with everything they need' (specific, useful, surprising)"
+      ]
+    },
+    "lessonTransitions": {
+      "description": "Within a multi-lesson module, each lesson after the first must open with a one-sentence transition that connects it to the previous lesson. This creates a narrative through-line and makes the module feel like a journey, not separate articles.",
+      "format": "A single sentence at the very start of the opening text block, before the lesson's own content begins. References where the founder just was and where they are going next.",
+      "examples": [
+        "Now that you have picked your office in the city, it is time to register it — think of this as walking to City Hall.",
+        "Documents in hand, you head across downtown to the financial district.",
+        "With your launch pad secured, it is time to protect what you are building."
+      ],
+      "rules": [
+        "Keep it to ONE sentence — do not over-extend the metaphor",
+        "Use the module's landscape theme naturally, not forced",
+        "The first lesson of each module does NOT need a transition — it is the entry point"
+      ]
+    }
+  },
+  "learnerJourney": {
+    "navigationModel": "non-linear",
+    "progressionType": "self-directed",
+    "allowSkip": true,
+    "requiredCompletion": false
+  },
+  "assessmentPhilosophy": {
+    "formative": "Three-part end-of-module template: (1) Reflection prompts — situational, about the founder's own business, (2) Scenario-based multiple choice — 'what would you do?' not trivia, (3) Key Takeaway summary. Consistent format across all modules.",
+    "summative": "No final exam. Self-assessment in wrap-up module.",
+    "passingScore": null,
+    "retryPolicy": "unlimited",
+    "maxAttempts": null,
+    "checkForUnderstandingFormat": {
+      "reflection": "3 prompts tailored to the module — invite founders to think about their own situation",
+      "scenarioCheck": "3 scenario-based MC questions — 'You are about to do X, how should you approach it?'",
+      "keyTakeaway": "Conversational module summary — highlight strategy, encourage continued exploration",
+      "templateOrigin": "Brian's Module 0 edits (Mar 18) — agreed to standardize across all modules"
+    }
+  },
+  "terminologySubstitutions": [
+    { "instead": "learner", "use": "founder" },
+    { "instead": "student", "use": "founder" },
+    { "instead": "participant", "use": "founder" },
+    { "instead": "In this module you will learn", "use": "Here is what you need to know" },
+    { "instead": "Upon completion of this lesson", "use": "After this lesson" },
+    { "instead": "The purpose of this section is", "use": "[just start with the content]" }
+  ],
+  "mediaPreferences": {
+    "videoStyle": "InfinityTalk avatar video — ComfyUI + Wan 2.1 lip-sync",
+    "videoSystem": {
+      "type": "infinitytalk",
+      "description": "Talking-head avatar generated from a single portrait image + narration audio via ComfyUI Wan 2.1 pipeline. Avatar speaks the lesson narration with lip-sync.",
+      "workflow": "workflows/comfyui/infinityTalk - Single -Wan 2.1.json",
+      "avatarSource": "Generated portrait image matching the cinematic digital painting style — stylized, not photorealistic",
+      "ttsProvider": "Qwen3-TTS (recommended) or VibeVoice",
+      "output": "832x480 H.264 MP4 @ 25fps",
+      "pipeline": "TTS audio (Qwen3/VibeVoice) → Avatar image (Qwen 2512 GGUF) → InfinityTalk → MP4",
+      "seeAlso": "docs/INFINITYTALK-AVATAR-SYSTEM.md"
+    },
+    "interactivityLevel": "low",
+    "preferredComponents": [
+      "knowledge-check",
+      "table",
+      "callout"
+    ]
+  },
+  "calloutTypes": [
+    {
+      "id": "common-mistake",
+      "label": "Common Mistake",
+      "purpose": "Warn about frequent errors international founders make"
+    },
+    {
+      "id": "reality-check",
+      "label": "Reality Check",
+      "purpose": "Set realistic expectations about costs, timelines, or difficulty"
+    },
+    {
+      "id": "before-you-spend",
+      "label": "Before You Spend Money",
+      "purpose": "Highlight where founders waste money by acting without knowledge"
+    },
+    {
+      "id": "theme-reduce-risk",
+      "label": "Reduce Risk",
+      "purpose": "One of four course themes — risk reduction through knowledge"
+    },
+    {
+      "id": "theme-watch-money",
+      "label": "Watch Your Money",
+      "purpose": "One of four course themes — financial awareness and cost control"
+    },
+    {
+      "id": "theme-avoid-mistakes",
+      "label": "Avoid Common Mistakes",
+      "purpose": "One of four course themes — learning from others' errors"
+    },
+    {
+      "id": "theme-understand-culture",
+      "label": "Understand the Culture",
+      "purpose": "One of four course themes — U.S. business culture fluency"
+    },
+    {
+      "id": "fun-fact",
+      "label": "Did You Know?",
+      "purpose": "Central Florida fun fact tied to module landscape theme. Must be specific, surprising, and tied to lesson topic. See funFactsEasterEggs.qualityRules."
+    },
+    {
+      "id": "latam-supplement",
+      "label": "Latin America Focus",
+      "purpose": "Supplementary content specific to Latin American founders"
+    },
+    {
+      "id": "common-mistakes-repeating",
+      "label": "Common Mistakes International Founders Make",
+      "purpose": "REPEATING per-module callout — every module (0-7) gets one highlighting the most common errors for that topic. Brian provided examples for Modules 1-2; generate equivalent for others."
+    },
+    {
+      "id": "watch-money-costs",
+      "label": "Watch Your Money: What This Actually Costs",
+      "purpose": "REPEATING per-module callout — every module (1-7, NOT module 0) gets one with realistic cost ranges. No cost numbers in Module 0 Welcome."
+    }
+  ],
+  "sensitivityNotes": {
+    "contentWarnings": [
+      "Legal/tax/immigration content always includes 'consult a professional' disclaimer",
+      "Immigration topics require explicit disclaimer: completing this program does not influence or guarantee visa approval",
+      "All cost information is approximate and subject to change — use 'as of early 2026' qualifier where appropriate",
+      "No cultural stereotypes — use specific, actionable examples",
+      "Frame UCF BIP programs naturally, not as sales pitch",
+      "No specific dollar amounts in Module 0 (Welcome) — all costs in per-module Watch Your Money callouts"
+    ],
+    "requiredDisclaimers": [
+      {
+        "id": "legal-educational",
+        "text": "This program provides general educational information to help international founders understand the U.S. business environment. It does not constitute legal, tax, immigration, or financial advice. Participants should consult qualified professionals before making business decisions.",
+        "appearsIn": ["lesson-0-1", "lesson-8-3"]
+      },
+      {
+        "id": "immigration",
+        "text": "This program will briefly touch on immigration and visa topics relevant to international founders, but immigration law is complex and highly individual. It is necessary to consult with qualified immigration experts for more details and before making any decisions about your visa status or immigration pathway.",
+        "appearsIn": ["lesson-0-1"]
+      },
+      {
+        "id": "visa",
+        "text": "Completing this program does not influence or guarantee visa approval. This content is educational only — visa outcomes depend on individual circumstances and are determined solely by U.S. immigration authorities.",
+        "appearsIn": ["lesson-4-2"]
+      }
+    ]
+  },
+  "designNotes": [
+    "Frame everything as 'I wish I knew this earlier'",
+    "Include specific cost ranges and timelines wherever possible (but NOT in Module 0) — always qualified, never absolute",
+    "Use 'Before You Spend Money' checklists, 'Common Mistakes' boxes, 'Typical Timeline' charts",
+    "Assessment = preparedness, not quizzes. 'What would you do?' not 'What is an LLC?'",
+    "Value perception feedback must be strategic — reinforce experience was worth time/money",
+    "Module 6 (Culture) rated most valuable by all 4 pilot participants",
+    "Customer acquisition is the #1 practical concern across all respondents",
+    "Every module MUST have a 'Common Mistakes International Founders Make' repeating callout",
+    "Every module (1-7) MUST have a 'Watch Your Money: What This Actually Costs' repeating callout",
+    "Use 'Learning Outcomes' terminology, never 'Learning Objectives'",
+    "UCF BIP programs: always 'phases 2 and 3 of the market entry/soft landing program' — never 'Traction/Growth/Soft Landing'",
+    "Time commitment: 'less than 3 hours' in Welcome module",
+    "NEVER use absolute statements about costs, timelines, or outcomes — always 'typically', 'often', 'may vary'",
+    "NEVER give directive language — 'you should do X'. Use 'many founders find', 'a common approach is', 'consider'",
+    "S-Corp: mention only as 'generally not available to non-citizen founders' — focus on LLC and C-Corp",
+    "Central Florida landscape analogy woven into each module's content — not just visual, but narrative",
+    "Fun facts about Central Florida — visible, not hidden. Gamification element.",
+    "Visual style: Cinematic Digital Painting — see imageStyle section for full specification",
+    "Landscapes are inspirational, not literal — 'inspired by' not 'this is'",
+    "Avoid controversial references, brand names (no Disney/Universal by name), region-negative content",
+    "See content-directives.md for complete lesson-by-lesson directive list from client feedback"
+  ],
+  "imageStyle": {
+    "approvedDirection": "Concept C — Cinematic Digital Painting",
+    "approvedDate": "2026-03-23",
+    "approvedBy": "Brian Bedrick (client)",
+    "referenceImage": "designideas/image002.png",
+    "description": "Rich atmospheric digital paintings with dramatic golden hour lighting, painterly brushstrokes visible, warm saturated colors. Concept art quality. Not photorealistic, not cartoonish — cinematic and aspirational.",
+    "model": "Qwen 2512 GGUF (Q4_K_M)",
+    "workflow": "workflows/comfyui/image_qwen_2512_gguf.json",
+    "dimensions": "1824x1024 (16:9 landscape)",
+    "samplerSettings": {
+      "sampler": "euler",
+      "scheduler": "simple",
+      "steps": 25,
+      "cfg": 4.0,
+      "shift": 3.1
+    },
+    "styleElements": [
+      "Cinematic digital painting aesthetic",
+      "Dramatic golden hour / sunset lighting",
+      "Deep blue sky transitioning to rich orange and gold at horizon",
+      "Painterly brushstrokes visible",
+      "Atmospheric haze and warm saturated colors",
+      "Concept art quality, rich and atmospheric",
+      "Palm trees and Central Florida vegetation"
+    ],
+    "imageTypes": {
+      "landscapeScene": {
+        "description": "Exterior scene showing the module's Central Florida landmark — no car, low angle POV from the road. Used as module header/hero images.",
+        "promptTemplate": "Cinematic digital painting, low angle POV from the middle of [SCENE DESCRIPTION] at sunset. [SCENE DETAILS]. Dramatic golden hour lighting, [LIGHTING DETAILS]. Painterly brushstrokes visible, atmospheric haze, warm saturated colors. Concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio."
+      },
+      "dashboardPOV": {
+        "description": "Interior car POV — gloved hands on yoke steering wheel, wide EV dashboard screen with dark mode map, view through windshield. Used for navigation/dashboard UI and Module 0.",
+        "promptTemplate": "Cinematic digital painting, interior car POV from behind the driver. Gloved hands gripping a modern yoke-style steering wheel, no face visible, no logos, no brand markings, no emblems anywhere on the car. Modern electric vehicle interior with a large wide rectangular touchscreen display stretching from the center console all the way to the right passenger side air vent, the screen is wide and horizontal like a cinema display. The screen shows a minimal dark mode navigation map with thin gray street grid lines on black background, no markers, no labels. The rearview mirror is mounted high and tight against the headliner at the very top of the windshield, barely visible. Through the wide windshield, [SCENE DESCRIPTION]. Dramatic golden hour lighting streaming through the windshield, [LIGHTING DETAILS]. Painterly brushstrokes visible, atmospheric haze, warm saturated colors. Concept art quality, rich and atmospheric. No text, no words, no letters, no logos, no brand symbols. Wide composition, 16:9 aspect ratio."
+      }
+    },
+    "copyrightRules": [
+      "No recognizable brand logos, mascots, or iconography",
+      "Theme parks must be generic — no castles, no specific park elements",
+      "No university logos or mascots on campus scenes",
+      "No NASA/SpaceX branding — generic launch facility",
+      "No text rendered in images — all text via HTML overlays"
+    ],
+    "negativePrompt": "Chinese negative prompt baked into workflow node — low quality, distortion, artifacts, text, watermarks"
+  }
+}

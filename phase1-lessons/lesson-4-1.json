@@ -1,0 +1,184 @@
+{
+  "lessonId": "lesson-4-1",
+  "moduleId": "module-4",
+  "title": "Your First U.S. Hire — Contractor vs. Employee",
+  "duration": 7,
+  "objectives": [
+    "Distinguish between independent contractor and employee classifications under U.S. law",
+    "Identify the financial and legal penalties for worker misclassification",
+    "Describe the IRS factors used to determine worker classification"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-4-1-1",
+      "title": "The Classification Mistake That Costs Founders Thousands",
+      "content": "<p>Having covered entity setup, banking, and legal foundations, this lesson tackles bringing people onto your team. A Brazilian SaaS founder hired a developer in Orlando, called her an \"independent contractor,\" and paid her through Venmo for six months. The developer worked 9-to-5, used the company's laptop, and attended daily standups. When she filed for unemployment, Florida flagged it. The founder owed $14,000 in back taxes, penalties, and interest.</p>\n\n<p>What does that mean for you? The U.S. draws a hard legal line between contractors and employees based on how the person actually works — not what the contract says. An <strong>independent contractor</strong> sets their own schedule, uses their own tools, and serves multiple clients. An <strong>employee</strong> works under your direction : you set hours, provide equipment, and they work primarily for you. Classify someone as a contractor but treat them like an employee, and you owe all the back taxes from day one.</p>",
+      "wordCount": 152
+    },
+    {
+      "type": "table",
+      "id": "table-4-1-1",
+      "title": "Contractor vs. Employee — Key Differences",
+      "table": {
+        "headers": [
+          "Factor",
+          "Independent Contractor (1099)",
+          "Employee (W-2)"
+        ],
+        "rows": [
+          [
+            "Work schedule",
+            "Sets their own hours",
+            "You set the hours"
+          ],
+          [
+            "Tools & equipment",
+            "Uses their own",
+            "You provide them"
+          ],
+          [
+            "Number of clients",
+            "Typically serves multiple clients",
+            "Works primarily for you"
+          ],
+          [
+            "Payment structure",
+            "Per project or milestone",
+            "Regular salary or hourly wage"
+          ],
+          [
+            "Tax withholding",
+            "None — they pay their own taxes",
+            "You withhold federal, state, FICA"
+          ],
+          [
+            "Benefits",
+            "Not required",
+            "Expected (health, PTO) for retention"
+          ],
+          [
+            "Termination",
+            "Contract ends per agreement terms",
+            "At-will in Florida, but legal exposure exists"
+          ],
+          [
+            "Your tax forms",
+            "File 1099-NEC",
+            "File W-2"
+          ],
+          [
+            "Your liability",
+            "Limited (if properly classified)",
+            "Significant (workers' comp, unemployment, etc.)"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-4-1-1"
+    },
+    {
+      "type": "text",
+      "id": "text-4-1-2",
+      "title": "The IRS Test — How They Actually Decide",
+      "content": "<p>The IRS uses a three-part analysis to determine worker classification.</p>\n\n<h4>Behavioral Control</h4>\n\n<p>Do you control <strong>how</strong> the work gets done? Detailed instructions and required hours point toward employee. If the worker decides how to accomplish the result, that points toward contractor.</p>\n\n<h4>Financial Control</h4>\n\n<p>Do you control the <strong>business aspects</strong> of the worker's job? Employees have expenses reimbursed and receive company tools. Contractors invest in their own equipment.</p>\n\n<h4>Relationship Type</h4>\n\n<p>Employee-type benefits, an ongoing relationship with no end date, and work that is a core part of your business all suggest employment.</p>\n\n<p>Practical shortcut: if you control when, where, and how someone works, they are almost certainly an employee regardless of what the contract says.</p>",
+      "wordCount": 114
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-1-1",
+      "variant": "common-mistake",
+      "title": "Using a 1099 to Avoid Payroll Taxes",
+      "content": "<p>Some founders classify every worker as a 1099 contractor to avoid payroll taxes and benefits. The IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong> and additional fines. In serious cases, you face criminal prosecution. The savings are not worth the risk.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-4-1-3",
+      "title": "When Contractors Actually Make Sense",
+      "content": "<p>Contractors work well for project-based tasks (a website, a marketing campaign, a financial model) and temporary expertise. Platforms like <strong>Upwork</strong>, <strong>Toptal</strong>, and <strong>Fiverr</strong> make finding U.S.-based contractors straightforward.</p>\n\n<p>Let's put this in perspective. Get paperwork right from day one: a written <strong>Independent Contractor Agreement</strong> defining scope, payment, IP ownership, and confidentiality, plus a completed <strong>W-9 form</strong> before any payments for year-end 1099-NEC filing.</p>",
+      "wordCount": 65
+    },
+    {
+      "type": "text",
+      "id": "text-4-1-ucf",
+      "title": "The UCF Talent Pipeline — Your Hiring Advantage in Central Florida",
+      "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. UCF enrolls over 70,000 students across 230+ degree programs — a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>Here is the thing. The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000-$70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000-$48,000</strong> versus $55,000-$65,000 in South Florida.</p>\n\n<p>A Vietnamese founder used UCF's internship program to bring on two computer science students part-time, evaluating fit over three months before extending full-time offers — saving the cost and risk of a bad hire.</p>",
+      "wordCount": 137
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-1-wm",
+      "variant": "watch-money-costs",
+      "title": "Watch Your Money: What Hiring Actually Costs",
+      "content": "<p>As of early 2026, here is what to budget for your first U.S. hire in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour — worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Common Mistakes International Founders Make — Hiring",
+      "content": "<ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. The IRS, state agencies, and workers themselves can all trigger an audit. Penalties include all back taxes, interest, and fines.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70–85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000–$78,000 in actual cost.</li><li><strong>Working without proper visa authorization.</strong> As a founder, your own visa status determines what work you can legally do in the U.S. Hiring others does not exempt you from your own immigration requirements. Working outside your authorization can result in deportation and permanent bars from reentry.</li></ul>"
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-4-1-1",
+      "title": "Calculate Your True Hiring Cost",
+      "placement": "after-section",
+      "sectionId": "text-4-1-ucf",
+      "instructions": "<p>Pick the first role you'd hire in the U.S. Use the Central Florida salary ranges from this lesson to estimate your real cost — then compare it to hiring a contractor instead.</p><ul><li><strong>Role:</strong> ___</li><li><strong>Base salary estimate (Central Florida range):</strong> $___</li><li><strong>True annual cost (base × 1.25 for taxes, insurance, benefits):</strong> $___</li><li><strong>Contractor alternative (hourly rate × estimated annual hours):</strong> $___</li><li><strong>Which makes more sense for your first 6 months, and why?</strong> ___</li></ul><p>There's no wrong answer here — the point is to see the real numbers side by side before you commit.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-4-1-1",
+      "title": "Check Your Understanding",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A developer works exclusively for your company, uses your laptop, follows your daily schedule, and attends your team meetings. You pay them monthly and have no written end date for the arrangement. Under U.S. law, this person is most likely classified as:",
+          "options": [
+            "An independent contractor because you haven't provided health insurance",
+            "An employee because you control how, when, and where they work",
+            "A contractor as long as your written agreement says 'contractor'",
+            "It depends on whether they want to be a contractor or employee"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The IRS looks at behavioral control, financial control, and the nature of the relationship. Controlling the schedule, providing equipment, and having an ongoing arrangement with no end date all point strongly toward employee status. The written contract label does not override the actual working relationship."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-4-1-2",
+      "title": "Check Your Understanding: Hiring Costs and the UCF Pipeline",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder is comparing hiring costs across U.S. cities. She needs an entry-level software developer and wants to maximize her runway. Based on the salary data in this lesson, which location gives her the strongest cost advantage?",
+          "options": [
+            "San Francisco, because higher salaries attract better talent that saves money long-term",
+            "Miami, because proximity to Latin America reduces cultural friction",
+            "Central Florida, where entry-level developer salaries of $55,000–$70,000 are 30–45% below major coastal markets",
+            "New York, because venture capital access offsets the higher payroll costs"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Central Florida offers entry-level software developer salaries of $55,000–$70,000, which is 30–40% lower than New York and 35–45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives founders significantly more runway with the same budget."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-4-1-1",
+      "title": "Think About Your First Hire",
+      "placement": "after-section",
+      "sectionId": "text-4-1-ucf",
+      "prompt": "Think about the first person you plan to bring onto your U.S. team. Based on what you just learned, would they be a contractor or an employee under U.S. law? What specific factors from the IRS test point to your answer? If you are unsure, write down the two or three questions you would ask an employment attorney to confirm."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-4-1-1",
+      "title": "Key Takeaway",
+      "content": "<p>Get worker classification right from day one. The cost of misclassification far exceeds the cost of doing it correctly. Use contractors for defined projects with clear deliverables. Hire employees when you need ongoing, directed work. Take advantage of UCF's talent pipeline and Central Florida's cost advantage to stretch your hiring budget further. When in doubt, consult an employment attorney before bringing anyone on board.</p>"
+    }
+  ]
+}

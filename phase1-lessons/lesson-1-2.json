@@ -1,0 +1,117 @@
+{
+  "lessonId": "lesson-1-2",
+  "moduleId": "module-1",
+  "landscapeTheme": "City Landscape",
+  "title": "Registering with SunBiz — Step by Step",
+  "duration": 10,
+  "objectives": [
+    "Describe the complete SunBiz registration process for a Florida business entity",
+    "Identify the requirements for an EIN, registered agent, and registered address",
+    "Explain why a physical registered address matters and how UCF BIP can help"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-1-2-0",
+      "title": "Why Florida — And Why International Founders Keep Choosing It",
+      "content": "<p>Now that you have chosen your office in the city (storefront or tower), it is time to register it. Think of this as walking to City Hall.</p>\n\n<p>Here is the practical takeaway. In Florida, that starts with SunBiz, the state's online portal for business registration.</p>\n\n<p>But first, why do so many international founders choose Florida as their entry point? Here are some of the reasons that come up most often:</p>\n\n<ul><li><strong>No state personal income tax.</strong> Compared to states like California or New York, Florida can offer significant tax savings.</li><li><strong>Simple online registration.</strong> SunBiz allows you to form an LLC or corporation entirely online, and entities are often active within a few business days.</li><li><strong>Strong international connectivity.</strong> The Orlando and Miami corridor offers Spanish-speaking professional services, international banking, and legal firms experienced with foreign-owned businesses.</li><li><strong>Competitive costs.</strong> Office space and coworking in the Orlando area tends to be significantly less expensive than comparable options in Miami, New York, or San Francisco.</li><li><strong>Growing ecosystem.</strong> With over 70,000 students at UCF, a growing tech sector, and programs like UCF BIP, Central Florida offers a supportive environment for new businesses.</li></ul>",
+      "wordCount": 189
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida LLC formation through SunBiz can be completed entirely online — you do not need to be physically in the United States to file. Some founders have registered their entity from another country in the morning and had it active before the end of the week. Very few U.S. states offer this combination of speed, simplicity, and remote accessibility.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-1-2-1",
+      "title": "SunBiz — Florida's Division of Corporations",
+      "content": "<p>SunBiz (sunbiz.org) is Florida's official portal for registering business entities, filing annual reports, and updating records.</p>\n\n<p>What does that mean for you? Before you begin, you typically need three things:</p>\n\n<ol><li><strong>Your entity type decision.</strong> LLC or Corporation? If you have not decided yet, review the previous lesson.</li><li><strong>A business name.</strong> It must be distinguishable from other Florida businesses and include a designator (\"LLC,\" \"Inc.,\" or \"Corp.\"). You can check availability on SunBiz before filing.</li><li><strong>A registered agent.</strong> A person or service with a physical Florida street address (not a P.O. box) to receive legal documents on your behalf.</li></ol>\n\n<p>Here is the general process:</p>\n\n<ol><li>Go to sunbiz.org and select \"Start a Business.\"</li><li>Choose your entity type.</li><li>Enter your business name (availability is typically checked in real time).</li><li>Provide member or manager information.</li><li>Designate your registered agent with their Florida street address.</li><li>Enter your principal and mailing addresses.</li><li>Pay the filing fee — typically around $125 for an LLC or $70 for a Corporation.</li><li>Submit. Your entity is often active within a few business days.</li></ol>\n\n<p>With your information ready, the process can usually be completed in about 20 to 30 minutes.</p>",
+      "wordCount": 189
+    },
+    {
+      "type": "text",
+      "id": "text-1-2-2",
+      "title": "EIN — Your Business's Tax ID",
+      "content": "<p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Think of it as your business's tax ID : you will need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p>\n\n<p>The bottom line? <strong>With an SSN or ITIN:</strong> You can typically apply online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p>\n\n<p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot — some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p>\n\n<p>A practical tip: you can apply for an ITIN when filing your first tax return, which opens up the online EIN process for future entities.</p>\n\n<p>The EIN belongs to the business, not to you personally. Each company needs its own EIN. Keep your confirmation letter (CP 575) — banks and clients on W-9 forms will ask for it.</p>",
+      "wordCount": 232
+    },
+    {
+      "type": "text",
+      "id": "text-1-2-3",
+      "title": "Registered Agent and Address — The Physical Presence Requirement",
+      "content": "<p>Florida requires every business entity to maintain a registered agent with a physical street address — not a P.O. box, not a virtual mailbox.</p>\n\n<h4>Addresses on SunBiz</h4>\n\n<p>Let's put this in perspective. SunBiz asks for three addresses:</p>\n\n<ul><li><strong>Principal address:</strong> A coworking space, office, or incubator</li><li><strong>Mailing address:</strong> A virtual mailbox service (often $10-$30/month) or same as your principal address</li><li><strong>Registered agent address:</strong> A professional agent service, or your principal address if someone is physically present during business hours</li></ul>\n\n<p>UCF BIP offers flexible office space that founders can use as their business address. Ask your UCF BIP contact about availability.</p>\n\n<h4>Registered Agent Services</h4>\n\n<p>If you are not in Florida full-time, a registered agent service is often the simplest solution. These typically run $100-$300 per year. Several well-known providers offer this service online.</p>\n\n<p>Do not overlook this requirement. If your registered agent lapses, Florida can administratively dissolve your entity — which means your business legally stops existing until you fix it.</p>",
+      "wordCount": 159
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-2-1",
+      "variant": "common-mistake",
+      "title": "Common Filing Errors That Delay Your Registration",
+      "content": "<p>These are the mistakes that most commonly cause SunBiz filings to be rejected or delayed:</p>\n\n<ul><li><strong>Name already taken.</strong> Always check availability on SunBiz before you submit. If your preferred name is taken, consider adding an industry descriptor or geographic identifier. Also check whether the matching website domain name is available — once your entity name is filed with SunBiz, you cannot change it without forming a new entity.</li><li><strong>Wrong entity suffix.</strong> LLCs must include \"LLC\" or \"L.L.C.\" in the name. Corporations must include \"Inc.,\" \"Corp.,\" or \"Co.\" Filing without the correct suffix may be rejected.</li><li><strong>Missing registered agent designation.</strong> The registered agent must consent to serve in that role. If the information does not match what the agent has on file with the state, the filing may stall.</li><li><strong>Incorrect address format.</strong> SunBiz requires a street address for the principal and registered agent addresses. A P.O. box is not accepted for these fields. International addresses are generally acceptable for the mailing address.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-2-wm",
+      "variant": "watch-money-costs",
+      "title": "Watch Your Money — What Registration Actually Costs",
+      "content": "<p>Registration-related costs can add up faster than expected. Here are typical ranges:</p>\n\n<ul><li><strong>SunBiz filing fee:</strong> Typically around $125 for an LLC or $70 for a Corporation.</li><li><strong>Registered agent service:</strong> Typically $100–$300 per year if you are not in Florida full-time.</li><li><strong>Virtual mailbox (mailing address):</strong> Often $10–$30 per month.</li><li><strong>Operating agreement (attorney-drafted):</strong> Often $300–$800 for an LLC. DIY templates are available, but may miss details specific to foreign-owned entities.</li><li><strong>EIN application:</strong> Free from the IRS — no reason to pay a third party for this.</li></ul>\n\n<p>The most common overspend at this stage is paying a formation service several hundred to several thousand dollars for something you can do yourself on SunBiz in about 30 minutes. The filing itself is straightforward — where professional help actually adds value is drafting an operating agreement, structuring corporate bylaws, or advising on entity type selection. Save your budget for those conversations.</p>"
+    },
+    {
+      "type": "reflection",
+      "id": "ref-1-2-1",
+      "title": "Reflection: Your Registration Plan",
+      "placement": "end-of-lesson",
+      "prompt": "Think about where you are in the process:\n\n- Have you decided on an entity type? If not, what questions remain?\n- Do you have a business name in mind? Have you checked availability on SunBiz?\n- What will you use for a registered agent and registered address?\n- If you are not in Florida, how will you handle the physical presence requirement?\n\nWrite down any gaps that need to be resolved before you can file. Having a clear plan before you start the SunBiz process makes the entire experience smoother."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-1-2-1",
+      "title": "Quick Check: What Would You Do?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "You are ready to register your LLC on SunBiz, but you are currently living outside the United States. What is the most important thing to arrange before you begin the filing?",
+          "options": [
+            "A U.S. driver's license",
+            "A registered agent with a physical Florida street address",
+            "A personal bank account at a Florida bank",
+            "A signed office lease in Orlando"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Florida requires every business to have a registered agent with a physical street address. If you are not in Florida, a registered agent service handles this for you. You do not need a driver's license, personal bank account, or office lease to file on SunBiz."
+        },
+        {
+          "stem": "You just registered your Florida LLC on SunBiz. Before you finalize, a mentor tells you to also check the website domain name. Why does this matter?",
+          "options": [
+            "The domain name must exactly match your SunBiz filing or the LLC is invalid",
+            "Once your entity name is filed with SunBiz, you cannot change it — if the matching domain is taken, you may be stuck with a name that does not work online",
+            "SunBiz automatically reserves the .com domain for you when you file",
+            "Domain names are only relevant once you start marketing, so it can wait"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Your SunBiz entity name cannot be changed after filing without forming a new entity. If you discover the matching domain is unavailable after filing, you will either need a mismatched web presence or a new entity. Checking domain availability before filing takes two minutes and can save significant hassle."
+        },
+        {
+          "stem": "You need an EIN for your new Florida LLC but you do not have an SSN or ITIN. What is typically the fastest way to get one?",
+          "options": [
+            "Apply online at irs.gov — it takes about 15 minutes",
+            "Mail Form SS-4 to the IRS",
+            "Call the IRS international line — wait times vary, but same-day processing has been reported",
+            "Ask your registered agent to apply on your behalf"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Without an SSN or ITIN, the online application is not available. Calling the IRS international line at 267-941-1099 has been reported as the fastest alternative, though wait times can vary. Mailing the form can take several weeks. Verify the number is current before calling."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-1-2-1",
+      "title": "Key Takeaway",
+      "content": "<p>Florida registration through SunBiz is one of the most straightforward steps in your U.S. setup process. The real preparation happens before you file: choosing the right entity type, securing a registered agent, and understanding the address requirements.</p>\n\n<p>Florida's combination of no state personal income tax, simple online registration, international connectivity, and competitive costs is a big part of why international founders keep choosing it as their entry point. Have your EIN plan, registered agent, and address strategy ready before you click \"submit.\"</p>"
+    }
+  ]
+}

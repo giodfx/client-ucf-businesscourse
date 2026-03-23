@@ -1,0 +1,153 @@
+{
+  "lessonId": "lesson-4-3",
+  "moduleId": "module-4",
+  "title": "Payroll, Taxes, and Employer Obligations",
+  "duration": 6,
+  "objectives": [
+    "Describe basic payroll setup requirements and employer tax obligations",
+    "Identify required employer-provided protections (workers' comp, unemployment insurance)",
+    "Estimate the true cost of an employee beyond their salary"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-4-3-1",
+      "title": "Your Employee Costs More Than Their Salary",
+      "content": "<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short.</p>\n\n<p>Hiring your first U.S. employee costs significantly more than their salary. If you have already explored visa pathways, you will see how work authorization connects to hiring. A Mexican founder hired her first Orlando employee at $55,000 — then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added ~20%.</p>\n\n<p>What does this actually mean day to day? In many countries, employer contributions are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at ~$420/employee/year. <strong>Florida SUTA</strong> at $18–$378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500–$2,000/year for office work.</p>",
+      "wordCount": 130
+    },
+    {
+      "type": "table",
+      "id": "table-4-3-1",
+      "title": "Employer Cost Breakdown — What Sits on Top of Salary",
+      "table": {
+        "headers": [
+          "Obligation",
+          "Rate or Cost",
+          "Example on $60,000 Salary"
+        ],
+        "rows": [
+          [
+            "Employer FICA (Social Security + Medicare)",
+            "7.65% of wages",
+            "$4,590/year"
+          ],
+          [
+            "Federal Unemployment (FUTA)",
+            "6% on first $7,000 (effectively ~$420 after state credit)",
+            "~$420/year"
+          ],
+          [
+            "Florida State Unemployment (SUTA)",
+            "Varies by employer history",
+            "$18–$378/year (new employer)"
+          ],
+          [
+            "Workers' Compensation Insurance",
+            "Varies by industry risk",
+            "$500–$2,000/year (office work)"
+          ],
+          [
+            "Health Insurance (optional but expected)",
+            "Employer contribution if offered",
+            "$3,000–$7,000/year per employee"
+          ],
+          [
+            "Total Overhead (without health insurance)",
+            "~12–15% above salary",
+            "$65,500–$67,400/year"
+          ],
+          [
+            "Total Overhead (with health insurance)",
+            "~20–30% above salary",
+            "$68,500–$74,400/year"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-4-3-1"
+    },
+    {
+      "type": "text",
+      "id": "text-4-3-2",
+      "title": "Use a Payroll Service — Seriously",
+      "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Here is the practical takeaway. Do not handle U.S. payroll yourself. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida : after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
+      "wordCount": 116
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-3-1",
+      "variant": "before-you-spend",
+      "title": "Before You Spend Money: Payroll Tax Penalties Are Serious",
+      "content": "<p>The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-4-3-3",
+      "title": "What U.S. Employees Expect Beyond the Paycheck",
+      "content": "<p>Legal requirements are the floor. U.S. workers expect benefits even when they are not legally required — if you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p>What does that mean for you? <strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
+      "wordCount": 115
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-4-3-1",
+      "title": "Check Your Understanding",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "An employee earns a base salary of $50,000 per year. Using the employer cost multiplier of 1.15 to 1.30, what is the approximate total annual cost to the employer?",
+          "options": [
+            "$50,000 — salary is the only cost",
+            "$52,500 — add 5% for taxes",
+            "$57,500 to $65,000 — salary plus employer taxes, insurance, and potential benefits",
+            "$75,000 to $100,000 — U.S. employment is extremely expensive"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500 to $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-4-3-2",
+      "title": "Check Your Understanding: Payroll and Benefits",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
+          "options": [
+            "Nothing — the IRS provides a grace period for small businesses in their first year",
+            "A warning letter with no financial penalty for first-time offenders",
+            "IRS penalty notices for late filing, plus potential interest on unpaid withholding taxes",
+            "Automatic revocation of the company's EIN and business license"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40-$100/month) automates filings and prevents these costly mistakes."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-4-3-1",
+      "title": "Calculate Your First Employee's True Cost",
+      "placement": "after-section",
+      "sectionId": "text-4-3-3",
+      "instructions": "<p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p>"
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-4-3-1",
+      "title": "Your First U.S. Hire — The Real Number",
+      "placement": "after-section",
+      "sectionId": "text-4-3-3",
+      "prompt": "Think about your first U.S. hire. What role is it, and what salary would you offer? Now multiply that number by 1.25 — that's closer to your true annual cost once you add employer taxes, insurance, and basic benefits. Write down the real number. Which payroll service from this lesson (Gusto, ADP, QuickBooks) would you use, and why? Having this figured out before you make an offer keeps you from the budget shock that catches most international founders off guard."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-4-3-1",
+      "title": "Key Takeaway",
+      "content": "<p>An employee costs 15 to 30% more than their base salary. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is straightforward once you know the components, and a payroll service handles the compliance details so you can focus on building your business.</p>"
+    }
+  ]
+}

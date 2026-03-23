@@ -1,0 +1,335 @@
+{
+  "id": "strategy-ucf-bip-market-readiness",
+  "projectId": "ucf-bip-market-readiness",
+  "createdAt": "2026-03-12",
+  "version": "1.0",
+
+  "courseTitle": "U.S. Market Readiness Program",
+  "courseSubtitle": "International Founder Pathway — Phase 1",
+  "client": "UCF Business Incubation Program",
+  "sourceType": "text-documents",
+  "contentStrategy": "generate-from-scratch",
+  "imageGenerationProvider": "gemini-flash",
+
+  "imageStrategy": {
+    "sourceHasImages": false,
+    "sourceImageLocation": "media/source-images",
+    "reviewSourceImages": false,
+    "reuseApprovedImages": false,
+    "generateForGapsOnly": false
+  },
+
+  "description": "A $99 self-paced program preparing international entrepreneurs and CEOs to launch and operate a business in the United States, with a focus on the Central Florida ecosystem. Covers legal setup, taxes, banking, IP protection, hiring/immigration, go-to-market strategy, U.S. business culture, and the Central Florida support network. Designed for vetted founders from Latin America, Europe, and Asia who are expanding to or have recently relocated to the U.S.",
+
+  "language": "en",
+
+  "personas": [
+    {
+      "name": "The Soft Lander",
+      "description": "Founder or executive of an established company outside the U.S. — most commonly Latin America or Europe. The business already works in their home country; they're expanding into the U.S. and evaluating Central Florida as a base.",
+      "goals": ["Understand what to do and in what order — legal setup, banking, finding the right people", "Establish a credible U.S. presence from abroad", "Connect with local resources for soft landing support"],
+      "painPoints": ["Overwhelmed by sequential requirements (entity → EIN → bank → address)", "Doesn't know what they don't know about U.S. regulations", "Needs a physical U.S. presence but isn't ready to relocate full-time"]
+    },
+    {
+      "name": "The Latin American Entrepreneur",
+      "description": "Entrepreneur from a Spanish-speaking country (Venezuela, Colombia, Mexico, Brazil) expanding from abroad or recently relocated. Deeply entrepreneurial, but U.S. banking, legal structures, and professional norms are unfamiliar.",
+      "goals": ["Navigate legal and financial systems in a second language", "Build a credible professional network in Central Florida", "Access Spanish-language resources and community support"],
+      "painPoints": ["Banking system rejections and credit history barriers", "Cultural differences in business communication and trust-building", "Finding bilingual professional services (attorneys, accountants)"]
+    },
+    {
+      "name": "The Relocated Founder",
+      "description": "International entrepreneur who has physically moved to the U.S. — often on an O-1, E-2, or similar visa. Technically strong and motivated, but overwhelmed by the administrative side of building a business as a non-citizen.",
+      "goals": ["Protect intellectual property in the U.S. legal system", "Keep business activities visa-compliant", "Acquire first U.S. customers and understand local sales cycles"],
+      "painPoints": ["IP protection across borders", "Contractor vs. employee classification risks", "Understanding U.S. customer acquisition expectations and pricing"]
+    }
+  ],
+
+  "targetAudience": {
+    "primary": [
+      "International founders and CEOs expanding to the U.S. market",
+      "Latin American entrepreneurs entering Central Florida",
+      "Relocated founders on O-1, E-2, or L-1 visas"
+    ],
+    "secondary": [
+      "UCF BIP Soft Landing program candidates",
+      "CFITO trade delegation participants",
+      "International business development professionals exploring U.S. operations"
+    ],
+    "prerequisites": "Active business in home country or concrete plans to establish a U.S. entity. Vetted by UCF BIP before enrollment.",
+    "experienceLevel": "Experienced business operators, new to U.S. market"
+  },
+
+  "learningObjectives": {
+    "terminal": "After completing this program, the learner will be able to make informed, risk-aware decisions about establishing and operating a business in the United States, with specific knowledge of the Central Florida ecosystem and the resources available through UCF BIP.",
+    "enabling": [
+      "Compare LLC and C-Corp structures for international founders, understand why S-Corp is generally not available to non-citizens, and identify which entity type fits their business goals and immigration status",
+      "Describe the step-by-step process for registering a Florida business through SunBiz, obtaining an EIN, and establishing a registered address",
+      "Understand U.S. federal/state taxes, sales tax, and basic accounting expectations",
+      "Navigate U.S. banking requirements, document expectations, and common pitfalls for foreign founders",
+      "Protect intellectual property, manage contracts, and determine when legal counsel is required",
+      "Understand U.S. hiring practices, contractor vs. employee distinctions, visa options, and payroll obligations",
+      "Apply U.S. customer acquisition strategies, pricing expectations, and market entry approaches to their specific business context",
+      "Understand U.S. business cultural norms and avoid costly missteps",
+      "Identify Central Florida business support resources that are available to help settle in and achieve your business goals",
+      "Assess whether U.S. market expansion is realistic for their company and business stage",
+      "Produce actionable deliverables including checklists, a Florida setup roadmap, and a U.S. market readiness assessment"
+    ],
+    "notes": {
+      "outcome7-customer-acquisition": "Keep for now but first to cut if total duration needs trimming (Brian's C3)",
+      "outcome11-deliverables": "Confirmed — checklist, roadmap, resource guide, worksheet as Module 8 downloads"
+    }
+  },
+
+  "instructionalApproach": {
+    "methodology": "Self-paced, non-linear modular learning with practical checklists, cost-range tables, and real-world founder examples. Framed as 'what you need to know before you spend money' — risk reduction, not academic theory.",
+    "engagement": [
+      "Common Mistake callout boxes highlighting real founder errors",
+      "Before You Spend Money checklists for actionable preparation",
+      "Estimated Cost Range tables with 2025-2026 data",
+      "Typical Timeline charts showing realistic expectations",
+      "Reality Check callouts contrasting expectations vs. reality",
+      "Real-world founder stories from international entrepreneurs",
+      "Interactive comparisons, timelines, scenarios, and accordions",
+      "Latin America supplement sections with region-specific resources",
+      "Central Florida Fun Facts — Easter egg-style discoverable facts tied to each module's landscape theme (economic engine data, unique regional facts)",
+      "Landscape theme integration — each module's content weaves in its Central Florida landscape analogy throughout, not just as a sidebar"
+    ],
+    "assessmentStrategy": {
+      "formative": "Three-part end-of-module template: (1) Reflection prompts — think about your own business situation, (2) Scenario-based multiple choice — 'what would you do?' not trivia, (3) Key Takeaway summary. Consistent format across all modules.",
+      "summative": "End-of-course self-assessment reflection in Wrap-Up module. Value perception feedback (strategic phrasing for stakeholder data). Program improvement feedback (separate).",
+      "practiceOpportunities": "Scenario-based decision exercises, comparison card interactions, resource matching activities",
+      "checkForUnderstandingTemplate": {
+        "description": "Standardized end-of-module format agreed with Brian (Mar 18 meeting). Applied consistently to every module.",
+        "part1_reflection": {
+          "format": "3 reflection prompts tailored to the module topic",
+          "examplePrompts": ["What am I most unsure about in this area?", "What might I be overlooking that could affect my business?", "What risks do I need to watch for?"],
+          "tone": "Invite the founder to think about their own situation, not recall facts"
+        },
+        "part2_scenarioCheck": {
+          "format": "3 scenario-based multiple choice questions",
+          "style": "Situational — 'You are about to do X, how should you approach it?' NOT trivia ('Is it 1 month or 3 months?')",
+          "includeExplanations": true,
+          "explanationTone": "Connect answer back to the module's key insight"
+        },
+        "part3_keyTakeaway": {
+          "format": "Conversational summary of the module's main message",
+          "elements": ["Highlight the strategy or framework to remember", "Remind this is a map, not a guarantee", "Encourage use of reflections to track progress"]
+        }
+      }
+    }
+  },
+
+  "contentStructure": {
+    "estimatedDuration": "2-3 hours",
+    "modules": 7,
+    "lessonsPerModule": 3,
+    "totalLessons": 23,
+    "includeWelcome": true,
+    "includeWrapUp": true,
+    "nonLinear": true,
+    "pricePoint": "$99"
+  },
+
+  "designNotes": {
+    "theme": {
+      "primary": "#1e3a5f",
+      "accent": "#f5a623",
+      "secondary": "#ffffff",
+      "typography": "Clean sans-serif, high readability, adequate spacing",
+      "mood": "Professional, trustworthy, practical — knowledgeable friend, not professor"
+    },
+    "template": "professional-modern",
+    "branding": "UCF BIP branding. Navy primary, gold accent, white backgrounds. Driving/road/GPS metaphor for navigation. Modern technical HUD dashboard aesthetic with Central Florida imagery.",
+    "visualStyle": "Stylized but not cartoonish, not photorealistic. Somewhere between — think digital painting or Syd Mead-inspired futurism. Confirmed by Brian (Mar 18).",
+    "accessibility": "WCAG 2.1 AA compliance required",
+    "sensitivityNotes": [
+      "Practical, not academic — 'I wish someone had told me this' framing throughout",
+      "Respect diverse cultural backgrounds — Latin America, Europe, Asia represented",
+      "Legal/tax/immigration content always includes 'consult a professional' disclaimer",
+      "No cultural stereotypes — use specific, actionable examples",
+      "Frame UCF BIP programs naturally, not as sales pitch",
+      "Flesch-Kincaid grade 8-10 for non-native English speakers",
+      "Avoid anything controversial, brand-specific (no Disney, Universal by name), or region-negative",
+      "Landscapes are inspirational, not literal — 'inspired by Cape Canaveral' not 'this is Cape Canaveral'"
+    ],
+    "centralFloridaLandscapeThemes": {
+      "description": "Each module is associated with a Central Florida landscape that serves as visual backdrop, analogy source, and fun-fact anchor. Landscapes are inspirational/generic — not literal depictions of specific locations.",
+      "confirmed": "Mar 18 meeting with Brian",
+      "modules": {
+        "module-0": { "landscape": "Highway / Dashboard Entry", "notes": "GPS/car dashboard POV — the starting point of the journey" },
+        "module-1": { "landscape": "City Landscape", "notes": "Government, business formation, downtown Orlando economic engine" },
+        "module-2": { "landscape": "Financial District / Office Park", "notes": "Banking, financial services, corporate infrastructure" },
+        "module-3": { "landscape": "Rocket Base", "notes": "Science, Cape Canaveral, innovation, protecting what you build" },
+        "module-4": { "landscape": "Theme Park", "notes": "Teamwork, talent, the massive employment/operations engine" },
+        "module-5": { "landscape": "Port / Shopping Center", "notes": "Commerce, reaching customers, retail and logistics hub" },
+        "module-6": { "landscape": "Beach / Shopping Center", "notes": "How business works — casual surface, serious underneath" },
+        "module-7": { "landscape": "River Springs", "notes": "Ecosystem — 'you are not alone', full natural ecosystem analogy, alligators and all" },
+        "module-8": { "landscape": "UCF Headquarters", "notes": "Wrap-up, reflection, next steps — return to base" }
+      },
+      "additionalCandidates": ["Agricultural landscape (farming/citrus)", "Highway/logistics infrastructure"],
+      "funFacts": {
+        "description": "Each module includes 1-2 discoverable fun facts about Central Florida tied to the landscape theme. Gamification element — finding all facts requires consuming all content.",
+        "visibility": "Obvious, not hidden. Brian wants them visible but optionally expandable. 'When you see the UCF logo, click for fun facts' as fallback. Ideally woven into the content.",
+        "examples": [
+          "Theme parks generate $75+ billion annually in Florida's economy",
+          "Cape Canaveral area has one of the highest concentrations of aerospace engineers in the world",
+          "Central Florida has the largest concentration of outlet shopping in the state",
+          "Port Canaveral is one of the busiest cruise ports in the world"
+        ]
+      }
+    }
+  },
+
+  "calloutTypes": [
+    { "id": "theme-reduce-risk", "label": "Reduce Risk", "icon": "shield", "color": "#2563eb" },
+    { "id": "theme-watch-money", "label": "Watch Your Money", "icon": "dollar-eye", "color": "#16a34a" },
+    { "id": "theme-avoid-mistakes", "label": "Avoid Common Mistakes", "icon": "warning", "color": "#d97706" },
+    { "id": "theme-understand-culture", "label": "Understand the Culture", "icon": "globe-handshake", "color": "#7c3aed" },
+    { "id": "common-mistake", "label": "Common Mistake", "icon": "x-circle", "color": "#dc2626" },
+    { "id": "common-mistakes-repeating", "label": "Common Mistakes International Founders Make", "icon": "x-circle", "color": "#dc2626", "repeating": true, "perModule": true, "notes": "Repeating callout — every module gets one. Brian provided examples: Mod1 (wrong entity, personal bank accounts, ignoring registered agent), Mod2 (ignoring sales tax, waiting too long for accountant). Generate analogous mistakes for each module." },
+    { "id": "watch-money-costs", "label": "Watch Your Money: What This Actually Costs", "icon": "dollar-eye", "color": "#16a34a", "repeating": true, "perModule": true, "notes": "Repeating callout — every module gets one. Realistic cost ranges for that module's topic. Replaces inline cost numbers. No cost numbers in Module 0 welcome." },
+    { "id": "reality-check", "label": "Reality Check", "icon": "eye", "color": "#6b7280" },
+    { "id": "before-you-spend", "label": "Before You Spend Money", "icon": "checklist", "color": "#059669" },
+    { "id": "latam-supplement", "label": "Latin America Resources", "icon": "globe-americas", "color": "#8b5cf6" }
+  ],
+
+  "existingAssets": {
+    "fromSource": [
+      "Brian's 10 curated public source URLs (SBA, SunBiz, SelectFlorida, SBDC, etc.)",
+      "Pre-production brief with personas, module outline, and Brian's inline comments",
+      "March 5 meeting prep with confirmed module reorder and feature scope decisions",
+      "March 12 meeting transcript with content/design direction confirmations",
+      "User feedback from 4 international founders (preview prototype responses)"
+    ],
+    "toGenerate": [
+      "25 lesson content JSON files (Welcome + 7 modules + Wrap-Up; Module 5 has 2, Module 7 has 4, Module 8 has 3)",
+      "Per-module Key Takeaways video scripts (7 modules)",
+      "Module narration audio scripts",
+      "Welcome avatar video script",
+      "Image prompts for 30-40 professional scene images",
+      "Interactive component specifications",
+      "Self-check checklists per module",
+      "End-of-course self-assessment and value feedback"
+    ]
+  },
+
+  "contentGenerationGuardRails": {
+    "description": "Rules applied during all content generation and regeneration. Established from Brian's Mar 18 feedback session.",
+    "toneGuidelines": {
+      "eslFriendly": "Write for non-native English speakers regardless of language version. Simple sentence structures, clear vocabulary, avoid idioms without explanation. Flesch-Kincaid grade 8-10.",
+      "conversationalInformal": "Less academic, more practical. Like a knowledgeable friend, not a professor. Contractions welcome. Short paragraphs. Direct address ('you'). Avoid formal academic constructions.",
+      "notGimmicky": "Themed content should be classy and appropriate. Reference Central Florida landscapes without going too far into roleplay or forced humor."
+    },
+    "absoluteStatementPolicy": {
+      "rule": "NEVER use absolute statements about costs, timelines, or outcomes. Always qualify with 'typically', 'often', 'may vary', 'based on typical experiences', etc.",
+      "examples": {
+        "wrong": "It takes 2-3 days to register an LLC",
+        "right": "LLC registration is often completed within a few business days, though timelines may vary"
+      },
+      "rationale": "Legal liability concern. Brian flagged this repeatedly — nothing should read as a promise or guarantee.",
+      "autoCheck": "When regenerating content, scan for absolute language: 'will take', 'costs exactly', 'always', 'never', 'guaranteed', 'you should', 'you must' (unless citing a legal requirement)."
+    },
+    "liabilityCheck": {
+      "rule": "Scan all generated content for statements that could be interpreted as legal, tax, immigration, or financial advice. Add appropriate disclaimers.",
+      "directiveLanguage": "Avoid 'you should do X' or 'this is how long it will take'. Use 'many founders find', 'a common approach is', 'consider consulting a professional about'."
+    },
+    "sCorporationNote": {
+      "rule": "S-Corp is generally NOT available to non-citizen international founders (non-resident alien shareholders prohibited). Content should focus on LLC and C-Corp as primary options, with S-Corp mentioned only as 'probably not a fit for most international founders' with brief explanation of why.",
+      "flaggedBy": "Brian (Mar 18) — spent time researching this and confirmed S-Corp irrelevance for target audience"
+    },
+    "consistencyAudit": {
+      "rule": "After editing any module, check for consistency in: tone, volume/duration relative to original, terminology, and disclaimer presence.",
+      "brian_note": "Brian asked: 'Is there a way to audit for consistency after I edit?' — build this into regeneration process."
+    },
+    "calloutBalance": {
+      "rule": "No lesson should have more than 3 callout blocks. If a lesson needs both 'Before You Spend Money' and 'Watch Your Money', merge them — they serve overlapping purposes. The teaching-to-callout ratio must stay healthy: callouts supplement content, they do not replace it.",
+      "maxCalloutsPerLesson": 3,
+      "mergeOverlapping": true,
+      "exceptions": ["lesson-0-1 may exceed 3 due to mandatory legal and immigration disclaimers required by Brian"]
+    },
+    "brandMentionPolicy": {
+      "rule": "Third-party brand names (Mercury, Relay Financial, Stripe, etc.) should appear at most ONCE per lesson in the main text. A second mention in a callout is acceptable only if it serves a distinct purpose. Three or more mentions of the same brand in a single lesson reads as endorsement and must be reduced.",
+      "maxMentionsPerLesson": 2,
+      "rationale": "Brian flagged: avoid being promotional. Mentioning alternatives is helpful; repeating them is endorsement."
+    },
+    "contentDepthProportionality": {
+      "rule": "Allocate content depth proportionally to topic difficulty for the target audience. Topics that founders report as hardest or most frustrating (banking, taxes, cultural missteps) should receive MORE content depth, not less. Do not give an easy topic (filing on SunBiz) more word count than a hard topic (opening a bank account).",
+      "implementation": "Before generating a module, rank the lessons by expected difficulty for an international founder. The hardest lesson should have the most teaching content (text blocks), not just the most callouts."
+    },
+    "founderAnecdotes": {
+      "rule": "Every module must include at least 2 brief founder anecdotes — specific, plausible stories that illustrate a key point. These create the 'knowledgeable friend' voice that generic advice cannot. Anecdotes should include: country of origin, the specific situation, and the outcome or lesson learned.",
+      "format": "One founder from [country] [situation]. [Outcome or quote].",
+      "distribution": "Spread across lessons within the module, not all in one lesson."
+    }
+  },
+
+  "clientFeedback": {
+    "reviewedBy": "Brian Bedrick",
+    "reviewDate": "2026-03-16",
+    "responseDoc": "Feedback/UCF-BIP-Outline-With-Responses-v3.docx",
+    "decisions": {
+      "programPurpose": "Rewritten by Brian to outcome-driven framing. Accepted.",
+      "objectivesToOutcomes": "Changed 'Learning Objectives' to 'Learning Outcomes' throughout. Outcome language is action/result-focused, not content-descriptive.",
+      "repeatingCallouts": ["common-mistakes-repeating", "watch-money-costs"],
+      "costNumberPolicy": "No specific dollar amounts in Module 0 welcome. All costs appear in per-module 'Watch Your Money: What This Actually Costs' callouts.",
+      "newConceptLesson01": "Add 'U.S. Expansion Is a Strategy, Not a Registration' as opening concept in lesson-0-1",
+      "module1Additions": ["Why Florida is the easiest U.S. entry point for international founders", "Physical Presence & Address Requirements (mail, SunBiz address, registered agent)"],
+      "module4Streamline": "Reduce Module 4 to higher-level coverage, less duration. Trim detailed visa processing steps and payroll mechanics.",
+      "lesson41Additions": ["UCF talent pipeline from University of Central Florida", "Local hiring cost ranges"],
+      "lesson52Additions": ["Vendor onboarding", "W-9 forms", "Insurance certificates", "Procurement processes"],
+      "lesson53Move": "Move lesson-5-3 (Central Florida — Your Market Opportunity) from Module 5 to Module 7 (ecosystem). Module 5 becomes 2 lessons.",
+      "module6CostCallout": "Add Watch Your Money callout showing dollar costs of cultural missteps",
+      "ucfBipProgramNaming": "Changed from 'Traction/Growth/Soft Landing' to 'phases 2 and 3 of the UCF BIP market entry/soft landing program'",
+      "lesson73CaseStudies": "Add examples/case studies of companies that benefited from UCF BIP. Waiting on Brian to provide 2-3 company names.",
+      "module8Expansion": {
+        "lesson81": "Self-Assessment (unchanged)",
+        "lesson82": "Resource Downloads (checklist, roadmap, resource guide, worksheet) + Digital Credential",
+        "lesson83": "Next Steps — schedule 1:1 with Brian, Phase 2 overview"
+      },
+      "digitalBadging": "POK Tech partnership (same provider as ASU). LinkedIn-displayable digital credentials at no extra charge. Badge design TBD during production phase.",
+      "fundingContent": "RESOLVED (v3): Brief investor awareness in lesson-2-3 (banking section). Covers: why investors expect traction, why founders bootstrap initially, SBA loan limitations for non-citizens. Full funding lesson deferred to Phase 2.",
+      "roadtripTheme": "Brainstorm only — not committed. Saved for potential Phase 2 experience design.",
+      "welcomeTimeCommitment": "Add to lesson-0-1: 'This program requires less than 3 hours of your time and will give you a practical introduction to the legal, financial, and cultural realities of operating a business in the United States.'",
+      "legalDisclaimer": "Add to lesson-0-1 AND re-emphasize in Module 8: 'This program provides general educational information to help international founders understand the U.S. business environment. It does not constitute legal, tax, immigration, or financial advice. Participants should consult qualified professionals before making business decisions.'",
+      "immigrationDisclaimer": "Add to lesson-0-1: program briefly touches on immigration/visa topics but consult qualified immigration experts before making any decisions.",
+      "visaDisclaimer": "Add to lesson-4-2: 'Completing this program does not influence or guarantee visa approval.'",
+      "module7ExpandedIntro": "Central Florida ecosystem offers strong infrastructure, lower cost than many comparable markets, and international connectivity.",
+      "salesTaxVsVAT": "Add 'How sales tax is similar and different to VAT' comparison in lesson-2-2",
+      "bankRequirementsVary": "Add 'Requirements vary by bank and may change' note in lesson-2-3",
+      "module1CommonMistakes": "Brian's examples: wrong entity, personal bank accounts, ignoring registered agent",
+      "module2CommonMistakes": "Brian's examples: ignoring sales tax, waiting too long to hire accountant"
+    },
+    "pendingFromBrian": [
+      "Provide 2-3 UCF BIP case study company names for lesson-7-4",
+      "Review Module 1 regenerated content (sent evening Mar 18)",
+      "Visual style selection — 3 options sent while Brian is away (returns Mar 29)"
+    ],
+    "mar18MeetingDecisions": {
+      "date": "2026-03-18",
+      "toneDirection": "Conversational + ESL-friendly. Brian delegates tone to DXF team. Focus Module 1 edits on content accuracy only.",
+      "checkForUnderstanding": "New 3-part template: Reflection → Scenario-based MC → Key Takeaway. Template in Module 0, apply to all modules.",
+      "landscapeThemes": "Confirmed per-module Central Florida landscapes. Brian trusts DXF team on final assignments. See designNotes.centralFloridaLandscapeThemes.",
+      "easterEggs": "Fun facts about Central Florida woven into content. Obvious, not hidden. Gamification element. Brian: 'I like all of that' but 'keep audience in mind'.",
+      "visualStyle": "Not photorealistic, not cartoonish. Stylized, somewhere between. Send 3 options for Brian to pick while away.",
+      "sCorporation": "Brian confirmed S-Corp not available to non-citizens. Reframe Module 1 to focus on LLC and C-Corp.",
+      "sowConfirmed": "3-month pilot SOW accepted.",
+      "timeline": "Brian away until Mar 29. Goal: Module 1 HTML ready by Mar 30. DXF builds remaining modules while Brian is away.",
+      "moduleZeroEdits": "Brian rewrote Module 0 with conversational tone, softened absolutes, expanded disclaimers, new check-for-understanding format. Use as template."
+    }
+  },
+
+  "metadata": {
+    "phase": "0-strategy",
+    "status": "draft",
+    "notes": [
+      "Content strategy is generate-from-scratch — curate from public sources, not verbatim copying",
+      "Non-linear modules — learners can do modules in any order",
+      "Brian reviews flat text content by Friday March 14, returns edits by Monday March 17",
+      "Design finalization meeting Wednesday March 19",
+      "May 2 Select USA conference deadline for production-ready course",
+      "April 17 Hungarian Hub milestone (enrollment ready)",
+      "Spanish full translation is Phase 1.5 — English first, Spanish after Brian's approval",
+      "All exit pathways simplified — every learner gets resources, Phase 2 teasers, and 1:1 booking option"
+    ]
+  }
+}

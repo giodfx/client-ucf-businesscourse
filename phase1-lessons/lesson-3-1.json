@@ -1,0 +1,151 @@
+{
+  "lessonId": "lesson-3-1",
+  "moduleId": "module-3",
+  "title": "Intellectual Property — Protecting Your Ideas in the U.S.",
+  "duration": 7,
+  "objectives": [
+    "Distinguish between copyright, trademark, and patent protections in the U.S.",
+    "Identify which IP protections apply to their business assets",
+    "Estimate filing costs and timelines for trademark and patent applications"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-3-1-1",
+      "title": "Three Types of IP Protection — And Which Ones You Actually Need",
+      "content": "<p>Now that you have covered entity formation, taxes, and banking, we turn to protecting what you are building. A software founder from Chile expanded to the U.S. and discovered another company had already registered her brand name as a U.S. trademark. She had two choices: rebrand or spend $15,000–$25,000 fighting the registration. She rebranded. Two years of brand equity, gone.</p>\n\n<p>What does that mean for you? This happens because IP protection is <strong>territorial</strong>. The trademark you registered in your home country does nothing in the United States. The same applies to patents. Copyright has more international protection through treaties, but enforcement still requires U.S. registration.</p>\n\n<p>Three main types of IP protection in the U.S.:</p>\n\n<p><strong>Copyright</strong> protects creative works : software code, written content, designs, music, videos. It exists automatically when you create something, but registering with the U.S. Copyright Office ($45–$65 per work) gives you the ability to sue for damages. Without registration, enforcement is extremely limited.</p>\n\n<p><strong>Trademark</strong> protects your brand identity : business name, logo, slogan, product name. This is the one most founders need first. You register with the USPTO, which prevents anyone else from using a confusingly similar name in your industry.</p>\n\n<p><strong>Patent</strong> protects inventions : new processes, machines, compositions, or designs. Patents are expensive ($5,000–$15,000+ with attorney fees) and slow (2–3 years). Most small businesses don't need one unless they've invented something truly novel. But if you have, file early; the U.S. uses a \"first to file\" system.</p>",
+      "wordCount": 244
+    },
+    {
+      "type": "table",
+      "id": "table-3-1-1",
+      "title": "Copyright vs. Trademark vs. Patent — At a Glance",
+      "table": {
+        "headers": [
+          "Protection Type",
+          "What It Covers",
+          "How to Get It",
+          "Cost (as of early 2026)",
+          "Timeline",
+          "Need a Lawyer?"
+        ],
+        "rows": [
+          [
+            "Copyright",
+            "Creative works: code, content, designs, media",
+            "Automatic on creation; register for enforcement",
+            "$45–$65 per work",
+            "3–6 months for registration",
+            "Usually not needed for basic filing"
+          ],
+          [
+            "Trademark",
+            "Brand identity: name, logo, slogan",
+            "File application with USPTO",
+            "$250–$350 per class (filing fee only)",
+            "8–12 months for approval",
+            "Recommended — mistakes delay the process"
+          ],
+          [
+            "Patent (Utility)",
+            "Inventions: processes, machines, methods",
+            "File application with USPTO",
+            "$5,000–$15,000+ (with attorney)",
+            "2–3 years for approval",
+            "Yes — patent applications are complex"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-3-1-1"
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-1",
+      "variant": "common-mistake",
+      "title": "Assuming Your Home Country IP Protects You in the U.S.",
+      "content": "<p>IP protection is territorial. Your trademark registered in Brazil, Germany, Colombia, or anywhere else provides zero protection in the United States. You must file separately with U.S. agencies. If you wait, someone else can register your brand name in the U.S. first — and they'll have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-3-1-2",
+      "title": "Trademark Registration — What Actually Happens",
+      "content": "<p>The trademark process through the USPTO is straightforward but takes patience.</p>\n\n<p><strong>Step 1: Search the USPTO database</strong> at trademark.uspto.gov. If a conflict exists, your application is rejected and your filing fee is not refunded.</p>\n\n<p><strong>Step 2: File your application</strong> online through TEAS. Choose the right class of goods or services (45 classes). Filing fee: $250 (TEAS Plus) or $350 (TEAS Standard) per class.</p>\n\n<p><strong>Step 3: Wait for examination.</strong> A USPTO examining attorney reviews your application in 3–4 months. They may issue an \"office action\" requesting changes; respond within the deadline or your application is abandoned.</p>\n\n<p><strong>Step 4: Publication period.</strong> Your trademark is published in the Official Gazette for 30 days. If no one opposes, you receive your registration certificate.</p>\n\n<p>Total timeline: 8–12 months. A Polish cybersecurity founder hired a U.S. trademark attorney before opening her Orlando office. The $800 she spent was a fraction of the $15,000–$25,000 she would have paid to fight a conflict later.</p>",
+      "wordCount": 157
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-2",
+      "variant": "theme-reduce-risk",
+      "title": "Reduce Risk — Register Your Trademark Before You Launch",
+      "content": "<p>If someone else files your brand name in the U.S. first, you may lose it — even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is nothing compared to the cost of rebranding.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Common Mistakes International Founders Make",
+      "content": "<ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> Trademarks, patents, and enforceable copyright all require separate U.S. filings. International registrations do not automatically extend to the United States.</li><li><strong>Operating without general liability insurance.</strong> This isn't an IP issue, but it's a Module 3 pattern: founders focus on the legal setup and forget to protect against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using contract templates from the internet without legal review.</strong> Free NDA templates and service agreements downloaded from legal websites are a starting point, not a finished product. They may not comply with Florida law, may be missing critical clauses, or may not protect your specific situation. A 30-minute attorney review costs $150–$300 and can prevent expensive disputes later.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-wm",
+      "variant": "watch-money-costs",
+      "title": "Watch Your Money: What This Actually Costs",
+      "content": "<p>IP, insurance, and legal costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>Trademark filing (USPTO):</strong> $250–$350 per class, plus $300–$500 if using an attorney</li><li><strong>Patent application:</strong> $5,000–$15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45–$65 per work</li><li><strong>NDA or contract drafting:</strong> $200–$500 per document</li><li><strong>General liability insurance:</strong> $400–$800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500–$2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0–$300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200–$500 per document</li></ul>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-3-1-1",
+      "title": "IP Protection: Territorial Rights",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder has been using a brand name in Colombia for three years and now wants to sell products under that name in the U.S. What should she do first?",
+          "options": [
+            "Start selling immediately. Her Colombian trademark automatically applies in the U.S.",
+            "Search the USPTO database and file a U.S. trademark application before launching",
+            "Wait until she has U.S. revenue, then file for a trademark",
+            "Use the TM symbol and skip formal registration since she has prior use"
+          ],
+          "correctAnswer": 1,
+          "explanation": "IP protection is territorial. A Colombian trademark has no legal effect in the U.S. The founder should search the USPTO database for conflicts and file a U.S. trademark application before investing in U.S. marketing. Waiting increases the risk that someone else files the same name first."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-3-1-2",
+      "title": "IP Protection: Priority Filing",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Which type of IP protection is most commonly needed first by international founders entering the U.S. market?",
+          "options": [
+            "Patent: to protect their business method",
+            "Copyright: to protect their website content",
+            "Trademark: to protect their brand name and logo",
+            "Trade secret: to protect proprietary processes"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Most international founders need trademark protection first because it protects the brand name and logo they'll use in the U.S. market. Copyright exists automatically (though registration helps enforcement), and patents are only needed for genuine inventions. Trademark is the highest-priority IP filing for most new market entrants."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-3-1-1",
+      "title": "Reflection: Your IP Inventory",
+      "placement": "after-section",
+      "sectionId": "text-3-1-2",
+      "prompt": "List every intellectual property asset your company has: brand name, logo, product names, proprietary software, content, inventions, or processes. For each one, identify which U.S. protection type applies (copyright, trademark, or patent) and whether you've already filed or need to."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-3-1-1",
+      "title": "Key Takeaway",
+      "content": "<p>Trademark your brand name before you invest in U.S. marketing. IP protection is territorial; what you registered in your home country does not follow you here. Start with a USPTO trademark search, file early, and budget $250–$850 for the trademark process. For patents, hire an attorney. For copyright, register before you need to enforce it.</p>"
+    }
+  ]
+}

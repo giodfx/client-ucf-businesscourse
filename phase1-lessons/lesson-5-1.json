@@ -1,0 +1,141 @@
+{
+  "lessonId": "lesson-5-1",
+  "moduleId": "module-5",
+  "title": "Adapting Your Product for the U.S.",
+  "duration": 7,
+  "objectives": [
+    "Explain why successful products in other markets often fail when transferred directly to the U.S.",
+    "Identify the key areas where U.S. market adaptation is typically needed (pricing, packaging, messaging, compliance)",
+    "Describe the concept of product-market fit in the U.S. context"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-5-1-1",
+      "title": "What Works at Home Does Not Automatically Work Here",
+      "content": "<p>Having a great product is not enough to succeed in the U.S. — the market demands adaptation. With your foundation from earlier modules, this lesson shifts to the product itself. A Chilean ed-tech company had 200,000 Latin American users but signed only four U.S. customers in six months after launching with a straight English translation.</p>\n\n<p>So what happens next? They succeeded after rebuilding pricing, adding SCORM compatibility, hiring U.S.-based support, and repositioning around time savings. The product barely changed — everything around it did.</p>",
+      "wordCount": 86
+    },
+    {
+      "type": "text",
+      "id": "text-5-1-2",
+      "title": "Five Areas Where Adaptation Is Usually Needed",
+      "content": "<h4>1. Pricing</h4>\n\n<p>U.S. customers perceive a low price as a signal of low quality. A UAE-based property management company dominant at $15/unit/month in Dubai had to reprice to $35/unit/month for U.S. managers who assumed anything under $30 was missing compliance features.</p>\n\n<h4>2. Packaging and Positioning</h4>\n\n<p>\"We help companies save time\" is too vague. \"We reduce compliance training setup from 40 hours to 4\" is compelling.</p>\n\n<h4>3. Compliance and Regulatory</h4>\n\n<p>FDA for food and medical devices, CCPA for personal data, SEC for financial products. Non-compliance means fines, lawsuits, or inability to sell.</p>\n\n<h4>4. Customer Support</h4>\n\n<p>If your team does not cover U.S. business hours (9 AM–6 PM Eastern through Pacific), you need a U.S.-based hire, a distributed team, or robust self-service tools.</p>\n\n<h4>5. Payment and Purchasing</h4>\n\n<p>B2B companies pay by ACH or check, not wire transfer. Credit cards are standard for B2C. Larger companies require vendor registration.</p>",
+      "wordCount": 146
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-1",
+      "variant": "common-mistake",
+      "title": "Launching With Your Home Market Price",
+      "content": "<p>A Colombian software company priced their project management tool at $5/user/month. U.S. prospects assumed it was a basic tool that could not compete with $15-$30/user options. After repositioning at $19/user/month with added features, conversion rates improved a lot. Research your U.S. competitive set and price accordingly.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-5-1-3",
+      "title": "Product-Market Fit Is Not Universal",
+      "content": "<p>Product-market fit at home does not mean you have it here. Talk to U.S. customers before you adapt anything and run pilots with 5–10 early customers before a full launch.</p>\n\n<p>Let's put this in perspective. A Turkish e-commerce analytics founder had to rebuild his onboarding from a two-week guided process to a 30-minute self-serve flow because U.S. retailers expected self-service and results within 48 hours. The UCF BIP program can connect you with early customers and advisors in Central Florida.</p>",
+      "wordCount": 80
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-2",
+      "variant": "theme-understand-culture",
+      "title": "U.S. Buyers Value Different Things",
+      "content": "<p>In many markets, personal relationships drive purchasing decisions. In the U.S., buyers prioritize <strong>speed, convenience, transparency, and social proof</strong>. They expect reviews, free trials, and money-back guarantees. They compare three alternatives before deciding and read your pricing page before your about page. These are baseline expectations, not optional extras.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Common Mistakes International Founders Make — U.S. Customers",
+      "content": "<ul><li><strong>Launching with home-market pricing.</strong> U.S. pricing expectations are shaped by local competitors, not your cost structure at home. Too low and you look unreliable. Too high without clear differentiation and you lose to established players. Research your competitive set before setting a price.</li><li><strong>Not following up fast enough on U.S. inquiries.</strong> American buyers expect same-day responses. In many markets, a two-or-three-day reply is normal. In the U.S., waiting more than a few hours means they have already contacted your competitor.</li><li><strong>Skipping vendor onboarding requirements.</strong> When selling to U.S. companies, you will often need to complete vendor registration including tax forms (W-9), proof of insurance, and compliance documentation. Not knowing this exists delays deals by weeks or kills them entirely.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-wm",
+      "variant": "watch-money-costs",
+      "title": "Watch Your Money: What Market Entry Actually Costs",
+      "content": "<p>As of early 2026, budget for these market entry costs:</p>\n\n<ul><li><strong>U.S. market research:</strong> $2,000–$10,000 outsourced; free through networking and cold outreach</li><li><strong>Product localization (beyond translation):</strong> $5,000–$25,000 : regulatory compliance, payment integration, UI/UX changes</li><li><strong>Digital marketing (SEO, paid ads):</strong> $2,000–$5,000/month</li><li><strong>U.S. website and sales materials:</strong> $3,000–$15,000</li><li><strong>Trade shows (B2B):</strong> $3,000–$10,000 per event</li></ul>\n\n<p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p>"
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-5-1-1",
+      "title": "Your U.S. Market Adaptation Checklist",
+      "placement": "after-section",
+      "sectionId": "text-5-1-2",
+      "instructions": "<p>For each of the five adaptation areas from this lesson, write one specific action you need to take before entering the U.S. market. Be concrete — \"figure out pricing\" doesn't count.</p><ul><li><strong>Pricing:</strong> What will you charge U.S. customers, and how does that compare to your competitors? ___</li><li><strong>Positioning:</strong> What's your one-sentence value proposition for U.S. buyers? ___</li><li><strong>Compliance:</strong> What U.S. regulations apply to your product or service? ___</li><li><strong>Support:</strong> How will you handle U.S. timezone support (9 AM–6 PM ET through PT)? ___</li><li><strong>Payment:</strong> Which U.S. payment methods will you accept (ACH, credit card, other)? ___</li></ul><p>If you can't answer one of these yet, that's the area where you need to do more research first.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-5-1-1",
+      "title": "Check Your Understanding",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A fintech company from Germany launches in the U.S. with their European pricing ($8/month per user) and their German-language customer support team covering European business hours. After three months, they have very few U.S. customers. What is the most likely combination of problems?",
+          "options": [
+            "The product itself is not good enough for the U.S. market",
+            "U.S. customers see the low price as a quality signal and cannot reach support during their business hours",
+            "They need to advertise more aggressively in the U.S.",
+            "The German company name is the main barrier to U.S. adoption"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Two of the five common adaptation areas are likely failing here. The pricing ($8/month) may be perceived as too low in a market where competitors charge $20–$40, signaling a basic or unreliable product. And the lack of U.S.-hours support means American customers cannot get help when they need it. Fixing these two issues — adjusting pricing to U.S. competitive norms and providing U.S.-timezone support — would likely have more impact than increased advertising."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-5-1-2",
+      "title": "Product Adaptation Assessment",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A successful food delivery app from Mexico wants to expand into the U.S. market. Their app works well in Spanish, and they plan to translate it to English and launch at the same price point ($3.99/month) they charge in Mexico. They have no U.S.-based customer support. Which adaptation area should they address FIRST to avoid the most immediate barrier to U.S. sales?",
+          "options": [
+            "Translating the app interface into English since language is always the biggest barrier",
+            "Compliance and regulatory requirements, because U.S. food delivery involves state-specific health and safety regulations they may not meet",
+            "Adding more features to compete with U.S. apps like DoorDash and Uber Eats",
+            "Creating a social media presence on TikTok to attract younger U.S. customers"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Compliance is the most immediate barrier because non-compliance can mean fines, lawsuits, or the inability to operate at all. While pricing, support, and positioning all need adaptation, regulatory requirements are non-negotiable and must be addressed before any other market entry investment."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-5-1-3",
+      "title": "Quick Check",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder from South Korea built a cybersecurity monitoring tool that dominates the Korean market at ₩15,000/month (about $11 USD). For the U.S. launch, she hires a professional translation firm, converts the price to $11/month, and sets up a landing page. After two months, free trial signups are decent but almost nobody converts to paid. U.S. prospects keep asking, \"What's the catch?\" What should she change first?",
+          "options": [
+            "Add more features to justify the price, since the U.S. market expects a bigger product",
+            "Reposition the pricing to match U.S. competitor tiers ($25–$45/month) and reframe the value proposition around specific outcomes like reduced breach response time",
+            "Keep the $11 price but add a premium enterprise tier at $50/month for larger companies",
+            "Remove the free trial since it makes the product seem less serious to American buyers"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The core issue is that U.S. buyers associate low pricing with low quality — $11/month in a market where competitors charge $25–$45 signals that something is missing. Translation alone is not adaptation. She needs to reprice for U.S. competitive norms and reposition around a specific, measurable value proposition (like \"reduces breach response time from 4 hours to 20 minutes\") rather than generic claims. The product may not need to change at all — the pricing and positioning around it do."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-5-1-1",
+      "title": "Your Product Adaptation Plan",
+      "placement": "after-section",
+      "sectionId": "text-5-1-3",
+      "prompt": "Think about your product or service. For each of the five adaptation areas (pricing, packaging/positioning, compliance, customer support, payment/purchasing), write one sentence describing what might need to change for the U.S. market. Which area concerns you most? Which do you know the least about? These gaps are where to focus your research during the early stages of your U.S. entry."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-5-1-1",
+      "title": "Key Takeaway",
+      "content": "<p>Plan to adapt your product, pricing, and messaging for the U.S. market. Product-market fit does not transfer automatically across borders. Talk to U.S. customers before you launch, not after. Focus your adaptation on pricing, positioning, compliance, support, and payment methods. The founders who succeed in the U.S. are the ones who treat market entry as a discovery process and adjust based on real customer feedback.</p>"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules/
+*.docx
+*.pdf
+ingested/
+sourceinfo/
+poc/
+designideas/
+preview/
+Feedback/
+export/
+exports/
+validation-reports/
+__pycache__/
+.process-tracker.json
+.gates/
+_fix-*.mjs

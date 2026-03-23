@@ -1,0 +1,255 @@
+{
+  "lessonId": "lesson-7-3",
+  "moduleId": "module-7",
+  "title": "Why Central Florida — The Data Behind the Choice",
+  "duration": 7,
+  "objectives": [
+    "Interpret key economic indicators (GDP, population growth, business formation rates) that make Central Florida competitive for startups",
+    "Compare Central Florida's cost structure to Miami, NYC, Silicon Valley, and Austin using specific data points",
+    "Analyze LATAM trade corridor data (flight routes, port volume, bilingual workforce percentage) to evaluate market-bridging potential"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-7-3-1",
+      "title": "Central Florida by the Numbers",
+      "content": "<p>Numbers tell a story most pitch decks miss. A $500,000 seed fund buys you 10 months in Silicon Valley, but 17 months in Central Florida. That difference can mean the gap between finding product-market fit and running out of cash.</p>\n\n<p>As we explored in the previous lesson, Central Florida has a collaborative culture. This lesson is the spreadsheet: the numbers to cite when building a case for your board, co-founder, or family. All data as of early 2026 unless noted.</p>\n\n<h4>Population and Growth</h4>\n\n<p>Let's break this down. Orlando-Kissimmee-Sanford metro: ~2.8 million residents. Top five fastest-growing U.S. metro over the past five years : driving consumer demand, workforce availability, and commercial real estate development.</p>\n\n<h4>Regional GDP</h4>\n\n<p>Metro Orlando GDP exceeds $150 billion annually, diversified across tourism ($75B), technology, aerospace, health care, education, and construction.</p>\n\n<h4>Business Formation</h4>\n\n<p>Florida processes 300,000+ new business filings annually via SunBiz — top three nationally. Florida LLC filing: $125. Compare: California $70 + $800 annual franchise tax, New York $200 + biennial requirements. Florida's zero state income tax applies to all pass-through business income.</p>",
+      "wordCount": 182
+    },
+    {
+      "type": "table",
+      "id": "table-7-3-1",
+      "title": "Cost Comparison — Central Florida vs. Other U.S. Entry Points",
+      "table": {
+        "headers": [
+          "Factor",
+          "Central Florida (Orlando)",
+          "Miami",
+          "New York City",
+          "Silicon Valley (San Jose)",
+          "Austin"
+        ],
+        "rows": [
+          [
+            "Office Space (per sq ft/yr)",
+            "$25–$35",
+            "$40–$55",
+            "$60–$85",
+            "$55–$75",
+            "$40–$55"
+          ],
+          [
+            "Coworking Desk (monthly)",
+            "$200–$400",
+            "$350–$600",
+            "$500–$900",
+            "$400–$700",
+            "$300–$500"
+          ],
+          [
+            "Software Developer Salary (mid-career avg)",
+            "$85K–$100K",
+            "$95K–$115K",
+            "$120K–$145K",
+            "$130K–$160K",
+            "$110K–$130K"
+          ],
+          [
+            "1-Bedroom Apartment (monthly)",
+            "$1,400–$1,800",
+            "$2,000–$2,800",
+            "$2,800–$4,000",
+            "$2,500–$3,500",
+            "$1,600–$2,200"
+          ],
+          [
+            "State Income Tax",
+            "0%",
+            "0%",
+            "4%–10.9%",
+            "1%–13.3%",
+            "0%"
+          ],
+          [
+            "LLC Formation (state filing)",
+            "$125",
+            "$125",
+            "$200 + biennial $9",
+            "$70 + $800 annual",
+            "$300"
+          ],
+          [
+            "Cost of Living Index",
+            "98 (near national avg)",
+            "120",
+            "187",
+            "172",
+            "108"
+          ]
+        ]
+      },
+      "styling": {
+        "headerBackground": "#2d5f8a",
+        "headerTextColor": "#ffffff",
+        "alternatingRows": true,
+        "borderColor": "#2d5f8a"
+      },
+      "placement": "after-section",
+      "sectionId": "text-7-3-1"
+    },
+    {
+      "type": "text",
+      "id": "text-7-3-2",
+      "title": "Industry Cluster Data — Where the Jobs and Revenue Are",
+      "content": "<p>Central Florida's economy is more diversified than most founders expect. Key clusters:</p>\n\n<h4>Simulation and Training</h4>\n\n<p>200+ companies, ~$6B in annual contracts. NAWCTSD is headquartered here, making Orlando the global hub for modeling, simulation, and training. Commercial applications (VR, surgical simulation) are expanding the market.</p>\n\n<h4>Aerospace and Defense</h4>\n\n<p>Space Coast (45 min from Orlando): SpaceX, Blue Origin, L3Harris, Lockheed Martin, Northrop Grumman. 28 orbital launches in 2025 from Cape Canaveral/KSC.</p>\n\n<h4>Life Sciences and Health Tech</h4>\n\n<p>Lake Nona Medical City: Burnham Institute, Nemours, VA Medical Center, UCF College of Medicine. 90,000+ healthcare employees. ~15% YoY venture growth since 2022.</p>\n\n<h4>Technology and Fintech</h4>\n\n<p>Tech sector growing 34% faster than the national average. Major centers: Siemens Energy, Deloitte, KPMG. UCF produces 10,000+ STEM graduates annually.</p>\n\n<h4>Hospitality Technology</h4>\n\n<p>75M+ annual visitors, $75B+ tourism GDP. Disney, Universal, SeaWorld, 450+ hotel properties — B2B hospitality demand at a scale few other U.S. metros can match.</p>",
+      "wordCount": 148
+    },
+    {
+      "type": "table",
+      "id": "table-7-3-2",
+      "title": "Central Florida Industry Clusters — Key Data Points",
+      "table": {
+        "headers": [
+          "Industry Cluster",
+          "Employment / Scale",
+          "Key Metric",
+          "Growth Trend"
+        ],
+        "rows": [
+          [
+            "Simulation & Training",
+            "200+ companies",
+            "~$6B annual contracts",
+            "Steady federal + growing commercial"
+          ],
+          [
+            "Aerospace & Defense",
+            "SpaceX, Blue Origin, L3Harris, Lockheed",
+            "28 orbital launches (2025)",
+            "Accelerating (commercial space)"
+          ],
+          [
+            "Life Sciences & Health Tech",
+            "90,000+ healthcare employees",
+            "~15% YoY venture growth since 2022",
+            "Expanding (Lake Nona Medical City)"
+          ],
+          [
+            "Technology & Fintech",
+            "Siemens, Deloitte, KPMG centers",
+            "34% faster growth than U.S. avg",
+            "Strong (10K+ STEM grads/year)"
+          ],
+          [
+            "Hospitality Technology",
+            "75M+ annual visitors",
+            "$75B+ tourism GDP",
+            "Stable (infrastructure-driven demand)"
+          ],
+          [
+            "AgTech",
+            "Central FL agricultural corridor",
+            "UF/IFAS research partnerships",
+            "Emerging (precision ag, food processing)"
+          ]
+        ]
+      },
+      "styling": {
+        "headerBackground": "#2d5f8a",
+        "headerTextColor": "#ffffff",
+        "alternatingRows": true,
+        "borderColor": "#2d5f8a"
+      },
+      "placement": "after-section",
+      "sectionId": "text-7-3-2"
+    },
+    {
+      "type": "text",
+      "id": "text-7-3-3",
+      "title": "LATAM Trade Corridor — The Data",
+      "content": "<p>For founders bridging Latin American and U.S. markets, the trade corridor data is clear:</p>\n\n<h4>Air Connectivity</h4>\n\n<p>MCO: direct flights to 30+ Latin American cities (Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose). ~58 million passengers in 2025, top 10 busiest U.S. airports. Terminal C (2022) added 15 international gates.</p>\n\n<h4>Port and Trade Volume</h4>\n\n<p>Florida's seaports handle $150B+ in international trade annually. Port Tampa Bay and Port Canaveral (60-90 min from Orlando) connect Latin America, the Caribbean, and the U.S. interior. Florida is the #1 U.S. state for LATAM/Caribbean trade by value.</p>\n\n<h4>Bilingual Workforce</h4>\n\n<p>30%+ of metro Orlando speaks Spanish. Bilingual accountants, attorneys, marketers, and sales professionals operate across English and Spanish daily. Hiring bilingual staff here costs significantly less than in Miami.</p>\n\n<h4>Growth Projections</h4>\n\n<p>Florida's LATAM trade grows ~4-5% annually. State population projected to reach 25 million by 2030 (from ~23M in 2025), creating an expanding customer base and workforce.</p>",
+      "wordCount": 153
+    },
+    {
+      "type": "text",
+      "id": "text-7-3-4",
+      "title": "City-by-City Comparison — What the Numbers Say",
+      "content": "<p>The cost comparison table gives you the line items. Here is the operational impact:</p>\n\n<h4>Central Florida vs. Miami</h4>\n\n<p>Office 35-40% cheaper. Housing 25-35% cheaper. Developer salaries 10-15% lower. A founder with $200K in capital gets 4-6 extra months of runway in Orlando. Miami's premium buys access to real estate, finance, and crypto ecosystems. If you are not in those sectors, it does not buy relevant access.</p>\n\n<h4>Central Florida vs. New York City</h4>\n\n<p>COL index: 98 vs. 187. A three-person team saves $180K-$250K in operating costs over 18 months. Orlando to JFK is a 2.5-hour flight. Take NYC meetings without paying NYC rent.</p>\n\n<h4>Central Florida vs. Silicon Valley</h4>\n\n<p>Developer salaries: $85K-$100K vs. $130K-$160K. A startup burning $50K/month in San Jose might burn $30K in Orlando. That is 10 extra months of runway on a $500K raise.</p>\n\n<h4>Central Florida vs. Austin</h4>\n\n<p>Closest competitor on cost (COL 108 vs. 98). Austin's advantage: tech brand recognition. Central Florida's advantage: structured international support (SBDC, CFITO, UCF BIP, Hispanic Chamber) and the LATAM trade corridor.</p>",
+      "wordCount": 171
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-3-latam",
+      "variant": "latam-supplement",
+      "title": "Latin America Focus — Trade Data Resources",
+      "content": "<ul><li><strong>CFITO upcoming trade delegations</strong> . Check cfito.org for the current calendar of delegations to Latin American markets</li><li><strong>SelectFlorida</strong> . International business development resources and trade data from the state of Florida (selectflorida.org)</li><li><strong>Florida Department of State, Office of International Affairs</strong> . State-level trade statistics and international business relationships (dos.fl.gov)</li><li><strong>Orange County Global Investment Office</strong> . Local government resources and FDI data for international businesses locating in Orange County</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-3-rc",
+      "variant": "reality-check",
+      "title": "Reality Check — Numbers Don't Tell the Whole Story",
+      "content": "<p>The data favors Central Florida on cost and trade connectivity, but be honest about what the numbers do NOT capture:</p>\n\n<ul><li><strong>Vehicle costs add $300-$600/month.</strong> Orlando is car-dependent. Public transit is limited. Factor this into your cost comparison. It partially offsets the housing savings vs. NYC (where you may not need a car).</li><li><strong>The tech talent pool is smaller.</strong> UCF produces 10,000+ STEM grads/year, but the total tech workforce is a fraction of NYC's or Silicon Valley's. Specialized roles (ML engineers, senior DevOps) may require remote hiring.</li><li><strong>VC funding is growing but concentrated elsewhere.</strong> Florida attracted about $5.5B in venture capital in 2024 — roughly 4% of the U.S. total. California captured 48%. Build traction here, but plan to pitch investors nationally.</li></ul>\n\n<p>These gaps are measurable and manageable — but include them in your decision framework.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-3-1",
+      "title": "Cost Data Application",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder has $500,000 in seed funding and burns $50,000/month in Silicon Valley. Based on the cost data in this lesson, approximately how many EXTRA months of runway would she gain by relocating to Central Florida?",
+          "options": [
+            "1-2 extra months. The cost difference is marginal",
+            "3-5 extra months. Moderate savings on rent and salaries",
+            "7-10 extra months. The roughly 40% lower burn rate at ~$30,000/month extends the $500K significantly",
+            "18+ extra months . Central Florida is essentially free to operate in"
+          ],
+          "correctAnswer": 2,
+          "explanation": "At $50,000/month in Silicon Valley versus approximately $30,000/month in Central Florida (based on the salary, office, and housing differentials in the cost comparison), the founder saves roughly $20,000/month. On $500,000 in funding, that extends runway from 10 months (Silicon Valley) to approximately 16-17 months (Central Florida) — roughly 7 extra months. That is the difference between finding product-market fit and running out of cash."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-3-2",
+      "title": "Trade Corridor Data",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "What combination of data points makes Central Florida a strong LATAM trade corridor?",
+          "options": [
+            "Zero state income tax and low LLC filing fees",
+            "30+ direct flights to Latin American cities from MCO, Florida's #1 ranking in U.S.-LATAM trade by value, and a 30%+ Spanish-speaking metro population",
+            "Proximity to Disney World and Universal Studios",
+            "The highest number of Brazilian restaurants per capita in the U.S."
+          ],
+          "correctAnswer": 1,
+          "explanation": "The trade corridor argument is built on three data points: air connectivity (30+ direct LATAM routes from MCO), trade volume (Florida is the #1 U.S. state for trade with Latin America and the Caribbean by value, with $150B+ through Florida ports annually), and workforce (30%+ of metro Orlando speaks Spanish). Together, these numbers show that Central Florida is not just culturally welcoming — it is structurally positioned as a U.S.-LATAM business bridge."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-7-3-1",
+      "title": "Your Location Decision Framework",
+      "placement": "after-section",
+      "sectionId": "text-7-3-4",
+      "instructions": "<p>Create a weighted comparison for your specific business using these steps:</p><ol><li>List your <strong>top 5 criteria</strong> for choosing a U.S. base (examples: customer proximity, cost, talent availability, flight connectivity, industry ecosystem, support programs)</li><li><strong>Weight each criterion</strong> from 1-5 based on importance to your business</li><li><strong>Score Central Florida</strong> against each criterion (1-10 scale) using the data from this lesson</li><li><strong>Score your alternative city</strong> (Miami, NYC, Silicon Valley, or Austin) against each criterion</li><li><strong>Multiply weight x score</strong> for each criterion and total them up</li></ol><p>This exercise forces you to move beyond gut feeling and evaluate the decision with data. Bring the results to your UCF BIP conversation — it will help the team understand your priorities and advise you more effectively.</p>"
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-7-3-1",
+      "title": "Your Central Florida Runway Calculation",
+      "placement": "after-section",
+      "sectionId": "text-7-3-4",
+      "prompt": "Use the cost comparison table from this lesson and calculate the math for your business. Estimate your monthly burn rate in Central Florida (office/coworking + 1-2 salaries + housing + vehicle). Now estimate the same burn rate in your alternative city (Miami, NYC, Silicon Valley). How many extra months of runway does Central Florida give you? Write down the specific numbers: not \"it's cheaper,\" but \"I save approximately $X/month, which gives me Y extra months.\" That is the argument that convinces co-founders, investors, and family members."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-7-3-1",
+      "title": "Key Takeaway",
+      "content": "<p>The data makes the case: Central Florida's cost of living index (98) is nearly half of New York's (187) and well below Silicon Valley's (172). Developer salaries run $85K-$100K versus $130K-$160K in San Jose. Florida processes 300,000+ new business filings annually with a $125 LLC fee and zero state income tax. The LATAM trade corridor is backed by 30+ direct flight routes, $150B+ in annual Florida port trade, and a 30%+ Spanish-speaking metro workforce. For international founders, these numbers add up to a clear advantage: more runway, lower hiring costs, and built-in trade infrastructure connecting you to both U.S. and Latin American markets.</p>"
+    }
+  ]
+}

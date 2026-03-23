@@ -1,0 +1,150 @@
+{
+  "lessonId": "lesson-3-3",
+  "moduleId": "module-3",
+  "title": "Contracts and When You Need a Lawyer",
+  "duration": 6,
+  "objectives": [
+    "Identify situations that require professional legal counsel vs. what you can handle yourself",
+    "Estimate legal costs for common business needs (entity formation, contracts, trademark, disputes)",
+    "Describe how to find and evaluate a business attorney for international founders"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-3-3-1",
+      "title": "You Don't Need a Lawyer for Everything",
+      "content": "<p>Drawing on the contracts and insurance concepts from earlier in this module, this lesson clarifies where legal help adds the most value. A business attorney in Central Florida charges $200–$400 per hour — call one for every question and you'll burn through your budget fast.</p>\n\n<p>What does this actually mean day to day? Many common tasks don't require a lawyer — filing your LLC on SunBiz ($125), applying for an EIN (free), and registering for a Florida sales tax certificate (free) are all DIY.</p>\n\n<p><strong>You can handle:</strong></p>\n\n<ul><li>SunBiz entity filing (LLC or Corp formation)</li><li>EIN application with the IRS</li><li>Basic NDA using a reputable template</li><li>Sales tax registration with Florida DOR</li><li>Setting up accounting software (QuickBooks, Xero)</li><li>Opening a business bank account</li></ul>\n\n<p><strong>Get a lawyer for:</strong></p>\n\n<ul><li>Complex entity structuring (especially if immigration status is involved)</li><li>Investor agreements (SAFE notes, convertible notes, equity rounds)</li><li>IP disputes or cease-and-desist letters</li><li>Employment contracts and non-competes</li><li>Any contract worth more than $25,000</li><li>Regulatory compliance in specialized industries</li><li>Any situation involving threatened legal action</li></ul>\n\n<p>A founder from Ecuador saved $3,000 by filing his own LLC and EIN, then spent $800 on an attorney for the operating agreement and a major client contract.</p>",
+      "wordCount": 197
+    },
+    {
+      "type": "table",
+      "id": "table-3-3-1",
+      "title": "Legal Costs — Realistic Ranges",
+      "table": {
+        "headers": [
+          "Service",
+          "Cost Range (as of early 2026)",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Initial consultation",
+            "$0–$300",
+            "Many attorneys offer a free 30-minute consultation. Always ask."
+          ],
+          [
+            "Contract review",
+            "$200–$500 per document",
+            "Flat fee is common for simple contracts. Complex agreements may be hourly."
+          ],
+          [
+            "Contract drafting (custom)",
+            "$500–$2,000",
+            "Service agreements, partnership agreements, licensing deals."
+          ],
+          [
+            "Entity formation (with attorney)",
+            "$500–$1,500",
+            "Includes entity selection advice, filing, and operating agreement drafting."
+          ],
+          [
+            "Trademark filing (with attorney)",
+            "$500–$1,000",
+            "Attorney fee on top of USPTO filing fee ($250–$350)."
+          ],
+          [
+            "Immigration-business combo",
+            "$2,000–$10,000+",
+            "When your business structure affects your visa pathway. Budget at the higher end."
+          ],
+          [
+            "Business dispute / demand letter",
+            "$1,000–$5,000",
+            "Pre-litigation work. If it goes to court, costs escalate significantly."
+          ],
+          [
+            "Hourly rate (Central FL)",
+            "$200–$400/hour",
+            "Business attorneys. Immigration specialists may be higher."
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-3-3-1"
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-3-1",
+      "variant": "before-you-spend",
+      "title": "Before You Hire a Lawyer",
+      "content": "<p>Before you spend money on legal fees, exhaust the free resources available to you:</p>\n\n<ul><li><strong>SBDC (Small Business Development Center):</strong> Free one-on-one business counseling, including referrals to attorneys. The UCF SBDC is located on campus and serves the entire Central Florida region.</li><li><strong>UCF BIP network:</strong> Ask your program advisors for attorney referrals — they work with lawyers who understand international founders.</li><li><strong>Florida Bar Lawyer Referral Service:</strong> Connects you with attorneys by specialty for an initial consultation (typically $25–$50 for 30 minutes).</li><li><strong>Legal Aid societies:</strong> If your budget is extremely tight, some legal aid organizations provide free or reduced-cost services to entrepreneurs.</li></ul>\n\n<p>When you do hire an attorney, ask for flat-fee quotes instead of hourly billing. Verify they have experience with international clients. And always get the fee agreement in writing before work begins.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-3-3-2",
+      "title": "Finding the Right Attorney — They're Not All the Same",
+      "content": "<p>\"Lawyer\" is as broad as \"doctor.\" You wouldn't see a cardiologist for a broken arm.</p>\n\n<p><strong>Business attorney:</strong> Entity formation, contracts, commercial disputes. Your primary legal relationship.</p>\n\n<p>What does that mean for you? <strong>Immigration attorney:</strong> Visas, work authorization, immigration-linked business decisions. Essential if your business structure affects your ability to stay in the U.S. (common for E-2 or L-1 holders).</p>\n\n<p><strong>IP attorney:</strong> Trademarks, patents, copyright enforcement. A general business attorney is not enough for patent filings or trademark conflicts.</p>\n\n<p><strong>Tax attorney:</strong> International tax treaties, IRS audits, multi-country income. Use a CPA for routine work; a tax attorney for disputes involving $50,000+ liability.</p>\n\n<p>Questions to ask before hiring:</p>\n\n<ol><li>Do you work with international business owners?</li><li>Are you familiar with E-2 / O-1 / L-1 visa implications?</li><li>Do you offer flat-fee billing?</li><li>Can you provide references from international founders?</li></ol>\n\n<p>A Mexican founder interviewed three attorneys — the first two had no experience with foreign-owned businesses; the third had helped 15 international founders and offered $1,200 flat-fee for entity formation and operating agreement.</p>",
+      "wordCount": 169
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-3-2",
+      "variant": "latam-supplement",
+      "title": "Latin America Resources — Legal",
+      "content": "<p>Central Florida has a strong network of bilingual attorneys who specialize in international business:</p>\n\n<ul><li><strong>Hispanic Bar Association of Central Florida:</strong> Attorney referrals by specialty, networking events, and pro bono programs</li><li><strong>Prospera:</strong> Offers legal workshops for Hispanic entrepreneurs, including business formation and contract basics</li><li><strong>UCF BIP network:</strong> Access to vetted attorneys who regularly work with international founders from Latin America</li></ul>\n\n<p>Having an attorney who speaks your language and understands your cultural context can make a significant difference, especially for immigration-linked business decisions.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-3-3-1",
+      "title": "Check Your Understanding: When to Get Legal Help",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Which of the following situations does NOT typically require a lawyer?",
+          "options": [
+            "Filing an LLC formation document on SunBiz",
+            "Negotiating an investor equity agreement",
+            "Responding to a trademark infringement cease-and-desist letter",
+            "Structuring a business to support an E-2 visa application"
+          ],
+          "correctAnswer": 0,
+          "explanation": "SunBiz LLC filing is straightforward and can be completed online for $125 without legal assistance. Investor agreements, IP disputes, and immigration-linked business structuring all involve significant legal complexity and financial risk — these situations warrant professional legal counsel."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-3-3-2",
+      "title": "Check Your Understanding: Choosing the Right Attorney",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "A founder needs to structure her U.S. business in a way that supports her E-2 visa application. She already has a business attorney who handled her LLC formation. What should she do?",
+          "options": [
+            "Ask her business attorney to handle the visa-related structuring since they already know her company",
+            "Skip the attorney and structure the business herself using online guides",
+            "Consult an immigration attorney for the visa-linked decisions, since this requires specialized expertise beyond general business law",
+            "Wait until her visa is approved before making any business structure decisions"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Immigration-linked business structuring requires an immigration attorney, not a general business attorney. Just as you would not go to a cardiologist for a broken arm, visa-related decisions need a specialist who understands how business structure affects immigration status. The business attorney handles corporate matters; the immigration attorney handles visa-specific requirements."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-3-3-1",
+      "title": "Reflection: Your Legal Needs",
+      "placement": "after-section",
+      "sectionId": "text-3-3-2",
+      "prompt": "Think about your first 6 months of U.S. operations. What legal tasks can you handle yourself? Where will you need professional help? Write down your top 3 legal priorities and estimate the total cost using the ranges from this lesson. Have you identified an attorney yet, or do you need to start that search?"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-3-3-1",
+      "title": "Key Takeaway",
+      "content": "<p>Use free resources first: SBDC counseling, UCF BIP referrals, and Florida Bar referral services. Handle simple filings yourself (SunBiz, EIN, sales tax registration). Save your attorney budget for the decisions that carry real risk : investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Ask for flat fees, verify international experience, and always get the fee agreement in writing.</p>"
+    }
+  ]
+}
