@@ -1,0 +1,439 @@
+{
+  "moduleId": "module-2",
+  "title": "Watch Your Money",
+  "description": "Taxes, accounting, and the banking deep dive. Federal and state tax obligations, sales tax, bookkeeping expectations, and the detailed reality of opening and maintaining a U.S. bank account as a foreign founder.",
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Explain federal and state tax obligations for foreign-owned U.S. entities",
+      "Describe sales tax collection requirements and basic accounting/bookkeeping expectations",
+      "Navigate the full banking process including document requirements, common rejections, credit history, and realistic timelines"
+    ],
+    "courseLevelOutcomesAddressed": []
+  },
+  "lessons": [
+    {
+      "lessonId": "lesson-2-1",
+      "moduleId": "module-2",
+      "title": "Federal and State Taxes — What You Actually Owe",
+      "duration": 9,
+      "objectives": [
+        "Distinguish between federal and Florida state tax obligations for foreign-owned entities",
+        "Identify key IRS filing requirements including ITIN vs. SSN for foreign founders",
+        "Explain how entity type affects your tax treatment (pass-through vs. corporate)"
+      ],
+      "contentBlocks": [
+        {
+          "type": "text",
+          "id": "text-2-1-1",
+          "title": "The Good News: Florida Has No State Income Tax",
+          "content": "<p>What would you do if the IRS sent you a $1,200 penalty before you even made a profit? That is exactly what happened to one founder who missed a rule most international entrepreneurs never hear about.</p>\n\n<p>If you've already explored U.S. banking, you'll see how your tax setup directly affects account opening and daily money matters. Here is one of the biggest reasons international founders choose Florida: there is no state personal income tax. That is real money staying in your pocket.</p>\n\n<p>But here is the thing. No state income tax does not mean no taxes. Federal taxes still apply to every U.S. business, and the IRS will want to hear from you regardless of where you incorporated or how much revenue you earned.</p>\n\n<p>A founder from Brazil set up an LLC in Orlando and assumed she only needed to file once a year. She missed quarterly estimated payments for two consecutive quarters — penalty: $1,200 before she even turned a profit.</p>\n\n<p><strong>Important:</strong> Tax obligations vary based on your entity type, revenue, and personal tax residency status. The information here is educational. Consult a qualified CPA or tax attorney for your specific situation.</p>",
+          "wordCount": 196
+        },
+        {
+          "type": "table",
+          "id": "table-2-1-1",
+          "title": "Federal vs. State vs. Local — What Applies to You",
+          "table": {
+            "headers": [
+              "Tax Level",
+              "What It Covers",
+              "Who Pays",
+              "Key Details"
+            ],
+            "rows": [
+              [
+                "Federal — IRS",
+                "Income tax, self-employment tax, payroll tax",
+                "All U.S. businesses",
+                "Entity type determines how you file. LLCs pass through to personal returns. C-Corps file separately."
+              ],
+              [
+                "Florida State",
+                "No personal income tax; 5.5% corporate income tax for C-Corps only",
+                "C-Corps with income over $50,000",
+                "LLCs and S-Corps avoid Florida corporate income tax because income passes through to owners."
+              ],
+              [
+                "Local — County/City",
+                "Business licenses, tangible personal property tax",
+                "All businesses with physical presence",
+                "Orange County requires a business tax receipt. Tangible property tax applies to equipment and furniture."
+              ]
+            ]
+          },
+          "styling": "striped",
+          "placement": "after-section",
+          "sectionId": "text-2-1-1"
+        },
+        {
+          "type": "text",
+          "id": "text-2-1-2",
+          "title": "ITIN, SSN, and Why Your Tax ID Matters",
+          "content": "<p>Before you can file anything with the IRS, you need a tax identification number. Which one depends on your immigration status.</p>\n\n<p>The bottom line? An <strong>SSN (Social Security Number)</strong> is issued to people authorized to work in the U.S. If you have a valid work visa (E-2, O-1, L-1, or H-1B), you can apply for an SSN. This is the preferred number because it connects to the broader credit and financial system.</p>\n\n<p>An <strong>ITIN (Individual Taxpayer Identification Number)</strong> is for non-residents who have U.S. tax obligations but don't qualify for an SSN. You apply with IRS Form W-7, and the process takes 7 to 11 weeks.</p>\n\n<p>The practical problem: some banks won't open accounts without an SSN, and if you apply for an ITIN by mail, you may need to send your original passport to the IRS. A Colombian founder was without his passport for nine weeks while the IRS processed his application.</p>\n\n<p><strong>The workaround:</strong> Apply in person at an IRS Taxpayer Assistance Center. They verify your passport on the spot and you keep it. The nearest center to Orlando is in Tampa — about two hours round trip, but you avoid mailing your passport.</p>",
+          "wordCount": 195
+        },
+        {
+          "type": "text",
+          "id": "text-2-1-3",
+          "title": "How Entity Type Affects Your Tax Treatment",
+          "content": "<p>Your entity type decides how the IRS treats your income, what forms you file, and how much you owe. That's one of the main reasons picking the right entity matters (covered in Module 1).</p>\n\n<p>Let's put this in perspective. <strong>LLC (taxed as sole proprietorship or partnership):</strong> Income \"passes through\" to your personal tax return. You pay federal income tax at your personal rate, plus self-employment tax of 15.3% on net earnings. You file Schedule C (single-member) or Form 1065 (multi-member) with your personal Form 1040-NR.</p>\n\n<p><strong>C-Corporation:</strong> Files its own return (Form 1120) and pays corporate income tax at a flat 21% rate. If you pay yourself a salary or dividends, you also pay personal income tax on that income — \"double taxation.\" The upside: C-Corps are the preferred structure for raising investment capital.</p>\n\n<p><strong>S-Corporation:</strong> Similar pass-through treatment as an LLC, but with potential self-employment tax savings. The catch: non-resident aliens cannot be S-Corp shareholders. No green card or citizenship means S-Corp is off the table.</p>\n\n<p>A German tech founder chose a C-Corp to raise venture capital. A Mexican food service founder chose an LLC for simple pass-through taxation. The wrong choice would have cost each of them thousands in unnecessary taxes or restructuring fees.</p>",
+          "wordCount": 204
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-1-1",
+          "variant": "common-mistake",
+          "title": "The Tax Surprise That Catches Many Founders",
+          "content": "<p>Here's where it catches people off guard. <strong>Estimated quarterly tax payments.</strong> The U.S. tax system requires you to pay taxes throughout the year, not just at the end. If you expect to owe $1,000 or more in federal tax, you must make quarterly estimated payments (April 15, June 15, September 15, January 15). Miss them and you'll owe penalties and interest — even if you pay everything when you file your annual return. Many international founders don't learn about quarterly payments until they receive a penalty notice.</p>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-1-2",
+          "variant": "theme-watch-money",
+          "title": "Tax Treaties — Check Before You Assume",
+          "content": "<p>Think about this: your home country may have a tax treaty with the U.S. that lowers your tax rate, removes double taxation, or changes withholding rules. For example, many European and Latin American countries have treaties that affect how dividend income or business profits are taxed. Don't assume your home-country duties go away when you form a U.S. entity, and don't assume you'll be taxed twice without checking. A CPA who handles global clients can review your treaty status in a single meeting. This one talk can save you thousands.</p>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-1-cm",
+          "variant": "common-mistakes-repeating",
+          "title": "Common Mistakes International Founders Make",
+          "content": "<p>Notice these patterns:</p><ul><li><strong>Ignoring sales tax obligation.</strong> Many international founders assume their product or service is not subject to sales tax, or they don't realize they need to register before collecting it. Florida's sales tax applies to most tangible goods and some services. (More on this in the next lesson.)</li><li><strong>Waiting too long to hire an accountant who knows global clients.</strong> A general CPA may not know about ITIN filing, tax treaty rules, or FBAR needs for foreign bank accounts. By the time founders realize they need a specialist, they've already made filing mistakes that cost money to fix.</li><li><strong>Missing quarterly estimated payments.</strong> The penalty for underpaying estimated taxes adds up fast. Set calendar reminders for April 15, June 15, September 15, and January 15.</li></ul>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-1-wm",
+          "variant": "watch-money-costs",
+          "title": "Watch Your Money: What This Actually Costs",
+          "content": "<p>In other words, plan ahead. Tax and accounting costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>CPA for annual tax prep (international clients):</strong> $500–$2,500/year depending on complexity</li><li><strong>Quarterly estimated tax payments:</strong> Varies by income — plan for 25–30% of net profit set aside each quarter</li><li><strong>ITIN application:</strong> Free (IRS Form W-7), but many founders pay $200–$400 for a Certified Acceptance Agent to help</li><li><strong>Bookkeeping software:</strong> $20–$60/month (QuickBooks, Xero, Wave)</li><li><strong>Penalty for missed quarterly payment:</strong> ~4–8% annualized interest on the underpayment</li><li><strong>FBAR filing (if you have foreign accounts over $10,000):</strong> Typically included in CPA fee, but penalties for not filing can exceed $10,000 per account</li></ul>"
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-2-1-1",
+          "title": "Check Your Understanding: U.S. Tax Basics",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A single-member LLC in Florida earns $80,000 in net profit. Where does the owner report this income for tax purposes?",
+              "options": [
+                "On the LLC's separate corporate tax return (Form 1120)",
+                "On the owner's personal tax return as pass-through income",
+                "Only on the Florida state income tax return",
+                "No filing is required because Florida has no state income tax"
+              ],
+              "correctAnswer": 1,
+              "explanation": "LLC income passes through to the owner's personal tax return. The LLC itself does not file a separate corporate return (that's a C-Corp). Florida's lack of state income tax does not eliminate federal filing requirements."
+            },
+            {
+              "stem": "What is the main reason an international founder without a work visa would need an ITIN?",
+              "options": [
+                "To open a social media business account",
+                "To file U.S. tax returns when they don't qualify for an SSN",
+                "To register their business on SunBiz",
+                "To apply for a Florida driver's license"
+              ],
+              "correctAnswer": 1,
+              "explanation": "An ITIN (Individual Taxpayer Identification Number) allows non-residents to meet their U.S. tax obligations when they don't qualify for a Social Security Number. It's specifically a tax filing tool issued by the IRS."
+            }
+          ]
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-2-1-2",
+          "title": "Tax Treatment and Quarterly Payments Check",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A founder from Brazil operates a single-member LLC in Florida and expects to owe $8,000 in federal taxes this year. She plans to pay everything when she files her annual return in April. What problem will she face?",
+              "options": [
+                "No problem — annual payment is the standard method for LLCs",
+                "She will owe penalties and interest for missing quarterly estimated payments throughout the year",
+                "Florida will charge her state income tax as a penalty for late payment",
+                "The IRS will automatically convert her LLC to a C-Corp for non-compliance"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The U.S. tax system requires quarterly estimated payments (April 15, June 15, September 15, January 15) if you expect to owe $1,000 or more. Missing these deadlines triggers penalties and interest even if you pay the full amount with your annual return. The lesson describes a founder who owed $1,200 in penalties for this exact mistake."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "id": "ref-2-1-1",
+          "title": "Reflection: Your Tax Situation",
+          "placement": "after-section",
+          "sectionId": "text-2-1-3",
+          "prompt": "Based on your entity type (or the one you're considering), which tax filing requirements will apply to your business? Does your home country have a tax treaty with the U.S.? Write down the top 3 tax-related questions you need answered by a CPA before your first filing deadline."
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-2-1-1",
+          "title": "Key Takeaway",
+          "content": "<p>The takeaway is clear. Florida's lack of state income tax is a real advantage, but federal obligations, quarterly estimated payments, and self-employment tax still apply to founders at every level. Budget for a CPA who works with international clients in your first year. The cost of professional help ($500–$2,500) is a fraction of the cost of penalties for filing mistakes.</p>"
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-2-2",
+      "moduleId": "module-2",
+      "title": "Sales Tax, Accounting, and Keeping the Books",
+      "duration": 8,
+      "objectives": [
+        "Explain Florida sales tax collection and remittance requirements",
+        "Describe basic U.S. bookkeeping expectations and why they differ from home-country practices",
+        "Estimate annual accounting costs for a small foreign-owned business"
+      ],
+      "contentBlocks": [
+        {
+          "type": "text",
+          "id": "text-2-2-1",
+          "title": "Florida Sales Tax — It's Not Optional",
+          "content": "<p>Did you know that one founder owed $3,800 in penalties because she did not register for a free certificate before collecting sales tax? The rules are simple once you know them, but the cost of not knowing is steep.</p>\n\n<p>Building on the federal and state income tax concepts from earlier in this module, sales tax adds another layer to your duties. If you sell tangible goods in Florida, you must collect sales tax. The base state rate is 6%, and most counties add a surtax of 0.5% to 1.5%. In Orange County (Orlando), the combined rate is 6.5%. In Osceola County, it is 7.5%. The rate depends on where the sale happens, not where your business is located.</p>\n\n<p>Here is the practical takeaway. An Argentine founder selling leather goods from Orlando assumed sales tax only applied to big retailers. After nine months, the Florida Department of Revenue sent her a notice: $3,800 in uncollected sales tax plus penalties, paid out of pocket.</p>\n\n<p>Before collecting sales tax, register for a <strong>Sales Tax Certificate</strong> with the Florida Department of Revenue : free, done online. Once registered, collect the correct rate on every taxable sale and remit to the state monthly, quarterly, or annually depending on volume.</p>\n\n<p>Not everything is taxable. Most services and groceries (unprepared food) are exempt. Prepared food, clothing, electronics, and most physical products are taxable. Software and SaaS fall into a gray area — check with a CPA if you're selling digital products.</p>",
+          "wordCount": 245
+        },
+        {
+          "type": "text",
+          "id": "text-2-2-vat",
+          "title": "How U.S. Sales Tax Compares to VAT — What You Already Know",
+          "content": "<p>If you're coming from almost any country outside the U.S., you're familiar with a Value Added Tax (VAT) system. Here's the key difference: VAT is a national tax applied at every stage of making goods. U.S. sales tax is a state-level, point-of-sale tax, and every state makes its own rules.</p>\n\n<p>What does that mean for you? <strong>VAT (what you know):</strong> One national rate. Applied at each stage of the supply chain. Businesses collect VAT on sales and claim credits for VAT paid on purchases. Registration thresholds and rates are set nationally.</p>\n\n<p><strong>U.S. Sales Tax (what you need to learn):</strong> No federal sales tax exists. Each state sets its own rate (or has no sales tax at all — Oregon, Montana, Delaware, New Hampshire charge zero). Counties and cities can add surtax. You only collect tax where you have \"nexus\" (a physical or economic connection to that state). There is no input credit system — you collect from the customer and remit to the state.</p>\n\n<p>If you sell in multiple states, you register, collect, and remit in each one separately. A Colombian SaaS founder selling in Florida, Texas, and California spent $1,200 on a compliance service to handle multi-state filing.</p>\n\n<p><strong>The biggest adjustment:</strong> There is no single government portal for U.S. sales tax. You deal with each state individually. Services like Avalara or TaxJar can automate multi-state compliance. VAT is one relationship with one government. U.S. sales tax can be dozens.</p>",
+          "wordCount": 241
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-2-1",
+          "variant": "common-mistake",
+          "title": "Collecting Sales Tax Without a Permit",
+          "content": "<p>Here's where founders get it wrong. Some founders start collecting sales tax before registering with the Florida Department of Revenue — that's a compliance violation. Others don't collect at all and absorb the cost themselves — that's a growing liability. The correct sequence: <strong>register first, then collect.</strong> Registration is free and takes about 10 minutes online. Don't skip this step.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-2-2-2",
+          "title": "U.S. Bookkeeping Expectations — Why It Matters More Here",
+          "content": "<p>In the U.S., the IRS expects your records to back up every number on your tax return. Banks want clean financial reports before lending to you. Investors will ask for profit-and-loss statements. Even landlords may review your financials before signing a lease.</p>\n\n<p>The bottom line? The standard is <strong>GAAP (Generally Accepted Accounting Principles)</strong>. For small businesses: separate business and personal finances, record all income and expenses, reconcile bank statements monthly, and keep receipts for at least three years (seven years for some records).</p>\n\n<p>A food truck founder from Peru kept receipts in a shoebox. When his CPA asked for quarterly expense reports, he spent an entire weekend matching paper receipts to bank transactions. QuickBooks from day one would have taken five minutes.</p>\n\n<p>The tools are affordable. <strong>QuickBooks Online</strong> ($30–$60/month) is one of the most widely used. <strong>Xero</strong> ($15–$78/month) is popular with international founders for its multi-currency support. <strong>Wave</strong> is free for basic invoicing and accounting. Pick one before your first sale and connect it to your bank account.</p>",
+          "wordCount": 168
+        },
+        {
+          "type": "table",
+          "id": "table-2-2-1",
+          "title": "Annual Accounting Costs — What to Budget",
+          "table": {
+            "headers": [
+              "Service",
+              "Cost Range (as of early 2026)",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Bookkeeping software",
+                "$20–$60/month ($240–$720/year)",
+                "QuickBooks Online, Xero, or Wave (free tier available)"
+              ],
+              [
+                "CPA for tax preparation",
+                "$500–$2,500/year",
+                "Higher end for international clients with treaty filings, FBAR, or multi-state returns"
+              ],
+              [
+                "Sales tax filing",
+                "Often included with CPA or $20–$50/month",
+                "Avalara or TaxJar for multi-state automation"
+              ],
+              [
+                "Payroll service (if hiring)",
+                "$40–$100/month + per-employee fees",
+                "Gusto, ADP Run, or Paychex. Handles withholding and filings."
+              ],
+              [
+                "Bookkeeping service (outsourced)",
+                "$200–$500/month",
+                "If you don't want to do it yourself. Bench, Pilot, or local firms."
+              ]
+            ]
+          },
+          "styling": "striped",
+          "placement": "after-section",
+          "sectionId": "text-2-2-2"
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-2-2",
+          "variant": "before-you-spend",
+          "title": "Before You Hire an Accountant",
+          "content": "<p>Think about this: not all CPAs are created equal — and not all of them work with foreign-owned businesses. Before you hire an accountant, ask these questions:</p>\n\n<ul><li>Do you have experience filing returns for non-resident aliens or foreign-owned LLCs?</li><li>Are you familiar with tax treaty provisions for my home country?</li><li>Can you handle FBAR (Foreign Bank Account Report) filings?</li><li>Do you charge flat fees or hourly? (Flat fee is almost always better for small businesses.)</li><li>Can you help with multi-state sales tax compliance?</li></ul>\n\n<p>The SBDC (Small Business Development Center) in Orlando can refer you to CPAs who work with international founders. This is a free service.</p>"
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-2-2-1",
+          "title": "Check Your Understanding: Sales Tax and Bookkeeping",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "What is the most important difference between a VAT system and U.S. sales tax for an international founder to understand?",
+              "options": [
+                "VAT rates are always higher than U.S. sales tax rates",
+                "U.S. sales tax is managed state-by-state with no federal sales tax, while VAT is typically one national system",
+                "U.S. sales tax applies only to services, while VAT applies only to goods",
+                "VAT is collected at the point of sale, while U.S. sales tax is collected at manufacturing"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The core difference is structural: VAT is a national, centralized system. U.S. sales tax is decentralized : each state sets its own rules, rates, and exemptions. There is no federal sales tax. This means founders selling in multiple states may need to register and file separately in each one."
+            }
+          ]
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-2-2-2",
+          "title": "Bookkeeping and Compliance Check",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A founder from Argentina has been selling leather goods online from Orlando for nine months without registering for a Florida Sales Tax Certificate. What is the most likely consequence?",
+              "options": [
+                "Nothing — sales tax only applies to businesses with over $100,000 in revenue",
+                "She will receive a notice from the Florida Department of Revenue for uncollected sales tax plus penalties, which she must pay out of pocket",
+                "The IRS will revoke her EIN and close her business",
+                "Her customers will be individually liable for the unpaid tax"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The lesson describes this exact scenario: an Argentine founder owed $3,800 in uncollected sales tax plus penalties after nine months. Sales tax should have been collected from customers from the start. Without registration, the founder becomes personally liable for the tax that should have been collected. Registration is free and takes about 10 minutes."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "id": "ref-2-2-1",
+          "title": "Reflection: Your Bookkeeping Plan",
+          "placement": "after-section",
+          "sectionId": "text-2-2-2",
+          "prompt": "Does your product or service trigger sales tax obligations in Florida? If you're selling in multiple U.S. states, which ones? Write down the bookkeeping tool you plan to use and when you'll set it up relative to your first U.S. sale."
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-2-2-1",
+          "title": "Key Takeaway",
+          "content": "<p>The takeaway is simple. Sales tax compliance is mandatory and easy to mess up. Register with the Florida Department of Revenue before collecting tax. U.S. sales tax works nothing like VAT — it's state-by-state with no input credits. Budget for a CPA who understands international clients. The cost of professional accounting ($500–$2,500/year) is far less than the cost of IRS penalties and state compliance violations.</p>"
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-2-3",
+      "moduleId": "module-2",
+      "title": "Banking Deep Dive — The Reality for International Founders",
+      "duration": 8,
+      "objectives": [
+        "Identify the physical presence and documentation requirements for major U.S. banks",
+        "Explain why bank accounts get rejected and how to improve approval chances",
+        "Describe U.S. credit history requirements and realistic timelines for building credit"
+      ],
+      "contentBlocks": [
+        {
+          "type": "text",
+          "id": "text-2-3-1",
+          "title": "Why Banks Say No — And What to Do About It",
+          "content": "<p>You can form your LLC in two days. But getting a bank account? That can take two months and three rejections. Why is banking so much harder than everything else?</p>\n\n<p>Here's where it gets real. As we discussed in the earlier banking basics lesson, you can form your LLC in two days, but getting a bank account can take two weeks to two months, and some founders get rejected multiple times. Banks reject international founders for specific, predictable reasons.</p>\n\n<p>What does this actually mean day to day? <strong>No U.S. credit history.</strong> Home-country credit doesn't transfer. A German founder with a 15-year Deutsche Bank relationship was turned away by Chase because he had no U.S. credit score.</p>\n\n<p><strong>Missing papers.</strong> Every bank has a different checklist, and most don't post it clearly. Walk in missing one document and you'll come back another day.</p>\n\n<p><strong>Entity type mismatch.</strong> Some banks prefer C-Corps over single-member LLCs. Others won't open accounts for entities less than 30 days old. Ask before you apply.</p>\n\n<p><strong>High-risk country flags.</strong> Anti-money-laundering rules mean founders from certain countries face added review or refusal. A Kenyan fintech founder applied at three banks, each asking for more KYC documents: proof of where her funds came from, notarized business records, a letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p>\n\n<p>So what does this mean in practice? <strong>International-friendly banks (early 2026):</strong> Mercury, Relay, Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p>",
+          "wordCount": 263
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-3-note",
+          "variant": "reality-check",
+          "title": "Requirements Vary by Bank and May Change",
+          "content": "<p>Banking policies are not uniform across institutions, and they change frequently. The documentation requirements, account minimums, and approval criteria described in this lesson reflect general patterns as of early 2026. <strong>Always verify current requirements directly with your target bank before visiting a branch.</strong> What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-3-1",
+          "variant": "reality-check",
+          "title": "Reality Check: This Takes Longer Than You Think",
+          "content": "<p>Here's the thing. <strong>First bank account:</strong> 2 to 4 weeks if everything goes right. Some founders report 6 to 8 weeks with additional compliance review.</p>\n\n<p><strong>Business credit card:</strong> 3–6 months after account opening. Most require a U.S. credit score or a secured deposit.</p>\n\n<p><strong>Business credit line:</strong> 12–18 months of banking history and revenue documentation.</p>\n\n<p>Plan your cash flow around these timelines. Don't expect to walk into a bank on Monday and have an account by Friday.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-2-3-2",
+          "title": "Building U.S. Credit History From Zero",
+          "content": "<p>Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. Here's the path to build credit:</p>\n\n<p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. Mercury offers a business card connected to your Mercury account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
+          "wordCount": 178
+        },
+        {
+          "type": "text",
+          "id": "text-2-3-3",
+          "title": "Payment Processors, Wire Transfers, and Moving Money",
+          "content": "<p>Think about this: while you work on getting a bank account, you still need to accept payments and move money.</p>\n\n<p><strong>Stripe:</strong> Requires a U.S. bank account for payouts. Fastest way to accept credit card payments online. Processing fee: 2.9% + $0.30 per transaction.</p>\n\n<p>The bottom line? <strong>PayPal:</strong> Set up with an EIN and U.S. address. Useful as an interim solution, but known for freezing accounts with sudden transaction spikes. A Brazilian founder had $12,000 frozen for 21 days after a product launch triggered fraud detection.</p>\n\n<p><strong>Wise (formerly TransferWise):</strong> Gives you a U.S. account number and routing number for ACH payments. Not a full bank replacement, but excellent for moving money between countries at favorable exchange rates.</p>\n\n<p>In other words, choose the right tool for the job. <strong>ACH vs. Wire vs. Check:</strong> ACH is the U.S. standard for recurring payments — free or low-cost, 1–3 business days. Wire transfers are for urgent or international payments ($25–$50 per transfer). Most B2B payments are ACH or credit card.</p>\n\n<p>International wire costs add up fast. Compare your bank ($30–$50 fee + 2–3% exchange markup) against Wise ($5–$10 fee + mid-market rate) — the difference can save hundreds per month.</p>",
+          "wordCount": 182
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-3-2",
+          "variant": "theme-watch-money",
+          "title": "Watch Your Money — Wire Transfer Fees Are Real",
+          "content": "<p>Here's where it adds up. International wires cost $25 to $50 each direction through traditional banks, plus unfavorable exchange rates that add another 1 to 3%. ACH transfers are free or low-cost but domestic only. Plan your money movement strategy: batch international transfers to reduce fees, use Wise or similar services for better rates, and switch to ACH for domestic payments as soon as your U.S. bank account is active.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-2-3-fund",
+          "title": "A Quick Word About Funding and Investors",
+          "content": "<p>Now, let's talk about a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>Why does this matter? The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the UCF BIP market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
+          "wordCount": 167
+        },
+        {
+          "type": "callout",
+          "id": "callout-2-3-3",
+          "variant": "latam-supplement",
+          "title": "Latin America Resources — Banking",
+          "content": "<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The Hispanic Chamber of Commerce of Metro Orlando hosts banking workshops that cover account setup and credit building. The SBDC at UCF offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>"
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-2-3-1",
+          "title": "Check Your Understanding: Banking for International Founders",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "An international founder with no U.S. credit history wants to start building credit immediately after opening a bank account. What is the recommended first step?",
+              "options": [
+                "Apply for a business line of credit from a major bank",
+                "Open a secured credit card with a cash deposit as collateral",
+                "Ask a U.S. friend to add them as an authorized user on their credit card",
+                "Wait 12 months and then apply for a standard credit card"
+              ],
+              "correctAnswer": 1,
+              "explanation": "A secured credit card is the standard first step for building U.S. credit from zero. You deposit cash as collateral and use the card for small purchases, paying in full each month. After 6–12 months of consistent use, you'll have a basic credit score that opens doors to business cards and credit lines."
+            }
+          ]
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-2-3-2",
+          "title": "Credit Building and Funding Realities Check",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A Peruvian founder just arrived in Orlando and wants to sign a commercial lease for office space. Her landlord is asking for a larger security deposit because she has no U.S. credit history. What should she have done earlier to avoid this situation?",
+              "options": [
+                "Applied for an SBA loan to demonstrate financial stability",
+                "Opened a secured credit card immediately after getting her bank account and used it consistently for 6-12 months",
+                "Asked her home-country bank to transfer her credit score to a U.S. bureau",
+                "Paid the landlord in cash upfront to bypass the credit check entirely"
+              ],
+              "correctAnswer": 1,
+              "explanation": "The lesson describes this exact scenario — a Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Starting with a secured credit card the day you open your bank account builds a basic credit score within 6-12 months. Home-country credit does not transfer to the U.S."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "id": "ref-2-3-1",
+          "title": "Reflection: Your Banking Strategy",
+          "placement": "after-section",
+          "sectionId": "text-2-3-fund",
+          "prompt": "What documents do you currently have ready for a U.S. bank account application? What's missing? Write down your plan for the first 12 months: which bank will you approach first, how will you handle international transfers, and when will you start building U.S. credit?"
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-2-3-1",
+          "title": "Key Takeaway",
+          "content": "<p>Banking is one of the biggest pain points for founders. Come to every bank visit with all your documents, apply to banks that welcome foreign owners, and start building U.S. credit from day one with a secured credit card. Plan to fund yourself the first year. Investors and SBA loans have rules that take time to meet. Needs vary by bank and change often, so always check before you apply.</p>"
+        }
+      ]
+    }
+  ]
+}

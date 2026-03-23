@@ -1,0 +1,472 @@
+{
+  "moduleId": "module-3",
+  "title": "Protecting What You're Building",
+  "description": "Intellectual property, contracts, insurance, and knowing when to bring in a lawyer. How to protect your business assets in the U.S. legal system without overspending.",
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Distinguish between copyright, trademark, and patent protections and identify which apply to their business",
+      "Describe key contract, insurance, and regulatory compliance requirements",
+      "Assess when professional legal counsel is needed and estimate associated costs"
+    ],
+    "courseLevelOutcomesAddressed": []
+  },
+  "lessons": [
+    {
+      "lessonId": "lesson-3-1",
+      "moduleId": "module-3",
+      "title": "Intellectual Property — Protecting Your Ideas in the U.S.",
+      "duration": 7,
+      "objectives": [
+        "Distinguish between copyright, trademark, and patent protections in the U.S.",
+        "Identify which IP protections apply to their business assets",
+        "Estimate filing costs and timelines for trademark and patent applications"
+      ],
+      "contentBlocks": [
+        {
+          "type": "text",
+          "id": "text-3-1-1",
+          "title": "Three Types of IP Protection — And Which Ones You Actually Need",
+          "content": "<p>Now that you have covered entity formation, taxes, and banking, we turn to protecting what you are building. A software founder from Chile expanded to the U.S. and discovered another company had already registered her brand name as a U.S. trademark. She had two choices: rebrand or spend $15,000–$25,000 fighting the registration. She rebranded. Two years of brand equity, gone.</p>\n\n<p>What does that mean for you? This happens because IP protection is <strong>territorial</strong>. The trademark you registered in your home country does nothing in the United States. The same is true for patents. Copyright has more global coverage through treaties, but taking action still requires U.S. filing.</p>\n\n<p>Three main types of IP protection in the U.S.:</p>\n\n<p><strong>Copyright</strong> protects creative works : software code, written content, designs, music, videos. It exists automatically when you produce something original, but registering with the U.S. Copyright Office ($45–$65 per work) gives you the ability to sue for damages. Without registration, enforcement is extremely limited.</p>\n\n<p><strong>Trademark</strong> protects your brand identity : business name, logo, slogan, product name. This is the one most founders need first. You register with the USPTO, which prevents anyone else from using a confusingly similar name in your industry.</p>\n\n<p><strong>Patent</strong> protects inventions : new processes, machines, compositions, or designs. Patents are expensive ($5,000–$15,000+ with attorney fees) and slow (2–3 years). Most small businesses don't need one unless they've invented something truly novel. But if you have, file early; the U.S. uses a \"first to file\" system.</p>",
+          "wordCount": 244
+        },
+        {
+          "type": "table",
+          "id": "table-3-1-1",
+          "title": "Copyright vs. Trademark vs. Patent — At a Glance",
+          "table": {
+            "headers": [
+              "Protection Type",
+              "What It Covers",
+              "How to Get It",
+              "Cost (as of early 2026)",
+              "Timeline",
+              "Need a Lawyer?"
+            ],
+            "rows": [
+              [
+                "Copyright",
+                "Creative works: code, content, designs, media",
+                "Automatic on creation; register for enforcement",
+                "$45–$65 per work",
+                "3–6 months for registration",
+                "Usually not needed for basic filing"
+              ],
+              [
+                "Trademark",
+                "Brand identity: name, logo, slogan",
+                "File application with USPTO",
+                "$250–$350 per class (filing fee only)",
+                "8–12 months for approval",
+                "Recommended — mistakes delay the process"
+              ],
+              [
+                "Patent (Utility)",
+                "Inventions: processes, machines, methods",
+                "File application with USPTO",
+                "$5,000–$15,000+ (with attorney)",
+                "2–3 years for approval",
+                "Yes — patent applications are complex"
+              ]
+            ]
+          },
+          "styling": "striped",
+          "placement": "after-section",
+          "sectionId": "text-3-1-1"
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-1-1",
+          "variant": "common-mistake",
+          "title": "Assuming Your Home Country IP Protects You in the U.S.",
+          "content": "<p>Here's the thing: IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. You must file on your own with U.S. agencies. If you wait, someone else can register your brand name in the U.S. first — and they'll have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-3-1-2",
+          "title": "Trademark Registration — What Actually Happens",
+          "content": "<p>Now, let's walk through the process. The trademark registration through the USPTO is straightforward but takes patience.</p>\n\n<p><strong>Step 1: Search the USPTO database</strong> at trademark.uspto.gov. If a conflict exists, your application is rejected and your filing fee is not refunded.</p>\n\n<p><strong>Step 2: File your application</strong> online through TEAS. Choose the right class of goods or services (45 classes). Filing fee: $250 (TEAS Plus) or $350 (TEAS Standard) per class.</p>\n\n<p><strong>Step 3: Wait for examination.</strong> A USPTO examining attorney reviews your application in 3–4 months. They may issue an \"office action\" requesting changes; respond within the deadline or your application is abandoned.</p>\n\n<p><strong>Step 4: Publication period.</strong> Your trademark is published in the Official Gazette for 30 days. If no one opposes, you receive your registration certificate.</p>\n\n<p>Total timeline: 8–12 months. A Polish cybersecurity founder hired a U.S. trademark attorney before opening her Orlando office. The $800 she spent was a fraction of the $15,000–$25,000 she would have paid to fight a conflict later.</p>",
+          "wordCount": 157
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-1-2",
+          "variant": "theme-reduce-risk",
+          "title": "Reduce Risk — Register Your Trademark Before You Launch",
+          "content": "<p>Why does this matter? If someone else files your brand name in the U.S. first, you may lose it — even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is far less than the cost of rebranding.</p>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-1-cm",
+          "variant": "common-mistakes-repeating",
+          "title": "Common Mistakes International Founders Make",
+          "content": "<ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> Trademarks, patents, and enforceable copyright all require separate U.S. filings. International registrations do not automatically extend to the United States.</li><li><strong>Running without general liability insurance.</strong> This isn't an IP issue, but it's a Module 3 pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150-$300 and can prevent costly disputes later.</li></ul>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-1-wm",
+          "variant": "watch-money-costs",
+          "title": "Watch Your Money: What This Actually Costs",
+          "content": "<p>In other words, plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>Trademark filing (USPTO):</strong> $250–$350 per class, plus $300–$500 if using an attorney</li><li><strong>Patent application:</strong> $5,000–$15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45–$65 per work</li><li><strong>NDA or contract drafting:</strong> $200–$500 per document</li><li><strong>General liability insurance:</strong> $400–$800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500–$2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0–$300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200–$500 per document</li></ul>"
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-3-1-1",
+          "title": "IP Protection: Territorial Rights",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A founder has been using a brand name in Colombia for three years and now wants to sell products under that name in the U.S. What should she do first?",
+              "options": [
+                "Start selling immediately. Her Colombian trademark automatically applies in the U.S.",
+                "Search the USPTO database and file a U.S. trademark application before launching",
+                "Wait until she has U.S. revenue, then file for a trademark",
+                "Use the TM symbol and skip formal registration since she has prior use"
+              ],
+              "correctAnswer": 1,
+              "explanation": "IP protection is territorial. A Colombian trademark has no legal effect in the U.S. The founder should search the USPTO database for conflicts and file a U.S. trademark application before investing in U.S. marketing. Waiting increases the risk that someone else files the same name first."
+            }
+          ]
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-3-1-2",
+          "title": "IP Protection: Priority Filing",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "Which type of IP protection is most commonly needed first by international founders entering the U.S. market?",
+              "options": [
+                "Patent: to protect their business method",
+                "Copyright: to protect their website content",
+                "Trademark: to protect their brand name and logo",
+                "Trade secret: to protect proprietary processes"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Most international founders need trademark protection first because it protects the brand name and logo they'll use in the U.S. market. Copyright exists automatically (though registration helps enforcement), and patents are only needed for genuine inventions. Trademark is the highest-priority IP filing for most new market entrants."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "id": "ref-3-1-1",
+          "title": "Reflection: Your IP Inventory",
+          "placement": "after-section",
+          "sectionId": "text-3-1-2",
+          "prompt": "List every intellectual property asset your company has: brand name, logo, product names, proprietary software, content, inventions, or processes. For each one, identify which U.S. protection type applies (copyright, trademark, or patent) and whether you've already filed or need to."
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-3-1-1",
+          "title": "Key Takeaway",
+          "content": "<p>Apply this lesson before you invest in U.S. marketing: trademark your brand name first. Evaluate which IP protections your business needs, then create a filing plan. Start with a USPTO trademark search, file early, and budget $250–$850 for the trademark process. For patents, hire an attorney. For copyright, register before you need to enforce it.</p>"
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-3-2",
+      "moduleId": "module-3",
+      "title": "Insurance and Risk Management",
+      "duration": 7,
+      "objectives": [
+        "Identify essential contract types for U.S. business operations (NDAs, service agreements, terms of service)",
+        "Describe basic business insurance requirements and options",
+        "Explain key regulatory exposure areas for international founders"
+      ],
+      "contentBlocks": [
+        {
+          "type": "text",
+          "id": "text-3-2-1",
+          "title": "Contracts in the U.S. — Everything Gets Written Down",
+          "content": "<p>A founder from Costa Rica lost $22,000 because he closed a deal with a handshake instead of a contract. In the U.S., that handshake is worth almost nothing.</p>\n\n<p>Building on the IP protections from the previous lesson, contracts and insurance complete your risk management foundation. That Costa Rica founder closed a deal with a U.S. distributor over a handshake. Three months later, the distributor changed payment terms and refused to pay the outstanding invoices. Without a signed contract, the founder had no legal leverage.</p>\n\n<p>Here is the practical takeaway. Verbal deals carry almost no legal weight for business deals over $500 (under the Statute of Frauds in most states, including Florida). Contracts you'll need in your first year:</p>\n\n<p><strong>Non-Disclosure Agreement (NDA):</strong> Use before sharing proprietary details. Cost: $200–$500 attorney-drafted, or use a reputable template.</p>\n\n<p><strong>Service Agreement / MSA:</strong> Covers scope, payment, deliverables, timelines, and liability when you provide services or hire a vendor.</p>\n\n<p><strong>Terms of Service:</strong> Required for any website, app, or digital product.</p>\n\n<p><strong>Operating Agreement (LLC):</strong> Defines management, profit distribution, and member exits. Even single-member LLCs should have one.</p>",
+          "wordCount": 182
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-2-1",
+          "variant": "theme-understand-culture",
+          "title": "Culture Shift — The Handshake Deal Is Dead",
+          "content": "<p>Think about this cultural shift. In many countries, business runs on trust, personal ties, and verbal deals. In the U.S., the contract IS the relationship. When an American business partner says \"let's put it in writing,\" they're not expressing distrust — they're showing they take the relationship seriously. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-3-2-2",
+          "title": "Business Insurance — What You Need and What Can Wait",
+          "content": "<p>Insurance in the U.S. is not optional. Some types are required by law. Others are required in practice, since clients and landlords demand proof.</p>\n\n<p>What does that mean for you? <strong>General Liability Insurance (GL):</strong> Covers third-party bodily injury, property damage, and advertising injury. Cost: $400–$800/year. Many landlords and B2B clients require proof before they'll work with you.</p>\n\n<p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm : a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p>\n\n<p><strong>Workers' Compensation:</strong> Required in Florida with four or more employees (one in construction). Cost varies by industry and payroll.</p>\n\n<p><strong>Commercial Property Insurance:</strong> Covers equipment, inventory, and office contents. Skip if working from home; get it for a physical office or warehouse.</p>\n\n<p>A Nigerian founder found that U.S. vendor onboarding required proof of $1 million GL and $1 million E&O before clients would sign. Budget for insurance before you need it.</p>",
+          "wordCount": 147
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-2-2",
+          "variant": "common-mistake",
+          "title": "Operating Without General Liability Insurance",
+          "content": "<p>Here's where the risk is real. One slip-and-fall, one product issue, one bad contract — and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can \"pierce the corporate veil\" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-3-2-3",
+          "title": "Regulatory Exposure — Industries That Need Extra Attention",
+          "content": "<p>Some industries have rules you must follow as part of your launch plan.</p>\n\n<p><strong>Food and Beverage:</strong> FDA (federal) and FDACS (Florida) compliance : labeling, inspections, product testing. A Colombian coffee brand spent $8,000 on FDA-compliant labeling before listing on Amazon.</p>\n\n<p>Let's put this in perspective. <strong>Healthcare and Wellness:</strong> HIPAA compliance for protected health information. Medical devices need FDA clearance. Telehealth faces state-by-state licensing.</p>\n\n<p><strong>Financial Services:</strong> SEC, FINRA, and state-level regulations. Money transmission licenses cost $10,000–$50,000+ across multiple states. A Nigerian founder scaled back from 50 states to five key markets, cutting first-year compliance from $100,000+ to roughly $25,000.</p>\n\n<p><strong>Children's Products:</strong> CPSC testing and certification : lead, small parts, labeling. Third-party testing costs $1,000–$5,000 per product line.</p>\n\n<p>Fines for running without permits are severe : fines, seizures, and shutdowns. The SBDC and UCF BIP advisors can help identify which regulations are relevant to your business.</p>",
+          "wordCount": 140
+        },
+        {
+          "type": "table",
+          "id": "table-3-2-1",
+          "title": "Insurance Costs — What to Budget",
+          "table": {
+            "headers": [
+              "Insurance Type",
+              "Annual Cost (as of early 2026)",
+              "When You Need It",
+              "Required?"
+            ],
+            "rows": [
+              [
+                "General Liability (GL)",
+                "$400–$800/year",
+                "Before signing a commercial lease or B2B contracts",
+                "Practically required — most clients and landlords demand it"
+              ],
+              [
+                "Professional Liability (E&O)",
+                "$500–$2,500/year",
+                "Before providing professional services to U.S. clients",
+                "Required by many B2B clients in service industries"
+              ],
+              [
+                "Workers' Compensation",
+                "Varies by industry/payroll",
+                "When you hire your 4th Florida employee (1st in construction)",
+                "Legally required above the employee threshold"
+              ],
+              [
+                "Commercial Property",
+                "$500–$2,000/year",
+                "When you have a physical office, warehouse, or inventory",
+                "Required if you have a commercial lease"
+              ],
+              [
+                "Cyber Liability",
+                "$500–$1,500/year",
+                "If you handle customer data or process payments",
+                "Increasingly required by B2B clients"
+              ]
+            ]
+          },
+          "styling": "striped",
+          "placement": "after-section",
+          "sectionId": "text-3-2-3"
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-3-2-1",
+          "title": "Check Your Understanding: Contracts and Insurance",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A founder selling consulting services to U.S. companies is asked to provide proof of insurance during vendor onboarding. Which two types of insurance are most likely required?",
+              "options": [
+                "Workers' compensation and commercial property insurance",
+                "General liability and professional liability (E&O)",
+                "Cyber liability and directors & officers (D&O) insurance",
+                "Health insurance and disability insurance"
+              ],
+              "correctAnswer": 1,
+              "explanation": "U.S. companies commonly require vendors to carry general liability (for physical and property risks) and professional liability/E&O (for financial harm from professional services). These are the two most frequently requested insurance types during B2B vendor onboarding."
+            }
+          ]
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-3-2-2",
+          "title": "Check Your Understanding: Regulatory Exposure",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A founder plans to sell packaged food products in the U.S. through Amazon. She has already registered her LLC and obtained general liability insurance. What regulatory step is she most likely missing?",
+              "options": [
+                "Filing a trademark for her brand name with the USPTO",
+                "Obtaining FDA-compliant labeling and meeting FDACS requirements before listing products",
+                "Purchasing cyber liability insurance to protect customer payment data",
+                "Registering for workers' compensation insurance in Florida"
+              ],
+              "correctAnswer": 1,
+              "explanation": "Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel."
+            }
+          ]
+        },
+        {
+          "type": "exercise",
+          "id": "ex-3-2-1",
+          "title": "Exercise: Your Risk Assessment",
+          "placement": "after-section",
+          "sectionId": "text-3-2-3",
+          "content": "<p>List your top 3 business risks in the U.S. market. For each risk, identify:</p>\n\n<ol><li>What type of insurance or legal protection addresses this risk</li><li>Whether you need it before you launch or can wait</li><li>The approximate cost based on the tables in this lesson</li></ol>\n\n<p>Use this list when you talk to an insurance broker. Having a clear picture of your risks makes the conversation faster and the coverage more accurate.</p>"
+        },
+        {
+          "type": "reflection",
+          "id": "reflect-3-2-1",
+          "title": "Your Risk Protection Plan",
+          "placement": "after-section",
+          "sectionId": "text-3-2-3",
+          "prompt": "Think about YOUR business entering the U.S. market. What are the 2-3 contracts you need to get in place before you start operating : an NDA, a service agreement, terms of service? Write them down. Now ask yourself: do you have general liability insurance yet? If a U.S. client asked for proof of coverage tomorrow, could you provide it? Identify the specific contracts and insurance policies you need to secure first, and put a deadline on each one."
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-3-2-1",
+          "title": "Key Takeaway",
+          "content": "<p>The takeaway is clear: get your contracts in writing — every time, with every partner. Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you launch. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p>"
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-3-3",
+      "moduleId": "module-3",
+      "title": "Contracts and When You Need a Lawyer",
+      "duration": 6,
+      "objectives": [
+        "Identify situations that require professional legal counsel vs. what you can handle yourself",
+        "Estimate legal costs for common business needs (entity formation, contracts, trademark, disputes)",
+        "Describe how to find and evaluate a business attorney for international founders"
+      ],
+      "contentBlocks": [
+        {
+          "type": "text",
+          "id": "text-3-3-1",
+          "title": "You Don't Need a Lawyer for Everything",
+          "content": "<p>Drawing on the contracts and insurance concepts from earlier in this module, this lesson clarifies where legal help adds the most value. Consider this: a business attorney in Central Florida charges $200 to $400 per hour. Call one for every question and you'll burn through your budget fast.</p>\n\n<p>What does this actually mean day to day? Many common tasks don't require a lawyer — filing your LLC on SunBiz ($125), requesting an EIN (free), and registering for a Florida sales tax certificate (free) are all DIY.</p>\n\n<p><strong>You can handle:</strong></p>\n\n<ul><li>SunBiz entity filing (LLC or Corp formation)</li><li>EIN application with the IRS</li><li>Basic NDA using a reputable template</li><li>Sales tax registration with Florida DOR</li><li>Setting up accounting software (QuickBooks, Xero)</li><li>Opening a business bank account</li></ul>\n\n<p><strong>Get a lawyer for:</strong></p>\n\n<ul><li>Complex entity setup (especially if visa status is involved)</li><li>Investor agreements (SAFE notes, convertible notes, equity rounds)</li><li>IP disputes or cease-and-desist letters</li><li>Employment contracts and non-competes</li><li>Any contract worth more than $25,000</li><li>Regulatory compliance in specialized industries</li><li>Any situation involving threatened legal action</li></ul>\n\n<p>A founder from Ecuador saved $3,000 by filing his own LLC and EIN, then spent $800 on an attorney for the operating agreement and a major client contract.</p>",
+          "wordCount": 197
+        },
+        {
+          "type": "table",
+          "id": "table-3-3-1",
+          "title": "Legal Costs — Realistic Ranges",
+          "table": {
+            "headers": [
+              "Service",
+              "Cost Range (as of early 2026)",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Initial consultation",
+                "$0–$300",
+                "Many attorneys offer a free 30-minute consultation. Always ask."
+              ],
+              [
+                "Contract review",
+                "$200–$500 per document",
+                "Flat fee is common for simple contracts. Complex agreements may be hourly."
+              ],
+              [
+                "Contract drafting (custom)",
+                "$500–$2,000",
+                "Service agreements, partnership agreements, licensing deals."
+              ],
+              [
+                "Entity formation (with attorney)",
+                "$500–$1,500",
+                "Includes entity selection advice, filing, and operating agreement drafting."
+              ],
+              [
+                "Trademark filing (with attorney)",
+                "$500–$1,000",
+                "Attorney fee on top of USPTO filing fee ($250–$350)."
+              ],
+              [
+                "Immigration-business combo",
+                "$2,000–$10,000+",
+                "When your business structure affects your visa pathway. Budget at the higher end."
+              ],
+              [
+                "Business dispute / demand letter",
+                "$1,000–$5,000",
+                "Pre-litigation work. If it goes to court, costs escalate significantly."
+              ],
+              [
+                "Hourly rate (Central FL)",
+                "$200–$400/hour",
+                "Business attorneys. Immigration specialists may be higher."
+              ]
+            ]
+          },
+          "styling": "striped",
+          "placement": "after-section",
+          "sectionId": "text-3-3-1"
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-3-1",
+          "variant": "before-you-spend",
+          "title": "Before You Hire a Lawyer",
+          "content": "<p>Think about this before you spend money on legal fees: exhaust the free resources available to you first.</p>\n\n<ul><li><strong>SBDC (Small Business Development Center):</strong> Free one-on-one business counseling, including referrals to attorneys. The UCF SBDC is located on campus and serves the entire Central Florida region.</li><li><strong>UCF BIP network:</strong> Ask your program advisors for attorney referrals — they work with lawyers who understand international founders.</li><li><strong>Florida Bar Lawyer Referral Service:</strong> Connects you with attorneys by specialty for an initial consultation (typically $25–$50 for 30 minutes).</li><li><strong>Legal Aid societies:</strong> If your budget is extremely tight, some legal aid organizations provide free or reduced-cost services to entrepreneurs.</li></ul>\n\n<p>When you do hire a lawyer, ask for flat-fee quotes instead of hourly billing. Verify they have global client experience. And always get the fee agreement in writing before work begins.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-3-3-2",
+          "title": "Finding the Right Attorney — They're Not All the Same",
+          "content": "<p>Here's the thing: \"Lawyer\" is as broad as \"doctor.\" You wouldn't see a cardiologist for a broken arm.</p>\n\n<p><strong>Business attorney:</strong> Entity formation, contracts, commercial disputes. Your primary legal relationship.</p>\n\n<p>What does that mean for you? <strong>Immigration attorney:</strong> Visas, work authorization, immigration-linked business decisions. Essential if your business structure affects your ability to stay in the U.S. (common for E-2 or L-1 holders).</p>\n\n<p><strong>IP attorney:</strong> Trademarks, patents, copyright enforcement. A general business attorney is not enough for patent filings or trademark conflicts.</p>\n\n<p><strong>Tax attorney:</strong> International tax treaties, IRS audits, multi-country income. Use a CPA for routine work; a tax attorney for disputes involving $50,000+ liability.</p>\n\n<p>Questions to ask before hiring:</p>\n\n<ol><li>Do you work with international business owners?</li><li>Are you familiar with E-2 / O-1 / L-1 visa implications?</li><li>Do you offer flat-fee billing?</li><li>Can you provide references from international founders?</li></ol>\n\n<p>A Mexican founder interviewed three attorneys — the first two had no experience with foreign-owned businesses; the third had helped 15 international founders and offered $1,200 flat-fee for entity formation and operating agreement.</p>",
+          "wordCount": 169
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-3-2",
+          "variant": "latam-supplement",
+          "title": "Latin America Resources — Legal",
+          "content": "<p>Interestingly, Central Florida has a strong network of bilingual attorneys who specialize in international business:</p>\n\n<ul><li><strong>Hispanic Bar Association of Central Florida:</strong> Attorney referrals by specialty, networking events, and pro bono programs</li><li><strong>Prospera:</strong> Offers legal workshops for Hispanic entrepreneurs, including business formation and contract basics</li><li><strong>UCF BIP network:</strong> Access to vetted attorneys who regularly work with international founders from Latin America</li></ul>\n\n<p>Having an attorney who speaks your language and understands your cultural context can make a significant difference, especially for immigration-linked business decisions.</p>"
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-3-3-1",
+          "title": "Check Your Understanding: When to Get Legal Help",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "Which of the following situations does NOT typically require a lawyer?",
+              "options": [
+                "Filing an LLC formation document on SunBiz",
+                "Negotiating an investor equity agreement",
+                "Responding to a trademark infringement cease-and-desist letter",
+                "Structuring a business to support an E-2 visa application"
+              ],
+              "correctAnswer": 0,
+              "explanation": "SunBiz LLC filing is straightforward and can be completed online for $125 without legal assistance. Investor agreements, IP disputes, and immigration-linked business structuring all involve significant legal complexity and financial risk — these situations warrant professional legal counsel."
+            }
+          ]
+        },
+        {
+          "type": "knowledge-check",
+          "id": "kc-3-3-2",
+          "title": "Check Your Understanding: Choosing the Right Attorney",
+          "placement": "end-of-lesson",
+          "questions": [
+            {
+              "stem": "A founder needs to structure her U.S. business in a way that supports her E-2 visa application. She already has a business attorney who handled her LLC formation. What should she do?",
+              "options": [
+                "Ask her business attorney to handle the visa-related structuring since they already know her company",
+                "Skip the attorney and structure the business herself using online guides",
+                "Consult an immigration attorney for the visa-linked decisions, since this requires specialized expertise beyond general business law",
+                "Wait until her visa is approved before making any business structure decisions"
+              ],
+              "correctAnswer": 2,
+              "explanation": "Immigration-linked business structuring requires an immigration attorney, not a general business attorney. Just as you would not go to a cardiologist for a broken arm, visa-related decisions need a specialist who understands how business structure affects immigration status. The business attorney handles corporate matters; the immigration attorney handles visa-specific requirements."
+            }
+          ]
+        },
+        {
+          "type": "reflection",
+          "id": "ref-3-3-1",
+          "title": "Reflection: Your Legal Needs",
+          "placement": "after-section",
+          "sectionId": "text-3-3-2",
+          "prompt": "Think about your first 6 months of U.S. operations. What legal tasks can you handle yourself? Where will you need professional help? Write down your top 3 legal priorities and estimate the total cost using the ranges from this lesson. Have you identified an attorney yet, or do you need to start that search?"
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-3-3-1",
+          "title": "Key Takeaway",
+          "content": "<p>The takeaway is clear. Use free resources first: SBDC counseling, UCF BIP referrals, and Florida Bar referral services. Handle simple filings yourself (SunBiz, EIN, sales tax registration). Save your attorney budget for the decisions that carry real risk : investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Apply this principle: ask for flat fees, verify international experience, and always get the fee agreement in writing. Evaluate each legal need against the cost tables above before you commit.</p>"
+        }
+      ]
+    }
+  ]
+}
