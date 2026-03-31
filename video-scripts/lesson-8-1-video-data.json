@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-8-1",
+  "videoTitle": "Self-Assessment \u00e2\u20ac\u201d Are You Ready?",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "UCF Headquarters \u00e2\u20ac\u201d reflection, wrap-up, return to base",
+  "totalDuration": 310.08,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Arriving at UCF Headquarters",
+      "bullets": [],
+      "narration": "After seven modules and dozens of topics, you have arrived at the final destination on this road trip \u00e2\u20ac\u201d the UCF campus and its Business Incubation Program headquarters. Picture the modern buildings, the research labs, the incubator offices where startups are already working. This is home base. This is the launchpad. But how much do you actually remember, and more importantly, where are the gaps you still need to fill? Having information is not the same as being ready. The goal here is to know where the gaps are and what help you need before you spend money. Think of this as mission control running a systems check before launch. Let me walk you through it.",
+      "template": "intro",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-1.wav",
+      "duration": 35.68
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The Four Themes \u00e2\u20ac\u201d Your Decision Filter",
+      "bullets": [
+        "Reduce Risk \u00e2\u20ac\u201d avoid legal, financial, and operational traps before they happen",
+        "Watch Your Money \u00e2\u20ac\u201d know the realistic costs before committing resources",
+        "Avoid Common Mistakes \u00e2\u20ac\u201d do not repeat the errors other founders have made",
+        "Understand the Culture \u00e2\u20ac\u201d know how American business actually works day to day"
+      ],
+      "narration": "Before you sign anything, hire anyone, or transfer money, recall the four themes that ran through every module. Reduce Risk \u00e2\u20ac\u201d avoid the legal, financial, and operational traps that catch founders who move too fast without preparation. Watch Your Money \u00e2\u20ac\u201d know the realistic costs before committing, and always check free resources before paying for private help. Avoid Common Mistakes \u00e2\u20ac\u201d the founders who came before you made expensive errors. Learn from them instead of repeating them. And Understand the Culture \u00e2\u20ac\u201d know how American business actually works, because friendliness and commitment are two very different things. These four themes are your decision filter. Every choice you make in the U.S. market should pass through all four before you act.",
+      "template": "split-left",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-2.wav",
+      "duration": 36.24
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Modules 1 Through 3 \u00e2\u20ac\u201d Your Foundation Check",
+      "bullets": [
+        "Legal Setup: Do you know which entity type fits your goals and visa situation?",
+        "Finances: Can you explain federal income tax versus state sales tax?",
+        "IP Protection: Does your home-country IP protection cover you in the U.S.?",
+        "If any area feels unclear, consult a professional before filing or spending"
+      ],
+      "narration": "Let me walk through each module as a readiness check. Module 1, Legal Setup: this is your foundation on campus. Do you know which entity type fits your business goals and visa situation? Have you checked SunBiz for name availability? Do you understand the registered agent requirement and what documents you need for a U.S. bank account? If anything feels unclear, consult a business attorney before filing. Module 2, Finances and Taxes: can you explain federal income tax versus state sales tax? Do you understand how U.S. sales tax differs from VAT? Have you identified an accountant who understands international founders? Module 3, Protecting Your Business: does your home-country IP protection cover you in the U.S.? Can you list the insurance types your business needs? Any uncertainty here means an IP attorney conversation is a high priority.",
+      "template": "split-right",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-3.wav",
+      "duration": 48.48
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Modules 4 Through 7 \u00e2\u20ac\u201d Markets, Culture, and Ecosystem",
+      "bullets": [
+        "Team Building: Do you understand contractor versus employee classification?",
+        "U.S. Customers: Have you researched your competitive set and pricing expectations?",
+        "Business Culture: Can you explain American friendliness versus business commitment?",
+        "Ecosystem: Can you name three organizations offering free support to international founders?"
+      ],
+      "narration": "Module 4, Building Your Team: do you understand contractor versus employee classification in the U.S.? Are you aware that true hiring cost is salary plus fifteen to thirty percent overhead? Misclassifying a worker leads to back taxes, penalties, and legal liability. Module 5, U.S. Customers: have you researched your competitive set? Do you know how pricing expectations differ here? Do you understand vendor onboarding requirements \u00e2\u20ac\u201d the W-9, insurance certificates, and procurement systems that can delay deals for weeks? Module 6, Business Culture: can you explain American friendliness versus business commitment? Do you know the follow-up expectations after meetings? Module 7, Ecosystem: can you name three organizations offering free support to international founders? Do you know what phases two and three of UCF BIP offer? If you cannot name specific resources you plan to contact, revisit Module 7.",
+      "template": "split-left",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-4.wav",
+      "duration": 52.4
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "The Readiness Scoring Exercise",
+      "bullets": [
+        "Rate yourself one to five for each of the seven topic areas",
+        "One means major questions \u00e2\u20ac\u201d five means fully handled",
+        "Any area rated one or two is a priority for professional consultation",
+        "Areas rated three are good candidates for your UCF BIP one-on-one conversation"
+      ],
+      "narration": "Here is how to turn this into a concrete tool. For each of the seven module topics, rate your readiness on a scale of one to five. One means you have major questions and need professional guidance before doing anything. Three means you feel reasonably prepared and know where to get help. Five means you have it handled with no gaps. Rate yourself honestly on legal setup, finances and taxes, IP and business protection, building your team, U.S. customers, business culture, and ecosystem resources. Now look at your scores. Any area rated one or two is a priority for professional consultation before you take action. Areas rated three are good candidates for your one-on-one conversation with the UCF BIP team. Areas rated four or five mean you are ready to move. Write down your three lowest-scoring areas. Those become your immediate action items.",
+      "template": "split-right",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-5.wav",
+      "duration": 46.56
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Where to Get Help \u00e2\u20ac\u201d Your Professional Map",
+      "bullets": [
+        "Legal questions: business attorney with international experience \u00e2\u20ac\u201d SBDC connects you with pro bono clinics",
+        "Tax and accounting: CPA who works with foreign-owned businesses",
+        "Immigration: immigration attorney \u00e2\u20ac\u201d not optional",
+        "General guidance: schedule your one-on-one with UCF BIP"
+      ],
+      "narration": "No launch is perfect. The smartest founders identify what is missing and get help before liftoff. You are not supposed to be an expert in all seven areas. That is exactly why this campus has an entire ecosystem of advisors. For legal questions, a business attorney with international experience \u00e2\u20ac\u201d the SBDC connects you with pro bono legal clinics. For taxes, a CPA who understands foreign-owned businesses. For immigration, an immigration attorney \u00e2\u20ac\u201d this is not optional. For IP protection, an IP attorney who can guide your filing strategy. For banking, start with the bank directly and bring all your documents. For customer acquisition, the SBDC and SCORE offer free advising. And for general guidance, schedule your one-on-one with UCF BIP. Your readiness scores are your map. Prioritize professionals based on your lowest scores.",
+      "template": "diagonal",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-6.wav",
+      "duration": 46.72
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Knowledge Is the Starting Point \u00e2\u20ac\u201d Action Is What Follows",
+      "bullets": [],
+      "narration": "You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-launch systems report. The areas where you rated yourself lowest are your highest-priority next steps. One important reminder: everything in this program was general educational information, not legal, tax, immigration, or financial advice. Before you act on any topic, consult a qualified professional for your specific situation. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe action. Next lesson: your downloadable resources and digital credential \u00e2\u20ac\u201d the tools you take with you from campus headquarters.",
+      "template": "intro",
+      "avatarScene": "lesson-8-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-1/lesson-8-1-scene-7.wav",
+      "duration": 44.0
+    }
+  ]
+}

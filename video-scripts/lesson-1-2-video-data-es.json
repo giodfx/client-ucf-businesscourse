@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-1-2",
+  "videoTitle": "Registrándote en SunBiz — Paso a Paso",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "City Landscape — downtown Orlando, business formation, government",
+  "totalDuration": 320.64,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Entrando al Ayuntamiento",
+      "bullets": [],
+      "narration": "Ya elegiste tu edificio en la ciudad — local comercial o torre. Ahora es momento de entrar al Ayuntamiento y registrarlo. En Florida, eso significa SunBiz, el portal oficial del estado para el registro de empresas. Piensa en SunBiz como el mostrador digital del Ayuntamiento. Entras, presentas tus documentos, y sales con tu negocio en el registro de la ciudad. Y esto es lo que hace diferente a Florida: no necesitas estar en el país para hacerlo. Algunos fundadores han registrado su entidad desde el extranjero y la tenían activa antes de que terminara la semana.",
+      "template": "intro",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-1.wav",
+      "duration": 34.08
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Por Qué Florida Sigue Ganando",
+      "bullets": [
+        "Sin impuesto estatal sobre la renta personal — dinero real que se queda en tu bolsillo",
+        "Registro en línea simple a través de SunBiz, frecuentemente activo en días",
+        "Fuertes vínculos globales — servicios en español, banca global, firmas de abogados internacionales",
+        "Costos más bajos — el espacio de oficina en Orlando está muy por debajo de Miami, Nueva York o San Francisco"
+      ],
+      "narration": "Antes de recorrer el proceso de registro, hablemos de por qué tantos fundadores internacionales eligen Florida como su punto de entrada. Primero, sin impuesto estatal sobre la renta personal. Eso es un ahorro real. Segundo, SunBiz te permite formar una LLC o corporación completamente en línea, y las entidades frecuentemente están activas en pocos días hábiles. Tercero, el corredor de Orlando y Miami ofrece servicios en español, banca global, y firmas de abogados acostumbradas a trabajar con empresas de propiedad extranjera. Y cuarto, el espacio de oficina en el centro de Florida cuesta mucho menos que en Miami, Nueva York o San Francisco. Más de setenta mil estudiantes en UCF y un sector tecnológico en crecimiento suman al impulso.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-2.wav",
+      "duration": 45.76
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "El Proceso de Registro en SunBiz",
+      "bullets": [
+        "Ve a sunbiz.org y selecciona Iniciar un Negocio",
+        "Elige el tipo de entidad, ingresa el nombre del negocio, proporciona información del miembro",
+        "Designa un agente registrado con una dirección física en Florida",
+        "Paga la tarifa de registro — aproximadamente ciento veinticinco dólares para una LLC"
+      ],
+      "narration": "Aquí está el proceso real en el mostrador del Ayuntamiento. Ve a sunbiz.org y selecciona Iniciar un Negocio. Elige tu tipo de entidad — LLC o Corporación. Ingresa el nombre de tu negocio. SunBiz verifica la disponibilidad en tiempo real. Proporciona la información del miembro o gerente. Luego designa tu agente registrado con una dirección física en Florida — no un apartado postal. Ingresa tus direcciones principal y de correo. Paga la tarifa de registro, típicamente alrededor de ciento veinticinco dólares para una LLC o setenta para una Corporación. Envía. Con tu información lista, todo el proceso generalmente toma de veinte a treinta minutos. Tu entidad frecuentemente está activa en pocos días hábiles.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-3.wav",
+      "duration": 49.52
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Tu EIN — El Número de Dirección en Tu Local",
+      "bullets": [
+        "El EIN es gratis del IRS — nunca pagues a un tercero por esto",
+        "Con SSN o ITIN: solicita en línea en irs.gov en unos quince minutos",
+        "Sin SSN ni ITIN: llama a la línea internacional del IRS para procesamiento el mismo día",
+        "Guarda tu carta de confirmación — bancos y clientes la van a pedir"
+      ],
+      "narration": "Después de registrarte en SunBiz, tu siguiente parada es el IRS para un Número de Identificación de Empleador. Piensa en el EIN como el número de dirección en tu local comercial. Sin él, nadie puede encontrarte en el sistema tributario. Lo necesitas para cuentas bancarias, declaraciones de impuestos y contratación. El EIN es gratis. Si tienes un SSN o ITIN, solicítalo en línea en irs.gov. Toma unos quince minutos y el número frecuentemente se emite de inmediato. Sin uno, tu opción más rápida es llamar a la línea internacional del IRS. Se ha reportado procesamiento el mismo día, aunque los tiempos de espera varían. Llamar temprano en la mañana suele ayudar. Guarda tu carta de confirmación. Bancos y clientes en formularios W-9 la van a pedir.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-4.wav",
+      "duration": 48.64
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "El Agente Registrado — El Portero de Tu Edificio",
+      "bullets": [
+        "Florida requiere un agente registrado con una dirección física",
+        "SunBiz necesita tres direcciones: principal, de correo y del agente registrado",
+        "Los servicios de agente típicamente cuestan de cien a trescientos dólares por año",
+        "Si tu agente caduca, Florida puede disolver tu entidad"
+      ],
+      "narration": "Todo edificio en la ciudad necesita un portero — alguien presente para recibir notificaciones oficiales cuando tú no estés. Ese es tu agente registrado. Florida requiere que toda entidad comercial mantenga un agente registrado con una dirección física. No un apartado postal, no un buzón virtual. SunBiz pide tres direcciones: principal, de correo y del agente registrado. Si no estás en Florida a tiempo completo, un servicio de agente registrado es la solución más simple. Típicamente cuestan de cien a trescientos dólares por año. No te saltes este paso. Si tu agente registrado caduca, Florida puede disolver tu entidad, lo que significa que tu negocio legalmente deja de existir hasta que lo corrijas.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-5.wav",
+      "duration": 47.36
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Errores de Registro Que Te Cuestan Tiempo",
+      "bullets": [
+        "Siempre verifica la disponibilidad del nombre en SunBiz Y verifica el dominio web correspondiente",
+        "Incluye el sufijo correcto de entidad — LLC, Inc. o Corp.",
+        "Asegúrate de que tu agente registrado haya consentido servir",
+        "Usa una dirección física, no un apartado postal, para los campos de principal y agente"
+      ],
+      "narration": "Aquí es donde los fundadores pierden tiempo en el mostrador del Ayuntamiento. Los errores de registro más comunes son fáciles de evitar. Primero, siempre verifica la disponibilidad del nombre en SunBiz antes de enviar. Y aquí hay un detalle que la mayoría pasa por alto — verifica también el dominio web correspondiente. Una vez que el nombre de tu entidad está registrado, no puedes cambiarlo sin formar una nueva entidad. Segundo, incluye el sufijo correcto. Las LLC deben decir LLC o L.L.C. Las corporaciones necesitan Inc., Corp. o Co. Tercero, tu agente registrado debe consentir servir. Si la información no coincide, el registro se detiene. Y cuarto, usa una dirección física para los campos de principal y agente registrado. Un apartado postal será rechazado.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-6.wav",
+      "duration": 50.16
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Tu Visita al Ayuntamiento Terminó",
+      "bullets": [],
+      "narration": "Tu visita al Ayuntamiento es una de las paradas más simples en la ciudad. El registro en Florida a través de SunBiz es directo si te preparas antes de registrar. Ten decidido tu tipo de entidad, tu nombre de negocio verificado, tu agente registrado arreglado, y tu plan de EIN listo. El mayor gasto excesivo en esta etapa es pagar a alguien cientos o miles de dólares por algo que puedes hacer tú mismo en treinta minutos. Guarda tu presupuesto para las conversaciones con abogados que realmente importan — acuerdos operativos, estatutos corporativos y asesoría sobre selección de entidad. Próxima parada: el distrito bancario, donde abrirás tu primera cuenta bancaria en Estados Unidos.",
+      "template": "intro",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-2/lesson-1-2-scene-7.wav",
+      "duration": 45.12
+    }
+  ]
+}

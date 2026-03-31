@@ -1,0 +1,92 @@
+{
+  "lessonId": "lesson-4-3",
+  "videoTitle": "Payroll, Taxes, and Employer Obligations",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Theme Park \u00e2\u20ac\u201d teamwork, talent, massive operations engine",
+  "totalDuration": 237.28,
+  "sceneCount": 6,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Running the Park \u00e2\u20ac\u201d The Real Cost of Every Team Member",
+      "bullets": [],
+      "narration": "Now that you have your backstage pass sorted, it is time to look at what it actually costs to keep the team running. Every attraction in the entertainment district has an operating budget that goes well beyond wages. There are safety inspections, insurance premiums, maintenance crews, and regulatory compliance. Hiring in the U.S. works the same way: salary is just the ticket price. A Mexican founder hired her first Orlando employee at fifty-five thousand dollars, then discovered the actual cost was closer to sixty-six thousand once employer taxes, workers' comp, and a health insurance stipend added roughly twenty percent. If you guessed fifty-five thousand was the total cost, you are already eleven thousand dollars short.",
+      "template": "intro",
+      "avatarScene": "lesson-4-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-3/lesson-4-3-scene-1.wav",
+      "duration": 38.32
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The Employer Tax Stack",
+      "bullets": [
+        "Employer FICA: Social Security plus Medicare at 7.65% of wages",
+        "Federal Unemployment (FUTA): about four hundred twenty dollars per employee per year",
+        "Florida State Unemployment (SUTA): eighteen to three hundred seventy-eight per year",
+        "Workers' Compensation: five hundred to two thousand per year for office work"
+      ],
+      "narration": "Behind the scenes, every attraction has maintenance, safety inspections, and insurance. Every employee works the same way. In many countries, employer costs are a single rate. In the U.S., you have multiple obligations stacked on top of each other. Employer FICA, which covers Social Security and Medicare, runs seven point six five percent of wages. On a sixty thousand dollar salary, that is forty-five hundred ninety dollars per year. Federal Unemployment tax, or FUTA, costs about four hundred twenty dollars per employee per year. Florida State Unemployment, or SUTA, ranges from eighteen to three hundred seventy-eight for new employers. And Workers' Compensation, required in Florida for four or more employees, costs five hundred to two thousand per year for office work. Add those together and you are looking at twelve to fifteen percent above salary before you even think about benefits.",
+      "template": "split-left",
+      "avatarScene": "lesson-4-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-3/lesson-4-3-scene-2.wav",
+      "duration": 48.88
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Use a Payroll Service \u00e2\u20ac\u201d Seriously",
+      "bullets": [
+        "Gusto: forty dollars per month plus six per employee",
+        "ADP Run: fifty-nine plus per month plus per-employee fees",
+        "QuickBooks Payroll: forty-five per month plus six per employee",
+        "A payroll service costs less than a single IRS penalty notice"
+      ],
+      "narration": "Even the biggest theme parks do not run their own payroll in-house. They contract specialists to handle the complexity. Your business should do the same. A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling eighteen hundred dollars. He switched to Gusto and the problem went away. Gusto runs forty dollars a month plus six per employee. ADP Run is fifty-nine plus per month. QuickBooks Payroll is forty-five per month plus six per employee. A payroll service automates tax calculations, direct deposit, W-2 preparation, and quarterly filings. The cost is less than a single IRS penalty notice. This is not where you save money by doing it yourself.",
+      "template": "split-right",
+      "avatarScene": "lesson-4-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-3/lesson-4-3-scene-3.wav",
+      "duration": 41.76
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Payroll Tax Penalties Are Personal",
+      "bullets": [],
+      "narration": "Here is something that surprises many founders. The IRS treats unpaid payroll taxes as a trust fund recovery penalty. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable, even if your business is an LLC or corporation. The penalty is one hundred percent of the unpaid amount, plus interest. Your liability protection does not shield you from this. A payroll service eliminates this risk entirely for less than the cost of a single penalty notice. Use one from day one. No exceptions.",
+      "template": "diagonal",
+      "avatarScene": "lesson-4-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-3/lesson-4-3-scene-4.wav",
+      "duration": 34.88
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "What U.S. Employees Expect Beyond the Paycheck",
+      "bullets": [
+        "Paid time off: not federally mandated, but most employers offer ten to fifteen days per year",
+        "Health insurance: not required for under fifty employees, but candidates ask about it",
+        "Consider a health stipend of two hundred to five hundred per month if you cannot offer group coverage",
+        "Flexible work and professional development are high-value, low-cost benefits"
+      ],
+      "narration": "Legal rules are the floor. Theme parks keep their best performers by offering perks. U.S. employers compete for talent the same way. Benefits are how you keep people from walking to the park next door. Paid time off is not federally mandated, but most employers offer ten to fifteen days per year. Florida does not mandate paid sick leave, but three to five days is standard. Health insurance is not required for businesses with fewer than fifty employees, but candidates often ask about it in interviews. Consider a stipend of two hundred to five hundred per month if you cannot offer group coverage yet. Retirement benefits like a 401k are not expected at the earliest stages. Flexible work arrangements and professional development budgets are high-value, low-cost benefits that make a difference in hiring.",
+      "template": "split-left",
+      "avatarScene": "lesson-4-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-3/lesson-4-3-scene-5.wav",
+      "duration": 43.04
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Know the Full Cost Before You Hire",
+      "bullets": [],
+      "narration": "An employee costs fifteen to thirty percent more than their base salary \u00e2\u20ac\u201d just like every attraction costs more to operate than the sticker price suggests. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is simple once you know the pieces. And a payroll service handles the details so you can focus on building your business. The theme park module is complete. Next destination: the port and shopping district, where you will learn how to adapt your product for the U.S. market and find your first American customers.",
+      "template": "intro",
+      "avatarScene": "lesson-4-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-3/lesson-4-3-scene-6.wav",
+      "duration": 30.4
+    }
+  ]
+}

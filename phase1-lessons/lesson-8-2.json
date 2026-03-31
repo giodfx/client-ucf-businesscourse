@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-8-2",
   "moduleId": "module-8",
+  "landscapeTheme": "UCF Headquarters",
   "title": "Resource Downloads & Digital Credential",
   "duration": 5,
   "objectives": [
@@ -11,49 +12,79 @@
     {
       "type": "text",
       "id": "text-8-2-1",
-      "title": "Your Takeaway Resources",
-      "content": "<p>Now that you have completed your readiness self-assessment, make sure you leave with the right tools. These four downloadable resources turn what you learned into step-by-step action:</p>\n\n<ol><li><strong>U.S. Market Entry Checklist</strong> . Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong> . Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong> . Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong> . Structured go/no-go framework to consider whether now is the right time.</li></ol>\n\n<p>Here is the practical takeaway. Download all four now. They pair directly with your 1:1 meeting with UCF BIP.</p>",
+      "title": "Your Takeaway Resources from Campus HQ",
+      "content": "<p>With your readiness assessment complete, think of this as walking through the UCF BIP resource center before heading out. You would not leave campus without picking up the materials that turn everything you learned into a real plan. These four downloadable resources do exactly that:</p>\n\n<ol><li><strong>U.S. Market Entry Checklist</strong> . Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong> . Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong> . Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong> . Structured go/no-go framework to consider whether now is the right time.</li></ol>\n\n<p>Download all four now. They pair directly with your 1:1 meeting with UCF BIP.</p>",
       "wordCount": 101
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>The UCF Business Incubation Program operates multiple sites across the greater Orlando region, providing over 100,000 square feet of incubation space. Since its founding, companies in the program have created thousands of jobs in Central Florida. UCF itself is one of the top patent-producing universities in the country, and the research partnerships between campus labs and incubator companies give founders access to talent and technology that would cost a fortune to build independently.</p>"
     },
     {
       "type": "text",
       "id": "text-8-2-2",
       "title": "Resource 1: U.S. Market Entry Checklist",
-      "content": "<p>The <strong>U.S. Market Entry Checklist</strong> converts every major topic from this program into action items organized by module: legal setup, finances, IP protection, team building, market entry, culture, and ecosystem resources. Each item includes a priority level and suggested timeframe.</p>\n\n<p>What does that mean for you? Tip: Start with the ecosystem section — it connects you with free resources before you start paying for services.</p>",
+      "content": "<p>This is your pre-departure checklist — every item, verified. The <strong>U.S. Market Entry Checklist</strong> turns every major topic from this program into action items grouped by module: legal setup, finances, IP protection, team building, market entry, culture, and ecosystem resources. Each item includes a priority level and suggested timeframe.</p>\n\n<p>What does that mean for you? Tip: Start with the ecosystem section — it connects you with free resources before you start paying for services.</p>",
       "wordCount": 65
     },
     {
       "type": "text",
       "id": "text-8-2-3",
       "title": "Resource 2: Florida Setup Roadmap",
-      "content": "<p>The <strong>Florida Setup Roadmap</strong> organizes by <strong>sequence</strong> instead of topic : answering \"what do I do first, second, third?\" It walks through four phases: (1) pre-arrival preparation (remote), (2) entity formation and registration, (3) financial infrastructure, and (4) operational readiness. Each phase includes estimated timeframes and flags which steps require physical presence versus remote completion.</p>\n\n<p>The bottom line? Many founders complete phases 1 and 2 remotely before arriving, so they can open a bank account in one visit with all documents ready.</p>",
+      "content": "<p>This is your step-by-step sequence — what comes first, second, third. The <strong>Florida Setup Roadmap</strong> is sorted by <strong>order</strong> instead of topic, answering exactly that question. It walks through four phases: (1) pre-arrival preparation (remote), (2) entity formation and registration, (3) financial infrastructure, and (4) operational readiness. Each phase includes estimated timeframes and flags which steps require physical presence versus remote completion.</p>\n\n<p>Many founders complete phases 1 and 2 remotely before arriving, so they can open a bank account in one visit with all documents ready.</p>",
       "wordCount": 82
     },
     {
       "type": "text",
       "id": "text-8-2-4",
       "title": "Resource 3: Central Florida Resource Guide",
-      "content": "<p>The <strong>Central Florida Resource Guide</strong> puts all the organizations from Module 7 into a single, searchable reference. It covers business advising (SBDC, SCORE, UCF BIP), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and UCF BIP phases 2 and 3 details.</p>\n\n<p>Let's put this in perspective. Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p>",
+      "content": "<p>This is your campus directory — every support organization, one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, UCF BIP), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through UCF BIP.</p>\n\n<p>Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p>",
       "wordCount": 80
     },
     {
       "type": "text",
       "id": "text-8-2-5",
       "title": "Resource 4: Expansion Decision Worksheet",
-      "content": "<p>The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five dimensions: market fit, financial readiness, legal/regulatory readiness, operational capacity, and timing/opportunity cost.</p>\n\n<p>Here is the thing. This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p>\n\n<p>Complete this before your 1:1 meeting with UCF BIP — it helps the team give you targeted advice based on your specific readiness profile.</p>",
+      "content": "<p>This is your go/no-go decision — the honest assessment before you commit. The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five areas: market fit, financial readiness, legal readiness, operations, and timing.</p>\n\n<p>This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p>\n\n<p>Complete this before your 1:1 meeting with UCF BIP — it helps the team give you targeted advice based on your specific readiness profile.</p>",
       "wordCount": 102
+    },
+    {
+      "type": "accordion",
+      "id": "int-8-2-1",
+      "title": "Resource Library — Quick Reference",
+      "sections": [
+        {
+          "heading": "Legal & Formation",
+          "content": "- **SunBiz** (sunbiz.org) — Florida business registration\n- **IRS EIN** (irs.gov) — Free employer identification number\n- **LegalZoom/Incfile** — Paid formation services if you want assistance\n- **Florida Bar Lawyer Referral** — Find a vetted business attorney"
+        },
+        {
+          "heading": "Banking & Finance",
+          "content": "- **Mercury** — Online banking for startups (international-friendly)\n- **Relay** — Free business banking with accounting integration\n- **Stripe Atlas** — Formation + banking bundle for international founders\n- **QuickBooks Online** — Most popular small business accounting software"
+        },
+        {
+          "heading": "Visas & Immigration",
+          "content": "- **USCIS** (uscis.gov) — Official immigration information\n- **Boundless** — Immigration application assistance\n- **AILA Lawyer Search** — Find a qualified immigration attorney\n- **Fragomen** — International immigration law firm"
+        },
+        {
+          "heading": "Local Support",
+          "content": "- **Florida SBDC at UCF** — Free business consulting\n- **SCORE Orlando** — Free mentorship from business veterans\n- **Orlando Economic Partnership** — Relocation and expansion support\n- **Prospera** — Bilingual support for Hispanic entrepreneurs\n- **UCF BIP** — Business incubation programs"
+        }
+      ]
     },
     {
       "type": "text",
       "id": "text-8-2-6",
       "title": "Your Digital Credential",
-      "content": "<p>When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the UCF BIP U.S. Market Readiness Program.</p>\n\n<p>Now, here is where it gets tricky. The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification — but it signals you took a structured, university-backed program seriously.</p>\n\n<h4>How to Claim Your Credential</h4>\n\n<p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p>\n\n<ol><li>Open the email and select the claim link</li><li>Create your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol>\n\n<p>The credential does not expire.</p>",
+      "content": "<p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the UCF BIP U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p>\n\n<p>Now, here is where it gets tricky. The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification — but it signals you took a structured, university-backed program seriously.</p>\n\n<h4>How to Claim Your Credential</h4>\n\n<p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p>\n\n<ol><li>Open the email and select the claim link</li><li>Set up your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol>\n\n<p>The credential does not expire.</p>",
       "wordCount": 135
     },
     {
       "type": "knowledge-check",
-      "id": "kc-8-2-1",
-      "title": "Resource Types Check",
+      "id": "kc-8-2",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
@@ -66,15 +97,7 @@
           ],
           "correctAnswer": 1,
           "explanation": "The Florida Setup Roadmap is organized by sequence rather than by topic. It walks founders through four phases : pre-arrival preparation, entity formation, financial infrastructure, and operational readiness — in the correct order. The Checklist organizes by module topic, while the Roadmap answers 'what do I do first, second, third?'"
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-8-2-2",
-      "title": "Digital Credential and Resource Application",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A founder completed the Expansion Decision Worksheet and scored high on market fit but low on financial readiness. Based on the lesson guidance, what is the most strategic response?",
           "options": [
@@ -85,6 +108,17 @@
           ],
           "correctAnswer": 2,
           "explanation": "The Expansion Decision Worksheet is not a pass/fail test. A founder from Colombia used it, found her financial score was 2 out of 5, spent four months strengthening home-market revenue, and re-scored at 4 before entering the U.S. with a stronger foundation. The worksheet tells you what gap to close first, not whether to give up."
+        },
+        {
+          "stem": "A founder from Brazil has completed the UCF BIP Phase 1 program and wants to use her digital credential to strengthen her professional profile when meeting potential U.S. partners. How should she apply the POK Tech credential?",
+          "options": [
+            "Claim the credential through the POK Tech email link, add it to her LinkedIn profile using the built-in sharing tool, and reference it on her website — since the credential does not expire, it serves as an ongoing signal that she completed a structured, university-backed market readiness program",
+            "Print the credential and bring a physical copy to every business meeting as proof of her qualifications",
+            "Wait until she completes Phase 2 before claiming the credential, since the Phase 1 credential alone carries little weight",
+            "Use the credential to apply for SBA loans, since it serves as a professional certification recognized by federal agencies"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The POK Tech digital credential is designed to be shared digitally — on LinkedIn, websites, and email signatures. It validates completion of the UCF BIP U.S. Market Readiness Program and does not expire. It is a program completion credential, not a professional certification, so it does not qualify for SBA lending or serve as a formal qualification. There is no reason to wait for Phase 2 — the Phase 1 credential stands on its own as a signal of structured preparation."
         }
       ]
     },
@@ -100,7 +134,7 @@
       "type": "key-takeaway",
       "id": "kt-8-2-1",
       "title": "Key Takeaway",
-      "content": "<p>These four resources are yours to keep. They extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Download all four now, and bring them to your 1:1 meeting with the UCF BIP team. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p>"
+      "content": "<p>The takeaway is this: do not leave headquarters without your equipment. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the UCF BIP team at campus headquarters. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p>"
     }
   ]
 }

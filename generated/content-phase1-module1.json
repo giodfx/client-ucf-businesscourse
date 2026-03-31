@@ -39,30 +39,160 @@
         },
         {
           "type": "text",
-          "id": "text-1-1-1",
-          "title": "LLC — The Flexible Option",
-          "content": "<p>The LLC (Limited Liability Company) is one of the most popular choices for international founders getting started. Here is why:</p>\n\n<ul><li><strong>Simple to set up.</strong> You can register a Florida LLC online in about 30 minutes.</li><li><strong>Personal risk protection.</strong> Your personal assets are separate from the business. If the business faces a lawsuit or debt, your savings and property are usually safe.</li><li><strong>Flexible taxes.</strong> A single-member LLC is what the IRS calls a \"disregarded entity,\" meaning profits pass through to your personal tax return. A multi-member LLC is taxed as a partnership.</li><li><strong>Low cost.</strong> State filing fees in Florida are typically around $125.</li></ul>\n\n<p>The bottom line? <strong>The limitation:</strong> If you plan to raise venture capital, many U.S. investors prefer not to invest in an LLC. They usually expect a C-Corp. Also, for certain visa types like the E-2, immigration lawyers often suggest a C-Corp instead.</p>",
-          "wordCount": 147
+          "id": "text-1-1-entity-intro",
+          "title": "Three Structures, Three Different Paths",
+          "content": "<p>Think of it this way: an LLC is like opening a flexible storefront — easy to set up, simple to run, and it keeps your personal assets separate from the business. A C-Corp is more like building a glass tower — more paperwork and formality, but it is the structure investors expect if you plan to raise venture capital. An S-Corp exists too, but it requires all shareholders to be U.S. citizens or residents, which rules out most international founders.</p>\n\n<p>The comparison below breaks down the key differences to help you decide which structure fits your situation.</p>"
         },
         {
-          "type": "text",
-          "id": "text-1-1-2",
-          "title": "C-Corp — The Investor-Ready Structure",
-          "content": "<p>A C-Corp (C Corporation) is a separate legal entity that pays its own taxes, can issue stock, and can have any number of shareholders. If you are thinking about investors, this is likely the right structure.</p>\n\n<ul><li><strong>Investors expect it.</strong> U.S. venture capital firms usually require a Delaware C-Corp. If raising money is in your near-term plans, starting with a C-Corp can save you a costly switch later.</li><li><strong>Separate tax entity.</strong> The corporation pays federal tax at 21%. The downside: if it also pays dividends, shareholders pay tax again on those dividends. This is called \"double taxation.\"</li><li><strong>More formalities.</strong> A C-Corp requires bylaws, a board of directors, and annual meetings. There is more paperwork, but the structure is well understood by banks, investors, and attorneys.</li></ul>\n\n<p>Let's put this in perspective. Many founders choose a Delaware C-Corp for its investor-friendly laws, even if they run the business in Florida. If you go this route, you'll also need to \"foreign qualify\" in Florida (register your Delaware company to do business here), which adds a small extra filing.</p>",
-          "wordCount": 174
+          "type": "comparison-card",
+          "id": "int-1-1-1",
+          "title": "LLC vs. C-Corp vs. S-Corp — Side by Side",
+          "columns": [
+            {
+              "heading": "LLC",
+              "items": [
+                {
+                  "label": "Liability Protection",
+                  "value": "Full personal asset protection"
+                },
+                {
+                  "label": "Tax Treatment",
+                  "value": "Pass-through (no double taxation)"
+                },
+                {
+                  "label": "Investor Appeal",
+                  "value": "Lower — harder to issue stock"
+                },
+                {
+                  "label": "Immigration Compatibility",
+                  "value": "High — any visa holder can own"
+                },
+                {
+                  "label": "Formation Cost",
+                  "value": "$125 FL filing fee"
+                },
+                {
+                  "label": "Complexity",
+                  "value": "Low — minimal ongoing formalities"
+                }
+              ]
+            },
+            {
+              "heading": "C-Corp",
+              "items": [
+                {
+                  "label": "Liability Protection",
+                  "value": "Full personal asset protection"
+                },
+                {
+                  "label": "Tax Treatment",
+                  "value": "Double taxation (corporate + dividend)"
+                },
+                {
+                  "label": "Investor Appeal",
+                  "value": "High — standard for VC funding"
+                },
+                {
+                  "label": "Immigration Compatibility",
+                  "value": "High — required for some visas"
+                },
+                {
+                  "label": "Formation Cost",
+                  "value": "$70 FL filing fee + bylaws"
+                },
+                {
+                  "label": "Complexity",
+                  "value": "High — board, minutes, annual reports"
+                }
+              ]
+            },
+            {
+              "heading": "S-Corp",
+              "items": [
+                {
+                  "label": "Liability Protection",
+                  "value": "Full personal asset protection"
+                },
+                {
+                  "label": "Tax Treatment",
+                  "value": "Pass-through (no double taxation)"
+                },
+                {
+                  "label": "Investor Appeal",
+                  "value": "Limited — max 100 shareholders"
+                },
+                {
+                  "label": "Immigration Compatibility",
+                  "value": "Low — U.S. residents only"
+                },
+                {
+                  "label": "Formation Cost",
+                  "value": "$70 filing + S-election form"
+                },
+                {
+                  "label": "Complexity",
+                  "value": "Medium — corporate formalities required"
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "text",
-          "id": "text-1-1-3",
-          "title": "S-Corp — Why It Probably Does Not Apply to You",
-          "content": "<p>You may hear about S-Corps from American friends or online articles. An S-Corp is not actually a separate entity type. It is a tax election you can make on an LLC or C-Corp to avoid double taxation.</p>\n\n<p>Here is the thing. <strong>Here is the key issue: S-Corps cannot have non-resident alien shareholders.</strong></p>\n\n<p>Since most founders entering the U.S. are classed as non-resident aliens for tax purposes, they can't get S-Corp status. This rule stays in place until your residency status changes.</p>\n\n<p>For this reason, the rest of this program focuses on LLC and C-Corp, the two structures that are actually available to you.</p>",
-          "wordCount": 108
+          "type": "scenario",
+          "id": "scenario-1-1-decision-tree",
+          "title": "Find Your Entity — Interactive Decision Guide",
+          "description": "Answer based on YOUR situation right now. Which of the following best describes your plans for the next 12-18 months?",
+          "paths": [
+            {
+              "label": "I plan to raise venture capital or angel investment",
+              "outcome": "Your best fit: C-Corp. U.S. investors almost universally require a C-Corp structure. It allows multiple share classes, stock option pools, and standard investment instruments (SAFEs, convertible notes). The extra paperwork and double taxation are the cost of being investor-ready from day one. Most attorneys will recommend a Delaware C-Corp if you are targeting institutional investors. Estimated first-year cost: $960-$2,600 (filing + registered agent + attorney).",
+              "isRecommended": false
+            },
+            {
+              "label": "I'm a solo founder — I want simple, low-cost, and flexible",
+              "outcome": "Your best fit: LLC. A Florida LLC gives you full liability protection, pass-through taxation (no double tax), and minimal paperwork. At $125 to file, it is the most affordable path. You can always convert to a C-Corp later if your plans change — though that conversion typically costs $2,000-$5,000 in legal fees. If there is any chance you will seek investors, factor that conversion cost into your decision now.",
+              "isRecommended": false
+            },
+            {
+              "label": "I will have 5+ employees and need a formal corporate structure",
+              "outcome": "Your best fit: C-Corp. Once you are hiring multiple employees, issuing stock options, and building formal management structure, the C-Corp framework is designed for this. It separates ownership from management, allows for a board of directors, and gives you the corporate credibility that larger partners and clients expect. Even without investor plans, a C-Corp may be worth the added complexity at this scale.",
+              "isRecommended": false
+            },
+            {
+              "label": "I'm a U.S. citizen or permanent resident wanting tax savings",
+              "outcome": "You may qualify for S-Corp status — but only if ALL shareholders are U.S. citizens or permanent residents. S-Corp gives you pass-through taxation (like an LLC) with potential savings on self-employment tax. However, most participants in this program are international founders, which makes S-Corp unavailable. If you have a U.S. co-founder, consult a tax attorney about whether a mixed structure could work.",
+              "isRecommended": false
+            }
+          ]
+        },
+        {
+          "type": "scenario",
+          "id": "scenario-1-1-entity",
+          "title": "Practice: Which Entity Fits This Founder?",
+          "description": "You are launching a tech startup with a co-founder. You have $80,000 in savings, a working prototype, and plan to pitch U.S. investors within 12 months. Which entity structure makes the most sense?",
+          "paths": [
+            {
+              "label": "LLC — keep it simple and flexible",
+              "outcome": "An LLC is simpler to set up and maintain, but most U.S. venture capital firms will not invest in an LLC. If you plan to raise institutional funding within 12 months, you will likely need to convert to a C-Corp later — adding $2,000-$5,000 in legal fees and tax complexity. Starting as a C-Corp avoids this.",
+              "isRecommended": false
+            },
+            {
+              "label": "C-Corp — investor-ready from day one",
+              "outcome": "Correct for this scenario. A Delaware or Florida C-Corp is the standard structure that U.S. investors expect. It allows for multiple share classes, stock option pools, and the SAFE/convertible note instruments that early-stage investors use. The extra paperwork is worth it if fundraising is in your 12-month plan.",
+              "isRecommended": true
+            },
+            {
+              "label": "S-Corp — best tax treatment",
+              "outcome": "An S-Corp offers tax advantages for U.S. citizens, but it requires ALL shareholders to be U.S. citizens or permanent residents. As an international founder, you are ineligible. This option is off the table for most participants in this program.",
+              "isRecommended": false
+            }
+          ]
         },
         {
           "type": "text",
           "id": "text-1-1-4",
           "title": "How Your Entity Type Connects to Everything Else",
-          "content": "<p>Your entity choice creates a chain reaction across banking, taxes, visas, and fundraising. Here is how the pieces connect:</p>\n\n<p>Now, here is where it gets tricky. A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took three months, cost over three thousand dollars in legal fees, and nearly killed the deal. She later said: \"If someone had told me to start with a C-Corp, I would have saved a quarter of my first year.\"</p>\n\n<p><strong>Banking:</strong> Having your articles of organization, EIN, and operating agreement ready before you visit a bank increases your chances of approval. We cover this in detail in Lesson 3 of this module.</p>\n\n<p><strong>Taxes:</strong> LLC profits pass through to your personal return, with specific IRS requirements for non-resident aliens. A C-Corp files its own return (Form 1120). Module 2 goes deeper.</p>\n\n<p><strong>Visas:</strong> Immigration lawyers often prefer C-Corps for E-2 treaty investor visa cases. If a visa is part of your plan, talk to a lawyer before choosing your entity.</p>\n\n<p><strong>Investors:</strong> U.S. venture capital firms usually require a Delaware C-Corp. One founder spent thousands of dollars and months switching from a Florida LLC to a Delaware C-Corp when an investor required it. Starting with the right entity avoids this.</p>",
+          "content": "<p>Your entity choice creates a chain reaction across banking, taxes, visas, and fundraising. The building you pick in the city determines which services you can access, what your operating costs look like, and who will want to do business with you. Here is how the pieces connect:</p>\n\n<p>Now, here is where it gets tricky. A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took three months, cost over three thousand dollars in legal fees, and nearly killed the deal. She later said: \"If someone had told me to start with a C-Corp, I would have saved a quarter of my first year.\"</p>\n\n<p><strong>Banking:</strong> Having your articles of organization, EIN, and operating agreement ready before you visit a bank increases your chances of approval. The storefront and the tower have different paperwork at the bank counter. We cover this in detail in Lesson 3 of this module.</p>\n\n<p><strong>Taxes:</strong> LLC profits pass through to your personal return, with specific IRS requirements for non-resident aliens. A C-Corp files its own return (Form 1120). The storefront has different utility costs than the tower. Module 2 goes deeper.</p>\n\n<p><strong>Visas:</strong> Immigration lawyers often prefer C-Corps for E-2 treaty investor visa cases. If a visa is part of your plan, talk to a lawyer before choosing your entity.</p>\n\n<p><strong>Investors:</strong> U.S. venture capital firms usually require a Delaware C-Corp. One founder spent thousands of dollars and months switching from a Florida LLC to a Delaware C-Corp when an investor required it. Starting with the right entity avoids this.</p>",
           "wordCount": 228
         },
         {
@@ -73,11 +203,11 @@
           "content": "<p>Now, consider the mistakes that cost founders the most time and money at this stage:</p>\n\n<ul><li><strong>Choosing the wrong entity type for their visa or tax situation.</strong> A founder who needs an E-2 visa but formed a single-member LLC may need to rebuild the structure before the visa process can move forward. That means legal fees, delays, and stress that could have been avoided.</li><li><strong>Using personal bank accounts for business transactions.</strong> This is called \"piercing the corporate veil.\" It can destroy the liability protection your entity provides. If you mix personal and business funds, a court can hold you personally responsible for business debts. Keep them separate from day one.</li><li><strong>Ignoring the need for a registered agent.</strong> Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional. If your registered agent lapses, the state can dissolve your entity, meaning your business legally stops existing until you fix it.</li></ul>"
         },
         {
-          "type": "callout",
-          "id": "callout-1-1-wm",
-          "variant": "watch-money-costs",
+          "type": "text",
+          "id": "text-1-1-5",
           "title": "Watch Your Money: What This Actually Costs",
-          "content": "<p>Here's where the numbers matter. Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p>\n\n<ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0-$500 if you use an attorney. Total typically $125-$625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300-$1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300-$500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960 to $2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100-$300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul>\n\n<p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p>"
+          "content": "<p>Here's where the numbers matter. Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p>\n\n<ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0-$500 if you use an attorney. Total typically $125-$625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300-$1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300-$500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960 to $2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100-$300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul>\n\n<p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p>",
+          "wordCount": 167
         },
         {
           "type": "reflection",
@@ -87,9 +217,16 @@
           "prompt": "Take a moment to think about your own situation:\n\n- Do you plan to raise investment capital in the near future? If so, a C-Corp may be your best starting point.\n- Is immigration part of your plan? If so, which visa category are you considering, and what does your attorney recommend?\n- What is your priority right now: simplicity and low cost, or investor readiness?\n\nWrite down the top two or three factors driving your choice. If you are unsure, write down the specific questions you need answered before deciding. Bring those questions to a consultation with a U.S. business attorney."
         },
         {
+          "type": "callout",
+          "id": "callout-1-1-latam",
+          "variant": "latam-supplement",
+          "title": "Latin America Resources — Legal Setup",
+          "content": "<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>Prospera:</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>UCF BIP network:</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>"
+        },
+        {
           "type": "knowledge-check",
-          "id": "kc-1-1-1",
-          "title": "Quick Check: What Would You Do?",
+          "id": "kc-1-1",
+          "title": "What Would You Do?",
           "placement": "end-of-lesson",
           "questions": [
             {
@@ -106,24 +243,24 @@
             {
               "stem": "A fellow founder tells you: 'Just form an LLC like I did. It worked for me.' How should you evaluate this advice?",
               "options": [
-                "Follow it. If it worked for them, it will work for you",
                 "Consider it, but recognize that your visa, tax, and growth plans may require a different structure",
+                "Follow it. If it worked for them, it will work for you",
                 "Ignore all advice from other founders; only attorneys can help",
                 "Form both an LLC and a C-Corp to cover all bases"
               ],
-              "correctAnswer": 1,
-              "explanation": "Every founder's situation is different. What works for a freelance consultant from Canada may not work for a tech startup founder from Brazil who plans to raise capital. Entity choice depends on your visa status, tax treaty, industry, and growth plans."
+              "correctAnswer": 0,
+              "explanation": "Every founder's situation is different. What works for a freelance consultant from Canada may not work for a tech startup founder from Brazil who plans to raise capital. Entity choice depends on your visa status, tax treaty, industry, and growth plans. Blindly following another founder's path ignores these differences, while dismissing peer advice entirely or forming two entities wastes time and money."
             },
             {
               "stem": "You formed a Florida LLC eight months ago. Now a U.S. investor wants to lead a seed round, but they require a Delaware C-Corp. What is the likely impact?",
               "options": [
                 "No impact. The investor will accept the LLC",
-                "You will need to convert your entity, which typically costs thousands of dollars and takes weeks or months",
                 "You can simply elect S-Corp status to satisfy the investor",
-                "You will need to close the LLC and wait a year before forming a new entity"
+                "You will need to close the LLC and wait a year before forming a new entity",
+                "You will need to convert your entity, which typically costs thousands of dollars and takes weeks or months"
               ],
-              "correctAnswer": 1,
-              "explanation": "Converting from a Florida LLC to a Delaware C-Corp involves legal fees, new state filings, and potential tax consequences. This is a common and costly mistake. Starting with the right entity type avoids this."
+              "correctAnswer": 3,
+              "explanation": "Converting from a Florida LLC to a Delaware C-Corp involves legal fees, new state filings, and potential tax consequences. This is a common and costly mistake. The investor will not simply accept an LLC when they require a C-Corp for standard investment terms. S-Corp status is unavailable to non-resident aliens and would not satisfy an investor's C-Corp requirement. You do not need to wait a year, but the conversion process itself is costly and time-consuming."
             }
           ]
         },
@@ -131,7 +268,7 @@
           "type": "key-takeaway",
           "id": "kt-1-1-1",
           "title": "Key Takeaway",
-          "content": "<p>The key insight is this: your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. For most international founders, the real choice is between an LLC (simple, flexible, affordable) and a C-Corp (investor-ready, more structure). The S-Corp is generally not available to non-citizen founders.</p>\n\n<p>Don't default to the cheapest option without knowing how it connects to your bigger picture. If your situation involves visa concerns, future investors, or home-country tax treaties, think about meeting with a business attorney before you file anything. A one-hour meeting may cost a few hundred dollars. Fixing the wrong entity choice later can cost several thousand, plus months of delays.</p>"
+          "content": "<p>The key insight is this: your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. For most international founders, the real choice is between an LLC (simple, flexible, affordable) and a C-Corp (investor-ready, more structure). The S-Corp is generally not available to non-citizen founders. Whether you set up in the storefront or the tower, that choice shapes every step that follows.</p>\n\n<p>Don't default to the cheapest option without knowing how it connects to your bigger picture. If your situation involves visa concerns, future investors, or home-country tax treaties, think about meeting with a business attorney before you file anything. A one-hour meeting may cost a few hundred dollars. Fixing the wrong entity choice later can cost several thousand, plus months of delays.</p>"
         }
       ]
     },
@@ -150,8 +287,8 @@
         {
           "type": "text",
           "id": "text-1-2-0",
-          "title": "Why Florida — And Why International Founders Keep Choosing It",
-          "content": "<p>Now that you have chosen your office in the city (storefront or tower), it is time to register it. Think of this as walking to City Hall.</p>\n\n<p>Here is the practical takeaway. In Florida, that starts with SunBiz, the state's online portal for business registration.</p>\n\n<p>But first, why do so many international founders choose Florida as their entry point? Here are some of the reasons that come up most often:</p>\n\n<ul><li><strong>No state personal income tax.</strong> Unlike states like California or New York, Florida has no state personal income tax, which can mean significant tax savings.</li><li><strong>Simple online registration.</strong> SunBiz allows you to form an LLC or corporation entirely online, and entities are often active within a few business days.</li><li><strong>Strong global ties.</strong> The Orlando and Miami corridor offers Spanish-speaking services, global banking, and legal firms used to working with foreign-owned businesses.</li><li><strong>Lower costs.</strong> Office space and coworking in the Orlando area tends to cost much less than similar options in Miami, New York, or San Francisco.</li><li><strong>Growing ecosystem.</strong> With over 70,000 students at UCF, a growing tech sector, and programs like UCF BIP, Central Florida offers a supportive environment for new businesses.</li></ul>",
+          "title": "From Entity to Registration — Making It Official",
+          "content": "<p>Now that you have chosen your business structure — whether an LLC or a C-Corp — it is time to make it official. Florida is where most international founders in this program will register, and the process is straightforward once you know the steps. The Division of Corporations, known as SunBiz, handles all business filings online. You do not need to be physically present in Florida to complete this process.</p>",
           "wordCount": 189
         },
         {
@@ -165,22 +302,117 @@
           "type": "text",
           "id": "text-1-2-1",
           "title": "SunBiz — Florida's Division of Corporations",
-          "content": "<p>SunBiz (sunbiz.org) is Florida's official portal for registering business entities, filing annual reports, and updating records.</p>\n\n<p>What does that mean for you? Before you begin, you typically need three things:</p>\n\n<ol><li><strong>Your entity type decision.</strong> LLC or Corporation? If you have not decided yet, review the previous lesson.</li><li><strong>A business name.</strong> It must be distinguishable from other Florida businesses and include a designator (\"LLC,\" \"Inc.,\" or \"Corp.\"). You can check availability on SunBiz before filing.</li><li><strong>A registered agent.</strong> A person or service with a physical Florida street address (not a P.O. box) to receive legal documents on your behalf.</li></ol>\n\n<p>Here is the general process:</p>\n\n<ol><li>Go to sunbiz.org and select \"Start a Business.\"</li><li>Choose your entity type.</li><li>Enter your business name (availability is typically checked in real time).</li><li>Provide member or manager information.</li><li>Designate your registered agent with their Florida street address.</li><li>Enter your principal and mailing addresses.</li><li>Pay the filing fee — typically around $125 for an LLC or $70 for a Corporation.</li><li>Submit. Your entity is often active within a few business days.</li></ol>\n\n<p>With your information ready, the process can usually be completed in about 20 to 30 minutes.</p>",
+          "content": "<p>SunBiz (sunbiz.org) is Florida's official portal for registering business entities, filing annual reports, and updating records. Think of sunbiz.org as City Hall's online counter — you walk in, file your papers, and walk out with your business on the city registry.</p>\n\n<p>Here's how this plays out. Before you begin, you typically need three things:</p>\n\n<ol><li><strong>Your entity type decision.</strong> LLC or Corporation? If you have not decided yet, review the previous lesson.</li><li><strong>A business name.</strong> It must be distinguishable from other Florida businesses and include a designator (\"LLC,\" \"Inc.,\" or \"Corp.\"). You can check availability on SunBiz before filing.</li><li><strong>A registered agent.</strong> A person or service with a physical Florida street address (not a P.O. box) to receive legal documents on your behalf.</li></ol>\n\n<p>Here is the general process:</p>\n\n<ol><li>Go to sunbiz.org and select \"Start a Business.\"</li><li>Choose your entity type.</li><li>Enter your business name (availability is typically checked in real time).</li><li>Provide member or manager information.</li><li>Designate your registered agent with their Florida street address.</li><li>Enter your principal and mailing addresses.</li><li>Pay the filing fee — typically around $125 for an LLC or $70 for a Corporation.</li><li>Submit. Your entity is often active within a few business days.</li></ol>\n\n<p>With your information ready, the process can usually be completed in about 20 to 30 minutes.</p>",
           "wordCount": 189
         },
         {
           "type": "text",
           "id": "text-1-2-2",
           "title": "EIN — Your Business's Tax ID",
-          "content": "<p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Think of it as your business's tax ID : you will need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p>\n\n<p>The bottom line? <strong>With an SSN or ITIN:</strong> You can typically submit your request online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p>\n\n<p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot — some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p>\n\n<p>A useful tip: you can request an ITIN when filing your first tax return, which opens up the online EIN process for future entities.</p>\n\n<p>The EIN belongs to the business, not to you personally. Each company needs its own EIN. Keep your confirmation letter (CP 575) — banks and clients on W-9 forms will ask for it.</p>",
+          "content": "<p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Your EIN is like the address number on your storefront — without it, no one can find you in the system. You will need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p>\n\n<p>The short version: <strong>With an SSN or ITIN:</strong> You can typically submit your request online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p>\n\n<p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot — some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p>\n\n<p>A useful tip: you can request an ITIN when filing your first tax return, which opens up the online EIN process for future entities.</p>\n\n<p>The EIN belongs to the business, not to you personally. Each company needs its own EIN. Keep your confirmation letter (CP 575) — banks and clients on W-9 forms will ask for it.</p>",
           "wordCount": 232
+        },
+        {
+          "type": "infographic",
+          "id": "ig-1-2-sunbiz",
+          "style": "steps",
+          "title": "Registering Your Business on SunBiz.org",
+          "titleEs": "Registrar Tu Empresa en SunBiz.org",
+          "subtitle": "Step by Step",
+          "subtitleEs": "Paso a Paso",
+          "footer": "Estimated startup cost: $300–$500 (filing + registered agent + licenses)",
+          "footerEs": "Costo estimado de inicio: $300–$500 (registro + agente registrado + licencias)",
+          "sideLabel": "Total time: 1–2 weeks if prepared",
+          "sideLabelEs": "Tiempo total: 1–2 semanas si estás preparado",
+          "steps": [
+            {
+              "label": "Choose Your Entity Type",
+              "labelEs": "Elige Tu Tipo de Entidad",
+              "desc": "LLC, Corp, or LP. Most international founders choose LLC.",
+              "descEs": "LLC, Corp o LP. La mayoría de fundadores internacionales eligen LLC."
+            },
+            {
+              "label": "Search for Name Availability",
+              "labelEs": "Busca Disponibilidad de Nombre",
+              "desc": "Use SunBiz name search. Must be unique in Florida.",
+              "descEs": "Usa la búsqueda de nombres en SunBiz. Debe ser único en Florida."
+            },
+            {
+              "label": "Designate a Registered Agent",
+              "labelEs": "Designa un Agente Registrado",
+              "desc": "Must have a Florida street address. You can use a service (~$100–$150/year).",
+              "descEs": "Debe tener una dirección física en Florida. Puedes usar un servicio (~$100–$150/año)."
+            },
+            {
+              "label": "File Articles of Organization",
+              "labelEs": "Presenta los Artículos de Organización",
+              "desc": "Online via SunBiz. LLC filing fee: $125. Processing: 1–3 business days.",
+              "descEs": "En línea vía SunBiz. Costo de registro LLC: $125. Procesamiento: 1–3 días hábiles."
+            },
+            {
+              "label": "Obtain Your EIN",
+              "labelEs": "Obtén Tu EIN",
+              "desc": "Apply free at IRS.gov (SS-4 form). This is your business's \"social security number.\"",
+              "descEs": "Solicítalo gratis en IRS.gov (formulario SS-4). Es el \"número de seguro social\" de tu empresa."
+            },
+            {
+              "label": "Open a Business Bank Account",
+              "labelEs": "Abre una Cuenta Bancaria Empresarial",
+              "desc": "Bring: Articles of Organization, EIN letter, passport, Operating Agreement.",
+              "descEs": "Lleva: Artículos de Organización, carta EIN, pasaporte, Acuerdo Operativo."
+            },
+            {
+              "label": "Register for State Taxes",
+              "labelEs": "Regístrate para Impuestos Estatales",
+              "desc": "If selling goods: register for Florida Sales Tax (DR-1). No state income tax registration needed.",
+              "descEs": "Si vendes bienes: regístrate para el Impuesto sobre Ventas de Florida (DR-1). No se necesita registro de impuesto estatal sobre la renta."
+            },
+            {
+              "label": "Obtain Local Licenses",
+              "labelEs": "Obtén Licencias Locales",
+              "desc": "Check county/city requirements. Orange County: Local Business Tax Receipt ($25–$50).",
+              "descEs": "Consulta los requisitos del condado/ciudad. Orange County: Recibo de Impuesto Empresarial Local ($25–$50)."
+            }
+          ]
         },
         {
           "type": "text",
           "id": "text-1-2-3",
           "title": "Registered Agent and Address — The Physical Presence Requirement",
-          "content": "<p>Florida requires every business entity to maintain a registered agent with a physical street address — not a P.O. box, not a virtual mailbox.</p>\n\n<h4>Addresses on SunBiz</h4>\n\n<p>Let's put this in perspective. SunBiz asks for three addresses:</p>\n\n<ul><li><strong>Principal address:</strong> A coworking space, office, or incubator</li><li><strong>Mailing address:</strong> A virtual mailbox service (often $10-$30/month) or same as your principal address</li><li><strong>Registered agent address:</strong> A professional agent service, or your principal address if someone is physically present during business hours</li></ul>\n\n<p>UCF BIP offers flexible office space that founders can use as their business address. Ask your UCF BIP contact about availability.</p>\n\n<h4>Registered Agent Services</h4>\n\n<p>If you are not in Florida full-time, a registered agent service is often the simplest solution. These typically run $100-$300 per year. Several well-known providers offer this service online.</p>\n\n<p>Don't overlook this step. If your registered agent lapses, Florida can dissolve your entity, which means your business legally stops existing until you fix it.</p>",
+          "content": "<p>Florida requires every business entity to maintain a registered agent with a physical street address — not a P.O. box, not a virtual mailbox. Think of the registered agent as the doorman at your building address — someone who is there to receive official notices when you are not.</p>\n\n<h4>Addresses on SunBiz</h4>\n\n<p>Let's put this in perspective. SunBiz asks for three addresses:</p>\n\n<ul><li><strong>Principal address:</strong> A coworking space, office, or incubator</li><li><strong>Mailing address:</strong> A virtual mailbox service (often $10-$30/month) or same as your principal address</li><li><strong>Registered agent address:</strong> A professional agent service, or your principal address if someone is physically present during business hours</li></ul>\n\n<p>UCF BIP offers flexible office space that founders can use as their business address. Ask your UCF BIP contact about availability.</p>\n\n<h4>Registered Agent Services</h4>\n\n<p>If you are not in Florida full-time, a registered agent service is often the simplest solution. These typically run $100-$300 per year. Several well-known providers offer this service online.</p>\n\n<p>Don't overlook this step. If your registered agent lapses, Florida can dissolve your entity, which means your business legally stops existing until you fix it.</p>",
           "wordCount": 159
+        },
+        {
+          "type": "timeline",
+          "id": "int-1-2-1",
+          "title": "Registration Timeline — From Zero to Entity",
+          "steps": [
+            {
+              "label": "Day 1",
+              "title": "Choose Your Entity Type",
+              "content": "Decide between LLC and C-Corp based on your visa, funding, and tax needs. S-Corp is generally not available to international founders."
+            },
+            {
+              "label": "Day 1–2",
+              "title": "Name Availability Check",
+              "content": "Search SunBiz.org to verify your desired business name is available in Florida."
+            },
+            {
+              "label": "Day 2–3",
+              "title": "File Formation Documents and Designate Registered Agent",
+              "content": "Submit Articles of Organization (LLC) or Articles of Incorporation (Corp) online through SunBiz. During filing, you will designate a Florida-based registered agent with a physical street address to receive legal documents on your behalf."
+            },
+            {
+              "label": "Day 3–7",
+              "title": "Apply for Your EIN",
+              "content": "File IRS Form SS-4 online to get your Employer Identification Number — it's free and often instant."
+            },
+            {
+              "label": "Day 7–14",
+              "title": "Receive Confirmation",
+              "content": "Get your filing confirmation from SunBiz and your EIN letter from the IRS. You're officially registered."
+            }
+          ]
         },
         {
           "type": "callout",
@@ -205,42 +437,42 @@
         },
         {
           "type": "knowledge-check",
-          "id": "kc-1-2-1",
-          "title": "Quick Check: What Would You Do?",
+          "id": "kc-1-2",
+          "title": "What Would You Do?",
           "placement": "end-of-lesson",
           "questions": [
             {
               "stem": "You are ready to register your LLC on SunBiz, but you are currently living outside the United States. What is the most important thing to arrange before you begin the filing?",
               "options": [
                 "A U.S. driver's license",
-                "A registered agent with a physical Florida street address",
                 "A personal bank account at a Florida bank",
+                "A registered agent with a physical Florida street address",
                 "A signed office lease in Orlando"
               ],
-              "correctAnswer": 1,
-              "explanation": "Florida requires every business to have a registered agent with a physical street address. If you are not in Florida, a registered agent service handles this for you. You do not need a driver's license, personal bank account, or office lease to file on SunBiz."
+              "correctAnswer": 2,
+              "explanation": "Florida requires every business to have a registered agent with a physical street address. If you are not in Florida, a registered agent service handles this for you. A driver's license is not required for SunBiz filing. A personal bank account is a separate step that comes after entity formation. An office lease is not a prerequisite for registration."
             },
             {
               "stem": "You just registered your Florida LLC on SunBiz. Before you finalize, a mentor tells you to also check the website domain name. Why does this matter?",
               "options": [
                 "The domain name must exactly match your SunBiz filing or the LLC is invalid",
-                "Once your entity name is filed with SunBiz, you cannot change it — if the matching domain is taken, you may be stuck with a name that does not work online",
                 "SunBiz automatically reserves the .com domain for you when you file",
-                "Domain names are only relevant once you start marketing, so it can wait"
+                "Domain names are only relevant once you start marketing, so it can wait",
+                "Once your entity name is filed with SunBiz, you cannot change it — if the matching domain is taken, you may be stuck with a name that does not work online"
               ],
-              "correctAnswer": 1,
-              "explanation": "Your SunBiz entity name cannot be changed after filing without forming a new entity. If you discover the matching domain is unavailable after filing, you will either need a mismatched web presence or a new entity. Checking domain availability before filing takes two minutes and can save significant hassle."
+              "correctAnswer": 3,
+              "explanation": "Your SunBiz entity name cannot be changed after filing without forming a new entity. If you discover the matching domain is unavailable after filing, you will either need a mismatched web presence or a new entity. The domain does not need to match exactly for the LLC to be valid, SunBiz does not reserve domains, and waiting until marketing starts risks discovering a conflict too late. Checking domain availability before filing takes two minutes and can save significant hassle."
             },
             {
               "stem": "You need an EIN for your new Florida LLC but you do not have an SSN or ITIN. What is typically the fastest way to get one?",
               "options": [
+                "Call the IRS international line — wait times vary, but same-day processing has been reported",
                 "Apply online at irs.gov — it takes about 15 minutes",
                 "Mail Form SS-4 to the IRS",
-                "Call the IRS international line — wait times vary, but same-day processing has been reported",
                 "Ask your registered agent to apply on your behalf"
               ],
-              "correctAnswer": 2,
-              "explanation": "Without an SSN or ITIN, the online application is not available. Calling the IRS international line at 267-941-1099 has been reported as the fastest alternative, though wait times can vary. Mailing the form can take several weeks. Verify the number is current before calling."
+              "correctAnswer": 0,
+              "explanation": "Without an SSN or ITIN, the online application is not available. Calling the IRS international line at 267-941-1099 has been reported as the fastest alternative, though wait times can vary. The online method requires an SSN or ITIN you do not have. Mailing the form can take several weeks. Registered agents do not typically file EIN applications on your behalf. Verify the phone number is current before calling."
             }
           ]
         },
@@ -248,7 +480,7 @@
           "type": "key-takeaway",
           "id": "kt-1-2-1",
           "title": "Key Takeaway",
-          "content": "<p>The takeaway is this: Florida registration through SunBiz is one of the most straightforward steps in your U.S. setup process. The real preparation happens before you file: choosing the right entity type, securing a registered agent, and understanding the address requirements.</p>\n\n<p>Florida's mix of no state personal income tax, simple online filing, global ties, and lower costs is a big part of why founders keep choosing it as their entry point. Apply this knowledge before you click \"submit\": have your EIN plan, registered agent, and address strategy ready. Compare Florida's advantages to other states, then evaluate whether the timing is right for your filing.</p>"
+          "content": "<p>The takeaway is this: your trip to City Hall is one of the simplest stops in the city. Florida registration through SunBiz is one of the most straightforward steps in your U.S. setup process. The real preparation happens before you file: choosing the right entity type, securing a registered agent, and understanding the address requirements.</p>\n\n<p>Florida's mix of no state personal income tax, simple online filing, global ties, and lower costs is a big part of why founders keep choosing it as their entry point. Apply this knowledge before you click \"submit\": have your EIN plan, registered agent, and address strategy ready. Compare Florida's advantages to other states, then evaluate whether the timing is right for your filing.</p>"
         }
       ]
     },
@@ -268,8 +500,15 @@
           "type": "text",
           "id": "text-1-3-0",
           "title": "The Banking District — Where It Gets Real",
-          "content": "<p>Your entity is registered, your EIN is on the way — and now you walk from City Hall toward the financial district. You know the kind of street : lined with banks, each with its own policies, its own requirements, and its own idea of how much documentation you need to bring.</p>\n\n<p>What does this actually mean day to day? For international founders, walking into a U.S. bank can feel like entering a new country all over again.</p>\n\n<p>Opening a U.S. bank account is one of the biggest hurdles founders face. You filed your LLC, you have your EIN, and now a bank is asking for papers you've never heard of, or telling you they can't work with foreign-owned entities.</p>\n\n<p>This is normal. And it is manageable if you know what to expect.</p>",
+          "content": "<p>Your entity is registered, your EIN is on the way — and now you walk from City Hall toward the financial district. You know the kind of street : lined with banks, each with its own policies, its own requirements, and its own idea of how much documentation you need to bring.</p>\n\n<p>For international founders, walking into a U.S. bank can feel like entering a new country all over again.</p>\n\n<p>Opening a U.S. bank account is one of the biggest hurdles founders face. You filed your LLC, you have your EIN, and now a bank is asking for papers you've never heard of, or telling you they can't work with foreign-owned entities.</p>\n\n<p>This is normal. And it is manageable if you know what to expect.</p>",
           "wordCount": 136
+        },
+        {
+          "type": "image",
+          "id": "img-1-3-bank",
+          "title": "Founder at Bank Meeting",
+          "src": "images/scenarios/lesson-1-3-bank-meeting.jpg",
+          "alt": "Illustration of an international founder meeting with a bank officer, presenting business documents and EIN letter."
         },
         {
           "type": "callout",
@@ -282,14 +521,14 @@
           "type": "text",
           "id": "text-1-3-1",
           "title": "Why Banking Is Harder Than You Expect",
-          "content": "<p>This is one of the most frustrating parts of the process for many international founders. You did everything right : registered your LLC, got your EIN, assembled your documents. And then a bank tells you no. Sometimes without a clear reason.</p>\n\n<p>Here is the practical takeaway. U.S. banks are careful with accounts owned by foreign nationals due to anti-money-laundering rules (Bank Secrecy Act, Know Your Customer). Some banks won't work with foreign founders at all. Others may require papers that take weeks to gather.</p>\n\n<p>One founder from Argentina shared his experience: \"I registered my LLC in two days. Then I spent six weeks trying to open a bank account. Four banks. The first three said no.\" Stories like this are common, not unusual. It does not mean you did something wrong. It means the system was not built with you in mind — and you need a strategy to navigate it.</p>\n\n<p>The good news: founders who walk in prepared tend to get through it much faster. This lesson gives you that preparation. Keep in mind that requirements can vary by institution — it is always a good idea to verify current policies with your target bank before visiting.</p>",
+          "content": "<p>This is one of the most frustrating parts of the process for many international founders. You did everything right : registered your LLC, got your EIN, assembled your documents. And then a bank tells you no. Sometimes without a clear reason. Think of each bank as a building with its own security protocol — some let you in with a passport and EIN, others want a full background check before they will buzz you through.</p>\n\n<p>What this means day to day: U.S. banks are careful with accounts owned by foreign nationals due to anti-money-laundering rules (Bank Secrecy Act, Know Your Customer). Some banks won't work with foreign founders at all. Others may require papers that take weeks to gather.</p>\n\n<p>One founder from Argentina shared his experience: \"I registered my LLC in two days. Then I spent six weeks trying to open a bank account. Four banks. The first three said no.\" Stories like this are common, not unusual. It does not mean you did something wrong. It means the system was not built with you in mind — and you need a strategy to navigate it.</p>\n\n<p>The good news: founders who walk in prepared tend to get through it much faster. This lesson gives you that preparation. Keep in mind that requirements can vary by institution — it is always a good idea to verify current policies with your target bank before visiting.</p>",
           "wordCount": 200
         },
         {
           "type": "text",
           "id": "text-1-3-2",
           "title": "What You Will Typically Need — The Document Checklist",
-          "content": "<p>Consider this: walking into a bank without the right documents can waste a day. Here is the core set that most banks request:</p>\n\n<ol><li><strong>EIN Confirmation Letter (CP 575 or 147C).</strong></li><li><strong>Articles of Organization (LLC) or Articles of Incorporation (Corporation).</strong> Bring the filed copy with confirmation number.</li><li><strong>Operating Agreement (LLC) or Corporate Bylaws (Corporation).</strong> Shows ownership structure and who has authority over finances.</li><li><strong>Valid Passport.</strong></li><li><strong>U.S. Address Proof.</strong> Utility bill, lease, or bank statement.</li><li><strong>Initial Deposit.</strong> Typically somewhere between $100 and $500 for business checking.</li></ol>\n\n<p>Some banks may also ask for a business license, a second form of ID, proof of home-country operations, or visa documentation. Calling the bank before you visit is one of the most helpful things you can do. Ask what they need for a foreign-owned entity, and get a contact name if you can.</p>",
+          "content": "<p>Consider this: walking into a bank without the right documents is like showing up at a restricted building without an ID badge — you will not get past the front desk. Here is the core set that most banks request:</p>\n\n<ol><li><strong>EIN Confirmation Letter (CP 575 or 147C).</strong></li><li><strong>Articles of Organization (LLC) or Articles of Incorporation (Corporation).</strong> Bring the filed copy with confirmation number.</li><li><strong>Operating Agreement (LLC) or Corporate Bylaws (Corporation).</strong> Shows ownership structure and who has authority over finances.</li><li><strong>Valid Passport.</strong></li><li><strong>U.S. Address Proof.</strong> Utility bill, lease, or bank statement.</li><li><strong>Initial Deposit.</strong> Typically somewhere between $100 and $500 for business checking.</li></ol>\n\n<p>Some banks may also ask for a business license, a second form of ID, proof of home-country operations, or visa documentation. Calling the bank before you visit is one of the most helpful things you can do. Ask what they need for a foreign-owned entity, and get a contact name if you can.</p>",
           "wordCount": 136
         },
         {
@@ -303,20 +542,20 @@
           "type": "text",
           "id": "text-1-3-3",
           "title": "Why Banks Say No — And What You Can Do About It",
-          "content": "<p>Here is what they do not tell you on any bank's website: rejections for international founders are common, and the reasons are often frustrating.</p>\n\n<p>The bottom line? <strong>No SSN or ITIN.</strong> Some banks require a personal tax ID. Confirm whether the bank accepts an EIN alone before applying. Do not wait until you are sitting in the branch to discover this.</p>\n\n<p><strong>Not enough paperwork.</strong> A newly formed LLC with no operating agreement or website may be seen as too early-stage. Having a business summary and a basic website ready can help show that your company is real and running.</p>\n\n<p><strong>Country-of-origin factors.</strong> Some countries may trigger extra review. This doesn't always block you from opening an account, but the process may take longer and the bank may ask for more papers.</p>\n\n<p><strong>Branch unfamiliarity.</strong> Not every branch handles foreign-owned accounts. If you're told \"we can't do this,\" don't walk away. Ask for a business banking expert or call the bank's business line directly. The branch teller may simply not know the process.</p>\n\n<h4>What to Do When You Get a No</h4>\n\n<p>A rejection at one bank does not mean you cannot open an account anywhere. Here is a practical approach:</p>\n\n<ol><li>Ask the banker WHY you were declined — get the specific reason, not just \"we cannot help you.\"</li><li>Ask if there is a different branch or department that handles international accounts.</li><li>Try a community bank or credit union next — they tend to be more flexible and more willing to work through unusual documentation.</li><li>Consider online banking platforms designed for startups — several have streamlined their process specifically for foreign-owned entities.</li><li>Keep records of every interaction : names, dates, what was requested. This helps when you try the next bank.</li></ol>",
+          "content": "<p>Here is what they do not tell you on any bank's website: some doors in this district are simply locked to founders who do not have the right credentials yet. Rejections for international founders are common, and the reasons are often frustrating.</p>\n\n<p>In short: <strong>No SSN or ITIN.</strong> Some banks require a personal tax ID. Confirm whether the bank accepts an EIN alone before applying. Do not wait until you are sitting in the branch to discover this.</p>\n\n<p><strong>Not enough paperwork.</strong> A newly formed LLC with no operating agreement or website may be seen as too early-stage. Having a business summary and a basic website ready can help show that your company is real and running.</p>\n\n<p><strong>Country-of-origin factors.</strong> Some countries may trigger extra review. This doesn't always block you from opening an account, but the process may take longer and the bank may ask for more papers.</p>\n\n<p><strong>Branch unfamiliarity.</strong> Not every branch handles foreign-owned accounts. If you're told \"we can't do this,\" don't walk away. Ask for a business banking expert or call the bank's business line directly. The branch teller may simply not know the process.</p>\n\n<h4>What to Do When You Get a No</h4>\n\n<p>A rejection at one bank does not mean you cannot open an account anywhere. Here is a practical approach:</p>\n\n<ol><li>Ask the banker WHY you were declined — get the specific reason, not just \"we cannot help you.\"</li><li>Ask if there is a different branch or department that handles international accounts.</li><li>Try a community bank or credit union next — they tend to be more flexible and more willing to work through unusual documentation.</li><li>Consider online banking platforms designed for startups — several have streamlined their process specifically for foreign-owned entities.</li><li>Keep records of every interaction : names, dates, what was requested. This helps when you try the next bank.</li></ol>",
           "wordCount": 289
         },
         {
           "type": "text",
           "id": "text-1-3-4",
           "title": "Payment Processors — A Starting Point While You Wait",
-          "content": "<p>While the banking process is underway, payment processors can help bridge the gap so you can start accepting payments:</p>\n\n<ul><li><strong>Stripe</strong> . Popular for online businesses. Handles credit cards and sales tax. Setup can often be completed in under an hour.</li><li><strong>Square</strong> . Card readers, point-of-sale systems, and a basic business checking account.</li><li><strong>PayPal Business</strong> . Global name recognition, though fees tend to be higher and some founders report account holds.</li><li><strong>Wise Business</strong> . Multi-currency accounts with low conversion fees for home-country transfers. Useful as a supplement, but not a full bank replacement.</li></ul>\n\n<p>Let's put this in perspective. <strong>Important:</strong> Processors are a bridge, not a permanent solution. You will still need a bank account for payouts, vendor payments, payroll, and building a U.S. credit history.</p>",
+          "content": "<p>While you are working on getting into the big buildings, there are smaller offices on the same street that can handle your transactions. Payment processors can help bridge the gap so you can start accepting payments:</p>\n\n<ul><li><strong>Stripe</strong> . Popular for online businesses. Handles credit cards and sales tax. Setup can often be completed in under an hour.</li><li><strong>Square</strong> . Card readers, point-of-sale systems, and a basic business checking account.</li><li><strong>PayPal Business</strong> . Global name recognition, though fees tend to be higher and some founders report account holds.</li><li><strong>Wise Business</strong> . Multi-currency accounts with low conversion fees for home-country transfers. Useful as a supplement, but not a full bank replacement.</li></ul>\n\n<p>Let's put this in perspective. <strong>Important:</strong> Processors are a bridge, not a permanent solution. You will still need a bank account for payouts, vendor payments, payroll, and building a U.S. credit history.</p>",
           "wordCount": 124
         },
         {
           "type": "callout",
           "id": "callout-1-3-2",
-          "variant": "theme-watch-money",
+          "variant": "watch-money-costs",
           "title": "Watch Your Money — Bank Account Fees Add Up",
           "content": "<p>Notice how monthly maintenance fees, wire transfer costs, minimum balance requirements — these may seem small individually, but they add up over time. A founder who makes regular international wire transfers can easily spend over a thousand dollars per year on wire fees alone.</p>\n\n<p>Before you commit to a bank, compare fee schedules. Ask about fee waivers for maintaining a minimum balance. Consider using Wise Business for international transfers and keeping your U.S. bank account for domestic operations.</p>"
         },
@@ -324,7 +563,7 @@
           "type": "text",
           "id": "text-1-3-5",
           "title": "We Will Go Deeper in Module 2",
-          "content": "<p>This lesson covers what you need to open your first U.S. bank account. Module 2 goes deeper into credit history, handling rejections, and funding considerations.</p>\n\n<p>Here is the thing. For now, focus on three things: gather your documents, call ahead to confirm requirements, and set aside enough for the initial deposit plus a minimum balance buffer. If you are not in the U.S. yet, several online banking platforms offer fully remote account opening that may work for your situation — research your options before assuming you need to visit a branch in person.</p>",
+          "content": "<p>You have walked the length of this street. This lesson covers what you need to open your first U.S. bank account. Module 2 takes you deeper into the district — credit history, handling rejections, and funding considerations.</p>\n\n<p>The reality is that you need to focus on three things: gather your documents, call ahead to confirm requirements, and set aside enough for the initial deposit plus a minimum balance buffer. If you are not in the U.S. yet, several online banking platforms offer fully remote account opening that may work for your situation — research your options before assuming you need to visit a branch in person.</p>",
           "wordCount": 93
         },
         {
@@ -335,43 +574,56 @@
           "prompt": "Think about your own banking readiness:\n\n- Which documents from the checklist do you already have? Which ones do you still need?\n- Have you identified two or three banks in the Central Florida area (or online alternatives) that you want to contact?\n- What is your plan if the first bank says no?\n\nMake a list of the missing items and the steps needed to get each one. Having everything ready before your first bank visit makes a big difference."
         },
         {
+          "type": "checklist",
+          "id": "int-1-3-1",
+          "title": "Bank Account Opening — Document Checklist",
+          "items": [
+            "EIN confirmation letter from IRS",
+            "Articles of Organization/Incorporation from SunBiz",
+            "Operating Agreement (LLC) or Bylaws (Corp)",
+            "Government-issued photo ID (passport accepted)",
+            "Proof of U.S. business address",
+            "Initial deposit amount (varies by bank — typically $100–$500)"
+          ]
+        },
+        {
           "type": "knowledge-check",
-          "id": "kc-1-3-1",
-          "title": "Quick Check: What Would You Do?",
+          "id": "kc-1-3",
+          "title": "What Would You Do?",
           "placement": "end-of-lesson",
           "questions": [
             {
               "stem": "You are about to visit a bank to open a business account. You have your EIN letter and your passport, but you are not sure what else the bank needs. What is the best approach?",
               "options": [
-                "Go to the bank with what you have and figure it out there",
                 "Call the bank first, ask specifically what they require for a foreign-owned entity, and bring everything in one folder",
+                "Go to the bank with what you have and figure it out there",
                 "Skip the bank and just use PayPal for everything",
                 "Wait until you have been in the U.S. for at least six months before trying"
               ],
-              "correctAnswer": 1,
-              "explanation": "Calling ahead and asking for a specific document list is one of the most effective ways to avoid wasted trips. Different banks have different requirements, and international accounts often need additional documentation."
+              "correctAnswer": 0,
+              "explanation": "Calling ahead and asking for a specific document list is one of the most effective ways to avoid wasted trips. Going with what you have risks missing a critical document and wasting a trip. Relying only on PayPal is not a substitute for a business bank account. Waiting six months is unnecessary and delays your ability to operate."
             },
             {
               "stem": "A large national bank rejects your application. What is the most productive next step?",
               "options": [
                 "Give up on U.S. banking and rely only on payment processors",
-                "Try a community bank, credit union, or online platform — they are often more flexible with international founders",
                 "Open a personal account and use it for business temporarily",
-                "Wait six months and reapply at the same bank"
+                "Wait six months and reapply at the same bank",
+                "Try a community bank, credit union, or online platform — they are often more flexible with international founders"
               ],
-              "correctAnswer": 1,
-              "explanation": "Rejection at one bank does not mean you cannot open an account anywhere. Community banks, credit unions, and online platforms like Mercury tend to be more flexible. Using a personal account for business transactions can destroy your liability protection."
+              "correctAnswer": 3,
+              "explanation": "Rejection at one bank does not mean you cannot open an account anywhere. Community banks, credit unions, and online platforms like Mercury tend to be more flexible with international founders. Giving up on banking limits your business operations. Using a personal account for business transactions can destroy your liability protection. Waiting six months at the same bank wastes valuable time when other institutions may approve you now."
             },
             {
               "stem": "Your bank account application is still being reviewed, but a U.S. customer is ready to pay you by credit card. What should you do?",
               "options": [
                 "Wait until the bank account is approved before accepting any payments",
-                "Ask the customer to pay in cash",
                 "Set up a payment processor like Stripe as a bridge while the bank account is being processed",
+                "Ask the customer to pay in cash",
                 "Use your personal bank account temporarily"
               ],
-              "correctAnswer": 2,
-              "explanation": "Payment processors like Stripe can serve as a bridge while your bank account is being set up. Using a personal account for business creates legal and tax problems. However, you will still need a bank account for payouts, so keep pursuing it."
+              "correctAnswer": 1,
+              "explanation": "Payment processors like Stripe can serve as a bridge while your bank account is being set up. Waiting to accept payments loses revenue and customer trust. Asking for cash is impractical for most business transactions. Using a personal account for business creates legal and tax problems and can pierce your corporate veil. You will still need a bank account for payouts, so keep pursuing it."
             }
           ]
         },
@@ -379,7 +631,7 @@
           "type": "key-takeaway",
           "id": "kt-1-3-1",
           "title": "Key Takeaway",
-          "content": "<p>Banking is one of the steps that catches many international founders off guard. The process can take longer than expected, and not every bank will say yes. But founders who prepare their documents, call ahead, and have a backup plan tend to get through it much faster.</p>\n\n<p>Payment processors like Stripe and Square can bridge the gap while you wait, but they are not a long-term replacement for a proper bank account. Plan for the process to take a few weeks, stay flexible, and do not get discouraged if the first bank says no. Module 2 covers the deeper financial picture : credit history, tax setup, and the full banking reality.</p>"
+          "content": "<p>Banking is one of the steps that catches many international founders off guard. The financial district has its own rules, and not every door will open on the first try. But founders who prepare their documents, call ahead, and have a backup plan tend to get through it much faster.</p>\n\n<p>Payment processors like Stripe and Square can bridge the gap while you wait, but they are not a long-term replacement for a proper bank account. Plan for the process to take a few weeks, stay flexible, and do not get discouraged if the first bank says no. Module 2 covers the deeper financial picture : credit history, tax setup, and the full banking reality.</p>"
         }
       ]
     }

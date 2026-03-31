@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-7-2",
+  "videoTitle": "Central Florida \u00e2\u20ac\u201d Your Market Opportunity",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "River Springs \u00e2\u20ac\u201d full ecosystem, you are not alone, natural diversity",
+  "totalDuration": 312.24,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Deeper Into the Springs \u00e2\u20ac\u201d Where the Current Carries You",
+      "bullets": [],
+      "narration": "Deeper into the springs, the water moves with purpose. Side channels branch out, each leading to a different part of the river system, but they all stay connected to the same source. Central Florida's startup ecosystem works the same way \u00e2\u20ac\u201d different organizations serve different needs, but they feed the same network of founders, mentors, and opportunities. What makes one U.S. city better than another for an international founder? It is not just the tax code. It is whether the ecosystem actually wants you there. The numbers matter \u00e2\u20ac\u201d we will cover those next lesson \u00e2\u20ac\u201d but first you need to understand something harder to measure: whether a city truly supports founders who are new to the country. Central Florida does. Let me show you the evidence.",
+      "template": "intro",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-1.wav",
+      "duration": 41.36
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "UCF as the Anchor Institution",
+      "bullets": [
+        "UCF's Institute for Simulation and Training partners with defense contractors \u00e2\u20ac\u201d two hundred plus simulation companies nearby",
+        "UCF Medical School at Lake Nona feeds the health tech ecosystem",
+        "UCF BIP gives you warm introductions to faculty, graduate students, and early customers",
+        "The corridor from UCF through Research Park to Lake Nona concentrates innovation activity"
+      ],
+      "narration": "Every strong spring has a main source \u00e2\u20ac\u201d an aquifer feeding the system. In Central Florida, that source is UCF. The Institute for Simulation and Training partners with defense contractors and government agencies, which is why over two hundred simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and computer science programs produce graduates who stay local because the jobs are here. For you as an international founder, UCF BIP gives you a warm introduction to this entire system. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-2.wav",
+      "duration": 47.92
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "The Startup Culture \u00e2\u20ac\u201d Collaborative, Not Cutthroat",
+      "bullets": [
+        "Founders describe the culture as pre-competitive \u00e2\u20ac\u201d people share introductions and advice freely",
+        "A cold LinkedIn message to a local CEO is more likely to get a response here than in San Francisco",
+        "Cross-industry connections happen naturally because the ecosystem is mid-sized",
+        "Meetings happen in English and Spanish \u00e2\u20ac\u201d organizations like Prospera offer services entirely in Spanish"
+      ],
+      "narration": "Here is where Central Florida stands out. Just as a healthy spring ecosystem thrives because its species cooperate rather than compete for the same resources, the startup culture here is team-minded. Founders describe it as pre-competitive: people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing. Successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Because the ecosystem is mid-sized, founders meet people outside their sector regularly \u00e2\u20ac\u201d a health tech founder discovers a new application through a conversation with a simulation executive at a networking event. And meetings happen in both English and Spanish. Organizations like Prospera offer services entirely in Spanish. You do not have to wait until your English is perfect to start building relationships.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-3.wav",
+      "duration": 51.04
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Where to Show Up \u00e2\u20ac\u201d Your Networking Map",
+      "bullets": [
+        "Orlando Tech Association meetups \u00e2\u20ac\u201d monthly, casual, go within two weeks of arriving",
+        "Starter Studio Demo Days \u00e2\u20ac\u201d accelerator showcases connecting you with investors and mentors",
+        "CFITO Trade Events \u00e2\u20ac\u201d structured meetings with importers, exporters, and logistics partners",
+        "UCF BIP Workshops \u00e2\u20ac\u201d cohort-based sessions on IP, pitch prep, and market validation"
+      ],
+      "narration": "Showing up in person is the fastest way to build your local network. Orlando Tech Association meetups happen monthly and attract local tech founders and service providers. Go within two weeks of arriving. Starter Studio Demo Days are accelerator showcase events that connect you with investors and mentors, even if you are not in the program yourself. CFITO Trade Events bring together importers, exporters, and logistics partners for businesses bridging Latin America and the United States. And UCF BIP Workshops cover intellectual property, pitch preparation, and market validation in a cohort format, so you build relationships with other founders going through the same process. Central Florida has dozens of events, but these four give you the highest return on your time when you are just starting out.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-4.wav",
+      "duration": 43.76
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Three Relationships That Matter Most",
+      "bullets": [
+        "Your SBDC counselor \u00e2\u20ac\u201d free, matched to your industry, ongoing relationship",
+        "Your UCF BIP coordinator \u00e2\u20ac\u201d connects you to the right programs and people",
+        "One founder six to twelve months ahead of you \u00e2\u20ac\u201d what they wish they had known is invaluable",
+        "Where you work shapes who you meet \u00e2\u20ac\u201d UCF incubator, Canvs at Creative Village, or public library co-labs"
+      ],
+      "narration": "Three relationships matter most in your first ninety days. First, your SBDC counselor \u00e2\u20ac\u201d free and matched to your industry. This is an ongoing advisory relationship, not a one-time meeting. Second, your UCF BIP coordinator \u00e2\u20ac\u201d the person who can point you to the right programs and people throughout the ecosystem. Third, at least one founder who is six to twelve months ahead of you. What they wish they had known is often more valuable than any workshop. And where you work shapes who you meet. UCF Business Incubation facilities put you inside the support network. Canvs at Creative Village downtown is popular with creative and tech startups. Even Orlando Public Library co-lab spaces offer free workspace for budget-conscious founders in their first months.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-5.wav",
+      "duration": 43.68
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "The Reality Check \u00e2\u20ac\u201d Growing, Not Finished",
+      "bullets": [
+        "Niche industries may have fewer local contacts \u00e2\u20ac\u201d you may need national connections early",
+        "Venture capital is growing but still smaller than major hubs \u00e2\u20ac\u201d build traction here, pitch nationally",
+        "Based in Orlando carries less brand weight with some investors, but the gap is closing",
+        "Let your traction speak louder than your zip code"
+      ],
+      "narration": "But here is what you should also know. Central Florida's startup ecosystem is strong and getting stronger, but it is not Silicon Valley or New York. Be honest about what that means. If you are in a very specialized vertical like quantum computing or advanced materials, the local network will be thinner. You may need to build national connections from day one. Venture capital is growing but still smaller than in major hubs. Build traction here, but plan to pitch investors nationally when the time comes. And based in Orlando carries less brand weight with some investors than based in San Francisco. That gap is closing. Let your traction speak louder than your zip code. These gaps are manageable, but factor them into your plans.",
+      "template": "diagonal",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-6.wav",
+      "duration": 43.28
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Step Into the Current",
+      "bullets": [],
+      "narration": "Like a spring-fed river that sustains an entire ecosystem, Central Florida has a collaborative startup culture anchored by UCF, a bilingual business community that actively supports foreign founders, and a network of events, spaces, and organizations designed to help new founders build traction. The ecosystem is mid-sized and growing, which means you get access, fast replies, and cross-industry connections that are harder to find in larger, more competitive metros. Step into the current, build relationships early, and use the community as your launchpad. Next lesson: the hard data behind the choice \u00e2\u20ac\u201d cost comparisons, industry clusters, and the LATAM trade corridor numbers that make the case for Central Florida.",
+      "template": "intro",
+      "avatarScene": "lesson-7-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-2/lesson-7-2-scene-7.wav",
+      "duration": 41.2
+    }
+  ]
+}

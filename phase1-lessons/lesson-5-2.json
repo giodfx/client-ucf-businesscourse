@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-5-2",
   "moduleId": "module-5",
+  "landscapeTheme": "Port / Shopping Center",
   "title": "Customer Acquisition and Selling to U.S. Companies",
   "duration": 7,
   "objectives": [
@@ -12,70 +13,130 @@
     {
       "type": "text",
       "id": "text-5-2-1",
-      "title": "How Americans Actually Find and Buy Products",
-      "content": "<p>Finding and winning U.S. customers requires speed and systems. You've already explored product adaptation; acquisition strategy builds directly on those decisions. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p>\n\n<p>Here is the practical takeaway. U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p>",
-      "wordCount": 88
+      "title": "Inside the Shopping Center: How Americans Find, Compare, and Buy",
+      "content": "<p>You have adapted your product for the U.S. marketplace. Now it is time to get it off the shelf and into the buyer's hands.</p>\n\n<p>Stand in any major shopping corridor in Central Florida and watch how customers move: they scan, compare, check reviews on their phones, and make a decision in minutes. That same behavior drives B2B purchasing too, just with bigger numbers and more paperwork. Finding and winning U.S. customers takes speed and systems. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p>\n\n<p>Here is the practical takeaway. U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p>",
+      "wordCount": 140
+    },
+    {
+      "type": "image",
+      "id": "img-5-2-tradeshow",
+      "title": "Founder at U.S. Trade Show",
+      "src": "images/scenarios/lesson-5-2-trade-show.jpg",
+      "alt": "Illustration of an enthusiastic founder at a professional exhibition booth at a U.S. trade show, extending a welcoming gesture toward approaching visitors in a large convention center."
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>The Orlando metro area attracts over 75 million visitors per year, making it the most-visited destination in the United States. That volume creates a massive consumer marketplace where businesses compete fiercely for attention and speed of service. The sales behaviors you learn in this lesson, fast follow-up, transparent pricing, digital-first acquisition, are standard practice in a region where every business is competing for the attention of millions of potential buyers.</p>"
     },
     {
       "type": "text",
       "id": "text-5-2-2",
       "title": "The U.S. Sales Cycle — Faster and More Direct Than You Expect",
-      "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>.</p>\n\n<p>What does that mean for you? Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 3–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
+      "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>What does that mean for you? Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 3–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
       "wordCount": 83
+    },
+    {
+      "type": "tabs",
+      "id": "int-5-2-1",
+      "title": "Sales Scenario: A U.S. Customer Wants a Quote",
+      "tabs": [
+        {
+          "label": "The Setup",
+          "content": "A mid-size U.S. company emails you after finding your product online. They want a quote for 50 user licenses.\n\nThey mention they're 'evaluating several vendors' and need the quote by Friday. It's currently Tuesday.\n\n**What do you do?**"
+        },
+        {
+          "label": "Best Response",
+          "content": "**Respond within 4 hours** — speed signals professionalism in U.S. sales culture.\n\n**Include in your quote:**\n- Clear pricing per user/month and annual option\n- Implementation timeline\n- Support SLA\n- Reference customer or case study\n\n**Follow up Friday morning** — don't wait for them to come to you."
+        },
+        {
+          "label": "Common Mistakes",
+          "content": "**Waiting 48+ hours** to respond. In the U.S., this signals disinterest.\n\n**Sending just a price** without context. U.S. buyers want to see value justification.\n\n**Not following up.** 80% of sales require 5+ touchpoints. One email is not enough.\n\n**Over-negotiating on price** before establishing value. Lead with outcomes first."
+        },
+        {
+          "label": "Key Insight",
+          "content": "U.S. B2B sales cycles are longer than most international founders expect.\n\n**Typical timeline:**\n- Initial contact → Quote: 1–3 days\n- Evaluation period: 2–6 weeks\n- Procurement/legal review: 2–4 weeks\n- Decision: 1–2 weeks\n\n**Total: 6–12 weeks** for mid-market deals. Enterprise can take 6+ months."
+        }
+      ]
     },
     {
       "type": "callout",
       "id": "callout-5-2-1",
       "variant": "theme-avoid-mistakes",
       "title": "Not Following Up Fast Enough",
-      "content": "<p>In many countries, a three-day response to a business inquiry is considered normal. In the U.S., if you do not respond within hours, the buyer has already contacted your competitor. A study by Harvard Business Review found that companies who responded to leads within one hour were <strong>seven times more likely</strong> to qualify the lead than those who waited even two hours. Speed does not just help. It is often the deciding factor.</p>"
+      "content": "<p>Here's where speed becomes a dealbreaker. In many countries, a three-day response to a business inquiry is considered normal. In the U.S., if you do not respond within hours, the buyer has already contacted your competitor. A study by Harvard Business Review found that companies who responded to leads within one hour were <strong>seven times more likely</strong> to qualify the lead than those who waited even two hours. Speed does not just help. It is often the deciding factor.</p>"
     },
     {
       "type": "text",
       "id": "text-5-2-3",
       "title": "Pricing Strategy for the U.S. Market",
-      "content": "<p>Map your U.S. competitive landscape: identify 5–10 similar companies and document their pricing tiers. Three pitfalls:</p>\n\n<ol><li><strong>Pricing too low.</strong> Competitors at $25/month and you at $8 signals something is missing.</li><li><strong>No localization.</strong> Converting your home-market price to dollars is not a strategy.</li><li><strong>Hiding pricing.</strong> U.S. buyers expect transparent pricing on your website.</li></ol>\n\n<p>The bottom line? Offer a free trial or money-back guarantee. Standard in the U.S.</p>",
+      "content": "<p>Your pricing strategy needs to be transparent, competitive, and clearly positioned. Map your U.S. competitive landscape: identify 5 to 10 similar companies and document their pricing tiers. Three pitfalls:</p>\n\n<ol><li><strong>Pricing too low.</strong> Competitors at $25/month and you at $8 signals something is missing.</li><li><strong>No localization.</strong> Converting your home-market price to dollars is not a strategy.</li><li><strong>Hiding pricing.</strong> U.S. buyers expect transparent pricing on your website.</li></ol>\n\n<p>In short: offer a free trial or money-back guarantee. Both are standard in the U.S.</p>",
       "wordCount": 68
     },
     {
       "type": "text",
       "id": "text-5-2-vo",
       "title": "Vendor Onboarding — What U.S. Companies Require From You",
-      "content": "<p>This blindsides many international founders selling B2B. The buyer says yes, then procurement sends a packet requiring documents you have never heard of.</p>\n\n<h4>W-9 Form</h4>\n\n<p>Let's put this in perspective. Provides your EIN (taxpayer ID). Any U.S. company paying you $600+/year needs it. Have a W-9 ready to send immediately.</p>\n\n<h4>Certificate of Insurance (COI)</h4>\n\n<p>Many companies require <strong>general liability insurance</strong> ($500–$2,000/year). Some also require <strong>professional</strong> or <strong>cyber liability</strong>.</p>\n\n<h4>Vendor Registration</h4>\n\n<p>Larger companies use systems (Ariba, Coupa, Oracle) requiring registration. Takes one to four weeks.</p>\n\n<p>Have everything ready before you start selling.</p>",
+      "content": "<p>This blindsides many founders selling B2B. Your product must pass through a buyer's procurement process before you see payment. The buyer says yes, then the purchasing team sends a packet with forms you have never heard of. Have everything ready before you start selling.</p>",
       "wordCount": 92
+    },
+    {
+      "type": "checklist",
+      "id": "checklist-5-2-vendor",
+      "title": "Vendor Readiness Checklist",
+      "items": [
+        {
+          "label": "W-9 form completed with your EIN (required by any U.S. company paying you $600+/year)"
+        },
+        {
+          "label": "General liability insurance policy active ($500-$2,000/year)"
+        },
+        {
+          "label": "Certificate of Insurance (COI) ready to send on request"
+        },
+        {
+          "label": "Professional or cyber liability insurance (if selling services or handling data)"
+        },
+        {
+          "label": "Vendor registration completed in buyer's procurement system (Ariba, Coupa, Oracle — allow 1-4 weeks)"
+        },
+        {
+          "label": "Sample invoice template with U.S.-standard format (Net 30 terms, EIN, bank details)"
+        },
+        {
+          "label": "U.S. business bank account active for receiving ACH or wire payments"
+        },
+        {
+          "label": "Payment terms documented and ready to negotiate (Net 30, Net 45, or Net 60)"
+        }
+      ]
     },
     {
       "type": "callout",
       "id": "callout-5-2-bys",
       "variant": "before-you-spend",
       "title": "Before You Spend Money: Vendor Readiness Checklist",
-      "content": "<p>Before you pitch your first U.S. B2B customer, make sure you have these ready:</p>\n\n<ul><li><strong>EIN (Employer Identification Number)</strong>: required for the W-9 form</li><li><strong>Completed W-9 form</strong>: have a PDF ready to send within minutes</li><li><strong>General liability insurance</strong>: get a policy and request a sample COI from your provider</li><li><strong>Professional liability insurance</strong>: required in many tech and consulting sectors</li><li><strong>U.S. bank account</strong>: most procurement systems pay via ACH, not wire transfer</li><li><strong>Company registration documentation</strong> . Articles of Organization, operating agreement</li></ul>\n\n<p>Missing any of these can delay a deal by two to four weeks or kill it entirely if the buyer has alternatives who are ready to go.</p>"
+      "content": "<p>Think about this before you start selling. Before you pitch your first U.S. B2B customer, make sure you have these ready:</p>\n\n<ul><li><strong>EIN (Employer Identification Number)</strong>: required for the W-9 form</li><li><strong>Completed W-9 form</strong>: have a PDF ready to send within minutes</li><li><strong>General liability insurance</strong>: get a policy and request a sample COI from your provider</li><li><strong>Professional liability insurance</strong>: required in many tech and consulting sectors</li><li><strong>U.S. bank account</strong>: most procurement systems pay via ACH, not wire transfer</li><li><strong>Company registration documentation</strong> . Articles of Organization, operating agreement</li></ul>\n\n<p>Missing any of these can stall a deal by two to four weeks or kill it if the buyer has other options ready to go.</p>"
     },
     {
       "type": "knowledge-check",
-      "id": "kc-5-2-1",
-      "title": "Check Your Understanding",
+      "id": "kc-5-2",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
           "stem": "A U.S. company wants to purchase your software service for their team of 50 employees. After agreeing on pricing, their procurement department sends you a vendor onboarding packet. Which of the following will you most likely need to provide?",
           "options": [
-            "Only a signed contract and an invoice",
             "A W-9 form, certificate of insurance, and vendor registration information",
+            "Only a signed contract and an invoice",
             "A letter of recommendation from a previous U.S. client",
             "Proof of U.S. citizenship for your company's founders"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "U.S. companies with formal procurement processes typically require a W-9 (tax identification), certificate of insurance (proof of liability coverage), and registration in their vendor system before they can issue payment. Having these documents ready in advance prevents delays that can stall or kill the deal."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-5-2-2",
-      "title": "U.S. Sales Cycle Assessment",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A B2B software founder from Brazil collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?",
           "options": [
@@ -86,24 +147,16 @@
           ],
           "correctAnswer": 2,
           "explanation": "Speed is a decisive factor in U.S. sales. The Harvard Business Review study cited in this lesson found that companies responding within one hour were seven times more likely to qualify a lead. Waiting five days means most prospects have already engaged with faster competitors. In U.S. business, the first company to follow up with a clear offer has a major advantage."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-5-2-3",
-      "title": "Quick Check",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A founder from Nigeria built an HR compliance platform and just landed a verbal \"yes\" from a 200-person U.S. company. The buyer says, \"Great — I'll send you over to procurement.\" Procurement emails him a vendor onboarding packet requesting a W-9 form, a certificate of insurance, and registration in their Coupa system. He has none of these ready. He tells procurement he'll \"get back to them in a couple of weeks.\" Meanwhile, the buyer's team is also evaluating a U.S.-based competitor. What is the most likely outcome?",
           "options": [
             "The buyer will wait because they already committed verbally and switching vendors is too much work",
-            "Procurement will extend the deadline since international vendors commonly need extra time for U.S. paperwork",
             "The deal stalls or dies. The competitor who has vendor documents ready closes while he is still gathering paperwork",
+            "Procurement will extend the deadline since international vendors commonly need extra time for U.S. paperwork",
             "The founder can skip vendor onboarding by invoicing the buyer directly through his Nigerian bank account"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "A verbal \"yes\" is not a closed deal in U.S. B2B sales; procurement is where deals live or die. Two weeks is an eternity when a competitor already has a W-9, insurance certificate, and Coupa registration ready to submit. U.S. companies rarely extend deadlines for vendor onboarding when an alternative vendor is already qualified. This is why the lesson emphasizes having all vendor documentation prepared before you start selling, not after a buyer says yes."
         }
       ]
@@ -128,7 +181,7 @@
       "type": "key-takeaway",
       "id": "kt-5-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Speed wins in the U.S. market. Respond fast, price transparently based on U.S. competitive dynamics, and follow up consistently. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes.</p>"
+      "content": "<p>The takeaway is simple. Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes — your paperwork is ready and your business is open when the opportunity arrives.</p>"
     }
   ]
 }

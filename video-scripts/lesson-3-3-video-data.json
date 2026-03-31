@@ -1,0 +1,97 @@
+{
+  "lessonId": "lesson-3-3",
+  "videoTitle": "Contracts and When You Need a Lawyer",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "Rocket Base \u00e2\u20ac\u201d Cape Canaveral inspiration, science, protecting innovation",
+  "totalDuration": 257.28000000000003,
+  "sceneCount": 6,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Mission Control \u00e2\u20ac\u201d Knowing When to Call in the Experts",
+      "bullets": [],
+      "narration": "You have secured your intellectual property and your safety systems are in place. Now you are in the last building at the launch facility: mission control. This is where you decide which decisions you can make on your own and which ones require a specialist in the room. A business attorney in Central Florida charges two hundred to four hundred dollars per hour. Call one for every question and you will burn through your budget fast. But handle the wrong decision yourself and you will pay even more to fix the damage. The key is knowing the difference.",
+      "template": "intro",
+      "avatarScene": "lesson-3-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-3/lesson-3-3-scene-1.wav",
+      "duration": 30.0
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "What You Can Handle Yourself",
+      "bullets": [
+        "SunBiz entity filing \u00e2\u20ac\u201d LLC or Corporation formation",
+        "EIN application with the IRS \u00e2\u20ac\u201d free",
+        "Basic NDA using a reputable template",
+        "Sales tax registration with Florida Department of Revenue \u00e2\u20ac\u201d free"
+      ],
+      "narration": "Many common tasks at the launch facility do not require a specialist. Filing your LLC on SunBiz costs one hundred twenty-five dollars and takes about thirty minutes. Requesting an EIN is free. Registering for a Florida sales tax certificate is free. Setting up accounting software takes an afternoon. Opening a business bank account is a matter of preparation, not legal expertise. These are the routine systems checks you can run on your own. A founder from Ecuador saved three thousand dollars by filing his own LLC and EIN, then spent eight hundred on an attorney for the operating agreement and a major client contract. That is the right balance \u00e2\u20ac\u201d save money on the routine work and invest in expert help where it counts.",
+      "template": "split-left",
+      "avatarScene": "lesson-3-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-3/lesson-3-3-scene-2.wav",
+      "duration": 41.28
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "When to Get a Lawyer",
+      "bullets": [
+        "Complex entity setup, especially if visa status is involved",
+        "Investor agreements \u00e2\u20ac\u201d SAFE notes, convertible notes, equity rounds",
+        "IP disputes or cease-and-desist letters",
+        "Any contract worth more than twenty-five thousand dollars"
+      ],
+      "narration": "Here is where you need a specialist in the room. Complex entity setup, especially if your visa status is involved \u00e2\u20ac\u201d that is where a wrong decision can affect your ability to stay in the country. Investor agreements like SAFE notes, convertible notes, and equity rounds involve financial structures that require legal precision. IP disputes and cease-and-desist letters need someone who can evaluate your exposure and respond strategically. Employment contracts and non-competes have state-specific rules that vary significantly. Any contract worth more than twenty-five thousand dollars deserves a legal review. And any situation involving threatened legal action requires an attorney, period. In a launch facility, propulsion engineers do not rewire avionics. The same applies to legal counsel.",
+      "template": "split-right",
+      "avatarScene": "lesson-3-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-3/lesson-3-3-scene-3.wav",
+      "duration": 45.92
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Finding the Right Attorney",
+      "bullets": [
+        "Business attorney: entity formation, contracts, commercial disputes",
+        "Immigration attorney: visas, work authorization, immigration-linked business decisions",
+        "IP attorney: trademarks, patents, copyright enforcement",
+        "Ask: do you work with international business owners? Do you offer flat-fee billing?"
+      ],
+      "narration": "Lawyer is as broad as doctor. You would not see a cardiologist for a broken arm. A business attorney handles entity formation, contracts, and commercial disputes. That is your primary legal relationship. An immigration attorney handles visas, work authorization, and immigration-linked business decisions. Essential if your business structure affects your ability to stay in the U.S. An IP attorney handles trademarks, patents, and copyright enforcement. A general business attorney is not enough for patent filings. A tax attorney handles international tax treaties and IRS audits. Before hiring anyone, ask four questions. Do you work with international business owners? Are you familiar with E-2 or L-1 visa implications? Do you offer flat-fee billing? And can you provide references from international founders?",
+      "template": "split-left",
+      "avatarScene": "lesson-3-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-3/lesson-3-3-scene-4.wav",
+      "duration": 49.2
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Free Resources Before You Pay",
+      "bullets": [
+        "SBDC at UCF: free one-on-one counseling and attorney referrals",
+        "UCF BIP network: vetted attorneys who work with international founders",
+        "Florida Bar Lawyer Referral Service: initial consultation typically twenty-five to fifty dollars",
+        "Always exhaust free resources before paying for private legal help"
+      ],
+      "narration": "Before you spend money on legal fees, exhaust the free resources available to you. The SBDC at UCF provides free one-on-one business counseling, including referrals to attorneys. The UCF BIP network connects you with lawyers who regularly work with international founders. The Florida Bar Lawyer Referral Service connects you with attorneys by specialty for an initial consultation at typically twenty-five to fifty dollars for thirty minutes. Central Florida's technology and aerospace sectors have created a deep pool of attorneys experienced in international business, IP, and immigration. Finding the right specialist is more achievable here than in many other U.S. markets. A Mexican founder interviewed three attorneys. The first two had no experience with foreign-owned businesses. The third had helped fifteen international founders and offered a twelve hundred dollar flat fee for entity formation and operating agreement.",
+      "template": "split-right",
+      "avatarScene": "lesson-3-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-3/lesson-3-3-scene-5.wav",
+      "duration": 52.0
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Mission Cleared for Launch",
+      "bullets": [],
+      "narration": "Mission control is the last stop at the launch facility. Use free resources first \u00e2\u20ac\u201d SBDC counseling, UCF BIP referrals, and Florida Bar referral services. Handle simple filings yourself. Save your attorney budget for the decisions that carry real risk: investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Ask for flat fees, verify international experience, and get the fee agreement in writing. The right specialists are in the room. The mission is cleared for launch. Next destination: the entertainment district, where you will learn how to build a team, understand worker classification, and navigate the visa landscape.",
+      "template": "intro",
+      "avatarScene": "lesson-3-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-3/lesson-3-3-scene-6.wav",
+      "duration": 38.88
+    }
+  ]
+}

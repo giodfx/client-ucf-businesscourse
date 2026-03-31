@@ -1,0 +1,108 @@
+{
+  "lessonId": "lesson-8-3",
+  "videoTitle": "Next Steps \u00e2\u20ac\u201d Your UCF BIP Pathway",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "UCF Headquarters \u00e2\u20ac\u201d reflection, wrap-up, return to base",
+  "totalDuration": 279.2,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Your Next Move from Campus Headquarters",
+      "bullets": [],
+      "narration": "With your resources downloaded and your readiness scores in hand, you are standing at the front door of UCF's incubator complex. This is where the program stops being a course and starts being a relationship. One action matters most: schedule your one-on-one meeting with Brian Bedrick and the UCF BIP team. Think of this as your orientation inside headquarters \u00e2\u20ac\u201d the team gets to know your mission and helps you plan the route. It is a strategy session, not a sales call. A thirty-minute conversation can save you months of trial and error. You have the knowledge. Now let me help you turn it into a plan with real deadlines.",
+      "template": "intro",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-1.wav",
+      "duration": 31.92
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "What Comes After Phase 1",
+      "bullets": [
+        "Phase 1 is what you just completed \u00e2\u20ac\u201d the foundation before spending money",
+        "Phases 2 and 3 provide personalized advisory, professional connections, and ecosystem access",
+        "You also get peer community with other international founders at a similar stage",
+        "Details are discussed during your one-on-one meeting \u00e2\u20ac\u201d your conversation determines which path fits"
+      ],
+      "narration": "This program is Phase 1 \u00e2\u20ac\u201d the foundation before spending money in the U.S. market. Some founders move forward independently from here. Others benefit from phases two and three of the UCF BIP market entry and soft landing program. These phases provide personalized advisory \u00e2\u20ac\u201d one-on-one guidance specific to your business. Professional connections \u00e2\u20ac\u201d warm introductions to attorneys, CPAs, and banking contacts. Ecosystem access \u00e2\u20ac\u201d investors, industry contacts, and partner organizations. A peer community of other international founders at a similar stage. And structured milestones with regular check-ins to keep you moving forward. The details are discussed during your one-on-one meeting. Your conversation will help determine which path makes sense for where your business is right now.",
+      "template": "split-left",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-2.wav",
+      "duration": 40.48
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Your Top 3 Actions for the Next 30 Days",
+      "bullets": [
+        "Pick three actions, not ten \u00e2\u20ac\u201d specific actions lead to higher follow-through",
+        "Weak: learn more about taxes \u00e2\u20ac\u201d Strong: schedule a CPA consultation by a specific date",
+        "Book your UCF BIP one-on-one today \u00e2\u20ac\u201d free, low-pressure, and the natural next step",
+        "Complete the Expansion Decision Worksheet before your meeting \u00e2\u20ac\u201d block sixty minutes"
+      ],
+      "narration": "Here is the most important part of this entire program. Pick your top three actions for the next thirty days. Three, not ten. Specific actions lead to higher follow-through than long lists. Make each action specific. A weak goal sounds like: learn more about U.S. taxes. A strong goal sounds like: schedule a thirty-minute consultation with a CPA who works with foreign-owned businesses by next Friday. High-impact thirty-day actions include booking your one-on-one with UCF BIP \u00e2\u20ac\u201d do it today. Contacting a specific professional \u00e2\u20ac\u201d attorney, CPA, or immigration lawyer \u00e2\u20ac\u201d with a name and a date. Completing one research task \u00e2\u20ac\u201d a SunBiz name check, USPTO search, or compiling bank documentation. Registering for a free resource \u00e2\u20ac\u201d SBDC counseling, SCORE mentorship, or a chamber event. And completing the Expansion Decision Worksheet \u00e2\u20ac\u201d block sixty minutes before your one-on-one.",
+      "template": "split-right",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-3.wav",
+      "duration": 48.16
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "What to Bring to Your One-on-One Meeting",
+      "bullets": [
+        "Your readiness self-assessment scores from lesson eight-one",
+        "Your completed Expansion Decision Worksheet from lesson eight-two",
+        "Your top three questions \u00e2\u20ac\u201d written down before the meeting, not during it",
+        "Your business context: company, product, home market, and why you are considering the U.S."
+      ],
+      "narration": "When you sit down with the UCF BIP team, preparation makes the difference between a generic conversation and a focused strategy session. Bring your readiness self-assessment scores from lesson eight-one. Bring your completed Expansion Decision Worksheet from lesson eight-two. Write down your top three questions before the meeting \u00e2\u20ac\u201d not during it. And be ready to share your business context: your company, your product, your home market, and why you are considering the United States. The meeting is free, it takes thirty minutes, and it is the natural bridge between what you have learned and what happens next. The UCF BIP team has guided hundreds of international founders through this process. Come prepared and they can give you advice tailored to your specific situation.",
+      "template": "split-left",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-4.wav",
+      "duration": 42.24
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "An Important Reminder Before You Go",
+      "bullets": [],
+      "narration": "Before you close this program, an important reminder. Everything you covered here is general educational information to help you understand the U.S. business environment. It is not legal, tax, immigration, or financial advice. Every founder's case is different. Your entity choice, your tax obligations, your visa pathway, your IP strategy \u00e2\u20ac\u201d all depend on your specific situation. The experts you work with will take the general knowledge you gained here and tailor it to your business, your country of origin, your industry, and your goals. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe, real action. That distinction matters more than anything else in this program.",
+      "template": "diagonal",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-5.wav",
+      "duration": 35.12
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Your Feedback Matters",
+      "bullets": [
+        "Was this program worth your time? Did it change your understanding of U.S. market entry?",
+        "What would make it better? A topic in more depth? An area too basic?",
+        "Share your thoughts during your one-on-one or send them to the UCF BIP team",
+        "Your answers help make this better for every founder who comes after you"
+      ],
+      "narration": "Two final questions before you go. Was this program worth your time? Did it change your understanding of U.S. market entry? Did it help you avoid at least one costly mistake? Be honest. Positive and critical answers help equally. And what would make it better? A topic in more depth? An area too basic? A resource you wished existed? Share your thoughts during your one-on-one meeting or send them directly to the UCF BIP team. Your answers help make this program better for every founder who comes after you. The road trip analogy that carried you through eight modules was designed to make dense content feel like a journey, not a textbook. If it worked, tell us. If it did not, tell us that too.",
+      "template": "split-right",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-6.wav",
+      "duration": 39.12
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "The Launchpad Is Ready \u00e2\u20ac\u201d The Countdown Is Yours",
+      "bullets": [],
+      "narration": "You have arrived at campus headquarters not as a finish line, but as a launch point. You have the knowledge, the resources, and the access to a team that wants to help you succeed. The road trip is complete. You drove through the city for legal foundations, the financial district for money management, the rocket base for IP and protection, the theme park for team building, the port and shopping center for market entry, the beach for cultural fluency, the springs for ecosystem support, and finally here to UCF headquarters for your readiness check and next steps. The founders who get the most value from this program are the ones who take action within the first week. Book your one-on-one meeting. Pick your top three actions. Take the first step today. Central Florida is ready for you, and the UCF BIP team is ready to help you get there.",
+      "template": "intro",
+      "avatarScene": "lesson-8-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-8-3/lesson-8-3-scene-7.wav",
+      "duration": 42.16
+    }
+  ]
+}

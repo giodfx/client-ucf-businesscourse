@@ -1,0 +1,883 @@
+/**
+ * Responsive CSS - Mobile-First Design System
+ * Course Factory - Shared across all course templates
+ *
+ * This file provides comprehensive responsive design support:
+ * - Mobile-first breakpoint system
+ * - Fluid typography
+ * - Responsive grid layouts
+ * - Touch-friendly interactions
+ * - Orientation handling
+ * - Safe area support (notches, etc.)
+ * - Container queries support
+ *
+ * Breakpoint System:
+ * - xs: 0 - 479px (small phones)
+ * - sm: 480px - 767px (large phones, small tablets)
+ * - md: 768px - 1023px (tablets)
+ * - lg: 1024px - 1279px (small desktops, landscape tablets)
+ * - xl: 1280px - 1535px (desktops)
+ * - xxl: 1536px+ (large desktops)
+ */
+
+/* ============================================================================
+   CSS CUSTOM PROPERTIES FOR RESPONSIVE VALUES
+   ============================================================================ */
+
+:root {
+    /* Breakpoints as custom properties for reference */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-xxl: 1536px;
+
+    /* Fluid spacing scale */
+    --space-xs: clamp(0.25rem, 0.5vw, 0.5rem);
+    --space-sm: clamp(0.5rem, 1vw, 0.75rem);
+    --space-md: clamp(0.75rem, 1.5vw, 1rem);
+    --space-lg: clamp(1rem, 2vw, 1.5rem);
+    --space-xl: clamp(1.5rem, 3vw, 2rem);
+    --space-xxl: clamp(2rem, 4vw, 3rem);
+
+    /* Fluid typography scale */
+    --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --font-size-sm: clamp(0.875rem, 0.8rem + 0.3vw, 1rem);
+    --font-size-base: clamp(1rem, 0.9rem + 0.4vw, 1.125rem);
+    --font-size-lg: clamp(1.125rem, 1rem + 0.5vw, 1.25rem);
+    --font-size-xl: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+    --font-size-2xl: clamp(1.5rem, 1.25rem + 1vw, 2rem);
+    --font-size-3xl: clamp(1.875rem, 1.5rem + 1.5vw, 2.5rem);
+    --font-size-4xl: clamp(2.25rem, 1.75rem + 2vw, 3rem);
+
+    /* Container widths */
+    --container-xs: 100%;
+    --container-sm: 540px;
+    --container-md: 720px;
+    --container-lg: 960px;
+    --container-xl: 1140px;
+    --container-xxl: 1320px;
+
+    /* Sidebar width */
+    --sidebar-width: 280px;
+    --sidebar-width-collapsed: 60px;
+}
+
+/* ============================================================================
+   BASE MOBILE STYLES (Mobile-First)
+   ============================================================================ */
+
+/* Prevent horizontal scroll */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Base font size for accessibility */
+html {
+    font-size: 100%; /* 16px */
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Fluid body text */
+body {
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+
+/* ============================================================================
+   CONTAINER SYSTEM
+   ============================================================================ */
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+}
+
+.container-fluid {
+    width: 100%;
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+}
+
+/* ============================================================================
+   RESPONSIVE GRID SYSTEM
+   ============================================================================ */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--space-md) * -0.5);
+    margin-right: calc(var(--space-md) * -0.5);
+}
+
+.col {
+    flex: 1 0 0%;
+    padding-left: calc(var(--space-md) * 0.5);
+    padding-right: calc(var(--space-md) * 0.5);
+}
+
+/* Column sizing - mobile first (100% width) */
+.col-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+.col-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+.col-3 { flex: 0 0 25%; max-width: 25%; }
+.col-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+.col-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+.col-6 { flex: 0 0 50%; max-width: 50%; }
+.col-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+.col-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-9 { flex: 0 0 75%; max-width: 75%; }
+.col-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+.col-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+
+/* Full width on mobile by default */
+.col-mobile-full {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* ============================================================================
+   COURSE LAYOUT - MOBILE FIRST
+   ============================================================================ */
+
+/* Main layout wrapper */
+.course-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Sidebar - hidden on mobile, shown as overlay */
+.sidebar,
+.lesson-sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 85%;
+    max-width: 320px;
+    height: 100vh;
+    background: var(--color-sidebar-bg, #1a1a2e);
+    z-index: 1000;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    padding-top: 60px; /* Space for close button */
+}
+
+.sidebar.active,
+.lesson-sidebar.active {
+    left: 0;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Main content - full width on mobile */
+.main-content,
+.lesson-content {
+    flex: 1;
+    width: 100%;
+    padding: var(--space-md);
+}
+
+/* Mobile menu toggle button */
+.mobile-menu-toggle {
+    display: flex;
+    position: fixed;
+    top: var(--space-md);
+    left: var(--space-md);
+    z-index: 1001;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary, #0066cc);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hamburger icon */
+.hamburger {
+    width: 24px;
+    height: 18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Overlay for mobile menu */
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+body.menu-open .sidebar-overlay {
+    display: block;
+}
+
+/* ============================================================================
+   NAVIGATION - MOBILE STYLES
+   ============================================================================ */
+
+.nav-module {
+    border-bottom: 1px solid var(--color-border, rgba(255, 255, 255, 0.1));
+}
+
+.nav-module-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    text-align: left;
+    min-height: 56px; /* Larger touch target on mobile */
+}
+
+.nav-lesson-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-lesson-link {
+    display: flex;
+    align-items: center;
+    padding: 14px 16px 14px 32px;
+    color: var(--color-text-muted, #aaa);
+    text-decoration: none;
+    min-height: 48px;
+    gap: 12px;
+}
+
+.nav-lesson-link:hover,
+.nav-lesson-link:focus {
+    background: var(--color-hover-bg, rgba(255, 255, 255, 0.05));
+    color: var(--color-text, #fff);
+}
+
+.nav-lesson-link.current {
+    background: var(--color-active-bg, rgba(0, 102, 204, 0.2));
+    color: var(--color-primary, #0066cc);
+    border-left: 3px solid var(--color-primary, #0066cc);
+}
+
+/* ============================================================================
+   TYPOGRAPHY - RESPONSIVE
+   ============================================================================ */
+
+h1 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-lg);
+}
+
+h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-md);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-md);
+}
+
+h4 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-sm);
+}
+
+h5, h6 {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--space-sm);
+}
+
+p {
+    margin-bottom: var(--space-md);
+}
+
+/* ============================================================================
+   IMAGES AND MEDIA - RESPONSIVE
+   ============================================================================ */
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive aspect ratio containers */
+.aspect-ratio-16-9 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.aspect-ratio-4-3 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%;
+}
+
+.aspect-ratio-1-1 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.aspect-ratio-16-9 > *,
+.aspect-ratio-4-3 > *,
+.aspect-ratio-1-1 > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ============================================================================
+   INTERACTIVE COMPONENTS - MOBILE OPTIMIZED
+   ============================================================================ */
+
+/* Buttons need larger touch targets on mobile */
+.btn,
+button {
+    min-height: 48px;
+    padding: 12px 24px;
+    font-size: var(--font-size-base);
+    touch-action: manipulation;
+}
+
+/* Form elements */
+input,
+select,
+textarea {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 16px;
+    font-size: 16px; /* Prevents iOS zoom */
+    border-radius: 8px;
+}
+
+/* Quiz options - full width on mobile */
+.quiz-option {
+    width: 100%;
+    min-height: 56px;
+    padding: 16px;
+    margin-bottom: var(--space-sm);
+    text-align: left;
+}
+
+/* Drag and drop areas - larger on mobile */
+.drag-item,
+.drop-zone {
+    min-height: 56px;
+    padding: 16px;
+    margin-bottom: var(--space-sm);
+}
+
+/* Cards stack vertically on mobile */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+}
+
+/* ============================================================================
+   TABLES - RESPONSIVE
+   ============================================================================ */
+
+/* Horizontally scrollable tables on mobile */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Stack table cells on very small screens */
+@media (max-width: 479px) {
+    .table-stack thead {
+        display: none;
+    }
+
+    .table-stack tr {
+        display: block;
+        margin-bottom: var(--space-md);
+        border: 1px solid var(--color-border, #ddd);
+        border-radius: 8px;
+        padding: var(--space-md);
+    }
+
+    .table-stack td {
+        display: flex;
+        justify-content: space-between;
+        padding: var(--space-sm) 0;
+        border: none;
+        border-bottom: 1px solid var(--color-border, #eee);
+    }
+
+    .table-stack td:last-child {
+        border-bottom: none;
+    }
+
+    .table-stack td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        margin-right: var(--space-md);
+    }
+}
+
+/* ============================================================================
+   UTILITY CLASSES - RESPONSIVE VISIBILITY
+   ============================================================================ */
+
+/* Hide/show based on screen size */
+.hide-mobile { display: none !important; }
+.show-mobile { display: block !important; }
+.show-mobile-flex { display: flex !important; }
+.show-mobile-inline { display: inline !important; }
+
+/* ============================================================================
+   SMALL PHONES BREAKPOINT (sm: 480px+)
+   ============================================================================ */
+
+@media (min-width: 480px) {
+    .container {
+        max-width: var(--container-sm);
+    }
+
+    /* 2 columns on large phones */
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .col-sm-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+    .col-sm-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+    .col-sm-3 { flex: 0 0 25%; max-width: 25%; }
+    .col-sm-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+    .col-sm-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+    .col-sm-6 { flex: 0 0 50%; max-width: 50%; }
+    .col-sm-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+    .col-sm-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+    .col-sm-9 { flex: 0 0 75%; max-width: 75%; }
+    .col-sm-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .col-sm-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+    .col-sm-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* ============================================================================
+   TABLET BREAKPOINT (md: 768px+)
+   ============================================================================ */
+
+@media (min-width: 768px) {
+    :root {
+        --sidebar-width: 280px;
+    }
+
+    .container {
+        max-width: var(--container-md);
+    }
+
+    /* Show sidebar on tablet */
+    .sidebar,
+    .lesson-sidebar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: var(--sidebar-width);
+        max-width: var(--sidebar-width);
+        height: 100vh;
+        padding-top: 0;
+        flex-shrink: 0;
+    }
+
+    /* Layout becomes horizontal */
+    .course-layout {
+        flex-direction: row;
+    }
+
+    /* Main content adjusts */
+    .main-content,
+    .lesson-content {
+        flex: 1;
+        min-width: 0; /* Prevent flex overflow */
+        padding: var(--space-lg);
+    }
+
+    /* Hide mobile menu toggle */
+    .mobile-menu-toggle {
+        display: none;
+    }
+
+    /* Desktop sidebar toggle */
+    .desktop-sidebar-toggle {
+        display: flex;
+    }
+
+    /* Navigation items can be smaller */
+    .nav-module-trigger {
+        min-height: 48px;
+        padding: 12px 16px;
+    }
+
+    .nav-lesson-link {
+        min-height: 44px;
+        padding: 10px 16px 10px 32px;
+    }
+
+    /* Form elements can be more compact */
+    .btn,
+    button {
+        min-height: 44px;
+        padding: 10px 20px;
+    }
+
+    /* Quiz options in grid */
+    .quiz-options-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-md);
+    }
+
+    /* Cards in 2-3 columns */
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Visibility utilities */
+    .hide-mobile { display: block !important; }
+    .show-mobile { display: none !important; }
+    .show-mobile-flex { display: none !important; }
+    .show-mobile-inline { display: none !important; }
+    .hide-tablet { display: none !important; }
+    .show-tablet { display: block !important; }
+    .show-tablet-flex { display: flex !important; }
+
+    .col-md-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+    .col-md-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+    .col-md-3 { flex: 0 0 25%; max-width: 25%; }
+    .col-md-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+    .col-md-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+    .col-md-6 { flex: 0 0 50%; max-width: 50%; }
+    .col-md-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+    .col-md-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+    .col-md-9 { flex: 0 0 75%; max-width: 75%; }
+    .col-md-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .col-md-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+    .col-md-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* ============================================================================
+   DESKTOP BREAKPOINT (lg: 1024px+)
+   ============================================================================ */
+
+@media (min-width: 1024px) {
+    :root {
+        --sidebar-width: 300px;
+    }
+
+    .container {
+        max-width: var(--container-lg);
+    }
+
+    /* Wider sidebar on desktop */
+    .sidebar,
+    .lesson-sidebar {
+        width: var(--sidebar-width);
+        max-width: var(--sidebar-width);
+    }
+
+    /* Collapsible sidebar support */
+    body.sidebar-collapsed .sidebar,
+    body.sidebar-collapsed .lesson-sidebar {
+        width: var(--sidebar-width-collapsed);
+    }
+
+    body.sidebar-collapsed .main-content,
+    body.sidebar-collapsed .lesson-content {
+        margin-left: 0;
+    }
+
+    /* Cards in 3 columns */
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Visibility utilities */
+    .hide-tablet { display: block !important; }
+    .show-tablet { display: none !important; }
+    .show-tablet-flex { display: none !important; }
+    .hide-desktop { display: none !important; }
+    .show-desktop { display: block !important; }
+    .show-desktop-flex { display: flex !important; }
+
+    .col-lg-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+    .col-lg-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+    .col-lg-3 { flex: 0 0 25%; max-width: 25%; }
+    .col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+    .col-lg-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+    .col-lg-6 { flex: 0 0 50%; max-width: 50%; }
+    .col-lg-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+    .col-lg-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+    .col-lg-9 { flex: 0 0 75%; max-width: 75%; }
+    .col-lg-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .col-lg-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+    .col-lg-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* ============================================================================
+   LARGE DESKTOP BREAKPOINT (xl: 1280px+)
+   ============================================================================ */
+
+@media (min-width: 1280px) {
+    :root {
+        --sidebar-width: 320px;
+    }
+
+    .container {
+        max-width: var(--container-xl);
+    }
+
+    /* Cards in 4 columns */
+    .card-grid-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .col-xl-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+    .col-xl-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+    .col-xl-3 { flex: 0 0 25%; max-width: 25%; }
+    .col-xl-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+    .col-xl-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+    .col-xl-6 { flex: 0 0 50%; max-width: 50%; }
+    .col-xl-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+    .col-xl-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+    .col-xl-9 { flex: 0 0 75%; max-width: 75%; }
+    .col-xl-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .col-xl-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+    .col-xl-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* ============================================================================
+   EXTRA LARGE DESKTOP BREAKPOINT (xxl: 1536px+)
+   ============================================================================ */
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: var(--container-xxl);
+    }
+
+    .col-xxl-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+    .col-xxl-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+    .col-xxl-3 { flex: 0 0 25%; max-width: 25%; }
+    .col-xxl-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+    .col-xxl-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+    .col-xxl-6 { flex: 0 0 50%; max-width: 50%; }
+    .col-xxl-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+    .col-xxl-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+    .col-xxl-9 { flex: 0 0 75%; max-width: 75%; }
+    .col-xxl-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .col-xxl-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+    .col-xxl-12 { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* ============================================================================
+   ORIENTATION HANDLING
+   ============================================================================ */
+
+/* Landscape phone adjustments */
+@media (max-width: 767px) and (orientation: landscape) {
+    /* Reduce header height */
+    .course-header,
+    .lesson-header {
+        padding-top: var(--space-sm);
+        padding-bottom: var(--space-sm);
+    }
+
+    /* Sidebar can be narrower */
+    .sidebar.active,
+    .lesson-sidebar.active {
+        max-width: 280px;
+    }
+
+    /* Video player fills viewport */
+    .video-player-fullscreen {
+        max-height: 100vh;
+    }
+}
+
+/* Portrait tablet adjustments */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    /* Narrower sidebar in portrait */
+    .sidebar,
+    .lesson-sidebar {
+        width: 260px;
+    }
+}
+
+/* ============================================================================
+   SAFE AREA INSETS (Notches, Home Indicators)
+   ============================================================================ */
+
+@supports (padding: max(0px)) {
+    /* Apply safe area padding to key elements */
+    .mobile-menu-toggle {
+        top: max(var(--space-md), env(safe-area-inset-top));
+        left: max(var(--space-md), env(safe-area-inset-left));
+    }
+
+    .sidebar,
+    .lesson-sidebar {
+        padding-left: env(safe-area-inset-left);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    .main-content,
+    .lesson-content {
+        padding-right: max(var(--space-md), env(safe-area-inset-right));
+        padding-bottom: max(var(--space-md), env(safe-area-inset-bottom));
+    }
+
+    /* Fixed bottom elements */
+    .bottom-nav,
+    .lesson-footer {
+        padding-bottom: max(var(--space-md), env(safe-area-inset-bottom));
+    }
+}
+
+/* ============================================================================
+   SPACING UTILITIES - RESPONSIVE
+   ============================================================================ */
+
+/* Margin utilities */
+.m-0 { margin: 0 !important; }
+.m-auto { margin: auto !important; }
+.mx-auto { margin-left: auto !important; margin-right: auto !important; }
+.my-auto { margin-top: auto !important; margin-bottom: auto !important; }
+
+.m-xs { margin: var(--space-xs) !important; }
+.m-sm { margin: var(--space-sm) !important; }
+.m-md { margin: var(--space-md) !important; }
+.m-lg { margin: var(--space-lg) !important; }
+.m-xl { margin: var(--space-xl) !important; }
+
+.mt-xs { margin-top: var(--space-xs) !important; }
+.mt-sm { margin-top: var(--space-sm) !important; }
+.mt-md { margin-top: var(--space-md) !important; }
+.mt-lg { margin-top: var(--space-lg) !important; }
+.mt-xl { margin-top: var(--space-xl) !important; }
+
+.mb-xs { margin-bottom: var(--space-xs) !important; }
+.mb-sm { margin-bottom: var(--space-sm) !important; }
+.mb-md { margin-bottom: var(--space-md) !important; }
+.mb-lg { margin-bottom: var(--space-lg) !important; }
+.mb-xl { margin-bottom: var(--space-xl) !important; }
+
+/* Padding utilities */
+.p-0 { padding: 0 !important; }
+.p-xs { padding: var(--space-xs) !important; }
+.p-sm { padding: var(--space-sm) !important; }
+.p-md { padding: var(--space-md) !important; }
+.p-lg { padding: var(--space-lg) !important; }
+.p-xl { padding: var(--space-xl) !important; }
+
+/* ============================================================================
+   FLEXBOX UTILITIES
+   ============================================================================ */
+
+.d-flex { display: flex !important; }
+.d-inline-flex { display: inline-flex !important; }
+.d-block { display: block !important; }
+.d-inline-block { display: inline-block !important; }
+.d-none { display: none !important; }
+
+.flex-row { flex-direction: row !important; }
+.flex-column { flex-direction: column !important; }
+.flex-wrap { flex-wrap: wrap !important; }
+.flex-nowrap { flex-wrap: nowrap !important; }
+
+.justify-start { justify-content: flex-start !important; }
+.justify-end { justify-content: flex-end !important; }
+.justify-center { justify-content: center !important; }
+.justify-between { justify-content: space-between !important; }
+.justify-around { justify-content: space-around !important; }
+
+.align-start { align-items: flex-start !important; }
+.align-end { align-items: flex-end !important; }
+.align-center { align-items: center !important; }
+.align-stretch { align-items: stretch !important; }
+
+.flex-grow-0 { flex-grow: 0 !important; }
+.flex-grow-1 { flex-grow: 1 !important; }
+.flex-shrink-0 { flex-shrink: 0 !important; }
+.flex-shrink-1 { flex-shrink: 1 !important; }
+
+/* Gap utilities */
+.gap-xs { gap: var(--space-xs) !important; }
+.gap-sm { gap: var(--space-sm) !important; }
+.gap-md { gap: var(--space-md) !important; }
+.gap-lg { gap: var(--space-lg) !important; }
+.gap-xl { gap: var(--space-xl) !important; }
+
+/* ============================================================================
+   TEXT UTILITIES - RESPONSIVE
+   ============================================================================ */
+
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+
+.text-nowrap { white-space: nowrap !important; }
+.text-truncate {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+/* Responsive text alignment */
+@media (min-width: 768px) {
+    .text-md-left { text-align: left !important; }
+    .text-md-center { text-align: center !important; }
+    .text-md-right { text-align: right !important; }
+}
+
+@media (min-width: 1024px) {
+    .text-lg-left { text-align: left !important; }
+    .text-lg-center { text-align: center !important; }
+    .text-lg-right { text-align: right !important; }
+}

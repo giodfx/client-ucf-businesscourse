@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-7-1",
   "moduleId": "module-7",
+  "landscapeTheme": "River Springs",
   "title": "Business Support Organizations Available to Help You",
   "duration": 7,
   "objectives": [
@@ -12,83 +13,112 @@
     {
       "type": "text",
       "id": "text-7-1-1",
-      "title": "You Don't Have to Figure This Out Alone",
-      "content": "<p>Having established the legal, financial, and cultural foundations in earlier modules, this final module addresses the support ecosystem most founders never hear about. A Colombian founder spent $4,500 on a business consultant to develop a market entry plan for Central Florida. Three months later, she discovered the SBDC at UCF offers the same service — for free.</p>\n\n<p>What does that mean for you? The U.S. has an entire ecosystem of business support organizations funded by federal, state, and local government. Most welcome international entrepreneurs, many have bilingual staff, and almost all are free or low-cost. You're not asking for charity — these resources were created specifically for founders like you.</p>",
-      "wordCount": 110
+      "title": "Discovering the Springs, Where Everything Connects",
+      "content": "<p>Imagine stepping off a trail in Central Florida and discovering a crystal-clear natural spring. The water is so transparent you can see every detail of the riverbed below. Fish, turtles, manatees, cypress roots, aquatic plants: an entire ecosystem thriving because everything in it is interconnected. Central Florida's business support network works the same way. SBDC, SBA, chambers of commerce, UCF BIP, SCORE, Prospera: each one feeds into the same living system, and they are all here to support founders like you.</p>\n\n<p>A Colombian founder spent $4,500 on a business consultant to put together a market entry plan for Central Florida. Three months later, she discovered the SBDC at UCF offers the same service, for free. She had been standing at the edge of the springs without realizing the whole ecosystem was already there.</p>\n\n<p>What does that mean for you? The U.S. has a full network of business support groups funded by federal, state, and local government. Most welcome foreign founders, many have bilingual staff, and almost all are free or low-cost. You are not asking for charity. These resources exist specifically for founders like you.</p>",
+      "wordCount": 172
     },
     {
       "type": "text",
       "id": "text-7-1-2",
-      "title": "The Key Organizations — What Each One Does",
-      "content": "<h4>SBDC (Small Business Development Center) at UCF</h4>\n\n<p>One of your most valuable free resources. SBDC advisors provide <strong>one-on-one business counseling at no cost</strong> : ongoing help with business planning, market research, financial analysis, and operational strategy. Your first appointment is a 60-90 minute intake, followed by a tailored action plan and unlimited follow-up sessions. They also run workshops (free to $50) on business plans, financial management, and government contracting. Find them at <strong>floridasbdc.org</strong>.</p>\n\n<h4>SBA (Small Business Administration)</h4>\n\n<p>The federal agency supporting small businesses. Key resources:</p>\n\n<ul><li><strong>SBA.gov</strong> . Free guides on formation, licensing, taxes, and capital access</li><li><strong>SBA lending programs</strong> . Favorable terms, though eligibility for non-citizens is limited (see Module 2)</li><li><strong>Government contracting assistance</strong> . Programs helping small businesses compete for federal contracts</li></ul>\n\n<p>Important: SBA <strong>counseling and educational resources</strong> are available regardless of citizenship status. <strong>Lending programs</strong> typically require permanent residency. Don't let lending eligibility stop you from using their free resources.</p>\n\n<h4>Orlando Economic Partnership (OEP)</h4>\n\n<p>The regional economic development organization : offers site selection assistance, market intelligence, introductions to local business leaders, and tax incentive information. Free.</p>\n\n<h4>Chambers of Commerce</h4>\n\n<p>Membership-based organizations ($200-$500/year) providing networking, advocacy, and credibility:</p>\n\n<ul><li><strong>Orlando Regional Chamber</strong> . Largest local chamber with broad networking</li><li><strong>Hispanic Chamber of Metro Orlando</strong> . Bilingual resources and mentorship for Hispanic/Latino founders</li><li><strong>Local chambers</strong> (Kissimmee, Winter Park, Sanford) . Community networking with lower fees</li></ul>",
-      "wordCount": 225
+      "title": "Free Help Is Closer Than You Think",
+      "content": "<p>A founder from Colombia spent $4,500 on a private consultant to help navigate U.S. business setup — then discovered that the Small Business Development Center at UCF offers the same guidance for free. Central Florida has several organizations specifically designed to help international founders, and most of them cost nothing.</p>\n\n<p>Here are the five you should know. Each one serves a different purpose — explore the directory below to find the right fit for where you are right now.</p>",
+      "wordCount": 242
+    },
+    {
+      "type": "accordion",
+      "id": "int-7-1-1",
+      "title": "Resource Directory — What Each Organization Does",
+      "sections": [
+        {
+          "heading": "Florida SBDC at UCF",
+          "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at floridaSBDC.org. No cost, no obligation.\n\n**International-friendly:** Yes — they work extensively with international entrepreneurs."
+        },
+        {
+          "heading": "SBA (Small Business Administration)",
+          "content": "**What they do:** Federal agency providing loan guarantees, training, and contracting assistance.\n\n**Best for:** Accessing capital (SBA-backed loans have better terms than conventional loans).\n\n**How to access:** sba.gov — find your local SBA district office.\n\n**International-friendly:** Loans require U.S. residency, but training is open to all."
+        },
+        {
+          "heading": "Orlando Economic Partnership",
+          "content": "**What they do:** Regional economic development organization. Business relocation assistance, site selection, incentive coordination.\n\n**Best for:** Companies planning to physically relocate to Central Florida.\n\n**How to access:** orlando.org — request a consultation for business expansion.\n\n**International-friendly:** Yes — they have a dedicated international business team."
+        },
+        {
+          "heading": "Prospera",
+          "content": "**What they do:** Bilingual business development services specifically for Hispanic entrepreneurs.\n\n**Best for:** Spanish-speaking founders who want support in their native language.\n\n**How to access:** prosperausa.org — free workshops and 1-on-1 consulting.\n\n**International-friendly:** Specifically designed for immigrant entrepreneurs."
+        },
+        {
+          "heading": "SCORE Orlando",
+          "content": "**What they do:** Free mentoring from retired business executives. Workshop series on startup fundamentals.\n\n**Best for:** Founders who want ongoing mentorship from experienced entrepreneurs.\n\n**How to access:** score.org/orlando — match with a mentor.\n\n**International-friendly:** Yes, but mentoring is in English."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "img-7-1-map",
+      "title": "Central Florida Business Resources Map",
+      "src": "images/infographics/lesson-7-1-resource-map.jpg",
+      "alt": "Map of Central Florida showing UCF Business Incubation Program, SBDC, SCORE Orlando, Enterprise Florida, and Orlando Economic Partnership locations."
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-1-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida has more than 700 natural springs, the largest concentration of freshwater springs on Earth. Many of these springs discharge millions of gallons of water every day, feeding rivers, wetlands, and entire ecosystems downstream. The business support network in Central Florida works in a similar way: federal funding flows into the SBA, which feeds the SBDC, which connects to chambers and programs like UCF BIP. One resource leads to the next, and the whole system stays healthy because the parts are connected.</p>"
     },
     {
       "type": "callout",
       "id": "callout-7-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private consulting:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
+      "content": "<p>Notice how affordable this ecosystem is. Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private help:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
     },
     {
       "type": "callout",
       "id": "callout-7-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Common Mistakes International Founders Make — Resources",
-      "content": "<ul><li><strong>Not knowing about free resources (SBDC, SBA counseling).</strong> Most international founders assume quality business advice costs money. The U.S. has an entire taxpayer-funded system designed to help you for free.</li><li><strong>Paying consultants for advice available through government programs.</strong> Before you hire any consultant, check if the SBDC or SBA covers that topic first. You might save $5,000 or more.</li><li><strong>Not leveraging UCF BIP and chamber connections.</strong> These organizations exist to connect you with the right people. A warm introduction from UCF BIP or a chamber contact carries more weight than a cold email.</li></ul>"
-    },
-    {
-      "type": "callout",
-      "id": "callout-7-1-bys",
-      "variant": "before-you-spend",
-      "title": "Before You Hire a Business Consultant",
-      "content": "<p>Before spending money on private consulting, complete this checklist:</p>\n\n<ol><li>Have you scheduled a free SBDC counseling session? (floridasbdc.org)</li><li>Have you reviewed the SBA.gov resources for your specific question?</li><li>Have you attended at least one free SBDC or chamber workshop?</li><li>Have you asked UCF BIP if they can connect you with the resource you need?</li></ol>\n\n<p>If the answer to all four is yes and you still need specialized expertise, then a consultant may be warranted. But start with the free options. Many founders discover they don't need the consultant at all.</p>"
+      "content": "<p>Why does this matter? Consider these common pitfalls:</p><ul><li><strong>Not knowing about free resources (SBDC, SBA counseling).</strong> Most international founders assume quality business advice costs money. The U.S. has an entire taxpayer-funded system built to help you for free.</li><li><strong>Paying consultants for advice available through government programs.</strong> Before you hire any consultant, check if the SBDC or SBA covers that topic first. You might save $5,000 or more.</li><li><strong>Not leveraging UCF BIP and chamber connections.</strong> These organizations exist to connect you with the right people. A warm introduction from UCF BIP or a chamber contact carries more weight than a cold email.</li></ul>"
     },
     {
       "type": "knowledge-check",
-      "id": "kc-7-1-1",
-      "title": "Business Support Resources",
+      "id": "kc-7-1",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
           "stem": "Which organization provides free, ongoing one-on-one business counseling to international founders in Central Florida?",
           "options": [
-            "Orlando Regional Chamber of Commerce",
             "Florida SBDC at UCF",
+            "Orlando Regional Chamber of Commerce",
             "Orlando Economic Partnership",
             "Hispanic Chamber of Commerce"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "The Florida SBDC (Small Business Development Center) at UCF provides free one-on-one business counseling. This is an ongoing relationship, not a one-time meeting. Advisors help with business planning, market research, financial analysis, and strategy at no cost."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-7-1-2",
-      "title": "Resource Prioritization",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "An international founder wants help with market research and a business plan. What should they do FIRST?",
           "options": [
             "Hire a business consultant specializing in market entry",
-            "Schedule a free appointment with the Florida SBDC at UCF",
             "Join the Orlando Regional Chamber of Commerce",
-            "Apply for an SBA loan to fund the research"
+            "Apply for an SBA loan to fund the research",
+            "Schedule a free appointment with the Florida SBDC at UCF"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "The SBDC should be your first stop for market research and business planning support. Their advisors provide exactly this service at no cost. Hiring a consultant for the same work could cost $3,000–$10,000. Always check free resources before paying for private help."
+        },
+        {
+          "stem": "A founder from Peru just arrived in Central Florida. She needs help with market research, a business plan, and connections to potential customers. She has $8,000 set aside for consulting fees. Based on how the support ecosystem works, what should she expect when she engages with these organizations?",
+          "options": [
+            "She will need to pay the $8,000 to access quality business advising through the SBDC and SCORE",
+            "Each organization will provide identical services, so she only needs to contact one",
+            "The SBDC will provide free ongoing counseling for her business plan and market research, SCORE will match her with an industry mentor, and a chamber of commerce will connect her to networking events — allowing her to save most of that $8,000 for actual business operations",
+            "These organizations only serve U.S. citizens, so she will need to hire a private consultant instead"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The support ecosystem is interconnected but each organization serves a distinct role. The SBDC provides free, unlimited business counseling including market research and business plans. SCORE offers free mentorship from experienced executives. Chambers of commerce provide networking for a modest annual fee ($200-$500). These services are available to international founders regardless of citizenship status. The $8,000 she budgeted for consulting could be redirected to actual business operations."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "reflect-7-1-1",
-      "title": "Your Resource Action Plan",
-      "placement": "after-section",
-      "sectionId": "text-7-1-2",
-      "prompt": "Look at the organizations described in this lesson. Which two are most relevant to where your business is right now? For each one, write down: (1) what specific help you need from them, (2) when you'll contact them, and (3) what you'll ask in your first meeting. If you've already been paying a consultant for services that might be available free, note that too."
     },
     {
       "type": "exercise",
@@ -102,7 +132,7 @@
       "type": "key-takeaway",
       "id": "kt-7-1-1",
       "title": "Key Takeaway",
-      "content": "<p>Central Florida has an entire ecosystem built to help businesses succeed — and most of it is free. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. The founders who succeed fastest are the ones who use every available advantage.</p>"
+      "content": "<p>The takeaway is simple. Central Florida's support ecosystem is like its natural springs: deep, clear, and interconnected. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. Try this: compare the free options to paid ones, then see which groups match your stage. The founders who succeed fastest are the ones who step into the ecosystem and use every available advantage.</p>"
     }
   ]
 }

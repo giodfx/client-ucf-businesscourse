@@ -1,0 +1,126 @@
+{
+  "lessonId": "lesson-7-5",
+  "moduleId": "module-7",
+  "landscapeTheme": "River Springs",
+  "title": "UCF BIP Programs — Your Next Step",
+  "duration": 6,
+  "objectives": [
+    "Describe UCF BIP phases 2 and 3 of the market entry/soft landing program and who each is designed for",
+    "Identify community resources specifically for international founders (Hispanic Chamber, Prospera, CFITO)",
+    "Explain the next steps to engage with UCF BIP after completing this program"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-7-5-1",
+      "title": "Following the Current Forward, Your Pathway Through UCF BIP",
+      "content": "<p>You have traveled the full length of the river, from the first clear spring to the open water ahead. Now that we have covered entity setup, finance, IP, hiring, product adaptation, culture, and regional resources, the question is: what concrete support is available next? UCF BIP helps international founders turn knowledge into action. This Phase 1 program is the introduction. The hands-on support comes in phases 2 and 3.</p>\n\n<h4>Phases 2 and 3 of the UCF BIP Market Entry / Soft Landing Program</h4>\n\n<p>Let's break this down. <strong>Phase 2</strong> is for founders who have validated their market opportunity and are ready to establish initial U.S. operations:</p>\n\n<ul><li>One-on-one mentorship with industry-experienced advisors</li><li>UCF BIP workspace and professional business address</li><li>Warm introductions to customers, partners, and service providers</li><li>Advanced workshops: investor readiness, sales strategy, regulatory compliance</li><li>Peer community of international founders at a similar stage</li></ul>\n\n<p><strong>Phase 3</strong> is for founders with initial traction : early customers, revenue, or a signed partnership:</p>\n\n<ul><li>Growth strategy development with experienced advisors</li><li>Investor community connections (when ready)</li><li>Expanded networking through BIP's alumni network and partners</li><li>Operational support for hiring, legal, and financial infrastructure</li><li>Continued workspace and resource access</li></ul>\n\n<p>The transition between phases adapts to your pace. The goal is progress, not speed.</p>",
+      "wordCount": 202
+    },
+    {
+      "type": "text",
+      "id": "text-7-5-cs",
+      "title": "Success Stories — Companies That Benefited from UCF BIP",
+      "content": "<p>International founders have used UCF BIP to launch and grow U.S. operations across a range of industries:</p><blockquote><p><strong>[PENDING: Brian to provide company details]</strong> Company A came to UCF BIP from [country] with a [product or service] focused on [industry]. Through the program, they [established their first U.S. customer, secured a partnership, or achieved a specific revenue milestone]. The company now [current status: number of employees, revenue range, or market presence].</p></blockquote><blockquote><p>The short version: <strong>[PENDING: Brian to provide company details]</strong> Company B arrived from [country] with a [product or service] in the [industry] sector. Through phases 2 and 3, they [specific outcome: formed key partnership, expanded into more U.S. markets, raised funding].</p></blockquote><blockquote><p><strong>[PENDING: Brian to provide company details]</strong> Company C relocated from [country] to Central Florida through UCF BIP. Within [timeframe], they had [clear outcome: customer count, revenue, partnership, or other milestone].</p></blockquote><p>These case studies will be updated with specific company details. The common thread: structured support made the difference between struggling alone and moving forward with guidance.</p>",
+      "wordCount": 163
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-5-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Wekiwa Springs, one of Central Florida's most popular natural springs, sits just 20 minutes from downtown Orlando. The Timucua people used these springs as a gathering place for trade and community long before European contact. Today, Central Florida's business support organizations serve a similar role: gathering places where founders, mentors, and resources come together. The ecosystem has always been about connection.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-7-5-2",
+      "title": "Community Resources for International Founders",
+      "content": "<p>But here's the catch: UCF BIP is one spring feeding into a much larger river. Several partner organizations work alongside it, each serving a different need. You do not have to use all of them. Pick the ones that match where your business is right now and save the rest for later.</p>\n\n<h4>Hispanic Chamber of Commerce of Metro Orlando</h4>\n\n<p>Membership costs $200 to $400 per year and gives you access to networking events, business workshops, and advocacy. Monthly events connect you with established bilingual business owners and service providers who understand both the U.S. market and the Latin American business mindset. Many founders find their first local partner or customer referral through chamber connections.</p>\n\n<h4>Prospera</h4>\n\n<p>This nonprofit supports Hispanic entrepreneurs through one-on-one mentoring, business training, and access to micro-lending. Programs are free or low-cost. What makes it especially useful is that the mentors have navigated the same cultural and business transition you are going through. They understand the challenges firsthand.</p>\n\n<h4>CFITO (Central Florida International Trade Office)</h4>\n\n<p>If your business involves import, export, or cross-border trade between Latin America, the Caribbean, and the United States, this is the organization to contact. They run structured trade delegations that include market research, partner identification, and face-to-face meetings with buyers and distributors.</p>\n\n<h4>SCORE</h4>\n\n<p>A national program that provides free business mentoring from volunteer advisors, many of them retired executives with decades of experience. The Orlando chapter matches you with a mentor in your industry for ongoing coaching. Sessions are free and available in person or virtually.</p>",
+      "wordCount": 213
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-5-reduce",
+      "variant": "theme-reduce-risk",
+      "title": "Reduce Risk — Don't Go It Alone",
+      "content": "<p>Why does this matter? The founders who succeed in the U.S. market use their support network. They join chambers, attend SBDC workshops, participate in UCF BIP advisory sessions, and connect with mentors through SCORE. The cost of joining is small. The cost of going alone is high. Founders who have been through this process tend to say the same thing: the network mattered as much as the knowledge.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-7-5-3",
+      "title": "Your Next Steps After This Program",
+      "content": "<p>Now, let's get concrete. You are almost finished with Phase 1. Here is what happens next:</p>\n\n<h4>Step 1: Complete the Self-Assessment (Module 8)</h4>\n\n<p>A structured self-assessment of your U.S. market readiness — not a test, but a tool to identify confident areas and gaps. The results guide your UCF BIP conversation.</p>\n\n<h4>Step 2: Schedule a 1:1 Meeting with UCF BIP</h4>\n\n<p>Your chance to:</p>\n\n<ul><li>Discuss your specific business and market entry plans</li><li>Ask about phases 2 and 3 of the market entry/soft landing program</li><li>Get tailored resource recommendations</li><li>Identify your three to five most important next steps</li></ul>\n\n<h4>Step 3: Connect with Your Support Network</h4>\n\n<p>Before your 1:1, take one concrete action:</p>\n\n<ul><li>Schedule a free SBDC counseling session (floridasbdc.org)</li><li>Register for a chamber or networking event</li><li>Contact CFITO about trade programs</li><li>Sign up for SCORE mentoring</li></ul>\n\n<p>Showing up already in motion helps the team advise you more effectively.</p>",
+      "wordCount": 142
+    },
+    {
+      "type": "checklist",
+      "id": "int-7-5-1",
+      "title": "UCF BIP Application Readiness Checklist",
+      "items": [
+        "Company is incorporated (or ready to incorporate) in the U.S.",
+        "Have a clear product or service with initial market validation",
+        "Identified target customer segment in the U.S. market",
+        "Leadership team committed to U.S. market entry",
+        "Reviewed UCF BIP Phase 2 and Phase 3 program requirements",
+        "Prepared a 1-page company overview for application",
+        "Identified which UCF BIP track matches your stage (Traction, Growth, or Soft Landing)",
+        "Ready to commit time for program activities and mentorship"
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-5",
+      "title": "What Would You Do?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "What is the PRIMARY difference between Phase 2 and Phase 3 of the UCF BIP market entry/soft landing program?",
+          "options": [
+            "Phase 2 is free and Phase 3 requires payment",
+            "Phase 2 focuses on establishing initial U.S. operations, while Phase 3 focuses on scaling with early traction",
+            "Phase 2 is for technology companies only, Phase 3 is for all industries",
+            "Phase 2 is virtual and Phase 3 requires physical relocation to Orlando"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Phase 2 is designed for founders who have validated their market opportunity and are ready to establish initial U.S. operations (workspace, mentorship, introductions). Phase 3 is for founders who already have early traction : customers, revenue, or partnerships — and need support scaling. The phases match different business stages, not different industries."
+        },
+        {
+          "stem": "A Spanish-speaking founder from Ecuador wants free, bilingual mentoring and market research support tailored to Hispanic entrepreneurs. Which organization should she contact first?",
+          "options": [
+            "SCORE — they provide volunteer business mentors matched by industry",
+            "Orlando Economic Partnership — they focus on attracting international businesses",
+            "Prospera — a nonprofit dedicated to supporting Hispanic entrepreneurs with bilingual mentoring, training, and micro-lending",
+            "CFITO — they organize trade delegations to Latin American markets"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Prospera is a nonprofit specifically dedicated to supporting Hispanic entrepreneurs in Florida. Their programs include one-on-one bilingual mentoring, business training workshops, and access to micro-lending programs. Their advisors understand the specific challenges Latin American founders face in the U.S. market, and services are free or low-cost."
+        },
+        {
+          "stem": "A founder from Costa Rica has just finished this Phase 1 program and is eager to move forward. He has not yet contacted any local organizations. According to the lesson's guidance on next steps, what sequence of actions should he take to engage with UCF BIP most effectively?",
+          "options": [
+            "Apply directly to Phase 3 since he is ready to scale his business in the U.S. market",
+            "Wait until he has his first U.S. customer before contacting UCF BIP, since the program is only for founders with existing traction",
+            "Skip the 1:1 meeting and instead attend as many networking events as possible to build connections independently",
+            "Complete the Module 8 self-assessment and Expansion Decision Worksheet, take one concrete action like scheduling an SBDC session or registering for a chamber event, then bring those results to his 1:1 meeting with the UCF BIP team"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The lesson outlines a three-step sequence: (1) complete the self-assessment in Module 8 to identify strengths and gaps, (2) take one concrete action such as scheduling SBDC counseling or registering for a networking event, and (3) bring those results to the 1:1 meeting with UCF BIP. Showing up already in motion helps the team advise more effectively. Phase 3 is for founders with early traction, not pre-entry founders, and the 1:1 meeting is a key part of the process — not something to skip."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-7-5-1",
+      "title": "Your UCF BIP Roadmap",
+      "placement": "after-section",
+      "sectionId": "text-7-5-3",
+      "instructions": "<p>You've seen what Phase 2 and Phase 3 offer. Map out which pieces match where you're headed in the next six months.</p><ul><li><strong>Your top business goal for the next 6 months:</strong> ___</li><li><strong>Phase 2 resource that supports that goal</strong> (mentorship, workspace, customer introductions, workshops — pick one): ___ <br/><strong>How you'd use it:</strong> ___</li><li><strong>Phase 3 resource you'll need once you have traction</strong> (growth strategy, investor connections, alumni network, operational support — pick one): ___ <br/><strong>What milestone would trigger that need:</strong> ___</li><li><strong>One community resource (Prospera, SCORE, Hispanic Chamber, CFITO) you'll engage before your UCF BIP meeting:</strong> ___ <br/><strong>What you'll ask them:</strong> ___</li></ul><p>Bring this roadmap to your 1:1 meeting. Showing up with a plan helps the team give you better, more specific guidance.</p>"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-7-5-1",
+      "title": "Key Takeaway",
+      "content": "<p>UCF BIP and the Central Florida ecosystem exist to help you succeed. Like a river fed by dozens of springs, the support network is deep and it keeps flowing. Phase 1 (this program) gave you the knowledge. Phases 2 and 3 of the UCF BIP market entry/soft landing program give you the hands-on support: mentorship, workspace, introductions, and structured advisory. Your next step: complete the self-assessment in Module 8, then schedule your 1:1 meeting with the UCF BIP team. The founders who step into the current this week are the ones who build momentum.</p>"
+    }
+  ]
+}

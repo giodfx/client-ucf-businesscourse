@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-3-1",
+  "videoTitle": "Intellectual Property \u00e2\u20ac\u201d Protecting Your Ideas in the U.S.",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "Rocket Base \u00e2\u20ac\u201d Cape Canaveral inspiration, science, protecting innovation",
+  "totalDuration": 297.60006300000003,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome to the Launch Facility",
+      "bullets": [],
+      "narration": "The road out of the Financial District leads east, past the city limits, toward a sprawling research and launch facility. In Central Florida, the aerospace corridor stretching from Orlando to the coast has long been a place where people build things worth protecting. Your business is no different. The ideas, designs, and brand you have created are your launch technology, and this module is about making sure nobody takes them from you. A software founder from Chile expanded to the U.S. and discovered another company had already registered her brand name as a U.S. trademark. She had two choices: rebrand or spend fifteen to twenty-five thousand dollars fighting the registration. She rebranded. Two years of brand equity, gone.",
+      "template": "intro",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-1.wav",
+      "duration": 40.24
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "IP Protection Is Territorial",
+      "bullets": [
+        "Your home-country trademark does nothing in the United States",
+        "Patents registered abroad have no automatic U.S. protection",
+        "Copyright has more global coverage, but enforcement requires U.S. filing",
+        "File your U.S. protections before you start marketing here"
+      ],
+      "narration": "Here is the fundamental rule at the launch facility. IP protection is territorial. The trademark you registered in your home country does nothing in the United States. Same for patents. Copyright has more global coverage through international treaties, but actually enforcing your copyright in court still requires U.S. registration. This is where the Chilean founder went wrong. She assumed her South American trademark covered her in the U.S. It did not. Someone else registered the name first, and they had the legal right to use it. The lesson is clear: file your U.S. protections before you start marketing here, not after.",
+      "template": "split-left",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-2.wav",
+      "duration": 32.88
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Three Types of IP Protection",
+      "bullets": [
+        "Copyright: protects creative works \u00e2\u20ac\u201d code, content, designs \u00e2\u20ac\u201d forty-five to sixty-five dollars per filing",
+        "Trademark: protects brand identity \u00e2\u20ac\u201d name, logo, slogan \u00e2\u20ac\u201d two hundred fifty to three hundred fifty per class",
+        "Patent: protects inventions \u00e2\u20ac\u201d processes, machines, methods \u00e2\u20ac\u201d five to fifteen thousand with attorney",
+        "Most founders need trademark protection first"
+      ],
+      "narration": "Three main types of IP protection exist in the U.S. Copyright protects creative works: software code, written content, designs, music, and videos. It exists automatically when you produce something original. But registering with the U.S. Copyright Office, at forty-five to sixty-five dollars per work, gives you the ability to sue for damages. Without registration, enforcement is extremely limited. Trademark protects your brand identity: business name, logo, slogan, product name. This is the one most founders need first. You register with the USPTO. Patent protects inventions: new processes, machines, or designs. Think of patents as your rocket designs. They are expensive \u00e2\u20ac\u201d five to fifteen thousand dollars with attorney fees \u00e2\u20ac\u201d and slow, taking two to three years. Most small businesses do not need one unless they have invented something truly novel.",
+      "template": "split-right",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-3.wav",
+      "duration": 50.0
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Trademark Registration \u00e2\u20ac\u201d Your Mission Patch",
+      "bullets": [
+        "Step 1: Search the USPTO database \u00e2\u20ac\u201d conflicts mean rejection with no refund",
+        "Step 2: File online through TEAS \u00e2\u20ac\u201d two hundred fifty to three hundred fifty per class",
+        "Step 3: Wait three to four months for examination, respond to any office actions",
+        "Total timeline: eight to twelve months from filing to registration"
+      ],
+      "narration": "Think of a trademark as your mission patch \u00e2\u20ac\u201d the emblem that identifies your launch from everyone else's. Here is the process. Step one: search the USPTO database at trademark.uspto.gov. If a conflict exists, your application is rejected and your filing fee is not refunded. Step two: file your application online through TEAS. Choose the right class of goods or services. Filing fee is two hundred fifty to three hundred fifty per class. Step three: wait for examination. A USPTO attorney reviews your application in three to four months. They may issue an office action requesting changes. Respond within the deadline or your application is abandoned. Then your trademark is published for thirty days. If no one opposes, you receive your registration certificate. Total timeline: eight to twelve months.",
+      "template": "split-left",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-4.wav",
+      "duration": 50.24
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "What IP Protection Actually Costs",
+      "bullets": [
+        "Trademark filing: two hundred fifty to three fifty plus three hundred to five hundred for attorney",
+        "Patent application: five to fifteen thousand including attorney and USPTO fees",
+        "Copyright registration: forty-five to sixty-five dollars per work",
+        "NDA or contract drafting: two hundred to five hundred per document"
+      ],
+      "narration": "Let me give you the real budget numbers. Trademark filing with the USPTO runs two hundred fifty to three hundred fifty per class. Add three hundred to five hundred if you use an attorney, which I recommend \u00e2\u20ac\u201d mistakes delay the process by months. A patent application costs five to fifteen thousand dollars including attorney fees and USPTO filing costs. Copyright registration is forty-five to sixty-five dollars per work. An NDA or contract drafting runs two hundred to five hundred per document. A Polish cybersecurity founder hired a U.S. trademark attorney before opening her Orlando office. The eight hundred dollars she spent was a fraction of the fifteen to twenty-five thousand she would have paid to fight a conflict later. Protect your launch technology before you invest in marketing.",
+      "template": "split-right",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-5.wav",
+      "duration": 40.56
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Common IP Mistakes",
+      "bullets": [
+        "Assuming home-country IP protection covers you in the U.S.",
+        "Waiting until after U.S. marketing to file \u00e2\u20ac\u201d someone else may file your name first",
+        "Using free contract templates without legal review",
+        "Running without general liability insurance \u00e2\u20ac\u201d one lawsuit can shut you down"
+      ],
+      "narration": "Here are the mistakes that get founders in trouble at the launch facility. First, assuming home-country IP protection covers you in the U.S. It does not. Trademarks, patents, and enforceable copyright all require separate U.S. filings. Second, waiting to file. If you wait until after you start marketing in the U.S., someone else can register your brand name first, and they will have the legal right to use it here. Third, using free contract templates without legal review. Templates from legal websites are a starting point, not a finished product. A thirty-minute attorney review costs one hundred fifty to three hundred dollars and can prevent costly disputes later. And fourth, running without general liability insurance. That is not an IP issue, but it is a Module 3 pattern. One lawsuit without coverage can shut you down.",
+      "template": "diagonal",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-6.wav",
+      "duration": 47.840063
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Protect Your Launch Technology",
+      "bullets": [],
+      "narration": "Here is what I want you to take away from the launch facility. Trademark your brand name before you invest in U.S. marketing. Start with a USPTO trademark search and file early. Budget two hundred fifty to eight hundred fifty for the trademark process. For patents, hire an attorney. For copyright, register before you need to enforce it. Your launch technology is only as safe as the systems you put around it. Protect it before liftoff. Next stop: the safety and compliance wing, where we will talk about contracts, insurance, and risk management \u00e2\u20ac\u201d the backup systems that keep your mission on track.",
+      "template": "intro",
+      "avatarScene": "lesson-3-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-1/lesson-3-1-scene-7.wav",
+      "duration": 35.84
+    }
+  ]
+}

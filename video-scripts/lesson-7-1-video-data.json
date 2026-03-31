@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-7-1",
+  "videoTitle": "Business Support Organizations Available to Help You",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "River Springs — full ecosystem, you are not alone, natural diversity",
+  "totalDuration": 284.72,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Discovering the Springs — You Are Not Alone",
+      "bullets": [],
+      "narration": "Imagine stepping off a trail in Central Florida and discovering a crystal-clear natural spring. The water is so transparent you can see the entire riverbed — fish, turtles, manatees, cypress roots — a complete ecosystem thriving because everything in it is connected. Central Florida's business support network works the same way. SBDC, SBA, chambers of commerce, SCORE, Prospera — each one feeds into a living system that exists specifically for founders like you. A Colombian founder spent forty-five hundred dollars on a business consultant for a market entry plan. Three months later she discovered the SBDC at UCF offers the same service, for free. She had been standing at the edge of the springs without realizing the whole ecosystem was already there. Let me show you what is in the water.",
+      "template": "intro",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-1.wav",
+      "duration": 46
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The SBDC — Your Most Important First Stop",
+      "bullets": [
+        "Free one-on-one business counseling with unlimited follow-ups",
+        "First visit is a sixty to ninety minute intake, then a tailored action plan",
+        "Workshops on business planning, financial management, and government contracting — free to fifty dollars",
+        "Find them at floridasbdc.org — this should be your first call"
+      ],
+      "narration": "The biggest spring in the system is the SBDC — the Small Business Development Center at UCF. Think of it as the main source feeding everything downstream. SBDC advisors give you one-on-one business counseling at no cost. Not a single meeting — an ongoing relationship. Your first visit is a sixty to ninety minute intake where they learn your business. From there you get a tailored action plan and unlimited follow-ups. They also run workshops on business plans, financial management, and government contracting, ranging from free to about fifty dollars. Find them at floridasbdc.org. This should be your very first call before you spend a dollar on private consulting.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-2.wav",
+      "duration": 37.12
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "SBA, OEP, and Chambers of Commerce",
+      "bullets": [
+        "SBA.gov offers free guides on formation, licensing, taxes, and capital access",
+        "SBA counseling is available regardless of citizenship — lending programs may require permanent residency",
+        "Orlando Economic Partnership provides site selection, market intelligence, and introductions — free",
+        "Chamber memberships run two hundred to five hundred per year for networking and advocacy"
+      ],
+      "narration": "The SBA — Small Business Administration — is the federal agency backing the whole system. Their website has free guides on formation, licensing, taxes, and capital access. Here is the key distinction: SBA counseling and educational resources are available regardless of citizenship status. Lending programs typically require permanent residency. Do not let that stop you from using everything else. The Orlando Economic Partnership offers site selection assistance, market intelligence, and introductions to local business leaders, all free. Then there are chambers of commerce — membership groups running two hundred to five hundred dollars per year. The Orlando Regional Chamber, the Hispanic Chamber, and local chapters in Kissimmee, Winter Park, and Sanford all provide networking, advocacy, and community connections.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-3.wav",
+      "duration": 48.56
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "SCORE, Prospera, and UCF BIP",
+      "bullets": [
+        "SCORE provides free mentoring from retired executives matched to your industry",
+        "Prospera offers bilingual mentoring and training specifically for Hispanic entrepreneurs",
+        "UCF BIP connects you to the entire ecosystem through phases two and three",
+        "These organizations feed each other — one introduction leads to the next"
+      ],
+      "narration": "Just as side channels branch off the main spring and feed different parts of the river, these organizations each serve a specific need. SCORE is a national program providing free business mentoring from volunteer advisors — many of them retired executives with decades of experience. The Orlando chapter matches you with a mentor in your industry. Prospera is a nonprofit supporting Hispanic entrepreneurs through bilingual mentoring, business training, and access to micro-lending. Their mentors have navigated the same cultural transition you are going through. And UCF BIP connects you to the entire ecosystem. Think of it as the guide who knows every spring, every channel, every tributary. These organizations feed each other. A warm introduction from one leads to the next.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-4.wav",
+      "duration": 41.36
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "What This Ecosystem Actually Costs",
+      "bullets": [
+        "SBDC counseling: free — unlimited sessions",
+        "SBDC workshops: free to fifty dollars per session",
+        "SBA resources, OEP consultations, SCORE mentoring: all free",
+        "Compare that to a private consultant at one hundred fifty to three hundred fifty dollars per hour"
+      ],
+      "narration": "Let me put real numbers on this. SBDC business counseling is free with unlimited sessions. SBDC workshops run free to fifty dollars. SBA resources, Orlando Economic Partnership consultations, and SCORE mentoring are all free. Chamber memberships cost two hundred to five hundred per year. Prospera programs are free to low-cost. Now compare that to private help: one hundred fifty to three hundred fifty dollars per hour for a business consultant, or three thousand to ten thousand dollars for a market entry strategy that the SBDC develops with you at no cost. The springs are deep, they are clear, and they are free. Always check the free options before paying for private help.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-5.wav",
+      "duration": 35.76
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Before You Hire a Consultant — A Checklist",
+      "bullets": [
+        "Have you scheduled a free SBDC counseling session?",
+        "Have you reviewed SBA.gov resources for your specific question?",
+        "Have you attended at least one free workshop or chamber event?",
+        "If the answer to all four is yes and you still need help, then a consultant may be warranted"
+      ],
+      "narration": "Before you spend money on a private consultant, run through this checklist. Have you scheduled a free SBDC counseling session? Have you reviewed SBA.gov resources for your specific question? Have you attended at least one free SBDC or chamber workshop? Have you asked UCF BIP if they can connect you with the resource you need? If the answer to all four is yes and you still need specialized expertise, then a consultant may be warranted. But start with the free options. The Colombian founder I mentioned at the beginning? She discovered the SBDC covers exactly what she paid forty-five hundred dollars for. Many founders find out they do not need the consultant at all.",
+      "template": "diagonal",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-6.wav",
+      "duration": 32.32
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Step Into the Ecosystem",
+      "bullets": [],
+      "narration": "Central Florida's support ecosystem is like its natural springs — deep, clear, and interconnected. Federal funding flows into the SBA, which feeds the SBDC, which connects to chambers and programs like UCF BIP. One resource leads to the next, and the whole system stays healthy because the parts are connected. The SBDC should be your first call. Chambers give you networking and credibility. SCORE and Prospera provide mentorship tailored to your background. Use these resources before you spend money on private consultants. The founders who succeed fastest are the ones who step into the ecosystem and use every available advantage. Next lesson: the qualitative character of Central Florida's startup culture — why this region actually works for international founders.",
+      "template": "intro",
+      "avatarScene": "lesson-7-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-1/lesson-7-1-scene-7.wav",
+      "duration": 43.6
+    }
+  ]
+}

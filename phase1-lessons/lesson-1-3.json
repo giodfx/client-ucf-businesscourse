@@ -14,8 +14,15 @@
       "type": "text",
       "id": "text-1-3-0",
       "title": "The Banking District — Where It Gets Real",
-      "content": "<p>Your entity is registered, your EIN is on the way — and now you walk from City Hall toward the financial district. You know the kind of street : lined with banks, each with its own policies, its own requirements, and its own idea of how much documentation you need to bring.</p>\n\n<p>What does this actually mean day to day? For international founders, walking into a U.S. bank can feel like entering a new country all over again.</p>\n\n<p>Opening a U.S. bank account is one of the biggest challenges international founders face. You registered your LLC, you have your EIN — and now a bank is asking for documents you have never heard of, or telling you they cannot work with foreign-owned entities.</p>\n\n<p>This is normal. And it is manageable if you know what to expect.</p>",
+      "content": "<p>Your entity is registered, your EIN is on the way — and now you walk from City Hall toward the financial district. You know the kind of street : lined with banks, each with its own policies, its own requirements, and its own idea of how much documentation you need to bring.</p>\n\n<p>For international founders, walking into a U.S. bank can feel like entering a new country all over again.</p>\n\n<p>Opening a U.S. bank account is one of the biggest hurdles founders face. You filed your LLC, you have your EIN, and now a bank is asking for papers you've never heard of, or telling you they can't work with foreign-owned entities.</p>\n\n<p>This is normal. And it is manageable if you know what to expect.</p>",
       "wordCount": 136
+    },
+    {
+      "type": "image",
+      "id": "img-1-3-bank",
+      "title": "Founder at Bank Meeting",
+      "src": "images/scenarios/lesson-1-3-bank-meeting.jpg",
+      "alt": "Illustration of an international founder meeting with a bank officer, presenting business documents and EIN letter."
     },
     {
       "type": "callout",
@@ -28,14 +35,14 @@
       "type": "text",
       "id": "text-1-3-1",
       "title": "Why Banking Is Harder Than You Expect",
-      "content": "<p>This is one of the most frustrating parts of the process for many international founders. You did everything right : registered your LLC, got your EIN, assembled your documents. And then a bank tells you no. Sometimes without a clear reason.</p>\n\n<p>Here is the practical takeaway. U.S. banks are cautious about accounts owned by foreign nationals due to anti-money-laundering regulations (Bank Secrecy Act, Know Your Customer rules). Some banks will not work with international founders at all. Others may require documentation that takes weeks to assemble.</p>\n\n<p>One founder from Argentina shared his experience: \"I registered my LLC in two days. Then I spent six weeks trying to open a bank account. Four banks. The first three said no.\" Stories like this are common, not unusual. It does not mean you did something wrong. It means the system was not built with you in mind — and you need a strategy to navigate it.</p>\n\n<p>The good news: founders who walk in prepared tend to get through it much faster. This lesson gives you that preparation. Keep in mind that requirements can vary by institution — it is always a good idea to verify current policies with your target bank before visiting.</p>",
+      "content": "<p>This is one of the most frustrating parts of the process for many international founders. You did everything right : registered your LLC, got your EIN, assembled your documents. And then a bank tells you no. Sometimes without a clear reason. Think of each bank as a building with its own security protocol — some let you in with a passport and EIN, others want a full background check before they will buzz you through.</p>\n\n<p>What this means day to day: U.S. banks are careful with accounts owned by foreign nationals due to anti-money-laundering rules (Bank Secrecy Act, Know Your Customer). Some banks won't work with foreign founders at all. Others may require papers that take weeks to gather.</p>\n\n<p>One founder from Argentina shared his experience: \"I registered my LLC in two days. Then I spent six weeks trying to open a bank account. Four banks. The first three said no.\" Stories like this are common, not unusual. It does not mean you did something wrong. It means the system was not built with you in mind — and you need a strategy to navigate it.</p>\n\n<p>The good news: founders who walk in prepared tend to get through it much faster. This lesson gives you that preparation. Keep in mind that requirements can vary by institution — it is always a good idea to verify current policies with your target bank before visiting.</p>",
       "wordCount": 200
     },
     {
       "type": "text",
       "id": "text-1-3-2",
       "title": "What You Will Typically Need — The Document Checklist",
-      "content": "<p>Walking into a bank without the right documents can waste a day. Here is the core set that most banks request:</p>\n\n<ol><li><strong>EIN Confirmation Letter (CP 575 or 147C).</strong></li><li><strong>Articles of Organization (LLC) or Articles of Incorporation (Corporation).</strong> Bring the filed copy with confirmation number.</li><li><strong>Operating Agreement (LLC) or Corporate Bylaws (Corporation).</strong> Shows ownership structure and who has authority over finances.</li><li><strong>Valid Passport.</strong></li><li><strong>U.S. Address Proof.</strong> Utility bill, lease, or bank statement.</li><li><strong>Initial Deposit.</strong> Typically somewhere between $100 and $500 for business checking.</li></ol>\n\n<p>Some banks may also ask for a business license, a second form of ID, proof of home-country operations, or visa documentation. Calling the bank before you visit is one of the most effective things you can do — ask what they specifically require for a foreign-owned entity, and get a contact name if possible.</p>",
+      "content": "<p>Consider this: walking into a bank without the right documents is like showing up at a restricted building without an ID badge — you will not get past the front desk. Here is the core set that most banks request:</p>\n\n<ol><li><strong>EIN Confirmation Letter (CP 575 or 147C).</strong></li><li><strong>Articles of Organization (LLC) or Articles of Incorporation (Corporation).</strong> Bring the filed copy with confirmation number.</li><li><strong>Operating Agreement (LLC) or Corporate Bylaws (Corporation).</strong> Shows ownership structure and who has authority over finances.</li><li><strong>Valid Passport.</strong></li><li><strong>U.S. Address Proof.</strong> Utility bill, lease, or bank statement.</li><li><strong>Initial Deposit.</strong> Typically somewhere between $100 and $500 for business checking.</li></ol>\n\n<p>Some banks may also ask for a business license, a second form of ID, proof of home-country operations, or visa documentation. Calling the bank before you visit is one of the most helpful things you can do. Ask what they need for a foreign-owned entity, and get a contact name if you can.</p>",
       "wordCount": 136
     },
     {
@@ -43,34 +50,34 @@
       "id": "callout-1-3-1",
       "variant": "common-mistake",
       "title": "Walking Into a Bank Without the Right Documents",
-      "content": "<p>This is one of the most common banking mistakes for international founders. You show up at a branch, sit down with a banker, and discover you are missing one critical document. The banker cannot proceed. You leave, gather the missing document, and come back a few days later only to get a different banker who asks for something the first one did not mention.</p>\n\n<p>Prevention is simple: call ahead, get a specific list, and bring everything in a single folder. Include extras (second form of ID, proof of home-country business, personal tax ID) even if you think they will not be needed. Bring originals and copies. A little preparation saves days of back-and-forth.</p>"
+      "content": "<p>Here's where it trips people up. This is one of the most common banking mistakes for international founders. You show up at a branch, sit down with a banker, and discover you are missing one critical document. The banker cannot proceed. You leave, gather the missing document, and come back a few days later only to get a different banker who asks for something the first one did not mention.</p>\n\n<p>The fix is simple: call ahead, get a list, and bring everything in one folder. Include extras (second form of ID, proof of home-country business, personal tax ID) even if you think they won't be needed. Bring originals and copies. A little prep saves days of back-and-forth.</p>"
     },
     {
       "type": "text",
       "id": "text-1-3-3",
       "title": "Why Banks Say No — And What You Can Do About It",
-      "content": "<p>Here is what they do not tell you on any bank's website: rejections for international founders are common, and the reasons are often frustrating.</p>\n\n<p>The bottom line? <strong>No SSN or ITIN.</strong> Some banks require a personal tax ID. Confirm whether the bank accepts an EIN alone before applying. Do not wait until you are sitting in the branch to discover this.</p>\n\n<p><strong>Not enough documentation.</strong> A newly formed LLC with no operating agreement or website may be considered too early-stage. Having a business description and a basic website ready can help show that your company is real and operational.</p>\n\n<p><strong>Country-of-origin considerations.</strong> Some countries may trigger enhanced due diligence. This does not necessarily prevent account opening, but the review may take longer and the bank may ask for additional documentation.</p>\n\n<p><strong>Branch unfamiliarity.</strong> Not every branch handles foreign-owned accounts. If you are told \"we cannot do this,\" do not walk away — ask for a business banking specialist or call the bank's commercial banking line directly. The branch teller may simply not know the process.</p>\n\n<h4>What to Do When You Get a No</h4>\n\n<p>A rejection at one bank does not mean you cannot open an account anywhere. Here is a practical approach:</p>\n\n<ol><li>Ask the banker WHY you were declined — get the specific reason, not just \"we cannot help you.\"</li><li>Ask if there is a different branch or department that handles international accounts.</li><li>Try a community bank or credit union next — they tend to be more flexible and more willing to work through unusual documentation.</li><li>Consider online banking platforms designed for startups — several have streamlined their process specifically for foreign-owned entities.</li><li>Keep records of every interaction : names, dates, what was requested. This helps when you try the next bank.</li></ol>",
+      "content": "<p>Here is what they do not tell you on any bank's website: some doors in this district are simply locked to founders who do not have the right credentials yet. Rejections for international founders are common, and the reasons are often frustrating.</p>\n\n<p>In short: <strong>No SSN or ITIN.</strong> Some banks require a personal tax ID. Confirm whether the bank accepts an EIN alone before applying. Do not wait until you are sitting in the branch to discover this.</p>\n\n<p><strong>Not enough paperwork.</strong> A newly formed LLC with no operating agreement or website may be seen as too early-stage. Having a business summary and a basic website ready can help show that your company is real and running.</p>\n\n<p><strong>Country-of-origin factors.</strong> Some countries may trigger extra review. This doesn't always block you from opening an account, but the process may take longer and the bank may ask for more papers.</p>\n\n<p><strong>Branch unfamiliarity.</strong> Not every branch handles foreign-owned accounts. If you're told \"we can't do this,\" don't walk away. Ask for a business banking expert or call the bank's business line directly. The branch teller may simply not know the process.</p>\n\n<h4>What to Do When You Get a No</h4>\n\n<p>A rejection at one bank does not mean you cannot open an account anywhere. Here is a practical approach:</p>\n\n<ol><li>Ask the banker WHY you were declined — get the specific reason, not just \"we cannot help you.\"</li><li>Ask if there is a different branch or department that handles international accounts.</li><li>Try a community bank or credit union next — they tend to be more flexible and more willing to work through unusual documentation.</li><li>Consider online banking platforms designed for startups — several have streamlined their process specifically for foreign-owned entities.</li><li>Keep records of every interaction : names, dates, what was requested. This helps when you try the next bank.</li></ol>",
       "wordCount": 289
     },
     {
       "type": "text",
       "id": "text-1-3-4",
       "title": "Payment Processors — A Starting Point While You Wait",
-      "content": "<p>While the banking process is underway, payment processors can help bridge the gap so you can start accepting payments:</p>\n\n<ul><li><strong>Stripe</strong> . Popular for online businesses. Handles credit cards and sales tax. Setup can often be completed in under an hour.</li><li><strong>Square</strong> . Card readers, point-of-sale systems, and a basic business checking account.</li><li><strong>PayPal Business</strong> . Global name recognition, though fees tend to be higher and some founders report account holds.</li><li><strong>Wise Business</strong> . Multi-currency accounts with low conversion fees for home-country transfers. Useful as a supplement, but not a full bank replacement.</li></ul>\n\n<p>Let's put this in perspective. <strong>Important:</strong> Processors are a bridge, not a permanent solution. You will still need a bank account for payouts, vendor payments, payroll, and building a U.S. credit history.</p>",
+      "content": "<p>While you are working on getting into the big buildings, there are smaller offices on the same street that can handle your transactions. Payment processors can help bridge the gap so you can start accepting payments:</p>\n\n<ul><li><strong>Stripe</strong> . Popular for online businesses. Handles credit cards and sales tax. Setup can often be completed in under an hour.</li><li><strong>Square</strong> . Card readers, point-of-sale systems, and a basic business checking account.</li><li><strong>PayPal Business</strong> . Global name recognition, though fees tend to be higher and some founders report account holds.</li><li><strong>Wise Business</strong> . Multi-currency accounts with low conversion fees for home-country transfers. Useful as a supplement, but not a full bank replacement.</li></ul>\n\n<p>Let's put this in perspective. <strong>Important:</strong> Processors are a bridge, not a permanent solution. You will still need a bank account for payouts, vendor payments, payroll, and building a U.S. credit history.</p>",
       "wordCount": 124
     },
     {
       "type": "callout",
       "id": "callout-1-3-2",
-      "variant": "theme-watch-money",
+      "variant": "watch-money-costs",
       "title": "Watch Your Money — Bank Account Fees Add Up",
-      "content": "<p>Monthly maintenance fees, wire transfer costs, minimum balance requirements — these may seem small individually, but they add up over time. A founder who makes regular international wire transfers can easily spend over a thousand dollars per year on wire fees alone.</p>\n\n<p>Before you commit to a bank, compare fee schedules. Ask about fee waivers for maintaining a minimum balance. Consider using Wise Business for international transfers and keeping your U.S. bank account for domestic operations.</p>"
+      "content": "<p>Notice how monthly maintenance fees, wire transfer costs, minimum balance requirements — these may seem small individually, but they add up over time. A founder who makes regular international wire transfers can easily spend over a thousand dollars per year on wire fees alone.</p>\n\n<p>Before you commit to a bank, compare fee schedules. Ask about fee waivers for maintaining a minimum balance. Consider using Wise Business for international transfers and keeping your U.S. bank account for domestic operations.</p>"
     },
     {
       "type": "text",
       "id": "text-1-3-5",
       "title": "We Will Go Deeper in Module 2",
-      "content": "<p>This lesson covers what you need to open your first U.S. bank account. Module 2 goes deeper into credit history, handling rejections, and funding considerations.</p>\n\n<p>Here is the thing. For now, focus on three things: gather your documents, call ahead to confirm requirements, and set aside enough for the initial deposit plus a minimum balance buffer. If you are not in the U.S. yet, several online banking platforms offer fully remote account opening that may work for your situation — research your options before assuming you need to visit a branch in person.</p>",
+      "content": "<p>You have walked the length of this street. This lesson covers what you need to open your first U.S. bank account. Module 2 takes you deeper into the district — credit history, handling rejections, and funding considerations.</p>\n\n<p>The reality is that you need to focus on three things: gather your documents, call ahead to confirm requirements, and set aside enough for the initial deposit plus a minimum balance buffer. If you are not in the U.S. yet, several online banking platforms offer fully remote account opening that may work for your situation — research your options before assuming you need to visit a branch in person.</p>",
       "wordCount": 93
     },
     {
@@ -81,43 +88,56 @@
       "prompt": "Think about your own banking readiness:\n\n- Which documents from the checklist do you already have? Which ones do you still need?\n- Have you identified two or three banks in the Central Florida area (or online alternatives) that you want to contact?\n- What is your plan if the first bank says no?\n\nMake a list of the missing items and the steps needed to get each one. Having everything ready before your first bank visit makes a big difference."
     },
     {
+      "type": "checklist",
+      "id": "int-1-3-1",
+      "title": "Bank Account Opening — Document Checklist",
+      "items": [
+        "EIN confirmation letter from IRS",
+        "Articles of Organization/Incorporation from SunBiz",
+        "Operating Agreement (LLC) or Bylaws (Corp)",
+        "Government-issued photo ID (passport accepted)",
+        "Proof of U.S. business address",
+        "Initial deposit amount (varies by bank — typically $100–$500)"
+      ]
+    },
+    {
       "type": "knowledge-check",
-      "id": "kc-1-3-1",
-      "title": "Quick Check: What Would You Do?",
+      "id": "kc-1-3",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
           "stem": "You are about to visit a bank to open a business account. You have your EIN letter and your passport, but you are not sure what else the bank needs. What is the best approach?",
           "options": [
-            "Go to the bank with what you have and figure it out there",
             "Call the bank first, ask specifically what they require for a foreign-owned entity, and bring everything in one folder",
+            "Go to the bank with what you have and figure it out there",
             "Skip the bank and just use PayPal for everything",
             "Wait until you have been in the U.S. for at least six months before trying"
           ],
-          "correctAnswer": 1,
-          "explanation": "Calling ahead and asking for a specific document list is one of the most effective ways to avoid wasted trips. Different banks have different requirements, and international accounts often need additional documentation."
+          "correctAnswer": 0,
+          "explanation": "Calling ahead and asking for a specific document list is one of the most effective ways to avoid wasted trips. Going with what you have risks missing a critical document and wasting a trip. Relying only on PayPal is not a substitute for a business bank account. Waiting six months is unnecessary and delays your ability to operate."
         },
         {
           "stem": "A large national bank rejects your application. What is the most productive next step?",
           "options": [
             "Give up on U.S. banking and rely only on payment processors",
-            "Try a community bank, credit union, or online platform — they are often more flexible with international founders",
             "Open a personal account and use it for business temporarily",
-            "Wait six months and reapply at the same bank"
+            "Wait six months and reapply at the same bank",
+            "Try a community bank, credit union, or online platform — they are often more flexible with international founders"
           ],
-          "correctAnswer": 1,
-          "explanation": "Rejection at one bank does not mean you cannot open an account anywhere. Community banks, credit unions, and online platforms like Mercury tend to be more flexible. Using a personal account for business transactions can destroy your liability protection."
+          "correctAnswer": 3,
+          "explanation": "Rejection at one bank does not mean you cannot open an account anywhere. Community banks, credit unions, and online platforms like Mercury tend to be more flexible with international founders. Giving up on banking limits your business operations. Using a personal account for business transactions can destroy your liability protection. Waiting six months at the same bank wastes valuable time when other institutions may approve you now."
         },
         {
           "stem": "Your bank account application is still being reviewed, but a U.S. customer is ready to pay you by credit card. What should you do?",
           "options": [
             "Wait until the bank account is approved before accepting any payments",
-            "Ask the customer to pay in cash",
             "Set up a payment processor like Stripe as a bridge while the bank account is being processed",
+            "Ask the customer to pay in cash",
             "Use your personal bank account temporarily"
           ],
-          "correctAnswer": 2,
-          "explanation": "Payment processors like Stripe can serve as a bridge while your bank account is being set up. Using a personal account for business creates legal and tax problems. However, you will still need a bank account for payouts, so keep pursuing it."
+          "correctAnswer": 1,
+          "explanation": "Payment processors like Stripe can serve as a bridge while your bank account is being set up. Waiting to accept payments loses revenue and customer trust. Asking for cash is impractical for most business transactions. Using a personal account for business creates legal and tax problems and can pierce your corporate veil. You will still need a bank account for payouts, so keep pursuing it."
         }
       ]
     },
@@ -125,7 +145,7 @@
       "type": "key-takeaway",
       "id": "kt-1-3-1",
       "title": "Key Takeaway",
-      "content": "<p>Banking is one of the steps that catches many international founders off guard. The process can take longer than expected, and not every bank will say yes. But founders who prepare their documents, call ahead, and have a backup plan tend to get through it much faster.</p>\n\n<p>Payment processors like Stripe and Square can bridge the gap while you wait, but they are not a long-term replacement for a proper bank account. Plan for the process to take a few weeks, stay flexible, and do not get discouraged if the first bank says no. Module 2 covers the deeper financial picture : credit history, tax setup, and the full banking reality.</p>"
+      "content": "<p>Banking is one of the steps that catches many international founders off guard. The financial district has its own rules, and not every door will open on the first try. But founders who prepare their documents, call ahead, and have a backup plan tend to get through it much faster.</p>\n\n<p>Payment processors like Stripe and Square can bridge the gap while you wait, but they are not a long-term replacement for a proper bank account. Plan for the process to take a few weeks, stay flexible, and do not get discouraged if the first bank says no. Module 2 covers the deeper financial picture : credit history, tax setup, and the full banking reality.</p>"
     }
   ]
 }

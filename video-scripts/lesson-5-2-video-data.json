@@ -1,0 +1,108 @@
+{
+  "lessonId": "lesson-5-2",
+  "videoTitle": "Customer Acquisition and Selling to U.S. Companies",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Port / Shopping Center \u00e2\u20ac\u201d commerce, logistics, reaching customers",
+  "totalDuration": 276.08,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Inside the Shopping Center \u00e2\u20ac\u201d How Americans Buy",
+      "bullets": [],
+      "narration": "You have adapted your product for the U.S. marketplace. Now it is time to get it off the shelf and into the buyer's hands. Stand in any major shopping corridor in Central Florida and watch how customers move: they scan, compare, check reviews on their phones, and make a decision in minutes. That same behavior drives B2B purchasing too, just with bigger numbers and more paperwork. An Argentine B2B company spent thirty thousand dollars at a Las Vegas trade show, collected four hundred cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within twenty-four hours and closed twelve deals. Speed wins. Let me show you how.",
+      "template": "intro",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-1.wav",
+      "duration": 36.32
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The U.S. Sales Cycle \u00e2\u20ac\u201d Faster Than You Expect",
+      "bullets": [
+        "First response: same day \u00e2\u20ac\u201d three days is too late",
+        "Demo within one week, proposal within 24-48 hours of first call",
+        "Deals under ten thousand: one to two weeks \u00e2\u20ac\u201d ten to one hundred thousand: four to eight weeks",
+        "Companies responding within one hour are seven times more likely to qualify the lead"
+      ],
+      "narration": "Think about shoppers on International Drive. They glance at a storefront, decide in seconds whether to walk in, and move on if nothing grabs them. U.S. buyers work the same way. They expect you to get to the point: what you offer, how much it costs, and what makes you different. First response should be same day. Three days is too late. Schedule a demo within one week. Send a proposal within twenty-four to forty-eight hours of the first call. Deals under ten thousand dollars close in one to two weeks. Ten to one hundred thousand takes four to eight weeks. Harvard Business Review found that companies responding within one hour were seven times more likely to qualify the lead. Speed is not just helpful. It is often the deciding factor.",
+      "template": "split-left",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-2.wav",
+      "duration": 38.16
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "U.S. Acquisition Channels",
+      "bullets": [
+        "B2B: LinkedIn, content marketing, events, and referrals",
+        "B2C: paid ads, SEO, Amazon marketplace",
+        "Pick two or three channels \u00e2\u20ac\u201d do not spread thin across everything",
+        "Digital-first is the U.S. standard \u00e2\u20ac\u201d your website is your storefront"
+      ],
+      "narration": "U.S. customer acquisition is digital-first. For B2B, the core channels are LinkedIn, content marketing, events, and referrals. For B2C, paid ads, SEO, and Amazon drive most discovery. The mistake most founders make is spreading thin across too many channels. Pick two or three and go deep. Your website is your storefront in the U.S. market. If your pricing is not transparent, your value proposition is not clear, or your site looks outdated, buyers will move on. They check three alternatives before deciding. Make it easy for them to say yes. Include case studies, testimonials, and clear calls to action. And set up automated follow-up sequences so you never miss a lead because of time zone differences.",
+      "template": "split-right",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-3.wav",
+      "duration": 41.52
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Pricing Strategy for the U.S. Market",
+      "bullets": [
+        "Map your competitive landscape: identify five to ten similar companies and their pricing",
+        "Pricing too low signals something is missing \u00e2\u20ac\u201d not that you are a good deal",
+        "Converting home-market prices to dollars is not a strategy",
+        "Transparent pricing on your website is expected \u00e2\u20ac\u201d hiding prices loses buyers"
+      ],
+      "narration": "Think of the outlet shopping center. Every store posts prices clearly, offers return policies, and positions itself against the shop next door. Your pricing needs to do the same. Start by mapping your U.S. competitive landscape. Identify five to ten similar companies and document their pricing tiers. Three pitfalls to avoid. First, pricing too low. If competitors charge twenty-five dollars per month and you charge eight, it signals something is missing. Second, no localization. Simply converting your home-market price to dollars is not a strategy. Third, hiding pricing. U.S. buyers expect transparent pricing on your website. If they cannot find it, they move to the competitor who shows it. Offer a free trial or money-back guarantee. That is standard practice in the U.S.",
+      "template": "split-left",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-4.wav",
+      "duration": 44.16
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Vendor Onboarding \u00e2\u20ac\u201d The Paperwork That Blindsides You",
+      "bullets": [
+        "W-9 Form: provides your EIN \u00e2\u20ac\u201d have a PDF ready to send immediately",
+        "Certificate of Insurance: many companies require general liability coverage",
+        "Vendor Registration: larger companies use Ariba, Coupa, Oracle \u00e2\u20ac\u201d takes one to four weeks",
+        "Missing any of these can stall a deal by weeks or kill it entirely"
+      ],
+      "narration": "This blindsides many founders selling B2B. Just as goods arriving at port must clear customs before reaching the shelves, your product must pass through a buyer's procurement process before you see payment. The buyer says yes, then procurement sends a packet with forms you have never heard of. A W-9 Form provides your EIN. Any U.S. company paying you six hundred dollars or more per year needs it. Have a completed PDF ready to send immediately. A Certificate of Insurance proves you carry general liability coverage. Many companies require it. Vendor Registration through systems like Ariba, Coupa, or Oracle takes one to four weeks at larger companies. Have everything ready before you start selling. Missing any of these can stall a deal for weeks or kill it entirely if the buyer has other options.",
+      "template": "split-right",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-5.wav",
+      "duration": 44.4
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "A Nigerian Founder's Lesson in Vendor Readiness",
+      "bullets": [],
+      "narration": "A founder from Nigeria built an HR compliance platform and landed a verbal yes from a two hundred person U.S. company. Procurement sent a vendor onboarding packet requesting a W-9, certificate of insurance, and registration in their Coupa system. He had none of these ready. He told procurement he would get back to them in a couple of weeks. Meanwhile, the buyer's team was also evaluating a U.S.-based competitor who had all documents ready. The deal died. A verbal yes is not a closed deal in U.S. B2B sales. Procurement is where deals live or die. Two weeks is an eternity when a competitor is already qualified. Prepare your vendor documents before you start selling, not after a buyer says yes.",
+      "template": "diagonal",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-6.wav",
+      "duration": 38.4
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Speed Wins in the U.S. Market",
+      "bullets": [],
+      "narration": "Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents before you start selling. W-9, insurance certificates, company registration \u00e2\u20ac\u201d all ready to send the moment a buyer says yes. The founders who close deals are the ones who make it easy for buyers to move forward. Your paperwork clears the port and your storefront is open when the customers walk by. The commercial hub is behind you. Next destination: the beach \u00e2\u20ac\u201d where the atmosphere looks casual but the business culture underneath runs on serious expectations.",
+      "template": "intro",
+      "avatarScene": "lesson-5-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-2/lesson-5-2-scene-7.wav",
+      "duration": 33.12
+    }
+  ]
+}

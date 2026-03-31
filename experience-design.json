@@ -144,12 +144,17 @@
       "pipeline": "TTS audio (Qwen3/VibeVoice) → Avatar image (Qwen 2512 GGUF) → InfinityTalk → MP4",
       "seeAlso": "docs/INFINITYTALK-AVATAR-SYSTEM.md"
     },
-    "interactivityLevel": "low",
+    "interactivityLevel": "medium",
     "preferredComponents": [
-      "knowledge-check",
-      "table",
+      "scenario-check",
+      "reflection",
+      "comparison-table",
+      "tabs",
+      "accordion",
+      "checklist",
       "callout"
-    ]
+    ],
+    "interactivityNotes": "Knowledge checks are scenario-based ('What would you do?'), never trivia. See assessmentPhilosophy.checkForUnderstandingFormat for the 3-part template."
   },
   "calloutTypes": [
     {

@@ -1,0 +1,81 @@
+{
+  "lessonId": "lesson-7-3",
+  "videoTitle": "Central Florida by the Numbers \u00e2\u20ac\u201d Economic Data",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "River Springs \u00e2\u20ac\u201d full ecosystem, you are not alone, natural diversity",
+  "totalDuration": 203.28006299999998,
+  "sceneCount": 5,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Measuring the Flow \u00e2\u20ac\u201d Central Florida by the Numbers",
+      "bullets": [],
+      "narration": "A natural spring's strength is measured by how many gallons per second it pushes to the surface. An ecosystem's strength is measured by what it produces. Now it is time to measure Central Florida's flow with real data. Numbers tell a story most pitch decks miss. A five hundred thousand dollar seed fund buys you ten months in Silicon Valley, but seventeen months in Central Florida. That difference can mean the gap between finding product-market fit and running out of cash. This lesson is the spreadsheet \u00e2\u20ac\u201d the numbers to cite when building a case for your board, your co-founder, or your family. All data as of early twenty twenty-six unless noted. Let me walk you through the aquifer.",
+      "template": "intro",
+      "avatarScene": "lesson-7-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-3/lesson-7-3-scene-1.wav",
+      "duration": 34.64
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Population, GDP, and Business Formation",
+      "bullets": [
+        "Orlando metro: approximately 2.8 million residents \u00e2\u20ac\u201d top five fastest-growing U.S. metro",
+        "Regional GDP exceeds one hundred fifty billion annually across tourism, tech, aerospace, and health care",
+        "Florida handles over three hundred thousand new business filings per year \u00e2\u20ac\u201d top three nationally",
+        "Florida LLC filing: one hundred twenty-five dollars \u00e2\u20ac\u201d California charges seventy plus eight hundred annual franchise tax"
+      ],
+      "narration": "Let me break down the flow. The Orlando-Kissimmee-Sanford metro has approximately 2.8 million residents and is one of the top five fastest-growing U.S. metros over the past five years. That growth drives consumer demand, worker supply, and commercial real estate development. Metro Orlando GDP exceeds one hundred fifty billion dollars annually, spread across tourism, tech, aerospace, health care, education, and construction. On the business formation side, Florida processes over three hundred thousand new filings each year through SunBiz \u00e2\u20ac\u201d top three nationally. A Florida LLC costs one hundred twenty-five dollars to file. For comparison, California charges seventy dollars plus an eight hundred dollar annual franchise tax. And Florida has zero state income tax on all pass-through business income. The aquifer runs deep.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-3/lesson-7-3-scene-2.wav",
+      "duration": 44.4
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Cost Comparison \u00e2\u20ac\u201d Orlando vs. Other Cities",
+      "bullets": [
+        "Office space: twenty-five to thirty-five per square foot in Orlando versus fifty-five to seventy-five in Silicon Valley",
+        "Developer salaries: eighty-five to one hundred thousand versus one hundred thirty to one hundred sixty thousand in San Jose",
+        "One-bedroom apartment: fourteen hundred to eighteen hundred versus twenty-five hundred to thirty-five hundred in San Jose",
+        "Cost of living index: ninety-eight in Orlando versus one hundred eighty-seven in New York City"
+      ],
+      "narration": "Here is where the numbers get practical. Think of it as measuring the depth of the aquifer beneath each city. Office space in Central Florida runs twenty-five to thirty-five dollars per square foot per year. In Silicon Valley, that is fifty-five to seventy-five. A mid-career software developer costs eighty-five to one hundred thousand here versus one hundred thirty to one hundred sixty thousand in San Jose. A one-bedroom apartment runs fourteen hundred to eighteen hundred dollars monthly in Orlando versus twenty-five hundred to thirty-five hundred in San Jose. The cost of living index tells the full story: Orlando sits at ninety-eight, near the national average. New York is at one hundred eighty-seven. Silicon Valley is one hundred seventy-two. A three-person team saves one hundred eighty to two hundred fifty thousand dollars in operating costs over eighteen months by choosing Orlando over New York.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-3/lesson-7-3-scene-3.wav",
+      "duration": 46.8
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Industry Clusters \u00e2\u20ac\u201d Where the Revenue Is",
+      "bullets": [
+        "Simulation and training: two hundred plus companies, six billion in annual contracts",
+        "Aerospace: SpaceX, Blue Origin, L3Harris \u00e2\u20ac\u201d twenty-eight orbital launches in twenty twenty-five",
+        "Life sciences at Lake Nona: ninety thousand healthcare employees, fifteen percent venture growth year over year",
+        "Hospitality tech: seventy-five million annual visitors, seventy-five billion in tourism GDP"
+      ],
+      "narration": "Central Florida's economy is more diversified than most founders expect. Think of each industry cluster as a separate spring feeding the same river. Simulation and training has over two hundred companies generating roughly six billion in annual contracts. Orlando is the global hub for modeling and simulation. Aerospace on the Space Coast \u00e2\u20ac\u201d forty-five minutes from Orlando \u00e2\u20ac\u201d includes SpaceX, Blue Origin, L3Harris, and Lockheed Martin, with twenty-eight orbital launches in twenty twenty-five. Life sciences at Lake Nona Medical City has ninety thousand healthcare employees and venture growth of fifteen percent year over year. Technology and fintech are growing thirty-four percent faster than the national average. And hospitality tech serves seventy-five million annual visitors generating over seventy-five billion in tourism GDP. Where these tributaries converge, the opportunities compound.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-3/lesson-7-3-scene-4.wav",
+      "duration": 47.44
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "The Numbers Behind the Ecosystem",
+      "bullets": [],
+      "narration": "Those are the numbers behind the ecosystem. A cost of living index nearly half of New York's. Developer salaries thirty to sixty percent below San Jose. Over three hundred thousand new business filings per year. Six diversified industry clusters generating billions in revenue. These are the figures to cite when making your case to co-founders, investors, or family. In the next lesson, you will see how the LATAM trade corridor connects these numbers to your specific market opportunity \u00e2\u20ac\u201d and how to build your location decision framework with real data.",
+      "template": "intro",
+      "avatarScene": "lesson-7-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-3/lesson-7-3-scene-5.wav",
+      "duration": 30.000063
+    }
+  ]
+}

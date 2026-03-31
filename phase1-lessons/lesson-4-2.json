@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-4-2",
   "moduleId": "module-4",
+  "landscapeTheme": "Theme Park",
   "title": "Visa Pathways — What's Actually Realistic",
   "duration": 7,
   "objectives": [
@@ -14,19 +15,19 @@
       "id": "callout-4-2-visa",
       "variant": "reality-check",
       "title": "Important Disclaimer — Read This First",
-      "content": "<p>Completing this program does not influence or guarantee visa approval. This content is educational only — visa outcomes depend on individual circumstances and are determined solely by U.S. immigration authorities.</p>\n\n<p>Immigration law is complex and highly individual. The information below provides a general awareness-level overview. <strong>All visa and immigration actions should be evaluated with a qualified immigration attorney</strong> who can assess your specific circumstances.</p>"
+      "content": "<p>What if you could work in the U.S. legally, but picked the wrong visa and lost months of progress? Completing this program does not influence or guarantee visa approval. This content is educational only, and visa outcomes depend on individual circumstances and are determined solely by U.S. immigration authorities.</p>\n\n<p>Immigration law is complex and highly individual. The information below provides a general awareness-level overview. <strong>All visa and immigration actions should be reviewed with a qualified immigration attorney</strong> who can assess your specific circumstances.</p>"
     },
     {
       "type": "text",
       "id": "text-4-2-1",
-      "title": "The Visa Landscape for International Founders",
-      "content": "<p>Owning a U.S. company does not automatically give you the right to work in the U.S. Recall from the entity formation lessons that you can form an LLC from abroad, but working on U.S. soil is a separate legal question. A Colombian founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office — her tourist visa did not allow it.</p>\n\n<p>Here is the practical takeaway. Several visa pathways exist with different requirements, costs, and timelines. The right path depends on your citizenship, track record, capital, and existing operations. What follows is an awareness-level overview — not a substitute for legal advice.</p>",
-      "wordCount": 107
+      "title": "Earning Your Backstage Pass: Visa Pathways for International Founders",
+      "content": "<p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what pass gets you through the gate?</p>\n\n<p>In Central Florida's entertainment district, no one walks backstage without the right credential. The same is true for working in the U.S. Owning a company does not by itself give you the right to work here. A Colombian founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p>\n\n<p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p>",
+      "wordCount": 137
     },
     {
       "type": "table",
       "id": "table-4-2-1",
-      "title": "Visa Pathways at a Glance",
+      "title": "Your Backstage Credentials — Visa Pathways at a Glance",
       "table": {
         "headers": [
           "Visa Type",
@@ -71,68 +72,108 @@
       "sectionId": "text-4-2-1"
     },
     {
+      "type": "callout",
+      "id": "callout-4-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Central Florida's tourism and entertainment sector relies heavily on international talent. The Orlando metro area is home to one of the most internationally diverse workforces in the Southeast, with residents from over 100 countries. Many of the region's entertainment executives, hospitality managers, and tech professionals originally arrived on the same visa categories covered in this lesson before building long-term careers in the area.</p>"
+    },
+    {
       "type": "text",
       "id": "text-4-2-2",
-      "title": "Understanding Your Options",
-      "content": "<h4>O-1A: Extraordinary Ability</h4>\n\n<p>Often the strongest option for founders with a track record. Evidence includes published articles, revenue growth, speaking, awards, or patents — you need at least three of eight USCIS criteria.</p>\n\n<h4>E-2: Treaty Investor</h4>\n\n<p>Requires a \"substantial\" investment — typically $100,000+. Your country must have a treaty with the U.S. (many Latin American and European countries qualify). Does not lead directly to a green card.</p>\n\n<h4>L-1A: Intracompany Transfer</h4>\n\n<p>For founders who already run a company outside the U.S. Requires a managerial/executive role at the foreign entity for at least one year within the last three years.</p>\n\n<h4>H-1B: Specialty Occupation</h4>\n\n<p>Employer-sponsored, annual lottery with ~25% selection rate. Less common for founders.</p>",
+      "title": "Four Pathways Into the U.S. Market",
+      "content": "<p>Think of each visa as a different backstage pass to the U.S. market. Each one opens different doors, costs different amounts, and takes different timelines to obtain. The four pathways below are the ones most commonly used by international founders — explore each one to understand the requirements, costs, and realistic timelines.</p>",
       "wordCount": 112
     },
     {
-      "type": "callout",
-      "id": "callout-4-2-1",
-      "variant": "reality-check",
-      "title": "Reality Check: Visa Processing Takes Time",
-      "content": "<p>Standard visa processing can take <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee, but not all do. The H-1B lottery happens once per year in March, with an October start date if selected.</p>\n\n<p>Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing the process leads to weak applications and denials. An immigration attorney who is honest about your timeline is more valuable than one who promises speed.</p>"
+      "type": "accordion",
+      "id": "int-4-2-1",
+      "title": "Visa Pathways — Detailed Breakdown",
+      "sections": [
+        {
+          "heading": "O-1A — Extraordinary Ability",
+          "content": "**Requirements:** Demonstrate extraordinary ability in business, science, education, or athletics through national/international recognition.\n\n**Timeline:** 2–6 months (premium processing available)\n\n**Cost:** $5,000–$10,000+ (filing + attorney)\n\n**Realistic for:** Founders with publications, awards, significant press, or high salary history. Strong option if you have evidence of being in the top of your field."
+        },
+        {
+          "heading": "E-2 — Treaty Investor",
+          "content": "**Requirements:** Citizen of a treaty country, substantial investment in a U.S. business, must direct and develop the enterprise.\n\n**Timeline:** 2–4 months (consular processing)\n\n**Cost:** $3,000–$8,000+ (investment must be 'substantial' — typically $100K+)\n\n**Realistic for:** Most LATAM founders with capital to invest. Brazil and some countries are NOT treaty countries — check eligibility first."
+        },
+        {
+          "heading": "L-1A — Intracompany Transfer",
+          "content": "**Requirements:** Must have worked for a related company abroad for 1+ year in a managerial/executive role. Transferring to a U.S. office.\n\n**Timeline:** 3–8 months\n\n**Cost:** $3,000–$8,000 (filing + attorney)\n\n**Realistic for:** Founders expanding an existing company to the U.S. You must prove the foreign entity remains active."
+        },
+        {
+          "heading": "H-1B — Specialty Occupation",
+          "content": "**Requirements:** Bachelor's degree in a specialty field. Employer (can be your own company) sponsors you.\n\n**Timeline:** Annual lottery (April), start date October 1\n\n**Cost:** $3,000–$10,000\n\n**Realistic for:** Least ideal for founders — lottery-based, employer-dependent, 6-year cap. Better for employees you want to hire."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "img-4-2-visa",
+      "title": "Four Visa Pathways for International Founders",
+      "src": "images/infographics/lesson-4-2-visa-pathways.jpg",
+      "alt": "Comparison of 4 visa types: E-2 Treaty Investor, L-1A Transfer, O-1A Extraordinary Ability, B-1/B-2 Visitor with requirements, duration, and green card eligibility."
     },
     {
       "type": "callout",
       "id": "callout-4-2-2",
       "variant": "before-you-spend",
       "title": "Before You Spend Money: What Visa Applications Actually Cost",
-      "content": "<p>As of early 2026, total visa costs (attorney fees + government filing fees) typically range from:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>E-2:</strong> $3,000–$8,000+ (attorney) + $315 (filing fee) + investment capital</li><li><strong>L-1A:</strong> $4,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>H-1B:</strong> $2,000–$5,000+ (attorney) + registration fee + filing fees</li></ul>\n\n<p>These are attorney and filing costs only. The E-2 also requires you to show a substantial capital investment in the business itself. Budget for the attorney consultation ($250–$500/hour) as your first step. A good attorney will tell you honestly which pathways are realistic before you spend thousands on an application.</p>"
+      "content": "<p>Now, let's look at the numbers. As of early 2026, total visa costs (attorney fees + government filing fees) typically range from:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>E-2:</strong> $3,000–$8,000+ (attorney) + $315 (filing fee) + investment capital</li><li><strong>L-1A:</strong> $4,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>H-1B:</strong> $2,000–$5,000+ (attorney) + registration fee + filing fees</li></ul>\n\n<p>These are attorney and filing costs only. The E-2 also requires you to show a substantial capital investment in the business itself. Budget for the attorney consultation ($250–$500/hour) as your first step. A good attorney will tell you honestly which pathways are realistic before you spend thousands on an application.</p>"
     },
     {
       "type": "text",
       "id": "text-4-2-3",
-      "title": "How to Choose an Immigration Attorney",
-      "content": "<p>Look for an attorney who <strong>specializes in business immigration</strong>. The AILA directory is a starting point, but referrals from other founders in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes.</p>\n\n<p>The bottom line? Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p>",
+      "title": "Choosing Your Guide — How to Find the Right Immigration Attorney",
+      "content": "<p>In any complex park, you want a guide who knows which doors lead where. The same applies here: look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other founders in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes — no one can promise which credential you will receive.</p>\n\n<p>The bottom line? Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p>\n\n<p>Keep in mind that standard visa processing can take <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee, but not all do. The H-1B lottery happens once per year in March, with an October start date if selected. Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing leads to weak applications and denials. A lawyer who is honest about your timeline is more valuable than one who promises speed.</p>",
       "wordCount": 68
     },
     {
+      "type": "callout",
+      "id": "callout-4-2-visa-warning",
+      "variant": "theme-common-mistakes",
+      "title": "Common Mistakes International Founders Make — Visa Authorization",
+      "content": "<p>One of the most serious mistakes: <strong>working in the U.S. without proper visa authorization.</strong> As a founder, your own visa status determines what work you can legally do. Hiring others does not exempt you from your own immigration requirements. Working outside your authorization can result in deportation and permanent bars from reentry. Make sure your visa covers the activities you are actually performing.</p>"
+    },
+    {
       "type": "knowledge-check",
-      "id": "kc-4-2-1",
-      "title": "Check Your Understanding",
+      "id": "kc-4-2",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
           "stem": "A founder from Colombia has a successful tech company with 200 employees and wants to open a U.S. office. She has been the CEO for three years. Which visa pathway would her immigration attorney most likely explore first?",
           "options": [
             "H-1B, because it is the most common work visa",
-            "E-2, because Colombia is a treaty country",
             "L-1A, because she has an existing foreign company and managerial experience",
+            "E-2, because Colombia is a treaty country",
             "B-1, because she is attending business meetings in the U.S."
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "The L-1A (Intracompany Transfer) is designed for founders and managers who already run a foreign company and want to open or manage a U.S. office. The key requirements — a managerial role at a qualifying foreign company for at least one year — fit this founder's situation well. However, an immigration attorney would evaluate all options based on her specific circumstances."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-4-2-2",
-      "title": "Check Your Understanding: Visa Costs and Timelines",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A founder from Mexico owns a profitable e-commerce company and has $120,000 to invest in a U.S. operation. She has no extraordinary achievements or awards, and she has never managed a U.S.-affiliated company. Her immigration attorney would most likely explore which visa pathway first?",
           "options": [
             "O-1A, because any founder with a profitable business qualifies as extraordinary",
             "H-1B, because it is the most common work visa and has the lowest cost",
-            "E-2 Treaty Investor, because Mexico is a treaty country and she has substantial capital to invest",
-            "L-1A, because she runs a company and wants to open a U.S. office"
+            "L-1A, because she runs a company and wants to open a U.S. office",
+            "E-2 Treaty Investor, because Mexico is a treaty country and she has substantial capital to invest"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 3,
           "explanation": "The E-2 Treaty Investor visa fits this scenario best. Mexico has a treaty with the U.S., and the founder has $120,000 in investment capital, which exceeds the typical $100,000+ threshold attorneys recommend. The O-1A requires extraordinary ability evidence she does not have. The L-1A requires an existing qualifying relationship between a foreign and U.S. company. The H-1B is lottery-based and less common for founders."
+        },
+        {
+          "stem": "A founder from Argentina wants to open a U.S. office in six months. She has $150,000 in investment capital, no extraordinary achievements or awards, and has never managed a U.S.-affiliated company. Argentina is an E-2 treaty country. Based on the cost and timeline data in this lesson, what should she budget and plan for?",
+          "options": [
+            "Budget $3,000–$8,000+ for E-2 attorney and filing fees, begin the process now since consular processing takes 4–8 months, and consult an immigration attorney to confirm eligibility",
+            "Budget $2,000–$5,000 for an H-1B application and enter the March lottery for an October start date",
+            "Skip the attorney and file the visa application herself to save money, since E-2 forms are straightforward",
+            "Wait until she arrives in the U.S. on a tourist visa, then apply for work authorization from within the country"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for founders. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation."
         }
       ]
     },
@@ -148,7 +189,7 @@
       "type": "key-takeaway",
       "id": "kt-4-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Visa pathways exist for international founders, but none are guaranteed and all take time. Start the process 6 to 12 months before you need to be working in the U.S. Work with an immigration attorney who specializes in business immigration and who will be honest about your realistic options. The right legal guidance early on prevents expensive mistakes later.</p>"
+      "content": "<p>Four backstage passes, four different doors — but none are handed out automatically. Start the visa process 6 to 12 months before you need to be working in the U.S. Work with an immigration attorney who specializes in business immigration and who will be honest about which credential fits your situation. Evaluate which pathway matches your track record and capital, then create a realistic schedule for the application process. The right legal guidance early on prevents expensive mistakes later.</p>"
     }
   ]
 }

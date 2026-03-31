@@ -1,0 +1,69 @@
+{
+  "conversationId": "lesson-0-1-test",
+  "title": "Start Here — Quick Test",
+  "basedOnLesson": "lesson-0-1",
+  "estimatedDuration": 15,
+  "metadata": {
+    "moduleId": "module-0",
+    "moduleTitle": "Welcome & Orientation",
+    "courseTitle": "UCF Business Incubation Program — Phase 1",
+    "testMode": true
+  },
+  "characters": [
+    {
+      "id": "host",
+      "name": "Elena",
+      "description": "Warm program guide",
+      "speakerIndex": 1,
+      "portraitImage": "ucf_avatar_speaker1.png",
+      "voiceProfile": {
+        "mode": "clone",
+        "referenceAudioPath": "voices/FemaleJessica.mp3",
+        "defaultInstruction": "warm and welcoming, clear and professional"
+      }
+    },
+    {
+      "id": "mentor",
+      "name": "Carlos",
+      "description": "Experienced founder",
+      "speakerIndex": 2,
+      "portraitImage": "ucf_avatar_speaker2.png",
+      "voiceProfile": {
+        "mode": "clone",
+        "referenceAudioPath": "voices/MaleAmerican.mp3",
+        "defaultInstruction": "confident and encouraging, conversational"
+      }
+    }
+  ],
+  "compositeImage": "ucf_avatar_composite.png",
+  "dialogue": [
+    {
+      "lineId": "001",
+      "characterId": "host",
+      "text": "Welcome to the UCF Business Incubation Program. I am Elena, your guide through this course.",
+      "instruction": "warm and welcoming",
+      "silenceAfter": 400
+    },
+    {
+      "lineId": "002",
+      "characterId": "mentor",
+      "text": "And I am Carlos. Knowing what to expect makes all the difference when you expand your business.",
+      "instruction": "friendly and relatable",
+      "silenceAfter": 400
+    },
+    {
+      "lineId": "003",
+      "characterId": "host",
+      "text": "This program covers the legal, financial, and cultural realities of doing business in the United States.",
+      "instruction": "informative, clear",
+      "silenceAfter": 400
+    },
+    {
+      "lineId": "004",
+      "characterId": "mentor",
+      "text": "Learn first, then decide. That is the key.",
+      "instruction": "thoughtful, emphasizing the insight",
+      "silenceAfter": 0
+    }
+  ]
+}

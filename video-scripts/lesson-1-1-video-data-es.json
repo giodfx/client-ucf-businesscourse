@@ -1,0 +1,108 @@
+{
+  "lessonId": "lesson-1-1",
+  "videoTitle": "Eligiendo Tu Entidad Comercial en EE.UU.",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "City Landscape — downtown Orlando, business formation, government",
+  "totalDuration": 325.92,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Bienvenido al Centro — Donde Tu Negocio Toma Forma",
+      "bullets": [],
+      "narration": "Bienvenido a tu primer destino: el centro de Orlando. Aquí es donde los negocios presentan sus documentos, cuelgan sus letreros y abren sus puertas. Mira a tu alrededor. Tienes torres de oficinas de cristal, un juzgado del condado, pequeños locales comerciales a lo largo del bulevar — todo tipo de estructura empresarial, una al lado de la otra. Antes de establecerte en cualquier lugar de esta ciudad, necesitas tomar una decisión clave: ¿qué tipo de edificio vas a ocupar? Un pequeño local te da libertad y costos bajos. Una torre corporativa te da la estructura que los inversionistas esperan. Esa elección es tu tipo de entidad, y define todo lo que sigue.",
+      "template": "intro",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-1.wav",
+      "duration": 41.84
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "El Local Comercial — LLC",
+      "bullets": [
+        "Registra una LLC de Florida en línea en unos treinta minutos a través de SunBiz",
+        "Los activos personales se mantienen separados de las responsabilidades del negocio",
+        "Una LLC de un solo miembro es una entidad transparente para impuestos",
+        "Las tarifas de registro estatal son típicamente alrededor de ciento veinticinco dólares"
+      ],
+      "narration": "Comencemos con el local comercial: la LLC, o Compañía de Responsabilidad Limitada. Esta es la opción más popular para fundadores internacionales que recién comienzan. Piensa en ello como alquilar un local en la calle principal. Puedes registrar una LLC de Florida en línea a través de SunBiz en unos treinta minutos. Tus activos personales se mantienen separados del negocio, así que si la empresa enfrenta una demanda o una deuda, tus ahorros y propiedades generalmente están protegidos. Para impuestos, una LLC de un solo miembro transfiere las ganancias a tu declaración personal. ¿Y las tarifas de registro estatal? Típicamente alrededor de ciento veinticinco dólares. Pero aquí está el detalle. Si planeas buscar capital de riesgo, la mayoría de los inversionistas estadounidenses no van a entrar a un local comercial. Ellos esperan reunirse contigo en una torre.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-2.wav",
+      "duration": 50.0
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "La Torre — C-Corp",
+      "bullets": [
+        "Las firmas de capital de riesgo en EE.UU. generalmente requieren una C-Corp de Delaware",
+        "La corporación paga impuesto federal al veintiuno por ciento",
+        "Los dividendos se gravan nuevamente a nivel del accionista — doble tributación",
+        "Requiere estatutos, junta directiva y reuniones anuales"
+      ],
+      "narration": "Ahora mira hacia arriba, a la torre: la C-Corporation. Este es el rascacielos con un vestíbulo, un escritorio de seguridad y una sala de juntas. Más estructura, más formalidades, pero los inversionistas saben exactamente lo que están viendo cuando entran. Las firmas de capital de riesgo en Estados Unidos generalmente requieren una C-Corp de Delaware. Si recaudar dinero está en tus planes a corto plazo, mudarte a la torre ahora te ahorra una renovación costosa más adelante. La corporación paga impuesto federal al veintiuno por ciento. La desventaja es la doble tributación: si paga dividendos, los accionistas pagan impuestos otra vez. Y sí, requiere estatutos, una junta directiva y reuniones anuales. Más gastos operativos, pero el edificio es bien entendido por bancos, inversionistas y abogados en toda la ciudad.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-3.wav",
+      "duration": 46.8
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "El Edificio Restringido — S-Corp",
+      "bullets": [
+        "La S-Corp es una elección fiscal, no un tipo de entidad separada",
+        "No puede tener accionistas extranjeros no residentes",
+        "La mayoría de los fundadores internacionales son clasificados como extranjeros no residentes",
+        "Enfócate en el local y la torre — los edificios que están abiertos para ti"
+      ],
+      "narration": "Quizás notes un edificio más al final de la calle. La S-Corp. Pero cuando te acercas, hay un letrero en la puerta: solo residentes. Una S-Corp no es realmente un tipo de entidad separada. Es una elección fiscal que puedes aplicar a una LLC o C-Corp para evitar la doble tributación. Pero aquí está el punto clave: las S-Corps no pueden tener accionistas extranjeros no residentes. Como la mayoría de los fundadores que ingresan a Estados Unidos son clasificados como extranjeros no residentes para efectos fiscales, las reglas de zonificación te impiden entrar. Por esa razón, nos enfocaremos en los dos edificios que realmente están abiertos para ti: el local comercial y la torre.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-4.wav",
+      "duration": 42.88
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Una Fundadora Que Eligió el Edificio Equivocado",
+      "bullets": [],
+      "narration": "Déjame contarte sobre alguien que aprendió esto por las malas. Una fundadora de software de Colombia eligió una LLC de Florida porque era rápido y barato. Se instaló en el local comercial y se puso a trabajar. Ocho meses después, un inversionista estadounidense ofreció liderar su ronda semilla, pero requería una C-Corp de Delaware. El cambio del local a la torre tomó tres meses, costó más de tres mil dólares en honorarios legales, y casi mata el acuerdo. Ella dijo después: si alguien me hubiera dicho que comenzara con una C-Corp, habría ahorrado una cuarta parte de mi primer año. El edificio que eliges en esta ciudad determina a qué servicios puedes acceder, cómo se ven tus costos operativos, y quién querrá hacer negocios contigo.",
+      "template": "diagonal",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-5.wav",
+      "duration": 44.72
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "El Precio de Tu Dirección",
+      "bullets": [
+        "Local Comercial — LLC de Florida: ciento veinticinco a seiscientos veinticinco dólares",
+        "Torre — C-Corp de Florida: trescientos setenta a mil quinientos setenta dólares",
+        "Torre — C-Corp de Delaware: novecientos sesenta a dos mil seiscientos dólares el primer año",
+        "Agente registrado: cien a trescientos dólares por año"
+      ],
+      "narration": "Hablemos de lo que tu dirección en esta ciudad realmente cuesta. El local comercial, una LLC de Florida, cuesta alrededor de ciento veinticinco dólares en tarifas de registro estatal, más hasta quinientos si usas un abogado. La torre, una C-Corp de Florida, es alrededor de setenta dólares para registrar, más trescientos a mil quinientos por ayuda de un abogado. Una C-Corp de Delaware, que es la torre que la mayoría de los inversionistas esperan, cuesta alrededor de ochenta y nueve dólares para registrar, más impuesto de franquicia anual y honorarios de abogado. Los costos del primer año pueden variar de aproximadamente novecientos sesenta a dos mil seiscientos dólares. Y todo edificio necesita un agente registrado, típicamente de cien a trescientos dólares por año. El local es el más económico. La torre es la más lista para inversionistas. Elige según hacia dónde se dirige tu negocio, no solo por la renta de hoy.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-6.wav",
+      "duration": 52.4
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Elige Tu Edificio Sabiamente",
+      "bullets": [],
+      "narration": "Esto es lo que quiero que te lleves de esta parada en el centro de Orlando. Tu tipo de entidad es la base de tu negocio en Estados Unidos. Afecta impuestos, banca, visas, y si los inversionistas van a trabajar contigo. El local comercial te da simplicidad y flexibilidad. La torre te da estructura y credibilidad con los inversionistas. No elijas un edificio solo porque la renta es barata. Piensa en dónde necesitas estar en un año. Si tus planes incluyen consideraciones de visa o recaudar capital, habla con un abogado de negocios antes de firmar el contrato. Una consulta de una hora cuesta unos pocos cientos de dólares. Reubicarte a un edificio diferente más tarde cuesta varios miles, más meses de retraso. Próxima parada: SunBiz, donde presentamos los documentos reales.",
+      "template": "intro",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-1-1/lesson-1-1-scene-7.wav",
+      "duration": 47.28
+    }
+  ]
+}

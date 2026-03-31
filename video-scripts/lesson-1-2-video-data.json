@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-1-2",
+  "videoTitle": "Registering with SunBiz \u00e2\u20ac\u201d Step by Step",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "City Landscape \u00e2\u20ac\u201d downtown Orlando, business formation, government",
+  "totalDuration": 246.64,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Walking Into City Hall",
+      "bullets": [],
+      "narration": "You have picked your building in the city \u00e2\u20ac\u201d storefront or tower. Now it is time to walk into City Hall and register it. In Florida, that means SunBiz, the state's official online portal for business registration. Think of SunBiz as the digital counter at City Hall. You walk in, file your papers, and walk out with your business on the city registry. And here is what makes Florida different: you do not need to be in the country to do it. Some founders have registered their entity from overseas and had it active before the end of the week.",
+      "template": "intro",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-1.wav",
+      "duration": 28.56
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Why Florida Keeps Winning",
+      "bullets": [
+        "No state personal income tax \u00e2\u20ac\u201d real money staying in your pocket",
+        "Simple online registration through SunBiz, often active in days",
+        "Strong global ties \u00e2\u20ac\u201d Spanish-speaking services, global banking, international law firms",
+        "Lower costs \u00e2\u20ac\u201d office space in Orlando runs well below Miami, New York, or San Francisco"
+      ],
+      "narration": "Before we walk through the filing process, let us talk about why so many international founders choose Florida as their entry point. First, no state personal income tax. That is real savings. Second, SunBiz lets you form an LLC or corporation entirely online, and entities are often active within a few business days. Third, the Orlando and Miami corridor offers Spanish-speaking services, global banking, and law firms used to working with foreign-owned businesses. And fourth, office space in Central Florida costs much less than Miami, New York, or San Francisco. Over seventy thousand students at UCF and a growing tech sector add to the momentum.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-2.wav",
+      "duration": 38.96
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "The SunBiz Filing Process",
+      "bullets": [
+        "Go to sunbiz.org and select Start a Business",
+        "Choose entity type, enter business name, provide member information",
+        "Designate a registered agent with a physical Florida street address",
+        "Pay the filing fee \u00e2\u20ac\u201d about one hundred twenty-five dollars for an LLC"
+      ],
+      "narration": "Here is the actual process at the City Hall counter. Go to sunbiz.org and select Start a Business. Choose your entity type \u00e2\u20ac\u201d LLC or Corporation. Enter your business name. SunBiz checks availability in real time. Provide member or manager information. Then designate your registered agent with a physical Florida street address \u00e2\u20ac\u201d not a P.O. box. Enter your principal and mailing addresses. Pay the filing fee, typically around one hundred twenty-five dollars for an LLC or seventy for a Corporation. Submit. With your information ready, the entire process usually takes about twenty to thirty minutes. Your entity is often active within a few business days.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-3.wav",
+      "duration": 34.16
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Your EIN \u00e2\u20ac\u201d The Address Number on Your Storefront",
+      "bullets": [
+        "EIN is free from the IRS \u00e2\u20ac\u201d never pay a third party for this",
+        "With SSN or ITIN: apply online at irs.gov in about fifteen minutes",
+        "Without SSN or ITIN: call the IRS international line for same-day processing",
+        "Keep your confirmation letter \u00e2\u20ac\u201d banks and clients will ask for it"
+      ],
+      "narration": "After registering on SunBiz, your next stop is the IRS for an Employer Identification Number. Think of the EIN as the address number on your storefront. Without it, nobody can find you in the tax system. You need it for bank accounts, tax filings, and hiring. The EIN is free. If you have an SSN or ITIN, apply online at irs.gov. It takes about fifteen minutes and the number is often issued immediately. Without one, your fastest option is calling the IRS international line. Same-day processing has been reported, though hold times vary. Calling early in the morning tends to help. Keep your confirmation letter. Banks and clients on W-9 forms will ask for it.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-4.wav",
+      "duration": 38.64
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "The Registered Agent \u00e2\u20ac\u201d Your Building's Doorman",
+      "bullets": [
+        "Florida requires a registered agent with a physical street address",
+        "SunBiz needs three addresses: principal, mailing, and registered agent",
+        "Agent services typically run one hundred to three hundred dollars per year",
+        "If your agent lapses, Florida can dissolve your entity"
+      ],
+      "narration": "Every building in the city needs a doorman \u00e2\u20ac\u201d someone present to receive official notices when you are not there. That is your registered agent. Florida requires every business entity to maintain a registered agent with a physical street address. Not a P.O. box, not a virtual mailbox. SunBiz asks for three addresses: principal, mailing, and registered agent. If you are not in Florida full-time, a registered agent service is the simplest solution. They typically run one hundred to three hundred dollars per year. Do not skip this step. If your registered agent lapses, Florida can dissolve your entity, which means your business legally stops existing until you fix it.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-5.wav",
+      "duration": 36.4
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Filing Mistakes That Cost You Time",
+      "bullets": [
+        "Always check name availability on SunBiz AND check the matching domain name",
+        "Include the correct entity suffix \u00e2\u20ac\u201d LLC, Inc., or Corp.",
+        "Make sure your registered agent has consented to serve",
+        "Use a street address, not a P.O. box, for principal and agent fields"
+      ],
+      "narration": "Here is where founders lose time at the City Hall counter. The most common filing mistakes are simple to avoid. First, always check name availability on SunBiz before you submit. And here is a detail most people miss \u00e2\u20ac\u201d check the matching website domain too. Once your entity name is filed, you cannot change it without forming a new entity. Second, include the correct suffix. LLCs must say LLC or L.L.C. Corporations need Inc., Corp., or Co. Third, your registered agent must consent to serve. If the information does not match, the filing stalls. And fourth, use a street address for the principal and registered agent fields. A P.O. box will be rejected.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-6.wav",
+      "duration": 37.04
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Your City Hall Visit Is Done",
+      "bullets": [],
+      "narration": "Your trip to City Hall is one of the simplest stops in the city. Florida registration through SunBiz is straightforward if you prepare before you file. Have your entity type decided, your business name checked, your registered agent arranged, and your EIN plan ready. The biggest overspend at this stage is paying someone hundreds or thousands of dollars for something you can do yourself in thirty minutes. Save your budget for the attorney conversations that actually matter \u00e2\u20ac\u201d operating agreements, corporate bylaws, and entity selection advice. Next stop: the banking district, where you will open your first U.S. bank account.",
+      "template": "intro",
+      "avatarScene": "lesson-1-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-2/lesson-1-2-scene-7.wav",
+      "duration": 32.88
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+/* ===== Founder's Road Trip — Dashboard (Premium) ===== */
+
+.rt-dashboard {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== WINDSHIELD — Real image with cinematic overlays ===== */
+.rt-windshield {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.rt-windshield-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+/* Dark tint overlay — ensures text readability over bright image areas */
+.rt-windshield-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    /* Top-heavy gradient for header legibility */
+    linear-gradient(180deg,
+      rgba(6, 10, 18, 0.75) 0%,
+      rgba(15, 25, 40, 0.45) 25%,
+      rgba(20, 35, 55, 0.25) 45%,
+      rgba(15, 25, 40, 0.35) 65%,
+      rgba(6, 10, 18, 0.7) 85%,
+      rgba(4, 8, 16, 0.85) 100%
+    ),
+    /* Golden hour warm glow on horizon */
+    radial-gradient(ellipse at 50% 45%, rgba(245, 166, 35, 0.08) 0%, transparent 50%);
+}
+
+/* Vignette for cinematic edge darkening */
+.rt-windshield-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 50%, transparent 40%, rgba(4, 8, 16, 0.6) 100%);
+}
+
+/* Scanline overlay for tech feel */
+.rt-dashboard::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.02) 2px,
+    rgba(0, 0, 0, 0.02) 4px
+  );
+}
+
+/* ===== DASHBOARD FRAME ===== */
+.rt-dash-frame {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== GPS HEADER — Frosted glass ===== */
+.rt-gps-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 32px;
+  background: rgba(6, 10, 16, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--rt-border);
+  animation: rt-fadeIn 0.8s ease;
+}
+
+.rt-gps-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--rt-accent);
+  font-family: var(--rt-font-heading);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(245, 166, 35, 0.3);
+}
+
+.rt-course-title {
+  font-family: var(--rt-font-heading);
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.5px;
+}
+
+.rt-gps-location {
+  font-size: 11px;
+  color: var(--rt-text-muted);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rt-gps-location::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--rt-success);
+  box-shadow: 0 0 6px rgba(var(--rt-success-rgb), 0.5);
+  display: inline-block;
+}
+
+/* ===== START HERE SCREEN ===== */
+.rt-start-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.rt-start-screen.rt-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.rt-windshield-overlay--start {
+  background:
+    linear-gradient(180deg,
+      rgba(6, 10, 18, 0.65) 0%,
+      rgba(15, 25, 40, 0.5) 30%,
+      rgba(10, 18, 32, 0.55) 60%,
+      rgba(6, 10, 18, 0.8) 100%
+    ),
+    radial-gradient(ellipse at 50% 45%, rgba(245, 166, 35, 0.06) 0%, transparent 50%);
+}
+
+.rt-start-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 520px;
+  padding: 0 24px;
+  animation: rt-fadeInUp 0.8s ease;
+}
+
+.rt-start-badge {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 24px;
+  background: linear-gradient(135deg, rgba(74, 103, 65, 0.6), rgba(74, 103, 65, 0.3));
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.rt-start-badge svg {
+  width: 36px;
+  height: 36px;
+}
+
+.rt-start-title {
+  font-family: var(--rt-font-heading);
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 8px;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+
+.rt-start-subtitle {
+  font-family: var(--rt-font-heading);
+  font-size: 13px;
+  color: var(--rt-accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 20px;
+  text-shadow: 0 0 12px rgba(var(--rt-accent-rgb), 0.3);
+}
+
+.rt-start-desc {
+  font-size: 15px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.7;
+  margin: 0 0 32px;
+}
+
+.rt-start-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.rt-start-begin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: linear-gradient(135deg, var(--rt-accent), var(--rt-accent-dark));
+  color: var(--rt-primary-dark);
+  border: none;
+  border-radius: var(--rt-radius);
+  font-family: var(--rt-font-heading);
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--rt-transition);
+  box-shadow: 0 4px 20px rgba(var(--rt-accent-rgb), 0.35);
+  animation: rt-glow-pulse 3s ease-in-out infinite;
+}
+
+.rt-start-begin-btn:hover {
+  background: linear-gradient(135deg, var(--rt-accent-light), var(--rt-accent));
+  box-shadow: var(--rt-glow-strong);
+  transform: translateY(-2px);
+}
+
+.rt-start-begin-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.rt-start-skip-btn {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.5);
+  padding: 10px 24px;
+  border-radius: var(--rt-radius);
+  font-family: var(--rt-font-heading);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: var(--rt-transition);
+}
+
+.rt-start-skip-btn:hover {
+  color: rgba(255,255,255,0.8);
+  border-color: rgba(255,255,255,0.35);
+}
+
+/* ===== MAIN LAYOUT ===== */
+.rt-gps-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 32px 24px;
+}
+
+/* ===== HEADER — compact ===== */
+.rt-gps-progress-mini {
+  display: flex;
+  align-items: baseline;
+}
+
+.rt-gps-progress-mini .rt-odometer-value {
+  font-size: 20px;
+}
+
+.rt-gps-progress-mini .rt-odometer-unit {
+  font-size: 12px;
+}
+
+/* ===== GPS SCREEN — Fixed over the car's infotainment display ===== */
+.rt-gps-screen {
+  position: fixed;
+  bottom: 84px;
+  left: 43%;
+  transform: translateX(-50%);
+  width: 420px;
+  max-width: 90vw;
+  z-index: 10;
+  animation: rt-fadeInUp 0.6s ease 0.2s both;
+}
+
+.rt-gps-screen-bezel {
+  background: rgba(8, 12, 22, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 20px 20px 16px;
+  box-shadow:
+    0 8px 40px rgba(0,0,0,0.5),
+    inset 0 1px 0 rgba(255,255,255,0.04),
+    0 0 0 1px rgba(0,0,0,0.3);
+  position: relative;
+  overflow: visible;
+}
+
+/* Subtle screen glow around bezel */
+.rt-gps-screen-bezel::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(var(--rt-accent-rgb), 0.08), transparent 40%, transparent 60%, rgba(var(--rt-accent-rgb), 0.05));
+  z-index: -1;
+  pointer-events: none;
+}
+
+.rt-gps-screen-title {
+  font-family: var(--rt-font-heading);
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 2px;
+  text-align: center;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+}
+
+.rt-gps-screen-sub {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+  margin: 0 0 16px;
+  font-weight: 500;
+}
+
+/* ===== GPS PINS — Inside the GPS screen ===== */
+.rt-gps-pins {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* ---- Pin container ---- */
+.rt-gps-pin {
+  position: relative;
+}
+
+/* ---- Pin dot — the compact clickable circle ---- */
+.rt-pin-dot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.rt-pin-dot:hover {
+  transform: translateY(-3px);
+}
+
+.rt-pin-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3), 0 0 0 1.5px rgba(255,255,255,0.06);
+  transition: box-shadow 0.25s ease;
+}
+
+.rt-gps-pin:hover .rt-pin-icon {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4), 0 0 14px rgba(var(--rt-accent-rgb), 0.3), 0 0 0 1.5px rgba(255,255,255,0.15);
+}
+
+.rt-pin-icon svg {
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+.rt-pin-num {
+  font-family: var(--rt-font-heading);
+  font-size: 8px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.5px;
+}
+
+.rt-pin-status {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid rgba(8, 12, 22, 0.85);
+}
+
+.rt-pin-status[data-status="not-visited"] {
+  background: rgba(255,255,255,0.2);
+}
+
+.rt-pin-status[data-status="in-progress"] {
+  background: var(--rt-accent);
+  box-shadow: 0 0 6px rgba(var(--rt-accent-rgb), 0.5);
+}
+
+.rt-pin-status[data-status="explored"] {
+  background: var(--rt-success);
+  box-shadow: 0 0 6px rgba(var(--rt-success-rgb), 0.5);
+}
+
+/* ---- Start Here pin ---- */
+.rt-pin-dot--start .rt-pin-icon {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+
+.rt-pin-dot--start .rt-pin-num {
+  color: var(--rt-success);
+}
+
+/* ---- AR Detail card — floats ABOVE the GPS screen on hover ---- */
+.rt-pin-detail {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(12px) scale(0.92);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 50;
+  filter: drop-shadow(0 12px 40px rgba(0,0,0,0.6));
+}
+
+.rt-gps-pin:hover .rt-pin-detail,
+.rt-gps-pin:focus-within .rt-pin-detail {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* Connector line from pin to card */
+.rt-pin-connector {
+  width: 1px;
+  height: 14px;
+  background: linear-gradient(180deg, rgba(var(--rt-accent-rgb), 0.5), rgba(var(--rt-accent-rgb), 0.1));
+  margin: 0 auto;
+  box-shadow: 0 0 4px rgba(var(--rt-accent-rgb), 0.2);
+}
+
+/* The floating card */
+.rt-pin-card {
+  width: 240px;
+  background: rgba(10, 14, 26, 0.94);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--rt-radius-lg);
+  overflow: hidden;
+  position: relative;
+}
+
+/* AR scan-line effect on card */
+.rt-pin-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255,255,255,0.01) 3px, rgba(255,255,255,0.01) 4px);
+  pointer-events: none;
+  border-radius: var(--rt-radius-lg);
+  z-index: 1;
+}
+
+/* AR glow border */
+.rt-pin-card::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: var(--rt-radius-lg);
+  background: linear-gradient(135deg, rgba(var(--rt-accent-rgb), 0.2), transparent 40%, transparent 60%, rgba(var(--rt-accent-rgb), 0.1));
+  z-index: -1;
+  pointer-events: none;
+}
+
+.rt-pin-card-hero {
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rt-pin-card-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.rt-pin-card-hero-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  mix-blend-mode: overlay;
+}
+
+.rt-pin-card-badge {
+  position: absolute;
+  bottom: 6px;
+  left: 8px;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: var(--rt-font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: rgba(255,255,255,0.7);
+  padding: 2px 8px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 4px;
+  backdrop-filter: blur(6px);
+}
+
+.rt-pin-card-body {
+  padding: 12px 14px 14px;
+}
+
+.rt-pin-card-title {
+  font-family: var(--rt-font-heading);
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.rt-pin-card-lessons {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rt-pin-lesson {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.3;
+}
+
+.rt-pin-lesson-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(var(--rt-accent-rgb), 0.5);
+  flex-shrink: 0;
+}
+
+.rt-pin-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.rt-pin-card-count {
+  font-size: 10px;
+  color: var(--rt-text-muted);
+  font-weight: 600;
+}
+
+.rt-pin-card-cta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--rt-font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--rt-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .rt-gps-header {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    padding: 12px 16px;
+  }
+
+  .rt-gps-main {
+    padding: 0 16px 16px;
+  }
+
+  .rt-gps-screen {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+  }
+
+  .rt-start-title {
+    font-size: 22px;
+  }
+
+  .rt-pin-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+  }
+
+  .rt-pin-icon svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .rt-pin-card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rt-start-content {
+    padding: 0 16px;
+  }
+
+  .rt-gps-screen-bezel {
+    padding: 14px 12px 12px;
+  }
+
+  .rt-gps-screen-title {
+    font-size: 18px;
+  }
+
+  .rt-gps-pins {
+    gap: 4px;
+  }
+
+  .rt-pin-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+  }
+
+  .rt-pin-icon svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .rt-pin-card {
+    width: 170px;
+  }
+
+  .rt-pin-card-hero {
+    height: 55px;
+  }
+}

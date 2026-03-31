@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-2-2",
+  "videoTitle": "Sales Tax, Accounting, and Keeping the Books",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "Financial District / Office Park \u00e2\u20ac\u201d banking, corporate infrastructure",
+  "totalDuration": 278.15999999999997,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "The Compliance Bureau \u00e2\u20ac\u201d Next Door in the Financial District",
+      "bullets": [],
+      "narration": "You have left the tax office and walked down the block to the next building in the Financial District: the compliance bureau. This is where sales tax and bookkeeping rules live. And here is the thing many founders learn the hard way: Florida's no income tax reputation does not mean no taxes. One founder owed thirty-eight hundred dollars in penalties because she did not register for a free certificate before collecting sales tax. The rules are simple once you know them. But the cost of not knowing is steep. Let me walk you through exactly what you need to do.",
+      "template": "intro",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-1.wav",
+      "duration": 29.84
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Florida Sales Tax \u00e2\u20ac\u201d The Basics",
+      "bullets": [
+        "Base state rate is 6%, plus county surtax of 0.5% to 1.5%",
+        "Orange County combined rate: 6.5% \u00e2\u20ac\u201d Osceola County: 7.5%",
+        "Register for a free Sales Tax Certificate before collecting any tax",
+        "Collect based on where the sale happens, not where your business is located"
+      ],
+      "narration": "If you sell tangible goods in Florida, you must collect sales tax. The base state rate is six percent, and most counties add a surtax of half a percent to one and a half percent. In Orange County, where Orlando is located, the combined rate is six and a half percent. In Osceola County, it is seven and a half percent. The rate depends on where the sale happens, not where your business is located. Before collecting any sales tax, register for a Sales Tax Certificate with the Florida Department of Revenue. It is free and takes about ten minutes online. The correct sequence is register first, then collect. Skipping registration is a compliance violation that can cost you thousands.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-2.wav",
+      "duration": 35.28
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "U.S. Sales Tax vs. VAT \u00e2\u20ac\u201d What You Need to Unlearn",
+      "bullets": [
+        "VAT: one national rate, applied at each stage, with input credits",
+        "U.S. Sales Tax: no federal sales tax \u00e2\u20ac\u201d each state sets its own rules and rates",
+        "No input credit system \u00e2\u20ac\u201d you collect from the customer and remit to the state",
+        "Selling in multiple states means registering and filing in each one separately"
+      ],
+      "narration": "If you are coming from almost any country outside the U.S., you know VAT. One national rate, applied at each stage of the supply chain, with input credits. U.S. sales tax works nothing like that. There is no federal sales tax. Each state sets its own rate, or charges none at all. Counties and cities can add their own surtax on top. There is no input credit system. You collect from the customer and remit directly to the state. And if you sell in multiple states, you register, collect, and file in each one separately. Think of it as filing paperwork with every office in the district individually. Services like Avalara or TaxJar can automate multi-state compliance, but the fundamental shift is this: VAT is one relationship with one government. U.S. sales tax can be dozens.",
+      "template": "split-right",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-3.wav",
+      "duration": 45.76
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "U.S. Bookkeeping \u00e2\u20ac\u201d Why It Matters More Here",
+      "bullets": [
+        "Banks, the IRS, investors, and landlords all want to see your records",
+        "The standard is GAAP: separate business and personal finances, reconcile monthly",
+        "Keep receipts for at least three years \u00e2\u20ac\u201d seven years for some records",
+        "Pick a bookkeeping tool before your first sale and connect it to your bank"
+      ],
+      "narration": "Step across the hall from the compliance bureau to the accounting wing. This is the office every other building in the Financial District will call. Banks want to see your records before lending. The IRS wants them to verify your returns. Investors want profit-and-loss statements. Even landlords may review your financials before signing a lease. The U.S. standard is GAAP \u00e2\u20ac\u201d Generally Accepted Accounting Principles. For small businesses that means separate business and personal finances, record all income and expenses, reconcile bank statements monthly, and keep receipts for at least three years. Pick a tool before your first sale. QuickBooks, Xero, or Wave. Connect it to your bank account and start from day one. A food truck founder from Peru kept receipts in a shoebox. One weekend spent matching paper receipts to bank transactions cured him of that habit permanently.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-4.wav",
+      "duration": 44.08
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "What Accounting Actually Costs",
+      "bullets": [
+        "Bookkeeping software: twenty to sixty dollars per month",
+        "CPA for tax prep with international clients: five hundred to twenty-five hundred per year",
+        "Payroll service if hiring: forty to one hundred dollars per month plus per-employee fees",
+        "Outsourced bookkeeping: two hundred to five hundred dollars per month"
+      ],
+      "narration": "Let me give you the real numbers so you can budget accurately. Bookkeeping software runs twenty to sixty dollars per month. QuickBooks Online is the most widely used. Xero is popular with international founders for its multi-currency support. Wave has a free tier for basic invoicing. A CPA who handles international clients typically costs five hundred to twenty-five hundred per year for tax preparation. If you have employees, payroll services run forty to one hundred dollars per month plus per-employee fees. And if you want someone else to handle the books entirely, outsourced bookkeeping costs two hundred to five hundred per month. The cost of professional accounting is far less than IRS penalties and state compliance violations.",
+      "template": "split-right",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-5.wav",
+      "duration": 42.72
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Before You Hire an Accountant",
+      "bullets": [
+        "Ask: do you have experience with non-resident aliens or foreign-owned LLCs?",
+        "Ask: are you familiar with tax treaty provisions for my home country?",
+        "Ask: can you handle FBAR filings for foreign bank accounts?",
+        "The SBDC in Orlando can refer you to CPAs who work with international founders \u00e2\u20ac\u201d free"
+      ],
+      "narration": "Not all CPAs are created equal, and not all of them work with foreign-owned businesses. Before you hire an accountant, ask these questions. Do you have experience filing returns for non-resident aliens or foreign-owned LLCs? Are you familiar with tax treaty provisions for my home country? Can you handle FBAR filings? Do you charge flat fees or hourly? Flat fee is almost always better for small businesses. The SBDC in Orlando can refer you to CPAs who work with international founders. That referral is free. Central Florida has more than twelve thousand accounting and financial services firms, so finding one who can navigate international filings is very achievable. Start with the free referral before you pay anyone.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-6.wav",
+      "duration": 40.72
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Your Compliance Stop Is Complete",
+      "bullets": [],
+      "narration": "Here is your takeaway from the compliance bureau. Sales tax is mandatory and easy to mess up. Register with the Florida Department of Revenue before collecting any tax. U.S. sales tax works nothing like VAT \u00e2\u20ac\u201d it is state-by-state with no input credits. Budget for a CPA who understands international clients. The cost of professional accounting is far less than penalties. Your compliance stop in the Financial District is straightforward if you know the rules before you walk in. Next stop: the last building in the district \u00e2\u20ac\u201d your bank. That is where credit history, wire transfers, and the full banking reality come together.",
+      "template": "intro",
+      "avatarScene": "lesson-2-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-2/lesson-2-2-scene-7.wav",
+      "duration": 39.76
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-2-1",
   "moduleId": "module-2",
+  "landscapeTheme": "Financial District",
   "title": "Federal and State Taxes — What You Actually Owe",
   "duration": 9,
   "objectives": [
@@ -12,9 +13,47 @@
     {
       "type": "text",
       "id": "text-2-1-1",
-      "title": "The Good News: Florida Has No State Income Tax",
-      "content": "<p>What would you do if the IRS sent you a $1,200 penalty before you even made a profit? That is exactly what happened to one founder who missed a rule most international entrepreneurs never hear about.</p>\n\n<p>If you have already explored U.S. banking, you will see how your tax setup directly affects account opening and financial operations. Here is one of the biggest reasons international founders choose Florida: there is no state personal income tax. That is real money staying in your pocket.</p>\n\n<p>But here is the thing. No state income tax does not mean no taxes. Federal taxes still apply to every U.S. business, and the IRS will want to hear from you regardless of where you incorporated or how much revenue you earned.</p>\n\n<p>A founder from Brazil set up an LLC in Orlando and assumed she only needed to file once a year. She missed quarterly estimated payments for two consecutive quarters — penalty: $1,200 before she even turned a profit.</p>\n\n<p><strong>Important:</strong> Tax obligations vary based on your entity type, revenue, and personal tax residency status. The information here is educational. Consult a qualified CPA or tax attorney for your specific situation.</p>",
+      "title": "Welcome to the Financial District",
+      "content": "<p>You have set up your entity and picked your business structure back in the city. Now the road leads into the Financial District, a corridor of accounting firms, tax offices, and bank branches where the real money questions get answered.</p>\n\n<p>What would you do if the IRS sent you a $1,200 penalty before you even made a profit? A founder from Brazil set up an LLC in Orlando and assumed she only needed to file once a year. She missed quarterly estimated payments for two consecutive quarters, and the penalty was $1,200 before she even turned a profit.</p>",
       "wordCount": 196
+    },
+    {
+      "type": "data-visualization",
+      "id": "dataviz-2-1",
+      "title": "What You'll Actually Owe — Tax Layer Breakdown",
+      "chartType": "stacked-horizontal-bar",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">What You'll Actually Owe — Tax Layer Breakdown</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Representative rates for a C-Corp vs LLC in Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp in Florida <span style=\"font-weight: 400; color: #666;\">— ~27% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5% (varies by county)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) in Florida <span style=\"font-weight: 400; color: #666;\">— ~27.8% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Self-Employ 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal Income 12%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #48B07A; font-weight: 600;\">Florida State Tax: 0% — No state income tax!</span><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Self-Employment</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>State / Federal Income</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Local Fees</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #48B07A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Florida advantage:</strong> No personal state income tax saves LLC owners 4–13% compared to states like NY or CA.</div></div>",
+      "data": {
+        "scenarios": [
+          {
+            "label": "C-Corp in Florida",
+            "layers": [
+              { "label": "Federal Corporate Tax", "value": 21, "color": "#1A3A5C" },
+              { "label": "Florida Corporate Tax", "value": 5.5, "color": "#2C5F8A" },
+              { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838", "note": "varies by county" }
+            ],
+            "total": "~27% effective"
+          },
+          {
+            "label": "LLC (Pass-Through) in Florida",
+            "layers": [
+              { "label": "Self-Employment Tax", "value": 15.3, "color": "#1A3A5C" },
+              { "label": "Federal Income Tax", "value": 12, "color": "#2C5F8A", "note": "varies by bracket" },
+              { "label": "Florida State Tax", "value": 0, "color": "#48B07A", "note": "No state income tax!" },
+              { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838" }
+            ],
+            "total": "~27.8% effective"
+          }
+        ],
+        "footer": "Florida advantage: No personal state income tax saves LLC owners 4-13% compared to states like NY or CA."
+      },
+      "accessibilityNote": "Stacked horizontal bar chart comparing tax layers for C-Corp versus LLC in Florida. C-Corp shows Federal Corporate Tax at 21%, Florida Corporate Tax at 5.5%, and Local Fees at 0.5% for approximately 27% effective rate. LLC shows Self-Employment Tax at 15.3%, Federal Income Tax at 12%, Florida State Tax at 0%, and Local Fees at 0.5% for approximately 27.8% effective rate. Key takeaway: Florida has no personal state income tax, saving LLC owners 4 to 13 percent compared to states like New York or California."
+    },
+    {
+      "type": "text",
+      "id": "text-2-1-no-state-tax",
+      "title": "Florida Has No Income Tax — But That Does Not Mean No Taxes",
+      "content": "<p>Here is one of the biggest reasons international founders choose Florida: there is no state personal income tax. That is real money staying in your pocket. Florida is one of only nine U.S. states with no personal income tax, and the Orlando metro area consistently ranks among the top regions in the Southeast for small business growth.</p>\n\n<p>But no state income tax does not mean no taxes. Federal taxes still apply to every U.S. business, and the IRS will want to hear from you regardless of where you incorporated or how much revenue you earned.</p>\n\n<p><strong>Important:</strong> Tax obligations vary based on your entity type, revenue, and personal tax residency status. The information here is educational. Consult a qualified CPA or tax attorney for your specific situation.</p>"
     },
     {
       "type": "table",
@@ -56,48 +95,83 @@
       "type": "text",
       "id": "text-2-1-2",
       "title": "ITIN, SSN, and Why Your Tax ID Matters",
-      "content": "<p>Before you can file anything with the IRS, you need a tax identification number. Which one depends on your immigration status.</p>\n\n<p>The bottom line? An <strong>SSN (Social Security Number)</strong> is issued to people authorized to work in the U.S. If you have a valid work visa (E-2, O-1, L-1, or H-1B), you can apply for an SSN. This is the preferred number because it connects to the broader credit and financial system.</p>\n\n<p>An <strong>ITIN (Individual Taxpayer Identification Number)</strong> is for non-residents who have U.S. tax obligations but don't qualify for an SSN. You apply with IRS Form W-7, and the process takes 7 to 11 weeks.</p>\n\n<p>The practical problem: some banks won't open accounts without an SSN, and if you apply for an ITIN by mail, you may need to send your original passport to the IRS. A Colombian founder was without his passport for nine weeks while the IRS processed his application.</p>\n\n<p><strong>The workaround:</strong> Apply in person at an IRS Taxpayer Assistance Center. They verify your passport on the spot and you keep it. The nearest center to Orlando is in Tampa — about two hours round trip, but you avoid mailing your passport.</p>",
+      "content": "<p>Think of your tax ID as the key to every building in the Financial District. Before you can file anything with the IRS, you need a tax identification number. Which one depends on your immigration status.</p>\n\n<p>The bottom line? An <strong>SSN (Social Security Number)</strong> is issued to people authorized to work in the U.S. If you have a valid work visa (E-2, O-1, L-1, or H-1B), you can apply for an SSN. This is the preferred number because it connects to the broader credit and financial system.</p>\n\n<p>An <strong>ITIN (Individual Taxpayer Identification Number)</strong> is for non-residents who have U.S. tax obligations but don't qualify for an SSN. You apply with IRS Form W-7, and the process takes 7 to 11 weeks.</p>\n\n<p>The practical problem: some banks won't open accounts without an SSN, and if you apply for an ITIN by mail, you may need to send your original passport to the IRS. A Colombian founder was without his passport for nine weeks while the IRS processed his application.</p>\n\n<p><strong>The workaround:</strong> Apply in person at an IRS Taxpayer Assistance Center. They verify your passport on the spot and you keep it. The nearest center to Orlando is in Tampa — about two hours round trip, but you avoid mailing your passport.</p>",
       "wordCount": 195
     },
     {
       "type": "text",
       "id": "text-2-1-3",
       "title": "How Entity Type Affects Your Tax Treatment",
-      "content": "<p>Your entity type determines how the IRS treats your income, what forms you file, and how much you owe — one of the main reasons picking the right entity matters (covered in Module 1).</p>\n\n<p>Let's put this in perspective. <strong>LLC (taxed as sole proprietorship or partnership):</strong> Income \"passes through\" to your personal tax return. You pay federal income tax at your personal rate, plus self-employment tax of 15.3% on net earnings. You file Schedule C (single-member) or Form 1065 (multi-member) with your personal Form 1040-NR.</p>\n\n<p><strong>C-Corporation:</strong> Files its own return (Form 1120) and pays corporate income tax at a flat 21% rate. If you pay yourself a salary or dividends, you also pay personal income tax on that income — \"double taxation.\" The upside: C-Corps are the preferred structure for raising investment capital.</p>\n\n<p><strong>S-Corporation:</strong> Similar pass-through treatment as an LLC, but with potential self-employment tax savings. The catch: non-resident aliens cannot be S-Corp shareholders. No permanent residency or citizenship means S-Corp is off the table.</p>\n\n<p>A German tech founder chose a C-Corp to raise venture capital. A Mexican food service founder chose an LLC for simple pass-through taxation. The wrong choice would have cost each of them thousands in unnecessary taxes or restructuring fees.</p>",
+      "content": "<p>Now that you know the lay of the Financial District, step inside the tax office. Your entity type decides how the IRS treats your income, what forms you file, and how much you owe. That's one of the main reasons picking the right entity matters (covered in Module 1).</p>\n\n<p>Let's put this in perspective. <strong>LLC (taxed as sole proprietorship or partnership):</strong> Income \"passes through\" to your personal tax return. You pay federal income tax at your personal rate, plus self-employment tax of 15.3% on net earnings. You file Schedule C (single-member) or Form 1065 (multi-member) with your personal Form 1040-NR.</p>\n\n<p><strong>C-Corporation:</strong> Files its own return (Form 1120) and pays corporate income tax at a flat 21% rate. If you pay yourself a salary or dividends, you also pay personal income tax on that income — \"double taxation.\" The upside: C-Corps are the preferred structure for raising investment capital.</p>\n\n<p><strong>S-Corporation:</strong> Similar pass-through treatment as an LLC, but with potential self-employment tax savings. The catch: non-resident aliens cannot be S-Corp shareholders. No green card or citizenship means S-Corp is off the table.</p>\n\n<p>A German tech founder chose a C-Corp to raise venture capital. A Mexican food service founder chose an LLC for simple pass-through taxation. The wrong choice would have cost each of them thousands in unnecessary taxes or restructuring fees.</p>",
       "wordCount": 204
     },
     {
-      "type": "callout",
-      "id": "callout-2-1-1",
-      "variant": "common-mistake",
-      "title": "The Tax Surprise That Catches Many Founders",
-      "content": "<p><strong>Estimated quarterly tax payments.</strong> The U.S. tax system requires you to pay taxes throughout the year, not just at the end. If you expect to owe $1,000 or more in federal tax, you must make quarterly estimated payments (April 15, June 15, September 15, January 15). Miss them and you'll owe penalties and interest — even if you pay everything when you file your annual return. Many international founders don't learn about quarterly payments until they receive a penalty notice.</p>"
+      "type": "tabs",
+      "id": "int-2-1-1",
+      "title": "Tax Breakdown by Jurisdiction — A Closer Look",
+      "tabs": [
+        {
+          "label": "Federal (IRS)",
+          "content": "**What you owe:** Corporate income tax (C-Corp: 21% flat rate) or pass-through income tax (LLC/S-Corp: reported on personal return).\n\n**Key forms:** Form 1120 (C-Corp), Form 1065 (Partnership), Schedule C (Sole Proprietor).\n\n**Estimated payments:** Quarterly (April 15, June 15, September 15, January 15).\n\n**International twist:** ITIN required if you don't qualify for SSN. Treaty benefits may reduce withholding."
+        },
+        {
+          "label": "State (Florida)",
+          "content": "**Good news:** Florida has NO personal state income tax.\n\n**Corporate tax:** 5.5% on taxable income over $50,000 (C-Corps only).\n\n**Sales tax:** 6% state rate + county surcharge (up to 1.5% in Orange County).\n\n**Annual report:** $138.75 (LLC/LP) or $150 (Corp) — due by May 1 each year through SunBiz."
+        },
+        {
+          "label": "Local",
+          "content": "**Business Tax Receipt (BTR):** Required by Orange County and City of Orlando — typically $25–$100/year.\n\n**Tourist Development Tax:** 6% on short-term rentals (if applicable).\n\n**Impact fees:** Only for construction/development businesses.\n\n**Bottom line:** Local obligations are minimal for most service and technology businesses."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "scenario-2-1-taxes",
+      "title": "You Missed a Quarterly Payment — Now What?",
+      "description": "It is July. You set up your LLC in January and have been earning revenue since March. You just realized you have not made any estimated tax payments to the IRS. What should you do?",
+      "paths": [
+        {
+          "label": "Wait until the annual tax filing deadline to pay everything at once",
+          "outcome": "Dangerous. The IRS charges penalties for each quarter you miss. Waiting until April means penalties accumulate for Q1, Q2, Q3, and Q4. The longer you wait, the more you owe in interest and penalties — exactly what happened to the Brazilian founder who got a $1,200 surprise.",
+          "isRecommended": false
+        },
+        {
+          "label": "Make an estimated payment now and catch up on missed quarters",
+          "outcome": "Best move. Pay what you owe for Q1 and Q2 immediately, then set up quarterly payments going forward. The IRS may still charge a small penalty for the late quarters, but it will be much less than waiting. Use Form 1040-ES or pay directly at irs.gov/payments.",
+          "isRecommended": true
+        },
+        {
+          "label": "Call your CPA and ask them to handle it",
+          "outcome": "Good instinct, but do not wait for the appointment. Make the payment now through irs.gov, then consult your CPA about the correct quarterly amounts going forward. Every day of delay adds to the penalty calculation.",
+          "isRecommended": false
+        }
+      ]
     },
     {
       "type": "callout",
       "id": "callout-2-1-2",
-      "variant": "theme-watch-money",
-      "title": "Tax Treaties — Check Before You Assume",
-      "content": "<p>Your home country may have a tax treaty with the U.S. that reduces your tax rate, eliminates double taxation, or changes withholding requirements. For example, many European and Latin American countries have treaties that affect how dividend income or business profits are taxed. Don't assume your home-country obligations go away when you form a U.S. entity — and don't assume you'll be double-taxed without checking. A CPA who handles international clients can review your treaty position in a single consultation. This one conversation can save you thousands.</p>"
+      "variant": "watch-money-costs",
+      "title": "Tax Treaties, Check Before You Assume",
+      "content": "<p>Think about this: your home country may have a tax treaty with the U.S. that lowers your tax rate, removes double taxation, or changes withholding rules. For example, many European and Latin American countries have treaties that affect how dividend income or business profits are taxed. Don't assume your home-country duties go away when you form a U.S. entity, and don't assume you'll be taxed twice without checking. A CPA who handles global clients can review your treaty status in a single meeting. This one talk can save you thousands.</p>"
     },
     {
       "type": "callout",
       "id": "callout-2-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Common Mistakes International Founders Make",
-      "content": "<ul><li><strong>Ignoring sales tax obligation.</strong> Many international founders assume their product or service is not subject to sales tax, or they don't realize they need to register before collecting it. Florida's sales tax applies to most tangible goods and some services. (More on this in the next lesson.)</li><li><strong>Waiting too long to hire an accountant who understands international clients.</strong> A general CPA may not know about ITIN filing, tax treaty provisions, or FBAR requirements for foreign bank accounts. By the time founders realize they need a specialist, they've already made filing mistakes that cost money to fix.</li><li><strong>Missing quarterly estimated payments.</strong> The penalty for underpaying estimated taxes adds up fast. Set calendar reminders for April 15, June 15, September 15, and January 15.</li></ul>"
+      "content": "<p>Notice these patterns:</p><ul><li><strong>Ignoring sales tax obligation.</strong> Many international founders assume their product or service is not subject to sales tax, or they don't realize they need to register before collecting it. Florida's sales tax applies to most tangible goods and some services. (More on this in the next lesson.)</li><li><strong>Waiting too long to hire an accountant who knows global clients.</strong> A general CPA may not know about ITIN filing, tax treaty rules, or FBAR needs for foreign bank accounts. By the time founders realize they need a specialist, they've already made filing mistakes that cost money to fix.</li><li><strong>Missing quarterly estimated payments.</strong> If you expect to owe $1,000 or more in federal tax, you must make quarterly estimated payments — due April 15, June 15, September 15, and January 15. Miss them and you will owe penalties and interest even if you pay everything when you file your annual return. Set calendar reminders for all four dates.</li></ul>"
     },
     {
       "type": "callout",
       "id": "callout-2-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>Tax and accounting costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>CPA for annual tax prep (international clients):</strong> $500–$2,500/year depending on complexity</li><li><strong>Quarterly estimated tax payments:</strong> Varies by income — plan for 25–30% of net profit set aside each quarter</li><li><strong>ITIN application:</strong> Free (IRS Form W-7), but many founders pay $200–$400 for a Certified Acceptance Agent to help</li><li><strong>Bookkeeping software:</strong> $20–$60/month (QuickBooks, Xero, Wave)</li><li><strong>Penalty for missed quarterly payment:</strong> ~4–8% annualized interest on the underpayment</li><li><strong>FBAR filing (if you have foreign accounts over $10,000):</strong> Typically included in CPA fee, but penalties for not filing can exceed $10,000 per account</li></ul>"
+      "content": "<p>In other words, plan ahead. Tax and accounting costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>CPA for annual tax prep (international clients):</strong> $500–$2,500/year depending on complexity</li><li><strong>Quarterly estimated tax payments:</strong> Varies by income — plan for 25–30% of net profit set aside each quarter</li><li><strong>ITIN application:</strong> Free (IRS Form W-7), but many founders pay $200–$400 for a Certified Acceptance Agent to help</li><li><strong>Bookkeeping software:</strong> $20–$60/month (QuickBooks, Xero, Wave)</li><li><strong>Penalty for missed quarterly payment:</strong> ~4–8% annualized interest on the underpayment</li><li><strong>FBAR filing (if you have foreign accounts over $10,000):</strong> Typically included in CPA fee, but penalties for not filing can exceed $10,000 per account</li></ul>"
     },
     {
       "type": "knowledge-check",
-      "id": "kc-2-1-1",
-      "title": "Check Your Understanding: U.S. Tax Basics",
+      "id": "kc-2-1",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
@@ -114,32 +188,24 @@
         {
           "stem": "What is the main reason an international founder without a work visa would need an ITIN?",
           "options": [
-            "To open a social media business account",
-            "To file U.S. tax returns when they don't qualify for an SSN",
+            "To register with the Florida Department of Revenue for income tax withholding",
             "To register their business on SunBiz",
+            "To file U.S. tax returns when they don't qualify for an SSN",
             "To apply for a Florida driver's license"
           ],
-          "correctAnswer": 1,
-          "explanation": "An ITIN (Individual Taxpayer Identification Number) allows non-residents to meet their U.S. tax obligations when they don't qualify for a Social Security Number. It's specifically a tax filing tool issued by the IRS."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-2-1-2",
-      "title": "Tax Treatment and Quarterly Payments Check",
-      "placement": "end-of-lesson",
-      "questions": [
+          "correctAnswer": 2,
+          "explanation": "An ITIN (Individual Taxpayer Identification Number) allows non-residents to meet their U.S. tax obligations when they don't qualify for a Social Security Number. It is specifically a tax filing tool issued by the IRS. Registering with the Florida Department of Revenue is a separate sales tax step that does not require an ITIN. SunBiz registration uses an EIN, not an ITIN. A Florida driver's license is unrelated to tax filing obligations."
+        },
         {
           "stem": "A founder from Brazil operates a single-member LLC in Florida and expects to owe $8,000 in federal taxes this year. She plans to pay everything when she files her annual return in April. What problem will she face?",
           "options": [
-            "No problem — annual payment is the standard method for LLCs",
             "She will owe penalties and interest for missing quarterly estimated payments throughout the year",
+            "No problem — annual payment is the standard method for LLCs",
             "Florida will charge her state income tax as a penalty for late payment",
             "The IRS will automatically convert her LLC to a C-Corp for non-compliance"
           ],
-          "correctAnswer": 1,
-          "explanation": "The U.S. tax system requires quarterly estimated payments (April 15, June 15, September 15, January 15) if you expect to owe $1,000 or more. Missing these deadlines triggers penalties and interest even if you pay the full amount with your annual return. The lesson describes a founder who owed $1,200 in penalties for this exact mistake."
+          "correctAnswer": 0,
+          "explanation": "The U.S. tax system requires quarterly estimated payments (April 15, June 15, September 15, January 15) if you expect to owe $1,000 or more. Missing these deadlines triggers penalties and interest even if you pay the full amount with your annual return. Annual payment is not the standard method when you owe over $1,000. Florida has no state income tax, so it cannot charge one as a penalty. The IRS does not convert entity types for non-compliance. The lesson describes a founder who owed $1,200 in penalties for this exact mistake."
         }
       ]
     },
@@ -155,7 +221,7 @@
       "type": "key-takeaway",
       "id": "kt-2-1-1",
       "title": "Key Takeaway",
-      "content": "<p>Florida's lack of state income tax is a real advantage, but federal obligations, quarterly estimated payments, and self-employment tax still apply to founders at every level. Budget for a CPA who works with international clients in your first year. The cost of professional help ($500–$2,500) is a fraction of the cost of penalties for filing mistakes.</p>"
+      "content": "<p>The takeaway is clear. Florida's lack of state income tax is a real advantage, but federal obligations, quarterly estimated payments, and self-employment tax still apply to founders at every level. Budget for a CPA who works with international clients in your first year. The cost of professional help ($500–$2,500) is a fraction of the cost of penalties for filing mistakes. The Financial District has its own rules — learn them before you walk in, and they work in your favor.</p>"
     }
   ]
 }

@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-2-1",
+  "videoTitle": "Federal and State Taxes \u00e2\u20ac\u201d What You Actually Owe",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Financial District / Office Park \u00e2\u20ac\u201d banking, corporate infrastructure",
+  "totalDuration": 252.88,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome to the Financial District",
+      "bullets": [],
+      "narration": "You have set up your entity and picked your business structure back in the city. Now the road leads into the Financial District \u00e2\u20ac\u201d a corridor of accounting firms, tax offices, and bank branches where the real money questions get answered. Your first stop: understanding what you owe. Here is a story that should get your attention. A founder from Brazil set up an LLC in Orlando and assumed she only needed to file once a year. She missed quarterly estimated payments for two consecutive quarters. The penalty was twelve hundred dollars before she even turned a profit. Let us make sure that does not happen to you.",
+      "template": "intro",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-1.wav",
+      "duration": 31.68
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "No State Income Tax \u00e2\u20ac\u201d But Federal Still Applies",
+      "bullets": [
+        "Florida has no state personal income tax \u00e2\u20ac\u201d one of only nine U.S. states",
+        "Federal income tax applies to every U.S. business regardless of state",
+        "Florida C-Corps pay 5.5% state corporate income tax on income over fifty thousand",
+        "Local county and city taxes include business licenses and tangible property tax"
+      ],
+      "narration": "Here is one of the biggest reasons international founders choose Florida: no state personal income tax. That is real money staying in your pocket. But no state income tax does not mean no taxes. Federal taxes still apply to every U.S. business. The IRS will want to hear from you regardless of where you incorporated or how much revenue you earned. Florida does charge C-Corporations a five and a half percent corporate income tax on income over fifty thousand dollars. LLCs and pass-through entities avoid that. And at the local level, Orange County requires a business tax receipt. Tangible personal property tax applies to equipment and furniture. The numbers add up.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-2.wav",
+      "duration": 36.32
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "ITIN vs. SSN \u00e2\u20ac\u201d Your Key to the Financial District",
+      "bullets": [
+        "SSN is for people authorized to work in the U.S. \u00e2\u20ac\u201d connects to the credit system",
+        "ITIN is for non-residents with U.S. tax obligations but no SSN eligibility",
+        "ITIN by mail can take seven to eleven weeks and may require sending your passport",
+        "Apply in person at an IRS Taxpayer Assistance Center to keep your passport"
+      ],
+      "narration": "Think of your tax ID as the key to every building in the Financial District. An SSN is issued to people authorized to work in the U.S. If you have a valid work visa, you can apply for an SSN. This is the preferred number because it connects to the credit and financial system. An ITIN is for non-residents who have U.S. tax obligations but do not qualify for an SSN. You apply with IRS Form W-7 and the process takes seven to eleven weeks. Here is the problem: if you apply by mail, you may need to send your original passport to the IRS. One founder was without his passport for nine weeks. The workaround? Apply in person at an IRS Taxpayer Assistance Center. They verify your passport on the spot and you keep it.",
+      "template": "split-right",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-3.wav",
+      "duration": 38.72
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "How Entity Type Affects Your Taxes",
+      "bullets": [
+        "LLC: income passes through to your personal return, plus 15.3% self-employment tax",
+        "C-Corp: files its own return at a flat 21% federal rate \u00e2\u20ac\u201d double taxation on dividends",
+        "S-Corp: pass-through tax savings, but non-resident aliens cannot be shareholders",
+        "The wrong entity choice can cost thousands in unnecessary taxes or restructuring"
+      ],
+      "narration": "Your entity type decides how the IRS treats your income, what forms you file, and how much you owe. An LLC taxed as a sole proprietorship or partnership passes income through to your personal tax return. You pay federal income tax at your personal rate, plus self-employment tax of fifteen point three percent on net earnings. A C-Corporation files its own return and pays corporate income tax at a flat twenty-one percent. If it pays dividends, shareholders get taxed again \u00e2\u20ac\u201d double taxation. The upside: C-Corps are the preferred structure for raising investment capital. An S-Corporation offers pass-through treatment with potential self-employment tax savings. But non-resident aliens cannot be S-Corp shareholders, so it is off the table for most international founders.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-4.wav",
+      "duration": 42.24
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Quarterly Payments \u00e2\u20ac\u201d The Rule Most Founders Miss",
+      "bullets": [
+        "If you expect to owe one thousand dollars or more, you must pay quarterly",
+        "Due dates: April 15, June 15, September 15, January 15",
+        "Missing payments triggers penalties and interest even if you pay in full at year-end",
+        "Set calendar reminders for all four dates right now"
+      ],
+      "narration": "This is the rule that catches the most international founders off guard. If you expect to owe one thousand dollars or more in federal tax for the year, you must make quarterly estimated payments. Due dates are April fifteenth, June fifteenth, September fifteenth, and January fifteenth. Miss them and you will owe penalties and interest, even if you pay everything when you file your annual return. Remember the Brazilian founder from the beginning of this lesson? She owed twelve hundred dollars in penalties for exactly this mistake. Set calendar reminders for all four dates right now. Do not wait until tax season to discover you were supposed to be paying throughout the year.",
+      "template": "split-right",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-5.wav",
+      "duration": 31.92
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "What This Actually Costs",
+      "bullets": [
+        "CPA for annual tax prep with international clients: five hundred to twenty-five hundred per year",
+        "Bookkeeping software: twenty to sixty dollars per month",
+        "FBAR penalties for not filing can exceed ten thousand dollars per account",
+        "Tax treaties with your home country may lower your U.S. tax rate"
+      ],
+      "narration": "Let us talk about what the Financial District actually charges. Budget for a CPA who works with international clients. That typically runs five hundred to twenty-five hundred dollars per year depending on complexity. Bookkeeping software like QuickBooks or Xero costs twenty to sixty dollars per month. And here is one that surprises many founders. If you have foreign bank accounts totaling more than ten thousand dollars, you must file an FBAR, a Foreign Bank Account Report. Penalties for not filing can exceed ten thousand dollars per account. On the positive side, your home country may have a tax treaty with the United States that lowers your tax rate or prevents double taxation. A CPA who handles global clients can review your treaty status in a single meeting. That one conversation can save you thousands.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-6.wav",
+      "duration": 41.04
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Know the Rules Before You Walk In",
+      "bullets": [],
+      "narration": "Here is the takeaway from your first stop in the Financial District. Florida's lack of state income tax is a real advantage, but federal obligations, quarterly estimated payments, and self-employment tax still apply at every level. Budget for a CPA who works with international clients in your first year. The cost of professional help is a fraction of the cost of penalties for filing mistakes. The Financial District has its own rules. Learn them before you walk in, and they will work in your favor. Next stop: sales tax and bookkeeping \u00e2\u20ac\u201d the compliance office right down the hall.",
+      "template": "intro",
+      "avatarScene": "lesson-2-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-1/lesson-2-1-scene-7.wav",
+      "duration": 30.96
+    }
+  ]
+}

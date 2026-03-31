@@ -1,0 +1,114 @@
+{
+  "completed": {
+    "lesson-0-1": {
+      "timestamp": "2026-03-29T22:58:47.536Z",
+      "duration": 199.28,
+      "sizeMB": 20.4,
+      "segments": 14
+    },
+    "lesson-7-1": {
+      "timestamp": "2026-03-29T23:40:12.261Z",
+      "duration": 284.8,
+      "sizeMB": 32.3,
+      "segments": 20
+    },
+    "lesson-1-1": {
+      "timestamp": "2026-03-30T02:04:40.117Z",
+      "duration": 271.52,
+      "sizeMB": 21.6,
+      "segments": 19
+    },
+    "lesson-1-2": {
+      "timestamp": "2026-03-30T03:57:44.243Z",
+      "duration": 246.64,
+      "sizeMB": 26.3,
+      "segments": 17
+    },
+    "lesson-1-3": {
+      "timestamp": "2026-03-30T05:52:24.475Z",
+      "duration": 260.44,
+      "sizeMB": 31.4,
+      "segments": 18
+    },
+    "lesson-2-1": {
+      "timestamp": "2026-03-30T07:45:07.954Z",
+      "duration": 252.96,
+      "sizeMB": 22.3,
+      "segments": 18
+    },
+    "lesson-2-2": {
+      "timestamp": "2026-03-30T09:48:15.431Z",
+      "duration": 278.24,
+      "sizeMB": 21.2,
+      "segments": 20
+    },
+    "lesson-2-3": {
+      "timestamp": "2026-03-30T11:46:49.002Z",
+      "duration": 264.8,
+      "sizeMB": 24.4,
+      "segments": 19
+    },
+    "lesson-3-1": {
+      "timestamp": "2026-03-30T14:46:40.272Z",
+      "duration": 297.601,
+      "sizeMB": 20.7,
+      "segments": 17
+    }
+  },
+  "errors": {
+    "lesson-3-2": {
+      "timestamp": "2026-03-30T15:03:23.042Z",
+      "error": "No segments"
+    },
+    "lesson-3-3": {
+      "timestamp": "2026-03-30T15:04:50.065Z",
+      "error": "No segments"
+    },
+    "lesson-4-1": {
+      "timestamp": "2026-03-30T15:06:27.144Z",
+      "error": "No segments"
+    },
+    "lesson-4-2": {
+      "timestamp": "2026-03-30T15:08:03.818Z",
+      "error": "No segments"
+    },
+    "lesson-4-3": {
+      "timestamp": "2026-03-30T15:09:25.313Z",
+      "error": "No segments"
+    },
+    "lesson-5-1": {
+      "timestamp": "2026-03-30T15:11:02.196Z",
+      "error": "No segments"
+    },
+    "lesson-5-2": {
+      "timestamp": "2026-03-30T15:12:38.960Z",
+      "error": "No segments"
+    },
+    "lesson-6-1": {
+      "timestamp": "2026-03-30T15:14:20.732Z",
+      "error": "No segments"
+    },
+    "lesson-6-2": {
+      "timestamp": "2026-03-30T15:15:52.424Z",
+      "error": "No segments"
+    },
+    "lesson-6-3": {
+      "timestamp": "2026-03-30T15:17:13.891Z",
+      "error": "No segments"
+    },
+    "lesson-7-2": {
+      "timestamp": "2026-03-30T15:19:00.793Z",
+      "error": "No segments"
+    },
+    "lesson-7-3": {
+      "timestamp": "2026-03-30T15:20:12.025Z",
+      "error": "No segments"
+    },
+    "lesson-7-4": {
+      "timestamp": "2026-03-30T15:21:07.995Z",
+      "error": "Command failed: ffmpeg -y -i \"D:\\ComfyUI_windows_portable\\ComfyUI\\input\\ucf-lesson-7-4-full.wav\" -ss 159.5 -t 16 -ar 16000 -ac 1 -c:a pcm_s16le \"D:\\ComfyUI_windows_portable\\ComfyUI\\input\\ucf-lesson-7-4-seg11.wav\""
+    }
+  },
+  "startedAt": "2026-03-29T21:16:51.953Z",
+  "completedAt": "2026-03-29T23:51:01.827Z"
+}

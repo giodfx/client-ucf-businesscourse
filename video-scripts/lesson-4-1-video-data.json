@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-4-1",
+  "videoTitle": "Your First U.S. Hire \u00e2\u20ac\u201d Contractor vs. Employee",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Theme Park \u00e2\u20ac\u201d teamwork, talent, massive operations engine",
+  "totalDuration": 279.200063,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome to the Theme Park \u00e2\u20ac\u201d Where Every Role Matters",
+      "bullets": [],
+      "narration": "Drive south on International Drive and you will pass one of the largest entertainment districts in the world. Behind every attraction is a massive workforce: operators, engineers, performers, managers, safety teams. Every person is in a defined role with specific rules governing how they work. Building your own team works the same way. Classify people wrong, and the whole operation shuts down. A Brazilian SaaS founder hired a developer in Orlando, called her an independent contractor, and paid her through Venmo for six months. When the developer filed for unemployment, Florida flagged it. The founder owed fourteen thousand dollars in back taxes, penalties, and interest.",
+      "template": "intro",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-1.wav",
+      "duration": 37.12
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Contractor vs. Employee \u00e2\u20ac\u201d The Line That Matters",
+      "bullets": [
+        "Contractor: sets own schedule, uses own tools, serves multiple clients",
+        "Employee: works under your direction, you set hours, you provide equipment",
+        "The label on the contract does not override how the person actually works",
+        "Misclassification penalty: all back taxes from day one, plus interest and fines"
+      ],
+      "narration": "The U.S. draws a hard legal line between contractors and employees based on how the person actually works, not what the contract says. An independent contractor sets their own schedule, uses their own tools, and serves multiple clients. An employee works under your direction. You set the hours, provide the equipment, and they work primarily for you. Call someone a contractor but treat them like an employee, and you owe all the back taxes from day one, plus interest and penalties. The Brazilian founder's developer worked nine to five, used the company laptop, and attended daily standups. That is an employee by every measure, regardless of what the paperwork said.",
+      "template": "split-left",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-2.wav",
+      "duration": 38.4
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "The IRS Three-Part Test",
+      "bullets": [
+        "Behavioral Control: do you control how the work gets done?",
+        "Financial Control: do you provide tools, reimburse expenses, control business aspects?",
+        "Relationship Type: ongoing relationship, benefits, core business function?",
+        "If you control when, where, and how someone works, they are an employee"
+      ],
+      "narration": "The IRS uses a three-part test to decide worker status. First, Behavioral Control. Do you control how the work gets done? Detailed instructions and required hours point toward employee. If the worker decides how to accomplish the result, that points toward contractor. Second, Financial Control. Do you provide tools and reimburse expenses? Employees have expenses reimbursed and use company equipment. Contractors invest in their own. Third, Relationship Type. Employee-type benefits, an ongoing relationship with no end date, and work that is core to your business all suggest employment. Here is the practical shortcut: if you control when, where, and how someone works, they are almost certainly an employee regardless of what the contract says.",
+      "template": "split-right",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-3.wav",
+      "duration": 42.72
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "When Contractors Make Sense",
+      "bullets": [
+        "Project-based tasks: a website, a marketing campaign, a financial model",
+        "Platforms like Upwork, Toptal, and Fiverr make finding U.S. contractors easy",
+        "Get a written Independent Contractor Agreement from day one",
+        "Collect a W-9 form before any payments for year-end 1099 filing"
+      ],
+      "narration": "Contractors work well for project-based tasks with clear deliverables. Think of it like the entertainment district: the engineers who designed the roller coaster are contractors. The operators who run it every day are employees. A website build, a marketing campaign, a financial model \u00e2\u20ac\u201d these are contractor territory. Platforms like Upwork, Toptal, and Fiverr make finding U.S.-based contractors straightforward. But get the paperwork right from day one. You need a written Independent Contractor Agreement defining scope, payment, IP ownership, and confidentiality. And collect a completed W-9 form before any payments. You will need it for year-end 1099 filing with the IRS.",
+      "template": "split-left",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-4.wav",
+      "duration": 41.280063
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "The UCF Talent Pipeline",
+      "bullets": [
+        "UCF produces over seventeen thousand graduates per year across 230+ programs",
+        "Entry-level software developers: fifty-five to seventy thousand \u00e2\u20ac\u201d 30-45% below coastal cities",
+        "Internship programs let you trial students before committing to a full hire",
+        "UCF career services and BIP connect you with graduates and alumni"
+      ],
+      "narration": "One of the biggest advantages of building in Central Florida is the UCF talent pipeline. The same region that staffs one of the world's largest entertainment workforces also produces over seventeen thousand graduates per year. UCF enrolls over seventy thousand students across more than two hundred thirty degree programs. Entry-level software developers in Central Florida start at fifty-five to seventy thousand dollars \u00e2\u20ac\u201d thirty to forty-five percent below New York and San Francisco. Marketing coordinators average thirty-eight to forty-eight thousand versus fifty-five to sixty-five thousand in South Florida. Internship programs let you trial students before committing to a full hire. A Vietnamese founder used UCF's internship program to bring on two computer science students part-time, assessed fit over three months, then extended full-time offers.",
+      "template": "split-right",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-5.wav",
+      "duration": 46.08
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "What Hiring Actually Costs",
+      "bullets": [
+        "Entry-level employee: forty to seventy thousand base plus 15-30% overhead",
+        "True annual cost: forty-six to ninety-one thousand including taxes, insurance, benefits",
+        "Contractor: fifty to one hundred fifty dollars per hour, no overhead",
+        "Payroll service: forty to one hundred dollars per month \u00e2\u20ac\u201d worth every penny"
+      ],
+      "narration": "Let me give you the real numbers. An entry-level full-time employee in Central Florida runs forty to seventy thousand dollars base salary, plus fifteen to thirty percent overhead for taxes, insurance, and benefits. That means your true annual cost is forty-six to ninety-one thousand dollars. A contractor costs fifty to one hundred fifty dollars per hour depending on specialty, but with no overhead. A payroll service runs forty to one hundred dollars per month and handles all the tax calculations for you. Here is the rule of thumb: the true cost of an employee is their salary multiplied by one point one five to one point three zero. Budget for the higher end until you know your exact obligations.",
+      "template": "split-left",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-6.wav",
+      "duration": 37.84
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Classify Correctly From Day One",
+      "bullets": [],
+      "narration": "Here is the takeaway from the theme park. Apply the IRS classification test from day one. The cost of misclassification far exceeds the cost of doing it correctly. Use contractors for defined projects with clear deliverables. Hire employees when you need ongoing, directed work. Evaluate candidates through UCF's talent pipeline and Central Florida's cost advantage to stretch your hiring budget. When in doubt, consult an employment attorney before bringing anyone on board. The theme park runs because every role is classified correctly. Your business works the same way. Next stop: backstage passes \u00e2\u20ac\u201d the visa pathways that determine whether you can legally work in the U.S.",
+      "template": "intro",
+      "avatarScene": "lesson-4-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-4-1/lesson-4-1-scene-7.wav",
+      "duration": 35.76
+    }
+  ]
+}

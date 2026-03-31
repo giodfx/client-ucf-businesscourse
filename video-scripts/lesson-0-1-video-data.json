@@ -1,0 +1,97 @@
+{
+  "lessonId": "lesson-0-1",
+  "videoTitle": "Start Here \u00e2\u20ac\u201d What To Expect And How To Use This Program",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Highway / Dashboard Entry",
+  "totalDuration": 197.6,
+  "sceneCount": 6,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome \u00e2\u20ac\u201d Your Dashboard Is Ready",
+      "bullets": [],
+      "narration": "Welcome. Picture yourself sitting behind the wheel, parked at the on-ramp of Interstate 4 \u00e2\u20ac\u201d the highway that runs straight through the heart of Central Florida's business corridor. Your GPS is loaded, your dashboard is lit, and seven destinations stretch out ahead of you. I am going to be your guide on this road trip. This program takes less than three hours, and by the end you will understand the legal, financial, and cultural realities of doing business in the United States. No fluff, no theory. Just the route you need to navigate the U.S. market with confidence.",
+      "template": "intro",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-0-1/lesson-0-1-scene-1.wav",
+      "duration": 29.76
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Learn First, Then Drive",
+      "bullets": [
+        "Most founders do it in reverse: register an LLC, open a bank account, then figure out product-market fit",
+        "This program flips that order: study the map before you commit to the drive",
+        "Seven destinations: entity setup, taxes, banking, insurance, hiring, customers, and culture",
+        "Self-paced, no deadlines, no exams \u00e2\u20ac\u201d you choose your speed"
+      ],
+      "narration": "Here is something important. Most founders hit the highway before checking the map. They register an LLC, open a bank account, and only then start figuring out whether the destination even makes sense. This program flips that order. Study the map first, then decide if the trip is worth taking. Over seven stops, you will cover entity setup, taxes, banking, insurance, hiring, finding customers, and understanding U.S. business culture. It is completely self-paced. No speed limits, no deadlines, no exams. You choose when to drive and how fast to go.",
+      "template": "split-left",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-0-1/lesson-0-1-scene-2.wav",
+      "duration": 31.44
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Four Lanes on This Highway",
+      "bullets": [
+        "Legal: entity structure, registration, contracts, intellectual property",
+        "Financial: banking, taxes, accounting, cost management",
+        "Cultural: communication norms, negotiation styles, business expectations",
+        "Market: product adaptation, pricing, customer acquisition"
+      ],
+      "narration": "Think of U.S. expansion as a four-lane highway. Each lane represents a dimension you cannot ignore. The legal lane covers your entity structure, registration, contracts, and intellectual property. The financial lane handles banking, taxes, accounting, and cost management. The cultural lane is about how Americans communicate, negotiate, and set expectations. And the market lane is where you adapt your product, set pricing, and win your first U.S. customers. Drift out of any one of these lanes, and you create risk that catches up with you later, usually at a much higher cost.",
+      "template": "split-right",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-0-1/lesson-0-1-scene-3.wav",
+      "duration": 30.4
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Your Dashboard Gauges",
+      "bullets": [
+        "Reduce Risk: check the road conditions before you accelerate",
+        "Watch Your Money: keep an eye on the fuel gauge \u00e2\u20ac\u201d costs add up fast",
+        "Avoid Common Mistakes: learn from drivers who have been on this road before",
+        "Understand U.S. Culture: the rules of the road here are different"
+      ],
+      "narration": "Every module is built around four dashboard gauges you need to watch. First, Reduce Risk. Check the road conditions before you accelerate. Understand the rules and requirements before spending money. Second, Watch Your Money. Keep an eye on the fuel gauge. Individual costs seem small, but they add up fast. Every module gives you realistic cost ranges. Third, Avoid Common Mistakes. Learn from drivers who have been on this road before. Each module highlights the errors that trip up international founders. And fourth, Understand U.S. Business Culture. The rules of the road here are different. In the U.S., business runs on speed, direct communication, and written agreements. A friendly wave from another driver does not mean they will let you merge.",
+      "template": "split-left",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-0-1/lesson-0-1-scene-4.wav",
+      "duration": 41.12
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "How Long Is the Drive?",
+      "bullets": [
+        "Entity formation: a few days online, sometimes longer for international founders",
+        "EIN application: instant with a U.S. address, weeks for international submissions",
+        "Bank account: varies widely by bank, documents, and circumstances",
+        "First customers: weeks to months for trust-building and vendor onboarding"
+      ],
+      "narration": "Founders always ask: how long is the drive? Here is the honest answer. Entity formation can take just a few days online, though international founders sometimes need extra time for documentation. Getting your EIN can be instant if you have a U.S. address, but international submissions may take several weeks. Bank account setup varies widely depending on the bank and your situation. And finding your first customers? That often takes weeks to months as you build trust and go through vendor onboarding. The trip is not a weekend jaunt. Plan for three to six months to get fully operational, and stay flexible along the way.",
+      "template": "split-right",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-0-1/lesson-0-1-scene-5.wav",
+      "duration": 33.68
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Time to Hit the Road",
+      "bullets": [],
+      "narration": "Your dashboard is ready, your GPS is set, and the I-4 corridor stretches out ahead of you. First stop: downtown Orlando, where your business takes legal shape. Then the financial district for banking and taxes. Cape Canaveral to protect your innovations. The theme parks to learn about building a team. The port and shopping district for reaching customers. The beach for understanding American culture. And finally, the UCF campus, where you will connect with the ecosystem that can support your next steps. Each destination stands on its own, so you can jump to whatever matters most right now. Ready? Let us hit the road.",
+      "template": "intro",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-0-1/lesson-0-1-scene-6.wav",
+      "duration": 32.8
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-2-2",
   "moduleId": "module-2",
+  "landscapeTheme": "Financial District",
   "title": "Sales Tax, Accounting, and Keeping the Books",
   "duration": 8,
   "objectives": [
@@ -12,29 +13,43 @@
     {
       "type": "text",
       "id": "text-2-2-1",
-      "title": "Florida Sales Tax — It's Not Optional",
-      "content": "<p>Did you know that one founder owed $3,800 in penalties because she did not register for a free certificate before collecting sales tax? The rules are simple once you know them, but the cost of not knowing is steep.</p>\n\n<p>Building on the federal and state income tax concepts from earlier in this module, sales tax adds another layer to your compliance obligations. If you sell tangible goods in Florida, you must collect sales tax. The base state rate is 6%, and most counties add a surtax of 0.5% to 1.5%. In Orange County (Orlando), the combined rate is 6.5%. In Osceola County, it is 7.5%. The rate depends on where the sale happens, not where your business is located.</p>\n\n<p>Here is the practical takeaway. An Argentine founder selling leather goods from Orlando assumed sales tax only applied to big retailers. After nine months, the Florida Department of Revenue sent her a notice: $3,800 in uncollected sales tax plus penalties, paid out of pocket.</p>\n\n<p>Before collecting sales tax, register for a <strong>Sales Tax Certificate</strong> with the Florida Department of Revenue : free, done online. Once registered, collect the correct rate on every taxable sale and remit to the state monthly, quarterly, or annually depending on volume.</p>\n\n<p>Not everything is taxable. Most services and groceries (unprepared food) are exempt. Prepared food, clothing, electronics, and most physical products are taxable. Software and SaaS fall into a gray area — check with a CPA if you're selling digital products.</p>",
+      "title": "Sales Tax and Bookkeeping, the Next Stop in the Financial District",
+      "content": "<p>You have left the tax office and walked down the block to the next building in the Financial District: the compliance bureau. Here is where sales tax and bookkeeping rules live, and where many founders first learn that Florida's \"no income tax\" reputation does not mean \"no taxes.\"</p>\n\n<p>Did you know that one founder owed $3,800 in penalties because she did not register for a free certificate before collecting sales tax? The rules are simple once you know them, but the cost of not knowing is steep.</p>\n\n<p>If you sell tangible goods in Florida, you must collect sales tax. The base state rate is 6%, and most counties add a surtax of 0.5% to 1.5%. In Orange County (Orlando), the combined rate is 6.5%. In Osceola County, it is 7.5%. The rate depends on where the sale happens, not where your business is located.</p>\n\n<p>Here is the practical takeaway. An Argentine founder selling leather goods from Orlando assumed sales tax only applied to big retailers. After nine months, the Florida Department of Revenue sent her a notice: $3,800 in uncollected sales tax plus penalties, paid out of pocket.</p>\n\n<p>Before collecting sales tax, register for a <strong>Sales Tax Certificate</strong> with the Florida Department of Revenue : free, done online. Once registered, collect the correct rate on every taxable sale and remit to the state monthly, quarterly, or annually depending on volume.</p>\n\n<p>Not everything is taxable. Most services and groceries (unprepared food) are exempt. Prepared food, clothing, electronics, and most physical products are taxable. Software and SaaS fall into a gray area — check with a CPA if you're selling digital products.</p>",
       "wordCount": 245
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida collects over $37 billion in sales and use tax revenue annually, making it the state's single largest revenue source. Because Florida has no personal income tax, sales tax carries a larger share of the state budget than in most other states. For business owners, this means sales tax compliance is not optional — it is the primary way the state funds infrastructure, education, and public services that your business depends on.</p>"
     },
     {
       "type": "text",
       "id": "text-2-2-vat",
       "title": "How U.S. Sales Tax Compares to VAT — What You Already Know",
-      "content": "<p>If you're coming from almost any country outside the U.S., you're familiar with a Value Added Tax (VAT) system. Here's the critical difference: VAT is a national, centralized tax applied at every stage of production. U.S. sales tax is a state-level, point-of-sale tax — and every state makes its own rules.</p>\n\n<p>What does that mean for you? <strong>VAT (what you know):</strong> One national rate. Applied at each stage of the supply chain. Businesses collect VAT on sales and claim credits for VAT paid on purchases. Registration thresholds and rates are set nationally.</p>\n\n<p><strong>U.S. Sales Tax (what you need to learn):</strong> No federal sales tax exists. Each state sets its own rate (or has no sales tax at all — Oregon, Montana, Delaware, New Hampshire charge zero). Counties and cities can add surtax. You only collect tax where you have \"nexus\" (a physical or economic connection to that state). There is no input credit system — you collect from the customer and remit to the state.</p>\n\n<p>If you sell in multiple states, you register, collect, and remit in each one separately. A Colombian SaaS founder selling in Florida, Texas, and California spent $1,200 on a compliance service to handle multi-state filing.</p>\n\n<p><strong>The biggest adjustment:</strong> There is no single government portal for U.S. sales tax. You deal with each state individually. Services like Avalara or TaxJar can automate multi-state compliance. VAT is one relationship with one government. U.S. sales tax can be dozens.</p>",
+      "content": "<p>If you're coming from almost any country outside the U.S., you're familiar with a Value Added Tax (VAT) system. In the Financial District, every building has different rules for visitors. VAT is like one central building with one set of rules. U.S. sales tax is like a district where every office makes its own — and you need a separate badge for each one.</p>\n\n<p>What does that mean for you? <strong>VAT (what you know):</strong> One national rate. Applied at each stage of the supply chain. Businesses collect VAT on sales and claim credits for VAT paid on purchases. Registration thresholds and rates are set nationally.</p>\n\n<p><strong>U.S. Sales Tax (what you need to learn):</strong> No federal sales tax exists. Each state sets its own rate (or has no sales tax at all — Oregon, Montana, Delaware, New Hampshire charge zero). Counties and cities can add surtax. You only collect tax where you have \"nexus\" (a physical or economic connection to that state). There is no input credit system — you collect from the customer and remit to the state.</p>\n\n<p>If you sell in multiple states, you register, collect, and remit in each one separately — like filing paperwork with every office in the district individually. A Colombian SaaS founder selling in Florida, Texas, and California spent $1,200 on a compliance service to handle multi-state filing.</p>\n\n<p><strong>The biggest adjustment:</strong> There is no single government portal for U.S. sales tax. You deal with each state individually. Services like Avalara or TaxJar can automate multi-state compliance. VAT is one relationship with one government. U.S. sales tax can be dozens.</p>",
       "wordCount": 241
+    },
+    {
+      "type": "image",
+      "id": "img-2-2-vat",
+      "title": "VAT vs. U.S. Sales Tax Comparison",
+      "src": "images/infographics/lesson-2-2-vat-vs-salestax.jpg",
+      "alt": "Infographic comparing VAT (applied at every production stage, one national rate) with U.S. Sales Tax (applied only at final sale, varies by state/county/city). Key insight: U.S. shelf prices do not include tax."
     },
     {
       "type": "callout",
       "id": "callout-2-2-1",
       "variant": "common-mistake",
       "title": "Collecting Sales Tax Without a Permit",
-      "content": "<p>Some founders start collecting sales tax before registering with the Florida Department of Revenue — that's a compliance violation. Others don't collect at all and absorb the cost themselves — that's a growing liability. The correct sequence: <strong>register first, then collect.</strong> Registration is free and takes about 10 minutes online. Don't skip this step.</p>"
+      "content": "<p>Here's where founders get it wrong. Some founders start collecting sales tax before registering with the Florida Department of Revenue — that's a compliance violation. Others don't collect at all and absorb the cost themselves — that's a growing liability. The correct sequence: <strong>register first, then collect.</strong> Registration is free and takes about 10 minutes online. Don't skip this step.</p>"
     },
     {
       "type": "text",
       "id": "text-2-2-2",
-      "title": "U.S. Bookkeeping Expectations — Why It Matters More Here",
-      "content": "<p>In the U.S., the IRS expects your records to support every number on your tax return. Banks want clean financial statements before extending credit. Investors will ask for profit-and-loss statements. Even landlords may review business financials before signing a commercial lease.</p>\n\n<p>The bottom line? The standard is <strong>GAAP (Generally Accepted Accounting Principles)</strong>. For small businesses: separate business and personal finances, record all income and expenses, reconcile bank statements monthly, and keep receipts for at least three years (seven years for some records).</p>\n\n<p>A food truck founder from Peru kept receipts in a shoebox. When his CPA asked for quarterly expense reports, he spent an entire weekend matching paper receipts to bank transactions. QuickBooks from day one would have taken five minutes.</p>\n\n<p>The tools are affordable. <strong>QuickBooks Online</strong> ($30–$60/month) is one of the most widely used. <strong>Xero</strong> ($15–$78/month) is popular with international founders for its multi-currency support. <strong>Wave</strong> is free for basic invoicing and accounting. Pick one before your first sale and connect it to your bank account.</p>",
+      "title": "U.S. Bookkeeping Expectations, Why It Matters More Here",
+      "content": "<p>Step across the hall from the compliance bureau to the accounting wing. This is the office in the Financial District that every other building will call — banks want to see your records before lending, the IRS wants them to verify your returns, investors want profit-and-loss statements, and even landlords may review your financials before signing a lease.</p>\n\n<p>The bottom line? The standard is <strong>GAAP (Generally Accepted Accounting Principles)</strong>. For small businesses: separate business and personal finances, record all income and expenses, reconcile bank statements monthly, and keep receipts for at least three years (seven years for some records).</p>\n\n<p>A food truck founder from Peru kept receipts in a shoebox. When his CPA asked for quarterly expense reports, he spent an entire weekend matching paper receipts to bank transactions. QuickBooks from day one would have taken five minutes.</p>\n\n<p>The tools are affordable. <strong>QuickBooks Online</strong> ($30–$60/month) is one of the most widely used. <strong>Xero</strong> ($15–$78/month) is popular with international founders for its multi-currency support. <strong>Wave</strong> is free for basic invoicing and accounting. Pick one before your first sale and connect it to your bank account.</p>",
       "wordCount": 168
     },
     {
@@ -80,37 +95,48 @@
       "sectionId": "text-2-2-2"
     },
     {
+      "type": "accordion",
+      "id": "int-2-2-1",
+      "title": "Bookkeeping Methods — Which One Fits?",
+      "sections": [
+        {
+          "heading": "Cash Basis Accounting",
+          "content": "**How it works:** Record income when you receive payment, expenses when you pay them.\n\n**Best for:** Small businesses with under $25M revenue. Simple and intuitive.\n\n**Watch out:** Can distort your picture if you have large receivables or payables."
+        },
+        {
+          "heading": "Accrual Basis Accounting",
+          "content": "**How it works:** Record income when earned and expenses when incurred, regardless of payment.\n\n**Best for:** Businesses seeking investors, applying for loans, or with inventory.\n\n**Watch out:** More complex — usually requires a bookkeeper or accountant."
+        },
+        {
+          "heading": "DIY vs. Outsourced Bookkeeping",
+          "content": "**DIY tools:** QuickBooks Online ($30/mo), Wave (free), Xero ($15/mo)\n\n**Outsourced:** Virtual bookkeeper ($200–$500/mo), Local CPA ($300–$800/mo)\n\n**Rule of thumb:** DIY until revenue exceeds $100K/year, then outsource to free your time."
+        }
+      ]
+    },
+    {
       "type": "callout",
       "id": "callout-2-2-2",
       "variant": "before-you-spend",
       "title": "Before You Hire an Accountant",
-      "content": "<p>Not all CPAs are created equal — and not all of them work with foreign-owned businesses. Before you hire an accountant, ask these questions:</p>\n\n<ul><li>Do you have experience filing returns for non-resident aliens or foreign-owned LLCs?</li><li>Are you familiar with tax treaty provisions for my home country?</li><li>Can you handle FBAR (Foreign Bank Account Report) filings?</li><li>Do you charge flat fees or hourly? (Flat fee is almost always better for small businesses.)</li><li>Can you help with multi-state sales tax compliance?</li></ul>\n\n<p>The SBDC (Small Business Development Center) in Orlando can refer you to CPAs who work with international founders. This is a free service.</p>"
+      "content": "<p>Think about this: not all CPAs are created equal — and not all of them work with foreign-owned businesses. Before you hire an accountant, ask these questions:</p>\n\n<ul><li>Do you have experience filing returns for non-resident aliens or foreign-owned LLCs?</li><li>Are you familiar with tax treaty provisions for my home country?</li><li>Can you handle FBAR (Foreign Bank Account Report) filings?</li><li>Do you charge flat fees or hourly? (Flat fee is almost always better for small businesses.)</li><li>Can you help with multi-state sales tax compliance?</li></ul>\n\n<p>The SBDC (Small Business Development Center) in Orlando can refer you to CPAs who work with international founders. This is a free service. The Financial District has no shortage of options — Central Florida is home to more than 12,000 accounting and financial services firms, so finding one who can navigate international filings is very achievable.</p>"
     },
     {
       "type": "knowledge-check",
-      "id": "kc-2-2-1",
-      "title": "Check Your Understanding: Sales Tax and Bookkeeping",
+      "id": "kc-2-2",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
           "stem": "What is the most important difference between a VAT system and U.S. sales tax for an international founder to understand?",
           "options": [
             "VAT rates are always higher than U.S. sales tax rates",
-            "U.S. sales tax is managed state-by-state with no federal sales tax, while VAT is typically one national system",
             "U.S. sales tax applies only to services, while VAT applies only to goods",
-            "VAT is collected at the point of sale, while U.S. sales tax is collected at manufacturing"
+            "VAT is collected at the point of sale, while U.S. sales tax is collected at manufacturing",
+            "U.S. sales tax is managed state-by-state with no federal sales tax, while VAT is typically one national system"
           ],
-          "correctAnswer": 1,
-          "explanation": "The core difference is structural: VAT is a national, centralized system. U.S. sales tax is decentralized : each state sets its own rules, rates, and exemptions. There is no federal sales tax. This means founders selling in multiple states may need to register and file separately in each one."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-2-2-2",
-      "title": "Bookkeeping and Compliance Check",
-      "placement": "end-of-lesson",
-      "questions": [
+          "correctAnswer": 3,
+          "explanation": "The core difference is structural: VAT is a national, centralized system. U.S. sales tax is decentralized — each state sets its own rules, rates, and exemptions. There is no federal sales tax. VAT rates are not always higher than U.S. rates. Both VAT and U.S. sales tax can apply to goods and services. Both are collected at the point of sale, not at manufacturing. Founders selling in multiple states may need to register and file separately in each one."
+        },
         {
           "stem": "A founder from Argentina has been selling leather goods online from Orlando for nine months without registering for a Florida Sales Tax Certificate. What is the most likely consequence?",
           "options": [
@@ -120,7 +146,18 @@
             "Her customers will be individually liable for the unpaid tax"
           ],
           "correctAnswer": 1,
-          "explanation": "The lesson describes this exact scenario: an Argentine founder owed $3,800 in uncollected sales tax plus penalties after nine months. Sales tax should have been collected from customers from the start. Without registration, the founder becomes personally liable for the tax that should have been collected. Registration is free and takes about 10 minutes."
+          "explanation": "The lesson describes this exact scenario: an Argentine founder owed $3,800 in uncollected sales tax plus penalties after nine months. There is no $100,000 revenue threshold for Florida sales tax on tangible goods. The IRS does not revoke EINs for state sales tax violations. Customers are not individually liable — the business bears responsibility for collecting and remitting sales tax. Registration is free and takes about 10 minutes."
+        },
+        {
+          "stem": "A founder from Chile is launching a consulting firm in Orlando. She needs to estimate her first-year accounting costs so she can set a realistic budget. Her business will have one owner, no employees, and clients in Florida only. Which estimate is most realistic?",
+          "options": [
+            "Under $200 total — free bookkeeping software and no need for a CPA since Florida has no income tax",
+            "About $500 — just a CPA for annual tax prep, since a single-state consulting firm has minimal complexity",
+            "Between $1,000 and $3,000 — bookkeeping software, a CPA experienced with international clients, and potential sales tax filing costs",
+            "Over $10,000 — international businesses always require a full-service accounting firm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "A realistic first-year budget includes bookkeeping software ($240-$720/year), a CPA experienced with international clients ($500-$2,500/year), and possibly sales tax filing assistance. Under $200 ignores the need for a CPA who understands non-resident alien filing requirements. A $500 estimate underestimates CPA costs for international clients, who need treaty review and potentially FBAR filings. Over $10,000 is excessive for a small single-owner consulting firm with no employees and one state of operation."
         }
       ]
     },
@@ -136,7 +173,7 @@
       "type": "key-takeaway",
       "id": "kt-2-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Sales tax compliance is mandatory and easy to mess up. Register with the Florida Department of Revenue before collecting tax. U.S. sales tax works nothing like VAT — it's state-by-state with no input credits. Budget for a CPA who understands international clients. The cost of professional accounting ($500–$2,500/year) is far less than the cost of IRS penalties and state compliance violations.</p>"
+      "content": "<p>The takeaway is simple. Sales tax compliance is mandatory and easy to mess up. Register with the Florida Department of Revenue before collecting tax. U.S. sales tax works nothing like VAT — it's state-by-state with no input credits. Budget for a CPA who understands international clients. The cost of professional accounting ($500–$2,500/year) is far less than the cost of IRS penalties and state compliance violations. Your compliance stop in the Financial District is straightforward if you know the rules before you walk in.</p>"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-6-2",
   "moduleId": "module-6",
+  "landscapeTheme": "Beach",
   "title": "Meetings, Networking, and Building Trust",
   "duration": 7,
   "objectives": [
@@ -13,83 +14,146 @@
       "type": "text",
       "id": "text-6-2-1",
       "title": "Meetings — Time Is the Currency",
-      "content": "<p>As we explored in the previous lesson on communication styles, American business culture is direct and action-oriented — and nowhere is that more visible than in meetings. A Peruvian founder joined a 30-minute introductory call three minutes late. The American was wrapping up by minute 25. The founder never got a second call.</p>\n\n<h4>Before the Meeting</h4><ul><li><strong>Send an agenda.</strong> A three-bullet email shows you respect their time.</li><li><strong>Confirm the day before.</strong> \"Looking forward to our call tomorrow at 2 PM ET\" signals professionalism.</li><li><strong>Be ready five minutes early.</strong> Test your video link or arrive early enough to be composed.</li></ul>\n\n<h4>During the Meeting</h4><ul><li><strong>Start on time.</strong> One to two minutes of small talk is normal; five minutes feels wasteful.</li><li><strong>Stay on topic.</strong> Americans value <strong>agenda-driven meetings</strong>. Tangents are politely tolerated but internally noted.</li><li><strong>End with action items.</strong> Clarify who does what, by when.</li></ul>\n\n<h4>The 30-Minute Default</h4>\n\n<p>Here is the practical takeaway. Start with 30 minutes. Asking for an hour signals you don't value their time. If productive, they'll extend or schedule a follow-up.</p>",
-      "wordCount": 173
+      "content": "<p>The beach may look relaxed, but the currents keep moving. The same is true for U.S. business meetings: the tone feels casual, but the clock is always running. What happens when you show up three minutes late to a U.S. business meeting? You lose the deal. A Peruvian founder joined a 30-minute introductory call three minutes late. The American was wrapping up by minute 25. The founder never got a second call.</p>\n\n<h4>Before the Meeting</h4><ul><li><strong>Send an agenda.</strong> A three-bullet email shows you respect their time.</li><li><strong>Confirm the day before.</strong> \"Looking forward to our call tomorrow at 2 PM ET\" signals professionalism.</li><li><strong>Be ready five minutes early.</strong> Test your video link or arrive early enough to be composed.</li></ul>\n\n<h4>During the Meeting</h4><ul><li><strong>Start on time.</strong> One to two minutes of small talk is normal; five minutes feels wasteful.</li><li><strong>Stay on topic.</strong> Americans value <strong>agenda-driven meetings</strong>. Tangents are politely tolerated but internally noted.</li><li><strong>End with action items.</strong> Clarify who does what, by when.</li></ul>\n\n<h4>The 30-Minute Default</h4>\n\n<p>The short version: start with 30 minutes. Asking for an hour signals you don't value their time. If productive, they'll extend or schedule a follow-up.</p>",
+      "wordCount": 196
+    },
+    {
+      "type": "image",
+      "id": "img-6-2-networking",
+      "title": "Networking Event — Elevator Pitch Moment",
+      "src": "images/scenarios/lesson-6-2-networking-event.jpg",
+      "alt": "Illustration of a distinguished professional at a networking event offering a business card to another attendee in a modern Central Florida venue with warm lighting."
     },
     {
       "type": "callout",
       "id": "callout-6-2-1",
       "variant": "theme-avoid-mistakes",
       "title": "The Recap Email You're Not Sending",
-      "content": "<p>After every meeting, send a short email within 24 hours. Include: what was discussed, what was agreed, next steps, and deadlines. This isn't optional. In U.S. business culture, <strong>if it's not in writing, it didn't happen</strong>. The recap email also protects you. It creates a paper trail. If someone later claims they didn't agree to something, you have the email to reference.</p>\n\n<p>Keep it brief: 5-8 lines. Example: \"Great speaking today. To recap: you'll send the vendor application by Wednesday, and I'll have our pricing sheet to you by Friday. Let me know if I missed anything.\"</p>"
+      "content": "<p>Here's where many founders lose momentum. After every meeting, send a short email within 24 hours. Include: what was discussed, what was agreed, next steps, and deadlines. This isn't optional. In U.S. business culture, <strong>if it's not in writing, it didn't happen</strong>. The recap email also protects you. It creates a paper trail. If someone later claims they didn't agree to something, you have the email to reference.</p>\n\n<p>Keep it brief: 5-8 lines. Example: \"Great speaking today. To recap: you'll send the vendor application by Wednesday, and I'll have our pricing sheet to you by Friday. Let me know if I missed anything.\"</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-2-culture",
+      "variant": "theme-understand-culture",
+      "title": "Culture Shift — The Handshake Deal Is Dead",
+      "content": "<p>Think about this cultural shift. In many countries, business runs on trust, personal ties, and verbal deals. In the U.S., the contract IS the relationship. When an American business partner says \"let's put it in writing,\" they are not expressing distrust — they are showing professionalism. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida's Space Coast, stretching along the Atlantic from Titusville to Melbourne, is home to both rocket launches and a thriving business corridor. That blend of high-tech ambition and beach-town informality captures something essential about doing business in Central Florida: the atmosphere is casual, but the standards are world-class. Founders who match that combination, relaxed in style but rigorous in execution, tend to earn trust fast.</p>"
     },
     {
       "type": "text",
       "id": "text-6-2-2",
       "title": "Negotiation — More Direct Than You Expect",
-      "content": "<p>A Mexican SaaS founder spent three meetings building rapport before discussing terms. After the third, his American contact asked: \"So, what's the number?\" He wasn't ready with pricing. The deal stalled.</p>\n\n<p>What does that mean for you? U.S. negotiation moves fast:</p>\n\n<ol><li><strong>Both sides state their position early.</strong> Vague responses like \"we're flexible\" signal you haven't done your homework.</li><li><strong>Counter-offers are limited.</strong> Expect one to two rounds. Prolonged haggling signals distrust.</li><li><strong>First offers are close to final.</strong> If someone offers $45,000, they might settle at $42,000 — but expecting $30,000 will end the conversation.</li><li><strong>Written terms matter more than handshakes.</strong> Nothing is real until it's in a signed contract or detailed email.</li></ol>\n\n<h4>Networking: Quality Over Quantity</h4>\n\n<p>You have 60 seconds to explain who you are and what you do. At events, Americans speak with you for 5-10 minutes and move on. The goal is initial connections, not closing deals.</p>\n\n<p>Three networking rules founders miss:</p>\n\n<ul><li><strong>Follow up within 48 hours.</strong> Reference something specific: \"Great talking about supply chain logistics\" beats \"Nice to meet you.\"</li><li><strong>Ask before you pitch.</strong> Ask about their business first. If there's a fit, briefly describe what you do.</li><li><strong>Give before you ask.</strong> Share an article, make an introduction, offer an insight.</li></ul>",
-      "wordCount": 205
+      "content": "<p>A Mexican SaaS founder spent three meetings building rapport before discussing terms. After the third, his American contact asked: \"So, what's the number?\" He wasn't ready with pricing. The deal stalled.</p>\n\n<p>Like a riptide that pulls you out before you realize it, U.S. negotiation moves fast:</p>\n\n<ol><li><strong>Both sides state their position early.</strong> Vague responses like \"we're flexible\" signal you haven't done your homework.</li><li><strong>Counter-offers are limited.</strong> Expect one to two rounds. Prolonged haggling signals distrust.</li><li><strong>First offers are close to final.</strong> If someone offers $45,000, they might settle at $42,000 — but expecting $30,000 will end the conversation.</li><li><strong>Written terms matter more than handshakes.</strong> Nothing is real until it's in a signed contract or detailed email.</li></ol>\n\n<h4>Networking: Quality Over Quantity</h4>\n\n<p>You have 60 seconds to explain who you are and what you do. Networking events are the shoreline where everyone mingles — Americans speak with you for 5-10 minutes and move on. The goal is initial connections, not closing deals.</p>\n\n<p>Three networking rules founders miss:</p>\n\n<ul><li><strong>Follow up within 48 hours.</strong> Reference something specific: \"Great talking about supply chain logistics\" beats \"Nice to meet you.\"</li><li><strong>Ask before you pitch.</strong> Read the tide of the conversation — ask about their business first. If there's a fit, briefly describe what you do.</li><li><strong>Give before you ask.</strong> Share an article, make an introduction, offer an insight. The best connections form like sandbars: gradually, through steady deposits over time.</li></ul>",
+      "wordCount": 218
     },
     {
       "type": "callout",
       "id": "callout-6-2-2",
       "variant": "theme-understand-culture",
       "title": "The Follow-Through Test",
-      "content": "<p>Americans test new business partners with small commitments: \"Send me that by Friday.\" \"Can you get me three references?\" \"Share your company deck before our next call.\" Each of these is a quiet test. Deliver on time and you move forward. Miss the deadline, and the relationship stalls without anyone telling you why. <strong>Every small commitment you keep builds trust for the bigger ones.</strong></p>"
+      "content": "<p>Consider this: Americans test new business partners with small commitments: \"Send me that by Friday.\" \"Can you get me three references?\" \"Share your company deck before our next call.\" Each of these is a quiet test. Deliver on time and you move forward. Miss the deadline, and the relationship stalls without anyone telling you why. <strong>Every small commitment you keep builds trust for the bigger ones.</strong></p>"
     },
     {
       "type": "exercise",
-      "id": "exercise-6-2-1",
-      "title": "Your U.S. Elevator Pitch",
-      "placement": "after-section",
-      "sectionId": "text-6-2-2",
-      "instructions": "<p>Draft a 60-second elevator pitch for a U.S. networking event. Use this structure:</p><ol><li><strong>Who you are</strong> (name, company, one sentence)</li><li><strong>What problem you solve</strong> (not what your product does, but what pain it eliminates)</li><li><strong>Why it matters to the person you're speaking with</strong> (connect your solution to their world)</li><li><strong>A specific ask or next step</strong> (\"I'd love to learn more about your supply chain challenges\" or \"Could I send you a one-page overview?\")</li></ol><p>Read it aloud. Time yourself. If it runs past 60 seconds, cut words until it fits. Practice it until you can deliver it conversationally, not like a script.</p>"
+      "id": "exercise-6-2-pitch",
+      "title": "Build Your 30-Second Elevator Pitch",
+      "format": "fill-in-blank",
+      "instruction": "Complete each blank to build a pitch you can use at your next networking event. Keep it under 30 seconds when spoken aloud.",
+      "template": "[Company name] helps [target customer in the U.S.] solve [specific problem] by [your solution/approach]. We are based in [location] and [credibility statement — traction, clients, or background].",
+      "example": "FinBridge helps Latin American exporters solve cross-border payment delays by automating customs documentation and compliance checks. We are based in Orlando and already process $2M monthly for 40 companies across Colombia and Brazil.",
+      "prompts": [
+        {
+          "label": "Company name",
+          "placeholder": "Your company"
+        },
+        {
+          "label": "Target customer in the U.S.",
+          "placeholder": "e.g., mid-size manufacturing companies"
+        },
+        {
+          "label": "Specific problem",
+          "placeholder": "e.g., slow vendor onboarding processes"
+        },
+        {
+          "label": "Your solution/approach",
+          "placeholder": "e.g., providing a pre-qualified vendor package"
+        },
+        {
+          "label": "Location",
+          "placeholder": "e.g., Orlando, FL"
+        },
+        {
+          "label": "Credibility statement",
+          "placeholder": "e.g., already serve 15 clients in Latin America"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "id": "int-6-2-1",
+      "title": "The Meeting After the Meeting — Follow-Up Playbook",
+      "tabs": [
+        {
+          "label": "Within 24 Hours",
+          "content": "**Send a thank-you email** within 24 hours. This is expected in U.S. business culture.\n\n**Include:**\n- Reference something specific from the conversation\n- Attach any materials you promised\n- Suggest a concrete next step with dates\n\n**Example:** 'Great meeting today — I especially appreciated your insight on the Orlando market. As discussed, I've attached our pricing sheet. Would Thursday at 2 PM work for a follow-up call?'"
+        },
+        {
+          "label": "Within 1 Week",
+          "content": "**If no response to your first email**, send a brief follow-up.\n\n**Keep it short:** 2–3 sentences maximum.\n\n**Add value:** Share a relevant article, case study, or industry insight.\n\n**Don't say:** 'Just checking in' or 'Following up.' These are empty phrases.\n\n**Do say:** 'I came across this report on [topic we discussed] and thought of our conversation.'"
+        },
+        {
+          "label": "LinkedIn",
+          "content": "**Connect on LinkedIn within 48 hours** of meeting.\n\n**Personalize the request:** Reference where you met.\n\n**Engage with their content** — comment on a post before messaging again.\n\n**Do NOT:** Send a sales pitch in your connection request. Build the relationship first."
+        },
+        {
+          "label": "Common Mistakes",
+          "content": "**Waiting too long:** After 72 hours, the meeting fades from memory.\n\n**Being too pushy:** Following up daily is aggressive. Weekly is appropriate.\n\n**Forgetting names:** Americans notice when you remember details from the conversation.\n\n**Not following through:** If you said you'd send something, send it. Broken promises kill deals faster than anything."
+        }
+      ]
     },
     {
       "type": "knowledge-check",
-      "id": "kc-6-2-1",
-      "title": "Meeting and Negotiation Check",
+      "id": "kc-6-2",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
           "stem": "You have a first meeting with a potential U.S. business partner. What meeting duration should you request?",
           "options": [
             "15 minutes. keep it extremely brief",
-            "30 minutes. the standard U.S. business meeting length",
             "60 minutes. you need enough time to build rapport",
-            "90 minutes. complex topics require extended discussion"
+            "90 minutes. complex topics require extended discussion",
+            "30 minutes. the standard U.S. business meeting length"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "30 minutes is the default for U.S. business meetings, especially first meetings. Requesting more time from someone you've never met signals that you don't value their schedule. If the conversation goes well, they'll suggest extending or scheduling a follow-up."
         },
         {
           "stem": "After a productive meeting, when should you send a recap email?",
           "options": [
-            "Within the hour, while details are fresh",
             "Within 24 hours. this is the expected standard",
+            "Within the hour, while details are fresh",
             "Within a week — give them time before following up",
             "Only if they specifically ask for one"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "The standard expectation in U.S. business is a follow-up recap within 24 hours. This email should summarize what was discussed, what was agreed, and next steps with deadlines. Waiting longer risks losing momentum and signals that you're not organized."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-6-2-2",
-      "title": "Networking and Negotiation Assessment",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A founder from Ecuador is negotiating a $60,000 annual software contract with a U.S. company. The American buyer opens with an offer of $52,000. The founder, accustomed to extended negotiation in his home market, counters at $75,000 expecting to meet in the middle after several rounds. What is the most likely result in U.S. negotiation culture?",
           "options": [
             "The American will respect the aggressive counter and meet at $63,500 after multiple rounds",
-            "The American will likely disengage because the counter is too far from their opening offer, and U.S. negotiations typically involve only one to two rounds of counter-offers",
             "The American will ask a manager to approve a higher budget since the founder clearly values the product highly",
+            "The American will likely disengage because the counter is too far from their opening offer, and U.S. negotiations typically involve only one to two rounds of counter-offers",
             "The founder's approach is correct because starting high gives more room to negotiate downward"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 2,
           "explanation": "U.S. negotiation norms involve first offers close to the actual target and only one to two rounds of counter-offers. An opening of $52,000 likely means they could go to $55,000-$58,000, but a counter of $75,000 signals either a misunderstanding of U.S. norms or an unrealistic valuation. Prolonged haggling is perceived as a sign of distrust or desperation in American business culture."
         }
       ]
@@ -106,7 +170,7 @@
       "type": "key-takeaway",
       "id": "kt-6-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Be punctual, agenda-driven, and follow up in writing within 24 hours. U.S. negotiation moves fast — come prepared with specific numbers and expect one to two rounds of counter-offers. At networking events, listen first, pitch second, and always follow up the next day. Every small commitment you keep builds trust for the bigger ones.</p>"
+      "content": "<p>The takeaway is clear. Be on time, stay focused on the agenda, and follow up in writing within 24 hours. U.S. negotiation moves fast — come prepared with specific numbers and expect one to two rounds of counter-offers. At networking events, listen first, pitch second, and always follow up the next day. Every small commitment you keep builds trust for the bigger ones. Learn to read the currents beneath the surface, and you will navigate U.S. business relationships with confidence.</p>"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-4-3",
   "moduleId": "module-4",
+  "landscapeTheme": "Theme Park",
   "title": "Payroll, Taxes, and Employer Obligations",
   "duration": 6,
   "objectives": [
@@ -12,9 +13,9 @@
     {
       "type": "text",
       "id": "text-4-3-1",
-      "title": "Your Employee Costs More Than Their Salary",
-      "content": "<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short.</p>\n\n<p>Hiring your first U.S. employee costs significantly more than their salary. If you have already explored visa pathways, you will see how work authorization connects to hiring. A Mexican founder hired her first Orlando employee at $55,000 — then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added ~20%.</p>\n\n<p>What does this actually mean day to day? In many countries, employer contributions are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at ~$420/employee/year. <strong>Florida SUTA</strong> at $18–$378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500–$2,000/year for office work.</p>",
-      "wordCount": 130
+      "title": "Running the Park: Payroll, Taxes, and the Real Cost of Every Team Member",
+      "content": "<p>Now that you have your backstage pass sorted, it is time to look at what it actually costs to keep the team running.</p>\n\n<p>Every attraction in the entertainment district has an operating budget that goes well beyond wages. There are safety inspections, insurance premiums, maintenance crews, and regulatory compliance. Hiring in the U.S. works the same way: salary is just the ticket price. The real cost includes a stack of taxes, insurance, and obligations that add up fast.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>What does this actually mean day to day? The ticket price is just the admission — behind the scenes, every ride has maintenance, safety inspections, and insurance. Every employee works the same way. In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p>",
+      "wordCount": 186
     },
     {
       "type": "table",
@@ -69,30 +70,81 @@
       "sectionId": "text-4-3-1"
     },
     {
+      "type": "data-visualization",
+      "id": "dataviz-4-3",
+      "title": "The True Cost of a $60,000 Employee",
+      "chartType": "stacked-bar-with-breakdown",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 620px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">The True Cost of a $60,000 Employee</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Base salary plus each employer obligation layer</p><div style=\"display: flex; gap: 28px; align-items: flex-end;\"><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salary<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Without Health</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #1A3A5C;\">$66,410</div><div style=\"font-size: 0.72rem; color: #666;\">10.7% over salary</div></div><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salary<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div><div style=\"height: 14px; background: #48B07A;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">With Health Ins.</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #D4622B;\">$71,410</div><div style=\"font-size: 0.72rem; color: #666;\">19% over salary</div></div><div style=\"flex: 1; min-width: 0;\"><div style=\"display: flex; flex-direction: column; gap: 8px;\"><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #1A3A5C; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$60,000</strong> Base Salary</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #2C5F8A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$4,590</strong> FICA (7.65%)</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #E8A838; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$420</strong> FUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #F5C842; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$200</strong> FL SUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #D4622B; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$1,200</strong> Workers' Comp</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #48B07A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$5,000</strong> Health Insurance</span></div></div></div></div><div style=\"margin-top: 20px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\"><strong>Budget 1.15x to 1.30x</strong> the base salary for your true hiring cost.</div></div>",
+      "data": {
+        "baseSalary": 60000,
+        "layers": [
+          { "label": "Base Salary", "value": 60000, "color": "#1A3A5C" },
+          { "label": "FICA (Social Security + Medicare)", "value": 4590, "percent": "7.65%", "color": "#2C5F8A" },
+          { "label": "FUTA (Federal Unemployment)", "value": 420, "color": "#E8A838" },
+          { "label": "SUTA (Florida Unemployment)", "value": 200, "note": "avg new employer", "color": "#F5C842" },
+          { "label": "Workers' Comp Insurance", "value": 1200, "note": "office work avg", "color": "#D4622B" },
+          { "label": "Health Insurance", "value": 5000, "note": "employer contribution avg", "color": "#48B07A" }
+        ],
+        "totalWithoutHealth": "$66,410 (10.7% over salary)",
+        "totalWithHealth": "$71,410 (19% over salary)",
+        "insight": "Budget 1.15x to 1.30x the base salary for your true hiring cost."
+      },
+      "accessibilityNote": "Stacked vertical bar chart showing the true cost of a $60,000 employee. Two bars compare total cost without and with health insurance. Base Salary is $60,000. FICA adds $4,590 (7.65%). FUTA adds $420. Florida SUTA adds $200. Workers' Compensation adds $1,200. Health Insurance adds $5,000. Total without health insurance is $66,410 (10.7% over salary). Total with health insurance is $71,410 (19% over salary). Key insight: budget 1.15x to 1.30x the base salary for your true hiring cost."
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-3-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida is the third-largest state in the U.S. by employment, and Central Florida is one of its fastest-growing job markets. The Orlando metro area added over 45,000 jobs in a single recent year, many in professional services, tech, and healthcare. For founders, this growth means a competitive talent market where understanding true employer costs and offering competitive benefits is not optional. It is how you attract the people who make your business work.</p>"
+    },
+    {
       "type": "text",
       "id": "text-4-3-2",
       "title": "Use a Payroll Service — Seriously",
-      "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Here is the practical takeaway. Do not handle U.S. payroll yourself. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida : after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
+      "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Here is the practical takeaway. Even the biggest theme parks do not run their own payroll in-house — they contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida : after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
       "wordCount": 116
+    },
+    {
+      "type": "checklist",
+      "id": "int-4-3-1",
+      "title": "First Payroll Setup Checklist",
+      "items": [
+        "Register for Florida Reemployment Tax (unemployment insurance)",
+        "Get workers' compensation insurance (required with 4+ employees)",
+        "Choose a payroll provider (Gusto, ADP, or Paychex recommended)",
+        "Collect W-4 and I-9 forms from each employee",
+        "Set up direct deposit and payment schedule",
+        "Verify contractor vs. employee classification for each worker",
+        "Post required labor law notices in the workplace",
+        "Calendar quarterly payroll tax deadlines (941 filings)"
+      ]
     },
     {
       "type": "callout",
       "id": "callout-4-3-1",
       "variant": "before-you-spend",
       "title": "Before You Spend Money: Payroll Tax Penalties Are Serious",
-      "content": "<p>The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
+      "content": "<p>Here's where it gets serious. The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
     },
     {
       "type": "text",
       "id": "text-4-3-3",
       "title": "What U.S. Employees Expect Beyond the Paycheck",
-      "content": "<p>Legal requirements are the floor. U.S. workers expect benefits even when they are not legally required — if you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p>What does that mean for you? <strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
+      "content": "<p>Legal rules are the floor. Theme parks keep their best performers by offering perks — food discounts, flexible schedules, free passes. U.S. employers compete for talent the same way: benefits are how you keep people from walking to the park next door. If you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p>What does that mean for you? <strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
       "wordCount": 115
     },
     {
+      "type": "callout",
+      "id": "callout-4-3-latam",
+      "variant": "latam-supplement",
+      "title": "Latin America Resources — Hiring & Payroll",
+      "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>Prospera:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>UCF BIP network:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
+    },
+    {
       "type": "knowledge-check",
-      "id": "kc-4-3-1",
-      "title": "Check Your Understanding",
+      "id": "kc-4-3",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
@@ -105,25 +157,28 @@
           ],
           "correctAnswer": 2,
           "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500 to $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-4-3-2",
-      "title": "Check Your Understanding: Payroll and Benefits",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A founder has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
           "options": [
             "Nothing — the IRS provides a grace period for small businesses in their first year",
-            "A warning letter with no financial penalty for first-time offenders",
             "IRS penalty notices for late filing, plus potential interest on unpaid withholding taxes",
+            "A warning letter with no financial penalty for first-time offenders",
             "Automatic revocation of the company's EIN and business license"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 1,
           "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40-$100/month) automates filings and prevents these costly mistakes."
+        },
+        {
+          "stem": "A founder from the Philippines hires her fifth employee at her Orlando office. She already has a payroll service, withholds federal and state taxes, and pays employer FICA. Her accountant asks whether she has workers' compensation and unemployment insurance in place. Which statement is correct about her obligations?",
+          "options": [
+            "Workers' compensation is optional in Florida regardless of employee count, so she only needs unemployment insurance",
+            "She needs unemployment insurance but can wait on workers' compensation until she has 10 or more employees",
+            "Neither workers' compensation nor unemployment insurance is required in Florida for businesses with fewer than 50 employees",
+            "She is required to carry both — workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this founder must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses."
         }
       ]
     },
@@ -136,18 +191,10 @@
       "instructions": "<p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p>"
     },
     {
-      "type": "reflection",
-      "id": "reflect-4-3-1",
-      "title": "Your First U.S. Hire — The Real Number",
-      "placement": "after-section",
-      "sectionId": "text-4-3-3",
-      "prompt": "Think about your first U.S. hire. What role is it, and what salary would you offer? Now multiply that number by 1.25 — that's closer to your true annual cost once you add employer taxes, insurance, and basic benefits. Write down the real number. Which payroll service from this lesson (Gusto, ADP, QuickBooks) would you use, and why? Having this figured out before you make an offer keeps you from the budget shock that catches most international founders off guard."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-4-3-1",
       "title": "Key Takeaway",
-      "content": "<p>An employee costs 15 to 30% more than their base salary. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is straightforward once you know the components, and a payroll service handles the compliance details so you can focus on building your business.</p>"
+      "content": "<p>The takeaway is clear. An employee costs 15 to 30% more than their base salary — just like every attraction costs more to operate than the sticker price suggests. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is simple once you know the pieces, and a payroll service handles the details so you can focus on building your business.</p>"
     }
   ]
 }

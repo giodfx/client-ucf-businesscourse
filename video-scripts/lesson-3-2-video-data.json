@@ -1,0 +1,108 @@
+{
+  "lessonId": "lesson-3-2",
+  "videoTitle": "Insurance and Risk Management",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Rocket Base \u00e2\u20ac\u201d Cape Canaveral inspiration, science, protecting innovation",
+  "totalDuration": 263.44,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "The Safety and Compliance Wing",
+      "bullets": [],
+      "narration": "Now that you have locked down your intellectual property inside the launch facility, walk over to the safety and compliance wing. No launch happens without backup systems. No business should operate without contracts and insurance. A founder from Costa Rica lost twenty-two thousand dollars because he closed a deal with a handshake instead of a contract. The distributor changed payment terms and refused to pay outstanding invoices. Without a signed contract, the founder had no legal leverage. In the U.S., that handshake is worth almost nothing. Every rocket has a pre-launch checklist. Your contracts serve the same purpose.",
+      "template": "intro",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-1.wav",
+      "duration": 31.2
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Contracts You Need in Your First Year",
+      "bullets": [
+        "Non-Disclosure Agreement: use before sharing proprietary details \u00e2\u20ac\u201d two hundred to five hundred dollars",
+        "Service Agreement or MSA: covers scope, payment, deliverables, and liability",
+        "Terms of Service: required for any website, app, or digital product",
+        "Operating Agreement: even single-member LLCs should have one"
+      ],
+      "narration": "In the U.S., the contract IS the relationship. When an American business partner says let us put it in writing, they are not expressing distrust \u00e2\u20ac\u201d they are showing precision. Here are the contracts you will need in your first year. A Non-Disclosure Agreement, or NDA, used before sharing proprietary details. Cost is two hundred to five hundred dollars attorney-drafted, or use a reputable template. A Service Agreement or Master Service Agreement covers scope, payment, deliverables, timelines, and liability when you provide services or hire a vendor. Terms of Service are required for any website, app, or digital product. And an Operating Agreement defines management, profit distribution, and member exits. Even single-member LLCs should have one. Verbal deals carry almost no legal weight for business transactions over five hundred dollars under Florida law.",
+      "template": "split-left",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-2.wav",
+      "duration": 44.64
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Business Insurance \u00e2\u20ac\u201d Your Backup Systems",
+      "bullets": [
+        "General Liability: four hundred to eight hundred per year \u00e2\u20ac\u201d many landlords and clients require it",
+        "Professional Liability / E&O: five hundred to twenty-five hundred per year",
+        "Workers' Compensation: required in Florida with four or more employees",
+        "Cyber Liability: five hundred to fifteen hundred per year if you handle customer data"
+      ],
+      "narration": "At the launch facility, every system has a redundancy. If the primary fails, the backup takes over. Insurance works the same way for your business. General Liability Insurance is your first layer. It covers third-party bodily injury, property damage, and advertising injury. Cost is four hundred to eight hundred dollars per year. Many landlords and B2B clients require proof before they will work with you. Professional Liability, also called Errors and Omissions, covers claims that your professional services caused financial harm. That is five hundred to twenty-five hundred per year. Workers' Compensation is required in Florida once you have four or more employees. And Cyber Liability, at five hundred to fifteen hundred per year, is increasingly required if you handle customer data or process payments.",
+      "template": "split-right",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-3.wav",
+      "duration": 43.12
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "A Nigerian Founder's Wake-Up Call",
+      "bullets": [],
+      "narration": "Let me tell you what happened to a Nigerian founder who learned this the hard way. She found that U.S. vendor onboarding required proof of one million dollars in general liability and one million in professional liability before clients would sign a contract. She had neither. Two deals worth over fifty thousand dollars combined were sitting on the table waiting for her to show proof of insurance. She had the product. She had the interest. What she did not have were the backup systems. Getting insured took two weeks and cost about twelve hundred dollars for the year. Budget for insurance before you need it, not after you have already lost business.",
+      "template": "diagonal",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-4.wav",
+      "duration": 32.24
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Regulatory Exposure \u00e2\u20ac\u201d Industries That Need Extra Attention",
+      "bullets": [
+        "Food and Beverage: FDA and Florida FDACS compliance for labeling and inspections",
+        "Healthcare: HIPAA compliance \u00e2\u20ac\u201d medical devices need FDA clearance",
+        "Financial Services: SEC, FINRA, state money transmission licenses",
+        "Children's Products: CPSC testing and certification for safety standards"
+      ],
+      "narration": "Just as different payloads require different launch protocols, some industries have additional rules you must follow. Food and Beverage requires FDA and Florida FDACS compliance \u00e2\u20ac\u201d labeling, inspections, product testing. A Colombian coffee brand spent eight thousand dollars on FDA-compliant labeling before listing on Amazon. Healthcare means HIPAA compliance for patient data. Medical devices need FDA clearance. Telehealth faces state-by-state licensing. Financial Services involves SEC, FINRA, and state-level regulations. Money transmission licenses cost ten thousand to fifty thousand dollars across multiple states. Children's Products require CPSC testing and certification. Third-party testing costs one thousand to five thousand per product line. Fines for running without permits are severe. The SBDC and UCF BIP advisors can help identify which regulations apply to your business.",
+      "template": "split-left",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-5.wav",
+      "duration": 48.4
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "The Handshake Deal Is Dead",
+      "bullets": [
+        "In the U.S., the contract is the relationship \u00e2\u20ac\u201d not a sign of distrust",
+        "Verbal deals carry almost no weight for transactions over five hundred dollars",
+        "A clear contract protects both sides and prevents misunderstandings",
+        "Get everything in writing, every time, with every partner"
+      ],
+      "narration": "This is a cultural shift worth emphasizing. In many countries, business runs on trust, personal ties, and verbal deals. In the U.S., the contract IS the relationship. When an American says let us put it in writing, they are showing the same precision a launch team shows when they document every system check. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships. The Costa Rican founder who lost twenty-two thousand dollars on a handshake deal would tell you the same thing. Get everything in writing. Every time. With every partner. No exceptions.",
+      "template": "split-right",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-6.wav",
+      "duration": 31.84
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Safety Systems Engaged",
+      "bullets": [],
+      "narration": "Your safety systems are in place. Get your contracts in writing \u00e2\u20ac\u201d every time, with every partner. Carry general liability insurance from day one. If you provide professional services, add Errors and Omissions coverage. Check whether your industry has specific regulatory requirements before you launch. The costs are far cheaper than lawsuits, fines, or lost contracts. Your pre-launch checklist is complete. Next stop: mission control \u00e2\u20ac\u201d the last building at the launch facility. That is where you decide which legal decisions you can make yourself and which ones need a specialist in the room.",
+      "template": "intro",
+      "avatarScene": "lesson-3-2",
+      "imageUrl": "media/images/avatars/scenes/lesson-3-2-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-3-2/lesson-3-2-scene-7.wav",
+      "duration": 32.0
+    }
+  ]
+}

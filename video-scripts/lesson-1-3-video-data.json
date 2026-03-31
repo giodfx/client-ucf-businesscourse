@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-1-3",
+  "videoTitle": "Banking Basics for International Founders",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "City Landscape \u00e2\u20ac\u201d downtown Orlando, business formation, government",
+  "totalDuration": 260.320063,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome to the Banking District",
+      "bullets": [],
+      "narration": "Your entity is registered and your EIN is on the way. Now you walk from City Hall toward the banking district \u00e2\u20ac\u201d a street lined with banks, each with its own policies, its own requirements, and its own idea of how much documentation you need. For international founders, walking into a U.S. bank can feel like entering a new country all over again. You filed your LLC, you have your EIN, and now a bank is asking for papers you have never heard of. This is normal. And it is manageable if you know what to expect before you walk through the door.",
+      "template": "intro",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-1.wav",
+      "duration": 31.52
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Why Banking Is Harder Than You Expect",
+      "bullets": [
+        "U.S. banks are cautious with foreign-owned accounts due to anti-money-laundering rules",
+        "Some banks will not work with foreign founders at all",
+        "One founder registered his LLC in two days, then spent six weeks opening a bank account",
+        "Founders who walk in prepared get through it much faster"
+      ],
+      "narration": "Here is the reality. Each bank in this district has its own security protocol. Some let you in with a passport and EIN. Others want a full background check before they will buzz you through. U.S. banks are careful with accounts owned by foreign nationals due to anti-money-laundering rules. Some banks simply will not work with foreign founders. Others require papers that take weeks to gather. One founder from Argentina registered his LLC in two days. Then he spent six weeks trying to open a bank account. Four banks. The first three said no. Stories like this are common, not unusual. The good news is that founders who walk in prepared tend to get through it much faster.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-2.wav",
+      "duration": 39.52
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "The Document Checklist",
+      "bullets": [
+        "EIN Confirmation Letter from the IRS",
+        "Articles of Organization or Incorporation \u00e2\u20ac\u201d filed copy with confirmation number",
+        "Operating Agreement or Corporate Bylaws showing ownership structure",
+        "Valid passport, U.S. address proof, and initial deposit of one hundred to five hundred dollars"
+      ],
+      "narration": "Walking into a bank without the right documents is like showing up at a restricted building without an ID badge. You will not get past the front desk. Here is the core set that most banks request. First, your EIN Confirmation Letter. Second, your Articles of Organization for an LLC or Articles of Incorporation for a Corporation \u00e2\u20ac\u201d bring the filed copy with the confirmation number. Third, your Operating Agreement or Corporate Bylaws showing ownership structure and who controls the finances. Fourth, a valid passport, proof of a U.S. address, and an initial deposit, typically somewhere between one hundred and five hundred dollars. Call the bank before you visit. Ask what they need for a foreign-owned entity. Bring everything in one folder.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-3.wav",
+      "duration": 40.640063
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Why Banks Say No",
+      "bullets": [
+        "No SSN or ITIN \u00e2\u20ac\u201d some banks require a personal tax ID",
+        "Not enough paperwork \u00e2\u20ac\u201d a newly formed LLC with no website looks too early-stage",
+        "Country-of-origin flags may trigger extra review or added documentation",
+        "Branch unfamiliarity \u00e2\u20ac\u201d not every branch handles foreign-owned accounts"
+      ],
+      "narration": "Some doors in this district are simply locked to founders who do not have the right credentials yet. Here are the common reasons banks say no. First, no SSN or ITIN. Some banks require a personal tax ID before they will open an account. Second, not enough paperwork. A brand-new LLC with no operating agreement or website may look too early-stage. Third, country-of-origin factors may trigger extra review. This does not always block you, but the process takes longer. And fourth, branch unfamiliarity. Not every branch handles foreign-owned accounts. If you are told they cannot help, do not walk away. Ask for a business banking expert or call the bank's business line directly.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-4.wav",
+      "duration": 41.36
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "What to Do When You Get a No",
+      "bullets": [
+        "Ask the banker WHY \u00e2\u20ac\u201d get the specific reason for the decline",
+        "Ask if a different branch or department handles international accounts",
+        "Try a community bank or credit union \u00e2\u20ac\u201d they tend to be more flexible",
+        "Consider online banking platforms designed for startups and international founders"
+      ],
+      "narration": "A rejection at one bank does not mean you cannot open an account anywhere. Here is a practical approach. Ask the banker why you were declined. Get the specific reason. Ask if there is a different branch or department that handles international accounts. Try a community bank or credit union next \u00e2\u20ac\u201d they tend to be more flexible and more willing to work through unusual documentation. Consider online banking platforms designed for startups. Several have streamlined their process specifically for foreign-owned entities. And keep records of every interaction \u00e2\u20ac\u201d names, dates, what was requested. This helps when you approach the next bank.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-5.wav",
+      "duration": 36.4
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Payment Processors \u00e2\u20ac\u201d Your Bridge While You Wait",
+      "bullets": [
+        "Stripe: popular for online businesses, setup in under an hour",
+        "Square: card readers, point-of-sale, and basic business checking",
+        "Wise Business: multi-currency accounts with low conversion fees",
+        "Processors are a bridge, not a permanent replacement for a bank account"
+      ],
+      "narration": "While you work on getting into the big buildings, there are smaller offices on the same street that can handle your transactions right now. Stripe is popular for online businesses. It handles credit cards and sales tax, and setup can be completed in under an hour. Square offers card readers, point-of-sale systems, and a basic business checking account. Wise Business gives you a U.S. account number and routing number with low conversion fees for international transfers. But here is the important part. Processors are a bridge, not a permanent solution. You will still need a bank account for payouts, vendor payments, payroll, and building a U.S. credit history.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-6.wav",
+      "duration": 34.32
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Prepare Before You Walk In",
+      "bullets": [],
+      "narration": "Here is what I want you to take away from this walk down the banking street. Gather your documents, call ahead to confirm requirements, and set aside enough for the initial deposit plus a minimum balance buffer. If you are not in the U.S. yet, several online banking platforms offer fully remote account opening. Do not assume you need to visit a branch in person. Banking is one of the steps that catches founders off guard. But those who prepare their documents and have a backup plan get through it much faster. Module 2 covers the deeper financial picture \u00e2\u20ac\u201d credit history, tax setup, and the full banking reality. Let us head there next.",
+      "template": "intro",
+      "avatarScene": "lesson-1-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-3/lesson-1-3-scene-7.wav",
+      "duration": 36.56
+    }
+  ]
+}

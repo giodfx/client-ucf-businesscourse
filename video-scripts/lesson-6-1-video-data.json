@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-6-1",
+  "videoTitle": "Communication Styles \u00e2\u20ac\u201d What Americans Actually Mean",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "Beach / Shopping Center \u00e2\u20ac\u201d casual surface, serious business underneath",
+  "totalDuration": 290.960126,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome to the Beach \u00e2\u20ac\u201d Where the Water Looks Calm",
+      "bullets": [],
+      "narration": "Picture arriving at a wide Florida beach. The sand is warm, the atmosphere is relaxed, and everyone seems casual and easygoing. But step into the water and you feel the pull of strong currents just beneath the surface. U.S. business culture works the same way. It looks informal \u00e2\u20ac\u201d first names, casual dress, let us grab coffee \u00e2\u20ac\u201d but underneath there are serious expectations about speed, follow-through, and professionalism. A Brazilian founder's American contact said, this is great, let us definitely move forward. She spent three thousand dollars on legal fees drafting a partnership agreement. Two weeks later she learned that let us move forward meant I am interested enough to keep talking. That gap between words and meaning is what this lesson is about.",
+      "template": "intro",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-1.wav",
+      "duration": 43.28
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The Direct Parts \u00e2\u20ac\u201d Take Them Literally",
+      "bullets": [
+        "When an American gives a specific number, date, or action item, take it at face value",
+        "Send me the proposal by Friday means Friday \u00e2\u20ac\u201d not next week",
+        "Our budget is fifty thousand means fifty thousand \u00e2\u20ac\u201d not a starting point for negotiation",
+        "U.S. business emails are short \u00e2\u20ac\u201d three to five sentences \u00e2\u20ac\u201d match that style"
+      ],
+      "narration": "Let me help you read the currents. The direct parts are what you see on the surface \u00e2\u20ac\u201d clear, visible, easy to read. When an American gives you a specific number, date, or action item, take it literally. Send me the proposal by Friday means Friday. Our budget is fifty thousand means fifty thousand. These are not negotiating positions. They are facts on the table. U.S. business emails are short \u00e2\u20ac\u201d three to five sentences. Match that style. Long, formal emails with elaborate greetings and extended context feel out of step with American business norms. Get to the point. State what you need. Make the next step clear. That is what earns you credibility in the first exchange.",
+      "template": "split-left",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-2.wav",
+      "duration": 39.68
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "The Indirect Parts \u00e2\u20ac\u201d Learn to Feel the Current",
+      "bullets": [
+        "Let us circle back on this \u00e2\u20ac\u201d usually means not interested",
+        "That is really interesting \u00e2\u20ac\u201d polite deflection, not genuine engagement",
+        "Let me check with my team \u00e2\u20ac\u201d soft stall; no response in a week means they moved on",
+        "When Americans are interested, they take clear action: propose dates, send follow-ups"
+      ],
+      "narration": "Now the undercurrents. Americans avoid a direct no in business. They use softening phrases that founders frequently misread. Let us circle back on this usually means not interested. If they were, they would schedule a specific next step. That is really interesting is polite deflection. Genuine interest comes with follow-up questions. Let me check with my team is often a soft stall. No response in a week means they have moved on. We should get coffee sometime is a social pleasantry. If you want the meeting, propose a specific date. Here is the pattern. When Americans are genuinely interested, they take clear action. They propose dates, send follow-ups, and make introductions. When they are not, you hear vague praise and open-ended timelines. Watch what people do after meetings, not what they say during them.",
+      "template": "split-right",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-3.wav",
+      "duration": 46.48
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Speed Equals Professionalism",
+      "bullets": [
+        "Response time is a trust signal in U.S. business",
+        "Same-day reply: organized, reliable, serious",
+        "Three-day delay: not interested, not on top of things",
+        "Even a quick acknowledgment keeps the relationship warm"
+      ],
+      "narration": "In U.S. business, response time is a trust signal. A same-day email reply tells your contact you are organized, reliable, and serious about the relationship. Waiting three days to respond \u00e2\u20ac\u201d even if that delay is perfectly normal in your home culture \u00e2\u20ac\u201d signals that you are not interested or not on top of things. Aim to respond within four hours during business hours. Even a quick message like got it, I will send details by tomorrow keeps the relationship warm. Speed is not just helpful. In many U.S. business relationships, it is the single most important signal you can send. Start treating your response time as a credibility tool from your very first U.S. interaction.",
+      "template": "split-left",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-4.wav",
+      "duration": 37.440063
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Building Trust as an Outsider",
+      "bullets": [
+        "Respond quickly \u00e2\u20ac\u201d acknowledge emails even when you need more time",
+        "Follow through on small commitments \u00e2\u20ac\u201d every deadline met is a credibility deposit",
+        "Be transparent about problems \u00e2\u20ac\u201d honesty builds more trust than silence",
+        "Reduce perceived risk: U.S. phone number, professional website, LLC registration"
+      ],
+      "narration": "In the U.S., trust comes from delivery, not relationships. As one Colombian founder put it: back home, I would take a partner to dinner three times before discussing terms. Here, he wanted a working prototype before he would agree to lunch. Three actions build U.S. business trust. First, respond quickly. Second, follow through on small commitments. Send the document by Monday if you promised Tuesday. Every deadline met is a credibility deposit. Third, be transparent about problems. We hit a delay, here is our new timeline builds more trust than silence followed by excuses. And reduce perceived risk with local presence signals: a U.S. phone number, a professional website, a business email, a registered LLC. Even one U.S. testimonial carries significant weight with new contacts.",
+      "template": "split-right",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-5.wav",
+      "duration": 45.280063
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Communication Mistakes That Cost Money",
+      "bullets": [
+        "Mistaking warmth for a business deal \u00e2\u20ac\u201d watch for actions, not smiles",
+        "Spending too long on small talk before getting to business",
+        "Not sending written follow-up \u00e2\u20ac\u201d if it is not in writing, it did not happen",
+        "Assuming positive language means a deal is happening"
+      ],
+      "narration": "Here are the communication mistakes that cost international founders real money. Mistaking American warmth for a business deal. A warm meeting and a handshake are not a deal. Watch for clear follow-up actions, not smiles. Spending too long on small talk before getting to business. Long social lead-ins can look unfocused. Get to the business purpose within the first few minutes. Not sending written follow-up after meetings. In the U.S., if it is not in writing, it did not happen. Always send a recap email within twenty-four hours. And assuming positive language means a deal is happening. Americans are generous with praise during meetings. I love this or this is amazing can simply mean I find this interesting. Actions after the meeting tell you more than words during the meeting.",
+      "template": "split-left",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-6.wav",
+      "duration": 44.96
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Read the Currents Before You Wade In",
+      "bullets": [],
+      "narration": "The beach is open to everyone, but the currents are real. Learn to read them before you wade in deep. Be direct, be fast, and follow through. In U.S. business, trust is earned through action, not titles, degrees, or personal ties. Watch what Americans do after meetings, not what they say during them. When someone is genuinely interested, you will see specific next steps. When they are not, you will hear vague compliments and open-ended timelines. Next lesson: meetings, networking, and negotiation \u00e2\u20ac\u201d where we will cover the practical rules for how U.S. business relationships actually work.",
+      "template": "intro",
+      "avatarScene": "lesson-6-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-6-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-6-1/lesson-6-1-scene-7.wav",
+      "duration": 33.84
+    }
+  ]
+}

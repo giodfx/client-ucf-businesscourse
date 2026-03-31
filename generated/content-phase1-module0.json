@@ -25,16 +25,29 @@
         {
           "type": "text",
           "id": "text-0-1-0",
-          "title": "Time Commitment & Program Introduction",
-          "content": "<p>What if the biggest risk in expanding to the U.S. is not what you think it is? Most founders assume the hard part is paperwork. The real challenge is knowing what you do not know.</p>\n\n<p>Here's where this program fits in. It takes less than 3 hours and covers the legal, financial, and cultural realities of running a business in the United States: entity setup, Florida filing, banking, taxes, insurance, hiring, finding customers, and cultural gaps.</p>\n\n<p>What does that mean for you? Think of this as the start of a road trip through Central Florida's business landscape. Your GPS is loaded, your dashboard is lit, and seven destinations stretch out ahead of you. By the time you return, you will know the territory, even if you decide not to move there yet.</p>\n\n<p>This program is the first step in getting ready for the U.S. market. It is low-commitment on purpose: a hands-on intro to help you grasp what it takes, think about whether expanding makes sense, and avoid costly early mistakes. Some companies may be invited to join more advanced support through the UCF Business Incubation Program, with hands-on advising and incubation.</p>\n\n<p>You are here because you have built a business that works in your home market, and now you are exploring how to extend that success into the United States.</p>\n\n<p>At this stage, many founders feel pressure to \"get started\" quickly. Many do it in reverse: they register an LLC, open a bank account, and only then start figuring out product-market fit. This program flips that order.</p>\n\n<p><strong>Learn first, then decide.</strong></p>\n\n<p>Every module blends practical tips and curated resources to give you a clear, real-world view of how business works in the United States. You'll avoid costly mistakes and make smart choices. The program is self-paced, with no deadlines or exams.</p>",
+          "title": "What It Actually Takes",
+          "content": "<p>What if the biggest risk in expanding to the U.S. is not what you think it is? Most founders assume the hard part is paperwork. The real challenge is knowing what you do not know.</p>\n\n<p>This program takes less than 3 hours and covers the legal, financial, and cultural realities of running a business in the United States: entity setup, Florida filing, banking, taxes, insurance, hiring, finding customers, and cultural gaps.</p>\n\n<p>Think of this as the start of a road trip through Central Florida's business landscape. Your GPS is loaded, your dashboard is lit, and seven destinations stretch out ahead of you. By the time you return, you will know the territory, even if you decide not to move there yet.</p>",
           "wordCount": 306
+        },
+        {
+          "type": "text",
+          "id": "text-0-1-learn-first",
+          "title": "Learn First, Then Decide",
+          "content": "<p>This program is the first step in getting ready for the U.S. market. It is low-commitment on purpose: a hands-on intro to help you grasp what it takes, think about whether expanding makes sense, and avoid costly early mistakes. Some companies may be invited to join more advanced support through the UCF Business Incubation Program.</p>\n\n<p>At this stage, many founders feel pressure to \"get started\" quickly. Many do it in reverse: they register an LLC, open a bank account, and only then start figuring out product-market fit. This program flips that order. <strong>Learn first, then decide.</strong></p>\n\n<p>Every module blends practical tips and curated resources to give you a clear, real-world view of how business works in the United States. The program is self-paced, with no deadlines or exams.</p>"
+        },
+        {
+          "type": "callout",
+          "id": "callout-0-1-funfact",
+          "variant": "fun-fact",
+          "title": "Did You Know?",
+          "content": "<p>Interstate 4 (I-4), the highway that runs through the heart of Central Florida, connects two of the fastest-growing metropolitan areas in the United States: Orlando and Tampa. The 132-mile corridor between them has been called one of the most important economic corridors in the Southeast, generating over $200 billion in combined regional GDP. The same highway that takes you past theme parks, tech campuses, and launch pads also connects the business support infrastructure you will explore in this program.</p>"
         },
         {
           "type": "callout",
           "id": "callout-0-1-legal",
           "variant": "reality-check",
-          "title": "Legal & Educational Disclaimer",
-          "content": "<p><strong>This program provides general educational information to help international founders understand the U.S. business environment. It does not constitute legal, tax, immigration, or financial advice.</strong></p>\n\n<p>The content is meant to offer practical guidance and raise awareness of common issues, but it is not a substitute for advice from qualified experts. Founders should talk to legal, tax, financial, and immigration advisors before making business choices.</p>\n\n<p>Every business is different. The entity type that works for one company may not be right for another. Tax duties vary based on your home country and any treaties in place. Banking needs, rules, and market conditions can differ, and may change over time.</p>\n\n<p>While this program draws on real-world experience and curated resources, no guarantees are made about outcomes, timelines, or success in the U.S. market. Choices made based on this content are the founder's own duty.</p>\n\n<p>Mentions of outside groups, service providers, or resources are for general info only and do not mean we endorse them or have formal ties.</p>\n\n<p><strong>Always confirm critical details with qualified professionals before committing time, money, or entering into agreements.</strong></p>"
+          "title": "Legal, Immigration & Educational Disclaimer",
+          "content": "<p><strong>This program provides general educational information to help international founders understand the U.S. business environment. It does not constitute legal, tax, immigration, or financial advice.</strong></p>\n\n<p>The content is meant to offer practical guidance and raise awareness of common issues, but it is not a substitute for advice from qualified experts. Founders should talk to legal, tax, financial, and immigration advisors before making business choices. Every business is different — entity types, tax duties, banking needs, and market conditions vary based on your home country, treaties in place, and individual circumstances.</p>\n\n<p><strong>Immigration & Visa Topics:</strong> Immigration law in the United States is complex, changes often, and depends heavily on your own situation. Module 4 provides a high-level overview of common visa pathways relevant to international founders — it is meant to help you understand what options exist, not to recommend a specific path. Finishing this program does not affect or improve your odds for any visa or immigration outcome. <strong>Talk to a qualified immigration attorney before making any choices about your visa status or immigration plan.</strong></p>\n\n<p>No guarantees are made about outcomes, timelines, or success in the U.S. market. Mentions of outside groups, service providers, or resources are for general info only and do not mean we endorse them or have formal ties. <strong>Always confirm critical details with qualified professionals before committing time, money, or entering into agreements.</strong></p>"
         },
         {
           "type": "text",
@@ -44,18 +57,33 @@
           "wordCount": 128
         },
         {
-          "type": "callout",
-          "id": "callout-0-1-imm",
-          "variant": "reality-check",
-          "title": "A Note on Immigration & Visa Topics",
-          "content": "<p><strong>This program provides a high-level overview of immigration and visa topics relevant to international founders. It is intended for general awareness only and does not constitute legal or immigration advice.</strong></p>\n\n<p>Immigration law in the United States is complex, changes often, and depends heavily on your own situation. The info in this program is not enough to make visa or immigration choices.</p>\n\n<p>In Module 4, you will see an overview of common visa pathways that may be relevant when entering the U.S. market. This overview is meant to help you understand what options exist, not to recommend a specific path.</p>\n\n<p>Finishing this program does not affect or improve your odds for any visa or immigration outcome.</p>\n\n<p>Because the stakes are high, <strong>talk to a qualified immigration attorney before making any choices about your visa status or immigration plan.</strong></p>"
+          "type": "text",
+          "id": "text-0-1-themes-intro",
+          "title": "Four Themes That Will Guide You",
+          "content": "<p>Throughout this program, every lesson connects back to four practical themes. These are not abstract ideas — they are the patterns that separate founders who succeed in the U.S. from those who lose time and money learning the hard way. Explore each theme below.</p>"
         },
         {
-          "type": "text",
-          "id": "text-0-1-2",
-          "title": "Four Themes You Will See Throughout This Course",
-          "content": "<p>Every module is built around four recurring themes. Recognizing them now will help you get the most from every lesson.</p>\n\n<h4>Reduce Risk</h4>\n<p>Let's put this in perspective. Understand the rules and requirements before spending money. Knowing the rules and planning ahead are the best ways to avoid costly surprises.</p>\n\n<h4>Watch Your Money</h4>\n<p>Individual setup costs may seem small, but they add up. Every module includes realistic cost ranges so you can budget accurately and avoid overspending.</p>\n\n<h4>Avoid Common Mistakes</h4>\n<p>Learn from the challenges other international founders have faced. Each module highlights frequent errors at that stage and shows ways to prevent them.</p>\n\n<h4>Understand U.S. Business Culture</h4>\n<p>U.S. business runs on speed, direct talk, and written proof of deals. A friendly chat does not replace contracts or signed commitments. Module 6 covers this in detail, but cultural awareness shows up throughout the course.</p>",
-          "wordCount": 140
+          "type": "tabs",
+          "id": "int-0-1-1",
+          "title": "Course Themes — Your Four Guideposts",
+          "tabs": [
+            {
+              "label": "Understand Culture",
+              "content": "**U.S. business culture has unwritten rules** that trip up even experienced international entrepreneurs.\n\nThroughout this course, look for the cultural insight callouts that decode American business behavior — from communication styles to meeting etiquette to how Americans actually make buying decisions."
+            },
+            {
+              "label": "Avoid Costly Mistakes",
+              "content": "**The most expensive lessons are the ones you learn the hard way.** Each module highlights the common mistakes that international founders make — and how to avoid them.\n\nPay special attention to the 'Before You Spend' and 'Watch the Money' callouts that flag decisions with real financial consequences."
+            },
+            {
+              "label": "Reduce Risk",
+              "content": "**Smart founders don't just move fast — they manage risk.** We'll show you how to protect your intellectual property, structure your entity correctly, and navigate compliance requirements.\n\nThe goal: make informed decisions that keep your personal assets and business operations safe."
+            },
+            {
+              "label": "Watch Your Money",
+              "content": "**Starting a U.S. business doesn't have to break the bank.** We'll show you free and low-cost alternatives for legal, banking, and support services.\n\nEvery module includes practical cost comparisons so you can budget realistically and avoid overspending on things you don't need yet."
+            }
+          ]
         },
         {
           "type": "callout",
@@ -65,24 +93,11 @@
           "content": "<p>Think about the mistakes that cost founders the most. Each module includes a callout showing frequent mistakes that founders run into at that stage. Knowing these now can help you avoid costly or slow errors later.</p>\n\n<ul><li><strong>Module 1 (Legal Setup):</strong> Choosing the wrong entity type for your visa or tax situation. <em>Tip: Confirm entity selection with legal and tax professionals.</em></li><li><strong>Module 2 (Finances):</strong> Overlooking U.S. sales tax obligations due to differences from your home country.</li><li><strong>Module 3 (Protection):</strong> Assuming your home-country IP registration automatically protects you in the U.S.</li><li><strong>Module 4 (Team):</strong> Misclassifying employees as independent contractors, risking penalties.</li><li><strong>Module 5 (Customers):</strong> Launching with home-market pricing that does not reflect U.S. expectations.</li><li><strong>Module 6 (Culture):</strong> Assuming informal or friendly interactions equate to formal business agreements.</li><li><strong>Module 7 (Ecosystem):</strong> Overpaying for advice when free or low-cost government or nonprofit resources are available.</li></ul>\n\n<p><strong>Key Insight:</strong> Ignoring these mistakes can cost you time, money, and trust. Spot them early to plan wisely and avoid extra risk.</p>"
         },
         {
-          "type": "table",
-          "id": "table-0-1-themes",
-          "title": "Core Themes & Common Pitfalls — Your Map to U.S. Market Readiness",
-          "content": "<p>Every module is guided by four recurring themes and highlights frequent mistakes international founders make. Use this as a quick reference throughout the program.</p>\n\n<table><thead><tr><th>Theme</th><th>What It Means</th><th>Common Pitfall</th></tr></thead><tbody><tr><td><strong>Reduce Risk</strong></td><td>Know the rules before you spend money</td><td>Acting before understanding requirements</td></tr><tr><td><strong>Watch Your Money</strong></td><td>Track real costs at every stage</td><td>Underestimating cumulative setup expenses</td></tr><tr><td><strong>Avoid Common Mistakes</strong></td><td>Learn from others who went before you</td><td>Assuming your home-country experience transfers directly</td></tr><tr><td><strong>Understand the Culture</strong></td><td>U.S. business norms are different</td><td>Confusing friendliness with commitment</td></tr></tbody></table>\n\n<p><strong>Key Takeaway:</strong> U.S. expansion is a strategy, not a registration checklist. Skipping any dimension (Legal, Financial, Cultural, or Market) creates gaps that cost time and money.</p>"
-        },
-        {
-          "type": "callout",
-          "id": "callout-0-1-timeline",
-          "variant": "reality-check",
-          "title": "Typical Timeline for U.S. Market Setup",
-          "content": "<p>Here's where expectations meet reality. Founders often ask: \"How long does it take to get set up in the U.S.?\"</p>\n\n<p>There is no single answer. Every business and founder experience is unique. Based on typical international founder experiences:</p>\n\n<ul><li><strong>Entity formation:</strong> Often completed in a few days online, but may take longer if additional documentation is required.</li><li><strong>EIN application:</strong> Can be instant with a U.S. address; international submissions may take several weeks.</li><li><strong>Bank account setup:</strong> Timelines vary widely depending on the bank, documents, and founder circumstances.</li><li><strong>First customers / market entry:</strong> Building trust, completing vendor onboarding, and meeting insurance or procurement requirements can take several weeks to months.</li></ul>\n\n<p><strong>Key Takeaway:</strong> Plan with realistic goals, confirm details with service providers, and stay flexible. Your own timeline may be shorter or longer. Focus on knowing the process, not hitting a fixed date.</p>"
-        },
-        {
           "type": "text",
           "id": "text-0-1-3",
           "title": "How to Use This Program",
-          "content": "<p>Think of this program as a road trip through Central Florida's business landscape. You are behind the wheel, and each module is a destination, from the city center where businesses form, to the financial district where banking happens, to the rocket base where you protect your ideas. Your dashboard shows all the stops, and you choose where to go first.</p>\n\n<p>Here is the thing. This self-paced program is designed for flexibility. You can complete modules in any order and take multiple sessions to finish.</p>\n\n<p><strong>Navigation:</strong> Every module stands alone. Jump to the destinations that match your priorities.</p>\n\n<p><strong>Knowledge Checks:</strong> Short, ungraded checks help confirm key concepts. Unlimited attempts, no penalties.</p>\n\n<p><strong>Recurring Callouts:</strong> Look for \"Common Mistakes\" and \"Watch Your Money\" in every module to highlight practical tips and avoid costly missteps.</p>\n\n<p><strong>Resources:</strong> Module 8 includes a Market Entry Checklist, Florida Setup Roadmap, Central Florida Resource Guide, and Expansion Decision Worksheet.</p>\n\n<p><strong>Beyond Phase 1:</strong> Joining Phases 2 and 3 of UCF BIP is selective and based on readiness, business stage, and program criteria.</p>\n\n<p><strong>Key Advice:</strong> Dig into the content first, verify details with qualified experts, and plan well before committing time or money.</p>",
-          "wordCount": 193
+          "content": "<p>Think of this program as a road trip through Central Florida's business landscape. You are behind the wheel, and each module is a destination, from the city center where businesses form, to the financial district where banking happens, to the rocket base where you protect your ideas. Your dashboard shows all the stops, and you choose where to go first.</p>\n\n<p>This self-paced program is designed for flexibility. You can complete modules in any order and take multiple sessions to finish.</p>\n\n<p><strong>Navigation:</strong> Every module stands alone. Jump to the destinations that match your priorities.</p>\n\n<p><strong>Knowledge Checks:</strong> Short, ungraded checks help confirm key concepts. Unlimited attempts, no penalties.</p>\n\n<p><strong>Recurring Callouts:</strong> Look for \"Common Mistakes\" and \"Watch Your Money\" in every module to highlight practical tips and avoid costly missteps.</p>\n\n<p><strong>Resources:</strong> Module 8 includes a Market Entry Checklist, Florida Setup Roadmap, Central Florida Resource Guide, and Expansion Decision Worksheet.</p>\n\n<p><strong>Beyond Phase 1:</strong> Joining Phases 2 and 3 of UCF BIP is selective and based on readiness, business stage, and program criteria.</p>\n\n<p><strong>Key Advice:</strong> Dig into the content first, verify details with qualified experts, and plan well before committing time or money.</p>\n\n<h4>Typical Timeline</h4>\n<p>Founders often ask: \"How long does it take to get set up in the U.S.?\" There is no single answer — every business and founder experience is unique. Based on typical international founder experiences:</p>\n\n<ul><li><strong>Entity formation:</strong> Often completed in a few days online, but may take longer if additional documentation is required.</li><li><strong>EIN application:</strong> Can be instant with a U.S. address; international submissions may take several weeks.</li><li><strong>Bank account setup:</strong> Timelines vary widely depending on the bank, documents, and founder circumstances.</li><li><strong>First customers / market entry:</strong> Building trust, completing vendor onboarding, and meeting insurance or procurement requirements can take several weeks to months.</li></ul>\n\n<p>Plan with realistic goals, confirm details with service providers, and stay flexible. Your own timeline may be shorter or longer. Focus on knowing the process, not hitting a fixed date.</p>",
+          "wordCount": 320
         },
         {
           "type": "reflection",
@@ -93,42 +108,42 @@
         },
         {
           "type": "knowledge-check",
-          "id": "kc-0-1-1",
-          "title": "Quick Check: What Would You Do?",
+          "id": "kc-0-1",
+          "title": "What Would You Do?",
           "placement": "end-of-lesson",
           "questions": [
             {
               "stem": "You are reviewing the steps for expanding your business to the U.S. (entity setup, banking, taxes, hiring). How should you approach this process?",
               "options": [
-                "Treat it like a checklist: complete the paperwork and move on",
                 "Take time to plan across legal, financial, cultural, and market dimensions",
+                "Treat it like a checklist: complete the paperwork and move on",
                 "Focus only on forming an LLC and opening a bank account",
                 "Wait to think about strategy until after your first sale"
               ],
-              "correctAnswer": 1,
-              "explanation": "U.S. expansion is a strategy, not a checklist. Skipping planning across legal, financial, cultural, or market areas creates costly gaps."
+              "correctAnswer": 0,
+              "explanation": "U.S. expansion is a strategy, not a checklist. Treating it as simple paperwork, focusing only on an LLC and bank account, or waiting until after your first sale all leave critical gaps in legal, financial, cultural, or market planning that surface later at higher cost."
             },
             {
               "stem": "You are trying to plan your timeline for getting your U.S. operations ready. What is the most realistic approach?",
               "options": [
                 "Expect to be fully operational in 1-2 weeks",
-                "Plan for 3-6 months, including setup, compliance, and customer onboarding",
                 "Assume it takes about 30 days, but adjust if needed",
-                "Timelines do not matter as long as paperwork is filed"
+                "Focus exclusively on finding the cheapest business formation option",
+                "Plan for 3-6 months, including setup, compliance, and customer onboarding"
               ],
-              "correctAnswer": 1,
-              "explanation": "Planning 3-6 months for operations helps set realistic expectations and reduces frustration."
+              "correctAnswer": 3,
+              "explanation": "Entity formation may take only days, but banking, compliance, and customer onboarding stretch the realistic timeline to 3-6 months. Expecting to be operational in 1-2 weeks ignores banking delays and compliance steps. A 30-day estimate underestimates the time needed for bank approvals, tax setup, and market entry. Focusing only on cost overlooks the timeline and strategic planning that drive long-term success."
             },
             {
               "stem": "You are estimating early costs (licenses, insurance, professional fees, and office setup). How do you make sure you are budgeting wisely?",
               "options": [
                 "Assume costs are minimal since each item is small",
-                "Use realistic cost ranges for each step and watch cumulative expenses",
                 "Only worry about costs once you have revenue",
+                "Use realistic cost ranges for each step and watch cumulative expenses",
                 "Budget the same as your home country's setup costs"
               ],
-              "correctAnswer": 1,
-              "explanation": "Knowing cumulative costs in advance protects your budget and avoids surprises."
+              "correctAnswer": 2,
+              "explanation": "Individual setup costs may seem small, but they add up quickly across filing fees, registered agents, legal documents, banking, and insurance. Assuming costs are minimal ignores cumulative expenses that can reach thousands of dollars. Waiting until you have revenue means committing money you have not budgeted for. Home-country costs rarely translate directly because U.S. fees, compliance requirements, and professional service rates differ significantly."
             }
           ]
         },

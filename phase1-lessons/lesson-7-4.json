@@ -1,108 +1,146 @@
 {
   "lessonId": "lesson-7-4",
   "moduleId": "module-7",
-  "title": "UCF BIP Programs — Your Next Step",
-  "duration": 6,
+  "landscapeTheme": "River Springs",
+  "title": "The LATAM Trade Corridor — Your Location Decision",
+  "duration": 4,
   "objectives": [
-    "Describe UCF BIP phases 2 and 3 of the market entry/soft landing program and who each is designed for",
-    "Identify community resources specifically for international founders (Hispanic Chamber, Prospera, CFITO)",
-    "Explain the next steps to engage with UCF BIP after completing this program"
+    "Analyze LATAM trade corridor data (flight routes, port volume, bilingual workforce percentage) to evaluate market-bridging potential",
+    "Compare Central Florida's practical advantages and trade-offs against Miami, NYC, Silicon Valley, and Austin for your specific business",
+    "Build a weighted location decision framework using real cost and connectivity data"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-7-4-1",
-      "title": "UCF Business Incubation Program — Your Pathway Forward",
-      "content": "<p>Now that we have covered entity setup, finance, IP, hiring, product adaptation, culture, and regional resources, the question is: what concrete support is available next? UCF BIP helps international founders turn knowledge into action. This Phase 1 program is the introduction. The hands-on support comes in phases 2 and 3.</p>\n\n<h4>Phases 2 and 3 of the UCF BIP Market Entry / Soft Landing Program</h4>\n\n<p>Let's break this down. <strong>Phase 2</strong> is for founders who have validated their market opportunity and are ready to establish initial U.S. operations:</p>\n\n<ul><li>One-on-one mentorship with industry-experienced advisors</li><li>UCF BIP workspace and professional business address</li><li>Structured introductions to customers, partners, and service providers</li><li>Advanced workshops: investor readiness, sales strategy, regulatory compliance</li><li>Peer community of international founders at a similar stage</li></ul>\n\n<p><strong>Phase 3</strong> is for founders with initial traction : early customers, revenue, or a signed partnership:</p>\n\n<ul><li>Growth strategy development with experienced advisors</li><li>Investor community connections (when ready)</li><li>Expanded networking through BIP's alumni network and partners</li><li>Operational support for hiring, legal, and financial infrastructure</li><li>Continued workspace and resource access</li></ul>\n\n<p>The transition between phases adapts to your pace. The goal is progress, not speed.</p>",
-      "wordCount": 186
-    },
-    {
-      "type": "text",
-      "id": "text-7-4-cs",
-      "title": "Success Stories — Companies That Benefited from UCF BIP",
-      "content": "<p>International founders have used UCF BIP to launch and grow U.S. operations across a range of industries:</p><blockquote><p><strong>[PENDING: Brian to provide company details]</strong> Company A came to UCF BIP from [country] with a [product/service] focused on [industry]. Through the program, they [established their first U.S. customer/secured a partnership/achieved specific revenue milestone]. The company now [current status : number of employees, revenue range, or market presence].</p></blockquote><blockquote><p>Here is the practical takeaway. <strong>[PENDING: Brian to provide company details]</strong> Company B arrived from [country] with a [product/service] in the [industry] sector. Through phases 2 and 3, they [specific outcome — formed key partnership, expanded into additional U.S. markets, raised funding].</p></blockquote><blockquote><p><strong>[PENDING: Brian to provide company details]</strong> Company C relocated from [country] to Central Florida through UCF BIP. Within [timeframe], they had [measurable outcome : customer count, revenue, partnership, or other milestone].</p></blockquote><p>These case studies will be updated with specific company details. The common thread: structured support made the difference between struggling alone and progressing with guidance.</p>",
-      "wordCount": 163
+      "title": "LATAM Trade Corridor — The Data",
+      "content": "<p>Now, here is where it gets interesting for LATAM founders. Just as Florida's spring-fed rivers eventually reach the coast and connect to the ocean, Central Florida's trade infrastructure connects directly to Latin American markets. The corridor data is clear:</p>\n\n<h4>Air Connectivity</h4>\n\n<p>MCO: direct flights to 30+ Latin American cities (Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose). ~58 million passengers in 2025, top 10 busiest U.S. airports. Terminal C (2022) added 15 international gates.</p>\n\n<h4>Port and Trade Volume</h4>\n\n<p>Florida's seaports handle $150B+ in international trade annually. Port Tampa Bay and Port Canaveral (60-90 min from Orlando) connect Latin America, the Caribbean, and the U.S. interior. Florida is the #1 U.S. state for LATAM/Caribbean trade by value.</p>\n\n<h4>Bilingual Workforce</h4>\n\n<p>30%+ of metro Orlando speaks Spanish. Bilingual accountants, attorneys, marketers, and sales professionals operate across English and Spanish daily. Hiring bilingual staff here costs much less than in Miami.</p>\n\n<h4>Growth Projections</h4>\n\n<p>Florida's LATAM trade grows ~4-5% annually. State population projected to reach 25 million by 2030 (from ~23M in 2025), which means an expanding customer base and workforce.</p>",
+      "wordCount": 172
     },
     {
       "type": "text",
       "id": "text-7-4-2",
-      "title": "Community Resources for International Founders",
-      "content": "<p>UCF BIP is one part of a larger ecosystem. Key complementary organizations:</p>\n\n<h4>Hispanic Chamber of Commerce of Metro Orlando</h4>\n\n<p>Membership ($200-$400/year): networking events, business workshops, advocacy. Monthly events connect you with established bilingual business owners and service providers.</p>\n\n<h4>Prospera</h4>\n\n<p>Nonprofit supporting Hispanic entrepreneurs: one-on-one mentoring, business training, micro-lending. Free or low-cost. Guidance from mentors who have navigated the same cultural transition.</p>\n\n<h4>CFITO (Central Florida International Trade Office)</h4>\n\n<p>Structured trade delegations : market research, partner identification, face-to-face meetings. Essential if your business involves LATAM/Caribbean import-export.</p>\n\n<h4>SCORE</h4>\n\n<p>Free volunteer business mentors (many retired executives). The Orlando chapter matches you by industry for ongoing coaching.</p>",
-      "wordCount": 102
+      "title": "How Central Florida Compares",
+      "content": "<p>International founders typically consider four U.S. entry points: Central Florida, Miami, New York City, and Austin or Silicon Valley. Each has real trade-offs in cost, access, culture, and infrastructure. The comparison below breaks down what each market actually offers — and where Central Florida has an edge.</p>",
+      "wordCount": 171
+    },
+    {
+      "type": "tabs",
+      "id": "int-7-4-1",
+      "title": "Central Florida vs. Other U.S. Entry Points",
+      "tabs": [
+        {
+          "label": "Central Florida",
+          "content": "**Cost of living:** 15–30% below coastal metros\n\n**Office space:** $22–$35/sq ft (Class A)\n\n**Tax advantage:** No state income tax\n\n**LATAM community:** Large and growing — strong Brazilian, Colombian, Venezuelan presence\n\n**Industry focus:** Tech, simulation, hospitality, healthcare, defense\n\n**Best for:** Cost-conscious founders who want access to talent and a supportive ecosystem"
+        },
+        {
+          "label": "Miami",
+          "content": "**Cost of living:** 20–40% higher than Orlando\n\n**Office space:** $45–$65/sq ft (Class A)\n\n**Tax advantage:** No state income tax (same as Orlando)\n\n**LATAM community:** Largest in the U.S. — business conducted in Spanish/Portuguese\n\n**Industry focus:** Finance, real estate, trade, crypto\n\n**Best for:** FinTech founders who need proximity to Latin American trade routes"
+        },
+        {
+          "label": "New York City",
+          "content": "**Cost of living:** 2–3x higher than Orlando\n\n**Office space:** $60–$100+/sq ft\n\n**Tax burden:** State + city income tax (up to 12.7% combined)\n\n**LATAM community:** Large but dispersed across metro area\n\n**Industry focus:** Finance, media, fashion, enterprise SaaS\n\n**Best for:** Founders targeting Fortune 500 enterprise sales who need face-to-face access"
+        },
+        {
+          "label": "Austin / Silicon Valley",
+          "content": "**Cost of living:** Austin: comparable to Orlando. SV: 2–4x higher.\n\n**Office space:** Austin: $35–$55/sq ft. SV: $60–$90/sq ft\n\n**Tax advantage:** Texas: no state income tax. California: up to 13.3%\n\n**LATAM community:** Growing in Austin, moderate in SV\n\n**Industry focus:** Deep tech, AI, enterprise, VC ecosystem\n\n**Best for:** Founders seeking VC funding who need to be in the 'startup capital' network"
+        }
+      ]
+    },
+    {
+      "type": "data-visualization",
+      "id": "dataviz-7-4",
+      "title": "Your Dollar Goes Further — Startup Runway by City",
+      "chartType": "comparison-bars-with-runway",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Your Dollar Goes Further — Startup Runway by City</h3><p style=\"margin: 0 0 20px 0; font-size: 0.85rem; color: #666;\">How long $500K seed money lasts based on monthly burn rate</p><div style=\"display: flex; flex-direction: column; gap: 14px;\"><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.88rem; font-weight: 700; color: #E8A838;\">Central Florida</span><span style=\"font-size: 0.78rem; color: #666;\">$30K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 38px; overflow: hidden;\"><div style=\"width: 100%; height: 100%; background: linear-gradient(90deg, #E8A838 0%, #F5C842 100%); border-radius: 4px; display: flex; align-items: center; justify-content: space-between; padding: 0 12px;\"><span style=\"font-size: 0.82rem; font-weight: 700; color: #fff;\">16.7 months</span><span style=\"font-size: 0.7rem; font-weight: 500; color: rgba(255,255,255,0.9);\">+6.7 mo vs SV</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Austin</span><span style=\"font-size: 0.78rem; color: #666;\">$38K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 79%; height: 100%; background: #48B07A; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">13.2 months</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Miami</span><span style=\"font-size: 0.78rem; color: #666;\">$42K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 71%; height: 100%; background: #2C5F8A; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">11.9 months</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Silicon Valley</span><span style=\"font-size: 0.78rem; color: #666;\">$50K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 60%; height: 100%; background: #D4622B; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">10.0 months</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">NYC</span><span style=\"font-size: 0.78rem; color: #666;\">$55K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 55%; height: 100%; background: #1A3A5C; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">9.1 months</span></div></div></div></div><div style=\"margin-top: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;\"><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">LATAM Direct Flights (MCO)</div><div style=\"font-size: 1rem; font-weight: 700; color: #1A3A5C;\">30+ cities</div></div><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">Bilingual Workforce</div><div style=\"font-size: 1rem; font-weight: 700; color: #1A3A5C;\">30%+ of metro</div></div><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">State Income Tax</div><div style=\"font-size: 1rem; font-weight: 700; color: #48B07A;\">0%</div></div><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">Florida VC (2024)</div><div style=\"font-size: 1rem; font-weight: 700; color: #1A3A5C;\">~$5.5B</div></div></div><div style=\"margin-top: 16px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\">Central Florida gives you <strong>6–7 extra months</strong> of runway compared to Silicon Valley on the same $500K seed round.</div></div>",
+      "data": {
+        "seedFunding": 500000,
+        "cities": [
+          { "label": "Central Florida", "monthlyBurn": 30000, "runway": 16.7, "color": "#E8A838", "highlight": true },
+          { "label": "Austin", "monthlyBurn": 38000, "runway": 13.2, "color": "#48B07A" },
+          { "label": "Miami", "monthlyBurn": 42000, "runway": 11.9, "color": "#2C5F8A" },
+          { "label": "NYC", "monthlyBurn": 55000, "runway": 9.1, "color": "#1A3A5C" },
+          { "label": "Silicon Valley", "monthlyBurn": 50000, "runway": 10.0, "color": "#D4622B" }
+        ],
+        "insight": "Central Florida gives you 6-7 extra months of runway compared to Silicon Valley on the same $500K seed round.",
+        "supplementary": {
+          "title": "Key Location Factors",
+          "items": [
+            { "label": "LATAM Direct Flights (MCO)", "value": "30+ cities" },
+            { "label": "Bilingual Workforce", "value": "30%+ of metro Orlando" },
+            { "label": "State Income Tax", "value": "0% (Florida)" },
+            { "label": "Florida VC (2024)", "value": "~$5.5B (~4% of U.S.)" }
+          ]
+        }
+      },
+      "accessibilityNote": "Horizontal bar chart showing startup runway from a $500K seed round in 5 cities. Central Florida leads with 16.7 months at $30K monthly burn, highlighted in gold. Austin gets 13.2 months at $38K burn. Miami gets 11.9 months at $42K burn. Silicon Valley gets 10.0 months at $50K burn. NYC gets 9.1 months at $55K burn. Central Florida provides 6 to 7 extra months of runway compared to Silicon Valley. Supplementary data shows 30+ LATAM direct flights from MCO, 30%+ bilingual workforce, 0% state income tax, and approximately $5.5B in Florida venture capital in 2024."
     },
     {
       "type": "callout",
-      "id": "callout-7-4-reduce",
-      "variant": "theme-reduce-risk",
-      "title": "Reduce Risk — Don't Go It Alone",
-      "content": "<p>The founders who succeed in the U.S. market use their support network. They join chambers, attend SBDC workshops, participate in UCF BIP advisory sessions, and connect with mentors through SCORE. The cost of engagement is minimal. The cost of isolation is high. Founders who have been through this process tend to say the same thing: the network mattered as much as the knowledge.</p>"
+      "id": "callout-7-4-latam",
+      "variant": "latam-supplement",
+      "title": "Latin America Focus — Trade Data Resources",
+      "content": "<ul><li><strong>CFITO upcoming trade delegations</strong> . Check cfito.org for the current calendar of delegations to Latin American markets</li><li><strong>SelectFlorida</strong> . International business development resources and trade data from the state of Florida (selectflorida.org)</li><li><strong>Florida Department of State, Office of International Affairs</strong> . State-level trade statistics and international business relationships (dos.fl.gov)</li><li><strong>Orange County Global Investment Office</strong> . Local government resources and FDI data for international businesses locating in Orange County</li></ul>"
     },
     {
-      "type": "text",
-      "id": "text-7-4-3",
-      "title": "Your Next Steps After This Program",
-      "content": "<p>You are almost finished with Phase 1. Here is what happens next:</p>\n\n<h4>Step 1: Complete the Self-Assessment (Module 8)</h4>\n\n<p>A structured self-assessment of your U.S. market readiness — not a test, but a tool to identify confident areas and gaps. The results guide your UCF BIP conversation.</p>\n\n<h4>Step 2: Schedule a 1:1 Meeting with UCF BIP</h4>\n\n<p>Your chance to:</p>\n\n<ul><li>Discuss your specific business and market entry plans</li><li>Ask about phases 2 and 3 of the market entry/soft landing program</li><li>Get tailored resource recommendations</li><li>Identify your three to five most important next steps</li></ul>\n\n<h4>Step 3: Connect with Your Support Network</h4>\n\n<p>Before your 1:1, take one concrete action:</p>\n\n<ul><li>Schedule a free SBDC counseling session (floridasbdc.org)</li><li>Register for a chamber or networking event</li><li>Contact CFITO about trade programs</li><li>Sign up for SCORE mentoring</li></ul>\n\n<p>Showing up already in motion helps the team advise you more effectively.</p>",
-      "wordCount": 142
+      "type": "callout",
+      "id": "callout-7-4-rc",
+      "variant": "reality-check",
+      "title": "Reality Check — Numbers Don’t Tell the Whole Story",
+      "content": "<p>Think about this carefully. The data favors Central Florida on cost and trade connectivity, but be honest about what the numbers do NOT capture:</p>\n\n<ul><li><strong>Vehicle costs add $300-$600/month.</strong> Orlando is car-dependent. Public transit is limited. Factor this into your cost comparison. It partially offsets the housing savings vs. NYC (where you may not need a car).</li><li><strong>The tech talent pool is smaller.</strong> UCF produces 10,000+ STEM grads/year, but the total tech workforce is a fraction of NYC’s or Silicon Valley’s. Specialized roles (ML engineers, senior DevOps) may require remote hiring.</li><li><strong>VC funding is growing but concentrated elsewhere.</strong> Florida attracted about $5.5B in venture capital in 2024 — roughly 4% of the U.S. total. California captured 48%. Build traction here, but plan to pitch investors nationally.</li></ul>\n\n<p>These gaps are measurable and manageable — but factor them into your choice.</p>"
     },
     {
       "type": "knowledge-check",
-      "id": "kc-7-4-1",
-      "title": "UCF BIP Programs Check",
+      "id": "kc-7-4",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "What is the PRIMARY difference between Phase 2 and Phase 3 of the UCF BIP market entry/soft landing program?",
+          "stem": "What combination of data points makes Central Florida a strong LATAM trade corridor?",
           "options": [
-            "Phase 2 is free and Phase 3 requires payment",
-            "Phase 2 focuses on establishing initial U.S. operations, while Phase 3 focuses on scaling with early traction",
-            "Phase 2 is for technology companies only, Phase 3 is for all industries",
-            "Phase 2 is virtual and Phase 3 requires physical relocation to Orlando"
+            "Zero state income tax and low LLC filing fees",
+            "30+ direct flights to Latin American cities from MCO, Florida's #1 ranking in U.S.-LATAM trade by value, and a 30%+ Spanish-speaking metro population",
+            "A growing tech workforce, 10,000+ STEM graduates per year, and developer salaries below the national average",
+            "Strong port infrastructure, a cost of living index near the national average, and $150B+ in regional GDP"
           ],
           "correctAnswer": 1,
-          "explanation": "Phase 2 is designed for founders who have validated their market opportunity and are ready to establish initial U.S. operations (workspace, mentorship, introductions). Phase 3 is for founders who already have early traction : customers, revenue, or partnerships — and need support scaling. The phases match different business stages, not different industries."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-7-4-2",
-      "title": "Community Resources and Next Steps",
-      "placement": "end-of-lesson",
-      "questions": [
+          "explanation": "The trade corridor argument is built on three data points: air connectivity (30+ direct LATAM routes from MCO), trade volume (Florida is the #1 U.S. state for trade with Latin America and the Caribbean by value, with $150B+ through Florida ports annually), and workforce (30%+ of metro Orlando speaks Spanish). Together, these numbers show that Central Florida is structurally positioned as a U.S.-LATAM business bridge."
+        },
         {
-          "stem": "A Spanish-speaking founder from Ecuador wants free, bilingual mentoring and market research support tailored to Hispanic entrepreneurs. Which organization should she contact first?",
+          "stem": "A Brazilian SaaS founder is comparing Austin and Central Florida. Both have zero state income tax and similar costs of living. What is Central Florida’s primary advantage over Austin for a LATAM-focused business?",
           "options": [
-            "SCORE — they provide volunteer business mentors matched by industry",
-            "Orlando Economic Partnership — they focus on attracting international businesses",
-            "Prospera — a nonprofit dedicated to supporting Hispanic entrepreneurs with bilingual mentoring, training, and micro-lending",
-            "CFITO — they organize trade delegations to Latin American markets"
+            "Central Florida has a significantly larger tech talent pool and more venture capital funding than Austin",
+            "Central Florida offers structured international support programs (SBDC, CFITO, UCF BIP, Hispanic Chamber) and a LATAM trade corridor with 30+ direct flights that Austin lacks",
+            "Central Florida has lower developer salaries and cheaper office space than Austin",
+            "Central Florida’s tourism industry creates more B2B demand for SaaS products than Austin’s tech sector"
           ],
-          "correctAnswer": 2,
-          "explanation": "Prospera is a nonprofit specifically dedicated to supporting Hispanic entrepreneurs in Florida. Their programs include one-on-one bilingual mentoring, business training workshops, and access to micro-lending programs. Their advisors understand the specific challenges Latin American founders face in the U.S. market, and services are free or low-cost."
+          "correctAnswer": 1,
+          "explanation": "Austin and Central Florida are close on cost (COL 108 vs. 98). Austin’s advantage is tech brand recognition. Central Florida’s advantage for LATAM founders is its structured international support infrastructure (SBDC, CFITO, UCF BIP, Hispanic Chamber) and the LATAM trade corridor — direct flights to 30+ Latin American cities, $150B+ in Florida port trade, and a 30%+ Spanish-speaking workforce. These are resources Austin simply does not have."
+        },
+        {
+          "stem": "The Reality Check section identifies three trade-offs of choosing Central Florida. Which combination accurately represents those limitations?",
+          "options": [
+            "High crime rates, poor school systems, and limited healthcare access",
+            "Car-dependent transportation ($300-$600/month), a smaller specialized tech talent pool requiring remote hiring, and VC funding concentrated outside Florida (only ~4% of U.S. total)",
+            "Extreme weather risk, saturated startup market, and declining population growth",
+            "Limited international flight routes, expensive bilingual labor, and high commercial real estate costs"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Reality Check identifies three specific, data-backed trade-offs: (1) Orlando is car-dependent, adding $300-$600/month in vehicle costs that partially offset housing savings vs. NYC; (2) the tech talent pool is smaller than NYC or Silicon Valley, requiring remote hiring for specialized roles; and (3) Florida attracted only ~4% of U.S. venture capital in 2024 vs. California’s 48%, meaning founders should build traction locally but pitch investors nationally."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "reflect-7-4-1",
-      "title": "Your Readiness and Next Step",
-      "placement": "after-section",
-      "sectionId": "text-7-4-3",
-      "prompt": "Based on everything you've learned in Modules 1 through 7, answer these three questions honestly: (1) What is the ONE area of U.S. market entry where you feel most confident right now? (2) What is the ONE area where you need the most help? (3) What is the single most important action you will take within the next 7 days to move your U.S. market entry forward? Write these down. Bring them to your 1:1 meeting with the UCF BIP team."
     },
     {
       "type": "exercise",
       "id": "exercise-7-4-1",
-      "title": "Your UCF BIP Roadmap",
-      "placement": "after-section",
-      "sectionId": "text-7-4-3",
-      "instructions": "<p>You've seen what Phase 2 and Phase 3 offer. Map out which pieces match where you're headed in the next six months.</p><ul><li><strong>Your top business goal for the next 6 months:</strong> ___</li><li><strong>Phase 2 resource that supports that goal</strong> (mentorship, workspace, customer introductions, workshops — pick one): ___ <br/><strong>How you'd use it:</strong> ___</li><li><strong>Phase 3 resource you'll need once you have traction</strong> (growth strategy, investor connections, alumni network, operational support — pick one): ___ <br/><strong>What milestone would trigger that need:</strong> ___</li><li><strong>One community resource (Prospera, SCORE, Hispanic Chamber, CFITO) you'll engage before your UCF BIP meeting:</strong> ___ <br/><strong>What you'll ask them:</strong> ___</li></ul><p>Bring this roadmap to your 1:1 meeting. Showing up with a plan helps the team give you better, more specific guidance.</p>"
+      "title": "Your Location Decision Framework",
+      "instructions": "<p>Create a weighted comparison for your specific business using these steps:</p><ol><li>List your <strong>top 5 criteria</strong> for choosing a U.S. base (examples: customer proximity, cost, talent availability, flight connectivity, industry ecosystem, support programs)</li><li><strong>Weight each criterion</strong> from 1-5 based on importance to your business</li><li><strong>Score Central Florida</strong> against each criterion (1-10 scale) using the data from this lesson</li><li><strong>Score your alternative city</strong> (Miami, NYC, Silicon Valley, or Austin) against each criterion</li><li><strong>Multiply weight x score</strong> for each criterion and total them up</li></ol><p>This exercise forces you to move beyond gut feeling and evaluate the decision with data. Bring the results to your UCF BIP conversation — it will help the team understand your priorities and advise you more effectively.</p>"
     },
     {
       "type": "key-takeaway",
       "id": "kt-7-4-1",
       "title": "Key Takeaway",
-      "content": "<p>UCF BIP and the Central Florida ecosystem exist to help you succeed. Phase 1 (this program) gave you the knowledge. Phases 2 and 3 of the UCF BIP market entry/soft landing program give you the hands-on support : mentorship, workspace, introductions, and structured advisory. Your next step: complete the self-assessment in Module 8, then schedule your 1:1 meeting with the UCF BIP team. The founders who take action this week are the ones who build momentum.</p>"
+      "content": "<p>The LATAM trade corridor is backed by 30+ direct flight routes from MCO, $150B+ in annual Florida port trade, and a 30%+ Spanish-speaking metro workforce. City-by-city, Central Florida offers more runway than Miami, NYC, or Silicon Valley — and more international infrastructure than Austin. But factor in the trade-offs: car costs, a smaller specialized talent pool, and VC funding concentrated on the coasts. Apply these data points to your own business plan with the Location Decision Framework exercise. The data confirms what the springs reveal — the deepest aquifer sustains the strongest flow.</p>"
     }
   ]
 }

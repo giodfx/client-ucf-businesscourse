@@ -1,0 +1,6 @@
+file 'lesson-0-1/lesson-0-1-scene-1.wav'
+file 'lesson-0-1/lesson-0-1-scene-2.wav'
+file 'lesson-0-1/lesson-0-1-scene-3.wav'
+file 'lesson-0-1/lesson-0-1-scene-4.wav'
+file 'lesson-0-1/lesson-0-1-scene-5.wav'
+file 'lesson-0-1/lesson-0-1-scene-6.wav'

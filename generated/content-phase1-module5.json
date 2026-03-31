@@ -13,6 +13,7 @@
     {
       "lessonId": "lesson-5-1",
       "moduleId": "module-5",
+      "landscapeTheme": "Port / Shopping Center",
       "title": "Adapting Your Product for the U.S.",
       "duration": 7,
       "objectives": [
@@ -24,44 +25,87 @@
         {
           "type": "text",
           "id": "text-5-1-1",
-          "title": "What Works at Home Does Not Automatically Work Here",
-          "content": "<p>Having a great product is not enough to succeed in the U.S. — the market demands adaptation. With your foundation from earlier modules, this lesson shifts to the product itself. A Chilean ed-tech company had 200,000 Latin American users but signed only four U.S. customers in six months after launching with a straight English translation.</p>\n\n<p>So what happens next? They succeeded after rebuilding pricing, adding SCORM compatibility, hiring U.S.-based support, and repositioning around time savings. The product barely changed — everything around it did.</p>",
-          "wordCount": 86
+          "title": "Arriving at the Commercial Hub: Why Your Product Needs to Change for the U.S.",
+          "content": "<p>Drive east from Orlando and you reach Port Canaveral, one of the busiest ports in North America, where goods from dozens of countries arrive daily. Head to the outlet corridors along International Drive and you see the other side of the equation: millions of American consumers browsing, comparing, and deciding what to buy. This is the U.S. marketplace. Products flow in from around the world, but the ones that sell are the ones built for the buyers standing in front of them.</p>\n\n<p>Having a great product is not enough to succeed here. A Chilean ed-tech company had 200,000 Latin American users but signed only four U.S. customers in six months after launching with a straight English translation.</p>\n\n<p>So what happens next? They succeeded after rebuilding pricing, adding SCORM compatibility, hiring U.S.-based support, and repositioning around time savings. The product barely changed. Everything around it did.</p>",
+          "wordCount": 148
+        },
+        {
+          "type": "callout",
+          "id": "callout-5-1-funfact",
+          "variant": "fun-fact",
+          "title": "Did You Know?",
+          "content": "<p>Port Canaveral is the second-busiest cruise port in the world by passenger volume, handling over 7 million cruise passengers in peak years. But it is also a significant cargo port, processing hundreds of thousands of tons of goods annually. Meanwhile, the Orlando area has one of the highest concentrations of outlet and retail shopping centers in the state, drawing international visitors who spend billions each year. This combination of port commerce and consumer retail makes Central Florida a living case study in how products reach American buyers.</p>"
         },
         {
           "type": "text",
           "id": "text-5-1-2",
-          "title": "Five Areas Where Adaptation Is Usually Needed",
-          "content": "<h4>1. Pricing</h4>\n\n<p>Here's where it surprises most founders. U.S. customers perceive a low price as a signal of low quality. A UAE-based property management company dominant at $15/unit/month in Dubai had to reprice to $35/unit/month for U.S. managers who assumed anything under $30 was missing compliance features.</p>\n\n<h4>2. Packaging and Positioning</h4>\n\n<p>\"We help companies save time\" is too vague. \"We reduce compliance training setup from 40 hours to 4\" is compelling.</p>\n\n<h4>3. Compliance and Regulatory</h4>\n\n<p>FDA for food and medical devices, CCPA for personal data, SEC for financial products. Breaking these rules means fines, lawsuits, or being shut out of the market.</p>\n\n<h4>4. Customer Support</h4>\n\n<p>If your team does not cover U.S. business hours (9 AM–6 PM Eastern through Pacific), you need a U.S.-based hire, a distributed team, or robust self-service tools.</p>\n\n<h4>5. Payment and Purchasing</h4>\n\n<p>B2B companies pay by ACH or check, not wire transfer. Credit cards are standard for B2C. Larger companies require vendor registration.</p>",
+          "title": "Adaptation Starts Before You Sell",
+          "content": "<p>Walk through any outlet shopping center in Central Florida and you will notice something: even discount retailers price strategically, not cheaply. A UAE-based property management company dominant at $15/unit/month in Dubai had to reprice to $35/unit/month for U.S. managers who assumed anything under $30 was missing compliance features.</p>\n\n<p>Pricing is just one of five areas where international products typically need adaptation for U.S. customers. Explore each area below to understand what changes and why.</p>",
           "wordCount": 146
         },
         {
-          "type": "callout",
-          "id": "callout-5-1-1",
-          "variant": "common-mistake",
-          "title": "Launching With Your Home Market Price",
-          "content": "<p>Consider this: a Colombian software company priced their project management tool at $5/user/month. U.S. prospects assumed it was a basic tool that could not compete with $15-$30/user options. After repositioning at $19/user/month with added features, conversion rates improved a lot. Research your U.S. competitive set and price accordingly.</p>"
+          "type": "tabs",
+          "id": "int-5-1-1",
+          "title": "Market Adaptation — Key Areas to Localize",
+          "tabs": [
+            {
+              "label": "Pricing",
+              "content": "**U.S. expectations:** Monthly subscriptions preferred over annual. Free trials expected (7–14 days minimum).\n\n**Common mistakes:** Pricing in your home currency, not accounting for U.S. sales tax, underpricing to 'break in.'\n\n**Action:** Research 3 U.S. competitors and position your price within 20% of the market average."
+            },
+            {
+              "label": "Positioning",
+              "content": "**U.S. expectations:** Lead with the problem you solve, not your technology. Emphasize ROI and time savings.\n\n**Common mistakes:** Leading with features instead of benefits, using unfamiliar brand references.\n\n**Action:** Rewrite your homepage headline to answer: 'What result does the customer get?'"
+            },
+            {
+              "label": "Compliance",
+              "content": "**U.S. expectations:** Privacy policy, terms of service, CCPA/GDPR compliance, SOC 2 for enterprise sales.\n\n**Common mistakes:** Copying compliance docs from home country, ignoring state-level privacy laws.\n\n**Action:** Use a service like Termly or Iubenda for baseline legal pages. Budget for SOC 2 if targeting enterprise."
+            },
+            {
+              "label": "Support",
+              "content": "**U.S. expectations:** English-language support during U.S. business hours. Email response within 24 hours. Chat preferred.\n\n**Common mistakes:** Support only during your home timezone, non-native English in documentation.\n\n**Action:** Hire a U.S.-based part-time support person or use a service like Time Doctor for timezone coverage."
+            },
+            {
+              "label": "Payment & Purchasing",
+              "content": "**U.S. expectations:** Credit cards are standard for B2C. B2B companies pay by ACH transfer, check, or net-30 terms. Larger companies require vendor registration before payment.\n\n**Common mistakes:** Requiring wire transfers only (U.S. companies rarely pay this way for domestic vendors), not accepting credit cards for B2C sales, not being set up for ACH payments.\n\n**Action:** Open a U.S. business bank account that supports ACH. Integrate a payment processor (Stripe, Square) for credit card acceptance. Be ready for net-30 or net-60 payment terms with larger B2B clients."
+            }
+          ]
         },
         {
           "type": "text",
           "id": "text-5-1-3",
           "title": "Product-Market Fit Is Not Universal",
-          "content": "<p>Product-market fit at home does not mean you have it here. Talk to U.S. customers before you adapt anything and run pilots with 5–10 early customers before a full launch.</p>\n\n<p>Let's put this in perspective. A Turkish e-commerce analytics founder had to rebuild his onboarding from a two-week guided process to a 30-minute self-serve flow because U.S. retailers expected self-service and results within 48 hours. The UCF BIP program can connect you with early customers and advisors in Central Florida.</p>",
-          "wordCount": 80
+          "content": "<p>Product-market fit at home does not mean you have it here. Talk to U.S. customers before you adapt anything and run pilots with 5 to 10 early customers before a full launch.</p>\n\n<p>For context, a Turkish e-commerce analytics founder had to rebuild his onboarding from a two-week guided process to a 30-minute self-serve flow because U.S. retailers expected self-service and results within 48 hours. The UCF BIP program can connect you with early customers and advisors in Central Florida.</p>\n\n<p>U.S. buyers also value different things than buyers in many other markets. While personal relationships often drive purchasing decisions elsewhere, American buyers prioritize <strong>speed, convenience, transparency, and social proof</strong>. They expect reviews, free trials, and money-back guarantees. They check three alternatives before deciding and read your pricing page before your about page. These are baseline expectations, not optional extras.</p>",
+          "wordCount": 97
         },
         {
-          "type": "callout",
-          "id": "callout-5-1-2",
-          "variant": "theme-understand-culture",
-          "title": "U.S. Buyers Value Different Things",
-          "content": "<p>Think about this: in many markets, personal relationships drive purchasing decisions. In the U.S., buyers prioritize <strong>speed, convenience, transparency, and social proof</strong>. They expect reviews, free trials, and money-back guarantees. They check three alternatives before deciding and read your pricing page before your about page. These are baseline expectations, not optional extras.</p>"
+          "type": "scenario",
+          "id": "scenario-5-1-pricing",
+          "title": "Your Price Is Too Low — What Do You Do?",
+          "description": "Your SaaS product costs $15/month in Latin America. A U.S. prospect says: 'At that price, I'd assume it doesn't include compliance features.' Your U.S. competitors charge $45-$65/month. What is your move?",
+          "paths": [
+            {
+              "label": "Keep the $15 price — it is your competitive advantage",
+              "outcome": "Risky in the U.S. market. American B2B buyers associate low prices with missing features, poor support, or short company lifespan. You may win price-sensitive customers but lose enterprise buyers who need to justify the purchase to procurement teams. Cheap signals risk.",
+              "isRecommended": false
+            },
+            {
+              "label": "Raise to $39/month and add U.S.-specific features (compliance docs, English support, SLA)",
+              "outcome": "Strong approach. Pricing within the competitive range signals credibility. Adding U.S.-specific features (SOC 2 documentation, English-first support, uptime SLA) justifies the price increase and addresses the real concern: does this product meet U.S. business standards?",
+              "isRecommended": true
+            },
+            {
+              "label": "Create a separate 'U.S. Edition' at $55/month with premium positioning",
+              "outcome": "Viable but complex. A separate tier can work if you genuinely have premium features to offer. But managing two product tiers across markets adds operational complexity. Start with one competitive U.S. price and add tiers later when you understand the market better.",
+              "isRecommended": false
+            }
+          ]
         },
         {
           "type": "callout",
           "id": "callout-5-1-cm",
           "variant": "common-mistakes-repeating",
           "title": "Common Mistakes International Founders Make — U.S. Customers",
-          "content": "<p>Notice these patterns:</p><ul><li><strong>Launching with home-market pricing.</strong> U.S. pricing expectations are shaped by local competitors, not your cost structure at home. Too low and you look unreliable. Too high without clear differentiation and you lose to established players. Research your competitive set before setting a price.</li><li><strong>Not following up fast enough on U.S. inquiries.</strong> American buyers expect same-day responses. In many markets, a two-or-three-day reply is normal. In the U.S., waiting more than a few hours means they have already contacted your competitor.</li><li><strong>Skipping vendor onboarding requirements.</strong> When selling to U.S. companies, you will often need to complete vendor registration including tax forms (W-9), proof of insurance, and compliance documentation. Not knowing this exists delays deals by weeks or kills them entirely.</li></ul>"
+          "content": "<p>Notice these patterns:</p><ul><li><strong>Launching with home-market pricing.</strong> U.S. pricing expectations are shaped by local competitors, not your cost structure at home. Too low and you look unreliable. Too high without clear differentiation and you lose to established players. A Colombian software company priced their project management tool at $5/user/month — U.S. prospects assumed it was a basic tool. After repositioning at $19/user/month with added features, conversion rates improved significantly. Research your competitive set before setting a price.</li><li><strong>Not following up fast enough on U.S. inquiries.</strong> American buyers expect same-day responses. In many markets, a two-or-three-day reply is normal. In the U.S., waiting more than a few hours means they have already contacted your competitor.</li><li><strong>Skipping vendor onboarding requirements.</strong> When selling to U.S. companies, you will often need to complete vendor registration including tax forms (W-9), proof of insurance, and compliance documentation. Not knowing this exists delays deals by weeks or kills them entirely.</li></ul>"
         },
         {
           "type": "callout",
@@ -80,48 +124,32 @@
         },
         {
           "type": "knowledge-check",
-          "id": "kc-5-1-1",
-          "title": "Check Your Understanding",
+          "id": "kc-5-1",
+          "title": "What Would You Do?",
           "placement": "end-of-lesson",
           "questions": [
             {
               "stem": "A fintech company from Germany launches in the U.S. with their European pricing ($8/month per user) and their German-language customer support team covering European business hours. After three months, they have very few U.S. customers. What is the most likely combination of problems?",
               "options": [
                 "The product itself is not good enough for the U.S. market",
-                "U.S. customers see the low price as a quality signal and cannot reach support during their business hours",
                 "They need to advertise more aggressively in the U.S.",
-                "The German company name is the main barrier to U.S. adoption"
+                "The German company name is the main barrier to U.S. adoption",
+                "U.S. customers see the low price as a quality signal and cannot reach support during their business hours"
               ],
-              "correctAnswer": 1,
+              "correctAnswer": 3,
               "explanation": "Two of the five common adaptation areas are likely failing here. The pricing ($8/month) may be perceived as too low in a market where competitors charge $20–$40, signaling a basic or unreliable product. And the lack of U.S.-hours support means American customers cannot get help when they need it. Fixing these two issues — adjusting pricing to U.S. competitive norms and providing U.S.-timezone support — would likely have more impact than increased advertising."
-            }
-          ]
-        },
-        {
-          "type": "knowledge-check",
-          "id": "kc-5-1-2",
-          "title": "Product Adaptation Assessment",
-          "placement": "end-of-lesson",
-          "questions": [
+            },
             {
               "stem": "A successful food delivery app from Mexico wants to expand into the U.S. market. Their app works well in Spanish, and they plan to translate it to English and launch at the same price point ($3.99/month) they charge in Mexico. They have no U.S.-based customer support. Which adaptation area should they address FIRST to avoid the most immediate barrier to U.S. sales?",
               "options": [
                 "Translating the app interface into English since language is always the biggest barrier",
-                "Compliance and regulatory requirements, because U.S. food delivery involves state-specific health and safety regulations they may not meet",
                 "Adding more features to compete with U.S. apps like DoorDash and Uber Eats",
+                "Compliance and regulatory requirements, because U.S. food delivery involves state-specific health and safety regulations they may not meet",
                 "Creating a social media presence on TikTok to attract younger U.S. customers"
               ],
-              "correctAnswer": 1,
+              "correctAnswer": 2,
               "explanation": "Compliance is the most immediate barrier because non-compliance can mean fines, lawsuits, or the inability to operate at all. While pricing, support, and positioning all need adaptation, regulatory requirements are non-negotiable and must be addressed before any other market entry investment."
-            }
-          ]
-        },
-        {
-          "type": "knowledge-check",
-          "id": "kc-5-1-3",
-          "title": "Quick Check",
-          "placement": "end-of-lesson",
-          "questions": [
+            },
             {
               "stem": "A founder from South Korea built a cybersecurity monitoring tool that dominates the Korean market at ₩15,000/month (about $11 USD). For the U.S. launch, she hires a professional translation firm, converts the price to $11/month, and sets up a landing page. After two months, free trial signups are decent but almost nobody converts to paid. U.S. prospects keep asking, \"What's the catch?\" What should she change first?",
               "options": [
@@ -136,14 +164,6 @@
           ]
         },
         {
-          "type": "reflection",
-          "id": "ref-5-1-1",
-          "title": "Your Product Adaptation Plan",
-          "placement": "after-section",
-          "sectionId": "text-5-1-3",
-          "prompt": "Think about your product or service. For each of the five adaptation areas (pricing, packaging/positioning, compliance, customer support, payment/purchasing), write one sentence describing what might need to change for the U.S. market. Which area concerns you most? Which do you know the least about? These gaps are where to focus your research during the early stages of your U.S. entry."
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-5-1-1",
           "title": "Key Takeaway",
@@ -154,6 +174,7 @@
     {
       "lessonId": "lesson-5-2",
       "moduleId": "module-5",
+      "landscapeTheme": "Port / Shopping Center",
       "title": "Customer Acquisition and Selling to U.S. Companies",
       "duration": 7,
       "objectives": [
@@ -165,16 +186,53 @@
         {
           "type": "text",
           "id": "text-5-2-1",
-          "title": "How Americans Actually Find and Buy Products",
-          "content": "<p>Finding and winning U.S. customers takes speed and systems. You've already explored product adaptation; acquisition strategy builds directly on those decisions. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p>\n\n<p>Here is the practical takeaway. U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p>",
-          "wordCount": 88
+          "title": "Inside the Shopping Center: How Americans Find, Compare, and Buy",
+          "content": "<p>You have adapted your product for the U.S. marketplace. Now it is time to get it off the shelf and into the buyer's hands.</p>\n\n<p>Stand in any major shopping corridor in Central Florida and watch how customers move: they scan, compare, check reviews on their phones, and make a decision in minutes. That same behavior drives B2B purchasing too, just with bigger numbers and more paperwork. Finding and winning U.S. customers takes speed and systems. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p>\n\n<p>Here is the practical takeaway. U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p>",
+          "wordCount": 140
+        },
+        {
+          "type": "image",
+          "id": "img-5-2-tradeshow",
+          "title": "Founder at U.S. Trade Show",
+          "src": "images/scenarios/lesson-5-2-trade-show.jpg",
+          "alt": "Illustration of an enthusiastic founder at a professional exhibition booth at a U.S. trade show, extending a welcoming gesture toward approaching visitors in a large convention center."
+        },
+        {
+          "type": "callout",
+          "id": "callout-5-2-funfact",
+          "variant": "fun-fact",
+          "title": "Did You Know?",
+          "content": "<p>The Orlando metro area attracts over 75 million visitors per year, making it the most-visited destination in the United States. That volume creates a massive consumer marketplace where businesses compete fiercely for attention and speed of service. The sales behaviors you learn in this lesson, fast follow-up, transparent pricing, digital-first acquisition, are standard practice in a region where every business is competing for the attention of millions of potential buyers.</p>"
         },
         {
           "type": "text",
           "id": "text-5-2-2",
           "title": "The U.S. Sales Cycle — Faster and More Direct Than You Expect",
-          "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>.</p>\n\n<p>What does that mean for you? Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 3–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
+          "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>What does that mean for you? Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 3–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
           "wordCount": 83
+        },
+        {
+          "type": "tabs",
+          "id": "int-5-2-1",
+          "title": "Sales Scenario: A U.S. Customer Wants a Quote",
+          "tabs": [
+            {
+              "label": "The Setup",
+              "content": "A mid-size U.S. company emails you after finding your product online. They want a quote for 50 user licenses.\n\nThey mention they're 'evaluating several vendors' and need the quote by Friday. It's currently Tuesday.\n\n**What do you do?**"
+            },
+            {
+              "label": "Best Response",
+              "content": "**Respond within 4 hours** — speed signals professionalism in U.S. sales culture.\n\n**Include in your quote:**\n- Clear pricing per user/month and annual option\n- Implementation timeline\n- Support SLA\n- Reference customer or case study\n\n**Follow up Friday morning** — don't wait for them to come to you."
+            },
+            {
+              "label": "Common Mistakes",
+              "content": "**Waiting 48+ hours** to respond. In the U.S., this signals disinterest.\n\n**Sending just a price** without context. U.S. buyers want to see value justification.\n\n**Not following up.** 80% of sales require 5+ touchpoints. One email is not enough.\n\n**Over-negotiating on price** before establishing value. Lead with outcomes first."
+            },
+            {
+              "label": "Key Insight",
+              "content": "U.S. B2B sales cycles are longer than most international founders expect.\n\n**Typical timeline:**\n- Initial contact → Quote: 1–3 days\n- Evaluation period: 2–6 weeks\n- Procurement/legal review: 2–4 weeks\n- Decision: 1–2 weeks\n\n**Total: 6–12 weeks** for mid-market deals. Enterprise can take 6+ months."
+            }
+          ]
         },
         {
           "type": "callout",
@@ -187,15 +245,46 @@
           "type": "text",
           "id": "text-5-2-3",
           "title": "Pricing Strategy for the U.S. Market",
-          "content": "<p>Map your U.S. competitive landscape: identify 5–10 similar companies and document their pricing tiers. Three pitfalls:</p>\n\n<ol><li><strong>Pricing too low.</strong> Competitors at $25/month and you at $8 signals something is missing.</li><li><strong>No localization.</strong> Converting your home-market price to dollars is not a strategy.</li><li><strong>Hiding pricing.</strong> U.S. buyers expect transparent pricing on your website.</li></ol>\n\n<p>The bottom line? Offer a free trial or money-back guarantee. Standard in the U.S.</p>",
+          "content": "<p>Your pricing strategy needs to be transparent, competitive, and clearly positioned. Map your U.S. competitive landscape: identify 5 to 10 similar companies and document their pricing tiers. Three pitfalls:</p>\n\n<ol><li><strong>Pricing too low.</strong> Competitors at $25/month and you at $8 signals something is missing.</li><li><strong>No localization.</strong> Converting your home-market price to dollars is not a strategy.</li><li><strong>Hiding pricing.</strong> U.S. buyers expect transparent pricing on your website.</li></ol>\n\n<p>In short: offer a free trial or money-back guarantee. Both are standard in the U.S.</p>",
           "wordCount": 68
         },
         {
           "type": "text",
           "id": "text-5-2-vo",
           "title": "Vendor Onboarding — What U.S. Companies Require From You",
-          "content": "<p>This blindsides many founders selling B2B. The buyer says yes, then the buying team sends a packet with forms you've never heard of.</p>\n\n<h4>W-9 Form</h4>\n\n<p>Let's put this in perspective. Provides your EIN (taxpayer ID). Any U.S. company paying you $600+/year needs it. Have a W-9 ready to send immediately.</p>\n\n<h4>Certificate of Insurance (COI)</h4>\n\n<p>Many companies require <strong>general liability insurance</strong> ($500–$2,000/year). Some also require <strong>professional</strong> or <strong>cyber liability</strong>.</p>\n\n<h4>Vendor Registration</h4>\n\n<p>Larger companies use systems (Ariba, Coupa, Oracle) requiring registration. Takes one to four weeks.</p>\n\n<p>Have everything ready before you start selling.</p>",
+          "content": "<p>This blindsides many founders selling B2B. Your product must pass through a buyer's procurement process before you see payment. The buyer says yes, then the purchasing team sends a packet with forms you have never heard of. Have everything ready before you start selling.</p>",
           "wordCount": 92
+        },
+        {
+          "type": "checklist",
+          "id": "checklist-5-2-vendor",
+          "title": "Vendor Readiness Checklist",
+          "items": [
+            {
+              "label": "W-9 form completed with your EIN (required by any U.S. company paying you $600+/year)"
+            },
+            {
+              "label": "General liability insurance policy active ($500-$2,000/year)"
+            },
+            {
+              "label": "Certificate of Insurance (COI) ready to send on request"
+            },
+            {
+              "label": "Professional or cyber liability insurance (if selling services or handling data)"
+            },
+            {
+              "label": "Vendor registration completed in buyer's procurement system (Ariba, Coupa, Oracle — allow 1-4 weeks)"
+            },
+            {
+              "label": "Sample invoice template with U.S.-standard format (Net 30 terms, EIN, bank details)"
+            },
+            {
+              "label": "U.S. business bank account active for receiving ACH or wire payments"
+            },
+            {
+              "label": "Payment terms documented and ready to negotiate (Net 30, Net 45, or Net 60)"
+            }
+          ]
         },
         {
           "type": "callout",
@@ -206,29 +295,21 @@
         },
         {
           "type": "knowledge-check",
-          "id": "kc-5-2-1",
-          "title": "Check Your Understanding",
+          "id": "kc-5-2",
+          "title": "What Would You Do?",
           "placement": "end-of-lesson",
           "questions": [
             {
               "stem": "A U.S. company wants to purchase your software service for their team of 50 employees. After agreeing on pricing, their procurement department sends you a vendor onboarding packet. Which of the following will you most likely need to provide?",
               "options": [
-                "Only a signed contract and an invoice",
                 "A W-9 form, certificate of insurance, and vendor registration information",
+                "Only a signed contract and an invoice",
                 "A letter of recommendation from a previous U.S. client",
                 "Proof of U.S. citizenship for your company's founders"
               ],
-              "correctAnswer": 1,
+              "correctAnswer": 0,
               "explanation": "U.S. companies with formal procurement processes typically require a W-9 (tax identification), certificate of insurance (proof of liability coverage), and registration in their vendor system before they can issue payment. Having these documents ready in advance prevents delays that can stall or kill the deal."
-            }
-          ]
-        },
-        {
-          "type": "knowledge-check",
-          "id": "kc-5-2-2",
-          "title": "U.S. Sales Cycle Assessment",
-          "placement": "end-of-lesson",
-          "questions": [
+            },
             {
               "stem": "A B2B software founder from Brazil collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?",
               "options": [
@@ -239,24 +320,16 @@
               ],
               "correctAnswer": 2,
               "explanation": "Speed is a decisive factor in U.S. sales. The Harvard Business Review study cited in this lesson found that companies responding within one hour were seven times more likely to qualify a lead. Waiting five days means most prospects have already engaged with faster competitors. In U.S. business, the first company to follow up with a clear offer has a major advantage."
-            }
-          ]
-        },
-        {
-          "type": "knowledge-check",
-          "id": "kc-5-2-3",
-          "title": "Quick Check",
-          "placement": "end-of-lesson",
-          "questions": [
+            },
             {
               "stem": "A founder from Nigeria built an HR compliance platform and just landed a verbal \"yes\" from a 200-person U.S. company. The buyer says, \"Great — I'll send you over to procurement.\" Procurement emails him a vendor onboarding packet requesting a W-9 form, a certificate of insurance, and registration in their Coupa system. He has none of these ready. He tells procurement he'll \"get back to them in a couple of weeks.\" Meanwhile, the buyer's team is also evaluating a U.S.-based competitor. What is the most likely outcome?",
               "options": [
                 "The buyer will wait because they already committed verbally and switching vendors is too much work",
-                "Procurement will extend the deadline since international vendors commonly need extra time for U.S. paperwork",
                 "The deal stalls or dies. The competitor who has vendor documents ready closes while he is still gathering paperwork",
+                "Procurement will extend the deadline since international vendors commonly need extra time for U.S. paperwork",
                 "The founder can skip vendor onboarding by invoicing the buyer directly through his Nigerian bank account"
               ],
-              "correctAnswer": 2,
+              "correctAnswer": 1,
               "explanation": "A verbal \"yes\" is not a closed deal in U.S. B2B sales; procurement is where deals live or die. Two weeks is an eternity when a competitor already has a W-9, insurance certificate, and Coupa registration ready to submit. U.S. companies rarely extend deadlines for vendor onboarding when an alternative vendor is already qualified. This is why the lesson emphasizes having all vendor documentation prepared before you start selling, not after a buyer says yes."
             }
           ]
@@ -281,7 +354,7 @@
           "type": "key-takeaway",
           "id": "kt-5-2-1",
           "title": "Key Takeaway",
-          "content": "<p>The takeaway is simple. Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes.</p>"
+          "content": "<p>The takeaway is simple. Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes — your paperwork is ready and your business is open when the opportunity arrives.</p>"
         }
       ]
     }

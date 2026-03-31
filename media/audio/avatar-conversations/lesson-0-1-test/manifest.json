@@ -1,0 +1,64 @@
+{
+  "conversationId": "lesson-0-1-test",
+  "title": "Start Here — Quick Test",
+  "basedOnLesson": "lesson-0-1",
+  "generatedAt": "2026-03-23T21:20:43.273Z",
+  "totalDuration": "21.1s",
+  "totalFrames": 553,
+  "dialogueLines": 4,
+  "speakers": [
+    {
+      "id": "host",
+      "name": "Elena",
+      "speakerIndex": 1,
+      "portraitImage": "ucf_avatar_speaker1.png",
+      "linesCount": 2
+    },
+    {
+      "id": "mentor",
+      "name": "Carlos",
+      "speakerIndex": 2,
+      "portraitImage": "ucf_avatar_speaker2.png",
+      "linesCount": 2
+    }
+  ],
+  "segments": [
+    {
+      "lineId": "001",
+      "characterId": "host",
+      "startTime": "0.000",
+      "duration": "4.960"
+    },
+    {
+      "lineId": "002",
+      "characterId": "mentor",
+      "startTime": "5.360",
+      "duration": "5.600"
+    },
+    {
+      "lineId": "003",
+      "characterId": "host",
+      "startTime": "11.360",
+      "duration": "6.000"
+    },
+    {
+      "lineId": "004",
+      "characterId": "mentor",
+      "startTime": "17.760",
+      "duration": "3.360"
+    }
+  ],
+  "files": {
+    "segmentsDir": "media\\audio\\avatar-conversations\\lesson-0-1-test\\segments",
+    "speaker1Track": "media\\audio\\avatar-conversations\\lesson-0-1-test\\speaker1-track.wav",
+    "speaker2Track": "media\\audio\\avatar-conversations\\lesson-0-1-test\\speaker2-track.wav",
+    "combinedTrack": "media\\audio\\avatar-conversations\\lesson-0-1-test\\combined-track.wav",
+    "comfyuiOutput": "media\\video\\avatar-conversations\\lesson-0-1-test-comfyui.mp4",
+    "finalVideo": "media\\video\\avatar-conversations\\lesson-0-1-test.mp4"
+  },
+  "comfyui": {
+    "promptId": "19de1573-db50-4a94-aab4-52731c296c1b",
+    "generationTimeMs": 1112329
+  },
+  "pipelineTotalMs": 1219378
+}

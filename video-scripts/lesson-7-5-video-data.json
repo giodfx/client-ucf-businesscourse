@@ -1,0 +1,108 @@
+{
+  "lessonId": "lesson-7-5",
+  "videoTitle": "UCF BIP Programs \u00e2\u20ac\u201d Your Next Step",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "River Springs \u00e2\u20ac\u201d full ecosystem, you are not alone, natural diversity",
+  "totalDuration": 293.6,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Following the Current Forward",
+      "bullets": [],
+      "narration": "You have traveled the full length of the river, from the first clear spring to the open water ahead. Seven modules covering entity setup, finance, IP, hiring, product adaptation, culture, and regional resources. Now the question is: what concrete support is available next? UCF BIP helps international founders turn knowledge into action. This Phase 1 program is the introduction. The hands-on support comes in phases two and three. Think of it this way \u00e2\u20ac\u201d the springs showed you the ecosystem. Phases two and three are how you step fully into the current and start moving with it. Let me walk you through exactly what comes next and how to get there.",
+      "template": "intro",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-1.wav",
+      "duration": 38.24
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Phases 2 and 3 \u00e2\u20ac\u201d From Knowledge to Action",
+      "bullets": [
+        "Phase 2: one-on-one mentorship, UCF BIP workspace, warm introductions to customers and partners",
+        "Phase 2 is for founders who have validated their opportunity and are establishing U.S. operations",
+        "Phase 3: growth strategy, investor connections, expanded networking, operational support",
+        "Phase 3 is for founders with early traction \u00e2\u20ac\u201d customers, revenue, or signed partnerships"
+      ],
+      "narration": "Phase 2 is for founders who have validated their market opportunity and are ready to establish initial U.S. operations. You get one-on-one mentorship with industry-experienced advisors, UCF BIP workspace with a professional business address, warm introductions to customers and service providers, advanced workshops on investor readiness and regulatory compliance, and a peer community of international founders at a similar stage. Phase 3 is for founders with initial traction \u00e2\u20ac\u201d early customers, revenue, or a signed partnership. It focuses on growth strategy development, investor community connections, expanded networking through BIP's alumni network, and operational support for hiring and financial infrastructure. The transition between phases adapts to your pace. The goal is progress, not speed.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-2.wav",
+      "duration": 42.88
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Community Resources That Work Alongside UCF BIP",
+      "bullets": [
+        "Hispanic Chamber: two hundred to four hundred per year for networking, workshops, and business matchmaking",
+        "Prospera: free bilingual mentoring from advisors who have navigated the same cultural transition",
+        "CFITO: structured trade delegations for import, export, and cross-border business",
+        "SCORE: free mentoring from retired executives matched to your industry"
+      ],
+      "narration": "UCF BIP is one spring feeding into a much larger river. Several partner organizations work alongside it, each serving a different need. The Hispanic Chamber of Commerce costs two hundred to four hundred dollars per year and connects you with established bilingual business owners through monthly events. Many founders find their first local partner or customer referral through chamber connections. Prospera supports Hispanic entrepreneurs through free bilingual mentoring. What makes it especially useful is that the mentors have navigated the same cultural and business transition you are going through. CFITO runs structured trade delegations for businesses bridging Latin America and the United States \u00e2\u20ac\u201d market research, partner identification, and face-to-face meetings with buyers. And SCORE provides free mentoring from volunteer retired executives. Pick the organizations that match where your business is right now. Save the rest for later.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-3.wav",
+      "duration": 50.56
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Your Three Next Steps",
+      "bullets": [
+        "Step 1: Complete the self-assessment in Module 8 \u00e2\u20ac\u201d identify confident areas and gaps",
+        "Step 2: Schedule a one-on-one meeting with the UCF BIP team \u00e2\u20ac\u201d free, thirty minutes, strategy session",
+        "Step 3: Take one concrete action before your meeting \u00e2\u20ac\u201d SBDC session, chamber event, or SCORE sign-up",
+        "Showing up already in motion helps the team advise you more effectively"
+      ],
+      "narration": "Here is what happens next. Step one: complete the self-assessment in Module 8. This is not a test \u00e2\u20ac\u201d it is a tool to identify where you feel confident and where the gaps are. The results guide your UCF BIP conversation. Step two: schedule a one-on-one meeting with the UCF BIP team. This is free, takes about thirty minutes, and is a strategy session \u00e2\u20ac\u201d not a sales call. You will discuss your specific business, ask about phases two and three, get tailored resource recommendations, and identify your three to five most important next steps. Step three: before your meeting, take one concrete action. Schedule a free SBDC counseling session. Register for a chamber or networking event. Contact CFITO about trade programs. Or sign up for SCORE mentoring. Showing up already in motion helps the team advise you more effectively.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-4.wav",
+      "duration": 48.64
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "The Network Matters as Much as the Knowledge",
+      "bullets": [],
+      "narration": "Here is what founders who have been through this process tend to say. The network mattered as much as the knowledge. They joined chambers, attended SBDC workshops, participated in UCF BIP advisory sessions, and connected with mentors through SCORE. The cost of joining is small. The cost of going alone is high. Just as no single spring sustains a river by itself, no founder succeeds in a new market without a support system. The organizations exist. The programs are funded. The people are ready to help. The only variable is whether you step into the current or stand on the bank watching it flow past. The founders who succeed fastest are the ones who use every available advantage.",
+      "template": "diagonal",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-5.wav",
+      "duration": 36.96
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "What to Bring to Your One-on-One Meeting",
+      "bullets": [
+        "Your readiness self-assessment scores from Module 8",
+        "Your completed Expansion Decision Worksheet",
+        "Your top three questions \u00e2\u20ac\u201d written down before the meeting",
+        "Your business context: company, product, home market, and why you are considering the U.S."
+      ],
+      "narration": "When you schedule your one-on-one with the UCF BIP team, come prepared. Bring your readiness self-assessment scores from Module 8. Bring your completed Expansion Decision Worksheet. Write down your top three questions before the meeting \u00e2\u20ac\u201d not during it. And be ready to share your business context: your company, your product, your home market, and why you are considering the United States. A thirty-minute conversation with the right preparation can save you months of trial and error. The UCF BIP team has guided hundreds of international founders through this process. They know where the currents run strong and where the obstacles hide beneath the surface. Let them help you navigate.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-6.wav",
+      "duration": 36.72
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "The River Keeps Flowing \u00e2\u20ac\u201d Step In",
+      "bullets": [],
+      "narration": "UCF BIP and the Central Florida ecosystem exist to help you succeed. Like a river fed by dozens of springs, the support network is deep and it keeps flowing. Phase 1 gave you the knowledge. Phases two and three give you the hands-on support \u00e2\u20ac\u201d mentorship, workspace, introductions, and structured advisory. Your next step: complete the self-assessment in Module 8, then schedule your one-on-one meeting with the UCF BIP team. The founders who step into the current this week are the ones who build momentum. The springs module is complete. Final destination: UCF Headquarters \u00e2\u20ac\u201d where you will assess your readiness, download your resources, and plan your first real moves.",
+      "template": "intro",
+      "avatarScene": "lesson-7-5",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-5-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-5/lesson-7-5-scene-7.wav",
+      "duration": 39.6
+    }
+  ]
+}

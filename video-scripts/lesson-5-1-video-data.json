@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-5-1",
+  "videoTitle": "Adapting Your Product for the U.S.",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "Port / Shopping Center \u00e2\u20ac\u201d commerce, logistics, reaching customers",
+  "totalDuration": 283.36,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Arriving at the Commercial Hub",
+      "bullets": [],
+      "narration": "Drive east from Orlando and you reach Port Canaveral, one of the busiest ports in North America, where goods from dozens of countries arrive daily. Head to the outlet corridors along International Drive and you see the other side: millions of American consumers browsing, comparing, and deciding what to buy. This is the U.S. marketplace. Products flow in from around the world, but the ones that sell are the ones built for the buyers standing in front of them. Having a great product is not enough. A Chilean ed-tech company had two hundred thousand Latin American users but signed only four U.S. customers in six months after launching with a straight English translation.",
+      "template": "intro",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-1.wav",
+      "duration": 36.0
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The Product Barely Changed \u00e2\u20ac\u201d Everything Around It Did",
+      "bullets": [
+        "The Chilean ed-tech rebuilt pricing, added SCORM compatibility, hired U.S. support",
+        "They repositioned around time savings \u00e2\u20ac\u201d not features",
+        "Product-market fit at home does not mean you have it here",
+        "Talk to U.S. customers before you adapt anything"
+      ],
+      "narration": "Here is what happened with that Chilean ed-tech company. They succeeded after rebuilding their pricing, adding SCORM compatibility for the U.S. education market, hiring U.S.-based support, and repositioning their messaging around time savings. The product barely changed. Everything around it did. This is the pattern most international founders miss. Product-market fit in your home market does not automatically transfer to the United States. Just because a product clears customs at the port does not mean it sells in the shopping center next door. Talk to U.S. customers before you adapt anything. Run pilots with five to ten early customers before committing to a full launch.",
+      "template": "split-left",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-2.wav",
+      "duration": 36.32
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Five Areas Where Adaptation Is Needed",
+      "bullets": [
+        "Pricing: U.S. customers see low prices as a signal of low quality",
+        "Positioning: sell the outcome, not the feature \u00e2\u20ac\u201d be specific and measurable",
+        "Compliance: FDA, CCPA, SEC \u00e2\u20ac\u201d breaking rules means fines or market shutout",
+        "Support and Payment: cover U.S. business hours, accept ACH and credit cards"
+      ],
+      "narration": "Five areas almost always need adaptation. First, pricing. Walk through any outlet center and notice that even discount retailers price strategically. A UAE property management company dominant at fifteen dollars per unit per month in Dubai had to reprice to thirty-five for U.S. managers who assumed anything under thirty was missing features. Second, positioning. We help companies save time is too vague. We reduce compliance training setup from forty hours to four is compelling. Third, compliance. FDA for food, CCPA for data, SEC for financial products. Non-compliance means fines, lawsuits, or market shutout. Fourth, customer support. Your team must cover U.S. business hours. And fifth, payment. B2B companies pay by ACH or check, not wire transfer. Credit cards are standard for B2C.",
+      "template": "split-right",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-3.wav",
+      "duration": 48.96
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "What U.S. Buyers Actually Value",
+      "bullets": [
+        "Speed, convenience, transparency, and social proof",
+        "Buyers expect reviews, free trials, and money-back guarantees",
+        "They check three alternatives before deciding",
+        "They read your pricing page before your about page"
+      ],
+      "narration": "U.S. buyers value different things than buyers in many other markets. While personal relationships often drive purchasing decisions elsewhere, American buyers prioritize speed, convenience, transparency, and social proof. They expect reviews, free trials, and money-back guarantees. They check three alternatives before deciding and read your pricing page before your about page. These are baseline expectations, not optional extras. A Turkish e-commerce analytics founder had to rebuild his onboarding from a two-week guided process to a thirty-minute self-serve flow because U.S. retailers expected self-service and results within forty-eight hours. The UCF BIP program can connect you with early customers and advisors in Central Florida to help you understand these expectations firsthand.",
+      "template": "split-left",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-4.wav",
+      "duration": 42.08
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Common Pricing Mistakes",
+      "bullets": [
+        "A Colombian SaaS tool at five dollars per user \u00e2\u20ac\u201d U.S. prospects assumed it was basic",
+        "After repositioning at nineteen dollars with added features, conversion improved",
+        "Not following up fast enough \u00e2\u20ac\u201d U.S. buyers expect same-day responses",
+        "Skipping vendor onboarding \u00e2\u20ac\u201d W-9, insurance, compliance docs can delay deals for weeks"
+      ],
+      "narration": "Let me highlight three mistakes that cost real money at the port. First, launching with home-market pricing. A Colombian software company priced their project management tool at five dollars per user per month. U.S. prospects assumed it was basic. After repositioning at nineteen dollars with added features, conversion rates improved significantly. Second, not following up fast enough. American buyers expect same-day responses. In many markets, a two-or-three-day reply is normal. In the U.S., waiting more than a few hours means they have already contacted your competitor. Third, skipping vendor onboarding requirements. When selling to U.S. companies, you often need W-9 forms, proof of insurance, and compliance documentation. Not knowing this exists delays deals by weeks or kills them entirely.",
+      "template": "split-right",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-5.wav",
+      "duration": 43.28
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "What Market Entry Actually Costs",
+      "bullets": [
+        "U.S. market research: two to ten thousand outsourced, free through networking",
+        "Product localization beyond translation: five to twenty-five thousand",
+        "Digital marketing: two to five thousand per month",
+        "The biggest hidden cost is time spent selling to wrong-fit customers"
+      ],
+      "narration": "Here are the real budget numbers for market entry. U.S. market research runs two thousand to ten thousand dollars if outsourced. But you can do it free through networking and cold outreach. Product localization \u00e2\u20ac\u201d beyond simple translation \u00e2\u20ac\u201d costs five to twenty-five thousand dollars. That includes regulatory compliance, payment integration, and UX changes for U.S. expectations. Digital marketing through SEO and paid ads runs two to five thousand per month. A U.S. website and sales materials cost three to fifteen thousand. Trade shows run three to ten thousand per event. But here is the insight most founders miss: one of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before you spend money on marketing.",
+      "template": "split-left",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-6.wav",
+      "duration": 41.68
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Adapt Before You Launch",
+      "bullets": [],
+      "narration": "Your product made it through the port. Now the question is whether it will sell in the shopping center. Plan to adapt your product, pricing, and messaging for the U.S. market. Talk to U.S. customers before you launch, not after. Focus your adaptation on the five areas: pricing, positioning, compliance, support, and payment methods. The founders who succeed in the U.S. are the ones who treat market entry as a discovery process and adjust based on real customer feedback. Next stop: inside the shopping center \u00e2\u20ac\u201d where we will cover customer acquisition and how to actually sell to U.S. companies.",
+      "template": "intro",
+      "avatarScene": "lesson-5-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-5-1/lesson-5-1-scene-7.wav",
+      "duration": 35.04
+    }
+  ]
+}

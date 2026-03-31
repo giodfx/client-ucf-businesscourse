@@ -1,0 +1,96 @@
+{
+  "conversationId": "lesson-0-1-conversation",
+  "title": "Start Here — What To Expect",
+  "basedOnLesson": "lesson-0-1",
+  "estimatedDuration": 30,
+  "metadata": {
+    "moduleId": "module-0",
+    "moduleTitle": "Welcome & Orientation",
+    "courseTitle": "UCF Business Incubation Program — Phase 1",
+    "testMode": true
+  },
+  "characters": [
+    {
+      "id": "host",
+      "name": "Elena",
+      "description": "Warm program guide who introduces founders to the course",
+      "speakerIndex": 1,
+      "portraitImage": "speaker1_portrait.png",
+      "voiceProfile": {
+        "mode": "clone",
+        "referenceAudioPath": "voices/FemaleJessica.mp3",
+        "defaultInstruction": "warm and welcoming, clear and professional"
+      }
+    },
+    {
+      "id": "mentor",
+      "name": "Carlos",
+      "description": "Experienced founder who expanded from Latin America to the U.S.",
+      "speakerIndex": 2,
+      "portraitImage": "speaker2_portrait.png",
+      "voiceProfile": {
+        "mode": "clone",
+        "referenceAudioPath": "voices/MaleAmerican.mp3",
+        "defaultInstruction": "confident and encouraging, conversational"
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "lineId": "001",
+      "characterId": "host",
+      "text": "Welcome to the UCF Business Incubation Program. I am Elena, and I will be your guide through this course.",
+      "instruction": "warm and welcoming, clear pace",
+      "silenceAfter": 600
+    },
+    {
+      "lineId": "002",
+      "characterId": "mentor",
+      "text": "And I am Carlos. I went through this process myself, expanding my business from Latin America to Florida. Trust me, knowing what to expect makes all the difference.",
+      "instruction": "friendly and relatable, genuine",
+      "silenceAfter": 600
+    },
+    {
+      "lineId": "003",
+      "characterId": "host",
+      "text": "This program covers the legal, financial, and cultural realities of running a business in the United States. Think of it as a road trip through Central Florida's business landscape.",
+      "instruction": "informative, painting a picture",
+      "silenceAfter": 500
+    },
+    {
+      "lineId": "004",
+      "characterId": "mentor",
+      "text": "Most founders assume the hard part is paperwork. But the real challenge is knowing what you do not know. That is why we say: learn first, then decide.",
+      "instruction": "thoughtful, emphasizing the key insight",
+      "silenceAfter": 600
+    },
+    {
+      "lineId": "005",
+      "characterId": "host",
+      "text": "Every module is built around four themes: reduce risk, watch your money, avoid common mistakes, and understand U.S. business culture.",
+      "instruction": "clear and structured, slight emphasis on each theme",
+      "silenceAfter": 500
+    },
+    {
+      "lineId": "006",
+      "characterId": "mentor",
+      "text": "These are not just theory. I made some of these mistakes myself. Skipping any one of these areas creates problems that show up later, usually at a higher cost.",
+      "instruction": "honest, sharing real experience",
+      "silenceAfter": 500
+    },
+    {
+      "lineId": "007",
+      "characterId": "host",
+      "text": "The course is self-paced, with no deadlines or exams. You can complete modules in any order. Ready to explore?",
+      "instruction": "encouraging, inviting",
+      "silenceAfter": 500
+    },
+    {
+      "lineId": "008",
+      "characterId": "mentor",
+      "text": "Let us get started. By the end, you will know whether U.S. expansion is the right move for your business.",
+      "instruction": "confident, motivating, closing energy",
+      "silenceAfter": 0
+    }
+  ]
+}

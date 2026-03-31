@@ -1,0 +1,97 @@
+{
+  "lessonId": "lesson-0-1",
+  "videoTitle": "Comienza Aquí — Qué Esperar y Cómo Usar Este Programa",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Highway / Dashboard Entry",
+  "totalDuration": 260.48,
+  "sceneCount": 6,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Bienvenido — Tu Tablero Está Listo",
+      "bullets": [],
+      "narration": "Bienvenido. Imagínate sentado detrás del volante, estacionado en la rampa de entrada de la Interestatal 4 — la autopista que atraviesa el corazón del corredor empresarial del centro de Florida. Tu GPS está cargado, tu tablero está encendido, y siete destinos se extienden frente a ti. Voy a ser tu guía en este viaje por carretera. Este programa toma menos de tres horas, y al final entenderás las realidades legales, financieras y culturales de hacer negocios en Estados Unidos. Sin relleno, sin teoría. Solo la ruta que necesitas para navegar el mercado estadounidense con confianza.",
+      "template": "intro",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-1.wav",
+      "duration": 35.76
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Aprende Primero, Luego Conduce",
+      "bullets": [
+        "La mayoría de los fundadores lo hacen al revés: registran una LLC, abren una cuenta bancaria, luego buscan el producto adecuado",
+        "Este programa invierte ese orden: estudia el mapa antes de comprometerte con el viaje",
+        "Siete destinos: estructura legal, impuestos, banca, seguros, contratación, clientes y cultura",
+        "A tu propio ritmo, sin fechas límite, sin exámenes — tú eliges tu velocidad"
+      ],
+      "narration": "Aquí hay algo importante. La mayoría de los fundadores se lanzan a la autopista antes de revisar el mapa. Registran una LLC, abren una cuenta bancaria, y solo entonces empiezan a preguntarse si el destino tiene sentido. Este programa invierte ese orden. Estudia el mapa primero, luego decide si el viaje vale la pena. En siete paradas, cubrirás estructura legal, impuestos, banca, seguros, contratación, cómo encontrar clientes, y cómo entender la cultura empresarial estadounidense. Es completamente a tu propio ritmo. Sin límites de velocidad, sin fechas límite, sin exámenes. Tú decides cuándo conducir y qué tan rápido ir.",
+      "template": "split-left",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-2.wav",
+      "duration": 41.84
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Cuatro Carriles en Esta Autopista",
+      "bullets": [
+        "Legal: estructura de entidad, registro, contratos, propiedad intelectual",
+        "Financiero: banca, impuestos, contabilidad, gestión de costos",
+        "Cultural: normas de comunicación, estilos de negociación, expectativas empresariales",
+        "Mercado: adaptación de producto, precios, adquisición de clientes"
+      ],
+      "narration": "Piensa en la expansión a Estados Unidos como una autopista de cuatro carriles. Cada carril representa una dimensión que no puedes ignorar. El carril legal cubre tu estructura de entidad, registro, contratos y propiedad intelectual. El carril financiero maneja banca, impuestos, contabilidad y gestión de costos. El carril cultural trata sobre cómo los estadounidenses se comunican, negocian y establecen expectativas. Y el carril de mercado es donde adaptas tu producto, fijas precios y ganas tus primeros clientes estadounidenses. Si te sales de cualquiera de estos carriles, creas un riesgo que te alcanza más tarde, generalmente a un costo mucho mayor.",
+      "template": "split-right",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-3.wav",
+      "duration": 37.76
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Los Indicadores de Tu Tablero",
+      "bullets": [
+        "Reduce el Riesgo: revisa las condiciones del camino antes de acelerar",
+        "Cuida Tu Dinero: vigila el indicador de combustible — los costos se acumulan rápido",
+        "Evita Errores Comunes: aprende de conductores que ya han recorrido este camino",
+        "Entiende la Cultura de EE.UU.: las reglas del camino aquí son diferentes"
+      ],
+      "narration": "Cada módulo está construido alrededor de cuatro indicadores del tablero que necesitas vigilar. Primero, Reduce el Riesgo. Revisa las condiciones del camino antes de acelerar. Entiende las reglas y requisitos antes de gastar dinero. Segundo, Cuida Tu Dinero. Vigila el indicador de combustible. Los costos individuales parecen pequeños, pero se acumulan rápido. Cada módulo te da rangos de costos realistas. Tercero, Evita Errores Comunes. Aprende de conductores que ya han recorrido este camino. Cada módulo destaca los errores que hacen tropezar a los fundadores internacionales. Y cuarto, Entiende la Cultura Empresarial de Estados Unidos. Las reglas del camino aquí son diferentes. En Estados Unidos, los negocios funcionan con velocidad, comunicación directa y acuerdos por escrito. Un saludo amigable de otro conductor no significa que te va a dejar incorporarte.",
+      "template": "split-left",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-4.wav",
+      "duration": 55.28
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "¿Cuánto Dura el Viaje?",
+      "bullets": [
+        "Formación de entidad: unos pocos días en línea, a veces más para fundadores internacionales",
+        "Solicitud de EIN: instantánea con dirección en EE.UU., semanas para solicitudes internacionales",
+        "Cuenta bancaria: varía ampliamente según el banco, documentos y circunstancias",
+        "Primeros clientes: semanas a meses para construir confianza y completar incorporación de proveedores"
+      ],
+      "narration": "Los fundadores siempre preguntan: ¿cuánto dura el viaje? Aquí está la respuesta honesta. La formación de entidad puede tomar solo unos pocos días en línea, aunque los fundadores internacionales a veces necesitan tiempo extra para la documentación. Obtener tu EIN puede ser instantáneo si tienes una dirección en Estados Unidos, pero las solicitudes internacionales pueden tomar varias semanas. La apertura de cuenta bancaria varía ampliamente dependiendo del banco y tu situación. ¿Y encontrar tus primeros clientes? Eso generalmente toma semanas a meses mientras construyes confianza y pasas por el proceso de incorporación de proveedores. El viaje no es una excursión de fin de semana. Planifica de tres a seis meses para estar completamente operativo, y mantente flexible en el camino.",
+      "template": "split-right",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-5.wav",
+      "duration": 46.48
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "Es Hora de Salir a la Carretera",
+      "bullets": [],
+      "narration": "Tu tablero está listo, tu GPS está configurado, y el corredor de la I-4 se extiende frente a ti. Primera parada: el centro de Orlando, donde tu negocio toma forma legal. Luego el distrito financiero para banca e impuestos. Cabo Cañaveral para proteger tus innovaciones. Los parques temáticos para aprender sobre cómo construir un equipo. El puerto y el distrito comercial para llegar a los clientes. La playa para entender la cultura estadounidense. Y finalmente, el campus de UCF, donde te conectarás con el ecosistema que puede apoyar tus próximos pasos. Cada destino funciona por sí solo, así que puedes saltar a lo que más te importa ahora mismo. ¿Listo? Salgamos a la carretera.",
+      "template": "intro",
+      "avatarScene": "lesson-0-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-6.wav",
+      "duration": 43.36
+    }
+  ]
+}

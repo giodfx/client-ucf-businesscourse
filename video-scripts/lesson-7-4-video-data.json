@@ -1,0 +1,81 @@
+{
+  "lessonId": "lesson-7-4",
+  "videoTitle": "The LATAM Trade Corridor \u00e2\u20ac\u201d Your Location Decision",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "River Springs \u00e2\u20ac\u201d full ecosystem, you are not alone, natural diversity",
+  "totalDuration": 214.240063,
+  "sceneCount": 5,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "The LATAM Trade Corridor \u00e2\u20ac\u201d Where the Rivers Meet the Ocean",
+      "bullets": [],
+      "narration": "In the last lesson, you saw Central Florida's economic data \u00e2\u20ac\u201d the cost advantages, the industry clusters, the numbers that make a case to investors and co-founders. Now let's follow the river to where it meets the ocean. Central Florida's trade infrastructure connects directly to Latin American markets, and the data behind that connection is what sets this region apart from Austin, from Silicon Valley, even from Miami in some ways. Let me walk you through the corridor.",
+      "template": "intro",
+      "avatarScene": "lesson-7-4",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-4/lesson-7-4-scene-1.wav",
+      "duration": 26.96
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The LATAM Trade Corridor",
+      "bullets": [
+        "MCO: direct flights to thirty-plus Latin American cities \u00e2\u20ac\u201d fifty-eight million passengers in twenty twenty-five",
+        "Florida ports handle over one hundred fifty billion in international trade annually \u00e2\u20ac\u201d number one for LATAM trade",
+        "Thirty percent of metro Orlando speaks Spanish \u00e2\u20ac\u201d bilingual professionals cost less than in Miami",
+        "Florida's LATAM trade grows four to five percent annually"
+      ],
+      "narration": "Here is where it gets especially interesting for Latin American founders. Orlando International Airport offers direct flights to over thirty Latin American cities \u00e2\u20ac\u201d Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose \u00e2\u20ac\u201d and handled fifty-eight million passengers in twenty twenty-five. Florida's seaports process over one hundred fifty billion dollars in international trade annually. Florida is the number one U.S. state for Latin American and Caribbean trade by value. Over thirty percent of metro Orlando speaks Spanish. Bilingual accountants, attorneys, and sales professionals operate across both languages daily, and hiring them costs less than in Miami. Florida's LATAM trade grows four to five percent annually with the state population projected to reach twenty-five million by twenty thirty.",
+      "template": "split-left",
+      "avatarScene": "lesson-7-4",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-4/lesson-7-4-scene-2.wav",
+      "duration": 50.4
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "City-by-City \u00e2\u20ac\u201d What the Numbers Mean in Practice",
+      "bullets": [
+        "Versus Miami: office thirty-five to forty percent cheaper, four to six extra months of runway on two hundred thousand dollars",
+        "Versus New York: a three-person team saves one hundred eighty to two hundred fifty thousand over eighteen months",
+        "Versus Silicon Valley: burn rate drops from fifty thousand to thirty thousand per month \u00e2\u20ac\u201d ten extra months on five hundred thousand",
+        "Versus Austin: similar cost, but Central Florida has structured international support and the LATAM corridor"
+      ],
+      "narration": "Let me put the cost data into context. Compared to Miami, Central Florida office space is thirty-five to forty percent cheaper and housing is twenty-five to thirty-five percent lower. A founder with two hundred thousand in capital gets four to six extra months of runway in Orlando. Miami's premium buys access to finance and crypto ecosystems \u00e2\u20ac\u201d if you are not in those sectors, it is not buying relevant access. Compared to New York, the cost of living index is ninety-eight versus one hundred eighty-seven. A three-person team saves one hundred eighty to two hundred fifty thousand over eighteen months. Orlando to JFK is a two and a half hour flight \u00e2\u20ac\u201d take the meetings without paying the rent. Compared to Silicon Valley, your burn rate drops from roughly fifty thousand a month to thirty thousand. That is ten extra months on a five hundred thousand dollar raise. And compared to Austin \u00e2\u20ac\u201d the closest competitor on cost \u00e2\u20ac\u201d Central Florida's edge is structured international support through SBDC, CFITO, UCF BIP, and the Hispanic Chamber, plus the LATAM trade corridor Austin simply does not have.",
+      "template": "split-right",
+      "avatarScene": "lesson-7-4",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-4/lesson-7-4-scene-3.wav",
+      "duration": 54.08
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "The Honest Trade-Offs",
+      "bullets": [
+        "Vehicle costs add three hundred to six hundred per month \u00e2\u20ac\u201d Orlando is car-dependent",
+        "The tech talent pool is smaller \u00e2\u20ac\u201d specialized roles may require remote hiring",
+        "Florida attracted roughly four percent of U.S. venture capital \u00e2\u20ac\u201d California captured forty-eight percent",
+        "Build traction here, but plan to pitch investors nationally"
+      ],
+      "narration": "The data favors Central Florida on cost and trade connectivity, but let me be honest about what the numbers do not capture. Orlando is car-dependent. Vehicle costs add three hundred to six hundred dollars per month, which partially offsets housing savings versus New York where you may not need a car. The tech talent pool is real \u00e2\u20ac\u201d UCF produces over ten thousand STEM graduates per year \u00e2\u20ac\u201d but specialized roles like ML engineers or senior DevOps may require remote hiring. And venture capital is growing but concentrated elsewhere. Florida attracted about four percent of U.S. venture capital in twenty twenty-four. California captured forty-eight percent. Build your traction here where costs are low, but plan to pitch investors nationally when you are ready. These gaps are measurable and manageable. Factor them into your decision.",
+      "template": "diagonal",
+      "avatarScene": "lesson-7-4",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-4/lesson-7-4-scene-4.wav",
+      "duration": 47.04
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "The Deepest Aquifer Sustains the Strongest Flow",
+      "bullets": [],
+      "narration": "The LATAM trade corridor is backed by over thirty direct flight routes, one hundred fifty billion in annual port trade, and a thirty-percent-plus Spanish-speaking metro workforce. City-by-city, Central Florida gives you more runway than Miami, New York, or Silicon Valley \u00e2\u20ac\u201d and more international infrastructure than Austin. Factor in the trade-offs and use the Location Decision Framework exercise to apply these numbers to your own business. The deepest aquifer sustains the strongest flow. Next lesson, we will look at UCF BIP programs \u00e2\u20ac\u201d the concrete next steps and the pathway forward for your U.S. market entry.",
+      "template": "intro",
+      "avatarScene": "lesson-7-4",
+      "imageUrl": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-7-4/lesson-7-4-scene-5.wav",
+      "duration": 35.760063
+    }
+  ]
+}

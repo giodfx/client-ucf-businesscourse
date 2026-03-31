@@ -1,33 +1,41 @@
 {
   "lessonId": "lesson-3-2",
   "moduleId": "module-3",
+  "landscapeTheme": "Rocket Base",
   "title": "Insurance and Risk Management",
   "duration": 7,
   "objectives": [
-    "Identify essential contract types for U.S. business operations (NDAs, service agreements, terms of service)",
-    "Describe basic business insurance requirements and options",
+    "Describe basic business insurance requirements and coverage options for U.S. operations",
+    "Estimate insurance costs and identify which policies are needed before launch",
     "Explain key regulatory exposure areas for international founders"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-3-2-1",
-      "title": "Contracts in the U.S. — Everything Gets Written Down",
-      "content": "<p>A founder from Costa Rica lost $22,000 because he closed a deal with a handshake instead of a contract. In the U.S., that handshake is worth almost nothing.</p>\n\n<p>Building on the IP protections from the previous lesson, contracts and insurance complete your risk management foundation. That Costa Rica founder closed a deal with a U.S. distributor over a handshake. Three months later, the distributor changed payment terms and refused to pay the outstanding invoices. Without a signed contract, the founder had no legal leverage.</p>\n\n<p>Here is the practical takeaway. Verbal agreements carry almost no legal weight for business transactions over $500 (under the Statute of Frauds in most states, including Florida). Contracts you'll need in your first year:</p>\n\n<p><strong>Non-Disclosure Agreement (NDA):</strong> Use before sharing proprietary details. Cost: $200–$500 attorney-drafted, or use a reputable template.</p>\n\n<p><strong>Service Agreement / MSA:</strong> Covers scope, payment, deliverables, timelines, and liability when you provide services or hire a vendor.</p>\n\n<p><strong>Terms of Service:</strong> Required for any website, app, or digital product.</p>\n\n<p><strong>Operating Agreement (LLC):</strong> Defines management, profit distribution, and member exits. Even single-member LLCs should have one.</p>",
-      "wordCount": 182
+      "title": "Shielding Your Business: Insurance and Risk Management",
+      "content": "<p>Now that you have locked down your intellectual property inside the launch facility, walk over to the safety and compliance wing. No business should operate without proper insurance and risk management.</p>\n\n<p>A founder from Costa Rica lost $22,000 because he closed a deal with a handshake instead of a contract. In the U.S., that handshake is worth almost nothing — three months later, the distributor changed payment terms and refused to pay outstanding invoices. Without a signed contract, the founder had no legal leverage. This is why contracts matter (we cover contract types in the next lesson), but first, you need to understand the insurance and risk management foundations that protect your business every day.</p>\n\n<p>Many international founders focus on the legal setup — entity formation, IP, contracts — and forget to guard against day-to-day business risks. One lawsuit without insurance coverage can shut you down. One slip-and-fall at your office, one product defect, one professional error that costs a client money. Insurance is your safety net for the risks you cannot predict.</p>",
+      "wordCount": 152
+    },
+    {
+      "type": "image",
+      "id": "img-3-2-insurance",
+      "title": "Business Insurance Types Overview",
+      "src": "images/infographics/lesson-3-2-insurance-types.jpg",
+      "alt": "Infographic showing 6 business insurance types: General Liability, Professional Liability, Workers Comp, Commercial Property, BOP, and Cyber Liability with costs and descriptions."
     },
     {
       "type": "callout",
-      "id": "callout-3-2-1",
-      "variant": "theme-understand-culture",
-      "title": "Culture Shift — The Handshake Deal Is Dead",
-      "content": "<p>In many countries, business relationships run on trust, personal relationships, and verbal commitments. In the U.S., the contract IS the relationship. When an American business partner says \"let's put it in writing,\" they're not expressing distrust — they're showing they take the relationship seriously. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships.</p>"
+      "id": "callout-3-2-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Central Florida's Space Coast has hosted over 4,000 rocket launches since 1950, including every crewed NASA mission. The same culture of risk management that keeps rockets safe also drives the region's insurance industry: Florida has one of the largest property insurance markets in the country. For business founders, the parallel is clear — just as every launch requires a safety review, every business needs protection against the risks that could ground your operation.</p>"
     },
     {
       "type": "text",
       "id": "text-3-2-2",
-      "title": "Business Insurance — What You Need and What Can Wait",
-      "content": "<p>Insurance in the U.S. is not optional. Some types are legally required, others practically required (clients and landlords demand proof).</p>\n\n<p>What does that mean for you? <strong>General Liability Insurance (GL):</strong> Covers third-party bodily injury, property damage, and advertising injury. Cost: $400–$800/year. Many landlords and B2B clients require proof before they'll work with you.</p>\n\n<p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm : a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p>\n\n<p><strong>Workers' Compensation:</strong> Required in Florida with four or more employees (one in construction). Cost varies by industry and payroll.</p>\n\n<p><strong>Commercial Property Insurance:</strong> Covers equipment, inventory, and office contents. Skip if working from home; get it for a physical office or warehouse.</p>\n\n<p>A Nigerian founder discovered that U.S. vendor onboarding required proof of $1 million GL and $1 million E&O before clients would sign. Budget for insurance before you need it.</p>",
+      "title": "Business Insurance, What You Need and What Can Wait",
+      "content": "<p>Insurance in the U.S. is not optional. Some types are required by law. Others are required in practice, since clients and landlords demand proof.</p>\n\n<p><strong>General Liability Insurance (GL):</strong> Your most important policy. It covers third-party bodily injury, property damage, and advertising injury. Cost: $400–$800/year. Many landlords and B2B clients require proof before they will work with you.</p>\n\n<p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm — a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p>\n\n<p><strong>Workers' Compensation:</strong> Required in Florida with four or more employees (one in construction). Cost varies by industry and payroll.</p>\n\n<p><strong>Commercial Property Insurance:</strong> Covers equipment, inventory, and office contents. Skip if working from home; get it for a physical office or warehouse.</p>\n\n<p>A Nigerian founder found that U.S. vendor onboarding required proof of $1 million GL and $1 million E&O before clients would sign. Budget for insurance before you need it.</p>",
       "wordCount": 147
     },
     {
@@ -35,13 +43,36 @@
       "id": "callout-3-2-2",
       "variant": "common-mistake",
       "title": "Operating Without General Liability Insurance",
-      "content": "<p>One slip-and-fall, one product issue, one bad contract — and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can \"pierce the corporate veil\" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p>"
+      "content": "<p>Here's where the risk is real. One slip-and-fall, one product issue, one bad contract — and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can \"pierce the corporate veil\" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p>"
+    },
+    {
+      "type": "accordion",
+      "id": "int-3-2-1",
+      "title": "Insurance Types — What Each Policy Covers",
+      "sections": [
+        {
+          "heading": "General Liability Insurance",
+          "content": "**Covers:** Third-party bodily injury, property damage, advertising injury.\n\n**Cost:** $400–$1,500/year for small businesses.\n\n**Who needs it:** Almost every business. Often required by landlords and contracts."
+        },
+        {
+          "heading": "Professional Liability (E&O)",
+          "content": "**Covers:** Claims of negligence, errors, or failure to deliver professional services.\n\n**Cost:** $500–$3,000/year depending on industry.\n\n**Who needs it:** Consultants, IT companies, any service-based business."
+        },
+        {
+          "heading": "Workers' Compensation",
+          "content": "**Covers:** Employee injuries and illnesses on the job.\n\n**Cost:** Varies by industry and payroll size.\n\n**Who needs it:** Required in Florida if you have 4+ employees (construction: 1+ employees)."
+        },
+        {
+          "heading": "Cyber Liability Insurance",
+          "content": "**Covers:** Data breaches, ransomware, notification costs, legal defense.\n\n**Cost:** $500–$5,000/year for small businesses.\n\n**Who needs it:** Any business that stores customer data, processes payments, or relies on technology."
+        }
+      ]
     },
     {
       "type": "text",
       "id": "text-3-2-3",
-      "title": "Regulatory Exposure — Industries That Need Extra Attention",
-      "content": "<p>Some industries have regulatory requirements that must be part of your launch plan.</p>\n\n<p><strong>Food and Beverage:</strong> FDA (federal) and FDACS (Florida) compliance : labeling, inspections, product testing. A Colombian coffee brand spent $8,000 on FDA-compliant labeling before listing on Amazon.</p>\n\n<p>Let's put this in perspective. <strong>Healthcare and Wellness:</strong> HIPAA compliance for protected health information. Medical devices need FDA clearance. Telehealth faces state-by-state licensing.</p>\n\n<p><strong>Financial Services:</strong> SEC, FINRA, and state-level regulations. Money transmission licenses cost $10,000–$50,000+ across multiple states. A Nigerian founder scaled back from 50 states to five key markets, cutting first-year compliance from $100,000+ to roughly $25,000.</p>\n\n<p><strong>Children's Products:</strong> CPSC testing and certification : lead, small parts, labeling. Third-party testing costs $1,000–$5,000 per product line.</p>\n\n<p>Penalties for operating without permits are severe : fines, seizures, and shutdowns. The SBDC and UCF BIP advisors can help identify which regulations apply.</p>",
+      "title": "Regulatory Exposure, Industries That Need Extra Attention",
+      "content": "<p>Some industries have additional rules you must follow before operating in the U.S. Regulatory agencies will not clear your business without the right permits, and the consequences of non-compliance are severe. Central Florida's economy spans aerospace, tourism, healthcare, technology, and agriculture, and each sector brings its own regulatory requirements.</p>\n\n<p><strong>Food and Beverage:</strong> FDA (federal) and FDACS (Florida) compliance — labeling, inspections, product testing. A Colombian coffee brand spent $8,000 on FDA-compliant labeling before listing on Amazon.</p>\n\n<p><strong>Healthcare and Wellness:</strong> HIPAA compliance for protected health information. Medical devices need FDA clearance. Telehealth faces state-by-state licensing.</p>\n\n<p><strong>Financial Services:</strong> SEC, FINRA, and state-level regulations. Money transmission licenses cost $10,000–$50,000+ across multiple states. A Nigerian founder scaled back from 50 states to five key markets, cutting first-year compliance from $100,000+ to roughly $25,000.</p>\n\n<p><strong>Children's Products:</strong> CPSC testing and certification — lead, small parts, labeling. Third-party testing costs $1,000–$5,000 per product line.</p>\n\n<p>Penalties for operating without permits include fines, product seizures, and shutdowns. The SBDC and UCF BIP advisors can help identify which regulations are relevant to your business.</p>",
       "wordCount": 140
     },
     {
@@ -94,8 +125,8 @@
     },
     {
       "type": "knowledge-check",
-      "id": "kc-3-2-1",
-      "title": "Check Your Understanding: Contracts and Insurance",
+      "id": "kc-3-2",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
@@ -108,25 +139,28 @@
           ],
           "correctAnswer": 1,
           "explanation": "U.S. companies commonly require vendors to carry general liability (for physical and property risks) and professional liability/E&O (for financial harm from professional services). These are the two most frequently requested insurance types during B2B vendor onboarding."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-3-2-2",
-      "title": "Check Your Understanding: Regulatory Exposure",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "A founder plans to sell packaged food products in the U.S. through Amazon. She has already registered her LLC and obtained general liability insurance. What regulatory step is she most likely missing?",
           "options": [
-            "Filing a trademark for her brand name with the USPTO",
             "Obtaining FDA-compliant labeling and meeting FDACS requirements before listing products",
+            "Filing a trademark for her brand name with the USPTO",
             "Purchasing cyber liability insurance to protect customer payment data",
             "Registering for workers' compensation insurance in Florida"
           ],
-          "correctAnswer": 1,
-          "explanation": "Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel."
+          "correctAnswer": 0,
+          "explanation": "Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel. Filing a trademark (option B) is important but not a regulatory requirement for food sales. Cyber liability insurance (option C) and workers' comp (option D) are not the most likely missing step for a food product launch."
+        },
+        {
+          "stem": "A founder from Vietnam is preparing to sign her first client contract with a U.S. marketing agency. The agency wants to discuss her proprietary analytics methodology before signing. She has no written agreements in place yet. Which contract should she ask the agency to sign first?",
+          "options": [
+            "A service agreement covering scope, payment terms, and deliverables for the project",
+            "A terms-of-service document for her company website",
+            "An operating agreement for her LLC defining member responsibilities",
+            "A non-disclosure agreement (NDA) to protect her proprietary methodology before sharing details"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Before sharing proprietary information, the founder should have the agency sign an NDA. This protects her analytics methodology during the discussion phase. A service agreement (option A) comes after both parties agree on terms. Terms of service (option B) is for her website users, not a client negotiation. An operating agreement (option C) is an internal LLC document, not relevant to a client relationship."
         }
       ]
     },
@@ -139,18 +173,10 @@
       "content": "<p>List your top 3 business risks in the U.S. market. For each risk, identify:</p>\n\n<ol><li>What type of insurance or legal protection addresses this risk</li><li>Whether you need it before you launch or can wait</li><li>The approximate cost based on the tables in this lesson</li></ol>\n\n<p>Use this list when you talk to an insurance broker. Having a clear picture of your risks makes the conversation faster and the coverage more accurate.</p>"
     },
     {
-      "type": "reflection",
-      "id": "reflect-3-2-1",
-      "title": "Your Risk Protection Plan",
-      "placement": "after-section",
-      "sectionId": "text-3-2-3",
-      "prompt": "Think about YOUR business entering the U.S. market. What are the 2-3 contracts you need to get in place before you start operating : an NDA, a service agreement, terms of service? Write them down. Now ask yourself: do you have general liability insurance yet? If a U.S. client asked for proof of coverage tomorrow, could you provide it? Identify the specific contracts and insurance policies you need to secure first, and put a deadline on each one."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-3-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Get your contracts in writing — every time, with every partner. Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you launch. These are costs, but they're far cheaper than lawsuits, fines, or lost contracts.</p>"
+      "content": "<p>The takeaway is clear: get your contracts in writing — every time, with every partner. Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p>"
     }
   ]
 }

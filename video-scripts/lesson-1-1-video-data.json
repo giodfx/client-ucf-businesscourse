@@ -1,0 +1,108 @@
+{
+  "lessonId": "lesson-1-1",
+  "videoTitle": "Choosing Your U.S. Business Entity",
+  "presenter": "male",
+  "presenterImage": "media/images/avatars/presenter-male.png",
+  "landscapeTheme": "City Landscape \u00e2\u20ac\u201d downtown Orlando, business formation, government",
+  "totalDuration": 271.44,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "Welcome to Downtown \u00e2\u20ac\u201d Where Your Business Takes Shape",
+      "bullets": [],
+      "narration": "Welcome to your first destination: downtown Orlando. This is where businesses file their papers, hang their signs, and open their doors. Look around. You have got glass office towers, a county courthouse, small storefronts along the boulevard \u00e2\u20ac\u201d every kind of business structure, side by side. Before you set up shop anywhere in this city, you need to make one key choice: what kind of building are you going to occupy? A small storefront gives you freedom and low overhead. A corporate tower gives you the structure investors expect. That choice is your entity type, and it shapes everything that follows.",
+      "template": "intro",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-1.wav",
+      "duration": 33.6
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "The Storefront \u00e2\u20ac\u201d LLC",
+      "bullets": [
+        "Register a Florida LLC online in about thirty minutes through SunBiz",
+        "Personal assets stay separate from business liabilities",
+        "Single-member LLC is a pass-through entity for taxes",
+        "State filing fees typically around one hundred twenty-five dollars"
+      ],
+      "narration": "Let us start with the storefront: the LLC, or Limited Liability Company. This is the most popular choice for international founders just getting started. Think of it as renting a storefront on Main Street. You can register a Florida LLC online through SunBiz in about thirty minutes. Your personal assets stay separate from the business, so if the company faces a lawsuit or debt, your savings and property are usually protected. For taxes, a single-member LLC passes profits through to your personal return. And state filing fees? Typically around one hundred twenty-five dollars. But here is the catch. If you plan to raise venture capital, most U.S. investors will not walk into a storefront. They expect to meet you in a tower.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-2.wav",
+      "duration": 39.92
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "The Tower \u00e2\u20ac\u201d C-Corp",
+      "bullets": [
+        "U.S. venture capital firms usually require a Delaware C-Corp",
+        "Corporation pays federal tax at twenty-one percent",
+        "Dividends taxed again at shareholder level \u00e2\u20ac\u201d double taxation",
+        "Requires bylaws, board of directors, and annual meetings"
+      ],
+      "narration": "Now look up at the tower: the C-Corporation. This is the high-rise with a lobby, a security desk, and a boardroom. More structure, more formalities, but investors know exactly what they are looking at when they walk in. U.S. venture capital firms usually require a Delaware C-Corp. If raising money is in your near-term plans, moving into the tower now saves you a costly renovation later. The corporation pays federal tax at twenty-one percent. The downside is double taxation: if it pays dividends, shareholders get taxed again. And yes, it requires bylaws, a board of directors, and annual meetings. More overhead, but the building is well understood by banks, investors, and attorneys across the city.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-3.wav",
+      "duration": 41.28
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "The Restricted Building \u00e2\u20ac\u201d S-Corp",
+      "bullets": [
+        "S-Corp is a tax election, not a separate entity type",
+        "Cannot have non-resident alien shareholders",
+        "Most international founders are classified as non-resident aliens",
+        "Focus on the storefront and the tower \u00e2\u20ac\u201d the buildings open to you"
+      ],
+      "narration": "You may notice one more building down the block. The S-Corp. But when you walk up, there is a sign on the door: residents only. An S-Corp is not actually a separate entity type. It is a tax election you can apply to an LLC or C-Corp to avoid double taxation. But here is the key issue: S-Corps cannot have non-resident alien shareholders. Since most founders entering the U.S. are classified as non-resident aliens for tax purposes, the zoning rules keep you from moving in. For that reason, we will focus on the two buildings that are actually open to you: the storefront and the tower.",
+      "template": "split-left",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-4.wav",
+      "duration": 34.64
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "A Founder Who Picked the Wrong Building",
+      "bullets": [],
+      "narration": "Let me tell you about someone who learned this the hard way. A software founder from Colombia chose a Florida LLC because it was fast and cheap. She moved into the storefront and got to work. Eight months later, a U.S. investor offered to lead her seed round \u00e2\u20ac\u201d but required a Delaware C-Corp. The move from the storefront to the tower took three months, cost over three thousand dollars in legal fees, and nearly killed the deal. She later said, if someone had told me to start with a C-Corp, I would have saved a quarter of my first year. The building you pick in this city determines which services you can access, what your operating costs look like, and who will want to do business with you.",
+      "template": "diagonal",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-5.wav",
+      "duration": 36.72
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "The Price of Your Address",
+      "bullets": [
+        "Storefront \u00e2\u20ac\u201d Florida LLC: one hundred twenty-five to six hundred twenty-five dollars",
+        "Tower \u00e2\u20ac\u201d Florida C-Corp: three hundred seventy to fifteen hundred seventy dollars",
+        "Tower \u00e2\u20ac\u201d Delaware C-Corp: nine hundred sixty to twenty-six hundred dollars first year",
+        "Registered agent: one hundred to three hundred dollars per year"
+      ],
+      "narration": "Let us talk about what your address in this city actually costs. The storefront, a Florida LLC, runs about one hundred twenty-five dollars in state filing fees, plus up to five hundred if you use an attorney. The tower, a Florida C-Corp, is about seventy dollars to file, plus three hundred to fifteen hundred for attorney help. A Delaware C-Corp \u00e2\u20ac\u201d which is the tower most investors expect \u00e2\u20ac\u201d runs about eighty-nine dollars to file, plus annual franchise tax and attorney fees. First-year costs can range from about nine hundred sixty to twenty-six hundred dollars. And every building needs a registered agent, typically one hundred to three hundred dollars per year. The storefront is the most affordable. The tower is the most investor-ready. Choose based on where your business is headed, not just today's rent.",
+      "template": "split-right",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-6.wav",
+      "duration": 43.44
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Choose Your Building Wisely",
+      "bullets": [],
+      "narration": "Here is what I want you to take away from this stop in downtown Orlando. Your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. The storefront gives you simplicity and flexibility. The tower gives you structure and credibility with investors. Do not pick a building just because the rent is cheap. Think about where you need to be in a year. If your plans involve visa considerations or raising capital, talk to a business attorney before you sign the lease. A one-hour consultation costs a few hundred dollars. Relocating to a different building later costs several thousand, plus months of delay. Next stop: SunBiz, where we file the actual paperwork.",
+      "template": "intro",
+      "avatarScene": "lesson-1-1",
+      "imageUrl": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-1-1/lesson-1-1-scene-7.wav",
+      "duration": 41.84
+    }
+  ]
+}

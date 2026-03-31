@@ -1,0 +1,350 @@
+{
+  "projectId": "ucf-business-course",
+  "courseTitle": "U.S. Market Readiness Program",
+  "planCreated": "2026-03-31",
+  "context": "Phase C of the Instructional Design Improvement Plan — visual enhancement",
+  "existingAssets": {
+    "heroImages": "ALL 26 lesson hero images already exist in media/images/scenes/",
+    "note": "No new hero banners needed. This plan covers supplementary images only."
+  },
+  "summary": {
+    "htmlCssDataViz": 5,
+    "geminiInfographics": 6,
+    "convertedToInteractive": 1,
+    "geminiMaps": 2,
+    "qwen2512Scenarios": 7,
+    "total": 20
+  },
+
+  "section1_htmlCssDataViz": {
+    "description": "In-course HTML/CSS data visualizations using course palette. These are built as contentBlocks in the lesson JSON, NOT generated images.",
+    "palette": {
+      "primary": "#1A3A5C",
+      "accent1": "#E8A838",
+      "accent2": "#D4622B",
+      "accent3": "#2C5F8A",
+      "accent4": "#F5C842",
+      "background": "#F8F6F1",
+      "text": "#2D2D2D"
+    },
+    "charts": [
+      {
+        "id": "dataviz-2-1",
+        "lessonId": "lesson-2-1",
+        "title": "What You'll Actually Owe — Tax Layer Breakdown",
+        "chartType": "stacked-horizontal-bar",
+        "description": "Shows the three tax layers (Federal, State, Local) with representative rates for a C-Corp vs LLC in Florida",
+        "data": {
+          "scenarios": [
+            {
+              "label": "C-Corp in Florida",
+              "layers": [
+                { "label": "Federal Corporate Tax", "value": 21, "color": "#1A3A5C" },
+                { "label": "Florida Corporate Tax", "value": 5.5, "color": "#2C5F8A" },
+                { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838", "note": "varies by county" }
+              ],
+              "total": "~27% effective"
+            },
+            {
+              "label": "LLC (Pass-Through) in Florida",
+              "layers": [
+                { "label": "Self-Employment Tax", "value": 15.3, "color": "#1A3A5C" },
+                { "label": "Federal Income Tax", "value": 12, "color": "#2C5F8A", "note": "varies by bracket" },
+                { "label": "Florida State Tax", "value": 0, "color": "#48B07A", "note": "No state income tax!" },
+                { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838" }
+              ],
+              "total": "~27.8% effective"
+            }
+          ],
+          "footer": "Florida advantage: No personal state income tax saves LLC owners 4-13% compared to states like NY or CA."
+        },
+        "insertAfter": "The Brazil founder story paragraph (first major text section)"
+      },
+      {
+        "id": "dataviz-4-3",
+        "lessonId": "lesson-4-3",
+        "title": "The True Cost of a $60,000 Employee",
+        "chartType": "stacked-bar-with-breakdown",
+        "description": "Stacked bar showing base salary + each employer obligation layer, revealing true cost",
+        "data": {
+          "baseSalary": 60000,
+          "layers": [
+            { "label": "Base Salary", "value": 60000, "color": "#1A3A5C" },
+            { "label": "FICA (Social Security + Medicare)", "value": 4590, "percent": "7.65%", "color": "#2C5F8A" },
+            { "label": "FUTA (Federal Unemployment)", "value": 420, "color": "#E8A838" },
+            { "label": "SUTA (Florida Unemployment)", "value": 200, "note": "avg new employer", "color": "#F5C842" },
+            { "label": "Workers' Comp Insurance", "value": 1200, "note": "office work avg", "color": "#D4622B" },
+            { "label": "Health Insurance", "value": 5000, "note": "employer contribution avg", "color": "#48B07A" }
+          ],
+          "totalWithoutHealth": "$66,410 (10.7% over salary)",
+          "totalWithHealth": "$71,410 (19% over salary)",
+          "insight": "Budget 1.15x to 1.30x the base salary for your true hiring cost."
+        },
+        "insertAfter": "Table block showing employer obligations"
+      },
+      {
+        "id": "dataviz-7-3a",
+        "lessonId": "lesson-7-3",
+        "title": "How Central Florida Stacks Up — Cost Comparison",
+        "chartType": "grouped-bar",
+        "description": "Grouped bar chart comparing 5 cities across key cost metrics",
+        "data": {
+          "categories": ["Office Space ($/sqft/yr)", "Coworking ($/mo)", "Dev Salary ($K)", "1-BR Rent ($/mo)", "COL Index"],
+          "cities": [
+            {
+              "label": "Central Florida",
+              "color": "#E8A838",
+              "values": [30, 300, 92, 1600, 98],
+              "highlight": true
+            },
+            {
+              "label": "Miami",
+              "color": "#2C5F8A",
+              "values": [48, 475, 105, 2400, 120]
+            },
+            {
+              "label": "NYC",
+              "color": "#1A3A5C",
+              "values": [73, 700, 133, 3400, 187]
+            },
+            {
+              "label": "Silicon Valley",
+              "color": "#D4622B",
+              "values": [65, 550, 145, 3000, 172]
+            },
+            {
+              "label": "Austin",
+              "color": "#48B07A",
+              "values": [48, 400, 120, 1900, 108]
+            }
+          ],
+          "footer": "Central Florida's Cost of Living Index of 98 (near national average) means your startup capital stretches further.",
+          "highlight": "A $500K seed fund lasts 10 months in Silicon Valley vs. 16-17 months in Central Florida."
+        },
+        "insertAfter": "Cost comparison table"
+      },
+      {
+        "id": "dataviz-7-3b",
+        "lessonId": "lesson-7-3",
+        "title": "Central Florida Industry Clusters — Scale at a Glance",
+        "chartType": "horizontal-bar-with-icons",
+        "description": "Horizontal bars showing scale/revenue of each industry cluster with growth indicator",
+        "data": {
+          "clusters": [
+            { "label": "Hospitality Technology", "metric": "$75B+ tourism GDP", "value": 75, "growth": "stable", "color": "#E8A838" },
+            { "label": "Simulation & Training", "metric": "$6B annual contracts", "value": 6, "growth": "steady", "color": "#1A3A5C" },
+            { "label": "Aerospace & Defense", "metric": "28 orbital launches (2025)", "value": 28, "growth": "accelerating", "color": "#2C5F8A" },
+            { "label": "Life Sciences & Health", "metric": "90K+ healthcare employees", "value": 90, "growth": "expanding", "color": "#48B07A" },
+            { "label": "Technology & Fintech", "metric": "34% faster growth than U.S. avg", "value": 34, "growth": "strong", "color": "#D4622B" },
+            { "label": "AgTech", "metric": "UF/IFAS research partnerships", "value": 5, "growth": "emerging", "color": "#F5C842" }
+          ],
+          "note": "Values scaled for visual comparison — see table below for exact figures."
+        },
+        "insertAfter": "Industry clusters table"
+      },
+      {
+        "id": "dataviz-7-4",
+        "lessonId": "lesson-7-4",
+        "title": "Your Dollar Goes Further — Startup Runway by City",
+        "chartType": "comparison-bars-with-runway",
+        "description": "Shows how long $500K seed money lasts in each city based on monthly burn rate",
+        "data": {
+          "seedFunding": 500000,
+          "cities": [
+            { "label": "Central Florida", "monthlyBurn": 30000, "runway": 16.7, "color": "#E8A838", "highlight": true },
+            { "label": "Austin", "monthlyBurn": 38000, "runway": 13.2, "color": "#48B07A" },
+            { "label": "Miami", "monthlyBurn": 42000, "runway": 11.9, "color": "#2C5F8A" },
+            { "label": "NYC", "monthlyBurn": 55000, "runway": 9.1, "color": "#1A3A5C" },
+            { "label": "Silicon Valley", "monthlyBurn": 50000, "runway": 10.0, "color": "#D4622B" }
+          ],
+          "insight": "Central Florida gives you 6-7 extra months of runway compared to Silicon Valley on the same $500K seed round.",
+          "supplementary": {
+            "title": "Key Location Factors",
+            "items": [
+              { "label": "LATAM Direct Flights (MCO)", "value": "30+ cities" },
+              { "label": "Bilingual Workforce", "value": "30%+ of metro Orlando" },
+              { "label": "State Income Tax", "value": "0% (Florida)" },
+              { "label": "Florida VC (2024)", "value": "~$5.5B (~4% of U.S.)" }
+            ]
+          }
+        },
+        "insertAfter": "City comparison tabs"
+      }
+    ]
+  },
+
+  "section2_geminiInfographics": {
+    "description": "Complex infographics requiring clean text rendering — generate manually in Gemini. Each entry includes dimensions, detailed prompt, and lesson placement.",
+    "outputFormat": "PNG, high resolution",
+    "targetDimensions": "1824x1024 (16:9) for full-width, 912x1024 (9:16) for sidebar/tall",
+    "infographics": [
+      {
+        "id": "infographic-1-1",
+        "lessonId": "lesson-1-1",
+        "status": "CONVERTED TO INTERACTIVE — scenario-1-1-decision-tree added to lesson JSON instead",
+        "title": "Entity Decision Flowchart: LLC vs C-Corp vs S-Corp (SKIPPED)",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-1-1-entity-flowchart.png",
+        "prompt": "Create a clean, professional infographic flowchart for international entrepreneurs choosing a U.S. business entity. Use a warm color palette with navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) accents on a light cream (#F8F6F1) background.\n\nThe flowchart should start with 'Choosing Your U.S. Entity' at the top and branch based on these decision questions:\n\n1. 'Do you want outside investors (venture capital, angel funding)?' → YES leads to C-Corp path, NO continues\n2. 'Will you have 5+ employees in the first year?' → YES leads to C-Corp path, NO continues\n3. 'Are you a single founder or small partnership (2-3 people)?' → YES leads to LLC path\n4. 'Do you want pass-through taxation (no double tax)?' → YES leads to LLC or S-Corp path\n\nThree endpoint boxes:\n- LLC box (gold accent): 'Best for: Solo founders, simple operations. Tax: Pass-through (no double tax). Filing: $125 in Florida. Think of it as: Your storefront.'\n- C-Corp box (navy accent): 'Best for: Investor-backed startups. Tax: Corporate rate (21%) + dividend tax. Filing: $70-$300. Think of it as: Your tower.'\n- S-Corp box (burnt orange accent): 'Best for: Established businesses with U.S. tax residents. Tax: Pass-through with payroll savings. Limit: Must have U.S. shareholders.'\n\nNote at bottom: 'Most international founders start with an LLC. You can always convert later.'\n\nStyle: Modern, minimal, professional. Use rounded rectangles for boxes, clear arrows, readable sans-serif font. No decorative illustrations — purely informational. Include small icons (building, briefcase, chart) next to each entity type.",
+        "insertAfter": "Comparison card block (LLC vs C-Corp vs S-Corp)"
+      },
+      {
+        "id": "infographic-1-2",
+        "lessonId": "lesson-1-2",
+        "title": "SunBiz Registration: 8-Step Process",
+        "dimensions": "912x1400",
+        "outputFilename": "lesson-1-2-sunbiz-process.png",
+        "prompt": "Create a vertical step-by-step process infographic showing Florida's SunBiz business registration process. Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTitle: 'Registering Your Business on SunBiz.org — Step by Step'\n\n8 steps in a vertical flow with numbered circles and brief descriptions:\n\n1. CHOOSE YOUR ENTITY TYPE — LLC, Corp, or LP. Most international founders choose LLC.\n2. SEARCH FOR NAME AVAILABILITY — Use SunBiz name search. Must be unique in Florida.\n3. DESIGNATE A REGISTERED AGENT — Must have a Florida street address. You can use a service (~$100-$150/year).\n4. FILE ARTICLES OF ORGANIZATION — Online via SunBiz. LLC filing fee: $125. Processing: 1-3 business days online.\n5. OBTAIN YOUR EIN — Apply free at IRS.gov (SS-4 form). This is your business's 'social security number.'\n6. OPEN A BUSINESS BANK ACCOUNT — Bring: Articles of Organization, EIN letter, passport, Operating Agreement.\n7. REGISTER FOR STATE TAXES — If selling goods: register for Florida Sales Tax (DR-1 form). No state income tax registration needed.\n8. OBTAIN LOCAL LICENSES — Check county/city requirements. Orange County: Local Business Tax Receipt ($25-$50).\n\nTimeline indicator on the side: 'Total time: 1-2 weeks if prepared'\nCost summary at bottom: 'Estimated startup cost: $300-$500 (filing + registered agent + licenses)'\n\nStyle: Clean vertical timeline, each step in its own card/box, numbered prominently. Professional and clear, easy to follow top-to-bottom.",
+        "insertAfter": "Last text section about registration"
+      },
+      {
+        "id": "infographic-2-2",
+        "lessonId": "lesson-2-2",
+        "title": "VAT vs. U.S. Sales Tax — Side-by-Side Comparison",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-2-2-vat-vs-salestax.png",
+        "prompt": "Create a professional side-by-side comparison infographic: 'VAT vs. U.S. Sales Tax — What's Different?' Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTwo columns, each with a large header:\n\nLEFT COLUMN — 'VAT (Value Added Tax)' in navy:\n- Where: Most of the world (EU, LATAM, etc.)\n- Applied: At EVERY stage of production\n- Who collects: Every business in the supply chain\n- Rate: National (one rate per country, typically 10-25%)\n- Included in price: YES — consumer sees final price\n- Filing: One national tax authority\n- Example: Brazil (ICMS + IPI + PIS/COFINS = complex multi-layer system)\n\nRIGHT COLUMN — 'U.S. Sales Tax' in amber:\n- Where: United States (45 states + DC)\n- Applied: ONLY at final sale to consumer\n- Who collects: Only the final seller\n- Rate: Varies by STATE + COUNTY + CITY (can be 0% to 10.25%)\n- Included in price: NO — added at checkout\n- Filing: Each state separately (nexus rules apply)\n- Example: Florida = 6% state + up to 2.5% county surtax\n\nCenter divider with key insight: 'The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.'\n\nBottom callout: 'Florida: 6% base rate. No tax on most services. Exemptions for manufacturing equipment and some food items.'\n\nStyle: Clean two-column layout, icons for each comparison point, professional and scannable.",
+        "insertAfter": "Text section about VAT vs Sales Tax differences"
+      },
+      {
+        "id": "infographic-3-1",
+        "lessonId": "lesson-3-1",
+        "title": "U.S. Trademark Registration Timeline",
+        "dimensions": "1824x900",
+        "outputFilename": "lesson-3-1-trademark-timeline.png",
+        "prompt": "Create a horizontal timeline infographic showing the U.S. trademark registration process. Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTitle: 'Trademark Registration Timeline — USPTO'\n\nTimeline from left to right with time markers:\n\nMonth 0: FILE APPLICATION — TEAS Plus form ($250/class) or TEAS Standard ($350/class). Include: mark, goods/services description, specimen of use.\n\nMonth 1-3: USPTO REVIEW — Examining attorney reviews for conflicts. Average wait: 3-4 months.\n\nMonth 4-6: OFFICE ACTIONS (if any) — You may get a refusal or request for clarification. 3-month deadline to respond.\n\nMonth 7-8: PUBLICATION — Mark published in Official Gazette for 30 days. Anyone can oppose.\n\nMonth 9-12: REGISTRATION — If no opposition: registration certificate issued. Total time: 8-12 months typical.\n\nAfter Registration: MAINTAIN — Declaration of Use at year 5-6 and renewal every 10 years.\n\nCost summary box: 'Total cost: $250-$750 for filing + $0 if self-filed, $1,500-$3,000 with attorney'\n\nKey callout: 'International founders: Your home country trademark does NOT protect you in the U.S. IP rights are territorial — you must register separately.'\n\nStyle: Clean horizontal timeline with milestone markers, subtle progress bar connecting the steps.",
+        "insertAfter": "Comparison card for IP types"
+      },
+      {
+        "id": "infographic-3-2",
+        "lessonId": "lesson-3-2",
+        "title": "Business Insurance Types — What You Need",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-3-2-insurance-types.png",
+        "prompt": "Create a professional infographic grid showing essential business insurance types for international founders in the U.S. Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTitle: 'Business Insurance — What Coverage Do You Need?'\n\nGrid of 6 insurance type cards (2x3 or 3x2 layout):\n\n1. GENERAL LIABILITY (navy) — Required by most: Covers customer injuries, property damage, lawsuits. Cost: $400-$1,500/year. Get this FIRST.\n\n2. PROFESSIONAL LIABILITY / E&O (amber) — For service businesses: Covers mistakes, negligence claims, missed deadlines. Cost: $500-$2,500/year. Required if you give advice or provide professional services.\n\n3. WORKERS' COMPENSATION (burnt orange) — Required in Florida (4+ employees): Covers employee injuries on the job. Cost: varies by industry and payroll. Mandatory — not optional.\n\n4. COMMERCIAL PROPERTY (medium blue) — If you have a physical space: Covers equipment, inventory, office contents. Cost: $500-$3,000/year. Includes fire, theft, some natural disasters.\n\n5. BUSINESS OWNER'S POLICY / BOP (gold) — Best value for small businesses: Bundles general liability + property insurance at a discount. Cost: $500-$2,000/year. Great starting point.\n\n6. CYBER LIABILITY (dark teal) — For any business handling customer data: Covers data breaches, ransomware, notification costs. Cost: $500-$5,000/year. Increasingly essential.\n\nBottom section: 'How to Buy' — Get quotes from 3+ providers, use an independent insurance broker, review annually.\n\nDecision helper at very bottom: 'Just starting? Get General Liability first. Adding employees? Add Workers' Comp. Handling data? Add Cyber Liability.'\n\nStyle: Card-based grid, each card has an icon, the insurance name, key description, and price range. Color-coded borders per card.",
+        "insertAfter": "Last content section before knowledge check"
+      },
+      {
+        "id": "infographic-4-2",
+        "lessonId": "lesson-4-2",
+        "title": "Visa Pathway Comparison Chart",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-4-2-visa-pathways.png",
+        "prompt": "Create a professional comparison infographic showing the 4 main visa pathways for international entrepreneurs entering the U.S. Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTitle: 'Four Visa Pathways for International Founders'\nSubtitle: 'Four backstage passes, four different doors'\n\n4 columns or large cards, one per visa:\n\n1. E-2 TREATY INVESTOR (gold border):\n- What: Investor visa for treaty country nationals\n- Investment: $100,000+ typical (substantial)\n- Duration: 2 years, renewable indefinitely\n- Key requirement: Treaty country + substantial investment + active management\n- Can hire employees: YES\n- Path to green card: NO (must convert to another visa)\n- Best for: Founders with capital from treaty countries\n\n2. L-1A INTRACOMPANY TRANSFER (navy border):\n- What: Transfer from your foreign company to U.S. office\n- Investment: Must have existing foreign business\n- Duration: 1-3 years initially, up to 7 years\n- Key requirement: Managerial role + company existed 1+ year abroad\n- Can hire employees: YES\n- Path to green card: YES (EB-1C)\n- Best for: Expanding an existing business to the U.S.\n\n3. O-1A EXTRAORDINARY ABILITY (burnt orange border):\n- What: For individuals with extraordinary achievement\n- Investment: None required\n- Duration: 3 years, renewable\n- Key requirement: Prove extraordinary ability (awards, press, high salary, etc.)\n- Can hire employees: Through a U.S. employer/agent\n- Path to green card: YES (EB-1A)\n- Best for: Founders with notable achievements, press coverage, or industry recognition\n\n4. B-1/B-2 VISITOR (gray border):\n- What: Business visitor (temporary)\n- Investment: None\n- Duration: Up to 6 months\n- Key requirement: Cannot work or earn U.S. income\n- Can hire employees: NO\n- Path to green card: NO\n- Best for: Initial market research, meetings, conferences ONLY\n\nBottom warning box: 'Working without proper visa authorization is a serious violation. Consult an immigration attorney before making business decisions.'\n\nStyle: Clean 4-column comparison, consistent rows for easy scanning, color-coded headers.",
+        "insertAfter": "Accordion block about visa pathways"
+      },
+      {
+        "id": "infographic-6-3",
+        "lessonId": "lesson-6-3",
+        "title": "Cultural Missteps That Cost Real Money",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-6-3-cultural-costs.png",
+        "prompt": "Create a professional infographic showing common cultural missteps that cost international founders real money in the U.S. market. Use navy blue (#1A3A5C), amber/gold (#E8A838), and red (#C0392B) for warning accents on cream (#F8F6F1) background.\n\nTitle: 'Cultural Missteps That Cost Real Money'\nSubtitle: 'Small misunderstandings, big consequences'\n\n5-6 misstep cards arranged in a grid, each with a dollar cost indicator:\n\n1. MISSING THE FOLLOW-UP WINDOW — '$5,000-$50,000 in lost deals'\nU.S. partners expect a follow-up email within 24-48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.\n\n2. HANDSHAKE DEALS WITHOUT CONTRACTS — '$10,000-$100,000+ in disputes'\nIn the U.S., if it's not in writing, it doesn't exist. Even friendly business relationships need signed agreements.\n\n3. OVER-PROMISING TIMELINES — '$2,000-$20,000 in credibility damage'\nSaying 'yes' to every deadline to be polite, then missing them. Americans plan around your committed dates.\n\n4. IGNORING SMALL TALK — '$0 direct but relationship-killing'\nSkipping the 2-3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.\n\n5. WRONG FORMALITY LEVEL — '$0 direct but deal-slowing'\nUsing overly formal titles (Sr. Director, Dr.) when Americans use first names, or being too casual too soon in formal industries (law, finance).\n\n6. ASSUMING 'SOUNDS GREAT' MEANS YES — '$5,000-$25,000 in wasted preparation'\nIn U.S. business culture, 'Let me think about it' and 'Sounds interesting' usually mean NO. 'Let's do it' or a signed document means yes.\n\nBottom insight: 'The good news: Americans are forgiving of cultural differences. They care far more about reliability and follow-through than perfect etiquette.'\n\nStyle: Warning-style cards with yellow/red accents, dollar amounts prominently displayed, icons for each misstep. Professional but attention-grabbing.",
+        "insertAfter": "Content section about cultural challenges"
+      }
+    ],
+    "maps": [
+      {
+        "id": "map-7-1",
+        "lessonId": "lesson-7-1",
+        "title": "Central Florida Business Resources Map",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-7-1-resource-map.png",
+        "prompt": "Create a clean, illustrated map of the Central Florida / Greater Orlando region showing key business resources for international entrepreneurs. Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTitle: 'Your Central Florida Resource Network'\n\nShow the Greater Orlando area with these labeled locations:\n\n1. UCF BUSINESS INCUBATION PROGRAM (gold star) — UCF main campus area, east Orlando. 'Free mentoring, workshops, office space for startups.'\n\n2. SMALL BUSINESS DEVELOPMENT CENTER / SBDC (navy marker) — Downtown Orlando area. 'Free 1:1 consulting, business plan help, market research.'\n\n3. SCORE ORLANDO (burnt orange marker) — Downtown Orlando. 'Free mentoring from retired business executives.'\n\n4. ENTERPRISE FLORIDA (medium blue marker) — State organization. 'International trade assistance, export development.'\n\n5. ORLANDO ECONOMIC PARTNERSHIP (teal marker) — Central Orlando. 'Regional economic development, relocation assistance, industry connections.'\n\nKey highways labeled: I-4 corridor, 408 (East-West Expressway), 417 (Central Florida GreeneWay)\n\nLandmarks for orientation: Orlando International Airport (MCO), UCF campus, Downtown Orlando, Lake Nona, International Drive area\n\nBottom legend: Color-coded markers with brief description of each organization type.\n\nNote: 'All organizations listed offer FREE or low-cost services for international entrepreneurs.'\n\nStyle: Simplified illustrated map (not Google Maps style), warm colors, clear labels, professional cartographic illustration feel. Geographic accuracy matters but artistic interpretation is fine.",
+        "insertAfter": "Accordion block (Resource Directory)"
+      },
+      {
+        "id": "map-7-2",
+        "lessonId": "lesson-7-2",
+        "title": "Central Florida Networking Hotspots",
+        "dimensions": "1824x1024",
+        "outputFilename": "lesson-7-2-networking-map.png",
+        "prompt": "Create a clean illustrated map of the Central Florida / Greater Orlando region showing key networking locations for international founders. Use navy blue (#1A3A5C), amber/gold (#E8A838), and burnt orange (#D4622B) on cream (#F8F6F1) background.\n\nTitle: 'Where to Show Up — Central Florida Networking Map'\n\nShow the Greater Orlando area with these categories of locations:\n\nEVENTS & CONFERENCES (gold markers):\n- Orlando Tech Week (Downtown)\n- 1 Million Cups Orlando (weekly, Downtown)\n- Startup Weekend Orlando\n- Orlando Regional Chamber events\n\nCOWORKING & INCUBATORS (navy markers):\n- StarterStudio (Downtown Orlando)\n- Canvs (Downtown)\n- Groundswell Startups (Melbourne/Space Coast)\n- UCF Business Incubation Program (East Orlando)\n- Advent Health Innovation Lab (Lake Nona)\n\nKEY AREAS (highlighted zones):\n- Downtown Orlando (densest concentration)\n- Lake Nona / Medical City (health tech)\n- Research Park at UCF (tech/simulation)\n- International Drive corridor (hospitality tech)\n- Space Coast / Cape Canaveral (aerospace)\n\nBottom tip: 'Start with 1 Million Cups (free, weekly, casual) and one coworking space. Build from there.'\n\nStyle: Warm illustrated map style, zone highlights as semi-transparent overlays, clear category legend. Geographic accuracy with artistic interpretation.",
+        "insertAfter": "New accordion block (Where to Show Up)"
+      }
+    ]
+  },
+
+  "section3_qwen2512Scenarios": {
+    "description": "Scenario and situational illustrations generated via ComfyUI Qwen 2512 GGUF workflow. Match established 'Cinematic Digital Painting' style from qwen-optimized-prompts.json.",
+    "model": "qwen-2512-gguf",
+    "workflow": "image_qwen_2512_gguf.json",
+    "resolution": "1824x1024",
+    "stylePrefix": "Cinematic digital painting,",
+    "styleSuffix": "Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+    "diversityRotation": [
+      { "ethnicity": "Hispanic Latino", "gender": "female", "age": "30s" },
+      { "ethnicity": "South Asian", "gender": "male", "age": "40s" },
+      { "ethnicity": "African American", "gender": "male", "age": "30s" },
+      { "ethnicity": "Asian American", "gender": "female", "age": "20s" },
+      { "ethnicity": "Caucasian", "gender": "female", "age": "40s" },
+      { "ethnicity": "Hispanic Latino", "gender": "male", "age": "50s" },
+      { "ethnicity": "multiracial", "gender": "female", "age": "30s" }
+    ],
+    "prompts": [
+      {
+        "id": "scenario-1-3",
+        "lessonId": "lesson-1-3",
+        "title": "Founder at Bank Meeting",
+        "outputFilename": "lesson-1-3-bank-meeting.png",
+        "diversityIndex": 0,
+        "qwenPrompt": "Cinematic digital painting, a confident Hispanic Latino woman in her early 30s seated across a polished mahogany desk from a bank officer in a modern Central Florida bank branch, wearing a tailored charcoal blazer over a white silk blouse, her right hand resting on a leather portfolio with business documents spread on the desk between them, her left hand gesturing thoughtfully as she explains her business plan. The bank interior features warm wood paneling, frosted glass partitions, and a tall window on the left showing tropical landscaping with sabal palms. A small stack of official documents, an EIN letter, and a passport sit neatly on her side of the desk. Dramatic golden hour lighting streams through the window blinds casting warm striped light across the scene, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "Opening text section"
+      },
+      {
+        "id": "scenario-2-3",
+        "lessonId": "lesson-2-3",
+        "title": "Founder Facing Bank Rejection",
+        "outputFilename": "lesson-2-3-bank-rejection.png",
+        "diversityIndex": 1,
+        "qwenPrompt": "Cinematic digital painting, a thoughtful South Asian man in his early 40s standing outside a modern bank building in a Central Florida financial district, wearing a fitted navy blue blazer over a pale blue button-down shirt and khaki trousers, his left hand holding a folder of business documents at his side and his right hand resting on his chin in contemplation. He gazes at the bank entrance with a determined expression, not defeated but strategizing his next move. The bank facade has glass doors and polished stone columns, with a line of tall royal palm trees along the sidewalk. A subtle reflection in the glass door shows the interior. Dramatic golden hour lighting casts long warm shadows across the plaza, the afternoon sun backlighting the palm fronds. Painterly brushstrokes visible throughout, atmospheric haze around the distant buildings, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "New scenario block 'The Bank Said No'"
+      },
+      {
+        "id": "scenario-4-1",
+        "lessonId": "lesson-4-1",
+        "title": "IRS Classification Decision",
+        "outputFilename": "lesson-4-1-irs-classification.png",
+        "diversityIndex": 2,
+        "qwenPrompt": "Cinematic digital painting, an African American man in his early 30s seated at a large desk in a bright modern home office in Central Florida, wearing a crisp white dress shirt with sleeves rolled to the forearms, his right hand hovering over a laptop keyboard and his left hand holding a printed IRS form. On the desk are two stacks of documents — one labeled-style pile with contractor agreements, another with employment forms — representing the classification decision between W-2 employees and 1099 contractors. The home office has a clean modern aesthetic with a bookshelf, a potted bird of paradise plant, and a large window behind showing a Central Florida neighborhood with palm trees and a tile-roofed house. Dramatic golden hour lighting floods through the window, illuminating the documents on the desk with warm amber light. Painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "Opening text section about hiring"
+      },
+      {
+        "id": "scenario-5-2",
+        "lessonId": "lesson-5-2",
+        "title": "Founder at U.S. Trade Show",
+        "outputFilename": "lesson-5-2-trade-show.png",
+        "diversityIndex": 3,
+        "qwenPrompt": "Cinematic digital painting, an enthusiastic Asian American woman in her late 20s standing at a professional exhibition booth at a U.S. trade show in a convention center, wearing a smart navy blazer over a coral blouse, her right hand extended in a welcoming gesture toward a visitor approaching the booth and her left hand holding a tablet displaying product information. The booth has a clean modern design with a fabric backdrop, product samples on a white display table, and professional lighting. Other booths are visible in the background creating depth. The convention center has high industrial ceilings with dramatic overhead lighting. The scene captures the energy of American B2B sales culture — direct, professional, and relationship-building. Dramatic warm overhead lighting creates sharp contrasts, painterly brushstrokes visible throughout, atmospheric haze in the vast hall, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "Opening text section about selling in the U.S."
+      },
+      {
+        "id": "scenario-6-1",
+        "lessonId": "lesson-6-1",
+        "title": "Two Founders in Meeting — Communication Styles",
+        "outputFilename": "lesson-6-1-meeting-communication.png",
+        "diversityIndex": 4,
+        "qwenPrompt": "Cinematic digital painting, a Caucasian woman in her early 40s and a Hispanic Latino man in his mid-30s seated across from each other at a round table in a modern coworking space meeting room in Central Florida, both in professional business casual attire. The woman wears a structured sage green blazer and leans forward with open body language, her hands gesturing directly as she makes a point. The man sits slightly back, listening attentively with a polite smile, holding a leather notebook. Between them on the table are coffee cups and a few printed documents. The meeting room has glass walls showing the coworking space beyond, with tropical plants and modern furniture visible. The scene captures the contrast between direct American communication style and the more formal approach common in Latin American business culture. Dramatic golden hour lighting through floor-to-ceiling windows, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "Opening text section about communication differences"
+      },
+      {
+        "id": "scenario-6-2",
+        "lessonId": "lesson-6-2",
+        "title": "Networking Event — Elevator Pitch Moment",
+        "outputFilename": "lesson-6-2-networking-event.png",
+        "diversityIndex": 5,
+        "qwenPrompt": "Cinematic digital painting, a distinguished Hispanic Latino man in his early 50s at a professional networking event in a modern Central Florida venue, wearing a well-fitted charcoal gray suit with an open-collar pale blue shirt, his right hand holding a business card he is offering to another professional and his left hand holding a small plate with appetizers. He stands confidently in a small group of three people having an animated conversation. The venue is an upscale rooftop terrace with string lights overhead, modern railing, and a sunset view of the Orlando skyline with palm tree silhouettes. Other professionals mingle in the background creating a sense of an active networking event. The scene captures the moment of making a first impression — the 30-second elevator pitch in action. Dramatic golden hour lighting from the setting sun, painterly brushstrokes visible throughout, atmospheric haze around the distant skyline, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "Text section about building your pitch"
+      },
+      {
+        "id": "scenario-8-3",
+        "lessonId": "lesson-8-3",
+        "title": "Founder at UCF 1:1 Meeting",
+        "outputFilename": "lesson-8-3-ucf-meeting.png",
+        "diversityIndex": 6,
+        "qwenPrompt": "Cinematic digital painting, a confident multiracial woman in her early 30s seated at a table in a bright modern UCF campus office, wearing a smart burgundy blazer over a cream blouse, shaking hands with a UCF business advisor across the desk in a warmly lit consultation room. The office has university decor — a small bookshelf with business reference books, a framed university seal on the wall, and a window showing a classic red brick UCF campus building with live oak trees and a green lawn outside. On the table between them are a printed action plan document, a laptop, and coffee cups. The scene conveys the feeling of reaching the finish line — transitioning from learning to doing, with expert support. Dramatic golden hour lighting streams through the window, casting warm light across both figures. Painterly brushstrokes visible throughout, atmospheric haze in the campus view, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+        "insertAfter": "Opening text section"
+      }
+    ]
+  }
+}

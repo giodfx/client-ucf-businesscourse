@@ -1,0 +1,113 @@
+{
+  "lessonId": "lesson-2-3",
+  "videoTitle": "Banking Deep Dive \u00e2\u20ac\u201d The Reality for International Founders",
+  "presenter": "female",
+  "presenterImage": "media/images/avatars/presenter-female.png",
+  "landscapeTheme": "Financial District / Office Park \u00e2\u20ac\u201d banking, corporate infrastructure",
+  "totalDuration": 264.72,
+  "sceneCount": 7,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "heading": "The Tallest Building in the Financial District",
+      "bullets": [],
+      "narration": "You have walked past the tax offices and the accounting firms. Now you are standing in front of the tallest building at the end of the Financial District: the bank. This is the stop that trips up more international founders than any other. You can form your LLC in two days. But getting a bank account? That can take two months and three rejections. Banks reject international founders for specific, predictable reasons. No U.S. credit history. Missing papers. Entity type mismatch. Country-of-origin flags. But once you understand the pattern, you can prepare for it. Let me show you exactly what to expect.",
+      "template": "intro",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-1.wav",
+      "duration": 31.76
+    },
+    {
+      "sceneNumber": 2,
+      "heading": "Why Banks Turn You Away",
+      "bullets": [
+        "No U.S. credit history \u00e2\u20ac\u201d home-country credit does not transfer",
+        "Every bank has a different checklist, and most do not post it clearly",
+        "Some banks prefer C-Corps over single-member LLCs",
+        "Anti-money-laundering rules mean founders from certain countries face extra review"
+      ],
+      "narration": "A German founder with a fifteen-year Deutsche Bank relationship was turned away by Chase because he had no U.S. credit score. Home-country credit simply does not transfer. Every bank has a different checklist, and most do not post it online. Walk in missing one document and you will come back another day. Some banks prefer C-Corps over single-member LLCs. Others will not open accounts for entities less than thirty days old. And anti-money-laundering rules mean founders from certain countries face added review or outright refusal. A Kenyan fintech founder applied at three banks, each asking for more documentation. She eventually succeeded at a regional Orlando bank experienced with African founders. But the process took seven weeks.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-2.wav",
+      "duration": 39.28
+    },
+    {
+      "sceneNumber": 3,
+      "heading": "Realistic Timelines",
+      "bullets": [
+        "First bank account: two to four weeks if everything goes right, sometimes six to eight",
+        "Business credit card: three to six months after account opening",
+        "Business credit line: twelve to eighteen months of banking history",
+        "Plan your cash flow around these timelines \u00e2\u20ac\u201d do not expect same-week access"
+      ],
+      "narration": "Here is the timeline you need to plan around. Your first bank account takes two to four weeks if everything goes right. Some founders report six to eight weeks with additional compliance review. A business credit card takes three to six months after account opening. Most require a U.S. credit score or a secured deposit. A business credit line takes twelve to eighteen months of banking history and revenue documentation. Plan your cash flow around these timelines. Do not expect to walk into a bank on Monday and have an account by Friday. The Financial District operates on its own schedule, and understanding that schedule is half the battle.",
+      "template": "split-right",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-3.wav",
+      "duration": 33.36
+    },
+    {
+      "sceneNumber": 4,
+      "heading": "Building U.S. Credit from Zero",
+      "bullets": [
+        "Step 1: Secured credit card \u00e2\u20ac\u201d deposit five hundred to two thousand as collateral",
+        "Step 2: Business credit card that uses EIN and revenue instead of personal credit",
+        "Step 3: Credit-builder accounts that report monthly payments to bureaus",
+        "Start building credit the day you open your bank account"
+      ],
+      "narration": "Building U.S. credit is like establishing your reputation in the Financial District. You start as a stranger. Nobody knows you. Your U.S. credit score starts at nothing \u00e2\u20ac\u201d not low, but truly absent. Step one: get a secured credit card. Deposit five hundred to two thousand dollars as collateral, use it for small purchases, and pay in full every month. After six to twelve months, you will have a basic score. Step two: get a business credit card that uses your EIN and revenue instead of personal credit. Brex, Ramp, and Mercury offer these. Step three: consider credit-builder accounts from services like Self or Grow Credit. Credit affects everything \u00e2\u20ac\u201d lease terms, vendor payment terms, and access to loans. A Peruvian founder paid three months rent upfront because she had no credit history. Start building credit the day you open your bank account.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-4.wav",
+      "duration": 46.72
+    },
+    {
+      "sceneNumber": 5,
+      "heading": "Moving Money \u00e2\u20ac\u201d Processors, Wires, and ACH",
+      "bullets": [
+        "Stripe requires a U.S. bank account for payouts \u00e2\u20ac\u201d 2.9% plus thirty cents per transaction",
+        "Wise gives you a U.S. account number with low conversion fees for international transfers",
+        "ACH is the U.S. standard for recurring payments \u00e2\u20ac\u201d free or low-cost, one to three days",
+        "International wire fees add up \u00e2\u20ac\u201d compare bank rates against Wise to save hundreds per month"
+      ],
+      "narration": "Before you leave the Financial District, stop at the service counter near the exit. You still need to accept payments and move money while you work on the full bank account. Stripe is the fastest way to accept credit card payments online. Processing fee is two point nine percent plus thirty cents per transaction. It requires a U.S. bank account for payouts. Wise gives you a U.S. account number and routing number for ACH payments. Excellent for moving money between countries at favorable exchange rates. ACH is the U.S. standard for recurring payments \u00e2\u20ac\u201d free or low-cost, one to three business days. Wire transfers are for urgent or international payments, but they cost twenty-five to fifty dollars each direction through traditional banks. Compare your bank rates against Wise. The difference can save hundreds per month.",
+      "template": "split-right",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-5.wav",
+      "duration": 40.96
+    },
+    {
+      "sceneNumber": 6,
+      "heading": "A Quick Word About Funding",
+      "bullets": [
+        "Most early-stage investors want to see traction before writing a check",
+        "Most international founders bootstrap their first six to twelve months",
+        "SBA loan programs typically require U.S. citizenship or a green card",
+        "Build traction first, then approach investors"
+      ],
+      "narration": "Standing at the edge of the Financial District, you can see the investor tower in the distance. Most early-stage founders are not ready to walk in there yet. U.S. investors want to see traction \u00e2\u20ac\u201d paying customers, revenue growth, or strong user metrics \u00e2\u20ac\u201d before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand. The SBA offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often do not qualify. That is why most international founders bootstrap their first six to twelve months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.",
+      "template": "split-left",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-6.wav",
+      "duration": 41.44
+    },
+    {
+      "sceneNumber": 7,
+      "heading": "Leaving the Financial District",
+      "bullets": [],
+      "narration": "Banking is one of the biggest pain points for international founders. Come to every bank visit with all your documents. Apply to banks that welcome foreign owners. Start building U.S. credit from day one with a secured credit card. Plan to fund yourself the first year. Investors and SBA loans have rules that take time to meet. The Financial District does not hand out trust freely \u00e2\u20ac\u201d you earn it one transaction at a time. The road out of the Financial District leads east toward the coast. Next stop: the launch facility, where you will learn to protect the ideas and innovations that make your business worth building.",
+      "template": "intro",
+      "avatarScene": "lesson-2-3",
+      "imageUrl": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "audioUrl": "media/audio/scenes/lesson-2-3/lesson-2-3-scene-7.wav",
+      "duration": 31.2
+    }
+  ]
+}

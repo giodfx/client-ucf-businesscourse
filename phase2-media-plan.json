@@ -1,0 +1,1339 @@
+{
+  "projectId": "ucf-business-course",
+  "courseTitle": "U.S. Market Readiness Program",
+  "generatedAt": "2026-03-23T18:00:00Z",
+  "version": "1.0",
+  "analysisContext": {
+    "totalModules": 9,
+    "totalLessons": 25,
+    "totalDuration": "2-3 hours",
+    "sourceType": "generated",
+    "courseFormat": "self-paced professional training",
+    "visualTheme": "Cinematic Digital Painting — dramatic golden hour, painterly brushstrokes, warm saturated colors",
+    "template": "professional-modern",
+    "sensitivityNotes": "Legal/tax/immigration content requires professional disclaimers. No specific dollar amounts stated as absolute. No cultural stereotypes. Diversity rotation across all generated imagery."
+  },
+  "existingMediaCoverage": {
+    "heroImages": "25 hero banners defined in qwen-optimized-prompts.json",
+    "inlineImages": "None — course uses hero images and video scenes only",
+    "avatarVideos": "25 InfinityTalk avatar videos planned (one per lesson)",
+    "interactiveComponents": "Knowledge checks, reflections, key takeaways already embedded in Phase 1 content",
+    "textContent": "Complete for all 25 lessons"
+  },
+  "summary": {
+    "totalMediaItems": 75,
+    "mediaItems": {
+      "heroImages": 25,
+      "avatarVideos": 25,
+      "narrationAudio": 25,
+      "sceneBackgrounds": 0,
+      "interactiveMedia": 0
+    },
+    "estimatedEffort": {
+      "hours": "40-60",
+      "tier": "mvp"
+    },
+    "rationale": "Course uses InfinityTalk avatar videos as primary media. Each lesson gets a hero image, narration audio, and avatar video. Scene backgrounds will be generated in Phase 3 from video scripts."
+  },
+  "tiers": {
+    "mvp": {
+      "description": "Hero images + narration audio + InfinityTalk avatar videos for all 25 lessons",
+      "items": ["All hero images", "All narration audio", "All avatar videos"],
+      "totalItemCount": 75,
+      "rationale": "Complete media package using automated pipeline. No external production needed."
+    },
+    "recommended": {
+      "description": "MVP plus scene-based video backgrounds for enhanced video player experience",
+      "items": ["All MVP items", "Scene background images (150-200)"],
+      "totalItemCount": 275,
+      "rationale": "Adds visual variety to video scenes. Significantly more images to generate but automated via pipeline."
+    },
+    "fullProduction": {
+      "description": "Recommended plus podcast episodes for select modules",
+      "items": ["All recommended items", "3-4 podcast episodes for key modules"],
+      "totalItemCount": 280,
+      "rationale": "Podcast adds audio variety and deeper exploration of key topics. Optional enhancement."
+    }
+  },
+  "videoSystem": {
+    "type": "infinitytalk",
+    "workflow": "workflows/comfyui/infinityTalk - Single -Wan 2.1.json",
+    "avatarCharacter": {
+      "description": "Confident Latina woman, early 30s, dark shoulder-length wavy hair",
+      "style": "Cinematic digital painting, matching course visual identity",
+      "framing": "Chest up, positioned on left third of frame with open space on right for overlays",
+      "outfitVariations": 9
+    },
+    "ttsProvider": "Qwen3-TTS",
+    "voiceCloning": true,
+    "voiceProfile": {
+      "tone": "Warm, professional mentor — knowledgeable friend voice",
+      "pacing": "Conversational, moderate pace with natural pauses",
+      "referenceAudio": "voices/ directory (to be configured)"
+    },
+    "outputFormat": "832x480 H.264 MP4 @ 25fps"
+  },
+  "landscapeThemes": {
+    "module-0": "Highway / Dashboard Entry",
+    "module-1": "City Landscape — downtown Orlando, business formation, government",
+    "module-2": "Financial District — banking, corporate infrastructure",
+    "module-3": "Rocket Base — generic research facility, launch towers, industrial science campus",
+    "module-4": "Theme Park — vibrant entertainment district, roller coasters, generic theme park atmosphere",
+    "module-5": "Port / Shopping Center — busy port with cargo ships, large outlet shopping center, commercial activity",
+    "module-6": "Beach — Florida beach, ocean, boardwalk, casual outdoor business settings",
+    "module-7": "River Springs — natural spring river, crystal clear water, cypress trees, Florida wildlife",
+    "module-8": "UCF Headquarters — modern university/incubator campus, contemporary academic buildings"
+  },
+  "mediaItems": [
+    {
+      "id": "media-img-001",
+      "type": "image",
+      "lessonId": "lesson-0-1",
+      "moduleId": "module-0",
+      "title": "Hero: Start Here — What To Expect And How To Use This Program",
+      "rationale": "Visual anchor for welcome lesson — highway/dashboard entry landscape establishing the road trip metaphor",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-001",
+      "type": "audio",
+      "lessonId": "lesson-0-1",
+      "moduleId": "module-0",
+      "title": "Narration: Start Here — What To Expect And How To Use This Program",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "6.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-001",
+      "type": "video",
+      "lessonId": "lesson-0-1",
+      "moduleId": "module-0",
+      "title": "Avatar Video: Start Here — What To Expect And How To Use This Program",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 0 outfit variant — casual-professional, highway/travel theme",
+        "audioSource": "media-audio-001",
+        "estimatedDuration": "6.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-002",
+      "type": "image",
+      "lessonId": "lesson-1-1",
+      "moduleId": "module-1",
+      "title": "Hero: Choosing Your U.S. Business Entity",
+      "rationale": "Visual anchor for entity selection lesson — city landscape with business formation imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-002",
+      "type": "audio",
+      "lessonId": "lesson-1-1",
+      "moduleId": "module-1",
+      "title": "Narration: Choosing Your U.S. Business Entity",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "5.2 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-002",
+      "type": "video",
+      "lessonId": "lesson-1-1",
+      "moduleId": "module-1",
+      "title": "Avatar Video: Choosing Your U.S. Business Entity",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 1 outfit variant — business-formal, city landscape theme",
+        "audioSource": "media-audio-002",
+        "estimatedDuration": "5.2 minutes"
+      }
+    },
+    {
+      "id": "media-img-003",
+      "type": "image",
+      "lessonId": "lesson-1-2",
+      "moduleId": "module-1",
+      "title": "Hero: Registering with SunBiz — Step by Step",
+      "rationale": "Visual anchor for registration lesson — city landscape with government/civic building imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-003",
+      "type": "audio",
+      "lessonId": "lesson-1-2",
+      "moduleId": "module-1",
+      "title": "Narration: Registering with SunBiz — Step by Step",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "6.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-003",
+      "type": "video",
+      "lessonId": "lesson-1-2",
+      "moduleId": "module-1",
+      "title": "Avatar Video: Registering with SunBiz — Step by Step",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 1 outfit variant — business-formal, city landscape theme",
+        "audioSource": "media-audio-003",
+        "estimatedDuration": "6.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-004",
+      "type": "image",
+      "lessonId": "lesson-1-3",
+      "moduleId": "module-1",
+      "title": "Hero: Banking Basics for International Founders",
+      "rationale": "Visual anchor for banking basics lesson — city landscape with financial institution imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-004",
+      "type": "audio",
+      "lessonId": "lesson-1-3",
+      "moduleId": "module-1",
+      "title": "Narration: Banking Basics for International Founders",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-004",
+      "type": "video",
+      "lessonId": "lesson-1-3",
+      "moduleId": "module-1",
+      "title": "Avatar Video: Banking Basics for International Founders",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 1 outfit variant — business-formal, city landscape theme",
+        "audioSource": "media-audio-004",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-005",
+      "type": "image",
+      "lessonId": "lesson-2-1",
+      "moduleId": "module-2",
+      "title": "Hero: Federal and State Taxes — What You Actually Owe",
+      "rationale": "Visual anchor for taxes lesson — financial district landscape with office park imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-005",
+      "type": "audio",
+      "lessonId": "lesson-2-1",
+      "moduleId": "module-2",
+      "title": "Narration: Federal and State Taxes — What You Actually Owe",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "5.9 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-005",
+      "type": "video",
+      "lessonId": "lesson-2-1",
+      "moduleId": "module-2",
+      "title": "Avatar Video: Federal and State Taxes — What You Actually Owe",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 2 outfit variant — professional-corporate, financial district theme",
+        "audioSource": "media-audio-005",
+        "estimatedDuration": "5.9 minutes"
+      }
+    },
+    {
+      "id": "media-img-006",
+      "type": "image",
+      "lessonId": "lesson-2-2",
+      "moduleId": "module-2",
+      "title": "Hero: Sales Tax, Accounting, and Keeping the Books",
+      "rationale": "Visual anchor for accounting lesson — financial district with corporate infrastructure",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-006",
+      "type": "audio",
+      "lessonId": "lesson-2-2",
+      "moduleId": "module-2",
+      "title": "Narration: Sales Tax, Accounting, and Keeping the Books",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "5.2 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-006",
+      "type": "video",
+      "lessonId": "lesson-2-2",
+      "moduleId": "module-2",
+      "title": "Avatar Video: Sales Tax, Accounting, and Keeping the Books",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 2 outfit variant — professional-corporate, financial district theme",
+        "audioSource": "media-audio-006",
+        "estimatedDuration": "5.2 minutes"
+      }
+    },
+    {
+      "id": "media-img-007",
+      "type": "image",
+      "lessonId": "lesson-2-3",
+      "moduleId": "module-2",
+      "title": "Hero: Banking Deep Dive — The Reality for International Founders",
+      "rationale": "Visual anchor for banking deep dive — financial district with banking infrastructure",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-007",
+      "type": "audio",
+      "lessonId": "lesson-2-3",
+      "moduleId": "module-2",
+      "title": "Narration: Banking Deep Dive — The Reality for International Founders",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "5.2 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-007",
+      "type": "video",
+      "lessonId": "lesson-2-3",
+      "moduleId": "module-2",
+      "title": "Avatar Video: Banking Deep Dive — The Reality for International Founders",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 2 outfit variant — professional-corporate, financial district theme",
+        "audioSource": "media-audio-007",
+        "estimatedDuration": "5.2 minutes"
+      }
+    },
+    {
+      "id": "media-img-008",
+      "type": "image",
+      "lessonId": "lesson-3-1",
+      "moduleId": "module-3",
+      "title": "Hero: Intellectual Property — Protecting Your Ideas in the U.S.",
+      "rationale": "Visual anchor for IP lesson — rocket base landscape with innovation/protection imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-008",
+      "type": "audio",
+      "lessonId": "lesson-3-1",
+      "moduleId": "module-3",
+      "title": "Narration: Intellectual Property — Protecting Your Ideas in the U.S.",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-008",
+      "type": "video",
+      "lessonId": "lesson-3-1",
+      "moduleId": "module-3",
+      "title": "Avatar Video: Intellectual Property — Protecting Your Ideas in the U.S.",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 3 outfit variant — smart-casual, rocket base/innovation theme",
+        "audioSource": "media-audio-008",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-009",
+      "type": "image",
+      "lessonId": "lesson-3-2",
+      "moduleId": "module-3",
+      "title": "Hero: Insurance and Risk Management",
+      "rationale": "Visual anchor for insurance lesson — rocket base landscape with protection/shield imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-009",
+      "type": "audio",
+      "lessonId": "lesson-3-2",
+      "moduleId": "module-3",
+      "title": "Narration: Insurance and Risk Management",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-009",
+      "type": "video",
+      "lessonId": "lesson-3-2",
+      "moduleId": "module-3",
+      "title": "Avatar Video: Insurance and Risk Management",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 3 outfit variant — smart-casual, rocket base/innovation theme",
+        "audioSource": "media-audio-009",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-010",
+      "type": "image",
+      "lessonId": "lesson-3-3",
+      "moduleId": "module-3",
+      "title": "Hero: Contracts and When You Need a Lawyer",
+      "rationale": "Visual anchor for legal counsel lesson — rocket base landscape with professional guidance imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-010",
+      "type": "audio",
+      "lessonId": "lesson-3-3",
+      "moduleId": "module-3",
+      "title": "Narration: Contracts and When You Need a Lawyer",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "3.9 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-010",
+      "type": "video",
+      "lessonId": "lesson-3-3",
+      "moduleId": "module-3",
+      "title": "Avatar Video: Contracts and When You Need a Lawyer",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 3 outfit variant — smart-casual, rocket base/innovation theme",
+        "audioSource": "media-audio-010",
+        "estimatedDuration": "3.9 minutes"
+      }
+    },
+    {
+      "id": "media-img-011",
+      "type": "image",
+      "lessonId": "lesson-4-1",
+      "moduleId": "module-4",
+      "title": "Hero: Your First U.S. Hire — Contractor vs. Employee",
+      "rationale": "Visual anchor for hiring lesson — theme park landscape with teamwork/operations imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-011",
+      "type": "audio",
+      "lessonId": "lesson-4-1",
+      "moduleId": "module-4",
+      "title": "Narration: Your First U.S. Hire — Contractor vs. Employee",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-011",
+      "type": "video",
+      "lessonId": "lesson-4-1",
+      "moduleId": "module-4",
+      "title": "Avatar Video: Your First U.S. Hire — Contractor vs. Employee",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 4 outfit variant — business-casual, theme park/teamwork theme",
+        "audioSource": "media-audio-011",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-012",
+      "type": "image",
+      "lessonId": "lesson-4-2",
+      "moduleId": "module-4",
+      "title": "Hero: Visa Pathways — What's Actually Realistic",
+      "rationale": "Visual anchor for visa lesson — theme park landscape with journey/pathway imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-012",
+      "type": "audio",
+      "lessonId": "lesson-4-2",
+      "moduleId": "module-4",
+      "title": "Narration: Visa Pathways — What's Actually Realistic",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-012",
+      "type": "video",
+      "lessonId": "lesson-4-2",
+      "moduleId": "module-4",
+      "title": "Avatar Video: Visa Pathways — What's Actually Realistic",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 4 outfit variant — business-casual, theme park/teamwork theme",
+        "audioSource": "media-audio-012",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-013",
+      "type": "image",
+      "lessonId": "lesson-4-3",
+      "moduleId": "module-4",
+      "title": "Hero: Payroll, Taxes, and Employer Obligations",
+      "rationale": "Visual anchor for employer obligations lesson — theme park landscape with operations/structure imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-013",
+      "type": "audio",
+      "lessonId": "lesson-4-3",
+      "moduleId": "module-4",
+      "title": "Narration: Payroll, Taxes, and Employer Obligations",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "3.9 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-013",
+      "type": "video",
+      "lessonId": "lesson-4-3",
+      "moduleId": "module-4",
+      "title": "Avatar Video: Payroll, Taxes, and Employer Obligations",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 4 outfit variant — business-casual, theme park/teamwork theme",
+        "audioSource": "media-audio-013",
+        "estimatedDuration": "3.9 minutes"
+      }
+    },
+    {
+      "id": "media-img-014",
+      "type": "image",
+      "lessonId": "lesson-5-1",
+      "moduleId": "module-5",
+      "title": "Hero: Adapting Your Product for the U.S.",
+      "rationale": "Visual anchor for product adaptation lesson — port/shopping center landscape with commerce imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-014",
+      "type": "audio",
+      "lessonId": "lesson-5-1",
+      "moduleId": "module-5",
+      "title": "Narration: Adapting Your Product for the U.S.",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-014",
+      "type": "video",
+      "lessonId": "lesson-5-1",
+      "moduleId": "module-5",
+      "title": "Avatar Video: Adapting Your Product for the U.S.",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 5 outfit variant — smart-casual, port/commerce theme",
+        "audioSource": "media-audio-014",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-015",
+      "type": "image",
+      "lessonId": "lesson-5-2",
+      "moduleId": "module-5",
+      "title": "Hero: Customer Acquisition and Selling to U.S. Companies",
+      "rationale": "Visual anchor for sales lesson — port/shopping center landscape with customer interaction imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-015",
+      "type": "audio",
+      "lessonId": "lesson-5-2",
+      "moduleId": "module-5",
+      "title": "Narration: Customer Acquisition and Selling to U.S. Companies",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-015",
+      "type": "video",
+      "lessonId": "lesson-5-2",
+      "moduleId": "module-5",
+      "title": "Avatar Video: Customer Acquisition and Selling to U.S. Companies",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 5 outfit variant — smart-casual, port/commerce theme",
+        "audioSource": "media-audio-015",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-016",
+      "type": "image",
+      "lessonId": "lesson-6-1",
+      "moduleId": "module-6",
+      "title": "Hero: Communication Styles — What Americans Actually Mean",
+      "rationale": "Visual anchor for communication lesson — beach/shopping center landscape with social interaction imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-016",
+      "type": "audio",
+      "lessonId": "lesson-6-1",
+      "moduleId": "module-6",
+      "title": "Narration: Communication Styles — What Americans Actually Mean",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-016",
+      "type": "video",
+      "lessonId": "lesson-6-1",
+      "moduleId": "module-6",
+      "title": "Avatar Video: Communication Styles — What Americans Actually Mean",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 6 outfit variant — relaxed-professional, beach/social theme",
+        "audioSource": "media-audio-016",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-017",
+      "type": "image",
+      "lessonId": "lesson-6-2",
+      "moduleId": "module-6",
+      "title": "Hero: Meetings, Networking, and Building Trust",
+      "rationale": "Visual anchor for meetings lesson — beach/shopping center landscape with professional networking imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-017",
+      "type": "audio",
+      "lessonId": "lesson-6-2",
+      "moduleId": "module-6",
+      "title": "Narration: Meetings, Networking, and Building Trust",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-017",
+      "type": "video",
+      "lessonId": "lesson-6-2",
+      "moduleId": "module-6",
+      "title": "Avatar Video: Meetings, Networking, and Building Trust",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 6 outfit variant — relaxed-professional, beach/social theme",
+        "audioSource": "media-audio-017",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-018",
+      "type": "image",
+      "lessonId": "lesson-6-3",
+      "moduleId": "module-6",
+      "title": "Hero: Cultural Missteps That Cost Real Money",
+      "rationale": "Visual anchor for cultural missteps lesson — beach/shopping center with contrasting formal/casual imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-018",
+      "type": "audio",
+      "lessonId": "lesson-6-3",
+      "moduleId": "module-6",
+      "title": "Narration: Cultural Missteps That Cost Real Money",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "3.9 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-018",
+      "type": "video",
+      "lessonId": "lesson-6-3",
+      "moduleId": "module-6",
+      "title": "Avatar Video: Cultural Missteps That Cost Real Money",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 6 outfit variant — relaxed-professional, beach/social theme",
+        "audioSource": "media-audio-018",
+        "estimatedDuration": "3.9 minutes"
+      }
+    },
+    {
+      "id": "media-img-019",
+      "type": "image",
+      "lessonId": "lesson-7-1",
+      "moduleId": "module-7",
+      "title": "Hero: Business Support Organizations Available to Help You",
+      "rationale": "Visual anchor for support organizations lesson — river springs landscape with ecosystem/community imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-019",
+      "type": "audio",
+      "lessonId": "lesson-7-1",
+      "moduleId": "module-7",
+      "title": "Narration: Business Support Organizations Available to Help You",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-019",
+      "type": "video",
+      "lessonId": "lesson-7-1",
+      "moduleId": "module-7",
+      "title": "Avatar Video: Business Support Organizations Available to Help You",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 7 outfit variant — casual-professional, river springs/nature theme",
+        "audioSource": "media-audio-019",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-020",
+      "type": "image",
+      "lessonId": "lesson-7-2",
+      "moduleId": "module-7",
+      "title": "Hero: Central Florida — Your Market Opportunity",
+      "rationale": "Visual anchor for market opportunity lesson — river springs with economic landscape imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-020",
+      "type": "audio",
+      "lessonId": "lesson-7-2",
+      "moduleId": "module-7",
+      "title": "Narration: Central Florida — Your Market Opportunity",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "3.9 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-020",
+      "type": "video",
+      "lessonId": "lesson-7-2",
+      "moduleId": "module-7",
+      "title": "Avatar Video: Central Florida — Your Market Opportunity",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 7 outfit variant — casual-professional, river springs/nature theme",
+        "audioSource": "media-audio-020",
+        "estimatedDuration": "3.9 minutes"
+      }
+    },
+    {
+      "id": "media-img-021",
+      "type": "image",
+      "lessonId": "lesson-7-3",
+      "moduleId": "module-7",
+      "title": "Hero: Why Central Florida — The Data Behind the Choice",
+      "rationale": "Visual anchor for data-driven lesson — river springs with analytical/data visualization theme",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-021",
+      "type": "audio",
+      "lessonId": "lesson-7-3",
+      "moduleId": "module-7",
+      "title": "Narration: Why Central Florida — The Data Behind the Choice",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-021",
+      "type": "video",
+      "lessonId": "lesson-7-3",
+      "moduleId": "module-7",
+      "title": "Avatar Video: Why Central Florida — The Data Behind the Choice",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 7 outfit variant — casual-professional, river springs/nature theme",
+        "audioSource": "media-audio-021",
+        "estimatedDuration": "4.5 minutes"
+      }
+    },
+    {
+      "id": "media-img-022",
+      "type": "image",
+      "lessonId": "lesson-7-4",
+      "moduleId": "module-7",
+      "title": "Hero: UCF BIP Programs — Your Next Step",
+      "rationale": "Visual anchor for UCF BIP programs lesson — river springs with community/support network imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-022",
+      "type": "audio",
+      "lessonId": "lesson-7-4",
+      "moduleId": "module-7",
+      "title": "Narration: UCF BIP Programs — Your Next Step",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "3.9 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-022",
+      "type": "video",
+      "lessonId": "lesson-7-4",
+      "moduleId": "module-7",
+      "title": "Avatar Video: UCF BIP Programs — Your Next Step",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 7 outfit variant — casual-professional, river springs/nature theme",
+        "audioSource": "media-audio-022",
+        "estimatedDuration": "3.9 minutes"
+      }
+    },
+    {
+      "id": "media-img-023",
+      "type": "image",
+      "lessonId": "lesson-8-1",
+      "moduleId": "module-8",
+      "title": "Hero: Self-Assessment — Are You Ready?",
+      "rationale": "Visual anchor for self-assessment lesson — UCF headquarters landscape with reflective/evaluative imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-023",
+      "type": "audio",
+      "lessonId": "lesson-8-1",
+      "moduleId": "module-8",
+      "title": "Narration: Self-Assessment — Are You Ready?",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "5.2 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-023",
+      "type": "video",
+      "lessonId": "lesson-8-1",
+      "moduleId": "module-8",
+      "title": "Avatar Video: Self-Assessment — Are You Ready?",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 8 outfit variant — polished-professional, UCF headquarters theme",
+        "audioSource": "media-audio-023",
+        "estimatedDuration": "5.2 minutes"
+      }
+    },
+    {
+      "id": "media-img-024",
+      "type": "image",
+      "lessonId": "lesson-8-2",
+      "moduleId": "module-8",
+      "title": "Hero: Resource Downloads & Digital Credential",
+      "rationale": "Visual anchor for resources lesson — UCF headquarters with achievement/completion imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-024",
+      "type": "audio",
+      "lessonId": "lesson-8-2",
+      "moduleId": "module-8",
+      "title": "Narration: Resource Downloads & Digital Credential",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "3.3 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-024",
+      "type": "video",
+      "lessonId": "lesson-8-2",
+      "moduleId": "module-8",
+      "title": "Avatar Video: Resource Downloads & Digital Credential",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 8 outfit variant — polished-professional, UCF headquarters theme",
+        "audioSource": "media-audio-024",
+        "estimatedDuration": "3.3 minutes"
+      }
+    },
+    {
+      "id": "media-img-025",
+      "type": "image",
+      "lessonId": "lesson-8-3",
+      "moduleId": "module-8",
+      "title": "Hero: Next Steps — Your UCF BIP Pathway",
+      "rationale": "Visual anchor for final lesson — UCF headquarters with forward-looking, inspiring journey completion imagery",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "PNG, 1824x1024",
+        "model": "qwen-2512-gguf",
+        "style": "Cinematic digital painting",
+        "source": "qwen-optimized-prompts.json"
+      }
+    },
+    {
+      "id": "media-audio-025",
+      "type": "audio",
+      "lessonId": "lesson-8-3",
+      "moduleId": "module-8",
+      "title": "Narration: Next Steps — Your UCF BIP Pathway",
+      "rationale": "Primary lesson narration for InfinityTalk avatar video",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "WAV, 44.1kHz",
+        "provider": "Qwen3-TTS",
+        "voiceCloning": true,
+        "estimatedDuration": "4.5 minutes",
+        "tone": "Warm, professional mentor — knowledgeable friend voice"
+      }
+    },
+    {
+      "id": "media-video-025",
+      "type": "video",
+      "lessonId": "lesson-8-3",
+      "moduleId": "module-8",
+      "title": "Avatar Video: Next Steps — Your UCF BIP Pathway",
+      "rationale": "InfinityTalk talking-head video — avatar delivers lesson narration with lip-sync",
+      "priority": "high",
+      "tier": "mvp",
+      "specifications": {
+        "format": "H.264 MP4, 832x480, 25fps",
+        "pipeline": "InfinityTalk (ComfyUI Wan 2.1)",
+        "avatarImage": "Module 8 outfit variant — polished-professional, UCF headquarters theme",
+        "audioSource": "media-audio-025",
+        "estimatedDuration": "4.5 minutes"
+      }
+    }
+  ]
+}

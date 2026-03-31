@@ -1,6 +1,7 @@
 {
   "lessonId": "lesson-8-1",
   "moduleId": "module-8",
+  "landscapeTheme": "UCF Headquarters",
   "title": "Self-Assessment — Are You Ready?",
   "duration": 8,
   "objectives": [
@@ -12,57 +13,141 @@
     {
       "type": "text",
       "id": "text-8-1-1",
-      "title": "What You Now Know — That Many Founders Don't",
-      "content": "<p>You have covered seven modules and dozens of topics. But how much do you actually remember, and more importantly, where are the gaps you still need to fill?</p>\n\n<p>Having explored UCF BIP and the pathway forward, it is time to take an honest look at where you stand. You covered seven modules. Having information is not the same as being ready. The goal here is to know where the gaps are and what help you need before you spend money.</p>\n\n<h4>The Four Themes as Your Decision Filter</h4>\n\n<p>What does that mean for you? Before you sign anything, hire anyone, or transfer money, apply the four themes:</p>\n\n<ul><li><strong>Reduce Risk</strong> . Avoid the legal, financial, and operational traps.</li><li><strong>Watch Your Money</strong> . Know the realistic costs before committing.</li><li><strong>Avoid Common Mistakes</strong> . Don't repeat the errors other founders make.</li><li><strong>Understand the Culture</strong> . Know how American business actually works.</li></ul>",
+      "title": "Arriving at UCF Headquarters: What You Now Know",
+      "content": "<p>After seven modules and dozens of topics, you have arrived at the final destination on this road trip: the UCF campus and its Business Incubation Program headquarters. Picture the modern buildings, the research labs, the incubator offices where startups are already working. This is home base. But how much do you actually remember, and more importantly, where are the gaps you still need to fill?</p>\n\n<p>Standing here on campus, it is time to take an honest look at where you stand. You covered seven modules. Having info is not the same as being ready. The goal here is to know where the gaps are and what help you need before you spend money.</p>\n\n<h4>The Four Themes as Your Decision Filter</h4>\n\n<p>Here's how this plays out: before you sign anything, hire anyone, or transfer money, recall the four themes:</p>\n\n<ul><li><strong>Reduce Risk</strong> . Avoid the legal, financial, and operational traps.</li><li><strong>Watch Your Money</strong> . Know the realistic costs before committing.</li><li><strong>Avoid Common Mistakes</strong> . Don't repeat the errors other founders make.</li><li><strong>Understand the Culture</strong> . Know how American business actually works.</li></ul>",
       "wordCount": 148
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-1-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>UCF enrolls over 70,000 students, making it one of the largest universities in the United States by enrollment. The UCF Business Incubation Program has helped launch and grow hundreds of companies since 1999, generating billions in revenue across Central Florida. The university's research park, located adjacent to campus, is home to more than 100 high-tech companies and research labs, creating a dense innovation corridor that founders can tap into from day one.</p>"
     },
     {
       "type": "callout",
       "id": "callout-8-1-disc",
       "variant": "reality-check",
       "title": "Important Reminder: This Was Educational Guidance",
-      "content": "<p>Everything you covered in this program was <strong>general educational information</strong> designed to help you understand the U.S. business environment. It is not legal, tax, immigration, or financial advice. Before you take action on any topic: entity formation, banking, taxes, IP, hiring, or visas, consult a qualified professional who can evaluate your specific situation. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe action.</p>"
+      "content": "<p>Now, consider this carefully. Everything you covered in this program was <strong>general educational information</strong> intended to help you understand the U.S. business environment. It is not legal, tax, immigration, or financial advice. Before you take action on any topic: entity formation, banking, taxes, IP, hiring, or visas, consult a qualified professional who can review your specific situation. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe action.</p>"
     },
     {
       "type": "text",
       "id": "text-8-1-2",
       "title": "Your Readiness Self-Assessment",
-      "content": "<p>For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p>\n\n<h4>Module 1: Legal Setup</h4>\n\n<ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked SunBiz for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul>\n\n<p>The bottom line? If unclear, consult a business attorney or CPA before filing.</p>\n\n<h4>Module 2: Finances and Taxes</h4><ul><li>Can you explain federal income tax vs. state sales tax?</li><li>Do you understand how U.S. sales tax differs from VAT?</li><li>Have you identified an accountant who understands international founders?</li></ul>\n\n<p>If unclear, an international-focused accountant saves you from penalties that cost far more than their fee.</p>\n\n<h4>Module 3: Protecting Your Business</h4><ul><li>Does your home-country IP protection cover you in the U.S.?</li><li>Can you list the insurance types your business needs?</li><li>Have you identified which contracts you need before starting?</li></ul>\n\n<p>If uncertain, an IP attorney conversation is a high-priority next step.</p>\n\n<h4>Module 4: Building Your Team</h4><ul><li>Do you understand contractor vs. employee in the U.S.?</li><li>Are you aware of true hiring cost (salary plus 15-30% overhead)?</li><li>Do you know your visa authorization status?</li></ul>\n\n<p>Misclassifying a worker can result in back taxes, penalties, and legal liability.</p>",
+      "content": "<p>Before you leave headquarters and head into the U.S. market, you need a readiness review. This is yours. For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p>\n\n<h4>Module 1: Legal Setup</h4>\n\n<p>Is your foundation solid? Entity, EIN, registered agent — these are the structural systems that keep everything else from collapsing.</p>\n\n<ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked SunBiz for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul>\n\n<p>If unclear, consult a business attorney or CPA before filing.</p>\n\n<h4>Module 2: Finances and Taxes</h4>\n\n<p>Are your accounts and funding in order? Banking, taxes, accounting — these power everything that follows once you step out of headquarters.</p>\n\n<ul><li>Can you explain federal income tax vs. state sales tax?</li><li>Do you understand how U.S. sales tax differs from VAT?</li><li>Have you identified an accountant who understands international founders?</li></ul>\n\n<p>If unclear, an international-focused accountant saves you from penalties that cost far more than their fee.</p>\n\n<h4>Module 3: Protecting Your Business</h4>\n\n<p>Are your legal protections in place? IP, insurance, and contracts are your safety net — invisible until you need them, catastrophic without them.</p>\n\n<ul><li>Does your home-country IP protection cover you in the U.S.?</li><li>Can you list the insurance types your business needs?</li><li>Have you identified which contracts you need before starting?</li></ul>\n\n<p>If uncertain, an IP attorney conversation is a high-priority next step.</p>\n\n<h4>Module 4: Building Your Team</h4>\n\n<p>Is your team assembled? Classification, payroll, compliance — your support team is critical, and getting the roster wrong stalls you before you start.</p>\n\n<ul><li>Do you understand contractor vs. employee in the U.S.?</li><li>Are you aware of true hiring cost (salary plus 15-30% overhead)?</li><li>Do you know your visa authorization status?</li></ul>\n\n<p>Misclassifying a worker can result in back taxes, penalties, and legal liability.</p>",
       "wordCount": 219
     },
     {
       "type": "text",
       "id": "text-8-1-3",
       "title": "Readiness Check — Markets, Culture, and Ecosystem",
-      "content": "<h4>Module 5: Understanding U.S. Customers</h4><ul><li>Have you researched your U.S. competitive set?</li><li>Do you know how U.S. pricing expectations differ from your home market?</li><li>Do you understand vendor onboarding requirements (W-9, insurance certificates, procurement)?</li><li>Can you describe your first U.S. customer acquisition strategy?</li></ul>\n\n<p>If you haven't done U.S.-specific competitive research, block time for that before selling.</p>\n\n<h4>Module 6: U.S. Business Culture</h4><ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul>\n\n<p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p>\n\n<h4>Module 7: Central Florida Ecosystem</h4><ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the UCF BIP program offer?</li></ul>\n\n<p>If you cannot name specific resources you plan to contact, revisit Module 7.</p>",
+      "content": "<p>Now, let's continue with the remaining modules.</p><h4>Module 5: Understanding U.S. Customers</h4>\n\n<p>Is your market strategy configured for the U.S.? Product adaptation, pricing, acquisition strategy — these determine whether your business actually reaches your target market.</p>\n\n<ul><li>Have you researched your U.S. competitive set?</li><li>Do you know how U.S. pricing expectations differ from your home market?</li><li>Do you understand vendor onboarding requirements (W-9, insurance certificates, procurement)?</li><li>Can you describe your first U.S. customer acquisition strategy?</li></ul>\n\n<p>If you haven't done U.S.-specific competitive research, block time for that before selling.</p>\n\n<h4>Module 6: U.S. Business Culture</h4>\n\n<p>Have you studied the local conditions? Communication, meetings, trust-building — this is the atmosphere you will be operating in, and misjudging it stalls even the best-prepared founders.</p>\n\n<ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul>\n\n<p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p>\n\n<h4>Module 7: Central Florida Ecosystem</h4>\n\n<p>Do you know your advisory network? SBDC, chambers, UCF BIP — no founder succeeds without a support team on the ground.</p>\n\n<ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the UCF BIP program offer?</li></ul>\n\n<p>If you cannot name specific resources you plan to contact, revisit Module 7.</p>",
       "wordCount": 162
     },
     {
       "type": "exercise",
-      "id": "exercise-8-1-1",
-      "title": "Readiness Scoring Exercise",
-      "placement": "after-section",
-      "sectionId": "text-8-1-3",
-      "instructions": "<p>For each of the seven topic areas below, rate your readiness on a scale of 1 to 5:</p><ul><li><strong>1</strong> = I have major questions and need professional guidance before doing anything</li><li><strong>2</strong> = I understand the basics but need help with specifics</li><li><strong>3</strong> = I feel reasonably prepared and know where to get help</li><li><strong>4</strong> = I feel confident and have already started some of this</li><li><strong>5</strong> = I have this handled — no gaps</li></ul><ol><li>Legal Setup (entity, registration, registered agent): ___</li><li>Finances and Taxes (federal, state, sales tax, accounting): ___</li><li>IP and Business Protection (trademarks, insurance, contracts): ___</li><li>Building Your Team (hiring, contractors, visas, payroll): ___</li><li>U.S. Customers (market research, pricing, customer acquisition): ___</li><li>Business Culture (communication, follow-up, expectations): ___</li><li>Ecosystem and Resources (organizations, programs, next steps): ___</li></ol><p>Now look at your scores. Any area rated 1 or 2 is a priority for professional consultation before you take action. Areas rated 3 are good candidates for your 1:1 conversation with the UCF BIP team. Areas rated 4 or 5 mean you are ready to move forward — just keep the resources handy in case questions come up.</p><p>Write down your three lowest-scoring areas. These become your immediate action items.</p>"
+      "id": "exercise-8-1-rubric",
+      "title": "Your Market Readiness Score",
+      "format": "scored-rubric",
+      "instruction": "Rate yourself honestly on each dimension. There is no passing score — the point is to identify where you are strong and where you need more preparation.",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "labels": [
+          "Not started",
+          "Researching",
+          "Partially ready",
+          "Mostly ready",
+          "Fully prepared"
+        ]
+      },
+      "dimensions": [
+        {
+          "label": "Legal Setup",
+          "description": "Entity type chosen, EIN obtained, registered agent in place"
+        },
+        {
+          "label": "Financial Foundation",
+          "description": "Bank account open, tax obligations understood, accountant identified"
+        },
+        {
+          "label": "IP & Risk Protection",
+          "description": "Trademarks filed, insurance active, key contracts reviewed"
+        },
+        {
+          "label": "Team & Compliance",
+          "description": "Hiring classification understood, payroll plan in place, visa status clear"
+        },
+        {
+          "label": "Market Strategy",
+          "description": "U.S. pricing set, competitive research done, customer acquisition plan ready"
+        },
+        {
+          "label": "Cultural Readiness",
+          "description": "Communication style adapted, meeting norms understood, follow-up habits in place"
+        },
+        {
+          "label": "Ecosystem & Network",
+          "description": "Support organizations identified, networking started, mentor relationship active"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "7-15",
+          "message": "You are in the early exploration phase. Focus on Modules 1-3 before taking action."
+        },
+        {
+          "range": "16-25",
+          "message": "You have a foundation but gaps remain. Revisit the modules where you scored 1-2."
+        },
+        {
+          "range": "26-30",
+          "message": "You are well-prepared in most areas. Address any remaining 2s before moving forward."
+        },
+        {
+          "range": "31-35",
+          "message": "You are highly prepared. Consider scheduling your Phase 2 consultation with UCF BIP."
+        }
+      ]
     },
     {
       "type": "text",
       "id": "text-8-1-4",
       "title": "Where Do You Need More Help?",
-      "content": "<p>Feeling overwhelmed is normal. You are not supposed to be an expert in all seven domains. You need to know enough to ask the right questions and avoid expensive mistakes.</p>\n\n<h4>Where to Get Help</h4>\n\n<ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: \"Do you work with foreign-owned businesses?\"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. USPTO has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. UCF BIP connects you with mentors.</li><li><strong>General guidance</strong> . Schedule your 1:1 with UCF BIP.</li></ul>\n\n<p>Here is the thing. Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p>",
+      "content": "<p>No preparation is perfect. The smartest founders identify what is missing and get help before they leave headquarters. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections waiting in the buildings around you. You need to know enough to ask the right questions and avoid expensive mistakes.</p>\n\n<h4>Where to Get Help</h4>\n\n<ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: \"Do you work with foreign-owned businesses?\"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. USPTO has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. UCF BIP connects you with mentors.</li><li><strong>General guidance</strong> . The UCF BIP team is available for a conversation once you complete Module 8.</li></ul>\n\n<p>Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p>",
       "wordCount": 148
+    },
+    {
+      "type": "tabs",
+      "id": "int-8-1-2",
+      "title": "Your Next Steps",
+      "tabs": [
+        {
+          "label": "Download Resources",
+          "content": "**Throughout this course, we've referenced key documents and tools.** Here's your consolidated list:\n\n- SunBiz entity registration: sunbiz.org\n- IRS EIN application: irs.gov/businesses\n- Florida SBDC consultation: floridasbdc.org\n- SCORE mentorship: score.org/orlando\n- UCF BIP programs: ucf.edu/bip\n\n**Save these links** — you'll reference them as you build your U.S. presence."
+        },
+        {
+          "label": "Phase 2 Preview",
+          "content": "**Phase 2 of the UCF BIP program** takes you from knowledge to action.\n\n**What to expect:**\n- Hands-on mentorship with Central Florida business leaders\n- Market validation workshops\n- Pitch development and investor connections\n- Legal and accounting office hours\n\n**Duration:** 8–12 weeks\n\n**Eligibility:** Completion of this Phase 1 course + application review"
+        },
+        {
+          "label": "Get Support",
+          "content": "**You don't have to do this alone.** Here are your immediate next steps:\n\n1. **Schedule a free SBDC consultation** — get personalized guidance on your specific situation\n2. **Apply to UCF BIP Phase 2** — take your business to the next level\n3. **Join the UCF entrepreneur community** — connect with fellow international founders\n\n**Remember:** Every successful international founder in the U.S. started exactly where you are right now."
+        }
+      ]
     },
     {
       "type": "callout",
       "id": "callout-8-1-1",
       "variant": "theme-reduce-risk",
       "title": "One of the Biggest Risks Is Going It Alone",
-      "content": "<p>You now know more than many international founders who enter the U.S. market without structured preparation. Many founders never take a structured program before jumping in. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowledge alone does not reduce risk. <strong>Action</strong> reduces risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida has built an ecosystem specifically to help founders like you succeed. Use it.</p>"
+      "content": "<p>Think about this: you now know more than many international founders who enter the U.S. market without structured preparation. Many founders jump in without a structured program. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowing alone does not cut risk. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida, and this campus in particular, has built an ecosystem specifically to help founders like you succeed. Use it.</p>"
     },
     {
       "type": "knowledge-check",
-      "id": "kc-8-1-1",
-      "title": "Self-Assessment Readiness Check",
+      "id": "kc-8-1",
+      "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
@@ -75,15 +160,7 @@
           ],
           "correctAnswer": 2,
           "explanation": "The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications."
-        }
-      ]
-    },
-    {
-      "type": "knowledge-check",
-      "id": "kc-8-1-2",
-      "title": "Four Themes Application Check",
-      "placement": "end-of-lesson",
-      "questions": [
+        },
         {
           "stem": "The program identifies four recurring themes that should guide every business decision. A founder is about to hire a private immigration consultant for $5,000. Which theme should she apply FIRST?",
           "options": [
@@ -94,6 +171,17 @@
           ],
           "correctAnswer": 1,
           "explanation": "The 'Watch Your Money' theme reminds founders to check free resources before spending on private services. While immigration law specifically requires a licensed attorney (not SBDC), the broader principle applies: always verify whether government-funded programs or free advisory services cover your need before paying for private consulting."
+        },
+        {
+          "stem": "A founder from Chile rated herself 4 out of 5 on market research and product readiness, but 1 out of 5 on legal setup and 2 out of 5 on U.S. taxes. She wants to start selling to U.S. customers next month. Based on the readiness framework in this lesson, how should she evaluate whether her timeline is realistic?",
+          "options": [
+            "Her strong market readiness scores mean she is ready to start selling immediately regardless of other gaps",
+            "She should delay all U.S. activity for at least a year until every category reaches a 4 or 5",
+            "She should ignore the legal and tax scores since those can be fixed later without consequences",
+            "Her legal and tax scores of 1 and 2 signal that selling next month without professional guidance in those areas risks penalties, compliance issues, or structural problems that could cost far more than the delay — she should consult an attorney and CPA before taking on U.S. customers"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The readiness framework treats scores of 1 or 2 as priorities for professional consultation before taking action. Selling to U.S. customers without a properly formed entity, an understanding of tax obligations, or the right contracts creates liability exposure. Her strong market scores are valuable, but the legal and tax gaps must be addressed first. The solution is not to wait a year — it is to schedule consultations with a business attorney and CPA immediately, which could resolve the gaps in weeks rather than months."
         }
       ]
     },
@@ -109,7 +197,7 @@
       "type": "key-takeaway",
       "id": "kt-8-1-1",
       "title": "Key Takeaway",
-      "content": "<p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is a map. The areas where you rated yourself lowest are your highest-priority next steps. Use them to guide your 1:1 conversation with the UCF BIP team, and start reaching out to qualified professionals for the topics that need expert guidance.</p>"
+      "content": "<p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the UCF BIP team.</p>"
     }
   ]
 }

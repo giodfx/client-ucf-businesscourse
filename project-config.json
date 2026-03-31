@@ -1,0 +1,91 @@
+{
+  "projectId": "ucf-business-course",
+  "reviewerSlug": "ucf-businesscourse",
+  "localization": {
+    "region": "US",
+    "country": "United States",
+    "city": "Orlando, FL",
+    "demographics": {
+      "allowed": [
+        "African American",
+        "Hispanic Latino",
+        "Asian American",
+        "Caucasian",
+        "South Asian",
+        "multiracial"
+      ],
+      "excluded": [
+        "Middle Eastern"
+      ],
+      "reasoning": "US academic institution, UCF BIP international founder audience. Primary corridor is Latin America (Colombia, Brazil, Argentina, Mexico). Diverse professional representation required."
+    }
+  },
+  "imageStyle": {
+    "primary": "cinematic-digital-painting",
+    "name": "Cinematic Digital Painting",
+    "description": "Rich atmospheric digital paintings with dramatic golden hour lighting, painterly brushstrokes visible, warm saturated colors. Concept art quality. Not photorealistic, not cartoonish — cinematic and aspirational.",
+    "characteristics": [
+      "Cinematic digital painting aesthetic",
+      "Dramatic golden hour / sunset lighting",
+      "Deep blue sky transitioning to rich orange and gold at horizon",
+      "Painterly brushstrokes visible",
+      "Atmospheric haze and warm saturated colors",
+      "Concept art quality, rich and atmospheric",
+      "Palm trees and Central Florida vegetation",
+      "No text rendered in images"
+    ],
+    "model": "qwen-2512-gguf",
+    "workflow": "image_qwen_2512_gguf.json",
+    "dimensions": "1824x1024",
+    "samplerSettings": {
+      "sampler": "euler",
+      "scheduler": "simple",
+      "steps": 25,
+      "cfg": 4.0,
+      "shift": 3.1
+    }
+  },
+  "qualityStandards": {
+    "textFree": true,
+    "diverseRepresentation": true,
+    "traumaInformed": false,
+    "specificClothing": true,
+    "handPositions": true,
+    "actionBasedPoses": true
+  },
+  "contentContext": {
+    "topic": "U.S. Market Readiness for International Founders",
+    "targetAudience": "International entrepreneurs entering the U.S. market through UCF Business Incubation Program, primarily Latin American founders",
+    "setting": "Central Florida business environments — downtown offices, banks, coworking spaces, UCF campus, commercial corridors, suburban neighborhoods, tech hubs"
+  },
+  "avatarConfig": {
+    "type": "infinitytalk",
+    "character": "Confident Latina woman, early 30s, dark shoulder-length wavy hair",
+    "style": "Cinematic digital painting, matching course visual identity",
+    "framing": "Chest up, positioned on left third of frame with open space on right for text overlays",
+    "eyeContact": "Direct, warm, engaging — critical for InfinityTalk lip-sync",
+    "facialRequirements": "Clean facial features with clear jawline and lips",
+    "antiPhotorealism": "NOT a photograph NOT photorealistic, digital painting with visible paint texture",
+    "outfitVariations": {
+      "module-0": "Smart casual navy top with thin gold necklace",
+      "module-1": "Tailored charcoal blazer over white blouse",
+      "module-2": "Fitted dark green blazer over cream blouse",
+      "module-3": "Light gray cardigan over soft blue top",
+      "module-4": "Burgundy blazer over white top",
+      "module-5": "Structured camel-colored jacket over dark top",
+      "module-6": "Modern black turtleneck with minimalist silver earrings",
+      "module-7": "Relaxed linen blazer over coral top",
+      "module-8": "Elegant navy blazer over white top with subtle gold pin"
+    }
+  },
+  "copyrightRules": [
+    "No recognizable brand logos, mascots, or iconography",
+    "Theme parks must be generic — no castles, no specific park elements",
+    "No university logos or mascots on campus scenes",
+    "No NASA/SpaceX branding — generic launch facility",
+    "No text rendered in images — all text via HTML overlays"
+  ],
+  "sampleTestsGenerated": 0,
+  "sampleTestsPassed": false,
+  "configuredAt": "2026-03-23T17:35:00Z"
+}

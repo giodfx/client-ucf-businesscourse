@@ -1251,6 +1251,17 @@
                 "description": "UCF BIP and the Central Florida ecosystem exist to help you succeed. Take the next step: schedule a 1:1 with the program team."
               }
             ]
+          },
+          {
+            "id": "lesson-7-4",
+            "title": "UCF BIP Programs — Your Next Step",
+            "duration": 6,
+            "objectives": [
+              "Describe UCF BIP phases 2 and 3 of the market entry/soft landing program and who each is designed for",
+              "Identify community resources specifically for international founders (Hispanic Chamber, Prospera, CFITO)",
+              "Explain the next steps to engage with UCF BIP after completing this program"
+            ],
+            "contentBlocks": []
           }
         ]
       },
@@ -1327,6 +1338,27 @@
                 "description": "You don't need to have everything figured out. You need to know what to figure out first — and who can help. That's what this program gave you."
               }
             ]
+          },
+          {
+            "id": "lesson-8-2",
+            "title": "Resource Downloads & Digital Credential",
+            "duration": 5,
+            "objectives": [
+              "Download the U.S. Market Entry Checklist, Florida Setup Roadmap, Central Florida Resource Guide, and Expansion Decision Worksheet",
+              "Understand the POK Tech digital credential and how to display it on LinkedIn"
+            ],
+            "contentBlocks": []
+          },
+          {
+            "id": "lesson-8-3",
+            "title": "Next Steps — Your UCF BIP Pathway",
+            "duration": 7,
+            "objectives": [
+              "Schedule a 1:1 consultation with the UCF BIP team",
+              "Understand what phases 2 and 3 of the UCF BIP program offer",
+              "Identify their top 3 priority actions for the next 30 days"
+            ],
+            "contentBlocks": []
           }
         ]
       }
