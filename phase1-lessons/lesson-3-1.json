@@ -156,11 +156,23 @@
       ]
     },
     {
-      "type": "image",
-      "id": "img-3-1-trademark",
-      "title": "U.S. Trademark Registration Timeline",
-      "src": "images/infographics/lesson-3-1-trademark-timeline.jpg",
-      "alt": "Timeline showing trademark registration process: file application, USPTO review, office actions, publication, registration. Total 8-12 months, cost $250-$3,000."
+      "type": "infographic",
+      "style": "timeline",
+      "id": "ig-3-1-trademark",
+      "title": "Trademark Registration Timeline — USPTO",
+      "titleEs": "Línea de Tiempo de Registro de Marca — USPTO",
+      "milestones": [
+        { "time": "Month 0", "timeEs": "Mes 0", "label": "File Application", "labelEs": "Presentar Solicitud", "desc": "TEAS Plus ($250/class) or TEAS Standard ($350/class). Include mark, goods/services description, specimen of use.", "descEs": "TEAS Plus ($250/clase) o TEAS Standard ($350/clase). Incluir marca, descripción de bienes/servicios, muestra de uso." },
+        { "time": "Month 1–3", "timeEs": "Mes 1–3", "label": "USPTO Review", "labelEs": "Revisión del USPTO", "desc": "Examining attorney reviews for conflicts. Average wait: 3–4 months.", "descEs": "El abogado examinador revisa conflictos. Espera promedio: 3–4 meses." },
+        { "time": "Month 4–6", "timeEs": "Mes 4–6", "label": "Office Actions (if any)", "labelEs": "Acciones de Oficina (si aplica)", "desc": "You may get a refusal or request for clarification. 3-month deadline to respond.", "descEs": "Puede recibir un rechazo o solicitud de aclaración. Plazo de 3 meses para responder." },
+        { "time": "Month 7–8", "timeEs": "Mes 7–8", "label": "Publication", "labelEs": "Publicación", "desc": "Mark published in the Official Gazette for 30 days. Anyone can oppose.", "descEs": "Marca publicada en la Gaceta Oficial por 30 días. Cualquiera puede oponerse." },
+        { "time": "Month 9–12", "timeEs": "Mes 9–12", "label": "Registration", "labelEs": "Registro", "desc": "If no opposition: registration certificate issued. Total time: 8–12 months typical.", "descEs": "Sin oposición: se emite el certificado de registro. Tiempo total: 8–12 meses típico." },
+        { "time": "After Registration", "timeEs": "Después del Registro", "label": "Maintain", "labelEs": "Mantener", "desc": "Declaration of Use at year 5–6 and renewal every 10 years.", "descEs": "Declaración de Uso en el año 5–6 y renovación cada 10 años." }
+      ],
+      "callout": "International founders: Your home country trademark does NOT protect you in the U.S. IP rights are territorial — you must register separately.",
+      "calloutEs": "Fundadores internacionales: su marca registrada en su país NO lo protege en EE.UU. Los derechos de propiedad intelectual son territoriales — debe registrarse por separado.",
+      "footer": "Total cost: $250–$750 for filing + $0 if self-filed, $1,500–$3,000 with attorney.",
+      "footerEs": "Costo total: $250–$750 por presentación + $0 si lo hace solo, $1,500–$3,000 con abogado."
     },
     {
       "type": "text",

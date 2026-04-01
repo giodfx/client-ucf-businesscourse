@@ -397,11 +397,69 @@
           ]
         },
         {
-          "type": "image",
-          "id": "img-4-2-visa",
+          "type": "infographic",
+          "style": "columns",
+          "id": "ig-4-2-visa",
           "title": "Four Visa Pathways for International Founders",
-          "src": "images/infographics/lesson-4-2-visa-pathways.jpg",
-          "alt": "Comparison of 4 visa types: E-2 Treaty Investor, L-1A Transfer, O-1A Extraordinary Ability, B-1/B-2 Visitor with requirements, duration, and green card eligibility."
+          "titleEs": "Cuatro Rutas de Visa para Fundadores Internacionales",
+          "subtitle": "Four backstage passes, four different doors",
+          "subtitleEs": "Cuatro pases tras bambalinas, cuatro puertas diferentes",
+          "columns": [
+            {
+              "heading": "E-2 Treaty Investor",
+              "headingEs": "E-2 Inversionista por Tratado",
+              "rows": [
+                { "label": "What", "labelEs": "Qué", "value": "Investor visa for treaty country nationals", "valueEs": "Visa de inversionista para nacionales de países con tratado" },
+                { "label": "Investment", "labelEs": "Inversión", "value": "$100,000+ typical (substantial)", "valueEs": "$100,000+ típico (sustancial)" },
+                { "label": "Duration", "labelEs": "Duración", "value": "2 years, renewable indefinitely", "valueEs": "2 años, renovable indefinidamente" },
+                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Treaty country + substantial investment + active management", "valueEs": "País con tratado + inversión sustancial + gestión activa" },
+                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "YES", "valueEs": "SÍ" },
+                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "NO (must convert to another visa)", "valueEs": "NO (debe cambiar a otra visa)" },
+                { "label": "Best for", "labelEs": "Mejor para", "value": "Founders with capital from treaty countries", "valueEs": "Fundadores con capital de países con tratado" }
+              ]
+            },
+            {
+              "heading": "L-1A Intracompany Transfer",
+              "headingEs": "L-1A Transferencia Intraempresarial",
+              "rows": [
+                { "label": "What", "labelEs": "Qué", "value": "Transfer from your foreign company to U.S. office", "valueEs": "Transferencia de tu empresa extranjera a oficina en EE.UU." },
+                { "label": "Investment", "labelEs": "Inversión", "value": "Must have existing foreign business", "valueEs": "Debe tener empresa extranjera existente" },
+                { "label": "Duration", "labelEs": "Duración", "value": "1–3 years initially, up to 7 years", "valueEs": "1–3 años inicialmente, hasta 7 años" },
+                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Managerial role + company existed 1+ year abroad", "valueEs": "Rol gerencial + empresa con 1+ año en el extranjero" },
+                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "YES", "valueEs": "SÍ" },
+                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "YES (EB-1C)", "valueEs": "SÍ (EB-1C)" },
+                { "label": "Best for", "labelEs": "Mejor para", "value": "Expanding an existing business to the U.S.", "valueEs": "Expandir un negocio existente a EE.UU." }
+              ]
+            },
+            {
+              "heading": "O-1A Extraordinary Ability",
+              "headingEs": "O-1A Habilidad Extraordinaria",
+              "rows": [
+                { "label": "What", "labelEs": "Qué", "value": "For individuals with extraordinary achievement", "valueEs": "Para personas con logros extraordinarios" },
+                { "label": "Investment", "labelEs": "Inversión", "value": "None required", "valueEs": "No se requiere" },
+                { "label": "Duration", "labelEs": "Duración", "value": "3 years, renewable", "valueEs": "3 años, renovable" },
+                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Prove extraordinary ability (awards, press, high salary, etc.)", "valueEs": "Demostrar habilidad extraordinaria (premios, prensa, salario alto, etc.)" },
+                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "Through a U.S. employer/agent", "valueEs": "A través de un empleador/agente en EE.UU." },
+                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "YES (EB-1A)", "valueEs": "SÍ (EB-1A)" },
+                { "label": "Best for", "labelEs": "Mejor para", "value": "Founders with notable achievements, press coverage, or industry recognition", "valueEs": "Fundadores con logros notables, cobertura de prensa o reconocimiento de la industria" }
+              ]
+            },
+            {
+              "heading": "B-1/B-2 Visitor",
+              "headingEs": "B-1/B-2 Visitante",
+              "rows": [
+                { "label": "What", "labelEs": "Qué", "value": "Business visitor (temporary)", "valueEs": "Visitante de negocios (temporal)" },
+                { "label": "Investment", "labelEs": "Inversión", "value": "None", "valueEs": "Ninguna" },
+                { "label": "Duration", "labelEs": "Duración", "value": "Up to 6 months", "valueEs": "Hasta 6 meses" },
+                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Cannot work or earn U.S. income", "valueEs": "No puede trabajar ni generar ingresos en EE.UU." },
+                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "NO", "valueEs": "NO" },
+                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "NO", "valueEs": "NO" },
+                { "label": "Best for", "labelEs": "Mejor para", "value": "Initial market research, meetings, conferences ONLY", "valueEs": "Solo para investigación de mercado inicial, reuniones, conferencias" }
+              ]
+            }
+          ],
+          "footer": "Working without proper visa authorization is a serious violation. Consult an immigration attorney before making business decisions.",
+          "footerEs": "Trabajar sin autorización de visa adecuada es una violación grave. Consulte a un abogado de inmigración antes de tomar decisiones comerciales."
         },
         {
           "type": "callout",

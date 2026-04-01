@@ -99,13 +99,16 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Business Support Organizations Available to Help You</h1>
           </header>
 
           
 <section class="video-section" aria-label="Lesson Video">
-  <div class="avatar-video-wrap" data-lesson-id="lesson-7-1">
+  <div class="avatar-video-wrap" data-lesson-id="lesson-7-1" data-video-en="../media/video/avatars/lesson-7-1-avatar.mp4">
     <video id="avatar-video-lesson-7-1" controls playsinline preload="metadata"
       poster="../media/images/avatars/scenes/lesson-7-1-avatar.png"
       style="width:100%;max-width:832px;border-radius:12px;">
@@ -195,10 +198,71 @@
     </div>
   </div>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/infographics/lesson-7-1-resource-map.jpg" alt="Central Florida Business Resources Map" loading="lazy">
-  
-</figure>
+<div class="rt-infographic rt-ig-grid" id="ig-7-1-resource" role="figure" aria-label="Your Central Florida Resource Network">
+  <div class="rt-ig-header">
+    <h3 class="rt-ig-title" data-es="Tu Red de Recursos en Florida Central">Your Central Florida Resource Network</h3>
+    
+    <p class="rt-ig-hint" data-es="Toca cada tarjeta para ver detalles">Tap each card to see details</p>
+  </div>
+  <div class="rt-gc-grid">
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-num">1</span>
+          <h4 class="rt-gc-heading" data-es="Programa de Incubación Empresarial UCF">UCF Business Incubation Program</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus UCF y este de Orlando.">Free mentoring, workshops, office space for startups. Located at UCF campus and East Orlando.</p>
+          <span class="rt-gc-cost" data-es="GRATIS">FREE</span>
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-num">2</span>
+          <h4 class="rt-gc-heading" data-es="Centro de Desarrollo de Pequeñas Empresas (SBDC)">Small Business Development Center (SBDC)</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y múltiples ubicaciones.">Free 1:1 consulting, business plan help, market research. Downtown Orlando and multiple locations.</p>
+          <span class="rt-gc-cost" data-es="GRATIS">FREE</span>
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-num">3</span>
+          <h4 class="rt-gc-heading" data-es="SCORE Orlando">SCORE Orlando</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en diversas industrias.">Free mentoring from retired business executives. Extensive experience across industries.</p>
+          <span class="rt-gc-cost" data-es="GRATIS">FREE</span>
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-num">4</span>
+          <h4 class="rt-gc-heading" data-es="Enterprise Florida">Enterprise Florida</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Asistencia estatal de comercio organizacional, desarrollo de exportaciones. Ayuda a negocios internacionales a entrar al mercado de EE.UU.">State organizational trade assistance, export development. Helps international businesses enter the U.S. market.</p>
+          <span class="rt-gc-cost" data-es="GRATIS">FREE</span>
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-num">5</span>
+          <h4 class="rt-gc-heading" data-es="Alianza Económica de Orlando">Orlando Economic Partnership</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Desarrollo económico regional, asistencia de reubicación, conexiones industriales. Lake Nona y Downtown.">Regional economic development, relocation assistance, industry connections. Lake Nona and Downtown.</p>
+          <span class="rt-gc-cost" data-es="GRATIS">FREE</span>
+        </div>
+      </button>
+  </div>
+  <div class="rt-ig-footer" style="display:block" data-es="Todas las organizaciones listadas ofrecen servicios GRATIS o de bajo costo para emprendedores internacionales.">All organizations listed offer FREE or low-cost services for international entrepreneurs.</div>
+</div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -368,6 +432,7 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   "presenter": "female",
   "presenterImage": "media/images/avatars/presenter-female.png",
   "landscapeTheme": "Highway / Dashboard Entry",
-  "totalDuration": 270,
+  "totalDuration": 265.28,
   "sceneCount": 6,
   "scenes": [
     {
@@ -16,7 +16,7 @@
       "avatarScene": "lesson-0-1",
       "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
       "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-1.wav",
-      "duration": 38.56
+      "duration": 37.6
     },
     {
       "sceneNumber": 2,
@@ -32,7 +32,7 @@
       "avatarScene": "lesson-0-1",
       "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
       "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-2.wav",
-      "duration": 42.64
+      "duration": 42.88
     },
     {
       "sceneNumber": 3,
@@ -48,7 +48,7 @@
       "avatarScene": "lesson-0-1",
       "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
       "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-3.wav",
-      "duration": 38.64
+      "duration": 40.08
     },
     {
       "sceneNumber": 4,
@@ -64,7 +64,7 @@
       "avatarScene": "lesson-0-1",
       "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
       "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-4.wav",
-      "duration": 57.12
+      "duration": 56.48
     },
     {
       "sceneNumber": 5,
@@ -80,7 +80,7 @@
       "avatarScene": "lesson-0-1",
       "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
       "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-5.wav",
-      "duration": 47.36
+      "duration": 47.12
     },
     {
       "sceneNumber": 6,
@@ -91,7 +91,7 @@
       "avatarScene": "lesson-0-1",
       "imageUrl": "media/images/avatars/scenes/lesson-0-1-avatar.png",
       "audioUrl": "media/audio/scenes-es/lesson-0-1/lesson-0-1-scene-6.wav",
-      "duration": 45.68
+      "duration": 41.12
     }
   ]
 }

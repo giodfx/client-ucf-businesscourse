@@ -94,7 +94,10 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">Port Canaveral</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">Port Canaveral</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Your First U.S. Hire — Contractor vs. Employee</h1>
           </header>
 
@@ -122,66 +125,18 @@
   <img src="images/scenarios/lesson-4-1-irs-classification.jpg" alt="IRS Classification Decision" loading="lazy">
   
 </figure>
-<div class="rt-comparison" data-comparison-id="int-4-1-1">
-  <h3 class="rt-comparison-title">Contractor vs. Employee — Decision Checklist</h3>
-  <div class="rt-comparison-grid" style="--cols: 2">
-    
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">Hire as Contractor If...</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Schedule</span>
-        <span class="rt-comparison-value">Worker sets their own hours and deadlines</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Scope</span>
-        <span class="rt-comparison-value">Defined project with a clear end date</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Tools</span>
-        <span class="rt-comparison-value">Worker uses their own equipment and software</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Clients</span>
-        <span class="rt-comparison-value">Worker serves multiple clients, not just you</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Direction</span>
-        <span class="rt-comparison-value">You define the result, not how the work gets done</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Risk Level</span>
-        <span class="rt-comparison-value">Low overhead — but IRS penalties if you get it wrong</span>
-      </div>
-    </div>
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">Hire as Employee If...</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Schedule</span>
-        <span class="rt-comparison-value">You need to set work hours and daily expectations</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Scope</span>
-        <span class="rt-comparison-value">Ongoing role with no defined end date</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Tools</span>
-        <span class="rt-comparison-value">You provide the equipment, software, and workspace</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Clients</span>
-        <span class="rt-comparison-value">Worker is dedicated primarily to your company</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Direction</span>
-        <span class="rt-comparison-value">You control when, where, and how the work is done</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Risk Level</span>
-        <span class="rt-comparison-value">Higher cost — but compliant and legally protected</span>
-      </div>
-    </div>
+<div class="rt-ctbl-wrap" data-comparison-id="int-4-1-1">
+  <h3 class="rt-ctbl-title">Contractor vs. Employee — Decision Checklist</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th></th><th>Hire as Contractor If...</th><th>Hire as Employee If...</th></tr></thead>
+      <tbody><tr><td class="rt-ctbl-label">Schedule</td><td>Worker sets their own hours and deadlines</td><td>You need to set work hours and daily expectations</td></tr>
+      <tr><td class="rt-ctbl-label">Scope</td><td>Defined project with a clear end date</td><td>Ongoing role with no defined end date</td></tr>
+      <tr><td class="rt-ctbl-label">Tools</td><td>Worker uses their own equipment and software</td><td>You provide the equipment, software, and workspace</td></tr>
+      <tr><td class="rt-ctbl-label">Clients</td><td>Worker serves multiple clients, not just you</td><td>Worker is dedicated primarily to your company</td></tr>
+      <tr><td class="rt-ctbl-label">Direction</td><td>You define the result, not how the work gets done</td><td>You control when, where, and how the work is done</td></tr>
+      <tr><td class="rt-ctbl-label">Risk Level</td><td>Low overhead — but IRS penalties if you get it wrong</td><td>Higher cost — but compliant and legally protected</td></tr></tbody>
+    </table>
   </div>
 </div>
 <div class="rt-callout rt-callout--callout">
@@ -389,6 +344,7 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

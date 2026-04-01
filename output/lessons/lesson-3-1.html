@@ -94,13 +94,16 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">Theme Park District</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">Theme Park District</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Intellectual Property — Protecting Your Ideas in the U.S.</h1>
           </header>
 
           
 <section class="video-section" aria-label="Lesson Video">
-  <div class="avatar-video-wrap" data-lesson-id="lesson-3-1">
+  <div class="avatar-video-wrap" data-lesson-id="lesson-3-1" data-video-en="../media/video/avatars/lesson-3-1-avatar.mp4">
     <video id="avatar-video-lesson-3-1" controls playsinline preload="metadata"
       poster="../media/images/avatars/scenes/lesson-3-1-avatar.png"
       style="width:100%;max-width:832px;border-radius:12px;">
@@ -117,100 +120,65 @@
 <p><p>A founder from Chile built a successful delivery app across South America. When she expanded to Florida, she discovered that her Chilean trademark registration meant nothing in the United States. Intellectual property rights are territorial — protection in one country does not automatically extend to another. If you plan to operate in the U.S., you need U.S. protection.</p></p>
 <p><p>There are three main types of IP protection, each covering different aspects of your business. The comparison below explains what each one protects, what it costs, and when you need it.</p></p>
 
-<div class="rt-comparison" data-comparison-id="int-3-1-1">
-  <h3 class="rt-comparison-title">Copyright vs. Trademark vs. Patent</h3>
-  <div class="rt-comparison-grid" style="--cols: 3">
-    
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">Copyright</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Protects</span>
-        <span class="rt-comparison-value">Original creative works (code, text, designs, music)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Duration</span>
-        <span class="rt-comparison-value">Life of author + 70 years</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Cost to Register</span>
-        <span class="rt-comparison-value">$45–$65 (USPTO/Copyright Office)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Timeline</span>
-        <span class="rt-comparison-value">3–6 months</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Lawyer Needed?</span>
-        <span class="rt-comparison-value">Usually not for basic filing</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Automatic?</span>
-        <span class="rt-comparison-value">Yes — exists at creation, registration strengthens it</span>
-      </div>
-    </div>
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">Trademark</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Protects</span>
-        <span class="rt-comparison-value">Brand names, logos, slogans</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Duration</span>
-        <span class="rt-comparison-value">Indefinite (with renewal every 10 years)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Cost to Register</span>
-        <span class="rt-comparison-value">$250–$350 per class (USPTO)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Timeline</span>
-        <span class="rt-comparison-value">8–12 months</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Lawyer Needed?</span>
-        <span class="rt-comparison-value">Recommended — improves approval odds</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Automatic?</span>
-        <span class="rt-comparison-value">No — must file with USPTO for federal protection</span>
-      </div>
-    </div>
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">Patent</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Protects</span>
-        <span class="rt-comparison-value">Inventions, processes, unique methods</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Duration</span>
-        <span class="rt-comparison-value">20 years from filing date</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Cost to Register</span>
-        <span class="rt-comparison-value">$5,000–$15,000+ (with attorney)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Timeline</span>
-        <span class="rt-comparison-value">2–4 years</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Lawyer Needed?</span>
-        <span class="rt-comparison-value">Yes — complex process requires patent attorney</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Automatic?</span>
-        <span class="rt-comparison-value">No — must file and be approved by USPTO</span>
-      </div>
-    </div>
+<div class="rt-ctbl-wrap" data-comparison-id="int-3-1-1">
+  <h3 class="rt-ctbl-title">Copyright vs. Trademark vs. Patent</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th></th><th>Copyright</th><th>Trademark</th><th>Patent</th></tr></thead>
+      <tbody><tr><td class="rt-ctbl-label">Protects</td><td>Original creative works (code, text, designs, music)</td><td>Brand names, logos, slogans</td><td>Inventions, processes, unique methods</td></tr>
+      <tr><td class="rt-ctbl-label">Duration</td><td>Life of author + 70 years</td><td>Indefinite (with renewal every 10 years)</td><td>20 years from filing date</td></tr>
+      <tr><td class="rt-ctbl-label">Cost to Register</td><td>$45–$65 (USPTO/Copyright Office)</td><td>$250–$350 per class (USPTO)</td><td>$5,000–$15,000+ (with attorney)</td></tr>
+      <tr><td class="rt-ctbl-label">Timeline</td><td>3–6 months</td><td>8–12 months</td><td>2–4 years</td></tr>
+      <tr><td class="rt-ctbl-label">Lawyer Needed?</td><td>Usually not for basic filing</td><td>Recommended — improves approval odds</td><td>Yes — complex process requires patent attorney</td></tr>
+      <tr><td class="rt-ctbl-label">Automatic?</td><td>Yes — exists at creation, registration strengthens it</td><td>No — must file with USPTO for federal protection</td><td>No — must file and be approved by USPTO</td></tr></tbody>
+    </table>
   </div>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/infographics/lesson-3-1-trademark-timeline.jpg" alt="U.S. Trademark Registration Timeline" loading="lazy">
-  
-</figure><h2>Trademark Registration, What Actually Happens</h2>
+<div class="rt-infographic rt-ig-timeline" id="ig-3-1-trademark" data-tl-total="6" role="figure" aria-label="Trademark Registration Timeline — USPTO">
+  <div class="rt-ig-header">
+    <h3 class="rt-ig-title" data-es="Línea de Tiempo de Registro de Marca — USPTO">Trademark Registration Timeline — USPTO</h3>
+  </div>
+  <div class="rt-tl-track"><div class="rt-tl-seg rt-tl-seg--filled" data-seg="0"></div><div class="rt-tl-seg" data-seg="1"></div><div class="rt-tl-seg" data-seg="2"></div><div class="rt-tl-seg" data-seg="3"></div><div class="rt-tl-seg" data-seg="4"></div><div class="rt-tl-seg" data-seg="5"></div></div>
+  <div class="rt-tl-body">
+      <div class="rt-tl-card rt-tl-card--active" data-tl-step="0">
+        <div class="rt-tl-time" data-es="Mes 0">Month 0</div>
+        <div class="rt-tl-label" data-es="Presentar Solicitud">File Application</div>
+        <p class="rt-tl-desc" data-es="TEAS Plus ($250/clase) o TEAS Standard ($350/clase). Incluir marca, descripción de bienes/servicios, muestra de uso.">TEAS Plus ($250/class) or TEAS Standard ($350/class). Include mark, goods/services description, specimen of use.</p>
+      </div>
+      <div class="rt-tl-card" data-tl-step="1" hidden>
+        <div class="rt-tl-time" data-es="Mes 1–3">Month 1–3</div>
+        <div class="rt-tl-label" data-es="Revisión del USPTO">USPTO Review</div>
+        <p class="rt-tl-desc" data-es="El abogado examinador revisa conflictos. Espera promedio: 3–4 meses.">Examining attorney reviews for conflicts. Average wait: 3–4 months.</p>
+      </div>
+      <div class="rt-tl-card" data-tl-step="2" hidden>
+        <div class="rt-tl-time" data-es="Mes 4–6">Month 4–6</div>
+        <div class="rt-tl-label" data-es="Acciones de Oficina (si aplica)">Office Actions (if any)</div>
+        <p class="rt-tl-desc" data-es="Puede recibir un rechazo o solicitud de aclaración. Plazo de 3 meses para responder.">You may get a refusal or request for clarification. 3-month deadline to respond.</p>
+      </div>
+      <div class="rt-tl-card" data-tl-step="3" hidden>
+        <div class="rt-tl-time" data-es="Mes 7–8">Month 7–8</div>
+        <div class="rt-tl-label" data-es="Publicación">Publication</div>
+        <p class="rt-tl-desc" data-es="Marca publicada en la Gaceta Oficial por 30 días. Cualquiera puede oponerse.">Mark published in the Official Gazette for 30 days. Anyone can oppose.</p>
+      </div>
+      <div class="rt-tl-card" data-tl-step="4" hidden>
+        <div class="rt-tl-time" data-es="Mes 9–12">Month 9–12</div>
+        <div class="rt-tl-label" data-es="Registro">Registration</div>
+        <p class="rt-tl-desc" data-es="Sin oposición: se emite el certificado de registro. Tiempo total: 8–12 meses típico.">If no opposition: registration certificate issued. Total time: 8–12 months typical.</p>
+      </div>
+      <div class="rt-tl-card" data-tl-step="5" hidden>
+        <div class="rt-tl-time" data-es="Después del Registro">After Registration</div>
+        <div class="rt-tl-label" data-es="Mantener">Maintain</div>
+        <p class="rt-tl-desc" data-es="Declaración de Uso en el año 5–6 y renovación cada 10 años.">Declaration of Use at year 5–6 and renewal every 10 years.</p>
+      </div>
+  </div>
+  <div class="rt-ig-controls">
+    <button class="rt-ig-btn rt-ig-btn--back" onclick="igTlPrev('ig-3-1-trademark')" disabled data-es="&larr; Anterior">&larr; Back</button>
+    <span class="rt-ig-counter">Step <strong class="rt-tl-cur">1</strong> of 6</span>
+    <button class="rt-ig-btn" onclick="igTlNext('ig-3-1-trademark')" data-es="Siguiente &rarr;">Next &rarr;</button>
+  </div>
+  <div class="rt-tl-callout" data-es="Fundadores internacionales: su marca registrada en su país NO lo protege en EE.UU. Los derechos de propiedad intelectual son territoriales — debe registrarse por separado.">International founders: Your home country trademark does NOT protect you in the U.S. IP rights are territorial — you must register separately.</div>
+  <div class="rt-ig-footer" data-es="Costo total: $250–$750 por presentación + $0 si lo hace solo, $1,500–$3,000 con abogado.">Total cost: $250–$750 for filing + $0 if self-filed, $1,500–$3,000 with attorney.</div>
+</div><h2>Trademark Registration, What Actually Happens</h2>
 <p><p>A trademark is the emblem that distinguishes your business from everyone else's. The registration process through the USPTO is straightforward but takes patience.</p></p>
 <p><p><strong>Step 1: Search the USPTO database</strong> at trademark.uspto.gov. If a conflict exists, your application is rejected and your filing fee is not refunded.</p></p>
 <p><p><strong>Step 2: File your application</strong> online through TEAS. Choose the right class of goods or services (45 classes). Filing fee: $250 (TEAS Plus) or $350 (TEAS Standard) per class.</p></p>
@@ -386,6 +354,7 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

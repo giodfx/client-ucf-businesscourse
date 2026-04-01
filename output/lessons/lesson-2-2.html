@@ -94,13 +94,16 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">Cape Canaveral</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">Cape Canaveral</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Sales Tax, Accounting, and Keeping the Books</h1>
           </header>
 
           
 <section class="video-section" aria-label="Lesson Video">
-  <div class="avatar-video-wrap" data-lesson-id="lesson-2-2">
+  <div class="avatar-video-wrap" data-lesson-id="lesson-2-2" data-video-en="../media/video/avatars/lesson-2-2-avatar.mp4">
     <video id="avatar-video-lesson-2-2" controls playsinline preload="metadata"
       poster="../media/images/avatars/scenes/lesson-2-2-avatar.png"
       style="width:100%;max-width:832px;border-radius:12px;">
@@ -135,10 +138,119 @@
 <p><p>If you sell in multiple states, you register, collect, and remit in each one separately — like filing paperwork with every office in the district individually. A Colombian SaaS founder selling in Florida, Texas, and California spent $1,200 on a compliance service to handle multi-state filing.</p></p>
 <p><p><strong>The biggest adjustment:</strong> There is no single government portal for U.S. sales tax. You deal with each state individually. Services like Avalara or TaxJar can automate multi-state compliance. VAT is one relationship with one government. U.S. sales tax can be dozens.</p></p>
 
-<figure class="lesson-image" role="figure">
-  <img src="images/infographics/lesson-2-2-vat-vs-salestax.jpg" alt="VAT vs. U.S. Sales Tax Comparison" loading="lazy">
-  
-</figure>
+<div class="rt-infographic rt-ig-compare" id="ig-2-2-vat" data-cmp-total="7" role="figure" aria-label="VAT vs. U.S. Sales Tax">
+  <div class="rt-ig-header">
+    <h3 class="rt-ig-title" data-es="IVA vs. Impuesto sobre Ventas en EE.UU.">VAT vs. U.S. Sales Tax</h3>
+  </div>
+  <div class="rt-ig-progress-bar"><div class="rt-ig-progress-fill" style="width:14.3%"></div></div>
+  <div class="rt-cmp-body">
+      <div class="rt-cmp-step rt-cmp-step--active" data-cmp-step="0">
+        <div class="rt-cmp-category" data-es="Dónde">Where</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="Un sistema nacional — las mismas reglas en todo el país">One national system — same rules everywhere in the country</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="Estado por estado — cada estado establece sus propias reglas, tasas y exenciones">State by state — each state sets its own rules, rates, and exemptions</p>
+          </div>
+        </div>
+      </div>
+      <div class="rt-cmp-step" data-cmp-step="1" hidden>
+        <div class="rt-cmp-category" data-es="Aplicación">Applied</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="En cada etapa de producción y distribución">At every stage of production and distribution</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="Solo en el punto de venta final al consumidor">Only at the final point of sale to the consumer</p>
+          </div>
+        </div>
+      </div>
+      <div class="rt-cmp-step" data-cmp-step="2" hidden>
+        <div class="rt-cmp-category" data-es="Quién Recauda">Who Collects</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras">Every business in the chain collects and remits; input credits offset tax paid on purchases</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="Solo el negocio que vende al cliente final; sin créditos fiscales">Only the business selling to the end customer; no input credits</p>
+          </div>
+        </div>
+      </div>
+      <div class="rt-cmp-step" data-cmp-step="3" hidden>
+        <div class="rt-cmp-category" data-es="Tasa">Rate</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="Una tasa nacional (ej., 21% Argentina, 19% Chile, 16% México)">One national rate (e.g., 21% Argentina, 19% Chile, 16% Mexico)</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="Varía: 0% (Oregon) a 10.25% (algunas ciudades). Florida base: 6% + sobretasa del condado">Varies: 0% (Oregon) to 10.25% (some cities). Florida base: 6% + county surtax</p>
+          </div>
+        </div>
+      </div>
+      <div class="rt-cmp-step" data-cmp-step="4" hidden>
+        <div class="rt-cmp-category" data-es="Incluido en Precio">Included in Price</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="Sí — el precio en la etiqueta es el precio que pagas">Yes — the price on the shelf is the price you pay</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas">No — tax is added at the register. Shelf price ≠ what you pay</p>
+          </div>
+        </div>
+      </div>
+      <div class="rt-cmp-step" data-cmp-step="5" hidden>
+        <div class="rt-cmp-category" data-es="Declaración">Filing</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="Un portal gubernamental, una relación">One government portal, one relationship</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="Registro y declaración separados en cada estado donde tengas nexo">Separate registration and filing in every state where you have nexus</p>
+          </div>
+        </div>
+      </div>
+      <div class="rt-cmp-step" data-cmp-step="6" hidden>
+        <div class="rt-cmp-category" data-es="Ejemplo">Example</div>
+        <div class="rt-cmp-cards">
+          <div class="rt-cmp-card rt-cmp-card--a">
+            <span class="rt-cmp-side" data-es="IVA (Impuesto al Valor Agregado)">VAT (Value Added Tax)</span>
+            <p data-es="Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)">A $100 product with 21% VAT → you pay $100 (tax already included)</p>
+          </div>
+          <div class="rt-cmp-vs">vs</div>
+          <div class="rt-cmp-card rt-cmp-card--b">
+            <span class="rt-cmp-side" data-es="Impuesto sobre Ventas en EE.UU.">U.S. Sales Tax</span>
+            <p data-es="Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)">A $100 product in Orlando → you pay $106.50 (6.5% added at register)</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="rt-ig-controls">
+    <button class="rt-ig-btn rt-ig-btn--back" onclick="igCmpPrev('ig-2-2-vat')" disabled data-es="&larr; Anterior">&larr; Back</button>
+    <span class="rt-ig-counter"><strong class="rt-cmp-cur">1</strong> of 7</span>
+    <button class="rt-ig-btn" onclick="igCmpNext('ig-2-2-vat')" data-es="Siguiente &rarr;">Next &rarr;</button>
+  </div>
+  <div class="rt-cmp-callout" data-es="El mayor shock para los fundadores internacionales: los precios en la etiqueta NO son lo que pagas en la caja.">The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.</div>
+  <div class="rt-ig-footer" data-es="Florida: tasa base del 6% + sobretasa del condado (0.5%–1.5%). Sin impuesto en la mayoría de servicios. Exenciones para equipo de manufactura y algunos alimentos.">Florida: 6% base rate + county surtax (0.5%–1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.</div>
+</div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -345,6 +457,7 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

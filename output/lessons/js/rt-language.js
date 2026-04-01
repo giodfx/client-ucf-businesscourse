@@ -1,13 +1,12 @@
 /* ===== Founder's Road Trip — Bilingual Language System ===== */
 /* Reads language preference from rt-progress (set during onboarding),
    exposes window.rtLanguage, renders a compact toggle in lessons,
-   and syncs Spanish audio over muted English-track avatar videos. */
+   and swaps Spanish text + video when ES is selected. */
 (function() {
   'use strict';
 
   var STORAGE_KEY = 'rt-progress';
 
-  // ── Read preference ──
   function getProgress() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
     catch(e) { return {}; }
@@ -27,37 +26,40 @@
   // Set document lang attribute
   document.documentElement.lang = lang === 'es' ? 'es' : 'en';
 
-  // ── Audio path helper (still useful for other scripts) ──
+  // ── Audio path helper ──
   window.rtAudioPath = function(originalPath) {
     if (window.rtLanguage !== 'es') return originalPath;
     return originalPath.replace(/\/audio\/scenes\//, '/audio/scenes-es/');
   };
 
   // ── Spanish video swap for avatar MP4 videos ──
-  // When Spanish is selected, swaps the video source to the Spanish-audio MP4.
   function setupSpanishVideo() {
     if (lang !== 'es') return;
 
-    var video = document.querySelector('.avatar-video-wrap video');
+    var wrap = document.querySelector('.avatar-video-wrap');
+    if (!wrap) return;
+
+    var video = wrap.querySelector('video');
     if (!video) return;
 
-    // Detect lesson ID
-    var lessonId = document.body.getAttribute('data-lesson-id');
-    if (!lessonId) {
-      var match = window.location.pathname.match(/(lesson-\d+-\d+)/);
-      if (match) lessonId = match[1];
+    // Use data-video-es attribute if available
+    var esSrc = wrap.getAttribute('data-video-es');
+    if (!esSrc) {
+      // Fallback: derive from lesson ID
+      var lessonId = document.body.getAttribute('data-lesson-id');
+      if (!lessonId) {
+        var match = window.location.pathname.match(/(lesson-\d+-\d+)/);
+        if (match) lessonId = match[1];
+      }
+      if (lessonId) esSrc = '../media/video/avatars/' + lessonId + '-avatar-es.mp4';
     }
-    if (!lessonId) return;
 
-    // Swap to Spanish MP4 (has Spanish audio baked in)
-    var esSource = '../media/video/avatars/' + lessonId + '-avatar-es.mp4';
-    var sourceEl = video.querySelector('source');
-    if (sourceEl) {
-      sourceEl.src = esSource;
-    } else {
-      video.src = esSource;
+    if (esSrc) {
+      var sourceEl = video.querySelector('source');
+      if (sourceEl) sourceEl.src = esSrc;
+      else video.src = esSrc;
+      video.load();
     }
-    video.load();
   }
 
   // ── Swap [data-es] text elements when Spanish is active ──

@@ -303,11 +303,41 @@
           "wordCount": 241
         },
         {
-          "type": "image",
-          "id": "img-2-2-vat",
-          "title": "VAT vs. U.S. Sales Tax Comparison",
-          "src": "images/infographics/lesson-2-2-vat-vs-salestax.jpg",
-          "alt": "Infographic comparing VAT (applied at every production stage, one national rate) with U.S. Sales Tax (applied only at final sale, varies by state/county/city). Key insight: U.S. shelf prices do not include tax."
+          "type": "infographic",
+          "style": "compare",
+          "id": "ig-2-2-vat",
+          "title": "VAT vs. U.S. Sales Tax",
+          "titleEs": "IVA vs. Impuesto sobre Ventas en EE.UU.",
+          "left": {
+            "heading": "VAT (Value Added Tax)",
+            "headingEs": "IVA (Impuesto al Valor Agregado)",
+            "rows": [
+              { "label": "Where", "labelEs": "Dónde", "value": "One national system — same rules everywhere in the country", "valueEs": "Un sistema nacional — las mismas reglas en todo el país" },
+              { "label": "Applied", "labelEs": "Aplicación", "value": "At every stage of production and distribution", "valueEs": "En cada etapa de producción y distribución" },
+              { "label": "Who Collects", "labelEs": "Quién Recauda", "value": "Every business in the chain collects and remits; input credits offset tax paid on purchases", "valueEs": "Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras" },
+              { "label": "Rate", "labelEs": "Tasa", "value": "One national rate (e.g., 21% Argentina, 19% Chile, 16% Mexico)", "valueEs": "Una tasa nacional (ej., 21% Argentina, 19% Chile, 16% México)" },
+              { "label": "Included in Price", "labelEs": "Incluido en Precio", "value": "Yes — the price on the shelf is the price you pay", "valueEs": "Sí — el precio en la etiqueta es el precio que pagas" },
+              { "label": "Filing", "labelEs": "Declaración", "value": "One government portal, one relationship", "valueEs": "Un portal gubernamental, una relación" },
+              { "label": "Example", "labelEs": "Ejemplo", "value": "A $100 product with 21% VAT → you pay $100 (tax already included)", "valueEs": "Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)" }
+            ]
+          },
+          "right": {
+            "heading": "U.S. Sales Tax",
+            "headingEs": "Impuesto sobre Ventas en EE.UU.",
+            "rows": [
+              { "label": "Where", "labelEs": "Dónde", "value": "State by state — each state sets its own rules, rates, and exemptions", "valueEs": "Estado por estado — cada estado establece sus propias reglas, tasas y exenciones" },
+              { "label": "Applied", "labelEs": "Aplicación", "value": "Only at the final point of sale to the consumer", "valueEs": "Solo en el punto de venta final al consumidor" },
+              { "label": "Who Collects", "labelEs": "Quién Recauda", "value": "Only the business selling to the end customer; no input credits", "valueEs": "Solo el negocio que vende al cliente final; sin créditos fiscales" },
+              { "label": "Rate", "labelEs": "Tasa", "value": "Varies: 0% (Oregon) to 10.25% (some cities). Florida base: 6% + county surtax", "valueEs": "Varía: 0% (Oregon) a 10.25% (algunas ciudades). Florida base: 6% + sobretasa del condado" },
+              { "label": "Included in Price", "labelEs": "Incluido en Precio", "value": "No — tax is added at the register. Shelf price ≠ what you pay", "valueEs": "No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas" },
+              { "label": "Filing", "labelEs": "Declaración", "value": "Separate registration and filing in every state where you have nexus", "valueEs": "Registro y declaración separados en cada estado donde tengas nexo" },
+              { "label": "Example", "labelEs": "Ejemplo", "value": "A $100 product in Orlando → you pay $106.50 (6.5% added at register)", "valueEs": "Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)" }
+            ]
+          },
+          "callout": "The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.",
+          "calloutEs": "El mayor shock para los fundadores internacionales: los precios en la etiqueta NO son lo que pagas en la caja.",
+          "footer": "Florida: 6% base rate + county surtax (0.5%–1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.",
+          "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%–1.5%). Sin impuesto en la mayoría de servicios. Exenciones para equipo de manufactura y algunos alimentos."
         },
         {
           "type": "callout",

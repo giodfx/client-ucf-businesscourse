@@ -18,11 +18,22 @@
       "wordCount": 152
     },
     {
-      "type": "image",
-      "id": "img-3-2-insurance",
-      "title": "Business Insurance Types Overview",
-      "src": "images/infographics/lesson-3-2-insurance-types.jpg",
-      "alt": "Infographic showing 6 business insurance types: General Liability, Professional Liability, Workers Comp, Commercial Property, BOP, and Cyber Liability with costs and descriptions."
+      "type": "infographic",
+      "style": "grid",
+      "id": "ig-3-2-insurance",
+      "title": "Business Insurance — What Coverage Do You Need?",
+      "titleEs": "Seguro Empresarial — ¿Qué Cobertura Necesitas?",
+      "cols": 3,
+      "cards": [
+        { "heading": "General Liability", "headingEs": "Responsabilidad General", "desc": "Required by most: Covers customer injuries, property damage, lawsuits. Get this FIRST.", "descEs": "Requerido por la mayoría: Cubre lesiones a clientes, daños a propiedad, demandas. Obténlo PRIMERO.", "cost": "Cost: $400–$1,500/year", "costEs": "Costo: $400–$1,500/año" },
+        { "heading": "Professional Liability / E&O", "headingEs": "Responsabilidad Profesional / E&O", "desc": "For service businesses: Covers mistakes, negligence claims, missed deadlines. Required if you give advice or provide professional services.", "descEs": "Para negocios de servicios: Cubre errores, reclamos por negligencia, plazos incumplidos. Requerido si das asesoría o servicios profesionales.", "cost": "Cost: $500–$2,500/year", "costEs": "Costo: $500–$2,500/año" },
+        { "heading": "Workers' Compensation", "headingEs": "Compensación al Trabajador", "desc": "Required in Florida (4+ employees): Covers employee injuries on the job. Cost varies by industry and payroll. Mandatory — not optional.", "descEs": "Requerido en Florida (4+ empleados): Cubre lesiones laborales. El costo varía por industria y nómina. Obligatorio — no opcional.", "cost": "Cost: varies by industry/payroll", "costEs": "Costo: varía por industria/nómina" },
+        { "heading": "Commercial Property", "headingEs": "Propiedad Comercial", "desc": "If you have a physical space: Covers equipment, inventory, office contents. Includes fire, theft, some natural disasters.", "descEs": "Si tienes un espacio físico: Cubre equipo, inventario, contenido de oficina. Incluye incendio, robo, algunos desastres naturales.", "cost": "Cost: $500–$3,000/year", "costEs": "Costo: $500–$3,000/año" },
+        { "heading": "Business Owner's Policy / BOP", "headingEs": "Póliza del Propietario / BOP", "desc": "Best value for small businesses: Bundles general liability + property insurance at a discount. Great starting point.", "descEs": "Mejor valor para pequeños negocios: Combina responsabilidad general + seguro de propiedad con descuento. Excelente punto de partida.", "cost": "Cost: $500–$2,000/year", "costEs": "Costo: $500–$2,000/año" },
+        { "heading": "Cyber Liability", "headingEs": "Responsabilidad Cibernética", "desc": "For any business handling customer data: Covers data breaches, ransomware, notification costs. Increasingly essential.", "descEs": "Para cualquier negocio que maneje datos de clientes: Cubre violaciones de datos, ransomware, costos de notificación. Cada vez más esencial.", "cost": "Cost: $500–$5,000/year", "costEs": "Costo: $500–$5,000/año" }
+      ],
+      "footer": "How to Buy: Get quotes from 3+ providers, use an independent insurance broker, review annually. Just starting? Get General Liability first. Adding employees? Add Workers' Comp. Handling data? Add Cyber Liability.",
+      "footerEs": "Cómo Comprar: Obtén cotizaciones de 3+ proveedores, usa un corredor de seguros independiente, revisa anualmente. ¿Recién empezando? Obtén Responsabilidad General primero. ¿Contratando empleados? Agrega Compensación al Trabajador. ¿Manejando datos? Agrega Responsabilidad Cibernética."
     },
     {
       "type": "callout",

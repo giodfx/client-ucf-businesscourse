@@ -94,13 +94,16 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%)">Financial District</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%)">Financial District</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Choosing Your U.S. Business Entity</h1>
           </header>
 
           
 <section class="video-section" aria-label="Lesson Video">
-  <div class="avatar-video-wrap" data-lesson-id="lesson-1-1">
+  <div class="avatar-video-wrap" data-lesson-id="lesson-1-1" data-video-en="../media/video/avatars/lesson-1-1-avatar.mp4" data-video-es="../media/video/avatars/lesson-1-1-avatar-es.mp4">
     <video id="avatar-video-lesson-1-1" controls playsinline preload="metadata"
       poster="../media/images/avatars/scenes/lesson-1-1-avatar.png"
       style="width:100%;max-width:832px;border-radius:12px;">
@@ -129,94 +132,18 @@
 <p><p>Think of it this way: an LLC is like opening a flexible storefront — easy to set up, simple to run, and it keeps your personal assets separate from the business. A C-Corp is more like building a glass tower — more paperwork and formality, but it is the structure investors expect if you plan to raise venture capital. An S-Corp exists too, but it requires all shareholders to be U.S. citizens or residents, which rules out most international founders.</p></p>
 <p><p>The comparison below breaks down the key differences to help you decide which structure fits your situation.</p></p>
 
-<div class="rt-comparison" data-comparison-id="int-1-1-1">
-  <h3 class="rt-comparison-title">LLC vs. C-Corp vs. S-Corp — Side by Side</h3>
-  <div class="rt-comparison-grid" style="--cols: 3">
-    
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">LLC</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Liability Protection</span>
-        <span class="rt-comparison-value">Full personal asset protection</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Tax Treatment</span>
-        <span class="rt-comparison-value">Pass-through (no double taxation)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Investor Appeal</span>
-        <span class="rt-comparison-value">Lower — harder to issue stock</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Immigration Compatibility</span>
-        <span class="rt-comparison-value">High — any visa holder can own</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Formation Cost</span>
-        <span class="rt-comparison-value">$125 FL filing fee</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Complexity</span>
-        <span class="rt-comparison-value">Low — minimal ongoing formalities</span>
-      </div>
-    </div>
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">C-Corp</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Liability Protection</span>
-        <span class="rt-comparison-value">Full personal asset protection</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Tax Treatment</span>
-        <span class="rt-comparison-value">Double taxation (corporate + dividend)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Investor Appeal</span>
-        <span class="rt-comparison-value">High — standard for VC funding</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Immigration Compatibility</span>
-        <span class="rt-comparison-value">High — required for some visas</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Formation Cost</span>
-        <span class="rt-comparison-value">$70 FL filing fee + bylaws</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Complexity</span>
-        <span class="rt-comparison-value">High — board, minutes, annual reports</span>
-      </div>
-    </div>
-    <div class="rt-comparison-col">
-      <div class="rt-comparison-header">S-Corp</div>
-      
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Liability Protection</span>
-        <span class="rt-comparison-value">Full personal asset protection</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Tax Treatment</span>
-        <span class="rt-comparison-value">Pass-through (no double taxation)</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Investor Appeal</span>
-        <span class="rt-comparison-value">Limited — max 100 shareholders</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Immigration Compatibility</span>
-        <span class="rt-comparison-value">Low — U.S. residents only</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Formation Cost</span>
-        <span class="rt-comparison-value">$70 filing + S-election form</span>
-      </div>
-      <div class="rt-comparison-row">
-        <span class="rt-comparison-label">Complexity</span>
-        <span class="rt-comparison-value">Medium — corporate formalities required</span>
-      </div>
-    </div>
+<div class="rt-ctbl-wrap" data-comparison-id="int-1-1-1">
+  <h3 class="rt-ctbl-title">LLC vs. C-Corp vs. S-Corp — Side by Side</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th></th><th>LLC</th><th>C-Corp</th><th>S-Corp</th></tr></thead>
+      <tbody><tr><td class="rt-ctbl-label">Liability Protection</td><td>Full personal asset protection</td><td>Full personal asset protection</td><td>Full personal asset protection</td></tr>
+      <tr><td class="rt-ctbl-label">Tax Treatment</td><td>Pass-through (no double taxation)</td><td>Double taxation (corporate + dividend)</td><td>Pass-through (no double taxation)</td></tr>
+      <tr><td class="rt-ctbl-label">Investor Appeal</td><td>Lower — harder to issue stock</td><td>High — standard for VC funding</td><td>Limited — max 100 shareholders</td></tr>
+      <tr><td class="rt-ctbl-label">Immigration Compatibility</td><td>High — any visa holder can own</td><td>High — required for some visas</td><td>Low — U.S. residents only</td></tr>
+      <tr><td class="rt-ctbl-label">Formation Cost</td><td>$125 FL filing fee</td><td>$70 FL filing fee + bylaws</td><td>$70 filing + S-election form</td></tr>
+      <tr><td class="rt-ctbl-label">Complexity</td><td>Low — minimal ongoing formalities</td><td>High — board, minutes, annual reports</td><td>Medium — corporate formalities required</td></tr></tbody>
+    </table>
   </div>
 </div>
 <div class="rt-scenario" data-scenario-id="branch-scenario-1-1-decision-tree">
@@ -443,6 +370,7 @@ Write down the top two or three factors driving your choice. If you are unsure, 
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

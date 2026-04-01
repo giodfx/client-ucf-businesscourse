@@ -94,7 +94,10 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #276749 0%, #1a4731 100%)">Blue Spring</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #276749 0%, #1a4731 100%)">Blue Spring</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Cultural Missteps That Cost Real Money</h1>
           </header>
 
@@ -150,10 +153,82 @@
 <p><p>Founders spend $3,000-$7,000 per trip for meetings that could be video calls.</p></p>
 <p><p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p></p>
 
-<figure class="lesson-image" role="figure">
-  <img src="images/infographics/lesson-6-3-cultural-costs.jpg" alt="Cultural Missteps That Cost Real Money" loading="lazy">
-  
-</figure>
+<div class="rt-infographic rt-ig-grid" id="ig-6-3-cultural" role="figure" aria-label="Cultural Missteps That Cost Real Money">
+  <div class="rt-ig-header">
+    <h3 class="rt-ig-title" data-es="Errores Culturales Que Cuestan Dinero Real">Cultural Missteps That Cost Real Money</h3>
+    <p class="rt-ig-subtitle" data-es="Pequeños malentendidos, grandes consecuencias">Small misunderstandings, big consequences</p>
+    <p class="rt-ig-hint" data-es="Toca cada tarjeta para ver detalles">Tap each card to see details</p>
+  </div>
+  <div class="rt-gc-grid">
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="$5,000–$50,000 en negocios perdidos">$5,000–$50,000 in lost deals</span>
+          <h4 class="rt-gc-heading" data-es="Perder la Ventana de Seguimiento">Missing the Follow-Up Window</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Los socios estadounidenses esperan un correo de seguimiento en 24–48 horas. En muchas culturas, esperar muestra respeto. En EE.UU., esperar = no estás interesado.">U.S. partners expect a follow-up email within 24–48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="$10,000–$100,000+ en disputas">$10,000–$100,000+ in disputes</span>
+          <h4 class="rt-gc-heading" data-es="Acuerdos de Palabra Sin Contratos">Handshake Deals Without Contracts</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="En EE.UU., si no está por escrito, no existe. Incluso las relaciones comerciales amistosas necesitan acuerdos firmados.">In the U.S., if it's not in writing, it doesn't exist. Even friendly business relationships need signed agreements.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="$2,000–$20,000 en daño a credibilidad">$2,000–$20,000 in credibility damage</span>
+          <h4 class="rt-gc-heading" data-es="Prometer Plazos de Más">Over-Promising Timelines</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Decir 'sí' a cada plazo por cortesía, luego incumplirlos. Los estadounidenses planifican según tus fechas comprometidas.">Saying 'yes' to every deadline to be polite, then missing them. Americans plan around your committed dates.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="$0 directo pero destruye relaciones">$0 direct but relationship-killing</span>
+          <h4 class="rt-gc-heading" data-es="Ignorar la Charla Casual">Ignoring Small Talk</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Saltarse los 2–3 minutos de charla sobre clima/deportes/fin de semana antes de negocios. Los estadounidenses usan esto para generar confianza.">Skipping the 2–3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="$0 directo pero frena negocios">$0 direct but deal-slowing</span>
+          <h4 class="rt-gc-heading" data-es="Nivel de Formalidad Incorrecto">Wrong Formality Level</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Usar títulos excesivamente formales (Sr. Director, Dr.) cuando los estadounidenses usan nombres de pila, o ser demasiado casual muy pronto en industrias formales (derecho, finanzas).">Using overly formal titles (Sr. Director, Dr.) when Americans use first names, or being too casual too soon in formal industries (law, finance).</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="$5,000–$25,000 en preparación desperdiciada">$5,000–$25,000 in wasted preparation</span>
+          <h4 class="rt-gc-heading" data-es="Asumir que 'Suena Genial' Significa Sí">Assuming 'Sounds Great' Means Yes</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="En la cultura empresarial de EE.UU., 'Déjame pensarlo' y 'Suena interesante' usualmente significan NO. 'Hagámoslo' o un documento firmado significa sí.">In U.S. business culture, 'Let me think about it' and 'Sounds interesting' usually mean NO. 'Let's do it' or a signed document means yes.</p>
+          
+        </div>
+      </button>
+  </div>
+  <div class="rt-ig-footer" style="display:block" data-es="La buena noticia: los estadounidenses son tolerantes con las diferencias culturales. Les importa mucho más la confiabilidad y el cumplimiento que la etiqueta perfecta.">The good news: Americans are forgiving of cultural differences. They care far more about reliability and follow-through than perfect etiquette.</div>
+</div>
 <div class="rt-scenario" data-scenario-id="branch-scenario-6-3-cultural">
   <h3>What Did They Really Mean?</h3>
   <div class="rt-scenario-context"><p>You just had a great 45-minute meeting with a potential U.S. partner. They said: 'This is really exciting. We love what you're building. Let me run this by a few people internally and we'll circle back next week.' It has been 10 days with no follow-up. What is happening?</p></div>
@@ -393,6 +468,7 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

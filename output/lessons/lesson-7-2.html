@@ -99,7 +99,10 @@
       <main id="main-content" class="rt-lesson-main" role="main">
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
-            <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
+            <div class="rt-lesson-header-row">
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
+              <div id="rt-lang-mount"></div>
+            </div>
             <h1 class="rt-lesson-title">Central Florida — Your Market Opportunity</h1>
           </header>
 
@@ -244,10 +247,93 @@
     </div>
   </div>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/infographics/lesson-7-2-networking-map.jpg" alt="Central Florida Networking Map" loading="lazy">
-  
-</figure>
+<div class="rt-infographic rt-ig-grid" id="ig-7-2-network" role="figure" aria-label="Where to Show Up — Central Florida Networking">
+  <div class="rt-ig-header">
+    <h3 class="rt-ig-title" data-es="Dónde Presentarse — Networking en Florida Central">Where to Show Up — Central Florida Networking</h3>
+    
+    <p class="rt-ig-hint" data-es="Toca cada tarjeta para ver detalles">Tap each card to see details</p>
+  </div>
+  <div class="rt-gc-grid">
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Eventos">Events</span>
+          <h4 class="rt-gc-heading" data-es="1 Million Cups Orlando">1 Million Cups Orlando</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Gratis, semanal, casual. Downtown Orlando. Excelente primer paso para conocer fundadores locales.">Free, weekly, casual. Downtown Orlando. Great first step for meeting local founders.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Eventos">Events</span>
+          <h4 class="rt-gc-heading" data-es="Orlando Tech Week">Orlando Tech Week</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Conferencia anual de varios días. Downtown Orlando. Conecta startups con inversionistas y mentores.">Annual multi-day conference. Downtown Orlando. Connects startups with investors and mentors.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Coworking">Coworking</span>
+          <h4 class="rt-gc-heading" data-es="StarterStudio">StarterStudio</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Aceleradora y coworking en Downtown Orlando. Programas de mentoría y días de demostración.">Downtown Orlando accelerator and coworking. Mentorship programs and demo days.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Coworking">Coworking</span>
+          <h4 class="rt-gc-heading" data-es="Canvs">Canvs</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Hub de coworking en Downtown Orlando. Mayor concentración de startups en la región.">Downtown Orlando coworking hub. Densest concentration of startups in the region.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Zona Clave">Key Zone</span>
+          <h4 class="rt-gc-heading" data-es="Parque de Investigación UCF / UCF BIP">Research Park at UCF / UCF BIP</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Este de Orlando. Enfoque en tecnología/simulación. Programa de Incubación Empresarial UCF aquí.">East Orlando. Tech/simulation focus. UCF Business Incubation Program based here.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Zona Clave">Key Zone</span>
+          <h4 class="rt-gc-heading" data-es="Lake Nona / Ciudad Médica">Lake Nona / Medical City</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Hub de tecnología de salud. Distrito de innovación en crecimiento al sur de Orlando.">Health tech hub. Growing innovation district south of Orlando.</p>
+          
+        </div>
+      </button>
+      <button class="rt-gc-card" onclick="igGridToggle(this)" aria-expanded="false">
+        <div class="rt-gc-top">
+          <span class="rt-gc-badge" data-es="Zona Clave">Key Zone</span>
+          <h4 class="rt-gc-heading" data-es="Costa Espacial / Cabo Cañaveral">Space Coast / Cape Canaveral</h4>
+          <span class="rt-gc-chevron" aria-hidden="true">&#9662;</span>
+        </div>
+        <div class="rt-gc-detail" hidden>
+          <p class="rt-gc-desc" data-es="Industria aeroespacial. Groundswell Startups en Melbourne. 45 min al este de Orlando.">Aerospace industry. Groundswell Startups in Melbourne. 45 min east of Orlando.</p>
+          
+        </div>
+      </button>
+  </div>
+  <div class="rt-ig-footer" style="display:block" data-es="Consejo: Empieza con 1 Million Cups (gratis, semanal, casual) y un espacio de coworking. Crece desde ahí.">Tip: Start with 1 Million Cups (free, weekly, casual) and one coworking space. Build from there.</div>
+</div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -408,6 +494,7 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

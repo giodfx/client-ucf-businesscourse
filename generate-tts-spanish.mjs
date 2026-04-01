@@ -32,19 +32,19 @@ const PROJECT_ROOT = path.resolve('../../..');
 const COURSE_DIR = path.resolve('.');
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// VOICE REFERENCES — Same English ref voices, Qwen3 speaks Spanish with them
+// VOICE REFERENCES — Native Colombian Spanish voices (ICL clone mode)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 const VOICE_REFS = {
   female: {
-    audio: path.join(PROJECT_ROOT, 'voices/FemaleJessica.mp3'),
-    filename: 'tts-ref-female.mp3',
-    text: "Hey friends, let's talk. Let's have a conversation about anything. My name is Jessica, and I'm looking forward to chatting with you.",
+    audio: path.join(PROJECT_ROOT, 'voices/MujeColombiana-Neutral.mp3'),
+    filename: 'tts-ref-female-es.mp3',
+    text: "Bienvenido. Imagínate sentado detrás del volante, estacionado en la rampa de entrada de la Interestatal 4, la autopista que atraviesa el corazón del corredor empresarial del centro de Florida. Tu GPS está cargado, tu tablero está encendido y siete destinos se extienden frente a ti. Voy a ser tu guía en este viaje por carretera. Este programa toma menos de tres horas y al final entenderás las realidades legales, financieras y culturales de hacer negocios en Estados Unidos. Sin relleno, sin teoría. Solo la ruta que necesitas para navegar el mercado estadounidense con confianza.",
   },
   male: {
-    audio: path.join(PROJECT_ROOT, 'voices/MaleAmerican.mp3'),
-    filename: 'tts-ref-male.mp3',
-    text: "It allows you to easily download YouTube videos as MP3 or MP4 files. The service is completely free and does not require any sign-up",
+    audio: path.join(PROJECT_ROOT, 'voices/HombreColombiaWarm.mp3'),
+    filename: 'tts-ref-male-es.mp3',
+    text: "Bienvenido. Imagínate sentado detrás del volante, estacionado en la rampa de entrada de la Interestatal 4, la autopista que atraviesa el corazón del corredor empresarial del centro de Florida. Tu GPS está cargado, tu tablero está encendido y siete destinos se extienden frente a ti. Voy a ser tu guía en este viaje por carretera. Este programa toma menos de tres horas, y al final entendés",
   },
 };
 

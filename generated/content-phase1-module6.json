@@ -408,11 +408,24 @@
           "wordCount": 190
         },
         {
-          "type": "image",
-          "id": "img-6-3-cultural",
+          "type": "infographic",
+          "style": "grid",
+          "id": "ig-6-3-cultural",
           "title": "Cultural Missteps That Cost Real Money",
-          "src": "images/infographics/lesson-6-3-cultural-costs.jpg",
-          "alt": "Infographic showing 6 cultural missteps with dollar costs: missing follow-up ($5K-$50K), no contracts ($10K-$100K+), over-promising ($2K-$20K), ignoring small talk, wrong formality, assuming yes."
+          "titleEs": "Errores Culturales Que Cuestan Dinero Real",
+          "subtitle": "Small misunderstandings, big consequences",
+          "subtitleEs": "Pequeños malentendidos, grandes consecuencias",
+          "cols": 3,
+          "cards": [
+            { "badge": "$5,000–$50,000 in lost deals", "badgeEs": "$5,000–$50,000 en negocios perdidos", "heading": "Missing the Follow-Up Window", "headingEs": "Perder la Ventana de Seguimiento", "desc": "U.S. partners expect a follow-up email within 24–48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.", "descEs": "Los socios estadounidenses esperan un correo de seguimiento en 24–48 horas. En muchas culturas, esperar muestra respeto. En EE.UU., esperar = no estás interesado." },
+            { "badge": "$10,000–$100,000+ in disputes", "badgeEs": "$10,000–$100,000+ en disputas", "heading": "Handshake Deals Without Contracts", "headingEs": "Acuerdos de Palabra Sin Contratos", "desc": "In the U.S., if it's not in writing, it doesn't exist. Even friendly business relationships need signed agreements.", "descEs": "En EE.UU., si no está por escrito, no existe. Incluso las relaciones comerciales amistosas necesitan acuerdos firmados." },
+            { "badge": "$2,000–$20,000 in credibility damage", "badgeEs": "$2,000–$20,000 en daño a credibilidad", "heading": "Over-Promising Timelines", "headingEs": "Prometer Plazos de Más", "desc": "Saying 'yes' to every deadline to be polite, then missing them. Americans plan around your committed dates.", "descEs": "Decir 'sí' a cada plazo por cortesía, luego incumplirlos. Los estadounidenses planifican según tus fechas comprometidas." },
+            { "badge": "$0 direct but relationship-killing", "badgeEs": "$0 directo pero destruye relaciones", "heading": "Ignoring Small Talk", "headingEs": "Ignorar la Charla Casual", "desc": "Skipping the 2–3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.", "descEs": "Saltarse los 2–3 minutos de charla sobre clima/deportes/fin de semana antes de negocios. Los estadounidenses usan esto para generar confianza." },
+            { "badge": "$0 direct but deal-slowing", "badgeEs": "$0 directo pero frena negocios", "heading": "Wrong Formality Level", "headingEs": "Nivel de Formalidad Incorrecto", "desc": "Using overly formal titles (Sr. Director, Dr.) when Americans use first names, or being too casual too soon in formal industries (law, finance).", "descEs": "Usar títulos excesivamente formales (Sr. Director, Dr.) cuando los estadounidenses usan nombres de pila, o ser demasiado casual muy pronto en industrias formales (derecho, finanzas)." },
+            { "badge": "$5,000–$25,000 in wasted preparation", "badgeEs": "$5,000–$25,000 en preparación desperdiciada", "heading": "Assuming 'Sounds Great' Means Yes", "headingEs": "Asumir que 'Suena Genial' Significa Sí", "desc": "In U.S. business culture, 'Let me think about it' and 'Sounds interesting' usually mean NO. 'Let's do it' or a signed document means yes.", "descEs": "En la cultura empresarial de EE.UU., 'Déjame pensarlo' y 'Suena interesante' usualmente significan NO. 'Hagámoslo' o un documento firmado significa sí." }
+          ],
+          "footer": "The good news: Americans are forgiving of cultural differences. They care far more about reliability and follow-through than perfect etiquette.",
+          "footerEs": "La buena noticia: los estadounidenses son tolerantes con las diferencias culturales. Les importa mucho más la confiabilidad y el cumplimiento que la etiqueta perfecta."
         },
         {
           "type": "table",

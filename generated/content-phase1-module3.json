@@ -169,11 +169,23 @@
           ]
         },
         {
-          "type": "image",
-          "id": "img-3-1-trademark",
-          "title": "U.S. Trademark Registration Timeline",
-          "src": "images/infographics/lesson-3-1-trademark-timeline.jpg",
-          "alt": "Timeline showing trademark registration process: file application, USPTO review, office actions, publication, registration. Total 8-12 months, cost $250-$3,000."
+          "type": "infographic",
+          "style": "timeline",
+          "id": "ig-3-1-trademark",
+          "title": "Trademark Registration Timeline — USPTO",
+          "titleEs": "Línea de Tiempo de Registro de Marca — USPTO",
+          "milestones": [
+            { "time": "Month 0", "timeEs": "Mes 0", "label": "File Application", "labelEs": "Presentar Solicitud", "desc": "TEAS Plus ($250/class) or TEAS Standard ($350/class). Include mark, goods/services description, specimen of use.", "descEs": "TEAS Plus ($250/clase) o TEAS Standard ($350/clase). Incluir marca, descripción de bienes/servicios, muestra de uso." },
+            { "time": "Month 1–3", "timeEs": "Mes 1–3", "label": "USPTO Review", "labelEs": "Revisión del USPTO", "desc": "Examining attorney reviews for conflicts. Average wait: 3–4 months.", "descEs": "El abogado examinador revisa conflictos. Espera promedio: 3–4 meses." },
+            { "time": "Month 4–6", "timeEs": "Mes 4–6", "label": "Office Actions (if any)", "labelEs": "Acciones de Oficina (si aplica)", "desc": "You may get a refusal or request for clarification. 3-month deadline to respond.", "descEs": "Puede recibir un rechazo o solicitud de aclaración. Plazo de 3 meses para responder." },
+            { "time": "Month 7–8", "timeEs": "Mes 7–8", "label": "Publication", "labelEs": "Publicación", "desc": "Mark published in the Official Gazette for 30 days. Anyone can oppose.", "descEs": "Marca publicada en la Gaceta Oficial por 30 días. Cualquiera puede oponerse." },
+            { "time": "Month 9–12", "timeEs": "Mes 9–12", "label": "Registration", "labelEs": "Registro", "desc": "If no opposition: registration certificate issued. Total time: 8–12 months typical.", "descEs": "Sin oposición: se emite el certificado de registro. Tiempo total: 8–12 meses típico." },
+            { "time": "After Registration", "timeEs": "Después del Registro", "label": "Maintain", "labelEs": "Mantener", "desc": "Declaration of Use at year 5–6 and renewal every 10 years.", "descEs": "Declaración de Uso en el año 5–6 y renovación cada 10 años." }
+          ],
+          "callout": "International founders: Your home country trademark does NOT protect you in the U.S. IP rights are territorial — you must register separately.",
+          "calloutEs": "Fundadores internacionales: su marca registrada en su país NO lo protege en EE.UU. Los derechos de propiedad intelectual son territoriales — debe registrarse por separado.",
+          "footer": "Total cost: $250–$750 for filing + $0 if self-filed, $1,500–$3,000 with attorney.",
+          "footerEs": "Costo total: $250–$750 por presentación + $0 si lo hace solo, $1,500–$3,000 con abogado."
         },
         {
           "type": "text",
@@ -280,11 +292,22 @@
           "wordCount": 152
         },
         {
-          "type": "image",
-          "id": "img-3-2-insurance",
-          "title": "Business Insurance Types Overview",
-          "src": "images/infographics/lesson-3-2-insurance-types.jpg",
-          "alt": "Infographic showing 6 business insurance types: General Liability, Professional Liability, Workers Comp, Commercial Property, BOP, and Cyber Liability with costs and descriptions."
+          "type": "infographic",
+          "style": "grid",
+          "id": "ig-3-2-insurance",
+          "title": "Business Insurance — What Coverage Do You Need?",
+          "titleEs": "Seguro Empresarial — ¿Qué Cobertura Necesitas?",
+          "cols": 3,
+          "cards": [
+            { "heading": "General Liability", "headingEs": "Responsabilidad General", "desc": "Required by most: Covers customer injuries, property damage, lawsuits. Get this FIRST.", "descEs": "Requerido por la mayoría: Cubre lesiones a clientes, daños a propiedad, demandas. Obténlo PRIMERO.", "cost": "Cost: $400–$1,500/year", "costEs": "Costo: $400–$1,500/año" },
+            { "heading": "Professional Liability / E&O", "headingEs": "Responsabilidad Profesional / E&O", "desc": "For service businesses: Covers mistakes, negligence claims, missed deadlines. Required if you give advice or provide professional services.", "descEs": "Para negocios de servicios: Cubre errores, reclamos por negligencia, plazos incumplidos. Requerido si das asesoría o servicios profesionales.", "cost": "Cost: $500–$2,500/year", "costEs": "Costo: $500–$2,500/año" },
+            { "heading": "Workers' Compensation", "headingEs": "Compensación al Trabajador", "desc": "Required in Florida (4+ employees): Covers employee injuries on the job. Cost varies by industry and payroll. Mandatory — not optional.", "descEs": "Requerido en Florida (4+ empleados): Cubre lesiones laborales. El costo varía por industria y nómina. Obligatorio — no opcional.", "cost": "Cost: varies by industry/payroll", "costEs": "Costo: varía por industria/nómina" },
+            { "heading": "Commercial Property", "headingEs": "Propiedad Comercial", "desc": "If you have a physical space: Covers equipment, inventory, office contents. Includes fire, theft, some natural disasters.", "descEs": "Si tienes un espacio físico: Cubre equipo, inventario, contenido de oficina. Incluye incendio, robo, algunos desastres naturales.", "cost": "Cost: $500–$3,000/year", "costEs": "Costo: $500–$3,000/año" },
+            { "heading": "Business Owner's Policy / BOP", "headingEs": "Póliza del Propietario / BOP", "desc": "Best value for small businesses: Bundles general liability + property insurance at a discount. Great starting point.", "descEs": "Mejor valor para pequeños negocios: Combina responsabilidad general + seguro de propiedad con descuento. Excelente punto de partida.", "cost": "Cost: $500–$2,000/year", "costEs": "Costo: $500–$2,000/año" },
+            { "heading": "Cyber Liability", "headingEs": "Responsabilidad Cibernética", "desc": "For any business handling customer data: Covers data breaches, ransomware, notification costs. Increasingly essential.", "descEs": "Para cualquier negocio que maneje datos de clientes: Cubre violaciones de datos, ransomware, costos de notificación. Cada vez más esencial.", "cost": "Cost: $500–$5,000/year", "costEs": "Costo: $500–$5,000/año" }
+          ],
+          "footer": "How to Buy: Get quotes from 3+ providers, use an independent insurance broker, review annually. Just starting? Get General Liability first. Adding employees? Add Workers' Comp. Handling data? Add Cyber Liability.",
+          "footerEs": "Cómo Comprar: Obtén cotizaciones de 3+ proveedores, usa un corredor de seguros independiente, revisa anualmente. ¿Recién empezando? Obtén Responsabilidad General primero. ¿Contratando empleados? Agrega Compensación al Trabajador. ¿Manejando datos? Agrega Responsabilidad Cibernética."
         },
         {
           "type": "callout",
