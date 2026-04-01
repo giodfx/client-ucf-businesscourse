@@ -31,67 +31,19 @@
           "wordCount": 196
         },
         {
-          "type": "data-visualization",
-          "id": "dataviz-2-1",
-          "title": "What You'll Actually Owe — Tax Layer Breakdown",
-          "chartType": "stacked-horizontal-bar",
-          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">What You'll Actually Owe — Tax Layer Breakdown</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Representative rates for a C-Corp vs LLC in Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp in Florida <span style=\"font-weight: 400; color: #666;\">— ~27% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5% (varies by county)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) in Florida <span style=\"font-weight: 400; color: #666;\">— ~27.8% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Self-Employ 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal Income 12%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #48B07A; font-weight: 600;\">Florida State Tax: 0% — No state income tax!</span><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Self-Employment</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>State / Federal Income</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Local Fees</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #48B07A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Florida advantage:</strong> No personal state income tax saves LLC owners 4–13% compared to states like NY or CA.</div></div>",
-          "data": {
-            "scenarios": [
-              {
-                "label": "C-Corp in Florida",
-                "layers": [
-                  {
-                    "label": "Federal Corporate Tax",
-                    "value": 21,
-                    "color": "#1A3A5C"
-                  },
-                  {
-                    "label": "Florida Corporate Tax",
-                    "value": 5.5,
-                    "color": "#2C5F8A"
-                  },
-                  {
-                    "label": "Local Fees & Licenses",
-                    "value": 0.5,
-                    "color": "#E8A838",
-                    "note": "varies by county"
-                  }
-                ],
-                "total": "~27% effective"
-              },
-              {
-                "label": "LLC (Pass-Through) in Florida",
-                "layers": [
-                  {
-                    "label": "Self-Employment Tax",
-                    "value": 15.3,
-                    "color": "#1A3A5C"
-                  },
-                  {
-                    "label": "Federal Income Tax",
-                    "value": 12,
-                    "color": "#2C5F8A",
-                    "note": "varies by bracket"
-                  },
-                  {
-                    "label": "Florida State Tax",
-                    "value": 0,
-                    "color": "#48B07A",
-                    "note": "No state income tax!"
-                  },
-                  {
-                    "label": "Local Fees & Licenses",
-                    "value": 0.5,
-                    "color": "#E8A838"
-                  }
-                ],
-                "total": "~27.8% effective"
-              }
-            ],
-            "footer": "Florida advantage: No personal state income tax saves LLC owners 4-13% compared to states like NY or CA."
-          },
-          "accessibilityNote": "Stacked horizontal bar chart comparing tax layers for C-Corp versus LLC in Florida. C-Corp shows Federal Corporate Tax at 21%, Florida Corporate Tax at 5.5%, and Local Fees at 0.5% for approximately 27% effective rate. LLC shows Self-Employment Tax at 15.3%, Federal Income Tax at 12%, Florida State Tax at 0%, and Local Fees at 0.5% for approximately 27.8% effective rate. Key takeaway: Florida has no personal state income tax, saving LLC owners 4 to 13 percent compared to states like New York or California."
+          "type": "simulation",
+          "id": "sim-2-1-tax",
+          "simId": "sim-tax-entity",
+          "title": "Tax Entity Comparison Calculator",
+          "titleEs": "Calculadora de Comparación Tributaria por Entidad",
+          "description": "Compare how much you'd pay in taxes as an LLC, C-Corp, or S-Corp based on your net profit.",
+          "descriptionEs": "Compare cuánto pagaría en impuestos como LLC, C-Corp o S-Corp según su ganancia neta.",
+          "replaces": "dataviz-2-1",
+          "scriptFile": "js/rt-simulations.js",
+          "inputs": [
+            {"id": "sim-entity-type", "type": "radio", "label": "Entity Type", "labelEs": "Tipo de Entidad", "options": ["Single-Member LLC", "C-Corp", "S-Corp"]},
+            {"id": "sim-profit", "type": "range", "label": "Annual Net Profit", "labelEs": "Ganancia Neta Anual", "min": 20000, "max": 500000, "step": 5000, "default": 100000}
+          ]
         },
         {
           "type": "text",

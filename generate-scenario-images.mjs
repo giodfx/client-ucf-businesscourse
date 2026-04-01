@@ -14,7 +14,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ── Config ──────────────────────────────────────────────────────────────
-const COMFYUI_URL = 'http://100.111.43.126:8188';
+const COMFYUI_URL = 'http://127.0.0.1:8188';
 const WORKFLOW_PATH = path.resolve(__dirname, '../../../workflows/comfyui/image_qwen_Image_2512.json');
 const PLAN_PATH = path.join(__dirname, 'image-generation-plan.json');
 const OUTPUT_DIR = path.join(__dirname, 'media/images/scenarios');

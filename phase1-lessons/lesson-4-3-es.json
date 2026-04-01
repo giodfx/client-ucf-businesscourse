@@ -70,26 +70,20 @@
       "sectionId": "text-4-3-1"
     },
     {
-      "type": "data-visualization",
-      "id": "dataviz-4-3",
-      "title": "El Costo Real de un Empleado de $60,000",
-      "chartType": "stacked-bar-with-breakdown",
-      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 620px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">El Costo Real de un Empleado de $60,000</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Salario base más cada capa de obligaciones del empleador</p><div style=\"display: flex; gap: 28px; align-items: flex-end;\"><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salario<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Sin Seguro de Salud</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #1A3A5C;\">$66,410</div><div style=\"font-size: 0.72rem; color: #666;\">10.7% sobre el salario</div></div><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salario<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div><div style=\"height: 14px; background: #48B07A;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Con Seguro de Salud</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #D4622B;\">$71,410</div><div style=\"font-size: 0.72rem; color: #666;\">19% sobre el salario</div></div><div style=\"flex: 1; min-width: 0;\"><div style=\"display: flex; flex-direction: column; gap: 8px;\"><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #1A3A5C; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$60,000</strong> Salario Base</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #2C5F8A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$4,590</strong> FICA (7.65%)</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #E8A838; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$420</strong> FUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #F5C842; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$200</strong> FL SUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #D4622B; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$1,200</strong> Comp. Laboral</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #48B07A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$5,000</strong> Seguro de Salud</span></div></div></div></div><div style=\"margin-top: 20px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\"><strong>Presupueste 1.15x a 1.30x</strong> del salario base para su costo real de contratación.</div></div>",
-      "data": {
-        "baseSalary": 60000,
-        "layers": [
-          { "label": "Salario Base", "value": 60000, "color": "#1A3A5C" },
-          { "label": "FICA (Seguridad Social + Medicare)", "value": 4590, "percent": "7.65%", "color": "#2C5F8A" },
-          { "label": "FUTA (Desempleo Federal)", "value": 420, "color": "#E8A838" },
-          { "label": "SUTA (Desempleo de Florida)", "value": 200, "note": "promedio empleador nuevo", "color": "#F5C842" },
-          { "label": "Seguro de Compensación Laboral", "value": 1200, "note": "promedio trabajo de oficina", "color": "#D4622B" },
-          { "label": "Seguro de Salud", "value": 5000, "note": "contribución promedio del empleador", "color": "#48B07A" }
-        ],
-        "totalWithoutHealth": "$66,410 (10.7% sobre el salario)",
-        "totalWithHealth": "$71,410 (19% sobre el salario)",
-        "insight": "Presupueste 1.15x a 1.30x del salario base para su costo real de contratación."
-      },
-      "accessibilityNote": "Gráfico de barras apiladas verticales que muestra el costo real de un empleado de $60,000. Dos barras comparan el costo total sin y con seguro de salud. El Salario Base es $60,000. FICA suma $4,590 (7.65%). FUTA suma $420. SUTA de Florida suma $200. Compensación Laboral suma $1,200. Seguro de Salud suma $5,000. Total sin seguro de salud es $66,410 (10.7% sobre el salario). Total con seguro de salud es $71,410 (19% sobre el salario). Punto clave: presupueste 1.15x a 1.30x del salario base para su costo real de contratación."
+      "type": "simulation",
+      "id": "sim-4-3-payroll",
+      "simId": "sim-employee-cost",
+      "title": "Calculadora de Costo del Empleado",
+      "titleEs": "Calculadora de Costo del Empleado",
+      "description": "Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
+      "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
+      "replaces": "dataviz-4-3",
+      "scriptFile": "js/rt-simulations.js",
+      "inputs": [
+        {"id": "sim-salary", "type": "number", "label": "Salario Anual", "labelEs": "Salario Anual", "default": 60000},
+        {"id": "sim-industry", "type": "select", "label": "Industria", "labelEs": "Industria", "options": ["General", "Construcción", "Salud", "Tecnología", "Comercio Minorista"]},
+        {"id": "sim-health-toggle", "type": "toggle", "label": "Incluir Seguro de Salud", "labelEs": "Incluir Seguro de Salud"}
+      ]
     },
     {
       "type": "callout",
@@ -183,12 +177,11 @@
       ]
     },
     {
-      "type": "exercise",
+      "type": "simulation-replaced",
       "id": "ex-4-3-1",
       "title": "Calcule el Costo Real de Su Primer Empleado",
-      "placement": "after-section",
-      "sectionId": "text-4-3-3",
-      "instructions": "<p>Usando la tabla de desglose de costos de esta lección, estime el costo anual real de su primer empleado planificado en EE.UU.:</p><ol><li>Escriba el salario base que espera pagar (use las tarifas del mercado de Central Florida de la lección 4-1 si no está seguro).</li><li>Agregue el FICA del empleador: multiplique el salario por 0.0765.</li><li>Agregue FUTA: aproximadamente $420.</li><li>Agregue SUTA de Florida: estime $200 para un empleador nuevo.</li><li>Agregue compensación laboral: estime $1,000 para trabajo de oficina.</li><li>Opcional: agregue contribución de seguro de salud ($3,000–$7,000/año).</li><li>Sume estos números. ¿Cómo se compara con el salario solo?</li></ol><p>Lleve esta estimación a su planificación financiera para operaciones en EE.UU. Si el total lo sorprende, exactamente para eso existe este ejercicio.</p>"
+      "replacedBy": "sim-4-3-payroll",
+      "note": "Este ejercicio ha sido reemplazado por la simulación interactiva Calculadora de Costo del Empleado (sim-4-3-payroll)."
     },
     {
       "type": "key-takeaway",

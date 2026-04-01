@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>U.S. Market Entry Checklist — UCF BIP</title>
+<style>
+  :root {
+    --bg: #0a1628; --surface: rgba(15,25,45,0.85); --border: rgba(212,168,67,0.25);
+    --accent: #d4a843; --accent2: #e8c66a; --text: #e2e8f0; --muted: #94a3b8;
+    --high: #ef4444; --med: #f59e0b; --low: #22c55e;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem; max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border); }
+  header h1 { font-size: 1.8rem; color: var(--accent2); margin-bottom: 0.3rem; }
+  header p { color: var(--muted); font-size: 0.95rem; }
+  .print-btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1.5rem; background: var(--accent); color: #0a1628; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+  .print-btn:hover { background: var(--accent2); }
+  .module { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .module h2 { font-size: 1.15rem; color: var(--accent2); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.5rem; }
+  .module h2 .num { background: var(--accent); color: #0a1628; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; flex-shrink: 0; }
+  .item { display: grid; grid-template-columns: auto 1fr auto auto; gap: 0.75rem; align-items: center; padding: 0.6rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .item:last-child { border-bottom: none; }
+  .item input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent); cursor: pointer; }
+  .item .desc { font-size: 0.95rem; }
+  .item .desc.checked { text-decoration: line-through; opacity: 0.5; }
+  .badge { font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; white-space: nowrap; }
+  .badge.high { background: rgba(239,68,68,0.2); color: #fca5a5; }
+  .badge.med { background: rgba(245,158,11,0.2); color: #fcd34d; }
+  .badge.low { background: rgba(34,197,94,0.2); color: #86efac; }
+  .time { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+  .progress-bar { background: rgba(255,255,255,0.08); border-radius: 6px; height: 8px; margin-top: 1rem; overflow: hidden; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); border-radius: 6px; transition: width 0.4s; }
+  .progress-text { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; text-align: right; }
+  footer { text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+
+  @media print {
+    body { background: #fff; color: #1a1a1a; padding: 1cm; }
+    header { border-color: #ccc; }
+    header h1 { color: #1a1a1a; }
+    header p { color: #666; }
+    .print-btn { display: none; }
+    .module { background: #fff; border: 1px solid #ddd; break-inside: avoid; }
+    .module h2 { color: #1a1a1a; border-color: #ddd; }
+    .module h2 .num { background: #333; color: #fff; }
+    .item .desc { color: #1a1a1a; }
+    .item .desc.checked { text-decoration: line-through; opacity: 0.5; }
+    .badge { border: 1px solid; }
+    .badge.high { background: #fee2e2; color: #b91c1c; border-color: #fca5a5; }
+    .badge.med { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+    .badge.low { background: #dcfce7; color: #166534; border-color: #86efac; }
+    .time { color: #666; }
+    .progress-bar, .progress-text { display: none; }
+    footer { color: #999; border-color: #ddd; }
+  }
+
+  @media (max-width: 600px) {
+    .item { grid-template-columns: auto 1fr; }
+    .badge, .time { grid-column: 2; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>U.S. Market Entry Checklist</h1>
+  <p>UCF Business Incubation Program &mdash; Market Readiness Course</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem;">Module-by-module action items &bull; Check items as you complete them</p>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+</header>
+
+<div class="progress-bar"><div class="progress-fill" id="pf" style="width:0%"></div></div>
+<div class="progress-text" id="pt">0 of 35 completed</div>
+
+<div class="module">
+  <h2><span class="num">1</span> Legal Foundation</h2>
+  <label class="item"><input type="checkbox" data-i="0"><span class="desc">Choose entity type (LLC, C-Corp, or S-Corp) based on visa and investment plans</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="1"><span class="desc">Register with Florida Division of Corporations (SunBiz.org)</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="2"><span class="desc">Obtain federal Employer Identification Number (EIN) from IRS</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="3"><span class="desc">Designate a registered agent with a Florida street address</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="4"><span class="desc">Draft operating agreement (LLC) or corporate bylaws (Corp)</span><span class="badge high">High</span><span class="time">Month 1&ndash;2</span></label>
+  <label class="item"><input type="checkbox" data-i="5"><span class="desc">Obtain local business tax receipt (county/city license)</span><span class="badge med">Med</span><span class="time">Month 2</span></label>
+</div>
+
+<div class="module">
+  <h2><span class="num">2</span> Tax &amp; Financial Compliance</h2>
+  <label class="item"><input type="checkbox" data-i="6"><span class="desc">Open a U.S. business bank account (Mercury, Relay, or local bank)</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="7"><span class="desc">Apply for Florida sales tax permit (if selling taxable goods/services)</span><span class="badge high">High</span><span class="time">Month 1&ndash;2</span></label>
+  <label class="item"><input type="checkbox" data-i="8"><span class="desc">Set up quarterly estimated federal tax payments (Form 1040-ES or 1120)</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="9"><span class="desc">Choose and set up accounting software (QuickBooks Online recommended)</span><span class="badge med">Med</span><span class="time">Month 2</span></label>
+  <label class="item"><input type="checkbox" data-i="10"><span class="desc">Hire a CPA experienced with international-owned U.S. businesses</span><span class="badge med">Med</span><span class="time">Month 2&ndash;3</span></label>
+  <label class="item"><input type="checkbox" data-i="11"><span class="desc">Understand FBAR/FATCA reporting obligations if applicable</span><span class="badge med">Med</span><span class="time">Month 2</span></label>
+</div>
+
+<div class="module">
+  <h2><span class="num">3</span> Risk &amp; Insurance</h2>
+  <label class="item"><input type="checkbox" data-i="12"><span class="desc">Obtain General Liability (GL) insurance &mdash; required for most businesses</span><span class="badge high">High</span><span class="time">Month 2</span></label>
+  <label class="item"><input type="checkbox" data-i="13"><span class="desc">Evaluate Workers' Compensation requirements (mandatory at 4+ employees in FL)</span><span class="badge med">Med</span><span class="time">Month 2&ndash;3</span></label>
+  <label class="item"><input type="checkbox" data-i="14"><span class="desc">Consider Professional Liability / E&amp;O insurance (if service-based)</span><span class="badge med">Med</span><span class="time">Month 3</span></label>
+  <label class="item"><input type="checkbox" data-i="15"><span class="desc">Register trademarks with USPTO for brand protection</span><span class="badge med">Med</span><span class="time">Month 3&ndash;6</span></label>
+  <label class="item"><input type="checkbox" data-i="16"><span class="desc">Evaluate cyber liability insurance (if handling customer data)</span><span class="badge low">Low</span><span class="time">Month 3&ndash;6</span></label>
+</div>
+
+<div class="module">
+  <h2><span class="num">4</span> Team &amp; HR</h2>
+  <label class="item"><input type="checkbox" data-i="17"><span class="desc">Understand Florida at-will employment and federal labor law basics</span><span class="badge high">High</span><span class="time">Month 2</span></label>
+  <label class="item"><input type="checkbox" data-i="18"><span class="desc">Set up payroll processing (Gusto, ADP, or similar)</span><span class="badge high">High</span><span class="time">Month 2&ndash;3</span></label>
+  <label class="item"><input type="checkbox" data-i="19"><span class="desc">Create I-9 verification process for new hires</span><span class="badge high">High</span><span class="time">Month 2</span></label>
+  <label class="item"><input type="checkbox" data-i="20"><span class="desc">Draft employee handbook with key policies</span><span class="badge med">Med</span><span class="time">Month 3</span></label>
+  <label class="item"><input type="checkbox" data-i="21"><span class="desc">Research contractor vs. employee classification rules</span><span class="badge med">Med</span><span class="time">Month 2</span></label>
+</div>
+
+<div class="module">
+  <h2><span class="num">5</span> Market Entry &amp; Sales</h2>
+  <label class="item"><input type="checkbox" data-i="22"><span class="desc">Validate product-market fit for the U.S. audience</span><span class="badge high">High</span><span class="time">Pre-arrival</span></label>
+  <label class="item"><input type="checkbox" data-i="23"><span class="desc">Adapt pricing strategy for U.S. market expectations</span><span class="badge high">High</span><span class="time">Month 1&ndash;2</span></label>
+  <label class="item"><input type="checkbox" data-i="24"><span class="desc">Build or localize website for U.S. customers</span><span class="badge med">Med</span><span class="time">Month 2</span></label>
+  <label class="item"><input type="checkbox" data-i="25"><span class="desc">Set up payment processing (Stripe, Square, etc.)</span><span class="badge high">High</span><span class="time">Month 1&ndash;2</span></label>
+  <label class="item"><input type="checkbox" data-i="26"><span class="desc">Identify initial sales channels and distribution strategy</span><span class="badge med">Med</span><span class="time">Month 2&ndash;3</span></label>
+</div>
+
+<div class="module">
+  <h2><span class="num">6</span> Business Culture &amp; Communication</h2>
+  <label class="item"><input type="checkbox" data-i="27"><span class="desc">Study U.S. business communication norms (directness, punctuality, follow-up)</span><span class="badge med">Med</span><span class="time">Pre-arrival</span></label>
+  <label class="item"><input type="checkbox" data-i="28"><span class="desc">Understand American negotiation and contract practices</span><span class="badge med">Med</span><span class="time">Month 1&ndash;2</span></label>
+  <label class="item"><input type="checkbox" data-i="29"><span class="desc">Prepare a U.S.-style elevator pitch and business introduction</span><span class="badge med">Med</span><span class="time">Month 1</span></label>
+</div>
+
+<div class="module">
+  <h2><span class="num">7</span> Florida Ecosystem &amp; Networking</h2>
+  <label class="item"><input type="checkbox" data-i="30"><span class="desc">Schedule intake with Florida SBDC at UCF (free consulting)</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="31"><span class="desc">Register with SCORE Orlando for free mentorship</span><span class="badge med">Med</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="32"><span class="desc">Apply to UCF Business Incubation Program</span><span class="badge high">High</span><span class="time">Month 1</span></label>
+  <label class="item"><input type="checkbox" data-i="33"><span class="desc">Attend at least 2 local networking events per month</span><span class="badge med">Med</span><span class="time">Ongoing</span></label>
+  <label class="item"><input type="checkbox" data-i="34"><span class="desc">Research coworking/office space options in Central Florida</span><span class="badge low">Low</span><span class="time">Month 2&ndash;3</span></label>
+</div>
+
+<footer>
+  <p>UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
+  <p>This checklist is for educational reference. Consult qualified professionals for legal, tax, and immigration advice.</p>
+</footer>
+
+<script>
+(function(){
+  var KEY = 'ucf-bip-checklist';
+  var boxes = document.querySelectorAll('input[type="checkbox"]');
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e){}
+
+  function update() {
+    var done = 0;
+    boxes.forEach(function(cb) {
+      var i = cb.getAttribute('data-i');
+      if (cb.checked) { done++; saved[i] = true; }
+      else { delete saved[i]; }
+      cb.closest('.item').querySelector('.desc').classList.toggle('checked', cb.checked);
+    });
+    try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch(e){}
+    var pct = Math.round(done / boxes.length * 100);
+    document.getElementById('pf').style.width = pct + '%';
+    document.getElementById('pt').textContent = done + ' of ' + boxes.length + ' completed';
+  }
+
+  boxes.forEach(function(cb) {
+    var i = cb.getAttribute('data-i');
+    if (saved[i]) cb.checked = true;
+    cb.addEventListener('change', update);
+  });
+  update();
+})();
+</script>
+</body>
+</html>

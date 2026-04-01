@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central Florida Resource Guide — UCF BIP</title>
+<style>
+  :root {
+    --bg: #0a1628; --surface: rgba(15,25,45,0.85); --border: rgba(212,168,67,0.25);
+    --accent: #d4a843; --accent2: #e8c66a; --text: #e2e8f0; --muted: #94a3b8;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem; max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border); }
+  header h1 { font-size: 1.8rem; color: var(--accent2); margin-bottom: 0.3rem; }
+  header p { color: var(--muted); font-size: 0.95rem; }
+  .print-btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1.5rem; background: var(--accent); color: #0a1628; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+  .print-btn:hover { background: var(--accent2); }
+
+  .category { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .category h2 { font-size: 1.15rem; color: var(--accent2); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+
+  .org { padding: 0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .org:last-child { border-bottom: none; }
+  .org-name { font-weight: 600; font-size: 1rem; color: var(--accent2); }
+  .org-name a { color: var(--accent2); text-decoration: none; }
+  .org-name a:hover { text-decoration: underline; color: var(--accent); }
+  .org-desc { font-size: 0.9rem; color: var(--text); margin-top: 0.2rem; }
+  .org-meta { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+  .org-meta a { color: var(--muted); }
+  .org-tags { margin-top: 0.3rem; }
+  .org-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 7px; border-radius: 3px; margin-right: 0.3rem; background: rgba(212,168,67,0.12); color: var(--accent2); }
+  .org-tag.free { background: rgba(34,197,94,0.15); color: #86efac; }
+  .org-tag.bilingual { background: rgba(139,92,246,0.15); color: #c4b5fd; }
+
+  footer { text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+
+  @media print {
+    body { background: #fff; color: #1a1a1a; padding: 1cm; }
+    header { border-color: #ccc; } header h1 { color: #1a1a1a; } header p { color: #666; }
+    .print-btn { display: none; }
+    .category { background: #fff; border: 1px solid #ddd; break-inside: avoid; }
+    .category h2 { color: #1a1a1a; border-color: #ddd; }
+    .org-name, .org-name a { color: #1a1a1a; }
+    .org-desc { color: #333; }
+    .org-meta, .org-meta a { color: #666; }
+    .org-tag { border: 1px solid #ccc; background: #f5f5f5; color: #333; }
+    .org-tag.free { background: #dcfce7; color: #166534; border-color: #86efac; }
+    .org-tag.bilingual { background: #ede9fe; color: #5b21b6; border-color: #c4b5fd; }
+    footer { color: #999; border-color: #ddd; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Central Florida Resource Guide</h1>
+  <p>UCF Business Incubation Program &mdash; Market Readiness Course</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem;">Directory of organizations, contacts, and programs for international founders in Central Florida</p>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+</header>
+
+<div class="category">
+  <h2>Business Advising &amp; Mentorship</h2>
+
+  <div class="org">
+    <div class="org-name"><a href="https://floridasbdc.org" target="_blank" rel="noopener">Florida SBDC at UCF</a></div>
+    <div class="org-desc">Free one-on-one business consulting, market research, financial analysis, and access to government contracting support. Largest small business support network in Florida.</div>
+    <div class="org-meta"><a href="https://floridasbdc.org" target="_blank" rel="noopener">floridasbdc.org</a> &bull; (407) 420-4850</div>
+    <div class="org-tags"><span class="org-tag free">Free</span><span class="org-tag bilingual">Bilingual</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://orlando.score.org" target="_blank" rel="noopener">SCORE Orlando</a></div>
+    <div class="org-desc">Free mentorship from retired business executives and entrepreneurs. One-on-one mentoring, workshops, and webinars covering all aspects of starting and growing a business.</div>
+    <div class="org-meta"><a href="https://orlando.score.org" target="_blank" rel="noopener">orlando.score.org</a></div>
+    <div class="org-tags"><span class="org-tag free">Free</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF Business Incubation Program (BIP)</a></div>
+    <div class="org-desc">One of the largest university-based incubation programs in the U.S. Offers below-market office space, mentorship, networking events, and access to UCF research resources.</div>
+    <div class="org-meta"><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">incubator.ucf.edu</a> &bull; (407) 882-1577</div>
+    <div class="org-tags"><span class="org-tag">Incubator</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://prosperausa.org" target="_blank" rel="noopener">Prospera</a></div>
+    <div class="org-desc">Bilingual (English/Spanish) business development for Hispanic entrepreneurs. Free training, mentoring, and access to capital programs.</div>
+    <div class="org-meta"><a href="https://prosperausa.org" target="_blank" rel="noopener">prosperausa.org</a></div>
+    <div class="org-tags"><span class="org-tag free">Free</span><span class="org-tag bilingual">Bilingual</span></div>
+  </div>
+</div>
+
+<div class="category">
+  <h2>Incubators &amp; Accelerators</h2>
+
+  <div class="org">
+    <div class="org-name"><a href="https://starterstudio.org" target="_blank" rel="noopener">StarterStudio</a></div>
+    <div class="org-desc">Startup accelerator in downtown Orlando. Offers mentored accelerator programs, seed funding opportunities, and coworking space for early-stage tech companies.</div>
+    <div class="org-meta"><a href="https://starterstudio.org" target="_blank" rel="noopener">starterstudio.org</a></div>
+    <div class="org-tags"><span class="org-tag">Accelerator</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://cfrpc.org" target="_blank" rel="noopener">Central Florida Research Park</a></div>
+    <div class="org-desc">Adjacent to UCF, one of the top 10 largest research parks in the U.S. Home to 120+ companies in defense, simulation, optics, and technology sectors.</div>
+    <div class="org-meta"><a href="https://cfrpc.org" target="_blank" rel="noopener">cfrpc.org</a></div>
+    <div class="org-tags"><span class="org-tag">Tech/Defense</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://neonorlando.com" target="_blank" rel="noopener">NeoCity (Osceola County)</a></div>
+    <div class="org-desc">Advanced manufacturing and technology district focused on smart sensors, photonics, and BRIDG semiconductor fabrication. Growing hub for deeptech startups.</div>
+    <div class="org-meta"><a href="https://neonorlando.com" target="_blank" rel="noopener">neonorlando.com</a></div>
+    <div class="org-tags"><span class="org-tag">DeepTech</span></div>
+  </div>
+</div>
+
+<div class="category">
+  <h2>Government Programs</h2>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.sba.gov/local-assistance" target="_blank" rel="noopener">SBA (U.S. Small Business Administration)</a></div>
+    <div class="org-desc">Federal programs including SBA-backed loans (7(a), microloans), disaster assistance, and government contracting set-asides for small businesses.</div>
+    <div class="org-meta"><a href="https://www.sba.gov" target="_blank" rel="noopener">sba.gov</a></div>
+    <div class="org-tags"><span class="org-tag free">Free</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.enterpriseflorida.com" target="_blank" rel="noopener">Enterprise Florida</a></div>
+    <div class="org-desc">State economic development organization. Offers international trade assistance, export counseling, and connects international companies with Florida resources.</div>
+    <div class="org-meta"><a href="https://www.enterpriseflorida.com" target="_blank" rel="noopener">enterpriseflorida.com</a></div>
+    <div class="org-tags"><span class="org-tag free">Free</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://orlando.org" target="_blank" rel="noopener">Orlando Economic Partnership</a></div>
+    <div class="org-desc">Regional economic development group covering 8 Central Florida counties. Provides relocation support, site selection assistance, workforce data, and industry connections.</div>
+    <div class="org-meta"><a href="https://orlando.org" target="_blank" rel="noopener">orlando.org</a></div>
+    <div class="org-tags"><span class="org-tag free">Free</span></div>
+  </div>
+</div>
+
+<div class="category">
+  <h2>Legal &amp; Formation Services</h2>
+
+  <div class="org">
+    <div class="org-name"><a href="https://sunbiz.org" target="_blank" rel="noopener">Florida Division of Corporations (SunBiz)</a></div>
+    <div class="org-desc">Official state portal for registering LLCs, corporations, and fictitious names (DBAs). Search existing business names and file formation documents online.</div>
+    <div class="org-meta"><a href="https://sunbiz.org" target="_blank" rel="noopener">sunbiz.org</a></div>
+    <div class="org-tags"><span class="org-tag">Government</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.floridabar.org/public/lrs/" target="_blank" rel="noopener">Florida Bar Lawyer Referral Service</a></div>
+    <div class="org-desc">Find a vetted Florida-licensed business attorney through the state bar's official referral service. Initial consultations often available at reduced rates.</div>
+    <div class="org-meta"><a href="https://www.floridabar.org/public/lrs/" target="_blank" rel="noopener">floridabar.org</a> &bull; (800) 342-8011</div>
+    <div class="org-tags"><span class="org-tag">Referral</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN Application</a></div>
+    <div class="org-desc">Apply for your federal Employer Identification Number (EIN) online for free. Required for opening bank accounts, hiring employees, and filing taxes.</div>
+    <div class="org-meta"><a href="https://www.irs.gov" target="_blank" rel="noopener">irs.gov</a> &bull; International: (267) 941-1099</div>
+    <div class="org-tags"><span class="org-tag free">Free</span><span class="org-tag">Government</span></div>
+  </div>
+</div>
+
+<div class="category">
+  <h2>Banking &amp; Financial Services</h2>
+
+  <div class="org">
+    <div class="org-name"><a href="https://mercury.com" target="_blank" rel="noopener">Mercury</a></div>
+    <div class="org-desc">Online business banking designed for startups and international founders. No minimum balance, no monthly fees, remote account opening with foreign passport.</div>
+    <div class="org-meta"><a href="https://mercury.com" target="_blank" rel="noopener">mercury.com</a></div>
+    <div class="org-tags"><span class="org-tag">International-Friendly</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://relayfi.com" target="_blank" rel="noopener">Relay</a></div>
+    <div class="org-desc">Free business banking with built-in accounting integrations. Offers multiple checking accounts for budgeting and automatic profit allocation.</div>
+    <div class="org-meta"><a href="https://relayfi.com" target="_blank" rel="noopener">relayfi.com</a></div>
+    <div class="org-tags"><span class="org-tag free">Free</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://stripe.com/atlas" target="_blank" rel="noopener">Stripe Atlas</a></div>
+    <div class="org-desc">All-in-one formation bundle: Delaware C-Corp incorporation, EIN, bank account (Mercury or SVB), Stripe payment processing, and legal templates. Popular with international founders.</div>
+    <div class="org-meta"><a href="https://stripe.com/atlas" target="_blank" rel="noopener">stripe.com/atlas</a> &bull; $500 one-time fee</div>
+    <div class="org-tags"><span class="org-tag">International-Friendly</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://quickbooks.intuit.com" target="_blank" rel="noopener">QuickBooks Online</a></div>
+    <div class="org-desc">Most popular small business accounting software. Tracks income/expenses, generates invoices, runs payroll, and produces reports your CPA needs at tax time.</div>
+    <div class="org-meta"><a href="https://quickbooks.intuit.com" target="_blank" rel="noopener">quickbooks.intuit.com</a> &bull; From $30/month</div>
+    <div class="org-tags"><span class="org-tag">Accounting</span></div>
+  </div>
+</div>
+
+<div class="category">
+  <h2>Visas &amp; Immigration</h2>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.uscis.gov" target="_blank" rel="noopener">USCIS</a></div>
+    <div class="org-desc">Official U.S. Citizenship and Immigration Services. Visa information, application filing, case status tracking, and policy updates.</div>
+    <div class="org-meta"><a href="https://www.uscis.gov" target="_blank" rel="noopener">uscis.gov</a></div>
+    <div class="org-tags"><span class="org-tag">Government</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.boundless.com" target="_blank" rel="noopener">Boundless</a></div>
+    <div class="org-desc">Immigration application assistance with attorney review. Simplifies the visa and green card application process for entrepreneurs.</div>
+    <div class="org-meta"><a href="https://www.boundless.com" target="_blank" rel="noopener">boundless.com</a></div>
+    <div class="org-tags"><span class="org-tag">Paid Service</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.ailalawyer.com" target="_blank" rel="noopener">AILA Lawyer Search</a></div>
+    <div class="org-desc">Find a qualified immigration attorney through the American Immigration Lawyers Association directory. Filter by location and specialization.</div>
+    <div class="org-meta"><a href="https://www.ailalawyer.com" target="_blank" rel="noopener">ailalawyer.com</a></div>
+    <div class="org-tags"><span class="org-tag">Referral</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name"><a href="https://www.fragomen.com" target="_blank" rel="noopener">Fragomen</a></div>
+    <div class="org-desc">International immigration law firm specializing in business immigration. Offices worldwide, experienced with E-2, L-1, O-1, and EB-5 visa categories.</div>
+    <div class="org-meta"><a href="https://www.fragomen.com" target="_blank" rel="noopener">fragomen.com</a></div>
+    <div class="org-tags"><span class="org-tag">Paid Service</span></div>
+  </div>
+</div>
+
+<div class="category">
+  <h2>Networking &amp; Community</h2>
+
+  <div class="org">
+    <div class="org-name">Orlando Tech Association</div>
+    <div class="org-desc">Central Florida's tech community hub. Monthly events, job board, and startup showcases connecting entrepreneurs with the local tech ecosystem.</div>
+    <div class="org-tags"><span class="org-tag">Tech</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name">Hispanic Chamber of Commerce of Metro Orlando</div>
+    <div class="org-desc">Networking, advocacy, and business development for Hispanic entrepreneurs. Regular mixers, workshops, and annual business expo.</div>
+    <div class="org-tags"><span class="org-tag bilingual">Bilingual</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name">Orlando Regional Chamber of Commerce</div>
+    <div class="org-desc">Largest business organization in Central Florida. Networking events, legislative advocacy, and connections to the broader business community.</div>
+    <div class="org-tags"><span class="org-tag">General</span></div>
+  </div>
+
+  <div class="org">
+    <div class="org-name">1 Million Cups Orlando</div>
+    <div class="org-desc">Free weekly event where two entrepreneurs present their startups to a supportive audience. Great for practicing your pitch and getting honest feedback.</div>
+    <div class="org-tags"><span class="org-tag free">Free</span><span class="org-tag">Weekly</span></div>
+  </div>
+</div>
+
+<footer>
+  <p>UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
+  <p>Contact information current as of 2025. Verify details directly with each organization before visiting.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florida Setup Roadmap — UCF BIP</title>
+<style>
+  :root {
+    --bg: #0a1628; --surface: rgba(15,25,45,0.85); --border: rgba(212,168,67,0.25);
+    --accent: #d4a843; --accent2: #e8c66a; --text: #e2e8f0; --muted: #94a3b8;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem; max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border); }
+  header h1 { font-size: 1.8rem; color: var(--accent2); margin-bottom: 0.3rem; }
+  header p { color: var(--muted); font-size: 0.95rem; }
+  .print-btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1.5rem; background: var(--accent); color: #0a1628; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+  .print-btn:hover { background: var(--accent2); }
+
+  .phase { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; position: relative; }
+  .phase::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 10px 0 0 10px; }
+  .phase:nth-child(1)::before { background: #3b82f6; }
+  .phase:nth-child(2)::before { background: #8b5cf6; }
+  .phase:nth-child(3)::before { background: #f59e0b; }
+  .phase:nth-child(4)::before { background: #22c55e; }
+
+  .phase-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .phase-num { font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; text-transform: uppercase; }
+  .phase:nth-child(1) .phase-num { background: rgba(59,130,246,0.2); color: #93c5fd; }
+  .phase:nth-child(2) .phase-num { background: rgba(139,92,246,0.2); color: #c4b5fd; }
+  .phase:nth-child(3) .phase-num { background: rgba(245,158,11,0.2); color: #fcd34d; }
+  .phase:nth-child(4) .phase-num { background: rgba(34,197,94,0.2); color: #86efac; }
+  .phase-title { font-size: 1.15rem; color: var(--accent2); }
+  .phase-time { margin-left: auto; font-size: 0.85rem; color: var(--muted); }
+
+  .step { display: grid; grid-template-columns: 32px 1fr auto; gap: 0.75rem; align-items: start; padding: 0.6rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .step:last-child { border-bottom: none; }
+  .step-num { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; background: rgba(212,168,67,0.15); color: var(--accent2); flex-shrink: 0; }
+  .step-content { font-size: 0.95rem; }
+  .step-content strong { color: var(--accent2); }
+  .step-note { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+  .tag { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 7px; border-radius: 3px; margin-left: 0.3rem; vertical-align: middle; }
+  .tag.remote { background: rgba(59,130,246,0.2); color: #93c5fd; }
+  .tag.in-person { background: rgba(245,158,11,0.2); color: #fcd34d; }
+  .tag.either { background: rgba(34,197,94,0.2); color: #86efac; }
+
+  .legend { display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .legend span { font-size: 0.8rem; display: flex; align-items: center; gap: 0.3rem; }
+  .legend .dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  footer { text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+
+  @media print {
+    body { background: #fff; color: #1a1a1a; padding: 1cm; }
+    header { border-color: #ccc; } header h1 { color: #1a1a1a; } header p { color: #666; }
+    .print-btn { display: none; }
+    .phase { background: #fff; border: 1px solid #ddd; break-inside: avoid; }
+    .phase::before { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    .phase-header { border-color: #ddd; }
+    .phase-title { color: #1a1a1a; }
+    .phase-time, .step-note { color: #666; }
+    .step-content { color: #1a1a1a; }
+    .step-content strong { color: #333; }
+    .step-num { background: #eee; color: #333; }
+    .tag { border: 1px solid; }
+    .tag.remote { background: #dbeafe; color: #1e40af; border-color: #93c5fd; }
+    .tag.in-person { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+    .tag.either { background: #dcfce7; color: #166534; border-color: #86efac; }
+    footer { color: #999; border-color: #ddd; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Florida Setup Roadmap</h1>
+  <p>UCF Business Incubation Program &mdash; Market Readiness Course</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem;">Step-by-step sequence from entity formation to fully operational</p>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+</header>
+
+<div class="legend">
+  <span><span class="dot" style="background:#93c5fd"></span> Remote</span>
+  <span><span class="dot" style="background:#fcd34d"></span> In-Person</span>
+  <span><span class="dot" style="background:#86efac"></span> Either</span>
+</div>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-num">Phase 1</span>
+    <span class="phase-title">Pre-Arrival Preparation</span>
+    <span class="phase-time">2&ndash;4 weeks before arrival</span>
+  </div>
+  <div class="step">
+    <span class="step-num">1</span>
+    <div class="step-content">
+      <strong>Research entity type</strong> &mdash; Compare LLC vs. C-Corp vs. S-Corp based on your visa status, investor plans, and tax goals. <span class="tag remote">Remote</span>
+      <div class="step-note">Key decision: C-Corp if seeking VC; LLC for simplicity; S-Corp generally unavailable to non-residents.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">2</span>
+    <div class="step-content">
+      <strong>Secure a registered agent</strong> &mdash; Hire a Florida-based registered agent service to receive legal mail. <span class="tag remote">Remote</span>
+      <div class="step-note">Cost: $100&ndash;$300/year. Required before filing with SunBiz.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">3</span>
+    <div class="step-content">
+      <strong>Apply for EIN online</strong> &mdash; File Form SS-4 on IRS.gov. International applicants can call IRS at (267) 941-1099. <span class="tag remote">Remote</span>
+      <div class="step-note">Free. Takes 15 minutes online (or ~30 min by phone for non-U.S. SSN holders).</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">4</span>
+    <div class="step-content">
+      <strong>Draft operating agreement or bylaws</strong> &mdash; Define ownership structure, profit distribution, and management rights. <span class="tag remote">Remote</span>
+      <div class="step-note">Tip: Use a Florida business attorney. LegalZoom/Incfile offer templates for simpler setups.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">5</span>
+    <div class="step-content">
+      <strong>Gather banking documents</strong> &mdash; Prepare passport, EIN confirmation, formation docs, and proof of address. <span class="tag remote">Remote</span>
+      <div class="step-note">Some banks (Mercury, Relay) accept fully remote applications with these documents.</div>
+    </div>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-num">Phase 2</span>
+    <span class="phase-title">Entity Formation &amp; Registration</span>
+    <span class="phase-time">Week 1&ndash;2 after decision</span>
+  </div>
+  <div class="step">
+    <span class="step-num">6</span>
+    <div class="step-content">
+      <strong>File Articles of Organization/Incorporation</strong> &mdash; Submit on SunBiz.org. LLC = Articles of Organization; Corp = Articles of Incorporation. <span class="tag either">Either</span>
+      <div class="step-note">Filing fee: ~$125 (LLC) or ~$70 (Corp) + registered agent designation.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">7</span>
+    <div class="step-content">
+      <strong>Obtain local business tax receipt</strong> &mdash; Register with your county (Orange, Seminole, Osceola, etc.) and city if required. <span class="tag either">Either</span>
+      <div class="step-note">Cost varies by jurisdiction. Orange County uses an online portal.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">8</span>
+    <div class="step-content">
+      <strong>Register for Florida sales tax</strong> &mdash; Apply through the FL Department of Revenue if selling taxable goods or services. <span class="tag remote">Remote</span>
+      <div class="step-note">Free registration. Permits typically arrive within 5 business days.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">9</span>
+    <div class="step-content">
+      <strong>Apply for required industry permits</strong> &mdash; Check if your industry requires state or federal licensing (food, healthcare, construction, etc.). <span class="tag either">Either</span>
+      <div class="step-note">Florida DBPR handles most professional licenses. Use the SBDC for guidance.</div>
+    </div>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-num">Phase 3</span>
+    <span class="phase-title">Financial Infrastructure</span>
+    <span class="phase-time">Week 2&ndash;4</span>
+  </div>
+  <div class="step">
+    <span class="step-num">10</span>
+    <div class="step-content">
+      <strong>Open a business bank account</strong> &mdash; Apply with Mercury or Relay (remote-friendly), or visit a local bank branch with all documents. <span class="tag either">Either</span>
+      <div class="step-note">Bring: EIN, Articles, operating agreement, passport, proof of address. Some banks require in-person visit.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">11</span>
+    <div class="step-content">
+      <strong>Set up accounting software</strong> &mdash; Configure QuickBooks Online (or Xero/FreshBooks), connect bank account, set chart of accounts. <span class="tag remote">Remote</span>
+      <div class="step-note">Record every transaction from day one. Your CPA will need clean books at tax time.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">12</span>
+    <div class="step-content">
+      <strong>Set up payment processing</strong> &mdash; Register with Stripe, Square, or PayPal Business for accepting customer payments. <span class="tag remote">Remote</span>
+      <div class="step-note">Stripe Atlas includes company formation + banking + payment processing in one bundle.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">13</span>
+    <div class="step-content">
+      <strong>Hire a CPA</strong> &mdash; Find an accountant experienced with international-owned U.S. businesses and estimated quarterly taxes. <span class="tag either">Either</span>
+      <div class="step-note">Ask UCF BIP or SBDC for referrals. Budget $1,500&ndash;$5,000/year for small business accounting.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">14</span>
+    <div class="step-content">
+      <strong>Set up quarterly estimated tax payments</strong> &mdash; Calculate and schedule federal estimated tax payments (due Apr 15, Jun 15, Sep 15, Jan 15). <span class="tag remote">Remote</span>
+      <div class="step-note">Florida has no state income tax. Federal payments via EFTPS.gov.</div>
+    </div>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-num">Phase 4</span>
+    <span class="phase-title">Operational Readiness</span>
+    <span class="phase-time">Month 2&ndash;3</span>
+  </div>
+  <div class="step">
+    <span class="step-num">15</span>
+    <div class="step-content">
+      <strong>Obtain General Liability insurance</strong> &mdash; Shop quotes from at least 3 carriers. Most landlords and clients require proof of GL. <span class="tag either">Either</span>
+      <div class="step-note">Typical cost: $500&ndash;$1,500/year for a startup. Use an independent insurance broker.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">16</span>
+    <div class="step-content">
+      <strong>Secure workspace</strong> &mdash; Evaluate coworking spaces, UCF BIP incubator space, or traditional office leases. <span class="tag in-person">In-Person</span>
+      <div class="step-note">UCF BIP offers below-market incubator space with mentorship. StarterStudio, Canvs, and WeWork are popular alternatives.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">17</span>
+    <div class="step-content">
+      <strong>Set up payroll (if hiring)</strong> &mdash; Register with a payroll provider (Gusto, ADP, OnPay) and set up new-hire reporting. <span class="tag remote">Remote</span>
+      <div class="step-note">Florida requires new-hire reporting within 20 days. Register for reemployment tax on FL DOR.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">18</span>
+    <div class="step-content">
+      <strong>Build your advisory network</strong> &mdash; Connect with SBDC, SCORE mentor, UCF BIP advisor, and at least one peer founder. <span class="tag either">Either</span>
+      <div class="step-note">All three programs are free. Schedule intake meetings within your first 2 weeks.</div>
+    </div>
+  </div>
+  <div class="step">
+    <span class="step-num">19</span>
+    <div class="step-content">
+      <strong>Launch your U.S. market presence</strong> &mdash; Go live with website, social profiles, and initial outreach to target customers. <span class="tag remote">Remote</span>
+      <div class="step-note">Tip: Start selling before everything is "perfect." Revenue validates your market fit faster than any plan.</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
+  <p>Timelines are estimates. Consult qualified professionals for legal, tax, and immigration guidance.</p>
+</footer>
+</body>
+</html>

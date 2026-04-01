@@ -18,36 +18,17 @@
       "wordCount": 196
     },
     {
-      "type": "data-visualization",
-      "id": "dataviz-2-1",
-      "title": "Lo Que Realmente Deberá — Desglose de Capas Tributarias",
-      "chartType": "stacked-horizontal-bar",
-      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Lo Que Realmente Deberá — Desglose de Capas Tributarias</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Tasas representativas para una C-Corp vs LLC en Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp en Florida <span style=\"font-weight: 400; color: #666;\">— ~27% tasa efectiva</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Tarifas locales ~0.5% (varía por condado)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) en Florida <span style=\"font-weight: 400; color: #666;\">— ~27.8% tasa efectiva</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Autoempleo 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Renta Federal 12%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #48B07A; font-weight: 600;\">Impuesto Estatal de Florida: 0% — ¡Sin impuesto estatal sobre la renta!</span><span style=\"font-size: 0.72rem; color: #999;\">Tarifas locales ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Autoempleo</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Estatal / Renta Federal</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Tarifas Locales</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #48B07A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Ventaja de Florida:</strong> No tener impuesto estatal sobre la renta personal les ahorra a los propietarios de LLC un 4–13% comparado con estados como NY o CA.</div></div>",
-      "data": {
-        "scenarios": [
-          {
-            "label": "C-Corp en Florida",
-            "layers": [
-              { "label": "Impuesto Corporativo Federal", "value": 21, "color": "#1A3A5C" },
-              { "label": "Impuesto Corporativo de Florida", "value": 5.5, "color": "#2C5F8A" },
-              { "label": "Tarifas y Licencias Locales", "value": 0.5, "color": "#E8A838", "note": "varía por condado" }
-            ],
-            "total": "~27% tasa efectiva"
-          },
-          {
-            "label": "LLC (Pass-Through) en Florida",
-            "layers": [
-              { "label": "Impuesto de Autoempleo", "value": 15.3, "color": "#1A3A5C" },
-              { "label": "Impuesto Federal sobre la Renta", "value": 12, "color": "#2C5F8A", "note": "varía según el tramo" },
-              { "label": "Impuesto Estatal de Florida", "value": 0, "color": "#48B07A", "note": "¡Sin impuesto estatal sobre la renta!" },
-              { "label": "Tarifas y Licencias Locales", "value": 0.5, "color": "#E8A838" }
-            ],
-            "total": "~27.8% tasa efectiva"
-          }
-        ],
-        "footer": "Ventaja de Florida: No tener impuesto estatal sobre la renta personal les ahorra a los propietarios de LLC un 4-13% comparado con estados como NY o CA."
-      },
-      "accessibilityNote": "Gráfico de barras horizontales apiladas que compara las capas tributarias para C-Corp versus LLC en Florida. C-Corp muestra Impuesto Corporativo Federal al 21%, Impuesto Corporativo de Florida al 5.5%, y Tarifas Locales al 0.5% para una tasa efectiva aproximada del 27%. LLC muestra Impuesto de Autoempleo al 15.3%, Impuesto Federal sobre la Renta al 12%, Impuesto Estatal de Florida al 0%, y Tarifas Locales al 0.5% para una tasa efectiva aproximada del 27.8%. Punto clave: Florida no tiene impuesto estatal sobre la renta personal, ahorrándoles a los propietarios de LLC un 4 a 13 por ciento comparado con estados como New York o California."
+      "type": "simulation",
+      "id": "sim-2-1-tax",
+      "simId": "sim-tax-entity",
+      "title": "Calculadora de Comparación Tributaria por Entidad",
+      "description": "Compare cuánto pagaría en impuestos como LLC, C-Corp o S-Corp según su ganancia neta.",
+      "replaces": "dataviz-2-1",
+      "scriptFile": "js/rt-simulations.js",
+      "inputs": [
+        {"id": "sim-entity-type", "type": "radio", "label": "Tipo de Entidad", "options": ["Single-Member LLC", "C-Corp", "S-Corp"]},
+        {"id": "sim-profit", "type": "range", "label": "Ganancia Neta Anual", "min": 20000, "max": 500000, "step": 5000, "default": 100000}
+      ]
     },
     {
       "type": "text",

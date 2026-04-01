@@ -450,12 +450,23 @@
           ]
         },
         {
-          "type": "exercise",
-          "id": "ex-3-2-1",
-          "title": "Exercise: Your Risk Assessment",
-          "placement": "after-section",
-          "sectionId": "text-3-2-3",
-          "content": "<p>List your top 3 business risks in the U.S. market. For each risk, identify:</p>\n\n<ol><li>What type of insurance or legal protection addresses this risk</li><li>Whether you need it before you launch or can wait</li><li>The approximate cost based on the tables in this lesson</li></ol>\n\n<p>Use this list when you talk to an insurance broker. Having a clear picture of your risks makes the conversation faster and the coverage more accurate.</p>"
+          "type": "simulation",
+          "id": "sim-3-2-insurance",
+          "simId": "sim-insurance",
+          "title": "Insurance Portfolio Builder",
+          "titleEs": "Constructor de Portafolio de Seguros",
+          "description": "Now build YOUR insurance stack. Select your business profile and see which policies you need.",
+          "descriptionEs": "Ahora arme SU paquete de seguros. Seleccione su perfil de negocio y vea qué pólizas necesita.",
+          "replaces": "ex-3-2-1",
+          "placement": "after-infographic",
+          "afterId": "ig-3-2-insurance",
+          "scriptFile": "js/rt-simulations.js",
+          "inputs": [
+            {"id": "sim-biz-type", "type": "select", "label": "Business Type", "labelEs": "Tipo de Negocio", "options": ["Professional Services", "Technology / SaaS", "Retail", "Food & Beverage", "Construction", "General / Other"]},
+            {"id": "sim-emp-count", "type": "number", "label": "Number of Employees", "labelEs": "Número de Empleados", "default": 0},
+            {"id": "sim-client-facing", "type": "toggle", "label": "Client-facing work", "labelEs": "Trabajo presencial con clientes"},
+            {"id": "sim-physical-space", "type": "toggle", "label": "Physical office or space", "labelEs": "Oficina o espacio físico"}
+          ]
         },
         {
           "type": "key-takeaway",

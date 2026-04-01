@@ -26,7 +26,7 @@
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
   <!-- Landscape Hero — Painterly image with drip effect -->
-  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #c05621 0%, #9c4221 100%)" aria-hidden="true">
+  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)" aria-hidden="true">
     <img src="images/lesson-3-2-hero.png" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
@@ -59,11 +59,11 @@
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
-          <div class="rt-route-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
+          <div class="rt-route-icon" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">
             <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 4</p>
+            <p class="rt-route-module-label">Destination 3</p>
             <p class="rt-route-module-title">Protecting What You're Building</p>
           </div>
         </div>
@@ -95,7 +95,7 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">Theme Park District</span>
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">Cape Canaveral</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Seguros y Gestión de Riesgos">Insurance and Risk Management</h1>
@@ -200,6 +200,57 @@
   </div>
   <div class="rt-ig-footer" style="display:block" data-es="Cómo Comprar: Obtén cotizaciones de 3+ proveedores, usa un corredor de seguros independiente, revisa anualmente. ¿Recién empezando? Obtén Responsabilidad General primero. ¿Contratando empleados? Agrega Compensación al Trabajador. ¿Manejando datos? Agrega Responsabilidad Cibernética.">How to Buy: Get quotes from 3+ providers, use an independent insurance broker, review annually. Just starting? Get General Liability first. Adding employees? Add Workers' Comp. Handling data? Add Cyber Liability.</div>
 </div>
+<div class="rt-sim" id="sim-insurance">
+  <span class="rt-sim-badge" data-es="Herramienta Interactiva">Interactive Tool</span>
+  <h3 class="rt-sim-title" data-es="Constructor de Portafolio de Seguros">Insurance Portfolio Builder</h3>
+  <p class="rt-sim-subtitle" data-es="Ahora arme SU paquete de seguros. Seleccione su perfil de negocio y vea qué pólizas necesita.">Now build YOUR insurance stack. Select your business profile and see which policies you need.</p>
+
+  <div class="rt-sim-fields">
+    <div class="rt-sim-field">
+      <label class="rt-sim-label" for="sim-biz-type" data-es="Tipo de Negocio">Business Type</label>
+      <select class="rt-sim-select" id="sim-biz-type" onchange="simCalcInsurance('sim-insurance')">
+        <option value="services" data-es="Servicios Profesionales">Professional Services</option>
+        <option value="tech" data-es="Tecnología / SaaS">Technology / SaaS</option>
+        <option value="retail" data-es="Comercio Minorista">Retail</option>
+        <option value="food" data-es="Alimentos y Bebidas">Food & Beverage</option>
+        <option value="construction" data-es="Construcción">Construction</option>
+        <option value="general" data-es="General / Otro">General / Other</option>
+      </select>
+    </div>
+    <div class="rt-sim-field">
+      <label class="rt-sim-label" for="sim-emp-count" data-es="Número de Empleados">Number of Employees</label>
+      <input class="rt-sim-input" id="sim-emp-count" type="number" value="0" min="0" max="500" oninput="simCalcInsurance('sim-insurance')">
+    </div>
+  </div>
+
+  <div class="rt-sim-fields" style="margin-top:0;">
+    <div class="rt-sim-field">
+      <div class="rt-sim-toggle-wrap">
+        <label class="rt-sim-toggle">
+          <input type="checkbox" id="sim-client-facing" onchange="simCalcInsurance('sim-insurance')">
+          <span class="rt-sim-toggle-slider"></span>
+        </label>
+        <span class="rt-sim-toggle-label" data-es="Trabajo presencial con clientes">Client-facing work</span>
+      </div>
+    </div>
+    <div class="rt-sim-field">
+      <div class="rt-sim-toggle-wrap">
+        <label class="rt-sim-toggle">
+          <input type="checkbox" id="sim-physical-space" onchange="simCalcInsurance('sim-insurance')">
+          <span class="rt-sim-toggle-slider"></span>
+        </label>
+        <span class="rt-sim-toggle-label" data-es="Oficina o espacio físico">Physical office or space</span>
+      </div>
+    </div>
+  </div>
+
+  <button class="rt-sim-reset" onclick="document.getElementById('sim-biz-type').value='services';document.getElementById('sim-emp-count').value=0;document.getElementById('sim-client-facing').checked=false;document.getElementById('sim-physical-space').checked=false;simCalcInsurance('sim-insurance')" data-es="Reiniciar">Reset</button>
+
+  <div id="sim-results-sim-insurance" class="rt-sim-results"></div>
+</div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-3-2-insurance-broker.png" alt="Insurance broker explaining business coverage options to a startup founder" loading="lazy">
+</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -308,16 +359,24 @@
 <p><p><strong>Children's Products:</strong> CPSC testing and certification — lead, small parts, labeling. Third-party testing costs $1,000–$5,000 per product line.</p></p>
 <p><p>Penalties for operating without permits include fines, product seizures, and shutdowns. The SBDC and UCF BIP advisors can help identify which regulations are relevant to your business.</p></p>
 </div>
+<section class="rt-endcheck-section">
+  <div class="rt-endcheck-divider">
+    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
+      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
+    </svg>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
+  </div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
-    <span class="rt-kc-progress" data-es="Pregunta <span class='rt-kc-current'>1</span> de 3">Question <span class="rt-kc-current">1</span> of 3</span>
+    <span class="rt-kc-progress" data-es-html="Pregunta &lt;span class='rt-kc-current'&gt;1&lt;/span&gt; de 3">Question <span class="rt-kc-current">1</span> of 3</span>
   </div>
 
   <div class="rt-kc-step" data-step="0">
     <p class="rt-kc-question" data-es="Un fundador que vende servicios de consultoría a empresas estadounidenses recibe una solicitud de prueba de seguro durante la incorporación como proveedor. ¿Cuáles dos tipos de seguro son los más probablemente requeridos?">A founder selling consulting services to U.S. companies is asked to provide proof of insurance during vendor onboarding. Which two types of insurance are most likely required?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
+
       <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Compensación al trabajador y seguro de propiedad comercial">Workers' compensation and commercial property insurance</span>
@@ -342,7 +401,7 @@
   <div class="rt-kc-step" data-step="1" hidden>
     <p class="rt-kc-question" data-es="Una fundadora planea vender productos alimenticios empacados en EE.UU. a través de Amazon. Ya registró su LLC y obtuvo seguro de responsabilidad general. ¿Qué paso regulatorio probablemente le falta?">A founder plans to sell packaged food products in the U.S. through Amazon. She has already registered her LLC and obtained general liability insurance. What regulatory step is she most likely missing?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
+
       <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Obtener etiquetado compatible con FDA y cumplir los requisitos de FDACS antes de listar productos">Obtaining FDA-compliant labeling and meeting FDACS requirements before listing products</span>
@@ -367,7 +426,7 @@
   <div class="rt-kc-step" data-step="2" hidden>
     <p class="rt-kc-question" data-es="Una fundadora de Vietnam se prepara para firmar su primer contrato con una agencia de marketing estadounidense. La agencia quiere discutir su metodología propietaria de analítica antes de firmar. Ella no tiene acuerdos escritos aún. ¿Cuál contrato debería pedirle a la agencia que firme primero?">A founder from Vietnam is preparing to sign her first client contract with a U.S. marketing agency. The agency wants to discuss her proprietary analytics methodology before signing. She has no written agreements in place yet. Which contract should she ask the agency to sign first?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
+
       <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Un acuerdo de servicios que cubra alcance, términos de pago y entregables del proyecto">A service agreement covering scope, payment terms, and deliverables for the project</span>
@@ -386,31 +445,9 @@
       </button>
     </div>
     <div class="rt-kc-explanation" hidden><p data-es="Antes de compartir información propietaria, la fundadora debería hacer que la agencia firme un NDA. Esto protege su metodología de analítica durante la fase de discusión. Un acuerdo de servicios (opción A) viene después de que ambas partes acuerden los términos. Los términos de servicio (opción B) son para los usuarios de su sitio web, no para una negociación con clientes. Un acuerdo operativo (opción C) es un documento interno de la LLC, no relevante para una relación con clientes.">Before sharing proprietary information, the founder should have the agency sign an NDA. This protects her analytics methodology during the discussion phase. A service agreement (option A) comes after both parties agree on terms. Terms of service (option B) is for her website users, not a client negotiation. An operating agreement (option C) is an internal LLC document, not relevant to a client relationship.</p></div>
-    
+
   </div>
 </div>
-<div class="rt-exercise">
-  <h3 data-es="Ejercicio: Su Evaluación de Riesgos">Exercise: Your Risk Assessment</h3>
-  <p data-es="&lt;p&gt;Liste sus 3 principales riesgos de negocio en el mercado estadounidense. Para cada riesgo, identifique:&lt;/p&gt;
-
-&lt;ol&gt;&lt;li&gt;Qué tipo de seguro o protección legal aborda este riesgo&lt;/li&gt;&lt;li&gt;Si lo necesita antes de lanzar o puede esperar&lt;/li&gt;&lt;li&gt;El costo aproximado basado en las tablas de esta lección&lt;/li&gt;&lt;/ol&gt;
-
-&lt;p&gt;Use esta lista cuando hable con un corredor de seguros. Tener una imagen clara de sus riesgos hace la conversación más rápida y la cobertura más precisa.&lt;/p&gt;"><p>List your top 3 business risks in the U.S. market. For each risk, identify:</p>
-
-<ol><li>What type of insurance or legal protection addresses this risk</li><li>Whether you need it before you launch or can wait</li><li>The approximate cost based on the tables in this lesson</li></ol>
-
-<p>Use this list when you talk to an insurance broker. Having a clear picture of your risks makes the conversation faster and the coverage more accurate.</p></p>
-  <label for="exercise-exercise-ex-3-2-1" class="sr-only">Your response</label>
-  <textarea id="exercise-exercise-ex-3-2-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
-</div>
-<section class="rt-endcheck-section">
-  <div class="rt-endcheck-divider">
-    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
-      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
-    </svg>
-    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
-  </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es clara: ponga sus contratos por escrito — siempre, con cada socio. Tenga seguro de responsabilidad general desde el primer día ($400–$800/año). Si presta servicios profesionales, agregue cobertura E&amp;O. Verifique si su industria tiene requisitos regulatorios específicos antes de comenzar a operar. Aplique estos pasos temprano: los costos son mucho menores que demandas, multas o contratos perdidos. Evalúe sus necesidades de cobertura ahora, antes de que un cliente o arrendador le pida prueba.&lt;/p&gt;&lt;/p&gt;
@@ -461,6 +498,7 @@
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
   <script src="js/rt-language.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
 </body>
 </html>

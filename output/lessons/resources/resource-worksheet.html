@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expansion Decision Worksheet — UCF BIP</title>
+<style>
+  :root {
+    --bg: #0a1628; --surface: rgba(15,25,45,0.85); --border: rgba(212,168,67,0.25);
+    --accent: #d4a843; --accent2: #e8c66a; --text: #e2e8f0; --muted: #94a3b8;
+    --red: #ef4444; --yellow: #f59e0b; --green: #22c55e;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem; max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border); }
+  header h1 { font-size: 1.8rem; color: var(--accent2); margin-bottom: 0.3rem; }
+  header p { color: var(--muted); font-size: 0.95rem; }
+  .print-btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1.5rem; background: var(--accent); color: #0a1628; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.9rem; }
+  .print-btn:hover { background: var(--accent2); }
+
+  .intro { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; font-size: 0.95rem; }
+  .intro strong { color: var(--accent2); }
+
+  .dimension { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .dim-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .dim-num { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: 700; background: rgba(212,168,67,0.15); color: var(--accent2); flex-shrink: 0; }
+  .dim-title { font-size: 1.15rem; font-weight: 600; color: var(--accent2); }
+
+  .scale { display: flex; gap: 0; margin: 0.75rem 0; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); }
+  .scale label { flex: 1; text-align: center; padding: 0.6rem 0.3rem; cursor: pointer; font-size: 0.8rem; font-weight: 600; border-right: 1px solid var(--border); transition: background 0.2s; position: relative; }
+  .scale label:last-child { border-right: none; }
+  .scale label:hover { background: rgba(212,168,67,0.1); }
+  .scale input { position: absolute; opacity: 0; width: 0; height: 0; }
+  .scale input:checked + span { display: block; }
+  .scale label .check { display: none; position: absolute; top: 2px; right: 4px; font-size: 0.7rem; color: var(--accent); }
+  .scale label { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; }
+  .scale .num { font-size: 1.1rem; }
+  .scale .lbl { font-size: 0.65rem; color: var(--muted); font-weight: 400; }
+  .scale label.selected { background: rgba(212,168,67,0.2); }
+  .scale label.s1.selected { background: rgba(239,68,68,0.2); }
+  .scale label.s2.selected { background: rgba(245,158,11,0.15); }
+  .scale label.s3.selected { background: rgba(234,179,8,0.15); }
+  .scale label.s4.selected { background: rgba(34,197,94,0.15); }
+  .scale label.s5.selected { background: rgba(34,197,94,0.25); }
+
+  .criteria { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+  .criteria strong { color: var(--text); font-weight: 500; }
+
+  .score-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
+  .score-table td { padding: 0.3rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .score-table td:first-child { font-weight: 500; color: var(--accent2); width: 30px; text-align: center; }
+  .score-table td:last-child { color: var(--muted); }
+
+  .results { background: var(--surface); border: 2px solid var(--accent); border-radius: 10px; padding: 1.5rem; margin-top: 2rem; text-align: center; }
+  .results h2 { color: var(--accent2); font-size: 1.3rem; margin-bottom: 1rem; }
+  .total-score { font-size: 3rem; font-weight: 700; color: var(--accent2); }
+  .total-label { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
+  .verdict { font-size: 1.1rem; font-weight: 600; padding: 0.5rem 1rem; border-radius: 6px; display: inline-block; margin-top: 0.5rem; }
+  .verdict.go { background: rgba(34,197,94,0.2); color: #86efac; }
+  .verdict.maybe { background: rgba(245,158,11,0.2); color: #fcd34d; }
+  .verdict.wait { background: rgba(239,68,68,0.2); color: #fca5a5; }
+  .breakdown { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem; text-align: left; }
+  .breakdown .bd-item { display: flex; justify-content: space-between; font-size: 0.9rem; padding: 0.3rem 0.5rem; border-radius: 4px; background: rgba(255,255,255,0.03); }
+  .breakdown .bd-item .bd-val { font-weight: 600; color: var(--accent2); }
+  .recommendation { margin-top: 1rem; font-size: 0.9rem; color: var(--muted); text-align: left; padding-top: 1rem; border-top: 1px solid var(--border); }
+  .recommendation strong { color: var(--text); }
+
+  .notes-section { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-top: 1.5rem; }
+  .notes-section h3 { color: var(--accent2); margin-bottom: 0.75rem; font-size: 1rem; }
+  .notes-section textarea { width: 100%; min-height: 100px; background: rgba(0,0,0,0.3); border: 1px solid var(--border); border-radius: 6px; color: var(--text); padding: 0.75rem; font-family: inherit; font-size: 0.9rem; resize: vertical; }
+  .notes-section textarea:focus { outline: none; border-color: var(--accent); }
+
+  footer { text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+
+  @media print {
+    body { background: #fff; color: #1a1a1a; padding: 1cm; }
+    header { border-color: #ccc; } header h1 { color: #1a1a1a; } header p { color: #666; }
+    .print-btn { display: none; }
+    .intro, .dimension, .notes-section { background: #fff; border: 1px solid #ddd; break-inside: avoid; }
+    .intro strong, .dim-title { color: #1a1a1a; }
+    .dim-num { background: #eee; color: #333; }
+    .scale label { border-color: #ddd; }
+    .scale label.selected { background: #e5e7eb !important; font-weight: 700; }
+    .criteria, .score-table td:last-child { color: #666; }
+    .score-table td:first-child { color: #333; }
+    .results { border-color: #333; background: #fff; }
+    .results h2, .total-score { color: #1a1a1a; }
+    .total-label { color: #666; }
+    .verdict { border: 1px solid; }
+    .verdict.go { background: #dcfce7; color: #166534; }
+    .verdict.maybe { background: #fef3c7; color: #92400e; }
+    .verdict.wait { background: #fee2e2; color: #b91c1c; }
+    .breakdown .bd-item { background: #f5f5f5; }
+    .breakdown .bd-item .bd-val { color: #333; }
+    .recommendation { color: #666; border-color: #ddd; }
+    .notes-section textarea { background: #fff; border: 1px solid #ccc; color: #1a1a1a; min-height: 80px; }
+    footer { color: #999; border-color: #ddd; }
+  }
+
+  @media (max-width: 600px) {
+    .breakdown { grid-template-columns: 1fr; }
+    .scale .lbl { display: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Expansion Decision Worksheet</h1>
+  <p>UCF Business Incubation Program &mdash; Market Readiness Course</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem;">Structured go/no-go framework &bull; Score yourself honestly across 5 dimensions</p>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+</header>
+
+<div class="intro">
+  <p>This is your honest self-assessment before committing to U.S. market entry. Score each dimension from <strong>1 (Not Ready)</strong> to <strong>5 (Fully Ready)</strong>. There are no wrong answers &mdash; a low score tells you what to strengthen before entering, not that you should give up.</p>
+  <p style="margin-top:0.5rem;">A founder from Colombia scored 2/5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation.</p>
+</div>
+
+<div class="dimension" data-dim="0">
+  <div class="dim-header">
+    <span class="dim-num">1</span>
+    <span class="dim-title">Market Fit</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(0,1)"><input type="radio" name="d0" value="1"><span class="num">1</span><span class="lbl">No validation</span></label>
+    <label class="s2" onclick="pick(0,2)"><input type="radio" name="d0" value="2"><span class="num">2</span><span class="lbl">Some research</span></label>
+    <label class="s3" onclick="pick(0,3)"><input type="radio" name="d0" value="3"><span class="num">3</span><span class="lbl">Early signals</span></label>
+    <label class="s4" onclick="pick(0,4)"><input type="radio" name="d0" value="4"><span class="num">4</span><span class="lbl">Validated</span></label>
+    <label class="s5" onclick="pick(0,5)"><input type="radio" name="d0" value="5"><span class="num">5</span><span class="lbl">Proven demand</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No research on U.S. market. Assuming home-market success will transfer directly.</td></tr>
+      <tr><td>2</td><td>Desk research done. Identified potential competitors. No U.S. customer conversations.</td></tr>
+      <tr><td>3</td><td>Talked to 5+ potential U.S. customers. Some interest but no commitments.</td></tr>
+      <tr><td>4</td><td>Pilot customers or LOIs from U.S. buyers. Clear value proposition adapted for market.</td></tr>
+      <tr><td>5</td><td>Active paying U.S. customers. Product-market fit validated with real revenue.</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="dimension" data-dim="1">
+  <div class="dim-header">
+    <span class="dim-num">2</span>
+    <span class="dim-title">Financial Readiness</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(1,1)"><input type="radio" name="d1" value="1"><span class="num">1</span><span class="lbl">Underfunded</span></label>
+    <label class="s2" onclick="pick(1,2)"><input type="radio" name="d1" value="2"><span class="num">2</span><span class="lbl">Tight</span></label>
+    <label class="s3" onclick="pick(1,3)"><input type="radio" name="d1" value="3"><span class="num">3</span><span class="lbl">6-month runway</span></label>
+    <label class="s4" onclick="pick(1,4)"><input type="radio" name="d1" value="4"><span class="num">4</span><span class="lbl">12-month runway</span></label>
+    <label class="s5" onclick="pick(1,5)"><input type="radio" name="d1" value="5"><span class="num">5</span><span class="lbl">Well-capitalized</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No dedicated budget for U.S. expansion. Would need to fund from operations month-to-month.</td></tr>
+      <tr><td>2</td><td>Less than 3 months of U.S. operating costs available. No contingency buffer.</td></tr>
+      <tr><td>3</td><td>6 months of U.S. operating costs funded. Home market covers overhead.</td></tr>
+      <tr><td>4</td><td>12+ months runway. Budget for legal, marketing, and hiring. Home business stable.</td></tr>
+      <tr><td>5</td><td>Fully funded with investment or strong revenue. Can sustain U.S. ops independently.</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="dimension" data-dim="2">
+  <div class="dim-header">
+    <span class="dim-num">3</span>
+    <span class="dim-title">Legal Readiness</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(2,1)"><input type="radio" name="d2" value="1"><span class="num">1</span><span class="lbl">No plan</span></label>
+    <label class="s2" onclick="pick(2,2)"><input type="radio" name="d2" value="2"><span class="num">2</span><span class="lbl">Researching</span></label>
+    <label class="s3" onclick="pick(2,3)"><input type="radio" name="d2" value="3"><span class="num">3</span><span class="lbl">Entity chosen</span></label>
+    <label class="s4" onclick="pick(2,4)"><input type="radio" name="d2" value="4"><span class="num">4</span><span class="lbl">Formed</span></label>
+    <label class="s5" onclick="pick(2,5)"><input type="radio" name="d2" value="5"><span class="num">5</span><span class="lbl">Fully compliant</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No understanding of U.S. entity types, visa requirements, or regulatory landscape.</td></tr>
+      <tr><td>2</td><td>Know entity options (LLC/C-Corp). Haven't consulted attorney or started formation.</td></tr>
+      <tr><td>3</td><td>Entity type selected. Immigration pathway identified. Attorney engagement in progress.</td></tr>
+      <tr><td>4</td><td>U.S. entity formed. EIN obtained. Visa application filed or approved. Tax advisor engaged.</td></tr>
+      <tr><td>5</td><td>Fully incorporated, compliant, insured, and visa-approved. Operating agreement signed.</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="dimension" data-dim="3">
+  <div class="dim-header">
+    <span class="dim-num">4</span>
+    <span class="dim-title">Operations</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(3,1)"><input type="radio" name="d3" value="1"><span class="num">1</span><span class="lbl">No presence</span></label>
+    <label class="s2" onclick="pick(3,2)"><input type="radio" name="d3" value="2"><span class="num">2</span><span class="lbl">Remote only</span></label>
+    <label class="s3" onclick="pick(3,3)"><input type="radio" name="d3" value="3"><span class="num">3</span><span class="lbl">Hybrid ready</span></label>
+    <label class="s4" onclick="pick(3,4)"><input type="radio" name="d3" value="4"><span class="num">4</span><span class="lbl">Team in place</span></label>
+    <label class="s5" onclick="pick(3,5)"><input type="radio" name="d3" value="5"><span class="num">5</span><span class="lbl">Fully operational</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No U.S. contacts, infrastructure, or plan for physical/virtual presence.</td></tr>
+      <tr><td>2</td><td>Can operate remotely from home country. No U.S.-based team or workspace.</td></tr>
+      <tr><td>3</td><td>Coworking or virtual office secured. Can handle U.S. time zones. Some local contacts.</td></tr>
+      <tr><td>4</td><td>U.S.-based team member or partner. Workspace secured. Supply chain identified.</td></tr>
+      <tr><td>5</td><td>Full U.S. operations running. Team hired. Systems, vendors, and workspace in place.</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="dimension" data-dim="4">
+  <div class="dim-header">
+    <span class="dim-num">5</span>
+    <span class="dim-title">Timing</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(4,1)"><input type="radio" name="d4" value="1"><span class="num">1</span><span class="lbl">Poor timing</span></label>
+    <label class="s2" onclick="pick(4,2)"><input type="radio" name="d4" value="2"><span class="num">2</span><span class="lbl">Uncertain</span></label>
+    <label class="s3" onclick="pick(4,3)"><input type="radio" name="d4" value="3"><span class="num">3</span><span class="lbl">Reasonable</span></label>
+    <label class="s4" onclick="pick(4,4)"><input type="radio" name="d4" value="4"><span class="num">4</span><span class="lbl">Good window</span></label>
+    <label class="s5" onclick="pick(4,5)"><input type="radio" name="d4" value="5"><span class="num">5</span><span class="lbl">Perfect timing</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>Home business is unstable. Personal circumstances make relocation impossible now.</td></tr>
+      <tr><td>2</td><td>Home market needs attention. U.S. market is interesting but no urgency or window.</td></tr>
+      <tr><td>3</td><td>Home business is stable. U.S. market opportunity exists. No blocking personal factors.</td></tr>
+      <tr><td>4</td><td>Market window is open. Competitive timing is good. Personal situation supports the move.</td></tr>
+      <tr><td>5</td><td>Clear market window, partner/customer pulling you in, home ops self-sustaining.</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="results" id="results">
+  <h2>Your Expansion Readiness Score</h2>
+  <div class="total-score" id="totalScore">—</div>
+  <div class="total-label">out of 25</div>
+  <div class="verdict" id="verdict" style="display:none"></div>
+  <div class="breakdown" id="breakdown"></div>
+  <div class="recommendation" id="rec"></div>
+</div>
+
+<div class="notes-section">
+  <h3>Your Notes &amp; Action Items</h3>
+  <textarea id="userNotes" placeholder="What are your top priorities before entering the U.S. market? What gaps will you close first?"></textarea>
+</div>
+
+<footer>
+  <p>UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
+  <p>This is a self-assessment tool, not professional advice. Bring your results to your 1:1 meeting with UCF BIP for personalized guidance.</p>
+</footer>
+
+<script>
+(function(){
+  var KEY = 'ucf-bip-worksheet';
+  var DIMS = ['Market Fit','Financial Readiness','Legal Readiness','Operations','Timing'];
+  var scores = [0,0,0,0,0];
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e){}
+
+  // Restore saved scores
+  if (saved.scores) {
+    saved.scores.forEach(function(v,i) {
+      if (v > 0) { scores[i] = v; selectLabel(i, v); }
+    });
+    update();
+  }
+  if (saved.notes) document.getElementById('userNotes').value = saved.notes;
+
+  function selectLabel(dim, val) {
+    var labels = document.querySelector('[data-dim="'+dim+'"]').querySelectorAll('.scale label');
+    labels.forEach(function(l,idx) {
+      l.classList.toggle('selected', idx === val - 1);
+      if (idx === val - 1) l.querySelector('input').checked = true;
+    });
+  }
+
+  window.pick = function(dim, val) {
+    scores[dim] = val;
+    selectLabel(dim, val);
+    update();
+    save();
+  };
+
+  function update() {
+    var total = scores.reduce(function(a,b){return a+b;},0);
+    var filled = scores.filter(function(s){return s>0;}).length;
+    var el = document.getElementById('totalScore');
+    var verdict = document.getElementById('verdict');
+    var bd = document.getElementById('breakdown');
+    var rec = document.getElementById('rec');
+
+    if (filled < 5) {
+      el.textContent = filled + '/5 rated';
+      verdict.style.display = 'none';
+      bd.innerHTML = '';
+      rec.innerHTML = '';
+      return;
+    }
+
+    el.textContent = total;
+    verdict.style.display = 'inline-block';
+
+    if (total >= 20) {
+      verdict.className = 'verdict go';
+      verdict.textContent = 'Strong Go — You are ready to enter the U.S. market';
+    } else if (total >= 15) {
+      verdict.className = 'verdict maybe';
+      verdict.textContent = 'Conditional Go — Address weak areas before or during entry';
+    } else if (total >= 10) {
+      verdict.className = 'verdict maybe';
+      verdict.textContent = 'Proceed with Caution — Significant preparation needed';
+    } else {
+      verdict.className = 'verdict wait';
+      verdict.textContent = 'Not Yet — Strengthen your foundation before entering';
+    }
+
+    var html = '';
+    scores.forEach(function(s,i) {
+      html += '<div class="bd-item"><span>' + DIMS[i] + '</span><span class="bd-val">' + s + '/5</span></div>';
+    });
+    bd.innerHTML = html;
+
+    // Find weakest dimensions
+    var weak = [];
+    scores.forEach(function(s,i) { if (s <= 2) weak.push(DIMS[i]); });
+    var recHtml = '';
+    if (weak.length > 0) {
+      recHtml = '<p><strong>Priority areas to strengthen:</strong> ' + weak.join(', ') + '</p>';
+      recHtml += '<p style="margin-top:0.5rem;">Focus on raising these to at least 3/5 before committing to U.S. market entry. Bring this worksheet to your UCF BIP 1:1 meeting for specific action plans.</p>';
+    } else if (total < 25) {
+      recHtml = '<p><strong>You are in good shape.</strong> Fine-tune your weaker areas and move forward with confidence. Your UCF BIP advisor can help optimize your entry strategy.</p>';
+    } else {
+      recHtml = '<p><strong>Excellent readiness across all dimensions.</strong> You are well-positioned for U.S. market entry. Focus on execution speed and building your local network.</p>';
+    }
+    rec.innerHTML = recHtml;
+  }
+
+  function save() {
+    try {
+      localStorage.setItem(KEY, JSON.stringify({
+        scores: scores,
+        notes: document.getElementById('userNotes').value
+      }));
+    } catch(e){}
+  }
+
+  document.getElementById('userNotes').addEventListener('input', save);
+})();
+</script>
+</body>
+</html>

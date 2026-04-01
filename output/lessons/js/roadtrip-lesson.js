@@ -94,44 +94,40 @@
   window.igCmpNext = function(cmpId) { igCmpGo(cmpId, 1); };
   window.igCmpPrev = function(cmpId) { igCmpGo(cmpId, -1); };
 
-  // Timeline stepper — progress bar segments
-  function igTlGo(tlId, dir) {
+  // Timeline — progressive reveal (forward only)
+  window.igTlNext = function(tlId) {
     var el = document.getElementById(tlId);
     if (!el) return;
     var total = parseInt(el.dataset.tlTotal) || 1;
-    var active = el.querySelector('.rt-tl-card:not([hidden])');
-    var cur = active ? parseInt(active.dataset.tlStep) : 0;
-    var nxt = cur + dir;
-    if (nxt < 0 || nxt >= total) return;
-    active.hidden = true;
-    active.classList.remove('rt-tl-card--active');
-    var next = el.querySelector('[data-tl-step="' + nxt + '"]');
-    if (next) { next.hidden = false; next.classList.add('rt-tl-card--active'); }
-    // Fill/unfill progress segments
-    var segs = el.querySelectorAll('.rt-tl-seg');
-    segs.forEach(function(s, i) {
-      if (i <= nxt) s.classList.add('rt-tl-seg--filled');
-      else s.classList.remove('rt-tl-seg--filled');
-    });
-    var counter = el.querySelector('.rt-tl-cur');
-    if (counter) counter.textContent = nxt + 1;
-    // Back button state
-    var backBtn = el.querySelector('.rt-ig-btn--back');
-    if (backBtn) backBtn.disabled = (nxt === 0);
-    // Next button state
-    var fwdBtn = el.querySelector('.rt-ig-btn:not(.rt-ig-btn--back)');
-    if (nxt + 1 >= total) {
-      if (fwdBtn) { fwdBtn.textContent = 'Done!'; fwdBtn.disabled = true; }
-      var footer = el.querySelector('.rt-ig-footer');
-      if (footer) footer.style.display = 'block';
+    var revealed = el.querySelectorAll('.rt-tl-milestone--revealed');
+    var shown = revealed.length;
+    if (shown >= total) return;
+    // Demote current milestone to "past"
+    var current = el.querySelector('.rt-tl-milestone--current');
+    if (current) {
+      current.classList.remove('rt-tl-milestone--current');
+      current.classList.add('rt-tl-milestone--past');
+    }
+    // Reveal next milestone
+    var next = el.querySelector('[data-tl-step="' + shown + '"]');
+    if (next) {
+      next.classList.remove('rt-tl-milestone--pending');
+      next.classList.add('rt-tl-milestone--revealed', 'rt-tl-milestone--current');
+      next.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    // Update counter
+    var cur = el.querySelector('.rt-tl-cur');
+    if (cur) cur.textContent = shown + 1;
+    // On final milestone
+    if (shown + 1 >= total) {
+      var btn = el.querySelector('.rt-ig-btn');
+      if (btn) { btn.textContent = 'Complete!'; btn.disabled = true; }
       var callout = el.querySelector('.rt-tl-callout');
       if (callout) callout.style.display = 'block';
-    } else {
-      if (fwdBtn) { fwdBtn.textContent = 'Next \u2192'; fwdBtn.disabled = false; }
+      var footer = el.querySelector('.rt-ig-footer');
+      if (footer) footer.style.display = 'block';
     }
-  }
-  window.igTlNext = function(tlId) { igTlGo(tlId, 1); };
-  window.igTlPrev = function(tlId) { igTlGo(tlId, -1); };
+  };
 
   // Grid expandable cards
   window.igGridToggle = function(card) {

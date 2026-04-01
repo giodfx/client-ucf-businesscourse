@@ -12,10 +12,9 @@
     "geminiInfographics": 6,
     "convertedToInteractive": 1,
     "geminiMaps": 2,
-    "qwen2512Scenarios": 7,
-    "total": 20
+    "qwen2512Scenarios": 25,
+    "total": 39
   },
-
   "section1_htmlCssDataViz": {
     "description": "In-course HTML/CSS data visualizations using course palette. These are built as contentBlocks in the lesson JSON, NOT generated images.",
     "palette": {
@@ -39,19 +38,50 @@
             {
               "label": "C-Corp in Florida",
               "layers": [
-                { "label": "Federal Corporate Tax", "value": 21, "color": "#1A3A5C" },
-                { "label": "Florida Corporate Tax", "value": 5.5, "color": "#2C5F8A" },
-                { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838", "note": "varies by county" }
+                {
+                  "label": "Federal Corporate Tax",
+                  "value": 21,
+                  "color": "#1A3A5C"
+                },
+                {
+                  "label": "Florida Corporate Tax",
+                  "value": 5.5,
+                  "color": "#2C5F8A"
+                },
+                {
+                  "label": "Local Fees & Licenses",
+                  "value": 0.5,
+                  "color": "#E8A838",
+                  "note": "varies by county"
+                }
               ],
               "total": "~27% effective"
             },
             {
               "label": "LLC (Pass-Through) in Florida",
               "layers": [
-                { "label": "Self-Employment Tax", "value": 15.3, "color": "#1A3A5C" },
-                { "label": "Federal Income Tax", "value": 12, "color": "#2C5F8A", "note": "varies by bracket" },
-                { "label": "Florida State Tax", "value": 0, "color": "#48B07A", "note": "No state income tax!" },
-                { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838" }
+                {
+                  "label": "Self-Employment Tax",
+                  "value": 15.3,
+                  "color": "#1A3A5C"
+                },
+                {
+                  "label": "Federal Income Tax",
+                  "value": 12,
+                  "color": "#2C5F8A",
+                  "note": "varies by bracket"
+                },
+                {
+                  "label": "Florida State Tax",
+                  "value": 0,
+                  "color": "#48B07A",
+                  "note": "No state income tax!"
+                },
+                {
+                  "label": "Local Fees & Licenses",
+                  "value": 0.5,
+                  "color": "#E8A838"
+                }
               ],
               "total": "~27.8% effective"
             }
@@ -69,12 +99,40 @@
         "data": {
           "baseSalary": 60000,
           "layers": [
-            { "label": "Base Salary", "value": 60000, "color": "#1A3A5C" },
-            { "label": "FICA (Social Security + Medicare)", "value": 4590, "percent": "7.65%", "color": "#2C5F8A" },
-            { "label": "FUTA (Federal Unemployment)", "value": 420, "color": "#E8A838" },
-            { "label": "SUTA (Florida Unemployment)", "value": 200, "note": "avg new employer", "color": "#F5C842" },
-            { "label": "Workers' Comp Insurance", "value": 1200, "note": "office work avg", "color": "#D4622B" },
-            { "label": "Health Insurance", "value": 5000, "note": "employer contribution avg", "color": "#48B07A" }
+            {
+              "label": "Base Salary",
+              "value": 60000,
+              "color": "#1A3A5C"
+            },
+            {
+              "label": "FICA (Social Security + Medicare)",
+              "value": 4590,
+              "percent": "7.65%",
+              "color": "#2C5F8A"
+            },
+            {
+              "label": "FUTA (Federal Unemployment)",
+              "value": 420,
+              "color": "#E8A838"
+            },
+            {
+              "label": "SUTA (Florida Unemployment)",
+              "value": 200,
+              "note": "avg new employer",
+              "color": "#F5C842"
+            },
+            {
+              "label": "Workers' Comp Insurance",
+              "value": 1200,
+              "note": "office work avg",
+              "color": "#D4622B"
+            },
+            {
+              "label": "Health Insurance",
+              "value": 5000,
+              "note": "employer contribution avg",
+              "color": "#48B07A"
+            }
           ],
           "totalWithoutHealth": "$66,410 (10.7% over salary)",
           "totalWithHealth": "$71,410 (19% over salary)",
@@ -89,33 +147,69 @@
         "chartType": "grouped-bar",
         "description": "Grouped bar chart comparing 5 cities across key cost metrics",
         "data": {
-          "categories": ["Office Space ($/sqft/yr)", "Coworking ($/mo)", "Dev Salary ($K)", "1-BR Rent ($/mo)", "COL Index"],
+          "categories": [
+            "Office Space ($/sqft/yr)",
+            "Coworking ($/mo)",
+            "Dev Salary ($K)",
+            "1-BR Rent ($/mo)",
+            "COL Index"
+          ],
           "cities": [
             {
               "label": "Central Florida",
               "color": "#E8A838",
-              "values": [30, 300, 92, 1600, 98],
+              "values": [
+                30,
+                300,
+                92,
+                1600,
+                98
+              ],
               "highlight": true
             },
             {
               "label": "Miami",
               "color": "#2C5F8A",
-              "values": [48, 475, 105, 2400, 120]
+              "values": [
+                48,
+                475,
+                105,
+                2400,
+                120
+              ]
             },
             {
               "label": "NYC",
               "color": "#1A3A5C",
-              "values": [73, 700, 133, 3400, 187]
+              "values": [
+                73,
+                700,
+                133,
+                3400,
+                187
+              ]
             },
             {
               "label": "Silicon Valley",
               "color": "#D4622B",
-              "values": [65, 550, 145, 3000, 172]
+              "values": [
+                65,
+                550,
+                145,
+                3000,
+                172
+              ]
             },
             {
               "label": "Austin",
               "color": "#48B07A",
-              "values": [48, 400, 120, 1900, 108]
+              "values": [
+                48,
+                400,
+                120,
+                1900,
+                108
+              ]
             }
           ],
           "footer": "Central Florida's Cost of Living Index of 98 (near national average) means your startup capital stretches further.",
@@ -131,12 +225,48 @@
         "description": "Horizontal bars showing scale/revenue of each industry cluster with growth indicator",
         "data": {
           "clusters": [
-            { "label": "Hospitality Technology", "metric": "$75B+ tourism GDP", "value": 75, "growth": "stable", "color": "#E8A838" },
-            { "label": "Simulation & Training", "metric": "$6B annual contracts", "value": 6, "growth": "steady", "color": "#1A3A5C" },
-            { "label": "Aerospace & Defense", "metric": "28 orbital launches (2025)", "value": 28, "growth": "accelerating", "color": "#2C5F8A" },
-            { "label": "Life Sciences & Health", "metric": "90K+ healthcare employees", "value": 90, "growth": "expanding", "color": "#48B07A" },
-            { "label": "Technology & Fintech", "metric": "34% faster growth than U.S. avg", "value": 34, "growth": "strong", "color": "#D4622B" },
-            { "label": "AgTech", "metric": "UF/IFAS research partnerships", "value": 5, "growth": "emerging", "color": "#F5C842" }
+            {
+              "label": "Hospitality Technology",
+              "metric": "$75B+ tourism GDP",
+              "value": 75,
+              "growth": "stable",
+              "color": "#E8A838"
+            },
+            {
+              "label": "Simulation & Training",
+              "metric": "$6B annual contracts",
+              "value": 6,
+              "growth": "steady",
+              "color": "#1A3A5C"
+            },
+            {
+              "label": "Aerospace & Defense",
+              "metric": "28 orbital launches (2025)",
+              "value": 28,
+              "growth": "accelerating",
+              "color": "#2C5F8A"
+            },
+            {
+              "label": "Life Sciences & Health",
+              "metric": "90K+ healthcare employees",
+              "value": 90,
+              "growth": "expanding",
+              "color": "#48B07A"
+            },
+            {
+              "label": "Technology & Fintech",
+              "metric": "34% faster growth than U.S. avg",
+              "value": 34,
+              "growth": "strong",
+              "color": "#D4622B"
+            },
+            {
+              "label": "AgTech",
+              "metric": "UF/IFAS research partnerships",
+              "value": 5,
+              "growth": "emerging",
+              "color": "#F5C842"
+            }
           ],
           "note": "Values scaled for visual comparison — see table below for exact figures."
         },
@@ -151,20 +281,58 @@
         "data": {
           "seedFunding": 500000,
           "cities": [
-            { "label": "Central Florida", "monthlyBurn": 30000, "runway": 16.7, "color": "#E8A838", "highlight": true },
-            { "label": "Austin", "monthlyBurn": 38000, "runway": 13.2, "color": "#48B07A" },
-            { "label": "Miami", "monthlyBurn": 42000, "runway": 11.9, "color": "#2C5F8A" },
-            { "label": "NYC", "monthlyBurn": 55000, "runway": 9.1, "color": "#1A3A5C" },
-            { "label": "Silicon Valley", "monthlyBurn": 50000, "runway": 10.0, "color": "#D4622B" }
+            {
+              "label": "Central Florida",
+              "monthlyBurn": 30000,
+              "runway": 16.7,
+              "color": "#E8A838",
+              "highlight": true
+            },
+            {
+              "label": "Austin",
+              "monthlyBurn": 38000,
+              "runway": 13.2,
+              "color": "#48B07A"
+            },
+            {
+              "label": "Miami",
+              "monthlyBurn": 42000,
+              "runway": 11.9,
+              "color": "#2C5F8A"
+            },
+            {
+              "label": "NYC",
+              "monthlyBurn": 55000,
+              "runway": 9.1,
+              "color": "#1A3A5C"
+            },
+            {
+              "label": "Silicon Valley",
+              "monthlyBurn": 50000,
+              "runway": 10,
+              "color": "#D4622B"
+            }
           ],
           "insight": "Central Florida gives you 6-7 extra months of runway compared to Silicon Valley on the same $500K seed round.",
           "supplementary": {
             "title": "Key Location Factors",
             "items": [
-              { "label": "LATAM Direct Flights (MCO)", "value": "30+ cities" },
-              { "label": "Bilingual Workforce", "value": "30%+ of metro Orlando" },
-              { "label": "State Income Tax", "value": "0% (Florida)" },
-              { "label": "Florida VC (2024)", "value": "~$5.5B (~4% of U.S.)" }
+              {
+                "label": "LATAM Direct Flights (MCO)",
+                "value": "30+ cities"
+              },
+              {
+                "label": "Bilingual Workforce",
+                "value": "30%+ of metro Orlando"
+              },
+              {
+                "label": "State Income Tax",
+                "value": "0% (Florida)"
+              },
+              {
+                "label": "Florida VC (2024)",
+                "value": "~$5.5B (~4% of U.S.)"
+              }
             ]
           }
         },
@@ -172,7 +340,6 @@
       }
     ]
   },
-
   "section2_geminiInfographics": {
     "description": "Complex infographics requiring clean text rendering — generate manually in Gemini. Each entry includes dimensions, detailed prompt, and lesson placement.",
     "outputFormat": "PNG, high resolution",
@@ -264,7 +431,6 @@
       }
     ]
   },
-
   "section3_qwen2512Scenarios": {
     "description": "Scenario and situational illustrations generated via ComfyUI Qwen 2512 GGUF workflow. Match established 'Cinematic Digital Painting' style from qwen-optimized-prompts.json.",
     "model": "qwen-2512-gguf",
@@ -273,15 +439,70 @@
     "stylePrefix": "Cinematic digital painting,",
     "styleSuffix": "Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
     "diversityRotation": [
-      { "ethnicity": "Hispanic Latino", "gender": "female", "age": "30s" },
-      { "ethnicity": "South Asian", "gender": "male", "age": "40s" },
-      { "ethnicity": "African American", "gender": "male", "age": "30s" },
-      { "ethnicity": "Asian American", "gender": "female", "age": "20s" },
-      { "ethnicity": "Caucasian", "gender": "female", "age": "40s" },
-      { "ethnicity": "Hispanic Latino", "gender": "male", "age": "50s" },
-      { "ethnicity": "multiracial", "gender": "female", "age": "30s" }
+      {
+        "ethnicity": "Hispanic Latino",
+        "gender": "female",
+        "age": "30s"
+      },
+      {
+        "ethnicity": "South Asian",
+        "gender": "male",
+        "age": "40s"
+      },
+      {
+        "ethnicity": "African American",
+        "gender": "male",
+        "age": "30s"
+      },
+      {
+        "ethnicity": "Asian American",
+        "gender": "female",
+        "age": "20s"
+      },
+      {
+        "ethnicity": "Caucasian",
+        "gender": "female",
+        "age": "40s"
+      },
+      {
+        "ethnicity": "Hispanic Latino",
+        "gender": "male",
+        "age": "50s"
+      },
+      {
+        "ethnicity": "multiracial",
+        "gender": "female",
+        "age": "30s"
+      }
     ],
     "prompts": [
+      {
+        "id": "scenario-0-1",
+        "lessonId": "lesson-0-1",
+        "title": "Founder Planning U.S. Expansion Strategy",
+        "outputFilename": "lesson-0-1-expansion-strategy.png",
+        "diversityIndex": 0,
+        "insertAfter": "U.S. Expansion Is a Strategy, Not a Checklist",
+        "qwenPrompt": "Cinematic digital painting, a confident Hispanic Latina woman in her early 30s seated at an outdoor terrace table overlooking a panoramic Florida landscape at golden hour. She has a laptop open and reviews documents with a focused expression. Palm trees frame the scene. A roadmap document and coffee cup sit on the table. The terrace has a modern railing with a view of a distant city skyline and highways stretching across the horizon. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-1-1",
+        "lessonId": "lesson-1-1",
+        "title": "Founder Comparing Business Entity Types",
+        "outputFilename": "lesson-1-1-entity-comparison.png",
+        "diversityIndex": 1,
+        "insertAfter": "How Your Entity Type Connects to Everything Else",
+        "qwenPrompt": "Cinematic digital painting, a South Asian man in his 40s in professional attire seated across from a female business advisor at a glass conference table in a modern high-rise office. Through floor-to-ceiling windows behind them, an Orlando city skyline with glass towers and palm trees is visible. The advisor gestures toward comparison documents on the table. Warm afternoon light streams through the windows. Professional, collaborative atmosphere. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-1-2",
+        "lessonId": "lesson-1-2",
+        "title": "Founder at Registered Agent Office",
+        "outputFilename": "lesson-1-2-registered-agent.png",
+        "diversityIndex": 2,
+        "insertAfter": "Registered Agent and Address",
+        "qwenPrompt": "Cinematic digital painting, an African American man in his 30s in smart business casual attire walking confidently into a modern professional office building in Central Florida. He carries a leather portfolio. The building entrance has glass doors with a tasteful lobby visible inside. Palm trees and a blue sky frame the entrance. He is arriving at a registered agent office to establish business presence. Golden hour side lighting, modern architectural details visible. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
       {
         "id": "scenario-1-3",
         "lessonId": "lesson-1-3",
@@ -290,6 +511,24 @@
         "diversityIndex": 0,
         "qwenPrompt": "Cinematic digital painting, a confident Hispanic Latino woman in her early 30s seated across a polished mahogany desk from a bank officer in a modern Central Florida bank branch, wearing a tailored charcoal blazer over a white silk blouse, her right hand resting on a leather portfolio with business documents spread on the desk between them, her left hand gesturing thoughtfully as she explains her business plan. The bank interior features warm wood paneling, frosted glass partitions, and a tall window on the left showing tropical landscaping with sabal palms. A small stack of official documents, an EIN letter, and a passport sit neatly on her side of the desk. Dramatic golden hour lighting streams through the window blinds casting warm striped light across the scene, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
         "insertAfter": "Opening text section"
+      },
+      {
+        "id": "scenario-2-1",
+        "lessonId": "lesson-2-1",
+        "title": "Founder Meeting Tax Advisor",
+        "outputFilename": "lesson-2-1-tax-advisor-meeting.png",
+        "diversityIndex": 3,
+        "insertAfter": "How Entity Type Affects Your Tax Treatment",
+        "qwenPrompt": "Cinematic digital painting, a young Asian American woman in her late 20s in professional attire meeting with a male CPA in a well-appointed financial district office. Classical architecture with columns and reflecting pools visible through the window. The CPA points to tax comparison documents on a mahogany desk. A laptop shows financial charts. Warm interior lighting contrasts with blue-toned exterior. Professional, reassuring atmosphere. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-2-2",
+        "lessonId": "lesson-2-2",
+        "title": "Founder Researching Multi-State Sales Tax",
+        "outputFilename": "lesson-2-2-sales-tax-research.png",
+        "diversityIndex": 4,
+        "insertAfter": "How U.S. Sales Tax Compares to VAT",
+        "qwenPrompt": "Cinematic digital painting, a Caucasian woman in her 40s with auburn hair at a modern desk in a home office, reviewing documents and a laptop showing sales tax information. She looks focused, with various papers representing different state requirements spread on the desk. Through the window behind her, a classical financial district building with columns is visible. A cup of tea and reading glasses sit on the desk. Soft afternoon light fills the room. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
       },
       {
         "id": "scenario-2-3",
@@ -301,6 +540,33 @@
         "insertAfter": "New scenario block 'The Bank Said No'"
       },
       {
+        "id": "scenario-3-1",
+        "lessonId": "lesson-3-1",
+        "title": "Founder with Trademark Attorney",
+        "outputFilename": "lesson-3-1-trademark-attorney.png",
+        "diversityIndex": 5,
+        "insertAfter": "Trademark Registration",
+        "qwenPrompt": "Cinematic digital painting, a Hispanic Latino man in his 50s in business attire meeting with a female IP attorney in a modern law office. They review trademark registration documents together at a desk. The attorney points to a form while the founder takes notes. Through the office window, Florida marshland with tall grass and distant static launch towers are visible against a blue sky. Warm golden lighting from a desk lamp. Professional, collaborative mood. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-3-2",
+        "lessonId": "lesson-3-2",
+        "title": "Founder with Insurance Broker",
+        "outputFilename": "lesson-3-2-insurance-broker.png",
+        "diversityIndex": 6,
+        "insertAfter": "Business Insurance",
+        "qwenPrompt": "Cinematic digital painting, a multiracial woman in her 30s in business casual attire meeting with a male insurance broker in a bright modern office. The broker presents policy options on a tablet while the founder listens attentively. A glass-walled conference room with contemporary furniture. Through the windows, Florida marshland with tall grass and a clear sky is visible. Professional and trusting atmosphere. Soft natural light, warm earth tones. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-3-3",
+        "lessonId": "lesson-3-3",
+        "title": "Founder Consulting Business Attorney",
+        "outputFilename": "lesson-3-3-attorney-consultation.png",
+        "diversityIndex": 0,
+        "insertAfter": "Finding the Right Attorney",
+        "qwenPrompt": "Cinematic digital painting, a confident Hispanic Latina woman founder in her 30s sitting across from a seasoned male attorney in a law office with bookshelves filled with legal volumes. They are in deep discussion, the attorney leaning forward helpfully. Legal documents and a contract spread on the desk between them. Through a side window, Florida marshland stretches to the horizon under golden hour light. Warm interior wood tones. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
         "id": "scenario-4-1",
         "lessonId": "lesson-4-1",
         "title": "IRS Classification Decision",
@@ -308,6 +574,33 @@
         "diversityIndex": 2,
         "qwenPrompt": "Cinematic digital painting, an African American man in his early 30s seated at a large desk in a bright modern home office in Central Florida, wearing a crisp white dress shirt with sleeves rolled to the forearms, his right hand hovering over a laptop keyboard and his left hand holding a printed IRS form. On the desk are two stacks of documents — one labeled-style pile with contractor agreements, another with employment forms — representing the classification decision between W-2 employees and 1099 contractors. The home office has a clean modern aesthetic with a bookshelf, a potted bird of paradise plant, and a large window behind showing a Central Florida neighborhood with palm trees and a tile-roofed house. Dramatic golden hour lighting floods through the window, illuminating the documents on the desk with warm amber light. Painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
         "insertAfter": "Opening text section about hiring"
+      },
+      {
+        "id": "scenario-4-2",
+        "lessonId": "lesson-4-2",
+        "title": "Founder in Immigration Consultation",
+        "outputFilename": "lesson-4-2-immigration-consultation.png",
+        "diversityIndex": 1,
+        "insertAfter": "Choosing Your Guide",
+        "qwenPrompt": "Cinematic digital painting, a South Asian man in his 40s in a consultation with a female immigration attorney in her professional office. He has his passport, visa documents, and business plan organized on the desk. The attorney reviews the documents while explaining options with a reassuring expression. Through the window, festive architecture facades with string lights and palm trees are visible in warm afternoon sun. Professional, hopeful mood. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-4-3",
+        "lessonId": "lesson-4-3",
+        "title": "Founder Reviewing Payroll System",
+        "outputFilename": "lesson-4-3-payroll-planning.png",
+        "diversityIndex": 2,
+        "insertAfter": "Use a Payroll Service",
+        "qwenPrompt": "Cinematic digital painting, an African American man in his 30s at a clean modern desk confidently using a laptop showing payroll software. A quarterly calendar with marked deadlines is pinned to the wall beside him. He looks organized and relieved, with a subtle smile. His office is bright with natural light. Through the window, festive architecture facades with colorful string lights and palm trees create an optimistic Florida backdrop. Coffee cup and organized folders on the desk. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-5-1",
+        "lessonId": "lesson-5-1",
+        "title": "Entrepreneurs Reviewing Market Adaptation",
+        "outputFilename": "lesson-5-1-market-adaptation.png",
+        "diversityIndex": 3,
+        "insertAfter": "Adaptation Starts Before You Sell",
+        "qwenPrompt": "Cinematic digital painting, a young Asian American woman and an African American man, both in business casual attire, standing at a large table in a commercial workspace reviewing product samples and market research documents. The woman holds a tablet showing competitor pricing data. Through industrial windows behind them, a Florida harbor with container yards, dock pilings, and bollards is visible under a clear blue sky. Collaborative strategic atmosphere. Natural harbor light fills the space. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
       },
       {
         "id": "scenario-5-2",
@@ -335,6 +628,69 @@
         "diversityIndex": 5,
         "qwenPrompt": "Cinematic digital painting, a distinguished Hispanic Latino man in his early 50s at a professional networking event in a modern Central Florida venue, wearing a well-fitted charcoal gray suit with an open-collar pale blue shirt, his right hand holding a business card he is offering to another professional and his left hand holding a small plate with appetizers. He stands confidently in a small group of three people having an animated conversation. The venue is an upscale rooftop terrace with string lights overhead, modern railing, and a sunset view of the Orlando skyline with palm tree silhouettes. Other professionals mingle in the background creating a sense of an active networking event. The scene captures the moment of making a first impression — the 30-second elevator pitch in action. Dramatic golden hour lighting from the setting sun, painterly brushstrokes visible throughout, atmospheric haze around the distant skyline, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
         "insertAfter": "Text section about building your pitch"
+      },
+      {
+        "id": "scenario-6-3",
+        "lessonId": "lesson-6-3",
+        "title": "Cultural Misalignment in Business Meeting",
+        "outputFilename": "lesson-6-3-cultural-misalignment.png",
+        "diversityIndex": 4,
+        "insertAfter": "More Missteps That Drain Your Budget",
+        "qwenPrompt": "Cinematic digital painting, two professionals sitting across a glass conference table in a modern beachside office. A Caucasian woman in her 40s smiles warmly and takes notes with enthusiasm. Across from her, a middle-aged American businessman is polite but his expression is neutral and noncommittal. Subtle cultural tension in body language. Through floor-to-ceiling windows behind them, sandy dunes with sea oats and ocean waves are visible under late afternoon sky. Warm ambient light. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-7-1",
+        "lessonId": "lesson-7-1",
+        "title": "Founder with SBDC Business Advisor",
+        "outputFilename": "lesson-7-1-advisory-consultation.png",
+        "diversityIndex": 5,
+        "insertAfter": "Free Help Is Closer Than You Think",
+        "qwenPrompt": "Cinematic digital painting, a Hispanic Latino man in his 50s, an entrepreneur, having a one-on-one consultation with a friendly female SBDC business advisor in a modern office. The advisor shows him a resource guide on her tablet. Both appear engaged and collaborative. Behind them through a large window, a Florida spring landscape is visible with cypress trees draped in Spanish moss, lush green ferns, and dappled sunlight filtering through the canopy. Warm, supportive atmosphere. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-7-2",
+        "lessonId": "lesson-7-2",
+        "title": "Ecosystem Networking Event",
+        "outputFilename": "lesson-7-2-ecosystem-networking.png",
+        "diversityIndex": 6,
+        "insertAfter": "The Living Ecosystem",
+        "qwenPrompt": "Cinematic digital painting, a networking event in a modern atrium space in Central Florida. A diverse group of six professionals including a Latina woman, a Black man, an Asian woman, a white man, a Middle Eastern woman, and a Brazilian man, stand in small conversation clusters holding drinks. The space has modern industrial-chic decor with exposed brick and warm pendant lighting. Through large windows, cypress trees with Spanish moss and a peaceful river are visible. Energetic but professional atmosphere. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-7-3",
+        "lessonId": "lesson-7-3",
+        "title": "Central Florida Economic Sectors",
+        "outputFilename": "lesson-7-3-economic-sectors.png",
+        "diversityIndex": 0,
+        "insertAfter": "Where the Jobs and Revenue Are",
+        "qwenPrompt": "Cinematic digital painting, a panoramic view of Central Florida showing the diverse economic ecosystem. In the foreground, a modern tech office with glass walls where professionals work at computers. In the middle ground, a medical research facility with a campus. In the background, tourism and hospitality buildings with palm trees line the horizon. Cypress trees and Spanish moss frame the sides. Golden hour lighting bathes the entire scene. Three economic sectors coexisting in one landscape. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-7-4",
+        "lessonId": "lesson-7-4",
+        "title": "LATAM Trade Corridor Gateway",
+        "outputFilename": "lesson-7-4-latam-gateway.png",
+        "diversityIndex": 1,
+        "insertAfter": "LATAM Trade Corridor",
+        "qwenPrompt": "Cinematic digital painting, a South Asian man in his 40s in business attire standing in a modern airport terminal with large windows. He holds a boarding pass and his phone, looking out at aircraft on the tarmac with anticipation. The terminal has contemporary architecture with high ceilings and natural light flooding in. Other diverse business travelers move through the terminal in the background. Through the windows, a Florida landscape with cypress trees is visible beyond the airport. Mood of anticipation and opportunity. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-8-1",
+        "lessonId": "lesson-8-1",
+        "title": "Founders with Business Mentor at UCF",
+        "outputFilename": "lesson-8-1-mentor-consultation.png",
+        "diversityIndex": 2,
+        "insertAfter": "Where Do You Need More Help",
+        "qwenPrompt": "Cinematic digital painting, two international founders, an African American man in his 30s and a Latina woman, meeting with a senior female business mentor in a cozy campus office. The mentor reviews a readiness assessment worksheet with them. Books and framed certificates line the walls. Through the window, the UCF campus is visible with distinctive red brick buildings, live oak trees with spreading canopies, and a stone fountain in a courtyard. Warm late afternoon light, supportive encouraging atmosphere. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
+      },
+      {
+        "id": "scenario-8-2",
+        "lessonId": "lesson-8-2",
+        "title": "Founder Preparing Resources for Launch",
+        "outputFilename": "lesson-8-2-resources-preparation.png",
+        "diversityIndex": 3,
+        "insertAfter": "Resource 4: Expansion Decision Worksheet",
+        "qwenPrompt": "Cinematic digital painting, a young Asian American woman founder in her late 20s sitting at a desk in a bright campus coworking space, organizing printed checklists and digital resources on her laptop. Resource guides and worksheets are neatly arranged on the desk. She has a confident, accomplished expression, preparing to launch her business. Through a nearby window, a UCF campus with red brick buildings, live oaks, and students walking on pathways is visible. Warm natural light fills the space. Dramatic golden hour lighting, painterly brushstrokes visible throughout, atmospheric haze, warm saturated colors with amber and deep blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic."
       },
       {
         "id": "scenario-8-3",

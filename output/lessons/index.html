@@ -8,322 +8,200 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/accessibility.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/roadtrip-theme.css">
-  <link rel="stylesheet" href="css/roadtrip-dashboard.css">
+  <link rel="stylesheet" href="css/video-dashboard.css">
 </head>
-<body class="rt-dashboard-body" data-total-modules="9" data-total-lessons="26" data-start-lesson="lesson-0-1">
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+<body data-total-modules="9" data-total-lessons="26">
+  <a href="#dest-heading" class="vd-skip-link">Skip to navigation</a>
 
-  <!-- ============ START HERE SCREEN ============ -->
-  <div class="rt-start-screen" id="rt-start-screen">
-    <div class="rt-windshield" aria-hidden="true">
-      <img src="images/dashboard-bg.png" alt="" class="rt-windshield-img" />
-      <div class="rt-windshield-overlay rt-windshield-overlay--start"></div>
-      <div class="rt-windshield-vignette"></div>
-    </div>
-    <div class="rt-start-content">
-      <div class="rt-start-badge">
-        <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 4 L24 44 M16 12 L32 12 M14 20 L34 20 M12 28 L36 28 M10 36 L38 36 M20 4 L28 4" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
-      </div>
-      <h1 class="rt-start-title">Start Here — What To Expect And How To Use This Program</h1>
-      <p class="rt-start-subtitle">U.S. Market Readiness Program</p>
-      <p class="rt-start-desc">Before you hit the road, take a few minutes to understand what this program covers, how it works, and what to expect at each destination.</p>
-      <div class="rt-start-actions">
-        <a href="lesson-0-1.html" class="rt-start-begin-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polygon points="5,3 19,12 5,21" fill="currentColor" stroke="none"/></svg>
-          Start Here
-        </a>
-        <button class="rt-start-skip-btn" id="rt-skip-start">Skip to Dashboard</button>
+  <div class="vd-stage" id="stage">
+
+    <!-- Looping car video background -->
+    <video class="vd-layer vd-layer-video" id="sceneVideo"
+           src="video/default.mp4"
+           data-anchor-x="0.54" data-anchor-y="0.69"
+           preload="auto" autoplay muted loop playsinline></video>
+
+    <!-- Language toggle — always visible top-right -->
+    <div class="vd-layer vd-layer-chrome">
+      <div class="vd-chrome-bar">
+        <span class="vd-course-badge" data-es="Preparación para el Mercado de EE.UU.">U.S. Market Readiness Program</span>
+        <div id="rt-lang-mount"></div>
+        <button type="button" class="vd-theme-toggle" id="btnTheme" aria-label="Toggle light/dark theme">
+          <svg class="vd-theme-icon vd-theme-icon--sun" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 000-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+          <svg class="vd-theme-icon vd-theme-icon--moon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+        </button>
       </div>
     </div>
-  </div>
 
-  <!-- ============ DASHBOARD ============ -->
-  <div class="rt-dashboard" id="rt-dashboard" style="display:none">
-    <!-- Windshield / Background — Real image with layered overlays -->
-    <div class="rt-windshield" aria-hidden="true">
-      <img src="images/dashboard-bg.png" alt="" class="rt-windshield-img" />
-      <div class="rt-windshield-overlay"></div>
-      <div class="rt-windshield-vignette"></div>
+    <!-- DESTINATIONS button — anchored to car dashboard screen -->
+    <div class="vd-layer vd-layer-ui" id="layerUi">
+      <button type="button" class="vd-btn-nav" id="btnNav" aria-label="Open course destinations">
+        <svg class="vd-btn-nav-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" fill="currentColor"/>
+        </svg>
+        <span class="vd-btn-nav-label" data-es="DESTINOS">DESTINATIONS</span>
+      </button>
     </div>
 
-    <!-- Dashboard Frame -->
-    <div class="rt-dash-frame">
+    <!-- Destination overlay -->
+    <div class="vd-layer vd-layer-overlay" id="layerOverlay" aria-hidden="true">
+      <div class="vd-panel" role="dialog" aria-labelledby="dest-heading">
 
-      <!-- Top Bar: GPS Header -->
-      <header class="rt-gps-header" role="banner">
-        <div class="rt-gps-left">
-          <span class="rt-gps-label">Orlando, FL</span>
-        </div>
-        <div class="rt-gps-center">
-          <h1 class="rt-course-title">U.S. Market Readiness Program</h1>
-        </div>
-        <div class="rt-gps-right">
-          <div class="rt-gps-progress-mini">
-            <span class="rt-odometer-value" id="rt-mini-pct">0</span><span class="rt-odometer-unit">%</span>
+        <header class="vd-panel-header">
+          <div class="vd-panel-header-text">
+            <h1 id="dest-heading" class="vd-panel-title" data-es="Seleccione Su Destino">Select Your Destination</h1>
+            <p class="vd-panel-subtitle" data-es="Programa de Preparación para el Mercado de EE.UU.">U.S. Market Readiness Program</p>
           </div>
-        </div>
-      </header>
+          <button type="button" class="vd-panel-close" id="btnClose" aria-label="Close navigation">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            </svg>
+          </button>
+        </header>
 
-      <!-- Main Content Area -->
-      <main id="main-content" class="rt-gps-main" role="main">
+        <nav class="vd-dest-list" id="vdList" aria-label="Course destinations">
 
-        <!-- GPS Screen — positioned over the car's infotainment display -->
-        <div class="rt-gps-screen">
-          <div class="rt-gps-screen-bezel">
-            <h2 class="rt-gps-screen-title">Where to?</h2>
-            <p class="rt-gps-screen-sub">Pick a destination</p>
+          <!-- Module 0: Start Here -->
+          <a href="lesson-0-1.html" class="vd-dest" style="--accent: #4a6741" data-module="0" data-lessons="1">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num vd-dest-num--star">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+            </span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Comience Aquí">Start Here</span>
+              <span class="vd-dest-sub" data-es="Qué Esperar y Cómo Usar Este Programa">What To Expect &amp; How To Use This Program</span>
+            </span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
 
-            <!-- Destination Pins — inside the GPS screen -->
-            <nav class="rt-gps-pins" aria-label="Course destinations">
-              <!-- Start Here pin -->
-              <div class="rt-gps-pin rt-gps-pin--start" data-module-index="0" data-module-id="module-0" data-lesson-ids="lesson-0-1" data-total-lessons="1">
-                <a href="lesson-0-1.html" class="rt-pin-dot rt-pin-dot--start" aria-label="Start Here — Review" style="--pin-color: #4a6741">
-                  <span class="rt-pin-icon" style="background: linear-gradient(135deg, #4a6741 0%, #2d4a22 100%)">
-                    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 4 L24 44 M16 12 L32 12 M14 20 L34 20 M12 28 L36 28 M10 36 L38 36 M20 4 L28 4" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
-                  </span>
-                  <span class="rt-pin-num">
-                    <svg viewBox="0 0 16 16" width="10" height="10" fill="currentColor"><polygon points="8,1 10,6 15,6.5 11,10 12.5,15 8,12 3.5,15 5,10 1,6.5 6,6"/></svg>
-                  </span>
-                  <span class="rt-pin-status" data-status="explored"></span>
-                </a>
-              </div>
+          <!-- Module 1: Orlando Downtown (has transition video) -->
+          <a href="lesson-1-1.html" class="vd-dest" style="--accent: #1e3a5f" data-module="1" data-lessons="3" data-transition="video/downtown.mp4">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">1</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Centro de Orlando">Orlando Downtown</span>
+              <span class="vd-dest-sub" data-es="Abriendo Puertas a Su Negocio">Getting Your Foot in the Door</span>
+            </span>
+            <span class="vd-dest-meta">3</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 2: Financial District -->
+          <a href="lesson-2-1.html" class="vd-dest" style="--accent: #2c5282" data-module="2" data-lessons="3">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">2</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Distrito Financiero">Financial District</span>
+              <span class="vd-dest-sub" data-es="Cuide Su Dinero">Watch Your Money</span>
+            </span>
+            <span class="vd-dest-meta">3</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 3: Cape Canaveral -->
+          <a href="lesson-3-1.html" class="vd-dest" style="--accent: #553c7b" data-module="3" data-lessons="3">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">3</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Cabo Cañaveral">Cape Canaveral</span>
+              <span class="vd-dest-sub" data-es="Protegiendo Lo Que Está Construyendo">Protecting What You're Building</span>
+            </span>
+            <span class="vd-dest-meta">3</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 4: Theme Parks -->
+          <a href="lesson-4-1.html" class="vd-dest" style="--accent: #c05621" data-module="4" data-lessons="3">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">4</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Parques Temáticos">Theme Park District</span>
+              <span class="vd-dest-sub" data-es="Construyendo Su Equipo">Building Your Team</span>
+            </span>
+            <span class="vd-dest-meta">3</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 5: The Port -->
+          <a href="lesson-5-1.html" class="vd-dest" style="--accent: #2b6cb0" data-module="5" data-lessons="2">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">5</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Puerto Cañaveral">Port Canaveral</span>
+              <span class="vd-dest-sub" data-es="Llegando a Clientes en EE.UU.">Reaching U.S. Customers</span>
+            </span>
+            <span class="vd-dest-meta">2</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 6: The Beach -->
+          <a href="lesson-6-1.html" class="vd-dest" style="--accent: #d69e2e" data-module="6" data-lessons="3">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">6</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Playa Cocoa">Cocoa Beach</span>
+              <span class="vd-dest-sub" data-es="Cómo Funcionan Los Negocios Aquí">How Business Actually Works Here</span>
+            </span>
+            <span class="vd-dest-meta">3</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 7: The Springs -->
+          <a href="lesson-7-1.html" class="vd-dest" style="--accent: #276749" data-module="7" data-lessons="4">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">7</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Manantial Blue Spring">Blue Spring</span>
+              <span class="vd-dest-sub" data-es="No Está Solo — Recursos y Redes">You're Not Alone</span>
+            </span>
+            <span class="vd-dest-meta">4</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+          <!-- Module 8: UCF Campus -->
+          <a href="lesson-8-1.html" class="vd-dest" style="--accent: #b7791f" data-module="8" data-lessons="3">
+            <span class="vd-dest-bar" aria-hidden="true"></span>
+            <span class="vd-dest-num">8</span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Campus UCF">UCF Campus</span>
+              <span class="vd-dest-sub" data-es="¿Es EE.UU. Adecuado Para Usted?">Is the U.S. Right for You?</span>
+            </span>
+            <span class="vd-dest-meta">3</span>
+            <span class="vd-dest-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </span>
+          </a>
+
+        </nav>
 
 
-            <div class="rt-gps-pin" data-module-index="1" data-module-id="module-1" data-lesson-ids="lesson-1-1,lesson-1-2,lesson-1-3" data-total-lessons="3">
-              <a href="lesson-1-1.html" class="rt-pin-dot" aria-label="Getting Your Foot in the Door - 3 stops" style="--pin-color: #1e3a5f">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="8" y="18" width="8" height="26" rx="1" fill="currentColor" opacity="0.8"/><rect x="20" y="8" width="8" height="36" rx="1" fill="currentColor"/><rect x="32" y="14" width="8" height="30" rx="1" fill="currentColor" opacity="0.7"/><rect x="10" y="22" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="22" y="12" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="34" y="18" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/></svg>
-                </span>
-                <span class="rt-pin-num">1</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-1-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)"></div>
-                    <span class="rt-pin-card-badge">Downtown Orlando</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">Getting Your Foot in the Door</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Choosing Your U.S. Business Entity</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Registering with SunBiz — Step by Step</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Banking Basics for International Founders</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="2" data-module-id="module-2" data-lesson-ids="lesson-2-1,lesson-2-2,lesson-2-3" data-total-lessons="3">
-              <a href="lesson-2-1.html" class="rt-pin-dot" aria-label="Watch Your Money - 3 stops" style="--pin-color: #2c5282">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="14" y="12" width="20" height="28" rx="2" fill="currentColor" opacity="0.7"/><path d="M18 20 h12 M18 26 h12 M18 32 h8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="14" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M22 12 v4 M24 11 v6 M26 12 v4" stroke="currentColor" stroke-width="1.5"/></svg>
-                </span>
-                <span class="rt-pin-num">2</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-2-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #2c5282 0%, #1a365d 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%)"></div>
-                    <span class="rt-pin-card-badge">Financial District</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">Watch Your Money</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Federal and State Taxes — What You Actually Owe</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Sales Tax, Accounting, and Keeping the Books</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Banking Deep Dive — The Reality for International Founders</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="3" data-module-id="module-3" data-lesson-ids="lesson-3-1,lesson-3-2,lesson-3-3" data-total-lessons="3">
-              <a href="lesson-3-1.html" class="rt-pin-dot" aria-label="Protecting What You're Building - 3 stops" style="--pin-color: #553c7b">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
-                </span>
-                <span class="rt-pin-num">3</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-3-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #553c7b 0%, #3b2363 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)"></div>
-                    <span class="rt-pin-card-badge">Cape Canaveral</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">Protecting What You're Building</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>U.S. Intellectual Property — Copyright, Trademark, Patent</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Contracts, Insurance, and Regulatory Exposure</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>When to Bring In a Lawyer — And What It Costs</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="4" data-module-id="module-4" data-lesson-ids="lesson-4-1,lesson-4-2,lesson-4-3" data-total-lessons="3">
-              <a href="lesson-4-1.html" class="rt-pin-dot" aria-label="Building Your Team - 3 stops" style="--pin-color: #c05621">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
-                </span>
-                <span class="rt-pin-num">4</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-4-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #c05621 0%, #9c4221 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)"></div>
-                    <span class="rt-pin-card-badge">Theme Park District</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">Building Your Team</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Your First U.S. Hire — Contractor vs. Employee</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Visa Pathways — What's Actually Realistic</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Payroll, Taxes, and Employer Obligations</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="5" data-module-id="module-5" data-lesson-ids="lesson-5-1,lesson-5-2,lesson-5-3" data-total-lessons="3">
-              <a href="lesson-5-1.html" class="rt-pin-dot" aria-label="Reaching U.S. Customers - 3 stops" style="--pin-color: #2b6cb0">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
-                </span>
-                <span class="rt-pin-num">5</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-5-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)"></div>
-                    <span class="rt-pin-card-badge">Port Canaveral</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">Reaching U.S. Customers</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Why Your Product Probably Needs to Change</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>U.S. Customer Acquisition — How Americans Buy</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Central Florida — Your Market Opportunity</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="6" data-module-id="module-6" data-lesson-ids="lesson-6-1,lesson-6-2,lesson-6-3" data-total-lessons="3">
-              <a href="lesson-6-1.html" class="rt-pin-dot" aria-label="How Business Actually Works Here - 3 stops" style="--pin-color: #d69e2e">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="14" r="8" fill="currentColor" opacity="0.8"/><path d="M8 38 Q16 28 24 32 Q32 36 40 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M6 42 Q18 34 28 36 Q36 38 42 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.4"/><line x1="24" y1="6" x2="24" y2="2" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="30" y1="8" x2="34" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="18" y1="8" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></svg>
-                </span>
-                <span class="rt-pin-num">6</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-6-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)"></div>
-                    <span class="rt-pin-card-badge">Cocoa Beach</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">How Business Actually Works Here</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Speed, Directness, and Trust Signals</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Meeting Etiquette, Negotiation, and Follow-Through</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Cultural Missteps That Cost Real Money</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="7" data-module-id="module-7" data-lesson-ids="lesson-7-1,lesson-7-2,lesson-7-3,lesson-7-4" data-total-lessons="4">
-              <a href="lesson-7-1.html" class="rt-pin-dot" aria-label="You're Not Alone - 4 stops" style="--pin-color: #276749">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #276749 0%, #1a4731 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M16 8 Q12 16 16 24 Q20 32 16 40" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M24 6 Q20 14 24 22 Q28 30 24 38" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8"/><path d="M32 10 Q28 18 32 26 Q36 34 32 42" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><circle cx="20" cy="16" r="2" fill="currentColor" opacity="0.3"/><circle cx="28" cy="28" r="2" fill="currentColor" opacity="0.3"/></svg>
-                </span>
-                <span class="rt-pin-num">7</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-7-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #276749 0%, #1a4731 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #276749 0%, #1a4731 100%)"></div>
-                    <span class="rt-pin-card-badge">Blue Spring</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">You're Not Alone</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Key Organizations — Free Help You Didn't Know Existed</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Why Central Florida — The Data Behind the Choice</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>UCF BIP Programs — Your Next Step</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>UCF BIP Programs — Your Next Step</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">4 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="rt-gps-pin" data-module-index="8" data-module-id="module-8" data-lesson-ids="lesson-8-1,lesson-8-2,lesson-8-3" data-total-lessons="3">
-              <a href="lesson-8-1.html" class="rt-pin-dot" aria-label="Wrap-Up — Is the U.S. Right for You? - 3 stops" style="--pin-color: #1e3a5f">
-                <span class="rt-pin-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">
-                  <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
-                </span>
-                <span class="rt-pin-num">8</span>
-                <span class="rt-pin-status" data-status="not-visited"></span>
-              </a>
-              <div class="rt-pin-detail">
-                <div class="rt-pin-connector"></div>
-                <div class="rt-pin-card">
-                  <div class="rt-pin-card-hero">
-                    <img src="images/lesson-8-1-hero.png" alt="" onerror="this.parentElement.style.background='linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)'" />
-                    <div class="rt-pin-card-hero-overlay" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)"></div>
-                    <span class="rt-pin-card-badge">UCF Campus</span>
-                  </div>
-                  <div class="rt-pin-card-body">
-                    <h3 class="rt-pin-card-title">Wrap-Up — Is the U.S. Right for You?</h3>
-                    <ul class="rt-pin-card-lessons"><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Your Readiness — And What Comes Next</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Resource Downloads &amp; Digital Credential</li><li class="rt-pin-lesson"><span class="rt-pin-lesson-dot"></span>Next Steps — Your UCF BIP Pathway</li></ul>
-                    <div class="rt-pin-card-footer">
-                      <span class="rt-pin-card-count">3 stops</span>
-                      <span class="rt-pin-card-cta">Explore <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </nav>
-          </div>
-        </div>
-
-      </main>
+      </div>
     </div>
+
+    <!-- Transition video layer (plays before navigating to module) -->
+    <div class="vd-transition" id="vdTransition" aria-hidden="true">
+      <video class="vd-transition-video" id="vdTransitionVideo" preload="auto" playsinline></video>
+    </div>
+
   </div>
 
-  <script src="js/roadtrip-dashboard.js"></script>
+  <script src="js/rt-language.js"></script>
+  <script src="js/video-dashboard.js"></script>
 </body>
 </html>

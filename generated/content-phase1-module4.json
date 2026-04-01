@@ -611,54 +611,20 @@
           "sectionId": "text-4-3-1"
         },
         {
-          "type": "data-visualization",
-          "id": "dataviz-4-3",
-          "title": "The True Cost of a $60,000 Employee",
-          "chartType": "stacked-bar-with-breakdown",
-          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 620px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">The True Cost of a $60,000 Employee</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Base salary plus each employer obligation layer</p><div style=\"display: flex; gap: 28px; align-items: flex-end;\"><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salary<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Without Health</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #1A3A5C;\">$66,410</div><div style=\"font-size: 0.72rem; color: #666;\">10.7% over salary</div></div><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salary<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div><div style=\"height: 14px; background: #48B07A;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">With Health Ins.</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #D4622B;\">$71,410</div><div style=\"font-size: 0.72rem; color: #666;\">19% over salary</div></div><div style=\"flex: 1; min-width: 0;\"><div style=\"display: flex; flex-direction: column; gap: 8px;\"><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #1A3A5C; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$60,000</strong> Base Salary</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #2C5F8A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$4,590</strong> FICA (7.65%)</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #E8A838; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$420</strong> FUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #F5C842; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$200</strong> FL SUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #D4622B; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$1,200</strong> Workers' Comp</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #48B07A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$5,000</strong> Health Insurance</span></div></div></div></div><div style=\"margin-top: 20px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\"><strong>Budget 1.15x to 1.30x</strong> the base salary for your true hiring cost.</div></div>",
-          "data": {
-            "baseSalary": 60000,
-            "layers": [
-              {
-                "label": "Base Salary",
-                "value": 60000,
-                "color": "#1A3A5C"
-              },
-              {
-                "label": "FICA (Social Security + Medicare)",
-                "value": 4590,
-                "percent": "7.65%",
-                "color": "#2C5F8A"
-              },
-              {
-                "label": "FUTA (Federal Unemployment)",
-                "value": 420,
-                "color": "#E8A838"
-              },
-              {
-                "label": "SUTA (Florida Unemployment)",
-                "value": 200,
-                "note": "avg new employer",
-                "color": "#F5C842"
-              },
-              {
-                "label": "Workers' Comp Insurance",
-                "value": 1200,
-                "note": "office work avg",
-                "color": "#D4622B"
-              },
-              {
-                "label": "Health Insurance",
-                "value": 5000,
-                "note": "employer contribution avg",
-                "color": "#48B07A"
-              }
-            ],
-            "totalWithoutHealth": "$66,410 (10.7% over salary)",
-            "totalWithHealth": "$71,410 (19% over salary)",
-            "insight": "Budget 1.15x to 1.30x the base salary for your true hiring cost."
-          },
-          "accessibilityNote": "Stacked vertical bar chart showing the true cost of a $60,000 employee. Two bars compare total cost without and with health insurance. Base Salary is $60,000. FICA adds $4,590 (7.65%). FUTA adds $420. Florida SUTA adds $200. Workers' Compensation adds $1,200. Health Insurance adds $5,000. Total without health insurance is $66,410 (10.7% over salary). Total with health insurance is $71,410 (19% over salary). Key insight: budget 1.15x to 1.30x the base salary for your true hiring cost."
+          "type": "simulation",
+          "id": "sim-4-3-payroll",
+          "simId": "sim-employee-cost",
+          "title": "Employee Cost Calculator",
+          "titleEs": "Calculadora de Costo del Empleado",
+          "description": "Enter a salary, pick your industry, and see the full employer cost — FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
+          "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
+          "replaces": "dataviz-4-3",
+          "scriptFile": "js/rt-simulations.js",
+          "inputs": [
+            {"id": "sim-salary", "type": "number", "label": "Annual Salary", "labelEs": "Salario Anual", "default": 60000},
+            {"id": "sim-industry", "type": "select", "label": "Industry", "labelEs": "Industria", "options": ["General", "Construction", "Healthcare", "Tech", "Retail"]},
+            {"id": "sim-health-toggle", "type": "toggle", "label": "Include Health Insurance", "labelEs": "Incluir Seguro de Salud"}
+          ]
         },
         {
           "type": "callout",
@@ -752,12 +718,11 @@
           ]
         },
         {
-          "type": "exercise",
+          "type": "simulation-replaced",
           "id": "ex-4-3-1",
           "title": "Calculate Your First Employee's True Cost",
-          "placement": "after-section",
-          "sectionId": "text-4-3-3",
-          "instructions": "<p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p>"
+          "replacedBy": "sim-4-3-payroll",
+          "note": "This exercise has been replaced by the interactive Employee Cost Calculator simulation (sim-4-3-payroll)."
         },
         {
           "type": "key-takeaway",

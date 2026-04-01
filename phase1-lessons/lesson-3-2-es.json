@@ -176,12 +176,21 @@
       ]
     },
     {
-      "type": "exercise",
-      "id": "ex-3-2-1",
-      "title": "Ejercicio: Su Evaluación de Riesgos",
-      "placement": "after-section",
-      "sectionId": "text-3-2-3",
-      "content": "<p>Liste sus 3 principales riesgos de negocio en el mercado estadounidense. Para cada riesgo, identifique:</p>\n\n<ol><li>Qué tipo de seguro o protección legal aborda este riesgo</li><li>Si lo necesita antes de lanzar o puede esperar</li><li>El costo aproximado basado en las tablas de esta lección</li></ol>\n\n<p>Use esta lista cuando hable con un corredor de seguros. Tener una imagen clara de sus riesgos hace la conversación más rápida y la cobertura más precisa.</p>"
+      "type": "simulation",
+      "id": "sim-3-2-insurance",
+      "simId": "sim-insurance",
+      "title": "Constructor de Portafolio de Seguros",
+      "description": "Ahora arme SU paquete de seguros. Seleccione su perfil de negocio y vea qué pólizas necesita.",
+      "replaces": "ex-3-2-1",
+      "placement": "after-infographic",
+      "afterId": "ig-3-2-insurance",
+      "scriptFile": "js/rt-simulations.js",
+      "inputs": [
+        {"id": "sim-biz-type", "type": "select", "label": "Tipo de Negocio", "options": ["Professional Services", "Technology / SaaS", "Retail", "Food & Beverage", "Construction", "General / Other"]},
+        {"id": "sim-emp-count", "type": "number", "label": "Número de Empleados", "default": 0},
+        {"id": "sim-client-facing", "type": "toggle", "label": "Trabajo presencial con clientes"},
+        {"id": "sim-physical-space", "type": "toggle", "label": "Oficina o espacio físico"}
+      ]
     },
     {
       "type": "key-takeaway",
