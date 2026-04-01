@@ -1,0 +1,200 @@
+{
+  "lessonId": "lesson-4-3",
+  "moduleId": "module-4",
+  "landscapeTheme": "Theme Park",
+  "title": "Nómina, Impuestos y Obligaciones del Empleador",
+  "duration": 6,
+  "objectives": [
+    "Describir los requisitos básicos de configuración de nómina y las obligaciones fiscales del empleador",
+    "Identificar las protecciones requeridas por el empleador (compensación laboral, seguro de desempleo)",
+    "Estimar el costo real de un empleado más allá de su salario"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-4-3-1",
+      "title": "Operando el Parque: Nómina, Impuestos y el Costo Real de Cada Miembro del Equipo",
+      "content": "<p>Ahora que tiene su pase tras bambalinas resuelto, es hora de ver lo que realmente cuesta mantener al equipo funcionando.</p>\n\n<p>Cada atracción en el distrito de entretenimiento tiene un presupuesto operativo que va mucho más allá de los salarios. Hay inspecciones de seguridad, primas de seguros, equipos de mantenimiento y cumplimiento regulatorio. Contratar en EE.UU. funciona de la misma manera: el salario es solo el precio de la entrada. El costo real incluye una serie de impuestos, seguros y obligaciones que se acumulan rápidamente.</p>\n\n<p>¿Cuánto cuesta realmente un empleado de $55,000? Si adivinó $55,000, ya le faltan $11,000. Una fundadora mexicana contrató a su primera empleada en Orlando a $55,000, y luego descubrió que el costo real era cercano a $66,000 una vez que los impuestos del empleador, la compensación laboral y un estipendio de seguro de salud añadieron aproximadamente un 20%.</p>\n\n<p>¿Qué significa esto en el día a día? El precio de la entrada es solo la admisión — tras bambalinas, cada atracción tiene mantenimiento, inspecciones de seguridad y seguros. Con cada empleado funciona igual. En muchos países, los costos del empleador son una tarifa única. En EE.UU., usted tiene múltiples obligaciones: <strong>FICA del empleador</strong> (Seguridad Social + Medicare) al 7.65%. <strong>FUTA</strong> a aproximadamente $420/empleado/año. <strong>SUTA de Florida</strong> de $18 a $378/año. <strong>Compensación laboral</strong>, requerida en Florida para 4+ empleados, de $500 a $2,000/año para trabajo de oficina.</p>",
+      "wordCount": 186
+    },
+    {
+      "type": "table",
+      "id": "table-4-3-1",
+      "title": "Desglose de Costos del Empleador — Lo Que Se Suma al Salario",
+      "table": {
+        "headers": [
+          "Obligación",
+          "Tasa o Costo",
+          "Ejemplo sobre Salario de $60,000"
+        ],
+        "rows": [
+          [
+            "FICA del Empleador (Seguridad Social + Medicare)",
+            "7.65% del salario",
+            "$4,590/año"
+          ],
+          [
+            "Desempleo Federal (FUTA)",
+            "6% sobre los primeros $7,000 (efectivamente ~$420 después del crédito estatal)",
+            "~$420/año"
+          ],
+          [
+            "Desempleo Estatal de Florida (SUTA)",
+            "Varía según historial del empleador",
+            "$18–$378/año (empleador nuevo)"
+          ],
+          [
+            "Seguro de Compensación Laboral",
+            "Varía según riesgo de la industria",
+            "$500–$2,000/año (trabajo de oficina)"
+          ],
+          [
+            "Seguro de Salud (opcional pero esperado)",
+            "Contribución del empleador si se ofrece",
+            "$3,000–$7,000/año por empleado"
+          ],
+          [
+            "Costo Total Adicional (sin seguro de salud)",
+            "~12–15% sobre el salario",
+            "$65,500–$67,400/año"
+          ],
+          [
+            "Costo Total Adicional (con seguro de salud)",
+            "~20–30% sobre el salario",
+            "$68,500–$74,400/año"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-4-3-1"
+    },
+    {
+      "type": "data-visualization",
+      "id": "dataviz-4-3",
+      "title": "El Costo Real de un Empleado de $60,000",
+      "chartType": "stacked-bar-with-breakdown",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 620px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">El Costo Real de un Empleado de $60,000</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Salario base más cada capa de obligaciones del empleador</p><div style=\"display: flex; gap: 28px; align-items: flex-end;\"><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salario<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Sin Seguro de Salud</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #1A3A5C;\">$66,410</div><div style=\"font-size: 0.72rem; color: #666;\">10.7% sobre el salario</div></div><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salario<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div><div style=\"height: 14px; background: #48B07A;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Con Seguro de Salud</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #D4622B;\">$71,410</div><div style=\"font-size: 0.72rem; color: #666;\">19% sobre el salario</div></div><div style=\"flex: 1; min-width: 0;\"><div style=\"display: flex; flex-direction: column; gap: 8px;\"><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #1A3A5C; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$60,000</strong> Salario Base</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #2C5F8A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$4,590</strong> FICA (7.65%)</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #E8A838; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$420</strong> FUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #F5C842; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$200</strong> FL SUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #D4622B; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$1,200</strong> Comp. Laboral</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #48B07A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$5,000</strong> Seguro de Salud</span></div></div></div></div><div style=\"margin-top: 20px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\"><strong>Presupueste 1.15x a 1.30x</strong> del salario base para su costo real de contratación.</div></div>",
+      "data": {
+        "baseSalary": 60000,
+        "layers": [
+          { "label": "Salario Base", "value": 60000, "color": "#1A3A5C" },
+          { "label": "FICA (Seguridad Social + Medicare)", "value": 4590, "percent": "7.65%", "color": "#2C5F8A" },
+          { "label": "FUTA (Desempleo Federal)", "value": 420, "color": "#E8A838" },
+          { "label": "SUTA (Desempleo de Florida)", "value": 200, "note": "promedio empleador nuevo", "color": "#F5C842" },
+          { "label": "Seguro de Compensación Laboral", "value": 1200, "note": "promedio trabajo de oficina", "color": "#D4622B" },
+          { "label": "Seguro de Salud", "value": 5000, "note": "contribución promedio del empleador", "color": "#48B07A" }
+        ],
+        "totalWithoutHealth": "$66,410 (10.7% sobre el salario)",
+        "totalWithHealth": "$71,410 (19% sobre el salario)",
+        "insight": "Presupueste 1.15x a 1.30x del salario base para su costo real de contratación."
+      },
+      "accessibilityNote": "Gráfico de barras apiladas verticales que muestra el costo real de un empleado de $60,000. Dos barras comparan el costo total sin y con seguro de salud. El Salario Base es $60,000. FICA suma $4,590 (7.65%). FUTA suma $420. SUTA de Florida suma $200. Compensación Laboral suma $1,200. Seguro de Salud suma $5,000. Total sin seguro de salud es $66,410 (10.7% sobre el salario). Total con seguro de salud es $71,410 (19% sobre el salario). Punto clave: presupueste 1.15x a 1.30x del salario base para su costo real de contratación."
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-3-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>Florida es el tercer estado más grande de EE.UU. por empleo, y Central Florida es uno de sus mercados laborales de más rápido crecimiento. El área metropolitana de Orlando sumó más de 45,000 empleos en un solo año reciente, muchos en servicios profesionales, tecnología y salud. Para los fundadores, este crecimiento significa un mercado de talento competitivo donde entender los costos reales del empleador y ofrecer beneficios competitivos no es opcional. Es la forma de atraer a las personas que hacen funcionar su negocio.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-4-3-2",
+      "title": "Use un Servicio de Nómina — En Serio",
+      "content": "<p>Un fundador peruano procesó la nómina manualmente, calculó la retención incorrectamente durante dos trimestres, presentó los formularios 941 tarde y recibió multas del IRS por un total de $1,800. Se cambió a Gusto y el problema desapareció.</p>\n\n<p>Esta es la lección práctica. Incluso los parques temáticos más grandes no procesan su propia nómina internamente — contratan especialistas para manejar la complejidad. Su negocio debería hacer lo mismo. Un servicio de nómina automatiza los cálculos de impuestos, depósito directo, preparación de W-2 y presentaciones trimestrales. A principios de 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/mes + $6/empleado.</li><li><strong>ADP Run:</strong> $59+/mes + por empleado.</li><li><strong>QuickBooks Payroll:</strong> $45/mes + $6/empleado.</li></ul>\n\n<p>Una fundadora rumana que procesaba la nómina manualmente en Bucarest asumió que el mismo enfoque funcionaría en Florida: después de dos trimestres haciendo malabares con FICA, FUTA, SUTA y compensación laboral, se cambió a Gusto y lo llamó \"los mejores $50 al mes que gasto.\"</p>",
+      "wordCount": 116
+    },
+    {
+      "type": "checklist",
+      "id": "int-4-3-1",
+      "title": "Lista de Verificación para la Primera Configuración de Nómina",
+      "items": [
+        "Registrarse para el Impuesto de Reempleo de Florida (seguro de desempleo)",
+        "Obtener seguro de compensación laboral (requerido con 4+ empleados)",
+        "Elegir un proveedor de nómina (se recomiendan Gusto, ADP o Paychex)",
+        "Recopilar los formularios W-4 e I-9 de cada empleado",
+        "Configurar depósito directo y calendario de pagos",
+        "Verificar la clasificación de contratista vs. empleado para cada trabajador",
+        "Publicar los avisos de leyes laborales requeridos en el lugar de trabajo",
+        "Agendar las fechas límite de impuestos de nómina trimestrales (presentaciones 941)"
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-3-1",
+      "variant": "before-you-spend",
+      "title": "Antes de Gastar: Las Multas por Impuestos de Nómina Son Serias",
+      "content": "<p>Aquí es donde se pone serio. El IRS trata los impuestos de nómina no pagados como una <strong>sanción de recuperación de fondos fiduciarios</strong>. Esta es una de las pocas obligaciones fiscales que no se pueden descargar en una bancarrota. Si usted retiene impuestos del cheque de su empleado pero no envía ese dinero al IRS, puede ser responsable personalmente incluso si su empresa es una LLC o corporación. La multa es el 100% del monto no pagado, más intereses. Un servicio de nómina elimina este riesgo por menos que el costo de una sola notificación de sanción.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-4-3-3",
+      "title": "Lo Que los Empleados Estadounidenses Esperan Más Allá del Cheque",
+      "content": "<p>Las reglas legales son el mínimo. Los parques temáticos retienen a sus mejores artistas ofreciendo beneficios — descuentos en comida, horarios flexibles, pases gratuitos. Los empleadores estadounidenses compiten por talento de la misma manera: los beneficios son la forma de evitar que las personas se vayan al parque de al lado. Si usted no los ofrece, los candidatos calificados eligen a un competidor que sí lo hace.</p>\n\n<p>¿Qué significa esto para usted? El <strong>tiempo libre pagado (PTO)</strong> no es obligatorio a nivel federal, pero la mayoría de los empleadores ofrecen 10–15 días/año. Florida no exige <strong>licencia por enfermedad</strong> pagada, pero 3–5 días es lo estándar.</p>\n\n<p>El <strong>seguro de salud</strong> no es obligatorio para empresas con menos de 50 empleados, pero los candidatos suelen preguntar por él en las entrevistas. Considere un estipendio ($200–$500/mes) si aún no puede ofrecer cobertura grupal.</p>\n\n<p>Los <strong>beneficios de jubilación</strong> (401k) no se esperan en las etapas más tempranas. Otros beneficios valorados incluyen arreglos de trabajo flexibles y presupuestos de desarrollo profesional.</p>",
+      "wordCount": 115
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-3-latam",
+      "variant": "latam-supplement",
+      "title": "Recursos para América Latina — Contratación y Nómina",
+      "content": "<p>Los fundadores latinoamericanos en Central Florida tienen ventajas y recursos específicos para la contratación:</p>\n\n<ul><li><strong>Prospera:</strong> Ofrece talleres sobre los fundamentos de la ley laboral estadounidense para emprendedores hispanos, incluyendo clasificación de trabajadores, configuración de nómina y requisitos de cumplimiento.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Lo conecta con consultores de recursos humanos bilingües y proveedores de nómina que entienden las necesidades de los propietarios de negocios internacionales.</li><li><strong>Red del UCF BIP:</strong> Referencias a abogados laborales con experiencia con fundadores internacionales, y acceso a la fuente de talento de UCF para reclutar graduados bilingües.</li></ul>\n\n<p>La gran fuerza laboral bilingüe de Central Florida significa que a menudo puede encontrar empleados que sirvan de puente entre las operaciones de su mercado de origen y su equipo en EE.UU., una ventaja significativa al coordinar entre países.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-4-3",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Un empleado gana un salario base de $50,000 por año. Usando el multiplicador de costo del empleador de 1.15 a 1.30, ¿cuál es el costo total anual aproximado para el empleador?",
+          "options": [
+            "$50,000 — el salario es el único costo",
+            "$52,500 — agregue 5% por impuestos",
+            "$57,500 a $65,000 — salario más impuestos del empleador, seguros y beneficios potenciales",
+            "$75,000 a $100,000 — el empleo en EE.UU. es extremadamente costoso"
+          ],
+          "correctAnswer": 2,
+          "explanation": "El multiplicador de costo del empleador de 1.15 a 1.30 incluye los impuestos FICA del empleador (7.65%), impuestos de desempleo federal y estatal, seguro de compensación laboral y beneficios opcionales. Sobre un salario de $50,000, esto significa $57,500 a $65,000 en costo total anual. La cifra exacta depende de su industria, estado y paquete de beneficios."
+        },
+        {
+          "stem": "Una fundadora ha estado calculando la nómina manualmente para sus tres empleados usando hojas de cálculo. Presentó sus formularios trimestrales 941 con dos semanas de retraso. ¿Cuál es la consecuencia más probable?",
+          "options": [
+            "Nada — el IRS proporciona un período de gracia para pequeñas empresas en su primer año",
+            "Notificaciones de multas del IRS por presentación tardía, más posibles intereses sobre impuestos de retención no pagados",
+            "Una carta de advertencia sin sanción financiera para infractores primerizos",
+            "Revocación automática del EIN de la empresa y la licencia comercial"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El IRS impone multas e intereses por presentaciones tardías de impuestos de nómina. No existe un período de gracia ni una exención para infractores primerizos en el caso de impuestos de nómina. Los impuestos de nómina no pagados se tratan como sanciones de recuperación de fondos fiduciarios, lo que significa que la fundadora puede ser responsable personalmente. Un servicio de nómina como Gusto o QuickBooks Payroll ($40-$100/mes) automatiza las presentaciones y previene estos errores costosos."
+        },
+        {
+          "stem": "Una fundadora de Filipinas contrata a su quinta empleada en su oficina de Orlando. Ya tiene un servicio de nómina, retiene impuestos federales y estatales, y paga el FICA del empleador. Su contador le pregunta si tiene compensación laboral y seguro de desempleo. ¿Qué afirmación es correcta sobre sus obligaciones?",
+          "options": [
+            "La compensación laboral es opcional en Florida independientemente del número de empleados, por lo que solo necesita seguro de desempleo",
+            "Necesita seguro de desempleo pero puede esperar con la compensación laboral hasta tener 10 o más empleados",
+            "Ni la compensación laboral ni el seguro de desempleo son requeridos en Florida para empresas con menos de 50 empleados",
+            "Debe tener ambos — la compensación laboral es obligatoria en Florida con 4 o más empleados, y el registro del impuesto de reempleo (desempleo) de Florida es requerido cuando tiene empleados"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Florida requiere seguro de compensación laboral para empresas con cuatro o más empleados (uno o más en construcción). El registro del impuesto de reempleo de Florida (seguro de desempleo) es requerido tan pronto como tenga empleados. Con cinco empleados, esta fundadora debe tener ambos. La opción A es incorrecta porque la compensación laboral no es opcional con su cantidad de empleados. La opción B da el umbral equivocado. La opción C afirma incorrectamente que ambos son opcionales para pequeñas empresas."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-4-3-1",
+      "title": "Calcule el Costo Real de Su Primer Empleado",
+      "placement": "after-section",
+      "sectionId": "text-4-3-3",
+      "instructions": "<p>Usando la tabla de desglose de costos de esta lección, estime el costo anual real de su primer empleado planificado en EE.UU.:</p><ol><li>Escriba el salario base que espera pagar (use las tarifas del mercado de Central Florida de la lección 4-1 si no está seguro).</li><li>Agregue el FICA del empleador: multiplique el salario por 0.0765.</li><li>Agregue FUTA: aproximadamente $420.</li><li>Agregue SUTA de Florida: estime $200 para un empleador nuevo.</li><li>Agregue compensación laboral: estime $1,000 para trabajo de oficina.</li><li>Opcional: agregue contribución de seguro de salud ($3,000–$7,000/año).</li><li>Sume estos números. ¿Cómo se compara con el salario solo?</li></ol><p>Lleve esta estimación a su planificación financiera para operaciones en EE.UU. Si el total lo sorprende, exactamente para eso existe este ejercicio.</p>"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-4-3-1",
+      "title": "Punto Clave",
+      "content": "<p>La conclusión es clara. Un empleado cuesta entre 15 y 30% más que su salario base — al igual que cada atracción cuesta más de operar de lo que sugiere el precio visible. Use un servicio de nómina desde el primer día. Presupueste los impuestos del empleador, seguros y beneficios antes de hacer cualquier oferta. Las cuentas son simples una vez que conoce las piezas, y un servicio de nómina maneja los detalles para que usted pueda concentrarse en construir su negocio.</p>"
+    }
+  ]
+}

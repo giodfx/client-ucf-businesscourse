@@ -1,0 +1,180 @@
+{
+  "lessonId": "lesson-6-1",
+  "moduleId": "module-6",
+  "landscapeTheme": "Beach",
+  "title": "Estilos de Comunicación — Lo que los Estadounidenses Realmente Quieren Decir",
+  "duration": 7,
+  "objectives": [
+    "Explicar cómo la comunicación empresarial en EE.UU. difiere de otras culturas (franqueza, brevedad, sensibilidad al tiempo)",
+    "Identificar las señales de confianza que buscan los socios comerciales estadounidenses (capacidad de respuesta, cumplimiento, transparencia)",
+    "Describir cómo construir credibilidad como fundador internacional en entornos de negocios en EE.UU."
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-6-1-1",
+      "title": "Bienvenido a la Playa — Donde el Agua Parece Tranquila",
+      "content": "<p>Imagínese llegando a una amplia playa de Florida. La arena está cálida, el ambiente es relajado y todos parecen casuales y despreocupados. Pero entre al agua y sentirá el tirón de corrientes fuertes justo debajo de la superficie. La cultura empresarial de EE.UU. funciona de la misma manera. Se ve informal — nombres de pila, ropa casual, \"vamos a tomar un café\" — pero debajo hay expectativas serias sobre velocidad, cumplimiento y profesionalismo.</p>\n\n<p>La contacto estadounidense de una fundadora brasileña dijo: \"Esto es genial, definitivamente avancemos.\" Ella gastó $3,000 en honorarios legales redactando un acuerdo de asociación. Dos semanas después se enteró de que \"avancemos\" significaba \"estoy lo suficientemente interesado para seguir conversando.\"</p>\n\n<p>Aprender a distinguir entre un compromiso real y un interés cortés es de lo que trata esta lección. Una vez que vea el patrón, leerá estas situaciones con precisión cada vez.</p>",
+      "wordCount": 338
+    },
+    {
+      "type": "image",
+      "id": "img-6-1-communication",
+      "title": "Dos Fundadores en Reunión — Estilos de Comunicación",
+      "src": "images/scenarios/lesson-6-1-meeting-communication.jpg",
+      "alt": "Ilustración de dos profesionales con estilos de comunicación contrastantes reunidos en una mesa redonda en un espacio de coworking moderno, uno inclinándose hacia adelante con gestos abiertos y el otro tomando notas cuidadosamente."
+    },
+    {
+      "type": "text",
+      "id": "text-6-1-direct-indirect",
+      "title": "Las Partes Directas y las Corrientes Ocultas",
+      "content": "<h4>Las Partes Directas</h4>\n\n<p>Cuando un estadounidense le da un número específico, una fecha o un punto de acción, tómelo literalmente. \"Envíeme la propuesta para el viernes\" significa el viernes. \"Nuestro presupuesto es $50,000\" significa $50,000. Los correos electrónicos de negocios en EE.UU. son cortos — tres a cinco oraciones. Iguale ese estilo.</p>\n\n<h4>Las Corrientes Ocultas</h4>\n\n<p>Los estadounidenses evitan decir \"no\" directamente en los negocios. Usan frases suavizantes que los fundadores frecuentemente malinterpretan. El patrón: cuando los estadounidenses están interesados, toman <strong>acciones claras</strong> — proponen fechas, envían seguimientos y hacen presentaciones. Cuando no lo están, usted escucha elogios vagos y cronogramas abiertos. Las tarjetas de estudio a continuación decodifican las frases más comunes.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-1-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>Florida tiene más de 1,350 millas de costa, solo superada por Alaska entre los estados de EE.UU. Esa cultura costera moldea cómo los habitantes de Florida hacen negocios: los códigos de vestimenta tienden a lo casual, las reuniones ocurren tomando café en vez de en salas de conferencia, y saludar por el nombre de pila es estándar incluso con ejecutivos. Pero no confunda ese estilo relajado con falta de seriedad. Las expectativas debajo son igual de exigentes que en cualquier otra parte del país.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-1-1",
+      "variant": "theme-understand-culture",
+      "title": "Velocidad Equivale a Profesionalismo",
+      "content": "<p>Esto toma desprevenidos a muchos fundadores. En los negocios de EE.UU., <strong>el tiempo de respuesta es una señal de confianza</strong>. Una respuesta de correo electrónico el mismo día le dice a su contacto que usted es organizado, confiable y serio. Esperar tres días para responder — aunque el retraso sea normal en su cultura de origen — indica que usted no está interesado o no tiene las cosas bajo control. Intente responder en menos de 4 horas durante el horario comercial. Incluso un rápido \"Recibido, le envío los detalles mañana\" mantiene la relación activa.</p>"
+    },
+    {
+      "type": "flashcards",
+      "id": "int-6-1-1",
+      "title": "Frases de Negocios Estadounidenses — Lo que Realmente Significan",
+      "cards": [
+        {
+          "front": "\"Let's circle back on that\" (Volvamos a eso después)",
+          "back": "Traducción: Esto no es prioridad en este momento. No se quede esperando."
+        },
+        {
+          "front": "\"That's really interesting\" (Eso es muy interesante)",
+          "back": "Traducción: Estoy siendo cortés, pero no necesariamente estoy convencido. Necesita ofrecer más valor."
+        },
+        {
+          "front": "\"Let me check with my team\" (Déjeme consultar con mi equipo)",
+          "back": "Traducción: Necesito consultarlo con mi jefe/comité. La decisión no es solo mía."
+        },
+        {
+          "front": "\"We should get coffee sometime\" (Deberíamos tomar un café algún día)",
+          "back": "Traducción: Una cortesía social — NO una invitación concreta. No haga seguimiento para agendarlo."
+        },
+        {
+          "front": "\"I'll try to make it work\" (Trataré de que funcione)",
+          "back": "Traducción: Probablemente no va a funcionar, pero no quiero decir que no directamente."
+        },
+        {
+          "front": "\"Let's take this offline\" (Hablemos de esto por separado)",
+          "back": "Traducción: Esto es demasiado detallado para esta reunión. Discutámoslo por separado (y realmente hacerlo)."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "id": "matching-6-1-phrases",
+      "title": "Descifre la Frase — ¿Qué Quieren Decir Realmente?",
+      "instruction": "Empareje cada frase de negocios estadounidense con su significado real.",
+      "pairs": [
+        {
+          "left": "Let's circle back on this",
+          "right": "No está interesado en este momento"
+        },
+        {
+          "left": "That's really interesting",
+          "right": "Rechazo cortés — no habrá seguimiento"
+        },
+        {
+          "left": "Let me check with my team",
+          "right": "Pausa sutil — probablemente sigue adelante sin usted"
+        },
+        {
+          "left": "We should get coffee sometime",
+          "right": "Cortesía social — no es una invitación real"
+        },
+        {
+          "left": "Let's put a pin in that",
+          "right": "Este tema está efectivamente muerto"
+        },
+        {
+          "left": "Send me the proposal by Friday",
+          "right": "Fecha límite literal — quieren decir el viernes"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-6-1-2",
+      "title": "Construir Confianza como Alguien de Afuera",
+      "content": "<p>Leer las corrientes requiere práctica — pero cada compromiso que cumple demuestra que usted puede nadar en estas aguas. En EE.UU., la confianza viene del <strong>cumplimiento</strong>, no de las relaciones. Como lo expresó un fundador colombiano: \"En mi país, invitaría a un socio a cenar tres veces antes de discutir términos. Aquí, él quería un prototipo funcional antes de aceptar almorzar.\"</p>\n\n<h4>Las Tres Acciones que Construyen Confianza en los Negocios de EE.UU.</h4><ol><li><strong>Responda rápido.</strong> Respuestas el mismo día. Confirme la recepción de correos electrónicos incluso cuando necesite más tiempo.</li><li><strong>Cumpla con los compromisos pequeños.</strong> Envíe el documento el lunes si prometió el martes. Cada fecha límite cumplida es un depósito de credibilidad.</li><li><strong>Sea transparente con los problemas.</strong> \"Tuvimos un retraso — aquí está nuestro nuevo cronograma\" genera más confianza que el silencio seguido de excusas.</li></ol>\n\n<p>¿La conclusión? Así como leer la marea antes de nadar, leer las señales de confianza en EE.UU. se reduce a la observación. Observe lo que las personas hacen después de las reuniones, no lo que dicen durante ellas. Una fundadora indonesia que vendía software de cadena de suministro en Orlando se adaptó liderando con una propuesta de valor clara y números específicos en lugar de la construcción prolongada de relaciones que usaba en Jakarta, y su tasa de cierre mejoró significativamente.</p>\n\n<h4>Marcadores de Credibilidad para Fundadores Internacionales</h4>\n\n<p>Estos son sus salvavidas — las cosas que lo mantienen a flote cuando los estadounidenses están decidiendo si confiar en usted. Reduzca el riesgo percibido con:</p>\n\n<ul><li><strong>Señales de presencia local</strong>. Número de teléfono de EE.UU., dirección comercial, LLC registrada.</li><li><strong>Presencia digital profesional</strong>. Perfil de LinkedIn limpio, sitio web profesional, correo electrónico empresarial (no Gmail).</li><li><strong>Referencias y prueba social</strong>: Incluso un solo testimonio de un cliente en EE.UU. tiene un peso significativo.</li><li><strong>Comunicación clara y concisa</strong>. Correos electrónicos que van al grano. Propuestas bien organizadas.</li></ul>",
+      "wordCount": 212
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Errores Comunes que Cometen los Fundadores Internacionales — Comunicación",
+      "content": "<p>Note estos patrones:</p><ul><li><strong>Confundir la calidez estadounidense con un acuerdo de negocios.</strong> Una reunión cálida y un apretón de manos no son un negocio cerrado. Busque acciones de seguimiento claras, no sonrisas.</li><li><strong>Dedicar demasiado tiempo a la charla casual antes de ir al negocio.</strong> Las introducciones sociales largas pueden parecer falta de enfoque. Llegue al propósito del negocio en los primeros minutos de una reunión.</li><li><strong>No enviar seguimiento por escrito después de las reuniones.</strong> En EE.UU., si no está por escrito, no sucedió. Siempre envíe un correo de resumen dentro de las 24 horas.</li><li><strong>Asumir que el lenguaje positivo significa que un negocio se está cerrando.</strong> Los estadounidenses son generosos con los elogios durante las reuniones — \"Me encanta esto\" o \"Esto es increíble\" puede simplemente significar \"Encuentro esto interesante\". La prueba real viene después: ¿Enviaron un seguimiento? ¿Le presentaron a un tomador de decisiones? <strong>Las acciones después de la reunión le dicen más que las palabras durante la reunión.</strong></li></ul>"
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-6-1-1",
+      "title": "Auditoría de Su Estilo de Comunicación",
+      "placement": "after-section",
+      "sectionId": "text-6-1-2",
+      "instructions": "<p>Revise sus últimos 3 correos electrónicos o mensajes de negocios a contactos en EE.UU. Para cada uno, evalúese:</p><ul><li>¿Respondió dentro de las 24 horas? ___</li><li>¿Incluyó pasos siguientes específicos o puntos de acción? ___</li><li>¿Hizo seguimiento por escrito después de alguna conversación verbal? ___</li></ul><p>Ahora lo difícil:</p><ul><li><strong>Un hábito de comunicación que voy a cambiar a partir de esta semana:</strong> ___</li></ul><p>Muchos fundadores encuentran que la velocidad es la solución más fácil con el mayor impacto. Comience por ahí si no está seguro.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-6-1",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Un contacto de negocios estadounidense dice: \"Déjame consultarlo con mi equipo y te respondo.\" Pasa una semana sin seguimiento. ¿Qué significa esto más probablemente?",
+          "options": [
+            "No están interesados pero evitaron decir que no directamente",
+            "Están discutiendo activamente su propuesta con su equipo",
+            "Debería esperar otra semana antes de hacer seguimiento",
+            "El equipo rechazó la propuesta y enviará una declinación formal"
+          ],
+          "correctAnswer": 0,
+          "explanation": "En los negocios de EE.UU., 'Déjame consultarlo con mi equipo' seguido de silencio generalmente significa que la persona siguió adelante. El interés genuino resulta en acciones de seguimiento específicas dentro de unos pocos días. Si pasa una semana, un breve seguimiento de su parte es apropiado, pero ajuste sus expectativas."
+        },
+        {
+          "stem": "¿Cuál acción es la señal de confianza más fuerte en la cultura empresarial de EE.UU.?",
+          "options": [
+            "Enviar un regalo después de una primera reunión para mostrar agradecimiento",
+            "Escribir un correo electrónico detallado y formal con saludos elaborados",
+            "Programar una cena social larga antes de discutir términos de negocios",
+            "Entregar un documento prometido antes de la fecha límite acordada"
+          ],
+          "correctAnswer": 3,
+          "explanation": "En la cultura empresarial de EE.UU., la confianza se construye a través de la ejecución confiable. Entregar un compromiso antes de lo programado demuestra confiabilidad y profesionalismo. Los regalos pueden malinterpretarse, las cenas sociales vienen después de establecer rapport profesional, y los correos excesivamente formales pueden sentirse fuera de tono con las normas estadounidenses."
+        },
+        {
+          "stem": "Una fundadora internacional quiere construir credibilidad con un nuevo contacto de negocios en EE.UU. Se ha reunido con ellos una vez y la conversación fue bien. ¿Qué combinación de acciones construiría la confianza más efectivamente en el contexto de negocios de EE.UU.?",
+          "options": [
+            "Enviar un regalo considerado a su oficina e invitarlos a una cena larga para profundizar la relación personal",
+            "Esperar a que ellos se comuniquen primero para no parecer demasiado ansioso, luego responder con un correo detallado de varias páginas",
+            "Enviar un correo de resumen dentro de las 24 horas, entregar la propuesta prometida antes de la fecha límite del martes, y configurar un número de teléfono de EE.UU. y un perfil profesional de LinkedIn",
+            "Publicar sobre la reunión en redes sociales para mostrar a otros contactos potenciales que está construyendo alianzas en EE.UU."
+          ],
+          "correctAnswer": 2,
+          "explanation": "En los negocios de EE.UU., la confianza se construye a través de la ejecución confiable y señales profesionales. Un correo de resumen oportuno, entrega anticipada de compromisos y marcadores de presencia local (teléfono de EE.UU., LinkedIn profesional) reducen el riesgo percibido de trabajar con un fundador internacional. Los regalos en primeras reuniones pueden ser incómodos, esperar indica desinterés, y publicar reuniones tempranas puede sentirse presuntuoso."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-6-1-1",
+      "title": "Conclusión Clave",
+      "content": "<p>La playa está abierta para todos, pero las corrientes son reales. Aprenda a leerlas antes de adentrarse. Sea directo, sea rápido y cumpla. En los negocios de EE.UU., la confianza se gana con acciones, no con títulos, diplomas o lazos personales. Observe lo que los estadounidenses <strong>hacen</strong> después de las reuniones, no lo que <strong>dicen</strong> durante ellas. Cuando alguien está genuinamente interesado, verá pasos siguientes específicos. Cuando no lo están, escuchará cumplidos vagos y cronogramas abiertos.</p>"
+    }
+  ]
+}

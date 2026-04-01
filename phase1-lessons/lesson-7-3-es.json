@@ -1,0 +1,261 @@
+{
+  "lessonId": "lesson-7-3",
+  "moduleId": "module-7",
+  "landscapeTheme": "River Springs",
+  "title": "Central Florida en Números — Datos Económicos",
+  "duration": 4,
+  "objectives": [
+    "Interpretar indicadores económicos clave (PIB, crecimiento poblacional, tasas de formación empresarial) que hacen a Central Florida competitiva para startups",
+    "Comparar la estructura de costos de Central Florida con Miami, NYC, Silicon Valley y Austin usando datos específicos",
+    "Identificar los principales clústeres industriales de Central Florida y su escala, métricas clave y tendencias de crecimiento"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-7-3-1",
+      "title": "Midiendo el Flujo, Central Florida en Números",
+      "content": "<p>En la última lección exploró la cultura y las conexiones del ecosistema empresarial de Central Florida — la mentalidad colaborativa, la comunidad bilingüe, las personas que responden correos electrónicos. Ahora es momento de ver los números que lo respaldan. La fuerza de un manantial natural se mide por cuántos galones por segundo empuja a la superficie. La fuerza de un ecosistema se mide por lo que produce.</p>\n\n<p>Los números cuentan una historia que la mayoría de los pitch decks pasan por alto. Un fondo semilla de $500,000 le da 10 meses en Silicon Valley, pero 17 meses en Central Florida. Esa diferencia puede significar la brecha entre encontrar el ajuste producto-mercado y quedarse sin efectivo. Esta lección es la hoja de cálculo: los números para citar cuando construya un caso para su junta, cofundador o familia. Todos los datos son de principios de 2026 a menos que se indique lo contrario.</p>\n\n<h4>Población y Crecimiento</h4>\n\n<p>Desglosemos esto. Metro Orlando-Kissimmee-Sanford: ~2.8 millones de residentes. Top cinco de las áreas metropolitanas de mayor crecimiento en EE.UU. durante los últimos cinco años — impulsando demanda de consumo, oferta de trabajadores y crecimiento de bienes raíces comerciales.</p>\n\n<h4>PIB Regional</h4>\n\n<p>El PIB de Metro Orlando supera los $150 mil millones anuales, distribuido entre turismo ($75B), tecnología, aeroespacial, salud, educación y construcción.</p>\n\n<h4>Formación Empresarial</h4>\n\n<p>Florida procesa más de 300,000 nuevos registros empresariales cada año a través de SunBiz — top tres a nivel nacional. Registro de LLC en Florida: $125. Para referencia: California cobra $70 más un impuesto de franquicia anual de $800, Nueva York cobra $200 más requisitos bienales. El impuesto estatal sobre la renta de cero en Florida cubre todos los ingresos empresariales pass-through.</p>",
+      "wordCount": 205
+    },
+    {
+      "type": "table",
+      "id": "table-7-3-1",
+      "title": "Comparación de Costos — Central Florida vs. Otros Puntos de Entrada a EE.UU.",
+      "table": {
+        "headers": [
+          "Factor",
+          "Central Florida (Orlando)",
+          "Miami",
+          "New York City",
+          "Silicon Valley (San Jose)",
+          "Austin"
+        ],
+        "rows": [
+          [
+            "Espacio de Oficina (por pie²/año)",
+            "$25–$35",
+            "$40–$55",
+            "$60–$85",
+            "$55–$75",
+            "$40–$55"
+          ],
+          [
+            "Escritorio Coworking (mensual)",
+            "$200–$400",
+            "$350–$600",
+            "$500–$900",
+            "$400–$700",
+            "$300–$500"
+          ],
+          [
+            "Salario Desarrollador de Software (promedio media carrera)",
+            "$85K–$100K",
+            "$95K–$115K",
+            "$120K–$145K",
+            "$130K–$160K",
+            "$110K–$130K"
+          ],
+          [
+            "Apartamento 1 Habitación (mensual)",
+            "$1,400–$1,800",
+            "$2,000–$2,800",
+            "$2,800–$4,000",
+            "$2,500–$3,500",
+            "$1,600–$2,200"
+          ],
+          [
+            "Impuesto Estatal sobre la Renta",
+            "0%",
+            "0%",
+            "4%–10.9%",
+            "1%–13.3%",
+            "0%"
+          ],
+          [
+            "Formación de LLC (registro estatal)",
+            "$125",
+            "$125",
+            "$200 + bienal $9",
+            "$70 + $800 anual",
+            "$300"
+          ],
+          [
+            "Índice de Costo de Vida",
+            "98 (cerca del promedio nacional)",
+            "120",
+            "187",
+            "172",
+            "108"
+          ]
+        ]
+      },
+      "styling": {
+        "headerBackground": "#2d5f8a",
+        "headerTextColor": "#ffffff",
+        "alternatingRows": true,
+        "borderColor": "#2d5f8a"
+      },
+      "placement": "after-section",
+      "sectionId": "text-7-3-1"
+    },
+    {
+      "type": "data-visualization",
+      "id": "dataviz-7-3a",
+      "title": "Cómo se Compara Central Florida — Comparación de Costos",
+      "chartType": "grouped-bar",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 780px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">How Central Florida Stacks Up — Cost Comparison</h3><p style=\"margin: 0 0 18px 0; font-size: 0.85rem; color: #666;\">5 cities across key cost metrics (lower is better)</p><div style=\"display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;\"><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Central FL</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Miami</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>NYC</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #D4622B; border-radius: 2px; display: inline-block;\"></span>Silicon Valley</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #48B07A; border-radius: 2px; display: inline-block;\"></span>Austin</span></div><div style=\"display: flex; flex-direction: column; gap: 18px;\"><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Office Space ($/sqft/yr)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 41%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$30</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 66%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$48</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$73</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 89%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$65</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 66%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$48</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Coworking ($/mo)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 43%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$300</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 68%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$475</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$700</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 79%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$550</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 57%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$400</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Dev Salary ($K)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 63%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$92K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 72%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$105K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 92%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$133K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$145K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 83%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$120K</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">1-BR Rent ($/mo)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 47%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$1.6K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 71%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$2.4K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$3.4K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 88%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$3.0K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 56%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$1.9K</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Cost of Living Index</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 52%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">98</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 64%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">120</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">187</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 92%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">172</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 58%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">108</div></div></div></div></div><div style=\"margin-top: 18px; background: #FFF8E7; border-left: 4px solid #E8A838; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem;\">Central Florida's COL Index of <strong>98</strong> (near national average) means your startup capital stretches further.</div><div style=\"margin-top: 10px; background: #1A3A5C; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; text-align: center;\">A <strong>$500K seed fund</strong> lasts 10 months in Silicon Valley vs. <strong>16–17 months</strong> in Central Florida.</div></div>",
+      "data": {
+        "categories": ["Office Space ($/sqft/yr)", "Coworking ($/mo)", "Dev Salary ($K)", "1-BR Rent ($/mo)", "COL Index"],
+        "cities": [
+          { "label": "Central Florida", "color": "#E8A838", "values": [30, 300, 92, 1600, 98], "highlight": true },
+          { "label": "Miami", "color": "#2C5F8A", "values": [48, 475, 105, 2400, 120] },
+          { "label": "NYC", "color": "#1A3A5C", "values": [73, 700, 133, 3400, 187] },
+          { "label": "Silicon Valley", "color": "#D4622B", "values": [65, 550, 145, 3000, 172] },
+          { "label": "Austin", "color": "#48B07A", "values": [48, 400, 120, 1900, 108] }
+        ],
+        "footer": "Central Florida's Cost of Living Index of 98 (near national average) means your startup capital stretches further.",
+        "highlight": "A $500K seed fund lasts 10 months in Silicon Valley vs. 16-17 months in Central Florida."
+      },
+      "accessibilityNote": "Gráfico de barras agrupadas comparando 5 ciudades en 5 métricas de costo. Espacio de oficina por pie cuadrado al año: Central Florida $30, Miami $48, NYC $73, Silicon Valley $65, Austin $48. Coworking mensual: Central Florida $300, Miami $475, NYC $700, Silicon Valley $550, Austin $400. Salario de desarrollador: Central Florida $92K, Miami $105K, NYC $133K, Silicon Valley $145K, Austin $120K. Alquiler de un dormitorio mensual: Central Florida $1,600, Miami $2,400, NYC $3,400, Silicon Valley $3,000, Austin $1,900. Índice de costo de vida: Central Florida 98, Miami 120, NYC 187, Silicon Valley 172, Austin 108. Central Florida está resaltada como el costo más bajo en la mayoría de las métricas. Un fondo semilla de $500K dura 10 meses en Silicon Valley versus 16 a 17 meses en Central Florida."
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-3-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>Los manantiales naturales de Florida descargan colectivamente más de 8 mil millones de galones de agua por día, suficiente para llenar miles de piscinas olímpicas. Ese flujo constante y confiable sostiene sistemas fluviales enteros y la fauna que depende de ellos. La economía de Central Florida funciona con un impulso similar: más de 300,000 nuevos registros empresariales por año, $150 mil millones en PIB anual, y una población que crece más rápido que la mayoría de las áreas metropolitanas de EE.UU. Los números simplemente siguen fluyendo.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-7-3-2",
+      "title": "Dónde Están los Empleos y los Ingresos",
+      "content": "<p>La economía de Central Florida no es solo parques temáticos y turismo. La región ha desarrollado clústeres industriales distintos, cada uno con ingresos reales, creación de empleo y trayectorias de crecimiento que importan para su decisión de entrada al mercado. Los datos a continuación muestran dónde se concentran las oportunidades.</p>",
+      "wordCount": 148
+    },
+    {
+      "type": "table",
+      "id": "table-7-3-2",
+      "title": "Clústeres Industriales de Central Florida — Datos Clave",
+      "table": {
+        "headers": [
+          "Clúster Industrial",
+          "Empleo / Escala",
+          "Métrica Clave",
+          "Tendencia de Crecimiento"
+        ],
+        "rows": [
+          [
+            "Simulación y Entrenamiento",
+            "200+ empresas",
+            "~$6B en contratos anuales",
+            "Estable federal + crecimiento comercial"
+          ],
+          [
+            "Aeroespacial y Defensa",
+            "SpaceX, Blue Origin, L3Harris, Lockheed",
+            "28 lanzamientos orbitales (2025)",
+            "Acelerando (espacio comercial)"
+          ],
+          [
+            "Ciencias de la Vida y Tecnología de Salud",
+            "90,000+ empleados de salud",
+            "~15% crecimiento anual de inversión desde 2022",
+            "En expansión (Lake Nona Medical City)"
+          ],
+          [
+            "Tecnología y Fintech",
+            "Centros de Siemens, Deloitte, KPMG",
+            "34% crecimiento más rápido que el promedio de EE.UU.",
+            "Fuerte (10K+ graduados STEM/año)"
+          ],
+          [
+            "Tecnología de Hospitalidad",
+            "75M+ visitantes anuales",
+            "$75B+ PIB turístico",
+            "Estable (demanda impulsada por infraestructura)"
+          ],
+          [
+            "AgTech",
+            "Corredor agrícola de Central FL",
+            "Alianzas de investigación UF/IFAS",
+            "Emergente (agricultura de precisión, procesamiento de alimentos)"
+          ]
+        ]
+      },
+      "styling": {
+        "headerBackground": "#2d5f8a",
+        "headerTextColor": "#ffffff",
+        "alternatingRows": true,
+        "borderColor": "#2d5f8a"
+      },
+      "placement": "after-section",
+      "sectionId": "text-7-3-2"
+    },
+    {
+      "type": "data-visualization",
+      "id": "dataviz-7-3b",
+      "title": "Clústeres Industriales de Central Florida — Escala de un Vistazo",
+      "chartType": "horizontal-bar-with-icons",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Central Florida Industry Clusters — Scale at a Glance</h3><p style=\"margin: 0 0 20px 0; font-size: 0.85rem; color: #666;\">Relative scale of each cluster with growth trend</p><div style=\"display: flex; flex-direction: column; gap: 14px;\"><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Hospitality Technology</span><span style=\"font-size: 0.73rem; color: #666;\">$75B+ tourism GDP</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 100%; height: 100%; background: #E8A838; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">$75B+ &mdash; Stable</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Life Sciences &amp; Health</span><span style=\"font-size: 0.73rem; color: #666;\">90K+ healthcare employees</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 82%; height: 100%; background: #48B07A; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">90K+ jobs &mdash; Expanding</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Technology &amp; Fintech</span><span style=\"font-size: 0.73rem; color: #666;\">34% faster growth than U.S. avg</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 65%; height: 100%; background: #D4622B; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">+34% &mdash; Strong</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Aerospace &amp; Defense</span><span style=\"font-size: 0.73rem; color: #666;\">28 orbital launches (2025)</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 55%; height: 100%; background: #2C5F8A; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">28 launches &mdash; Accelerating</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Simulation &amp; Training</span><span style=\"font-size: 0.73rem; color: #666;\">$6B annual contracts</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 42%; height: 100%; background: #1A3A5C; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">$6B &mdash; Steady</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">AgTech</span><span style=\"font-size: 0.73rem; color: #666;\">UF/IFAS research partnerships</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 22%; height: 100%; background: #F5C842; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #2D2D2D;\">Emerging</span></div></div></div></div><div style=\"margin-top: 16px; font-size: 0.75rem; color: #999; font-style: italic;\">Bar lengths scaled for visual comparison — see table above for exact figures.</div></div>",
+      "data": {
+        "clusters": [
+          { "label": "Hospitality Technology", "metric": "$75B+ tourism GDP", "value": 75, "growth": "stable", "color": "#E8A838" },
+          { "label": "Simulation & Training", "metric": "$6B annual contracts", "value": 6, "growth": "steady", "color": "#1A3A5C" },
+          { "label": "Aerospace & Defense", "metric": "28 orbital launches (2025)", "value": 28, "growth": "accelerating", "color": "#2C5F8A" },
+          { "label": "Life Sciences & Health", "metric": "90K+ healthcare employees", "value": 90, "growth": "expanding", "color": "#48B07A" },
+          { "label": "Technology & Fintech", "metric": "34% faster growth than U.S. avg", "value": 34, "growth": "strong", "color": "#D4622B" },
+          { "label": "AgTech", "metric": "UF/IFAS research partnerships", "value": 5, "growth": "emerging", "color": "#F5C842" }
+        ],
+        "note": "Values scaled for visual comparison — see table below for exact figures."
+      },
+      "accessibilityNote": "Gráfico de barras horizontales mostrando seis clústeres industriales de Central Florida clasificados por escala relativa. Tecnología de hospitalidad lidera con más de $75B en PIB turístico y crecimiento estable. Ciencias de la vida y salud tiene más de 90,000 empleados de salud y está en expansión. Tecnología y fintech crece 34% más rápido que el promedio de EE.UU. con fuerte impulso. Aeroespacial y defensa tuvo 28 lanzamientos orbitales en 2025 y está acelerando. Simulación y entrenamiento genera $6B en contratos anuales con crecimiento estable. AgTech es un clúster emergente con alianzas de investigación UF/IFAS. Las longitudes de las barras están escaladas para comparación visual."
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-3",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Un fundador tiene $500,000 en financiamiento semilla y gasta $50,000/mes en Silicon Valley. Según los datos de costos en esta lección, ¿aproximadamente cuántos meses EXTRA de pista ganaría al reubicarse en Central Florida?",
+          "options": [
+            "1-2 meses extra. La diferencia de costos es marginal",
+            "3-5 meses extra. Ahorros moderados en alquiler y salarios",
+            "7-10 meses extra. La tasa de gasto aproximadamente 40% menor a ~$30,000/mes extiende los $500K significativamente",
+            "18+ meses extra — Central Florida es esencialmente gratis para operar"
+          ],
+          "correctAnswer": 2,
+          "explanation": "A $50,000/mes en Silicon Valley versus aproximadamente $30,000/mes en Central Florida (basado en los diferenciales de salario, oficina y vivienda en la comparación de costos), el fundador ahorra aproximadamente $20,000/mes. Con $500,000 en financiamiento, eso extiende la pista de 10 meses (Silicon Valley) a aproximadamente 16-17 meses (Central Florida) — aproximadamente 7 meses extra. Esa es la diferencia entre encontrar el ajuste producto-mercado y quedarse sin efectivo."
+        },
+        {
+          "stem": "¿Cuál clúster industrial de Central Florida genera aproximadamente $6 mil millones en contratos anuales y está anclado por un cuartel general de comando de la Marina de EE.UU.?",
+          "options": [
+            "Aeroespacial y Defensa, anclado por las operaciones de SpaceX y Blue Origin en Cape Canaveral",
+            "Ciencias de la Vida y Tecnología de Salud, anclado por Lake Nona Medical City y el Instituto Burnham",
+            "Simulación y Entrenamiento, anclado por NAWCTSD y más de 200 empresas en modelado, simulación y RV comercial",
+            "Tecnología de Hospitalidad, anclado por Disney, Universal y más de 450 propiedades hoteleras"
+          ],
+          "correctAnswer": 2,
+          "explanation": "El clúster de Simulación y Entrenamiento genera ~$6B en contratos anuales y está anclado por NAWCTSD (Naval Air Warfare Center Training Systems Division), haciendo de Orlando el centro mundial de modelado, simulación y entrenamiento. El clúster incluye más de 200 empresas y se está expandiendo hacia aplicaciones comerciales como RV y simulación quirúrgica."
+        },
+        {
+          "stem": "Una fundadora de Argentina tiene un equipo de tres personas y $200,000 en capital. Está comparando Central Florida y New York City como su base en EE.UU. Según los datos de costos en esta lección, ¿cuál análisis captura mejor la diferencia financiera?",
+          "options": [
+            "El índice de costo de vida de Nueva York es casi el doble que el de Central Florida (187 vs. 98), los salarios de desarrolladores son $35K-$45K más altos por contratación, y el espacio de oficina cuesta dos a tres veces más — lo que significa que sus $200K podrían cubrir aproximadamente 18 meses de operaciones en Orlando pero solo 8-10 meses en NYC",
+            "La diferencia de costos es mínima porque los salarios más altos de Nueva York se compensan con su base de clientes más grande y red de inversionistas más fuerte",
+            "Central Florida es más barata en papel, pero la falta de transporte público agrega $600/mes por empleado en costos de vehículo, eliminando efectivamente los ahorros",
+            "Ambas ciudades cobran cero impuesto estatal sobre la renta, por lo que la principal diferencia de costos se limita al alquiler de oficinas y vivienda"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Los datos muestran una brecha de costos dramática: índice de costo de vida 98 vs. 187, salarios de desarrolladores de $85K-$100K vs. $120K-$145K, espacio de oficina a $25-$35/pie² vs. $60-$85/pie², y apartamentos a $1,400-$1,800 vs. $2,800-$4,000. Si bien los costos de vehículo son una compensación real, no eliminan los ahorros. Y Nueva York sí cobra impuesto estatal sobre la renta (4%-10.9%), a diferencia de Florida."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-7-3-1",
+      "title": "Punto Clave",
+      "content": "<p>El índice de costo de vida de Central Florida (98) es casi la mitad del de Nueva York (187) y está muy por debajo del de Silicon Valley (172). Los salarios de desarrolladores van de $85K-$100K versus $130K-$160K en San Jose. Florida procesa más de 300,000 nuevos registros empresariales cada año con una tarifa de LLC de $125 y cero impuesto estatal sobre la renta. Seis clústeres industriales diversificados — desde simulación y entrenamiento ($6B) hasta aeroespacial (28 lanzamientos en 2025) hasta tecnología de hospitalidad ($75B+ en PIB turístico) — crean demanda en múltiples sectores. En la próxima lección, verá cómo el corredor comercial LATAM conecta estos datos con su oportunidad específica de mercado.</p>"
+    }
+  ]
+}

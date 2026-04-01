@@ -1,0 +1,185 @@
+{
+  "lessonId": "lesson-2-3",
+  "moduleId": "module-2",
+  "landscapeTheme": "Financial District",
+  "title": "Banca a Fondo — La Realidad para Fundadores Internacionales",
+  "duration": 8,
+  "objectives": [
+    "Identificar los requisitos de presencia física y documentación de los principales bancos de EE.UU.",
+    "Explicar por qué las cuentas bancarias son rechazadas y cómo mejorar las probabilidades de aprobación",
+    "Describir los requisitos del historial crediticio en EE.UU. y los plazos realistas para construir crédito"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-2-3-1",
+      "title": "Por Qué los Bancos Dicen No",
+      "content": "<p>Ha pasado por las oficinas de impuestos y las firmas de contabilidad. Ahora está frente al edificio más alto al final del Distrito Financiero: el banco. Esta es la parada que hace tropezar a más fundadores internacionales que cualquier otra.</p>\n\n<p>Puede formar su LLC en dos días. Pero ¿abrir una cuenta bancaria? Eso puede tomar dos meses y tres rechazos. Los bancos rechazan a fundadores internacionales por razones específicas y predecibles:</p>\n\n<ul><li><strong>Sin historial crediticio en EE.UU.</strong> El crédito de su país de origen no se transfiere. Un fundador alemán con 15 años de relación con Deutsche Bank fue rechazado por Chase porque no tenía puntaje crediticio en EE.UU.</li><li><strong>Documentos faltantes.</strong> Cada banco tiene una lista de requisitos diferente, y la mayoría no la publica claramente. Si llega sin un documento, tendrá que volver otro día.</li><li><strong>Tipo de entidad incompatible.</strong> Algunos bancos prefieren C-Corps sobre LLCs de un solo miembro. Otros no abren cuentas para entidades con menos de 30 días de existencia.</li><li><strong>Alertas por país de alto riesgo.</strong> Las reglas contra el lavado de dinero significan que fundadores de ciertos países enfrentan revisión adicional o rechazo.</li></ul>",
+      "wordCount": 330
+    },
+    {
+      "type": "image",
+      "id": "img-2-3-bank",
+      "title": "Fundador Enfrentando Rechazo Bancario",
+      "src": "images/scenarios/lesson-2-3-bank-rejection.jpg",
+      "alt": "Ilustración de un fundador parado afuera de un banco, contemplando los próximos pasos después de un rechazo."
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-what-you-can-do",
+      "title": "Lo Que Puede Hacer al Respecto",
+      "content": "<p>Una fundadora keniana de fintech aplicó en tres bancos, cada uno pidiendo más documentos KYC: prueba de dónde venían sus fondos, registros comerciales notariados, una carta de su banco en Kenya. Finalmente logró abrir su cuenta en un banco regional de Orlando con experiencia con fundadores africanos, pero el proceso tomó siete semanas.</p>\n\n<p><strong>Bancos amigables para internacionales (principios de 2026):</strong> Mercury, Relay, Centennial Bank y Valley National Bank han mostrado mayor disposición para trabajar con fundadores internacionales. Chase y Bank of America tienen requisitos más estrictos para no residentes. Siempre llame antes y confirme antes de visitar una sucursal.</p>\n\n<p><strong>Importante:</strong> Las políticas bancarias no son uniformes entre instituciones, y cambian frecuentemente. Lo que funcionó para otro fundador hace seis meses puede no aplicar a su situación hoy. Llame con anticipación, haga preguntas específicas y obtenga respuestas por escrito cuando sea posible.</p>"
+    },
+    {
+      "type": "scenario",
+      "id": "scenario-2-3-bank-rejection",
+      "title": "El Banco Dijo No — ¿Cuál Es Su Siguiente Paso?",
+      "description": "Solicitó una cuenta de cheques empresarial en un banco nacional importante. Después de dos semanas de espera, recibió un correo electrónico: 'No podemos abrir una cuenta en este momento.' Sin explicación. ¿Qué hace?",
+      "paths": [
+        {
+          "label": "Solicitar en otro banco nacional inmediatamente",
+          "outcome": "Enfoque arriesgado. Si el rechazo se debió a documentación faltante o alertas KYC, los mismos problemas lo seguirán al siguiente banco. Antes de solicitar en cualquier otro lugar, averigüe POR QUÉ fue rechazado.",
+          "isRecommended": false
+        },
+        {
+          "label": "Llamar al banco y preguntar específicamente por qué fue rechazado",
+          "outcome": "Primer paso inteligente. Los bancos no siempre están obligados a explicar, pero muchos le darán una razón general — documentos faltantes, antigüedad de la entidad o requisitos de revisión por país de origen. Esta información le dice qué corregir antes de su próxima solicitud.",
+          "isRecommended": true
+        },
+        {
+          "label": "Cambiar a un procesador de pagos como Stripe o Mercury mientras resuelve la situación",
+          "outcome": "Práctico y común. Muchos fundadores internacionales usan Mercury o Relay como su cuenta principal mientras construyen historial bancario en EE.UU. Estas plataformas fintech tienen requisitos más flexibles para no residentes. Siempre puede agregar un banco tradicional después.",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-1",
+      "variant": "reality-check",
+      "title": "Verificación de Realidad: Esto Toma Más Tiempo del Que Piensa",
+      "content": "<p>Esto es lo importante. <strong>Primera cuenta bancaria:</strong> 2 a 4 semanas si todo sale bien. Algunos fundadores reportan 6 a 8 semanas con revisión de cumplimiento adicional.</p>\n\n<p><strong>Tarjeta de crédito empresarial:</strong> 3–6 meses después de abrir la cuenta. La mayoría requiere un puntaje crediticio en EE.UU. o un depósito garantizado.</p>\n\n<p><strong>Línea de crédito empresarial:</strong> 12–18 meses de historial bancario y documentación de ingresos.</p>\n\n<p>Planifique su flujo de caja alrededor de estos plazos. No espere entrar a un banco el lunes y tener una cuenta para el viernes.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-2",
+      "title": "Construyendo Historial Crediticio en EE.UU. Desde Cero",
+      "content": "<p>Construir crédito en EE.UU. es como establecer su reputación en el Distrito Financiero. Comienza como un desconocido — nadie lo conoce. Cada transacción exitosa, cada pago a tiempo, suma a su reputación. Su puntaje crediticio en EE.UU. comienza en nada, no bajo, sino verdaderamente ausente. Muchos sistemas rechazan solicitudes cuando no existe puntaje. La buena noticia es que el área metropolitana de Orlando tiene más de 400 sucursales bancarias y ubicaciones de cooperativas de crédito, así que una vez que tenga sus documentos en orden, las opciones son abundantes. Este es el camino para construir crédito:</p>\n\n<p>Este es el punto práctico. <strong>Paso 1: Tarjeta de crédito asegurada.</strong> Deposite $500–$2,000 como garantía, úsela para compras pequeñas, pague el total mensualmente. Después de 6–12 meses, tendrá un puntaje básico. Capital One, Discover y algunas cooperativas de crédito ofrecen tarjetas aseguradas a no residentes con un ITIN.</p>\n\n<p><strong>Paso 2: Tarjeta de crédito empresarial (que no requiera crédito personal).</strong> Brex y Ramp usan su EIN e ingresos del negocio en lugar de crédito personal. Mercury ofrece una tarjeta empresarial conectada a su cuenta Mercury.</p>\n\n<p><strong>Paso 3: Cuentas para construir crédito.</strong> Servicios como Self o Grow Credit reportan pagos mensuales a las agencias de crédito, construyendo su puntaje sin una tarjeta de crédito tradicional.</p>\n\n<p>El crédito afecta más que la banca. Determina los términos de arrendamiento, los plazos de pago con proveedores (Net 30/Net 60) y el acceso a préstamos. Una fundadora peruana pagó tres meses de alquiler por adelantado ($6,000 en capital inmovilizado) porque no tenía historial crediticio en EE.UU. Comience a construir crédito el día que abra su cuenta bancaria.</p>",
+      "wordCount": 178
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-3",
+      "title": "Procesadores de Pago, Transferencias Bancarias y Movimiento de Dinero",
+      "content": "<p>Antes de salir del Distrito Financiero, deténgase en el mostrador de servicios cerca de la salida. Los procesadores de pago son como las ventanillas de servicio rápido del distrito — manejan transacciones mientras usted trabaja en obtener acceso completo a los edificios grandes. Mientras trabaja en obtener una cuenta bancaria, aún necesita aceptar pagos y mover dinero.</p>\n\n<p><strong>Stripe:</strong> Requiere una cuenta bancaria en EE.UU. para recibir pagos. La forma más rápida de aceptar pagos con tarjeta de crédito en línea. Comisión de procesamiento: 2.9% + $0.30 por transacción.</p>\n\n<p>¿El punto clave? <strong>PayPal:</strong> Se configura con un EIN y dirección en EE.UU. Útil como solución temporal, pero conocido por congelar cuentas con aumentos repentinos de transacciones. Una fundadora brasileña tuvo $12,000 congelados durante 21 días después de que un lanzamiento de producto activó la detección de fraude.</p>\n\n<p><strong>Wise (anteriormente TransferWise):</strong> Le da un número de cuenta y número de ruta en EE.UU. para pagos ACH. No es un reemplazo completo de banco, pero excelente para mover dinero entre países a tasas de cambio favorables.</p>\n\n<p>En otras palabras, elija la herramienta correcta para el trabajo. <strong>ACH vs. Wire vs. Cheque:</strong> ACH es el estándar en EE.UU. para pagos recurrentes — gratis o de bajo costo, 1–3 días hábiles. Las transferencias wire son para pagos urgentes o internacionales ($25–$50 por transferencia). La mayoría de los pagos B2B son ACH o tarjeta de crédito.</p>\n\n<p>Los costos de transferencias internacionales se acumulan rápido. Compare su banco ($30–$50 de comisión + 2–3% de margen cambiario) contra Wise ($5–$10 de comisión + tasa del mercado medio) — la diferencia puede ahorrar cientos por mes.</p>",
+      "wordCount": 182
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-2",
+      "variant": "watch-money-costs",
+      "title": "Cuide Su Dinero — Las Comisiones de Transferencias Son Reales",
+      "content": "<p>Aquí es donde se acumula. Las transferencias internacionales cuestan $25 a $50 en cada dirección a través de bancos tradicionales, más tasas de cambio desfavorables que agregan otro 1 a 3%. Las transferencias ACH son gratuitas o de bajo costo pero solo domésticas. Planifique su estrategia de movimiento de dinero: agrupe las transferencias internacionales para reducir comisiones, use Wise o servicios similares para mejores tasas, y cambie a ACH para pagos domésticos tan pronto como su cuenta bancaria en EE.UU. esté activa.</p>"
+    },
+    {
+      "type": "flashcards",
+      "id": "int-2-3-1",
+      "title": "Terminología Bancaria — Términos Clave para Fundadores Internacionales",
+      "cards": [
+        {
+          "front": "Transferencia ACH",
+          "back": "Automated Clearing House — transferencia electrónica de banco a banco. Toma 1–3 días hábiles. Comisiones bajas o nulas."
+        },
+        {
+          "front": "Transferencia Wire",
+          "back": "Transferencia bancaria el mismo día para montos grandes. Cuesta $15–$30 doméstica, $35–$50 internacional."
+        },
+        {
+          "front": "ITIN",
+          "back": "Número de Identificación Individual del Contribuyente — emitido por el IRS para no residentes que no pueden obtener un SSN."
+        },
+        {
+          "front": "KYC",
+          "back": "Know Your Customer (Conozca a Su Cliente) — proceso de verificación bancaria que requiere identificación, prueba de negocio y origen de fondos."
+        },
+        {
+          "front": "FDIC Insured",
+          "back": "Federal Deposit Insurance Corporation — protege depósitos hasta $250,000 por cuenta."
+        },
+        {
+          "front": "Chargeback",
+          "back": "El cliente disputa una transacción con tarjeta. El comerciante debe demostrar que el cargo fue legítimo o reembolsarlo."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-2-3-fund",
+      "title": "Unas Palabras Sobre Financiamiento e Inversionistas",
+      "content": "<p>De pie al borde del Distrito Financiero, puede ver la torre de inversionistas a lo lejos. La mayoría de los fundadores en etapa temprana no están listos para entrar allí todavía. Esta es una pregunta que todo fundador hace: ¿puede recaudar dinero de inversionistas estadounidenses u obtener un préstamo? Sí, pero no tan fácilmente como esperaría. La mayoría de los inversionistas en etapa temprana quieren ver <strong>tracción</strong>: clientes que pagan, crecimiento de ingresos o métricas fuertes de usuarios — antes de emitir un cheque. Una idea y un pitch deck, sin importar qué tan buenos sean, rara vez reciben financiamiento sin evidencia de demanda en el mercado estadounidense.</p>\n\n<p>¿El punto clave? Por eso la mayoría de los fundadores internacionales arrancan con recursos propios sus primeros 6–12 meses usando ahorros personales, ingresos de su país de origen o pequeñas inversiones de amigos y familiares. Construya tracción primero, luego acérquese a los inversionistas.</p>\n\n<p>¿Por qué es importante esto? La Small Business Administration (SBA) ofrece programas de préstamos populares, pero la mayoría requiere que el prestatario sea ciudadano estadounidense o titular de green card. Los fundadores no ciudadanos frecuentemente no califican, incluso con un negocio sólido en Florida. Algunos CDFIs y microprestamistas tienen menos restricciones, pero los montos son menores.</p>\n\n<p>Cubrimos las opciones de financiamiento con más profundidad en las fases 2 y 3 del programa de entrada al mercado/aterrizaje suave del UCF BIP. Planifique financiar su entrada a EE.UU. usted mismo durante el primer año.</p>",
+      "wordCount": 167
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-3-3",
+      "variant": "latam-supplement",
+      "title": "Recursos para Latinoamérica — Banca",
+      "content": "<p>Este es el punto clave para fundadores latinoamericanos. Central Florida tiene recursos bancarios diseñados para usted. Varios bancos en el área de Orlando tienen personal que habla español y están acostumbrados a trabajar con clientes internacionales. La Hispanic Chamber of Commerce of Metro Orlando organiza talleres bancarios que cubren la configuración de cuentas y la construcción de crédito. El SBDC en UCF ofrece sesiones gratuitas de asesoría financiera individual donde puede recibir orientación sobre banca, contabilidad y opciones de financiamiento específicas para su situación.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-2-3",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Un fundador internacional sin historial crediticio en EE.UU. quiere comenzar a construir crédito inmediatamente después de abrir una cuenta bancaria. ¿Cuál es el primer paso recomendado?",
+          "options": [
+            "Solicitar una línea de crédito empresarial en un banco importante",
+            "Pedir a un amigo estadounidense que lo agregue como usuario autorizado en su tarjeta de crédito",
+            "Abrir una tarjeta de crédito asegurada con un depósito en efectivo como garantía",
+            "Esperar 12 meses y luego solicitar una tarjeta de crédito estándar"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Una tarjeta de crédito asegurada es el primer paso estándar para construir crédito en EE.UU. desde cero. Deposita efectivo como garantía y usa la tarjeta para compras pequeñas, pagando el total cada mes. Solicitar una línea de crédito empresarial requiere un historial crediticio existente que los nuevos fundadores no tienen. Depender de la cuenta de un amigo no construye historial crediticio independiente a su nombre. Esperar 12 meses retrasa la construcción de crédito cuando podría comenzar de inmediato."
+        },
+        {
+          "stem": "Una fundadora peruana acaba de llegar a Orlando y quiere firmar un arrendamiento comercial para espacio de oficina. Su arrendador está pidiendo un depósito de seguridad más alto porque ella no tiene historial crediticio en EE.UU. ¿Qué debería haber hecho antes para evitar esta situación?",
+          "options": [
+            "Solicitar un préstamo SBA para demostrar estabilidad financiera",
+            "Abrir una tarjeta de crédito asegurada inmediatamente después de obtener su cuenta bancaria y usarla consistentemente durante 6-12 meses",
+            "Pedir a su banco en su país de origen que transfiera su puntaje crediticio a una agencia de crédito en EE.UU.",
+            "Pagar al arrendador en efectivo por adelantado para evitar la verificación de crédito por completo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Comenzar con una tarjeta de crédito asegurada el día que abre su cuenta bancaria construye un puntaje crediticio básico dentro de 6-12 meses. Los préstamos SBA típicamente requieren ciudadanía estadounidense o green card, por lo que la mayoría de los fundadores internacionales no califican. Los puntajes crediticios del país de origen no se transfieren a las agencias de crédito de EE.UU. Pagar en efectivo por adelantado inmoviliza capital y no resuelve el problema de fondo de no tener historial crediticio en EE.UU. para transacciones futuras."
+        },
+        {
+          "stem": "Una fundadora de Nigeria ha registrado su LLC en Florida y recibido su EIN. Planea visitar una sucursal de Chase en Orlando la próxima semana para abrir una cuenta bancaria empresarial. Tiene su pasaporte y carta de EIN listos. Basándose en lo que esta lección cubre sobre documentación y presencia física, ¿qué debería hacer antes de ir a la sucursal?",
+          "options": [
+            "No se necesita nada más — un pasaporte y carta de EIN son suficientes para cualquier banco de EE.UU.",
+            "Debería esperar hasta tener un Número de Seguro Social en EE.UU. antes de intentar abrir una cuenta",
+            "Debería llevar sus Articles of Organization pero no llamar antes ya que todas las sucursales manejan cuentas internacionales de la misma manera",
+            "Debería llamar a Chase primero para confirmar sus requisitos específicos para entidades de propietarios extranjeros, y llevar sus Articles of Organization, acuerdo operativo y prueba de dirección en EE.UU. además de su pasaporte y carta de EIN"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Los bancos tienen diferentes requisitos de documentación, y no todas las sucursales manejan cuentas de propietarios extranjeros. Llamar con anticipación para confirmar lo que Chase específicamente necesita para su situación evita viajes perdidos. Un pasaporte y EIN solos rara vez son suficientes — la mayoría de los bancos también requieren Articles of Organization, un acuerdo operativo y prueba de dirección en EE.UU. Esperar un SSN es innecesario ya que muchos bancos aceptan solo el EIN, pero debe verificar esto con la sucursal específica. Asumir que todas las sucursales funcionan igual ignora el énfasis de la lección en que la familiaridad de cada sucursal con cuentas internacionales varía ampliamente."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-2-3-1",
+      "title": "Reflexión: Su Estrategia Bancaria",
+      "placement": "after-section",
+      "sectionId": "text-2-3-fund",
+      "prompt": "¿Qué documentos tiene actualmente listos para una solicitud de cuenta bancaria en EE.UU.? ¿Qué le falta? Escriba su plan para los primeros 12 meses: ¿a cuál banco se acercará primero, cómo manejará las transferencias internacionales y cuándo comenzará a construir crédito en EE.UU.?"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-2-3-1",
+      "title": "Punto Clave",
+      "content": "<p>La banca es uno de los mayores puntos de dolor para los fundadores. Llegue a cada visita bancaria con todos sus documentos, solicite en bancos que reciban a propietarios extranjeros, y comience a construir crédito en EE.UU. desde el primer día con una tarjeta de crédito asegurada. Planifique financiarse usted mismo el primer año. Los inversionistas y los préstamos SBA tienen reglas que toman tiempo en cumplir. Las necesidades varían por banco y cambian frecuentemente, así que siempre verifique antes de solicitar. El Distrito Financiero no regala confianza — usted la gana una transacción a la vez.</p>"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "lessonId": "lesson-3-2",
+  "moduleId": "module-3",
+  "landscapeTheme": "Rocket Base",
+  "title": "Seguros y Gestión de Riesgos",
+  "duration": 7,
+  "objectives": [
+    "Describir los requisitos básicos de seguros empresariales y opciones de cobertura para operaciones en EE.UU.",
+    "Estimar costos de seguros e identificar qué pólizas se necesitan antes del lanzamiento",
+    "Explicar las áreas clave de exposición regulatoria para fundadores internacionales"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-3-2-1",
+      "title": "Protegiendo Su Negocio: Seguros y Gestión de Riesgos",
+      "content": "<p>Ahora que ha asegurado su propiedad intelectual dentro de la instalación de lanzamiento, camine hacia el ala de seguridad y cumplimiento. Ningún negocio debería operar sin seguros adecuados y gestión de riesgos.</p>\n\n<p>Un fundador de Costa Rica perdió $22,000 porque cerró un trato con un apretón de manos en vez de un contrato. En EE.UU., ese apretón de manos no vale casi nada — tres meses después, el distribuidor cambió los términos de pago y se negó a pagar las facturas pendientes. Sin un contrato firmado, el fundador no tenía poder legal. Por eso los contratos importan (cubrimos los tipos de contratos en la próxima lección), pero primero necesita entender los fundamentos de seguros y gestión de riesgos que protegen su negocio todos los días.</p>\n\n<p>Muchos fundadores internacionales se enfocan en la configuración legal — formación de entidad, PI, contratos — y olvidan protegerse contra los riesgos diarios del negocio. Una demanda sin cobertura de seguro puede cerrar su negocio. Un resbalón y caída en su oficina, un defecto de producto, un error profesional que le cuesta dinero a un cliente. El seguro es su red de seguridad para los riesgos que no puede predecir.</p>",
+      "wordCount": 152
+    },
+    {
+      "type": "infographic",
+      "style": "grid",
+      "id": "ig-3-2-insurance",
+      "title": "Business Insurance — What Coverage Do You Need?",
+      "titleEs": "Seguro Empresarial — ¿Qué Cobertura Necesitas?",
+      "cols": 3,
+      "cards": [
+        { "heading": "General Liability", "headingEs": "Responsabilidad General", "desc": "Required by most: Covers customer injuries, property damage, lawsuits. Get this FIRST.", "descEs": "Requerido por la mayoría: Cubre lesiones a clientes, daños a propiedad, demandas. Obténlo PRIMERO.", "cost": "Cost: $400–$1,500/year", "costEs": "Costo: $400–$1,500/año" },
+        { "heading": "Professional Liability / E&O", "headingEs": "Responsabilidad Profesional / E&O", "desc": "For service businesses: Covers mistakes, negligence claims, missed deadlines. Required if you give advice or provide professional services.", "descEs": "Para negocios de servicios: Cubre errores, reclamos por negligencia, plazos incumplidos. Requerido si das asesoría o servicios profesionales.", "cost": "Cost: $500–$2,500/year", "costEs": "Costo: $500–$2,500/año" },
+        { "heading": "Workers' Compensation", "headingEs": "Compensación al Trabajador", "desc": "Required in Florida (4+ employees): Covers employee injuries on the job. Cost varies by industry and payroll. Mandatory — not optional.", "descEs": "Requerido en Florida (4+ empleados): Cubre lesiones laborales. El costo varía por industria y nómina. Obligatorio — no opcional.", "cost": "Cost: varies by industry/payroll", "costEs": "Costo: varía por industria/nómina" },
+        { "heading": "Commercial Property", "headingEs": "Propiedad Comercial", "desc": "If you have a physical space: Covers equipment, inventory, office contents. Includes fire, theft, some natural disasters.", "descEs": "Si tienes un espacio físico: Cubre equipo, inventario, contenido de oficina. Incluye incendio, robo, algunos desastres naturales.", "cost": "Cost: $500–$3,000/year", "costEs": "Costo: $500–$3,000/año" },
+        { "heading": "Business Owner's Policy / BOP", "headingEs": "Póliza del Propietario / BOP", "desc": "Best value for small businesses: Bundles general liability + property insurance at a discount. Great starting point.", "descEs": "Mejor valor para pequeños negocios: Combina responsabilidad general + seguro de propiedad con descuento. Excelente punto de partida.", "cost": "Cost: $500–$2,000/year", "costEs": "Costo: $500–$2,000/año" },
+        { "heading": "Cyber Liability", "headingEs": "Responsabilidad Cibernética", "desc": "For any business handling customer data: Covers data breaches, ransomware, notification costs. Increasingly essential.", "descEs": "Para cualquier negocio que maneje datos de clientes: Cubre violaciones de datos, ransomware, costos de notificación. Cada vez más esencial.", "cost": "Cost: $500–$5,000/year", "costEs": "Costo: $500–$5,000/año" }
+      ],
+      "footer": "How to Buy: Get quotes from 3+ providers, use an independent insurance broker, review annually. Just starting? Get General Liability first. Adding employees? Add Workers' Comp. Handling data? Add Cyber Liability.",
+      "footerEs": "Cómo Comprar: Obtén cotizaciones de 3+ proveedores, usa un corredor de seguros independiente, revisa anualmente. ¿Recién empezando? Obtén Responsabilidad General primero. ¿Contratando empleados? Agrega Compensación al Trabajador. ¿Manejando datos? Agrega Responsabilidad Cibernética."
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-2-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>La Space Coast de Central Florida ha albergado más de 4,000 lanzamientos de cohetes desde 1950, incluyendo todas las misiones tripuladas de la NASA. La misma cultura de gestión de riesgos que mantiene los cohetes seguros también impulsa la industria de seguros de la región: Florida tiene uno de los mercados de seguros de propiedad más grandes del país. Para los fundadores de negocios, el paralelo es claro — así como cada lanzamiento requiere una revisión de seguridad, cada negocio necesita protección contra los riesgos que podrían dejar su operación en tierra.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-3-2-2",
+      "title": "Seguro Empresarial, Lo Que Necesita y Lo Que Puede Esperar",
+      "content": "<p>El seguro en EE.UU. no es opcional. Algunos tipos son requeridos por ley. Otros son requeridos en la práctica, ya que los clientes y arrendadores exigen prueba.</p>\n\n<p><strong>Seguro de Responsabilidad General (GL):</strong> Su póliza más importante. Cubre lesiones corporales a terceros, daños a propiedad y daños por publicidad. Costo: $400–$800/año. Muchos arrendadores y clientes B2B requieren prueba antes de trabajar con usted.</p>\n\n<p><strong>Responsabilidad Profesional / E&O:</strong> Cubre reclamos de que sus servicios profesionales causaron daño financiero — un error de software, mal asesoramiento o un plazo incumplido. Costo: $500–$2,500/año.</p>\n\n<p><strong>Compensación al Trabajador:</strong> Requerida en Florida con cuatro o más empleados (uno en construcción). El costo varía por industria y nómina.</p>\n\n<p><strong>Seguro de Propiedad Comercial:</strong> Cubre equipos, inventario y contenido de oficina. Omítalo si trabaja desde casa; obténgalo para una oficina física o almacén.</p>\n\n<p>Un fundador nigeriano descubrió que la incorporación de proveedores en EE.UU. requería prueba de $1 millón en GL y $1 millón en E&O antes de que los clientes firmaran. Presupueste para seguro antes de necesitarlo.</p>",
+      "wordCount": 147
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-2-2",
+      "variant": "common-mistake",
+      "title": "Operar Sin Seguro de Responsabilidad General",
+      "content": "<p>Aquí es donde el riesgo es real. Un resbalón y caída, un problema con el producto, un mal contrato — y usted queda personalmente expuesto si su negocio no tiene cobertura GL. Incluso si su LLC proporciona protección de responsabilidad, los tribunales pueden \"levantar el velo corporativo\" si opera sin seguro básico. GL es asequible ($400–$800/año para la mayoría de pequeños negocios) y muchos arrendadores y clientes B2B lo requieren. No lo omita.</p>"
+    },
+    {
+      "type": "accordion",
+      "id": "int-3-2-1",
+      "title": "Tipos de Seguro — Qué Cubre Cada Póliza",
+      "sections": [
+        {
+          "heading": "Seguro de Responsabilidad General",
+          "content": "**Cubre:** Lesiones corporales a terceros, daños a propiedad, daños por publicidad.\n\n**Costo:** $400–$1,500/año para pequeños negocios.\n\n**Quién lo necesita:** Casi todos los negocios. Frecuentemente requerido por arrendadores y contratos."
+        },
+        {
+          "heading": "Responsabilidad Profesional (E&O)",
+          "content": "**Cubre:** Reclamos de negligencia, errores o falta de entrega de servicios profesionales.\n\n**Costo:** $500–$3,000/año dependiendo de la industria.\n\n**Quién lo necesita:** Consultores, empresas de TI, cualquier negocio basado en servicios."
+        },
+        {
+          "heading": "Compensación al Trabajador",
+          "content": "**Cubre:** Lesiones y enfermedades de empleados en el trabajo.\n\n**Costo:** Varía por industria y tamaño de nómina.\n\n**Quién lo necesita:** Requerido en Florida si tiene 4+ empleados (construcción: 1+ empleados)."
+        },
+        {
+          "heading": "Seguro de Responsabilidad Cibernética",
+          "content": "**Cubre:** Violaciones de datos, ransomware, costos de notificación, defensa legal.\n\n**Costo:** $500–$5,000/año para pequeños negocios.\n\n**Quién lo necesita:** Cualquier negocio que almacene datos de clientes, procese pagos o dependa de tecnología."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-3-2-3",
+      "title": "Exposición Regulatoria, Industrias Que Necesitan Atención Extra",
+      "content": "<p>Algunas industrias tienen reglas adicionales que debe cumplir antes de operar en EE.UU. Las agencias reguladoras no autorizarán su negocio sin los permisos correctos, y las consecuencias del incumplimiento son severas. La economía de Central Florida abarca aeroespacial, turismo, salud, tecnología y agricultura, y cada sector trae sus propios requisitos regulatorios.</p>\n\n<p><strong>Alimentos y Bebidas:</strong> Cumplimiento con FDA (federal) y FDACS (Florida) — etiquetado, inspecciones, pruebas de producto. Una marca de café colombiana gastó $8,000 en etiquetado compatible con FDA antes de listar en Amazon.</p>\n\n<p><strong>Salud y Bienestar:</strong> Cumplimiento con HIPAA para información de salud protegida. Los dispositivos médicos necesitan autorización de FDA. La telemedicina enfrenta licencias estado por estado.</p>\n\n<p><strong>Servicios Financieros:</strong> Regulaciones de la SEC, FINRA y a nivel estatal. Las licencias de transmisión de dinero cuestan $10,000–$50,000+ en múltiples estados. Un fundador nigeriano redujo su alcance de 50 estados a cinco mercados clave, reduciendo el cumplimiento del primer año de $100,000+ a aproximadamente $25,000.</p>\n\n<p><strong>Productos para Niños:</strong> Pruebas y certificación de la CPSC — plomo, piezas pequeñas, etiquetado. Las pruebas de terceros cuestan $1,000–$5,000 por línea de producto.</p>\n\n<p>Las penalidades por operar sin permisos incluyen multas, confiscación de productos y cierres. Los asesores del SBDC y UCF BIP pueden ayudar a identificar qué regulaciones son relevantes para su negocio.</p>",
+      "wordCount": 140
+    },
+    {
+      "type": "table",
+      "id": "table-3-2-1",
+      "title": "Costos de Seguros — Qué Presupuestar",
+      "table": {
+        "headers": [
+          "Tipo de Seguro",
+          "Costo Anual (principios de 2026)",
+          "Cuándo Lo Necesita",
+          "¿Requerido?"
+        ],
+        "rows": [
+          [
+            "Responsabilidad General (GL)",
+            "$400–$800/año",
+            "Antes de firmar un arrendamiento comercial o contratos B2B",
+            "Prácticamente requerido — la mayoría de clientes y arrendadores lo exigen"
+          ],
+          [
+            "Responsabilidad Profesional (E&O)",
+            "$500–$2,500/año",
+            "Antes de prestar servicios profesionales a clientes de EE.UU.",
+            "Requerido por muchos clientes B2B en industrias de servicios"
+          ],
+          [
+            "Compensación al Trabajador",
+            "Varía por industria/nómina",
+            "Cuando contrate a su 4to empleado en Florida (1ro en construcción)",
+            "Legalmente requerido por encima del umbral de empleados"
+          ],
+          [
+            "Propiedad Comercial",
+            "$500–$2,000/año",
+            "Cuando tenga una oficina física, almacén o inventario",
+            "Requerido si tiene un arrendamiento comercial"
+          ],
+          [
+            "Responsabilidad Cibernética",
+            "$500–$1,500/año",
+            "Si maneja datos de clientes o procesa pagos",
+            "Cada vez más requerido por clientes B2B"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-3-2-3"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-3-2",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Un fundador que vende servicios de consultoría a empresas estadounidenses recibe una solicitud de prueba de seguro durante la incorporación como proveedor. ¿Cuáles dos tipos de seguro son los más probablemente requeridos?",
+          "options": [
+            "Compensación al trabajador y seguro de propiedad comercial",
+            "Responsabilidad general y responsabilidad profesional (E&O)",
+            "Responsabilidad cibernética y seguro de directores y oficiales (D&O)",
+            "Seguro de salud y seguro de discapacidad"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las empresas estadounidenses comúnmente requieren que los proveedores tengan responsabilidad general (para riesgos físicos y de propiedad) y responsabilidad profesional/E&O (para daño financiero por servicios profesionales). Estos son los dos tipos de seguro solicitados con más frecuencia durante la incorporación de proveedores B2B."
+        },
+        {
+          "stem": "Una fundadora planea vender productos alimenticios empacados en EE.UU. a través de Amazon. Ya registró su LLC y obtuvo seguro de responsabilidad general. ¿Qué paso regulatorio probablemente le falta?",
+          "options": [
+            "Obtener etiquetado compatible con FDA y cumplir los requisitos de FDACS antes de listar productos",
+            "Presentar una marca registrada para el nombre de su marca ante el USPTO",
+            "Comprar seguro de responsabilidad cibernética para proteger los datos de pago de los clientes",
+            "Registrarse para seguro de compensación al trabajador en Florida"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Los negocios de alimentos y bebidas deben cumplir con las regulaciones de FDA (federal) y FDACS (Florida), incluyendo requisitos de etiquetado, inspecciones de instalaciones y potencialmente pruebas de producto. Estos requisitos regulatorios deben cumplirse antes de vender productos alimenticios en EE.UU., independientemente del canal de ventas. Presentar una marca (opción B) es importante pero no es un requisito regulatorio para la venta de alimentos. El seguro de responsabilidad cibernética (opción C) y la compensación al trabajador (opción D) no son el paso faltante más probable para el lanzamiento de un producto alimenticio."
+        },
+        {
+          "stem": "Una fundadora de Vietnam se prepara para firmar su primer contrato con una agencia de marketing estadounidense. La agencia quiere discutir su metodología propietaria de analítica antes de firmar. Ella no tiene acuerdos escritos aún. ¿Cuál contrato debería pedirle a la agencia que firme primero?",
+          "options": [
+            "Un acuerdo de servicios que cubra alcance, términos de pago y entregables del proyecto",
+            "Un documento de términos de servicio para el sitio web de su empresa",
+            "Un acuerdo operativo para su LLC que defina las responsabilidades de los miembros",
+            "Un acuerdo de confidencialidad (NDA) para proteger su metodología propietaria antes de compartir detalles"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Antes de compartir información propietaria, la fundadora debería hacer que la agencia firme un NDA. Esto protege su metodología de analítica durante la fase de discusión. Un acuerdo de servicios (opción A) viene después de que ambas partes acuerden los términos. Los términos de servicio (opción B) son para los usuarios de su sitio web, no para una negociación con clientes. Un acuerdo operativo (opción C) es un documento interno de la LLC, no relevante para una relación con clientes."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-3-2-1",
+      "title": "Ejercicio: Su Evaluación de Riesgos",
+      "placement": "after-section",
+      "sectionId": "text-3-2-3",
+      "content": "<p>Liste sus 3 principales riesgos de negocio en el mercado estadounidense. Para cada riesgo, identifique:</p>\n\n<ol><li>Qué tipo de seguro o protección legal aborda este riesgo</li><li>Si lo necesita antes de lanzar o puede esperar</li><li>El costo aproximado basado en las tablas de esta lección</li></ol>\n\n<p>Use esta lista cuando hable con un corredor de seguros. Tener una imagen clara de sus riesgos hace la conversación más rápida y la cobertura más precisa.</p>"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-3-2-1",
+      "title": "Punto Clave",
+      "content": "<p>La conclusión es clara: ponga sus contratos por escrito — siempre, con cada socio. Tenga seguro de responsabilidad general desde el primer día ($400–$800/año). Si presta servicios profesionales, agregue cobertura E&O. Verifique si su industria tiene requisitos regulatorios específicos antes de comenzar a operar. Aplique estos pasos temprano: los costos son mucho menores que demandas, multas o contratos perdidos. Evalúe sus necesidades de cobertura ahora, antes de que un cliente o arrendador le pida prueba.</p>"
+    }
+  ]
+}

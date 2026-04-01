@@ -1,0 +1,261 @@
+{
+  "lessonId": "lesson-1-1",
+  "moduleId": "module-1",
+  "landscapeTheme": "City Landscape",
+  "title": "Eligiendo Su Entidad Empresarial en EE.UU.",
+  "duration": 8,
+  "objectives": [
+    "Comparar las estructuras LLC y C-Corp para fundadores internacionales",
+    "Entender por qué la S-Corp generalmente no está disponible para fundadores que no son ciudadanos",
+    "Identificar qué tipo de entidad se ajusta a sus objetivos de negocio, situación tributaria y estatus migratorio"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-1-1-0",
+      "title": "Bienvenido a la Ciudad — Donde Su Negocio Toma Forma",
+      "content": "<p>Toda ciudad tiene un centro, un lugar donde los negocios presentan sus documentos, colocan sus letreros y abren sus puertas. En Central Florida, ese proceso comienza en línea a través de un portal llamado SunBiz. Pero antes de presentar cualquier documento, necesita tomar una decisión clave: qué tipo de entidad empresarial formar.</p>\n\n<p>¿Qué significa eso para usted? Piénselo como elegir dónde instalar su oficina en la ciudad. Una pequeña tienda (LLC) le da libertad y bajos costos operativos. Una torre corporativa (C-Corp) le da la estructura que los inversionistas esperan. Ambas lo protegen del riesgo personal. Pero funcionan de manera muy diferente en cuanto a impuestos, visas y recaudación de capital.</p>\n\n<p>Esta lección lo guía a través de las dos opciones principales que funcionan para fundadores internacionales, y una que generalmente no funciona.</p>",
+      "wordCount": 132
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-1-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>Curiosamente, Florida no tiene impuesto estatal sobre la renta personal, pero esa no es la única razón por la que los fundadores la siguen eligiendo. El área metropolitana de Orlando tiene más de 30,000 negocios iniciados por propietarios nacidos en el extranjero, y el estado procesa los registros de nuevas LLC más rápido que la mayoría. Algunos fundadores han pasado de cero a una entidad activa en menos de 48 horas.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-1-1-entity-intro",
+      "title": "Tres Estructuras, Tres Caminos Diferentes",
+      "content": "<p>Piénselo de esta manera: una LLC es como abrir una tienda flexible — fácil de constituir, simple de manejar, y mantiene sus activos personales separados del negocio. Una C-Corp es más como construir una torre de cristal — más papeleo y formalidad, pero es la estructura que los inversionistas esperan si planea recaudar capital de riesgo. La S-Corp también existe, pero requiere que todos los accionistas sean ciudadanos o residentes de EE.UU., lo que excluye a la mayoría de los fundadores internacionales.</p>\n\n<p>La comparación a continuación desglosa las diferencias clave para ayudarle a decidir qué estructura se ajusta a su situación.</p>"
+    },
+    {
+      "type": "comparison-card",
+      "id": "int-1-1-1",
+      "title": "LLC vs. C-Corp vs. S-Corp — Lado a Lado",
+      "columns": [
+        {
+          "heading": "LLC",
+          "items": [
+            {
+              "label": "Protección de Responsabilidad",
+              "value": "Protección completa de activos personales"
+            },
+            {
+              "label": "Tratamiento Tributario",
+              "value": "Transparencia fiscal (sin doble tributación)"
+            },
+            {
+              "label": "Atractivo para Inversionistas",
+              "value": "Bajo — más difícil emitir acciones"
+            },
+            {
+              "label": "Compatibilidad Migratoria",
+              "value": "Alta — cualquier titular de visa puede ser propietario"
+            },
+            {
+              "label": "Costo de Constitución",
+              "value": "Tarifa de registro en FL de $125"
+            },
+            {
+              "label": "Complejidad",
+              "value": "Baja — formalidades continuas mínimas"
+            }
+          ]
+        },
+        {
+          "heading": "C-Corp",
+          "items": [
+            {
+              "label": "Protección de Responsabilidad",
+              "value": "Protección completa de activos personales"
+            },
+            {
+              "label": "Tratamiento Tributario",
+              "value": "Doble tributación (corporativa + dividendos)"
+            },
+            {
+              "label": "Atractivo para Inversionistas",
+              "value": "Alto — estándar para financiamiento de capital de riesgo"
+            },
+            {
+              "label": "Compatibilidad Migratoria",
+              "value": "Alta — requerida para algunas visas"
+            },
+            {
+              "label": "Costo de Constitución",
+              "value": "Tarifa de registro en FL de $70 + estatutos"
+            },
+            {
+              "label": "Complejidad",
+              "value": "Alta — junta directiva, actas, informes anuales"
+            }
+          ]
+        },
+        {
+          "heading": "S-Corp",
+          "items": [
+            {
+              "label": "Protección de Responsabilidad",
+              "value": "Protección completa de activos personales"
+            },
+            {
+              "label": "Tratamiento Tributario",
+              "value": "Transparencia fiscal (sin doble tributación)"
+            },
+            {
+              "label": "Atractivo para Inversionistas",
+              "value": "Limitado — máximo 100 accionistas"
+            },
+            {
+              "label": "Compatibilidad Migratoria",
+              "value": "Baja — solo residentes de EE.UU."
+            },
+            {
+              "label": "Costo de Constitución",
+              "value": "Tarifa de registro de $70 + formulario de elección S"
+            },
+            {
+              "label": "Complejidad",
+              "value": "Media — formalidades corporativas requeridas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "scenario-1-1-decision-tree",
+      "title": "Encuentre Su Entidad — Guía de Decisión Interactiva",
+      "description": "Responda según SU situación actual. ¿Cuál de las siguientes opciones describe mejor sus planes para los próximos 12-18 meses?",
+      "paths": [
+        {
+          "label": "Planeo recaudar capital de riesgo o inversión ángel",
+          "outcome": "Su mejor opción: C-Corp. Los inversionistas de EE.UU. casi universalmente requieren una estructura C-Corp. Permite múltiples clases de acciones, fondos de opciones sobre acciones e instrumentos de inversión estándar (SAFEs, notas convertibles). El papeleo adicional y la doble tributación son el costo de estar listo para inversionistas desde el primer día. La mayoría de los abogados recomendarán una C-Corp de Delaware si usted está buscando inversionistas institucionales. Costo estimado del primer año: $960-$2,600 (registro + agente registrado + abogado).",
+          "isRecommended": false
+        },
+        {
+          "label": "Soy fundador individual — quiero algo simple, económico y flexible",
+          "outcome": "Su mejor opción: LLC. Una LLC de Florida le brinda protección completa de responsabilidad, transparencia fiscal (sin doble tributación) y papeleo mínimo. Con $125 para registrar, es el camino más económico. Siempre puede convertirla a C-Corp más adelante si sus planes cambian — aunque esa conversión típicamente cuesta $2,000-$5,000 en honorarios legales. Si hay alguna posibilidad de que busque inversionistas, considere ese costo de conversión en su decisión ahora.",
+          "isRecommended": false
+        },
+        {
+          "label": "Tendré más de 5 empleados y necesito una estructura corporativa formal",
+          "outcome": "Su mejor opción: C-Corp. Una vez que está contratando múltiples empleados, emitiendo opciones sobre acciones y construyendo una estructura de gestión formal, el marco de C-Corp está diseñado para esto. Separa la propiedad de la gestión, permite una junta directiva y le da la credibilidad corporativa que los socios y clientes más grandes esperan. Incluso sin planes de inversionistas, una C-Corp puede valer la complejidad adicional a esta escala.",
+          "isRecommended": false
+        },
+        {
+          "label": "Soy ciudadano o residente permanente de EE.UU. buscando ahorros tributarios",
+          "outcome": "Podría calificar para el estatus de S-Corp — pero solo si TODOS los accionistas son ciudadanos o residentes permanentes de EE.UU. La S-Corp le brinda transparencia fiscal (como una LLC) con potenciales ahorros en impuestos de trabajo por cuenta propia. Sin embargo, la mayoría de los participantes en este programa son fundadores internacionales, lo que hace que la S-Corp no esté disponible. Si tiene un cofundador estadounidense, consulte a un abogado tributario sobre si una estructura mixta podría funcionar.",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "scenario-1-1-entity",
+      "title": "Práctica: ¿Qué Entidad Le Conviene a Este Fundador?",
+      "description": "Está lanzando una startup de tecnología con un cofundador. Tiene $80,000 en ahorros, un prototipo funcional y planea presentar a inversionistas de EE.UU. dentro de los próximos 12 meses. ¿Qué estructura de entidad tiene más sentido?",
+      "paths": [
+        {
+          "label": "LLC — mantenerlo simple y flexible",
+          "outcome": "Una LLC es más simple de constituir y mantener, pero la mayoría de las firmas de capital de riesgo de EE.UU. no invertirán en una LLC. Si planea recaudar financiamiento institucional dentro de 12 meses, probablemente necesitará convertir a C-Corp después — agregando $2,000-$5,000 en honorarios legales y complejidad tributaria. Comenzar como C-Corp evita esto.",
+          "isRecommended": false
+        },
+        {
+          "label": "C-Corp — listo para inversionistas desde el día uno",
+          "outcome": "Correcto para este escenario. Una C-Corp de Delaware o Florida es la estructura estándar que los inversionistas de EE.UU. esperan. Permite múltiples clases de acciones, fondos de opciones sobre acciones y los instrumentos SAFE/notas convertibles que usan los inversionistas de etapa temprana. El papeleo adicional vale la pena si la recaudación de fondos está en su plan de 12 meses.",
+          "isRecommended": true
+        },
+        {
+          "label": "S-Corp — mejor tratamiento tributario",
+          "outcome": "Una S-Corp ofrece ventajas tributarias para ciudadanos de EE.UU., pero requiere que TODOS los accionistas sean ciudadanos o residentes permanentes de EE.UU. Como fundador internacional, usted no es elegible. Esta opción no está disponible para la mayoría de los participantes de este programa.",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-1-1-4",
+      "title": "Cómo Su Tipo de Entidad Se Conecta con Todo lo Demás",
+      "content": "<p>Su elección de entidad crea una reacción en cadena en la banca, los impuestos, las visas y la recaudación de fondos. El edificio que elija en la ciudad determina a qué servicios puede acceder, cómo serán sus costos operativos y quién querrá hacer negocios con usted. Así es como se conectan las piezas:</p>\n\n<p>Ahora, aquí es donde se complica. Una fundadora de software de Colombia eligió una LLC de Florida porque era rápida y económica. Ocho meses después, una inversionista de EE.UU. ofreció liderar su ronda semilla pero requería una C-Corp de Delaware. El cambio tomó tres meses, costó más de tres mil dólares en honorarios legales y casi mató el acuerdo. Ella dijo después: \"Si alguien me hubiera dicho que empezara con una C-Corp, me habría ahorrado un cuarto de mi primer año.\"</p>\n\n<p><strong>Banca:</strong> Tener listos sus artículos de organización, EIN y acuerdo operativo antes de visitar un banco aumenta sus posibilidades de aprobación. La tienda y la torre tienen diferente papeleo en el mostrador del banco. Cubrimos esto en detalle en la Lección 3 de este módulo.</p>\n\n<p><strong>Impuestos:</strong> Las ganancias de una LLC pasan directamente a su declaración personal, con requisitos específicos del IRS para extranjeros no residentes. Una C-Corp presenta su propia declaración (Formulario 1120). La tienda tiene diferentes costos de servicios que la torre. El Módulo 2 profundiza más.</p>\n\n<p><strong>Visas:</strong> Los abogados de inmigración frecuentemente prefieren C-Corps para casos de visa E-2 de inversionista por tratado. Si una visa es parte de su plan, hable con un abogado antes de elegir su entidad.</p>\n\n<p><strong>Inversionistas:</strong> Las firmas de capital de riesgo de EE.UU. generalmente requieren una C-Corp de Delaware. Un fundador gastó miles de dólares y meses cambiando de una LLC de Florida a una C-Corp de Delaware cuando un inversionista lo requirió. Comenzar con la entidad correcta evita esto.</p>",
+      "wordCount": 228
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Errores Comunes que Cometen los Fundadores Internacionales",
+      "content": "<p>Ahora, considere los errores que más tiempo y dinero les cuestan a los fundadores en esta etapa:</p>\n\n<ul><li><strong>Elegir el tipo de entidad equivocado para su situación de visa o impuestos.</strong> Un fundador que necesita una visa E-2 pero formó una LLC de un solo miembro puede necesitar reconstruir la estructura antes de que el proceso de visa pueda avanzar. Eso significa honorarios legales, demoras y estrés que podrían haberse evitado.</li><li><strong>Usar cuentas bancarias personales para transacciones comerciales.</strong> Esto se llama \"perforar el velo corporativo.\" Puede destruir la protección de responsabilidad que su entidad proporciona. Si mezcla fondos personales y de negocio, un tribunal puede hacerlo personalmente responsable por las deudas del negocio. Manténgalos separados desde el primer día.</li><li><strong>Ignorar la necesidad de un agente registrado.</strong> La ley de Florida requiere que toda entidad empresarial tenga un agente registrado con una dirección física en Florida. Esto no es opcional. Si su agente registrado caduca, el estado puede disolver su entidad, lo que significa que su negocio legalmente deja de existir hasta que lo corrija.</li></ul>"
+    },
+    {
+      "type": "text",
+      "id": "text-1-1-5",
+      "title": "Cuide Su Dinero: Lo Que Esto Realmente Cuesta",
+      "content": "<p>Aquí es donde importan los números. Los costos de constitución de entidad varían dependiendo del tipo de entidad, si usa un abogado y en qué estado se registra. Estos son rangos típicos:</p>\n\n<ul><li><strong>LLC de Florida:</strong> Alrededor de $125 en tarifas de registro estatal, más $0-$500 si usa un abogado. Total típico $125-$625.</li><li><strong>Corporación de Florida (C-Corp):</strong> Alrededor de $70 en tarifas de registro estatal, más $300-$1,500 por asistencia de un abogado con los artículos, estatutos y emisión de acciones.</li><li><strong>C-Corp de Delaware (común para inversionistas):</strong> Alrededor de $89 en registro estatal, más impuesto de franquicia anual de $300-$500, más honorarios de abogado. También necesita calificarse como entidad extranjera en Florida si opera allí. Los costos del primer año pueden ir desde alrededor de $960 hasta $2,600 o más.</li><li><strong>Servicio de agente registrado:</strong> Típicamente $100-$300 por año.</li><li><strong>Solicitud de EIN:</strong> Gratis del IRS.</li></ul>\n\n<p>El camino más económico es frecuentemente una LLC de Florida registrada por usted mismo. Un camino común listo para inversionistas es una C-Corp de Delaware con un abogado. Elija según las necesidades de su negocio, no solo por el precio.</p>",
+      "wordCount": 167
+    },
+    {
+      "type": "reflection",
+      "id": "ref-1-1-1",
+      "title": "Reflexión: Su Decisión de Entidad",
+      "placement": "end-of-lesson",
+      "prompt": "Tómese un momento para pensar en su propia situación:\n\n- ¿Planea recaudar capital de inversión en el futuro cercano? Si es así, una C-Corp puede ser su mejor punto de partida.\n- ¿Es la inmigración parte de su plan? Si es así, ¿qué categoría de visa está considerando y qué recomienda su abogado?\n- ¿Cuál es su prioridad ahora mismo: simplicidad y bajo costo, o estar listo para inversionistas?\n\nEscriba los dos o tres factores principales que impulsan su decisión. Si no está seguro, escriba las preguntas específicas que necesita responder antes de decidir. Lleve esas preguntas a una consulta con un abogado de negocios de EE.UU."
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-1-latam",
+      "variant": "latam-supplement",
+      "title": "Recursos para América Latina — Constitución Legal",
+      "content": "<p>Central Florida tiene una red profunda de abogados bilingües y servicios empresariales diseñados para fundadores latinoamericanos:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Referencias a abogados de negocios bilingües, talleres sobre constitución de entidades y eventos de networking que lo conectan con otros empresarios latinoamericanos.</li><li><strong>Prospera:</strong> Asistencia gratuita y de bajo costo para la constitución de negocios para emprendedores hispanos, incluyendo ayuda con el registro de LLC, selección de agente registrado y documentos legales básicos.</li><li><strong>Red de UCF BIP:</strong> Acceso a abogados verificados que trabajan regularmente con fundadores internacionales de América Latina y entienden las consideraciones legales específicas para estructuras empresariales transfronterizas.</li></ul>\n\n<p>Tener un abogado bilingüe que entienda tanto la ley corporativa de EE.UU. como el entorno empresarial de su país de origen puede simplificar significativamente el proceso de constitución de la entidad.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-1-1",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Es un fundador internacional que planea recaudar capital de riesgo dentro de los próximos 18 meses. Está a punto de registrar su primera entidad en EE.UU. ¿Cómo debería abordar esto?",
+          "options": [
+            "Registrar una LLC de Florida porque es la opción más barata y rápida",
+            "Formar una C-Corp, ya que los inversionistas de EE.UU. típicamente requieren esta estructura",
+            "Elegir el estatus de S-Corp para evitar la doble tributación",
+            "Esperar hasta tener inversionistas antes de formar cualquier entidad"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Las firmas de capital de riesgo de EE.UU. generalmente requieren una C-Corp (frecuentemente una C-Corp de Delaware). Comenzar con la estructura correcta evita una conversión costosa más adelante. La S-Corp generalmente no está disponible para fundadores extranjeros no residentes."
+        },
+        {
+          "stem": "Un colega fundador le dice: 'Simplemente forma una LLC como yo lo hice. A mí me funcionó.' ¿Cómo debería evaluar este consejo?",
+          "options": [
+            "Considerarlo, pero reconocer que su visa, impuestos y planes de crecimiento pueden requerir una estructura diferente",
+            "Seguirlo. Si le funcionó a él, le funcionará a usted",
+            "Ignorar todo consejo de otros fundadores; solo los abogados pueden ayudar",
+            "Formar tanto una LLC como una C-Corp para cubrir todos los frentes"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La situación de cada fundador es diferente. Lo que funciona para un consultor independiente de Canadá puede no funcionar para un fundador de startup tecnológica de Brasil que planea recaudar capital. La elección de entidad depende de su estatus de visa, tratado tributario, industria y planes de crecimiento. Seguir ciegamente el camino de otro fundador ignora estas diferencias, mientras que descartar completamente el consejo de colegas o formar dos entidades desperdicia tiempo y dinero."
+        },
+        {
+          "stem": "Formó una LLC de Florida hace ocho meses. Ahora un inversionista de EE.UU. quiere liderar una ronda semilla, pero requiere una C-Corp de Delaware. ¿Cuál es el impacto probable?",
+          "options": [
+            "Sin impacto. El inversionista aceptará la LLC",
+            "Simplemente puede elegir el estatus de S-Corp para satisfacer al inversionista",
+            "Necesitará cerrar la LLC y esperar un año antes de formar una nueva entidad",
+            "Necesitará convertir su entidad, lo que típicamente cuesta miles de dólares y toma semanas o meses"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Convertir de una LLC de Florida a una C-Corp de Delaware implica honorarios legales, nuevos registros estatales y posibles consecuencias tributarias. Este es un error común y costoso. El inversionista no simplemente aceptará una LLC cuando requiere una C-Corp para términos de inversión estándar. El estatus de S-Corp no está disponible para extranjeros no residentes y no satisfaría el requisito de C-Corp de un inversionista. No necesita esperar un año, pero el proceso de conversión en sí es costoso y consume tiempo."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-1-1-1",
+      "title": "Conclusión Clave",
+      "content": "<p>La idea central es esta: su tipo de entidad es el cimiento de su negocio en EE.UU. Afecta los impuestos, la banca, las visas y si los inversionistas trabajarán con usted. Para la mayoría de los fundadores internacionales, la verdadera elección está entre una LLC (simple, flexible, económica) y una C-Corp (lista para inversionistas, más estructura). La S-Corp generalmente no está disponible para fundadores que no son ciudadanos. Ya sea que se instale en la tienda o en la torre, esa decisión moldea cada paso que sigue.</p>\n\n<p>No se decida por defecto por la opción más barata sin saber cómo se conecta con su panorama general. Si su situación involucra temas de visa, futuros inversionistas o tratados tributarios de su país de origen, considere reunirse con un abogado de negocios antes de presentar cualquier documento. Una reunión de una hora puede costar unos cientos de dólares. Corregir la elección de entidad equivocada después puede costar varios miles, más meses de retrasos.</p>"
+    }
+  ]
+}

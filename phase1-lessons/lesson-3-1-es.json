@@ -1,0 +1,261 @@
+{
+  "lessonId": "lesson-3-1",
+  "moduleId": "module-3",
+  "landscapeTheme": "Rocket Base",
+  "title": "Propiedad Intelectual — Protegiendo Sus Ideas en EE.UU.",
+  "duration": 7,
+  "objectives": [
+    "Distinguir entre las protecciones de derechos de autor, marca registrada y patente en EE.UU.",
+    "Identificar qué protecciones de propiedad intelectual aplican a los activos de su negocio",
+    "Estimar costos de presentación y plazos para solicitudes de marca registrada y patente"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-3-1-1",
+      "title": "Bienvenido a la Instalación de Lanzamiento, Protegiendo Lo Que Ha Construido",
+      "content": "<p>Una fundadora de Chile construyó una aplicación de entregas exitosa en toda Sudamérica. Cuando se expandió a Florida, descubrió que su registro de marca chilena no significaba nada en Estados Unidos. Los derechos de propiedad intelectual son territoriales — la protección en un país no se extiende automáticamente a otro. Si planea operar en EE.UU., necesita protección en EE.UU.</p>\n\n<p>Existen tres tipos principales de protección de propiedad intelectual, cada uno cubriendo diferentes aspectos de su negocio. La comparación a continuación explica qué protege cada uno, cuánto cuesta y cuándo lo necesita.</p>",
+      "wordCount": 244
+    },
+    {
+      "type": "table",
+      "id": "table-3-1-1",
+      "title": "Tipos de Protección de PI — Resumen Rápido",
+      "table": {
+        "headers": [
+          "Tipo de Protección",
+          "Qué Cubre",
+          "Cómo Obtenerlo",
+          "Costo (principios de 2026)",
+          "Plazo",
+          "¿Necesita Abogado?"
+        ],
+        "rows": [
+          [
+            "Derechos de Autor (Copyright)",
+            "Obras creativas: código, contenido, diseños, medios",
+            "Automático al crear; registrar para hacer cumplir",
+            "$45–$65 por obra",
+            "3–6 meses para registro",
+            "Generalmente no se necesita para presentación básica"
+          ],
+          [
+            "Marca Registrada (Trademark)",
+            "Identidad de marca: nombre, logo, eslogan",
+            "Presentar solicitud ante el USPTO",
+            "$250–$350 por clase (solo tarifa de presentación)",
+            "8–12 meses para aprobación",
+            "Recomendado — los errores retrasan el proceso"
+          ],
+          [
+            "Patente (Utility)",
+            "Invenciones: procesos, máquinas, métodos",
+            "Presentar solicitud ante el USPTO",
+            "$5,000–$15,000+ (con abogado)",
+            "2–3 años para aprobación",
+            "Sí — las solicitudes de patente son complejas"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-3-1-1"
+    },
+    {
+      "type": "comparison-card",
+      "id": "int-3-1-1",
+      "title": "Derechos de Autor vs. Marca Registrada vs. Patente",
+      "columns": [
+        {
+          "heading": "Derechos de Autor",
+          "items": [
+            {
+              "label": "Protege",
+              "value": "Obras creativas originales (código, texto, diseños, música)"
+            },
+            {
+              "label": "Duración",
+              "value": "Vida del autor + 70 años"
+            },
+            {
+              "label": "Costo de Registro",
+              "value": "$45–$65 (USPTO/Copyright Office)"
+            },
+            {
+              "label": "Plazo",
+              "value": "3–6 meses"
+            },
+            {
+              "label": "¿Necesita Abogado?",
+              "value": "Generalmente no para presentación básica"
+            },
+            {
+              "label": "¿Automático?",
+              "value": "Sí — existe al momento de la creación, el registro lo fortalece"
+            }
+          ]
+        },
+        {
+          "heading": "Marca Registrada",
+          "items": [
+            {
+              "label": "Protege",
+              "value": "Nombres de marca, logos, eslóganes"
+            },
+            {
+              "label": "Duración",
+              "value": "Indefinida (con renovación cada 10 años)"
+            },
+            {
+              "label": "Costo de Registro",
+              "value": "$250–$350 por clase (USPTO)"
+            },
+            {
+              "label": "Plazo",
+              "value": "8–12 meses"
+            },
+            {
+              "label": "¿Necesita Abogado?",
+              "value": "Recomendado — mejora las probabilidades de aprobación"
+            },
+            {
+              "label": "¿Automático?",
+              "value": "No — debe presentar ante el USPTO para protección federal"
+            }
+          ]
+        },
+        {
+          "heading": "Patente",
+          "items": [
+            {
+              "label": "Protege",
+              "value": "Invenciones, procesos, métodos únicos"
+            },
+            {
+              "label": "Duración",
+              "value": "20 años desde la fecha de presentación"
+            },
+            {
+              "label": "Costo de Registro",
+              "value": "$5,000–$15,000+ (con abogado)"
+            },
+            {
+              "label": "Plazo",
+              "value": "2–4 años"
+            },
+            {
+              "label": "¿Necesita Abogado?",
+              "value": "Sí — proceso complejo que requiere abogado de patentes"
+            },
+            {
+              "label": "¿Automático?",
+              "value": "No — debe presentar y ser aprobado por el USPTO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "infographic",
+      "style": "timeline",
+      "id": "ig-3-1-trademark",
+      "title": "Trademark Registration Timeline — USPTO",
+      "titleEs": "Línea de Tiempo de Registro de Marca — USPTO",
+      "milestones": [
+        { "time": "Month 0", "timeEs": "Mes 0", "label": "File Application", "labelEs": "Presentar Solicitud", "desc": "TEAS Plus ($250/class) or TEAS Standard ($350/class). Include mark, goods/services description, specimen of use.", "descEs": "TEAS Plus ($250/clase) o TEAS Standard ($350/clase). Incluir marca, descripción de bienes/servicios, muestra de uso." },
+        { "time": "Month 1–3", "timeEs": "Mes 1–3", "label": "USPTO Review", "labelEs": "Revisión del USPTO", "desc": "Examining attorney reviews for conflicts. Average wait: 3–4 months.", "descEs": "El abogado examinador revisa conflictos. Espera promedio: 3–4 meses." },
+        { "time": "Month 4–6", "timeEs": "Mes 4–6", "label": "Office Actions (if any)", "labelEs": "Acciones de Oficina (si aplica)", "desc": "You may get a refusal or request for clarification. 3-month deadline to respond.", "descEs": "Puede recibir un rechazo o solicitud de aclaración. Plazo de 3 meses para responder." },
+        { "time": "Month 7–8", "timeEs": "Mes 7–8", "label": "Publication", "labelEs": "Publicación", "desc": "Mark published in the Official Gazette for 30 days. Anyone can oppose.", "descEs": "Marca publicada en la Gaceta Oficial por 30 días. Cualquiera puede oponerse." },
+        { "time": "Month 9–12", "timeEs": "Mes 9–12", "label": "Registration", "labelEs": "Registro", "desc": "If no opposition: registration certificate issued. Total time: 8–12 months typical.", "descEs": "Sin oposición: se emite el certificado de registro. Tiempo total: 8–12 meses típico." },
+        { "time": "After Registration", "timeEs": "Después del Registro", "label": "Maintain", "labelEs": "Mantener", "desc": "Declaration of Use at year 5–6 and renewal every 10 years.", "descEs": "Declaración de Uso en el año 5–6 y renovación cada 10 años." }
+      ],
+      "callout": "International founders: Your home country trademark does NOT protect you in the U.S. IP rights are territorial — you must register separately.",
+      "calloutEs": "Fundadores internacionales: su marca registrada en su país NO lo protege en EE.UU. Los derechos de propiedad intelectual son territoriales — debe registrarse por separado.",
+      "footer": "Total cost: $250–$750 for filing + $0 if self-filed, $1,500–$3,000 with attorney.",
+      "footerEs": "Costo total: $250–$750 por presentación + $0 si lo hace solo, $1,500–$3,000 con abogado."
+    },
+    {
+      "type": "text",
+      "id": "text-3-1-2",
+      "title": "Registro de Marca, Lo Que Realmente Sucede",
+      "content": "<p>Una marca registrada es el emblema que distingue su negocio de todos los demás. El proceso de registro a través del USPTO es sencillo pero requiere paciencia.</p>\n\n<p><strong>Paso 1: Busque en la base de datos del USPTO</strong> en trademark.uspto.gov. Si existe un conflicto, su solicitud es rechazada y su tarifa de presentación no se reembolsa.</p>\n\n<p><strong>Paso 2: Presente su solicitud</strong> en línea a través de TEAS. Elija la clase correcta de bienes o servicios (45 clases). Tarifa de presentación: $250 (TEAS Plus) o $350 (TEAS Standard) por clase.</p>\n\n<p><strong>Paso 3: Espere la revisión.</strong> Un abogado examinador del USPTO revisa su solicitud en 3–4 meses. Puede emitir una \"acción de oficina\" solicitando cambios; responda dentro del plazo o su solicitud se abandona.</p>\n\n<p><strong>Paso 4: Período de publicación.</strong> Su marca es publicada en la Gaceta Oficial durante 30 días. Si nadie se opone, recibe su certificado de registro.</p>\n\n<p>Plazo total: 8–12 meses. Una fundadora polaca de ciberseguridad contrató a un abogado de marcas registradas en EE.UU. antes de abrir su oficina en Orlando. Los $800 que gastó fueron una fracción de los $15,000–$25,000 que habría pagado para pelear un conflicto después.</p>",
+      "wordCount": 157
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-2",
+      "variant": "theme-reduce-risk",
+      "title": "Reduzca el Riesgo — Registre Su Marca Antes de Lanzar",
+      "content": "<p>¿Por qué es importante esto? Si otra persona presenta el nombre de su marca en EE.UU. primero, puede perderlo — incluso si lo ha usado durante años en otro país. El sistema de marcas registradas de EE.UU. otorga derechos fuertes al primer solicitante. Comience el proceso antes de invertir en marketing, empaque o señalización en EE.UU. La tarifa de presentación de $250–$350 es mucho menor que el costo de cambiar de marca.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Errores Comunes que Cometen los Fundadores Internacionales",
+      "content": "<ul><li><strong>Asumir que la protección de PI de su país cubre EE.UU.</strong> La protección de PI es país por país. Su marca registrada en Brasil, Alemania, Colombia o cualquier otro lugar le da cero cobertura en Estados Unidos. Las marcas registradas, patentes y derechos de autor ejecutables requieren presentaciones separadas en EE.UU. Si espera, otra persona puede registrar el nombre de su marca en EE.UU. primero — y tendrá el derecho legal de usarlo aquí. Presente su solicitud de marca en EE.UU. antes de comenzar a comercializar en EE.UU., no después.</li><li><strong>Operar sin seguro de responsabilidad general.</strong> Este no es un tema de PI, pero es un patrón del Módulo 3: los fundadores se enfocan en la configuración legal y olvidan protegerse contra los riesgos diarios del negocio. Una demanda sin cobertura puede cerrar su negocio. (Más sobre seguros en la próxima lección.)</li><li><strong>Usar plantillas de contratos gratuitas sin revisión legal.</strong> Las plantillas gratuitas de NDA y acuerdos de servicio de sitios web legales son un punto de partida, no un producto terminado. Pueden no seguir la ley de Florida, pueden faltar cláusulas clave o pueden no ajustarse a su situación. Una revisión de 30 minutos por un abogado cuesta $150-$300 y puede prevenir disputas costosas después.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-wm",
+      "variant": "watch-money-costs",
+      "title": "Cuide Su Dinero: Lo Que Realmente Cuesta",
+      "content": "<p>En otras palabras, planifique su presupuesto de PI temprano. Costos de PI, seguro y legales que debe presupuestar (principios de 2026):</p>\n\n<ul><li><strong>Presentación de marca (USPTO):</strong> $250–$350 por clase, más $300–$500 si usa un abogado</li><li><strong>Solicitud de patente:</strong> $5,000–$15,000+ incluyendo honorarios de abogado y costos de presentación del USPTO</li><li><strong>Registro de derechos de autor:</strong> $45–$65 por obra</li><li><strong>Redacción de NDA o contrato:</strong> $200–$500 por documento</li><li><strong>Seguro de responsabilidad general:</strong> $400–$800/año para pequeños negocios</li><li><strong>Responsabilidad profesional (E&O):</strong> $500–$2,500/año dependiendo de la industria</li><li><strong>Consulta legal inicial:</strong> $0–$300 (muchos abogados ofrecen consultas iniciales gratuitas)</li><li><strong>Revisión de contrato por abogado:</strong> $200–$500 por documento</li></ul>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-3-1",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una fundadora ha estado usando un nombre de marca en Colombia durante tres años y ahora quiere vender productos bajo ese nombre en EE.UU. ¿Qué debería hacer primero?",
+          "options": [
+            "Buscar en la base de datos del USPTO y presentar una solicitud de marca en EE.UU. antes de lanzar",
+            "Comenzar a vender inmediatamente. Su marca colombiana aplica automáticamente en EE.UU.",
+            "Esperar hasta tener ingresos en EE.UU., luego presentar una solicitud de marca",
+            "Usar el símbolo TM y omitir el registro formal ya que tiene uso previo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La protección de PI es territorial. Una marca colombiana no tiene efecto legal en EE.UU. La fundadora debería buscar en la base de datos del USPTO por conflictos y presentar una solicitud de marca en EE.UU. antes de invertir en marketing estadounidense. Esperar aumenta el riesgo de que otra persona presente el mismo nombre primero."
+        },
+        {
+          "stem": "¿Qué tipo de protección de PI necesitan más comúnmente primero los fundadores internacionales que entran al mercado estadounidense?",
+          "options": [
+            "Patente: para proteger su método de negocio",
+            "Derechos de autor: para proteger el contenido de su sitio web",
+            "Marca registrada: para proteger el nombre y logo de su marca",
+            "Secreto comercial: para proteger procesos propietarios"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La mayoría de los fundadores internacionales necesitan protección de marca registrada primero porque protege el nombre de la marca y el logo que usarán en el mercado estadounidense. Los derechos de autor existen automáticamente (aunque el registro ayuda con la aplicación), y las patentes solo se necesitan para invenciones genuinas. La marca registrada es la presentación de PI de mayor prioridad para la mayoría de los nuevos entrantes al mercado."
+        },
+        {
+          "stem": "Una fundadora de Ghana ha desarrollado un algoritmo único de pagos móviles y quiere proteger tanto la tecnología como el nombre de la marca antes de entrar al mercado estadounidense. Tiene $10,000 presupuestados para presentaciones de PI. Según los costos y plazos típicos, ¿qué enfoque aprovecha mejor su presupuesto?",
+          "options": [
+            "Presentar tanto una patente como una marca registrada simultáneamente para ahorrar tiempo, ya que ambas pasan por el USPTO",
+            "Omitir las presentaciones formales de PI y confiar en la protección automática de derechos de autor que su código ya tiene",
+            "Presentar una patente primero ya que ofrece la protección más amplia y cubre su nombre de marca también",
+            "Presentar el registro de derechos de autor de su código y solicitar la marca registrada ahora, luego presupuestar por separado para una solicitud de patente más adelante ya que las patentes cuestan $5,000–$15,000 y toman 2–3 años"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Con $10,000, presentar tanto una marca registrada ($250–$850 con abogado) como derechos de autor ($45–$65) cabe en el presupuesto mientras protege el nombre de la marca y el código. Una solicitud de patente ($5,000–$15,000+) consumiría la mayoría o todo el presupuesto y toma 2–3 años en procesarse. Presentar la marca y los derechos de autor ahora — y luego presupuestar por separado para una patente — le da protección inmediata donde más importa. Las patentes no cubren nombres de marca, por lo que la opción C es incorrecta. Confiar solo en derechos de autor automáticos (opción B) deja el nombre de la marca sin protección. Presentar tanto una patente como una marca simultáneamente (opción A) excedería el presupuesto de $10,000."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "ref-3-1-1",
+      "title": "Reflexión: Su Inventario de PI",
+      "placement": "after-section",
+      "sectionId": "text-3-1-2",
+      "prompt": "Liste cada activo de propiedad intelectual que tiene su empresa: nombre de marca, logo, nombres de productos, software propietario, contenido, invenciones o procesos. Para cada uno, identifique qué tipo de protección estadounidense aplica (derechos de autor, marca registrada o patente) y si ya ha presentado la solicitud o necesita hacerlo."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-3-1-1",
+      "title": "Punto Clave",
+      "content": "<p>Aplique esta lección antes de invertir en marketing en EE.UU.: registre su marca primero. Evalúe qué protecciones de PI necesita su negocio, luego cree un plan de presentación. Comience con una búsqueda de marca en el USPTO, presente temprano y presupueste $250–$850 para el proceso de marca. Para patentes, contrate un abogado. Para derechos de autor, registre antes de necesitar hacer cumplir sus derechos. Su propiedad intelectual solo está tan segura como las protecciones que ponga a su alrededor — actúe antes de que alguien más lo haga.</p>"
+    }
+  ]
+}

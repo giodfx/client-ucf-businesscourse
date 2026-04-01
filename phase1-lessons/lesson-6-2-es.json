@@ -1,0 +1,176 @@
+{
+  "lessonId": "lesson-6-2",
+  "moduleId": "module-6",
+  "landscapeTheme": "Beach",
+  "title": "Reuniones, Networking y Construcción de Confianza",
+  "duration": 7,
+  "objectives": [
+    "Aplicar las normas de etiqueta de reuniones en EE.UU. (puntualidad, orientadas por agenda, puntos de acción)",
+    "Describir los patrones de negociación en EE.UU. y cómo difieren de otras culturas empresariales",
+    "Explicar la importancia crítica del seguimiento por escrito en los negocios de EE.UU."
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-6-2-1",
+      "title": "Reuniones — El Tiempo Es la Moneda",
+      "content": "<p>La playa puede parecer relajada, pero las corrientes siguen moviéndose. Lo mismo ocurre con las reuniones de negocios en EE.UU.: el tono se siente casual, pero el reloj siempre está corriendo. ¿Qué sucede cuando usted llega tres minutos tarde a una reunión de negocios en EE.UU.? Pierde el negocio. Un fundador peruano se unió a una llamada introductoria de 30 minutos tres minutos tarde. El estadounidense estaba cerrando la reunión en el minuto 25. El fundador nunca recibió una segunda llamada.</p>\n\n<h4>Antes de la Reunión</h4><ul><li><strong>Envíe una agenda.</strong> Un correo con tres puntos muestra que usted respeta su tiempo.</li><li><strong>Confirme el día anterior.</strong> \"Espero con gusto nuestra llamada mañana a las 2 PM ET\" indica profesionalismo.</li><li><strong>Esté listo cinco minutos antes.</strong> Pruebe su enlace de video o llegue con tiempo suficiente para estar preparado.</li></ul>\n\n<h4>Durante la Reunión</h4><ul><li><strong>Comience a tiempo.</strong> Uno a dos minutos de charla casual es normal; cinco minutos se siente como desperdicio.</li><li><strong>Manténgase en el tema.</strong> Los estadounidenses valoran las <strong>reuniones orientadas por agenda</strong>. Las desviaciones se toleran cortésmente pero se registran internamente.</li><li><strong>Termine con puntos de acción.</strong> Aclare quién hace qué y para cuándo.</li></ul>\n\n<h4>Los 30 Minutos por Defecto</h4>\n\n<p>La versión corta: comience con 30 minutos. Pedir una hora indica que usted no valora su tiempo. Si la reunión es productiva, ellos la extenderán o programarán una siguiente.</p>",
+      "wordCount": 196
+    },
+    {
+      "type": "image",
+      "id": "img-6-2-networking",
+      "title": "Evento de Networking — Momento del Elevator Pitch",
+      "src": "images/scenarios/lesson-6-2-networking-event.jpg",
+      "alt": "Ilustración de un profesional distinguido en un evento de networking ofreciendo una tarjeta de presentación a otro asistente en un lugar moderno de Central Florida con iluminación cálida."
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-2-1",
+      "variant": "theme-avoid-mistakes",
+      "title": "El Correo de Resumen que Usted No Está Enviando",
+      "content": "<p>Aquí es donde muchos fundadores pierden impulso. Después de cada reunión, envíe un correo corto dentro de las 24 horas. Incluya: qué se discutió, qué se acordó, próximos pasos y fechas límite. Esto no es opcional. En la cultura empresarial de EE.UU., <strong>si no está por escrito, no sucedió</strong>. El correo de resumen también lo protege. Crea un registro. Si alguien luego afirma que no acordó algo, usted tiene el correo como referencia.</p>\n\n<p>Manténgalo breve: 5 a 8 líneas. Ejemplo: \"Fue un gusto conversar hoy. Para resumir: usted enviará la solicitud de proveedor para el miércoles, y yo le tendré nuestra hoja de precios para el viernes. Avíseme si me faltó algo.\"</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-2-culture",
+      "variant": "theme-understand-culture",
+      "title": "Cambio Cultural — El Acuerdo de Palabra Ya No Existe",
+      "content": "<p>Piense en este cambio cultural. En muchos países, los negocios funcionan con base en confianza, lazos personales y acuerdos verbales. En EE.UU., el contrato ES la relación. Cuando un socio comercial estadounidense dice \"pongámoslo por escrito\", no está expresando desconfianza — está demostrando profesionalismo. Acéptelo. Un contrato claro protege a ambas partes y previene el tipo de malentendidos que destruyen las alianzas.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-2-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>La Costa Espacial de Florida, que se extiende a lo largo del Atlántico desde Titusville hasta Melbourne, alberga tanto lanzamientos de cohetes como un próspero corredor empresarial. Esa mezcla de ambición tecnológica e informalidad de pueblo playero captura algo esencial sobre hacer negocios en Central Florida: el ambiente es casual, pero los estándares son de clase mundial. Los fundadores que combinan eso, relajados en estilo pero rigurosos en ejecución, tienden a ganarse la confianza rápidamente.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-6-2-2",
+      "title": "Negociación — Más Directa de lo que Espera",
+      "content": "<p>Un fundador mexicano de SaaS dedicó tres reuniones a construir rapport antes de discutir términos. Después de la tercera, su contacto estadounidense preguntó: \"Entonces, ¿cuál es el número?\" No tenía los precios listos. El negocio se estancó.</p>\n\n<p>Como una corriente de resaca que lo arrastra antes de que se dé cuenta, la negociación en EE.UU. se mueve rápido:</p>\n\n<ol><li><strong>Ambas partes exponen su posición temprano.</strong> Respuestas vagas como \"somos flexibles\" indican que no hizo su tarea.</li><li><strong>Las contraofertas son limitadas.</strong> Espere una o dos rondas. El regateo prolongado indica desconfianza.</li><li><strong>Las primeras ofertas están cerca del precio final.</strong> Si alguien ofrece $45,000, podría aceptar $42,000 — pero esperar $30,000 terminará la conversación.</li><li><strong>Los términos escritos importan más que los apretones de mano.</strong> Nada es real hasta que está en un contrato firmado o un correo detallado.</li></ol>\n\n<h4>Networking: Calidad Sobre Cantidad</h4>\n\n<p>Usted tiene 60 segundos para explicar quién es y qué hace. Los eventos de networking son la orilla donde todos se mezclan — los estadounidenses hablan con usted 5 a 10 minutos y siguen adelante. El objetivo son conexiones iniciales, no cerrar negocios.</p>\n\n<p>Tres reglas de networking que los fundadores pasan por alto:</p>\n\n<ul><li><strong>Haga seguimiento dentro de 48 horas.</strong> Referencie algo específico: \"Fue un gusto hablar sobre logística de cadena de suministro\" es mejor que \"Mucho gusto en conocerlo.\"</li><li><strong>Pregunte antes de presentar su oferta.</strong> Lea la corriente de la conversación — pregunte sobre su negocio primero. Si hay encaje, describa brevemente lo que hace.</li><li><strong>Dé antes de pedir.</strong> Comparta un artículo, haga una presentación, ofrezca una perspectiva. Las mejores conexiones se forman como bancos de arena: gradualmente, a través de depósitos constantes con el tiempo.</li></ul>",
+      "wordCount": 218
+    },
+    {
+      "type": "callout",
+      "id": "callout-6-2-2",
+      "variant": "theme-understand-culture",
+      "title": "La Prueba del Cumplimiento",
+      "content": "<p>Considere esto: los estadounidenses prueban a los nuevos socios comerciales con compromisos pequeños: \"Envíame eso para el viernes.\" \"¿Puede conseguirme tres referencias?\" \"Comparta su presentación de empresa antes de nuestra próxima llamada.\" Cada uno de estos es una prueba silenciosa. Cumpla a tiempo y avanza. No cumpla la fecha límite, y la relación se estanca sin que nadie le diga por qué. <strong>Cada compromiso pequeño que cumple construye confianza para los más grandes.</strong></p>"
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-6-2-pitch",
+      "title": "Construya Su Elevator Pitch de 30 Segundos",
+      "format": "fill-in-blank",
+      "instruction": "Complete cada espacio para construir un pitch que pueda usar en su próximo evento de networking. Manténgalo en menos de 30 segundos al hablarlo en voz alta.",
+      "template": "[Nombre de la empresa] ayuda a [cliente objetivo en EE.UU.] a resolver [problema específico] mediante [su solución/enfoque]. Estamos ubicados en [ubicación] y [declaración de credibilidad — tracción, clientes o experiencia].",
+      "example": "FinBridge ayuda a exportadores latinoamericanos a resolver retrasos en pagos transfronterizos automatizando la documentación aduanera y las verificaciones de cumplimiento. Estamos ubicados en Orlando y ya procesamos $2M mensuales para 40 empresas en Colombia y Brasil.",
+      "prompts": [
+        {
+          "label": "Nombre de la empresa",
+          "placeholder": "Su empresa"
+        },
+        {
+          "label": "Cliente objetivo en EE.UU.",
+          "placeholder": "ej., empresas manufactureras medianas"
+        },
+        {
+          "label": "Problema específico",
+          "placeholder": "ej., procesos lentos de incorporación de proveedores"
+        },
+        {
+          "label": "Su solución/enfoque",
+          "placeholder": "ej., proporcionar un paquete de proveedor precalificado"
+        },
+        {
+          "label": "Ubicación",
+          "placeholder": "ej., Orlando, FL"
+        },
+        {
+          "label": "Declaración de credibilidad",
+          "placeholder": "ej., ya atendemos a 15 clientes en Latinoamérica"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "id": "int-6-2-1",
+      "title": "La Reunión Después de la Reunión — Guía de Seguimiento",
+      "tabs": [
+        {
+          "label": "Dentro de 24 Horas",
+          "content": "**Envíe un correo de agradecimiento** dentro de las 24 horas. Esto se espera en la cultura empresarial de EE.UU.\n\n**Incluya:**\n- Referencia a algo específico de la conversación\n- Adjunte cualquier material que prometió\n- Sugiera un paso siguiente concreto con fechas\n\n**Ejemplo:** 'Fue un gusto la reunión de hoy — aprecié especialmente su perspectiva sobre el mercado de Orlando. Como lo conversamos, adjunto nuestra hoja de precios. ¿Le funciona el jueves a las 2 PM para una llamada de seguimiento?'"
+        },
+        {
+          "label": "Dentro de 1 Semana",
+          "content": "**Si no recibe respuesta a su primer correo**, envíe un breve seguimiento.\n\n**Manténgalo corto:** 2 a 3 oraciones máximo.\n\n**Agregue valor:** Comparta un artículo relevante, caso de estudio o perspectiva de la industria.\n\n**No diga:** 'Solo para verificar' o 'Haciendo seguimiento.' Estas son frases vacías.\n\n**Diga:** 'Encontré este informe sobre [tema que discutimos] y pensé en nuestra conversación.'"
+        },
+        {
+          "label": "LinkedIn",
+          "content": "**Conéctese en LinkedIn dentro de las 48 horas** después de conocerse.\n\n**Personalice la solicitud:** Referencie dónde se conocieron.\n\n**Interactúe con su contenido** — comente una publicación antes de enviar otro mensaje.\n\n**NO haga esto:** Enviar una propuesta de venta en su solicitud de conexión. Construya la relación primero."
+        },
+        {
+          "label": "Errores Comunes",
+          "content": "**Esperar demasiado:** Después de 72 horas, la reunión se desvanece de la memoria.\n\n**Ser demasiado insistente:** Hacer seguimiento diario es agresivo. Semanalmente es apropiado.\n\n**Olvidar nombres:** Los estadounidenses notan cuando usted recuerda detalles de la conversación.\n\n**No cumplir:** Si dijo que enviaría algo, envíelo. Las promesas rotas matan negocios más rápido que cualquier otra cosa."
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-6-2",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Usted tiene una primera reunión con un socio comercial potencial en EE.UU. ¿Qué duración de reunión debería solicitar?",
+          "options": [
+            "15 minutos. Mantenerlo extremadamente breve",
+            "60 minutos. Necesita suficiente tiempo para construir rapport",
+            "90 minutos. Los temas complejos requieren discusión prolongada",
+            "30 minutos. La duración estándar de reuniones de negocios en EE.UU."
+          ],
+          "correctAnswer": 3,
+          "explanation": "30 minutos es el estándar para reuniones de negocios en EE.UU., especialmente las primeras reuniones. Solicitar más tiempo a alguien que nunca ha conocido indica que no valora su agenda. Si la conversación va bien, ellos sugerirán extenderla o programar un seguimiento."
+        },
+        {
+          "stem": "Después de una reunión productiva, ¿cuándo debería enviar un correo de resumen?",
+          "options": [
+            "Dentro de las 24 horas. Este es el estándar esperado",
+            "Dentro de la hora, mientras los detalles están frescos",
+            "Dentro de una semana — deles tiempo antes de hacer seguimiento",
+            "Solo si ellos lo piden específicamente"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La expectativa estándar en los negocios de EE.UU. es un resumen de seguimiento dentro de las 24 horas. Este correo debe resumir lo que se discutió, lo que se acordó y los próximos pasos con fechas límite. Esperar más tiempo arriesga perder impulso e indica que usted no está organizado."
+        },
+        {
+          "stem": "Un fundador de Ecuador está negociando un contrato de software anual de $60,000 con una empresa de EE.UU. El comprador estadounidense abre con una oferta de $52,000. El fundador, acostumbrado a negociaciones prolongadas en su mercado local, contraoferta con $75,000 esperando encontrarse en el medio después de varias rondas. ¿Cuál es el resultado más probable en la cultura de negociación de EE.UU.?",
+          "options": [
+            "El estadounidense respetará la contraoferta agresiva y se encontrarán en $63,500 después de múltiples rondas",
+            "El estadounidense pedirá a un gerente que apruebe un presupuesto mayor ya que el fundador claramente valora el producto",
+            "Es probable que el estadounidense se retire porque la contraoferta está demasiado lejos de su oferta inicial, y las negociaciones en EE.UU. típicamente involucran solo una o dos rondas de contraofertas",
+            "El enfoque del fundador es correcto porque comenzar alto da más espacio para negociar a la baja"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Las normas de negociación en EE.UU. involucran primeras ofertas cercanas al objetivo real y solo una o dos rondas de contraofertas. Una apertura de $52,000 probablemente significa que podrían llegar a $55,000-$58,000, pero una contraoferta de $75,000 indica ya sea un malentendido de las normas de EE.UU. o una valoración poco realista. El regateo prolongado se percibe como señal de desconfianza o desesperación en la cultura empresarial estadounidense."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-6-2-1",
+      "title": "Su Plan de Acción para la Próxima Reunión en EE.UU.",
+      "placement": "after-section",
+      "sectionId": "text-6-2-2",
+      "prompt": "Piense en su próxima reunión con un contacto en EE.UU.: un socio potencial, cliente o inversionista. Escriba la agenda de 3 puntos que les enviaría el día anterior. Ahora redacte su plantilla de correo de seguimiento: qué se discutió, qué se acordó, próximos pasos y fechas límite. Finalmente, escriba 3 cosas que hará diferente basándose en esta lección — ya sea solicitar 30 minutos en vez de una hora, preparar precios específicos antes de una negociación, o hacer seguimiento dentro de las 24 horas en vez de esperar."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-6-2-1",
+      "title": "Conclusión Clave",
+      "content": "<p>La conclusión es clara. Sea puntual, manténgase enfocado en la agenda y haga seguimiento por escrito dentro de las 24 horas. La negociación en EE.UU. se mueve rápido — llegue preparado con números específicos y espere una o dos rondas de contraofertas. En eventos de networking, escuche primero, presente su oferta después y siempre haga seguimiento al día siguiente. Cada compromiso pequeño que cumple construye confianza para los más grandes. Aprenda a leer las corrientes debajo de la superficie, y navegará las relaciones comerciales de EE.UU. con confianza.</p>"
+    }
+  ]
+}

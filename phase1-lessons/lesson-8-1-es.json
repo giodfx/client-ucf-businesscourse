@@ -1,0 +1,203 @@
+{
+  "lessonId": "lesson-8-1",
+  "moduleId": "module-8",
+  "landscapeTheme": "UCF Headquarters",
+  "title": "Autoevaluación — ¿Está Listo?",
+  "duration": 8,
+  "objectives": [
+    "Reflexionar sobre su preparación para el mercado de EE.UU. en los siete temas de los módulos",
+    "Identificar áreas específicas donde necesita más apoyo u orientación profesional",
+    "Evaluar si la expansión al mercado de EE.UU. es realista para su empresa y etapa de negocio"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-8-1-1",
+      "title": "Llegando a la Sede de UCF: Lo que Ahora Sabe",
+      "content": "<p>Después de siete módulos y docenas de temas, ha llegado al destino final de este viaje por carretera: el campus de UCF y la sede de su Programa de Incubación Empresarial. Imagínese los edificios modernos, los laboratorios de investigación, las oficinas de la incubadora donde las startups ya están trabajando. Esta es la base principal. Pero, ¿cuánto recuerda realmente y, más importante aún, dónde están las brechas que todavía necesita llenar?</p>\n\n<p>Parado aquí en el campus, es momento de hacer una evaluación honesta de dónde se encuentra. Cubrió siete módulos. Tener información no es lo mismo que estar listo. El objetivo aquí es saber dónde están las brechas y qué ayuda necesita antes de gastar dinero.</p>\n\n<h4>Los Cuatro Temas como Su Filtro de Decisiones</h4>\n\n<p>Así es como funciona: antes de firmar cualquier cosa, contratar a alguien o transferir dinero, recuerde los cuatro temas:</p>\n\n<ul><li><strong>Reduzca el Riesgo</strong>. Evite las trampas legales, financieras y operacionales.</li><li><strong>Cuide Su Dinero</strong>. Conozca los costos realistas antes de comprometerse.</li><li><strong>Evite Errores Comunes</strong>. No repita los errores que cometen otros fundadores.</li><li><strong>Entienda la Cultura</strong>. Sepa cómo funcionan realmente los negocios en Estados Unidos.</li></ul>",
+      "wordCount": 148
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-1-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>UCF inscribe a más de 70,000 estudiantes, lo que la convierte en una de las universidades más grandes de los Estados Unidos por matrícula. El Programa de Incubación Empresarial de UCF ha ayudado a lanzar y hacer crecer cientos de empresas desde 1999, generando miles de millones en ingresos en toda Central Florida. El parque de investigación de la universidad, ubicado junto al campus, es hogar de más de 100 empresas de alta tecnología y laboratorios de investigación, creando un corredor de innovación denso que los fundadores pueden aprovechar desde el primer día.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-1-disc",
+      "variant": "reality-check",
+      "title": "Recordatorio Importante: Esto Fue Orientación Educativa",
+      "content": "<p>Ahora, considere esto con cuidado. Todo lo que cubrió en este programa fue <strong>información educativa general</strong> diseñada para ayudarle a entender el entorno empresarial de EE.UU. No es asesoría legal, fiscal, migratoria ni financiera. Antes de tomar acción en cualquier tema: constitución de entidades, banca, impuestos, propiedad intelectual, contratación o visas, consulte a un profesional calificado que pueda revisar su situación específica. El conocimiento es el punto de partida. La orientación profesional es cómo convierte el conocimiento en acción segura.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-8-1-2",
+      "title": "Su Autoevaluación de Preparación",
+      "content": "<p>Antes de salir de la sede y dirigirse al mercado de EE.UU., necesita una revisión de preparación. Esta es suya. Para cada tema, califíquese honestamente: ¿tiene claro qué hacer, o todavía tiene preguntas importantes? No hay puntuación de aprobación. El punto es la claridad.</p>\n\n<h4>Módulo 1: Configuración Legal</h4>\n\n<p>¿Su base es sólida? Entidad, EIN, agente registrado — estos son los sistemas estructurales que evitan que todo lo demás se derrumbe.</p>\n\n<ul><li>¿Sabe qué tipo de entidad se ajusta a sus objetivos de negocio y situación de visa?</li><li>¿Ha verificado la disponibilidad de nombre en SunBiz?</li><li>¿Entiende el requisito del agente registrado?</li><li>¿Sabe qué documentos necesita para una cuenta bancaria empresarial en EE.UU.?</li></ul>\n\n<p>Si no está claro, consulte a un abogado de negocios o contador antes de registrar.</p>\n\n<h4>Módulo 2: Finanzas e Impuestos</h4>\n\n<p>¿Están sus cuentas y financiamiento en orden? Banca, impuestos, contabilidad — estos impulsan todo lo que sigue una vez que sale de la sede.</p>\n\n<ul><li>¿Puede explicar el impuesto federal sobre la renta vs. el impuesto estatal sobre las ventas?</li><li>¿Entiende cómo el impuesto sobre las ventas de EE.UU. difiere del IVA?</li><li>¿Ha identificado un contador que entienda a fundadores internacionales?</li></ul>\n\n<p>Si no está claro, un contador enfocado en internacionales le ahorra multas que cuestan mucho más que sus honorarios.</p>\n\n<h4>Módulo 3: Protegiendo Su Negocio</h4>\n\n<p>¿Están sus protecciones legales en su lugar? Propiedad intelectual, seguros y contratos son su red de seguridad — invisibles hasta que los necesita, catastróficos sin ellos.</p>\n\n<ul><li>¿La protección de PI de su país de origen lo cubre en EE.UU.?</li><li>¿Puede listar los tipos de seguros que su negocio necesita?</li><li>¿Ha identificado qué contratos necesita antes de comenzar?</li></ul>\n\n<p>Si no está seguro, una conversación con un abogado de PI es un próximo paso de alta prioridad.</p>\n\n<h4>Módulo 4: Construyendo Su Equipo</h4>\n\n<p>¿Está su equipo armado? Clasificación, nómina, cumplimiento — su equipo de apoyo es crítico, y armar el equipo incorrectamente lo detiene antes de empezar.</p>\n\n<ul><li>¿Entiende la diferencia entre contratista y empleado en EE.UU.?</li><li>¿Conoce el costo real de contratación (salario más 15-30% de costos adicionales)?</li><li>¿Conoce su estatus de autorización de visa?</li></ul>\n\n<p>Clasificar incorrectamente a un trabajador puede resultar en impuestos atrasados, multas y responsabilidad legal.</p>",
+      "wordCount": 219
+    },
+    {
+      "type": "text",
+      "id": "text-8-1-3",
+      "title": "Verificación de Preparación — Mercados, Cultura y Ecosistema",
+      "content": "<p>Ahora, continuemos con los módulos restantes.</p><h4>Módulo 5: Entendiendo a los Clientes de EE.UU.</h4>\n\n<p>¿Su estrategia de mercado está configurada para EE.UU.? Adaptación de producto, precios, estrategia de adquisición — estos determinan si su negocio realmente llega a su mercado objetivo.</p>\n\n<ul><li>¿Ha investigado a su competencia en EE.UU.?</li><li>¿Sabe cómo las expectativas de precios en EE.UU. difieren de su mercado local?</li><li>¿Entiende los requisitos de incorporación de proveedores (W-9, certificados de seguro, adquisiciones)?</li><li>¿Puede describir su estrategia de adquisición de primeros clientes en EE.UU.?</li></ul>\n\n<p>Si no ha hecho investigación competitiva específica para EE.UU., reserve tiempo para eso antes de vender.</p>\n\n<h4>Módulo 6: Cultura Empresarial de EE.UU.</h4>\n\n<p>¿Ha estudiado las condiciones locales? Comunicación, reuniones, construcción de confianza — esta es la atmósfera en la que operará, y juzgarla mal detiene incluso a los fundadores mejor preparados.</p>\n\n<ul><li>¿Puede explicar la amabilidad americana vs. el compromiso de negocios?</li><li>¿Conoce las expectativas de seguimiento después de las reuniones?</li><li>¿Sabe cómo la franqueza y la toma de decisiones difieren en los negocios de EE.UU.?</li></ul>\n\n<p>Los errores culturales cuestan dinero real. Si estos se sienten abstractos, encuentre un mentor que haya operado en ambas culturas.</p>\n\n<h4>Módulo 7: Ecosistema de Central Florida</h4>\n\n<p>¿Conoce su red de asesores? SBDC, cámaras, UCF BIP — ningún fundador tiene éxito sin un equipo de apoyo en el terreno.</p>\n\n<ul><li>¿Puede nombrar tres organizaciones que ofrecen apoyo gratuito a fundadores internacionales?</li><li>¿Conoce las ventajas de Central Florida vs. Miami, NYC o Silicon Valley?</li><li>¿Sabe lo que las fases 2 y 3 del programa de UCF BIP ofrecen?</li></ul>\n\n<p>Si no puede nombrar recursos específicos que planea contactar, vuelva a revisar el Módulo 7.</p>",
+      "wordCount": 162
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-8-1-rubric",
+      "title": "Su Puntuación de Preparación para el Mercado",
+      "format": "scored-rubric",
+      "instruction": "Califíquese honestamente en cada dimensión. No hay puntuación de aprobación — el punto es identificar dónde es fuerte y dónde necesita más preparación.",
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "labels": [
+          "Sin empezar",
+          "Investigando",
+          "Parcialmente listo",
+          "Casi listo",
+          "Completamente preparado"
+        ]
+      },
+      "dimensions": [
+        {
+          "label": "Configuración Legal",
+          "description": "Tipo de entidad elegido, EIN obtenido, agente registrado en su lugar"
+        },
+        {
+          "label": "Base Financiera",
+          "description": "Cuenta bancaria abierta, obligaciones fiscales entendidas, contador identificado"
+        },
+        {
+          "label": "Protección de PI y Riesgos",
+          "description": "Marcas registradas presentadas, seguros activos, contratos clave revisados"
+        },
+        {
+          "label": "Equipo y Cumplimiento",
+          "description": "Clasificación de contratación entendida, plan de nómina en su lugar, estatus de visa claro"
+        },
+        {
+          "label": "Estrategia de Mercado",
+          "description": "Precios para EE.UU. definidos, investigación competitiva hecha, plan de adquisición de clientes listo"
+        },
+        {
+          "label": "Preparación Cultural",
+          "description": "Estilo de comunicación adaptado, normas de reuniones entendidas, hábitos de seguimiento en su lugar"
+        },
+        {
+          "label": "Ecosistema y Red",
+          "description": "Organizaciones de apoyo identificadas, networking iniciado, relación con mentor activa"
+        }
+      ],
+      "interpretation": [
+        {
+          "range": "7-15",
+          "message": "Está en la fase de exploración temprana. Enfóquese en los Módulos 1-3 antes de tomar acción."
+        },
+        {
+          "range": "16-25",
+          "message": "Tiene una base pero quedan brechas. Revise los módulos donde se calificó 1-2."
+        },
+        {
+          "range": "26-30",
+          "message": "Está bien preparado en la mayoría de las áreas. Aborde cualquier 2 restante antes de avanzar."
+        },
+        {
+          "range": "31-35",
+          "message": "Está altamente preparado. Considere agendar su consulta de Fase 2 con UCF BIP."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-8-1-4",
+      "title": "¿Dónde Necesita Más Ayuda?",
+      "content": "<p>Ninguna preparación es perfecta. Los fundadores más inteligentes identifican lo que falta y obtienen ayuda antes de salir de la sede. Sentirse abrumado es normal. No se supone que sea experto en las siete áreas. Exactamente por eso el campus de UCF tiene todo un ecosistema de asesores, mentores y conexiones profesionales esperando en los edificios a su alrededor. Necesita saber lo suficiente para hacer las preguntas correctas y evitar errores costosos.</p>\n\n<h4>Dónde Obtener Ayuda</h4>\n\n<ul><li><strong>Legal (entidad, contratos, cumplimiento)</strong>. Abogado de negocios con experiencia internacional. El SBDC lo conecta con clínicas legales pro bono.</li><li><strong>Impuestos y contabilidad</strong>. Contador con experiencia internacional. Pregunte: \"¿Trabaja con negocios de propiedad extranjera?\"</li><li><strong>Inmigración y visas</strong>. Abogado de inmigración. No es opcional.</li><li><strong>Protección de PI</strong>. Abogado de propiedad intelectual. La USPTO tiene recursos, pero la estrategia de registro necesita orientación profesional.</li><li><strong>Banca</strong>. Comience directamente con el banco. Lleve documentos; espere que la primera visita sea una consulta.</li><li><strong>Adquisición de clientes</strong>. El SBDC y SCORE ofrecen asesoría gratuita. UCF BIP lo conecta con mentores.</li><li><strong>Orientación general</strong>. El equipo de UCF BIP está disponible para una conversación una vez que complete el Módulo 8.</li></ul>\n\n<p>Sus puntuaciones de preparación son su mapa. Priorice profesionales basándose en sus puntuaciones más bajas.</p>",
+      "wordCount": 148
+    },
+    {
+      "type": "tabs",
+      "id": "int-8-1-2",
+      "title": "Sus Próximos Pasos",
+      "tabs": [
+        {
+          "label": "Descargar Recursos",
+          "content": "**A lo largo de este curso, hemos referenciado documentos y herramientas clave.** Aquí está su lista consolidada:\n\n- Registro de entidad en SunBiz: sunbiz.org\n- Solicitud de EIN del IRS: irs.gov/businesses\n- Consulta del Florida SBDC: floridasbdc.org\n- Mentoría de SCORE: score.org/orlando\n- Programas de UCF BIP: ucf.edu/bip\n\n**Guarde estos enlaces** — los referenciará mientras construye su presencia en EE.UU."
+        },
+        {
+          "label": "Vista Previa de Fase 2",
+          "content": "**La Fase 2 del programa de UCF BIP** lo lleva del conocimiento a la acción.\n\n**Qué esperar:**\n- Mentoría práctica con líderes empresariales de Central Florida\n- Talleres de validación de mercado\n- Desarrollo de pitch y conexiones con inversionistas\n- Horas de oficina legales y contables\n\n**Duración:** 8–12 semanas\n\n**Elegibilidad:** Completar este curso de Fase 1 + revisión de solicitud"
+        },
+        {
+          "label": "Obtener Apoyo",
+          "content": "**No tiene que hacer esto solo.** Estos son sus próximos pasos inmediatos:\n\n1. **Agende una consulta gratuita del SBDC** — obtenga orientación personalizada sobre su situación específica\n2. **Aplique a la Fase 2 de UCF BIP** — lleve su negocio al siguiente nivel\n3. **Únase a la comunidad de emprendedores de UCF** — conéctese con otros fundadores internacionales\n\n**Recuerde:** Cada fundador internacional exitoso en EE.UU. comenzó exactamente donde usted está ahora."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-1-1",
+      "variant": "theme-reduce-risk",
+      "title": "Uno de los Mayores Riesgos Es Hacerlo Solo",
+      "content": "<p>Piense en esto: ahora sabe más que muchos fundadores internacionales que entran al mercado de EE.UU. sin preparación estructurada. Muchos fundadores se lanzan sin un programa estructurado. Resuelven las cosas cometiendo errores. Usted tiene la oportunidad de saltarse los errores más costosos por completo. Pero saber por sí solo no reduce el riesgo. La <strong>acción</strong> reduce el riesgo. Use sus puntuaciones de autoevaluación. Contacte a los profesionales. Comuníquese con las organizaciones. Central Florida, y este campus en particular, ha construido un ecosistema específicamente para ayudar a fundadores como usted a tener éxito. Úselo.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-8-1",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una fundadora se califica con un '2' en la sección de Configuración Legal de la autoevaluación de preparación. Según la guía de puntuación, ¿qué debería hacer antes de tomar acción sobre la formación de entidad?",
+          "options": [
+            "Proceder con la formación de una LLC ya que es la opción más común para fundadores internacionales",
+            "Releer el Módulo 1 y luego registrar en SunBiz inmediatamente",
+            "Consultar a un abogado de negocios o contador antes de registrar cualquier cosa, porque una puntuación de 1 o 2 señala la necesidad de orientación profesional",
+            "Saltarse la formación de entidad y operar como propietario único hasta que se sienta más segura"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La guía de puntuación de la autoevaluación de preparación establece que cualquier área calificada con 1 o 2 es una prioridad para consulta profesional antes de tomar acción. Elegir mal el tipo de entidad cuesta más que la tarifa de registro. Puede significar meses de reestructuración y posibles complicaciones fiscales."
+        },
+        {
+          "stem": "El programa identifica cuatro temas recurrentes que deben guiar cada decisión de negocio. Una fundadora está a punto de contratar una consultora privada de inmigración por $5,000. ¿Cuál tema debería aplicar PRIMERO?",
+          "options": [
+            "Entienda la Cultura — aprenda las normas culturales alrededor de la consultoría de inmigración",
+            "Cuide Su Dinero — verifique si el mismo servicio está disponible gratis a través del SBDC o SCORE antes de pagar a un consultor privado",
+            "Reduzca el Riesgo — contratar al consultor inmediatamente para evitar cualquier retraso migratorio",
+            "Evite Errores Comunes — pregunte a otros fundadores qué consultor usaron"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El tema 'Cuide Su Dinero' le recuerda a los fundadores verificar recursos gratuitos antes de gastar en servicios privados. Si bien la ley de inmigración específicamente requiere un abogado licenciado (no el SBDC), el principio más amplio aplica: siempre verifique si los programas financiados por el gobierno o los servicios de asesoría gratuitos cubren su necesidad antes de pagar por consultoría privada."
+        },
+        {
+          "stem": "Una fundadora de Chile se calificó con 4 de 5 en investigación de mercado y preparación de producto, pero 1 de 5 en configuración legal y 2 de 5 en impuestos de EE.UU. Quiere empezar a vender a clientes de EE.UU. el próximo mes. Según el marco de preparación de esta lección, ¿cómo debería evaluar si su cronograma es realista?",
+          "options": [
+            "Sus fuertes puntuaciones de preparación de mercado significan que está lista para empezar a vender inmediatamente sin importar otras brechas",
+            "Debería retrasar toda actividad en EE.UU. por al menos un año hasta que cada categoría alcance un 4 o 5",
+            "Debería ignorar las puntuaciones legales y fiscales ya que esas pueden arreglarse después sin consecuencias",
+            "Sus puntuaciones legales y fiscales de 1 y 2 señalan que vender el próximo mes sin orientación profesional en esas áreas arriesga multas, problemas de cumplimiento o problemas estructurales que podrían costar mucho más que la demora — debería consultar a un abogado y contador antes de aceptar clientes de EE.UU."
+          ],
+          "correctAnswer": 3,
+          "explanation": "El marco de preparación trata las puntuaciones de 1 o 2 como prioridades para consulta profesional antes de tomar acción. Vender a clientes de EE.UU. sin una entidad debidamente formada, un entendimiento de las obligaciones fiscales o los contratos correctos crea exposición a responsabilidades. Sus fuertes puntuaciones de mercado son valiosas, pero las brechas legales y fiscales deben abordarse primero. La solución no es esperar un año — es agendar consultas con un abogado de negocios y un contador inmediatamente, lo que podría resolver las brechas en semanas en lugar de meses."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflection-8-1-1",
+      "title": "Reflexión Honesta: ¿Qué le Sorprendió Más?",
+      "placement": "after-section",
+      "sectionId": "text-8-1-4",
+      "prompt": "Piense en todo lo que cubrió en este programa. ¿Cuál fue la cosa más sorprendente que aprendió — algo que definitivamente no habría sabido sin este programa? ¿Cómo cambia esa sorpresa su enfoque hacia la entrada al mercado de EE.UU.? Escríbalo. Este suele ser el conocimiento que le ahorra más dinero o previene el error más grande."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-8-1-1",
+      "title": "Punto Clave",
+      "content": "<p>No necesita tener todo resuelto. Necesita saber qué resolver primero y quién puede ayudar. Eso es lo que le dio este programa. Su autoevaluación de preparación no es una calificación. Es su lista de verificación previa a la partida. Las áreas donde se calificó más bajo son sus próximos pasos de mayor prioridad. Aplique sus puntuaciones para priorizar próximos pasos: evalúe qué brechas necesitan orientación profesional primero, luego cree un plan de acción específico para cada una. Ha llegado a la sede del campus por una razón. Use estas prioridades para guiar su conversación 1:1 con el equipo de UCF BIP.</p>"
+    }
+  ]
+}

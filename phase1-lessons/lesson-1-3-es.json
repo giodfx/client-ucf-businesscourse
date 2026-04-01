@@ -1,0 +1,151 @@
+{
+  "lessonId": "lesson-1-3",
+  "moduleId": "module-1",
+  "landscapeTheme": "City Landscape",
+  "title": "Banca Básica para Fundadores Internacionales",
+  "duration": 9,
+  "objectives": [
+    "Listar los documentos que normalmente se requieren para abrir una cuenta bancaria empresarial en EE.UU. como fundador extranjero",
+    "Identificar las razones comunes por las que las solicitudes bancarias son rechazadas y cómo prepararse",
+    "Describir la diferencia entre la banca tradicional y los procesadores de pagos (Stripe, Square)"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-1-3-0",
+      "title": "El Distrito Bancario — Donde Todo Se Pone Serio",
+      "content": "<p>Su entidad está registrada, su EIN viene en camino — y ahora camina desde el City Hall hacia el distrito financiero. Usted conoce ese tipo de calle: llena de bancos, cada uno con sus propias políticas, sus propios requisitos, y su propia idea de cuánta documentación necesita traer.</p>\n\n<p>Para los fundadores internacionales, entrar a un banco en EE.UU. puede sentirse como entrar a un país nuevo otra vez.</p>\n\n<p>Abrir una cuenta bancaria en EE.UU. es uno de los mayores obstáculos que enfrentan los fundadores. Usted registró su LLC, tiene su EIN, y ahora un banco le pide documentos que nunca había escuchado, o le dice que no pueden trabajar con entidades de propietarios extranjeros.</p>\n\n<p>Esto es normal. Y es manejable si sabe qué esperar.</p>",
+      "wordCount": 136
+    },
+    {
+      "type": "image",
+      "id": "img-1-3-bank",
+      "title": "Fundador en Reunión Bancaria",
+      "src": "images/scenarios/lesson-1-3-bank-meeting.jpg",
+      "alt": "Ilustración de un fundador internacional reunido con un oficial bancario, presentando documentos empresariales y la carta de EIN."
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-3-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>A diferencia de la mayoría de los estados en EE.UU., Florida no requiere un Social Security Number para abrir una cuenta bancaria empresarial en muchas instituciones. Esta es una de las razones por las que el corredor Orlando–Miami se ha convertido en un centro para fundadores internacionales — la infraestructura bancaria aquí tiene más experiencia con entidades de propietarios extranjeros que la mayoría de las otras regiones de EE.UU.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-1-3-1",
+      "title": "Por Qué la Banca Es Más Difícil de Lo Que Espera",
+      "content": "<p>Esta es una de las partes más frustrantes del proceso para muchos fundadores internacionales. Usted hizo todo bien: registró su LLC, obtuvo su EIN, reunió sus documentos. Y luego un banco le dice que no. A veces sin una razón clara. Piense en cada banco como un edificio con su propio protocolo de seguridad — algunos lo dejan entrar con un pasaporte y un EIN, otros quieren una verificación completa de antecedentes antes de abrirle la puerta.</p>\n\n<p>Lo que esto significa en el día a día: los bancos de EE.UU. son cuidadosos con las cuentas de propietarios extranjeros debido a las reglas contra el lavado de dinero (Bank Secrecy Act, Know Your Customer). Algunos bancos no trabajan con fundadores extranjeros en absoluto. Otros pueden requerir documentos que toman semanas en reunir.</p>\n\n<p>Un fundador de Argentina compartió su experiencia: \"Registré mi LLC en dos días. Luego pasé seis semanas intentando abrir una cuenta bancaria. Cuatro bancos. Los primeros tres dijeron que no.\" Historias como esta son comunes, no inusuales. No significa que usted hizo algo mal. Significa que el sistema no fue construido pensando en usted — y necesita una estrategia para navegarlo.</p>\n\n<p>La buena noticia: los fundadores que llegan preparados tienden a resolver esto mucho más rápido. Esta lección le da esa preparación. Tenga en cuenta que los requisitos pueden variar según la institución — siempre es buena idea verificar las políticas actuales con su banco objetivo antes de visitarlo.</p>",
+      "wordCount": 200
+    },
+    {
+      "type": "text",
+      "id": "text-1-3-2",
+      "title": "Lo Que Normalmente Necesitará — La Lista de Documentos",
+      "content": "<p>Piénselo así: llegar a un banco sin los documentos correctos es como presentarse en un edificio restringido sin credencial — no va a pasar de la recepción. Aquí está el conjunto básico que la mayoría de los bancos solicitan:</p>\n\n<ol><li><strong>Carta de Confirmación del EIN (CP 575 o 147C).</strong></li><li><strong>Artículos de Organización (LLC) o Artículos de Incorporación (Corporación).</strong> Traiga la copia registrada con el número de confirmación.</li><li><strong>Acuerdo Operativo (LLC) o Estatutos Corporativos (Corporación).</strong> Muestra la estructura de propiedad y quién tiene autoridad sobre las finanzas.</li><li><strong>Pasaporte Válido.</strong></li><li><strong>Prueba de Dirección en EE.UU.</strong> Factura de servicios, contrato de arrendamiento, o estado de cuenta bancario.</li><li><strong>Depósito Inicial.</strong> Generalmente entre $100 y $500 para una cuenta corriente empresarial.</li></ol>\n\n<p>Algunos bancos también pueden pedir una licencia comercial, una segunda forma de identificación, prueba de operaciones en su país de origen, o documentación de visa. Llamar al banco antes de visitarlo es una de las cosas más útiles que puede hacer. Pregunte qué necesitan para una entidad de propietario extranjero, y obtenga un nombre de contacto si es posible.</p>",
+      "wordCount": 136
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-3-1",
+      "variant": "common-mistake",
+      "title": "Llegar al Banco Sin los Documentos Correctos",
+      "content": "<p>Aquí es donde la gente se equivoca. Este es uno de los errores bancarios más comunes para los fundadores internacionales. Usted llega a una sucursal, se sienta con un banquero, y descubre que le falta un documento crítico. El banquero no puede continuar. Usted se va, reúne el documento faltante, y regresa unos días después solo para encontrarse con un banquero diferente que pide algo que el primero no mencionó.</p>\n\n<p>La solución es simple: llame antes, obtenga una lista, y traiga todo en una carpeta. Incluya extras (segunda forma de identificación, prueba de negocio en su país de origen, identificación tributaria personal) incluso si cree que no los van a necesitar. Traiga originales y copias. Un poco de preparación le ahorra días de ir y venir.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-1-3-3",
+      "title": "Por Qué los Bancos Dicen No — Y Qué Puede Hacer al Respecto",
+      "content": "<p>Esto es lo que no le dicen en el sitio web de ningún banco: algunas puertas en este distrito simplemente están cerradas para los fundadores que aún no tienen las credenciales correctas. Los rechazos para fundadores internacionales son comunes, y las razones suelen ser frustrantes.</p>\n\n<p>En resumen: <strong>No tiene SSN o ITIN.</strong> Algunos bancos requieren una identificación tributaria personal. Confirme si el banco acepta solo un EIN antes de aplicar. No espere hasta estar sentado en la sucursal para descubrirlo.</p>\n\n<p><strong>Documentación insuficiente.</strong> Una LLC recién formada sin acuerdo operativo ni sitio web puede ser vista como demasiado nueva. Tener un resumen del negocio y un sitio web básico listo puede ayudar a demostrar que su empresa es real y está operando.</p>\n\n<p><strong>Factores del país de origen.</strong> Algunos países pueden generar una revisión adicional. Esto no siempre le impide abrir una cuenta, pero el proceso puede tomar más tiempo y el banco puede pedir más documentos.</p>\n\n<p><strong>Falta de familiaridad de la sucursal.</strong> No todas las sucursales manejan cuentas de propietarios extranjeros. Si le dicen \"no podemos hacer esto\", no se vaya. Pida hablar con un especialista en banca empresarial o llame directamente a la línea de negocios del banco. El cajero de la sucursal simplemente puede no conocer el proceso.</p>\n\n<h4>Qué Hacer Cuando Recibe un No</h4>\n\n<p>Un rechazo en un banco no significa que no pueda abrir una cuenta en ningún lado. Aquí tiene un enfoque práctico:</p>\n\n<ol><li>Pregunte al banquero POR QUÉ fue rechazado — obtenga la razón específica, no solo un \"no podemos ayudarle.\"</li><li>Pregunte si hay una sucursal o departamento diferente que maneje cuentas internacionales.</li><li>Intente con un banco comunitario o cooperativa de crédito — tienden a ser más flexibles y más dispuestos a trabajar con documentación inusual.</li><li>Considere plataformas bancarias en línea diseñadas para startups — varias han simplificado su proceso específicamente para entidades de propietarios extranjeros.</li><li>Lleve un registro de cada interacción: nombres, fechas, qué le pidieron. Esto ayuda cuando intente con el siguiente banco.</li></ol>",
+      "wordCount": 289
+    },
+    {
+      "type": "text",
+      "id": "text-1-3-4",
+      "title": "Procesadores de Pagos — Un Punto de Partida Mientras Espera",
+      "content": "<p>Mientras trabaja en entrar a los edificios grandes, hay oficinas más pequeñas en la misma calle que pueden manejar sus transacciones. Los procesadores de pagos pueden ayudar a cubrir el vacío para que pueda empezar a aceptar pagos:</p>\n\n<ul><li><strong>Stripe</strong>. Popular para negocios en línea. Maneja tarjetas de crédito e impuestos sobre ventas. La configuración a menudo se puede completar en menos de una hora.</li><li><strong>Square</strong>. Lectores de tarjetas, sistemas de punto de venta, y una cuenta corriente empresarial básica.</li><li><strong>PayPal Business</strong>. Reconocimiento de marca global, aunque las tarifas tienden a ser más altas y algunos fundadores reportan retenciones de cuenta.</li><li><strong>Wise Business</strong>. Cuentas multidivisa con tarifas de conversión bajas para transferencias a su país de origen. Útil como complemento, pero no reemplaza completamente un banco.</li></ul>\n\n<p>Pongámoslo en perspectiva. <strong>Importante:</strong> Los procesadores son un puente, no una solución permanente. Usted aún necesitará una cuenta bancaria para retiros, pagos a proveedores, nómina, y para construir un historial crediticio en EE.UU.</p>",
+      "wordCount": 124
+    },
+    {
+      "type": "callout",
+      "id": "callout-1-3-2",
+      "variant": "watch-money-costs",
+      "title": "Cuide Su Dinero — Las Comisiones Bancarias Se Acumulan",
+      "content": "<p>Fíjese cómo las tarifas de mantenimiento mensual, los costos de transferencias bancarias, los requisitos de saldo mínimo — pueden parecer pequeños individualmente, pero se acumulan con el tiempo. Un fundador que hace transferencias internacionales regularmente puede gastar fácilmente más de mil dólares al año solo en comisiones por transferencias.</p>\n\n<p>Antes de comprometerse con un banco, compare los cuadros de tarifas. Pregunte sobre exenciones de tarifas por mantener un saldo mínimo. Considere usar Wise Business para transferencias internacionales y mantener su cuenta bancaria de EE.UU. para operaciones domésticas.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-1-3-5",
+      "title": "Profundizaremos en el Módulo 2",
+      "content": "<p>Usted ha recorrido toda esta calle. Esta lección cubre lo que necesita para abrir su primera cuenta bancaria en EE.UU. El Módulo 2 lo lleva más profundo en el distrito — historial crediticio, manejo de rechazos, y consideraciones de financiamiento.</p>\n\n<p>La realidad es que necesita enfocarse en tres cosas: reunir sus documentos, llamar antes para confirmar los requisitos, y reservar suficiente para el depósito inicial más un colchón de saldo mínimo. Si aún no está en EE.UU., varias plataformas bancarias en línea ofrecen apertura de cuenta completamente remota que puede funcionar para su situación — investigue sus opciones antes de asumir que necesita visitar una sucursal en persona.</p>",
+      "wordCount": 93
+    },
+    {
+      "type": "reflection",
+      "id": "ref-1-3-1",
+      "title": "Reflexión: Su Preparación Bancaria",
+      "placement": "end-of-lesson",
+      "prompt": "Piense en su propia preparación bancaria:\n\n- ¿Cuáles documentos de la lista ya tiene? ¿Cuáles aún necesita?\n- ¿Ha identificado dos o tres bancos en el área de Central Florida (o alternativas en línea) con los que quiera contactarse?\n- ¿Cuál es su plan si el primer banco le dice que no?\n\nHaga una lista de los documentos faltantes y los pasos necesarios para obtener cada uno. Tener todo listo antes de su primera visita al banco marca una gran diferencia."
+    },
+    {
+      "type": "checklist",
+      "id": "int-1-3-1",
+      "title": "Apertura de Cuenta Bancaria — Lista de Documentos",
+      "items": [
+        "Carta de confirmación del EIN del IRS",
+        "Artículos de Organización/Incorporación de SunBiz",
+        "Acuerdo Operativo (LLC) o Estatutos (Corp)",
+        "Identificación con foto emitida por el gobierno (se acepta pasaporte)",
+        "Prueba de dirección empresarial en EE.UU.",
+        "Monto del depósito inicial (varía según el banco — generalmente $100–$500)"
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-1-3",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Usted está a punto de visitar un banco para abrir una cuenta empresarial. Tiene su carta de EIN y su pasaporte, pero no está seguro de qué más necesita el banco. ¿Cuál es el mejor enfoque?",
+          "options": [
+            "Llamar al banco primero, preguntar específicamente qué requieren para una entidad de propietario extranjero, y traer todo en una carpeta",
+            "Ir al banco con lo que tiene y resolverlo allí",
+            "Saltarse el banco y simplemente usar PayPal para todo",
+            "Esperar hasta llevar al menos seis meses en EE.UU. antes de intentar"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Llamar antes y pedir una lista específica de documentos es una de las formas más efectivas de evitar viajes innecesarios. Ir con lo que tiene arriesga que le falte un documento crítico y pierda el viaje. Depender solo de PayPal no sustituye una cuenta bancaria empresarial. Esperar seis meses es innecesario y retrasa su capacidad de operar."
+        },
+        {
+          "stem": "Un gran banco nacional rechaza su solicitud. ¿Cuál es el siguiente paso más productivo?",
+          "options": [
+            "Rendirse con la banca en EE.UU. y depender solo de procesadores de pagos",
+            "Abrir una cuenta personal y usarla temporalmente para el negocio",
+            "Esperar seis meses y volver a aplicar en el mismo banco",
+            "Intentar con un banco comunitario, cooperativa de crédito, o plataforma en línea — suelen ser más flexibles con fundadores internacionales"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Un rechazo en un banco no significa que no pueda abrir una cuenta en ningún lado. Los bancos comunitarios, cooperativas de crédito y plataformas en línea como Mercury tienden a ser más flexibles con fundadores internacionales. Rendirse con la banca limita las operaciones de su negocio. Usar una cuenta personal para transacciones empresariales puede destruir su protección de responsabilidad limitada. Esperar seis meses en el mismo banco desperdicia tiempo valioso cuando otras instituciones podrían aprobarlo ahora."
+        },
+        {
+          "stem": "Su solicitud de cuenta bancaria aún está siendo revisada, pero un cliente en EE.UU. está listo para pagarle con tarjeta de crédito. ¿Qué debería hacer?",
+          "options": [
+            "Esperar hasta que la cuenta bancaria sea aprobada antes de aceptar cualquier pago",
+            "Configurar un procesador de pagos como Stripe como puente mientras se procesa la cuenta bancaria",
+            "Pedirle al cliente que pague en efectivo",
+            "Usar su cuenta bancaria personal temporalmente"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Los procesadores de pagos como Stripe pueden servir como puente mientras se establece su cuenta bancaria. Esperar para aceptar pagos le hace perder ingresos y la confianza del cliente. Pedir efectivo es poco práctico para la mayoría de las transacciones comerciales. Usar una cuenta personal para negocios crea problemas legales y tributarios y puede perforar el velo corporativo. Aún necesitará una cuenta bancaria para retiros, así que siga buscándola."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-1-3-1",
+      "title": "Punto Clave",
+      "content": "<p>La banca es uno de los pasos que toma desprevenidos a muchos fundadores internacionales. El distrito financiero tiene sus propias reglas, y no todas las puertas se abrirán en el primer intento. Pero los fundadores que preparan sus documentos, llaman antes, y tienen un plan de respaldo tienden a resolverlo mucho más rápido.</p>\n\n<p>Los procesadores de pagos como Stripe y Square pueden cubrir el vacío mientras espera, pero no son un reemplazo a largo plazo de una cuenta bancaria adecuada. Planee que el proceso tome unas semanas, manténgase flexible, y no se desanime si el primer banco le dice que no. El Módulo 2 cubre el panorama financiero más amplio: historial crediticio, configuración tributaria, y la realidad bancaria completa.</p>"
+    }
+  ]
+}

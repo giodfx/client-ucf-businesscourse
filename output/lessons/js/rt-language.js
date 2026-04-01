@@ -70,6 +70,32 @@
     });
   }
 
+  // ── Swap [data-es-html] rich content when Spanish is active ──
+  function applySpanishHTML() {
+    if (lang !== 'es') return;
+    var ta = document.createElement('textarea');
+    document.querySelectorAll('[data-es-html]').forEach(function(el) {
+      ta.innerHTML = el.getAttribute('data-es-html');
+      el.innerHTML = ta.value;
+    });
+  }
+
+  // ── Swap [data-es-placeholder] on textareas ──
+  function applySpanishPlaceholders() {
+    if (lang !== 'es') return;
+    document.querySelectorAll('[data-es-placeholder]').forEach(function(el) {
+      el.setAttribute('placeholder', el.getAttribute('data-es-placeholder'));
+    });
+  }
+
+  // ── Swap [data-outcome-es] on scenario buttons ──
+  function applySpanishOutcomes() {
+    if (lang !== 'es') return;
+    document.querySelectorAll('[data-outcome-es]').forEach(function(el) {
+      el.setAttribute('data-outcome', el.getAttribute('data-outcome-es'));
+    });
+  }
+
   // ── Render language toggle ──
   function renderToggle() {
     var mount = document.getElementById('rt-lang-mount');
@@ -97,15 +123,18 @@
   }
 
   // Run on DOM ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() {
-      renderToggle();
-      setupSpanishVideo();
-      applySpanishText();
-    });
-  } else {
+  function initLanguage() {
     renderToggle();
     setupSpanishVideo();
     applySpanishText();
+    applySpanishHTML();
+    applySpanishPlaceholders();
+    applySpanishOutcomes();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLanguage);
+  } else {
+    initLanguage();
   }
 })();

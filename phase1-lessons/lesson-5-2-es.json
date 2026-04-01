@@ -1,0 +1,187 @@
+{
+  "lessonId": "lesson-5-2",
+  "moduleId": "module-5",
+  "landscapeTheme": "Port / Shopping Center",
+  "title": "Adquisición de Clientes y Ventas a Empresas Estadounidenses",
+  "duration": 7,
+  "objectives": [
+    "Describir los canales comunes de adquisición de clientes en EE.UU. (digital, referidos, directo, alianzas)",
+    "Explicar las expectativas del ciclo de ventas en EE.UU., incluyendo cronogramas, normas de seguimiento y patrones de cierre",
+    "Identificar consideraciones de estrategia de precios para el mercado estadounidense"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-5-2-1",
+      "title": "Dentro del Centro Comercial: Cómo los Estadounidenses Encuentran, Comparan y Compran",
+      "content": "<p>Usted ha adaptado su producto para el mercado estadounidense. Ahora es momento de sacarlo del estante y ponerlo en las manos del comprador.</p>\n\n<p>Párese en cualquier corredor comercial importante de Central Florida y observe cómo se mueven los clientes: escanean, comparan, revisan reseñas en sus teléfonos y toman una decisión en minutos. Ese mismo comportamiento impulsa las compras B2B también, solo que con números más grandes y más papeleo. Encontrar y ganar clientes estadounidenses requiere velocidad y sistemas. Una empresa B2B argentina gastó $30,000 en una feria comercial en Las Vegas, recopiló 400 tarjetas y esperó tres semanas para hacer seguimiento. Nadie los recordaba. Un competidor canadiense hizo seguimiento en 24 horas y cerró 12 negocios.</p>\n\n<p>Este es el punto práctico. La adquisición en EE.UU. es <strong>digital primero</strong>. B2B: <strong>LinkedIn, marketing de contenido, eventos, referidos</strong>. B2C: <strong>anuncios pagados, SEO, Amazon</strong>. Elija dos o tres canales.</p>",
+      "wordCount": 140
+    },
+    {
+      "type": "image",
+      "id": "img-5-2-tradeshow",
+      "title": "Fundador en Feria Comercial de EE.UU.",
+      "src": "images/scenarios/lesson-5-2-trade-show.jpg",
+      "alt": "Ilustración de un fundador entusiasta en un stand de exhibición profesional en una feria comercial de EE.UU., haciendo un gesto de bienvenida hacia los visitantes que se acercan en un gran centro de convenciones."
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-2-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>El área metropolitana de Orlando atrae a más de 75 millones de visitantes por año, convirtiéndolo en el destino más visitado de Estados Unidos. Ese volumen crea un mercado de consumo masivo donde las empresas compiten ferozmente por la atención y la velocidad de servicio. Los comportamientos de ventas que aprenderá en esta lección — seguimiento rápido, precios transparentes, adquisición digital primero — son práctica estándar en una región donde cada negocio compite por la atención de millones de compradores potenciales.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-5-2-2",
+      "title": "El Ciclo de Ventas en EE.UU. — Más Rápido y Directo de lo que Espera",
+      "content": "<p>Los compradores estadounidenses esperan que usted vaya al grano: <strong>qué ofrece, cuánto cuesta, qué lo hace diferente</strong>. Toman decisiones rápido y siguen adelante si nada les llama la atención.</p>\n\n<p>¿Qué significa eso para usted? Cronograma típico B2B:</p>\n\n<ul><li><strong>Primera respuesta:</strong> El mismo día. Tres días es demasiado tarde.</li><li><strong>Demo:</strong> Dentro de una semana.</li><li><strong>Propuesta:</strong> Dentro de 24 a 48 horas después de la primera llamada.</li><li><strong>Decisión:</strong> Menos de $10K en 1 a 2 semanas. $10K a $100K en 4 a 8 semanas. $100K+ en 3 a 6 meses.</li><li><strong>Seguimiento:</strong> Dentro de 3 días hábiles, luego semanalmente.</li></ul>\n\n<p>Configure secuencias automatizadas si no puede responder en pocas horas.</p>",
+      "wordCount": 83
+    },
+    {
+      "type": "tabs",
+      "id": "int-5-2-1",
+      "title": "Escenario de Ventas: Un Cliente Estadounidense Quiere una Cotización",
+      "tabs": [
+        {
+          "label": "La Situación",
+          "content": "Una empresa mediana de EE.UU. le envía un correo electrónico después de encontrar su producto en línea. Quieren una cotización para 50 licencias de usuario.\n\nMencionan que están 'evaluando varios proveedores' y necesitan la cotización para el viernes. Actualmente es martes.\n\n**¿Qué hace usted?**"
+        },
+        {
+          "label": "Mejor Respuesta",
+          "content": "**Responda en menos de 4 horas** — la velocidad indica profesionalismo en la cultura de ventas de EE.UU.\n\n**Incluya en su cotización:**\n- Precio claro por usuario/mes y opción anual\n- Cronograma de implementación\n- SLA de soporte\n- Cliente de referencia o caso de estudio\n\n**Haga seguimiento el viernes por la mañana** — no espere a que ellos vengan a usted."
+        },
+        {
+          "label": "Errores Comunes",
+          "content": "**Esperar más de 48 horas** para responder. En EE.UU., esto indica desinterés.\n\n**Enviar solo un precio** sin contexto. Los compradores estadounidenses quieren ver justificación de valor.\n\n**No hacer seguimiento.** El 80% de las ventas requieren más de 5 puntos de contacto. Un solo correo electrónico no es suficiente.\n\n**Negociar demasiado el precio** antes de establecer valor. Comience con los resultados primero."
+        },
+        {
+          "label": "Dato Clave",
+          "content": "Los ciclos de ventas B2B en EE.UU. son más largos de lo que la mayoría de los fundadores internacionales esperan.\n\n**Cronograma típico:**\n- Contacto inicial → Cotización: 1 a 3 días\n- Período de evaluación: 2 a 6 semanas\n- Revisión de compras/legal: 2 a 4 semanas\n- Decisión: 1 a 2 semanas\n\n**Total: 6 a 12 semanas** para negocios de mercado medio. Las ventas empresariales pueden tomar más de 6 meses."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-2-1",
+      "variant": "theme-avoid-mistakes",
+      "title": "No Hacer Seguimiento con Suficiente Rapidez",
+      "content": "<p>Aquí es donde la velocidad se convierte en un factor decisivo. En muchos países, una respuesta de tres días a una consulta de negocios se considera normal. En EE.UU., si usted no responde en cuestión de horas, el comprador ya ha contactado a su competidor. Un estudio de Harvard Business Review encontró que las empresas que respondieron a prospectos dentro de una hora tenían <strong>siete veces más probabilidades</strong> de calificar al prospecto que aquellas que esperaron apenas dos horas. La velocidad no solo ayuda. A menudo es el factor decisivo.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-5-2-3",
+      "title": "Estrategia de Precios para el Mercado de EE.UU.",
+      "content": "<p>Su estrategia de precios necesita ser transparente, competitiva y claramente posicionada. Mapee su panorama competitivo en EE.UU.: identifique 5 a 10 empresas similares y documente sus niveles de precios. Tres errores comunes:</p>\n\n<ol><li><strong>Precios demasiado bajos.</strong> Si los competidores están a $25/mes y usted a $8, eso indica que algo falta.</li><li><strong>Sin localización.</strong> Convertir el precio de su mercado local a dólares no es una estrategia.</li><li><strong>Ocultar precios.</strong> Los compradores estadounidenses esperan precios transparentes en su sitio web.</li></ol>\n\n<p>En resumen: ofrezca una prueba gratuita o garantía de devolución de dinero. Ambas son estándar en EE.UU.</p>",
+      "wordCount": 68
+    },
+    {
+      "type": "text",
+      "id": "text-5-2-vo",
+      "title": "Incorporación de Proveedores — Lo que las Empresas de EE.UU. Requieren de Usted",
+      "content": "<p>Esto toma por sorpresa a muchos fundadores que venden B2B. Su producto debe pasar por el proceso de compras del comprador antes de que usted vea un pago. El comprador dice que sí, luego el equipo de compras envía un paquete con formularios que usted nunca ha visto. Tenga todo listo antes de comenzar a vender.</p>",
+      "wordCount": 92
+    },
+    {
+      "type": "checklist",
+      "id": "checklist-5-2-vendor",
+      "title": "Lista de Verificación de Preparación como Proveedor",
+      "items": [
+        {
+          "label": "Formulario W-9 completado con su EIN (requerido por cualquier empresa de EE.UU. que le pague $600+/año)"
+        },
+        {
+          "label": "Póliza de seguro de responsabilidad general activa ($500-$2,000/año)"
+        },
+        {
+          "label": "Certificado de Seguro (COI) listo para enviar cuando se solicite"
+        },
+        {
+          "label": "Seguro de responsabilidad profesional o cibernética (si vende servicios o maneja datos)"
+        },
+        {
+          "label": "Registro de proveedor completado en el sistema de compras del comprador (Ariba, Coupa, Oracle — permita 1 a 4 semanas)"
+        },
+        {
+          "label": "Plantilla de factura de muestra con formato estándar de EE.UU. (términos Net 30, EIN, datos bancarios)"
+        },
+        {
+          "label": "Cuenta bancaria empresarial en EE.UU. activa para recibir pagos ACH o transferencia bancaria"
+        },
+        {
+          "label": "Términos de pago documentados y listos para negociar (Net 30, Net 45 o Net 60)"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-2-bys",
+      "variant": "before-you-spend",
+      "title": "Antes de Gastar Dinero: Lista de Verificación de Preparación como Proveedor",
+      "content": "<p>Piense en esto antes de comenzar a vender. Antes de presentar su oferta a su primer cliente B2B en EE.UU., asegúrese de tener esto listo:</p>\n\n<ul><li><strong>EIN (Employer Identification Number)</strong>: requerido para el formulario W-9</li><li><strong>Formulario W-9 completado</strong>: tenga un PDF listo para enviar en minutos</li><li><strong>Seguro de responsabilidad general</strong>: obtenga una póliza y solicite un COI de muestra a su proveedor</li><li><strong>Seguro de responsabilidad profesional</strong>: requerido en muchos sectores de tecnología y consultoría</li><li><strong>Cuenta bancaria en EE.UU.</strong>: la mayoría de los sistemas de compras pagan vía ACH, no transferencia bancaria</li><li><strong>Documentación de registro de la empresa</strong>. Artículos de Organización, acuerdo operativo</li></ul>\n\n<p>Si le falta cualquiera de estos, puede retrasar un negocio de dos a cuatro semanas o matarlo si el comprador tiene otras opciones listas.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-5-2",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una empresa de EE.UU. quiere comprar su servicio de software para su equipo de 50 empleados. Después de acordar los precios, su departamento de compras le envía un paquete de incorporación de proveedor. ¿Cuál de los siguientes documentos probablemente necesitará proporcionar?",
+          "options": [
+            "Un formulario W-9, certificado de seguro e información de registro de proveedor",
+            "Solo un contrato firmado y una factura",
+            "Una carta de recomendación de un cliente anterior en EE.UU.",
+            "Prueba de ciudadanía estadounidense para los fundadores de su empresa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Las empresas de EE.UU. con procesos formales de compras típicamente requieren un W-9 (identificación fiscal), certificado de seguro (prueba de cobertura de responsabilidad) y registro en su sistema de proveedores antes de poder emitir un pago. Tener estos documentos listos con anticipación evita retrasos que pueden estancar o matar el negocio."
+        },
+        {
+          "stem": "Una fundadora de software B2B de Brasil recopila 200 tarjetas de presentación en una feria comercial de EE.UU. Planea comenzar a enviar correos de seguimiento el lunes siguiente, cinco días después del evento. Su competidor hizo seguimiento con enlaces personalizados de demostración en 24 horas. Según las expectativas del ciclo de ventas en EE.UU., ¿cuál es el resultado más probable?",
+          "options": [
+            "Ambos fundadores tendrán el mismo éxito porque la calidad del producto importa más que la velocidad de seguimiento",
+            "La fundadora brasileña tendrá ventaja porque esperar demuestra paciencia y profesionalismo",
+            "El competidor cerrará significativamente más negocios porque los compradores estadounidenses avanzan con quien responde más rápido",
+            "Ninguno cerrará negocios porque los prospectos de ferias comerciales rara vez se convierten en ventas"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La velocidad es un factor decisivo en las ventas en EE.UU. El estudio de Harvard Business Review citado en esta lección encontró que las empresas que respondieron dentro de una hora tenían siete veces más probabilidades de calificar un prospecto. Esperar cinco días significa que la mayoría de los prospectos ya se han comprometido con competidores más rápidos. En los negocios estadounidenses, la primera empresa en hacer seguimiento con una oferta clara tiene una ventaja importante."
+        },
+        {
+          "stem": "Un fundador de Nigeria construyó una plataforma de cumplimiento de recursos humanos y acaba de recibir un \"sí\" verbal de una empresa de 200 personas en EE.UU. El comprador dice: \"Excelente, lo enviaré a compras.\" Compras le envía un paquete de incorporación de proveedor solicitando un formulario W-9, un certificado de seguro y registro en su sistema Coupa. Él no tiene nada de esto listo. Le dice a compras que \"les responderá en un par de semanas.\" Mientras tanto, el equipo del comprador también está evaluando un competidor con sede en EE.UU. ¿Cuál es el resultado más probable?",
+          "options": [
+            "El comprador esperará porque ya se comprometió verbalmente y cambiar de proveedor es demasiado trabajo",
+            "El negocio se estanca o muere. El competidor que tiene los documentos de proveedor listos cierra mientras él todavía está reuniendo el papeleo",
+            "Compras extenderá el plazo ya que los proveedores internacionales comúnmente necesitan tiempo extra para el papeleo de EE.UU.",
+            "El fundador puede saltarse la incorporación de proveedor facturando al comprador directamente a través de su cuenta bancaria en Nigeria"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Un \"sí\" verbal no es un negocio cerrado en las ventas B2B de EE.UU.; compras es donde los negocios viven o mueren. Dos semanas es una eternidad cuando un competidor ya tiene un W-9, certificado de seguro y registro en Coupa listos para enviar. Las empresas de EE.UU. rara vez extienden plazos para la incorporación de proveedores cuando un proveedor alternativo ya está calificado. Por eso la lección enfatiza tener toda la documentación de proveedor preparada antes de comenzar a vender, no después de que un comprador dice que sí."
+        }
+      ]
+    },
+    {
+      "type": "exercise",
+      "id": "ex-5-2-1",
+      "title": "Construya Su Kit de Preparación para Ventas en EE.UU.",
+      "placement": "after-section",
+      "sectionId": "text-5-2-vo",
+      "instructions": "<p>Cree una lista de verificación de todo lo que necesita antes de hacer su primera venta en EE.UU. Marque cada elemento como \"listo\", \"en progreso\" o \"no iniciado\":</p><ol><li><strong>EIN obtenido</strong>. ¿Tiene su Employer Identification Number?</li><li><strong>Formulario W-9 completado</strong>. ¿Tiene un PDF listo para enviar?</li><li><strong>Seguro de responsabilidad general</strong>. ¿Tiene una póliza? ¿Puede solicitar un COI?</li><li><strong>Cuenta bancaria en EE.UU.</strong>. ¿Puede recibir pagos ACH?</li><li><strong>Sitio web</strong>. ¿Es profesional, con precios y mensajes para el mercado de EE.UU.?</li><li><strong>Sistema CRM</strong>. ¿Puede rastrear prospectos y hacer seguimiento de manera sistemática?</li><li><strong>Plan de tiempo de respuesta</strong>. ¿Puede responder consultas en pocas horas durante el horario comercial de EE.UU.?</li><li><strong>Materiales de ventas</strong>. ¿Tiene un resumen de una página, página de precios y casos de estudio?</li></ol><p>Para cualquier elemento marcado como \"no iniciado\", identifique el siguiente paso específico y el plazo para completarlo. Esta lista de verificación es su línea base de preparación como proveedor para ventas B2B en EE.UU.</p>"
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-5-2-1",
+      "title": "Sus Primeros 3 Clientes en EE.UU.",
+      "placement": "after-section",
+      "sectionId": "text-5-2-vo",
+      "prompt": "Imagine a sus primeros 3 clientes en EE.UU. ¿Quiénes son: empresas específicas, industrias o tipos de compradores? Escriba sus nombres o perfiles. Ahora elija el canal que usará para llegar a cada uno de ellos (contacto por LinkedIn, feria comercial, referido, anuncios pagados, marketplace). Finalmente, ¿cuál es su plan de seguimiento? Recuerde: en EE.UU., si usted no hace seguimiento en 24 horas, alguien más ya lo hizo. Escriba exactamente qué enviará y cuándo."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-5-2-1",
+      "title": "Conclusión Clave",
+      "content": "<p>La conclusión es simple. La velocidad gana en el mercado de EE.UU. Responda rápido, establezca precios claros basados en las normas del mercado estadounidense y haga seguimiento con cuidado. Para ventas B2B, prepare sus documentos de incorporación de proveedor (W-9, certificados de seguro, registro de empresa) antes de comenzar a vender. Los fundadores que cierran negocios en EE.UU. son los que facilitan que los compradores digan que sí — su papeleo está listo y su negocio está abierto cuando llega la oportunidad.</p>"
+    }
+  ]
+}

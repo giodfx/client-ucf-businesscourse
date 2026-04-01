@@ -1,0 +1,161 @@
+{
+  "lessonId": "lesson-5-1",
+  "moduleId": "module-5",
+  "landscapeTheme": "Port / Shopping Center",
+  "title": "Adaptando Su Producto para EE.UU.",
+  "duration": 7,
+  "objectives": [
+    "Explicar por qué los productos exitosos en otros mercados a menudo fracasan cuando se transfieren directamente a EE.UU.",
+    "Identificar las áreas clave donde típicamente se necesita adaptación para el mercado estadounidense (precio, presentación, mensaje, cumplimiento normativo)",
+    "Describir el concepto de product-market fit en el contexto estadounidense"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-5-1-1",
+      "title": "Llegando al Centro Comercial: Por Qué Su Producto Necesita Cambiar para EE.UU.",
+      "content": "<p>Conduzca hacia el este desde Orlando y llegará a Port Canaveral, uno de los puertos más activos de Norteamérica, donde llegan productos de docenas de países diariamente. Diríjase a los corredores de outlets a lo largo de International Drive y verá el otro lado de la ecuación: millones de consumidores estadounidenses navegando, comparando y decidiendo qué comprar. Este es el mercado de EE.UU. Los productos fluyen desde todo el mundo, pero los que se venden son los que están diseñados para los compradores que tienen enfrente.</p>\n\n<p>Tener un gran producto no es suficiente para tener éxito aquí. Una empresa chilena de tecnología educativa tenía 200,000 usuarios en América Latina pero solo consiguió cuatro clientes en EE.UU. en seis meses después de lanzar con una simple traducción al inglés.</p>\n\n<p>Entonces, ¿qué pasó después? Tuvieron éxito después de reconstruir los precios, agregar compatibilidad con SCORM, contratar soporte con base en EE.UU. y reposicionar el producto en torno al ahorro de tiempo. El producto apenas cambió. Todo lo que lo rodeaba sí.</p>",
+      "wordCount": 148
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>Port Canaveral es el segundo puerto de cruceros más activo del mundo por volumen de pasajeros, manejando más de 7 millones de pasajeros de crucero en años pico. Pero también es un puerto de carga significativo, procesando cientos de miles de toneladas de mercancías anualmente. Mientras tanto, el área de Orlando tiene una de las mayores concentraciones de centros comerciales tipo outlet y minoristas del estado, atrayendo visitantes internacionales que gastan miles de millones cada año. Esta combinación de comercio portuario y venta minorista hace de Central Florida un caso de estudio real de cómo los productos llegan a los compradores estadounidenses.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-5-1-2",
+      "title": "La Adaptación Comienza Antes de Vender",
+      "content": "<p>Camine por cualquier centro comercial de outlets en Central Florida y notará algo: incluso los minoristas de descuento fijan precios estratégicamente, no baratos. Una empresa de administración de propiedades con base en los Emiratos Árabes Unidos, dominante a $15/unidad/mes en Dubái, tuvo que cambiar el precio a $35/unidad/mes para gerentes estadounidenses que asumían que cualquier cosa por debajo de $30 carecía de funciones de cumplimiento normativo.</p>\n\n<p>El precio es solo una de las cinco áreas donde los productos internacionales típicamente necesitan adaptación para los clientes estadounidenses. Explore cada área a continuación para entender qué cambia y por qué.</p>",
+      "wordCount": 146
+    },
+    {
+      "type": "tabs",
+      "id": "int-5-1-1",
+      "title": "Adaptación al Mercado — Áreas Clave para Localizar",
+      "tabs": [
+        {
+          "label": "Precios",
+          "content": "**Expectativas en EE.UU.:** Se prefieren las suscripciones mensuales sobre las anuales. Se esperan pruebas gratuitas (mínimo 7–14 días).\n\n**Errores comunes:** Fijar precios en la moneda de su país de origen, no considerar el impuesto sobre las ventas de EE.UU., poner precios demasiado bajos para 'entrar al mercado.'\n\n**Acción:** Investigue 3 competidores en EE.UU. y posicione su precio dentro del 20% del promedio del mercado."
+        },
+        {
+          "label": "Posicionamiento",
+          "content": "**Expectativas en EE.UU.:** Lidere con el problema que resuelve, no con su tecnología. Enfatice el retorno de inversión y el ahorro de tiempo.\n\n**Errores comunes:** Liderar con características en lugar de beneficios, usar referencias de marca desconocidas.\n\n**Acción:** Reescriba el titular de su página principal para responder: '¿Qué resultado obtiene el cliente?'"
+        },
+        {
+          "label": "Cumplimiento Normativo",
+          "content": "**Expectativas en EE.UU.:** Política de privacidad, términos de servicio, cumplimiento CCPA/GDPR, SOC 2 para ventas empresariales.\n\n**Errores comunes:** Copiar documentos de cumplimiento de su país de origen, ignorar las leyes de privacidad a nivel estatal.\n\n**Acción:** Use un servicio como Termly o Iubenda para las páginas legales básicas. Presupueste para SOC 2 si apunta al mercado empresarial."
+        },
+        {
+          "label": "Soporte",
+          "content": "**Expectativas en EE.UU.:** Soporte en inglés durante el horario comercial de EE.UU. Respuesta por correo electrónico en 24 horas. Se prefiere el chat.\n\n**Errores comunes:** Soporte solo durante la zona horaria de su país de origen, inglés no nativo en la documentación.\n\n**Acción:** Contrate a una persona de soporte de medio tiempo con base en EE.UU. o use un servicio como Time Doctor para la cobertura de zona horaria."
+        },
+        {
+          "label": "Pago y Compras",
+          "content": "**Expectativas en EE.UU.:** Las tarjetas de crédito son estándar para B2C. Las empresas B2B pagan por transferencia ACH, cheque o términos neto-30. Las empresas más grandes requieren registro de proveedor antes del pago.\n\n**Errores comunes:** Requerir solo transferencias bancarias (las empresas estadounidenses rara vez pagan así para proveedores nacionales), no aceptar tarjetas de crédito para ventas B2C, no estar configurado para pagos ACH.\n\n**Acción:** Abra una cuenta bancaria empresarial en EE.UU. que soporte ACH. Integre un procesador de pagos (Stripe, Square) para la aceptación de tarjetas de crédito. Esté preparado para términos de pago neto-30 o neto-60 con clientes B2B más grandes."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-5-1-3",
+      "title": "El Product-Market Fit No Es Universal",
+      "content": "<p>El product-market fit en su país no significa que lo tenga aquí. Hable con clientes estadounidenses antes de adaptar cualquier cosa y ejecute pilotos con 5 a 10 clientes tempranos antes de un lanzamiento completo.</p>\n\n<p>Como contexto, un fundador turco de análisis de comercio electrónico tuvo que reconstruir su proceso de incorporación de un proceso guiado de dos semanas a un flujo de autoservicio de 30 minutos porque los minoristas estadounidenses esperaban autoservicio y resultados en 48 horas. El programa UCF BIP puede conectarlo con clientes tempranos y asesores en Central Florida.</p>\n\n<p>Los compradores estadounidenses también valoran cosas diferentes que los compradores en muchos otros mercados. Mientras que las relaciones personales a menudo impulsan las decisiones de compra en otros lugares, los compradores estadounidenses priorizan la <strong>velocidad, la conveniencia, la transparencia y la prueba social</strong>. Esperan reseñas, pruebas gratuitas y garantías de devolución de dinero. Revisan tres alternativas antes de decidir y leen su página de precios antes que su página \"Acerca de\". Estas son expectativas básicas, no extras opcionales.</p>",
+      "wordCount": 97
+    },
+    {
+      "type": "scenario",
+      "id": "scenario-5-1-pricing",
+      "title": "Su Precio Es Muy Bajo — ¿Qué Hace?",
+      "description": "Su producto SaaS cuesta $15/mes en América Latina. Un prospecto en EE.UU. dice: 'A ese precio, asumiría que no incluye funciones de cumplimiento normativo.' Sus competidores en EE.UU. cobran $45-$65/mes. ¿Cuál es su movimiento?",
+      "paths": [
+        {
+          "label": "Mantener el precio de $15 — es su ventaja competitiva",
+          "outcome": "Arriesgado en el mercado estadounidense. Los compradores B2B estadounidenses asocian los precios bajos con funciones faltantes, soporte deficiente o corta vida de la empresa. Puede ganar clientes sensibles al precio pero perder compradores empresariales que necesitan justificar la compra ante los equipos de adquisiciones. Un precio bajo transmite riesgo.",
+          "isRecommended": false
+        },
+        {
+          "label": "Subir a $39/mes y agregar funciones específicas para EE.UU. (documentos de cumplimiento, soporte en inglés, SLA)",
+          "outcome": "Enfoque sólido. Fijar precios dentro del rango competitivo transmite credibilidad. Agregar funciones específicas para EE.UU. (documentación SOC 2, soporte principalmente en inglés, SLA de tiempo de actividad) justifica el aumento de precio y aborda la verdadera preocupación: ¿este producto cumple con los estándares empresariales de EE.UU.?",
+          "isRecommended": true
+        },
+        {
+          "label": "Crear una 'Edición EE.UU.' separada a $55/mes con posicionamiento premium",
+          "outcome": "Viable pero complejo. Un nivel separado puede funcionar si genuinamente tiene funciones premium que ofrecer. Pero administrar dos niveles de producto en diferentes mercados agrega complejidad operativa. Comience con un precio competitivo único para EE.UU. y agregue niveles después cuando entienda mejor el mercado.",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Errores Comunes que Cometen los Fundadores Internacionales — Clientes en EE.UU.",
+      "content": "<p>Note estos patrones:</p><ul><li><strong>Lanzar con los precios del mercado de origen.</strong> Las expectativas de precios en EE.UU. están determinadas por los competidores locales, no por su estructura de costos en casa. Si es demasiado bajo, parece poco confiable. Si es demasiado alto sin una diferenciación clara, pierde ante los jugadores establecidos. Una empresa de software colombiana fijó el precio de su herramienta de gestión de proyectos en $5/usuario/mes — los prospectos estadounidenses asumieron que era una herramienta básica. Después de reposicionar a $19/usuario/mes con funciones adicionales, las tasas de conversión mejoraron significativamente. Investigue su entorno competitivo antes de fijar un precio.</li><li><strong>No dar seguimiento rápido a las consultas de EE.UU.</strong> Los compradores estadounidenses esperan respuestas el mismo día. En muchos mercados, una respuesta de dos o tres días es normal. En EE.UU., esperar más de unas pocas horas significa que ya contactaron a su competidor.</li><li><strong>Omitir los requisitos de registro como proveedor.</strong> Al vender a empresas estadounidenses, a menudo necesitará completar el registro de proveedor incluyendo formularios fiscales (W-9), prueba de seguros y documentación de cumplimiento. No saber que esto existe retrasa los negocios por semanas o los mata por completo.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-5-1-wm",
+      "variant": "watch-money-costs",
+      "title": "Cuide Su Dinero: Lo Que Realmente Cuesta Entrar al Mercado",
+      "content": "<p>Aquí es donde los números importan. A principios de 2026, presupueste estos costos de entrada al mercado:</p>\n\n<ul><li><strong>Investigación de mercado en EE.UU.:</strong> $2,000–$10,000 subcontratado; gratis a través de networking y contacto directo</li><li><strong>Localización del producto (más allá de la traducción):</strong> $5,000–$25,000: cumplimiento regulatorio, integración de pagos, cambios de UI/UX</li><li><strong>Marketing digital (SEO, anuncios pagados):</strong> $2,000–$5,000/mes</li><li><strong>Sitio web y materiales de venta para EE.UU.:</strong> $3,000–$15,000</li><li><strong>Ferias comerciales (B2B):</strong> $3,000–$10,000 por evento</li></ul>\n\n<p>Uno de los mayores costos es el tiempo gastado vendiendo a clientes que no son el ajuste correcto. Invierta dinero en investigación antes del marketing.</p>"
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-5-1-1",
+      "title": "Su Lista de Verificación de Adaptación al Mercado de EE.UU.",
+      "placement": "after-section",
+      "sectionId": "text-5-1-2",
+      "instructions": "<p>Para cada una de las cinco áreas de adaptación de esta lección, escriba una acción específica que necesita tomar antes de entrar al mercado de EE.UU. Sea concreto — \"definir los precios\" no cuenta.</p><ul><li><strong>Precios:</strong> ¿Cuánto les cobrará a los clientes en EE.UU. y cómo se compara con sus competidores? ___</li><li><strong>Posicionamiento:</strong> ¿Cuál es su propuesta de valor en una oración para compradores en EE.UU.? ___</li><li><strong>Cumplimiento:</strong> ¿Qué regulaciones de EE.UU. aplican a su producto o servicio? ___</li><li><strong>Soporte:</strong> ¿Cómo manejará el soporte en la zona horaria de EE.UU. (9 AM–6 PM ET a PT)? ___</li><li><strong>Pago:</strong> ¿Qué métodos de pago de EE.UU. aceptará (ACH, tarjeta de crédito, otros)? ___</li></ul><p>Si no puede responder a alguna de estas todavía, esa es el área donde necesita investigar más primero.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-5-1",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una empresa fintech de Alemania se lanza en EE.UU. con sus precios europeos ($8/mes por usuario) y su equipo de soporte al cliente en alemán cubriendo horario comercial europeo. Después de tres meses, tienen muy pocos clientes en EE.UU. ¿Cuál es la combinación de problemas más probable?",
+          "options": [
+            "El producto en sí no es lo suficientemente bueno para el mercado de EE.UU.",
+            "Necesitan publicitarse más agresivamente en EE.UU.",
+            "El nombre alemán de la empresa es la barrera principal para la adopción en EE.UU.",
+            "Los clientes de EE.UU. ven el precio bajo como una señal de calidad y no pueden contactar al soporte durante su horario comercial"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dos de las cinco áreas comunes de adaptación probablemente están fallando aquí. El precio ($8/mes) puede percibirse como demasiado bajo en un mercado donde los competidores cobran $20–$40, señalando un producto básico o poco confiable. Y la falta de soporte en horario de EE.UU. significa que los clientes estadounidenses no pueden obtener ayuda cuando la necesitan. Corregir estos dos problemas — ajustar los precios a las normas competitivas de EE.UU. y proporcionar soporte en la zona horaria de EE.UU. — probablemente tendría más impacto que aumentar la publicidad."
+        },
+        {
+          "stem": "Una exitosa aplicación de entrega de comida de México quiere expandirse al mercado de EE.UU. Su aplicación funciona bien en español, y planean traducirla al inglés y lanzarla al mismo precio ($3.99/mes) que cobran en México. No tienen soporte al cliente con base en EE.UU. ¿Qué área de adaptación deberían abordar PRIMERO para evitar la barrera más inmediata para las ventas en EE.UU.?",
+          "options": [
+            "Traducir la interfaz de la aplicación al inglés ya que el idioma siempre es la mayor barrera",
+            "Agregar más funciones para competir con aplicaciones de EE.UU. como DoorDash y Uber Eats",
+            "Cumplimiento y requisitos regulatorios, porque la entrega de comida en EE.UU. involucra regulaciones de salud y seguridad específicas por estado que podrían no cumplir",
+            "Crear presencia en redes sociales en TikTok para atraer a clientes jóvenes de EE.UU."
+          ],
+          "correctAnswer": 2,
+          "explanation": "El cumplimiento normativo es la barrera más inmediata porque el incumplimiento puede significar multas, demandas o la imposibilidad de operar. Si bien los precios, el soporte y el posicionamiento necesitan adaptación, los requisitos regulatorios no son negociables y deben abordarse antes de cualquier otra inversión de entrada al mercado."
+        },
+        {
+          "stem": "Una fundadora de Corea del Sur creó una herramienta de monitoreo de ciberseguridad que domina el mercado coreano a ₩15,000/mes (aproximadamente $11 USD). Para el lanzamiento en EE.UU., contrata a una empresa de traducción profesional, convierte el precio a $11/mes y crea una página de destino. Después de dos meses, los registros de prueba gratuita son decentes pero casi nadie convierte a pago. Los prospectos de EE.UU. siguen preguntando, \"¿Cuál es la trampa?\" ¿Qué debería cambiar primero?",
+          "options": [
+            "Agregar más funciones para justificar el precio, ya que el mercado de EE.UU. espera un producto más grande",
+            "Reposicionar los precios para que coincidan con los niveles de los competidores en EE.UU. ($25–$45/mes) y reformular la propuesta de valor en torno a resultados específicos como la reducción del tiempo de respuesta ante brechas de seguridad",
+            "Mantener el precio de $11 pero agregar un nivel premium empresarial a $50/mes para empresas más grandes",
+            "Eliminar la prueba gratuita ya que hace que el producto parezca menos serio para los compradores estadounidenses"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El problema central es que los compradores de EE.UU. asocian los precios bajos con baja calidad — $11/mes en un mercado donde los competidores cobran $25–$45 señala que algo falta. La traducción por sí sola no es adaptación. Ella necesita reajustar los precios a las normas competitivas de EE.UU. y reposicionar en torno a una propuesta de valor específica y medible (como \"reduce el tiempo de respuesta ante brechas de 4 horas a 20 minutos\") en lugar de afirmaciones genéricas. El producto puede que no necesite cambiar en absoluto — los precios y el posicionamiento a su alrededor sí."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-5-1-1",
+      "title": "Punto Clave",
+      "content": "<p>La conclusión es clara. Planifique adaptar su producto, precios y mensaje para el mercado de EE.UU. El product-market fit no cruza fronteras por sí solo. Hable con clientes en EE.UU. antes de lanzar, no después. Enfoque su adaptación en precios, posicionamiento, cumplimiento normativo, soporte y métodos de pago. Aplique las cinco áreas de adaptación a su propio producto. Compare su enfoque del mercado de origen con las expectativas de EE.UU. en cada categoría. Los fundadores que tienen éxito en EE.UU. son los que tratan la entrada al mercado como un proceso de descubrimiento y se ajustan según la retroalimentación real de los clientes.</p>"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "lessonId": "lesson-8-3",
+  "moduleId": "module-8",
+  "landscapeTheme": "UCF Headquarters",
+  "title": "Próximos Pasos — Su Camino con UCF BIP",
+  "duration": 7,
+  "objectives": [
+    "Agendar una consulta 1:1 con el equipo de UCF BIP",
+    "Entender lo que su camino continuo con UCF BIP ofrece más allá de este programa",
+    "Identificar sus 3 acciones prioritarias para los próximos 30 días"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-8-3-1",
+      "title": "Su Próximo Movimiento desde la Sede del Campus",
+      "content": "<p>Con sus recursos descargados y sus puntuaciones de preparación en mano, está parado en la puerta principal del complejo de incubación de UCF. Aquí es donde el programa deja de ser un curso y comienza a ser una relación. Una acción importa más que todas: <strong>agende su reunión 1:1 con Brian Bedrick y el equipo de UCF BIP.</strong></p>\n\n<p>¿Qué significa esto realmente en el día a día? Esta es su orientación dentro de la sede — el equipo conoce su misión y le ayuda a planificar la ruta. Es una sesión de estrategia, no una llamada de ventas. Una conversación de 30 minutos puede ahorrarle meses de ensayo y error.</p>\n\n<h4>Qué Llevar</h4>\n\n<p>Lleve sus puntuaciones de preparación y sus preguntas — ese es su informe de entrada para el equipo.</p>\n\n<ul><li><strong>Sus puntuaciones de autoevaluación de preparación</strong> de la Lección 8-1</li><li><strong>Su Hoja de Decisión de Expansión completada</strong> de la Lección 8-2</li><li><strong>Sus 3 preguntas principales</strong>: escritas antes de la reunión</li><li><strong>Su contexto de negocio</strong>: empresa, producto, mercado local y por qué está considerando EE.UU.</li></ul>\n\n<h4>Reserve Su Reunión Ahora</h4>\n\n<p><strong>[RESERVE SU REUNIÓN 1:1 | Enlace de Calendly pendiente]</strong></p>\n\n<p>Gratuita, sin presión, y el siguiente paso natural.</p>",
+      "wordCount": 119
+    },
+    {
+      "type": "image",
+      "id": "img-8-3-ucfmeeting",
+      "title": "Fundador en Reunión 1:1 con UCF",
+      "src": "images/scenarios/lesson-8-3-ucf-meeting.jpg",
+      "alt": "Ilustración de un fundador estrechando la mano de un asesor empresarial de UCF a través de un escritorio en una oficina cálida del campus, con un plan de acción impreso, laptop y tazas de café sobre la mesa."
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-3-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>UCF es consistentemente clasificada entre las mejores universidades del país en producir graduados listos para ingresar al mercado laboral, y su proximidad a empleadores importantes como Lockheed Martin, Siemens y la industria espacial en el cercano Cape Canaveral crea un flujo único de talento. El Parque de Investigación de Central Florida, adyacente al campus, es uno de los parques de investigación más grandes del país, dándole a las empresas de la incubadora acceso a talento especializado y alianzas de investigación que serían difíciles de encontrar en otro lugar.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-8-3-2",
+      "title": "Qué Viene Después de la Fase 1",
+      "content": "<p>La Fase 1 le dio el mapa. Su camino continuo con UCF BIP lo pone en el camino. Este programa es la Fase 1: la base antes de gastar dinero en el mercado de EE.UU. Algunos fundadores avanzan de forma independiente. Otros se benefician de <strong>las siguientes etapas del programa de entrada al mercado/aterrizaje suave de UCF BIP</strong>:</p>\n\n<ul><li><strong>Asesoría personalizada</strong>. Orientación individual específica para su negocio</li><li><strong>Conexiones profesionales</strong>. Presentaciones cálidas a abogados, contadores y contactos bancarios</li><li><strong>Acceso al ecosistema</strong>. Inversionistas, contactos de la industria y organizaciones asociadas</li><li><strong>Comunidad de pares</strong>. Otros fundadores internacionales en una etapa similar</li><li><strong>Hitos estructurados</strong>. Seguimiento de progreso con check-ins regulares</li></ul>\n\n<p>Los detalles se discuten durante su reunión 1:1. Su conversación ayudará a determinar qué camino tiene más sentido.</p>",
+      "wordCount": 104
+    },
+    {
+      "type": "text",
+      "id": "text-8-3-3",
+      "title": "Sus 3 Acciones Principales para los Próximos 30 Días",
+      "content": "<p>Estos son sus primeros tres movimientos después de salir del campus. Elija sus tres acciones principales para los próximos 30 días. Tres, no diez. Las acciones específicas generan mayor seguimiento que las listas largas.</p>\n\n<h4>Haga Cada Acción Específica</h4>\n\n<p>Así es como funciona. <strong>Débil:</strong> \"Aprender más sobre tipos de entidades.\" <strong>Fuerte:</strong> \"Agendar una consulta con un abogado de negocios para discutir LLC vs. C-Corp para mi situación de visa antes de [fecha].\"</p>\n\n<p>Acciones de alto impacto para 30 días:</p>\n\n<ol><li><strong>Reserve su reunión 1:1 con UCF BIP</strong>. Hágalo hoy.</li><li><strong>Contacte a un profesional específico</strong>. Abogado, contador o abogado de inmigración. \"Enviar correo a esta referencia antes del viernes.\"</li><li><strong>Complete una tarea de investigación</strong>. Verificación de nombre en SunBiz, búsqueda en USPTO, o compilar documentación bancaria.</li><li><strong>Regístrese en un recurso gratuito</strong>. Asesoría del SBDC, mentoría de SCORE, o un evento de la cámara.</li><li><strong>Complete la Hoja de Decisión de Expansión</strong>. Reserve 60 minutos antes de su reunión 1:1.</li></ol>",
+      "wordCount": 126
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-8-3-1",
+      "title": "Escriba Sus 3 Acciones Principales",
+      "placement": "after-section",
+      "sectionId": "text-8-3-3",
+      "instructions": "<p>Complete este ejercicio ahora mismo — no lo deje para después. Escriba sus tres acciones de mayor prioridad para los próximos 30 días. Para cada una, incluya:</p><ol><li><strong>La acción específica</strong>. ¿Qué exactamente va a hacer?</li><li><strong>La fecha límite</strong>. ¿Para qué fecha la completará?</li><li><strong>El primer paso</strong>. ¿Cuál es la primera cosa que necesita hacer para empezar? (Un correo electrónico por enviar, un sitio web por visitar, una llamada telefónica por hacer.)</li></ol><p><strong>Acción 1:</strong> _______________________________________________</p><p>Fecha límite: ________ | Primer paso: ___________________________</p><p><strong>Acción 2:</strong> _______________________________________________</p><p>Fecha límite: ________ | Primer paso: ___________________________</p><p><strong>Acción 3:</strong> _______________________________________________</p><p>Fecha límite: ________ | Primer paso: ___________________________</p><p>Si su primera acción no es \"Reservar mi reunión 1:1 con UCF BIP,\" reconsidere. Esa reunión es gratuita, toma 30 minutos, y le da un punto de referencia para todo lo demás en su lista.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-3-disc",
+      "variant": "reality-check",
+      "title": "Recordatorio Importante Antes de Irse",
+      "content": "<p>Este programa proporciona información educativa general para ayudar a los fundadores internacionales a entender el entorno empresarial de EE.UU. No constituye asesoría legal, fiscal, migratoria ni financiera. Los fundadores deben consultar a profesionales calificados antes de tomar decisiones empresariales.</p>\n\n<p>Esto no es una formalidad. Es genuinamente importante. La información en este programa le da una base sólida, pero el caso de cada fundador es diferente. Su elección de entidad, sus obligaciones fiscales, su camino de visa, su estrategia de PI: todo esto depende de su caso específico. Los expertos con los que trabaje tomarán el conocimiento general que adquirió aquí y lo adaptarán a su negocio particular, su país de origen, su industria y sus objetivos. Así es como el conocimiento se convierte en acción segura y real.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-8-3-4",
+      "title": "Una Última Cosa — Su Opinión Importa",
+      "content": "<p>Ahora, antes de cerrar este programa, dos preguntas. Sus respuestas ayudan a mejorar esto para cada fundador que venga después de usted.</p>\n\n<h4>¿Valió la Pena Su Tiempo Este Programa?</h4>\n\n<p>¿Cambió su comprensión de la entrada al mercado de EE.UU.? ¿Le ayudó a evitar al menos un error costoso? Sea honesto. Las respuestas positivas y críticas ayudan por igual.</p>\n\n<h4>¿Qué lo Haría Mejor?</h4>\n\n<p>¿Un tema con más profundidad? ¿Un área demasiado básica? ¿Un recurso que desearía que existiera? Comparta sus pensamientos durante su reunión 1:1 o envíelos directamente al equipo de UCF BIP.</p>",
+      "wordCount": 83
+    },
+    {
+      "type": "tabs",
+      "id": "int-8-3-1",
+      "title": "Finalización del Certificado — Lo que Ha Logrado",
+      "tabs": [
+        {
+          "label": "Habilidades Adquiridas",
+          "content": "**Al completar este curso, ha desarrollado conocimiento práctico en:**\n\n- Selección y registro de entidades empresariales en EE.UU.\n- Cumplimiento fiscal federal, estatal y local\n- Estrategias de protección de propiedad intelectual\n- Planificación de contratación y caminos de visa\n- Entrada al mercado de EE.UU. y adquisición de clientes\n- Comunicación empresarial intercultural\n- Navegación del ecosistema de Central Florida"
+        },
+        {
+          "label": "Su Credencial",
+          "content": "**Credencial Digital de POK Tech**\n\nSu finalización de este programa le otorga una credencial digital verificada de POK Tech.\n\n**Lo que esto significa:**\n- Compartible en LinkedIn y perfiles profesionales\n- Verificable por empleadores y socios\n- Demuestra compromiso con el desarrollo profesional\n- Reconocida por el programa UCF BIP para elegibilidad a la Fase 2"
+        },
+        {
+          "label": "Qué Sigue",
+          "content": "**Este es el comienzo, no el final.**\n\n1. **Aplique a la Fase 2 de UCF BIP** — mentoría práctica y validación de mercado\n2. **Reserve su consulta con el SBDC** — obtenga apoyo personalizado de planificación empresarial\n3. **Conéctese con otros fundadores** — únase a la red de emprendedores internacionales de UCF\n4. **Tome acción esta semana** — elija UNA cosa de este curso y hágala hoy\n\n**Su camino empresarial en EE.UU. comienza ahora.**"
+        }
+      ]
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-8-3",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una fundadora ha completado la Fase 1 (este programa), consiguió sus dos primeros clientes en EE.UU. y ha generado ingresos tempranos. ¿Cuál fase de UCF BIP está diseñada para su etapa actual de negocio?",
+          "options": [
+            "Fase 1. Debería retomar el programa para reforzar los fundamentos",
+            "Fase 2, diseñada para fundadores que establecen operaciones iniciales en EE.UU. con una oportunidad validada",
+            "Fase 3, diseñada para fundadores con tracción temprana (clientes e ingresos) que necesitan ayuda para escalar",
+            "Ha superado el programa de UCF BIP y debería trabajar de forma independiente"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La Fase 3 del programa de entrada al mercado/aterrizaje suave de UCF BIP está diseñada específicamente para fundadores que ya tienen tracción inicial — clientes tempranos, ingresos o alianzas firmadas. Se enfoca en estrategia de crecimiento, conexiones con inversionistas, networking expandido y apoyo operacional para escalar. La Fase 2 es para fundadores que todavía están estableciendo operaciones iniciales."
+        },
+        {
+          "stem": "Según la guía de la lección sobre establecimiento efectivo de metas, ¿cuál de los siguientes es el elemento de acción MÁS FUERTE para el plan de 30 días de un fundador?",
+          "options": [
+            "Agendar una consulta de 30 minutos con un contador que trabaje con negocios de propiedad extranjera antes del 28 de marzo",
+            "Aprender más sobre impuestos de EE.UU.",
+            "Investigar el mercado y determinar los precios",
+            "Configurar todo lo más pronto posible"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Los elementos de acción efectivos deben ser específicos, con plazo definido y completables. 'Agendar una consulta de 30 minutos con un contador que trabaje con negocios de propiedad extranjera antes del 28 de marzo' incluye una acción específica (agendar consulta), un calificador específico (contador con experiencia internacional), y una fecha límite. Metas vagas como 'aprender más' o 'investigar el mercado' carecen de la especificidad necesaria para el seguimiento."
+        },
+        {
+          "stem": "Una fundadora de Guatemala ha completado este programa de Fase 1 y quiere tomar acción esta semana. Todavía no ha formado una entidad en EE.UU., no tiene cita con el SBDC y no ha completado la Hoja de Decisión de Expansión. Según la guía de la lección sobre priorización de próximos pasos, ¿cuál conjunto específico de acciones debería tomar en los próximos siete días?",
+          "options": [
+            "Registrar inmediatamente una LLC en SunBiz y abrir una cuenta bancaria para poder empezar a aceptar pagos de EE.UU.",
+            "Enfocarse completamente en asistir a eventos de networking para construir conexiones antes de hacer cualquier trabajo administrativo",
+            "Esperar hasta sentirse completamente segura en los siete temas de los módulos antes de tomar cualquier acción",
+            "Reservar su reunión 1:1 con UCF BIP, agendar una sesión gratuita de asesoría del SBDC en floridasbdc.org, y reservar 60 minutos para completar la Hoja de Decisión de Expansión antes de la reunión"
+          ],
+          "correctAnswer": 3,
+          "explanation": "La lección enfatiza tres acciones específicas para la primera semana: reservar la reunión 1:1 con UCF BIP (gratuita, 30 minutos, el siguiente paso más importante), conectarse con un recurso de apoyo como el SBDC, y completar la Hoja de Decisión de Expansión para que el equipo del BIP pueda dar asesoría específica. Registrar una LLC antes de consultar a un profesional arriesga elegir el tipo de entidad incorrecto. Esperar a tener confianza total retrasa el progreso innecesariamente. El networking importa, pero el apoyo estructurado debería venir primero."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflection-8-3-2",
+      "title": "Retroalimentación para Mejorar el Programa",
+      "placement": "after-section",
+      "sectionId": "text-8-3-4",
+      "prompt": "Si pudiera cambiar una cosa de este programa — agregar un tema, eliminar una sección, cambiar el formato, profundizar en algo — ¿cuál sería? Su respuesta ayuda a dar forma a la próxima versión. Sea específico. \"Más detalles sobre X\" es más útil que \"hacerlo mejor.\" Comparta esta retroalimentación durante su reunión 1:1 o envíela directamente al equipo de UCF BIP."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-8-3-1",
+      "title": "Punto Clave",
+      "content": "<p>La puerta está abierta. El próximo movimiento es suyo. Ha llegado a la sede del campus no como una línea de meta, sino como un punto de partida. Tiene el conocimiento, los recursos y el acceso a un equipo que quiere ayudarle a tener éxito. Los fundadores que tienden a obtener mayor valor de este programa son los que toman acción dentro de la primera semana. Aplique lo que aprendió: reserve su reunión 1:1, luego cree sus 3 acciones principales con fechas límite específicas. Dé el primer paso hoy. Central Florida está lista para recibirlo, y el equipo de UCF BIP está listo para ayudarle a llegar ahí.</p>"
+    }
+  ]
+}

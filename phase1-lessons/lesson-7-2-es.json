@@ -1,0 +1,179 @@
+{
+  "lessonId": "lesson-7-2",
+  "moduleId": "module-7",
+  "landscapeTheme": "River Springs",
+  "title": "Central Florida — Su Oportunidad de Mercado",
+  "duration": 6,
+  "objectives": [
+    "Describir el carácter cualitativo del ecosistema de startups de Central Florida y por qué atrae a fundadores internacionales",
+    "Explicar el rol de UCF como institución ancla y su conexión con el corredor regional de investigación-a-mercado",
+    "Identificar los eventos de networking, centros comunitarios y personas que importan para un nuevo fundador en la región"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-7-2-1",
+      "title": "El Ecosistema Vivo, Donde Cada Corriente lo Lleva Adelante",
+      "content": "<p>Más adentro en los manantiales, el agua se mueve con propósito. Canales laterales se ramifican, cada uno llevando a una parte diferente del sistema fluvial, pero todos permanecen conectados a la misma fuente. El ecosistema de startups de Central Florida funciona de la misma manera: diferentes organizaciones atienden diferentes necesidades, pero alimentan la misma red de fundadores, mentores y oportunidades.</p>\n\n<p>¿Qué hace que una ciudad de EE.UU. sea mejor que otra para un fundador internacional? No es solo el código fiscal. Es si el ecosistema realmente quiere que usted esté ahí. Los números importan (la próxima lección los cubre), pero primero necesita entender algo más difícil de medir: si una ciudad realmente apoya a los fundadores que son nuevos en el país. Central Florida lo hace, y la evidencia está en cómo se comporta el ecosistema.</p>\n\n<p>Lo que esto significa en el día a día: los fundadores aquí describen lo mismo. La gente responde correos electrónicos. Las presentaciones suceden en días, no en meses. Grupos como el SBDC, CFITO y la Cámara de Comercio Hispana manejan programas activos, se presentan en eventos y dan seguimiento. Esa capacidad de respuesta importa enormemente cuando usted es nuevo en el país y está construyendo desde cero.</p>",
+      "wordCount": 175
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-2",
+      "title": "UCF como Ancla — El Efecto del Corredor de Investigación",
+      "content": "<p>Ahora, considere la columna vertebral institucional. Todo ecosistema fuerte de startups tiene una institución ancla. En Central Florida, es UCF — y entender cómo UCF moldea el ecosistema explica por qué esta región funciona para los fundadores.</p>\n\n<p>En la práctica, UCF es un motor de investigación vinculado a las industrias a su alrededor. El Instituto de Simulación y Entrenamiento (IST) se asocia con contratistas de defensa y agencias gubernamentales, por eso más de 200 empresas de simulación operan cerca. La escuela de medicina de UCF en Lake Nona alimenta el ecosistema de tecnología de salud. Los programas de ingeniería y ciencias de la computación producen graduados que se quedan localmente — porque los empleos están aquí.</p>\n\n<p>Para los fundadores internacionales, UCF BIP le da una presentación cálida al ecosistema. Los profesores consultan sobre problemas técnicos. Los estudiantes de posgrado se convierten en pasantes y primeras contrataciones. Una fundadora brasileña de edtech encontró sus primeros tres clientes, su desarrollador principal y su consejero del SBDC a través de conexiones que comenzaron en la sesión de bienvenida del BIP.</p>\n\n<p>El corredor desde UCF a través del Parque de Investigación hasta Lake Nona concentra la mayor parte de la actividad de innovación. Si su negocio toca simulación, tecnología de salud o tecnología de defensa, la proximidad a este corredor le da una ventaja estructural.</p>",
+      "wordCount": 174
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-2-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>Blue Spring State Park, a solo 30 minutos al norte de Orlando, es uno de los mayores puntos de reunión invernal para manatíes antillanos en los Estados Unidos. Cientos de manatíes regresan cada año porque el manantial mantiene una temperatura constante de 72 grados Fahrenheit, creando un ambiente cálido y confiable. El ecosistema empresarial de Central Florida tiene un atractivo similar: apoyo constante, programas durante todo el año y un ambiente acogedor que hace que los fundadores internacionales sigan regresando y se queden.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-3",
+      "title": "La Cultura Startup — Quién Está Aquí y Cómo Trabajan",
+      "content": "<p>Aquí es donde Central Florida se destaca. Así como un ecosistema saludable de manantiales prospera porque sus especies cooperan en lugar de competir por los mismos recursos, la cultura de startups aquí es colaborativa, no despiadada. Los fundadores la describen como \"pre-competitiva\": la gente comparte presentaciones, consejos y recomendaciones de proveedores libremente porque el ecosistema todavía está creciendo.</p>\n\n<h4>Accesibilidad de los Fundadores</h4>\n\n<p>En resumen, los fundadores exitosos aquí son accesibles. Un mensaje frío por LinkedIn a un CEO local tiene más probabilidad de obtener respuesta en Orlando que en San Francisco. Varios exalumnos del BIP consiguieron su primer cliente de pago a través de una presentación personal en un evento local.</p>\n\n<h4>Conexiones entre Industrias</h4>\n\n<p>Como el ecosistema es de tamaño mediano, los fundadores conocen personas fuera de su sector regularmente — una fundadora de tecnología de salud descubre una aplicación para su plataforma a través de una conversación con un ejecutivo de simulación en un evento de networking.</p>\n\n<h4>Comunidad Empresarial Bilingüe</h4>\n\n<p>Las reuniones suceden en inglés y español. Organizaciones como Prospera ofrecen servicios completamente en español. No tiene que esperar hasta que su inglés sea perfecto para empezar a construir relaciones.</p>\n\n<h4>La Mentalidad de \"Puerta de Entrada\"</h4>\n\n<p>Una fundadora de tecnología alimentaria de Ecuador lanzó en Orlando porque el clúster de hospitalidad le dio clientes inmediatos: en dos años se había expandido a Miami, Atlanta y Houston.</p>",
+      "wordCount": 193
+    },
+    {
+      "type": "text",
+      "id": "text-7-2-4",
+      "title": "Vivir Aquí — El Lado Humano de la Reubicación",
+      "content": "<p>Piense en esto: los fundadores internacionales no solo reubican una empresa sino a menudo una familia. La calidad de vida de Central Florida es parte de lo que lo hace funcionar para los fundadores.</p>\n\n<h4>Familia y Comunidad</h4>\n\n<p>Para dar contexto, la comunidad internacional de Orlando es grande y establecida: tiendas de abarrotes, restaurantes, iglesias y organizaciones que atienden a comunidades brasileñas, colombianas, venezolanas, mexicanas, puertorriqueñas y otras. Las escuelas en los condados de Orange y Seminole tienen experiencia con familias que hablan más de un idioma. Pediatras bilingües, abogados de inmigración y grupos de WhatsApp conectan a familias internacionales.</p>\n\n<h4>Estilo de Vida y Clima</h4>\n\n<p>Vida al aire libre todo el año. Ambas costas a 60-90 minutos. Clima tropical — un aspecto positivo para fundadores latinoamericanos que encuentran los inviernos del noreste difíciles de manejar.</p>\n\n<h4>Realidad Práctica</h4>\n\n<p>Necesitará un auto — el transporte público es limitado. Incluya los costos del vehículo en su planificación. El calor del verano es intenso de junio a septiembre. Son compensaciones manejables.</p>",
+      "wordCount": 125
+    },
+    {
+      "type": "accordion",
+      "id": "int-7-2-1",
+      "title": "Clústeres Industriales de Central Florida — Su Mapa de Oportunidades",
+      "sections": [
+        {
+          "heading": "Tecnología y Software",
+          "content": "**Actores clave:** Lockheed Martin, Siemens Energy, EA Sports, innumerables startups\n\n**Tasa de crecimiento:** 15% de crecimiento laboral en el sector tecnológico en 5 años\n\n**Oportunidades:** Tecnología de defensa, simulación, videojuegos, SaaS, ciberseguridad\n\n**Conexión con UCF:** Uno de los programas más grandes de ingeniería/ciencias de la computación en EE.UU."
+        },
+        {
+          "heading": "Salud y Ciencias de la Vida",
+          "content": "**Actores clave:** AdventHealth, Orlando Health, Nemours Children's, Lake Nona Medical City\n\n**Tasa de crecimiento:** 20% de crecimiento proyectado en tecnología de salud\n\n**Oportunidades:** Dispositivos médicos, informática de salud, telemedicina, ensayos clínicos\n\n**Conexión con UCF:** Facultad de Medicina y programas de investigación en biotecnología"
+        },
+        {
+          "heading": "Tecnología de Hospitalidad y Turismo",
+          "content": "**Actores clave:** Disney, Universal, SeaWorld, Marriott\n\n**Tasa de crecimiento:** Economía turística anual de más de $75B\n\n**Oportunidades:** Tecnología de hospitalidad, experiencias, tecnología de viajes, innovación en servicio de alimentos\n\n**Conexión con UCF:** Rosen College of Hospitality Management (top 5 a nivel mundial)"
+        },
+        {
+          "heading": "Energía Limpia y Sostenibilidad",
+          "content": "**Actores clave:** Florida Power & Light, OUC, startups solares\n\n**Tasa de crecimiento:** Florida es el #3 en EE.UU. en energía solar\n\n**Oportunidades:** Instalación solar, almacenamiento de energía, redes inteligentes, consultoría en sostenibilidad\n\n**Conexión con UCF:** Florida Solar Energy Center e investigación en sostenibilidad"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "id": "accordion-7-2-networking",
+      "title": "Su Mapa de Networking — Dónde Presentarse",
+      "sections": [
+        {
+          "heading": "Eventos que Importan",
+          "content": "<p>Presentarse en persona es la forma más rápida de construir su red local. Enfóquese en estos eventos de alto valor:</p><ul><li><strong>Meetups de Orlando Tech Association</strong> — Reuniones mensuales y casuales con fundadores locales de tecnología y proveedores de servicios. Vaya dentro de las dos primeras semanas de su llegada.</li><li><strong>Demo Days de Starter Studio</strong> — Eventos de exhibición de la aceleradora que lo conectan con inversionistas y mentores, incluso si usted no está en el programa.</li><li><strong>Eventos Comerciales de CFITO</strong> — Reúnen a importadores, exportadores y socios logísticos para negocios que conectan América Latina y EE.UU.</li><li><strong>Talleres de UCF BIP</strong> — Cubren propiedad intelectual, preparación de pitch y validación de mercado. El formato de cohorte construye relaciones entre fundadores.</li></ul>"
+        },
+        {
+          "heading": "Lugares para Trabajar y Reunirse",
+          "content": "<p>Donde usted trabaja moldea a quién conoce. Elegir un espacio de trabajo dentro del ecosistema de apoyo aumenta la probabilidad de encontrarse con las personas adecuadas:</p><ul><li><strong>Instalaciones de UCF Business Incubation</strong> — Espacio de coworking integrado en la red de apoyo con mentores y asesores cerca.</li><li><strong>Canvs en Creative Village</strong> — Centro de coworking en Downtown Orlando, popular entre startups creativas y tecnológicas.</li><li><strong>Espacios co-lab de la Biblioteca Pública de Orlando</strong> — Espacio de trabajo gratuito y salas de reunión para fundadores con presupuesto limitado.</li></ul>"
+        },
+        {
+          "heading": "Personas con las que Conectar Temprano",
+          "content": "<p>Tres relaciones son las que más importan en sus primeros 90 días:</p><ol><li><strong>Su consejero del SBDC</strong> — Gratuito y asignado según su industria.</li><li><strong>Su coordinador de UCF BIP</strong> — Le dirige a los programas y personas correctas.</li><li><strong>Un fundador 6-12 meses adelante de usted</strong> — Lo que desearían haber sabido suele ser más valioso que cualquier taller.</li></ol>"
+        }
+      ]
+    },
+    {
+      "type": "infographic",
+      "style": "grid",
+      "id": "ig-7-2-network",
+      "title": "Where to Show Up — Central Florida Networking",
+      "titleEs": "Dónde Presentarse — Networking en Florida Central",
+      "cols": 3,
+      "cards": [
+        { "badge": "Events", "badgeEs": "Eventos", "heading": "1 Million Cups Orlando", "headingEs": "1 Million Cups Orlando", "desc": "Free, weekly, casual. Downtown Orlando. Great first step for meeting local founders.", "descEs": "Gratis, semanal, casual. Downtown Orlando. Excelente primer paso para conocer fundadores locales." },
+        { "badge": "Events", "badgeEs": "Eventos", "heading": "Orlando Tech Week", "headingEs": "Orlando Tech Week", "desc": "Annual multi-day conference. Downtown Orlando. Connects startups with investors and mentors.", "descEs": "Conferencia anual de varios días. Downtown Orlando. Conecta startups con inversionistas y mentores." },
+        { "badge": "Coworking", "badgeEs": "Coworking", "heading": "StarterStudio", "headingEs": "StarterStudio", "desc": "Downtown Orlando accelerator and coworking. Mentorship programs and demo days.", "descEs": "Aceleradora y coworking en Downtown Orlando. Programas de mentoría y días de demostración." },
+        { "badge": "Coworking", "badgeEs": "Coworking", "heading": "Canvs", "headingEs": "Canvs", "desc": "Downtown Orlando coworking hub. Densest concentration of startups in the region.", "descEs": "Hub de coworking en Downtown Orlando. Mayor concentración de startups en la región." },
+        { "badge": "Key Zone", "badgeEs": "Zona Clave", "heading": "Research Park at UCF / UCF BIP", "headingEs": "Parque de Investigación UCF / UCF BIP", "desc": "East Orlando. Tech/simulation focus. UCF Business Incubation Program based here.", "descEs": "Este de Orlando. Enfoque en tecnología/simulación. Programa de Incubación Empresarial UCF aquí." },
+        { "badge": "Key Zone", "badgeEs": "Zona Clave", "heading": "Lake Nona / Medical City", "headingEs": "Lake Nona / Ciudad Médica", "desc": "Health tech hub. Growing innovation district south of Orlando.", "descEs": "Hub de tecnología de salud. Distrito de innovación en crecimiento al sur de Orlando." },
+        { "badge": "Key Zone", "badgeEs": "Zona Clave", "heading": "Space Coast / Cape Canaveral", "headingEs": "Costa Espacial / Cabo Cañaveral", "desc": "Aerospace industry. Groundswell Startups in Melbourne. 45 min east of Orlando.", "descEs": "Industria aeroespacial. Groundswell Startups en Melbourne. 45 min al este de Orlando." }
+      ],
+      "footer": "Tip: Start with 1 Million Cups (free, weekly, casual) and one coworking space. Build from there.",
+      "footerEs": "Consejo: Empieza con 1 Million Cups (gratis, semanal, casual) y un espacio de coworking. Crece desde ahí."
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-2-latam",
+      "variant": "latam-supplement",
+      "title": "Enfoque América Latina — Comunidad y Conexión",
+      "content": "<ul><li><strong>Prospera</strong>. Mentoría bilingüe (español/inglés), capacitación y planificación empresarial para emprendedores hispanos. Le asignan un mentor que entiende su contexto.</li><li><strong>Cámara de Comercio Hispana de Metro Orlando</strong>. Programas de emparejamiento empresarial que conectan a fundadores internacionales con negocios locales establecidos. Los eventos anuales atraen a cientos de profesionales bilingües.</li><li><strong>Grupos comunitarios colombianos, brasileños, venezolanos</strong>. Redes activas de WhatsApp y redes sociales que comparten ofertas de trabajo, recomendaciones de proveedores y recursos para familias. Pida presentaciones a sus compañeros de cohorte del BIP o a su consejero del SBDC.</li><li><strong>Servicios profesionales bilingües</strong>. Abogados de inmigración, contadores públicos y consultores empresariales que trabajan en español y portugués están bien establecidos en el área metropolitana de Orlando.</li></ul>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-2-rc",
+      "variant": "reality-check",
+      "title": "Verificación de Realidad — El Ecosistema Está Creciendo, No Terminado",
+      "content": "<p>Pero esto es lo que también debe saber. El ecosistema de startups de Central Florida es fuerte y se está fortaleciendo, pero no es Silicon Valley ni Nueva York. Sea honesto sobre lo que eso significa:</p>\n\n<ul><li><strong>Las industrias de nicho pueden tener menos contactos locales.</strong> Si está en un sector muy especializado (computación cuántica, materiales avanzados), la red local será más limitada. Es posible que necesite construir conexiones nacionales desde el primer día.</li><li><strong>El capital de riesgo está creciendo pero sigue siendo menor</strong> que en los centros principales. Si necesita capital Serie A o B, probablemente tendrá que presentarse ante inversionistas en Miami, Nueva York o San Francisco — pero puede vivir y operar aquí mientras lo hace.</li><li><strong>\"Con sede en Orlando\" tiene menos peso de marca</strong> con algunos inversionistas y socios que \"con sede en San Francisco\". Esta brecha se está cerrando, pero existe. Deje que su tracción hable más fuerte que su código postal.</li></ul>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-7-2",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una fundadora brasileña de edtech está considerando Central Florida. ¿Cuál factor ilustra MEJOR la ventaja cualitativa de la cultura de startups de la región?",
+          "options": [
+            "Florida no tiene impuesto estatal sobre la renta, ahorrándole dinero a la fundadora",
+            "El costo de vida es menor que en Miami o Nueva York",
+            "El Aeropuerto Internacional de Orlando tiene muchos vuelos directos a América Latina",
+            "Las asociaciones de investigación de UCF, fundadores accesibles, organizaciones de apoyo bilingüe y una cultura colaborativa en lugar de despiadada facilitan la construcción de relaciones y la búsqueda de primeros clientes"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Si bien los beneficios fiscales, los ahorros en costos y la conectividad de vuelos son ventajas genuinas (cubiertas en la próxima lección con datos), la fortaleza cualitativa de Central Florida es su cultura: UCF como institución ancla, fundadores que responden mensajes, organizaciones bilingües como Prospera y la Cámara de Comercio Hispana, y un ecosistema donde las presentaciones suceden rápidamente. Ese ambiente colaborativo es lo que hace que la región funcione para fundadores internacionales más allá de lo que los números por sí solos pueden mostrar."
+        },
+        {
+          "stem": "Una fundadora internacional acaba de llegar a Central Florida y quiere construir su red local rápidamente. ¿Cuál combinación de acciones le daría las conexiones iniciales más amplias?",
+          "options": [
+            "Asistir a un meetup de Orlando Tech Association, agendar una reunión con un consejero del SBDC y trabajar desde el espacio de coworking de UCF BIP para tener encuentros casuales con mentores y colegas",
+            "Alquilar una oficina en un parque empresarial suburbano y enfocarse en enviar correos electrónicos en frío a clientes potenciales",
+            "Volar a Silicon Valley para reuniones con inversionistas antes de establecer relaciones locales",
+            "Unirse a tres foros en línea y hacer networking exclusivamente a través de LinkedIn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "El ecosistema de Central Florida recompensa la presencia física y la conexión en persona. Asistir a meetups locales la presenta con fundadores y gerentes de contratación. Su consejero del SBDC proporciona orientación gratuita específica de la industria. Y trabajar desde el espacio del BIP crea los encuentros casuales — con mentores, colegas fundadores y coordinadores de programas — que llevan a presentaciones, alianzas y primeros clientes. El networking en línea es útil, pero la fortaleza del ecosistema está en su accesibilidad en persona."
+        },
+        {
+          "stem": "Una fundadora de México está evaluando ciudades de EE.UU. para su startup de tecnología de salud. Quiere entender qué hace de UCF una 'institución ancla' en el ecosistema de startups de Central Florida. ¿Cuál explicación describe mejor el rol ancla de UCF?",
+          "options": [
+            "UCF proporciona espacio de oficina con descuento a todos los fundadores internacionales que aplican a la universidad",
+            "Los programas de investigación de UCF (simulación, medicina, ingeniería) alimentan talento y alianzas en los clústeres industriales locales, sus graduados se quedan localmente porque los empleos están aquí, y UCF BIP conecta a fundadores internacionales con el ecosistema más amplio",
+            "UCF es la única universidad en Central Florida, dándole un monopolio sobre el talento local",
+            "El rol ancla de UCF es principalmente por su gran cuerpo estudiantil que crea demanda de consumo para los negocios locales"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Una institución ancla moldea el ecosistema a su alrededor. El Instituto de Simulación y Entrenamiento de UCF se asocia con contratistas de defensa (lo que explica las más de 200 empresas de simulación cercanas). Su escuela de medicina alimenta el clúster de tecnología de salud de Lake Nona. Los programas de ingeniería y ciencias de la computación producen graduados que se quedan localmente porque los empleos de la industria existen en la región. UCF BIP les da a los fundadores internacionales una presentación cálida a toda esta red. El efecto ancla se trata de conexiones de investigación-a-mercado, no solo de tamaño o espacio de oficina."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflect-7-2-1",
+      "title": "Su Encaje en el Ecosistema",
+      "placement": "after-section",
+      "sectionId": "text-7-2-5",
+      "prompt": "Piense en los puntos de contacto de networking descritos en esta lección. Identifique los TRES más relevantes para su negocio y escriba: (1) qué esperaría obtener de cada uno (un prospecto de cliente, un mentor, un socio, una contratación), y (2) qué traería usted a la mesa — porque el networking funciona mejor cuando ofrece valor, no solo lo solicita. ¿Qué experiencia, perspectiva o conexión de su mercado local podría ser útil para alguien que ya está en el ecosistema de Central Florida?"
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-7-2-1",
+      "title": "Punto Clave",
+      "content": "<p>La ventaja de Central Florida para los fundadores internacionales va más allá del ahorro en costos y los horarios de vuelos. Como un río alimentado por manantiales que sostiene todo un ecosistema, la región tiene una cultura colaborativa de startups anclada por UCF, una comunidad empresarial bilingüe que apoya activamente a fundadores extranjeros, y una red de eventos, espacios y organizaciones diseñados para ayudar a nuevos fundadores a ganar tracción. El ecosistema es de tamaño mediano y creciente, lo que significa que obtiene acceso, respuestas rápidas y conexiones entre industrias que son más difíciles de encontrar en metros más grandes y competitivos. Sumérjase en la corriente, construya relaciones temprano y use la comunidad como su plataforma de lanzamiento.</p>"
+    }
+  ]
+}

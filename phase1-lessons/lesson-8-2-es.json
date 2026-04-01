@@ -1,0 +1,140 @@
+{
+  "lessonId": "lesson-8-2",
+  "moduleId": "module-8",
+  "landscapeTheme": "UCF Headquarters",
+  "title": "Descargas de Recursos y Credencial Digital",
+  "duration": 5,
+  "objectives": [
+    "Descargar la Lista de Verificación de Entrada al Mercado de EE.UU., la Hoja de Ruta de Configuración en Florida, la Guía de Recursos de Central Florida y la Hoja de Decisión de Expansión",
+    "Entender la credencial digital de POK Tech y cómo mostrarla en LinkedIn"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-8-2-1",
+      "title": "Sus Recursos para Llevar desde la Sede del Campus",
+      "content": "<p>Con su evaluación de preparación completa, piense en esto como caminar por el centro de recursos de UCF BIP antes de salir. No se iría del campus sin recoger los materiales que convierten todo lo que aprendió en un plan real. Estos cuatro recursos descargables hacen exactamente eso:</p>\n\n<ol><li><strong>Lista de Verificación de Entrada al Mercado de EE.UU.</strong> Lista de acciones módulo por módulo desde la configuración legal hasta los recursos del ecosistema.</li><li><strong>Hoja de Ruta de Configuración en Florida</strong>. Secuencia paso a paso desde la formación de entidad hasta estar completamente operativo.</li><li><strong>Guía de Recursos de Central Florida</strong>. Directorio de organizaciones, contactos y programas para fundadores internacionales.</li><li><strong>Hoja de Decisión de Expansión</strong>. Marco estructurado de decisión sí/no para considerar si ahora es el momento adecuado.</li></ol>\n\n<p>Descargue los cuatro ahora. Se complementan directamente con su reunión 1:1 con UCF BIP.</p>",
+      "wordCount": 101
+    },
+    {
+      "type": "callout",
+      "id": "callout-8-2-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>El Programa de Incubación Empresarial de UCF opera múltiples sedes en toda la región de Orlando, proporcionando más de 100,000 pies cuadrados de espacio de incubación. Desde su fundación, las empresas en el programa han creado miles de empleos en Central Florida. UCF misma es una de las universidades con mayor producción de patentes del país, y las alianzas de investigación entre los laboratorios del campus y las empresas de la incubadora les dan a los fundadores acceso a talento y tecnología que costaría una fortuna construir de forma independiente.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-8-2-2",
+      "title": "Recurso 1: Lista de Verificación de Entrada al Mercado de EE.UU.",
+      "content": "<p>Esta es su lista de verificación previa a la partida — cada elemento, verificado. La <strong>Lista de Verificación de Entrada al Mercado de EE.UU.</strong> convierte cada tema principal de este programa en elementos de acción agrupados por módulo: configuración legal, finanzas, protección de PI, construcción de equipo, entrada al mercado, cultura y recursos del ecosistema. Cada elemento incluye un nivel de prioridad y un plazo sugerido.</p>\n\n<p>¿Qué significa eso para usted? Consejo: Empiece con la sección del ecosistema — lo conecta con recursos gratuitos antes de que empiece a pagar por servicios.</p>",
+      "wordCount": 65
+    },
+    {
+      "type": "text",
+      "id": "text-8-2-3",
+      "title": "Recurso 2: Hoja de Ruta de Configuración en Florida",
+      "content": "<p>Esta es su secuencia paso a paso — qué viene primero, segundo, tercero. La <strong>Hoja de Ruta de Configuración en Florida</strong> está organizada por <strong>orden</strong> en lugar de por tema, respondiendo exactamente esa pregunta. Lo guía a través de cuatro fases: (1) preparación previa a la llegada (remota), (2) formación y registro de entidad, (3) infraestructura financiera, y (4) preparación operacional. Cada fase incluye plazos estimados e indica qué pasos requieren presencia física versus completarse de forma remota.</p>\n\n<p>Muchos fundadores completan las fases 1 y 2 de forma remota antes de llegar, para poder abrir una cuenta bancaria en una sola visita con todos los documentos listos.</p>",
+      "wordCount": 82
+    },
+    {
+      "type": "text",
+      "id": "text-8-2-4",
+      "title": "Recurso 3: Guía de Recursos de Central Florida",
+      "content": "<p>Este es su directorio del campus — cada organización de apoyo, a una llamada de distancia. La <strong>Guía de Recursos de Central Florida</strong> reúne todos los grupos del Módulo 7 en una sola referencia fácil de buscar. Cubre asesoría empresarial (SBDC, SCORE, UCF BIP), incubadoras y aceleradoras, programas gubernamentales (SBA, Enterprise Florida), servicios profesionales (abogados, contadores, contactos bancarios), organizaciones de networking y comunidad, y detalles sobre lo que viene después de este curso a través de UCF BIP.</p>\n\n<p>Cada entrada incluye el nombre de la organización, lo que ofrecen y su sitio web. Guárdelo en favoritos y actualícelo a medida que descubra nuevos recursos a través del networking.</p>",
+      "wordCount": 80
+    },
+    {
+      "type": "text",
+      "id": "text-8-2-5",
+      "title": "Recurso 4: Hoja de Decisión de Expansión",
+      "content": "<p>Esta es su decisión de sí o no — la evaluación honesta antes de comprometerse. La <strong>Hoja de Decisión de Expansión</strong> le ayuda a decidir si entrar al mercado de EE.UU. ahora. Lo califica en cinco áreas: ajuste de mercado, preparación financiera, preparación legal, operaciones y timing.</p>\n\n<p>Esto no es aprobar o reprobar. Una fundadora de Colombia se calificó con 2 de 5 en preparación financiera, pasó cuatro meses fortaleciendo los ingresos de su mercado local, se recalificó con 4, y entró a EE.UU. con una base mucho más fuerte. La hoja le dice qué brecha cerrar primero.</p>\n\n<p>Complétela antes de su reunión 1:1 con UCF BIP — ayuda al equipo a darle asesoría específica basada en su perfil particular de preparación.</p>",
+      "wordCount": 102
+    },
+    {
+      "type": "accordion",
+      "id": "int-8-2-1",
+      "title": "Biblioteca de Recursos — Referencia Rápida",
+      "sections": [
+        {
+          "heading": "Legal y Formación",
+          "content": "- **SunBiz** (sunbiz.org) — Registro empresarial en Florida\n- **EIN del IRS** (irs.gov) — Número de identificación de empleador gratuito\n- **LegalZoom/Incfile** — Servicios pagados de formación si desea asistencia\n- **Florida Bar Lawyer Referral** — Encuentre un abogado de negocios verificado"
+        },
+        {
+          "heading": "Banca y Finanzas",
+          "content": "- **Mercury** — Banca en línea para startups (amigable con internacionales)\n- **Relay** — Banca empresarial gratuita con integración contable\n- **Stripe Atlas** — Paquete de formación + banca para fundadores internacionales\n- **QuickBooks Online** — El software de contabilidad para pequeñas empresas más popular"
+        },
+        {
+          "heading": "Visas e Inmigración",
+          "content": "- **USCIS** (uscis.gov) — Información oficial de inmigración\n- **Boundless** — Asistencia con solicitudes de inmigración\n- **Búsqueda de Abogados AILA** — Encuentre un abogado de inmigración calificado\n- **Fragomen** — Firma internacional de derecho migratorio"
+        },
+        {
+          "heading": "Apoyo Local",
+          "content": "- **Florida SBDC en UCF** — Consultoría empresarial gratuita\n- **SCORE Orlando** — Mentoría gratuita de veteranos de negocios\n- **Orlando Economic Partnership** — Apoyo para reubicación y expansión\n- **Prospera** — Apoyo bilingüe para emprendedores hispanos\n- **UCF BIP** — Programas de incubación empresarial"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-8-2-6",
+      "title": "Su Credencial Digital",
+      "content": "<p>Su credencial de finalización — prueba de que completó el programa. Cuando complete este programa, obtiene una <strong>credencial digital</strong> — una insignia verificada para su perfil de LinkedIn, sitio web o firma de correo electrónico. Valida la finalización del Programa de Preparación para el Mercado de EE.UU. de UCF BIP, respaldado por uno de los ecosistemas de incubación universitaria más grandes y activos del país.</p>\n\n<p>Ahora, aquí es donde se pone interesante. La credencial se emite a través de <strong>POK Tech</strong>, el mismo proveedor utilizado por Arizona State University y otras universidades importantes. Es una <strong>credencial de finalización de programa</strong>, no una certificación profesional — pero señala que usted tomó un programa estructurado y respaldado por una universidad en serio.</p>\n\n<h4>Cómo Reclamar Su Credencial</h4>\n\n<p>Después de completar el programa, recibe un correo electrónico de POK Tech. El proceso toma cinco minutos:</p>\n\n<ol><li>Abra el correo electrónico y seleccione el enlace de reclamo</li><li>Configure su cuenta de POK Tech (o inicie sesión)</li><li>Acepte la credencial</li><li>Comparta en LinkedIn usando la herramienta de compartir integrada</li></ol>\n\n<p>La credencial no expira.</p>",
+      "wordCount": 135
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-8-2",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una fundadora ha validado su oportunidad de mercado y quiere saber el ORDEN correcto de pasos para estar operativa en Florida — desde la formación de entidad pasando por la configuración financiera hasta la contratación. ¿Cuál recurso descargable está diseñado específicamente para este propósito?",
+          "options": [
+            "Lista de Verificación de Entrada al Mercado de EE.UU. — cubre cada tema del programa en formato de lista de verificación",
+            "Hoja de Ruta de Configuración en Florida — organiza los pasos por secuencia (qué hacer primero, segundo, tercero) en lugar de por tema",
+            "Hoja de Decisión de Expansión — ayuda a evaluar si entrar al mercado de EE.UU. del todo",
+            "Guía de Recursos de Central Florida — lista organizaciones y contactos disponibles para fundadores"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Hoja de Ruta de Configuración en Florida está organizada por secuencia en lugar de por tema. Guía a los fundadores a través de cuatro fases — preparación previa a la llegada, formación de entidad, infraestructura financiera y preparación operacional — en el orden correcto. La Lista de Verificación organiza por tema del módulo, mientras que la Hoja de Ruta responde '¿qué hago primero, segundo, tercero?'"
+        },
+        {
+          "stem": "Un fundador completó la Hoja de Decisión de Expansión y obtuvo una puntuación alta en ajuste de mercado pero baja en preparación financiera. Según la guía de la lección, ¿cuál es la respuesta más estratégica?",
+          "options": [
+            "Entrar al mercado de EE.UU. inmediatamente ya que el ajuste de mercado es el factor más importante",
+            "Abandonar los planes de expansión a EE.UU. por completo ya que la preparación financiera es insuficiente",
+            "Fortalecer primero los ingresos del mercado local para mejorar la preparación financiera, luego revisitar la hoja antes de entrar a EE.UU.",
+            "Solicitar un préstamo de la SBA para cubrir la brecha financiera antes de entrar al mercado"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La Hoja de Decisión de Expansión no es una prueba de aprobar o reprobar. Una fundadora de Colombia la usó, encontró que su puntuación financiera era 2 de 5, pasó cuatro meses fortaleciendo los ingresos de su mercado local, y se recalificó con 4 antes de entrar a EE.UU. con una base más fuerte. La hoja le dice qué brecha cerrar primero, no si debe renunciar."
+        },
+        {
+          "stem": "Una fundadora de Brasil ha completado el programa de Fase 1 de UCF BIP y quiere usar su credencial digital para fortalecer su perfil profesional cuando se reúna con posibles socios en EE.UU. ¿Cómo debería aplicar la credencial de POK Tech?",
+          "options": [
+            "Reclamar la credencial a través del enlace del correo de POK Tech, agregarla a su perfil de LinkedIn usando la herramienta de compartir integrada, y referenciarla en su sitio web — ya que la credencial no expira, sirve como una señal continua de que completó un programa estructurado y respaldado por una universidad de preparación para el mercado",
+            "Imprimir la credencial y llevar una copia física a cada reunión de negocios como prueba de sus calificaciones",
+            "Esperar hasta completar la Fase 2 antes de reclamar la credencial, ya que la credencial de Fase 1 sola tiene poco peso",
+            "Usar la credencial para solicitar préstamos de la SBA, ya que sirve como una certificación profesional reconocida por agencias federales"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La credencial digital de POK Tech está diseñada para compartirse digitalmente — en LinkedIn, sitios web y firmas de correo electrónico. Valida la finalización del Programa de Preparación para el Mercado de EE.UU. de UCF BIP y no expira. Es una credencial de finalización de programa, no una certificación profesional, por lo que no califica para préstamos de la SBA ni sirve como una calificación formal. No hay razón para esperar a la Fase 2 — la credencial de Fase 1 tiene valor por sí sola como señal de preparación estructurada."
+        }
+      ]
+    },
+    {
+      "type": "reflection",
+      "id": "reflection-8-2-1",
+      "title": "Planificando el Uso de Sus Recursos",
+      "placement": "after-section",
+      "sectionId": "text-8-2-6",
+      "prompt": "Mire los cuatro recursos descargables: la Lista de Verificación de Entrada al Mercado, la Hoja de Ruta de Configuración en Florida, la Guía de Recursos de Central Florida y la Hoja de Decisión de Expansión. ¿Cuál necesita usar primero dado dónde se encuentra en su proceso de expansión? Escriba el recurso específico, la fecha en que planea trabajar en él, y con quién (si alguien) quiere revisarlo — un cofundador, un asesor, o el equipo de UCF BIP durante su reunión 1:1."
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-8-2-1",
+      "title": "Punto Clave",
+      "content": "<p>La conclusión es esta: no salga de la sede sin su equipo. Estos cuatro recursos son suyos para guardar, y extienden el valor de este programa más allá de la pantalla y hacia su planificación empresarial real. La lista de verificación lo mantiene organizado. La hoja de ruta lo mantiene en secuencia. La guía de recursos lo conecta con ayuda. La hoja de decisión lo mantiene honesto sobre su preparación. Aplique estas herramientas a su planificación: descargue las cuatro ahora, y llévelas a su reunión 1:1 con el equipo de UCF BIP en la sede del campus. Y reclame su credencial digital en LinkedIn. Es un paso pequeño, pero señala a todos en su red que usted se toma en serio hacerlo de la manera correcta.</p>"
+    }
+  ]
+}

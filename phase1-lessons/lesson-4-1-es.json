@@ -1,0 +1,275 @@
+{
+  "lessonId": "lesson-4-1",
+  "moduleId": "module-4",
+  "landscapeTheme": "Theme Park",
+  "title": "Su Primera Contratación en EE.UU. — Contratista vs. Empleado",
+  "duration": 7,
+  "objectives": [
+    "Distinguir entre la clasificación de contratista independiente y empleado según la ley estadounidense",
+    "Identificar las sanciones financieras y legales por clasificación incorrecta de trabajadores",
+    "Describir los factores que usa el IRS para determinar la clasificación de un trabajador"
+  ],
+  "contentBlocks": [
+    {
+      "type": "text",
+      "id": "text-4-1-1",
+      "title": "Bienvenido al Parque Temático: Construyendo un Equipo que Mantenga las Atracciones Funcionando",
+      "content": "<p>Conduzca hacia el sur por International Drive y pasará por uno de los distritos de entretenimiento más grandes del mundo. Detrás de cada atracción hay una fuerza laboral enorme: operadores, ingenieros, artistas, gerentes, equipos de seguridad. Cada persona tiene un rol definido con reglas específicas que rigen cómo trabajan. Construir su propio equipo funciona de la misma manera. Clasifique a las personas incorrectamente y toda la operación se detiene.</p>\n\n<p>Un fundador brasileño de SaaS contrató a una desarrolladora en Orlando, la llamó \"contratista independiente\" y le pagó a través de Venmo durante seis meses. La desarrolladora trabajaba de 9 a 5, usaba la computadora portátil de la empresa y asistía a reuniones diarias de seguimiento. Cuando ella solicitó seguro de desempleo, Florida lo detectó. El fundador terminó debiendo $14,000 en impuestos atrasados, multas e intereses.</p>\n\n<p>¿Qué significa esto para usted? Estados Unidos traza una línea legal firme entre contratistas y empleados basándose en cómo la persona realmente trabaja, no en lo que dice el contrato. Un <strong>contratista independiente</strong> establece su propio horario, usa sus propias herramientas y atiende a múltiples clientes. Un <strong>empleado</strong> trabaja bajo su dirección: usted define los horarios, proporciona el equipo, y esa persona trabaja principalmente para usted. Si llama a alguien contratista pero lo trata como empleado, usted debe todos los impuestos atrasados desde el primer día.</p>",
+      "wordCount": 210
+    },
+    {
+      "type": "image",
+      "id": "img-4-1-irs",
+      "title": "Decisión de Clasificación del IRS",
+      "src": "images/scenarios/lesson-4-1-irs-classification.jpg",
+      "alt": "Ilustración de un fundador en un escritorio revisando formularios del IRS, decidiendo entre la clasificación de empleado W-2 y contratista 1099."
+    },
+    {
+      "type": "table",
+      "id": "table-4-1-1",
+      "title": "Contratista vs. Empleado — Diferencias Clave",
+      "table": {
+        "headers": [
+          "Factor",
+          "Contratista Independiente (1099)",
+          "Empleado (W-2)"
+        ],
+        "rows": [
+          [
+            "Horario de trabajo",
+            "Define su propio horario",
+            "Usted define el horario"
+          ],
+          [
+            "Herramientas y equipo",
+            "Usa los propios",
+            "Usted los proporciona"
+          ],
+          [
+            "Cantidad de clientes",
+            "Generalmente atiende a múltiples clientes",
+            "Trabaja principalmente para usted"
+          ],
+          [
+            "Estructura de pago",
+            "Por proyecto o hito",
+            "Salario regular o pago por hora"
+          ],
+          [
+            "Retención de impuestos",
+            "Ninguna — pagan sus propios impuestos",
+            "Usted retiene federal, estatal, FICA"
+          ],
+          [
+            "Beneficios",
+            "No se requieren",
+            "Se esperan (salud, vacaciones pagadas) para retención"
+          ],
+          [
+            "Terminación",
+            "El contrato termina según los términos acordados",
+            "At-will en Florida, pero existe exposición legal"
+          ],
+          [
+            "Sus formularios fiscales",
+            "Presenta 1099-NEC",
+            "Presenta W-2"
+          ],
+          [
+            "Su responsabilidad",
+            "Limitada (si está correctamente clasificado)",
+            "Significativa (compensación laboral, desempleo, etc.)"
+          ]
+        ]
+      },
+      "styling": "striped",
+      "placement": "after-section",
+      "sectionId": "text-4-1-1"
+    },
+    {
+      "type": "comparison-card",
+      "id": "int-4-1-1",
+      "title": "Contratista vs. Empleado — Lista de Verificación para Decidir",
+      "columns": [
+        {
+          "heading": "Contrate como Contratista Si...",
+          "items": [
+            {
+              "label": "Horario",
+              "value": "El trabajador define su propio horario y plazos"
+            },
+            {
+              "label": "Alcance",
+              "value": "Proyecto definido con una fecha clara de finalización"
+            },
+            {
+              "label": "Herramientas",
+              "value": "El trabajador usa su propio equipo y software"
+            },
+            {
+              "label": "Clientes",
+              "value": "El trabajador atiende a múltiples clientes, no solo a usted"
+            },
+            {
+              "label": "Dirección",
+              "value": "Usted define el resultado, no cómo se hace el trabajo"
+            },
+            {
+              "label": "Nivel de riesgo",
+              "value": "Bajos costos operativos — pero multas del IRS si se equivoca"
+            }
+          ]
+        },
+        {
+          "heading": "Contrate como Empleado Si...",
+          "items": [
+            {
+              "label": "Horario",
+              "value": "Necesita definir las horas de trabajo y expectativas diarias"
+            },
+            {
+              "label": "Alcance",
+              "value": "Rol continuo sin fecha de finalización definida"
+            },
+            {
+              "label": "Herramientas",
+              "value": "Usted proporciona el equipo, software y espacio de trabajo"
+            },
+            {
+              "label": "Clientes",
+              "value": "El trabajador está dedicado principalmente a su empresa"
+            },
+            {
+              "label": "Dirección",
+              "value": "Usted controla cuándo, dónde y cómo se hace el trabajo"
+            },
+            {
+              "label": "Nivel de riesgo",
+              "value": "Mayor costo — pero cumple con la ley y tiene protección legal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-1-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Que?",
+      "content": "<p>El corredor de parques temáticos de Central Florida emplea a más de 100,000 personas solo en hospitalidad y entretenimiento, lo que convierte a la región en una de las mayores concentraciones de trabajadores de la industria de servicios en Estados Unidos. Esa fuerza laboral incluye todas las clasificaciones que está aprendiendo en esta lección: empleados de tiempo completo, contrataciones estacionales y contratistas independientes. La industria del entretenimiento de la región genera más de $75 mil millones en impacto económico anual para el estado.</p>"
+    },
+    {
+      "type": "text",
+      "id": "text-4-1-2",
+      "title": "La Prueba del IRS — Cómo Deciden Realmente",
+      "content": "<p>Entonces, ¿qué significa esto en la práctica? El IRS usa una prueba de tres partes para determinar el estatus de un trabajador.</p>\n\n<h4>Control del Comportamiento</h4>\n\n<p>¿Controla usted <strong>cómo</strong> se hace el trabajo? Instrucciones detalladas y horarios obligatorios apuntan hacia empleado. Si el trabajador decide cómo lograr el resultado, eso apunta hacia contratista.</p>\n\n<h4>Control Financiero</h4>\n\n<p>¿Controla usted los <strong>aspectos de negocio</strong> del trabajo? A los empleados se les reembolsan los gastos y reciben herramientas de la empresa. Los contratistas invierten en su propio equipo.</p>\n\n<h4>Tipo de Relación</h4>\n\n<p>Beneficios tipo empleado, una relación continua sin fecha de finalización y trabajo que es parte fundamental de su negocio, todo esto sugiere una relación de empleo.</p>\n\n<p>Atajo práctico: si usted controla cuándo, dónde y cómo alguien trabaja, esa persona es casi con certeza un empleado, sin importar lo que diga el contrato.</p>",
+      "wordCount": 114
+    },
+    {
+      "type": "scenario",
+      "id": "scenario-4-1-classification",
+      "title": "¿Contratista o Empleado? El IRS Está Observando",
+      "description": "Usted contrató a una desarrolladora hace seis meses como contratista 1099. Ella trabaja 40 horas a la semana, usa la computadora portátil de su empresa, asiste a las reuniones diarias de seguimiento, y usted define su horario. Ella acaba de preguntar sobre el seguro de salud. ¿Cuál es su mayor riesgo?",
+      "paths": [
+        {
+          "label": "No hay riesgo — ella firmó un acuerdo de contratista",
+          "outcome": "Incorrecto. Al IRS no le importa lo que diga el contrato. Ellos evalúan la RELACIÓN LABORAL REAL. Un acuerdo firmado no anula los hechos: si usted controla cuándo, dónde y cómo alguien trabaja, esa persona es un empleado ante el IRS, sin importar cómo la llame.",
+          "isRecommended": false
+        },
+        {
+          "label": "Probablemente está mal clasificada — conviértala a empleada W-2 de inmediato",
+          "outcome": "Correcto. Bajo la prueba de tres factores del IRS (control del comportamiento, control financiero, tipo de relación), esta trabajadora es una empleada. Convertirla ahora limita su exposición. Si el IRS la reclasifica, usted deberá impuestos atrasados, la parte del empleado del FICA, más multas que pueden llegar a $50 por cada W-2 mal clasificado.",
+          "isRecommended": true
+        },
+        {
+          "label": "Reduzca sus horas a menos de 30 por semana para mantener el estatus de contratista",
+          "outcome": "Las horas por sí solas no determinan la clasificación. El IRS evalúa el control del comportamiento (¿define usted su horario?), el control financiero (¿trabaja solo para usted?) y el tipo de relación (¿la relación es permanente?). Reducir las horas manteniendo todo lo demás igual no cambiará la clasificación.",
+          "isRecommended": false
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "text-4-1-3",
+      "title": "Cuándo los Contratistas Realmente Tienen Sentido",
+      "content": "<p>Los contratistas funcionan bien para tareas basadas en proyectos (un sitio web, una campaña de marketing, un modelo financiero) y experiencia temporal. Piénselo como el distrito de entretenimiento: los ingenieros que diseñaron la montaña rusa son contratistas, pero los operadores que la manejan todos los días son empleados. Plataformas como <strong>Upwork</strong>, <strong>Toptal</strong> y <strong>Fiverr</strong> facilitan encontrar contratistas con base en EE.UU.</p>\n\n<p>Tenga la documentación lista desde el primer día: un <strong>Acuerdo de Contratista Independiente</strong> por escrito que defina el alcance, el pago, la propiedad de la PI y la confidencialidad, además de un formulario <strong>W-9</strong> completado antes de cualquier pago para la presentación del 1099-NEC al final del año.</p>",
+      "wordCount": 92
+    },
+    {
+      "type": "text",
+      "id": "text-4-1-ucf",
+      "title": "La Fuente de Talento de UCF — Su Ventaja para Contratar en Central Florida",
+      "content": "<p>Una de las mayores ventajas de construir su negocio en Central Florida es la <strong>fuente de talento de la University of Central Florida (UCF)</strong>. La misma región que emplea a una de las fuerzas laborales de entretenimiento más grandes del mundo también produce más de 17,000 graduados por año. UCF tiene más de 70,000 estudiantes matriculados en más de 230 programas de grado, lo que le brinda un flujo constante de candidatos en ingeniería, ciencias de la computación, negocios y ciencias de la salud. Los <strong>programas de pasantías</strong> le permiten evaluar estudiantes antes de comprometerse con una contratación completa, y los <strong>servicios de carrera</strong> de UCF y la red del BIP lo conectan con graduados y exalumnos.</p>\n\n<p>La ventaja en costos es significativa. Los desarrolladores de software de nivel inicial en Central Florida comienzan en <strong>$55,000–$70,000</strong> (30-40% menos que Nueva York, 35-45% menos que San Francisco). Los coordinadores de marketing promedian <strong>$38,000–$48,000</strong> versus $55,000–$65,000 en el sur de Florida.</p>\n\n<p>Un fundador vietnamita utilizó el programa de pasantías de UCF para incorporar a dos estudiantes de ciencias de la computación a tiempo parcial, evaluando su ajuste durante tres meses antes de extenderles ofertas de tiempo completo, ahorrando el costo y riesgo de una mala contratación.</p>",
+      "wordCount": 152
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-1-wm",
+      "variant": "watch-money-costs",
+      "title": "Cuide Su Dinero: Lo Que Realmente Cuesta Contratar",
+      "content": "<p>En términos simples, esto es lo que debe presupuestar para su primera contratación en EE.UU. a principios de 2026 en Central Florida:</p>\n\n<ul><li><strong>Empleado de nivel inicial (tiempo completo):</strong> $40,000–$70,000 salario base + 15–30% de costos adicionales (impuestos, seguros, beneficios) = $46,000–$91,000 costo total anual</li><li><strong>Contratista (por proyecto):</strong> $50–$150/hora dependiendo de la especialidad, sin costos adicionales</li><li><strong>Servicio de nómina:</strong> $40–$100/mes base + $6–$12 por empleado por período de pago</li><li><strong>Seguro de compensación laboral:</strong> $500–$2,000/año para trabajo de oficina de bajo riesgo</li><li><strong>Abogado laboral (consulta inicial):</strong> $250–$500/hora — vale la pena para una clasificación correcta</li></ul>\n\n<p>El costo real de un empleado es su salario multiplicado por 1.15 a 1.30. Presupueste para el extremo más alto hasta que conozca sus obligaciones exactas.</p>"
+    },
+    {
+      "type": "callout",
+      "id": "callout-4-1-cm",
+      "variant": "common-mistakes-repeating",
+      "title": "Errores Comunes que Cometen los Fundadores Internacionales — Contratación",
+      "content": "<p>Note cómo estos errores se conectan:</p><ul><li><strong>Clasificar incorrectamente a empleados como contratistas independientes.</strong> Uno de los errores de contratación más costosos. Algunos fundadores etiquetan a todos sus trabajadores como contratistas 1099 para evitar impuestos de nómina y beneficios, pero el IRS audita activamente este patrón. Si reclasifican a sus trabajadores, usted debe todos los impuestos atrasados que debió haber retenido, más intereses, más multas que pueden llegar a <strong>$50 por cada W-2 mal clasificado</strong>. En casos graves, enfrenta procesamiento penal. El IRS, las agencias estatales y los propios trabajadores pueden desencadenar una auditoría.</li><li><strong>No entender el costo real de contratar.</strong> El salario es solo el 70–85% de lo que un empleado realmente cuesta. Presupueste los impuestos del empleador FICA (7.65%), seguro de desempleo, compensación laboral y beneficios. Un salario de $60,000 significa $69,000–$78,000 en costo real.</li></ul>"
+    },
+    {
+      "type": "exercise",
+      "id": "exercise-4-1-1",
+      "title": "Calcule Su Costo Real de Contratación",
+      "placement": "after-section",
+      "sectionId": "text-4-1-ucf",
+      "instructions": "<p>Elija el primer rol que contrataría en EE.UU. Use los rangos salariales de Central Florida de esta lección para estimar su costo real — luego compárelo con contratar a un contratista en su lugar.</p><ul><li><strong>Rol:</strong> ___</li><li><strong>Estimación de salario base (rango de Central Florida):</strong> $___</li><li><strong>Costo anual real (base × 1.25 para impuestos, seguros, beneficios):</strong> $___</li><li><strong>Alternativa de contratista (tarifa por hora × horas anuales estimadas):</strong> $___</li><li><strong>¿Cuál tiene más sentido para sus primeros 6 meses, y por qué?</strong> ___</li></ul><p>No hay una respuesta incorrecta aquí — el objetivo es ver los números reales lado a lado antes de comprometerse.</p>"
+    },
+    {
+      "type": "knowledge-check",
+      "id": "kc-4-1",
+      "title": "¿Qué Haría Usted?",
+      "placement": "end-of-lesson",
+      "questions": [
+        {
+          "stem": "Una desarrolladora trabaja exclusivamente para su empresa, usa su computadora portátil, sigue su horario diario y asiste a las reuniones de su equipo. Usted le paga mensualmente y no hay una fecha de finalización escrita para el acuerdo. Según la ley estadounidense, esta persona probablemente se clasifica como:",
+          "options": [
+            "Una contratista independiente porque usted no le ha proporcionado seguro de salud",
+            "Una contratista siempre que su acuerdo escrito diga 'contratista'",
+            "Depende de si ella quiere ser contratista o empleada",
+            "Una empleada porque usted controla cómo, cuándo y dónde trabaja"
+          ],
+          "correctAnswer": 3,
+          "explanation": "El IRS evalúa el control del comportamiento, el control financiero y la naturaleza de la relación. Controlar el horario, proporcionar el equipo y tener un acuerdo continuo sin fecha de finalización apuntan fuertemente hacia el estatus de empleado. La etiqueta del contrato escrito no anula la relación laboral real."
+        },
+        {
+          "stem": "Una fundadora está comparando costos de contratación en diferentes ciudades de EE.UU. Necesita un desarrollador de software de nivel inicial y quiere maximizar su capital disponible. Según los datos salariales de esta lección, ¿qué ubicación le ofrece la mayor ventaja en costos?",
+          "options": [
+            "San Francisco, porque los salarios más altos atraen mejor talento que ahorra dinero a largo plazo",
+            "Miami, porque la proximidad a América Latina reduce la fricción cultural",
+            "Central Florida, donde los salarios iniciales de desarrolladores de $55,000–$70,000 son 30–45% menores que en los principales mercados costeros",
+            "Nueva York, porque el acceso a capital de riesgo compensa los mayores costos de nómina"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Central Florida ofrece salarios para desarrolladores de software de nivel inicial de $55,000–$70,000, lo cual es 30–40% menos que Nueva York y 35–45% menos que San Francisco. Combinado con menores costos de oficina y acceso a la fuente de talento de más de 70,000 graduados de UCF, Central Florida les da a los fundadores significativamente más capacidad de inversión con el mismo presupuesto."
+        },
+        {
+          "stem": "Un fundador de Polonia contrata a una diseñadora gráfica en Orlando. La diseñadora trabaja 40 horas por semana en la oficina del fundador, usa la computadora de la empresa, sigue la lista de tareas diarias del fundador y ha trabajado exclusivamente para esta empresa durante ocho meses. El fundador la clasifica como contratista 1099. Una auditoría del IRS la reclasifica como empleada. ¿Qué combinación de sanciones probablemente enfrentará el fundador?",
+          "options": [
+            "Pago retroactivo de impuestos del empleador FICA, FUTA, desempleo estatal, más multas e intereses desde el inicio del acuerdo",
+            "Una carta de advertencia requiriendo que el fundador reclasifique a la trabajadora en adelante sin sanción financiera",
+            "Una multa única de $500 que resuelve el asunto sin impuestos atrasados",
+            "Ninguna sanción porque la diseñadora firmó un acuerdo de contratista y aceptó el pago 1099 voluntariamente"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cuando el IRS reclasifica a un trabajador como empleado, el empleador debe todos los impuestos atrasados que debieron haberse retenido (FICA del empleador al 7.65%, FUTA, desempleo estatal) más multas e intereses desde el primer día. El IRS evalúa cómo el trabajador realmente trabaja — control del comportamiento, control financiero y tipo de relación — no lo que dice el contrato. Un acuerdo de contratista firmado (opción D) no anula las condiciones laborales reales. No existe un resultado de solo advertencia (opción B) ni una multa fija (opción C) por clasificación incorrecta de impuestos de nómina."
+        }
+      ]
+    },
+    {
+      "type": "key-takeaway",
+      "id": "kt-4-1-1",
+      "title": "Punto Clave",
+      "content": "<p>Aplique la prueba de clasificación del IRS desde el primer día. El costo de la clasificación incorrecta supera con creces el costo de hacerlo correctamente. Use contratistas para proyectos definidos con entregables claros. Contrate empleados cuando necesite trabajo continuo y dirigido. Evalúe candidatos a través de la fuente de talento de UCF y la ventaja de costos de Central Florida para estirar más su presupuesto de contratación. Cuando tenga dudas, consulte a un abogado laboral antes de incorporar a cualquier persona. El parque temático funciona porque cada rol está clasificado correctamente — su negocio funciona de la misma manera.</p>"
+    }
+  ]
+}
