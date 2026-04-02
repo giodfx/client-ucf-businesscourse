@@ -46,14 +46,6 @@
       "wordCount": 126
     },
     {
-      "type": "exercise",
-      "id": "exercise-8-3-1",
-      "title": "Escriba Sus 3 Acciones Principales",
-      "placement": "after-section",
-      "sectionId": "text-8-3-3",
-      "instructions": "<p>Complete este ejercicio ahora mismo — no lo deje para después. Escriba sus tres acciones de mayor prioridad para los próximos 30 días. Para cada una, incluya:</p><ol><li><strong>La acción específica</strong>. ¿Qué exactamente va a hacer?</li><li><strong>La fecha límite</strong>. ¿Para qué fecha la completará?</li><li><strong>El primer paso</strong>. ¿Cuál es la primera cosa que necesita hacer para empezar? (Un correo electrónico por enviar, un sitio web por visitar, una llamada telefónica por hacer.)</li></ol><p><strong>Acción 1:</strong> _______________________________________________</p><p>Fecha límite: ________ | Primer paso: ___________________________</p><p><strong>Acción 2:</strong> _______________________________________________</p><p>Fecha límite: ________ | Primer paso: ___________________________</p><p><strong>Acción 3:</strong> _______________________________________________</p><p>Fecha límite: ________ | Primer paso: ___________________________</p><p>Si su primera acción no es \"Reservar mi reunión 1:1 con UCF BIP,\" reconsidere. Esa reunión es gratuita, toma 30 minutos, y le da un punto de referencia para todo lo demás en su lista.</p>"
-    },
-    {
       "type": "callout",
       "id": "callout-8-3-disc",
       "variant": "reality-check",

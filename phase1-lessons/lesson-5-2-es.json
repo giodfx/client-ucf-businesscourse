@@ -162,14 +162,6 @@
       ]
     },
     {
-      "type": "exercise",
-      "id": "ex-5-2-1",
-      "title": "Construya Su Kit de Preparación para Ventas en EE.UU.",
-      "placement": "after-section",
-      "sectionId": "text-5-2-vo",
-      "instructions": "<p>Cree una lista de verificación de todo lo que necesita antes de hacer su primera venta en EE.UU. Marque cada elemento como \"listo\", \"en progreso\" o \"no iniciado\":</p><ol><li><strong>EIN obtenido</strong>. ¿Tiene su Employer Identification Number?</li><li><strong>Formulario W-9 completado</strong>. ¿Tiene un PDF listo para enviar?</li><li><strong>Seguro de responsabilidad general</strong>. ¿Tiene una póliza? ¿Puede solicitar un COI?</li><li><strong>Cuenta bancaria en EE.UU.</strong>. ¿Puede recibir pagos ACH?</li><li><strong>Sitio web</strong>. ¿Es profesional, con precios y mensajes para el mercado de EE.UU.?</li><li><strong>Sistema CRM</strong>. ¿Puede rastrear prospectos y hacer seguimiento de manera sistemática?</li><li><strong>Plan de tiempo de respuesta</strong>. ¿Puede responder consultas en pocas horas durante el horario comercial de EE.UU.?</li><li><strong>Materiales de ventas</strong>. ¿Tiene un resumen de una página, página de precios y casos de estudio?</li></ol><p>Para cualquier elemento marcado como \"no iniciado\", identifique el siguiente paso específico y el plazo para completarlo. Esta lista de verificación es su línea base de preparación como proveedor para ventas B2B en EE.UU.</p>"
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-5-2-1",
       "title": "Conclusión Clave",

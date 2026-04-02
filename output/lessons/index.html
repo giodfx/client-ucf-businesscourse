@@ -13,7 +13,80 @@
 <body data-total-modules="9" data-total-lessons="26">
   <a href="#dest-heading" class="vd-skip-link">Skip to navigation</a>
 
-  <div class="vd-stage" id="stage">
+  <!-- ============ ONBOARDING GATE ============ -->
+  <div class="ob-gate" id="obGate" role="dialog" aria-label="Course onboarding" aria-modal="true">
+    <video class="ob-bg-video" autoplay muted loop playsinline aria-hidden="true">
+      <source src="video/default.mp4" type="video/mp4">
+    </video>
+    <div class="ob-overlay" aria-hidden="true"></div>
+
+    <!-- Step 1: Language Selection -->
+    <div class="ob-step ob-step--active" id="obStep1" role="group" aria-label="Step 1: Language selection">
+      <div class="ob-card">
+        <div class="ob-step-indicator"><span class="ob-dot ob-dot--active"></span><span class="ob-dot"></span><span class="ob-dot"></span></div>
+        <h1 class="ob-title">Welcome / Bienvenido</h1>
+        <p class="ob-subtitle">Choose your preferred language</p>
+        <p class="ob-subtitle ob-subtitle--es">Elija su idioma preferido</p>
+        <div class="ob-lang-cards">
+          <button class="ob-lang-card" data-lang="en" onclick="obSelectLang('en')">
+            <span class="ob-lang-flag">EN</span>
+            <span class="ob-lang-label">English</span>
+          </button>
+          <button class="ob-lang-card" data-lang="es" onclick="obSelectLang('es')">
+            <span class="ob-lang-flag">ES</span>
+            <span class="ob-lang-label">Español</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2: Intro Video -->
+    <div class="ob-step" id="obStep2" role="group" aria-label="Step 2: Program overview video">
+      <div class="ob-card ob-card--wide">
+        <div class="ob-step-indicator"><span class="ob-dot ob-dot--done"></span><span class="ob-dot ob-dot--active"></span><span class="ob-dot"></span></div>
+        <h2 class="ob-title" id="obVideoTitle">Program Overview</h2>
+        <p class="ob-subtitle" id="obVideoSub">Watch a brief introduction to the U.S. Market Readiness Program</p>
+        <div class="ob-video-wrap">
+          <video id="obIntroVideo" controls playsinline preload="metadata"
+                 poster="images/avatars/scenes/lesson-0-1-avatar.jpg">
+            <source src="../media/video/avatars/lesson-0-1-avatar.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="ob-actions">
+          <button class="ob-btn ob-btn--secondary" onclick="obGoStep(3)" aria-label="Skip introduction video">
+            <span id="obSkipLabel">Skip Video</span>
+          </button>
+          <button class="ob-btn ob-btn--primary" id="obContinueVideo" onclick="obGoStep(3)" aria-label="Continue to disclaimer">
+            <span id="obContinueLabel">Continue</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3: Disclaimer -->
+    <div class="ob-step" id="obStep3" role="group" aria-label="Step 3: Disclaimer acknowledgment">
+      <div class="ob-card">
+        <div class="ob-step-indicator"><span class="ob-dot ob-dot--done"></span><span class="ob-dot ob-dot--done"></span><span class="ob-dot ob-dot--active"></span></div>
+        <h2 class="ob-title" id="obDisclaimerTitle">Important Disclaimer</h2>
+        <div class="ob-disclaimer-text" id="obDisclaimerText">
+          <p>This program is provided for <strong>educational and informational purposes only</strong>. It does not constitute legal, financial, tax, or immigration advice.</p>
+          <p>Always consult qualified professionals for decisions specific to your situation. The University of Central Florida and program authors are not liable for actions taken based on this content.</p>
+        </div>
+        <label class="ob-checkbox-wrap" id="obCheckWrap">
+          <input type="checkbox" id="obAgreeCheck" onchange="obToggleAcknowledge()">
+          <span class="ob-checkmark"></span>
+          <span id="obAgreeLabel">I have read and understand this disclaimer</span>
+        </label>
+        <button class="ob-btn ob-btn--primary ob-btn--disabled" id="obAcknowledgeBtn" disabled onclick="obFinishOnboarding()">
+          <span id="obAckLabel">I Acknowledge</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="vd-stage" id="stage" style="display:none">
 
     <!-- Looping car video background -->
     <video class="vd-layer vd-layer-video" id="sceneVideo"
@@ -203,5 +276,121 @@
 
   <script src="js/rt-language.js"></script>
   <script src="js/video-dashboard.js"></script>
+
+  <!-- Onboarding gate logic -->
+  <script>
+  (function() {
+    'use strict';
+    var STORAGE_KEY = 'rt-progress';
+    var gate = document.getElementById('obGate');
+    var stage = document.getElementById('stage');
+
+    function getProgress() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+      catch(e) { return {}; }
+    }
+    function saveProgress(d) {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(d)); }
+      catch(e) {}
+    }
+
+    // If already onboarded, skip gate entirely
+    var progress = getProgress();
+    if (progress.onboarded) {
+      gate.hidden = true;
+      stage.style.display = '';
+      return;
+    }
+
+    var selectedLang = 'en';
+
+    // Spanish text variants
+    var esText = {
+      videoTitle: 'Descripción del Programa',
+      videoSub: 'Vea una breve introducción al Programa de Preparación para el Mercado de EE.UU.',
+      skipLabel: 'Saltar Video',
+      continueLabel: 'Continuar',
+      disclaimerTitle: 'Aviso Importante',
+      disclaimerText: '<p>Este programa se proporciona <strong>únicamente con fines educativos e informativos</strong>. No constituye asesoramiento legal, financiero, fiscal o migratorio.</p><p>Consulte siempre a profesionales calificados para decisiones específicas a su situación. La Universidad de Central Florida y los autores del programa no son responsables por las acciones tomadas con base en este contenido.</p>',
+      agreeLabel: 'He leído y comprendo este aviso',
+      ackLabel: 'Acepto'
+    };
+
+    // Step 1 → 2: Language selection
+    window.obSelectLang = function(lang) {
+      selectedLang = lang;
+      var p = getProgress();
+      p.language = lang;
+      saveProgress(p);
+
+      // Update step 2 and 3 text if Spanish
+      if (lang === 'es') {
+        document.getElementById('obVideoTitle').textContent = esText.videoTitle;
+        document.getElementById('obVideoSub').textContent = esText.videoSub;
+        document.getElementById('obSkipLabel').textContent = esText.skipLabel;
+        document.getElementById('obContinueLabel').textContent = esText.continueLabel;
+        document.getElementById('obDisclaimerTitle').textContent = esText.disclaimerTitle;
+        document.getElementById('obDisclaimerText').innerHTML = esText.disclaimerText;
+        document.getElementById('obAgreeLabel').textContent = esText.agreeLabel;
+        document.getElementById('obAckLabel').textContent = esText.ackLabel;
+
+        // Swap intro video to Spanish variant if available
+        var vid = document.getElementById('obIntroVideo');
+        var src = vid.querySelector('source');
+        if (src) src.src = '../media/video/avatars/lesson-0-1-avatar-es.mp4';
+        vid.load();
+      }
+
+      obGoStep(2);
+    };
+
+    // Navigate between steps
+    window.obGoStep = function(step) {
+      document.querySelectorAll('.ob-step').forEach(function(s) {
+        s.classList.remove('ob-step--active');
+      });
+      var target = document.getElementById('obStep' + step);
+      if (target) {
+        target.classList.add('ob-step--active');
+        // Re-trigger animation
+        target.style.animation = 'none';
+        target.offsetHeight;
+        target.style.animation = '';
+      }
+    };
+
+    // Step 3: Checkbox toggle
+    window.obToggleAcknowledge = function() {
+      var checked = document.getElementById('obAgreeCheck').checked;
+      var btn = document.getElementById('obAcknowledgeBtn');
+      if (checked) {
+        btn.disabled = false;
+        btn.classList.add('ob-btn--enabled');
+      } else {
+        btn.disabled = true;
+        btn.classList.remove('ob-btn--enabled');
+      }
+    };
+
+    // Finish onboarding → show dashboard
+    window.obFinishOnboarding = function() {
+      var p = getProgress();
+      p.onboarded = true;
+      p.language = selectedLang;
+      saveProgress(p);
+
+      gate.style.transition = 'opacity 0.5s ease';
+      gate.style.opacity = '0';
+      setTimeout(function() {
+        gate.hidden = true;
+        stage.style.display = '';
+        // Reload language system
+        if (typeof window.rtLanguage !== 'undefined') {
+          window.location.reload();
+        }
+      }, 500);
+    };
+  })();
+  </script>
 </body>
 </html>

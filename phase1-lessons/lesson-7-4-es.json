@@ -56,20 +56,58 @@
       "data": {
         "seedFunding": 500000,
         "cities": [
-          { "label": "Central Florida", "monthlyBurn": 30000, "runway": 16.7, "color": "#E8A838", "highlight": true },
-          { "label": "Austin", "monthlyBurn": 38000, "runway": 13.2, "color": "#48B07A" },
-          { "label": "Miami", "monthlyBurn": 42000, "runway": 11.9, "color": "#2C5F8A" },
-          { "label": "NYC", "monthlyBurn": 55000, "runway": 9.1, "color": "#1A3A5C" },
-          { "label": "Silicon Valley", "monthlyBurn": 50000, "runway": 10.0, "color": "#D4622B" }
+          {
+            "label": "Central Florida",
+            "monthlyBurn": 30000,
+            "runway": 16.7,
+            "color": "#E8A838",
+            "highlight": true
+          },
+          {
+            "label": "Austin",
+            "monthlyBurn": 38000,
+            "runway": 13.2,
+            "color": "#48B07A"
+          },
+          {
+            "label": "Miami",
+            "monthlyBurn": 42000,
+            "runway": 11.9,
+            "color": "#2C5F8A"
+          },
+          {
+            "label": "NYC",
+            "monthlyBurn": 55000,
+            "runway": 9.1,
+            "color": "#1A3A5C"
+          },
+          {
+            "label": "Silicon Valley",
+            "monthlyBurn": 50000,
+            "runway": 10,
+            "color": "#D4622B"
+          }
         ],
         "insight": "Central Florida gives you 6-7 extra months of runway compared to Silicon Valley on the same $500K seed round.",
         "supplementary": {
           "title": "Key Location Factors",
           "items": [
-            { "label": "LATAM Direct Flights (MCO)", "value": "30+ cities" },
-            { "label": "Bilingual Workforce", "value": "30%+ of metro Orlando" },
-            { "label": "State Income Tax", "value": "0% (Florida)" },
-            { "label": "Florida VC (2024)", "value": "~$5.5B (~4% of U.S.)" }
+            {
+              "label": "LATAM Direct Flights (MCO)",
+              "value": "30+ cities"
+            },
+            {
+              "label": "Bilingual Workforce",
+              "value": "30%+ of metro Orlando"
+            },
+            {
+              "label": "State Income Tax",
+              "value": "0% (Florida)"
+            },
+            {
+              "label": "Florida VC (2024)",
+              "value": "~$5.5B (~4% of U.S.)"
+            }
           ]
         }
       },
@@ -129,12 +167,6 @@
           "explanation": "La Verificación de Realidad identifica tres compensaciones específicas respaldadas por datos: (1) Orlando depende del auto, agregando $300-$600/mes en costos de vehículo que parcialmente compensan los ahorros de vivienda vs. NYC; (2) el grupo de talento tecnológico es más pequeño que el de NYC o Silicon Valley, requiriendo contratación remota para roles especializados; y (3) Florida atrajo solo ~4% del capital de riesgo de EE.UU. en 2024 vs. el 48% de California, lo que significa que los fundadores deberían construir tracción localmente pero presentarse ante inversionistas a nivel nacional."
         }
       ]
-    },
-    {
-      "type": "exercise",
-      "id": "exercise-7-4-1",
-      "title": "Su Marco de Decisión de Ubicación",
-      "instructions": "<p>Cree una comparación ponderada para su negocio específico usando estos pasos:</p><ol><li>Liste sus <strong>5 criterios principales</strong> para elegir una base en EE.UU. (ejemplos: proximidad al cliente, costo, disponibilidad de talento, conectividad de vuelos, ecosistema industrial, programas de apoyo)</li><li><strong>Pondere cada criterio</strong> del 1 al 5 según la importancia para su negocio</li><li><strong>Califique a Central Florida</strong> en cada criterio (escala del 1 al 10) usando los datos de esta lección</li><li><strong>Califique su ciudad alternativa</strong> (Miami, NYC, Silicon Valley o Austin) en cada criterio</li><li><strong>Multiplique peso x calificación</strong> para cada criterio y sume los totales</li></ol><p>Este ejercicio lo obliga a ir más allá de la intuición y evaluar la decisión con datos. Lleve los resultados a su conversación con UCF BIP — ayudará al equipo a entender sus prioridades y asesorarlo de manera más efectiva.</p>"
     },
     {
       "type": "key-takeaway",

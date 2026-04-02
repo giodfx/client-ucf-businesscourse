@@ -186,7 +186,7 @@
       "afterId": "ig-3-2-insurance",
       "scriptFile": "js/rt-simulations.js",
       "inputs": [
-        {"id": "sim-biz-type", "type": "select", "label": "Tipo de Negocio", "options": ["Professional Services", "Technology / SaaS", "Retail", "Food & Beverage", "Construction", "General / Other"]},
+        {"id": "sim-biz-type", "type": "select", "label": "Tipo de Negocio", "options": [{"label": "Servicios Profesionales", "value": "services"}, {"label": "Tecnología / SaaS", "value": "tech"}, {"label": "Comercio Minorista", "value": "retail"}, {"label": "Alimentos y Bebidas", "value": "food"}, {"label": "Construcción", "value": "construction"}, {"label": "General / Otro", "value": "other"}]},
         {"id": "sim-emp-count", "type": "number", "label": "Número de Empleados", "default": 0},
         {"id": "sim-client-facing", "type": "toggle", "label": "Trabajo presencial con clientes"},
         {"id": "sim-physical-space", "type": "toggle", "label": "Oficina o espacio físico"}

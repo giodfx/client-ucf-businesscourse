@@ -2,8 +2,6 @@
 (function() {
   'use strict';
 
-  var lang = window.rtLanguage || 'en';
-
   // ── Utilities ──────────────────────────────────────────────────
   function fmt(n) {
     return '$' + Math.round(n).toLocaleString('en-US');
@@ -12,7 +10,7 @@
     return n.toFixed(1) + '%';
   }
   function t(en, es) {
-    return lang === 'es' ? es : en;
+    return (window.rtLanguage || 'en') === 'es' ? es : en;
   }
   function $(sel, ctx) {
     return (ctx || document).querySelector(sel);
@@ -82,7 +80,9 @@
     if (!salaryInput || !industrySelect || !resultsDiv) return;
 
     var salary = parseFloat(salaryInput.value) || 60000;
-    var industry = industrySelect.value;
+    var industryRaw = industrySelect.value;
+    var industryMap = { 'general': 'general', 'construction': 'construction', 'healthcare': 'healthcare', 'tech': 'technology', 'technology': 'technology', 'retail': 'retail' };
+    var industry = industryMap[industryRaw.toLowerCase()] || industryRaw.toLowerCase();
     var includeHealth = healthToggle ? healthToggle.checked : false;
     var r = calcEmployee(salary, industry, includeHealth);
 
@@ -92,8 +92,8 @@
     // Build results HTML
     var rows = [
       { label: t('Base Salary', 'Salario Base'), value: fmt(r.salary), color: '#1A3A5C' },
-      { label: 'FICA (7.65%)', value: fmt(r.fica), color: '#2C5F8A' },
-      { label: 'FUTA', value: fmt(r.futa), color: '#E8A838' },
+      { label: t('FICA (7.65%)', 'FICA (7,65%)'), value: fmt(r.fica), color: '#2C5F8A' },
+      { label: t('FUTA', 'FUTA'), value: fmt(r.futa), color: '#E8A838' },
       { label: t('FL SUTA (Reemployment)', 'FL SUTA (Reempleo)'), value: fmt(r.suta), color: '#F5C842' },
       { label: t("Workers' Comp", 'Comp. Laboral') + ' (' + t(INDUSTRY_LABELS[industry].en, INDUSTRY_LABELS[industry].es) + ')', value: fmt(r.wc), color: '#D4622B' }
     ];
@@ -219,7 +219,7 @@
       result.totalTax = corpTax + dividendTax;
       result.effectiveRate = (result.totalTax / netProfit) * 100;
       result.quarterly = corpTax / 4; // Corp estimated payments
-      result.label = 'C-Corporation';
+      result.label = t('C-Corporation', 'Corporación C');
     }
     else if (entityType === 'scorp') {
       // S-Corp: reasonable salary (60%), SE tax on salary only, rest as distribution
@@ -235,7 +235,7 @@
       result.quarterly = result.totalTax / 4;
       result.salary = salary;
       result.distribution = distribution;
-      result.label = 'S-Corporation';
+      result.label = t('S-Corporation', 'Corporación S');
       result.warning = t(
         'S-Corp election is NOT available to non-resident aliens.',
         'La elección de S-Corp NO está disponible para extranjeros no residentes.'
@@ -257,6 +257,9 @@
     var profit = parseFloat(profitInput.value) || 80000;
     var entity = 'llc';
     entityRadios.forEach(function(r) { if (r.checked) entity = r.value; });
+    // Normalize radio values from generator slugs to internal keys
+    var entityMap = { 'single-member-llc': 'llc', 'c-corp': 'ccorp', 's-corp': 'scorp' };
+    entity = entityMap[entity] || entity;
 
     saveSim(simId, { profit: profit, entity: entity });
     var r = calcTaxEntity(entity, profit);
@@ -322,12 +325,12 @@
   // ════════════════════════════════════════════════════════════════
 
   var COUNTY_SURTAX = {
-    orange:   { rate: 0.005, label: 'Orange County' },
-    seminole: { rate: 0.01,  label: 'Seminole County' },
-    osceola:  { rate: 0.015, label: 'Osceola County' },
-    brevard:  { rate: 0.01,  label: 'Brevard County' },
-    volusia:  { rate: 0.005, label: 'Volusia County' },
-    lake:     { rate: 0.01,  label: 'Lake County' }
+    orange:   { rate: 0.005, en: 'Orange County', es: 'Condado de Orange' },
+    seminole: { rate: 0.01,  en: 'Seminole County', es: 'Condado de Seminole' },
+    osceola:  { rate: 0.015, en: 'Osceola County', es: 'Condado de Osceola' },
+    brevard:  { rate: 0.01,  en: 'Brevard County', es: 'Condado de Brevard' },
+    volusia:  { rate: 0.005, en: 'Volusia County', es: 'Condado de Volusia' },
+    lake:     { rate: 0.01,  en: 'Lake County', es: 'Condado de Lake' }
   };
 
   var PRODUCT_TAXABILITY = {
@@ -379,7 +382,7 @@
 
       html += '<div class="rt-sim-result-rows">';
       html += simRow(t('Florida Base Rate', 'Tasa Base de Florida'), '6.0%');
-      html += simRow(cInfo.label + ' ' + t('Surtax', 'Sobretasa'), fmtPct(cInfo.rate * 100));
+      html += simRow(t(cInfo.en, cInfo.es) + ' ' + t('Surtax', 'Sobretasa'), fmtPct(cInfo.rate * 100));
       html += simRow(t('Total Rate', 'Tasa Total'), fmtPct(totalRate * 100));
       html += simRow(t('Monthly Tax on', 'Impuesto Mensual sobre') + ' ' + fmt(revenue), fmt(monthlyTax));
       html += simRow(t('Annual Tax', 'Impuesto Anual'), fmt(annualTax));
@@ -421,11 +424,11 @@
   // ════════════════════════════════════════════════════════════════
 
   var CITY_SCORES = {
-    'central-fl': { label: 'Central Florida', scores: [4, 3, 4, 2, 4, 4] },
-    'miami':      { label: 'Miami',           scores: [2, 3, 5, 3, 3, 4] },
-    'nyc':        { label: 'New York City',    scores: [1, 5, 3, 4, 2, 5] },
-    'austin':     { label: 'Austin',           scores: [3, 4, 2, 4, 4, 4] },
-    'sv':         { label: 'Silicon Valley',   scores: [1, 5, 2, 5, 3, 5] }
+    'central-fl': { en: 'Florida Central', es: 'Florida Central', scores: [4, 3, 4, 2, 4, 4] },
+    'miami':      { en: 'Miami',           es: 'Miami',           scores: [2, 3, 5, 3, 3, 4] },
+    'nyc':        { en: 'New York City',   es: 'Nueva York',      scores: [1, 5, 3, 4, 2, 5] },
+    'austin':     { en: 'Austin',          es: 'Austin',          scores: [3, 4, 2, 4, 4, 4] },
+    'sv':         { en: 'Silicon Valley',  es: 'Silicon Valley',  scores: [1, 5, 2, 5, 3, 5] }
   };
 
   var CRITERIA_LABELS = [
@@ -467,7 +470,7 @@
       for (var k = 0; k < weights.length; k++) {
         score += weights[k] * city.scores[k];
       }
-      cityResults.push({ id: cityId, label: city.label, score: score, pct: maxPossible > 0 ? (score / maxPossible) * 100 : 0 });
+      cityResults.push({ id: cityId, label: t(city.en, city.es), score: score, pct: maxPossible > 0 ? (score / maxPossible) * 100 : 0 });
     }
 
     // Sort descending
@@ -521,7 +524,7 @@
     // Q0: VC investors? YES = C-Corp
     if (answers[0]) {
       return {
-        entity: 'C-Corporation',
+        entity: t('C-Corporation', 'Corporación C'),
         reason: t(
           'Investors require C-Corp structure for preferred stock, SAFEs, and standard VC terms.',
           'Los inversionistas requieren estructura C-Corp para acciones preferentes, SAFEs y términos estándar de capital de riesgo.'
@@ -680,7 +683,9 @@
     var resultsDiv = $('#sim-results-' + simId, container);
     if (!bizType || !resultsDiv) return;
 
-    var biz = bizType.value;
+    var bizRaw = bizType.value;
+    var bizMap = { 'professional services': 'services', 'professional-services': 'services', 'technology / saas': 'tech', 'technology---saas': 'tech', 'food & beverage': 'food', 'food---beverage': 'food', 'food-&-beverage': 'food', 'general / other': 'other', 'general---other': 'other', 'general-/-other': 'other' };
+    var biz = bizMap[bizRaw.toLowerCase()] || bizRaw.toLowerCase();
     var emps = parseInt(empCount.value) || 0;
     var isClientFacing = clientFacing ? clientFacing.checked : false;
     var hasSpace = physicalSpace ? physicalSpace.checked : false;
@@ -788,6 +793,95 @@
 
   window.simCalcInsurance = function(simId) {
     renderInsuranceResults(simId || 'sim-insurance');
+  };
+
+  // ════════════════════════════════════════════════════════════════
+  // SIM 8: Hiring Cost Calculator (lesson-4-1)
+  // ════════════════════════════════════════════════════════════════
+
+  var HIRING_ROLES = [
+    { en: 'Software Developer (Entry)', es: 'Desarrollador de Software (Inicial)', salaryLow: 55000, salaryHigh: 70000, contractorRate: 75 },
+    { en: 'Marketing Coordinator', es: 'Coordinador de Marketing', salaryLow: 38000, salaryHigh: 48000, contractorRate: 45 },
+    { en: 'Accountant / Bookkeeper', es: 'Contador / Tenedor de Libros', salaryLow: 42000, salaryHigh: 55000, contractorRate: 55 },
+    { en: 'Customer Support Rep', es: 'Rep. de Soporte al Cliente', salaryLow: 32000, salaryHigh: 40000, contractorRate: 25 },
+    { en: 'Operations Manager', es: 'Gerente de Operaciones', salaryLow: 50000, salaryHigh: 68000, contractorRate: 85 },
+    { en: 'Graphic Designer', es: 'Diseñador Gráfico', salaryLow: 40000, salaryHigh: 52000, contractorRate: 60 }
+  ];
+
+  function renderHiringResults(simId) {
+    var container = document.getElementById(simId);
+    if (!container) return;
+    var roleSelect = $('#sim-hire-role', container);
+    var hoursInput = $('#sim-hire-hours', container);
+    var overheadInput = $('#sim-hire-overhead', container);
+    var resultsDiv = $('#sim-results-' + simId, container);
+    if (!roleSelect || !resultsDiv) return;
+
+    var roleIdx = parseInt(roleSelect.value);
+    var weeklyHours = parseInt(hoursInput ? hoursInput.value : 20) || 20;
+    var overheadPct = parseInt(overheadInput ? overheadInput.value : 25) || 25;
+    var role = HIRING_ROLES[roleIdx] || HIRING_ROLES[0];
+
+    saveSim(simId, { role: roleIdx, hours: weeklyHours, overhead: overheadPct });
+
+    var salaryMid = Math.round((role.salaryLow + role.salaryHigh) / 2);
+    var multiplier = 1 + overheadPct / 100;
+    var trueCost = Math.round(salaryMid * multiplier);
+    var annualHours = weeklyHours * 52;
+    var contractorCost = role.contractorRate * annualHours;
+    var savings = contractorCost - trueCost;
+    var sixMonthEmp = Math.round(trueCost / 2);
+    var sixMonthCon = Math.round(contractorCost / 2);
+    var sixMonthDiff = sixMonthCon - sixMonthEmp;
+    var betterChoice = sixMonthDiff > 0 ? 'employee' : 'contractor';
+
+    var html = '<div class="rt-sim-hire-results">';
+
+    // Side-by-side comparison cards
+    html += '<div class="rt-sim-hire-compare">';
+
+    // Employee card
+    html += '<div class="rt-sim-hire-card rt-sim-hire-card--emp">';
+    html += '<div class="rt-sim-hire-card-header">' + t('Full-Time Employee', 'Empleado Tiempo Completo') + '</div>';
+    html += '<div class="rt-sim-hire-card-role">' + t(role.en, role.es) + '</div>';
+    html += '<div class="rt-sim-hire-card-row"><span>' + t('Base Salary', 'Salario Base') + '</span><span>$' + fmtK(salaryMid) + t('/yr', '/año') + '</span></div>';
+    html += '<div class="rt-sim-hire-card-row"><span>' + t('Overhead', 'Sobrecosto') + ' (' + overheadPct + '%)</span><span>+$' + fmtK(Math.round(salaryMid * overheadPct / 100)) + '</span></div>';
+    html += '<div class="rt-sim-hire-card-total"><span>' + t('True Annual Cost', 'Costo Anual Real') + '</span><span>$' + fmtK(trueCost) + '</span></div>';
+    html += '<div class="rt-sim-hire-card-six"><span>' + t('First 6 Months', 'Primeros 6 Meses') + '</span><span>$' + fmtK(sixMonthEmp) + '</span></div>';
+    html += '</div>';
+
+    // Contractor card
+    html += '<div class="rt-sim-hire-card rt-sim-hire-card--con">';
+    html += '<div class="rt-sim-hire-card-header">' + t('Contractor', 'Contratista') + '</div>';
+    html += '<div class="rt-sim-hire-card-role">' + t(role.en, role.es) + '</div>';
+    html += '<div class="rt-sim-hire-card-row"><span>' + t('Hourly Rate', 'Tarifa por Hora') + '</span><span>$' + role.contractorRate + t('/hr', '/hora') + '</span></div>';
+    html += '<div class="rt-sim-hire-card-row"><span>' + weeklyHours + ' ' + t('hrs/week', 'hrs/sem') + ' × 52 ' + t('weeks', 'sem') + '</span><span>' + fmtK(annualHours) + ' ' + t('hrs', 'hrs') + '</span></div>';
+    html += '<div class="rt-sim-hire-card-total"><span>' + t('Annual Cost', 'Costo Anual') + '</span><span>$' + fmtK(contractorCost) + '</span></div>';
+    html += '<div class="rt-sim-hire-card-six"><span>' + t('First 6 Months', 'Primeros 6 Meses') + '</span><span>$' + fmtK(sixMonthCon) + '</span></div>';
+    html += '</div>';
+
+    html += '</div>'; // end compare
+
+    // Verdict
+    html += '<div class="rt-sim-insight">';
+    if (betterChoice === 'employee') {
+      html += '<strong>' + t('Employee saves you', 'El empleado le ahorra') + ' $' + fmtK(Math.abs(sixMonthDiff)) + ' ' + t('in the first 6 months', 'en los primeros 6 meses') + '</strong>';
+      html += '<p>' + t('At ' + weeklyHours + ' hours/week, a full-time employee is more cost-effective. You also get dedicated availability, team integration, and easier IP control.', 'A ' + weeklyHours + ' horas/semana, un empleado a tiempo completo es más rentable. También obtiene disponibilidad dedicada, integración al equipo y mejor control de propiedad intelectual.') + '</p>';
+    } else {
+      html += '<strong>' + t('Contractor saves you', 'El contratista le ahorra') + ' $' + fmtK(Math.abs(sixMonthDiff)) + ' ' + t('in the first 6 months', 'en los primeros 6 meses') + '</strong>';
+      html += '<p>' + t('At ' + weeklyHours + ' hours/week, a contractor is cheaper — ideal for project-based work. But watch for misclassification risk if the role becomes full-time.', 'A ' + weeklyHours + ' horas/semana, un contratista es más económico — ideal para trabajo basado en proyectos. Pero cuidado con el riesgo de clasificación incorrecta si el rol se vuelve a tiempo completo.') + '</p>';
+    }
+    html += '</div>';
+
+    html += '</div>';
+    resultsDiv.innerHTML = html;
+    resultsDiv.hidden = false;
+  }
+
+  function fmtK(n) { return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+
+  window.simCalcHiring = function(simId) {
+    renderHiringResults(simId || 'sim-hiring');
   };
 
   // ════════════════════════════════════════════════════════════════
@@ -1017,6 +1111,18 @@
         if (saved32.space !== undefined) { var ps = $('#sim-physical-space', c32); if (ps) ps.checked = saved32.space; }
       }
       renderInsuranceResults('sim-insurance');
+    }
+
+    // Hiring cost calculator
+    var c41 = document.getElementById('sim-hiring');
+    if (c41) {
+      var saved41 = loadSim('sim-hiring');
+      if (saved41) {
+        if (saved41.role !== undefined) { var hr = $('#sim-hire-role', c41); if (hr) hr.value = saved41.role; }
+        if (saved41.hours !== undefined) { var hh = $('#sim-hire-hours', c41); if (hh) hh.value = saved41.hours; }
+        if (saved41.overhead !== undefined) { var ho = $('#sim-hire-overhead', c41); if (ho) ho.value = saved41.overhead; }
+      }
+      renderHiringResults('sim-hiring');
     }
 
     // Readiness assessment

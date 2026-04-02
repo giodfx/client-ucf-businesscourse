@@ -115,14 +115,6 @@
           "content": "<p>Here's where the numbers matter. As of early 2026, budget for these market entry costs:</p>\n\n<ul><li><strong>U.S. market research:</strong> $2,000–$10,000 outsourced; free through networking and cold outreach</li><li><strong>Product localization (beyond translation):</strong> $5,000–$25,000 : regulatory compliance, payment integration, UI/UX changes</li><li><strong>Digital marketing (SEO, paid ads):</strong> $2,000–$5,000/month</li><li><strong>U.S. website and sales materials:</strong> $3,000–$15,000</li><li><strong>Trade shows (B2B):</strong> $3,000–$10,000 per event</li></ul>\n\n<p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p>"
         },
         {
-          "type": "exercise",
-          "id": "exercise-5-1-1",
-          "title": "Your U.S. Market Adaptation Checklist",
-          "placement": "after-section",
-          "sectionId": "text-5-1-2",
-          "instructions": "<p>For each of the five adaptation areas from this lesson, write one specific action you need to take before entering the U.S. market. Be concrete — \"figure out pricing\" doesn't count.</p><ul><li><strong>Pricing:</strong> What will you charge U.S. customers, and how does that compare to your competitors? ___</li><li><strong>Positioning:</strong> What's your one-sentence value proposition for U.S. buyers? ___</li><li><strong>Compliance:</strong> What U.S. regulations apply to your product or service? ___</li><li><strong>Support:</strong> How will you handle U.S. timezone support (9 AM–6 PM ET through PT)? ___</li><li><strong>Payment:</strong> Which U.S. payment methods will you accept (ACH, credit card, other)? ___</li></ul><p>If you can't answer one of these yet, that's the area where you need to do more research first.</p>"
-        },
-        {
           "type": "knowledge-check",
           "id": "kc-5-1",
           "title": "What Would You Do?",
@@ -333,14 +325,6 @@
               "explanation": "A verbal \"yes\" is not a closed deal in U.S. B2B sales; procurement is where deals live or die. Two weeks is an eternity when a competitor already has a W-9, insurance certificate, and Coupa registration ready to submit. U.S. companies rarely extend deadlines for vendor onboarding when an alternative vendor is already qualified. This is why the lesson emphasizes having all vendor documentation prepared before you start selling, not after a buyer says yes."
             }
           ]
-        },
-        {
-          "type": "exercise",
-          "id": "ex-5-2-1",
-          "title": "Build Your U.S. Sales Readiness Kit",
-          "placement": "after-section",
-          "sectionId": "text-5-2-vo",
-          "instructions": "<p>Create a checklist of everything you need before making your first U.S. sale. Mark each item as \"ready,\" \"in progress,\" or \"not started\":</p><ol><li><strong>EIN obtained</strong> . Do you have your Employer Identification Number?</li><li><strong>W-9 form completed</strong> . Is a PDF ready to send?</li><li><strong>General liability insurance</strong> . Do you have a policy? Can you request a COI?</li><li><strong>U.S. bank account</strong> . Can you receive ACH payments?</li><li><strong>Website</strong> . Is it professional, with U.S.-market pricing and messaging?</li><li><strong>CRM system</strong> . Can you track leads and follow up systematically?</li><li><strong>Response time plan</strong> . Can you respond to inquiries within a few hours during U.S. business hours?</li><li><strong>Sales materials</strong> . Do you have a one-pager, pricing page, and case studies?</li></ol><p>For any item marked \"not started,\" identify the specific next step and timeline to get it done. This checklist is your vendor readiness baseline for U.S. B2B sales.</p>"
         },
         {
           "type": "key-takeaway",

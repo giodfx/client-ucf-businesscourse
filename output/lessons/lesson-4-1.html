@@ -248,13 +248,35 @@
 </div>
   </div>
 </div>
-<div class="rt-exercise">
-  <h3 data-es="Calcule Su Costo Real de Contratación">Calculate Your True Hiring Cost</h3>
-  <div data-es-html="&lt;p&gt;&lt;p&gt;Elija el primer rol que contrataría en EE.UU. Use los rangos salariales de Central Florida de esta lección para estimar su costo real — luego compárelo con contratar a un contratista en su lugar.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Rol:&lt;/strong&gt; ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Estimación de salario base (rango de Central Florida):&lt;/strong&gt; $___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Costo anual real (base × 1.25 para impuestos, seguros, beneficios):&lt;/strong&gt; $___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Alternativa de contratista (tarifa por hora × horas anuales estimadas):&lt;/strong&gt; $___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;¿Cuál tiene más sentido para sus primeros 6 meses, y por qué?&lt;/strong&gt; ___&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;No hay una respuesta incorrecta aquí — el objetivo es ver los números reales lado a lado antes de comprometerse.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Pick the first role you'd hire in the U.S. Use the Central Florida salary ranges from this lesson to estimate your real cost — then compare it to hiring a contractor instead.</p><ul><li><strong>Role:</strong> ___</li><li><strong>Base salary estimate (Central Florida range):</strong> $___</li><li><strong>True annual cost (base × 1.25 for taxes, insurance, benefits):</strong> $___</li><li><strong>Contractor alternative (hourly rate × estimated annual hours):</strong> $___</li><li><strong>Which makes more sense for your first 6 months, and why?</strong> ___</li></ul><p>There's no wrong answer here — the point is to see the real numbers side by side before you commit.</p></p>
-</div>
-  <label for="exercise-exercise-exercise-4-1-1" class="sr-only">Your response</label>
-  <textarea id="exercise-exercise-exercise-4-1-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
+<div class="rt-sim" id="sim-hiring">
+  <span class="rt-sim-badge" data-es="Herramienta Interactiva">Interactive Tool</span>
+  <h3 class="rt-sim-title" data-es="Calculadora de Costo Real de Contratación">Hiring Cost Calculator</h3>
+  <p class="rt-sim-subtitle" data-es="Seleccione un rol y ajuste las variables para comparar el costo real de un empleado vs. un contratista en Central Florida.">Select a role and adjust the variables to compare the true cost of an employee vs. a contractor in Central Florida.</p>
+
+  <div class="rt-sim-fields">
+    <div class="rt-sim-field">
+      <label class="rt-sim-label" for="sim-hire-role" data-es="Rol">Role</label>
+      <select class="rt-sim-select" id="sim-hire-role" onchange="simCalcHiring('sim-hiring')">
+        <option value="0" data-es="Desarrollador de Software (Inicial)">Software Developer (Entry)</option>
+        <option value="1" data-es="Coordinador de Marketing">Marketing Coordinator</option>
+        <option value="2" data-es="Contador / Tenedor de Libros">Accountant / Bookkeeper</option>
+        <option value="3" data-es="Rep. de Soporte al Cliente">Customer Support Rep</option>
+        <option value="4" data-es="Gerente de Operaciones">Operations Manager</option>
+        <option value="5" data-es="Diseñador Gráfico">Graphic Designer</option>
+      </select>
+    </div>
+    <div class="rt-sim-field">
+      <label class="rt-sim-label" for="sim-hire-hours" data-es="Horas del Contratista / Semana">Contractor Hours / Week</label>
+      <input class="rt-sim-input" id="sim-hire-hours" type="number" value="20" min="5" max="60" oninput="simCalcHiring('sim-hiring')">
+    </div>
+    <div class="rt-sim-field">
+      <label class="rt-sim-label" for="sim-hire-overhead" data-es="Sobrecosto del Empleador %">Employer Overhead %</label>
+      <input class="rt-sim-input" id="sim-hire-overhead" type="number" value="25" min="15" max="35" oninput="simCalcHiring('sim-hiring')">
+    </div>
+  </div>
+
+  <button class="rt-sim-reset" onclick="simReset('sim-hiring')" data-es="Reiniciar">Reset</button>
+  <div id="sim-results-sim-hiring" class="rt-sim-results"></div>
 </div>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">

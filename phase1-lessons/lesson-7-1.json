@@ -166,14 +166,6 @@
       ]
     },
     {
-      "type": "exercise",
-      "id": "exercise-7-1-1",
-      "title": "Your Support Network Map",
-      "placement": "after-section",
-      "sectionId": "text-7-1-2",
-      "instructions": "<p>You just learned about several free and low-cost support organizations. Now pick the three that matter most for where your business is <em>right now</em> — not where you hope to be in two years.</p><ul><li><strong>Organization 1:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 2:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 3:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li></ul><p>Be specific. \"Contact the SBDC\" is not an action. \"Email floridasbdc.org to schedule an intake meeting about my market research gaps\" is.</p>"
-    },
-    {
       "type": "in-lesson-image",
       "id": "scenario-img-lesson-7-1",
       "imagePath": "images/scenarios/lesson-7-1-advisory-consultation.jpg",

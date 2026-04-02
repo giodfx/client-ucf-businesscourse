@@ -31,9 +31,9 @@
           "type": "radio",
           "label": "Tipo de Entidad",
           "options": [
-            "Single-Member LLC",
-            "C-Corp",
-            "S-Corp"
+            { "label": "Single-Member LLC", "value": "llc" },
+            { "label": "C-Corp", "value": "ccorp" },
+            { "label": "S-Corp", "value": "scorp" }
           ]
         },
         {

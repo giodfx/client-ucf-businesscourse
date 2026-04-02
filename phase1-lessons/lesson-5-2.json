@@ -162,14 +162,6 @@
       ]
     },
     {
-      "type": "exercise",
-      "id": "ex-5-2-1",
-      "title": "Build Your U.S. Sales Readiness Kit",
-      "placement": "after-section",
-      "sectionId": "text-5-2-vo",
-      "instructions": "<p>Create a checklist of everything you need before making your first U.S. sale. Mark each item as \"ready,\" \"in progress,\" or \"not started\":</p><ol><li><strong>EIN obtained</strong> . Do you have your Employer Identification Number?</li><li><strong>W-9 form completed</strong> . Is a PDF ready to send?</li><li><strong>General liability insurance</strong> . Do you have a policy? Can you request a COI?</li><li><strong>U.S. bank account</strong> . Can you receive ACH payments?</li><li><strong>Website</strong> . Is it professional, with U.S.-market pricing and messaging?</li><li><strong>CRM system</strong> . Can you track leads and follow up systematically?</li><li><strong>Response time plan</strong> . Can you respond to inquiries within a few hours during U.S. business hours?</li><li><strong>Sales materials</strong> . Do you have a one-pager, pricing page, and case studies?</li></ol><p>For any item marked \"not started,\" identify the specific next step and timeline to get it done. This checklist is your vendor readiness baseline for U.S. B2B sales.</p>"
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-5-2-1",
       "title": "Key Takeaway",

@@ -317,6 +317,9 @@ html, .rt-lesson-body {
 .rt-lesson-header {
   margin-bottom: 28px;
 }
+.video-section {
+  margin-bottom: 32px;
+}
 .rt-lesson-header-row {
   display: flex; align-items: center; justify-content: space-between;
   margin-bottom: 10px;
@@ -370,6 +373,8 @@ html, .rt-lesson-body {
   font-family: var(--rt-font-heading); cursor: pointer;
   border: none; background: transparent; color: rgba(255,255,255,0.5);
   transition: var(--rt-transition);
+  min-width: 44px; min-height: 44px; /* WCAG 2.5.5 touch target */
+  display: inline-flex; align-items: center; justify-content: center;
 }
 .rt-lang-sw-btn:hover { color: rgba(255,255,255,0.8); }
 .rt-lang-sw-btn--active {
@@ -1757,7 +1762,8 @@ html, .rt-lesson-body {
   letter-spacing: 0.5px; color: var(--rt-accent);
 }
 @media (max-width: 640px) {
-  .rt-ctbl { min-width: 420px; font-size: 13px; }
+  .rt-ctbl { min-width: 0; font-size: 13px; overflow-x: auto; display: block; }
+  .rt-ctbl table { min-width: 0; width: 100%; }
   .rt-ctbl td, .rt-ctbl thead th { padding: 8px 10px; }
 }
 
@@ -2720,7 +2726,14 @@ html, .rt-lesson-body {
   font-family: inherit;
   transition: border-color 0.2s, box-shadow 0.2s;
   outline: none;
+  height: 38px;
+  box-sizing: border-box;
 }
+.rt-sim-input[type="number"]::-webkit-inner-spin-button,
+.rt-sim-input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; margin: 0;
+}
+.rt-sim-input[type="number"] { -moz-appearance: textfield; }
 .rt-sim-input:focus,
 .rt-sim-select:focus {
   border-color: var(--rt-accent);
@@ -3280,6 +3293,67 @@ html, .rt-lesson-body {
   flex-shrink: 0;
 }
 
+/* ── Hiring Cost Calculator (Sim 8) ── */
+.rt-sim-hire-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.rt-sim-hire-card {
+  background: rgba(10, 18, 35, 0.5);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rt-sim-hire-card--emp { border-left: 3px solid #60a5fa; }
+.rt-sim-hire-card--con { border-left: 3px solid #f5a623; }
+.rt-sim-hire-card-header {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,0.5);
+}
+.rt-sim-hire-card--emp .rt-sim-hire-card-header { color: #60a5fa; }
+.rt-sim-hire-card--con .rt-sim-hire-card-header { color: #f5a623; }
+.rt-sim-hire-card-role {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin-bottom: 4px;
+}
+.rt-sim-hire-card-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+  padding: 2px 0;
+}
+.rt-sim-hire-card-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 700;
+  color: #e2e8f0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 8px;
+  margin-top: 4px;
+}
+.rt-sim-hire-card-six {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgba(255,255,255,0.45);
+  font-style: italic;
+}
+@media (max-width: 600px) {
+  .rt-sim-hire-compare { grid-template-columns: 1fr; }
+}
+
 /* ── Radar chart (Sim 7) ── */
 .rt-sim-radar-wrap {
   display: flex;
@@ -3654,6 +3728,14 @@ html, .rt-lesson-body {
 [data-theme="light"] .rt-sim-readiness-dim-rec {
   color: #475569;
 }
+[data-theme="light"] .rt-sim-hire-card {
+  background: #f8fafc;
+  border-color: rgba(0,0,0,0.08);
+}
+[data-theme="light"] .rt-sim-hire-card-role { color: #1a202c; }
+[data-theme="light"] .rt-sim-hire-card-row { color: #64748b; }
+[data-theme="light"] .rt-sim-hire-card-total { color: #1a202c; border-top-color: rgba(0,0,0,0.08); }
+[data-theme="light"] .rt-sim-hire-card-six { color: #94a3b8; }
 [data-theme="light"] .rt-sim-slider {
   background: rgba(245,166,35,0.2) !important;
 }
@@ -3696,4 +3778,24 @@ html, .rt-lesson-body {
 }
 [data-theme="light"] .rt-sim-highlight {
   color: #166534;
+}
+
+/* ===== WCAG AA — Focus visible ===== */
+*:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ===== WCAG AA — Keyboard drag-drop select (visible only to SR) ===== */
+.dd-kb-select:not(:focus) {
+  position: absolute; width: 1px; height: 1px; padding: 0;
+  margin: -1px; overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+.dd-kb-select:focus {
+  position: static; width: auto; height: auto; margin: 0.25rem 0 0;
+  clip: auto; overflow: visible; display: block;
 }

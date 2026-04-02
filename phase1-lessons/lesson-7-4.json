@@ -18,6 +18,12 @@
       "wordCount": 172
     },
     {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-7-4",
+      "imagePath": "images/scenarios/lesson-7-4-latam-gateway.jpg",
+      "title": "Florida as a gateway connecting Latin American and U.S. business markets"
+    },
+    {
       "type": "text",
       "id": "text-7-4-2",
       "title": "How Central Florida Compares",
@@ -167,18 +173,6 @@
           "explanation": "The Reality Check identifies three specific, data-backed trade-offs: (1) Orlando is car-dependent, adding $300-$600/month in vehicle costs that partially offset housing savings vs. NYC; (2) the tech talent pool is smaller than NYC or Silicon Valley, requiring remote hiring for specialized roles; and (3) Florida attracted only ~4% of U.S. venture capital in 2024 vs. California’s 48%, meaning founders should build traction locally but pitch investors nationally."
         }
       ]
-    },
-    {
-      "type": "exercise",
-      "id": "exercise-7-4-1",
-      "title": "Your Location Decision Framework",
-      "instructions": "<p>Create a weighted comparison for your specific business using these steps:</p><ol><li>List your <strong>top 5 criteria</strong> for choosing a U.S. base (examples: customer proximity, cost, talent availability, flight connectivity, industry ecosystem, support programs)</li><li><strong>Weight each criterion</strong> from 1-5 based on importance to your business</li><li><strong>Score Central Florida</strong> against each criterion (1-10 scale) using the data from this lesson</li><li><strong>Score your alternative city</strong> (Miami, NYC, Silicon Valley, or Austin) against each criterion</li><li><strong>Multiply weight x score</strong> for each criterion and total them up</li></ol><p>This exercise forces you to move beyond gut feeling and evaluate the decision with data. Bring the results to your UCF BIP conversation — it will help the team understand your priorities and advise you more effectively.</p>"
-    },
-    {
-      "type": "in-lesson-image",
-      "id": "scenario-img-lesson-7-4",
-      "imagePath": "images/scenarios/lesson-7-4-latam-gateway.jpg",
-      "title": "Florida as a gateway connecting Latin American and U.S. business markets"
     },
     {
       "type": "key-takeaway",

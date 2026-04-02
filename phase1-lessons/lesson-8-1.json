@@ -46,70 +46,10 @@
       "wordCount": 162
     },
     {
-      "type": "exercise",
-      "id": "exercise-8-1-rubric",
-      "title": "Your Market Readiness Score",
-      "format": "scored-rubric",
-      "instruction": "Rate yourself honestly on each dimension. There is no passing score — the point is to identify where you are strong and where you need more preparation.",
-      "scale": {
-        "min": 1,
-        "max": 5,
-        "labels": [
-          "Not started",
-          "Researching",
-          "Partially ready",
-          "Mostly ready",
-          "Fully prepared"
-        ]
-      },
-      "dimensions": [
-        {
-          "label": "Legal Setup",
-          "description": "Entity type chosen, EIN obtained, registered agent in place"
-        },
-        {
-          "label": "Financial Foundation",
-          "description": "Bank account open, tax obligations understood, accountant identified"
-        },
-        {
-          "label": "IP & Risk Protection",
-          "description": "Trademarks filed, insurance active, key contracts reviewed"
-        },
-        {
-          "label": "Team & Compliance",
-          "description": "Hiring classification understood, payroll plan in place, visa status clear"
-        },
-        {
-          "label": "Market Strategy",
-          "description": "U.S. pricing set, competitive research done, customer acquisition plan ready"
-        },
-        {
-          "label": "Cultural Readiness",
-          "description": "Communication style adapted, meeting norms understood, follow-up habits in place"
-        },
-        {
-          "label": "Ecosystem & Network",
-          "description": "Support organizations identified, networking started, mentor relationship active"
-        }
-      ],
-      "interpretation": [
-        {
-          "range": "7-15",
-          "message": "You are in the early exploration phase. Focus on Modules 1-3 before taking action."
-        },
-        {
-          "range": "16-25",
-          "message": "You have a foundation but gaps remain. Revisit the modules where you scored 1-2."
-        },
-        {
-          "range": "26-30",
-          "message": "You are well-prepared in most areas. Address any remaining 2s before moving forward."
-        },
-        {
-          "range": "31-35",
-          "message": "You are highly prepared. Consider scheduling your Phase 2 consultation with [UCF BIP](https://incubator.ucf.edu)."
-        }
-      ]
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-8-1",
+      "imagePath": "images/scenarios/lesson-8-1-mentor-consultation.jpg",
+      "title": "Founder meeting with a mentor to review business readiness before launch"
     },
     {
       "type": "text",
@@ -143,12 +83,6 @@
       "variant": "theme-reduce-risk",
       "title": "One of the Biggest Risks Is Going It Alone",
       "content": "<p>Think about this: you now know more than many international founders who enter the U.S. market without structured preparation. Many founders jump in without a structured program. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowing alone does not cut risk. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida, and this campus in particular, has built an ecosystem specifically to help founders like you succeed. Use it.</p>"
-    },
-    {
-      "type": "in-lesson-image",
-      "id": "scenario-img-lesson-8-1",
-      "imagePath": "images/scenarios/lesson-8-1-mentor-consultation.jpg",
-      "title": "Founder meeting with a mentor to review business readiness before launch"
     },
     {
       "type": "knowledge-check",

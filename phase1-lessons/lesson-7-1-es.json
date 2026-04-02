@@ -59,11 +59,46 @@
       "titleEs": "Tu Red de Recursos en Florida Central",
       "cols": 3,
       "cards": [
-        { "heading": "UCF Business Incubation Program", "headingEs": "Programa de Incubación Empresarial UCF", "desc": "Free mentoring, workshops, office space for startups. Located at UCF campus and East Orlando.", "descEs": "Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus UCF y este de Orlando.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "Small Business Development Center (SBDC)", "headingEs": "Centro de Desarrollo de Pequeñas Empresas (SBDC)", "desc": "Free 1:1 consulting, business plan help, market research. Downtown Orlando and multiple locations.", "descEs": "Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y múltiples ubicaciones.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "SCORE Orlando", "headingEs": "SCORE Orlando", "desc": "Free mentoring from retired business executives. Extensive experience across industries.", "descEs": "Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en diversas industrias.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "Enterprise Florida", "headingEs": "Enterprise Florida", "desc": "State organizational trade assistance, export development. Helps international businesses enter the U.S. market.", "descEs": "Asistencia estatal de comercio organizacional, desarrollo de exportaciones. Ayuda a negocios internacionales a entrar al mercado de EE.UU.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "Orlando Economic Partnership", "headingEs": "Alianza Económica de Orlando", "desc": "Regional economic development, relocation assistance, industry connections. Lake Nona and Downtown.", "descEs": "Desarrollo económico regional, asistencia de reubicación, conexiones industriales. Lake Nona y Downtown.", "cost": "FREE", "costEs": "GRATIS" }
+        {
+          "heading": "UCF Business Incubation Program",
+          "headingEs": "Programa de Incubación Empresarial UCF",
+          "desc": "Free mentoring, workshops, office space for startups. Located at UCF campus and East Orlando.",
+          "descEs": "Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus UCF y este de Orlando.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "Small Business Development Center (SBDC)",
+          "headingEs": "Centro de Desarrollo de Pequeñas Empresas (SBDC)",
+          "desc": "Free 1:1 consulting, business plan help, market research. Downtown Orlando and multiple locations.",
+          "descEs": "Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y múltiples ubicaciones.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "SCORE Orlando",
+          "headingEs": "SCORE Orlando",
+          "desc": "Free mentoring from retired business executives. Extensive experience across industries.",
+          "descEs": "Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en diversas industrias.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "Enterprise Florida",
+          "headingEs": "Enterprise Florida",
+          "desc": "State organizational trade assistance, export development. Helps international businesses enter the U.S. market.",
+          "descEs": "Asistencia estatal de comercio organizacional, desarrollo de exportaciones. Ayuda a negocios internacionales a entrar al mercado de EE.UU.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "Orlando Economic Partnership",
+          "headingEs": "Alianza Económica de Orlando",
+          "desc": "Regional economic development, relocation assistance, industry connections. Lake Nona and Downtown.",
+          "descEs": "Desarrollo económico regional, asistencia de reubicación, conexiones industriales. Lake Nona y Downtown.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        }
       ],
       "footer": "All organizations listed offer FREE or low-cost services for international entrepreneurs.",
       "footerEs": "Todas las organizaciones listadas ofrecen servicios GRATIS o de bajo costo para emprendedores internacionales."
@@ -129,14 +164,6 @@
           "explanation": "El ecosistema de apoyo está interconectado pero cada organización cumple un rol distinto. El SBDC ofrece asesoría empresarial gratuita e ilimitada incluyendo investigación de mercado y planes de negocio. SCORE ofrece mentoría gratuita de ejecutivos experimentados. Las cámaras de comercio proporcionan networking por una cuota anual modesta ($200-$500). Estos servicios están disponibles para fundadores internacionales sin importar el estatus de ciudadanía. Los $8,000 que presupuestó para consultoría podrían redirigirse a operaciones reales del negocio."
         }
       ]
-    },
-    {
-      "type": "exercise",
-      "id": "exercise-7-1-1",
-      "title": "Su Mapa de Red de Apoyo",
-      "placement": "after-section",
-      "sectionId": "text-7-1-2",
-      "instructions": "<p>Acaba de aprender sobre varias organizaciones de apoyo gratuitas y de bajo costo. Ahora elija las tres que más importan para donde está su negocio <em>ahora mismo</em> — no donde espera estar en dos años.</p><ul><li><strong>Organización 1:</strong> ___ <br/><strong>Por qué se adapta a su etapa actual:</strong> ___ <br/><strong>Su primera acción (esta semana):</strong> ___</li><li><strong>Organización 2:</strong> ___ <br/><strong>Por qué se adapta a su etapa actual:</strong> ___ <br/><strong>Su primera acción (esta semana):</strong> ___</li><li><strong>Organización 3:</strong> ___ <br/><strong>Por qué se adapta a su etapa actual:</strong> ___ <br/><strong>Su primera acción (esta semana):</strong> ___</li></ul><p>Sea específico. \"Contactar al SBDC\" no es una acción. \"Enviar un correo a floridasbdc.org para agendar una reunión de admisión sobre mis brechas en investigación de mercado\" sí lo es.</p>"
     },
     {
       "type": "key-takeaway",

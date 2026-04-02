@@ -52,70 +52,10 @@
           "wordCount": 162
         },
         {
-          "type": "exercise",
-          "id": "exercise-8-1-rubric",
-          "title": "Your Market Readiness Score",
-          "format": "scored-rubric",
-          "instruction": "Rate yourself honestly on each dimension. There is no passing score — the point is to identify where you are strong and where you need more preparation.",
-          "scale": {
-            "min": 1,
-            "max": 5,
-            "labels": [
-              "Not started",
-              "Researching",
-              "Partially ready",
-              "Mostly ready",
-              "Fully prepared"
-            ]
-          },
-          "dimensions": [
-            {
-              "label": "Legal Setup",
-              "description": "Entity type chosen, EIN obtained, registered agent in place"
-            },
-            {
-              "label": "Financial Foundation",
-              "description": "Bank account open, tax obligations understood, accountant identified"
-            },
-            {
-              "label": "IP & Risk Protection",
-              "description": "Trademarks filed, insurance active, key contracts reviewed"
-            },
-            {
-              "label": "Team & Compliance",
-              "description": "Hiring classification understood, payroll plan in place, visa status clear"
-            },
-            {
-              "label": "Market Strategy",
-              "description": "U.S. pricing set, competitive research done, customer acquisition plan ready"
-            },
-            {
-              "label": "Cultural Readiness",
-              "description": "Communication style adapted, meeting norms understood, follow-up habits in place"
-            },
-            {
-              "label": "Ecosystem & Network",
-              "description": "Support organizations identified, networking started, mentor relationship active"
-            }
-          ],
-          "interpretation": [
-            {
-              "range": "7-15",
-              "message": "You are in the early exploration phase. Focus on Modules 1-3 before taking action."
-            },
-            {
-              "range": "16-25",
-              "message": "You have a foundation but gaps remain. Revisit the modules where you scored 1-2."
-            },
-            {
-              "range": "26-30",
-              "message": "You are well-prepared in most areas. Address any remaining 2s before moving forward."
-            },
-            {
-              "range": "31-35",
-              "message": "You are highly prepared. Consider scheduling your Phase 2 consultation with [UCF BIP](https://incubator.ucf.edu)."
-            }
-          ]
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-8-1",
+          "imagePath": "images/scenarios/lesson-8-1-mentor-consultation.jpg",
+          "title": "Founder meeting with a mentor to review business readiness before launch"
         },
         {
           "type": "text",
@@ -149,12 +89,6 @@
           "variant": "theme-reduce-risk",
           "title": "One of the Biggest Risks Is Going It Alone",
           "content": "<p>Think about this: you now know more than many international founders who enter the U.S. market without structured preparation. Many founders jump in without a structured program. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowing alone does not cut risk. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida, and this campus in particular, has built an ecosystem specifically to help founders like you succeed. Use it.</p>"
-        },
-        {
-          "type": "in-lesson-image",
-          "id": "scenario-img-lesson-8-1",
-          "imagePath": "images/scenarios/lesson-8-1-mentor-consultation.jpg",
-          "title": "Founder meeting with a mentor to review business readiness before launch"
         },
         {
           "type": "knowledge-check",
@@ -389,14 +323,6 @@
           "title": "Your Top 3 Actions for the Next 30 Days",
           "content": "<p>These are your first three moves after leaving campus. Pick your top three actions for the next 30 days. Three, not ten. Specific actions lead to higher follow-through than long lists.</p>\n\n<h4>Make Each Action Specific</h4>\n\n<p>Here's how this plays out. <strong>Weak:</strong> \"Learn more about entity types.\" <strong>Strong:</strong> \"Schedule a consultation with a business attorney to discuss LLC vs. C-Corp for my visa situation by [date].\"</p>\n\n<p>High-impact 30-day actions:</p>\n\n<ol><li><strong>Book your 1:1 with UCF BIP</strong> . Do it today.</li><li><strong>Contact a specific professional</strong> . Attorney, CPA, or immigration lawyer. \"Email this referral by Friday.\"</li><li><strong>Complete one research task</strong> . SunBiz name check, USPTO search, or compile bank documentation.</li><li><strong>Register for a free resource</strong> . SBDC counseling, SCORE mentorship, or a chamber event.</li><li><strong>Complete the Expansion Decision Worksheet</strong> . Block 60 minutes before your 1:1.</li></ol>",
           "wordCount": 126
-        },
-        {
-          "type": "exercise",
-          "id": "exercise-8-3-1",
-          "title": "Write Down Your Top 3 Actions",
-          "placement": "after-section",
-          "sectionId": "text-8-3-3",
-          "instructions": "<p>Complete this exercise right now — do not save it for later. Write down your three highest-priority actions for the next 30 days. For each one, include:</p><ol><li><strong>The specific action</strong> . What exactly will you do?</li><li><strong>The deadline</strong> . By what date will you complete it?</li><li><strong>The first step</strong> . What is the very first thing you need to do to start? (An email to send, a website to visit, a phone call to make.)</li></ol><p><strong>Action 1:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 2:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 3:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p>If your first action is not \"Book my 1:1 with UCF BIP,\" reconsider. That meeting is free, it takes 30 minutes, and it gives you a sounding board for everything else on your list.</p>"
         },
         {
           "type": "callout",

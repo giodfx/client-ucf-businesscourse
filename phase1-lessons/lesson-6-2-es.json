@@ -60,41 +60,6 @@
       "content": "<p>Considere esto: los estadounidenses prueban a los nuevos socios comerciales con compromisos pequeños: \"Envíame eso para el viernes.\" \"¿Puede conseguirme tres referencias?\" \"Comparta su presentación de empresa antes de nuestra próxima llamada.\" Cada uno de estos es una prueba silenciosa. Cumpla a tiempo y avanza. No cumpla la fecha límite, y la relación se estanca sin que nadie le diga por qué. <strong>Cada compromiso pequeño que cumple construye confianza para los más grandes.</strong></p>"
     },
     {
-      "type": "exercise",
-      "id": "exercise-6-2-pitch",
-      "title": "Construya Su Elevator Pitch de 30 Segundos",
-      "format": "fill-in-blank",
-      "instruction": "Complete cada espacio para construir un pitch que pueda usar en su próximo evento de networking. Manténgalo en menos de 30 segundos al hablarlo en voz alta.",
-      "template": "[Nombre de la empresa] ayuda a [cliente objetivo en EE.UU.] a resolver [problema específico] mediante [su solución/enfoque]. Estamos ubicados en [ubicación] y [declaración de credibilidad — tracción, clientes o experiencia].",
-      "example": "FinBridge ayuda a exportadores latinoamericanos a resolver retrasos en pagos transfronterizos automatizando la documentación aduanera y las verificaciones de cumplimiento. Estamos ubicados en Orlando y ya procesamos $2M mensuales para 40 empresas en Colombia y Brasil.",
-      "prompts": [
-        {
-          "label": "Nombre de la empresa",
-          "placeholder": "Su empresa"
-        },
-        {
-          "label": "Cliente objetivo en EE.UU.",
-          "placeholder": "ej., empresas manufactureras medianas"
-        },
-        {
-          "label": "Problema específico",
-          "placeholder": "ej., procesos lentos de incorporación de proveedores"
-        },
-        {
-          "label": "Su solución/enfoque",
-          "placeholder": "ej., proporcionar un paquete de proveedor precalificado"
-        },
-        {
-          "label": "Ubicación",
-          "placeholder": "ej., Orlando, FL"
-        },
-        {
-          "label": "Declaración de credibilidad",
-          "placeholder": "ej., ya atendemos a 15 clientes en Latinoamérica"
-        }
-      ]
-    },
-    {
       "type": "tabs",
       "id": "int-6-2-1",
       "title": "La Reunión Después de la Reunión — Guía de Seguimiento",

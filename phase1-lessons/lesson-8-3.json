@@ -46,14 +46,6 @@
       "wordCount": 126
     },
     {
-      "type": "exercise",
-      "id": "exercise-8-3-1",
-      "title": "Write Down Your Top 3 Actions",
-      "placement": "after-section",
-      "sectionId": "text-8-3-3",
-      "instructions": "<p>Complete this exercise right now — do not save it for later. Write down your three highest-priority actions for the next 30 days. For each one, include:</p><ol><li><strong>The specific action</strong> . What exactly will you do?</li><li><strong>The deadline</strong> . By what date will you complete it?</li><li><strong>The first step</strong> . What is the very first thing you need to do to start? (An email to send, a website to visit, a phone call to make.)</li></ol><p><strong>Action 1:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 2:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 3:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p>If your first action is not \"Book my 1:1 with UCF BIP,\" reconsider. That meeting is free, it takes 30 minutes, and it gives you a sounding board for everything else on your list.</p>"
-    },
-    {
       "type": "callout",
       "id": "callout-8-3-disc",
       "variant": "reality-check",

@@ -183,6 +183,12 @@
       "content": "<p>Florida's natural springs collectively discharge more than 8 billion gallons of water per day, enough to fill thousands of Olympic swimming pools. That constant, reliable flow sustains entire river systems and the wildlife that depends on them. Central Florida's economy works with a similar kind of momentum: 300,000+ new business filings per year, $150 billion in annual GDP, and a population growing faster than most U.S. metros. The numbers just keep flowing.</p>"
     },
     {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-7-3",
+      "imagePath": "images/scenarios/lesson-7-3-economic-sectors.jpg",
+      "title": "Aerial view of Central Florida economic sectors including tech parks and industry"
+    },
+    {
       "type": "text",
       "id": "text-7-3-2",
       "title": "Where the Jobs and Revenue Are",
@@ -302,12 +308,6 @@
         "note": "Values scaled for visual comparison — see table below for exact figures."
       },
       "accessibilityNote": "Horizontal bar chart showing six Central Florida industry clusters ranked by relative scale. Hospitality Technology leads with $75B+ tourism GDP and stable growth. Life Sciences and Health has 90,000+ healthcare employees and is expanding. Technology and Fintech grows 34% faster than the U.S. average with strong momentum. Aerospace and Defense had 28 orbital launches in 2025 and is accelerating. Simulation and Training generates $6B in annual contracts with steady growth. AgTech is an emerging cluster with UF/IFAS research partnerships. Bar lengths are scaled for visual comparison."
-    },
-    {
-      "type": "in-lesson-image",
-      "id": "scenario-img-lesson-7-3",
-      "imagePath": "images/scenarios/lesson-7-3-economic-sectors.jpg",
-      "title": "Aerial view of Central Florida economic sectors including tech parks and industry"
     },
     {
       "type": "knowledge-check",

@@ -358,6 +358,16 @@
         trackInteraction(activityId, 'dragdrop', { completed: true, score: ddScore, correct: correct, total: total });
     };
 
+    // Keyboard fallback: move item to selected category via <select>
+    window.ddKbAssign = function(activityId, sel) {
+        var item = sel.closest('.draggable-item');
+        if (!item || !sel.value) return;
+        var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+        if (!activity) return;
+        var zone = activity.querySelector('.drop-zone[data-category="' + sel.value + '"] .drop-area');
+        if (zone) zone.appendChild(item);
+    };
+
     // ========================================================================
     // SORTING
     // ========================================================================

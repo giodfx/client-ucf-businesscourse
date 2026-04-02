@@ -80,9 +80,47 @@
       "replaces": "dataviz-4-3",
       "scriptFile": "js/rt-simulations.js",
       "inputs": [
-        {"id": "sim-salary", "type": "number", "label": "Salario Anual", "labelEs": "Salario Anual", "default": 60000},
-        {"id": "sim-industry", "type": "select", "label": "Industria", "labelEs": "Industria", "options": ["General", "Construcción", "Salud", "Tecnología", "Comercio Minorista"]},
-        {"id": "sim-health-toggle", "type": "toggle", "label": "Incluir Seguro de Salud", "labelEs": "Incluir Seguro de Salud"}
+        {
+          "id": "sim-salary",
+          "type": "number",
+          "label": "Salario Anual",
+          "labelEs": "Salario Anual",
+          "default": 60000
+        },
+        {
+          "id": "sim-industry",
+          "type": "select",
+          "label": "Industria",
+          "labelEs": "Industria",
+          "options": [
+            {
+              "label": "General",
+              "value": "general"
+            },
+            {
+              "label": "Construcción",
+              "value": "construction"
+            },
+            {
+              "label": "Salud",
+              "value": "healthcare"
+            },
+            {
+              "label": "Tecnología",
+              "value": "technology"
+            },
+            {
+              "label": "Comercio Minorista",
+              "value": "retail"
+            }
+          ]
+        },
+        {
+          "id": "sim-health",
+          "type": "toggle",
+          "label": "Incluir Seguro de Salud",
+          "labelEs": "Incluir Seguro de Salud"
+        }
       ]
     },
     {
@@ -175,13 +213,6 @@
           "explanation": "Florida requiere seguro de compensación laboral para empresas con cuatro o más empleados (uno o más en construcción). El registro del impuesto de reempleo de Florida (seguro de desempleo) es requerido tan pronto como tenga empleados. Con cinco empleados, esta fundadora debe tener ambos. La opción A es incorrecta porque la compensación laboral no es opcional con su cantidad de empleados. La opción B da el umbral equivocado. La opción C afirma incorrectamente que ambos son opcionales para pequeñas empresas."
         }
       ]
-    },
-    {
-      "type": "simulation-replaced",
-      "id": "ex-4-3-1",
-      "title": "Calcule el Costo Real de Su Primer Empleado",
-      "replacedBy": "sim-4-3-payroll",
-      "note": "Este ejercicio ha sido reemplazado por la simulación interactiva Calculadora de Costo del Empleado (sim-4-3-payroll)."
     },
     {
       "type": "key-takeaway",

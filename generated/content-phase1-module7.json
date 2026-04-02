@@ -172,14 +172,6 @@
           ]
         },
         {
-          "type": "exercise",
-          "id": "exercise-7-1-1",
-          "title": "Your Support Network Map",
-          "placement": "after-section",
-          "sectionId": "text-7-1-2",
-          "instructions": "<p>You just learned about several free and low-cost support organizations. Now pick the three that matter most for where your business is <em>right now</em> — not where you hope to be in two years.</p><ul><li><strong>Organization 1:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 2:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 3:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li></ul><p>Be specific. \"Contact the SBDC\" is not an action. \"Email floridasbdc.org to schedule an intake meeting about my market research gaps\" is.</p>"
-        },
-        {
           "type": "in-lesson-image",
           "id": "scenario-img-lesson-7-1",
           "imagePath": "images/scenarios/lesson-7-1-advisory-consultation.jpg",
@@ -604,6 +596,12 @@
           "content": "<p>Florida's natural springs collectively discharge more than 8 billion gallons of water per day, enough to fill thousands of Olympic swimming pools. That constant, reliable flow sustains entire river systems and the wildlife that depends on them. Central Florida's economy works with a similar kind of momentum: 300,000+ new business filings per year, $150 billion in annual GDP, and a population growing faster than most U.S. metros. The numbers just keep flowing.</p>"
         },
         {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-7-3",
+          "imagePath": "images/scenarios/lesson-7-3-economic-sectors.jpg",
+          "title": "Aerial view of Central Florida economic sectors including tech parks and industry"
+        },
+        {
           "type": "text",
           "id": "text-7-3-2",
           "title": "Where the Jobs and Revenue Are",
@@ -725,12 +723,6 @@
           "accessibilityNote": "Horizontal bar chart showing six Central Florida industry clusters ranked by relative scale. Hospitality Technology leads with $75B+ tourism GDP and stable growth. Life Sciences and Health has 90,000+ healthcare employees and is expanding. Technology and Fintech grows 34% faster than the U.S. average with strong momentum. Aerospace and Defense had 28 orbital launches in 2025 and is accelerating. Simulation and Training generates $6B in annual contracts with steady growth. AgTech is an emerging cluster with UF/IFAS research partnerships. Bar lengths are scaled for visual comparison."
         },
         {
-          "type": "in-lesson-image",
-          "id": "scenario-img-lesson-7-3",
-          "imagePath": "images/scenarios/lesson-7-3-economic-sectors.jpg",
-          "title": "Aerial view of Central Florida economic sectors including tech parks and industry"
-        },
-        {
           "type": "knowledge-check",
           "id": "kc-7-3",
           "title": "What Would You Do?",
@@ -797,6 +789,12 @@
           "title": "LATAM Trade Corridor — The Data",
           "content": "<p>Now, here is where it gets interesting for LATAM founders. Just as Florida's spring-fed rivers eventually reach the coast and connect to the ocean, Central Florida's trade infrastructure connects directly to Latin American markets. The corridor data is clear:</p>\n\n<h4>Air Connectivity</h4>\n\n<p>MCO: direct flights to 30+ Latin American cities (Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose). ~58 million passengers in 2025, top 10 busiest U.S. airports. Terminal C (2022) added 15 international gates.</p>\n\n<h4>Port and Trade Volume</h4>\n\n<p>Florida's seaports handle $150B+ in international trade annually. Port Tampa Bay and Port Canaveral (60-90 min from Orlando) connect Latin America, the Caribbean, and the U.S. interior. Florida is the #1 U.S. state for LATAM/Caribbean trade by value.</p>\n\n<h4>Bilingual Workforce</h4>\n\n<p>30%+ of metro Orlando speaks Spanish. Bilingual accountants, attorneys, marketers, and sales professionals operate across English and Spanish daily. Hiring bilingual staff here costs much less than in Miami.</p>\n\n<h4>Growth Projections</h4>\n\n<p>Florida's LATAM trade grows ~4-5% annually. State population projected to reach 25 million by 2030 (from ~23M in 2025), which means an expanding customer base and workforce.</p>",
           "wordCount": 172
+        },
+        {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-7-4",
+          "imagePath": "images/scenarios/lesson-7-4-latam-gateway.jpg",
+          "title": "Florida as a gateway connecting Latin American and U.S. business markets"
         },
         {
           "type": "text",
@@ -948,18 +946,6 @@
               "explanation": "The Reality Check identifies three specific, data-backed trade-offs: (1) Orlando is car-dependent, adding $300-$600/month in vehicle costs that partially offset housing savings vs. NYC; (2) the tech talent pool is smaller than NYC or Silicon Valley, requiring remote hiring for specialized roles; and (3) Florida attracted only ~4% of U.S. venture capital in 2024 vs. California’s 48%, meaning founders should build traction locally but pitch investors nationally."
             }
           ]
-        },
-        {
-          "type": "exercise",
-          "id": "exercise-7-4-1",
-          "title": "Your Location Decision Framework",
-          "instructions": "<p>Create a weighted comparison for your specific business using these steps:</p><ol><li>List your <strong>top 5 criteria</strong> for choosing a U.S. base (examples: customer proximity, cost, talent availability, flight connectivity, industry ecosystem, support programs)</li><li><strong>Weight each criterion</strong> from 1-5 based on importance to your business</li><li><strong>Score Central Florida</strong> against each criterion (1-10 scale) using the data from this lesson</li><li><strong>Score your alternative city</strong> (Miami, NYC, Silicon Valley, or Austin) against each criterion</li><li><strong>Multiply weight x score</strong> for each criterion and total them up</li></ol><p>This exercise forces you to move beyond gut feeling and evaluate the decision with data. Bring the results to your UCF BIP conversation — it will help the team understand your priorities and advise you more effectively.</p>"
-        },
-        {
-          "type": "in-lesson-image",
-          "id": "scenario-img-lesson-7-4",
-          "imagePath": "images/scenarios/lesson-7-4-latam-gateway.jpg",
-          "title": "Florida as a gateway connecting Latin American and U.S. business markets"
         },
         {
           "type": "key-takeaway",

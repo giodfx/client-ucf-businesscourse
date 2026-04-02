@@ -70,6 +70,12 @@
       "sectionId": "text-4-3-1"
     },
     {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-4-3",
+      "imagePath": "images/scenarios/lesson-4-3-payroll-planning.jpg",
+      "title": "Business owner planning payroll and employee compensation at a desk"
+    },
+    {
       "type": "simulation",
       "id": "sim-4-3-payroll",
       "simId": "sim-employee-cost",
@@ -93,15 +99,30 @@
           "label": "Industry",
           "labelEs": "Industria",
           "options": [
-            "General",
-            "Construction",
-            "Healthcare",
-            "Tech",
-            "Retail"
+            {
+              "label": "General",
+              "value": "general"
+            },
+            {
+              "label": "Construction",
+              "value": "construction"
+            },
+            {
+              "label": "Healthcare",
+              "value": "healthcare"
+            },
+            {
+              "label": "Technology",
+              "value": "technology"
+            },
+            {
+              "label": "Retail",
+              "value": "retail"
+            }
           ]
         },
         {
-          "id": "sim-health-toggle",
+          "id": "sim-health",
           "type": "toggle",
           "label": "Include Health Insurance",
           "labelEs": "Incluir Seguro de Salud"
@@ -248,20 +269,6 @@
           "explanation": "Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this founder must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses."
         }
       ]
-    },
-    {
-      "type": "exercise",
-      "id": "ex-4-3-1",
-      "title": "Calculate Your First Employee's True Cost",
-      "placement": "after-section",
-      "sectionId": "text-4-3-3",
-      "instructions": "<p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p>"
-    },
-    {
-      "type": "in-lesson-image",
-      "id": "scenario-img-lesson-4-3",
-      "imagePath": "images/scenarios/lesson-4-3-payroll-planning.jpg",
-      "title": "Business owner planning payroll and employee compensation at a desk"
     },
     {
       "type": "key-takeaway",

@@ -60,41 +60,6 @@
       "content": "<p>Consider this: Americans test new business partners with small commitments: \"Send me that by Friday.\" \"Can you get me three references?\" \"Share your company deck before our next call.\" Each of these is a quiet test. Deliver on time and you move forward. Miss the deadline, and the relationship stalls without anyone telling you why. <strong>Every small commitment you keep builds trust for the bigger ones.</strong></p>"
     },
     {
-      "type": "exercise",
-      "id": "exercise-6-2-pitch",
-      "title": "Build Your 30-Second Elevator Pitch",
-      "format": "fill-in-blank",
-      "instruction": "Complete each blank to build a pitch you can use at your next networking event. Keep it under 30 seconds when spoken aloud.",
-      "template": "[Company name] helps [target customer in the U.S.] solve [specific problem] by [your solution/approach]. We are based in [location] and [credibility statement — traction, clients, or background].",
-      "example": "FinBridge helps Latin American exporters solve cross-border payment delays by automating customs documentation and compliance checks. We are based in Orlando and already process $2M monthly for 40 companies across Colombia and Brazil.",
-      "prompts": [
-        {
-          "label": "Company name",
-          "placeholder": "Your company"
-        },
-        {
-          "label": "Target customer in the U.S.",
-          "placeholder": "e.g., mid-size manufacturing companies"
-        },
-        {
-          "label": "Specific problem",
-          "placeholder": "e.g., slow vendor onboarding processes"
-        },
-        {
-          "label": "Your solution/approach",
-          "placeholder": "e.g., providing a pre-qualified vendor package"
-        },
-        {
-          "label": "Location",
-          "placeholder": "e.g., Orlando, FL"
-        },
-        {
-          "label": "Credibility statement",
-          "placeholder": "e.g., already serve 15 clients in Latin America"
-        }
-      ]
-    },
-    {
       "type": "tabs",
       "id": "int-6-2-1",
       "title": "The Meeting After the Meeting — Follow-Up Playbook",

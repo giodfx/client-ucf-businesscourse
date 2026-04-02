@@ -217,12 +217,35 @@
       "content": "<p>Notice how these mistakes connect:</p><ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. Some founders label every worker as a 1099 contractor to avoid payroll taxes and benefits, but the IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong>. In serious cases, you face criminal prosecution. The IRS, state agencies, and workers themselves can all trigger an audit.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70–85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000–$78,000 in actual cost.</li></ul>"
     },
     {
-      "type": "exercise",
-      "id": "exercise-4-1-1",
-      "title": "Calculate Your True Hiring Cost",
+      "type": "simulation",
+      "id": "sim-4-1-hiring",
+      "simId": "sim-hiring",
+      "title": "Hiring Cost Calculator",
+      "titleEs": "Calculadora de Costo Real de Contratación",
+      "description": "Select a role and adjust the variables to compare the true cost of an employee vs. a contractor in Central Florida.",
+      "descriptionEs": "Seleccione un rol y ajuste las variables para comparar el costo real de un empleado vs. un contratista en Central Florida.",
       "placement": "after-section",
       "sectionId": "text-4-1-ucf",
-      "instructions": "<p>Pick the first role you'd hire in the U.S. Use the Central Florida salary ranges from this lesson to estimate your real cost — then compare it to hiring a contractor instead.</p><ul><li><strong>Role:</strong> ___</li><li><strong>Base salary estimate (Central Florida range):</strong> $___</li><li><strong>True annual cost (base × 1.25 for taxes, insurance, benefits):</strong> $___</li><li><strong>Contractor alternative (hourly rate × estimated annual hours):</strong> $___</li><li><strong>Which makes more sense for your first 6 months, and why?</strong> ___</li></ul><p>There's no wrong answer here — the point is to see the real numbers side by side before you commit.</p>"
+      "calcFunction": "simCalcHiring",
+      "scriptFile": "js/rt-simulations.js",
+      "inputs": [
+        {
+          "id": "sim-hire-role",
+          "type": "select",
+          "label": "Role",
+          "labelEs": "Rol",
+          "options": [
+            { "label": "Software Developer (Entry)", "value": "0" },
+            { "label": "Marketing Coordinator", "value": "1" },
+            { "label": "Accountant / Bookkeeper", "value": "2" },
+            { "label": "Customer Support Rep", "value": "3" },
+            { "label": "Operations Manager", "value": "4" },
+            { "label": "Graphic Designer", "value": "5" }
+          ]
+        },
+        { "id": "sim-hire-hours", "type": "number", "label": "Contractor Hours / Week", "labelEs": "Horas del Contratista / Semana", "default": 20, "min": 5, "max": 60 },
+        { "id": "sim-hire-overhead", "type": "number", "label": "Employer Overhead %", "labelEs": "Sobrecosto del Empleador %", "default": 25, "min": 15, "max": 35 }
+      ]
     },
     {
       "type": "knowledge-check",

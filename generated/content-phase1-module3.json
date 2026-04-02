@@ -543,12 +543,12 @@
               "label": "Business Type",
               "labelEs": "Tipo de Negocio",
               "options": [
-                "Professional Services",
-                "Technology / SaaS",
-                "Retail",
-                "Food & Beverage",
-                "Construction",
-                "General / Other"
+                { "label": "Professional Services", "value": "services" },
+                { "label": "Technology / SaaS", "value": "tech" },
+                { "label": "Retail", "value": "retail" },
+                { "label": "Food & Beverage", "value": "food" },
+                { "label": "Construction", "value": "construction" },
+                { "label": "General / Other", "value": "other" }
               ]
             },
             {
