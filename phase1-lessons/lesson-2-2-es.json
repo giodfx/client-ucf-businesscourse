@@ -41,26 +41,96 @@
         "heading": "VAT (Value Added Tax)",
         "headingEs": "IVA (Impuesto al Valor Agregado)",
         "rows": [
-          { "label": "Where", "labelEs": "Dónde", "value": "One national system — same rules everywhere in the country", "valueEs": "Un sistema nacional — las mismas reglas en todo el país" },
-          { "label": "Applied", "labelEs": "Aplicación", "value": "At every stage of production and distribution", "valueEs": "En cada etapa de producción y distribución" },
-          { "label": "Who Collects", "labelEs": "Quién Recauda", "value": "Every business in the chain collects and remits; input credits offset tax paid on purchases", "valueEs": "Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras" },
-          { "label": "Rate", "labelEs": "Tasa", "value": "One national rate (e.g., 21% Argentina, 19% Chile, 16% Mexico)", "valueEs": "Una tasa nacional (ej., 21% Argentina, 19% Chile, 16% México)" },
-          { "label": "Included in Price", "labelEs": "Incluido en Precio", "value": "Yes — the price on the shelf is the price you pay", "valueEs": "Sí — el precio en la etiqueta es el precio que pagas" },
-          { "label": "Filing", "labelEs": "Declaración", "value": "One government portal, one relationship", "valueEs": "Un portal gubernamental, una relación" },
-          { "label": "Example", "labelEs": "Ejemplo", "value": "A $100 product with 21% VAT → you pay $100 (tax already included)", "valueEs": "Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)" }
+          {
+            "label": "Where",
+            "labelEs": "Dónde",
+            "value": "One national system — same rules everywhere in the country",
+            "valueEs": "Un sistema nacional — las mismas reglas en todo el país"
+          },
+          {
+            "label": "Applied",
+            "labelEs": "Aplicación",
+            "value": "At every stage of production and distribution",
+            "valueEs": "En cada etapa de producción y distribución"
+          },
+          {
+            "label": "Who Collects",
+            "labelEs": "Quién Recauda",
+            "value": "Every business in the chain collects and remits; input credits offset tax paid on purchases",
+            "valueEs": "Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras"
+          },
+          {
+            "label": "Rate",
+            "labelEs": "Tasa",
+            "value": "One national rate (e.g., 21% Argentina, 19% Chile, 16% Mexico)",
+            "valueEs": "Una tasa nacional (ej., 21% Argentina, 19% Chile, 16% México)"
+          },
+          {
+            "label": "Included in Price",
+            "labelEs": "Incluido en Precio",
+            "value": "Yes — the price on the shelf is the price you pay",
+            "valueEs": "Sí — el precio en la etiqueta es el precio que pagas"
+          },
+          {
+            "label": "Filing",
+            "labelEs": "Declaración",
+            "value": "One government portal, one relationship",
+            "valueEs": "Un portal gubernamental, una relación"
+          },
+          {
+            "label": "Example",
+            "labelEs": "Ejemplo",
+            "value": "A $100 product with 21% VAT → you pay $100 (tax already included)",
+            "valueEs": "Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)"
+          }
         ]
       },
       "right": {
         "heading": "U.S. Sales Tax",
         "headingEs": "Impuesto sobre Ventas en EE.UU.",
         "rows": [
-          { "label": "Where", "labelEs": "Dónde", "value": "State by state — each state sets its own rules, rates, and exemptions", "valueEs": "Estado por estado — cada estado establece sus propias reglas, tasas y exenciones" },
-          { "label": "Applied", "labelEs": "Aplicación", "value": "Only at the final point of sale to the consumer", "valueEs": "Solo en el punto de venta final al consumidor" },
-          { "label": "Who Collects", "labelEs": "Quién Recauda", "value": "Only the business selling to the end customer; no input credits", "valueEs": "Solo el negocio que vende al cliente final; sin créditos fiscales" },
-          { "label": "Rate", "labelEs": "Tasa", "value": "Varies: 0% (Oregon) to 10.25% (some cities). Florida base: 6% + county surtax", "valueEs": "Varía: 0% (Oregon) a 10.25% (algunas ciudades). Florida base: 6% + sobretasa del condado" },
-          { "label": "Included in Price", "labelEs": "Incluido en Precio", "value": "No — tax is added at the register. Shelf price ≠ what you pay", "valueEs": "No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas" },
-          { "label": "Filing", "labelEs": "Declaración", "value": "Separate registration and filing in every state where you have nexus", "valueEs": "Registro y declaración separados en cada estado donde tengas nexo" },
-          { "label": "Example", "labelEs": "Ejemplo", "value": "A $100 product in Orlando → you pay $106.50 (6.5% added at register)", "valueEs": "Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)" }
+          {
+            "label": "Where",
+            "labelEs": "Dónde",
+            "value": "State by state — each state sets its own rules, rates, and exemptions",
+            "valueEs": "Estado por estado — cada estado establece sus propias reglas, tasas y exenciones"
+          },
+          {
+            "label": "Applied",
+            "labelEs": "Aplicación",
+            "value": "Only at the final point of sale to the consumer",
+            "valueEs": "Solo en el punto de venta final al consumidor"
+          },
+          {
+            "label": "Who Collects",
+            "labelEs": "Quién Recauda",
+            "value": "Only the business selling to the end customer; no input credits",
+            "valueEs": "Solo el negocio que vende al cliente final; sin créditos fiscales"
+          },
+          {
+            "label": "Rate",
+            "labelEs": "Tasa",
+            "value": "Varies: 0% (Oregon) to 10.25% (some cities). Florida base: 6% + county surtax",
+            "valueEs": "Varía: 0% (Oregon) a 10.25% (algunas ciudades). Florida base: 6% + sobretasa del condado"
+          },
+          {
+            "label": "Included in Price",
+            "labelEs": "Incluido en Precio",
+            "value": "No — tax is added at the register. Shelf price ≠ what you pay",
+            "valueEs": "No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas"
+          },
+          {
+            "label": "Filing",
+            "labelEs": "Declaración",
+            "value": "Separate registration and filing in every state where you have nexus",
+            "valueEs": "Registro y declaración separados en cada estado donde tengas nexo"
+          },
+          {
+            "label": "Example",
+            "labelEs": "Ejemplo",
+            "value": "A $100 product in Orlando → you pay $106.50 (6.5% added at register)",
+            "valueEs": "Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)"
+          }
         ]
       },
       "callout": "The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.",
@@ -190,14 +260,6 @@
           "explanation": "Un presupuesto realista del primer año incluye software de contabilidad ($240-$720/año), un CPA con experiencia en clientes internacionales ($500-$2,500/año), y posiblemente asistencia con la declaración de impuesto sobre ventas. Menos de $200 ignora la necesidad de un CPA que entienda los requisitos de declaración para extranjeros no residentes. Un estimado de $500 subestima los costos de CPA para clientes internacionales, que necesitan revisión de tratados y potencialmente declaraciones de FBAR. Más de $10,000 es excesivo para una pequeña firma de consultoría con un solo propietario, sin empleados y operación en un solo estado."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "ref-2-2-1",
-      "title": "Reflexión: Su Plan de Contabilidad",
-      "placement": "after-section",
-      "sectionId": "text-2-2-2",
-      "prompt": "¿Su producto o servicio genera obligaciones de impuesto sobre ventas en Florida? Si está vendiendo en múltiples estados de EE.UU., ¿cuáles? Escriba la herramienta de contabilidad que planea usar y cuándo la configurará en relación con su primera venta en EE.UU."
     },
     {
       "type": "key-takeaway",

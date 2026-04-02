@@ -159,14 +159,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "reflect-6-2-1",
-      "title": "Su Plan de Acción para la Próxima Reunión en EE.UU.",
-      "placement": "after-section",
-      "sectionId": "text-6-2-2",
-      "prompt": "Piense en su próxima reunión con un contacto en EE.UU.: un socio potencial, cliente o inversionista. Escriba la agenda de 3 puntos que les enviaría el día anterior. Ahora redacte su plantilla de correo de seguimiento: qué se discutió, qué se acordó, próximos pasos y fechas límite. Finalmente, escriba 3 cosas que hará diferente basándose en esta lección — ya sea solicitar 30 minutos en vez de una hora, preparar precios específicos antes de una negociación, o hacer seguimiento dentro de las 24 horas en vez de esperar."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-6-2-1",
       "title": "Conclusión Clave",

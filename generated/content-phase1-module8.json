@@ -2,14 +2,7 @@
   "moduleId": "module-8",
   "title": "Wrap-Up — Is the U.S. Right for You?",
   "description": "Self-assessment reflection, resource downloads with digital credential, and clear next steps: 1:1 booking with UCF BIP team and Phase 2 overview.",
-  "learningOutcomes": {
-    "moduleLearningOutcomes": [
-      "Assess their personal readiness for U.S. market entry based on program content",
-      "Produce actionable deliverables including checklists, a Florida setup roadmap, and a U.S. market readiness assessment",
-      "Identify their logical next step (resources, Phase 2, or 1:1 consultation)"
-    ],
-    "courseLevelOutcomesAddressed": []
-  },
+  "landscapeTheme": "",
   "lessons": [
     {
       "lessonId": "lesson-8-1",
@@ -48,14 +41,14 @@
           "type": "text",
           "id": "text-8-1-2",
           "title": "Your Readiness Self-Assessment",
-          "content": "<p>Before you leave headquarters and head into the U.S. market, you need a readiness review. This is yours. For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p>\n\n<h4>Module 1: Legal Setup</h4>\n\n<p>Is your foundation solid? Entity, EIN, registered agent — these are the structural systems that keep everything else from collapsing.</p>\n\n<ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked SunBiz for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul>\n\n<p>If unclear, consult a business attorney or CPA before filing.</p>\n\n<h4>Module 2: Finances and Taxes</h4>\n\n<p>Are your accounts and funding in order? Banking, taxes, accounting — these power everything that follows once you step out of headquarters.</p>\n\n<ul><li>Can you explain federal income tax vs. state sales tax?</li><li>Do you understand how U.S. sales tax differs from VAT?</li><li>Have you identified an accountant who understands international founders?</li></ul>\n\n<p>If unclear, an international-focused accountant saves you from penalties that cost far more than their fee.</p>\n\n<h4>Module 3: Protecting Your Business</h4>\n\n<p>Are your legal protections in place? IP, insurance, and contracts are your safety net — invisible until you need them, catastrophic without them.</p>\n\n<ul><li>Does your home-country IP protection cover you in the U.S.?</li><li>Can you list the insurance types your business needs?</li><li>Have you identified which contracts you need before starting?</li></ul>\n\n<p>If uncertain, an IP attorney conversation is a high-priority next step.</p>\n\n<h4>Module 4: Building Your Team</h4>\n\n<p>Is your team assembled? Classification, payroll, compliance — your support team is critical, and getting the roster wrong stalls you before you start.</p>\n\n<ul><li>Do you understand contractor vs. employee in the U.S.?</li><li>Are you aware of true hiring cost (salary plus 15-30% overhead)?</li><li>Do you know your visa authorization status?</li></ul>\n\n<p>Misclassifying a worker can result in back taxes, penalties, and legal liability.</p>",
+          "content": "<p>Before you leave headquarters and head into the U.S. market, you need a readiness review. This is yours. For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p>\n\n<h4>Module 1: Legal Setup</h4>\n\n<p>Is your foundation solid? Entity, EIN, registered agent — these are the structural systems that keep everything else from collapsing.</p>\n\n<ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked [SunBiz](https://sunbiz.org) for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul>\n\n<p>If unclear, consult a business attorney or CPA before filing.</p>\n\n<h4>Module 2: Finances and Taxes</h4>\n\n<p>Are your accounts and funding in order? Banking, taxes, accounting — these power everything that follows once you step out of headquarters.</p>\n\n<ul><li>Can you explain federal income tax vs. state sales tax?</li><li>Do you understand how U.S. sales tax differs from VAT?</li><li>Have you identified an accountant who understands international founders?</li></ul>\n\n<p>If unclear, an international-focused accountant saves you from penalties that cost far more than their fee.</p>\n\n<h4>Module 3: Protecting Your Business</h4>\n\n<p>Are your legal protections in place? IP, insurance, and contracts are your safety net — invisible until you need them, catastrophic without them.</p>\n\n<ul><li>Does your home-country IP protection cover you in the U.S.?</li><li>Can you list the insurance types your business needs?</li><li>Have you identified which contracts you need before starting?</li></ul>\n\n<p>If uncertain, an IP attorney conversation is a high-priority next step.</p>\n\n<h4>Module 4: Building Your Team</h4>\n\n<p>Is your team assembled? Classification, payroll, compliance — your support team is critical, and getting the roster wrong stalls you before you start.</p>\n\n<ul><li>Do you understand contractor vs. employee in the U.S.?</li><li>Are you aware of true hiring cost (salary plus 15-30% overhead)?</li><li>Do you know your visa authorization status?</li></ul>\n\n<p>Misclassifying a worker can result in back taxes, penalties, and legal liability.</p>",
           "wordCount": 219
         },
         {
           "type": "text",
           "id": "text-8-1-3",
           "title": "Readiness Check — Markets, Culture, and Ecosystem",
-          "content": "<p>Now, let's continue with the remaining modules.</p><h4>Module 5: Understanding U.S. Customers</h4>\n\n<p>Is your market strategy configured for the U.S.? Product adaptation, pricing, acquisition strategy — these determine whether your business actually reaches your target market.</p>\n\n<ul><li>Have you researched your U.S. competitive set?</li><li>Do you know how U.S. pricing expectations differ from your home market?</li><li>Do you understand vendor onboarding requirements (W-9, insurance certificates, procurement)?</li><li>Can you describe your first U.S. customer acquisition strategy?</li></ul>\n\n<p>If you haven't done U.S.-specific competitive research, block time for that before selling.</p>\n\n<h4>Module 6: U.S. Business Culture</h4>\n\n<p>Have you studied the local conditions? Communication, meetings, trust-building — this is the atmosphere you will be operating in, and misjudging it stalls even the best-prepared founders.</p>\n\n<ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul>\n\n<p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p>\n\n<h4>Module 7: Central Florida Ecosystem</h4>\n\n<p>Do you know your advisory network? SBDC, chambers, UCF BIP — no founder succeeds without a support team on the ground.</p>\n\n<ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the UCF BIP program offer?</li></ul>\n\n<p>If you cannot name specific resources you plan to contact, revisit Module 7.</p>",
+          "content": "<p>Now, let's continue with the remaining modules.</p><h4>Module 5: Understanding U.S. Customers</h4>\n\n<p>Is your market strategy configured for the U.S.? Product adaptation, pricing, acquisition strategy — these determine whether your business actually reaches your target market.</p>\n\n<ul><li>Have you researched your U.S. competitive set?</li><li>Do you know how U.S. pricing expectations differ from your home market?</li><li>Do you understand vendor onboarding requirements (W-9, insurance certificates, procurement)?</li><li>Can you describe your first U.S. customer acquisition strategy?</li></ul>\n\n<p>If you haven't done U.S.-specific competitive research, block time for that before selling.</p>\n\n<h4>Module 6: U.S. Business Culture</h4>\n\n<p>Have you studied the local conditions? Communication, meetings, trust-building — this is the atmosphere you will be operating in, and misjudging it stalls even the best-prepared founders.</p>\n\n<ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul>\n\n<p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p>\n\n<h4>Module 7: Central Florida Ecosystem</h4>\n\n<p>Do you know your advisory network? SBDC, chambers, [UCF BIP](https://incubator.ucf.edu) — no founder succeeds without a support team on the ground.</p>\n\n<ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the [UCF BIP](https://incubator.ucf.edu) program offer?</li></ul>\n\n<p>If you cannot name specific resources you plan to contact, revisit Module 7.</p>",
           "wordCount": 162
         },
         {
@@ -120,7 +113,7 @@
             },
             {
               "range": "31-35",
-              "message": "You are highly prepared. Consider scheduling your Phase 2 consultation with UCF BIP."
+              "message": "You are highly prepared. Consider scheduling your Phase 2 consultation with [UCF BIP](https://incubator.ucf.edu)."
             }
           ]
         },
@@ -128,7 +121,7 @@
           "type": "text",
           "id": "text-8-1-4",
           "title": "Where Do You Need More Help?",
-          "content": "<p>No preparation is perfect. The smartest founders identify what is missing and get help before they leave headquarters. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections waiting in the buildings around you. You need to know enough to ask the right questions and avoid expensive mistakes.</p>\n\n<h4>Where to Get Help</h4>\n\n<ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: \"Do you work with foreign-owned businesses?\"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. USPTO has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. UCF BIP connects you with mentors.</li><li><strong>General guidance</strong> . The UCF BIP team is available for a conversation once you complete Module 8.</li></ul>\n\n<p>Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p>",
+          "content": "<p>No preparation is perfect. The smartest founders identify what is missing and get help before they leave headquarters. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections waiting in the buildings around you. You need to know enough to ask the right questions and avoid expensive mistakes.</p>\n\n<h4>Where to Get Help</h4>\n\n<ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: \"Do you work with foreign-owned businesses?\"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. [USPTO](https://www.uspto.gov) has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. [UCF BIP](https://incubator.ucf.edu) connects you with mentors.</li><li><strong>General guidance</strong> . The [UCF BIP](https://incubator.ucf.edu) team is available for a conversation once you complete Module 8.</li></ul>\n\n<p>Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p>",
           "wordCount": 148
         },
         {
@@ -138,15 +131,15 @@
           "tabs": [
             {
               "label": "Download Resources",
-              "content": "**Throughout this course, we've referenced key documents and tools.** Here's your consolidated list:\n\n- SunBiz entity registration: sunbiz.org\n- IRS EIN application: irs.gov/businesses\n- Florida SBDC consultation: floridasbdc.org\n- SCORE mentorship: score.org/orlando\n- UCF BIP programs: ucf.edu/bip\n\n**Save these links** — you'll reference them as you build your U.S. presence."
+              "content": "**Throughout this course, we've referenced key documents and tools.** Here's your consolidated list:\n\n- [SunBiz](https://sunbiz.org) entity registration: sunbiz.org\n- [IRS EIN](https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers) application: irs.gov/businesses\n- [Florida SBDC](https://floridasbdc.org) consultation: floridasbdc.org\n- SCORE mentorship: score.org/orlando\n- [UCF BIP](https://incubator.ucf.edu) programs: ucf.edu/bip\n\n**Save these links** — you'll reference them as you build your U.S. presence."
             },
             {
               "label": "Phase 2 Preview",
-              "content": "**Phase 2 of the UCF BIP program** takes you from knowledge to action.\n\n**What to expect:**\n- Hands-on mentorship with Central Florida business leaders\n- Market validation workshops\n- Pitch development and investor connections\n- Legal and accounting office hours\n\n**Duration:** 8–12 weeks\n\n**Eligibility:** Completion of this Phase 1 course + application review"
+              "content": "**Phase 2 of the [UCF BIP](https://incubator.ucf.edu) program** takes you from knowledge to action.\n\n**What to expect:**\n- Hands-on mentorship with Central Florida business leaders\n- Market validation workshops\n- Pitch development and investor connections\n- Legal and accounting office hours\n\n**Duration:** 8–12 weeks\n\n**Eligibility:** Completion of this Phase 1 course + application review"
             },
             {
               "label": "Get Support",
-              "content": "**You don't have to do this alone.** Here are your immediate next steps:\n\n1. **Schedule a free SBDC consultation** — get personalized guidance on your specific situation\n2. **Apply to UCF BIP Phase 2** — take your business to the next level\n3. **Join the UCF entrepreneur community** — connect with fellow international founders\n\n**Remember:** Every successful international founder in the U.S. started exactly where you are right now."
+              "content": "**You don't have to do this alone.** Here are your immediate next steps:\n\n1. **Schedule a free SBDC consultation** — get personalized guidance on your specific situation\n2. **Apply to [UCF BIP](https://incubator.ucf.edu) Phase 2** — take your business to the next level\n3. **Join the UCF entrepreneur community** — connect with fellow international founders\n\n**Remember:** Every successful international founder in the U.S. started exactly where you are right now."
             }
           ]
         },
@@ -158,6 +151,12 @@
           "content": "<p>Think about this: you now know more than many international founders who enter the U.S. market without structured preparation. Many founders jump in without a structured program. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowing alone does not cut risk. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida, and this campus in particular, has built an ecosystem specifically to help founders like you succeed. Use it.</p>"
         },
         {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-8-1",
+          "imagePath": "images/scenarios/lesson-8-1-mentor-consultation.jpg",
+          "title": "Founder meeting with a mentor to review business readiness before launch"
+        },
+        {
           "type": "knowledge-check",
           "id": "kc-8-1",
           "title": "What Would You Do?",
@@ -167,7 +166,7 @@
               "stem": "A founder rates herself a '2' on the Legal Setup section of the readiness self-assessment. According to the scoring guide, what should she do before taking action on entity formation?",
               "options": [
                 "Proceed with forming an LLC since it is the most common choice for international founders",
-                "Re-read Module 1 and then file on SunBiz immediately",
+                "Re-read Module 1 and then file on [SunBiz](https://sunbiz.org) immediately",
                 "Consult a business attorney or CPA before filing anything, because a score of 1 or 2 signals the need for professional guidance",
                 "Skip entity formation and operate as a sole proprietor until she feels more confident"
               ],
@@ -199,18 +198,10 @@
           ]
         },
         {
-          "type": "reflection",
-          "id": "reflection-8-1-1",
-          "title": "Honest Reflection: What Surprised You Most?",
-          "placement": "after-section",
-          "sectionId": "text-8-1-4",
-          "prompt": "Think about everything you covered in this program. What was the single most surprising thing you learned — the thing you definitely would not have known without this program? How does that surprise change your approach to U.S. market entry? Write it down. This is often the insight that saves you the most money or prevents the biggest mistake."
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-8-1-1",
           "title": "Key Takeaway",
-          "content": "<p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the UCF BIP team.</p>"
+          "content": "<p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the [UCF BIP](https://incubator.ucf.edu) team.</p>"
         }
       ]
     },
@@ -229,7 +220,7 @@
           "type": "text",
           "id": "text-8-2-1",
           "title": "Your Takeaway Resources from Campus HQ",
-          "content": "<p>With your readiness assessment complete, think of this as walking through the UCF BIP resource center before heading out. You would not leave campus without picking up the materials that turn everything you learned into a real plan. These four downloadable resources do exactly that:</p>\n\n<ol><li><strong>U.S. Market Entry Checklist</strong> . Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong> . Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong> . Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong> . Structured go/no-go framework to consider whether now is the right time.</li></ol>\n\n<p>Download all four now. They pair directly with your 1:1 meeting with UCF BIP.</p>",
+          "content": "<p>With your readiness assessment complete, think of this as walking through the [UCF BIP](https://incubator.ucf.edu) resource center before heading out. You would not leave campus without picking up the materials that turn everything you learned into a real plan. These four downloadable resources do exactly that:</p>\n\n<ol><li><strong>U.S. Market Entry Checklist</strong> . Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong> . Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong> . Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong> . Structured go/no-go framework to consider whether now is the right time.</li></ol>\n\n<p>Download all four now. They pair directly with your 1:1 meeting with [UCF BIP](https://incubator.ucf.edu).</p>",
           "wordCount": 101
         },
         {
@@ -257,14 +248,14 @@
           "type": "text",
           "id": "text-8-2-4",
           "title": "Resource 3: Central Florida Resource Guide",
-          "content": "<p>This is your campus directory — every support organization, one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, UCF BIP), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through UCF BIP.</p>\n\n<p>Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p>",
+          "content": "<p>This is your campus directory — every support organization, one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, [UCF BIP](https://incubator.ucf.edu)), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through [UCF BIP](https://incubator.ucf.edu).</p>\n\n<p>Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p>",
           "wordCount": 80
         },
         {
           "type": "text",
           "id": "text-8-2-5",
           "title": "Resource 4: Expansion Decision Worksheet",
-          "content": "<p>This is your go/no-go decision — the honest assessment before you commit. The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five areas: market fit, financial readiness, legal readiness, operations, and timing.</p>\n\n<p>This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p>\n\n<p>Complete this before your 1:1 meeting with UCF BIP — it helps the team give you targeted advice based on your specific readiness profile.</p>",
+          "content": "<p>This is your go/no-go decision — the honest assessment before you commit. The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five areas: market fit, financial readiness, legal readiness, operations, and timing.</p>\n\n<p>This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p>\n\n<p>Complete this before your 1:1 meeting with [UCF BIP](https://incubator.ucf.edu) — it helps the team give you targeted advice based on your specific readiness profile.</p>",
           "wordCount": 102
         },
         {
@@ -274,19 +265,19 @@
           "sections": [
             {
               "heading": "Legal & Formation",
-              "content": "- **SunBiz** (sunbiz.org) — Florida business registration\n- **IRS EIN** (irs.gov) — Free employer identification number\n- **LegalZoom/Incfile** — Paid formation services if you want assistance\n- **Florida Bar Lawyer Referral** — Find a vetted business attorney"
+              "content": "- **[SunBiz](https://sunbiz.org)** (sunbiz.org) — Florida business registration\n- **[IRS EIN](https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers)** (irs.gov) — Free employer identification number\n- **[LegalZoom](https://www.legalzoom.com)/[Incfile](https://www.incfile.com)** — Paid formation services if you want assistance\n- **[Florida Bar Lawyer Referral](https://www.floridabar.org/public/lrs/)** — Find a vetted business attorney"
             },
             {
               "heading": "Banking & Finance",
-              "content": "- **Mercury** — Online banking for startups (international-friendly)\n- **Relay** — Free business banking with accounting integration\n- **Stripe Atlas** — Formation + banking bundle for international founders\n- **QuickBooks Online** — Most popular small business accounting software"
+              "content": "- **[Mercury](https://mercury.com)** — Online banking for startups (international-friendly)\n- **[Relay](https://relayfi.com)** — Free business banking with accounting integration\n- **[Stripe Atlas](https://stripe.com/atlas)** — Formation + banking bundle for international founders\n- **[QuickBooks Online](https://quickbooks.intuit.com)** — Most popular small business accounting software"
             },
             {
               "heading": "Visas & Immigration",
-              "content": "- **USCIS** (uscis.gov) — Official immigration information\n- **Boundless** — Immigration application assistance\n- **AILA Lawyer Search** — Find a qualified immigration attorney\n- **Fragomen** — International immigration law firm"
+              "content": "- **[USCIS](https://www.uscis.gov)** (uscis.gov) — Official immigration information\n- **[Boundless](https://www.boundless.com)** — Immigration application assistance\n- **[AILA Lawyer Search](https://www.ailalawyer.com)** — Find a qualified immigration attorney\n- **[Fragomen](https://www.fragomen.com)** — International immigration law firm"
             },
             {
               "heading": "Local Support",
-              "content": "- **Florida SBDC at UCF** — Free business consulting\n- **SCORE Orlando** — Free mentorship from business veterans\n- **Orlando Economic Partnership** — Relocation and expansion support\n- **Prospera** — Bilingual support for Hispanic entrepreneurs\n- **UCF BIP** — Business incubation programs"
+              "content": "- **Florida [SBDC at UCF](https://sbdcorlando.com/)** — Free business consulting\n- **[SCORE Orlando](https://orlando.score.org)** — Free mentorship from business veterans\n- **[Orlando Economic Partnership](https://orlando.org)** — Relocation and expansion support\n- **[Prospera](https://prosperausa.org/)** — Bilingual support for Hispanic entrepreneurs\n- **[UCF BIP](https://incubator.ucf.edu)** — Business incubation programs"
             }
           ]
         },
@@ -294,8 +285,14 @@
           "type": "text",
           "id": "text-8-2-6",
           "title": "Your Digital Credential",
-          "content": "<p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the UCF BIP U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p>\n\n<p>Now, here is where it gets tricky. The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification — but it signals you took a structured, university-backed program seriously.</p>\n\n<h4>How to Claim Your Credential</h4>\n\n<p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p>\n\n<ol><li>Open the email and select the claim link</li><li>Set up your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol>\n\n<p>The credential does not expire.</p>",
+          "content": "<p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the [UCF BIP](https://incubator.ucf.edu) U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p>\n\n<p>Now, here is where it gets tricky. The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification — but it signals you took a structured, university-backed program seriously.</p>\n\n<h4>How to Claim Your Credential</h4>\n\n<p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p>\n\n<ol><li>Open the email and select the claim link</li><li>Set up your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol>\n\n<p>The credential does not expire.</p>",
           "wordCount": 135
+        },
+        {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-8-2",
+          "imagePath": "images/scenarios/lesson-8-2-resources-preparation.jpg",
+          "title": "Entrepreneur organizing resources and preparation materials for U.S. market entry"
         },
         {
           "type": "knowledge-check",
@@ -326,7 +323,7 @@
               "explanation": "The Expansion Decision Worksheet is not a pass/fail test. A founder from Colombia used it, found her financial score was 2 out of 5, spent four months strengthening home-market revenue, and re-scored at 4 before entering the U.S. with a stronger foundation. The worksheet tells you what gap to close first, not whether to give up."
             },
             {
-              "stem": "A founder from Brazil has completed the UCF BIP Phase 1 program and wants to use her digital credential to strengthen her professional profile when meeting potential U.S. partners. How should she apply the POK Tech credential?",
+              "stem": "A founder from Brazil has completed the [UCF BIP](https://incubator.ucf.edu) Phase 1 program and wants to use her digital credential to strengthen her professional profile when meeting potential U.S. partners. How should she apply the POK Tech credential?",
               "options": [
                 "Claim the credential through the POK Tech email link, add it to her LinkedIn profile using the built-in sharing tool, and reference it on her website — since the credential does not expire, it serves as an ongoing signal that she completed a structured, university-backed market readiness program",
                 "Print the credential and bring a physical copy to every business meeting as proof of her qualifications",
@@ -334,23 +331,15 @@
                 "Use the credential to apply for SBA loans, since it serves as a professional certification recognized by federal agencies"
               ],
               "correctAnswer": 0,
-              "explanation": "The POK Tech digital credential is designed to be shared digitally — on LinkedIn, websites, and email signatures. It validates completion of the UCF BIP U.S. Market Readiness Program and does not expire. It is a program completion credential, not a professional certification, so it does not qualify for SBA lending or serve as a formal qualification. There is no reason to wait for Phase 2 — the Phase 1 credential stands on its own as a signal of structured preparation."
+              "explanation": "The POK Tech digital credential is designed to be shared digitally — on LinkedIn, websites, and email signatures. It validates completion of the [UCF BIP](https://incubator.ucf.edu) U.S. Market Readiness Program and does not expire. It is a program completion credential, not a professional certification, so it does not qualify for SBA lending or serve as a formal qualification. There is no reason to wait for Phase 2 — the Phase 1 credential stands on its own as a signal of structured preparation."
             }
           ]
-        },
-        {
-          "type": "reflection",
-          "id": "reflection-8-2-1",
-          "title": "Planning Your Resource Use",
-          "placement": "after-section",
-          "sectionId": "text-8-2-6",
-          "prompt": "Look at the four downloadable resources: the Market Entry Checklist, the Florida Setup Roadmap, the Central Florida Resource Guide, and the Expansion Decision Worksheet. Which one do you need to use first given where you are in your expansion process? Write down the specific resource, the date you plan to work through it, and who (if anyone) you want to review it with : a co-founder, an advisor, or the UCF BIP team during your 1:1."
         },
         {
           "type": "key-takeaway",
           "id": "kt-8-2-1",
           "title": "Key Takeaway",
-          "content": "<p>The takeaway is this: do not leave headquarters without your equipment. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the UCF BIP team at campus headquarters. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p>"
+          "content": "<p>The takeaway is this: do not leave headquarters without your equipment. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the [UCF BIP](https://incubator.ucf.edu) team at campus headquarters. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p>"
         }
       ]
     },
@@ -484,14 +473,6 @@
           ]
         },
         {
-          "type": "reflection",
-          "id": "reflection-8-3-2",
-          "title": "Program Improvement Feedback",
-          "placement": "after-section",
-          "sectionId": "text-8-3-4",
-          "prompt": "If you could change one thing about this program : add a topic, remove a section, change the format, go deeper on something — what would it be? Your answer helps shape the next version. Be specific. \"More details on X\" is more useful than \"make it better.\" Share this feedback during your 1:1 meeting or send it directly to the UCF BIP team."
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-8-3-1",
           "title": "Key Takeaway",
@@ -499,5 +480,13 @@
         }
       ]
     }
-  ]
+  ],
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Assess their personal readiness for U.S. market entry based on program content",
+      "Produce actionable deliverables including checklists, a Florida setup roadmap, and a U.S. market readiness assessment",
+      "Identify their logical next step (resources, Phase 2, or 1:1 consultation)"
+    ],
+    "courseLevelOutcomesAddressed": []
+  }
 }

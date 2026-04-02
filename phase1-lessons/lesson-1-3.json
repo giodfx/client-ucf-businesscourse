@@ -81,13 +81,6 @@
       "wordCount": 93
     },
     {
-      "type": "reflection",
-      "id": "ref-1-3-1",
-      "title": "Reflection: Your Banking Preparation",
-      "placement": "end-of-lesson",
-      "prompt": "Think about your own banking readiness:\n\n- Which documents from the checklist do you already have? Which ones do you still need?\n- Have you identified two or three banks in the Central Florida area (or online alternatives) that you want to contact?\n- What is your plan if the first bank says no?\n\nMake a list of the missing items and the steps needed to get each one. Having everything ready before your first bank visit makes a big difference."
-    },
-    {
       "type": "checklist",
       "id": "int-1-3-1",
       "title": "Bank Account Opening — Document Checklist",

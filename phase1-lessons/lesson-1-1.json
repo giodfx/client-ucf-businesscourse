@@ -14,7 +14,7 @@
       "type": "text",
       "id": "text-1-1-0",
       "title": "Welcome to the City — Where Your Business Takes Shape",
-      "content": "<p>Every city has a downtown, a place where businesses file their papers, hang their signs, and open their doors. In Central Florida, that process starts online through a portal called SunBiz. But before you file anything, you need to make one key choice: what kind of business entity to form.</p>\n\n<p>What does that mean for you? Think of it like choosing where to set up your office in the city. A small storefront (LLC) gives you freedom and low overhead. A corporate tower (C-Corp) gives you the structure investors expect. Both protect you from personal risk. But they work very differently when it comes to taxes, visas, and raising money.</p>\n\n<p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p>",
+      "content": "<p>Every city has a downtown, a place where businesses file their papers, hang their signs, and open their doors. In Central Florida, that process starts online through a portal called [SunBiz](https://sunbiz.org). But before you file anything, you need to make one key choice: what kind of business entity to form.</p>\n\n<p>What does that mean for you? Think of it like choosing where to set up your office in the city. A small storefront (LLC) gives you freedom and low overhead. A corporate tower (C-Corp) gives you the structure investors expect. Both protect you from personal risk. But they work very differently when it comes to taxes, visas, and raising money.</p>\n\n<p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p>",
       "wordCount": 132
     },
     {
@@ -125,6 +125,12 @@
       ]
     },
     {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-1-1",
+      "imagePath": "images/scenarios/lesson-1-1-entity-comparison.jpg",
+      "title": "Entrepreneurs comparing business entity types with legal documents on a conference table"
+    },
+    {
       "type": "scenario",
       "id": "scenario-1-1-decision-tree",
       "title": "Find Your Entity — Interactive Decision Guide",
@@ -197,18 +203,11 @@
       "wordCount": 167
     },
     {
-      "type": "reflection",
-      "id": "ref-1-1-1",
-      "title": "Reflection: Your Entity Decision",
-      "placement": "end-of-lesson",
-      "prompt": "Take a moment to think about your own situation:\n\n- Do you plan to raise investment capital in the near future? If so, a C-Corp may be your best starting point.\n- Is immigration part of your plan? If so, which visa category are you considering, and what does your attorney recommend?\n- What is your priority right now: simplicity and low cost, or investor readiness?\n\nWrite down the top two or three factors driving your choice. If you are unsure, write down the specific questions you need answered before deciding. Bring those questions to a consultation with a U.S. business attorney."
-    },
-    {
       "type": "callout",
       "id": "callout-1-1-latam",
       "variant": "latam-supplement",
       "title": "Latin America Resources — Legal Setup",
-      "content": "<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>Prospera:</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>UCF BIP network:</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>"
+      "content": "<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>[Prospera](https://prosperausa.org/):</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>"
     },
     {
       "type": "knowledge-check",

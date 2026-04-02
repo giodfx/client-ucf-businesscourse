@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-1-2" data-module-id="module-1" data-module-index="1">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Registering with SunBiz — Step by Step</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="12" width="20" height="28" rx="2" fill="currentColor" opacity="0.7"/><path d="M18 20 h12 M18 26 h12 M18 32 h8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="14" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M22 12 v4 M24 11 v6 M26 12 v4" stroke="currentColor" stroke-width="1.5"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="18" width="8" height="26" rx="1" fill="currentColor" opacity="0.8"/><rect x="20" y="8" width="8" height="36" rx="1" fill="currentColor"/><rect x="32" y="14" width="8" height="30" rx="1" fill="currentColor" opacity="0.7"/><rect x="10" y="22" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="22" y="12" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="34" y="18" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 1</p>
@@ -95,7 +102,7 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">Orlando Downtown</span>
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">Downtown Orlando</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Registrarse en SunBiz — Paso a Paso">Registering with SunBiz — Step by Step</h1>
@@ -105,7 +112,7 @@
 <section class="video-section" aria-label="Lesson Video">
   <div class="avatar-video-wrap" data-lesson-id="lesson-1-2" data-video-en="../media/video/avatars/lesson-1-2-avatar.mp4" data-video-es="../media/video/avatars/lesson-1-2-avatar-es.mp4">
     <video id="avatar-video-lesson-1-2" controls playsinline preload="metadata"
-      poster="../media/images/avatars/scenes/lesson-1-2-avatar.png"
+      poster="images/avatars/scenes/lesson-1-2-avatar.jpg"
       style="width:100%;max-width:832px;border-radius:12px;">
       <source src="../media/video/avatars/lesson-1-2-avatar.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -120,9 +127,6 @@
 <div data-es-html="&lt;p&gt;&lt;p&gt;Ahora que ha elegido su estructura empresarial — ya sea una LLC o una C-Corp — es hora de hacerlo oficial. Florida es donde la mayoría de los fundadores internacionales en este programa se registrarán, y el proceso es sencillo una vez que conoce los pasos. La División de Corporaciones, conocida como SunBiz, maneja todos los registros empresariales en línea. No necesita estar físicamente presente en Florida para completar este proceso.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Now that you have chosen your business structure — whether an LLC or a C-Corp — it is time to make it official. Florida is where most international founders in this program will register, and the process is straightforward once you know the steps. The Division of Corporations, known as SunBiz, handles all business filings online. You do not need to be physically present in Florida to complete this process.</p></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-1-2-registered-agent.jpg" alt="Registered agent reviewing Florida business formation documents" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -135,11 +139,26 @@
 <div data-es-html="&lt;p&gt;&lt;p&gt;SunBiz (sunbiz.org) es el portal oficial de Florida para registrar entidades empresariales, presentar informes anuales y actualizar registros. Piense en sunbiz.org como el mostrador en línea de la alcaldía — usted entra, presenta sus documentos y sale con su negocio en el registro de la ciudad.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Así es como funciona. Antes de comenzar, típicamente necesita tres cosas:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Su decisión sobre el tipo de entidad.&lt;/strong&gt; ¿LLC o Corporación? Si aún no ha decidido, revise la lección anterior.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Un nombre comercial.&lt;/strong&gt; Debe ser distinguible de otros negocios de Florida e incluir un designador (&quot;LLC,&quot; &quot;Inc.&quot; o &quot;Corp.&quot;). Puede verificar la disponibilidad en SunBiz antes de registrar.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Un agente registrado.&lt;/strong&gt; Una persona o servicio con una dirección física en Florida (no un apartado postal) para recibir documentos legales en su nombre.&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
-&lt;p&gt;Con su información lista, el proceso generalmente se puede completar en unos 20 a 30 minutos. Recorra cada paso en la guía interactiva a continuación.&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Este es el proceso general:&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ol&gt;&lt;li&gt;Vaya a sunbiz.org y seleccione &quot;Start a Business.&quot;&lt;/li&gt;&lt;li&gt;Elija su tipo de entidad.&lt;/li&gt;&lt;li&gt;Ingrese el nombre de su negocio (la disponibilidad generalmente se verifica en tiempo real).&lt;/li&gt;&lt;li&gt;Proporcione la información de los miembros o administradores.&lt;/li&gt;&lt;li&gt;Designe su agente registrado con su dirección física en Florida.&lt;/li&gt;&lt;li&gt;Ingrese sus direcciones principal y de correspondencia.&lt;/li&gt;&lt;li&gt;Pague la tarifa de registro — típicamente alrededor de $125 para una LLC o $70 para una Corporación.&lt;/li&gt;&lt;li&gt;Envíe. Su entidad frecuentemente está activa en unos pocos días hábiles.&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Con su información lista, el proceso generalmente se puede completar en unos 20 a 30 minutos.&lt;/p&gt;&lt;/p&gt;
 "><p><p>SunBiz (sunbiz.org) is Florida's official portal for registering business entities, filing annual reports, and updating records. Think of sunbiz.org as City Hall's online counter — you walk in, file your papers, and walk out with your business on the city registry.</p></p>
 <p><p>Here's how this plays out. Before you begin, you typically need three things:</p></p>
 <p><ol><li><strong>Your entity type decision.</strong> LLC or Corporation? If you have not decided yet, review the previous lesson.</li><li><strong>A business name.</strong> It must be distinguishable from other Florida businesses and include a designator ("LLC," "Inc.," or "Corp."). You can check availability on SunBiz before filing.</li><li><strong>A registered agent.</strong> A person or service with a physical Florida street address (not a P.O. box) to receive legal documents on your behalf.</li></ol></p>
-<p>With your information ready, the process can usually be completed in about 20 to 30 minutes. Walk through each step in the interactive guide below.</p>
+<p><p>Here is the general process:</p></p>
+<p><ol><li>Go to sunbiz.org and select "Start a Business."</li><li>Choose your entity type.</li><li>Enter your business name (availability is typically checked in real time).</li><li>Provide member or manager information.</li><li>Designate your registered agent with their Florida street address.</li><li>Enter your principal and mailing addresses.</li><li>Pay the filing fee — typically around $125 for an LLC or $70 for a Corporation.</li><li>Submit. Your entity is often active within a few business days.</li></ol></p>
+<p><p>With your information ready, the process can usually be completed in about 20 to 30 minutes.</p></p>
+</div><h2 data-es="EIN — El Número de Identificación Tributaria de Su Negocio">EIN — Your Business's Tax ID</h2>
+<div data-es-html="&lt;p&gt;&lt;p&gt;Después del registro en SunBiz, su siguiente paso es obtener un Número de Identificación del Empleador (EIN) del IRS. Su EIN es como el número de dirección en su tienda — sin él, nadie puede encontrarlo en el sistema. Lo necesitará para cuentas bancarias, declaraciones de impuestos, contratación y licencias comerciales. El EIN es gratuito.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;En resumen: &lt;strong&gt;Con un SSN o ITIN:&lt;/strong&gt; Generalmente puede enviar su solicitud en línea en irs.gov. El proceso toma unos 15 minutos y el EIN frecuentemente se emite de inmediato.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;strong&gt;Sin un SSN o ITIN:&lt;/strong&gt; Necesitará completar el Formulario SS-4 por fax (lo cual puede tomar varios días hábiles) o por correo (lo cual puede tomar varias semanas). La alternativa más rápida: llame a la línea internacional del IRS (267-941-1099), disponible de lunes a viernes, de 6 AM a 11 PM hora del este. Se ha reportado procesamiento el mismo día, aunque los tiempos de espera pueden variar mucho — algunos fundadores reportan estar en espera por una hora o más, mientras que otros pasan en minutos. Llamar temprano en la mañana tiende a tener tiempos de espera más cortos. Verifique que este número siga activo antes de depender de él, ya que las opciones de contacto del IRS pueden cambiar.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Un consejo útil: puede solicitar un ITIN al presentar su primera declaración de impuestos, lo que le abre el proceso de EIN en línea para futuras entidades.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;El EIN pertenece al negocio, no a usted personalmente. Cada empresa necesita su propio EIN. Guarde su carta de confirmación (CP 575) — los bancos y clientes en formularios W-9 se la pedirán.&lt;/p&gt;&lt;/p&gt;
+"><p><p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Your EIN is like the address number on your storefront — without it, no one can find you in the system. You will need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p></p>
+<p><p>The short version: <strong>With an SSN or ITIN:</strong> You can typically submit your request online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p></p>
+<p><p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot — some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p></p>
+<p><p>A useful tip: you can request an ITIN when filing your first tax return, which opens up the online EIN process for future entities.</p></p>
+<p><p>The EIN belongs to the business, not to you personally. Each company needs its own EIN. Keep your confirmation letter (CP 575) — banks and clients on W-9 forms will ask for it.</p></p>
 </div>
 <div class="rt-infographic rt-ig-steps" id="ig-1-2-sunbiz" data-ig-total="8" role="figure" aria-label="Registering Your Business on SunBiz.org">
   <div class="rt-ig-header">
@@ -213,17 +232,6 @@
     <button class="rt-ig-btn" onclick="igNext('ig-1-2-sunbiz')" data-es="Siguiente Paso &rarr;">Next Step &rarr;</button>
   </div>
   <div class="rt-ig-footer" data-es="Costo estimado de inicio: $300–$500 (registro + agente registrado + licencias)">Estimated startup cost: $300–$500 (filing + registered agent + licenses)</div>
-</div><h2 data-es="EIN — El Número de Identificación Tributaria de Su Negocio">EIN — Your Business's Tax ID</h2>
-<div data-es-html="&lt;p&gt;&lt;p&gt;Después del registro en SunBiz, su siguiente paso es obtener un Número de Identificación del Empleador (EIN) del IRS. Su EIN es como el número de dirección en su tienda — sin él, nadie puede encontrarlo en el sistema. Lo necesitará para cuentas bancarias, declaraciones de impuestos, contratación y licencias comerciales. El EIN es gratuito.&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;En resumen: &lt;strong&gt;Con un SSN o ITIN:&lt;/strong&gt; Generalmente puede enviar su solicitud en línea en irs.gov. El proceso toma unos 15 minutos y el EIN frecuentemente se emite de inmediato.&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;&lt;strong&gt;Sin un SSN o ITIN:&lt;/strong&gt; Necesitará completar el Formulario SS-4 por fax (lo cual puede tomar varios días hábiles) o por correo (lo cual puede tomar varias semanas). La alternativa más rápida: llame a la línea internacional del IRS (267-941-1099), disponible de lunes a viernes, de 6 AM a 11 PM hora del este. Se ha reportado procesamiento el mismo día, aunque los tiempos de espera pueden variar mucho — algunos fundadores reportan estar en espera por una hora o más, mientras que otros pasan en minutos. Llamar temprano en la mañana tiende a tener tiempos de espera más cortos. Verifique que este número siga activo antes de depender de él, ya que las opciones de contacto del IRS pueden cambiar.&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;Un consejo útil: puede solicitar un ITIN al presentar su primera declaración de impuestos, lo que le abre el proceso de EIN en línea para futuras entidades.&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;El EIN pertenece al negocio, no a usted personalmente. Cada empresa necesita su propio EIN. Guarde su carta de confirmación (CP 575) — los bancos y clientes en formularios W-9 se la pedirán.&lt;/p&gt;&lt;/p&gt;
-"><p><p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Your EIN is like the address number on your storefront — without it, no one can find you in the system. You will need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p></p>
-<p><p>The short version: <strong>With an SSN or ITIN:</strong> You can typically submit your request online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p></p>
-<p><p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot — some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p></p>
-<p><p>A useful tip: you can request an ITIN when filing your first tax return, which opens up the online EIN process for future entities.</p></p>
-<p><p>The EIN belongs to the business, not to you personally. Each company needs its own EIN. Keep your confirmation letter (CP 575) — banks and clients on W-9 forms will ask for it.</p></p>
 </div><h2 data-es="Agente Registrado y Dirección — El Requisito de Presencia Física">Registered Agent and Address — The Physical Presence Requirement</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Florida requiere que toda entidad empresarial mantenga un agente registrado con una dirección física — no un apartado postal, no un buzón virtual. Piense en el agente registrado como el portero de su edificio — alguien que está allí para recibir avisos oficiales cuando usted no está.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h4&gt;Direcciones en SunBiz&lt;/h4&gt;&lt;/p&gt;
@@ -332,32 +340,18 @@
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-1-2-registered-agent.jpg" alt="Registered agent reviewing Florida business formation documents" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Piense en dónde se encuentra en el proceso:
-
-- ¿Ha decidido un tipo de entidad? Si no, ¿qué preguntas quedan?
-- ¿Tiene un nombre comercial en mente? ¿Ha verificado la disponibilidad en SunBiz?
-- ¿Qué usará para agente registrado y dirección registrada?
-- Si no está en Florida, ¿cómo manejará el requisito de presencia física?
-
-Escriba cualquier vacío que necesite resolver antes de poder registrarse. Tener un plan claro antes de iniciar el proceso en SunBiz hace que toda la experiencia sea más fluida.">Think about where you are in the process:
-
-- Have you decided on an entity type? If not, what questions remain?
-- Do you have a business name in mind? Have you checked availability on SunBiz?
-- What will you use for a registered agent and registered address?
-- If you are not in Florida, how will you handle the physical presence requirement?
-
-Write down any gaps that need to be resolved before you can file. Having a clear plan before you start the SunBiz process makes the entire experience smoother.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -490,7 +484,25 @@ Write down any gaps that need to be resolved before you can file. Having a clear
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

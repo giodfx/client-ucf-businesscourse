@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-4-2" data-module-id="module-4" data-module-index="4">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Visa Pathways — What's Actually Realistic</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 4</p>
@@ -116,10 +123,7 @@
           
 
           <div class="rt-text-flow">
-
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-4-2-immigration-consultation.jpg" alt="International founder in an immigration consultation discussing visa options" loading="lazy">
-</figure>
+            
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -137,6 +141,20 @@
 "><p><p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what pass gets you through the gate?</p></p>
 <p><p>In Central Florida's entertainment district, no one walks backstage without the right credential. The same is true for working in the U.S. Owning a company does not by itself give you the right to work here. A Colombian founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p></p>
 <p><p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p></p>
+</div>
+<div class="rt-ctbl-wrap" data-table-id="table-4-2-1">
+  <h3 class="rt-ctbl-title" data-es="Sus Credenciales Tras Bambalinas — Rutas de Visa de un Vistazo">Your Backstage Credentials — Visa Pathways at a Glance</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Tipo de Visa">Visa Type</th><th data-es="Para Quién Es">Who It's For</th><th data-es="Requisito Clave">Key Requirement</th><th data-es="Costo Aproximado (Abogado + Tarifas)">Approximate Cost (Attorney + Fees)</th><th data-es="Plazo Típico">Typical Timeline</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="O-1A">O-1A</td><td data-es="Fundadores con habilidad o logros extraordinarios">Founders with extraordinary ability or achievement</td><td data-es="Reconocimiento nacional/internacional sostenido en su campo">Sustained national/international recognition in your field</td><td data-es="$5,000–$10,000+">$5,000–$10,000+</td><td data-es="3–6 meses (estándar); 15 días hábiles (premium)">3–6 months (standard); 15 business days (premium)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="E-2">E-2</td><td data-es="Inversionistas de países con tratado">Treaty investors from qualifying countries</td><td data-es="Inversión sustancial en un negocio en EE.UU. — sin mínimo fijo, pero típicamente $100,000+">Substantial investment in a U.S. business — no fixed minimum, but typically $100,000+</td><td data-es="$3,000–$8,000+">$3,000–$8,000+</td><td data-es="4–8 meses (consular); varía por país">4–8 months (consular); varies by country</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="L-1A">L-1A</td><td data-es="Fundadores que se transfieren desde una empresa extranjera existente">Founders transferring from an existing foreign company</td><td data-es="Rol gerencial en una empresa extranjera relacionada por 1+ año">Managerial role at a related foreign company for 1+ year</td><td data-es="$4,000–$10,000+">$4,000–$10,000+</td><td data-es="4–8 meses (estándar); 15 días hábiles (premium)">4–8 months (standard); 15 business days (premium)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="H-1B">H-1B</td><td data-es="Trabajadores de ocupaciones especializadas (patrocinados por empleador)">Specialty occupation workers (employer-sponsored)</td><td data-es="El trabajo requiere título universitario; sujeto a lotería anual">Job requires a bachelor's degree; subject to annual lottery</td><td data-es="$2,000–$5,000+">$2,000–$5,000+</td><td data-es="Lotería en marzo, inicio en octubre; ~25% de tasa de selección">Lottery in March, start in October; ~25% selection rate</td></tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
@@ -252,7 +270,7 @@
             <span class="rt-mc-value" data-es="SÍ">YES</span>
           </li>
           <li class="rt-mc-row">
-            <span class="rt-mc-label" data-es="Camino a residencia">Path to green card</span>
+            <span class="rt-mc-label" data-es="Camino a residencia">Green card path</span>
             <span class="rt-mc-value" data-es="NO (debe cambiar a otra visa)">NO (must convert to another visa)</span>
           </li>
           <li class="rt-mc-row">
@@ -284,7 +302,7 @@
             <span class="rt-mc-value" data-es="SÍ">YES</span>
           </li>
           <li class="rt-mc-row">
-            <span class="rt-mc-label" data-es="Camino a residencia">Path to green card</span>
+            <span class="rt-mc-label" data-es="Camino a residencia">Green card path</span>
             <span class="rt-mc-value" data-es="SÍ (EB-1C)">YES (EB-1C)</span>
           </li>
           <li class="rt-mc-row">
@@ -316,12 +334,12 @@
             <span class="rt-mc-value" data-es="A través de un empleador/agente en EE.UU.">Through a U.S. employer/agent</span>
           </li>
           <li class="rt-mc-row">
-            <span class="rt-mc-label" data-es="Camino a residencia">Path to green card</span>
+            <span class="rt-mc-label" data-es="Camino a residencia">Green card path</span>
             <span class="rt-mc-value" data-es="SÍ (EB-1A)">YES (EB-1A)</span>
           </li>
           <li class="rt-mc-row">
             <span class="rt-mc-label" data-es="Mejor para">Best for</span>
-            <span class="rt-mc-value" data-es="Fundadores con logros notables, cobertura de prensa o reconocimiento de la industria">Founders with notable achievements, press coverage, or industry recognition</span>
+            <span class="rt-mc-value" data-es="Fundadores con logros notables, prensa o reconocimiento de la industria">Founders with notable achievements, press, or industry recognition</span>
           </li>
         </ul>
       </div>
@@ -348,7 +366,7 @@
             <span class="rt-mc-value" data-es="NO">NO</span>
           </li>
           <li class="rt-mc-row">
-            <span class="rt-mc-label" data-es="Camino a residencia">Path to green card</span>
+            <span class="rt-mc-label" data-es="Camino a residencia">Green card path</span>
             <span class="rt-mc-value" data-es="NO">NO</span>
           </li>
           <li class="rt-mc-row">
@@ -389,18 +407,18 @@
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-4-2-immigration-consultation.jpg" alt="International founder in an immigration consultation discussing visa options" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Con base en la información anterior, ¿qué ruta o rutas de visa parecen más relevantes para su situación? Anote su país de ciudadanía, su trayectoria empresarial actual (años, ingresos, empleados, reconocimientos) y la cantidad de capital que podría invertir. Lleve estas notas a una consulta con un abogado de inmigración para que pueda darle orientación específica.">Based on the overview above, which visa pathway or pathways seem most relevant to your situation? Write down your country of citizenship, your current business track record (years, revenue, employees, recognition), and the amount of capital you could invest. Bring these notes to a consultation with an immigration attorney so they can give you specific guidance.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -531,7 +549,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

@@ -128,14 +128,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "reflection-8-3-2",
-      "title": "Program Improvement Feedback",
-      "placement": "after-section",
-      "sectionId": "text-8-3-4",
-      "prompt": "If you could change one thing about this program : add a topic, remove a section, change the format, go deeper on something — what would it be? Your answer helps shape the next version. Be specific. \"More details on X\" is more useful than \"make it better.\" Share this feedback during your 1:1 meeting or send it directly to the UCF BIP team."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-8-3-1",
       "title": "Key Takeaway",

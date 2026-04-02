@@ -59,11 +59,46 @@
       "titleEs": "Tu Red de Recursos en Florida Central",
       "cols": 3,
       "cards": [
-        { "heading": "UCF Business Incubation Program", "headingEs": "Programa de Incubación Empresarial UCF", "desc": "Free mentoring, workshops, office space for startups. Located at UCF campus and East Orlando.", "descEs": "Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus UCF y este de Orlando.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "Small Business Development Center (SBDC)", "headingEs": "Centro de Desarrollo de Pequeñas Empresas (SBDC)", "desc": "Free 1:1 consulting, business plan help, market research. Downtown Orlando and multiple locations.", "descEs": "Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y múltiples ubicaciones.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "SCORE Orlando", "headingEs": "SCORE Orlando", "desc": "Free mentoring from retired business executives. Extensive experience across industries.", "descEs": "Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en diversas industrias.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "Enterprise Florida", "headingEs": "Enterprise Florida", "desc": "State organizational trade assistance, export development. Helps international businesses enter the U.S. market.", "descEs": "Asistencia estatal de comercio organizacional, desarrollo de exportaciones. Ayuda a negocios internacionales a entrar al mercado de EE.UU.", "cost": "FREE", "costEs": "GRATIS" },
-        { "heading": "Orlando Economic Partnership", "headingEs": "Alianza Económica de Orlando", "desc": "Regional economic development, relocation assistance, industry connections. Lake Nona and Downtown.", "descEs": "Desarrollo económico regional, asistencia de reubicación, conexiones industriales. Lake Nona y Downtown.", "cost": "FREE", "costEs": "GRATIS" }
+        {
+          "heading": "UCF Business Incubation Program",
+          "headingEs": "Programa de Incubación Empresarial UCF",
+          "desc": "Free mentoring, workshops, office space for startups. Located at UCF campus and East Orlando.",
+          "descEs": "Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus UCF y este de Orlando.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "Small Business Development Center (SBDC)",
+          "headingEs": "Centro de Desarrollo de Pequeñas Empresas (SBDC)",
+          "desc": "Free 1:1 consulting, business plan help, market research. Downtown Orlando and multiple locations.",
+          "descEs": "Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y múltiples ubicaciones.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "SCORE Orlando",
+          "headingEs": "SCORE Orlando",
+          "desc": "Free mentoring from retired business executives. Extensive experience across industries.",
+          "descEs": "Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en diversas industrias.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "Enterprise Florida",
+          "headingEs": "Enterprise Florida",
+          "desc": "State organizational trade assistance, export development. Helps international businesses enter the U.S. market.",
+          "descEs": "Asistencia estatal de comercio organizacional, desarrollo de exportaciones. Ayuda a negocios internacionales a entrar al mercado de EE.UU.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        },
+        {
+          "heading": "Orlando Economic Partnership",
+          "headingEs": "Alianza Económica de Orlando",
+          "desc": "Regional economic development, relocation assistance, industry connections. Lake Nona and Downtown.",
+          "descEs": "Desarrollo económico regional, asistencia de reubicación, conexiones industriales. Lake Nona y Downtown.",
+          "cost": "FREE",
+          "costEs": "GRATIS"
+        }
       ],
       "footer": "All organizations listed offer FREE or low-cost services for international entrepreneurs.",
       "footerEs": "Todas las organizaciones listadas ofrecen servicios GRATIS o de bajo costo para emprendedores internacionales."
@@ -137,6 +172,12 @@
       "placement": "after-section",
       "sectionId": "text-7-1-2",
       "instructions": "<p>You just learned about several free and low-cost support organizations. Now pick the three that matter most for where your business is <em>right now</em> — not where you hope to be in two years.</p><ul><li><strong>Organization 1:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 2:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 3:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li></ul><p>Be specific. \"Contact the SBDC\" is not an action. \"Email floridasbdc.org to schedule an intake meeting about my market research gaps\" is.</p>"
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-7-1",
+      "imagePath": "images/scenarios/lesson-7-1-advisory-consultation.jpg",
+      "title": "Founder meeting with a business advisor at a Central Florida resource center"
     },
     {
       "type": "key-takeaway",

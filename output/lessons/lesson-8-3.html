@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-8-3" data-module-id="module-8" data-module-index="8">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -26,7 +27,7 @@
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
   <!-- Landscape Hero — Painterly image with drip effect -->
-  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)" aria-hidden="true">
+  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)" aria-hidden="true">
     <img src="images/lesson-8-3-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Next Steps — Your UCF BIP Pathway</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
-          <div class="rt-route-icon" style="background: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L24 44 M16 12 L32 12 M14 20 L34 20 M12 28 L36 28 M10 36 L38 36 M20 4 L28 4" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+          <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 8</p>
@@ -95,7 +102,7 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)">UCF Campus</span>
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Próximos Pasos — Su Camino con UCF BIP">Next Steps — Your UCF BIP Pathway</h1>
@@ -164,6 +171,14 @@
 <p><p>Here's how this plays out. <strong>Weak:</strong> "Learn more about entity types." <strong>Strong:</strong> "Schedule a consultation with a business attorney to discuss LLC vs. C-Corp for my visa situation by [date]."</p></p>
 <p><p>High-impact 30-day actions:</p></p>
 <p><ol><li><strong>Book your 1:1 with UCF BIP</strong> . Do it today.</li><li><strong>Contact a specific professional</strong> . Attorney, CPA, or immigration lawyer. "Email this referral by Friday."</li><li><strong>Complete one research task</strong> . SunBiz name check, USPTO search, or compile bank documentation.</li><li><strong>Register for a free resource</strong> . SBDC counseling, SCORE mentorship, or a chamber event.</li><li><strong>Complete the Expansion Decision Worksheet</strong> . Block 60 minutes before your 1:1.</li></ol></p>
+</div>
+<div class="rt-exercise">
+  <h3 data-es="Escriba Sus 3 Acciones Principales">Write Down Your Top 3 Actions</h3>
+  <div data-es-html="&lt;p&gt;&lt;p&gt;Complete este ejercicio ahora mismo — no lo deje para después. Escriba sus tres acciones de mayor prioridad para los próximos 30 días. Para cada una, incluya:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;La acción específica&lt;/strong&gt;. ¿Qué exactamente va a hacer?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;La fecha límite&lt;/strong&gt;. ¿Para qué fecha la completará?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;El primer paso&lt;/strong&gt;. ¿Cuál es la primera cosa que necesita hacer para empezar? (Un correo electrónico por enviar, un sitio web por visitar, una llamada telefónica por hacer.)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;Acción 1:&lt;/strong&gt; _______________________________________________&lt;/p&gt;&lt;p&gt;Fecha límite: ________ | Primer paso: ___________________________&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Acción 2:&lt;/strong&gt; _______________________________________________&lt;/p&gt;&lt;p&gt;Fecha límite: ________ | Primer paso: ___________________________&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Acción 3:&lt;/strong&gt; _______________________________________________&lt;/p&gt;&lt;p&gt;Fecha límite: ________ | Primer paso: ___________________________&lt;/p&gt;&lt;p&gt;Si su primera acción no es &quot;Reservar mi reunión 1:1 con UCF BIP,&quot; reconsidere. Esa reunión es gratuita, toma 30 minutos, y le da un punto de referencia para todo lo demás en su lista.&lt;/p&gt;&lt;/p&gt;
+"><p><p>Complete this exercise right now — do not save it for later. Write down your three highest-priority actions for the next 30 days. For each one, include:</p><ol><li><strong>The specific action</strong> . What exactly will you do?</li><li><strong>The deadline</strong> . By what date will you complete it?</li><li><strong>The first step</strong> . What is the very first thing you need to do to start? (An email to send, a website to visit, a phone call to make.)</li></ol><p><strong>Action 1:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 2:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p><strong>Action 3:</strong> _______________________________________________</p><p>Deadline: ________ | First step: ___________________________</p><p>If your first action is not "Book my 1:1 with UCF BIP," reconsider. That meeting is free, it takes 30 minutes, and it gives you a sounding board for everything else on your list.</p></p>
+</div>
+  <label for="exercise-exercise-exercise-8-3-1" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-exercise-8-3-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
@@ -266,12 +281,8 @@
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Si pudiera cambiar una cosa de este programa — agregar un tema, eliminar una sección, cambiar el formato, profundizar en algo — ¿cuál sería? Su respuesta ayuda a dar forma a la próxima versión. Sea específico. &quot;Más detalles sobre X&quot; es más útil que &quot;hacerlo mejor.&quot; Comparta esta retroalimentación durante su reunión 1:1 o envíela directamente al equipo de UCF BIP.">If you could change one thing about this program : add a topic, remove a section, change the format, go deeper on something — what would it be? Your answer helps shape the next version. Be specific. "More details on X" is more useful than "make it better." Share this feedback during your 1:1 meeting or send it directly to the UCF BIP team.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -402,7 +413,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

@@ -88,11 +88,10 @@
       "wordCount": 320
     },
     {
-      "type": "reflection",
-      "id": "ref-0-1-1",
-      "title": "Reflection: Before You Dive In",
-      "placement": "end-of-lesson",
-      "prompt": "Take a moment to think about your own business and goals. Write down your top three questions or concerns about exploring the U.S. market. For example:\n\n- What might I be overlooking about costs or compliance?\n- How will my product or service fit in the U.S.?\n- What are my biggest risks if I expand too quickly?\n\nKeep this list handy as you move through the program. By the end of Module 8, you will likely have a clearer answer for each one and a better sense of whether U.S. expansion is realistic for your business."
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-0-1",
+      "imagePath": "images/scenarios/lesson-0-1-expansion-strategy.jpg",
+      "title": "International entrepreneur reviewing expansion strategy documents at a modern workspace"
     },
     {
       "type": "knowledge-check",

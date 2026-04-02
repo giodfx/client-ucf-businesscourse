@@ -2,13 +2,7 @@
   "moduleId": "module-5",
   "title": "Understanding U.S. Customers",
   "description": "Why products and services rarely transfer directly to the U.S. market. Customer acquisition, pricing, sales cycles, and vendor onboarding requirements.",
-  "learningOutcomes": {
-    "moduleLearningOutcomes": [
-      "Explain why products and services often require adaptation for the U.S. market",
-      "Apply U.S. customer acquisition strategies and pricing models to their business"
-    ],
-    "courseLevelOutcomesAddressed": []
-  },
+  "landscapeTheme": "",
   "lessons": [
     {
       "lessonId": "lesson-5-1",
@@ -76,6 +70,12 @@
           "title": "Product-Market Fit Is Not Universal",
           "content": "<p>Product-market fit at home does not mean you have it here. Talk to U.S. customers before you adapt anything and run pilots with 5 to 10 early customers before a full launch.</p>\n\n<p>For context, a Turkish e-commerce analytics founder had to rebuild his onboarding from a two-week guided process to a 30-minute self-serve flow because U.S. retailers expected self-service and results within 48 hours. The UCF BIP program can connect you with early customers and advisors in Central Florida.</p>\n\n<p>U.S. buyers also value different things than buyers in many other markets. While personal relationships often drive purchasing decisions elsewhere, American buyers prioritize <strong>speed, convenience, transparency, and social proof</strong>. They expect reviews, free trials, and money-back guarantees. They check three alternatives before deciding and read your pricing page before your about page. These are baseline expectations, not optional extras.</p>",
           "wordCount": 97
+        },
+        {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-5-1",
+          "imagePath": "images/scenarios/lesson-5-1-market-adaptation.jpg",
+          "title": "Entrepreneur adapting their product strategy for the U.S. market"
         },
         {
           "type": "scenario",
@@ -343,14 +343,6 @@
           "instructions": "<p>Create a checklist of everything you need before making your first U.S. sale. Mark each item as \"ready,\" \"in progress,\" or \"not started\":</p><ol><li><strong>EIN obtained</strong> . Do you have your Employer Identification Number?</li><li><strong>W-9 form completed</strong> . Is a PDF ready to send?</li><li><strong>General liability insurance</strong> . Do you have a policy? Can you request a COI?</li><li><strong>U.S. bank account</strong> . Can you receive ACH payments?</li><li><strong>Website</strong> . Is it professional, with U.S.-market pricing and messaging?</li><li><strong>CRM system</strong> . Can you track leads and follow up systematically?</li><li><strong>Response time plan</strong> . Can you respond to inquiries within a few hours during U.S. business hours?</li><li><strong>Sales materials</strong> . Do you have a one-pager, pricing page, and case studies?</li></ol><p>For any item marked \"not started,\" identify the specific next step and timeline to get it done. This checklist is your vendor readiness baseline for U.S. B2B sales.</p>"
         },
         {
-          "type": "reflection",
-          "id": "reflect-5-2-1",
-          "title": "Your First 3 U.S. Customers",
-          "placement": "after-section",
-          "sectionId": "text-5-2-vo",
-          "prompt": "Picture your first 3 U.S. customers. Who are they : specific companies, industries, or buyer types? Write down their names or profiles. Now pick the one channel you'll use to reach each of them (LinkedIn outreach, trade show, referral, paid ads, marketplace). Finally, what's your follow-up plan? Remember: in the U.S., if you don't follow up within 24 hours, someone else already has. Write down exactly what you'll send and when."
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-5-2-1",
           "title": "Key Takeaway",
@@ -358,5 +350,12 @@
         }
       ]
     }
-  ]
+  ],
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Explain why products and services often require adaptation for the U.S. market",
+      "Apply U.S. customer acquisition strategies and pricing models to their business"
+    ],
+    "courseLevelOutcomesAddressed": []
+  }
 }

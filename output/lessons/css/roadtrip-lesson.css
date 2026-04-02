@@ -1,5 +1,11 @@
 /* ===== Founder's Road Trip — Lesson Pages (Dark Immersive) ===== */
 
+/* Fix sticky sidebar — responsive.css sets overflow-x:hidden on html/body which breaks position:sticky */
+html, .rt-lesson-body {
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
 /* Scroll progress bar — gradient fill */
 .rt-scroll-progress {
   position: fixed;
@@ -93,7 +99,7 @@
 .rt-lesson-layout {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px 40px;
+  padding: 0 32px 40px;
   position: relative;
   z-index: 2;
 }
@@ -135,13 +141,15 @@
   display: grid;
   grid-template-columns: 260px 1fr;
   gap: 32px;
-  align-items: start;
 }
 
 /* Route sidebar — dark glass route planner */
 .rt-route-sidebar {
   position: sticky;
   top: 16px;
+  align-self: start;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
   background: rgba(15, 25, 40, 0.8);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -288,25 +296,21 @@
 }
 
 .rt-lesson-content {
-  background: rgba(15, 25, 40, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-radius: var(--rt-radius-lg);
-  border: 1px solid rgba(255,255,255,0.08);
-  padding: 36px 44px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.04);
+  background: transparent;
+  border: none;
+  padding: 0;
   position: relative;
   color: #dce4ee;
+  max-width: none;  /* override accessibility.css article { max-width: 80ch } */
+}
+.rt-lesson-main p,
+.rt-lesson-main li {
+  max-width: none;  /* override accessibility.css main p, main li { max-width: 80ch } */
 }
 
 /* Top accent border on content card */
 .rt-lesson-content::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 24px; right: 24px;
-  height: 3px;
-  background: linear-gradient(90deg, var(--rt-primary-light), var(--rt-accent));
-  border-radius: 0 0 2px 2px;
+  content: none;
   opacity: 0.8;
 }
 
@@ -1723,7 +1727,7 @@
 }
 .rt-ctbl {
   width: 100%; border-collapse: collapse; font-size: 14px;
-  min-width: 480px;
+  table-layout: fixed;
 }
 .rt-ctbl thead th {
   background: rgba(30, 58, 95, 0.7);
@@ -1732,7 +1736,7 @@
   font-weight: 700; font-size: 13px;
   padding: 10px 14px; text-align: center;
   border-bottom: 2px solid rgba(212,175,55,0.25);
-  white-space: nowrap;
+  word-wrap: break-word;
 }
 .rt-ctbl thead th:first-child {
   text-align: left; color: rgba(255,255,255,0.4); font-size: 11px;
@@ -1751,7 +1755,6 @@
 .rt-ctbl-label {
   font-size: 11px; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.5px; color: var(--rt-accent);
-  white-space: nowrap;
 }
 @media (max-width: 640px) {
   .rt-ctbl { min-width: 420px; font-size: 13px; }
@@ -1907,19 +1910,86 @@
   background: rgba(255,255,255,0.02);
 }
 
+/* ===== HAMBURGER BUTTON ===== */
+.rt-hamburger {
+  display: none;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1001;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(245,166,35,0.3);
+  border-radius: 10px;
+  background: rgba(15, 25, 40, 0.92);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0;
+  backdrop-filter: blur(12px);
+}
+.rt-hamburger span {
+  display: block; width: 20px; height: 2px;
+  background: var(--rt-accent); border-radius: 2px;
+  transition: all 0.3s ease;
+}
+.rt-hamburger--open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.rt-hamburger--open span:nth-child(2) { opacity: 0; }
+.rt-hamburger--open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+[data-theme="light"] .rt-hamburger {
+  background: rgba(255,255,255,0.95);
+  border-color: rgba(0,0,0,0.15);
+}
+[data-theme="light"] .rt-hamburger span { background: var(--rt-accent); }
+
+/* Mobile sidebar backdrop overlay */
+.rt-sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 999;
+  backdrop-filter: blur(2px);
+}
+.rt-sidebar-backdrop.rt-sidebar-backdrop--visible {
+  display: block;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
+  .rt-hamburger {
+    display: flex;
+  }
+
   .rt-lesson-grid {
     grid-template-columns: 1fr;
   }
 
   .rt-route-sidebar {
-    position: static;
-    order: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    max-height: 100vh;
+    border-radius: 0;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    animation: none;
+    overflow-y: auto;
+    padding-top: 24px;
+  }
+
+  .rt-route-sidebar.rt-sidebar-open {
+    transform: translateX(0);
   }
 
   .rt-lesson-content {
-    padding: 24px 20px;
+    padding: 0;
   }
 }
 
@@ -1968,6 +2038,7 @@
   }
 
   .rt-route-sidebar,
+  .rt-hamburger,
   .rt-scroll-progress,
   .rt-landscape-hero,
   .rt-lesson-nav {
@@ -2018,8 +2089,8 @@
   border-color: rgba(0,0,0,0.1);
 }
 [data-theme="light"] .rt-lesson-content {
-  background: rgba(255, 255, 255, 0.95);
-  border-color: rgba(0,0,0,0.1);
+  background: transparent;
+  border: none;
   color: #1a202c;
 }
 
@@ -2445,7 +2516,7 @@
 
 /* --- Lesson content card shadow for depth --- */
 [data-theme="light"] .rt-lesson-content {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
+  box-shadow: none;
 }
 
 /* --- Lesson title & header (hardcoded #f0f4f8 / rgba white) --- */

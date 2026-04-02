@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-7-1" data-module-id="module-7" data-module-index="7">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Business Support Organizations Available to Help You</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #276749 0%, #1a4731 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M16 8 Q12 16 16 24 Q20 32 16 40" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M24 6 Q20 14 24 22 Q28 30 24 38" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8"/><path d="M32 10 Q28 18 32 26 Q36 34 32 42" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><circle cx="20" cy="16" r="2" fill="currentColor" opacity="0.3"/><circle cx="28" cy="28" r="2" fill="currentColor" opacity="0.3"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 7</p>
@@ -110,7 +117,7 @@
 <section class="video-section" aria-label="Lesson Video">
   <div class="avatar-video-wrap" data-lesson-id="lesson-7-1" data-video-en="../media/video/avatars/lesson-7-1-avatar.mp4">
     <video id="avatar-video-lesson-7-1" controls playsinline preload="metadata"
-      poster="../media/images/avatars/scenes/lesson-7-1-avatar.png"
+      poster="images/avatars/scenes/lesson-7-1-avatar.jpg"
       style="width:100%;max-width:832px;border-radius:12px;">
       <source src="../media/video/avatars/lesson-7-1-avatar.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -288,9 +295,6 @@
   </div>
   <div class="rt-ig-footer" style="display:block" data-es="Todas las organizaciones listadas ofrecen servicios GRATIS o de bajo costo para emprendedores internacionales.">All organizations listed offer FREE or low-cost services for international entrepreneurs.</div>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-7-1-advisory-consultation.jpg" alt="Founder meeting with a business advisor at a Central Florida resource center" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -322,14 +326,6 @@
 </div>
   </div>
 </div>
-<section class="rt-endcheck-section">
-  <div class="rt-endcheck-divider">
-    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
-      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
-    </svg>
-    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
-  </div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -411,6 +407,26 @@
     
   </div>
 </div>
+<div class="rt-exercise">
+  <h3 data-es="Su Mapa de Red de Apoyo">Your Support Network Map</h3>
+  <div data-es-html="&lt;p&gt;&lt;p&gt;Acaba de aprender sobre varias organizaciones de apoyo gratuitas y de bajo costo. Ahora elija las tres que más importan para donde está su negocio &lt;em&gt;ahora mismo&lt;/em&gt; — no donde espera estar en dos años.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Organización 1:&lt;/strong&gt; ___ &lt;br/&gt;&lt;strong&gt;Por qué se adapta a su etapa actual:&lt;/strong&gt; ___ &lt;br/&gt;&lt;strong&gt;Su primera acción (esta semana):&lt;/strong&gt; ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Organización 2:&lt;/strong&gt; ___ &lt;br/&gt;&lt;strong&gt;Por qué se adapta a su etapa actual:&lt;/strong&gt; ___ &lt;br/&gt;&lt;strong&gt;Su primera acción (esta semana):&lt;/strong&gt; ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Organización 3:&lt;/strong&gt; ___ &lt;br/&gt;&lt;strong&gt;Por qué se adapta a su etapa actual:&lt;/strong&gt; ___ &lt;br/&gt;&lt;strong&gt;Su primera acción (esta semana):&lt;/strong&gt; ___&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Sea específico. &quot;Contactar al SBDC&quot; no es una acción. &quot;Enviar un correo a floridasbdc.org para agendar una reunión de admisión sobre mis brechas en investigación de mercado&quot; sí lo es.&lt;/p&gt;&lt;/p&gt;
+"><p><p>You just learned about several free and low-cost support organizations. Now pick the three that matter most for where your business is <em>right now</em> — not where you hope to be in two years.</p><ul><li><strong>Organization 1:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 2:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li><li><strong>Organization 3:</strong> ___ <br/><strong>Why it fits your current stage:</strong> ___ <br/><strong>Your first action (this week):</strong> ___</li></ul><p>Be specific. "Contact the SBDC" is not an action. "Email floridasbdc.org to schedule an intake meeting about my market research gaps" is.</p></p>
+</div>
+  <label for="exercise-exercise-exercise-7-1-1" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-exercise-7-1-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
+</div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-7-1-advisory-consultation.jpg" alt="Founder meeting with a business advisor at a Central Florida resource center" loading="lazy">
+  
+</figure>
+<section class="rt-endcheck-section">
+  <div class="rt-endcheck-divider">
+    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
+      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
+    </svg>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
+  </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es simple. El ecosistema de apoyo de Central Florida es como sus manantiales naturales: profundo, claro e interconectado. El SBDC en UCF debería ser su primera llamada para planificación empresarial e investigación de mercado. La SBA ofrece recursos y guías federales. Las cámaras de comercio proporcionan networking y credibilidad. Use estos recursos antes de gastar dinero en consultores privados. Intente esto: compare las opciones gratuitas con las de pago, luego vea qué grupos se ajustan a su etapa. Los fundadores que tienen éxito más rápido son los que se sumergen en el ecosistema y aprovechan cada ventaja disponible.&lt;/p&gt;&lt;/p&gt;
@@ -460,7 +476,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

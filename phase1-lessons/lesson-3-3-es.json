@@ -199,14 +199,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "ref-3-3-1",
-      "title": "Reflexión: Sus Necesidades Legales",
-      "placement": "after-section",
-      "sectionId": "text-3-3-2",
-      "prompt": "Piense en sus primeros 6 meses de operaciones en EE.UU. ¿Qué tareas legales puede manejar usted mismo? ¿Dónde necesitará ayuda profesional? Escriba sus 3 prioridades legales principales y estime el costo total usando los rangos de esta lección. ¿Ya ha identificado un abogado o necesita comenzar esa búsqueda?"
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-3-3-1",
       "title": "Punto Clave",

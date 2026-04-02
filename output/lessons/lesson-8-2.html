@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-8-2" data-module-id="module-8" data-module-index="8">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -26,7 +27,7 @@
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
   <!-- Landscape Hero — Painterly image with drip effect -->
-  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)" aria-hidden="true">
+  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)" aria-hidden="true">
     <img src="images/lesson-8-2-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Resource Downloads &amp; Digital Credential</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
-          <div class="rt-route-icon" style="background: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L24 44 M16 12 L32 12 M14 20 L34 20 M12 28 L36 28 M10 36 L38 36 M20 4 L28 4" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+          <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 8</p>
@@ -95,7 +102,7 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)">UCF Campus</span>
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Descargas de Recursos y Credencial Digital">Resource Downloads &amp; Digital Credential</h1>
@@ -120,13 +127,10 @@
 <div data-es-html="&lt;p&gt;&lt;p&gt;Con su evaluación de preparación completa, piense en esto como caminar por el centro de recursos de UCF BIP antes de salir. No se iría del campus sin recoger los materiales que convierten todo lo que aprendió en un plan real. Estos cuatro recursos descargables hacen exactamente eso:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Lista de Verificación de Entrada al Mercado de EE.UU.&lt;/strong&gt; Lista de acciones módulo por módulo desde la configuración legal hasta los recursos del ecosistema.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hoja de Ruta de Configuración en Florida&lt;/strong&gt;. Secuencia paso a paso desde la formación de entidad hasta estar completamente operativo.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Guía de Recursos de Central Florida&lt;/strong&gt;. Directorio de organizaciones, contactos y programas para fundadores internacionales.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hoja de Decisión de Expansión&lt;/strong&gt;. Marco estructurado de decisión sí/no para considerar si ahora es el momento adecuado.&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Descargue los cuatro ahora. Se complementan directamente con su reunión 1:1 con UCF BIP.&lt;/p&gt;&lt;/p&gt;
-"><p><p>With your readiness assessment complete, think of this as walking through the UCF BIP resource center before heading out. You would not leave campus without picking up the materials that turn everything you learned into a real plan. These four downloadable resources do exactly that:</p></p>
+"><p><p>With your readiness assessment complete, think of this as walking through the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> resource center before heading out. You would not leave campus without picking up the materials that turn everything you learned into a real plan. These four downloadable resources do exactly that:</p></p>
 <p><ol><li><strong>U.S. Market Entry Checklist</strong> . Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong> . Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong> . Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong> . Structured go/no-go framework to consider whether now is the right time.</li></ol></p>
-<p><p>Download all four now. They pair directly with your 1:1 meeting with UCF BIP.</p></p>
+<p><p>Download all four now. They pair directly with your 1:1 meeting with <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a>.</p></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-8-2-resources-preparation.jpg" alt="Entrepreneur organizing resources and preparation materials for U.S. market entry" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -140,31 +144,24 @@
 &lt;p&gt;&lt;p&gt;¿Qué significa eso para usted? Consejo: Empiece con la sección del ecosistema — lo conecta con recursos gratuitos antes de que empiece a pagar por servicios.&lt;/p&gt;&lt;/p&gt;
 "><p><p>This is your pre-departure checklist — every item, verified. The <strong>U.S. Market Entry Checklist</strong> turns every major topic from this program into action items grouped by module: legal setup, finances, IP protection, team building, market entry, culture, and ecosystem resources. Each item includes a priority level and suggested timeframe.</p></p>
 <p><p>What does that mean for you? Tip: Start with the ecosystem section — it connects you with free resources before you start paying for services.</p></p>
-</div>
-<div style="text-align:center;margin:1.25rem 0"><a href="resources/resource-checklist.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.65rem 1.5rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:6px;font-size:0.95rem" data-es="Abrir Lista de Verificaci&oacute;n &rarr;">Open Checklist &rarr;</a></div>
-<h2 data-es="Recurso 2: Hoja de Ruta de Configuración en Florida">Resource 2: Florida Setup Roadmap</h2>
+</div><h2 data-es="Recurso 2: Hoja de Ruta de Configuración en Florida">Resource 2: Florida Setup Roadmap</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Esta es su secuencia paso a paso — qué viene primero, segundo, tercero. La &lt;strong&gt;Hoja de Ruta de Configuración en Florida&lt;/strong&gt; está organizada por &lt;strong&gt;orden&lt;/strong&gt; en lugar de por tema, respondiendo exactamente esa pregunta. Lo guía a través de cuatro fases: (1) preparación previa a la llegada (remota), (2) formación y registro de entidad, (3) infraestructura financiera, y (4) preparación operacional. Cada fase incluye plazos estimados e indica qué pasos requieren presencia física versus completarse de forma remota.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Muchos fundadores completan las fases 1 y 2 de forma remota antes de llegar, para poder abrir una cuenta bancaria en una sola visita con todos los documentos listos.&lt;/p&gt;&lt;/p&gt;
 "><p><p>This is your step-by-step sequence — what comes first, second, third. The <strong>Florida Setup Roadmap</strong> is sorted by <strong>order</strong> instead of topic, answering exactly that question. It walks through four phases: (1) pre-arrival preparation (remote), (2) entity formation and registration, (3) financial infrastructure, and (4) operational readiness. Each phase includes estimated timeframes and flags which steps require physical presence versus remote completion.</p></p>
 <p><p>Many founders complete phases 1 and 2 remotely before arriving, so they can open a bank account in one visit with all documents ready.</p></p>
-</div>
-<div style="text-align:center;margin:1.25rem 0"><a href="resources/resource-roadmap.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.65rem 1.5rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:6px;font-size:0.95rem" data-es="Abrir Hoja de Ruta &rarr;">Open Roadmap &rarr;</a></div>
-<h2 data-es="Recurso 3: Guía de Recursos de Central Florida">Resource 3: Central Florida Resource Guide</h2>
+</div><h2 data-es="Recurso 3: Guía de Recursos de Central Florida">Resource 3: Central Florida Resource Guide</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Este es su directorio del campus — cada organización de apoyo, a una llamada de distancia. La &lt;strong&gt;Guía de Recursos de Central Florida&lt;/strong&gt; reúne todos los grupos del Módulo 7 en una sola referencia fácil de buscar. Cubre asesoría empresarial (SBDC, SCORE, UCF BIP), incubadoras y aceleradoras, programas gubernamentales (SBA, Enterprise Florida), servicios profesionales (abogados, contadores, contactos bancarios), organizaciones de networking y comunidad, y detalles sobre lo que viene después de este curso a través de UCF BIP.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Cada entrada incluye el nombre de la organización, lo que ofrecen y su sitio web. Guárdelo en favoritos y actualícelo a medida que descubra nuevos recursos a través del networking.&lt;/p&gt;&lt;/p&gt;
-"><p><p>This is your campus directory — every support organization, one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, UCF BIP), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through UCF BIP.</p></p>
+"><p><p>This is your campus directory — every support organization, one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a>), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a>.</p></p>
 <p><p>Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p></p>
-</div>
-<div style="text-align:center;margin:1.25rem 0"><a href="resources/resource-guide.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.65rem 1.5rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:6px;font-size:0.95rem" data-es="Abrir Gu&iacute;a de Recursos &rarr;">Open Resource Guide &rarr;</a></div>
-<h2 data-es="Recurso 4: Hoja de Decisión de Expansión">Resource 4: Expansion Decision Worksheet</h2>
+</div><h2 data-es="Recurso 4: Hoja de Decisión de Expansión">Resource 4: Expansion Decision Worksheet</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Esta es su decisión de sí o no — la evaluación honesta antes de comprometerse. La &lt;strong&gt;Hoja de Decisión de Expansión&lt;/strong&gt; le ayuda a decidir si entrar al mercado de EE.UU. ahora. Lo califica en cinco áreas: ajuste de mercado, preparación financiera, preparación legal, operaciones y timing.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Esto no es aprobar o reprobar. Una fundadora de Colombia se calificó con 2 de 5 en preparación financiera, pasó cuatro meses fortaleciendo los ingresos de su mercado local, se recalificó con 4, y entró a EE.UU. con una base mucho más fuerte. La hoja le dice qué brecha cerrar primero.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Complétela antes de su reunión 1:1 con UCF BIP — ayuda al equipo a darle asesoría específica basada en su perfil particular de preparación.&lt;/p&gt;&lt;/p&gt;
 "><p><p>This is your go/no-go decision — the honest assessment before you commit. The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five areas: market fit, financial readiness, legal readiness, operations, and timing.</p></p>
 <p><p>This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p></p>
-<p><p>Complete this before your 1:1 meeting with UCF BIP — it helps the team give you targeted advice based on your specific readiness profile.</p></p>
+<p><p>Complete this before your 1:1 meeting with <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> — it helps the team give you targeted advice based on your specific readiness profile.</p></p>
 </div>
-<div style="text-align:center;margin:1.25rem 0"><a href="resources/resource-worksheet.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.65rem 1.5rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:6px;font-size:0.95rem" data-es="Abrir Hoja de Decisi&oacute;n &rarr;">Open Worksheet &rarr;</a></div>
 <div class="rt-accordion" data-accordion-id="int-8-2-1">
   <h3 class="rt-accordion-title" data-es="Biblioteca de Recursos — Referencia Rápida">Resource Library — Quick Reference</h3>
   
@@ -175,15 +172,15 @@
     </button>
     <div class="rt-accordion-content" id="int-8-2-1-content-0" hidden>
       <div data-es-html="&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://sunbiz.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SunBiz&lt;/a&gt;&lt;/strong&gt; — Registro empresarial en Florida&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;EIN del IRS&lt;/a&gt;&lt;/strong&gt; — Número de identificación de empleador gratuito&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.legalzoom.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;LegalZoom&lt;/a&gt;&lt;/strong&gt; / &lt;strong&gt;&lt;a href=&quot;https://www.incfile.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Incfile&lt;/a&gt;&lt;/strong&gt; — Servicios pagados de formación si desea asistencia&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.floridabar.org/public/lrs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Florida Bar Lawyer Referral&lt;/a&gt;&lt;/strong&gt; — Encuentre un abogado de negocios verificado&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SunBiz&lt;/strong&gt; (sunbiz.org) — Registro empresarial en Florida&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;EIN del IRS&lt;/strong&gt; (irs.gov) — Número de identificación de empleador gratuito&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LegalZoom/Incfile&lt;/strong&gt; — Servicios pagados de formación si desea asistencia&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Florida Bar Lawyer Referral&lt;/strong&gt; — Encuentre un abogado de negocios verificado&lt;/li&gt;
 &lt;/ul&gt;
 "><ul>
-  <li><strong><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a></strong> — Florida business registration</li>
-  <li><strong><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN</a></strong> — Free employer identification number</li>
-  <li><strong><a href="https://www.legalzoom.com" target="_blank" rel="noopener">LegalZoom</a></strong> / <strong><a href="https://www.incfile.com" target="_blank" rel="noopener">Incfile</a></strong> — Paid formation services if you want assistance</li>
+  <li><strong><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a></strong> (sunbiz.org) — Florida business registration</li>
+  <li><strong><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN</a></strong> (irs.gov) — Free employer identification number</li>
+  <li><strong><a href="https://www.legalzoom.com" target="_blank" rel="noopener">LegalZoom</a>/<a href="https://www.incfile.com" target="_blank" rel="noopener">Incfile</a></strong> — Paid formation services if you want assistance</li>
   <li><strong><a href="https://www.floridabar.org/public/lrs/" target="_blank" rel="noopener">Florida Bar Lawyer Referral</a></strong> — Find a vetted business attorney</li>
 </ul>
 </div>
@@ -196,10 +193,10 @@
     </button>
     <div class="rt-accordion-content" id="int-8-2-1-content-1" hidden>
       <div data-es-html="&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://mercury.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mercury&lt;/a&gt;&lt;/strong&gt; — Banca en línea para startups (amigable con internacionales)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://relayfi.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Relay&lt;/a&gt;&lt;/strong&gt; — Banca empresarial gratuita con integración contable&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://stripe.com/atlas&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Stripe Atlas&lt;/a&gt;&lt;/strong&gt; — Paquete de formación + banca para fundadores internacionales&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://quickbooks.intuit.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;QuickBooks Online&lt;/a&gt;&lt;/strong&gt; — El software de contabilidad para pequeñas empresas más popular&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mercury&lt;/strong&gt; — Banca en línea para startups (amigable con internacionales)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Relay&lt;/strong&gt; — Banca empresarial gratuita con integración contable&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stripe Atlas&lt;/strong&gt; — Paquete de formación + banca para fundadores internacionales&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;QuickBooks Online&lt;/strong&gt; — El software de contabilidad para pequeñas empresas más popular&lt;/li&gt;
 &lt;/ul&gt;
 "><ul>
   <li><strong><a href="https://mercury.com" target="_blank" rel="noopener">Mercury</a></strong> — Online banking for startups (international-friendly)</li>
@@ -217,13 +214,13 @@
     </button>
     <div class="rt-accordion-content" id="int-8-2-1-content-2" hidden>
       <div data-es-html="&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.uscis.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;USCIS&lt;/a&gt;&lt;/strong&gt; — Información oficial de inmigración&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.boundless.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Boundless&lt;/a&gt;&lt;/strong&gt; — Asistencia con solicitudes de inmigración&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.ailalawyer.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Búsqueda de Abogados AILA&lt;/a&gt;&lt;/strong&gt; — Encuentre un abogado de inmigración calificado&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.fragomen.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Fragomen&lt;/a&gt;&lt;/strong&gt; — Firma internacional de derecho migratorio&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;USCIS&lt;/strong&gt; (uscis.gov) — Información oficial de inmigración&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Boundless&lt;/strong&gt; — Asistencia con solicitudes de inmigración&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Búsqueda de Abogados AILA&lt;/strong&gt; — Encuentre un abogado de inmigración calificado&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fragomen&lt;/strong&gt; — Firma internacional de derecho migratorio&lt;/li&gt;
 &lt;/ul&gt;
 "><ul>
-  <li><strong><a href="https://www.uscis.gov" target="_blank" rel="noopener">USCIS</a></strong> — Official immigration information</li>
+  <li><strong><a href="https://www.uscis.gov" target="_blank" rel="noopener">USCIS</a></strong> (uscis.gov) — Official immigration information</li>
   <li><strong><a href="https://www.boundless.com" target="_blank" rel="noopener">Boundless</a></strong> — Immigration application assistance</li>
   <li><strong><a href="https://www.ailalawyer.com" target="_blank" rel="noopener">AILA Lawyer Search</a></strong> — Find a qualified immigration attorney</li>
   <li><strong><a href="https://www.fragomen.com" target="_blank" rel="noopener">Fragomen</a></strong> — International immigration law firm</li>
@@ -238,17 +235,17 @@
     </button>
     <div class="rt-accordion-content" id="int-8-2-1-content-3" hidden>
       <div data-es-html="&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://floridasbdc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Florida SBDC en UCF&lt;/a&gt;&lt;/strong&gt; — Consultoría empresarial gratuita&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://orlando.score.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SCORE Orlando&lt;/a&gt;&lt;/strong&gt; — Mentoría gratuita de veteranos de negocios&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://orlando.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Orlando Economic Partnership&lt;/a&gt;&lt;/strong&gt; — Apoyo para reubicación y expansión&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://prosperausa.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Prospera&lt;/a&gt;&lt;/strong&gt; — Apoyo bilingüe para emprendedores hispanos&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://incubator.ucf.edu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UCF BIP&lt;/a&gt;&lt;/strong&gt; — Programas de incubación empresarial&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Florida SBDC en UCF&lt;/strong&gt; — Consultoría empresarial gratuita&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SCORE Orlando&lt;/strong&gt; — Mentoría gratuita de veteranos de negocios&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Orlando Economic Partnership&lt;/strong&gt; — Apoyo para reubicación y expansión&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prospera&lt;/strong&gt; — Apoyo bilingüe para emprendedores hispanos&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;UCF BIP&lt;/strong&gt; — Programas de incubación empresarial&lt;/li&gt;
 &lt;/ul&gt;
 "><ul>
-  <li><strong><a href="https://floridasbdc.org" target="_blank" rel="noopener">Florida SBDC at UCF</a></strong> — Free business consulting</li>
+  <li><strong>Florida <a href="https://sbdcorlando.com/" target="_blank" rel="noopener">SBDC at UCF</a></strong> — Free business consulting</li>
   <li><strong><a href="https://orlando.score.org" target="_blank" rel="noopener">SCORE Orlando</a></strong> — Free mentorship from business veterans</li>
   <li><strong><a href="https://orlando.org" target="_blank" rel="noopener">Orlando Economic Partnership</a></strong> — Relocation and expansion support</li>
-  <li><strong><a href="https://prosperausa.org" target="_blank" rel="noopener">Prospera</a></strong> — Bilingual support for Hispanic entrepreneurs</li>
+  <li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a></strong> — Bilingual support for Hispanic entrepreneurs</li>
   <li><strong><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a></strong> — Business incubation programs</li>
 </ul>
 </div>
@@ -261,25 +258,25 @@
 &lt;p&gt;&lt;p&gt;Después de completar el programa, recibe un correo electrónico de POK Tech. El proceso toma cinco minutos:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ol&gt;&lt;li&gt;Abra el correo electrónico y seleccione el enlace de reclamo&lt;/li&gt;&lt;li&gt;Configure su cuenta de POK Tech (o inicie sesión)&lt;/li&gt;&lt;li&gt;Acepte la credencial&lt;/li&gt;&lt;li&gt;Comparta en LinkedIn usando la herramienta de compartir integrada&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La credencial no expira.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the UCF BIP U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p></p>
+"><p><p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p></p>
 <p><p>Now, here is where it gets tricky. The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification — but it signals you took a structured, university-backed program seriously.</p></p>
 <p><h4>How to Claim Your Credential</h4></p>
 <p><p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p></p>
 <p><ol><li>Open the email and select the claim link</li><li>Set up your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol></p>
 <p><p>The credential does not expire.</p></p>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-8-2-resources-preparation.jpg" alt="Entrepreneur organizing resources and preparation materials for U.S. market entry" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Mire los cuatro recursos descargables: la Lista de Verificación de Entrada al Mercado, la Hoja de Ruta de Configuración en Florida, la Guía de Recursos de Central Florida y la Hoja de Decisión de Expansión. ¿Cuál necesita usar primero dado dónde se encuentra en su proceso de expansión? Escriba el recurso específico, la fecha en que planea trabajar en él, y con quién (si alguien) quiere revisarlo — un cofundador, un asesor, o el equipo de UCF BIP durante su reunión 1:1.">Look at the four downloadable resources: the Market Entry Checklist, the Florida Setup Roadmap, the Central Florida Resource Guide, and the Expansion Decision Worksheet. Which one do you need to use first given where you are in your expansion process? Write down the specific resource, the date you plan to work through it, and who (if anyone) you want to review it with : a co-founder, an advisor, or the UCF BIP team during your 1:1.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -337,7 +334,7 @@
   </div>
 
   <div class="rt-kc-step" data-step="2" hidden>
-    <p class="rt-kc-question" data-es="Una fundadora de Brasil ha completado el programa de Fase 1 de UCF BIP y quiere usar su credencial digital para fortalecer su perfil profesional cuando se reúna con posibles socios en EE.UU. ¿Cómo debería aplicar la credencial de POK Tech?">A founder from Brazil has completed the UCF BIP Phase 1 program and wants to use her digital credential to strengthen her professional profile when meeting potential U.S. partners. How should she apply the POK Tech credential?</p>
+    <p class="rt-kc-question" data-es="Una fundadora de Brasil ha completado el programa de Fase 1 de UCF BIP y quiere usar su credencial digital para fortalecer su perfil profesional cuando se reúna con posibles socios en EE.UU. ¿Cómo debería aplicar la credencial de POK Tech?">A founder from Brazil has completed the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> Phase 1 program and wants to use her digital credential to strengthen her professional profile when meeting potential U.S. partners. How should she apply the POK Tech credential?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
       <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
@@ -357,14 +354,14 @@
         <span class="rt-kc-text" data-es="Usar la credencial para solicitar préstamos de la SBA, ya que sirve como una certificación profesional reconocida por agencias federales">Use the credential to apply for SBA loans, since it serves as a professional certification recognized by federal agencies</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La credencial digital de POK Tech está diseñada para compartirse digitalmente — en LinkedIn, sitios web y firmas de correo electrónico. Valida la finalización del Programa de Preparación para el Mercado de EE.UU. de UCF BIP y no expira. Es una credencial de finalización de programa, no una certificación profesional, por lo que no califica para préstamos de la SBA ni sirve como una calificación formal. No hay razón para esperar a la Fase 2 — la credencial de Fase 1 tiene valor por sí sola como señal de preparación estructurada.">The POK Tech digital credential is designed to be shared digitally — on LinkedIn, websites, and email signatures. It validates completion of the UCF BIP U.S. Market Readiness Program and does not expire. It is a program completion credential, not a professional certification, so it does not qualify for SBA lending or serve as a formal qualification. There is no reason to wait for Phase 2 — the Phase 1 credential stands on its own as a signal of structured preparation.</p></div>
+    <div class="rt-kc-explanation" hidden><p data-es="La credencial digital de POK Tech está diseñada para compartirse digitalmente — en LinkedIn, sitios web y firmas de correo electrónico. Valida la finalización del Programa de Preparación para el Mercado de EE.UU. de UCF BIP y no expira. Es una credencial de finalización de programa, no una certificación profesional, por lo que no califica para préstamos de la SBA ni sirve como una calificación formal. No hay razón para esperar a la Fase 2 — la credencial de Fase 1 tiene valor por sí sola como señal de preparación estructurada.">The POK Tech digital credential is designed to be shared digitally — on LinkedIn, websites, and email signatures. It validates completion of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> U.S. Market Readiness Program and does not expire. It is a program completion credential, not a professional certification, so it does not qualify for SBA lending or serve as a formal qualification. There is no reason to wait for Phase 2 — the Phase 1 credential stands on its own as a signal of structured preparation.</p></div>
     
   </div>
 </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es esta: no salga de la sede sin su equipo. Estos cuatro recursos son suyos para guardar, y extienden el valor de este programa más allá de la pantalla y hacia su planificación empresarial real. La lista de verificación lo mantiene organizado. La hoja de ruta lo mantiene en secuencia. La guía de recursos lo conecta con ayuda. La hoja de decisión lo mantiene honesto sobre su preparación. Aplique estas herramientas a su planificación: descargue las cuatro ahora, y llévelas a su reunión 1:1 con el equipo de UCF BIP en la sede del campus. Y reclame su credencial digital en LinkedIn. Es un paso pequeño, pero señala a todos en su red que usted se toma en serio hacerlo de la manera correcta.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is this: do not leave headquarters without your equipment. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the UCF BIP team at campus headquarters. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p></p>
+"><p><p>The takeaway is this: do not leave headquarters without your equipment. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> team at campus headquarters. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p></p>
 </div>
 </div>
 </section>
@@ -409,7 +406,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

@@ -18,6 +18,40 @@
       "wordCount": 196
     },
     {
+      "type": "simulation",
+      "id": "sim-2-1-tax",
+      "simId": "sim-tax-entity",
+      "title": "Tax Entity Comparison Calculator",
+      "titleEs": "Calculadora de Comparación Tributaria por Entidad",
+      "description": "Compare how much you'd pay in taxes as an LLC, C-Corp, or S-Corp based on your net profit.",
+      "descriptionEs": "Compare cuánto pagaría en impuestos como LLC, C-Corp o S-Corp según su ganancia neta.",
+      "replaces": "dataviz-2-1",
+      "scriptFile": "js/rt-simulations.js",
+      "inputs": [
+        {
+          "id": "sim-entity-type",
+          "type": "radio",
+          "label": "Entity Type",
+          "labelEs": "Tipo de Entidad",
+          "options": [
+            "Single-Member LLC",
+            "C-Corp",
+            "S-Corp"
+          ]
+        },
+        {
+          "id": "sim-profit",
+          "type": "range",
+          "label": "Annual Net Profit",
+          "labelEs": "Ganancia Neta Anual",
+          "min": 20000,
+          "max": 500000,
+          "step": 5000,
+          "default": 100000
+        }
+      ]
+    },
+    {
       "type": "data-visualization",
       "id": "dataviz-2-1",
       "title": "What You'll Actually Owe — Tax Layer Breakdown",
@@ -28,19 +62,50 @@
           {
             "label": "C-Corp in Florida",
             "layers": [
-              { "label": "Federal Corporate Tax", "value": 21, "color": "#1A3A5C" },
-              { "label": "Florida Corporate Tax", "value": 5.5, "color": "#2C5F8A" },
-              { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838", "note": "varies by county" }
+              {
+                "label": "Federal Corporate Tax",
+                "value": 21,
+                "color": "#1A3A5C"
+              },
+              {
+                "label": "Florida Corporate Tax",
+                "value": 5.5,
+                "color": "#2C5F8A"
+              },
+              {
+                "label": "Local Fees & Licenses",
+                "value": 0.5,
+                "color": "#E8A838",
+                "note": "varies by county"
+              }
             ],
             "total": "~27% effective"
           },
           {
             "label": "LLC (Pass-Through) in Florida",
             "layers": [
-              { "label": "Self-Employment Tax", "value": 15.3, "color": "#1A3A5C" },
-              { "label": "Federal Income Tax", "value": 12, "color": "#2C5F8A", "note": "varies by bracket" },
-              { "label": "Florida State Tax", "value": 0, "color": "#48B07A", "note": "No state income tax!" },
-              { "label": "Local Fees & Licenses", "value": 0.5, "color": "#E8A838" }
+              {
+                "label": "Self-Employment Tax",
+                "value": 15.3,
+                "color": "#1A3A5C"
+              },
+              {
+                "label": "Federal Income Tax",
+                "value": 12,
+                "color": "#2C5F8A",
+                "note": "varies by bracket"
+              },
+              {
+                "label": "Florida State Tax",
+                "value": 0,
+                "color": "#48B07A",
+                "note": "No state income tax!"
+              },
+              {
+                "label": "Local Fees & Licenses",
+                "value": 0.5,
+                "color": "#E8A838"
+              }
             ],
             "total": "~27.8% effective"
           }
@@ -123,6 +188,12 @@
           "content": "**Business Tax Receipt (BTR):** Required by Orange County and City of Orlando — typically $25–$100/year.\n\n**Tourist Development Tax:** 6% on short-term rentals (if applicable).\n\n**Impact fees:** Only for construction/development businesses.\n\n**Bottom line:** Local obligations are minimal for most service and technology businesses."
         }
       ]
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-2-1",
+      "imagePath": "images/scenarios/lesson-2-1-tax-advisor-meeting.jpg",
+      "title": "International founder consulting with a tax advisor about U.S. business taxes"
     },
     {
       "type": "scenario",
@@ -208,14 +279,6 @@
           "explanation": "The U.S. tax system requires quarterly estimated payments (April 15, June 15, September 15, January 15) if you expect to owe $1,000 or more. Missing these deadlines triggers penalties and interest even if you pay the full amount with your annual return. Annual payment is not the standard method when you owe over $1,000. Florida has no state income tax, so it cannot charge one as a penalty. The IRS does not convert entity types for non-compliance. The lesson describes a founder who owed $1,200 in penalties for this exact mistake."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "ref-2-1-1",
-      "title": "Reflection: Your Tax Situation",
-      "placement": "after-section",
-      "sectionId": "text-2-1-3",
-      "prompt": "Based on your entity type (or the one you're considering), which tax filing requirements will apply to your business? Does your home country have a tax treaty with the U.S.? Write down the top 3 tax-related questions you need answered by a CPA before your first filing deadline."
     },
     {
       "type": "key-takeaway",

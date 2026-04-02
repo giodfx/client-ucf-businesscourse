@@ -95,13 +95,62 @@
       "titleEs": "Dónde Presentarse — Networking en Florida Central",
       "cols": 3,
       "cards": [
-        { "badge": "Events", "badgeEs": "Eventos", "heading": "1 Million Cups Orlando", "headingEs": "1 Million Cups Orlando", "desc": "Free, weekly, casual. Downtown Orlando. Great first step for meeting local founders.", "descEs": "Gratis, semanal, casual. Downtown Orlando. Excelente primer paso para conocer fundadores locales." },
-        { "badge": "Events", "badgeEs": "Eventos", "heading": "Orlando Tech Week", "headingEs": "Orlando Tech Week", "desc": "Annual multi-day conference. Downtown Orlando. Connects startups with investors and mentors.", "descEs": "Conferencia anual de varios días. Downtown Orlando. Conecta startups con inversionistas y mentores." },
-        { "badge": "Coworking", "badgeEs": "Coworking", "heading": "StarterStudio", "headingEs": "StarterStudio", "desc": "Downtown Orlando accelerator and coworking. Mentorship programs and demo days.", "descEs": "Aceleradora y coworking en Downtown Orlando. Programas de mentoría y días de demostración." },
-        { "badge": "Coworking", "badgeEs": "Coworking", "heading": "Canvs", "headingEs": "Canvs", "desc": "Downtown Orlando coworking hub. Densest concentration of startups in the region.", "descEs": "Hub de coworking en Downtown Orlando. Mayor concentración de startups en la región." },
-        { "badge": "Key Zone", "badgeEs": "Zona Clave", "heading": "Research Park at UCF / UCF BIP", "headingEs": "Parque de Investigación UCF / UCF BIP", "desc": "East Orlando. Tech/simulation focus. UCF Business Incubation Program based here.", "descEs": "Este de Orlando. Enfoque en tecnología/simulación. Programa de Incubación Empresarial UCF aquí." },
-        { "badge": "Key Zone", "badgeEs": "Zona Clave", "heading": "Lake Nona / Medical City", "headingEs": "Lake Nona / Ciudad Médica", "desc": "Health tech hub. Growing innovation district south of Orlando.", "descEs": "Hub de tecnología de salud. Distrito de innovación en crecimiento al sur de Orlando." },
-        { "badge": "Key Zone", "badgeEs": "Zona Clave", "heading": "Space Coast / Cape Canaveral", "headingEs": "Costa Espacial / Cabo Cañaveral", "desc": "Aerospace industry. Groundswell Startups in Melbourne. 45 min east of Orlando.", "descEs": "Industria aeroespacial. Groundswell Startups en Melbourne. 45 min al este de Orlando." }
+        {
+          "badge": "Events",
+          "badgeEs": "Eventos",
+          "heading": "1 Million Cups Orlando",
+          "headingEs": "1 Million Cups Orlando",
+          "desc": "Free, weekly, casual. Downtown Orlando. Great first step for meeting local founders.",
+          "descEs": "Gratis, semanal, casual. Downtown Orlando. Excelente primer paso para conocer fundadores locales."
+        },
+        {
+          "badge": "Events",
+          "badgeEs": "Eventos",
+          "heading": "Orlando Tech Week",
+          "headingEs": "Orlando Tech Week",
+          "desc": "Annual multi-day conference. Downtown Orlando. Connects startups with investors and mentors.",
+          "descEs": "Conferencia anual de varios días. Downtown Orlando. Conecta startups con inversionistas y mentores."
+        },
+        {
+          "badge": "Coworking",
+          "badgeEs": "Coworking",
+          "heading": "StarterStudio",
+          "headingEs": "StarterStudio",
+          "desc": "Downtown Orlando accelerator and coworking. Mentorship programs and demo days.",
+          "descEs": "Aceleradora y coworking en Downtown Orlando. Programas de mentoría y días de demostración."
+        },
+        {
+          "badge": "Coworking",
+          "badgeEs": "Coworking",
+          "heading": "Canvs",
+          "headingEs": "Canvs",
+          "desc": "Downtown Orlando coworking hub. Densest concentration of startups in the region.",
+          "descEs": "Hub de coworking en Downtown Orlando. Mayor concentración de startups en la región."
+        },
+        {
+          "badge": "Key Zone",
+          "badgeEs": "Zona Clave",
+          "heading": "Research Park at UCF / UCF BIP",
+          "headingEs": "Parque de Investigación UCF / UCF BIP",
+          "desc": "East Orlando. Tech/simulation focus. UCF Business Incubation Program based here.",
+          "descEs": "Este de Orlando. Enfoque en tecnología/simulación. Programa de Incubación Empresarial UCF aquí."
+        },
+        {
+          "badge": "Key Zone",
+          "badgeEs": "Zona Clave",
+          "heading": "Lake Nona / Medical City",
+          "headingEs": "Lake Nona / Ciudad Médica",
+          "desc": "Health tech hub. Growing innovation district south of Orlando.",
+          "descEs": "Hub de tecnología de salud. Distrito de innovación en crecimiento al sur de Orlando."
+        },
+        {
+          "badge": "Key Zone",
+          "badgeEs": "Zona Clave",
+          "heading": "Space Coast / Cape Canaveral",
+          "headingEs": "Costa Espacial / Cabo Cañaveral",
+          "desc": "Aerospace industry. Groundswell Startups in Melbourne. 45 min east of Orlando.",
+          "descEs": "Industria aeroespacial. Groundswell Startups en Melbourne. 45 min al este de Orlando."
+        }
       ],
       "footer": "Tip: Start with 1 Million Cups (free, weekly, casual) and one coworking space. Build from there.",
       "footerEs": "Consejo: Empieza con 1 Million Cups (gratis, semanal, casual) y un espacio de coworking. Crece desde ahí."
@@ -160,14 +209,6 @@
           "explanation": "Una institución ancla moldea el ecosistema a su alrededor. El Instituto de Simulación y Entrenamiento de UCF se asocia con contratistas de defensa (lo que explica las más de 200 empresas de simulación cercanas). Su escuela de medicina alimenta el clúster de tecnología de salud de Lake Nona. Los programas de ingeniería y ciencias de la computación producen graduados que se quedan localmente porque los empleos de la industria existen en la región. UCF BIP les da a los fundadores internacionales una presentación cálida a toda esta red. El efecto ancla se trata de conexiones de investigación-a-mercado, no solo de tamaño o espacio de oficina."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "reflect-7-2-1",
-      "title": "Su Encaje en el Ecosistema",
-      "placement": "after-section",
-      "sectionId": "text-7-2-5",
-      "prompt": "Piense en los puntos de contacto de networking descritos en esta lección. Identifique los TRES más relevantes para su negocio y escriba: (1) qué esperaría obtener de cada uno (un prospecto de cliente, un mentor, un socio, una contratación), y (2) qué traería usted a la mesa — porque el networking funciona mejor cuando ofrece valor, no solo lo solicita. ¿Qué experiencia, perspectiva o conexión de su mercado local podría ser útil para alguien que ya está en el ecosistema de Central Florida?"
     },
     {
       "type": "key-takeaway",

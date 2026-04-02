@@ -26,8 +26,25 @@
       "replaces": "dataviz-2-1",
       "scriptFile": "js/rt-simulations.js",
       "inputs": [
-        {"id": "sim-entity-type", "type": "radio", "label": "Tipo de Entidad", "options": ["Single-Member LLC", "C-Corp", "S-Corp"]},
-        {"id": "sim-profit", "type": "range", "label": "Ganancia Neta Anual", "min": 20000, "max": 500000, "step": 5000, "default": 100000}
+        {
+          "id": "sim-entity-type",
+          "type": "radio",
+          "label": "Tipo de Entidad",
+          "options": [
+            "Single-Member LLC",
+            "C-Corp",
+            "S-Corp"
+          ]
+        },
+        {
+          "id": "sim-profit",
+          "type": "range",
+          "label": "Ganancia Neta Anual",
+          "min": 20000,
+          "max": 500000,
+          "step": 5000,
+          "default": 100000
+        }
       ]
     },
     {
@@ -189,14 +206,6 @@
           "explanation": "El sistema tributario de EE.UU. requiere pagos estimados trimestrales (15 de abril, 15 de junio, 15 de septiembre, 15 de enero) si espera deber $1,000 o más. No cumplir con estas fechas genera multas e intereses incluso si paga el monto completo con su declaración anual. El pago anual no es el método estándar cuando debe más de $1,000. Florida no tiene impuesto estatal sobre la renta, así que no puede cobrarlo como multa. El IRS no convierte tipos de entidad por incumplimiento. La lección describe a una fundadora que debió $1,200 en multas por este mismo error."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "ref-2-1-1",
-      "title": "Reflexión: Su Situación Tributaria",
-      "placement": "after-section",
-      "sectionId": "text-2-1-3",
-      "prompt": "Según su tipo de entidad (o el que está considerando), ¿qué requisitos de declaración tributaria aplicarán a su negocio? ¿Su país de origen tiene un tratado tributario con EE.UU.? Escriba las 3 preguntas principales relacionadas con impuestos que necesita que un CPA le responda antes de su primera fecha límite de declaración."
     },
     {
       "type": "key-takeaway",

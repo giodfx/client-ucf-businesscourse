@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-8-1" data-module-id="module-8" data-module-index="8">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -26,7 +27,7 @@
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
   <!-- Landscape Hero — Painterly image with drip effect -->
-  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)" aria-hidden="true">
+  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)" aria-hidden="true">
     <img src="images/lesson-8-1-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Self-Assessment — Are You Ready?</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
-          <div class="rt-route-icon" style="background: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L24 44 M16 12 L32 12 M14 20 L34 20 M12 28 L36 28 M10 36 L38 36 M20 4 L28 4" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+          <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 8</p>
@@ -95,7 +102,7 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #b7791f 0%, #8a5c14 100%)">UCF Campus</span>
+              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Autoevaluación — ¿Está Listo?">Self-Assessment — Are You Ready?</h1>
@@ -128,9 +135,6 @@
 <p><p>Here's how this plays out: before you sign anything, hire anyone, or transfer money, recall the four themes:</p></p>
 <p><ul><li><strong>Reduce Risk</strong> . Avoid the legal, financial, and operational traps.</li><li><strong>Watch Your Money</strong> . Know the realistic costs before committing.</li><li><strong>Avoid Common Mistakes</strong> . Don't repeat the errors other founders make.</li><li><strong>Understand the Culture</strong> . Know how American business actually works.</li></ul></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-8-1-mentor-consultation.jpg" alt="Founder meeting with a mentor to review business readiness before launch" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -205,18 +209,23 @@
 <p><ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul></p>
 <p><p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p></p>
 <p><h4>Module 7: Central Florida Ecosystem</h4></p>
-<p><p>Do you know your advisory network? <a href="https://floridasbdc.org" target="_blank" rel="noopener">SBDC</a>, chambers, <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> — no founder succeeds without a support team on the ground.</p></p>
-<p><ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the UCF BIP program offer?</li></ul></p>
+<p><p>Do you know your advisory network? SBDC, chambers, <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> — no founder succeeds without a support team on the ground.</p></p>
+<p><ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> program offer?</li></ul></p>
 <p><p>If you cannot name specific resources you plan to contact, revisit Module 7.</p></p>
 </div>
-<h2 data-es="¿Dónde Necesita Más Ayuda?">Where Do You Need More Help?</h2>
+<div class="rt-exercise">
+  <h3 data-es="Su Puntuación de Preparación para el Mercado">Your Market Readiness Score</h3>
+  
+  <label for="exercise-exercise-exercise-8-1-rubric" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-exercise-8-1-rubric" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
+</div><h2 data-es="¿Dónde Necesita Más Ayuda?">Where Do You Need More Help?</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Ninguna preparación es perfecta. Los fundadores más inteligentes identifican lo que falta y obtienen ayuda antes de salir de la sede. Sentirse abrumado es normal. No se supone que sea experto en las siete áreas. Exactamente por eso el campus de UCF tiene todo un ecosistema de asesores, mentores y conexiones profesionales esperando en los edificios a su alrededor. Necesita saber lo suficiente para hacer las preguntas correctas y evitar errores costosos.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h4&gt;Dónde Obtener Ayuda&lt;/h4&gt;&lt;/p&gt;
-&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Legal (entidad, contratos, cumplimiento)&lt;/strong&gt;. Abogado de negocios con experiencia internacional. El &lt;a href=&quot;https://floridasbdc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SBDC&lt;/a&gt; lo conecta con clínicas legales pro bono.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Impuestos y contabilidad&lt;/strong&gt;. Contador con experiencia internacional. Pregunte: &quot;¿Trabaja con negocios de propiedad extranjera?&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Inmigración y visas&lt;/strong&gt;. Abogado de inmigración. No es opcional.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Protección de PI&lt;/strong&gt;. Abogado de propiedad intelectual. La &lt;a href=&quot;https://www.uspto.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;USPTO&lt;/a&gt; tiene recursos, pero la estrategia de registro necesita orientación profesional.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Banca&lt;/strong&gt;. Comience directamente con el banco. Lleve documentos; espere que la primera visita sea una consulta.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Adquisición de clientes&lt;/strong&gt;. El &lt;a href=&quot;https://floridasbdc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SBDC&lt;/a&gt; y &lt;a href=&quot;https://orlando.score.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SCORE&lt;/a&gt; ofrecen asesoría gratuita. &lt;a href=&quot;https://incubator.ucf.edu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UCF BIP&lt;/a&gt; lo conecta con mentores.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Orientación general&lt;/strong&gt;. El equipo de &lt;a href=&quot;https://incubator.ucf.edu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UCF BIP&lt;/a&gt; está disponible para una conversación una vez que complete el Módulo 8.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Legal (entidad, contratos, cumplimiento)&lt;/strong&gt;. Abogado de negocios con experiencia internacional. El SBDC lo conecta con clínicas legales pro bono.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Impuestos y contabilidad&lt;/strong&gt;. Contador con experiencia internacional. Pregunte: &quot;¿Trabaja con negocios de propiedad extranjera?&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Inmigración y visas&lt;/strong&gt;. Abogado de inmigración. No es opcional.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Protección de PI&lt;/strong&gt;. Abogado de propiedad intelectual. La USPTO tiene recursos, pero la estrategia de registro necesita orientación profesional.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Banca&lt;/strong&gt;. Comience directamente con el banco. Lleve documentos; espere que la primera visita sea una consulta.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Adquisición de clientes&lt;/strong&gt;. El SBDC y SCORE ofrecen asesoría gratuita. UCF BIP lo conecta con mentores.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Orientación general&lt;/strong&gt;. El equipo de UCF BIP está disponible para una conversación una vez que complete el Módulo 8.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Sus puntuaciones de preparación son su mapa. Priorice profesionales basándose en sus puntuaciones más bajas.&lt;/p&gt;&lt;/p&gt;
 "><p><p>No preparation is perfect. The smartest founders identify what is missing and get help before they leave headquarters. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections waiting in the buildings around you. You need to know enough to ask the right questions and avoid expensive mistakes.</p></p>
 <p><h4>Where to Get Help</h4></p>
-<p><ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. <a href="https://floridasbdc.org" target="_blank" rel="noopener">SBDC</a> connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: "Do you work with foreign-owned businesses?"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. <a href="https://www.uspto.gov" target="_blank" rel="noopener">USPTO</a> has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . <a href="https://floridasbdc.org" target="_blank" rel="noopener">SBDC</a> and <a href="https://orlando.score.org" target="_blank" rel="noopener">SCORE</a> offer free advising. <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> connects you with mentors.</li><li><strong>General guidance</strong> . The <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> team is available for a conversation once you complete Module 8.</li></ul></p>
+<p><ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: "Do you work with foreign-owned businesses?"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. <a href="https://www.uspto.gov" target="_blank" rel="noopener">USPTO</a> has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> connects you with mentors.</li><li><strong>General guidance</strong> . The <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> team is available for a conversation once you complete Module 8.</li></ul></p>
 <p><p>Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p></p>
 </div>
 <div class="rt-tabs" data-tabs-id="int-8-1-2">
@@ -231,34 +240,22 @@
   <div class="rt-tab-panel rt-tab-panel--active" role="tabpanel" id="int-8-1-2-panel-0" aria-labelledby="int-8-1-2-tab-0">
     <div data-es-html="&lt;p&gt;&lt;strong&gt;A lo largo de este curso, hemos referenciado documentos y herramientas clave.&lt;/strong&gt; Aquí está su lista consolidada:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sunbiz.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SunBiz&lt;/a&gt; — Registro empresarial en Florida&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;EIN del IRS&lt;/a&gt; — Número de identificación de empleador&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://floridasbdc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Florida SBDC&lt;/a&gt; — Consultoría empresarial gratuita&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://orlando.score.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SCORE Orlando&lt;/a&gt; — Mentoría gratuita&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://incubator.ucf.edu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UCF BIP&lt;/a&gt; — Programas de incubación&lt;/li&gt;
+  &lt;li&gt;Registro de entidad en SunBiz: sunbiz.org&lt;/li&gt;
+  &lt;li&gt;Solicitud de EIN del IRS: irs.gov/businesses&lt;/li&gt;
+  &lt;li&gt;Consulta del Florida SBDC: floridasbdc.org&lt;/li&gt;
+  &lt;li&gt;Mentoría de SCORE: score.org/orlando&lt;/li&gt;
+  &lt;li&gt;Programas de UCF BIP: ucf.edu/bip&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p style=&quot;margin-top:1rem&quot;&gt;&lt;strong&gt;Sus páginas de recursos del curso:&lt;/strong&gt;&lt;/p&gt;
-&lt;div style=&quot;display:flex;flex-wrap:wrap;gap:0.5rem;margin:0.5rem 0&quot;&gt;
-  &lt;a href=&quot;resources/resource-checklist.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem&quot;&gt;Lista de Verificaci&oacute;n&lt;/a&gt;
-  &lt;a href=&quot;resources/resource-roadmap.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem&quot;&gt;Hoja de Ruta&lt;/a&gt;
-  &lt;a href=&quot;resources/resource-guide.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem&quot;&gt;Gu&iacute;a de Recursos&lt;/a&gt;
-  &lt;a href=&quot;resources/resource-worksheet.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; style=&quot;display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem&quot;&gt;Hoja de Decisi&oacute;n&lt;/a&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Guarde estos enlaces&lt;/strong&gt; — los referenciará mientras construye su presencia en EE.UU.&lt;/p&gt;
 "><p><strong>Throughout this course, we've referenced key documents and tools.</strong> Here's your consolidated list:</p>
 <ul>
-  <li><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a> — Florida entity registration</li>
-  <li><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN</a> — Employer identification number</li>
-  <li><a href="https://floridasbdc.org" target="_blank" rel="noopener">Florida SBDC</a> — Free business consulting</li>
-  <li><a href="https://orlando.score.org" target="_blank" rel="noopener">SCORE Orlando</a> — Free mentorship</li>
-  <li><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> — Incubation programs</li>
+  <li><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a> entity registration: sunbiz.org</li>
+  <li><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN</a> application: irs.gov/businesses</li>
+  <li><a href="https://floridasbdc.org" target="_blank" rel="noopener">Florida SBDC</a> consultation: floridasbdc.org</li>
+  <li>SCORE mentorship: score.org/orlando</li>
+  <li><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> programs: ucf.edu/bip</li>
 </ul>
-<p style="margin-top:1rem"><strong>Your course resource pages:</strong></p>
-<div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin:0.5rem 0">
-  <a href="resources/resource-checklist.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem">Checklist</a>
-  <a href="resources/resource-roadmap.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem">Roadmap</a>
-  <a href="resources/resource-guide.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem">Resource Guide</a>
-  <a href="resources/resource-worksheet.html" target="_blank" rel="noopener" style="display:inline-block;padding:0.5rem 1rem;background:linear-gradient(135deg,#d4a843,#b7891f);color:#0a1628;text-decoration:none;font-weight:600;border-radius:5px;font-size:0.85rem">Decision Worksheet</a>
-</div>
+<p><strong>Save these links</strong> — you'll reference them as you build your U.S. presence.</p>
 </div>
   </div>
   <div class="rt-tab-panel" role="tabpanel" id="int-8-1-2-panel-1" aria-labelledby="int-8-1-2-tab-1" hidden>
@@ -272,7 +269,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Duración:&lt;/strong&gt; 8–12 semanas&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Elegibilidad:&lt;/strong&gt; Completar este curso de Fase 1 + revisión de solicitud&lt;/p&gt;
-"><p><strong>Phase 2 of the UCF BIP program</strong> takes you from knowledge to action.</p>
+"><p><strong>Phase 2 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> program</strong> takes you from knowledge to action.</p>
 <p><strong>What to expect:</strong></p>
 <ul>
   <li>Hands-on mentorship with Central Florida business leaders</li>
@@ -287,15 +284,15 @@
   <div class="rt-tab-panel" role="tabpanel" id="int-8-1-2-panel-2" aria-labelledby="int-8-1-2-tab-2" hidden>
     <div data-es-html="&lt;p&gt;&lt;strong&gt;No tiene que hacer esto solo.&lt;/strong&gt; Estos son sus próximos pasos inmediatos:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://floridasbdc.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Agende una consulta gratuita del SBDC&lt;/strong&gt;&lt;/a&gt; — obtenga orientación personalizada sobre su situación específica&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://incubator.ucf.edu&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;strong&gt;Aplique a la Fase 2 de UCF BIP&lt;/strong&gt;&lt;/a&gt; — lleve su negocio al siguiente nivel&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Agende una consulta gratuita del SBDC&lt;/strong&gt; — obtenga orientación personalizada sobre su situación específica&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Aplique a la Fase 2 de UCF BIP&lt;/strong&gt; — lleve su negocio al siguiente nivel&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Únase a la comunidad de emprendedores de UCF&lt;/strong&gt; — conéctese con otros fundadores internacionales&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Recuerde:&lt;/strong&gt; Cada fundador internacional exitoso en EE.UU. comenzó exactamente donde usted está ahora.&lt;/p&gt;
 "><p><strong>You don't have to do this alone.</strong> Here are your immediate next steps:</p>
 <ol>
-  <li><a href="https://floridasbdc.org" target="_blank" rel="noopener"><strong>Schedule a free SBDC consultation</strong></a> — get personalized guidance on your specific situation</li>
-  <li><a href="https://incubator.ucf.edu" target="_blank" rel="noopener"><strong>Apply to UCF BIP Phase 2</strong></a> — take your business to the next level</li>
+  <li><strong>Schedule a free SBDC consultation</strong> — get personalized guidance on your specific situation</li>
+  <li><strong>Apply to <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> Phase 2</strong> — take your business to the next level</li>
   <li><strong>Join the UCF entrepreneur community</strong> — connect with fellow international founders</li>
 </ol>
 <p><strong>Remember:</strong> Every successful international founder in the U.S. started exactly where you are right now.</p>
@@ -311,18 +308,18 @@
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-8-1-mentor-consultation.jpg" alt="Founder meeting with a mentor to review business readiness before launch" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Piense en todo lo que cubrió en este programa. ¿Cuál fue la cosa más sorprendente que aprendió — algo que definitivamente no habría sabido sin este programa? ¿Cómo cambia esa sorpresa su enfoque hacia la entrada al mercado de EE.UU.? Escríbalo. Este suele ser el conocimiento que le ahorra más dinero o previene el error más grande.">Think about everything you covered in this program. What was the single most surprising thing you learned — the thing you definitely would not have known without this program? How does that surprise change your approach to U.S. market entry? Write it down. This is often the insight that saves you the most money or prevents the biggest mistake.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -339,7 +336,7 @@
       </button>
       <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="Releer el Módulo 1 y luego registrar en SunBiz inmediatamente">Re-read Module 1 and then file on SunBiz immediately</span>
+        <span class="rt-kc-text" data-es="Releer el Módulo 1 y luego registrar en SunBiz inmediatamente">Re-read Module 1 and then file on [SunBiz](https://sunbiz.org) immediately</span>
       </button>
       <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
@@ -407,7 +404,7 @@
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;No necesita tener todo resuelto. Necesita saber qué resolver primero y quién puede ayudar. Eso es lo que le dio este programa. Su autoevaluación de preparación no es una calificación. Es su lista de verificación previa a la partida. Las áreas donde se calificó más bajo son sus próximos pasos de mayor prioridad. Aplique sus puntuaciones para priorizar próximos pasos: evalúe qué brechas necesitan orientación profesional primero, luego cree un plan de acción específico para cada una. Ha llegado a la sede del campus por una razón. Use estas prioridades para guiar su conversación 1:1 con el equipo de UCF BIP.&lt;/p&gt;&lt;/p&gt;
-"><p><p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the UCF BIP team.</p></p>
+"><p><p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> team.</p></p>
 </div>
 </div>
 </section>
@@ -453,7 +450,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

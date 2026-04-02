@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-3-1" data-module-id="module-3" data-module-index="3">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Intellectual Property — Protecting Your Ideas in the U.S.</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 3</p>
@@ -105,7 +112,7 @@
 <section class="video-section" aria-label="Lesson Video">
   <div class="avatar-video-wrap" data-lesson-id="lesson-3-1" data-video-en="../media/video/avatars/lesson-3-1-avatar.mp4">
     <video id="avatar-video-lesson-3-1" controls playsinline preload="metadata"
-      poster="../media/images/avatars/scenes/lesson-3-1-avatar.png"
+      poster="images/avatars/scenes/lesson-3-1-avatar.jpg"
       style="width:100%;max-width:832px;border-radius:12px;">
       <source src="../media/video/avatars/lesson-3-1-avatar.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -122,9 +129,19 @@
 "><p><p>A founder from Chile built a successful delivery app across South America. When she expanded to Florida, she discovered that her Chilean trademark registration meant nothing in the United States. Intellectual property rights are territorial — protection in one country does not automatically extend to another. If you plan to operate in the U.S., you need U.S. protection.</p></p>
 <p><p>There are three main types of IP protection, each covering different aspects of your business. The comparison below explains what each one protects, what it costs, and when you need it.</p></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-3-1-trademark-attorney.jpg" alt="Founder meeting with a trademark attorney to protect intellectual property" loading="lazy">
-</figure>
+<div class="rt-ctbl-wrap" data-table-id="table-3-1-1">
+  <h3 class="rt-ctbl-title" data-es="Tipos de Protección de PI — Resumen Rápido">IP Protection Types — Quick Overview</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Tipo de Protección">Protection Type</th><th data-es="Qué Cubre">What It Covers</th><th data-es="Cómo Obtenerlo">How to Get It</th><th data-es="Costo (principios de 2026)">Cost (as of early 2026)</th><th data-es="Plazo">Timeline</th><th data-es="¿Necesita Abogado?">Need a Lawyer?</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="Derechos de Autor (Copyright)">Copyright</td><td data-es="Obras creativas: código, contenido, diseños, medios">Creative works: code, content, designs, media</td><td data-es="Automático al crear; registrar para hacer cumplir">Automatic on creation; register for enforcement</td><td data-es="$45–$65 por obra">$45–$65 per work</td><td data-es="3–6 meses para registro">3–6 months for registration</td><td data-es="Generalmente no se necesita para presentación básica">Usually not needed for basic filing</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Marca Registrada (Trademark)">Trademark</td><td data-es="Identidad de marca: nombre, logo, eslogan">Brand identity: name, logo, slogan</td><td data-es="Presentar solicitud ante el USPTO">File application with USPTO</td><td data-es="$250–$350 por clase (solo tarifa de presentación)">$250–$350 per class (filing fee only)</td><td data-es="8–12 meses para aprobación">8–12 months for approval</td><td data-es="Recomendado — los errores retrasan el proceso">Recommended — mistakes delay the process</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Patente (Utility)">Patent (Utility)</td><td data-es="Invenciones: procesos, máquinas, métodos">Inventions: processes, machines, methods</td><td data-es="Presentar solicitud ante el USPTO">File application with USPTO</td><td data-es="$5,000–$15,000+ (con abogado)">$5,000–$15,000+ (with attorney)</td><td data-es="2–3 años para aprobación">2–3 years for approval</td><td data-es="Sí — las solicitudes de patente son complejas">Yes — patent applications are complex</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 <div class="rt-ctbl-wrap" data-comparison-id="int-3-1-1">
   <h3 class="rt-ctbl-title" data-es="Derechos de Autor vs. Marca Registrada vs. Patente">Copyright vs. Trademark vs. Patent</h3>
   <div class="rt-ctbl-scroll">
@@ -242,18 +259,18 @@
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-3-1-trademark-attorney.jpg" alt="Founder meeting with a trademark attorney to protect intellectual property" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Liste cada activo de propiedad intelectual que tiene su empresa: nombre de marca, logo, nombres de productos, software propietario, contenido, invenciones o procesos. Para cada uno, identifique qué tipo de protección estadounidense aplica (derechos de autor, marca registrada o patente) y si ya ha presentado la solicitud o necesita hacerlo.">List every intellectual property asset your company has: brand name, logo, product names, proprietary software, content, inventions, or processes. For each one, identify which U.S. protection type applies (copyright, trademark, or patent) and whether you've already filed or need to.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -384,7 +401,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

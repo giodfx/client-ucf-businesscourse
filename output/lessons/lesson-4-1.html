@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-4-1" data-module-id="module-4" data-module-index="4">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Your First U.S. Hire — Contractor vs. Employee</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 4</p>
@@ -128,6 +135,25 @@
   <img src="images/scenarios/lesson-4-1-irs-classification.jpg" alt="IRS Classification Decision" loading="lazy">
   
 </figure>
+<div class="rt-ctbl-wrap" data-table-id="table-4-1-1">
+  <h3 class="rt-ctbl-title" data-es="Contratista vs. Empleado — Diferencias Clave">Contractor vs. Employee — Key Differences</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Factor">Factor</th><th data-es="Contratista Independiente (1099)">Independent Contractor (1099)</th><th data-es="Empleado (W-2)">Employee (W-2)</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="Horario de trabajo">Work schedule</td><td data-es="Define su propio horario">Sets their own hours</td><td data-es="Usted define el horario">You set the hours</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Herramientas y equipo">Tools & equipment</td><td data-es="Usa los propios">Uses their own</td><td data-es="Usted los proporciona">You provide them</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Cantidad de clientes">Number of clients</td><td data-es="Generalmente atiende a múltiples clientes">Typically serves multiple clients</td><td data-es="Trabaja principalmente para usted">Works primarily for you</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Estructura de pago">Payment structure</td><td data-es="Por proyecto o hito">Per project or milestone</td><td data-es="Salario regular o pago por hora">Regular salary or hourly wage</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Retención de impuestos">Tax withholding</td><td data-es="Ninguna — pagan sus propios impuestos">None — they pay their own taxes</td><td data-es="Usted retiene federal, estatal, FICA">You withhold federal, state, FICA</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Beneficios">Benefits</td><td data-es="No se requieren">Not required</td><td data-es="Se esperan (salud, vacaciones pagadas) para retención">Expected (health, PTO) for retention</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Terminación">Termination</td><td data-es="El contrato termina según los términos acordados">Contract ends per agreement terms</td><td data-es="At-will en Florida, pero existe exposición legal">At-will in Florida, but legal exposure exists</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Sus formularios fiscales">Your tax forms</td><td data-es="Presenta 1099-NEC">File 1099-NEC</td><td data-es="Presenta W-2">File W-2</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Su responsabilidad">Your liability</td><td data-es="Limitada (si está correctamente clasificado)">Limited (if properly classified)</td><td data-es="Significativa (compensación laboral, desempleo, etc.)">Significant (workers' comp, unemployment, etc.)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 <div class="rt-ctbl-wrap" data-comparison-id="int-4-1-1">
   <h3 class="rt-ctbl-title" data-es="Contratista vs. Empleado — Lista de Verificación para Decidir">Contractor vs. Employee — Decision Checklist</h3>
   <div class="rt-ctbl-scroll">
@@ -221,6 +247,14 @@
 "><p><p>Notice how these mistakes connect:</p><ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. Some founders label every worker as a 1099 contractor to avoid payroll taxes and benefits, but the IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong>. In serious cases, you face criminal prosecution. The IRS, state agencies, and workers themselves can all trigger an audit.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70–85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000–$78,000 in actual cost.</li></ul></p>
 </div>
   </div>
+</div>
+<div class="rt-exercise">
+  <h3 data-es="Calcule Su Costo Real de Contratación">Calculate Your True Hiring Cost</h3>
+  <div data-es-html="&lt;p&gt;&lt;p&gt;Elija el primer rol que contrataría en EE.UU. Use los rangos salariales de Central Florida de esta lección para estimar su costo real — luego compárelo con contratar a un contratista en su lugar.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Rol:&lt;/strong&gt; ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Estimación de salario base (rango de Central Florida):&lt;/strong&gt; $___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Costo anual real (base × 1.25 para impuestos, seguros, beneficios):&lt;/strong&gt; $___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Alternativa de contratista (tarifa por hora × horas anuales estimadas):&lt;/strong&gt; $___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;¿Cuál tiene más sentido para sus primeros 6 meses, y por qué?&lt;/strong&gt; ___&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;No hay una respuesta incorrecta aquí — el objetivo es ver los números reales lado a lado antes de comprometerse.&lt;/p&gt;&lt;/p&gt;
+"><p><p>Pick the first role you'd hire in the U.S. Use the Central Florida salary ranges from this lesson to estimate your real cost — then compare it to hiring a contractor instead.</p><ul><li><strong>Role:</strong> ___</li><li><strong>Base salary estimate (Central Florida range):</strong> $___</li><li><strong>True annual cost (base × 1.25 for taxes, insurance, benefits):</strong> $___</li><li><strong>Contractor alternative (hourly rate × estimated annual hours):</strong> $___</li><li><strong>Which makes more sense for your first 6 months, and why?</strong> ___</li></ul><p>There's no wrong answer here — the point is to see the real numbers side by side before you commit.</p></p>
+</div>
+  <label for="exercise-exercise-exercise-4-1-1" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-exercise-4-1-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
 </div>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
@@ -360,7 +394,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

@@ -159,14 +159,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "reflect-6-2-1",
-      "title": "Your Next U.S. Meeting Game Plan",
-      "placement": "after-section",
-      "sectionId": "text-6-2-2",
-      "prompt": "Think about your next meeting with a U.S. contact : a potential partner, client, or investor. Write down the 3-bullet agenda you'd send them the day before. Now draft your follow-up email template: what was discussed, what was agreed, next steps and deadlines. Finally, write down 3 things you'll do differently based on this lesson — whether that's requesting 30 minutes instead of an hour, preparing specific pricing before a negotiation, or following up within 24 hours instead of waiting."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-6-2-1",
       "title": "Key Takeaway",

@@ -2,14 +2,7 @@
   "moduleId": "module-4",
   "title": "Building Your Team",
   "description": "Higher-level overview of hiring your first U.S. employees, the contractor vs. employee distinction, visa pathway awareness for founders, and employer compliance essentials. Streamlined per client feedback.",
-  "learningOutcomes": {
-    "moduleLearningOutcomes": [
-      "Distinguish between contractor and employee classifications and the legal consequences of misclassification",
-      "Compare visa pathways (O-1, E-2, L-1) and assess which are realistic for their situation",
-      "Describe basic payroll, employer tax, and compliance obligations"
-    ],
-    "courseLevelOutcomesAddressed": []
-  },
+  "landscapeTheme": "",
   "lessons": [
     {
       "lessonId": "lesson-4-1",
@@ -409,52 +402,192 @@
               "heading": "E-2 Treaty Investor",
               "headingEs": "E-2 Inversionista por Tratado",
               "rows": [
-                { "label": "What", "labelEs": "Qué", "value": "Investor visa for treaty country nationals", "valueEs": "Visa de inversionista para nacionales de países con tratado" },
-                { "label": "Investment", "labelEs": "Inversión", "value": "$100,000+ typical (substantial)", "valueEs": "$100,000+ típico (sustancial)" },
-                { "label": "Duration", "labelEs": "Duración", "value": "2 years, renewable indefinitely", "valueEs": "2 años, renovable indefinidamente" },
-                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Treaty country + substantial investment + active management", "valueEs": "País con tratado + inversión sustancial + gestión activa" },
-                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "YES", "valueEs": "SÍ" },
-                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "NO (must convert to another visa)", "valueEs": "NO (debe cambiar a otra visa)" },
-                { "label": "Best for", "labelEs": "Mejor para", "value": "Founders with capital from treaty countries", "valueEs": "Fundadores con capital de países con tratado" }
+                {
+                  "label": "What",
+                  "labelEs": "Qué",
+                  "value": "Investor visa for treaty country nationals",
+                  "valueEs": "Visa de inversionista para nacionales de países con tratado"
+                },
+                {
+                  "label": "Investment",
+                  "labelEs": "Inversión",
+                  "value": "$100,000+ typical (substantial)",
+                  "valueEs": "$100,000+ típico (sustancial)"
+                },
+                {
+                  "label": "Duration",
+                  "labelEs": "Duración",
+                  "value": "2 years, renewable indefinitely",
+                  "valueEs": "2 años, renovable indefinidamente"
+                },
+                {
+                  "label": "Key requirement",
+                  "labelEs": "Requisito clave",
+                  "value": "Treaty country + substantial investment + active management",
+                  "valueEs": "País con tratado + inversión sustancial + gestión activa"
+                },
+                {
+                  "label": "Hire employees",
+                  "labelEs": "Contratar empleados",
+                  "value": "YES",
+                  "valueEs": "SÍ"
+                },
+                {
+                  "label": "Green card path",
+                  "labelEs": "Camino a residencia",
+                  "value": "NO (must convert to another visa)",
+                  "valueEs": "NO (debe cambiar a otra visa)"
+                },
+                {
+                  "label": "Best for",
+                  "labelEs": "Mejor para",
+                  "value": "Founders with capital from treaty countries",
+                  "valueEs": "Fundadores con capital de países con tratado"
+                }
               ]
             },
             {
               "heading": "L-1A Intracompany Transfer",
               "headingEs": "L-1A Transferencia Intraempresarial",
               "rows": [
-                { "label": "What", "labelEs": "Qué", "value": "Transfer from your foreign company to U.S. office", "valueEs": "Transferencia de tu empresa extranjera a oficina en EE.UU." },
-                { "label": "Investment", "labelEs": "Inversión", "value": "Must have existing foreign business", "valueEs": "Debe tener empresa extranjera existente" },
-                { "label": "Duration", "labelEs": "Duración", "value": "1–3 years initially, up to 7 years", "valueEs": "1–3 años inicialmente, hasta 7 años" },
-                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Managerial role + company existed 1+ year abroad", "valueEs": "Rol gerencial + empresa con 1+ año en el extranjero" },
-                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "YES", "valueEs": "SÍ" },
-                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "YES (EB-1C)", "valueEs": "SÍ (EB-1C)" },
-                { "label": "Best for", "labelEs": "Mejor para", "value": "Expanding an existing business to the U.S.", "valueEs": "Expandir un negocio existente a EE.UU." }
+                {
+                  "label": "What",
+                  "labelEs": "Qué",
+                  "value": "Transfer from your foreign company to U.S. office",
+                  "valueEs": "Transferencia de tu empresa extranjera a oficina en EE.UU."
+                },
+                {
+                  "label": "Investment",
+                  "labelEs": "Inversión",
+                  "value": "Must have existing foreign business",
+                  "valueEs": "Debe tener empresa extranjera existente"
+                },
+                {
+                  "label": "Duration",
+                  "labelEs": "Duración",
+                  "value": "1–3 years initially, up to 7 years",
+                  "valueEs": "1–3 años inicialmente, hasta 7 años"
+                },
+                {
+                  "label": "Key requirement",
+                  "labelEs": "Requisito clave",
+                  "value": "Managerial role + company existed 1+ year abroad",
+                  "valueEs": "Rol gerencial + empresa con 1+ año en el extranjero"
+                },
+                {
+                  "label": "Hire employees",
+                  "labelEs": "Contratar empleados",
+                  "value": "YES",
+                  "valueEs": "SÍ"
+                },
+                {
+                  "label": "Green card path",
+                  "labelEs": "Camino a residencia",
+                  "value": "YES (EB-1C)",
+                  "valueEs": "SÍ (EB-1C)"
+                },
+                {
+                  "label": "Best for",
+                  "labelEs": "Mejor para",
+                  "value": "Expanding an existing business to the U.S.",
+                  "valueEs": "Expandir un negocio existente a EE.UU."
+                }
               ]
             },
             {
               "heading": "O-1A Extraordinary Ability",
               "headingEs": "O-1A Habilidad Extraordinaria",
               "rows": [
-                { "label": "What", "labelEs": "Qué", "value": "For individuals with extraordinary achievement", "valueEs": "Para personas con logros extraordinarios" },
-                { "label": "Investment", "labelEs": "Inversión", "value": "None required", "valueEs": "No se requiere" },
-                { "label": "Duration", "labelEs": "Duración", "value": "3 years, renewable", "valueEs": "3 años, renovable" },
-                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Prove extraordinary ability (awards, press, high salary, etc.)", "valueEs": "Demostrar habilidad extraordinaria (premios, prensa, salario alto, etc.)" },
-                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "Through a U.S. employer/agent", "valueEs": "A través de un empleador/agente en EE.UU." },
-                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "YES (EB-1A)", "valueEs": "SÍ (EB-1A)" },
-                { "label": "Best for", "labelEs": "Mejor para", "value": "Founders with notable achievements, press coverage, or industry recognition", "valueEs": "Fundadores con logros notables, cobertura de prensa o reconocimiento de la industria" }
+                {
+                  "label": "What",
+                  "labelEs": "Qué",
+                  "value": "For individuals with extraordinary achievement",
+                  "valueEs": "Para personas con logros extraordinarios"
+                },
+                {
+                  "label": "Investment",
+                  "labelEs": "Inversión",
+                  "value": "None required",
+                  "valueEs": "No se requiere"
+                },
+                {
+                  "label": "Duration",
+                  "labelEs": "Duración",
+                  "value": "3 years, renewable",
+                  "valueEs": "3 años, renovable"
+                },
+                {
+                  "label": "Key requirement",
+                  "labelEs": "Requisito clave",
+                  "value": "Prove extraordinary ability (awards, press, high salary, etc.)",
+                  "valueEs": "Demostrar habilidad extraordinaria (premios, prensa, salario alto, etc.)"
+                },
+                {
+                  "label": "Hire employees",
+                  "labelEs": "Contratar empleados",
+                  "value": "Through a U.S. employer/agent",
+                  "valueEs": "A través de un empleador/agente en EE.UU."
+                },
+                {
+                  "label": "Green card path",
+                  "labelEs": "Camino a residencia",
+                  "value": "YES (EB-1A)",
+                  "valueEs": "SÍ (EB-1A)"
+                },
+                {
+                  "label": "Best for",
+                  "labelEs": "Mejor para",
+                  "value": "Founders with notable achievements, press, or industry recognition",
+                  "valueEs": "Fundadores con logros notables, prensa o reconocimiento de la industria"
+                }
               ]
             },
             {
               "heading": "B-1/B-2 Visitor",
               "headingEs": "B-1/B-2 Visitante",
               "rows": [
-                { "label": "What", "labelEs": "Qué", "value": "Business visitor (temporary)", "valueEs": "Visitante de negocios (temporal)" },
-                { "label": "Investment", "labelEs": "Inversión", "value": "None", "valueEs": "Ninguna" },
-                { "label": "Duration", "labelEs": "Duración", "value": "Up to 6 months", "valueEs": "Hasta 6 meses" },
-                { "label": "Key requirement", "labelEs": "Requisito clave", "value": "Cannot work or earn U.S. income", "valueEs": "No puede trabajar ni generar ingresos en EE.UU." },
-                { "label": "Hire employees", "labelEs": "Contratar empleados", "value": "NO", "valueEs": "NO" },
-                { "label": "Path to green card", "labelEs": "Camino a residencia", "value": "NO", "valueEs": "NO" },
-                { "label": "Best for", "labelEs": "Mejor para", "value": "Initial market research, meetings, conferences ONLY", "valueEs": "Solo para investigación de mercado inicial, reuniones, conferencias" }
+                {
+                  "label": "What",
+                  "labelEs": "Qué",
+                  "value": "Business visitor (temporary)",
+                  "valueEs": "Visitante de negocios (temporal)"
+                },
+                {
+                  "label": "Investment",
+                  "labelEs": "Inversión",
+                  "value": "None",
+                  "valueEs": "Ninguna"
+                },
+                {
+                  "label": "Duration",
+                  "labelEs": "Duración",
+                  "value": "Up to 6 months",
+                  "valueEs": "Hasta 6 meses"
+                },
+                {
+                  "label": "Key requirement",
+                  "labelEs": "Requisito clave",
+                  "value": "Cannot work or earn U.S. income",
+                  "valueEs": "No puede trabajar ni generar ingresos en EE.UU."
+                },
+                {
+                  "label": "Hire employees",
+                  "labelEs": "Contratar empleados",
+                  "value": "NO",
+                  "valueEs": "NO"
+                },
+                {
+                  "label": "Green card path",
+                  "labelEs": "Camino a residencia",
+                  "value": "NO",
+                  "valueEs": "NO"
+                },
+                {
+                  "label": "Best for",
+                  "labelEs": "Mejor para",
+                  "value": "Initial market research, meetings, conferences ONLY",
+                  "valueEs": "Solo para investigación de mercado inicial, reuniones, conferencias"
+                }
               ]
             }
           ],
@@ -481,6 +614,12 @@
           "variant": "theme-common-mistakes",
           "title": "Common Mistakes International Founders Make — Visa Authorization",
           "content": "<p>One of the most serious mistakes: <strong>working in the U.S. without proper visa authorization.</strong> As a founder, your own visa status determines what work you can legally do. Hiring others does not exempt you from your own immigration requirements. Working outside your authorization can result in deportation and permanent bars from reentry. Make sure your visa covers the activities you are actually performing.</p>"
+        },
+        {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-4-2",
+          "imagePath": "images/scenarios/lesson-4-2-immigration-consultation.jpg",
+          "title": "International founder in an immigration consultation discussing visa options"
         },
         {
           "type": "knowledge-check",
@@ -522,14 +661,6 @@
               "explanation": "The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for founders. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation."
             }
           ]
-        },
-        {
-          "type": "reflection",
-          "id": "ref-4-2-1",
-          "title": "Your Visa Situation",
-          "placement": "after-section",
-          "sectionId": "text-4-2-3",
-          "prompt": "Based on the overview above, which visa pathway or pathways seem most relevant to your situation? Write down your country of citizenship, your current business track record (years, revenue, employees, recognition), and the amount of capital you could invest. Bring these notes to a consultation with an immigration attorney so they can give you specific guidance."
         },
         {
           "type": "key-takeaway",
@@ -621,10 +752,83 @@
           "replaces": "dataviz-4-3",
           "scriptFile": "js/rt-simulations.js",
           "inputs": [
-            {"id": "sim-salary", "type": "number", "label": "Annual Salary", "labelEs": "Salario Anual", "default": 60000},
-            {"id": "sim-industry", "type": "select", "label": "Industry", "labelEs": "Industria", "options": ["General", "Construction", "Healthcare", "Tech", "Retail"]},
-            {"id": "sim-health-toggle", "type": "toggle", "label": "Include Health Insurance", "labelEs": "Incluir Seguro de Salud"}
+            {
+              "id": "sim-salary",
+              "type": "number",
+              "label": "Annual Salary",
+              "labelEs": "Salario Anual",
+              "default": 60000
+            },
+            {
+              "id": "sim-industry",
+              "type": "select",
+              "label": "Industry",
+              "labelEs": "Industria",
+              "options": [
+                "General",
+                "Construction",
+                "Healthcare",
+                "Tech",
+                "Retail"
+              ]
+            },
+            {
+              "id": "sim-health-toggle",
+              "type": "toggle",
+              "label": "Include Health Insurance",
+              "labelEs": "Incluir Seguro de Salud"
+            }
           ]
+        },
+        {
+          "type": "data-visualization",
+          "id": "dataviz-4-3",
+          "title": "The True Cost of a $60,000 Employee",
+          "chartType": "stacked-bar-with-breakdown",
+          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 620px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">The True Cost of a $60,000 Employee</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Base salary plus each employer obligation layer</p><div style=\"display: flex; gap: 28px; align-items: flex-end;\"><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salary<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">Without Health</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #1A3A5C;\">$66,410</div><div style=\"font-size: 0.72rem; color: #666;\">10.7% over salary</div></div><div style=\"flex: 0 0 auto; display: flex; flex-direction: column; align-items: center;\"><div style=\"position: relative; width: 120px; display: flex; flex-direction: column-reverse; border-radius: 6px 6px 0 0; overflow: hidden;\"><div style=\"height: 168px; background: #1A3A5C; display: flex; align-items: center; justify-content: center;\"><span style=\"color: #fff; font-size: 0.7rem; font-weight: 600; text-align: center; padding: 4px;\">Salary<br>$60,000</span></div><div style=\"height: 13px; background: #2C5F8A;\"></div><div style=\"height: 2px; background: #E8A838;\"></div><div style=\"height: 1px; background: #F5C842;\"></div><div style=\"height: 4px; background: #D4622B;\"></div><div style=\"height: 14px; background: #48B07A;\"></div></div><div style=\"margin-top: 8px; font-size: 0.78rem; font-weight: 600; color: #1A3A5C;\">With Health Ins.</div><div style=\"font-size: 0.92rem; font-weight: 700; color: #D4622B;\">$71,410</div><div style=\"font-size: 0.72rem; color: #666;\">19% over salary</div></div><div style=\"flex: 1; min-width: 0;\"><div style=\"display: flex; flex-direction: column; gap: 8px;\"><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #1A3A5C; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$60,000</strong> Base Salary</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #2C5F8A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$4,590</strong> FICA (7.65%)</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #E8A838; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$420</strong> FUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #F5C842; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$200</strong> FL SUTA</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #D4622B; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$1,200</strong> Workers' Comp</span></div><div style=\"display: flex; align-items: center; gap: 8px;\"><span style=\"width: 14px; height: 14px; background: #48B07A; border-radius: 2px; flex-shrink: 0;\"></span><span style=\"font-size: 0.8rem;\"><strong>$5,000</strong> Health Insurance</span></div></div></div></div><div style=\"margin-top: 20px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\"><strong>Budget 1.15x to 1.30x</strong> the base salary for your true hiring cost.</div></div>",
+          "data": {
+            "baseSalary": 60000,
+            "layers": [
+              {
+                "label": "Base Salary",
+                "value": 60000,
+                "color": "#1A3A5C"
+              },
+              {
+                "label": "FICA (Social Security + Medicare)",
+                "value": 4590,
+                "percent": "7.65%",
+                "color": "#2C5F8A"
+              },
+              {
+                "label": "FUTA (Federal Unemployment)",
+                "value": 420,
+                "color": "#E8A838"
+              },
+              {
+                "label": "SUTA (Florida Unemployment)",
+                "value": 200,
+                "note": "avg new employer",
+                "color": "#F5C842"
+              },
+              {
+                "label": "Workers' Comp Insurance",
+                "value": 1200,
+                "note": "office work avg",
+                "color": "#D4622B"
+              },
+              {
+                "label": "Health Insurance",
+                "value": 5000,
+                "note": "employer contribution avg",
+                "color": "#48B07A"
+              }
+            ],
+            "totalWithoutHealth": "$66,410 (10.7% over salary)",
+            "totalWithHealth": "$71,410 (19% over salary)",
+            "insight": "Budget 1.15x to 1.30x the base salary for your true hiring cost."
+          },
+          "accessibilityNote": "Stacked vertical bar chart showing the true cost of a $60,000 employee. Two bars compare total cost without and with health insurance. Base Salary is $60,000. FICA adds $4,590 (7.65%). FUTA adds $420. Florida SUTA adds $200. Workers' Compensation adds $1,200. Health Insurance adds $5,000. Total without health insurance is $66,410 (10.7% over salary). Total with health insurance is $71,410 (19% over salary). Key insight: budget 1.15x to 1.30x the base salary for your true hiring cost."
         },
         {
           "type": "callout",
@@ -674,7 +878,7 @@
           "id": "callout-4-3-latam",
           "variant": "latam-supplement",
           "title": "Latin America Resources — Hiring & Payroll",
-          "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>Prospera:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>UCF BIP network:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
+          "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
         },
         {
           "type": "knowledge-check",
@@ -718,11 +922,18 @@
           ]
         },
         {
-          "type": "simulation-replaced",
+          "type": "exercise",
           "id": "ex-4-3-1",
           "title": "Calculate Your First Employee's True Cost",
-          "replacedBy": "sim-4-3-payroll",
-          "note": "This exercise has been replaced by the interactive Employee Cost Calculator simulation (sim-4-3-payroll)."
+          "placement": "after-section",
+          "sectionId": "text-4-3-3",
+          "instructions": "<p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p>"
+        },
+        {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-4-3",
+          "imagePath": "images/scenarios/lesson-4-3-payroll-planning.jpg",
+          "title": "Business owner planning payroll and employee compensation at a desk"
         },
         {
           "type": "key-takeaway",
@@ -732,5 +943,13 @@
         }
       ]
     }
-  ]
+  ],
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Distinguish between contractor and employee classifications and the legal consequences of misclassification",
+      "Compare visa pathways (O-1, E-2, L-1) and assess which are realistic for their situation",
+      "Describe basic payroll, employer tax, and compliance obligations"
+    ],
+    "courseLevelOutcomesAddressed": []
+  }
 }

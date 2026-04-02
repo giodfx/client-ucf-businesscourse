@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-7-2" data-module-id="module-7" data-module-index="7">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Central Florida — Your Market Opportunity</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #276749 0%, #1a4731 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M16 8 Q12 16 16 24 Q20 32 16 40" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M24 6 Q20 14 24 22 Q28 30 24 38" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8"/><path d="M32 10 Q28 18 32 26 Q36 34 32 42" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><circle cx="20" cy="16" r="2" fill="currentColor" opacity="0.3"/><circle cx="28" cy="28" r="2" fill="currentColor" opacity="0.3"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 7</p>
@@ -138,9 +145,6 @@
 <p><p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.</p></p>
 <p><p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-7-2-ecosystem-networking.jpg" alt="Entrepreneurs networking at a Central Florida tech ecosystem event" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -150,46 +154,39 @@
 </div>
   </div>
 </div><h2 data-es="La Cultura Startup — Quién Está Aquí y Cómo Trabajan">The Startup Culture — Who's Here and How They Work</h2>
-<p data-es="Aquí es donde Central Florida se destaca. Así como un ecosistema saludable de manantiales prospera porque sus especies cooperan en lugar de competir por los mismos recursos, la cultura de startups aquí es colaborativa, no despiadada. Los fundadores la describen como &quot;pre-competitiva&quot;: la gente comparte presentaciones, consejos y recomendaciones de proveedores libremente porque el ecosistema todavía está creciendo.">Here is where Central Florida stands out. Just as a healthy spring ecosystem thrives because its species cooperate rather than compete for the same resources, the startup culture here is team-minded, not cutthroat. Founders describe it as "pre-competitive": people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p>
-<div class="rt-feat-grid">
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#128100;</span>
-    <h4 class="rt-feat-title" data-es="Accesibilidad de los Fundadores">Founder Accessibility</h4>
-    <p class="rt-feat-desc" data-es="Los fundadores exitosos aquí son accesibles. Un mensaje frío por LinkedIn a un CEO local tiene más probabilidad de obtener respuesta en Orlando que en San Francisco. Varios exalumnos del BIP consiguieron su primer cliente de pago a través de una presentación personal en un evento local.">Successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p>
-  </div>
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#128279;</span>
-    <h4 class="rt-feat-title" data-es="Conexiones entre Industrias">Cross-Industry Connections</h4>
-    <p class="rt-feat-desc" data-es="Como el ecosistema es de tamaño mediano, los fundadores conocen personas fuera de su sector regularmente — una fundadora de tecnología de salud descubre una aplicación para su plataforma a través de una conversación con un ejecutivo de simulación en un evento de networking.">Because the ecosystem is mid-sized, founders meet people outside their sector regularly — a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p>
-  </div>
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#127760;</span>
-    <h4 class="rt-feat-title" data-es="Comunidad Empresarial Bilingüe">Bilingual Business Community</h4>
-    <p class="rt-feat-desc" data-es="Las reuniones suceden en inglés y español. Organizaciones como Prospera ofrecen servicios completamente en español. No tiene que esperar hasta que su inglés sea perfecto para empezar a construir relaciones.">Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p>
-  </div>
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#128640;</span>
-    <h4 class="rt-feat-title" data-es="La Mentalidad de &quot;Puerta de Entrada&quot;">The "Gateway" Mindset</h4>
-    <p class="rt-feat-desc" data-es="Una fundadora de tecnología alimentaria de Ecuador lanzó en Orlando porque el clúster de hospitalidad le dio clientes inmediatos: en dos años se había expandido a Miami, Atlanta y Houston.">A food-tech founder from Ecuador launched in Orlando because the hospitality cluster gave her immediate customers: within two years she had expanded to Miami, Atlanta, and Houston.</p>
-  </div>
+<div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde Central Florida se destaca. Así como un ecosistema saludable de manantiales prospera porque sus especies cooperan en lugar de competir por los mismos recursos, la cultura de startups aquí es colaborativa, no despiadada. Los fundadores la describen como &quot;pre-competitiva&quot;: la gente comparte presentaciones, consejos y recomendaciones de proveedores libremente porque el ecosistema todavía está creciendo.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;Accesibilidad de los Fundadores&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;En resumen, los fundadores exitosos aquí son accesibles. Un mensaje frío por LinkedIn a un CEO local tiene más probabilidad de obtener respuesta en Orlando que en San Francisco. Varios exalumnos del BIP consiguieron su primer cliente de pago a través de una presentación personal en un evento local.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;Conexiones entre Industrias&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Como el ecosistema es de tamaño mediano, los fundadores conocen personas fuera de su sector regularmente — una fundadora de tecnología de salud descubre una aplicación para su plataforma a través de una conversación con un ejecutivo de simulación en un evento de networking.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;Comunidad Empresarial Bilingüe&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Las reuniones suceden en inglés y español. Organizaciones como Prospera ofrecen servicios completamente en español. No tiene que esperar hasta que su inglés sea perfecto para empezar a construir relaciones.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;La Mentalidad de &quot;Puerta de Entrada&quot;&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Una fundadora de tecnología alimentaria de Ecuador lanzó en Orlando porque el clúster de hospitalidad le dio clientes inmediatos: en dos años se había expandido a Miami, Atlanta y Houston.&lt;/p&gt;&lt;/p&gt;
+"><p><p>Here is where Central Florida stands out. Just as a healthy spring ecosystem thrives because its species cooperate rather than compete for the same resources, the startup culture here is team-minded, not cutthroat. Founders describe it as "pre-competitive": people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p></p>
+<p><h4>Founder Accessibility</h4></p>
+<p><p>In short, successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p></p>
+<p><h4>Cross-Industry Connections</h4></p>
+<p><p>Because the ecosystem is mid-sized, founders meet people outside their sector regularly — a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p></p>
+<p><h4>Bilingual Business Community</h4></p>
+<p><p>Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p></p>
+<p><h4>The "Gateway" Mindset</h4></p>
+<p><p>A food-tech founder from Ecuador launched in Orlando because the hospitality cluster gave her immediate customers : within two years she had expanded to Miami, Atlanta, and Houston.</p></p>
 </div><h2 data-es="Vivir Aquí — El Lado Humano de la Reubicación">Living Here — The Human Side of Relocation</h2>
-<p data-es="Piense en esto: los fundadores internacionales no solo reubican una empresa sino a menudo una familia. La calidad de vida de Central Florida es parte de lo que lo hace funcionar para los fundadores.">Think about this: international founders relocate not just a company but often a family. Central Florida's quality of life is part of what makes it work for founders.</p>
-<div class="rt-feat-grid rt-feat-grid--3">
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#128106;</span>
-    <h4 class="rt-feat-title" data-es="Familia y Comunidad">Family and Community</h4>
-    <p class="rt-feat-desc" data-es="La comunidad internacional de Orlando es grande y establecida: tiendas, restaurantes, iglesias y organizaciones que atienden a comunidades brasileñas, colombianas, venezolanas, mexicanas, puertorriqueñas y otras. Escuelas con experiencia bilingüe, pediatras, abogados de inmigración y grupos de WhatsApp conectan familias internacionales.">Orlando's international community is large and established: grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools with bilingual experience, children's doctors, immigration attorneys, and WhatsApp groups connect international families.</p>
-  </div>
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#9728;&#65039;</span>
-    <h4 class="rt-feat-title" data-es="Estilo de Vida y Clima">Lifestyle and Climate</h4>
-    <p class="rt-feat-desc" data-es="Vida al aire libre todo el año. Ambas costas a 60-90 minutos. Clima tropical — un aspecto positivo para fundadores latinoamericanos que encuentran los inviernos del noreste difíciles de manejar.">Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate — a positive for Latin American founders who find northeastern winters challenging.</p>
-  </div>
-  <div class="rt-feat-card">
-    <span class="rt-feat-icon" aria-hidden="true">&#128663;</span>
-    <h4 class="rt-feat-title" data-es="Realidad Práctica">Practical Reality</h4>
-    <p class="rt-feat-desc" data-es="Necesitará un auto — el transporte público es limitado. Incluya los costos del vehículo en su planificación. El calor del verano es intenso de junio a septiembre. Son compensaciones manejables.">You will need a car — public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p>
-  </div>
+<div data-es-html="&lt;p&gt;&lt;p&gt;Piense en esto: los fundadores internacionales no solo reubican una empresa sino a menudo una familia. La calidad de vida de Central Florida es parte de lo que lo hace funcionar para los fundadores.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;Familia y Comunidad&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Para dar contexto, la comunidad internacional de Orlando es grande y establecida: tiendas de abarrotes, restaurantes, iglesias y organizaciones que atienden a comunidades brasileñas, colombianas, venezolanas, mexicanas, puertorriqueñas y otras. Las escuelas en los condados de Orange y Seminole tienen experiencia con familias que hablan más de un idioma. Pediatras bilingües, abogados de inmigración y grupos de WhatsApp conectan a familias internacionales.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;Estilo de Vida y Clima&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Vida al aire libre todo el año. Ambas costas a 60-90 minutos. Clima tropical — un aspecto positivo para fundadores latinoamericanos que encuentran los inviernos del noreste difíciles de manejar.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;h4&gt;Realidad Práctica&lt;/h4&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;Necesitará un auto — el transporte público es limitado. Incluya los costos del vehículo en su planificación. El calor del verano es intenso de junio a septiembre. Son compensaciones manejables.&lt;/p&gt;&lt;/p&gt;
+"><p><p>Think about this: international founders relocate not just a company but often a family. Central Florida's quality of life is part of what makes it work for founders.</p></p>
+<p><h4>Family and Community</h4></p>
+<p><p>For context, Orlando's international community is large and established : grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools in Orange and Seminole counties have experience with families who speak more than one language. Bilingual children's doctors, immigration attorneys, and WhatsApp groups connect international families.</p></p>
+<p><h4>Lifestyle and Climate</h4></p>
+<p><p>Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate — a positive for Latin American founders who find northeastern winters challenging.</p></p>
+<p><h4>Practical Reality</h4></p>
+<p><p>You will need a car — public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p></p>
 </div>
 <div class="rt-accordion" data-accordion-id="int-7-2-1">
   <h3 class="rt-accordion-title" data-es="Clústeres Industriales de Central Florida — Su Mapa de Oportunidades">Central Florida Industry Clusters — Your Opportunity Map</h3>
@@ -407,18 +404,18 @@
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-7-2-ecosystem-networking.jpg" alt="Entrepreneurs networking at a Central Florida tech ecosystem event" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Piense en los puntos de contacto de networking descritos en esta lección. Identifique los TRES más relevantes para su negocio y escriba: (1) qué esperaría obtener de cada uno (un prospecto de cliente, un mentor, un socio, una contratación), y (2) qué traería usted a la mesa — porque el networking funciona mejor cuando ofrece valor, no solo lo solicita. ¿Qué experiencia, perspectiva o conexión de su mercado local podría ser útil para alguien que ya está en el ecosistema de Central Florida?">Think about the networking touchpoints described in this lesson. Identify the THREE that are most relevant to your business and write down: (1) what you'd hope to get from each (a customer lead, a mentor, a partner, a hire), and (2) what you'd bring to the table — because networking works best when you offer value, not just ask for it. What expertise, perspective, or connection from your home market could be useful to someone already in the Central Florida ecosystem?</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -549,7 +546,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

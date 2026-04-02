@@ -2,14 +2,7 @@
   "moduleId": "module-1",
   "title": "Getting Your Foot in the Door",
   "description": "Legal foundations for establishing a U.S. business entity in Florida. Covers entity selection, SunBiz registration, EIN, registered address, and a brief introduction to banking (detailed in Module 2).",
-  "learningOutcomes": {
-    "moduleLearningOutcomes": [
-      "Compare the three main U.S. entity types (LLC, C-Corp, S-Corp) and select the most appropriate structure for their business",
-      "Complete the Florida business registration process through SunBiz, including EIN and registered address",
-      "Identify the initial requirements and common barriers to opening a U.S. business bank account"
-    ],
-    "courseLevelOutcomesAddressed": []
-  },
+  "landscapeTheme": "",
   "lessons": [
     {
       "lessonId": "lesson-1-1",
@@ -27,7 +20,7 @@
           "type": "text",
           "id": "text-1-1-0",
           "title": "Welcome to the City — Where Your Business Takes Shape",
-          "content": "<p>Every city has a downtown, a place where businesses file their papers, hang their signs, and open their doors. In Central Florida, that process starts online through a portal called SunBiz. But before you file anything, you need to make one key choice: what kind of business entity to form.</p>\n\n<p>What does that mean for you? Think of it like choosing where to set up your office in the city. A small storefront (LLC) gives you freedom and low overhead. A corporate tower (C-Corp) gives you the structure investors expect. Both protect you from personal risk. But they work very differently when it comes to taxes, visas, and raising money.</p>\n\n<p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p>",
+          "content": "<p>Every city has a downtown, a place where businesses file their papers, hang their signs, and open their doors. In Central Florida, that process starts online through a portal called [SunBiz](https://sunbiz.org). But before you file anything, you need to make one key choice: what kind of business entity to form.</p>\n\n<p>What does that mean for you? Think of it like choosing where to set up your office in the city. A small storefront (LLC) gives you freedom and low overhead. A corporate tower (C-Corp) gives you the structure investors expect. Both protect you from personal risk. But they work very differently when it comes to taxes, visas, and raising money.</p>\n\n<p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p>",
           "wordCount": 132
         },
         {
@@ -138,6 +131,12 @@
           ]
         },
         {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-1-1",
+          "imagePath": "images/scenarios/lesson-1-1-entity-comparison.jpg",
+          "title": "Entrepreneurs comparing business entity types with legal documents on a conference table"
+        },
+        {
           "type": "scenario",
           "id": "scenario-1-1-decision-tree",
           "title": "Find Your Entity — Interactive Decision Guide",
@@ -210,18 +209,11 @@
           "wordCount": 167
         },
         {
-          "type": "reflection",
-          "id": "ref-1-1-1",
-          "title": "Reflection: Your Entity Decision",
-          "placement": "end-of-lesson",
-          "prompt": "Take a moment to think about your own situation:\n\n- Do you plan to raise investment capital in the near future? If so, a C-Corp may be your best starting point.\n- Is immigration part of your plan? If so, which visa category are you considering, and what does your attorney recommend?\n- What is your priority right now: simplicity and low cost, or investor readiness?\n\nWrite down the top two or three factors driving your choice. If you are unsure, write down the specific questions you need answered before deciding. Bring those questions to a consultation with a U.S. business attorney."
-        },
-        {
           "type": "callout",
           "id": "callout-1-1-latam",
           "variant": "latam-supplement",
           "title": "Latin America Resources — Legal Setup",
-          "content": "<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>Prospera:</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>UCF BIP network:</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>"
+          "content": "<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>[Prospera](https://prosperausa.org/):</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>"
         },
         {
           "type": "knowledge-check",
@@ -429,11 +421,10 @@
           "content": "<p>Notice how registration-related costs can add up faster than expected. Here are typical ranges:</p>\n\n<ul><li><strong>SunBiz filing fee:</strong> Typically around $125 for an LLC or $70 for a Corporation.</li><li><strong>Registered agent service:</strong> Typically $100–$300 per year if you are not in Florida full-time.</li><li><strong>Virtual mailbox (mailing address):</strong> Often $10–$30 per month.</li><li><strong>Operating agreement (attorney-drafted):</strong> Often $300–$800 for an LLC. DIY templates are available, but may miss details specific to foreign-owned entities.</li><li><strong>EIN application:</strong> Free from the IRS — no reason to pay a third party for this.</li></ul>\n\n<p>The most common overspend at this stage is paying a service hundreds to thousands of dollars for something you can do yourself on SunBiz in about 30 minutes. The filing itself is simple. Where expert help truly adds value is drafting an operating agreement, setting up corporate bylaws, or advising on entity type. Save your budget for those talks.</p>"
         },
         {
-          "type": "reflection",
-          "id": "ref-1-2-1",
-          "title": "Reflection: Your Registration Plan",
-          "placement": "end-of-lesson",
-          "prompt": "Think about where you are in the process:\n\n- Have you decided on an entity type? If not, what questions remain?\n- Do you have a business name in mind? Have you checked availability on SunBiz?\n- What will you use for a registered agent and registered address?\n- If you are not in Florida, how will you handle the physical presence requirement?\n\nWrite down any gaps that need to be resolved before you can file. Having a clear plan before you start the SunBiz process makes the entire experience smoother."
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-1-2",
+          "imagePath": "images/scenarios/lesson-1-2-registered-agent.jpg",
+          "title": "Registered agent reviewing Florida business formation documents"
         },
         {
           "type": "knowledge-check",
@@ -567,13 +558,6 @@
           "wordCount": 93
         },
         {
-          "type": "reflection",
-          "id": "ref-1-3-1",
-          "title": "Reflection: Your Banking Preparation",
-          "placement": "end-of-lesson",
-          "prompt": "Think about your own banking readiness:\n\n- Which documents from the checklist do you already have? Which ones do you still need?\n- Have you identified two or three banks in the Central Florida area (or online alternatives) that you want to contact?\n- What is your plan if the first bank says no?\n\nMake a list of the missing items and the steps needed to get each one. Having everything ready before your first bank visit makes a big difference."
-        },
-        {
           "type": "checklist",
           "id": "int-1-3-1",
           "title": "Bank Account Opening — Document Checklist",
@@ -635,5 +619,13 @@
         }
       ]
     }
-  ]
+  ],
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Compare the three main U.S. entity types (LLC, C-Corp, S-Corp) and select the most appropriate structure for their business",
+      "Complete the Florida business registration process through SunBiz, including EIN and registered address",
+      "Identify the initial requirements and common barriers to opening a U.S. business bank account"
+    ],
+    "courseLevelOutcomesAddressed": []
+  }
 }

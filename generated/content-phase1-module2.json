@@ -2,14 +2,7 @@
   "moduleId": "module-2",
   "title": "Watch Your Money",
   "description": "Taxes, accounting, and the banking deep dive. Federal and state tax obligations, sales tax, bookkeeping expectations, and the detailed reality of opening and maintaining a U.S. bank account as a foreign founder.",
-  "learningOutcomes": {
-    "moduleLearningOutcomes": [
-      "Explain federal and state tax obligations for foreign-owned U.S. entities",
-      "Describe sales tax collection requirements and basic accounting/bookkeeping expectations",
-      "Navigate the full banking process including document requirements, common rejections, credit history, and realistic timelines"
-    ],
-    "courseLevelOutcomesAddressed": []
-  },
+  "landscapeTheme": "",
   "lessons": [
     {
       "lessonId": "lesson-2-1",
@@ -41,9 +34,91 @@
           "replaces": "dataviz-2-1",
           "scriptFile": "js/rt-simulations.js",
           "inputs": [
-            {"id": "sim-entity-type", "type": "radio", "label": "Entity Type", "labelEs": "Tipo de Entidad", "options": ["Single-Member LLC", "C-Corp", "S-Corp"]},
-            {"id": "sim-profit", "type": "range", "label": "Annual Net Profit", "labelEs": "Ganancia Neta Anual", "min": 20000, "max": 500000, "step": 5000, "default": 100000}
+            {
+              "id": "sim-entity-type",
+              "type": "radio",
+              "label": "Entity Type",
+              "labelEs": "Tipo de Entidad",
+              "options": [
+                "Single-Member LLC",
+                "C-Corp",
+                "S-Corp"
+              ]
+            },
+            {
+              "id": "sim-profit",
+              "type": "range",
+              "label": "Annual Net Profit",
+              "labelEs": "Ganancia Neta Anual",
+              "min": 20000,
+              "max": 500000,
+              "step": 5000,
+              "default": 100000
+            }
           ]
+        },
+        {
+          "type": "data-visualization",
+          "id": "dataviz-2-1",
+          "title": "What You'll Actually Owe — Tax Layer Breakdown",
+          "chartType": "stacked-horizontal-bar",
+          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">What You'll Actually Owe — Tax Layer Breakdown</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Representative rates for a C-Corp vs LLC in Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp in Florida <span style=\"font-weight: 400; color: #666;\">— ~27% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5% (varies by county)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) in Florida <span style=\"font-weight: 400; color: #666;\">— ~27.8% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Self-Employ 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal Income 12%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #48B07A; font-weight: 600;\">Florida State Tax: 0% — No state income tax!</span><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Self-Employment</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>State / Federal Income</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Local Fees</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #48B07A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Florida advantage:</strong> No personal state income tax saves LLC owners 4–13% compared to states like NY or CA.</div></div>",
+          "data": {
+            "scenarios": [
+              {
+                "label": "C-Corp in Florida",
+                "layers": [
+                  {
+                    "label": "Federal Corporate Tax",
+                    "value": 21,
+                    "color": "#1A3A5C"
+                  },
+                  {
+                    "label": "Florida Corporate Tax",
+                    "value": 5.5,
+                    "color": "#2C5F8A"
+                  },
+                  {
+                    "label": "Local Fees & Licenses",
+                    "value": 0.5,
+                    "color": "#E8A838",
+                    "note": "varies by county"
+                  }
+                ],
+                "total": "~27% effective"
+              },
+              {
+                "label": "LLC (Pass-Through) in Florida",
+                "layers": [
+                  {
+                    "label": "Self-Employment Tax",
+                    "value": 15.3,
+                    "color": "#1A3A5C"
+                  },
+                  {
+                    "label": "Federal Income Tax",
+                    "value": 12,
+                    "color": "#2C5F8A",
+                    "note": "varies by bracket"
+                  },
+                  {
+                    "label": "Florida State Tax",
+                    "value": 0,
+                    "color": "#48B07A",
+                    "note": "No state income tax!"
+                  },
+                  {
+                    "label": "Local Fees & Licenses",
+                    "value": 0.5,
+                    "color": "#E8A838"
+                  }
+                ],
+                "total": "~27.8% effective"
+              }
+            ],
+            "footer": "Florida advantage: No personal state income tax saves LLC owners 4-13% compared to states like NY or CA."
+          },
+          "accessibilityNote": "Stacked horizontal bar chart comparing tax layers for C-Corp versus LLC in Florida. C-Corp shows Federal Corporate Tax at 21%, Florida Corporate Tax at 5.5%, and Local Fees at 0.5% for approximately 27% effective rate. LLC shows Self-Employment Tax at 15.3%, Federal Income Tax at 12%, Florida State Tax at 0%, and Local Fees at 0.5% for approximately 27.8% effective rate. Key takeaway: Florida has no personal state income tax, saving LLC owners 4 to 13 percent compared to states like New York or California."
         },
         {
           "type": "text",
@@ -119,6 +194,12 @@
               "content": "**Business Tax Receipt (BTR):** Required by Orange County and City of Orlando — typically $25–$100/year.\n\n**Tourist Development Tax:** 6% on short-term rentals (if applicable).\n\n**Impact fees:** Only for construction/development businesses.\n\n**Bottom line:** Local obligations are minimal for most service and technology businesses."
             }
           ]
+        },
+        {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-2-1",
+          "imagePath": "images/scenarios/lesson-2-1-tax-advisor-meeting.jpg",
+          "title": "International founder consulting with a tax advisor about U.S. business taxes"
         },
         {
           "type": "scenario",
@@ -206,14 +287,6 @@
           ]
         },
         {
-          "type": "reflection",
-          "id": "ref-2-1-1",
-          "title": "Reflection: Your Tax Situation",
-          "placement": "after-section",
-          "sectionId": "text-2-1-3",
-          "prompt": "Based on your entity type (or the one you're considering), which tax filing requirements will apply to your business? Does your home country have a tax treaty with the U.S.? Write down the top 3 tax-related questions you need answered by a CPA before your first filing deadline."
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-2-1-1",
           "title": "Key Takeaway",
@@ -264,26 +337,96 @@
             "heading": "VAT (Value Added Tax)",
             "headingEs": "IVA (Impuesto al Valor Agregado)",
             "rows": [
-              { "label": "Where", "labelEs": "Dónde", "value": "One national system — same rules everywhere in the country", "valueEs": "Un sistema nacional — las mismas reglas en todo el país" },
-              { "label": "Applied", "labelEs": "Aplicación", "value": "At every stage of production and distribution", "valueEs": "En cada etapa de producción y distribución" },
-              { "label": "Who Collects", "labelEs": "Quién Recauda", "value": "Every business in the chain collects and remits; input credits offset tax paid on purchases", "valueEs": "Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras" },
-              { "label": "Rate", "labelEs": "Tasa", "value": "One national rate (e.g., 21% Argentina, 19% Chile, 16% Mexico)", "valueEs": "Una tasa nacional (ej., 21% Argentina, 19% Chile, 16% México)" },
-              { "label": "Included in Price", "labelEs": "Incluido en Precio", "value": "Yes — the price on the shelf is the price you pay", "valueEs": "Sí — el precio en la etiqueta es el precio que pagas" },
-              { "label": "Filing", "labelEs": "Declaración", "value": "One government portal, one relationship", "valueEs": "Un portal gubernamental, una relación" },
-              { "label": "Example", "labelEs": "Ejemplo", "value": "A $100 product with 21% VAT → you pay $100 (tax already included)", "valueEs": "Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)" }
+              {
+                "label": "Where",
+                "labelEs": "Dónde",
+                "value": "One national system — same rules everywhere in the country",
+                "valueEs": "Un sistema nacional — las mismas reglas en todo el país"
+              },
+              {
+                "label": "Applied",
+                "labelEs": "Aplicación",
+                "value": "At every stage of production and distribution",
+                "valueEs": "En cada etapa de producción y distribución"
+              },
+              {
+                "label": "Who Collects",
+                "labelEs": "Quién Recauda",
+                "value": "Every business in the chain collects and remits; input credits offset tax paid on purchases",
+                "valueEs": "Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras"
+              },
+              {
+                "label": "Rate",
+                "labelEs": "Tasa",
+                "value": "One national rate (e.g., 21% Argentina, 19% Chile, 16% Mexico)",
+                "valueEs": "Una tasa nacional (ej., 21% Argentina, 19% Chile, 16% México)"
+              },
+              {
+                "label": "Included in Price",
+                "labelEs": "Incluido en Precio",
+                "value": "Yes — the price on the shelf is the price you pay",
+                "valueEs": "Sí — el precio en la etiqueta es el precio que pagas"
+              },
+              {
+                "label": "Filing",
+                "labelEs": "Declaración",
+                "value": "One government portal, one relationship",
+                "valueEs": "Un portal gubernamental, una relación"
+              },
+              {
+                "label": "Example",
+                "labelEs": "Ejemplo",
+                "value": "A $100 product with 21% VAT → you pay $100 (tax already included)",
+                "valueEs": "Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)"
+              }
             ]
           },
           "right": {
             "heading": "U.S. Sales Tax",
             "headingEs": "Impuesto sobre Ventas en EE.UU.",
             "rows": [
-              { "label": "Where", "labelEs": "Dónde", "value": "State by state — each state sets its own rules, rates, and exemptions", "valueEs": "Estado por estado — cada estado establece sus propias reglas, tasas y exenciones" },
-              { "label": "Applied", "labelEs": "Aplicación", "value": "Only at the final point of sale to the consumer", "valueEs": "Solo en el punto de venta final al consumidor" },
-              { "label": "Who Collects", "labelEs": "Quién Recauda", "value": "Only the business selling to the end customer; no input credits", "valueEs": "Solo el negocio que vende al cliente final; sin créditos fiscales" },
-              { "label": "Rate", "labelEs": "Tasa", "value": "Varies: 0% (Oregon) to 10.25% (some cities). Florida base: 6% + county surtax", "valueEs": "Varía: 0% (Oregon) a 10.25% (algunas ciudades). Florida base: 6% + sobretasa del condado" },
-              { "label": "Included in Price", "labelEs": "Incluido en Precio", "value": "No — tax is added at the register. Shelf price ≠ what you pay", "valueEs": "No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas" },
-              { "label": "Filing", "labelEs": "Declaración", "value": "Separate registration and filing in every state where you have nexus", "valueEs": "Registro y declaración separados en cada estado donde tengas nexo" },
-              { "label": "Example", "labelEs": "Ejemplo", "value": "A $100 product in Orlando → you pay $106.50 (6.5% added at register)", "valueEs": "Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)" }
+              {
+                "label": "Where",
+                "labelEs": "Dónde",
+                "value": "State by state — each state sets its own rules, rates, and exemptions",
+                "valueEs": "Estado por estado — cada estado establece sus propias reglas, tasas y exenciones"
+              },
+              {
+                "label": "Applied",
+                "labelEs": "Aplicación",
+                "value": "Only at the final point of sale to the consumer",
+                "valueEs": "Solo en el punto de venta final al consumidor"
+              },
+              {
+                "label": "Who Collects",
+                "labelEs": "Quién Recauda",
+                "value": "Only the business selling to the end customer; no input credits",
+                "valueEs": "Solo el negocio que vende al cliente final; sin créditos fiscales"
+              },
+              {
+                "label": "Rate",
+                "labelEs": "Tasa",
+                "value": "Varies: 0% (Oregon) to 10.25% (some cities). Florida base: 6% + county surtax",
+                "valueEs": "Varía: 0% (Oregon) a 10.25% (algunas ciudades). Florida base: 6% + sobretasa del condado"
+              },
+              {
+                "label": "Included in Price",
+                "labelEs": "Incluido en Precio",
+                "value": "No — tax is added at the register. Shelf price ≠ what you pay",
+                "valueEs": "No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas"
+              },
+              {
+                "label": "Filing",
+                "labelEs": "Declaración",
+                "value": "Separate registration and filing in every state where you have nexus",
+                "valueEs": "Registro y declaración separados en cada estado donde tengas nexo"
+              },
+              {
+                "label": "Example",
+                "labelEs": "Ejemplo",
+                "value": "A $100 product in Orlando → you pay $106.50 (6.5% added at register)",
+                "valueEs": "Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)"
+              }
             ]
           },
           "callout": "The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.",
@@ -374,6 +517,12 @@
           "content": "<p>Think about this: not all CPAs are created equal — and not all of them work with foreign-owned businesses. Before you hire an accountant, ask these questions:</p>\n\n<ul><li>Do you have experience filing returns for non-resident aliens or foreign-owned LLCs?</li><li>Are you familiar with tax treaty provisions for my home country?</li><li>Can you handle FBAR (Foreign Bank Account Report) filings?</li><li>Do you charge flat fees or hourly? (Flat fee is almost always better for small businesses.)</li><li>Can you help with multi-state sales tax compliance?</li></ul>\n\n<p>The SBDC (Small Business Development Center) in Orlando can refer you to CPAs who work with international founders. This is a free service. The Financial District has no shortage of options — Central Florida is home to more than 12,000 accounting and financial services firms, so finding one who can navigate international filings is very achievable.</p>"
         },
         {
+          "type": "in-lesson-image",
+          "id": "scenario-img-lesson-2-2",
+          "imagePath": "images/scenarios/lesson-2-2-sales-tax-research.jpg",
+          "title": "Business owner researching Florida sales tax requirements on a laptop"
+        },
+        {
           "type": "knowledge-check",
           "id": "kc-2-2",
           "title": "What Would You Do?",
@@ -415,14 +564,6 @@
           ]
         },
         {
-          "type": "reflection",
-          "id": "ref-2-2-1",
-          "title": "Reflection: Your Bookkeeping Plan",
-          "placement": "after-section",
-          "sectionId": "text-2-2-2",
-          "prompt": "Does your product or service trigger sales tax obligations in Florida? If you're selling in multiple U.S. states, which ones? Write down the bookkeeping tool you plan to use and when you'll set it up relative to your first U.S. sale."
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-2-2-1",
           "title": "Key Takeaway",
@@ -460,7 +601,7 @@
           "type": "text",
           "id": "text-2-3-what-you-can-do",
           "title": "What You Can Do About It",
-          "content": "<p>A Kenyan fintech founder applied at three banks, each asking for more KYC documents: proof of where her funds came from, notarized business records, a letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p>\n\n<p><strong>International-friendly banks (early 2026):</strong> Mercury, Relay, Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p>\n\n<p><strong>Important:</strong> Banking policies are not uniform across institutions, and they change frequently. What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p>"
+          "content": "<p>A Kenyan fintech founder applied at three banks, each asking for more KYC documents: proof of where her funds came from, notarized business records, a letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p>\n\n<p><strong>International-friendly banks (early 2026):</strong> [Mercury](https://mercury.com), [Relay](https://relayfi.com), Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p>\n\n<p><strong>Important:</strong> Banking policies are not uniform across institutions, and they change frequently. What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p>"
         },
         {
           "type": "scenario",
@@ -479,8 +620,8 @@
               "isRecommended": true
             },
             {
-              "label": "Switch to a payment processor like Stripe or Mercury while you sort it out",
-              "outcome": "Practical and common. Many international founders use Mercury or Relay as their primary account while building U.S. banking history. These fintech platforms have more flexible requirements for non-residents. You can always add a traditional bank later.",
+              "label": "Switch to a payment processor like Stripe or [Mercury](https://mercury.com) while you sort it out",
+              "outcome": "Practical and common. Many international founders use [Mercury](https://mercury.com) or [Relay](https://relayfi.com) as their primary account while building U.S. banking history. These fintech platforms have more flexible requirements for non-residents. You can always add a traditional bank later.",
               "isRecommended": false
             }
           ]
@@ -496,7 +637,7 @@
           "type": "text",
           "id": "text-2-3-2",
           "title": "Building U.S. Credit History From Zero",
-          "content": "<p>Building U.S. credit is like establishing your reputation in the Financial District. You start as a stranger — nobody knows you. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. The good news is that the Orlando metro has over 400 bank branches and credit union locations, so once you have your documents in order, options are plentiful. Here's the path to build credit:</p>\n\n<p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. Mercury offers a business card connected to your Mercury account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
+          "content": "<p>Building U.S. credit is like establishing your reputation in the Financial District. You start as a stranger — nobody knows you. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. The good news is that the Orlando metro has over 400 bank branches and credit union locations, so once you have your documents in order, options are plentiful. Here's the path to build credit:</p>\n\n<p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. [Mercury](https://mercury.com) offers a business card connected to your [Mercury](https://mercury.com) account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
           "wordCount": 178
         },
         {
@@ -548,7 +689,7 @@
           "type": "text",
           "id": "text-2-3-fund",
           "title": "A Quick Word About Funding and Investors",
-          "content": "<p>Standing at the edge of the Financial District, you can see the investor tower in the distance. Most early-stage founders are not ready to walk in there yet. Here is a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>Why does this matter? The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the UCF BIP market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
+          "content": "<p>Standing at the edge of the Financial District, you can see the investor tower in the distance. Most early-stage founders are not ready to walk in there yet. Here is a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>Why does this matter? The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the [UCF BIP](https://incubator.ucf.edu) market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
           "wordCount": 167
         },
         {
@@ -556,7 +697,7 @@
           "id": "callout-2-3-3",
           "variant": "latam-supplement",
           "title": "Latin America Resources — Banking",
-          "content": "<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The Hispanic Chamber of Commerce of Metro Orlando hosts banking workshops that cover account setup and credit building. The SBDC at UCF offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>"
+          "content": "<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The [Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/) hosts banking workshops that cover account setup and credit building. The [SBDC at UCF](https://sbdcorlando.com/) offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>"
         },
         {
           "type": "knowledge-check",
@@ -600,14 +741,6 @@
           ]
         },
         {
-          "type": "reflection",
-          "id": "ref-2-3-1",
-          "title": "Reflection: Your Banking Strategy",
-          "placement": "after-section",
-          "sectionId": "text-2-3-fund",
-          "prompt": "What documents do you currently have ready for a U.S. bank account application? What's missing? Write down your plan for the first 12 months: which bank will you approach first, how will you handle international transfers, and when will you start building U.S. credit?"
-        },
-        {
           "type": "key-takeaway",
           "id": "kt-2-3-1",
           "title": "Key Takeaway",
@@ -615,5 +748,13 @@
         }
       ]
     }
-  ]
+  ],
+  "learningOutcomes": {
+    "moduleLearningOutcomes": [
+      "Explain federal and state tax obligations for foreign-owned U.S. entities",
+      "Describe sales tax collection requirements and basic accounting/bookkeeping expectations",
+      "Navigate the full banking process including document requirements, common rejections, credit history, and realistic timelines"
+    ],
+    "courseLevelOutcomesAddressed": []
+  }
 }

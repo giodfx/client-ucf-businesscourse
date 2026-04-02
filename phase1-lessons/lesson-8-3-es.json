@@ -128,14 +128,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "reflection-8-3-2",
-      "title": "Retroalimentación para Mejorar el Programa",
-      "placement": "after-section",
-      "sectionId": "text-8-3-4",
-      "prompt": "Si pudiera cambiar una cosa de este programa — agregar un tema, eliminar una sección, cambiar el formato, profundizar en algo — ¿cuál sería? Su respuesta ayuda a dar forma a la próxima versión. Sea específico. \"Más detalles sobre X\" es más útil que \"hacerlo mejor.\" Comparta esta retroalimentación durante su reunión 1:1 o envíela directamente al equipo de UCF BIP."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-8-3-1",
       "title": "Punto Clave",

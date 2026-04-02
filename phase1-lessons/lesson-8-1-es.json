@@ -186,14 +186,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "reflection-8-1-1",
-      "title": "Reflexión Honesta: ¿Qué le Sorprendió Más?",
-      "placement": "after-section",
-      "sectionId": "text-8-1-4",
-      "prompt": "Piense en todo lo que cubrió en este programa. ¿Cuál fue la cosa más sorprendente que aprendió — algo que definitivamente no habría sabido sin este programa? ¿Cómo cambia esa sorpresa su enfoque hacia la entrada al mercado de EE.UU.? Escríbalo. Este suele ser el conocimiento que le ahorra más dinero o previene el error más grande."
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-8-1-1",
       "title": "Punto Clave",

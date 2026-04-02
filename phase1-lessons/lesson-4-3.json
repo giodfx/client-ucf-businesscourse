@@ -70,6 +70,45 @@
       "sectionId": "text-4-3-1"
     },
     {
+      "type": "simulation",
+      "id": "sim-4-3-payroll",
+      "simId": "sim-employee-cost",
+      "title": "Employee Cost Calculator",
+      "titleEs": "Calculadora de Costo del Empleado",
+      "description": "Enter a salary, pick your industry, and see the full employer cost — FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
+      "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
+      "replaces": "dataviz-4-3",
+      "scriptFile": "js/rt-simulations.js",
+      "inputs": [
+        {
+          "id": "sim-salary",
+          "type": "number",
+          "label": "Annual Salary",
+          "labelEs": "Salario Anual",
+          "default": 60000
+        },
+        {
+          "id": "sim-industry",
+          "type": "select",
+          "label": "Industry",
+          "labelEs": "Industria",
+          "options": [
+            "General",
+            "Construction",
+            "Healthcare",
+            "Tech",
+            "Retail"
+          ]
+        },
+        {
+          "id": "sim-health-toggle",
+          "type": "toggle",
+          "label": "Include Health Insurance",
+          "labelEs": "Incluir Seguro de Salud"
+        }
+      ]
+    },
+    {
       "type": "data-visualization",
       "id": "dataviz-4-3",
       "title": "The True Cost of a $60,000 Employee",
@@ -78,12 +117,40 @@
       "data": {
         "baseSalary": 60000,
         "layers": [
-          { "label": "Base Salary", "value": 60000, "color": "#1A3A5C" },
-          { "label": "FICA (Social Security + Medicare)", "value": 4590, "percent": "7.65%", "color": "#2C5F8A" },
-          { "label": "FUTA (Federal Unemployment)", "value": 420, "color": "#E8A838" },
-          { "label": "SUTA (Florida Unemployment)", "value": 200, "note": "avg new employer", "color": "#F5C842" },
-          { "label": "Workers' Comp Insurance", "value": 1200, "note": "office work avg", "color": "#D4622B" },
-          { "label": "Health Insurance", "value": 5000, "note": "employer contribution avg", "color": "#48B07A" }
+          {
+            "label": "Base Salary",
+            "value": 60000,
+            "color": "#1A3A5C"
+          },
+          {
+            "label": "FICA (Social Security + Medicare)",
+            "value": 4590,
+            "percent": "7.65%",
+            "color": "#2C5F8A"
+          },
+          {
+            "label": "FUTA (Federal Unemployment)",
+            "value": 420,
+            "color": "#E8A838"
+          },
+          {
+            "label": "SUTA (Florida Unemployment)",
+            "value": 200,
+            "note": "avg new employer",
+            "color": "#F5C842"
+          },
+          {
+            "label": "Workers' Comp Insurance",
+            "value": 1200,
+            "note": "office work avg",
+            "color": "#D4622B"
+          },
+          {
+            "label": "Health Insurance",
+            "value": 5000,
+            "note": "employer contribution avg",
+            "color": "#48B07A"
+          }
         ],
         "totalWithoutHealth": "$66,410 (10.7% over salary)",
         "totalWithHealth": "$71,410 (19% over salary)",
@@ -139,7 +206,7 @@
       "id": "callout-4-3-latam",
       "variant": "latam-supplement",
       "title": "Latin America Resources — Hiring & Payroll",
-      "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>Prospera:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>UCF BIP network:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
+      "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
     },
     {
       "type": "knowledge-check",
@@ -189,6 +256,12 @@
       "placement": "after-section",
       "sectionId": "text-4-3-3",
       "instructions": "<p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p>"
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-4-3",
+      "imagePath": "images/scenarios/lesson-4-3-payroll-planning.jpg",
+      "title": "Business owner planning payroll and employee compensation at a desk"
     },
     {
       "type": "key-takeaway",

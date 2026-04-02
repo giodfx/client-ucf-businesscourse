@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-6-2" data-module-id="module-6" data-module-index="6">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Meetings, Networking, and Building Trust</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M16 8 Q12 16 16 24 Q20 32 16 40" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M24 6 Q20 14 24 22 Q28 30 24 38" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8"/><path d="M32 10 Q28 18 32 26 Q36 34 32 42" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><circle cx="20" cy="16" r="2" fill="currentColor" opacity="0.3"/><circle cx="28" cy="28" r="2" fill="currentColor" opacity="0.3"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="14" r="8" fill="currentColor" opacity="0.8"/><path d="M8 38 Q16 28 24 32 Q32 36 40 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M6 42 Q18 34 28 36 Q36 38 42 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.4"/><line x1="24" y1="6" x2="24" y2="2" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="30" y1="8" x2="34" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="18" y1="8" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 6</p>
@@ -185,6 +192,12 @@
 </div>
   </div>
 </div>
+<div class="rt-exercise">
+  <h3 data-es="Construya Su Elevator Pitch de 30 Segundos">Build Your 30-Second Elevator Pitch</h3>
+  
+  <label for="exercise-exercise-exercise-6-2-pitch" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-exercise-6-2-pitch" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
+</div>
 <div class="rt-tabs" data-tabs-id="int-6-2-1">
   <h3 class="rt-tabs-title" data-es="La Reunión Después de la Reunión — Guía de Seguimiento">The Meeting After the Meeting — Follow-Up Playbook</h3>
   <div class="rt-tabs-nav" role="tablist">
@@ -256,12 +269,8 @@
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Piense en su próxima reunión con un contacto en EE.UU.: un socio potencial, cliente o inversionista. Escriba la agenda de 3 puntos que les enviaría el día anterior. Ahora redacte su plantilla de correo de seguimiento: qué se discutió, qué se acordó, próximos pasos y fechas límite. Finalmente, escriba 3 cosas que hará diferente basándose en esta lección — ya sea solicitar 30 minutos en vez de una hora, preparar precios específicos antes de una negociación, o hacer seguimiento dentro de las 24 horas en vez de esperar.">Think about your next meeting with a U.S. contact : a potential partner, client, or investor. Write down the 3-bullet agenda you'd send them the day before. Now draft your follow-up email template: what was discussed, what was agreed, next steps and deadlines. Finally, write down 3 things you'll do differently based on this lesson — whether that's requesting 30 minutes instead of an hour, preparing specific pricing before a negotiation, or following up within 24 hours instead of waiting.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -392,7 +401,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

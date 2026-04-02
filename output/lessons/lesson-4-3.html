@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-4-3" data-module-id="module-4" data-module-index="4">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Payroll, Taxes, and Employer Obligations</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 4</p>
@@ -126,45 +133,58 @@
 <p><p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p></p>
 <p><p>What does this actually mean day to day? The ticket price is just the admission — behind the scenes, every ride has maintenance, safety inspections, and insurance. Every employee works the same way. In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p></p>
 </div>
+<div class="rt-ctbl-wrap" data-table-id="table-4-3-1">
+  <h3 class="rt-ctbl-title" data-es="Desglose de Costos del Empleador — Lo Que Se Suma al Salario">Employer Cost Breakdown — What Sits on Top of Salary</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Obligación">Obligation</th><th data-es="Tasa o Costo">Rate or Cost</th><th data-es="Ejemplo sobre Salario de $60,000">Example on $60,000 Salary</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="FICA del Empleador (Seguridad Social + Medicare)">Employer FICA (Social Security + Medicare)</td><td data-es="7.65% del salario">7.65% of wages</td><td data-es="$4,590/año">$4,590/year</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Desempleo Federal (FUTA)">Federal Unemployment (FUTA)</td><td data-es="6% sobre los primeros $7,000 (efectivamente ~$420 después del crédito estatal)">6% on first $7,000 (effectively ~$420 after state credit)</td><td data-es="~$420/año">~$420/year</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Desempleo Estatal de Florida (SUTA)">Florida State Unemployment (SUTA)</td><td data-es="Varía según historial del empleador">Varies by employer history</td><td data-es="$18–$378/año (empleador nuevo)">$18–$378/year (new employer)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Seguro de Compensación Laboral">Workers' Compensation Insurance</td><td data-es="Varía según riesgo de la industria">Varies by industry risk</td><td data-es="$500–$2,000/año (trabajo de oficina)">$500–$2,000/year (office work)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Seguro de Salud (opcional pero esperado)">Health Insurance (optional but expected)</td><td data-es="Contribución del empleador si se ofrece">Employer contribution if offered</td><td data-es="$3,000–$7,000/año por empleado">$3,000–$7,000/year per employee</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Costo Total Adicional (sin seguro de salud)">Total Overhead (without health insurance)</td><td data-es="~12–15% sobre el salario">~12–15% above salary</td><td data-es="$65,500–$67,400/año">$65,500–$67,400/year</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Costo Total Adicional (con seguro de salud)">Total Overhead (with health insurance)</td><td data-es="~20–30% sobre el salario">~20–30% above salary</td><td data-es="$68,500–$74,400/año">$68,500–$74,400/year</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 <div class="rt-sim" id="sim-employee-cost">
   <span class="rt-sim-badge" data-es="Herramienta Interactiva">Interactive Tool</span>
-  <h3 class="rt-sim-title" data-es="Calculadora de Costo Real del Empleado">Employee True Cost Calculator</h3>
-  <p class="rt-sim-subtitle" data-es="Ingrese el salario, industria y beneficios de su primer empleado para ver el costo total.">Enter your first employee's salary, industry, and benefits to see the total cost.</p>
+  <h3 class="rt-sim-title" data-es="Calculadora de Costo del Empleado">Employee Cost Calculator</h3>
+  <p class="rt-sim-subtitle" data-es="Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.">Enter a salary, pick your industry, and see the full employer cost — FICA, FUTA, state taxes, workers' comp, and optional health insurance.</p>
 
   <div class="rt-sim-fields">
+    
     <div class="rt-sim-field">
       <label class="rt-sim-label" for="sim-salary" data-es="Salario Anual">Annual Salary</label>
-      <input class="rt-sim-input" id="sim-salary" type="number" value="60000" min="20000" max="500000" step="1000" oninput="simCalcEmployee('sim-employee-cost')">
+      <input class="rt-sim-input" id="sim-salary" type="number" value="60000" oninput="simCalcEmployee('sim-employee-cost')">
     </div>
     <div class="rt-sim-field">
       <label class="rt-sim-label" for="sim-industry" data-es="Industria">Industry</label>
       <select class="rt-sim-select" id="sim-industry" onchange="simCalcEmployee('sim-employee-cost')">
-        <option value="general" data-es="General / Oficina">General / Office</option>
-        <option value="construction" data-es="Construcción">Construction</option>
-        <option value="healthcare" data-es="Salud">Healthcare</option>
-        <option value="technology" data-es="Tecnología">Technology</option>
-        <option value="retail" data-es="Comercio / Hostelería">Retail / Hospitality</option>
+        <option value="General">General</option>
+        <option value="Construction">Construction</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="Tech">Tech</option>
+        <option value="Retail">Retail</option>
       </select>
     </div>
     <div class="rt-sim-field">
-      <span class="rt-sim-label" data-es="Seguro de Salud">Health Insurance</span>
       <div class="rt-sim-toggle-wrap">
         <label class="rt-sim-toggle">
-          <input type="checkbox" id="sim-health" onchange="simCalcEmployee('sim-employee-cost')">
+          <input type="checkbox" id="sim-health-toggle" onchange="simCalcEmployee('sim-employee-cost')">
           <span class="rt-sim-toggle-slider"></span>
         </label>
-        <span class="rt-sim-toggle-label" data-es="Incluir (~$7,000/año)">Include (~$7,000/yr)</span>
+        <span class="rt-sim-toggle-label" data-es="Incluir Seguro de Salud">Include Health Insurance</span>
       </div>
     </div>
   </div>
 
   <button class="rt-sim-reset" onclick="simReset('sim-employee-cost')" data-es="Reiniciar">Reset</button>
-
   <div id="sim-results-sim-employee-cost" class="rt-sim-results"></div>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-4-3-payroll-planning.jpg" alt="Business owner planning payroll and employee compensation at a desk" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -253,19 +273,11 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Prospera:&lt;/strong&gt; Ofrece talleres sobre los fundamentos de la ley laboral estadounidense para emprendedores hispanos, incluyendo clasificación de trabajadores, configuración de nómina y requisitos de cumplimiento.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hispanic Chamber of Commerce of Metro Orlando:&lt;/strong&gt; Lo conecta con consultores de recursos humanos bilingües y proveedores de nómina que entienden las necesidades de los propietarios de negocios internacionales.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Red del UCF BIP:&lt;/strong&gt; Referencias a abogados laborales con experiencia con fundadores internacionales, y acceso a la fuente de talento de UCF para reclutar graduados bilingües.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La gran fuerza laboral bilingüe de Central Florida significa que a menudo puede encontrar empleados que sirvan de puente entre las operaciones de su mercado de origen y su equipo en EE.UU., una ventaja significativa al coordinar entre países.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Latin American founders in Central Florida have specific hiring advantages and resources:</p></p>
-<ul><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a>:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando</a>:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>
+<p><ul><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a>:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando</a>:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul></p>
 <p><p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p></p>
 </div>
   </div>
 </div>
-<section class="rt-endcheck-section">
-  <div class="rt-endcheck-divider">
-    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
-      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
-    </svg>
-    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
-  </div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -347,6 +359,25 @@
     
   </div>
 </div>
+<div class="rt-exercise">
+  <h3 data-es="Calcule el Costo Real de Su Primer Empleado">Calculate Your First Employee's True Cost</h3>
+  <p><p>Using the cost breakdown table from this lesson, estimate the true annual cost of your first planned U.S. employee:</p><ol><li>Write down the base salary you expect to pay (use Central Florida market rates from lesson 4-1 if you are unsure).</li><li>Add employer FICA: multiply the salary by 0.0765.</li><li>Add FUTA: approximately $420.</li><li>Add Florida SUTA: estimate $200 for a new employer.</li><li>Add workers' compensation: estimate $1,000 for office work.</li><li>Optional: add health insurance contribution ($3,000–$7,000/year).</li><li>Total these numbers. How does it compare to the salary alone?</li></ol><p>Bring this estimate to your financial planning for U.S. operations. If the total surprises you, that is exactly why this exercise exists.</p></p>
+
+  <label for="exercise-exercise-ex-4-3-1" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-ex-4-3-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
+</div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-4-3-payroll-planning.jpg" alt="Business owner planning payroll and employee compensation at a desk" loading="lazy">
+  
+</figure>
+<section class="rt-endcheck-section">
+  <div class="rt-endcheck-divider">
+    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
+      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
+    </svg>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
+  </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es clara. Un empleado cuesta entre 15 y 30% más que su salario base — al igual que cada atracción cuesta más de operar de lo que sugiere el precio visible. Use un servicio de nómina desde el primer día. Presupueste los impuestos del empleador, seguros y beneficios antes de hacer cualquier oferta. Las cuentas son simples una vez que conoce las piezas, y un servicio de nómina maneja los detalles para que usted pueda concentrarse en construir su negocio.&lt;/p&gt;&lt;/p&gt;
@@ -396,8 +427,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
-  <script src="js/rt-language.js"></script>
   <script src="js/rt-simulations.js"></script>
+  <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

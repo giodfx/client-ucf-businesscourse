@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-3-3" data-module-id="module-3" data-module-index="3">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Contracts and When You Need a Lawyer</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 3</p>
@@ -122,20 +129,36 @@
 "><p><p>You have secured your intellectual property and your insurance is in place. Now comes the last major question for this module: which decisions can you make on your own, and which ones require a specialist?</p></p>
 <p><p>A business attorney in Central Florida charges $200 to $400 per hour. Call one for every question and you will burn through your budget fast. A founder from Ecuador saved $3,000 by filing his own LLC and EIN, then spent $800 on an attorney for the operating agreement and a major client contract. The comparison below shows where you can save and where you should invest.</p></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-3-3-attorney-consultation.jpg" alt="Entrepreneur consulting with a business attorney about legal decisions" loading="lazy">
-</figure>
 <div class="rt-ctbl-wrap" data-comparison-id="comparison-3-3-diy-vs-lawyer">
   <h3 class="rt-ctbl-title" data-es="Hacerlo Usted Mismo vs. Contratar un Abogado">DIY vs. Hire a Lawyer</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th></th><th data-es="Manéjelo Usted Mismo">Handle It Yourself</th><th data-es="Consiga un Abogado">Get a Lawyer</th></tr></thead>
-      <tbody><tr><td class="rt-ctbl-label" data-es="Entidad">Entity</td><td data-es="Presentación de entidad en SunBiz (LLC o Corp — $125)">SunBiz entity filing (LLC or Corp — $125)</td><td data-es="Configuración de entidad compleja (estatus de visa involucrado)">Complex entity setup (visa status involved)</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Impuestos/EIN">Tax/EIN</td><td data-es="Solicitud de EIN con el IRS (gratis)">EIN application with the IRS (free)</td><td data-es="Acuerdos con inversionistas (notas SAFE, rondas de capital)">Investor agreements (SAFE notes, equity rounds)</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Contratos">Contracts</td><td data-es="NDA básico usando una plantilla confiable">Basic NDA using a reputable template</td><td data-es="Cualquier contrato de más de $25,000">Any contract worth more than $25,000</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Cumplimiento">Compliance</td><td data-es="Registro de impuesto sobre ventas con Florida DOR (gratis)">Sales tax registration with Florida DOR (free)</td><td data-es="Cumplimiento regulatorio en industrias especializadas">Regulatory compliance in specialized industries</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Operaciones">Operations</td><td data-es="Configurar software contable (QuickBooks, Xero)">Setting up accounting software (QuickBooks, Xero)</td><td data-es="Contratos laborales y cláusulas de no competencia">Employment contracts and non-competes</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Finanzas/Legal">Finance/Legal</td><td data-es="Abrir una cuenta bancaria comercial">Opening a business bank account</td><td data-es="Disputas de PI, cartas de cese y desistimiento, o cualquier amenaza legal">IP disputes, cease-and-desist letters, or any threatened legal action</td></tr></tbody>
+      <thead><tr><th data-es="Manéjelo Usted Mismo">Handle It Yourself</th><th data-es="Consiga un Abogado">Get a Lawyer</th></tr></thead>
+      <tbody><tr><td data-es="Presentación de entidad en SunBiz (LLC o Corp — $125)"><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a> entity filing (LLC or Corp — $125)</td><td data-es="Configuración compleja de entidad (estatus de visa involucrado)">Complex entity setup (visa status involved)</td></tr>
+      <tr><td data-es="Solicitud de EIN ante el IRS (gratis)">EIN application with the IRS (free)</td><td data-es="Acuerdos de inversionistas (notas SAFE, rondas de capital)">Investor agreements (SAFE notes, equity rounds)</td></tr>
+      <tr><td data-es="NDA básico usando una plantilla confiable">Basic NDA using a reputable template</td><td data-es="Disputas de PI o cartas de cese y desista">IP disputes or cease-and-desist letters</td></tr>
+      <tr><td data-es="Registro de impuesto sobre ventas con Florida DOR (gratis)">Sales tax registration with Florida DOR (free)</td><td data-es="Contratos de empleo y cláusulas de no competencia">Employment contracts and non-competes</td></tr>
+      <tr><td data-es="Configurar software de contabilidad (QuickBooks, Xero)">Setting up accounting software (QuickBooks, Xero)</td><td data-es="Cualquier contrato por más de $25,000">Any contract worth more than $25,000</td></tr>
+      <tr><td data-es="Abrir una cuenta bancaria empresarial">Opening a business bank account</td><td data-es="Cumplimiento regulatorio en industrias especializadas">Regulatory compliance in specialized industries</td></tr>
+      <tr><td></td><td data-es="Cualquier situación que involucre amenaza de acción legal">Any situation involving threatened legal action</td></tr></tbody>
+    </table>
+  </div>
+</div>
+<div class="rt-ctbl-wrap" data-table-id="table-3-3-1">
+  <h3 class="rt-ctbl-title" data-es="Costos Legales — Rangos Realistas">Legal Costs — Realistic Ranges</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Servicio">Service</th><th data-es="Rango de Costo (principios de 2026)">Cost Range (as of early 2026)</th><th data-es="Notas">Notes</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="Consulta inicial">Initial consultation</td><td data-es="$0–$300">$0–$300</td><td data-es="Muchos abogados ofrecen una consulta gratuita de 30 minutos. Siempre pregunte.">Many attorneys offer a free 30-minute consultation. Always ask.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Revisión de contrato">Contract review</td><td data-es="$200–$500 por documento">$200–$500 per document</td><td data-es="Tarifa fija es común para contratos simples. Acuerdos complejos pueden ser por hora.">Flat fee is common for simple contracts. Complex agreements may be hourly.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Redacción de contrato (personalizado)">Contract drafting (custom)</td><td data-es="$500–$2,000">$500–$2,000</td><td data-es="Acuerdos de servicios, acuerdos de asociación, acuerdos de licencia.">Service agreements, partnership agreements, licensing deals.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Formación de entidad (con abogado)">Entity formation (with attorney)</td><td data-es="$500–$1,500">$500–$1,500</td><td data-es="Incluye asesoría en selección de entidad, presentación y redacción del acuerdo operativo.">Includes entity selection advice, filing, and operating agreement drafting.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Presentación de marca (con abogado)">Trademark filing (with attorney)</td><td data-es="$500–$1,000">$500–$1,000</td><td data-es="Honorario del abogado adicional a la tarifa del USPTO ($250–$350).">Attorney fee on top of <a href="https://www.uspto.gov" target="_blank" rel="noopener">USPTO</a> filing fee ($250–$350).</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Combinación inmigración-negocio">Immigration-business combo</td><td data-es="$2,000–$10,000+">$2,000–$10,000+</td><td data-es="Cuando su estructura de negocio afecta su camino migratorio. Presupueste en el rango alto.">When your business structure affects your visa pathway. Budget at the higher end.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Disputa comercial / carta de demanda">Business dispute / demand letter</td><td data-es="$1,000–$5,000">$1,000–$5,000</td><td data-es="Trabajo previo al litigio. Si llega a la corte, los costos escalan significativamente.">Pre-litigation work. If it goes to court, costs escalate significantly.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Tarifa por hora (Central FL)">Hourly rate (Central FL)</td><td data-es="$200–$400/hora">$200–$400/hour</td><td data-es="Abogados de negocios. Especialistas en inmigración pueden ser más altos.">Business attorneys. Immigration specialists may be higher.</td></tr>
+      </tbody>
     </table>
   </div>
 </div>
@@ -147,7 +170,7 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;SBDC (Small Business Development Center):&lt;/strong&gt; Asesoría empresarial individual gratuita, incluyendo referencias a abogados. El SBDC de UCF está ubicado en el campus y sirve a toda la región de Central Florida.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Red UCF BIP:&lt;/strong&gt; Pregunte a sus asesores del programa por referencias de abogados — trabajan con abogados que entienden a fundadores internacionales.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Florida Bar Lawyer Referral Service:&lt;/strong&gt; Lo conecta con abogados por especialidad para una consulta inicial (típicamente $25–$50 por 30 minutos).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Organizaciones de asistencia legal:&lt;/strong&gt; Si su presupuesto es extremadamente ajustado, algunas organizaciones de asistencia legal ofrecen servicios gratuitos o a costo reducido para emprendedores.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Cuando contrate un abogado, solicite cotizaciones de tarifa fija en vez de facturación por hora. Verifique que tenga experiencia con clientes internacionales. Y siempre obtenga el acuerdo de honorarios por escrito antes de que comience el trabajo. Los sectores de tecnología y aeroespacial de Central Florida han creado un amplio grupo de abogados con experiencia en negocios internacionales, PI e inmigración, por lo que encontrar al especialista correcto es más alcanzable aquí que en muchos otros mercados de EE.UU.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Think about this before you spend money on legal fees: exhaust the free resources available to you first.</p></p>
-<p><ul><li><strong>SBDC (Small Business Development Center):</strong> Free one-on-one business counseling, including referrals to attorneys. The UCF SBDC is located on campus and serves the entire Central Florida region.</li><li><strong>UCF BIP network:</strong> Ask your program advisors for attorney referrals — they work with lawyers who understand international founders.</li><li><strong>Florida Bar Lawyer Referral Service:</strong> Connects you with attorneys by specialty for an initial consultation (typically $25–$50 for 30 minutes).</li><li><strong>Legal Aid societies:</strong> If your budget is extremely tight, some legal aid organizations provide free or reduced-cost services to entrepreneurs.</li></ul></p>
+<p><ul><li><strong>SBDC (Small Business Development Center):</strong> Free one-on-one business counseling, including referrals to attorneys. The UCF SBDC is located on campus and serves the entire Central Florida region.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Ask your program advisors for attorney referrals — they work with lawyers who understand international founders.</li><li><strong><a href="https://www.floridabar.org/public/lrs/" target="_blank" rel="noopener">Florida Bar Lawyer Referral</a> Service:</strong> Connects you with attorneys by specialty for an initial consultation (typically $25–$50 for 30 minutes).</li><li><strong>Legal Aid societies:</strong> If your budget is extremely tight, some legal aid organizations provide free or reduced-cost services to entrepreneurs.</li></ul></p>
 <p><p>When you do hire a lawyer, ask for flat-fee quotes instead of hourly billing. Verify they have global client experience. And always get the fee agreement in writing before work begins. Central Florida's technology and aerospace sectors have created a deep pool of attorneys experienced in international business, IP, and immigration, so finding the right specialist is more achievable here than in many other U.S. markets.</p></p>
 </div>
   </div>
@@ -164,7 +187,7 @@
         <p class="rt-timeline-label" data-es="Formación">Formation</p>
         <h4 class="rt-timeline-step-title" data-es="Configuración de Entidad">Entity Setup</h4>
         <div class="rt-timeline-desc"><div data-es-html="&lt;p&gt;Para LLCs simples, puede hacerlo usted mismo a través de SunBiz. Para C-Corps que buscan inversionistas, un abogado asegura los estatutos y la estructura accionaria adecuados.&lt;/p&gt;
-"><p>For simple LLCs, you can DIY through SunBiz. For C-Corps seeking investors, an attorney ensures proper bylaws and stock structure.</p>
+"><p>For simple LLCs, you can DIY through <a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a>. For C-Corps seeking investors, an attorney ensures proper bylaws and stock structure.</p>
 </div></div>
       </div>
     </div>
@@ -243,23 +266,23 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Hispanic Bar Association of Central Florida:&lt;/strong&gt; Referencias de abogados por especialidad, eventos de networking y programas pro bono&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Prospera:&lt;/strong&gt; Ofrece talleres legales para emprendedores hispanos, incluyendo formación de negocios y fundamentos de contratos&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Red UCF BIP:&lt;/strong&gt; Acceso a abogados verificados que trabajan regularmente con fundadores internacionales de Latinoamérica&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Tener un abogado que hable su idioma y entienda su contexto cultural puede hacer una diferencia significativa, especialmente para decisiones de negocio vinculadas a inmigración.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Interestingly, Central Florida has a strong network of bilingual attorneys who specialize in international business:</p></p>
-<ul><li><strong><a href="https://hbacf.com/" target="_blank" rel="noopener">Hispanic Bar Association of Central Florida</a>:</strong> Attorney referrals by specialty, networking events, and pro bono programs</li><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a>:</strong> Offers legal workshops for Hispanic entrepreneurs, including business formation and contract basics</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Access to vetted attorneys who regularly work with international founders from Latin America</li></ul>
+<p><ul><li><strong><a href="https://hbacf.com/" target="_blank" rel="noopener">Hispanic Bar Association of Central Florida</a>:</strong> Attorney referrals by specialty, networking events, and pro bono programs</li><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a>:</strong> Offers legal workshops for Hispanic entrepreneurs, including business formation and contract basics</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Access to vetted attorneys who regularly work with international founders from Latin America</li></ul></p>
 <p><p>Having an attorney who speaks your language and understands your cultural context can make a significant difference, especially for immigration-linked business decisions.</p></p>
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-3-3-attorney-consultation.jpg" alt="Entrepreneur consulting with a business attorney about legal decisions" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Piense en sus primeros 6 meses de operaciones en EE.UU. ¿Qué tareas legales puede manejar usted mismo? ¿Dónde necesitará ayuda profesional? Escriba sus 3 prioridades legales principales y estime el costo total usando los rangos de esta lección. ¿Ya ha identificado un abogado o necesita comenzar esa búsqueda?">Think about your first 6 months of U.S. operations. What legal tasks can you handle yourself? Where will you need professional help? Write down your top 3 legal priorities and estimate the total cost using the ranges from this lesson. Have you identified an attorney yet, or do you need to start that search?</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -272,7 +295,7 @@
       
       <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="Presentar un documento de formación de LLC en SunBiz">Filing an LLC formation document on SunBiz</span>
+        <span class="rt-kc-text" data-es="Presentar un documento de formación de LLC en SunBiz">Filing an LLC formation document on [SunBiz](https://sunbiz.org)</span>
       </button>
       <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
@@ -287,7 +310,7 @@
         <span class="rt-kc-text" data-es="Estructurar un negocio para respaldar una solicitud de visa E-2">Structuring a business to support an E-2 visa application</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La presentación de LLC en SunBiz es sencilla y se puede completar en línea por $125 sin asistencia legal. Los acuerdos de inversionistas, disputas de PI y la estructuración de negocios vinculada a inmigración involucran complejidad legal significativa y riesgo financiero — estas situaciones ameritan asesoría legal profesional.">SunBiz LLC filing is straightforward and can be completed online for $125 without legal assistance. Investor agreements, IP disputes, and immigration-linked business structuring all involve significant legal complexity and financial risk — these situations warrant professional legal counsel.</p></div>
+    <div class="rt-kc-explanation" hidden><p data-es="La presentación de LLC en SunBiz es sencilla y se puede completar en línea por $125 sin asistencia legal. Los acuerdos de inversionistas, disputas de PI y la estructuración de negocios vinculada a inmigración involucran complejidad legal significativa y riesgo financiero — estas situaciones ameritan asesoría legal profesional."><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a> LLC filing is straightforward and can be completed online for $125 without legal assistance. Investor agreements, IP disputes, and immigration-linked business structuring all involve significant legal complexity and financial risk — these situations warrant professional legal counsel.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -326,7 +349,7 @@
       </button>
       <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="$1,200–$3,000 — cubriendo formación de entidad asistida por abogado ($500–$1,500), revisión de contrato ($200–$500) y presentación de marca con abogado ($500–$1,000 más tarifas del USPTO)">$1,200–$3,000 — covering attorney-assisted entity formation ($500–$1,500), contract review ($200–$500), and trademark filing with attorney ($500–$1,000 plus USPTO fees)</span>
+        <span class="rt-kc-text" data-es="$1,200–$3,000 — cubriendo formación de entidad asistida por abogado ($500–$1,500), revisión de contrato ($200–$500) y presentación de marca con abogado ($500–$1,000 más tarifas del USPTO)">$1,200–$3,000 — covering attorney-assisted entity formation ($500–$1,500), contract review ($200–$500), and trademark filing with attorney ($500–$1,000 plus [USPTO](https://www.uspto.gov) fees)</span>
       </button>
       <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
@@ -337,14 +360,14 @@
         <span class="rt-kc-text" data-es="$5,000–$8,000 — necesita un abogado de tiempo completo en retención para el primer año">$5,000–$8,000 — she needs a full-time attorney on retainer for the first year</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Basándose en los rangos de costos de esta lección: la formación de entidad con abogado cuesta $500–$1,500, la revisión de contrato es $200–$500 por documento, y la presentación de marca con abogado es $500–$1,000 más la tarifa del USPTO de $250–$350. El total cae en el rango de $1,200–$3,000. La opción A subestima el costo de la participación del abogado. Las opciones C y D sobreestiman significativamente los costos para estos servicios específicos.">Based on the cost ranges in this lesson: entity formation with attorney runs $500–$1,500, contract review is $200–$500 per document, and trademark filing with attorney is $500–$1,000 plus the $250–$350 USPTO fee. The total falls in the $1,200–$3,000 range. Option A underestimates the cost of attorney involvement. Options C and D significantly overestimate the costs for these specific services.</p></div>
+    <div class="rt-kc-explanation" hidden><p data-es="Basándose en los rangos de costos de esta lección: la formación de entidad con abogado cuesta $500–$1,500, la revisión de contrato es $200–$500 por documento, y la presentación de marca con abogado es $500–$1,000 más la tarifa del USPTO de $250–$350. El total cae en el rango de $1,200–$3,000. La opción A subestima el costo de la participación del abogado. Las opciones C y D sobreestiman significativamente los costos para estos servicios específicos.">Based on the cost ranges in this lesson: entity formation with attorney runs $500–$1,500, contract review is $200–$500 per document, and trademark filing with attorney is $500–$1,000 plus the $250–$350 <a href="https://www.uspto.gov" target="_blank" rel="noopener">USPTO</a> fee. The total falls in the $1,200–$3,000 range. Option A underestimates the cost of attorney involvement. Options C and D significantly overestimate the costs for these specific services.</p></div>
     
   </div>
 </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es clara. Use los recursos gratuitos primero: asesoría del SBDC, referencias del UCF BIP y servicios de referencia del Florida Bar. Maneje las presentaciones simples usted mismo (SunBiz, EIN, registro de impuesto sobre ventas). Reserve su presupuesto de abogado para las decisiones que conllevan riesgo real — acuerdos de inversionistas, protección de PI, estructuración vinculada a inmigración y contratos por montos significativos. Aplique este principio: solicite tarifas fijas, verifique experiencia internacional y siempre obtenga el acuerdo de honorarios por escrito. Evalúe cada necesidad legal contra las tablas de costos anteriores antes de comprometerse. Asegúrese de que los especialistas correctos estén en la mesa antes de tomar decisiones que afecten su negocio a largo plazo.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is clear. Use free resources first: SBDC counseling, UCF BIP referrals, and Florida Bar referral services. Handle simple filings yourself (SunBiz, EIN, sales tax registration). Save your attorney budget for the decisions that carry real risk — investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Apply this principle: ask for flat fees, verify international experience, and always get the fee agreement in writing. Evaluate each legal need against the cost tables above before you commit. Make sure the right specialists are in the room before you make decisions that affect your business long-term.</p></p>
+"><p><p>The takeaway is clear. Use free resources first: SBDC counseling, <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> referrals, and Florida Bar referral services. Handle simple filings yourself (<a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a>, EIN, sales tax registration). Save your attorney budget for the decisions that carry real risk — investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Apply this principle: ask for flat fees, verify international experience, and always get the fee agreement in writing. Evaluate each legal need against the cost tables above before you commit. Make sure the right specialists are in the room before you make decisions that affect your business long-term.</p></p>
 </div>
 </div>
 </section>
@@ -390,7 +413,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

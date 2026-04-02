@@ -56,20 +56,58 @@
       "data": {
         "seedFunding": 500000,
         "cities": [
-          { "label": "Central Florida", "monthlyBurn": 30000, "runway": 16.7, "color": "#E8A838", "highlight": true },
-          { "label": "Austin", "monthlyBurn": 38000, "runway": 13.2, "color": "#48B07A" },
-          { "label": "Miami", "monthlyBurn": 42000, "runway": 11.9, "color": "#2C5F8A" },
-          { "label": "NYC", "monthlyBurn": 55000, "runway": 9.1, "color": "#1A3A5C" },
-          { "label": "Silicon Valley", "monthlyBurn": 50000, "runway": 10.0, "color": "#D4622B" }
+          {
+            "label": "Central Florida",
+            "monthlyBurn": 30000,
+            "runway": 16.7,
+            "color": "#E8A838",
+            "highlight": true
+          },
+          {
+            "label": "Austin",
+            "monthlyBurn": 38000,
+            "runway": 13.2,
+            "color": "#48B07A"
+          },
+          {
+            "label": "Miami",
+            "monthlyBurn": 42000,
+            "runway": 11.9,
+            "color": "#2C5F8A"
+          },
+          {
+            "label": "NYC",
+            "monthlyBurn": 55000,
+            "runway": 9.1,
+            "color": "#1A3A5C"
+          },
+          {
+            "label": "Silicon Valley",
+            "monthlyBurn": 50000,
+            "runway": 10,
+            "color": "#D4622B"
+          }
         ],
         "insight": "Central Florida gives you 6-7 extra months of runway compared to Silicon Valley on the same $500K seed round.",
         "supplementary": {
           "title": "Key Location Factors",
           "items": [
-            { "label": "LATAM Direct Flights (MCO)", "value": "30+ cities" },
-            { "label": "Bilingual Workforce", "value": "30%+ of metro Orlando" },
-            { "label": "State Income Tax", "value": "0% (Florida)" },
-            { "label": "Florida VC (2024)", "value": "~$5.5B (~4% of U.S.)" }
+            {
+              "label": "LATAM Direct Flights (MCO)",
+              "value": "30+ cities"
+            },
+            {
+              "label": "Bilingual Workforce",
+              "value": "30%+ of metro Orlando"
+            },
+            {
+              "label": "State Income Tax",
+              "value": "0% (Florida)"
+            },
+            {
+              "label": "Florida VC (2024)",
+              "value": "~$5.5B (~4% of U.S.)"
+            }
           ]
         }
       },
@@ -135,6 +173,12 @@
       "id": "exercise-7-4-1",
       "title": "Your Location Decision Framework",
       "instructions": "<p>Create a weighted comparison for your specific business using these steps:</p><ol><li>List your <strong>top 5 criteria</strong> for choosing a U.S. base (examples: customer proximity, cost, talent availability, flight connectivity, industry ecosystem, support programs)</li><li><strong>Weight each criterion</strong> from 1-5 based on importance to your business</li><li><strong>Score Central Florida</strong> against each criterion (1-10 scale) using the data from this lesson</li><li><strong>Score your alternative city</strong> (Miami, NYC, Silicon Valley, or Austin) against each criterion</li><li><strong>Multiply weight x score</strong> for each criterion and total them up</li></ol><p>This exercise forces you to move beyond gut feeling and evaluate the decision with data. Bring the results to your UCF BIP conversation — it will help the team understand your priorities and advise you more effectively.</p>"
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-7-4",
+      "imagePath": "images/scenarios/lesson-7-4-latam-gateway.jpg",
+      "title": "Florida as a gateway connecting Latin American and U.S. business markets"
     },
     {
       "type": "key-takeaway",

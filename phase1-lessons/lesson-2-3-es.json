@@ -168,14 +168,6 @@
       ]
     },
     {
-      "type": "reflection",
-      "id": "ref-2-3-1",
-      "title": "Reflexión: Su Estrategia Bancaria",
-      "placement": "after-section",
-      "sectionId": "text-2-3-fund",
-      "prompt": "¿Qué documentos tiene actualmente listos para una solicitud de cuenta bancaria en EE.UU.? ¿Qué le falta? Escriba su plan para los primeros 12 meses: ¿a cuál banco se acercará primero, cómo manejará las transferencias internacionales y cuándo comenzará a construir crédito en EE.UU.?"
-    },
-    {
       "type": "key-takeaway",
       "id": "kt-2-3-1",
       "title": "Punto Clave",

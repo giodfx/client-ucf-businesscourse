@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-5-2" data-module-id="module-5" data-module-index="5">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Customer Acquisition and Selling to U.S. Companies</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="14" r="8" fill="currentColor" opacity="0.8"/><path d="M8 38 Q16 28 24 32 Q32 36 40 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M6 42 Q18 34 28 36 Q36 38 42 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.4"/><line x1="24" y1="6" x2="24" y2="2" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="30" y1="8" x2="34" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="18" y1="8" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 5</p>
@@ -79,6 +86,10 @@
               <a href="lesson-5-2.html" class="rt-stop-link rt-stop-link--current" aria-current="page">U.S. Customer Acquisition — How Americans Buy</a>
             </li>
 
+            <li class="rt-route-stop" data-lesson-id="lesson-5-3">
+              <span class="rt-stop-dot" aria-hidden="true"></span>
+              <a href="lesson-5-3.html" class="rt-stop-link" >Central Florida — Your Market Opportunity</a>
+            </li>
         </ol>
         <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
@@ -240,42 +251,42 @@
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="0" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Formulario W-9 completado con su EIN (requerido por cualquier empresa de EE.UU. que le pague $600+/año)">W-9 form completed with your EIN (required by any U.S. company paying you $600+/year)</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="1" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Póliza de seguro de responsabilidad general activa ($500-$2,000/año)">General liability insurance policy active ($500-$2,000/year)</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="2" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Certificado de Seguro (COI) listo para enviar cuando se solicite">Certificate of Insurance (COI) ready to send on request</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="3" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Seguro de responsabilidad profesional o cibernética (si vende servicios o maneja datos)">Professional or cyber liability insurance (if selling services or handling data)</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="4" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Registro de proveedor completado en el sistema de compras del comprador (Ariba, Coupa, Oracle — permita 1 a 4 semanas)">Vendor registration completed in buyer's procurement system (Ariba, Coupa, Oracle — allow 1-4 weeks)</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="5" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Plantilla de factura de muestra con formato estándar de EE.UU. (términos Net 30, EIN, datos bancarios)">Sample invoice template with U.S.-standard format (Net 30 terms, EIN, bank details)</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="6" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Cuenta bancaria empresarial en EE.UU. activa para recibir pagos ACH o transferencia bancaria">U.S. business bank account active for receiving ACH or wire payments</span>
+    <span class="rt-checklist-text"></span>
   </label>
   <label class="rt-checklist-item">
     <input type="checkbox" class="rt-checklist-input" data-index="7" onchange="saveChecklist('checklist-5-2-vendor')">
     <span class="rt-checklist-check"></span>
-    <span class="rt-checklist-text" data-es="Términos de pago documentados y listos para negociar (Net 30, Net 45 o Net 60)">Payment terms documented and ready to negotiate (Net 30, Net 45, or Net 60)</span>
+    <span class="rt-checklist-text"></span>
   </label>
 </div>
 <div class="rt-callout rt-callout--callout">
@@ -291,14 +302,6 @@
 </div>
   </div>
 </div>
-<section class="rt-endcheck-section">
-  <div class="rt-endcheck-divider">
-    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
-      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
-    </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona sobre lo que Aprendiste">Reflect on What You Learned</h2>
-  </div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -380,10 +383,22 @@
     
   </div>
 </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Imagine a sus primeros 3 clientes en EE.UU. ¿Quiénes son: empresas específicas, industrias o tipos de compradores? Escriba sus nombres o perfiles. Ahora elija el canal que usará para llegar a cada uno de ellos (contacto por LinkedIn, feria comercial, referido, anuncios pagados, marketplace). Finalmente, ¿cuál es su plan de seguimiento? Recuerde: en EE.UU., si usted no hace seguimiento en 24 horas, alguien más ya lo hizo. Escriba exactamente qué enviará y cuándo.">Picture your first 3 U.S. customers. Who are they : specific companies, industries, or buyer types? Write down their names or profiles. Now pick the one channel you'll use to reach each of them (LinkedIn outreach, trade show, referral, paid ads, marketplace). Finally, what's your follow-up plan? Remember: in the U.S., if you don't follow up within 24 hours, someone else already has. Write down exactly what you'll send and when.</p>
+<div class="rt-exercise">
+  <h3 data-es="Construya Su Kit de Preparación para Ventas en EE.UU.">Build Your U.S. Sales Readiness Kit</h3>
+  <div data-es-html="&lt;p&gt;&lt;p&gt;Cree una lista de verificación de todo lo que necesita antes de hacer su primera venta en EE.UU. Marque cada elemento como &quot;listo&quot;, &quot;en progreso&quot; o &quot;no iniciado&quot;:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;EIN obtenido&lt;/strong&gt;. ¿Tiene su Employer Identification Number?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Formulario W-9 completado&lt;/strong&gt;. ¿Tiene un PDF listo para enviar?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Seguro de responsabilidad general&lt;/strong&gt;. ¿Tiene una póliza? ¿Puede solicitar un COI?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cuenta bancaria en EE.UU.&lt;/strong&gt;. ¿Puede recibir pagos ACH?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Sitio web&lt;/strong&gt;. ¿Es profesional, con precios y mensajes para el mercado de EE.UU.?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Sistema CRM&lt;/strong&gt;. ¿Puede rastrear prospectos y hacer seguimiento de manera sistemática?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Plan de tiempo de respuesta&lt;/strong&gt;. ¿Puede responder consultas en pocas horas durante el horario comercial de EE.UU.?&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Materiales de ventas&lt;/strong&gt;. ¿Tiene un resumen de una página, página de precios y casos de estudio?&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Para cualquier elemento marcado como &quot;no iniciado&quot;, identifique el siguiente paso específico y el plazo para completarlo. Esta lista de verificación es su línea base de preparación como proveedor para ventas B2B en EE.UU.&lt;/p&gt;&lt;/p&gt;
+"><p><p>Create a checklist of everything you need before making your first U.S. sale. Mark each item as "ready," "in progress," or "not started":</p><ol><li><strong>EIN obtained</strong> . Do you have your Employer Identification Number?</li><li><strong>W-9 form completed</strong> . Is a PDF ready to send?</li><li><strong>General liability insurance</strong> . Do you have a policy? Can you request a COI?</li><li><strong>U.S. bank account</strong> . Can you receive ACH payments?</li><li><strong>Website</strong> . Is it professional, with U.S.-market pricing and messaging?</li><li><strong>CRM system</strong> . Can you track leads and follow up systematically?</li><li><strong>Response time plan</strong> . Can you respond to inquiries within a few hours during U.S. business hours?</li><li><strong>Sales materials</strong> . Do you have a one-pager, pricing page, and case studies?</li></ol><p>For any item marked "not started," identify the specific next step and timeline to get it done. This checklist is your vendor readiness baseline for U.S. B2B sales.</p></p>
 </div>
+  <label for="exercise-exercise-ex-5-2-1" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-ex-5-2-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
+</div>
+<section class="rt-endcheck-section">
+  <div class="rt-endcheck-divider">
+    <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
+      <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
+    </svg>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
+  </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Conclusión Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es simple. La velocidad gana en el mercado de EE.UU. Responda rápido, establezca precios claros basados en las normas del mercado estadounidense y haga seguimiento con cuidado. Para ventas B2B, prepare sus documentos de incorporación de proveedor (W-9, certificados de seguro, registro de empresa) antes de comenzar a vender. Los fundadores que cierran negocios en EE.UU. son los que facilitan que los compradores digan que sí — su papeleo está listo y su negocio está abierto cuando llega la oportunidad.&lt;/p&gt;&lt;/p&gt;
@@ -415,10 +430,10 @@
             </div>
           </a>
           
-          <a href="lesson-6-1.html" class="rt-nav-btn rt-nav-next">
+          <a href="lesson-5-3.html" class="rt-nav-btn rt-nav-next">
             <div>
               <span class="rt-nav-label" data-es="Siguiente Parada">Next Stop</span>
-              <span class="rt-nav-title">Communication Styles — What Americans Actually Mean</span>
+              <span class="rt-nav-title">Central Florida — Your Market Opportunity</span>
             </div>
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -433,7 +448,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

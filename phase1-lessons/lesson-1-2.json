@@ -155,11 +155,10 @@
       "content": "<p>Notice how registration-related costs can add up faster than expected. Here are typical ranges:</p>\n\n<ul><li><strong>SunBiz filing fee:</strong> Typically around $125 for an LLC or $70 for a Corporation.</li><li><strong>Registered agent service:</strong> Typically $100–$300 per year if you are not in Florida full-time.</li><li><strong>Virtual mailbox (mailing address):</strong> Often $10–$30 per month.</li><li><strong>Operating agreement (attorney-drafted):</strong> Often $300–$800 for an LLC. DIY templates are available, but may miss details specific to foreign-owned entities.</li><li><strong>EIN application:</strong> Free from the IRS — no reason to pay a third party for this.</li></ul>\n\n<p>The most common overspend at this stage is paying a service hundreds to thousands of dollars for something you can do yourself on SunBiz in about 30 minutes. The filing itself is simple. Where expert help truly adds value is drafting an operating agreement, setting up corporate bylaws, or advising on entity type. Save your budget for those talks.</p>"
     },
     {
-      "type": "reflection",
-      "id": "ref-1-2-1",
-      "title": "Reflection: Your Registration Plan",
-      "placement": "end-of-lesson",
-      "prompt": "Think about where you are in the process:\n\n- Have you decided on an entity type? If not, what questions remain?\n- Do you have a business name in mind? Have you checked availability on SunBiz?\n- What will you use for a registered agent and registered address?\n- If you are not in Florida, how will you handle the physical presence requirement?\n\nWrite down any gaps that need to be resolved before you can file. Having a clear plan before you start the SunBiz process makes the entire experience smoother."
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-1-2",
+      "imagePath": "images/scenarios/lesson-1-2-registered-agent.jpg",
+      "title": "Registered agent reviewing Florida business formation documents"
     },
     {
       "type": "knowledge-check",

@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-2-2" data-module-id="module-2" data-module-index="2">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Sales Tax, Accounting, and Keeping the Books</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="12" width="20" height="28" rx="2" fill="currentColor" opacity="0.7"/><path d="M18 20 h12 M18 26 h12 M18 32 h8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="14" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M22 12 v4 M24 11 v6 M26 12 v4" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 2</p>
@@ -105,7 +112,7 @@
 <section class="video-section" aria-label="Lesson Video">
   <div class="avatar-video-wrap" data-lesson-id="lesson-2-2" data-video-en="../media/video/avatars/lesson-2-2-avatar.mp4">
     <video id="avatar-video-lesson-2-2" controls playsinline preload="metadata"
-      poster="../media/images/avatars/scenes/lesson-2-2-avatar.png"
+      poster="images/avatars/scenes/lesson-2-2-avatar.jpg"
       style="width:100%;max-width:832px;border-radius:12px;">
       <source src="../media/video/avatars/lesson-2-2-avatar.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -130,9 +137,6 @@
 <p><p>Before collecting sales tax, register for a <strong>Sales Tax Certificate</strong> with the Florida Department of Revenue : free, done online. Once registered, collect the correct rate on every taxable sale and remit to the state monthly, quarterly, or annually depending on volume.</p></p>
 <p><p>Not everything is taxable. Most services and groceries (unprepared food) are exempt. Prepared food, clothing, electronics, and most physical products are taxable. Software and SaaS fall into a gray area — check with a CPA if you're selling digital products.</p></p>
 </div>
-<figure class="lesson-image" role="figure">
-  <img src="images/scenarios/lesson-2-2-sales-tax-research.jpg" alt="Business owner researching Florida sales tax requirements on a laptop" loading="lazy">
-</figure>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
@@ -284,6 +288,21 @@
 <p><p>A food truck founder from Peru kept receipts in a shoebox. When his CPA asked for quarterly expense reports, he spent an entire weekend matching paper receipts to bank transactions. QuickBooks from day one would have taken five minutes.</p></p>
 <p><p>The tools are affordable. <strong>QuickBooks Online</strong> ($30–$60/month) is one of the most widely used. <strong>Xero</strong> ($15–$78/month) is popular with international founders for its multi-currency support. <strong>Wave</strong> is free for basic invoicing and accounting. Pick one before your first sale and connect it to your bank account.</p></p>
 </div>
+<div class="rt-ctbl-wrap" data-table-id="table-2-2-1">
+  <h3 class="rt-ctbl-title" data-es="Costos Anuales de Contabilidad — Qué Presupuestar">Annual Accounting Costs — What to Budget</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Servicio">Service</th><th data-es="Rango de Costo (a principios de 2026)">Cost Range (as of early 2026)</th><th data-es="Notas">Notes</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="Software de contabilidad">Bookkeeping software</td><td data-es="$20–$60/mes ($240–$720/año)">$20–$60/month ($240–$720/year)</td><td data-es="QuickBooks Online, Xero, o Wave (nivel gratuito disponible)">QuickBooks Online, Xero, or Wave (free tier available)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="CPA para preparación de impuestos">CPA for tax preparation</td><td data-es="$500–$2,500/año">$500–$2,500/year</td><td data-es="Rango superior para clientes internacionales con declaraciones de tratados, FBAR, o declaraciones en múltiples estados">Higher end for international clients with treaty filings, FBAR, or multi-state returns</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Declaración de impuesto sobre ventas">Sales tax filing</td><td data-es="Frecuentemente incluido con el CPA o $20–$50/mes">Often included with CPA or $20–$50/month</td><td data-es="Avalara o TaxJar para automatización en múltiples estados">Avalara or TaxJar for multi-state automation</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Servicio de nómina (si contrata empleados)">Payroll service (if hiring)</td><td data-es="$40–$100/mes + tarifas por empleado">$40–$100/month + per-employee fees</td><td data-es="Gusto, ADP Run, o Paychex. Maneja retenciones y declaraciones.">Gusto, ADP Run, or Paychex. Handles withholding and filings.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Servicio de contabilidad (tercerizado)">Bookkeeping service (outsourced)</td><td data-es="$200–$500/mes">$200–$500/month</td><td data-es="Si no quiere hacerlo usted mismo. Bench, Pilot, o firmas locales.">If you don't want to do it yourself. Bench, Pilot, or local firms.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 <div class="rt-accordion" data-accordion-id="int-2-2-1">
   <h3 class="rt-accordion-title" data-es="Métodos de Contabilidad — ¿Cuál Le Conviene?">Bookkeeping Methods — Which One Fits?</h3>
   
@@ -346,18 +365,18 @@
 </div>
   </div>
 </div>
+<figure class="lesson-image" role="figure">
+  <img src="images/scenarios/lesson-2-2-sales-tax-research.jpg" alt="Business owner researching Florida sales tax requirements on a laptop" loading="lazy">
+  
+</figure>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
     <svg class="rt-endcheck-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="¿Su producto o servicio genera obligaciones de impuesto sobre ventas en Florida? Si está vendiendo en múltiples estados de EE.UU., ¿cuáles? Escriba la herramienta de contabilidad que planea usar y cuándo la configurará en relación con su primera venta en EE.UU.">Does your product or service trigger sales tax obligations in Florida? If you're selling in multiple U.S. states, which ones? Write down the bookkeeping tool you plan to use and when you'll set it up relative to your first U.S. sale.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -488,7 +507,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

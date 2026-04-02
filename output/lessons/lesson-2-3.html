@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-2-3" data-module-id="module-2" data-module-index="2">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Banking Deep Dive — The Reality for International Founders</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #2c5282 0%, #1a365d 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="12" width="20" height="28" rx="2" fill="currentColor" opacity="0.7"/><path d="M18 20 h12 M18 26 h12 M18 32 h8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="14" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M22 12 v4 M24 11 v6 M26 12 v4" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 2</p>
@@ -105,7 +112,7 @@
 <section class="video-section" aria-label="Lesson Video">
   <div class="avatar-video-wrap" data-lesson-id="lesson-2-3" data-video-en="../media/video/avatars/lesson-2-3-avatar.mp4">
     <video id="avatar-video-lesson-2-3" controls playsinline preload="metadata"
-      poster="../media/images/avatars/scenes/lesson-2-3-avatar.png"
+      poster="images/avatars/scenes/lesson-2-3-avatar.jpg"
       style="width:100%;max-width:832px;border-radius:12px;">
       <source src="../media/video/avatars/lesson-2-3-avatar.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -132,7 +139,7 @@
 &lt;p&gt;&lt;p&gt;&lt;strong&gt;Bancos amigables para internacionales (principios de 2026):&lt;/strong&gt; Mercury, Relay, Centennial Bank y Valley National Bank han mostrado mayor disposición para trabajar con fundadores internacionales. Chase y Bank of America tienen requisitos más estrictos para no residentes. Siempre llame antes y confirme antes de visitar una sucursal.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; Las políticas bancarias no son uniformes entre instituciones, y cambian frecuentemente. Lo que funcionó para otro fundador hace seis meses puede no aplicar a su situación hoy. Llame con anticipación, haga preguntas específicas y obtenga respuestas por escrito cuando sea posible.&lt;/p&gt;&lt;/p&gt;
 "><p><p>A Kenyan fintech founder applied at three banks, each asking for more KYC documents: proof of where her funds came from, notarized business records, a letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p></p>
-<p><p><strong>International-friendly banks (early 2026):</strong> Mercury, Relay, Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p></p>
+<p><p><strong>International-friendly banks (early 2026):</strong> <a href="https://mercury.com" target="_blank" rel="noopener">Mercury</a>, <a href="https://relayfi.com" target="_blank" rel="noopener">Relay</a>, Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p></p>
 <p><p><strong>Important:</strong> Banking policies are not uniform across institutions, and they change frequently. What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p></p>
 </div>
 <div class="rt-scenario" data-scenario-id="branch-scenario-2-3-bank-rejection">
@@ -148,8 +155,8 @@
       <strong data-es="Llamar al banco y preguntar específicamente por qué fue rechazado">Call the bank and ask specifically why you were rejected</strong>
       
     </button>
-    <button class="scenario-choice" onclick="makeBranchingChoice('branch-scenario-2-3-bank-rejection', 2)" data-outcome="Practical and common. Many international founders use Mercury or Relay as their primary account while building U.S. banking history. These fintech platforms have more flexible requirements for non-residents. You can always add a traditional bank later." data-outcome-es="Práctico y común. Muchos fundadores internacionales usan Mercury o Relay como su cuenta principal mientras construyen historial bancario en EE.UU. Estas plataformas fintech tienen requisitos más flexibles para no residentes. Siempre puede agregar un banco tradicional después." data-is-good="false" data-is-end="true">
-      <strong data-es="Cambiar a un procesador de pagos como Stripe o Mercury mientras resuelve la situación">Switch to a payment processor like Stripe or Mercury while you sort it out</strong>
+    <button class="scenario-choice" onclick="makeBranchingChoice('branch-scenario-2-3-bank-rejection', 2)" data-outcome="Practical and common. Many international founders use [Mercury](https://mercury.com) or [Relay](https://relayfi.com) as their primary account while building U.S. banking history. These fintech platforms have more flexible requirements for non-residents. You can always add a traditional bank later." data-outcome-es="Práctico y común. Muchos fundadores internacionales usan Mercury o Relay como su cuenta principal mientras construyen historial bancario en EE.UU. Estas plataformas fintech tienen requisitos más flexibles para no residentes. Siempre puede agregar un banco tradicional después." data-is-good="false" data-is-end="true">
+      <strong data-es="Cambiar a un procesador de pagos como Stripe o Mercury mientras resuelve la situación">Switch to a payment processor like Stripe or [Mercury](https://mercury.com) while you sort it out</strong>
       
     </button>
   </div>
@@ -177,7 +184,7 @@
 &lt;p&gt;&lt;p&gt;El crédito afecta más que la banca. Determina los términos de arrendamiento, los plazos de pago con proveedores (Net 30/Net 60) y el acceso a préstamos. Una fundadora peruana pagó tres meses de alquiler por adelantado ($6,000 en capital inmovilizado) porque no tenía historial crediticio en EE.UU. Comience a construir crédito el día que abra su cuenta bancaria.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Building U.S. credit is like establishing your reputation in the Financial District. You start as a stranger — nobody knows you. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. The good news is that the Orlando metro has over 400 bank branches and credit union locations, so once you have your documents in order, options are plentiful. Here's the path to build credit:</p></p>
 <p><p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p></p>
-<p><p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. Mercury offers a business card connected to your Mercury account.</p></p>
+<p><p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. <a href="https://mercury.com" target="_blank" rel="noopener">Mercury</a> offers a business card connected to your <a href="https://mercury.com" target="_blank" rel="noopener">Mercury</a> account.</p></p>
 <p><p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p></p>
 <p><p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p></p>
 </div><h2 data-es="Procesadores de Pago, Transferencias Bancarias y Movimiento de Dinero">Payment Processors, Wire Transfers, and Moving Money</h2>
@@ -277,18 +284,14 @@
 "><p><p>Standing at the edge of the Financial District, you can see the investor tower in the distance. Most early-stage founders are not ready to walk in there yet. Here is a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p></p>
 <p><p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p></p>
 <p><p>Why does this matter? The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p></p>
-<p><p>We cover funding pathways in more depth in phases 2 and 3 of the UCF BIP market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p></p>
+<p><p>We cover funding pathways in more depth in phases 2 and 3 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p></p>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Recursos para Latinoamérica — Banca">Latin America Resources — Banking</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Este es el punto clave para fundadores latinoamericanos. Central Florida tiene recursos bancarios diseñados para usted. Varios bancos en el área de Orlando tienen personal que habla español y están acostumbrados a trabajar con clientes internacionales. La Hispanic Chamber of Commerce of Metro Orlando organiza talleres bancarios que cubren la configuración de cuentas y la construcción de crédito. El SBDC en UCF ofrece sesiones gratuitas de asesoría financiera individual donde puede recibir orientación sobre banca, contabilidad y opciones de financiamiento específicas para su situación.&lt;/p&gt;&lt;/p&gt;
-"><p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients.</p>
-<ul>
-<li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando</a>:</strong> Hosts banking workshops that cover account setup and credit building.</li>
-<li><strong><a href="https://sbdcorlando.com/" target="_blank" rel="noopener">SBDC at UCF</a>:</strong> Free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</li>
-</ul>
+"><p><p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The <a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando</a> hosts banking workshops that cover account setup and credit building. The <a href="https://sbdcorlando.com/" target="_blank" rel="noopener">SBDC at UCF</a> offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p></p>
 </div>
   </div>
 </div>
@@ -298,12 +301,8 @@
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="¿Qué documentos tiene actualmente listos para una solicitud de cuenta bancaria en EE.UU.? ¿Qué le falta? Escriba su plan para los primeros 12 meses: ¿a cuál banco se acercará primero, cómo manejará las transferencias internacionales y cuándo comenzará a construir crédito en EE.UU.?">What documents do you currently have ready for a U.S. bank account application? What's missing? Write down your plan for the first 12 months: which bank will you approach first, how will you handle international transfers, and when will you start building U.S. credit?</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -434,7 +433,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

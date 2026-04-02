@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-6-3" data-module-id="module-6" data-module-index="6">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Cultural Missteps That Cost Real Money</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M16 8 Q12 16 16 24 Q20 32 16 40" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M24 6 Q20 14 24 22 Q28 30 24 38" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.8"/><path d="M32 10 Q28 18 32 26 Q36 34 32 42" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><circle cx="20" cy="16" r="2" fill="currentColor" opacity="0.3"/><circle cx="28" cy="28" r="2" fill="currentColor" opacity="0.3"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="14" r="8" fill="currentColor" opacity="0.8"/><path d="M8 38 Q16 28 24 32 Q32 36 40 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M6 42 Q18 34 28 36 Q36 38 42 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.4"/><line x1="24" y1="6" x2="24" y2="2" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="30" y1="8" x2="34" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="18" y1="8" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 6</p>
@@ -249,8 +256,26 @@
   </div>
   <div class="rt-ig-footer" style="display:block" data-es="La buena noticia: los estadounidenses son tolerantes con las diferencias culturales. Les importa mucho más la confiabilidad y el cumplimiento que la etiqueta perfecta.">The good news: Americans are forgiving of cultural differences. They care far more about reliability and follow-through than perfect etiquette.</div>
 </div>
+<div class="rt-ctbl-wrap" data-table-id="table-6-3-1">
+  <h3 class="rt-ctbl-title" data-es="Leyendo las Corrientes Ocultas — Lo que los Estadounidenses Realmente Quieren Decir">Reading the Undercurrents — What Americans Really Mean</h3>
+  <div class="rt-ctbl-scroll">
+    <table class="rt-ctbl">
+      <thead><tr><th data-es="Lo que Dicen">What They Say</th><th data-es="Lo que Probablemente Quieren Decir">What They Probably Mean</th><th data-es="Lo que Usted Debe Hacer">What You Should Do</th></tr></thead>
+      <tbody>
+      <tr><td class="rt-ctbl-label" data-es="&quot;Let's circle back on this&quot; (Volvamos a esto después)">"Let's circle back on this"</td><td data-es="No está interesado en este momento, posiblemente nunca">Not interested right now, possibly ever</td><td data-es="Haga seguimiento una vez en dos semanas. Si no hay respuesta, siga adelante.">Follow up once in two weeks. If no response, move on.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="&quot;That's really interesting&quot; (Eso es muy interesante)">"That's really interesting"</td><td data-es="Reconocimiento cortés, no compromiso">Polite acknowledgment, not commitment</td><td data-es="Haga una pregunta calificadora: &quot;¿Cómo sería el siguiente paso?&quot;">Ask a qualifying question: "What would the next step look like?"</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="&quot;Let me check with my team&quot; (Déjeme consultar con mi equipo)">"Let me check with my team"</td><td data-es="Pausa sutil o proceso interno genuino">Soft stall or genuine internal process</td><td data-es="Espere una semana, luego envíe un breve correo de seguimiento.">Wait one week, then send a brief follow-up email.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="&quot;We should definitely get together&quot; (Definitivamente deberíamos reunirnos)">"We should definitely get together"</td><td data-es="Cortesía social — sin plan concreto">Social pleasantry — no plan attached</td><td data-es="Si quiere la reunión, proponga una fecha y hora específicas.">If you want the meeting, propose a specific date and time.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="&quot;Let's put a pin in that&quot; (Dejemos eso por ahora)">"Let's put a pin in that"</td><td data-es="Este tema está efectivamente muerto">This topic is effectively dead</td><td data-es="No lo traiga a colación de nuevo a menos que tenga una razón nueva y convincente.">Don't raise it again unless you have a compelling new reason.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="&quot;I'll have my people reach out&quot; (Le pediré a mi equipo que lo contacte)">"I'll have my people reach out"</td><td data-es="Poco probable que suceda sin su seguimiento">Unlikely to happen without your follow-up</td><td data-es="Haga seguimiento directamente con una solicitud de contacto específica.">Follow up directly with a specific contact request.</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="&quot;We're not quite ready yet&quot; (No estamos del todo listos aún)">"We're not quite ready yet"</td><td data-es="Sin interés actual, pero dejan la puerta abierta">No current interest, but they're leaving the door open</td><td data-es="Vuelva a contactar en 3 meses con una nueva propuesta de valor.">Check back in 3 months with a new value proposition.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 <figure class="lesson-image" role="figure">
   <img src="images/scenarios/lesson-6-3-cultural-misalignment.jpg" alt="International founder navigating cultural differences in a U.S. business meeting" loading="lazy">
+  
 </figure>
 <div class="rt-scenario" data-scenario-id="branch-scenario-6-3-cultural">
   <h3 data-es="¿Qué Quisieron Decir Realmente?">What Did They Really Mean?</h3>
@@ -356,12 +381,8 @@
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="var(--rt-accent)" opacity="0.15" stroke="var(--rt-accent)" stroke-width="1.5"/>
       <circle cx="12" cy="9" r="2.5" fill="var(--rt-accent)"/>
     </svg>
-    <h2 class="rt-endcheck-title" data-es="Reflexiona y Pon a Prueba tu Comprensión">Reflect & Check Your Understanding</h2>
+    <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
-<div class="rt-reflection">
-  <h3 data-es="Reflexión">Reflection</h3>
-  <p class="rt-reflection-prompt" data-es="Revise los cinco errores cubiertos en esta lección. ¿Cuál es más probable que usted cometa? Sea honesto. Escriba una situación específica donde ya cometió (o casi cometió) uno de estos errores. Luego escriba la acción concreta que tomará de manera diferente la próxima vez. Los fundadores que tienen éxito en EE.UU. no son los que evitan todos los errores — son los que reconocen los patrones antes de que los costos se vuelvan serios.">Review the five missteps covered in this lesson. Which one are you most likely to make? Be honest. Write down a specific situation where you've already made (or nearly made) one of these mistakes. Then write the concrete action you'll take differently next time. The founders who succeed in the U.S. aren't the ones who avoid all mistakes — they're the ones who recognize the patterns before the costs get serious.</p>
-</div>
 <div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
   <div class="rt-kc-header">
     <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
@@ -492,7 +513,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

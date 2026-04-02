@@ -48,12 +48,54 @@
       "subtitleEs": "Pequeños malentendidos, grandes consecuencias",
       "cols": 3,
       "cards": [
-        { "badge": "$5,000–$50,000 in lost deals", "badgeEs": "$5,000–$50,000 en negocios perdidos", "heading": "Missing the Follow-Up Window", "headingEs": "Perder la Ventana de Seguimiento", "desc": "U.S. partners expect a follow-up email within 24–48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.", "descEs": "Los socios estadounidenses esperan un correo de seguimiento en 24–48 horas. En muchas culturas, esperar muestra respeto. En EE.UU., esperar = no estás interesado." },
-        { "badge": "$10,000–$100,000+ in disputes", "badgeEs": "$10,000–$100,000+ en disputas", "heading": "Handshake Deals Without Contracts", "headingEs": "Acuerdos de Palabra Sin Contratos", "desc": "In the U.S., if it's not in writing, it doesn't exist. Even friendly business relationships need signed agreements.", "descEs": "En EE.UU., si no está por escrito, no existe. Incluso las relaciones comerciales amistosas necesitan acuerdos firmados." },
-        { "badge": "$2,000–$20,000 in credibility damage", "badgeEs": "$2,000–$20,000 en daño a credibilidad", "heading": "Over-Promising Timelines", "headingEs": "Prometer Plazos de Más", "desc": "Saying 'yes' to every deadline to be polite, then missing them. Americans plan around your committed dates.", "descEs": "Decir 'sí' a cada plazo por cortesía, luego incumplirlos. Los estadounidenses planifican según tus fechas comprometidas." },
-        { "badge": "$0 direct but relationship-killing", "badgeEs": "$0 directo pero destruye relaciones", "heading": "Ignoring Small Talk", "headingEs": "Ignorar la Charla Casual", "desc": "Skipping the 2–3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.", "descEs": "Saltarse los 2–3 minutos de charla sobre clima/deportes/fin de semana antes de negocios. Los estadounidenses usan esto para generar confianza." },
-        { "badge": "$0 direct but deal-slowing", "badgeEs": "$0 directo pero frena negocios", "heading": "Wrong Formality Level", "headingEs": "Nivel de Formalidad Incorrecto", "desc": "Using overly formal titles (Sr. Director, Dr.) when Americans use first names, or being too casual too soon in formal industries (law, finance).", "descEs": "Usar títulos excesivamente formales (Sr. Director, Dr.) cuando los estadounidenses usan nombres de pila, o ser demasiado casual muy pronto en industrias formales (derecho, finanzas)." },
-        { "badge": "$5,000–$25,000 in wasted preparation", "badgeEs": "$5,000–$25,000 en preparación desperdiciada", "heading": "Assuming 'Sounds Great' Means Yes", "headingEs": "Asumir que 'Suena Genial' Significa Sí", "desc": "In U.S. business culture, 'Let me think about it' and 'Sounds interesting' usually mean NO. 'Let's do it' or a signed document means yes.", "descEs": "En la cultura empresarial de EE.UU., 'Déjame pensarlo' y 'Suena interesante' usualmente significan NO. 'Hagámoslo' o un documento firmado significa sí." }
+        {
+          "badge": "$5,000–$50,000 in lost deals",
+          "badgeEs": "$5,000–$50,000 en negocios perdidos",
+          "heading": "Missing the Follow-Up Window",
+          "headingEs": "Perder la Ventana de Seguimiento",
+          "desc": "U.S. partners expect a follow-up email within 24–48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.",
+          "descEs": "Los socios estadounidenses esperan un correo de seguimiento en 24–48 horas. En muchas culturas, esperar muestra respeto. En EE.UU., esperar = no estás interesado."
+        },
+        {
+          "badge": "$10,000–$100,000+ in disputes",
+          "badgeEs": "$10,000–$100,000+ en disputas",
+          "heading": "Handshake Deals Without Contracts",
+          "headingEs": "Acuerdos de Palabra Sin Contratos",
+          "desc": "In the U.S., if it's not in writing, it doesn't exist. Even friendly business relationships need signed agreements.",
+          "descEs": "En EE.UU., si no está por escrito, no existe. Incluso las relaciones comerciales amistosas necesitan acuerdos firmados."
+        },
+        {
+          "badge": "$2,000–$20,000 in credibility damage",
+          "badgeEs": "$2,000–$20,000 en daño a credibilidad",
+          "heading": "Over-Promising Timelines",
+          "headingEs": "Prometer Plazos de Más",
+          "desc": "Saying 'yes' to every deadline to be polite, then missing them. Americans plan around your committed dates.",
+          "descEs": "Decir 'sí' a cada plazo por cortesía, luego incumplirlos. Los estadounidenses planifican según tus fechas comprometidas."
+        },
+        {
+          "badge": "$0 direct but relationship-killing",
+          "badgeEs": "$0 directo pero destruye relaciones",
+          "heading": "Ignoring Small Talk",
+          "headingEs": "Ignorar la Charla Casual",
+          "desc": "Skipping the 2–3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.",
+          "descEs": "Saltarse los 2–3 minutos de charla sobre clima/deportes/fin de semana antes de negocios. Los estadounidenses usan esto para generar confianza."
+        },
+        {
+          "badge": "$0 direct but deal-slowing",
+          "badgeEs": "$0 directo pero frena negocios",
+          "heading": "Wrong Formality Level",
+          "headingEs": "Nivel de Formalidad Incorrecto",
+          "desc": "Using overly formal titles (Sr. Director, Dr.) when Americans use first names, or being too casual too soon in formal industries (law, finance).",
+          "descEs": "Usar títulos excesivamente formales (Sr. Director, Dr.) cuando los estadounidenses usan nombres de pila, o ser demasiado casual muy pronto en industrias formales (derecho, finanzas)."
+        },
+        {
+          "badge": "$5,000–$25,000 in wasted preparation",
+          "badgeEs": "$5,000–$25,000 en preparación desperdiciada",
+          "heading": "Assuming 'Sounds Great' Means Yes",
+          "headingEs": "Asumir que 'Suena Genial' Significa Sí",
+          "desc": "In U.S. business culture, 'Let me think about it' and 'Sounds interesting' usually mean NO. 'Let's do it' or a signed document means yes.",
+          "descEs": "En la cultura empresarial de EE.UU., 'Déjame pensarlo' y 'Suena interesante' usualmente significan NO. 'Hagámoslo' o un documento firmado significa sí."
+        }
       ],
       "footer": "The good news: Americans are forgiving of cultural differences. They care far more about reliability and follow-through than perfect etiquette.",
       "footerEs": "La buena noticia: los estadounidenses son tolerantes con las diferencias culturales. Les importa mucho más la confiabilidad y el cumplimiento que la etiqueta perfecta."
@@ -175,14 +217,6 @@
       "variant": "latam-supplement",
       "title": "Enfoque Latinoamérica — Recursos de Puente Cultural",
       "content": "<p>Curiosamente, Central Florida ofrece recursos específicos para ayudar a los fundadores latinoamericanos a navegar la cultura empresarial de EE.UU.:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Eventos de networking que conectan las normas empresariales latinoamericanas y estadounidenses</li><li><strong>Prospera</strong>. Programa de mentoría que empareja fundadores latinoamericanos con asesores empresariales bilingües de EE.UU.</li><li><strong>SBDC Orlando</strong>. Sesiones de asesoría empresarial bilingüe disponibles</li><li><strong>Delegaciones comerciales de CFITO</strong>. Presentaciones estructuradas a contactos de negocios en EE.UU. con contexto cultural incluido</li></ul>"
-    },
-    {
-      "type": "reflection",
-      "id": "reflect-6-3-1",
-      "title": "Su Auditoría de Riesgo Cultural",
-      "placement": "after-section",
-      "sectionId": "text-6-3-2",
-      "prompt": "Revise los cinco errores cubiertos en esta lección. ¿Cuál es más probable que usted cometa? Sea honesto. Escriba una situación específica donde ya cometió (o casi cometió) uno de estos errores. Luego escriba la acción concreta que tomará de manera diferente la próxima vez. Los fundadores que tienen éxito en EE.UU. no son los que evitan todos los errores — son los que reconocen los patrones antes de que los costos se vuelvan serios."
     },
     {
       "type": "knowledge-check",

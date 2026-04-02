@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/roadtrip-lesson.css">
   <link rel="stylesheet" href="css/podcast-player.css">
   <link rel="stylesheet" href="css/celebrations.css">
+  <style>html, .rt-lesson-body { overflow-x: clip !important; overflow-y: visible !important; }</style>
 </head>
 <body class="rt-lesson-body" data-lesson-id="lesson-5-1" data-module-id="module-5" data-module-index="5">
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -55,12 +56,18 @@
       <span class="rt-breadcrumb-current" aria-current="page">Adapting Your Product for the U.S.</span>
     </nav>
 
+    <!-- Mobile hamburger toggle + backdrop -->
+    <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="14" r="8" fill="currentColor" opacity="0.8"/><path d="M8 38 Q16 28 24 32 Q32 36 40 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M6 42 Q18 34 28 36 Q36 38 42 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.4"/><line x1="24" y1="6" x2="24" y2="2" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="30" y1="8" x2="34" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="18" y1="8" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
           </div>
           <div>
             <p class="rt-route-module-label">Destination 5</p>
@@ -79,6 +86,10 @@
               <a href="lesson-5-2.html" class="rt-stop-link" >U.S. Customer Acquisition — How Americans Buy</a>
             </li>
 
+            <li class="rt-route-stop" data-lesson-id="lesson-5-3">
+              <span class="rt-stop-dot" aria-hidden="true"></span>
+              <a href="lesson-5-3.html" class="rt-stop-link" >Central Florida — Your Market Opportunity</a>
+            </li>
         </ol>
         <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
@@ -200,6 +211,7 @@
 </div>
 <figure class="lesson-image" role="figure">
   <img src="images/scenarios/lesson-5-1-market-adaptation.jpg" alt="Entrepreneur adapting their product strategy for the U.S. market" loading="lazy">
+  
 </figure>
 <div class="rt-scenario" data-scenario-id="branch-scenario-5-1-pricing">
   <h3 data-es="Su Precio Es Muy Bajo — ¿Qué Hace?">Your Price Is Too Low — What Do You Do?</h3>
@@ -242,6 +254,14 @@
 <p><p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p></p>
 </div>
   </div>
+</div>
+<div class="rt-exercise">
+  <h3 data-es="Su Lista de Verificación de Adaptación al Mercado de EE.UU.">Your U.S. Market Adaptation Checklist</h3>
+  <div data-es-html="&lt;p&gt;&lt;p&gt;Para cada una de las cinco áreas de adaptación de esta lección, escriba una acción específica que necesita tomar antes de entrar al mercado de EE.UU. Sea concreto — &quot;definir los precios&quot; no cuenta.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Precios:&lt;/strong&gt; ¿Cuánto les cobrará a los clientes en EE.UU. y cómo se compara con sus competidores? ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Posicionamiento:&lt;/strong&gt; ¿Cuál es su propuesta de valor en una oración para compradores en EE.UU.? ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cumplimiento:&lt;/strong&gt; ¿Qué regulaciones de EE.UU. aplican a su producto o servicio? ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Soporte:&lt;/strong&gt; ¿Cómo manejará el soporte en la zona horaria de EE.UU. (9 AM–6 PM ET a PT)? ___&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pago:&lt;/strong&gt; ¿Qué métodos de pago de EE.UU. aceptará (ACH, tarjeta de crédito, otros)? ___&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Si no puede responder a alguna de estas todavía, esa es el área donde necesita investigar más primero.&lt;/p&gt;&lt;/p&gt;
+"><p><p>For each of the five adaptation areas from this lesson, write one specific action you need to take before entering the U.S. market. Be concrete — "figure out pricing" doesn't count.</p><ul><li><strong>Pricing:</strong> What will you charge U.S. customers, and how does that compare to your competitors? ___</li><li><strong>Positioning:</strong> What's your one-sentence value proposition for U.S. buyers? ___</li><li><strong>Compliance:</strong> What U.S. regulations apply to your product or service? ___</li><li><strong>Support:</strong> How will you handle U.S. timezone support (9 AM–6 PM ET through PT)? ___</li><li><strong>Payment:</strong> Which U.S. payment methods will you accept (ACH, credit card, other)? ___</li></ul><p>If you can't answer one of these yet, that's the area where you need to do more research first.</p></p>
+</div>
+  <label for="exercise-exercise-exercise-5-1-1" class="sr-only">Your response</label>
+  <textarea id="exercise-exercise-exercise-5-1-1" placeholder="Write your response..." data-es-placeholder="Escribe tu respuesta..." rows="6"></textarea>
 </div>
 <section class="rt-endcheck-section">
   <div class="rt-endcheck-divider">
@@ -381,7 +401,25 @@
   <script src="js/video-player.js"></script>
   <script src="js/podcast-player.js"></script>
   <script src="js/celebrations.js"></script>
+  <script src="js/rt-simulations.js"></script>
   <script src="js/rt-language.js"></script>
   <script src="js/roadtrip-lesson.js"></script>
+  <script>
+  function toggleMobileNav() {
+    var sb = document.querySelector('.rt-route-sidebar');
+    var btn = document.querySelector('.rt-hamburger');
+    var bd = document.querySelector('.rt-sidebar-backdrop');
+    var open = sb.classList.toggle('rt-sidebar-open');
+    btn.classList.toggle('rt-hamburger--open', open);
+    btn.setAttribute('aria-expanded', open);
+    bd.classList.toggle('rt-sidebar-backdrop--visible', open);
+  }
+  // Close sidebar when clicking a link inside it
+  document.querySelectorAll('.rt-route-sidebar a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      if (window.innerWidth <= 900) toggleMobileNav();
+    });
+  });
+  </script>
 </body>
 </html>

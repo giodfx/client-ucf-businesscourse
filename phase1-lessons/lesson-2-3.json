@@ -28,7 +28,7 @@
       "type": "text",
       "id": "text-2-3-what-you-can-do",
       "title": "What You Can Do About It",
-      "content": "<p>A Kenyan fintech founder applied at three banks, each asking for more KYC documents: proof of where her funds came from, notarized business records, a letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p>\n\n<p><strong>International-friendly banks (early 2026):</strong> Mercury, Relay, Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p>\n\n<p><strong>Important:</strong> Banking policies are not uniform across institutions, and they change frequently. What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p>"
+      "content": "<p>A Kenyan fintech founder applied at three banks, each asking for more KYC documents: proof of where her funds came from, notarized business records, a letter from her Kenyan bank. She eventually succeeded at a regional Orlando bank experienced with African founders, but the process took seven weeks.</p>\n\n<p><strong>International-friendly banks (early 2026):</strong> [Mercury](https://mercury.com), [Relay](https://relayfi.com), Centennial Bank, and Valley National Bank have been more willing to work with international founders. Chase and Bank of America have stricter non-resident requirements. Always call ahead and confirm before visiting a branch.</p>\n\n<p><strong>Important:</strong> Banking policies are not uniform across institutions, and they change frequently. What worked for another founder six months ago may not apply to your situation today. Call ahead, ask specific questions, and get answers in writing when possible.</p>"
     },
     {
       "type": "scenario",
@@ -47,8 +47,8 @@
           "isRecommended": true
         },
         {
-          "label": "Switch to a payment processor like Stripe or Mercury while you sort it out",
-          "outcome": "Practical and common. Many international founders use Mercury or Relay as their primary account while building U.S. banking history. These fintech platforms have more flexible requirements for non-residents. You can always add a traditional bank later.",
+          "label": "Switch to a payment processor like Stripe or [Mercury](https://mercury.com) while you sort it out",
+          "outcome": "Practical and common. Many international founders use [Mercury](https://mercury.com) or [Relay](https://relayfi.com) as their primary account while building U.S. banking history. These fintech platforms have more flexible requirements for non-residents. You can always add a traditional bank later.",
           "isRecommended": false
         }
       ]
@@ -64,7 +64,7 @@
       "type": "text",
       "id": "text-2-3-2",
       "title": "Building U.S. Credit History From Zero",
-      "content": "<p>Building U.S. credit is like establishing your reputation in the Financial District. You start as a stranger — nobody knows you. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. The good news is that the Orlando metro has over 400 bank branches and credit union locations, so once you have your documents in order, options are plentiful. Here's the path to build credit:</p>\n\n<p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. Mercury offers a business card connected to your Mercury account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
+      "content": "<p>Building U.S. credit is like establishing your reputation in the Financial District. You start as a stranger — nobody knows you. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. The good news is that the Orlando metro has over 400 bank branches and credit union locations, so once you have your documents in order, options are plentiful. Here's the path to build credit:</p>\n\n<p>Here is the practical takeaway. <strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. [Mercury](https://mercury.com) offers a business card connected to your [Mercury](https://mercury.com) account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
       "wordCount": 178
     },
     {
@@ -116,7 +116,7 @@
       "type": "text",
       "id": "text-2-3-fund",
       "title": "A Quick Word About Funding and Investors",
-      "content": "<p>Standing at the edge of the Financial District, you can see the investor tower in the distance. Most early-stage founders are not ready to walk in there yet. Here is a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>Why does this matter? The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the UCF BIP market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
+      "content": "<p>Standing at the edge of the Financial District, you can see the investor tower in the distance. Most early-stage founders are not ready to walk in there yet. Here is a question every founder asks: can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong> : paying customers, revenue growth, or strong user metrics — before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>The bottom line? That's why most international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>Why does this matter? The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the [UCF BIP](https://incubator.ucf.edu) market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
       "wordCount": 167
     },
     {
@@ -124,7 +124,7 @@
       "id": "callout-2-3-3",
       "variant": "latam-supplement",
       "title": "Latin America Resources — Banking",
-      "content": "<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The Hispanic Chamber of Commerce of Metro Orlando hosts banking workshops that cover account setup and credit building. The SBDC at UCF offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>"
+      "content": "<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The [Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/) hosts banking workshops that cover account setup and credit building. The [SBDC at UCF](https://sbdcorlando.com/) offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>"
     },
     {
       "type": "knowledge-check",
@@ -166,14 +166,6 @@
           "explanation": "Banks have different documentation requirements, and not every branch handles foreign-owned accounts. Calling ahead to confirm what Chase specifically needs for her situation prevents wasted trips. A passport and EIN alone are rarely sufficient — most banks also require Articles of Organization, an operating agreement, and proof of a U.S. address. Waiting for an SSN is unnecessary since many banks accept an EIN alone, but she must verify this with the specific branch. Assuming all branches work the same way ignores the lesson's emphasis that branch-level familiarity with international accounts varies widely."
         }
       ]
-    },
-    {
-      "type": "reflection",
-      "id": "ref-2-3-1",
-      "title": "Reflection: Your Banking Strategy",
-      "placement": "after-section",
-      "sectionId": "text-2-3-fund",
-      "prompt": "What documents do you currently have ready for a U.S. bank account application? What's missing? Write down your plan for the first 12 months: which bank will you approach first, how will you handle international transfers, and when will you start building U.S. credit?"
     },
     {
       "type": "key-takeaway",

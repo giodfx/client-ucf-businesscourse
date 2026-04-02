@@ -66,6 +66,12 @@
       "wordCount": 97
     },
     {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-5-1",
+      "imagePath": "images/scenarios/lesson-5-1-market-adaptation.jpg",
+      "title": "Entrepreneur adapting their product strategy for the U.S. market"
+    },
+    {
       "type": "scenario",
       "id": "scenario-5-1-pricing",
       "title": "Your Price Is Too Low — What Do You Do?",
