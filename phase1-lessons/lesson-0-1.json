@@ -48,12 +48,12 @@
       "type": "text",
       "id": "text-0-1-themes-intro",
       "title": "Four Recurring Themes",
-      "content": "<p>As you move through each module, four themes come up again and again. These are not the module topics — they are recurring lenses that help you focus on what matters most. Look for them as callouts throughout every lesson.</p>"
+      "content": "<p>As you move through each module, four recurring themes appear as callouts in every lesson — they are lenses to help you focus on what matters most:</p><ul><li><strong>Reduce Risk</strong> — protect your entity, IP, and operations from avoidable exposure</li><li><strong>Watch Your Money</strong> — know real costs before you commit</li><li><strong>Avoid Common Mistakes</strong> — learn from the errors other founders make at each stage</li><li><strong>Understand the Culture</strong> — decode how American business actually works</li></ul><p>Select each theme below to learn more.</p>"
     },
     {
       "type": "tabs",
       "id": "int-0-1-1",
-      "title": "Four Recurring Themes",
+      "title": "Explore Each Theme",
       "tabs": [
         {
           "label": "Understand Culture",

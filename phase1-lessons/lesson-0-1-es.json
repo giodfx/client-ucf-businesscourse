@@ -48,12 +48,12 @@
       "type": "text",
       "id": "text-0-1-themes-intro",
       "title": "Cuatro Temas Recurrentes",
-      "content": "<p>A medida que avanza por cada módulo, cuatro temas aparecen una y otra vez. Estos no son los temas de los módulos — son lentes recurrentes que le ayudan a enfocarse en lo más importante. Búsquelos como recuadros a lo largo de cada lección.</p>"
+      "content": "<p>A medida que avanza por cada módulo, cuatro temas recurrentes aparecen como recuadros en cada lección — son lentes para ayudarle a enfocarse en lo más importante:</p><ul><li><strong>Reducir el Riesgo</strong> — proteja su entidad, PI y operaciones de exposición evitable</li><li><strong>Cuide Su Dinero</strong> — conozca los costos reales antes de comprometerse</li><li><strong>Evitar Errores Comunes</strong> — aprenda de los errores que otros fundadores cometen en cada etapa</li><li><strong>Entender la Cultura</strong> — descifre cómo funcionan realmente los negocios en EE.UU.</li></ul><p>Seleccione cada tema a continuación para obtener más información.</p>"
     },
     {
       "type": "tabs",
       "id": "int-0-1-1",
-      "title": "Cuatro Temas Recurrentes",
+      "title": "Explorar Cada Tema",
       "tabs": [
         {
           "label": "Entender la Cultura",
