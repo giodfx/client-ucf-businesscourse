@@ -5,7 +5,7 @@
   "title": "Start Here — What To Expect And How To Use This Program",
   "duration": 10,
   "objectives": [
-    "Explain the four core themes of this program (risk, money, mistakes, culture)",
+    "Explain the four recurring themes of this program (Reduce Risk, Watch Your Money, Avoid Common Mistakes, Understand the Culture)",
     "Estimate realistic timelines and costs for U.S. entry",
     "Understand that U.S. expansion is a strategic decision — not a setup task"
   ],
@@ -41,19 +41,19 @@
       "type": "text",
       "id": "text-0-1-1",
       "title": "U.S. Expansion Is a Strategy, Not a Checklist",
-      "content": "<p>Expanding into the U.S. is not just ticking boxes. Many founders dive in, form an LLC, open a bank account, and think they are done. That approach often leads to costly surprises with taxes, entity choice, and market fit.</p>\n\n<p>The bottom line? U.S. expansion spans four dimensions:</p>\n\n<ul><li><strong>Legal:</strong> entity structure, registration, contracts, intellectual property</li><li><strong>Financial:</strong> banking, taxes, accounting, cost management</li><li><strong>Cultural:</strong> communication norms, negotiation styles, business expectations</li><li><strong>Market:</strong> product adaptation, pricing, customer acquisition, competition</li></ul>\n\n<p>Skip any one of these, and you introduce risk that surfaces later, usually at a higher cost.</p>\n\n<p>This program introduces all four so you can see the full picture before committing resources. By the end, you will be better prepared to ask the right questions, work with the right professionals, and avoid common mistakes.</p>",
+      "content": "<p>Expanding into the U.S. is not just ticking boxes. Many founders dive in, form an LLC, open a bank account, and think they are done. That approach often leads to costly surprises with taxes, entity choice, and market fit.</p>\n\n<p>The bottom line? U.S. expansion touches four areas:</p>\n\n<ul><li><strong>Legal:</strong> entity structure, registration, contracts, intellectual property</li><li><strong>Financial:</strong> banking, taxes, accounting, cost management</li><li><strong>Cultural:</strong> communication norms, negotiation styles, business expectations</li><li><strong>Market:</strong> product adaptation, pricing, customer acquisition, competition</li></ul>\n\n<p>Skip any one of these, and you introduce risk that surfaces later, usually at a higher cost.</p>\n\n<p>The seven modules ahead each address one or more of these areas. By the end, you will be better prepared to ask the right questions, work with the right professionals, and avoid common mistakes.</p>",
       "wordCount": 128
     },
     {
       "type": "text",
       "id": "text-0-1-themes-intro",
-      "title": "Four Themes That Will Guide You",
-      "content": "<p>Throughout this program, every lesson connects back to four practical themes. These are not abstract ideas — they are the patterns that separate founders who succeed in the U.S. from those who lose time and money learning the hard way. Explore each theme below.</p>"
+      "title": "Four Recurring Themes",
+      "content": "<p>As you move through each module, four themes come up again and again. These are not the module topics — they are recurring lenses that help you focus on what matters most. Look for them as callouts throughout every lesson.</p>"
     },
     {
       "type": "tabs",
       "id": "int-0-1-1",
-      "title": "Course Themes — Your Four Guideposts",
+      "title": "Four Recurring Themes",
       "tabs": [
         {
           "label": "Understand Culture",

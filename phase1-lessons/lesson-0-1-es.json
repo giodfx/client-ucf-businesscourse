@@ -5,7 +5,7 @@
   "title": "Comience Aquí — Qué Esperar y Cómo Usar Este Programa",
   "duration": 10,
   "objectives": [
-    "Explicar los cuatro temas centrales de este programa (riesgo, dinero, errores, cultura)",
+    "Explicar los cuatro temas recurrentes de este programa (Reducir el Riesgo, Cuide Su Dinero, Evitar Errores Comunes, Entender la Cultura)",
     "Estimar plazos y costos realistas para la entrada al mercado de EE.UU.",
     "Entender que la expansión a EE.UU. es una decisión estratégica — no una tarea de trámites"
   ],
@@ -41,19 +41,19 @@
       "type": "text",
       "id": "text-0-1-1",
       "title": "La Expansión a EE.UU. Es una Estrategia, No una Lista de Tareas",
-      "content": "<p>Expandirse a EE.UU. no es simplemente marcar casillas. Muchos fundadores se lanzan, forman una LLC, abren una cuenta bancaria y piensan que ya terminaron. Ese enfoque frecuentemente lleva a sorpresas costosas con impuestos, elección de entidad y encaje en el mercado.</p>\n\n<p>¿La conclusión? La expansión a EE.UU. abarca cuatro dimensiones:</p>\n\n<ul><li><strong>Legal:</strong> estructura de la entidad, registro, contratos, propiedad intelectual</li><li><strong>Financiera:</strong> banca, impuestos, contabilidad, gestión de costos</li><li><strong>Cultural:</strong> normas de comunicación, estilos de negociación, expectativas de negocios</li><li><strong>Mercado:</strong> adaptación del producto, precios, adquisición de clientes, competencia</li></ul>\n\n<p>Si omite cualquiera de estas, introduce un riesgo que aparecerá después, generalmente a un costo mayor.</p>\n\n<p>Este programa presenta las cuatro para que pueda ver el panorama completo antes de comprometer recursos. Al final, estará mejor preparado para hacer las preguntas correctas, trabajar con los profesionales adecuados y evitar errores comunes.</p>",
+      "content": "<p>Expandirse a EE.UU. no es simplemente marcar casillas. Muchos fundadores se lanzan, forman una LLC, abren una cuenta bancaria y piensan que ya terminaron. Ese enfoque frecuentemente lleva a sorpresas costosas con impuestos, elección de entidad y encaje en el mercado.</p>\n\n<p>¿La conclusión? La expansión a EE.UU. abarca cuatro áreas:</p>\n\n<ul><li><strong>Legal:</strong> estructura de la entidad, registro, contratos, propiedad intelectual</li><li><strong>Financiera:</strong> banca, impuestos, contabilidad, gestión de costos</li><li><strong>Cultural:</strong> normas de comunicación, estilos de negociación, expectativas de negocios</li><li><strong>Mercado:</strong> adaptación del producto, precios, adquisición de clientes, competencia</li></ul>\n\n<p>Si omite cualquiera de estas, introduce un riesgo que aparecerá después, generalmente a un costo mayor.</p>\n\n<p>Los siete módulos que siguen abordan una o más de estas áreas. Al final, estará mejor preparado para hacer las preguntas correctas, trabajar con los profesionales adecuados y evitar errores comunes.</p>",
       "wordCount": 128
     },
     {
       "type": "text",
       "id": "text-0-1-themes-intro",
-      "title": "Cuatro Temas Que Lo Guiarán",
-      "content": "<p>A lo largo de este programa, cada lección se conecta con cuatro temas prácticos. No son ideas abstractas — son los patrones que separan a los fundadores que tienen éxito en EE.UU. de los que pierden tiempo y dinero aprendiendo a la fuerza. Explore cada tema a continuación.</p>"
+      "title": "Cuatro Temas Recurrentes",
+      "content": "<p>A medida que avanza por cada módulo, cuatro temas aparecen una y otra vez. Estos no son los temas de los módulos — son lentes recurrentes que le ayudan a enfocarse en lo más importante. Búsquelos como recuadros a lo largo de cada lección.</p>"
     },
     {
       "type": "tabs",
       "id": "int-0-1-1",
-      "title": "Temas del Curso — Sus Cuatro Puntos de Referencia",
+      "title": "Cuatro Temas Recurrentes",
       "tabs": [
         {
           "label": "Entender la Cultura",

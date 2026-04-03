@@ -11,7 +11,7 @@
       "title": "Start Here — What To Expect And How To Use This Program",
       "duration": 10,
       "objectives": [
-        "Explain the four core themes of this program (risk, money, mistakes, culture)",
+        "Explain the four recurring themes of this program (Reduce Risk, Watch Your Money, Avoid Common Mistakes, Understand the Culture)",
         "Estimate realistic timelines and costs for U.S. entry",
         "Understand that U.S. expansion is a strategic decision — not a setup task"
       ],
@@ -47,19 +47,19 @@
           "type": "text",
           "id": "text-0-1-1",
           "title": "U.S. Expansion Is a Strategy, Not a Checklist",
-          "content": "<p>Expanding into the U.S. is not just a series of tasks to complete.</p><p>Many founders jump in—form a company, open a bank account, and move forward—only to run into problems later with taxes, structure, or market fit.</p><p>In reality U.S. expansion touches four areas...</p><ul><li><p><strong>Legal:</strong> entity structure, registration, contracts, intellectual property</p></li><li><p><strong>Financial:</strong> banking, taxes, accounting, cost management</p></li><li><p><strong>Cultural:</strong> communication norms, negotiation styles, business expectations</p></li><li><p><strong>Market:</strong> product adaptation, pricing, customer acquisition, competition</p></li></ul><p>Skip any one of these, and you introduce risk that surfaces later, usually at a higher cost.</p><p>This program introduces all four so you can see the full picture before committing resources. By the end, you will be better prepared to ask the right questions, work with the right professionals, and avoid common mistakes.</p>",
+          "content": "<p>Expanding into the U.S. is not just a series of tasks to complete.</p><p>Many founders jump in—form a company, open a bank account, and move forward—only to run into problems later with taxes, structure, or market fit.</p><p>In reality U.S. expansion touches four areas...</p><ul><li><p><strong>Legal:</strong> entity structure, registration, contracts, intellectual property</p></li><li><p><strong>Financial:</strong> banking, taxes, accounting, cost management</p></li><li><p><strong>Cultural:</strong> communication norms, negotiation styles, business expectations</p></li><li><p><strong>Market:</strong> product adaptation, pricing, customer acquisition, competition</p></li></ul><p>Skip any one of these, and you introduce risk that surfaces later, usually at a higher cost.</p><p>The seven modules ahead each address one or more of these areas. By the end, you will be better prepared to ask the right questions, work with the right professionals, and avoid common mistakes.</p>",
           "wordCount": 128
         },
         {
           "type": "text",
           "id": "text-0-1-themes-intro",
-          "title": "Four Themes That Will Guide You",
-          "content": "<p>Throughout this program, every lesson connects back to four practical themes. These are not abstract ideas — they are the patterns that separate founders who succeed in the U.S. from those who lose time and money learning the hard way. Explore each theme below.</p>"
+          "title": "Four Recurring Themes",
+          "content": "<p>As you move through each module, four themes come up again and again. These are not the module topics — they are recurring lenses that help you focus on what matters most. Look for them as callouts throughout every lesson.</p>"
         },
         {
           "type": "tabs",
           "id": "int-0-1-1",
-          "title": "Course Themes — Your Four Guideposts",
+          "title": "Four Recurring Themes",
           "tabs": [
             {
               "label": "Understand Culture",
@@ -151,7 +151,7 @@
   ],
   "learningOutcomes": {
     "moduleLearningOutcomes": [
-      "Describe the four core themes of the program (risk reduction, financial awareness, mistake avoidance, cultural understanding)",
+      "Describe the four recurring themes of the program (Reduce Risk, Watch Your Money, Avoid Common Mistakes, Understand the Culture)",
       "Identify realistic cost ranges and timelines for establishing a U.S. business"
     ],
     "courseLevelOutcomesAddressed": []
