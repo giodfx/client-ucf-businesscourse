@@ -18,6 +18,13 @@
       "wordCount": 196
     },
     {
+      "type": "callout",
+      "id": "callout-2-1-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida is one of only nine U.S. states with no state personal income tax, and it has no corporate income tax for LLCs or S-corporations taxed as pass-throughs. That structure attracts thousands of international founders who establish their U.S. operations here specifically to reduce the overall tax burden on their business — but the federal tax system still applies in full, and understanding it is what this lesson is about.</p>"
+    },
+    {
       "type": "simulation",
       "id": "sim-2-1-tax",
       "simId": "sim-tax-entity",
@@ -34,9 +41,18 @@
           "label": "Entity Type",
           "labelEs": "Tipo de Entidad",
           "options": [
-            { "label": "Single-Member LLC", "value": "llc" },
-            { "label": "C-Corp", "value": "ccorp" },
-            { "label": "S-Corp", "value": "scorp" }
+            {
+              "label": "Single-Member LLC",
+              "value": "llc"
+            },
+            {
+              "label": "C-Corp",
+              "value": "ccorp"
+            },
+            {
+              "label": "S-Corp",
+              "value": "scorp"
+            }
           ]
         },
         {

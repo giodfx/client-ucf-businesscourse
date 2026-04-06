@@ -19,9 +19,16 @@
         {
           "type": "text",
           "id": "text-3-1-1",
-          "title": "Welcome to the Launch Facility, Protecting What You Have Built",
+          "title": "Welcome to the Space Center, Protecting What You Have Built",
           "content": "<p>A founder from Chile built a successful delivery app across South America. When she expanded to Florida, she discovered that her Chilean trademark registration meant nothing in the United States. Intellectual property rights are territorial — protection in one country does not automatically extend to another. If you plan to operate in the U.S., you need U.S. protection.</p>\n\n<p>There are three main types of IP protection, each covering different aspects of your business. The comparison below explains what each one protects, what it costs, and when you need it.</p>",
           "wordCount": 244
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-1-funfact",
+          "variant": "fun-fact",
+          "title": "Did You Know?",
+          "content": "<p>Kennedy Space Center at Cape Canaveral has generated more than 1,800 patent citations since the 1960s — including technologies that became the basis for scratch-resistant lenses, memory foam, and wireless headsets. The region's aerospace ecosystem created a culture of protecting ideas early. That same infrastructure of IP attorneys and technology licensing offices is now available to commercial founders building businesses across Central Florida.</p>"
         },
         {
           "type": "table",
@@ -42,7 +49,7 @@
                 "Creative works: code, content, designs, media",
                 "Automatic on creation; register for enforcement",
                 "$45–$65 per work",
-                "3–6 months for registration",
+                "2–6 months for registration",
                 "Usually not needed for basic filing"
               ],
               [
@@ -89,7 +96,7 @@
                 },
                 {
                   "label": "Timeline",
-                  "value": "3–6 months"
+                  "value": "2–6 months"
                 },
                 {
                   "label": "Lawyer Needed?",
@@ -543,12 +550,30 @@
               "label": "Business Type",
               "labelEs": "Tipo de Negocio",
               "options": [
-                { "label": "Professional Services", "value": "services" },
-                { "label": "Technology / SaaS", "value": "tech" },
-                { "label": "Retail", "value": "retail" },
-                { "label": "Food & Beverage", "value": "food" },
-                { "label": "Construction", "value": "construction" },
-                { "label": "General / Other", "value": "other" }
+                {
+                  "label": "Professional Services",
+                  "value": "services"
+                },
+                {
+                  "label": "Technology / SaaS",
+                  "value": "tech"
+                },
+                {
+                  "label": "Retail",
+                  "value": "retail"
+                },
+                {
+                  "label": "Food & Beverage",
+                  "value": "food"
+                },
+                {
+                  "label": "Construction",
+                  "value": "construction"
+                },
+                {
+                  "label": "General / Other",
+                  "value": "other"
+                }
               ]
             },
             {
@@ -612,6 +637,13 @@
           "title": "DIY or Call an Expert?",
           "content": "<p>You have secured your intellectual property and your insurance is in place. Now comes the last major question for this module: which decisions can you make on your own, and which ones require a specialist?</p>\n\n<p>A business attorney in Central Florida charges $200 to $400 per hour. Call one for every question and you will burn through your budget fast. A founder from Ecuador saved $3,000 by filing his own LLC and EIN, then spent $800 on an attorney for the operating agreement and a major client contract. The comparison below shows where you can save and where you should invest.</p>",
           "wordCount": 197
+        },
+        {
+          "type": "callout",
+          "id": "callout-3-3-funfact",
+          "variant": "fun-fact",
+          "title": "Did You Know?",
+          "content": "<p>Florida's Space Coast region hosts over 550 aerospace and defense companies, many of which operate almost entirely on contracts — with government agencies, prime contractors, and each other. The region built one of the most contract-intensive business cultures in the United States. That discipline around written agreements applies to every business operating in Florida today, not just aerospace.</p>"
         },
         {
           "type": "comparison-card",

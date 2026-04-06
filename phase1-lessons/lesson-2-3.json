@@ -18,6 +18,13 @@
       "wordCount": 330
     },
     {
+      "type": "callout",
+      "id": "callout-2-3-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida has more international bank branches than any U.S. state except New York, and several Latin American banks have established their first U.S. presence in the Miami and Orlando corridors. For an international founder, this matters: there are institutions in Florida that already understand cross-border finance, foreign income documentation, and the compliance requirements of founders who arrive without a U.S. credit history.</p>"
+    },
+    {
       "type": "image",
       "id": "img-2-3-bank",
       "title": "Founder Facing Bank Rejection",
@@ -58,7 +65,7 @@
       "id": "callout-2-3-1",
       "variant": "reality-check",
       "title": "Reality Check: This Takes Longer Than You Think",
-      "content": "<p>Here's the thing. <strong>First bank account:</strong> 2 to 4 weeks if everything goes right. Some founders report 6 to 8 weeks with additional compliance review.</p>\n\n<p><strong>Business credit card:</strong> 3–6 months after account opening. Most require a U.S. credit score or a secured deposit.</p>\n\n<p><strong>Business credit line:</strong> 12–18 months of banking history and revenue documentation.</p>\n\n<p>Plan your cash flow around these timelines. Don't expect to walk into a bank on Monday and have an account by Friday.</p>"
+      "content": "<p>Here's the thing. <strong>First bank account:</strong> 2 to 4 weeks if everything goes right. Some founders report 6 to 8 weeks with additional compliance review.</p>\n\n<p><strong>Business credit card:</strong> 2–6 months after account opening. Most require a U.S. credit score or a secured deposit.</p>\n\n<p><strong>Business credit line:</strong> 12–18 months of banking history and revenue documentation.</p>\n\n<p>Plan your cash flow around these timelines. Don't expect to walk into a bank on Monday and have an account by Friday.</p>"
     },
     {
       "type": "text",

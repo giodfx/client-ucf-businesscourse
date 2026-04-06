@@ -13,9 +13,16 @@
     {
       "type": "text",
       "id": "text-3-1-1",
-      "title": "Welcome to the Launch Facility, Protecting What You Have Built",
+      "title": "Welcome to the Space Center, Protecting What You Have Built",
       "content": "<p>A founder from Chile built a successful delivery app across South America. When she expanded to Florida, she discovered that her Chilean trademark registration meant nothing in the United States. Intellectual property rights are territorial — protection in one country does not automatically extend to another. If you plan to operate in the U.S., you need U.S. protection.</p>\n\n<p>There are three main types of IP protection, each covering different aspects of your business. The comparison below explains what each one protects, what it costs, and when you need it.</p>",
       "wordCount": 244
+    },
+    {
+      "type": "callout",
+      "id": "callout-3-1-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Kennedy Space Center at Cape Canaveral has generated more than 1,800 patent citations since the 1960s — including technologies that became the basis for scratch-resistant lenses, memory foam, and wireless headsets. The region's aerospace ecosystem created a culture of protecting ideas early. That same infrastructure of IP attorneys and technology licensing offices is now available to commercial founders building businesses across Central Florida.</p>"
     },
     {
       "type": "table",
@@ -36,7 +43,7 @@
             "Creative works: code, content, designs, media",
             "Automatic on creation; register for enforcement",
             "$45–$65 per work",
-            "3–6 months for registration",
+            "2–6 months for registration",
             "Usually not needed for basic filing"
           ],
           [
@@ -83,7 +90,7 @@
             },
             {
               "label": "Timeline",
-              "value": "3–6 months"
+              "value": "2–6 months"
             },
             {
               "label": "Lawyer Needed?",

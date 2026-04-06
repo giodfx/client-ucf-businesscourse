@@ -18,6 +18,13 @@
       "wordCount": 197
     },
     {
+      "type": "callout",
+      "id": "callout-3-3-funfact",
+      "variant": "fun-fact",
+      "title": "Did You Know?",
+      "content": "<p>Florida's Space Coast region hosts over 550 aerospace and defense companies, many of which operate almost entirely on contracts — with government agencies, prime contractors, and each other. The region built one of the most contract-intensive business cultures in the United States. That discipline around written agreements applies to every business operating in Florida today, not just aerospace.</p>"
+    },
+    {
       "type": "comparison-card",
       "id": "comparison-3-3-diy-vs-lawyer",
       "title": "DIY vs. Hire a Lawyer",
