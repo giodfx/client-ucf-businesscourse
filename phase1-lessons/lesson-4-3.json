@@ -13,8 +13,8 @@
     {
       "type": "text",
       "id": "text-4-3-1",
-      "title": "Running the Park: Payroll, Taxes, and the Real Cost of Every Team Member",
-      "content": "<p>Now that you have your backstage pass sorted, it is time to look at what it actually costs to keep the team running.</p>\n\n<p>Every attraction in the entertainment district has an operating budget that goes well beyond wages. There are safety inspections, insurance premiums, maintenance crews, and regulatory compliance. Hiring in the U.S. works the same way: salary is just the ticket price. The real cost includes a stack of taxes, insurance, and obligations that add up fast.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>What does this actually mean day to day? The ticket price is just the admission — behind the scenes, every ride has maintenance, safety inspections, and insurance. Every employee works the same way. In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p>",
+      "title": "Payroll, Taxes, and the Real Cost of Every Team Member",
+      "content": "<p>Now that you understand visa requirements, it is time to look at what it actually costs to keep a team running. Salary is just the starting number. The real cost includes taxes, insurance, and obligations that add up fast.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p>",
       "wordCount": 186
     },
     {
@@ -184,13 +184,13 @@
       "id": "callout-4-3-funfact",
       "variant": "fun-fact",
       "title": "Did You Know?",
-      "content": "<p>Florida is the third-largest state in the U.S. by employment, and Central Florida is one of its fastest-growing job markets. The Orlando metro area added over 45,000 jobs in a single recent year, many in professional services, tech, and healthcare. For founders, this growth means a competitive talent market where understanding true employer costs and offering competitive benefits is not optional. It is how you attract the people who make your business work.</p>"
+      "content": "<p>Florida is the third-largest state in the U.S. by employment, and Central Florida is one of its fastest-growing job markets. Central Florida added over 45,000 jobs in a single recent year, many in professional services, tech, and healthcare. For founders, this growth means a competitive talent market where understanding true employer costs and offering competitive benefits is not optional. It is how you attract the people who make your business work.</p>"
     },
     {
       "type": "text",
       "id": "text-4-3-2",
       "title": "Use a Payroll Service — Seriously",
-      "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Here is the practical takeaway. Even the biggest theme parks do not run their own payroll in-house — they contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida : after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
+      "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Even large companies do not run payroll manually. They contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida: after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
       "wordCount": 116
     },
     {
@@ -213,13 +213,13 @@
       "id": "callout-4-3-1",
       "variant": "before-you-spend",
       "title": "Before You Spend Money: Payroll Tax Penalties Are Serious",
-      "content": "<p>Here's where it gets serious. The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
+      "content": "<p>The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
     },
     {
       "type": "text",
       "id": "text-4-3-3",
       "title": "What U.S. Employees Expect Beyond the Paycheck",
-      "content": "<p>Legal rules are the floor. Theme parks keep their best performers by offering perks — food discounts, flexible schedules, free passes. U.S. employers compete for talent the same way: benefits are how you keep people from walking to the park next door. If you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p>What does that mean for you? <strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
+      "content": "<p>Legal rules are the floor. U.S. employers compete for talent through benefits: PTO, flexible schedules, health coverage. Benefits are how you keep people from leaving for a competitor. If you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p><strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
       "wordCount": 115
     },
     {
@@ -274,7 +274,7 @@
       "type": "key-takeaway",
       "id": "kt-4-3-1",
       "title": "Key Takeaway",
-      "content": "<p>The takeaway is clear. An employee costs 15 to 30% more than their base salary — just like every attraction costs more to operate than the sticker price suggests. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is simple once you know the pieces, and a payroll service handles the details so you can focus on building your business.</p>"
+      "content": "<p>An employee costs 15 to 30% more than their base salary. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is simple once you know the pieces, and a payroll service handles the details so you can focus on building your business.</p>"
     }
   ]
 }

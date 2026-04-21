@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #c05621 0%, #9c4221 100%)" aria-hidden="true">
     <img src="images/lesson-4-2-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/theme_park.svg" alt="" width="24" height="24"></span>
+      <span data-es="LOS PARQUES TEMÁTICOS">THEME PARK DISTRICT</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
+            <img src="images/Icons/theme_park.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 4</p>
+            <p class="rt-route-module-label">Theme Park District</p>
             <p class="rt-route-module-title">Building Your Team</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-4-3.html" class="rt-stop-link" >Payroll, Taxes, and Employer Obligations</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">Theme Park District</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Rutas de Visa — Lo Que Es Realmente Realista">Visa Pathways — What's Actually Realistic</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="LOS PARQUES TEMÁTICOS">Theme Park District</h2>
+            <p class="rt-module-intro-desc" data-es="Forme su equipo en EE.UU. sin cometer errores legales costosos">Build your U.S. team without costly legal and compliance mistakes</p>
+          </div>
 
           
 <section class="video-placeholder" aria-label="Video placeholder">
@@ -134,21 +143,21 @@
 <p><p>Immigration law is complex and highly individual. The information below provides a general awareness-level overview. <strong>All visa and immigration actions should be reviewed with a qualified immigration attorney</strong> who can assess your specific circumstances.</p></p>
 </div>
   </div>
-</div><h2 data-es="Ganándose Su Pase Tras Bambalinas: Rutas de Visa para Fundadores Internacionales">Earning Your Backstage Pass: Visa Pathways for International Founders</h2>
+</div><h2 data-es="Ganándose Su Pase Tras Bambalinas: Rutas de Visa para Fundadores Internacionales">Visa Pathways for International Founders</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;En la lección anterior, aprendió quién pertenece a su equipo y cómo EE.UU. clasifica cada rol. Ahora la pregunta se centra en usted: ¿qué pase lo lleva tras bambalinas?&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;En el distrito de entretenimiento de Central Florida, nadie entra tras bambalinas sin la credencial correcta. Lo mismo aplica para trabajar en EE.UU. Ser dueño de una empresa no le da automáticamente el derecho a trabajar aquí. Una fundadora colombiana con 50,000 usuarios de fintech asumió que podía volar a Miami y dirigir una oficina en EE.UU., pero su visa de turista no lo permitía.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Existen varias rutas de visa con diferentes requisitos, costos y plazos. La ruta correcta depende de su ciudadanía, trayectoria, capital y negocio actual. Lo que sigue es una visión general a nivel informativo, no un sustituto del asesoramiento legal.&lt;/p&gt;&lt;/p&gt;
-"><p><p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what pass gets you through the gate?</p></p>
-<p><p>In Central Florida's entertainment district, no one walks backstage without the right credential. The same is true for working in the U.S. Owning a company does not by itself give you the right to work here. A Colombian founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p></p>
+"><p><p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what visa do you need to work legally?</p></p>
+<p><p>Owning a U.S. company does not by itself give you the right to work here. A Colombian founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p></p>
 <p><p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p></p>
 </div>
 <div class="rt-ctbl-wrap" data-table-id="table-4-2-1">
-  <h3 class="rt-ctbl-title" data-es="Sus Credenciales Tras Bambalinas — Rutas de Visa de un Vistazo">Your Backstage Credentials — Visa Pathways at a Glance</h3>
+  <h3 class="rt-ctbl-title" data-es="Sus Credenciales Tras Bambalinas — Rutas de Visa de un Vistazo">Visa Pathways at a Glance</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th data-es="Tipo de Visa">Visa Type</th><th data-es="Para Quién Es">Who It's For</th><th data-es="Requisito Clave">Key Requirement</th><th data-es="Costo Aproximado (Abogado + Tarifas)">Approximate Cost (Attorney + Fees)</th><th data-es="Plazo Típico">Typical Timeline</th></tr></thead>
+      <thead><tr><th scope="col" data-es="Tipo de Visa">Visa Type</th><th scope="col" data-es="Para Quién Es">Who It's For</th><th scope="col" data-es="Requisito Clave">Key Requirement</th><th scope="col" data-es="Costo Aproximado (Abogado + Tarifas)">Approximate Cost (Attorney + Fees)</th><th scope="col" data-es="Plazo Típico">Typical Timeline</th></tr></thead>
       <tbody>
-      <tr><td class="rt-ctbl-label" data-es="O-1A">O-1A</td><td data-es="Fundadores con habilidad o logros extraordinarios">Founders with extraordinary ability or achievement</td><td data-es="Reconocimiento nacional/internacional sostenido en su campo">Sustained national/international recognition in your field</td><td data-es="$5,000–$10,000+">$5,000–$10,000+</td><td data-es="3–6 meses (estándar); 15 días hábiles (premium)">3–6 months (standard); 15 business days (premium)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="O-1A">O-1A</td><td data-es="Fundadores con habilidad o logros extraordinarios">Founders with extraordinary ability or achievement</td><td data-es="Reconocimiento nacional/internacional sostenido en su campo">Sustained national/international recognition in your field</td><td data-es="$5,000–$10,000+">$5,000–$10,000+</td><td data-es="3–6 meses (estándar); 15 días hábiles (premium)">2–6 months (standard); 15 business days (premium)</td></tr>
       <tr><td class="rt-ctbl-label" data-es="E-2">E-2</td><td data-es="Inversionistas de países con tratado">Treaty investors from qualifying countries</td><td data-es="Inversión sustancial en un negocio en EE.UU. — sin mínimo fijo, pero típicamente $100,000+">Substantial investment in a U.S. business — no fixed minimum, but typically $100,000+</td><td data-es="$3,000–$8,000+">$3,000–$8,000+</td><td data-es="4–8 meses (consular); varía por país">4–8 months (consular); varies by country</td></tr>
       <tr><td class="rt-ctbl-label" data-es="L-1A">L-1A</td><td data-es="Fundadores que se transfieren desde una empresa extranjera existente">Founders transferring from an existing foreign company</td><td data-es="Rol gerencial en una empresa extranjera relacionada por 1+ año">Managerial role at a related foreign company for 1+ year</td><td data-es="$4,000–$10,000+">$4,000–$10,000+</td><td data-es="4–8 meses (estándar); 15 días hábiles (premium)">4–8 months (standard); 15 business days (premium)</td></tr>
       <tr><td class="rt-ctbl-label" data-es="H-1B">H-1B</td><td data-es="Trabajadores de ocupaciones especializadas (patrocinados por empleador)">Specialty occupation workers (employer-sponsored)</td><td data-es="El trabajo requiere título universitario; sujeto a lotería anual">Job requires a bachelor's degree; subject to annual lottery</td><td data-es="$2,000–$5,000+">$2,000–$5,000+</td><td data-es="Lotería en marzo, inicio en octubre; ~25% de tasa de selección">Lottery in March, start in October; ~25% selection rate</td></tr>
@@ -161,12 +170,12 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="¿Sabía Que?">Did You Know?</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;El sector de turismo y entretenimiento de Central Florida depende en gran medida del talento internacional. El área metropolitana de Orlando alberga una de las fuerzas laborales con mayor diversidad internacional del sureste, con residentes de más de 100 países. Muchos de los ejecutivos de entretenimiento, gerentes de hospitalidad y profesionales de tecnología de la región llegaron originalmente con las mismas categorías de visa cubiertas en esta lección antes de construir carreras a largo plazo en el área.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Central Florida's tourism and entertainment sector relies heavily on international talent. The Orlando metro area is home to one of the most internationally diverse workforces in the Southeast, with residents from over 100 countries. Many of the region's entertainment executives, hospitality managers, and tech professionals originally arrived on the same visa categories covered in this lesson before building long-term careers in the area.</p></p>
+"><p><p>Central Florida's tourism and entertainment sector relies heavily on international talent. Central Florida is home to one of the most internationally diverse workforces in the Southeast, with residents from over 100 countries. Many of the region's entertainment executives, hospitality managers, and tech professionals originally arrived on the same visa categories covered in this lesson before building long-term careers in the area.</p></p>
 </div>
   </div>
 </div><h2 data-es="Cuatro Rutas Hacia el Mercado Estadounidense">Four Pathways Into the U.S. Market</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Piense en cada visa como un pase diferente tras bambalinas del mercado estadounidense. Cada una abre puertas diferentes, cuesta cantidades diferentes y tiene plazos diferentes para obtenerla. Las cuatro rutas a continuación son las más comúnmente utilizadas por fundadores internacionales — explore cada una para entender los requisitos, costos y plazos realistas.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Think of each visa as a different backstage pass to the U.S. market. Each one opens different doors, costs different amounts, and takes different timelines to obtain. The four pathways below are the ones most commonly used by international founders — explore each one to understand the requirements, costs, and realistic timelines.</p></p>
+"><p><p>Each visa type has different requirements, costs, and timelines. The four pathways below are the ones most commonly used by international founders — explore each one to understand the requirements, costs, and realistic timelines.</p></p>
 </div>
 <div class="rt-accordion" data-accordion-id="int-4-2-1">
   <h3 class="rt-accordion-title" data-es="Rutas de Visa — Desglose Detallado">Visa Pathways — Detailed Breakdown</h3>
@@ -176,7 +185,7 @@
       <span class="rt-accordion-heading" data-es="O-1A — Habilidad Extraordinaria">O-1A — Extraordinary Ability</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-4-2-1-content-0" hidden>
+    <div class="rt-accordion-content" id="int-4-2-1-content-0" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt; Demostrar habilidad extraordinaria en negocios, ciencia, educación o atletismo a través de reconocimiento nacional/internacional.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Plazo:&lt;/strong&gt; 2–6 meses (procesamiento premium disponible)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $5,000–$10,000+ (presentación + abogado)&lt;/p&gt;
@@ -193,13 +202,13 @@
       <span class="rt-accordion-heading" data-es="E-2 — Inversionista por Tratado">E-2 — Treaty Investor</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-4-2-1-content-1" hidden>
+    <div class="rt-accordion-content" id="int-4-2-1-content-1" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt; Ser ciudadano de un país con tratado, inversión sustancial en un negocio en EE.UU., debe dirigir y desarrollar la empresa.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Plazo:&lt;/strong&gt; 2–4 meses (procesamiento consular)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $3,000–$8,000+ (la inversión debe ser 'sustancial' — típicamente $100K+)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Realista para:&lt;/strong&gt; La mayoría de los fundadores de LATAM con capital para invertir. Brasil y algunos países NO son países con tratado — verifique la elegibilidad primero.&lt;/p&gt;
 "><p><strong>Requirements:</strong> Citizen of a treaty country, substantial investment in a U.S. business, must direct and develop the enterprise.</p>
-<p><strong>Timeline:</strong> 2–4 months (consular processing)</p>
+<p><strong>Timeline:</strong> 4–8 months (consular processing)</p>
 <p><strong>Cost:</strong> $3,000–$8,000+ (investment must be 'substantial' — typically $100K+)</p>
 <p><strong>Realistic for:</strong> Most LATAM founders with capital to invest. Brazil and some countries are NOT treaty countries — check eligibility first.</p>
 </div>
@@ -210,13 +219,13 @@
       <span class="rt-accordion-heading" data-es="L-1A — Transferencia Intraempresarial">L-1A — Intracompany Transfer</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-4-2-1-content-2" hidden>
+    <div class="rt-accordion-content" id="int-4-2-1-content-2" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt; Debe haber trabajado para una empresa relacionada en el extranjero por 1+ año en un rol gerencial/ejecutivo. Se transfiere a una oficina en EE.UU.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Plazo:&lt;/strong&gt; 3–8 meses&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $3,000–$8,000 (presentación + abogado)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Realista para:&lt;/strong&gt; Fundadores que están expandiendo una empresa existente a EE.UU. Debe demostrar que la entidad extranjera sigue activa.&lt;/p&gt;
 "><p><strong>Requirements:</strong> Must have worked for a related company abroad for 1+ year in a managerial/executive role. Transferring to a U.S. office.</p>
-<p><strong>Timeline:</strong> 3–8 months</p>
+<p><strong>Timeline:</strong> 4–8 months (standard); 15 business days (premium processing)</p>
 <p><strong>Cost:</strong> $3,000–$8,000 (filing + attorney)</p>
 <p><strong>Realistic for:</strong> Founders expanding an existing company to the U.S. You must prove the foreign entity remains active.</p>
 </div>
@@ -227,7 +236,7 @@
       <span class="rt-accordion-heading" data-es="H-1B — Ocupación Especializada">H-1B — Specialty Occupation</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-4-2-1-content-3" hidden>
+    <div class="rt-accordion-content" id="int-4-2-1-content-3" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt; Título universitario en un campo especializado. El empleador (puede ser su propia empresa) lo patrocina.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Plazo:&lt;/strong&gt; Lotería anual (abril), fecha de inicio octubre 1&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $3,000–$10,000&lt;/p&gt;
@@ -243,7 +252,7 @@
 <div class="rt-infographic rt-ig-columns" id="ig-4-2-visa" role="figure" aria-label="Four Visa Pathways for International Founders">
   <div class="rt-ig-header">
     <h3 class="rt-ig-title" data-es="Cuatro Rutas de Visa para Fundadores Internacionales">Four Visa Pathways for International Founders</h3>
-    <p class="rt-ig-subtitle" data-es="Cuatro pases tras bambalinas, cuatro puertas diferentes">Four backstage passes, four different doors</p>
+    <p class="rt-ig-subtitle" data-es="Cuatro tipos de visa, cuatro rutas diferentes">Four visa types, four different pathways</p>
   </div>
   <div class="rt-mc-tabs" role="tablist"><button class="rt-mc-tab rt-mc-tab--active" onclick="igColTab('ig-4-2-visa',0)" style="--tab-color:var(--rt-accent)" data-es="E-2 Inversionista por Tratado">E-2 Treaty Investor</button><button class="rt-mc-tab" onclick="igColTab('ig-4-2-visa',1)" style="--tab-color:var(--rt-primary-light)" data-es="L-1A Transferencia Intraempresarial">L-1A Intracompany Transfer</button><button class="rt-mc-tab" onclick="igColTab('ig-4-2-visa',2)" style="--tab-color:#e2725b" data-es="O-1A Habilidad Extraordinaria">O-1A Extraordinary Ability</button><button class="rt-mc-tab" onclick="igColTab('ig-4-2-visa',3)" style="--tab-color:#7ecfc0" data-es="B-1/B-2 Visitante">B-1/B-2 Visitor</button></div>
   <div class="rt-mc-body">
@@ -394,8 +403,8 @@
 <div data-es-html="&lt;p&gt;&lt;p&gt;En cualquier parque complejo, usted quiere un guía que sepa qué puertas llevan a dónde. Lo mismo aplica aquí: busque un abogado que &lt;strong&gt;se especialice en inmigración de negocios&lt;/strong&gt;, no en práctica general. Central Florida tiene una sólida base de abogados de inmigración con experiencia con emprendedores internacionales, dado los profundos vínculos de la región con el turismo y el comercio global. El directorio de AILA es un punto de partida, pero las recomendaciones de otros fundadores en la red del UCF BIP suelen ser más confiables. Tenga cuidado con cualquiera que garantice resultados — nadie puede prometer qué credencial recibirá.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La conclusión es esta: prepárese para su consulta con: pasaporte, documentación de visa existente, prueba de operaciones comerciales (ingresos, empleados, clientes), evidencia de logros (premios, publicaciones, patentes) y su plan de negocios para EE.UU.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Tenga en cuenta que el procesamiento estándar de visa puede tomar de &lt;strong&gt;4 a 8 meses&lt;/strong&gt; o más dependiendo del tipo de visa y su país de ciudadanía. Algunas visas ofrecen procesamiento premium (15 días hábiles) por una tarifa adicional, pero no todas. La lotería H-1B ocurre una vez al año en marzo, con fecha de inicio en octubre si es seleccionado. Comience a explorar sus opciones de visa &lt;strong&gt;6 a 12 meses&lt;/strong&gt; antes de que necesite estar trabajando en EE.UU. La prisa lleva a solicitudes débiles y negaciones. Un abogado que sea honesto sobre su cronograma es más valioso que uno que prometa rapidez.&lt;/p&gt;&lt;/p&gt;
-"><p><p>In any complex park, you want a guide who knows which doors lead where. The same applies here: look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other founders in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes — no one can promise which credential you will receive.</p></p>
-<p><p>The bottom line? Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p></p>
+"><p><p>Immigration law is complex. Look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other founders in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes, no one can promise which credential you will receive.</p></p>
+<p><p>Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p></p>
 <p><p>Keep in mind that standard visa processing can take <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee, but not all do. The H-1B lottery happens once per year in March, with an October start date if selected. Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing leads to weak applications and denials. A lawyer who is honest about your timeline is more valuable than one who promises speed.</p></p>
 </div>
 <div class="rt-callout rt-callout--callout">
@@ -429,24 +438,24 @@
     <p class="rt-kc-question" data-es="Una fundadora de Colombia tiene una empresa tecnológica exitosa con 200 empleados y quiere abrir una oficina en EE.UU. Ha sido la CEO durante tres años. ¿Qué ruta de visa exploraría primero su abogado de inmigración?">A founder from Colombia has a successful tech company with 200 employees and wants to open a U.S. office. She has been the CEO for three years. Which visa pathway would her immigration attorney most likely explore first?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="H-1B, porque es la visa de trabajo más común">H-1B, because it is the most common work visa</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="L-1A, porque tiene una empresa extranjera existente y experiencia gerencial">L-1A, because she has an existing foreign company and managerial experience</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="E-2, porque Colombia es un país con tratado">E-2, because Colombia is a treaty country</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="B-1, porque está asistiendo a reuniones de negocios en EE.UU.">B-1, because she is attending business meetings in the U.S.</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La L-1A (Transferencia Intraempresarial) está diseñada para fundadores y gerentes que ya dirigen una empresa extranjera y quieren abrir o administrar una oficina en EE.UU. Los requisitos clave — un rol gerencial en una empresa extranjera calificada por al menos un año — se ajustan bien a la situación de esta fundadora. Sin embargo, un abogado de inmigración evaluaría todas las opciones según sus circunstancias específicas.">The L-1A (Intracompany Transfer) is designed for founders and managers who already run a foreign company and want to open or manage a U.S. office. The key requirements — a managerial role at a qualifying foreign company for at least one year — fit this founder's situation well. However, an immigration attorney would evaluate all options based on her specific circumstances.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La L-1A (Transferencia Intraempresarial) está diseñada para fundadores y gerentes que ya dirigen una empresa extranjera y quieren abrir o administrar una oficina en EE.UU. Los requisitos clave — un rol gerencial en una empresa extranjera calificada por al menos un año — se ajustan bien a la situación de esta fundadora. Sin embargo, un abogado de inmigración evaluaría todas las opciones según sus circunstancias específicas.">The L-1A (Intracompany Transfer) is designed for founders and managers who already run a foreign company and want to open or manage a U.S. office. The key requirements — a managerial role at a qualifying foreign company for at least one year — fit this founder's situation well. However, an immigration attorney would evaluate all options based on her specific circumstances.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -454,24 +463,24 @@
     <p class="rt-kc-question" data-es="Una fundadora de México tiene una empresa de comercio electrónico rentable y $120,000 para invertir en una operación en EE.UU. No tiene logros extraordinarios ni premios, y nunca ha administrado una empresa afiliada a EE.UU. ¿Qué ruta de visa exploraría primero su abogado de inmigración?">A founder from Mexico owns a profitable e-commerce company and has $120,000 to invest in a U.S. operation. She has no extraordinary achievements or awards, and she has never managed a U.S.-affiliated company. Her immigration attorney would most likely explore which visa pathway first?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="O-1A, porque cualquier fundador con un negocio rentable califica como extraordinario">O-1A, because any founder with a profitable business qualifies as extraordinary</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="H-1B, porque es la visa de trabajo más común y tiene el menor costo">H-1B, because it is the most common work visa and has the lowest cost</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="L-1A, porque ella dirige una empresa y quiere abrir una oficina en EE.UU.">L-1A, because she runs a company and wants to open a U.S. office</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="E-2 Inversionista por Tratado, porque México es un país con tratado y ella tiene capital sustancial para invertir">E-2 Treaty Investor, because Mexico is a treaty country and she has substantial capital to invest</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La visa E-2 de Inversionista por Tratado es la que mejor se ajusta a este escenario. México tiene un tratado con EE.UU., y la fundadora tiene $120,000 en capital de inversión, que supera el umbral típico de $100,000+ que recomiendan los abogados. La O-1A requiere evidencia de habilidad extraordinaria que ella no tiene. La L-1A requiere una relación calificada existente entre una empresa extranjera y una estadounidense. La H-1B está basada en lotería y es menos común para fundadores.">The E-2 Treaty Investor visa fits this scenario best. Mexico has a treaty with the U.S., and the founder has $120,000 in investment capital, which exceeds the typical $100,000+ threshold attorneys recommend. The O-1A requires extraordinary ability evidence she does not have. The L-1A requires an existing qualifying relationship between a foreign and U.S. company. The H-1B is lottery-based and less common for founders.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La visa E-2 de Inversionista por Tratado es la que mejor se ajusta a este escenario. México tiene un tratado con EE.UU., y la fundadora tiene $120,000 en capital de inversión, que supera el umbral típico de $100,000+ que recomiendan los abogados. La O-1A requiere evidencia de habilidad extraordinaria que ella no tiene. La L-1A requiere una relación calificada existente entre una empresa extranjera y una estadounidense. La H-1B está basada en lotería y es menos común para fundadores.">The E-2 Treaty Investor visa fits this scenario best. Mexico has a treaty with the U.S., and the founder has $120,000 in investment capital, which exceeds the typical $100,000+ threshold attorneys recommend. The O-1A requires extraordinary ability evidence she does not have. The L-1A requires an existing qualifying relationship between a foreign and U.S. company. The H-1B is lottery-based and less common for founders.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -479,31 +488,31 @@
     <p class="rt-kc-question" data-es="Una fundadora de Argentina quiere abrir una oficina en EE.UU. en seis meses. Tiene $150,000 en capital de inversión, no tiene logros extraordinarios ni premios, y nunca ha administrado una empresa afiliada a EE.UU. Argentina es un país con tratado E-2. Según los datos de costos y plazos de esta lección, ¿qué debería presupuestar y planificar?">A founder from Argentina wants to open a U.S. office in six months. She has $150,000 in investment capital, no extraordinary achievements or awards, and has never managed a U.S.-affiliated company. Argentina is an E-2 treaty country. Based on the cost and timeline data in this lesson, what should she budget and plan for?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Presupuestar $3,000–$8,000+ para honorarios de abogado y presentación de la E-2, comenzar el proceso ahora ya que el procesamiento consular toma 4–8 meses, y consultar a un abogado de inmigración para confirmar elegibilidad">Budget $3,000–$8,000+ for E-2 attorney and filing fees, begin the process now since consular processing takes 4–8 months, and consult an immigration attorney to confirm eligibility</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Presupuestar $2,000–$5,000 para una solicitud H-1B y entrar en la lotería de marzo para una fecha de inicio en octubre">Budget $2,000–$5,000 for an H-1B application and enter the March lottery for an October start date</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Omitir al abogado y presentar la solicitud de visa ella misma para ahorrar dinero, ya que los formularios E-2 son sencillos">Skip the attorney and file the visa application herself to save money, since E-2 forms are straightforward</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Esperar hasta llegar a EE.UU. con visa de turista y luego solicitar autorización de trabajo desde dentro del país">Wait until she arrives in the U.S. on a tourist visa, then apply for work authorization from within the country</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La visa E-2 de Inversionista por Tratado se ajusta a su perfil: Argentina es un país con tratado y ella tiene $150,000 en capital. Los costos de abogado y presentación típicamente oscilan entre $3,000–$8,000+, y el procesamiento consular toma 4–8 meses, por lo que debería comenzar ahora para cumplir su plazo de seis meses. La H-1B (opción B) está basada en lotería con plazos rígidos y es menos adecuada para fundadores. Presentar la solicitud sola (opción C) es arriesgado para una solicitud de visa compleja. Trabajar con visa de turista (opción D) viola la ley de inmigración y puede resultar en deportación.">The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for founders. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La visa E-2 de Inversionista por Tratado se ajusta a su perfil: Argentina es un país con tratado y ella tiene $150,000 en capital. Los costos de abogado y presentación típicamente oscilan entre $3,000–$8,000+, y el procesamiento consular toma 4–8 meses, por lo que debería comenzar ahora para cumplir su plazo de seis meses. La H-1B (opción B) está basada en lotería con plazos rígidos y es menos adecuada para fundadores. Presentar la solicitud sola (opción C) es arriesgado para una solicitud de visa compleja. Trabajar con visa de turista (opción D) viola la ley de inmigración y puede resultar en deportación.">The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for founders. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation.</p></div>
     
   </div>
 </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;Cuatro pases tras bambalinas, cuatro puertas diferentes — pero ninguno se entrega automáticamente. Comience el proceso de visa 6 a 12 meses antes de que necesite estar trabajando en EE.UU. Trabaje con un abogado de inmigración que se especialice en inmigración de negocios y que sea honesto sobre qué credencial se ajusta a su situación. Evalúe qué ruta coincide con su trayectoria y capital, luego cree un cronograma realista para el proceso de solicitud. La orientación legal correcta al principio previene errores costosos más adelante.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Four backstage passes, four different doors — but none are handed out automatically. Start the visa process 6 to 12 months before you need to be working in the U.S. Work with an immigration attorney who specializes in business immigration and who will be honest about which credential fits your situation. Evaluate which pathway matches your track record and capital, then create a realistic schedule for the application process. The right legal guidance early on prevents expensive mistakes later.</p></p>
+"><p><p>Four visa categories, four different requirements, but none are granted automatically. Start the visa process 6 to 12 months before you need to be working in the U.S. Work with an immigration attorney who specializes in business immigration and who will be honest about which credential fits your situation. Evaluate which pathway matches your track record and capital, then create a realistic schedule for the application process. The right legal guidance early on prevents expensive mistakes later.</p></p>
 </div>
 </div>
 </section>

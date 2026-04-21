@@ -1,0 +1,228 @@
+{
+  "lesson-0-1": [
+    "callout-0-1-cm",
+    "callout-0-1-legal",
+    "kt-0-1-1",
+    "text-0-1-0",
+    "text-0-1-1",
+    "text-0-1-3",
+    "text-0-1-learn-first",
+    "text-0-1-themes-intro"
+  ],
+  "lesson-1-1": [
+    "callout-1-1-cm",
+    "callout-1-1-funfact",
+    "int-1-1-1",
+    "kc-1-1",
+    "kt-1-1-1",
+    "scenario-1-1-decision-tree",
+    "scenario-1-1-entity",
+    "text-1-1-0",
+    "text-1-1-4",
+    "text-1-1-5",
+    "text-1-1-entity-intro"
+  ],
+  "lesson-1-2": [
+    "callout-1-2-1",
+    "callout-1-2-funfact",
+    "callout-1-2-wm",
+    "ig-1-2-sunbiz",
+    "kt-1-2-1",
+    "text-1-2-0",
+    "text-1-2-1",
+    "text-1-2-2",
+    "text-1-2-3"
+  ],
+  "lesson-1-3": [
+    "callout-1-3-1",
+    "callout-1-3-2",
+    "callout-1-3-funfact",
+    "kt-1-3-1",
+    "text-1-3-0",
+    "text-1-3-1",
+    "text-1-3-2",
+    "text-1-3-3",
+    "text-1-3-4",
+    "text-1-3-5"
+  ],
+  "lesson-2-1": [
+    "callout-2-1-2",
+    "callout-2-1-cm",
+    "callout-2-1-funfact",
+    "callout-2-1-wm",
+    "kt-2-1-1",
+    "text-2-1-1",
+    "text-2-1-2",
+    "text-2-1-3",
+    "text-2-1-no-state-tax"
+  ],
+  "lesson-2-2": [
+    "callout-2-2-2",
+    "callout-2-2-cm",
+    "callout-2-2-funfact",
+    "kt-2-2-1",
+    "text-2-2-1",
+    "text-2-2-2",
+    "text-2-2-vat"
+  ],
+  "lesson-2-3": [
+    "callout-2-3-1",
+    "callout-2-3-2",
+    "kt-2-3-1",
+    "text-2-3-1",
+    "text-2-3-2",
+    "text-2-3-3",
+    "text-2-3-fund"
+  ],
+  "lesson-3-1": [
+    "callout-3-1-2",
+    "callout-3-1-cm",
+    "callout-3-1-wm",
+    "int-3-1-1",
+    "kc-3-1",
+    "text-3-1-1"
+  ],
+  "lesson-3-2": [
+    "callout-3-2-2",
+    "callout-3-2-funfact",
+    "int-3-2-1",
+    "kc-3-2",
+    "kt-3-2-1",
+    "text-3-2-1",
+    "text-3-2-2"
+  ],
+  "lesson-3-3": [
+    "callout-3-3-1",
+    "callout-3-3-2",
+    "callout-3-3-funfact",
+    "kt-3-3-1",
+    "text-3-3-2"
+  ],
+  "lesson-4-1": [
+    "callout-4-1-cm",
+    "kt-4-1-1",
+    "text-4-1-1",
+    "text-4-1-3"
+  ],
+  "lesson-4-2": [
+    "callout-4-2-funfact",
+    "ig-4-2-visa",
+    "int-4-2-1",
+    "kt-4-2-1",
+    "table-4-2-1",
+    "text-4-2-1",
+    "text-4-2-2",
+    "text-4-2-3"
+  ],
+  "lesson-4-3": [
+    "callout-4-3-1",
+    "callout-4-3-funfact",
+    "kt-4-3-1",
+    "text-4-3-1",
+    "text-4-3-2",
+    "text-4-3-3"
+  ],
+  "lesson-5-1": [
+    "callout-5-1-wm",
+    "kt-5-1-1",
+    "text-5-1-1",
+    "text-5-1-2"
+  ],
+  "lesson-5-2": [
+    "callout-5-2-1",
+    "callout-5-2-bys",
+    "callout-5-2-funfact",
+    "int-5-2-1",
+    "kt-5-2-1",
+    "text-5-2-1",
+    "text-5-2-2",
+    "text-5-2-3"
+  ],
+  "lesson-6-1": [
+    "callout-6-1-1",
+    "kt-6-1-1",
+    "matching-6-1-phrases",
+    "text-6-1-1",
+    "text-6-1-2",
+    "text-6-1-direct-indirect"
+  ],
+  "lesson-6-2": [
+    "callout-6-2-1",
+    "callout-6-2-2",
+    "callout-6-2-culture",
+    "kt-6-2-1",
+    "text-6-2-1",
+    "text-6-2-2"
+  ],
+  "lesson-6-3": [
+    "callout-6-3-latam",
+    "callout-6-3-wm",
+    "kt-6-3-1",
+    "table-6-3-1",
+    "text-6-3-1",
+    "text-6-3-2"
+  ],
+  "lesson-7-1": [
+    "callout-7-1-cm",
+    "callout-7-1-funfact",
+    "callout-7-1-wm",
+    "int-7-1-1",
+    "kt-7-1-1",
+    "text-7-1-1"
+  ],
+  "lesson-7-2": [
+    "callout-7-2-funfact",
+    "callout-7-2-latam",
+    "callout-7-2-rc",
+    "kt-7-2-1",
+    "text-7-2-1",
+    "text-7-2-2",
+    "text-7-2-3",
+    "text-7-2-4"
+  ],
+  "lesson-7-3": [
+    "callout-7-3-funfact",
+    "kt-7-3-1",
+    "text-7-3-1"
+  ],
+  "lesson-7-4": [
+    "callout-7-4-funfact",
+    "callout-7-4-rc",
+    "kt-7-4-1",
+    "text-7-4-1",
+    "text-7-4-2"
+  ],
+  "lesson-7-5": [
+    "callout-7-5-funfact",
+    "callout-7-5-reduce",
+    "text-7-5-1",
+    "text-7-5-3"
+  ],
+  "lesson-8-1": [
+    "callout-8-1-1",
+    "callout-8-1-disc",
+    "kt-8-1-1",
+    "landscapeTheme",
+    "text-8-1-1",
+    "text-8-1-2",
+    "text-8-1-3",
+    "text-8-1-4"
+  ],
+  "lesson-8-2": [
+    "kt-8-2-1",
+    "landscapeTheme",
+    "text-8-2-1",
+    "text-8-2-2",
+    "text-8-2-4",
+    "text-8-2-5",
+    "text-8-2-6"
+  ],
+  "lesson-8-3": [
+    "int-8-3-1",
+    "kc-8-3",
+    "kt-8-3-1",
+    "landscapeTheme",
+    "text-8-3-1",
+    "text-8-3-3"
+  ]
+}

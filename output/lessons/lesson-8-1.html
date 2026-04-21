@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)" aria-hidden="true">
     <img src="images/lesson-8-1-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/ucf.svg" alt="" width="24" height="24"></span>
+      <span data-es="EL CAMPUS UCF">UCF CAMPUS</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 16 L24 26 L8 16 Z" fill="currentColor" opacity="0.7"/><path d="M12 18 L12 32 L24 38 L36 32 L36 18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 26 L24 42" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="42" r="2" fill="currentColor" opacity="0.8"/><path d="M40 16 L40 28" stroke="currentColor" stroke-width="2"/></svg>
+            <img src="images/Icons/ucf.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 8</p>
+            <p class="rt-route-module-label">UCF Campus</p>
             <p class="rt-route-module-title">Wrap-Up — Is the U.S. Right for You?</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-8-3.html" class="rt-stop-link" >Next Steps — Your UCF BIP Pathway</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #f5a623 100%)">UCF Campus</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Autoevaluación — ¿Está Listo?">Self-Assessment — Are You Ready?</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="EL CAMPUS UCF">UCF Campus</h2>
+            <p class="rt-module-intro-desc" data-es="Evalúe su preparación y planifique sus próximos pasos con UCF BIP">Assess your readiness and plan your next steps with UCF BIP</p>
+          </div>
 
           
 <section class="video-placeholder" aria-label="Video placeholder">
@@ -123,17 +132,16 @@
           
 
           <div class="rt-text-flow">
-            <h2 data-es="Llegando a la Sede de UCF: Lo que Ahora Sabe">Arriving at UCF Headquarters: What You Now Know</h2>
+            <h2 data-es="Llegando a la Sede de UCF: Lo que Ahora Sabe">Self-Assessment: What You Now Know</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Después de siete módulos y docenas de temas, ha llegado al destino final de este viaje por carretera: el campus de UCF y la sede de su Programa de Incubación Empresarial. Imagínese los edificios modernos, los laboratorios de investigación, las oficinas de la incubadora donde las startups ya están trabajando. Esta es la base principal. Pero, ¿cuánto recuerda realmente y, más importante aún, dónde están las brechas que todavía necesita llenar?&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Parado aquí en el campus, es momento de hacer una evaluación honesta de dónde se encuentra. Cubrió siete módulos. Tener información no es lo mismo que estar listo. El objetivo aquí es saber dónde están las brechas y qué ayuda necesita antes de gastar dinero.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h4&gt;Los Cuatro Temas como Su Filtro de Decisiones&lt;/h4&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Así es como funciona: antes de firmar cualquier cosa, contratar a alguien o transferir dinero, recuerde los cuatro temas:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Reduzca el Riesgo&lt;/strong&gt;. Evite las trampas legales, financieras y operacionales.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cuide Su Dinero&lt;/strong&gt;. Conozca los costos realistas antes de comprometerse.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Evite Errores Comunes&lt;/strong&gt;. No repita los errores que cometen otros fundadores.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Entienda la Cultura&lt;/strong&gt;. Sepa cómo funcionan realmente los negocios en Estados Unidos.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-"><p><p>After seven modules and dozens of topics, you have arrived at the final destination on this road trip: the UCF campus and its Business Incubation Program headquarters. Picture the modern buildings, the research labs, the incubator offices where startups are already working. This is home base. But how much do you actually remember, and more importantly, where are the gaps you still need to fill?</p></p>
-<p><p>Standing here on campus, it is time to take an honest look at where you stand. You covered seven modules. Having info is not the same as being ready. The goal here is to know where the gaps are and what help you need before you spend money.</p></p>
+"><p><p>Here is a question most founders don’t ask themselves until after they’ve already spent money: <em>which parts of this system do I actually understand well enough to act on right now, and which parts are still unclear?</em> Having information is not the same as being ready. This module is a structured self-assessment, not a test, but a tool to identify your strongest areas and the gaps you still need to fill before committing time or money.</p></p>
 <p><h4>The Four Themes as Your Decision Filter</h4></p>
-<p><p>Here's how this plays out: before you sign anything, hire anyone, or transfer money, recall the four themes:</p></p>
-<p><ul><li><strong>Reduce Risk</strong> . Avoid the legal, financial, and operational traps.</li><li><strong>Watch Your Money</strong> . Know the realistic costs before committing.</li><li><strong>Avoid Common Mistakes</strong> . Don't repeat the errors other founders make.</li><li><strong>Understand the Culture</strong> . Know how American business actually works.</li></ul></p>
+<p><p>Before you sign anything, hire anyone, or transfer money, recall the four themes:</p></p>
+<p><ul><li><strong>Reduce Risk</strong>. Avoid the legal, financial, and operational traps.</li><li><strong>Watch Your Money</strong>. Know the realistic costs before committing.</li><li><strong>Avoid Common Mistakes</strong>. Don't repeat the errors other founders make.</li><li><strong>Understand the Culture</strong>. Know how American business actually works.</li></ul></p>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
@@ -149,7 +157,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Recordatorio Importante: Esto Fue Orientación Educativa">Important Reminder: This Was Educational Guidance</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Ahora, considere esto con cuidado. Todo lo que cubrió en este programa fue &lt;strong&gt;información educativa general&lt;/strong&gt; diseñada para ayudarle a entender el entorno empresarial de EE.UU. No es asesoría legal, fiscal, migratoria ni financiera. Antes de tomar acción en cualquier tema: constitución de entidades, banca, impuestos, propiedad intelectual, contratación o visas, consulte a un profesional calificado que pueda revisar su situación específica. El conocimiento es el punto de partida. La orientación profesional es cómo convierte el conocimiento en acción segura.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Now, consider this carefully. Everything you covered in this program was <strong>general educational information</strong> intended to help you understand the U.S. business environment. It is not legal, tax, immigration, or financial advice. Before you take action on any topic: entity formation, banking, taxes, IP, hiring, or visas, consult a qualified professional who can review your specific situation. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe action.</p></p>
+"><p><p>Everything you covered in this program was <strong>general educational information</strong> intended to help you understand the U.S. business environment. It is not legal, tax, immigration, or financial advice. Before you take action on any topic: entity formation, banking, taxes, IP, hiring, or visas, consult a qualified professional who can review your specific situation. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe action.</p></p>
 </div>
   </div>
 </div><h2 data-es="Su Autoevaluación de Preparación">Your Readiness Self-Assessment</h2>
@@ -170,13 +178,13 @@
 &lt;p&gt;&lt;p&gt;¿Está su equipo armado? Clasificación, nómina, cumplimiento — su equipo de apoyo es crítico, y armar el equipo incorrectamente lo detiene antes de empezar.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;¿Entiende la diferencia entre contratista y empleado en EE.UU.?&lt;/li&gt;&lt;li&gt;¿Conoce el costo real de contratación (salario más 15-30% de costos adicionales)?&lt;/li&gt;&lt;li&gt;¿Conoce su estatus de autorización de visa?&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Clasificar incorrectamente a un trabajador puede resultar en impuestos atrasados, multas y responsabilidad legal.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Before you leave headquarters and head into the U.S. market, you need a readiness review. This is yours. For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p></p>
+"><p><p>Before you enter the U.S. market, you need a readiness review. This is yours. For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p></p>
 <p><h4>Module 1: Legal Setup</h4></p>
-<p><p>Is your foundation solid? Entity, EIN, registered agent — these are the structural systems that keep everything else from collapsing.</p></p>
-<p><ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked <a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a> for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul></p>
+<p><p>Is your foundation solid? Entity, EIN, registered agent. These are the structural systems that keep everything else from collapsing.</p></p>
+<p><ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked <a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz<span class="sr-only"> (opens in a new tab)</span></a> for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul></p>
 <p><p>If unclear, consult a business attorney or CPA before filing.</p></p>
 <p><h4>Module 2: Finances and Taxes</h4></p>
-<p><p>Are your accounts and funding in order? Banking, taxes, accounting — these power everything that follows once you step out of headquarters.</p></p>
+<p><p>Are your accounts and funding in order? Banking, taxes, accounting. These power everything that follows once you start operating in the U.S.</p></p>
 <p><ul><li>Can you explain federal income tax vs. state sales tax?</li><li>Do you understand how U.S. sales tax differs from VAT?</li><li>Have you identified an accountant who understands international founders?</li></ul></p>
 <p><p>If unclear, an international-focused accountant saves you from penalties that cost far more than their fee.</p></p>
 <p><h4>Module 3: Protecting Your Business</h4></p>
@@ -200,32 +208,31 @@
 &lt;p&gt;&lt;p&gt;¿Conoce su red de asesores? SBDC, cámaras, UCF BIP — ningún fundador tiene éxito sin un equipo de apoyo en el terreno.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;¿Puede nombrar tres organizaciones que ofrecen apoyo gratuito a fundadores internacionales?&lt;/li&gt;&lt;li&gt;¿Conoce las ventajas de Central Florida vs. Miami, NYC o Silicon Valley?&lt;/li&gt;&lt;li&gt;¿Sabe lo que las fases 2 y 3 del programa de UCF BIP ofrecen?&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Si no puede nombrar recursos específicos que planea contactar, vuelva a revisar el Módulo 7.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Now, let's continue with the remaining modules.</p><h4>Module 5: Understanding U.S. Customers</h4></p>
-<p><p>Is your market strategy configured for the U.S.? Product adaptation, pricing, acquisition strategy — these determine whether your business actually reaches your target market.</p></p>
+"><p><h4>Module 5: Understanding U.S. Customers</h4></p>
+<p><p>Is your market strategy configured for the U.S.? Product adaptation, pricing, acquisition strategy. These determine whether your business actually reaches your target market.</p></p>
 <p><ul><li>Have you researched your U.S. competitive set?</li><li>Do you know how U.S. pricing expectations differ from your home market?</li><li>Do you understand vendor onboarding requirements (W-9, insurance certificates, procurement)?</li><li>Can you describe your first U.S. customer acquisition strategy?</li></ul></p>
 <p><p>If you haven't done U.S.-specific competitive research, block time for that before selling.</p></p>
 <p><h4>Module 6: U.S. Business Culture</h4></p>
-<p><p>Have you studied the local conditions? Communication, meetings, trust-building — this is the atmosphere you will be operating in, and misjudging it stalls even the best-prepared founders.</p></p>
+<p><p>Have you studied the local conditions? Communication, meetings, trust-building. This is the atmosphere you will be operating in, and misjudging it stalls even the best-prepared founders.</p></p>
 <p><ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul></p>
 <p><p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p></p>
 <p><h4>Module 7: Central Florida Ecosystem</h4></p>
-<p><p>Do you know your advisory network? SBDC, chambers, <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> — no founder succeeds without a support team on the ground.</p></p>
-<p><ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> program offer?</li></ul></p>
+<p><p>Do you know your advisory network? SBDC, chambers, <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a>, no founder succeeds without a support team on the ground.</p></p>
+<p><ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> program offer?</li></ul></p>
 <p><p>If you cannot name specific resources you plan to contact, revisit Module 7.</p></p>
 </div>
 <figure class="lesson-image" role="figure">
   <img src="images/scenarios/lesson-8-1-mentor-consultation.jpg" alt="Founder meeting with a mentor to review business readiness before launch" loading="lazy">
-
-</figure>
-<h2 data-es="¿Dónde Necesita Más Ayuda?">Where Do You Need More Help?</h2>
+  
+</figure><h2 data-es="¿Dónde Necesita Más Ayuda?">Where Do You Need More Help?</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Ninguna preparación es perfecta. Los fundadores más inteligentes identifican lo que falta y obtienen ayuda antes de salir de la sede. Sentirse abrumado es normal. No se supone que sea experto en las siete áreas. Exactamente por eso el campus de UCF tiene todo un ecosistema de asesores, mentores y conexiones profesionales esperando en los edificios a su alrededor. Necesita saber lo suficiente para hacer las preguntas correctas y evitar errores costosos.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h4&gt;Dónde Obtener Ayuda&lt;/h4&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Legal (entidad, contratos, cumplimiento)&lt;/strong&gt;. Abogado de negocios con experiencia internacional. El SBDC lo conecta con clínicas legales pro bono.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Impuestos y contabilidad&lt;/strong&gt;. Contador con experiencia internacional. Pregunte: &quot;¿Trabaja con negocios de propiedad extranjera?&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Inmigración y visas&lt;/strong&gt;. Abogado de inmigración. No es opcional.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Protección de PI&lt;/strong&gt;. Abogado de propiedad intelectual. La USPTO tiene recursos, pero la estrategia de registro necesita orientación profesional.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Banca&lt;/strong&gt;. Comience directamente con el banco. Lleve documentos; espere que la primera visita sea una consulta.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Adquisición de clientes&lt;/strong&gt;. El SBDC y SCORE ofrecen asesoría gratuita. UCF BIP lo conecta con mentores.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Orientación general&lt;/strong&gt;. El equipo de UCF BIP está disponible para una conversación una vez que complete el Módulo 8.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Sus puntuaciones de preparación son su mapa. Priorice profesionales basándose en sus puntuaciones más bajas.&lt;/p&gt;&lt;/p&gt;
-"><p><p>No preparation is perfect. The smartest founders identify what is missing and get help before they leave headquarters. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections waiting in the buildings around you. You need to know enough to ask the right questions and avoid expensive mistakes.</p></p>
+"><p><p>No preparation is perfect. The smartest founders identify what is missing and get help before entering the market. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections available to you through UCF. You need to know enough to ask the right questions and avoid expensive mistakes.</p></p>
 <p><h4>Where to Get Help</h4></p>
-<p><ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: "Do you work with foreign-owned businesses?"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. <a href="https://www.uspto.gov" target="_blank" rel="noopener">USPTO</a> has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> connects you with mentors.</li><li><strong>General guidance</strong> . The <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> team is available for a conversation once you complete Module 8.</li></ul></p>
-<p><p>Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p></p>
+<p><ul><li><strong>Legal (entity, contracts, compliance)</strong>. Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong>. CPA with international experience. Ask: "Do you work with foreign-owned businesses?"</li><li><strong>Immigration and visas</strong>. Immigration attorney. Not optional.</li><li><strong>IP protection</strong>. IP attorney. <a href="https://www.uspto.gov" target="_blank" rel="noopener">USPTO<span class="sr-only"> (opens in a new tab)</span></a> has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong>. Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong>. SBDC and SCORE offer free advising. <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> connects you with mentors.</li><li><strong>General guidance</strong>. The <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> team is available for a conversation once you complete Module 8.</li></ul></p>
+<p><p>Your readiness scores are your priority list. Prioritize professionals based on your lowest scores.</p></p>
 </div>
 <div class="rt-tabs" data-tabs-id="int-8-1-2">
   <h3 class="rt-tabs-title" data-es="Sus Próximos Pasos">Your Next Steps</h3>
@@ -241,18 +248,18 @@
 &lt;ul&gt;
   &lt;li&gt;Registro de entidad en SunBiz: sunbiz.org&lt;/li&gt;
   &lt;li&gt;Solicitud de EIN del IRS: irs.gov/businesses&lt;/li&gt;
-  &lt;li&gt;Consulta del Florida SBDC: floridasbdc.org&lt;/li&gt;
+  &lt;li&gt;Consulta del Florida SBDC: sbdcorlando.com&lt;/li&gt;
   &lt;li&gt;Mentoría de SCORE: score.org/orlando&lt;/li&gt;
   &lt;li&gt;Programas de UCF BIP: ucf.edu/bip&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Guarde estos enlaces&lt;/strong&gt; — los referenciará mientras construye su presencia en EE.UU.&lt;/p&gt;
 "><p><strong>Throughout this course, we've referenced key documents and tools.</strong> Here's your consolidated list:</p>
 <ul>
-  <li><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a> entity registration: sunbiz.org</li>
-  <li><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN</a> application: irs.gov/businesses</li>
-  <li><a href="https://floridasbdc.org" target="_blank" rel="noopener">Florida SBDC</a> consultation: floridasbdc.org</li>
+  <li><a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz<span class="sr-only"> (opens in a new tab)</span></a> entity registration: sunbiz.org</li>
+  <li><a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers" target="_blank" rel="noopener">IRS EIN<span class="sr-only"> (opens in a new tab)</span></a> application: irs.gov/businesses</li>
+  <li><a href="https://sbdcorlando.com" target="_blank" rel="noopener">Florida SBDC<span class="sr-only"> (opens in a new tab)</span></a> consultation: sbdcorlando.com</li>
   <li>SCORE mentorship: score.org/orlando</li>
-  <li><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> programs: ucf.edu/bip</li>
+  <li><a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> programs: ucf.edu/bip</li>
 </ul>
 <p><strong>Save these links</strong> — you'll reference them as you build your U.S. presence.</p>
 </div>
@@ -268,7 +275,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Duración:&lt;/strong&gt; 8–12 semanas&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Elegibilidad:&lt;/strong&gt; Completar este curso de Fase 1 + revisión de solicitud&lt;/p&gt;
-"><p><strong>Phase 2 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> program</strong> takes you from knowledge to action.</p>
+"><p><strong>Phase 2 of the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> program</strong> takes you from knowledge to action.</p>
 <p><strong>What to expect:</strong></p>
 <ul>
   <li>Hands-on mentorship with Central Florida business leaders</li>
@@ -291,7 +298,7 @@
 "><p><strong>You don't have to do this alone.</strong> Here are your immediate next steps:</p>
 <ol>
   <li><strong>Schedule a free SBDC consultation</strong> — get personalized guidance on your specific situation</li>
-  <li><strong>Apply to <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> Phase 2</strong> — take your business to the next level</li>
+  <li><strong>Apply to <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> Phase 2</strong> — take your business to the next level</li>
   <li><strong>Join the UCF entrepreneur community</strong> — connect with fellow international founders</li>
 </ol>
 <p><strong>Remember:</strong> Every successful international founder in the U.S. started exactly where you are right now.</p>
@@ -303,7 +310,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Uno de los Mayores Riesgos Es Hacerlo Solo">One of the Biggest Risks Is Going It Alone</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Piense en esto: ahora sabe más que muchos fundadores internacionales que entran al mercado de EE.UU. sin preparación estructurada. Muchos fundadores se lanzan sin un programa estructurado. Resuelven las cosas cometiendo errores. Usted tiene la oportunidad de saltarse los errores más costosos por completo. Pero saber por sí solo no reduce el riesgo. La &lt;strong&gt;acción&lt;/strong&gt; reduce el riesgo. Use sus puntuaciones de autoevaluación. Contacte a los profesionales. Comuníquese con las organizaciones. Central Florida, y este campus en particular, ha construido un ecosistema específicamente para ayudar a fundadores como usted a tener éxito. Úselo.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Think about this: you now know more than many international founders who enter the U.S. market without structured preparation. Many founders jump in without a structured program. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowing alone does not cut risk. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida, and this campus in particular, has built an ecosystem specifically to help founders like you succeed. Use it.</p></p>
+"><p><p>You now know more than many international founders who enter the U.S. market without structured preparation. But knowing is not enough. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida has built an ecosystem specifically to help founders like you succeed. Use it.</p></p>
 </div>
   </div>
 </div>
@@ -325,24 +332,24 @@
     <p class="rt-kc-question" data-es="Una fundadora se califica con un '2' en la sección de Configuración Legal de la autoevaluación de preparación. Según la guía de puntuación, ¿qué debería hacer antes de tomar acción sobre la formación de entidad?">A founder rates herself a '2' on the Legal Setup section of the readiness self-assessment. According to the scoring guide, what should she do before taking action on entity formation?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Proceder con la formación de una LLC ya que es la opción más común para fundadores internacionales">Proceed with forming an LLC since it is the most common choice for international founders</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Releer el Módulo 1 y luego registrar en SunBiz inmediatamente">Re-read Module 1 and then file on [SunBiz](https://sunbiz.org) immediately</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Consultar a un abogado de negocios o contador antes de registrar cualquier cosa, porque una puntuación de 1 o 2 señala la necesidad de orientación profesional">Consult a business attorney or CPA before filing anything, because a score of 1 or 2 signals the need for professional guidance</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Saltarse la formación de entidad y operar como propietario único hasta que se sienta más segura">Skip entity formation and operate as a sole proprietor until she feels more confident</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La guía de puntuación de la autoevaluación de preparación establece que cualquier área calificada con 1 o 2 es una prioridad para consulta profesional antes de tomar acción. Elegir mal el tipo de entidad cuesta más que la tarifa de registro. Puede significar meses de reestructuración y posibles complicaciones fiscales.">The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La guía de puntuación de la autoevaluación de preparación establece que cualquier área calificada con 1 o 2 es una prioridad para consulta profesional antes de tomar acción. Elegir mal el tipo de entidad cuesta más que la tarifa de registro. Puede significar meses de reestructuración y posibles complicaciones fiscales.">The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -350,24 +357,24 @@
     <p class="rt-kc-question" data-es="El programa identifica cuatro temas recurrentes que deben guiar cada decisión de negocio. Una fundadora está a punto de contratar una consultora privada de inmigración por $5,000. ¿Cuál tema debería aplicar PRIMERO?">The program identifies four recurring themes that should guide every business decision. A founder is about to hire a private immigration consultant for $5,000. Which theme should she apply FIRST?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Entienda la Cultura — aprenda las normas culturales alrededor de la consultoría de inmigración">Understand the Culture — learn the cultural norms around immigration consulting</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Cuide Su Dinero — verifique si el mismo servicio está disponible gratis a través del SBDC o SCORE antes de pagar a un consultor privado">Watch Your Money — check whether the same service is available for free through SBDC or SCORE before paying a private consultant</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Reduzca el Riesgo — contratar al consultor inmediatamente para evitar cualquier retraso migratorio">Reduce Risk — hire the consultant immediately to avoid any immigration delays</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Evite Errores Comunes — pregunte a otros fundadores qué consultor usaron">Avoid Common Mistakes — ask other founders which consultant they used</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="El tema 'Cuide Su Dinero' le recuerda a los fundadores verificar recursos gratuitos antes de gastar en servicios privados. Si bien la ley de inmigración específicamente requiere un abogado licenciado (no el SBDC), el principio más amplio aplica: siempre verifique si los programas financiados por el gobierno o los servicios de asesoría gratuitos cubren su necesidad antes de pagar por consultoría privada.">The 'Watch Your Money' theme reminds founders to check free resources before spending on private services. While immigration law specifically requires a licensed attorney (not SBDC), the broader principle applies: always verify whether government-funded programs or free advisory services cover your need before paying for private consulting.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="El tema 'Cuide Su Dinero' le recuerda a los fundadores verificar recursos gratuitos antes de gastar en servicios privados. Si bien la ley de inmigración específicamente requiere un abogado licenciado (no el SBDC), el principio más amplio aplica: siempre verifique si los programas financiados por el gobierno o los servicios de asesoría gratuitos cubren su necesidad antes de pagar por consultoría privada.">The 'Watch Your Money' theme reminds founders to check free resources before spending on private services. While immigration law specifically requires a licensed attorney (not SBDC), the broader principle applies: always verify whether government-funded programs or free advisory services cover your need before paying for private consulting.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -375,31 +382,31 @@
     <p class="rt-kc-question" data-es="Una fundadora de Chile se calificó con 4 de 5 en investigación de mercado y preparación de producto, pero 1 de 5 en configuración legal y 2 de 5 en impuestos de EE.UU. Quiere empezar a vender a clientes de EE.UU. el próximo mes. Según el marco de preparación de esta lección, ¿cómo debería evaluar si su cronograma es realista?">A founder from Chile rated herself 4 out of 5 on market research and product readiness, but 1 out of 5 on legal setup and 2 out of 5 on U.S. taxes. She wants to start selling to U.S. customers next month. Based on the readiness framework in this lesson, how should she evaluate whether her timeline is realistic?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Sus fuertes puntuaciones de preparación de mercado significan que está lista para empezar a vender inmediatamente sin importar otras brechas">Her strong market readiness scores mean she is ready to start selling immediately regardless of other gaps</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Debería retrasar toda actividad en EE.UU. por al menos un año hasta que cada categoría alcance un 4 o 5">She should delay all U.S. activity for at least a year until every category reaches a 4 or 5</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Debería ignorar las puntuaciones legales y fiscales ya que esas pueden arreglarse después sin consecuencias">She should ignore the legal and tax scores since those can be fixed later without consequences</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Sus puntuaciones legales y fiscales de 1 y 2 señalan que vender el próximo mes sin orientación profesional en esas áreas arriesga multas, problemas de cumplimiento o problemas estructurales que podrían costar mucho más que la demora — debería consultar a un abogado y contador antes de aceptar clientes de EE.UU.">Her legal and tax scores of 1 and 2 signal that selling next month without professional guidance in those areas risks penalties, compliance issues, or structural problems that could cost far more than the delay — she should consult an attorney and CPA before taking on U.S. customers</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="El marco de preparación trata las puntuaciones de 1 o 2 como prioridades para consulta profesional antes de tomar acción. Vender a clientes de EE.UU. sin una entidad debidamente formada, un entendimiento de las obligaciones fiscales o los contratos correctos crea exposición a responsabilidades. Sus fuertes puntuaciones de mercado son valiosas, pero las brechas legales y fiscales deben abordarse primero. La solución no es esperar un año — es agendar consultas con un abogado de negocios y un contador inmediatamente, lo que podría resolver las brechas en semanas en lugar de meses.">The readiness framework treats scores of 1 or 2 as priorities for professional consultation before taking action. Selling to U.S. customers without a properly formed entity, an understanding of tax obligations, or the right contracts creates liability exposure. Her strong market scores are valuable, but the legal and tax gaps must be addressed first. The solution is not to wait a year — it is to schedule consultations with a business attorney and CPA immediately, which could resolve the gaps in weeks rather than months.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="El marco de preparación trata las puntuaciones de 1 o 2 como prioridades para consulta profesional antes de tomar acción. Vender a clientes de EE.UU. sin una entidad debidamente formada, un entendimiento de las obligaciones fiscales o los contratos correctos crea exposición a responsabilidades. Sus fuertes puntuaciones de mercado son valiosas, pero las brechas legales y fiscales deben abordarse primero. La solución no es esperar un año — es agendar consultas con un abogado de negocios y un contador inmediatamente, lo que podría resolver las brechas en semanas en lugar de meses.">The readiness framework treats scores of 1 or 2 as priorities for professional consultation before taking action. Selling to U.S. customers without a properly formed entity, an understanding of tax obligations, or the right contracts creates liability exposure. Her strong market scores are valuable, but the legal and tax gaps must be addressed first. The solution is not to wait a year — it is to schedule consultations with a business attorney and CPA immediately, which could resolve the gaps in weeks rather than months.</p></div>
     
   </div>
 </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;No necesita tener todo resuelto. Necesita saber qué resolver primero y quién puede ayudar. Eso es lo que le dio este programa. Su autoevaluación de preparación no es una calificación. Es su lista de verificación previa a la partida. Las áreas donde se calificó más bajo son sus próximos pasos de mayor prioridad. Aplique sus puntuaciones para priorizar próximos pasos: evalúe qué brechas necesitan orientación profesional primero, luego cree un plan de acción específico para cada una. Ha llegado a la sede del campus por una razón. Use estas prioridades para guiar su conversación 1:1 con el equipo de UCF BIP.&lt;/p&gt;&lt;/p&gt;
-"><p><p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP</a> team.</p></p>
+"><p><p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your priority checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You completed this program for a reason. Use these priorities to guide your 1:1 conversation with the <a href="https://incubator.ucf.edu" target="_blank" rel="noopener">UCF BIP<span class="sr-only"> (opens in a new tab)</span></a> team.</p></p>
 </div>
 </div>
 </section>

@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="U.S. Market Readiness Program - Course Dashboard">
+  <meta name="description" content="U.S. Market Readiness Program - Destinations">
   <title>U.S. Market Readiness Program</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/video-dashboard.css">
 </head>
-<body data-total-modules="9" data-total-lessons="26">
+<body data-total-modules="9" data-total-lessons="25">
   <a href="#dest-heading" class="vd-skip-link">Skip to navigation</a>
 
   <!-- ============ ONBOARDING GATE ============ -->
@@ -94,22 +94,48 @@
            data-anchor-x="0.54" data-anchor-y="0.69"
            preload="auto" autoplay muted loop playsinline></video>
 
-    <!-- Language toggle — always visible top-right -->
+    <!-- Chrome bar — course title + settings gear -->
     <div class="vd-layer vd-layer-chrome">
       <div class="vd-chrome-bar">
         <span class="vd-course-badge" data-es="Preparación para el Mercado de EE.UU.">U.S. Market Readiness Program</span>
-        <div id="rt-lang-mount"></div>
-        <button type="button" class="vd-theme-toggle" id="btnTheme" aria-label="Toggle light/dark theme">
-          <svg class="vd-theme-icon vd-theme-icon--sun" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 000-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
-          <svg class="vd-theme-icon vd-theme-icon--moon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
-        </button>
+        <div class="vd-settings-wrap">
+          <button type="button" class="vd-settings-btn" id="btnSettings" aria-label="Settings" aria-expanded="false" aria-controls="settingsDropdown">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.49.49 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96a.49.49 0 00-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.6 3.6 0 1115.6 12 3.611 3.611 0 0112 15.6z"/></svg>
+          </button>
+          <div class="vd-settings-dropdown" id="settingsDropdown" role="menu" aria-label="Settings menu">
+            <div class="vd-settings-item">
+              <span class="vd-settings-label" data-es="Idioma">Language</span>
+              <div id="rt-lang-mount"></div>
+            </div>
+            <div class="vd-settings-item">
+              <span class="vd-settings-label" data-es="Tema">Theme</span>
+              <button type="button" class="vd-theme-pill" id="btnTheme" role="switch" aria-label="Toggle light/dark theme">
+                <span class="vd-theme-pill-opt" data-mode="dark">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+                </span>
+                <span class="vd-theme-pill-opt" data-mode="light">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+                </span>
+              </button>
+            </div>
+            <div class="vd-settings-divider"></div>
+            <button type="button" class="vd-settings-action" id="btnRewatch" role="menuitem">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5,3 19,12 5,21"/></svg>
+              <span data-es="Ver video de introducción">Rewatch Intro Video</span>
+            </button>
+            <button type="button" class="vd-settings-action" id="btnDisclaimer" role="menuitem">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span data-es="Revisar aviso legal">Review Disclaimer</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- DESTINATIONS button — anchored to car dashboard screen -->
     <div class="vd-layer vd-layer-ui" id="layerUi">
       <button type="button" class="vd-btn-nav" id="btnNav" aria-label="Open course destinations">
-        <svg class="vd-btn-nav-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true">
+        <svg class="vd-btn-nav-icon" viewBox="0 0 24 24" width="32" height="32" fill="none" aria-hidden="true">
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" fill="currentColor"/>
         </svg>
         <span class="vd-btn-nav-label" data-es="DESTINOS">DESTINATIONS</span>
@@ -135,129 +161,128 @@
         <nav class="vd-dest-list" id="vdList" aria-label="Course destinations">
 
           <!-- Module 0: Start Here -->
-          <a href="lesson-0-1.html" class="vd-dest" style="--accent: #4a6741" data-module="0" data-lessons="1">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num vd-dest-num--star">
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <a href="lesson-0-1.html" class="vd-dest" data-module="0" data-lessons="1" data-lesson-ids="lesson-0-1" data-transition="video/00_starthere.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/start_here.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
             <span class="vd-dest-body">
               <span class="vd-dest-name" data-es="Comience Aquí">Start Here</span>
-              <span class="vd-dest-sub" data-es="Qué Esperar y Cómo Usar Este Programa">What To Expect &amp; How To Use This Program</span>
-            </span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+              <span class="vd-dest-sub" data-es="Entienda lo que realmente implica entrar al mercado de EE.UU.">Get clear on what it actually takes to enter the U.S. market</span>
             </span>
           </a>
 
-          <!-- Module 1: Orlando Downtown (has transition video) -->
-          <a href="lesson-1-1.html" class="vd-dest" style="--accent: #1e3a5f" data-module="1" data-lessons="3" data-transition="video/downtown.mp4">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">1</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Centro de Orlando">Orlando Downtown</span>
-              <span class="vd-dest-sub" data-es="Abriendo Puertas a Su Negocio">Getting Your Foot in the Door</span>
+          <!-- Module 1: Downtown -->
+          <a href="lesson-1-1.html" class="vd-dest" data-module="1" data-lessons="3" data-lesson-ids="lesson-1-1,lesson-1-2,lesson-1-3" data-transition="video/02_downtown.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/downtown.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">3</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="El Centro">Downtown</span>
+              <span class="vd-dest-sub" data-es="Aprenda a estructurar, registrar y abrir su negocio en EE.UU.">Learn how to structure, register, and open your U.S. business</span>
             </span>
           </a>
 
           <!-- Module 2: Financial District -->
-          <a href="lesson-2-1.html" class="vd-dest" style="--accent: #2c5282" data-module="2" data-lessons="3">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">2</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Distrito Financiero">Financial District</span>
-              <span class="vd-dest-sub" data-es="Cuide Su Dinero">Watch Your Money</span>
+          <a href="lesson-2-1.html" class="vd-dest" data-module="2" data-lessons="3" data-lesson-ids="lesson-2-1,lesson-2-2,lesson-2-3" data-transition="video/03_office.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/financial.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">3</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="El Distrito Financiero">Financial District</span>
+              <span class="vd-dest-sub" data-es="Entienda cómo funciona el sistema fiscal y bancario de EE.UU.">Learn how the U.S. tax and banking system works for your business</span>
             </span>
           </a>
 
-          <!-- Module 3: Cape Canaveral -->
-          <a href="lesson-3-1.html" class="vd-dest" style="--accent: #553c7b" data-module="3" data-lessons="3">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">3</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Cabo Cañaveral">Cape Canaveral</span>
-              <span class="vd-dest-sub" data-es="Protegiendo Lo Que Está Construyendo">Protecting What You're Building</span>
+          <!-- Module 3: Space Center -->
+          <a href="lesson-3-1.html" class="vd-dest" data-module="3" data-lessons="3" data-lesson-ids="lesson-3-1,lesson-3-2,lesson-3-3" data-transition="video/04_SpaceCenter.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/space_center.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">3</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="El Centro Espacial">Space Center</span>
+              <span class="vd-dest-sub" data-es="Proteja su negocio con la propiedad intelectual, seguros y contratos correctos">Shield your business with the right IP, insurance, and contracts</span>
             </span>
           </a>
 
-          <!-- Module 4: Theme Parks -->
-          <a href="lesson-4-1.html" class="vd-dest" style="--accent: #c05621" data-module="4" data-lessons="3">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">4</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Parques Temáticos">Theme Park District</span>
-              <span class="vd-dest-sub" data-es="Construyendo Su Equipo">Building Your Team</span>
+          <!-- Module 4: Theme Park District -->
+          <a href="lesson-4-1.html" class="vd-dest" data-module="4" data-lessons="3" data-lesson-ids="lesson-4-1,lesson-4-2,lesson-4-3" data-transition="video/05_themePark.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/theme_park.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">3</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Los Parques Temáticos">Theme Park District</span>
+              <span class="vd-dest-sub" data-es="Forme su equipo en EE.UU. sin cometer errores legales costosos">Build your U.S. team without costly legal and compliance mistakes</span>
             </span>
           </a>
 
-          <!-- Module 5: The Port -->
-          <a href="lesson-5-1.html" class="vd-dest" style="--accent: #2b6cb0" data-module="5" data-lessons="2">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">5</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Puerto Cañaveral">Port Canaveral</span>
-              <span class="vd-dest-sub" data-es="Llegando a Clientes en EE.UU.">Reaching U.S. Customers</span>
+          <!-- Module 5: Harbor -->
+          <a href="lesson-5-1.html" class="vd-dest" data-module="5" data-lessons="2" data-lesson-ids="lesson-5-1,lesson-5-2" data-transition="video/06_port.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/port.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">2</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="El Puerto">Harbor</span>
+              <span class="vd-dest-sub" data-es="Aprenda a encontrar, llegar y vender a sus primeros clientes en EE.UU.">Learn how to find, reach, and close your first U.S. customers</span>
             </span>
           </a>
 
-          <!-- Module 6: The Beach -->
-          <a href="lesson-6-1.html" class="vd-dest" style="--accent: #d69e2e" data-module="6" data-lessons="3">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">6</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Playa Cocoa">Cocoa Beach</span>
-              <span class="vd-dest-sub" data-es="Cómo Funcionan Los Negocios Aquí">How Business Actually Works Here</span>
+          <!-- Module 6: Beach -->
+          <a href="lesson-6-1.html" class="vd-dest" data-module="6" data-lessons="3" data-lesson-ids="lesson-6-1,lesson-6-2,lesson-6-3" data-transition="video/07_beach.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/beach.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">3</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="La Playa">Beach</span>
+              <span class="vd-dest-sub" data-es="Descubra cómo los americanos se comunican, negocian y deciden">Discover how Americans communicate, negotiate, and make decisions</span>
             </span>
           </a>
 
-          <!-- Module 7: The Springs -->
-          <a href="lesson-7-1.html" class="vd-dest" style="--accent: #276749" data-module="7" data-lessons="4">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">7</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Manantial Blue Spring">Blue Spring</span>
-              <span class="vd-dest-sub" data-es="No Está Solo — Recursos y Redes">You're Not Alone</span>
+          <!-- Module 7: Natural Springs -->
+          <a href="lesson-7-1.html" class="vd-dest" data-module="7" data-lessons="4" data-lesson-ids="lesson-7-1,lesson-7-2,lesson-7-3,lesson-7-4" data-transition="video/08_spring.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/springs.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">4</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Los Manantiales">Natural Springs</span>
+              <span class="vd-dest-sub" data-es="Conéctese con los recursos gratuitos que la mayoría de los fundadores ignoran">Connect with the free resources most international founders overlook</span>
             </span>
           </a>
 
           <!-- Module 8: UCF Campus -->
-          <a href="lesson-8-1.html" class="vd-dest" style="--accent: #b7791f" data-module="8" data-lessons="3">
-            <span class="vd-dest-bar" aria-hidden="true"></span>
-            <span class="vd-dest-num">8</span>
-            <span class="vd-dest-body">
-              <span class="vd-dest-name" data-es="Campus UCF">UCF Campus</span>
-              <span class="vd-dest-sub" data-es="¿Es EE.UU. Adecuado Para Usted?">Is the U.S. Right for You?</span>
+          <a href="lesson-8-1.html" class="vd-dest" data-module="8" data-lessons="3" data-lesson-ids="lesson-8-1,lesson-8-2,lesson-8-3" data-transition="video/09_UCF.mp4">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/ucf.svg" alt="" width="44" height="44">
+              </span>
+              <span class="vd-dest-progress-bar"><span class="vd-dest-progress-fill"></span></span>
             </span>
-            <span class="vd-dest-meta">3</span>
-            <span class="vd-dest-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="El Campus UCF">UCF Campus</span>
+              <span class="vd-dest-sub" data-es="Evalúe su preparación y planifique sus próximos pasos con UCF BIP">Assess your readiness and plan your next steps with UCF BIP</span>
             </span>
           </a>
 
@@ -346,6 +371,13 @@
 
     // Navigate between steps
     window.obGoStep = function(step) {
+      // Pause intro video whenever we leave Step 2 so audio doesn't keep playing
+      if (step !== 2) {
+        var introVid = document.getElementById('obIntroVideo');
+        if (introVid) {
+          try { introVid.pause(); introVid.currentTime = 0; } catch (e) {}
+        }
+      }
       document.querySelectorAll('.ob-step').forEach(function(s) {
         s.classList.remove('ob-step--active');
       });
@@ -378,6 +410,12 @@
       p.onboarded = true;
       p.language = selectedLang;
       saveProgress(p);
+
+      // Ensure intro video is stopped before dismissing the gate
+      var introVid = document.getElementById('obIntroVideo');
+      if (introVid) {
+        try { introVid.pause(); introVid.currentTime = 0; } catch (e) {}
+      }
 
       gate.style.transition = 'opacity 0.5s ease';
       gate.style.opacity = '0';

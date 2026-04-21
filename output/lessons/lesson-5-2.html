@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)" aria-hidden="true">
     <img src="images/lesson-5-2-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/port.svg" alt="" width="24" height="24"></span>
+      <span data-es="EL PUERTO">HARBOR</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M12 30 Q24 20 36 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.5"/><path d="M10 34 Q22 24 34 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M24 10 L24 30 M20 14 L24 10 L28 14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M16 20 L32 20 L30 28 L18 28 Z" fill="currentColor" opacity="0.6"/></svg>
+            <img src="images/Icons/port.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 5</p>
+            <p class="rt-route-module-label">Harbor</p>
             <p class="rt-route-module-title">Reaching U.S. Customers</p>
           </div>
         </div>
@@ -86,10 +90,14 @@
               <a href="lesson-5-2.html" class="rt-stop-link rt-stop-link--current" aria-current="page">U.S. Customer Acquisition — How Americans Buy</a>
             </li>
 
+            <li class="rt-route-stop" data-lesson-id="lesson-5-3">
+              <span class="rt-stop-dot" aria-hidden="true"></span>
+              <a href="lesson-5-3.html" class="rt-stop-link" >Central Florida — Your Market Opportunity</a>
+            </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -98,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #2b6cb0 0%, #1a4e8a 100%)">Port Canaveral</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Adquisición de Clientes y Ventas a Empresas Estadounidenses">Customer Acquisition and Selling to U.S. Companies</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="EL PUERTO">Harbor</h2>
+            <p class="rt-module-intro-desc" data-es="Aprenda a encontrar, llegar y vender a sus primeros clientes en EE.UU.">Learn how to find, reach, and close your first U.S. customers</p>
+          </div>
 
           
 <section class="video-placeholder" aria-label="Video placeholder">
@@ -119,13 +132,13 @@
           
 
           <div class="rt-text-flow">
-            <h2 data-es="Dentro del Centro Comercial: Cómo los Estadounidenses Encuentran, Comparan y Compran">Inside the Shopping Center: How Americans Find, Compare, and Buy</h2>
+            <h2 data-es="Dentro del Centro Comercial: Cómo los Estadounidenses Encuentran, Comparan y Compran">How Americans Find, Compare, and Buy</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Usted ha adaptado su producto para el mercado estadounidense. Ahora es momento de sacarlo del estante y ponerlo en las manos del comprador.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Párese en cualquier corredor comercial importante de Central Florida y observe cómo se mueven los clientes: escanean, comparan, revisan reseñas en sus teléfonos y toman una decisión en minutos. Ese mismo comportamiento impulsa las compras B2B también, solo que con números más grandes y más papeleo. Encontrar y ganar clientes estadounidenses requiere velocidad y sistemas. Una empresa B2B argentina gastó $30,000 en una feria comercial en Las Vegas, recopiló 400 tarjetas y esperó tres semanas para hacer seguimiento. Nadie los recordaba. Un competidor canadiense hizo seguimiento en 24 horas y cerró 12 negocios.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Este es el punto práctico. La adquisición en EE.UU. es &lt;strong&gt;digital primero&lt;/strong&gt;. B2B: &lt;strong&gt;LinkedIn, marketing de contenido, eventos, referidos&lt;/strong&gt;. B2C: &lt;strong&gt;anuncios pagados, SEO, Amazon&lt;/strong&gt;. Elija dos o tres canales.&lt;/p&gt;&lt;/p&gt;
 "><p><p>You have adapted your product for the U.S. marketplace. Now it is time to get it off the shelf and into the buyer's hands.</p></p>
-<p><p>Stand in any major shopping corridor in Central Florida and watch how customers move: they scan, compare, check reviews on their phones, and make a decision in minutes. That same behavior drives B2B purchasing too, just with bigger numbers and more paperwork. Finding and winning U.S. customers takes speed and systems. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p></p>
-<p><p>Here is the practical takeaway. U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p></p>
+<p><p>American buyers scan options, compare features, check reviews, and make decisions fast. That same behavior drives B2B purchasing too, just with bigger numbers and more paperwork. Finding and winning U.S. customers takes speed and systems. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p></p>
+<p><p>U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p></p>
 </div>
 <figure class="lesson-image" role="figure">
   <img src="images/scenarios/lesson-5-2-trade-show.jpg" alt="Founder at U.S. Trade Show" loading="lazy">
@@ -136,7 +149,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="¿Sabía Usted?">Did You Know?</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;El área metropolitana de Orlando atrae a más de 75 millones de visitantes por año, convirtiéndolo en el destino más visitado de Estados Unidos. Ese volumen crea un mercado de consumo masivo donde las empresas compiten ferozmente por la atención y la velocidad de servicio. Los comportamientos de ventas que aprenderá en esta lección — seguimiento rápido, precios transparentes, adquisición digital primero — son práctica estándar en una región donde cada negocio compite por la atención de millones de compradores potenciales.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The Orlando metro area attracts over 75 million visitors per year, making it the most-visited destination in the United States. That volume creates a massive consumer marketplace where businesses compete fiercely for attention and speed of service. The sales behaviors you learn in this lesson, fast follow-up, transparent pricing, digital-first acquisition, are standard practice in a region where every business is competing for the attention of millions of potential buyers.</p></p>
+"><p><p>Central Florida attracts over 75 million visitors per year, making it the most-visited destination in the United States. That volume creates a massive consumer marketplace where businesses compete fiercely for attention and speed of service. The sales behaviors you learn in this lesson, fast follow-up, transparent pricing, digital-first acquisition, are standard practice in a region where every business is competing for the attention of millions of potential buyers.</p></p>
 </div>
   </div>
 </div><h2 data-es="El Ciclo de Ventas en EE.UU. — Más Rápido y Directo de lo que Espera">The U.S. Sales Cycle — Faster and More Direct Than You Expect</h2>
@@ -145,8 +158,8 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Primera respuesta:&lt;/strong&gt; El mismo día. Tres días es demasiado tarde.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Demo:&lt;/strong&gt; Dentro de una semana.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Propuesta:&lt;/strong&gt; Dentro de 24 a 48 horas después de la primera llamada.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Decisión:&lt;/strong&gt; Menos de $10K en 1 a 2 semanas. $10K a $100K en 4 a 8 semanas. $100K+ en 3 a 6 meses.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Seguimiento:&lt;/strong&gt; Dentro de 3 días hábiles, luego semanalmente.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Configure secuencias automatizadas si no puede responder en pocas horas.&lt;/p&gt;&lt;/p&gt;
 "><p><p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p></p>
-<p><p>What does that mean for you? Typical B2B timeline:</p></p>
-<p><ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 3–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul></p>
+<p><p>Typical B2B timeline:</p></p>
+<p><ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 2–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul></p>
 <p><p>Set up automated sequences if you cannot respond within a few hours.</p></p>
 </div>
 <div class="rt-tabs" data-tabs-id="int-5-2-1">
@@ -210,7 +223,7 @@
   &lt;li&gt;Decisión: 1 a 2 semanas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Total: 6 a 12 semanas&lt;/strong&gt; para negocios de mercado medio. Las ventas empresariales pueden tomar más de 6 meses.&lt;/p&gt;
-"><p>U.S. B2B sales cycles are longer than most international founders expect.</p>
+"><p>U.S. B2B sales cycles are longer than many international founders expect.</p>
 <p><strong>Typical timeline:</strong></p>
 <ul>
   <li>Initial contact → Quote: 1–3 days</li>
@@ -227,7 +240,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="No Hacer Seguimiento con Suficiente Rapidez">Not Following Up Fast Enough</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde la velocidad se convierte en un factor decisivo. En muchos países, una respuesta de tres días a una consulta de negocios se considera normal. En EE.UU., si usted no responde en cuestión de horas, el comprador ya ha contactado a su competidor. Un estudio de Harvard Business Review encontró que las empresas que respondieron a prospectos dentro de una hora tenían &lt;strong&gt;siete veces más probabilidades&lt;/strong&gt; de calificar al prospecto que aquellas que esperaron apenas dos horas. La velocidad no solo ayuda. A menudo es el factor decisivo.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Here's where speed becomes a dealbreaker. In many countries, a three-day response to a business inquiry is considered normal. In the U.S., if you do not respond within hours, the buyer has already contacted your competitor. A study by Harvard Business Review found that companies who responded to leads within one hour were <strong>seven times more likely</strong> to qualify the lead than those who waited even two hours. Speed does not just help. It is often the deciding factor.</p></p>
+"><p><p>In many countries, a three-day response to a business inquiry is considered normal. In the U.S., if you do not respond within hours, the buyer has already contacted your competitor. A study by Harvard Business Review found that companies who responded to leads within one hour were <strong>seven times more likely</strong> to qualify the lead than those who waited even two hours. Speed does not just help. It is often the deciding factor.</p></p>
 </div>
   </div>
 </div><h2 data-es="Estrategia de Precios para el Mercado de EE.UU.">Pricing Strategy for the U.S. Market</h2>
@@ -236,7 +249,7 @@
 &lt;p&gt;&lt;p&gt;En resumen: ofrezca una prueba gratuita o garantía de devolución de dinero. Ambas son estándar en EE.UU.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Your pricing strategy needs to be transparent, competitive, and clearly positioned. Map your U.S. competitive landscape: identify 5 to 10 similar companies and document their pricing tiers. Three pitfalls:</p></p>
 <p><ol><li><strong>Pricing too low.</strong> Competitors at $25/month and you at $8 signals something is missing.</li><li><strong>No localization.</strong> Converting your home-market price to dollars is not a strategy.</li><li><strong>Hiding pricing.</strong> U.S. buyers expect transparent pricing on your website.</li></ol></p>
-<p><p>In short: offer a free trial or money-back guarantee. Both are standard in the U.S.</p></p>
+<p><p>Offer a free trial or money-back guarantee. Both are standard in the U.S.</p></p>
 </div><h2 data-es="Incorporación de Proveedores — Lo que las Empresas de EE.UU. Requieren de Usted">Vendor Onboarding — What U.S. Companies Require From You</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Esto toma por sorpresa a muchos fundadores que venden B2B. Su producto debe pasar por el proceso de compras del comprador antes de que usted vea un pago. El comprador dice que sí, luego el equipo de compras envía un paquete con formularios que usted nunca ha visto. Tenga todo listo antes de comenzar a vender.&lt;/p&gt;&lt;/p&gt;
 "><p><p>This blindsides many founders selling B2B. Your product must pass through a buyer's procurement process before you see payment. The buyer says yes, then the purchasing team sends a packet with forms you have never heard of. Have everything ready before you start selling.</p></p>
@@ -292,91 +305,10 @@
     <div data-es-html="&lt;p&gt;&lt;p&gt;Piense en esto antes de comenzar a vender. Antes de presentar su oferta a su primer cliente B2B en EE.UU., asegúrese de tener esto listo:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;EIN (Employer Identification Number)&lt;/strong&gt;: requerido para el formulario W-9&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Formulario W-9 completado&lt;/strong&gt;: tenga un PDF listo para enviar en minutos&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Seguro de responsabilidad general&lt;/strong&gt;: obtenga una póliza y solicite un COI de muestra a su proveedor&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Seguro de responsabilidad profesional&lt;/strong&gt;: requerido en muchos sectores de tecnología y consultoría&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cuenta bancaria en EE.UU.&lt;/strong&gt;: la mayoría de los sistemas de compras pagan vía ACH, no transferencia bancaria&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Documentación de registro de la empresa&lt;/strong&gt;. Artículos de Organización, acuerdo operativo&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Si le falta cualquiera de estos, puede retrasar un negocio de dos a cuatro semanas o matarlo si el comprador tiene otras opciones listas.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Think about this before you start selling. Before you pitch your first U.S. B2B customer, make sure you have these ready:</p></p>
-<p><ul><li><strong>EIN (Employer Identification Number)</strong>: required for the W-9 form</li><li><strong>Completed W-9 form</strong>: have a PDF ready to send within minutes</li><li><strong>General liability insurance</strong>: get a policy and request a sample COI from your provider</li><li><strong>Professional liability insurance</strong>: required in many tech and consulting sectors</li><li><strong>U.S. bank account</strong>: most procurement systems pay via ACH, not wire transfer</li><li><strong>Company registration documentation</strong> . Articles of Organization, operating agreement</li></ul></p>
+"><p><p>Before you pitch your first U.S. B2B customer, make sure you have these ready:</p></p>
+<p><ul><li><strong>EIN (Employer Identification Number)</strong>: required for the W-9 form</li><li><strong>Completed W-9 form</strong>: have a PDF ready to send within minutes</li><li><strong>General liability insurance</strong>: get a policy and request a sample COI from your provider</li><li><strong>Professional liability insurance</strong>: required in many tech and consulting sectors</li><li><strong>U.S. bank account</strong>: most procurement systems pay via ACH, not wire transfer</li><li><strong>Company registration documentation.</strong> Articles of Organization, operating agreement</li></ul></p>
 <p><p>Missing any of these can stall a deal by two to four weeks or kill it if the buyer has other options ready to go.</p></p>
 </div>
-  </div>
-</div>
-<div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
-  <div class="rt-kc-header">
-    <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
-    <span class="rt-kc-progress" data-es-html="Pregunta &lt;span class='rt-kc-current'&gt;1&lt;/span&gt; de 3">Question <span class="rt-kc-current">1</span> of 3</span>
-  </div>
-
-  <div class="rt-kc-step" data-step="0">
-    <p class="rt-kc-question" data-es="Una empresa de EE.UU. quiere comprar su servicio de software para su equipo de 50 empleados. Después de acordar los precios, su departamento de compras le envía un paquete de incorporación de proveedor. ¿Cuál de los siguientes documentos probablemente necesitará proporcionar?">A U.S. company wants to purchase your software service for their team of 50 employees. After agreeing on pricing, their procurement department sends you a vendor onboarding packet. Which of the following will you most likely need to provide?</p>
-    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
-        <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="Un formulario W-9, certificado de seguro e información de registro de proveedor">A W-9 form, certificate of insurance, and vendor registration information</span>
-      </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="Solo un contrato firmado y una factura">Only a signed contract and an invoice</span>
-      </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="Una carta de recomendación de un cliente anterior en EE.UU.">A letter of recommendation from a previous U.S. client</span>
-      </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="Prueba de ciudadanía estadounidense para los fundadores de su empresa">Proof of U.S. citizenship for your company's founders</span>
-      </button>
-    </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Las empresas de EE.UU. con procesos formales de compras típicamente requieren un W-9 (identificación fiscal), certificado de seguro (prueba de cobertura de responsabilidad) y registro en su sistema de proveedores antes de poder emitir un pago. Tener estos documentos listos con anticipación evita retrasos que pueden estancar o matar el negocio.">U.S. companies with formal procurement processes typically require a W-9 (tax identification), certificate of insurance (proof of liability coverage), and registration in their vendor system before they can issue payment. Having these documents ready in advance prevents delays that can stall or kill the deal.</p></div>
-    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
-  </div>
-
-  <div class="rt-kc-step" data-step="1" hidden>
-    <p class="rt-kc-question" data-es="Una fundadora de software B2B de Brasil recopila 200 tarjetas de presentación en una feria comercial de EE.UU. Planea comenzar a enviar correos de seguimiento el lunes siguiente, cinco días después del evento. Su competidor hizo seguimiento con enlaces personalizados de demostración en 24 horas. Según las expectativas del ciclo de ventas en EE.UU., ¿cuál es el resultado más probable?">A B2B software founder from Brazil collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?</p>
-    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="Ambos fundadores tendrán el mismo éxito porque la calidad del producto importa más que la velocidad de seguimiento">Both founders will have equal success because the product quality matters more than follow-up speed</span>
-      </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="La fundadora brasileña tendrá ventaja porque esperar demuestra paciencia y profesionalismo">The Brazilian founder will have an advantage because waiting shows patience and professionalism</span>
-      </button>
-      <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
-        <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="El competidor cerrará significativamente más negocios porque los compradores estadounidenses avanzan con quien responde más rápido">The competitor will close significantly more deals because U.S. buyers move forward with whoever responds fastest</span>
-      </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="Ninguno cerrará negocios porque los prospectos de ferias comerciales rara vez se convierten en ventas">Neither will close deals because trade show leads rarely convert to sales</span>
-      </button>
-    </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La velocidad es un factor decisivo en las ventas en EE.UU. El estudio de Harvard Business Review citado en esta lección encontró que las empresas que respondieron dentro de una hora tenían siete veces más probabilidades de calificar un prospecto. Esperar cinco días significa que la mayoría de los prospectos ya se han comprometido con competidores más rápidos. En los negocios estadounidenses, la primera empresa en hacer seguimiento con una oferta clara tiene una ventaja importante.">Speed is a decisive factor in U.S. sales. The Harvard Business Review study cited in this lesson found that companies responding within one hour were seven times more likely to qualify a lead. Waiting five days means most prospects have already engaged with faster competitors. In U.S. business, the first company to follow up with a clear offer has a major advantage.</p></div>
-    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
-  </div>
-
-  <div class="rt-kc-step" data-step="2" hidden>
-    <p class="rt-kc-question" data-es="Un fundador de Nigeria construyó una plataforma de cumplimiento de recursos humanos y acaba de recibir un &quot;sí&quot; verbal de una empresa de 200 personas en EE.UU. El comprador dice: &quot;Excelente, lo enviaré a compras.&quot; Compras le envía un paquete de incorporación de proveedor solicitando un formulario W-9, un certificado de seguro y registro en su sistema Coupa. Él no tiene nada de esto listo. Le dice a compras que &quot;les responderá en un par de semanas.&quot; Mientras tanto, el equipo del comprador también está evaluando un competidor con sede en EE.UU. ¿Cuál es el resultado más probable?">A founder from Nigeria built an HR compliance platform and just landed a verbal "yes" from a 200-person U.S. company. The buyer says, "Great — I'll send you over to procurement." Procurement emails him a vendor onboarding packet requesting a W-9 form, a certificate of insurance, and registration in their Coupa system. He has none of these ready. He tells procurement he'll "get back to them in a couple of weeks." Meanwhile, the buyer's team is also evaluating a U.S.-based competitor. What is the most likely outcome?</p>
-    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="El comprador esperará porque ya se comprometió verbalmente y cambiar de proveedor es demasiado trabajo">The buyer will wait because they already committed verbally and switching vendors is too much work</span>
-      </button>
-      <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
-        <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="El negocio se estanca o muere. El competidor que tiene los documentos de proveedor listos cierra mientras él todavía está reuniendo el papeleo">The deal stalls or dies. The competitor who has vendor documents ready closes while he is still gathering paperwork</span>
-      </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="Compras extenderá el plazo ya que los proveedores internacionales comúnmente necesitan tiempo extra para el papeleo de EE.UU.">Procurement will extend the deadline since international vendors commonly need extra time for U.S. paperwork</span>
-      </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="El fundador puede saltarse la incorporación de proveedor facturando al comprador directamente a través de su cuenta bancaria en Nigeria">The founder can skip vendor onboarding by invoicing the buyer directly through his Nigerian bank account</span>
-      </button>
-    </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Un &quot;sí&quot; verbal no es un negocio cerrado en las ventas B2B de EE.UU.; compras es donde los negocios viven o mueren. Dos semanas es una eternidad cuando un competidor ya tiene un W-9, certificado de seguro y registro en Coupa listos para enviar. Las empresas de EE.UU. rara vez extienden plazos para la incorporación de proveedores cuando un proveedor alternativo ya está calificado. Por eso la lección enfatiza tener toda la documentación de proveedor preparada antes de comenzar a vender, no después de que un comprador dice que sí.">A verbal "yes" is not a closed deal in U.S. B2B sales; procurement is where deals live or die. Two weeks is an eternity when a competitor already has a W-9, insurance certificate, and Coupa registration ready to submit. U.S. companies rarely extend deadlines for vendor onboarding when an alternative vendor is already qualified. This is why the lesson emphasizes having all vendor documentation prepared before you start selling, not after a buyer says yes.</p></div>
-    
   </div>
 </div>
 <section class="rt-endcheck-section">
@@ -387,10 +319,91 @@
     </svg>
     <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
+<div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
+  <div class="rt-kc-header">
+    <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
+    <span class="rt-kc-progress" data-es-html="Pregunta &lt;span class='rt-kc-current'&gt;1&lt;/span&gt; de 3">Question <span class="rt-kc-current">1</span> of 3</span>
+  </div>
+
+  <div class="rt-kc-step" data-step="0">
+    <p class="rt-kc-question" data-es="Una empresa de EE.UU. quiere comprar su servicio de software para su equipo de 50 empleados. Después de acordar los precios, su departamento de compras le envía un paquete de incorporación de proveedor. ¿Cuál de los siguientes documentos probablemente necesitará proporcionar?">A U.S. company wants to purchase your software service for their team of 50 employees. After agreeing on pricing, their procurement department sends you a vendor onboarding packet. Which of the following will you most likely need to provide?</p>
+    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
+      
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
+        <span class="rt-kc-letter">A</span>
+        <span class="rt-kc-text" data-es="Un formulario W-9, certificado de seguro e información de registro de proveedor">A W-9 form, certificate of insurance, and vendor registration information</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">B</span>
+        <span class="rt-kc-text" data-es="Solo un contrato firmado y una factura">Only a signed contract and an invoice</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">C</span>
+        <span class="rt-kc-text" data-es="Una carta de recomendación de un cliente anterior en EE.UU.">A letter of recommendation from a previous U.S. client</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">D</span>
+        <span class="rt-kc-text" data-es="Prueba de ciudadanía estadounidense para los fundadores de su empresa">Proof of U.S. citizenship for your company's founders</span>
+      </button>
+    </div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Las empresas de EE.UU. con procesos formales de compras típicamente requieren un W-9 (identificación fiscal), certificado de seguro (prueba de cobertura de responsabilidad) y registro en su sistema de proveedores antes de poder emitir un pago. Tener estos documentos listos con anticipación evita retrasos que pueden estancar o matar el negocio.">U.S. companies with formal procurement processes typically require a W-9 (tax identification), certificate of insurance (proof of liability coverage), and registration in their vendor system before they can issue payment. Having these documents ready in advance prevents delays that can stall or kill the deal.</p></div>
+    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
+  </div>
+
+  <div class="rt-kc-step" data-step="1" hidden>
+    <p class="rt-kc-question" data-es="Una fundadora de software B2B de Brasil recopila 200 tarjetas de presentación en una feria comercial de EE.UU. Planea comenzar a enviar correos de seguimiento el lunes siguiente, cinco días después del evento. Su competidor hizo seguimiento con enlaces personalizados de demostración en 24 horas. Según las expectativas del ciclo de ventas en EE.UU., ¿cuál es el resultado más probable?">A B2B software founder from Brazil collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?</p>
+    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
+      
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">A</span>
+        <span class="rt-kc-text" data-es="Ambos fundadores tendrán el mismo éxito porque la calidad del producto importa más que la velocidad de seguimiento">Both founders will have equal success because the product quality matters more than follow-up speed</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">B</span>
+        <span class="rt-kc-text" data-es="La fundadora brasileña tendrá ventaja porque esperar demuestra paciencia y profesionalismo">The Brazilian founder will have an advantage because waiting shows patience and professionalism</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="true" onclick="checkKC(this)">
+        <span class="rt-kc-letter">C</span>
+        <span class="rt-kc-text" data-es="El competidor cerrará significativamente más negocios porque los compradores estadounidenses avanzan con quien responde más rápido">The competitor will close significantly more deals because U.S. buyers move forward with whoever responds fastest</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">D</span>
+        <span class="rt-kc-text" data-es="Ninguno cerrará negocios porque los prospectos de ferias comerciales rara vez se convierten en ventas">Neither will close deals because trade show leads rarely convert to sales</span>
+      </button>
+    </div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La velocidad es un factor decisivo en las ventas en EE.UU. El estudio de Harvard Business Review citado en esta lección encontró que las empresas que respondieron dentro de una hora tenían siete veces más probabilidades de calificar un prospecto. Esperar cinco días significa que la mayoría de los prospectos ya se han comprometido con competidores más rápidos. En los negocios estadounidenses, la primera empresa en hacer seguimiento con una oferta clara tiene una ventaja importante.">Speed is a decisive factor in U.S. sales. The Harvard Business Review study cited in this lesson found that companies responding within one hour were seven times more likely to qualify a lead. Waiting five days means most prospects have already engaged with faster competitors. In U.S. business, the first company to follow up with a clear offer has a major advantage.</p></div>
+    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
+  </div>
+
+  <div class="rt-kc-step" data-step="2" hidden>
+    <p class="rt-kc-question" data-es="Un fundador de Nigeria construyó una plataforma de cumplimiento de recursos humanos y acaba de recibir un &quot;sí&quot; verbal de una empresa de 200 personas en EE.UU. El comprador dice: &quot;Excelente, lo enviaré a compras.&quot; Compras le envía un paquete de incorporación de proveedor solicitando un formulario W-9, un certificado de seguro y registro en su sistema Coupa. Él no tiene nada de esto listo. Le dice a compras que &quot;les responderá en un par de semanas.&quot; Mientras tanto, el equipo del comprador también está evaluando un competidor con sede en EE.UU. ¿Cuál es el resultado más probable?">A founder from Nigeria built an HR compliance platform and just landed a verbal "yes" from a 200-person U.S. company. The buyer says, "Great — I'll send you over to procurement." Procurement emails him a vendor onboarding packet requesting a W-9 form, a certificate of insurance, and registration in their Coupa system. He has none of these ready. He tells procurement he'll "get back to them in a couple of weeks." Meanwhile, the buyer's team is also evaluating a U.S.-based competitor. What is the most likely outcome?</p>
+    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
+      
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">A</span>
+        <span class="rt-kc-text" data-es="El comprador esperará porque ya se comprometió verbalmente y cambiar de proveedor es demasiado trabajo">The buyer will wait because they already committed verbally and switching vendors is too much work</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
+        <span class="rt-kc-letter">B</span>
+        <span class="rt-kc-text" data-es="El negocio se estanca o muere. El competidor que tiene los documentos de proveedor listos cierra mientras él todavía está reuniendo el papeleo">The deal stalls or dies. The competitor who has vendor documents ready closes while he is still gathering paperwork</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">C</span>
+        <span class="rt-kc-text" data-es="Compras extenderá el plazo ya que los proveedores internacionales comúnmente necesitan tiempo extra para el papeleo de EE.UU.">Procurement will extend the deadline since international vendors commonly need extra time for U.S. paperwork</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">D</span>
+        <span class="rt-kc-text" data-es="El fundador puede saltarse la incorporación de proveedor facturando al comprador directamente a través de su cuenta bancaria en Nigeria">The founder can skip vendor onboarding by invoicing the buyer directly through his Nigerian bank account</span>
+      </button>
+    </div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Un &quot;sí&quot; verbal no es un negocio cerrado en las ventas B2B de EE.UU.; compras es donde los negocios viven o mueren. Dos semanas es una eternidad cuando un competidor ya tiene un W-9, certificado de seguro y registro en Coupa listos para enviar. Las empresas de EE.UU. rara vez extienden plazos para la incorporación de proveedores cuando un proveedor alternativo ya está calificado. Por eso la lección enfatiza tener toda la documentación de proveedor preparada antes de comenzar a vender, no después de que un comprador dice que sí.">A verbal "yes" is not a closed deal in U.S. B2B sales; procurement is where deals live or die. Two weeks is an eternity when a competitor already has a W-9, insurance certificate, and Coupa registration ready to submit. U.S. companies rarely extend deadlines for vendor onboarding when an alternative vendor is already qualified. This is why the lesson emphasizes having all vendor documentation prepared before you start selling, not after a buyer says yes.</p></div>
+    
+  </div>
+</div>
 <div class="rt-key-takeaway">
   <h3 data-es="Conclusión Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es simple. La velocidad gana en el mercado de EE.UU. Responda rápido, establezca precios claros basados en las normas del mercado estadounidense y haga seguimiento con cuidado. Para ventas B2B, prepare sus documentos de incorporación de proveedor (W-9, certificados de seguro, registro de empresa) antes de comenzar a vender. Los fundadores que cierran negocios en EE.UU. son los que facilitan que los compradores digan que sí — su papeleo está listo y su negocio está abierto cuando llega la oportunidad.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is simple. Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes — your paperwork is ready and your business is open when the opportunity arrives.</p></p>
+"><p><p>Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes — your paperwork is ready and your business is open when the opportunity arrives.</p></p>
 </div>
 </div>
 </section>
@@ -418,10 +431,10 @@
             </div>
           </a>
           
-          <a href="lesson-6-1.html" class="rt-nav-btn rt-nav-next">
+          <a href="lesson-5-3.html" class="rt-nav-btn rt-nav-next">
             <div>
               <span class="rt-nav-label" data-es="Siguiente Parada">Next Stop</span>
-              <span class="rt-nav-title">How Americans Do Business — Culture, Communication, and Expectations</span>
+              <span class="rt-nav-title">Central Florida — Your Market Opportunity</span>
             </div>
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>

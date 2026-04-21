@@ -1,0 +1,589 @@
+/* ═══════════════════════════════════════════════════════════════
+   QUIZ / KNOWLEDGE CHECK STYLES (All 12 Types)
+
+   Base styles for quiz components shared by components.css are NOT
+   duplicated here. This file adds:
+     1. Base layout for the 6 newer quiz types (sequencing, drag-drop,
+        hotspot, categorization, matching, word-bank-cloze, scenario-
+        judgment, numeric-entry)
+     2. State styles (selected, correct, incorrect, dragging, etc.)
+     3. Responsive overrides
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Knowledge-check headings & text ──
+   Base .knowledge-check, label, and .question-feedback are in
+   components.css with CSS variables. These cover quiz-specific elements. */
+.knowledge-check h3 {
+  margin-bottom: 0.5rem;
+  color: var(--color-primary, #38b2ac);
+}
+
+.knowledge-check p {
+  margin-bottom: 1.5rem;
+  color: var(--text-primary, #374151);
+  font-size: 1.05rem;
+}
+
+/* Submit / Check button inside knowledge-check */
+.knowledge-check > button,
+.knowledge-check .quiz-submit-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary, #38b2ac);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+  transition: background 0.2s;
+}
+.knowledge-check > button:hover,
+.knowledge-check .quiz-submit-btn:hover {
+  background: var(--color-primary-dark, #2c7a7b);
+}
+
+/* ── Quiz option (radio/checkbox label wrapper) ── */
+.quiz-option {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  background: var(--option-bg, #f9fafb);
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-height: 44px;
+}
+.quiz-option input[type="radio"],
+.quiz-option input[type="checkbox"] {
+  margin-right: 0.75rem;
+  min-width: 18px;
+  min-height: 18px;
+  flex-shrink: 0;
+}
+
+/* Option states */
+.quiz-option.selected {
+  border-color: var(--color-primary, #38b2ac) !important;
+  background: rgba(56, 178, 172, 0.05) !important;
+}
+.quiz-option.correct-answer {
+  border-color: var(--color-success, #10b981) !important;
+  background: var(--success-bg, #d1fae5) !important;
+}
+.quiz-option.incorrect-answer {
+  border-color: var(--color-error, #ef4444) !important;
+  background: var(--error-bg, #fee2e2) !important;
+}
+.quiz-option:hover {
+  border-color: var(--color-primary, #38b2ac);
+  background: rgba(56, 178, 172, 0.03);
+}
+
+/* ── Question feedback states ──
+   Base .question-feedback is in components.css. These add state variants. */
+.question-feedback.correct,
+.question-feedback[data-state="correct"] {
+  display: block !important;
+  background: var(--success-bg, #d1fae5) !important;
+  color: #065f46 !important;
+}
+.question-feedback.incorrect,
+.question-feedback[data-state="incorrect"] {
+  display: block !important;
+  background: var(--error-bg, #fee2e2) !important;
+  color: #991b1b !important;
+}
+.question-feedback.partial {
+  display: block !important;
+  background: #fef3c7 !important;
+  color: #92400e !important;
+}
+
+/* ── Fill-blank ── */
+.fill-blank-input input {
+  min-height: 44px;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+.fill-blank-input input.correct-answer,
+.numeric-entry input.correct-answer {
+  border-color: var(--color-success, #10b981);
+  background: var(--success-bg, #d1fae5);
+}
+.fill-blank-input input.incorrect-answer,
+.numeric-entry input.incorrect-answer {
+  border-color: var(--color-error, #ef4444);
+  background: var(--error-bg, #fee2e2);
+}
+.fill-blank-input input:focus {
+  border-color: var(--color-primary, #38b2ac);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56, 178, 172, 0.2);
+}
+
+/* ── Sequencing ── */
+.sequencing-item {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: var(--option-bg, #f9fafb);
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 0.5rem;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 44px;
+}
+.sequencing-item.answered {
+  cursor: default;
+}
+.seq-handle {
+  font-size: 1.25rem;
+  color: var(--text-muted, #9ca3af);
+  user-select: none;
+}
+.seq-number {
+  font-weight: 600;
+  color: var(--text-muted, #6b7280);
+  min-width: 1.5rem;
+}
+.seq-arrows {
+  margin-left: auto;
+  display: flex;
+  gap: 0.25rem;
+}
+.seq-up, .seq-down {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--border-color, #d1d5db);
+  border-radius: 0.375rem;
+  background: var(--card-bg, white);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.seq-up:hover, .seq-down:hover {
+  background: var(--option-bg, #f9fafb);
+}
+.sequencing-item.dragging {
+  opacity: 0.5;
+  border-color: var(--color-primary, #38b2ac);
+}
+.sequencing-item.correct-position {
+  background: var(--success-bg, #d1fae5) !important;
+  border-color: var(--color-success, #10b981) !important;
+}
+.sequencing-item.incorrect-position {
+  background: var(--error-bg, #fee2e2) !important;
+  border-color: var(--color-error, #ef4444) !important;
+}
+.sequencing-item:focus {
+  outline: 2px solid var(--color-primary, #38b2ac);
+  outline-offset: 2px;
+}
+
+/* ── Drag-and-drop ── */
+.dd-items-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: var(--option-bg, #f3f4f6);
+  border-radius: 0.5rem;
+  min-height: 60px;
+  transition: background 0.2s;
+}
+.dd-items-pool.drag-over {
+  background: rgba(56, 178, 172, 0.05) !important;
+}
+.dd-item {
+  padding: 0.75rem 1rem;
+  background: var(--card-bg, white);
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 0.5rem;
+  cursor: grab;
+  user-select: none;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.dd-zones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.dd-zone {
+  border: 2px dashed var(--border-color, #d1d5db);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  min-height: 150px;
+}
+.dd-zone h4 {
+  margin-bottom: 0.75rem;
+  color: var(--text-primary, #374151);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+}
+.dd-drop-area {
+  min-height: 80px;
+}
+.dd-zone.drag-over {
+  border-color: var(--color-primary, #38b2ac) !important;
+  background: rgba(56, 178, 172, 0.05) !important;
+}
+.dd-item.dragging {
+  opacity: 0.5;
+}
+.dd-item.correct {
+  background: var(--success-bg, #d1fae5) !important;
+  border-color: var(--color-success, #10b981) !important;
+  color: #065f46 !important;
+}
+.dd-item.incorrect {
+  background: var(--error-bg, #fee2e2) !important;
+  border-color: var(--color-error, #ef4444) !important;
+  color: #991b1b !important;
+}
+
+/* ── Categorization ── */
+.categorization-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--option-bg, #f9fafb);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  min-height: 60px;
+}
+.cat-item {
+  padding: 0.5rem 1rem;
+  background: var(--color-primary, #38b2ac);
+  color: #fff;
+  border-radius: 0.375rem;
+  cursor: grab;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.categorization-buckets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.cat-bucket {
+  border: 2px dashed var(--border-color, #d1d5db);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  min-height: 120px;
+}
+.bucket-label {
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+  margin-bottom: 0.5rem;
+}
+.bucket-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.cat-bucket.drag-over {
+  border-color: var(--color-primary, #38b2ac) !important;
+  background: rgba(56, 178, 172, 0.05) !important;
+}
+.cat-item.dragging {
+  opacity: 0.5;
+}
+.cat-item.correct {
+  background: var(--success-bg, #d1fae5) !important;
+  border-color: var(--color-success, #10b981) !important;
+  color: #065f46 !important;
+}
+.cat-item.incorrect {
+  background: var(--error-bg, #fee2e2) !important;
+  border-color: var(--color-error, #ef4444) !important;
+  color: #991b1b !important;
+}
+
+/* ── Hotspot ── */
+.hotspot-container {
+  position: relative;
+  max-width: 100%;
+  display: inline-block;
+}
+.hotspot-container img {
+  width: 100%;
+  display: block;
+  border-radius: 0.5rem;
+}
+.hotspot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hotspot-zone {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px dashed var(--color-primary, #38b2ac);
+  background: transparent;
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
+  transition: all 0.2s;
+}
+.hotspot-instruction {
+  text-align: center;
+  color: var(--text-muted, #6b7280);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+.hotspot-zone.selected {
+  background: rgba(56, 178, 172, 0.3) !important;
+  border-color: var(--color-primary, #38b2ac) !important;
+  border-style: solid !important;
+}
+.hotspot-zone.correct-zone {
+  background: rgba(16, 185, 129, 0.3) !important;
+  border-color: var(--color-success, #10b981) !important;
+  border-style: solid !important;
+}
+.hotspot-zone.incorrect-zone {
+  background: rgba(239, 68, 68, 0.3) !important;
+  border-color: var(--color-error, #ef4444) !important;
+  border-style: solid !important;
+}
+.hotspot-zone:hover {
+  background: rgba(56, 178, 172, 0.15) !important;
+}
+.hotspot-zone:focus {
+  outline: 2px solid var(--color-primary, #38b2ac);
+  outline-offset: 2px;
+}
+
+/* ── Matching ── */
+.matching-columns {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.matching-left, .matching-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.matching-header {
+  font-weight: 600;
+  padding: 0.5rem;
+  color: var(--text-muted, #6b7280);
+}
+.matching-item {
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 0.5rem;
+  background: var(--card-bg, white);
+  cursor: pointer;
+  text-align: left;
+  min-height: 44px;
+  transition: all 0.2s;
+}
+.matching-pairs-display {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.matching-item.selected-match {
+  border-color: var(--color-primary, #38b2ac) !important;
+  background: rgba(56, 178, 172, 0.1) !important;
+}
+.matching-item.paired {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.matching-item.correct-match {
+  border-color: var(--color-success, #10b981) !important;
+  background: var(--success-bg, #d1fae5) !important;
+}
+.matching-item.incorrect-match {
+  border-color: var(--color-error, #ef4444) !important;
+  background: var(--error-bg, #fee2e2) !important;
+}
+.matching-item:hover {
+  border-color: var(--color-primary, #38b2ac);
+}
+.matching-item:focus {
+  outline: 2px solid var(--color-primary, #38b2ac);
+  outline-offset: 2px;
+}
+.matching-pair-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+}
+.matching-remove-btn {
+  background: none;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-weight: bold;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+/* ── Word bank / cloze ── */
+.cloze-passage {
+  line-height: 2.4;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.cloze-blank {
+  display: inline-block;
+  min-width: 100px;
+  border-bottom: 2px dashed var(--border-color, #d1d5db);
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  min-height: 44px;
+  vertical-align: bottom;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.cloze-blank.filled {
+  background: rgba(56, 178, 172, 0.1);
+  border-color: var(--color-primary, #38b2ac) !important;
+  border-style: solid !important;
+  color: var(--text-primary, #1a202c);
+  font-weight: 500;
+}
+.cloze-blank.correct-word {
+  background: var(--success-bg, #d1fae5) !important;
+  border-color: var(--color-success, #10b981) !important;
+}
+.cloze-blank.incorrect-word {
+  background: var(--error-bg, #fee2e2) !important;
+  border-color: var(--color-error, #ef4444) !important;
+}
+.cloze-blank:hover {
+  border-color: var(--color-primary, #38b2ac) !important;
+}
+.cloze-blank:focus {
+  outline: 2px solid var(--color-primary, #38b2ac);
+  outline-offset: 2px;
+}
+.word-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--option-bg, #f9fafb);
+  border-radius: 0.5rem;
+}
+.word-chip {
+  padding: 0.5rem 1rem;
+  background: var(--color-primary, #38b2ac);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  min-height: 44px;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+.word-chip.used {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.word-chip:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+.word-chip:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* ── Numeric entry ── */
+.numeric-entry {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.numeric-unit, .numeric-unit-prefix {
+  font-size: 1rem;
+  color: var(--text-muted, #6b7280);
+}
+.numeric-unit-prefix {
+  font-size: 1.1rem;
+  color: var(--text-primary, #374151);
+}
+.numeric-entry input {
+  width: 180px;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border-color, #e5e7eb);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  min-height: 44px;
+}
+.numeric-entry input:focus {
+  border-color: var(--color-primary, #38b2ac);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56, 178, 172, 0.2);
+}
+
+/* ── Hotspot placeholder (no image) ── */
+.hotspot-placeholder {
+  width: 100%;
+  min-height: 300px;
+  background: var(--option-bg, #f3f4f6);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted, #9ca3af);
+}
+
+/* ── Scenario judgment ──
+   Uses .quiz-option base styles above. No additional base needed. */
+
+/* ── Mobile responsive ── */
+@media (max-width: 600px) {
+  .matching-columns {
+    flex-direction: column !important;
+  }
+  .dd-zones,
+  .categorization-buckets {
+    grid-template-columns: 1fr !important;
+  }
+  .sequencing-item {
+    flex-wrap: wrap;
+  }
+  .seq-arrows {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+  }
+}

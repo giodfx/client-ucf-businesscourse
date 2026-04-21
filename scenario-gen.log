@@ -1,0 +1,147 @@
+╔══════════════════════════════════════════════════╗
+║  UCF BIP — Scenario Illustration Generator      ║
+║  ComfyUI Qwen 2512 GGUF                        ║
+╚══════════════════════════════════════════════════╝
+
+  SKIP lesson-1-3-bank-meeting.png (exists, 2364KB)
+  SKIP lesson-2-3-bank-rejection.png (exists, 2463KB)
+  SKIP lesson-4-1-irs-classification.png (exists, 2587KB)
+  SKIP lesson-5-2-trade-show.png (exists, 2209KB)
+  SKIP lesson-6-1-meeting-communication.png (exists, 2360KB)
+  SKIP lesson-6-2-networking-event.png (exists, 2309KB)
+  SKIP lesson-8-3-ucf-meeting.png (exists, 2494KB)
+
+Images to generate: 18 of 25
+
+ComfyUI connected — VRAM: NaNGB
+
+[1/18] Founder Planning U.S. Expansion Strategy
+  Lesson: lesson-0-1
+  File: lesson-0-1-expansion-strategy.png
+  Queued: bd80eb33-1a6c-4f49-9435-3608e0232914
+  Waiting for completion...
+  DONE — 2696KB, 159.6s
+
+[2/18] Founder Comparing Business Entity Types
+  Lesson: lesson-1-1
+  File: lesson-1-1-entity-comparison.png
+  Queued: fb31e2e3-55a9-495b-99e7-4a0b3cba3ee7
+  Waiting for completion...
+  DONE — 2361KB, 132.4s
+
+[3/18] Founder at Registered Agent Office
+  Lesson: lesson-1-2
+  File: lesson-1-2-registered-agent.png
+  Queued: 12896f39-ee74-46bc-9387-869f7cb32dcd
+  Waiting for completion...
+  DONE — 2427KB, 141.5s
+
+[4/18] Founder Meeting Tax Advisor
+  Lesson: lesson-2-1
+  File: lesson-2-1-tax-advisor-meeting.png
+  Queued: 51bed9cf-937a-4815-8320-d7e2109f457f
+  Waiting for completion...
+  DONE — 2330KB, 90.3s
+
+[5/18] Founder Researching Multi-State Sales Tax
+  Lesson: lesson-2-2
+  File: lesson-2-2-sales-tax-research.png
+  Queued: bcf54f72-ab16-4666-b930-1ff1e42b6ce3
+  Waiting for completion...
+  DONE — 2251KB, 123.4s
+
+[6/18] Founder with Trademark Attorney
+  Lesson: lesson-3-1
+  File: lesson-3-1-trademark-attorney.png
+  Queued: 98bd7849-dd98-482e-9e7d-3cca1ac9f930
+  Waiting for completion...
+  DONE — 2406KB, 84.3s
+
+[7/18] Founder with Insurance Broker
+  Lesson: lesson-3-2
+  File: lesson-3-2-insurance-broker.png
+  Queued: 75d02b0e-8586-42ce-b449-c77a5a8354c7
+  Waiting for completion...
+  DONE — 2127KB, 84.3s
+
+[8/18] Founder Consulting Business Attorney
+  Lesson: lesson-3-3
+  File: lesson-3-3-attorney-consultation.png
+  Queued: 3c3199c9-2916-4fef-bbc7-f73650847e48
+  Waiting for completion...
+  DONE — 2372KB, 99.4s
+
+[9/18] Founder in Immigration Consultation
+  Lesson: lesson-4-2
+  File: lesson-4-2-immigration-consultation.png
+  Queued: 35dd76d5-a2fe-4b46-aa53-e094da46db2d
+  Waiting for completion...
+  DONE — 2420KB, 135.4s
+
+[10/18] Founder Reviewing Payroll System
+  Lesson: lesson-4-3
+  File: lesson-4-3-payroll-planning.png
+  Queued: 69fa0263-04c0-42fb-b546-54c3ef563d0e
+  Waiting for completion...
+  DONE — 2391KB, 99.3s
+
+[11/18] Entrepreneurs Reviewing Market Adaptation
+  Lesson: lesson-5-1
+  File: lesson-5-1-market-adaptation.png
+  Queued: 17b1dd31-ce1e-419d-a26e-533b0de3b8ff
+  Waiting for completion...
+  DONE — 2323KB, 78.4s
+
+[12/18] Cultural Misalignment in Business Meeting
+  Lesson: lesson-6-3
+  File: lesson-6-3-cultural-misalignment.png
+  Queued: d9d9d4f5-bba4-47ed-a2bd-514daff38ded
+  Waiting for completion...
+  DONE — 2221KB, 75.3s
+
+[13/18] Founder with SBDC Business Advisor
+  Lesson: lesson-7-1
+  File: lesson-7-1-advisory-consultation.png
+  Queued: c3099c2f-0ed0-44d2-b32a-70112ae4087e
+  Waiting for completion...
+  DONE — 2761KB, 72.2s
+
+[14/18] Ecosystem Networking Event
+  Lesson: lesson-7-2
+  File: lesson-7-2-ecosystem-networking.png
+  Queued: 5c90a8b0-77e1-4140-9afb-42f059c38989
+  Waiting for completion...
+  DONE — 2690KB, 81.3s
+
+[15/18] Central Florida Economic Sectors
+  Lesson: lesson-7-3
+  File: lesson-7-3-economic-sectors.png
+  Queued: c914cb48-3ea4-4f82-833c-fdc6b66ad89c
+  Waiting for completion...
+  DONE — 2819KB, 111.3s
+
+[16/18] LATAM Trade Corridor Gateway
+  Lesson: lesson-7-4
+  File: lesson-7-4-latam-gateway.png
+  Queued: f72b67e9-e5f0-49d3-b382-1440b34968d9
+  Waiting for completion...
+  DONE — 2558KB, 505.6s
+
+[17/18] Founders with Business Mentor at UCF
+  Lesson: lesson-8-1
+  File: lesson-8-1-mentor-consultation.png
+  Queued: f3209d0d-fcae-4405-99cc-78e8695cc3c1
+  Waiting for completion...
+  DONE — 2569KB, 81.5s
+
+[18/18] Founder Preparing Resources for Launch
+  Lesson: lesson-8-2
+  File: lesson-8-2-resources-preparation.png
+  Queued: 76e460cf-dd01-4374-9320-2d746e32cf1b
+  Waiting for completion...
+  DONE — 2700KB, 75.2s
+
+════════════════════════════════════════════
+  Completed: 18/18 images in 37.2 min
+  Output: G:\z-CUSTOM_DEV\CourseFuture\clients\UCF\BusinessCourse\media\images\scenarios
+════════════════════════════════════════════

@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)" aria-hidden="true">
     <img src="images/lesson-1-1-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/downtown.svg" alt="" width="24" height="24"></span>
+      <span data-es="EL CENTRO">DOWNTOWN</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="18" width="8" height="26" rx="1" fill="currentColor" opacity="0.8"/><rect x="20" y="8" width="8" height="36" rx="1" fill="currentColor"/><rect x="32" y="14" width="8" height="30" rx="1" fill="currentColor" opacity="0.7"/><rect x="10" y="22" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="22" y="12" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="34" y="18" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/></svg>
+            <img src="images/Icons/downtown.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 1</p>
+            <p class="rt-route-module-label">Downtown</p>
             <p class="rt-route-module-title">Getting Your Foot in the Door</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-1-3.html" class="rt-stop-link" >Banking Basics for International Founders</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">Downtown Orlando</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Eligiendo Su Entidad Empresarial en EE.UU.">Choosing Your U.S. Business Entity</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="EL CENTRO">Downtown</h2>
+            <p class="rt-module-intro-desc" data-es="Aprenda a estructurar, registrar y abrir su negocio en EE.UU.">Learn how to structure, register, and open your U.S. business</p>
+          </div>
 
           
 <section class="video-section" aria-label="Lesson Video">
@@ -123,12 +132,12 @@
           
 
           <div class="rt-text-flow">
-            <h2 data-es="Bienvenido a la Ciudad — Donde Su Negocio Toma Forma">Welcome to the City — Where Your Business Takes Shape</h2>
+            <h2 data-es="Bienvenido a la Ciudad — Donde Su Negocio Toma Forma">Choosing Your Entity — The First Decision</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Toda ciudad tiene un centro, un lugar donde los negocios presentan sus documentos, colocan sus letreros y abren sus puertas. En Central Florida, ese proceso comienza en línea a través de un portal llamado SunBiz. Pero antes de presentar cualquier documento, necesita tomar una decisión clave: qué tipo de entidad empresarial formar.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;¿Qué significa eso para usted? Piénselo como elegir dónde instalar su oficina en la ciudad. Una pequeña tienda (LLC) le da libertad y bajos costos operativos. Una torre corporativa (C-Corp) le da la estructura que los inversionistas esperan. Ambas lo protegen del riesgo personal. Pero funcionan de manera muy diferente en cuanto a impuestos, visas y recaudación de capital.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Esta lección lo guía a través de las dos opciones principales que funcionan para fundadores internacionales, y una que generalmente no funciona.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Every city has a downtown, a place where businesses file their papers, hang their signs, and open their doors. In Central Florida, that process starts online through a portal called <a href="https://sunbiz.org" target="_blank" rel="noopener">SunBiz</a>. But before you file anything, you need to make one key choice: what kind of business entity to form.</p></p>
-<p><p>What does that mean for you? Think of it like choosing where to set up your office in the city. A small storefront (LLC) gives you freedom and low overhead. A corporate tower (C-Corp) gives you the structure investors expect. Both protect you from personal risk. But they work very differently when it comes to taxes, visas, and raising money.</p></p>
+"><p><p>Before you file anything in Florida, you need to make one key decision: what kind of business entity to form. In Central Florida, the process starts online through a portal called <a href="https://sunbiz.org">SunBiz</a>.</p></p>
+<p><p>An LLC gives you flexibility and low overhead. A C-Corp gives you the structure investors expect. Both protect you from personal liability. But they work very differently when it comes to taxes, visas, and raising money.</p></p>
 <p><p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p></p>
 </div>
 <div class="rt-callout rt-callout--callout">
@@ -136,24 +145,24 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="¿Sabía Usted?">Did You Know?</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Curiosamente, Florida no tiene impuesto estatal sobre la renta personal, pero esa no es la única razón por la que los fundadores la siguen eligiendo. El área metropolitana de Orlando tiene más de 30,000 negocios iniciados por propietarios nacidos en el extranjero, y el estado procesa los registros de nuevas LLC más rápido que la mayoría. Algunos fundadores han pasado de cero a una entidad activa en menos de 48 horas.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Interestingly, Florida has no state personal income tax, but that is not the only reason founders keep choosing it. The Orlando metro area has over 30,000 businesses started by foreign-born owners, and the state processes new LLC filings faster than most others. Some founders have gone from zero to an active entity in under 48 hours.</p></p>
+"><p><p>Florida has no state personal income tax, but that is not the only reason founders keep choosing it. Central Florida has over 30,000 businesses started by foreign-born owners, and the state processes new LLC filings faster than most others. Some founders have gone from zero to an active entity in under 48 hours.</p></p>
 </div>
   </div>
 </div><h2 data-es="Tres Estructuras, Tres Caminos Diferentes">Three Structures, Three Different Paths</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Piénselo de esta manera: una LLC es como abrir una tienda flexible — fácil de constituir, simple de manejar, y mantiene sus activos personales separados del negocio. Una C-Corp es más como construir una torre de cristal — más papeleo y formalidad, pero es la estructura que los inversionistas esperan si planea recaudar capital de riesgo. La S-Corp también existe, pero requiere que todos los accionistas sean ciudadanos o residentes de EE.UU., lo que excluye a la mayoría de los fundadores internacionales.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La comparación a continuación desglosa las diferencias clave para ayudarle a decidir qué estructura se ajusta a su situación.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Think of it this way: an LLC is like opening a flexible storefront — easy to set up, simple to run, and it keeps your personal assets separate from the business. A C-Corp is more like building a glass tower — more paperwork and formality, but it is the structure investors expect if you plan to raise venture capital. An S-Corp exists too, but it requires all shareholders to be U.S. citizens or residents, which rules out most international founders.</p></p>
+"><p><p>An LLC is simple to set up, easy to run, and it keeps your personal assets separate from the business. A C-Corp requires more paperwork and formality, but it is the structure investors expect if you plan to raise venture capital. An S-Corp exists too, but it requires all shareholders to be U.S. citizens or residents, which rules out many international founders.</p></p>
 <p><p>The comparison below breaks down the key differences to help you decide which structure fits your situation.</p></p>
 </div>
 <div class="rt-ctbl-wrap" data-comparison-id="int-1-1-1">
   <h3 class="rt-ctbl-title" data-es="LLC vs. C-Corp vs. S-Corp — Lado a Lado">LLC vs. C-Corp vs. S-Corp — Side by Side</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th></th><th data-es="LLC">LLC</th><th data-es="C-Corp">C-Corp</th><th data-es="S-Corp">S-Corp</th></tr></thead>
+      <thead><tr><th></th><th scope="col" data-es="LLC">LLC</th><th scope="col" data-es="C-Corp">C-Corp</th><th scope="col" data-es="S-Corp">S-Corp</th></tr></thead>
       <tbody><tr><td class="rt-ctbl-label" data-es="Protección de Responsabilidad">Liability Protection</td><td data-es="Protección completa de activos personales">Full personal asset protection</td><td data-es="Protección completa de activos personales">Full personal asset protection</td><td data-es="Protección completa de activos personales">Full personal asset protection</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Tratamiento Tributario">Tax Treatment</td><td data-es="Transparencia fiscal (sin doble tributación)">Pass-through (no double taxation)</td><td data-es="Doble tributación (corporativa + dividendos)">Double taxation (corporate + dividend)</td><td data-es="Transparencia fiscal (sin doble tributación)">Pass-through (no double taxation)</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Atractivo para Inversionistas">Investor Appeal</td><td data-es="Bajo — más difícil emitir acciones">Lower — harder to issue stock</td><td data-es="Alto — estándar para financiamiento de capital de riesgo">High — standard for VC funding</td><td data-es="Limitado — máximo 100 accionistas">Limited — max 100 shareholders</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Compatibilidad Migratoria">Immigration Compatibility</td><td data-es="Alta — cualquier titular de visa puede ser propietario">High — any visa holder can own</td><td data-es="Alta — requerida para algunas visas">High — required for some visas</td><td data-es="Baja — solo residentes de EE.UU.">Low — U.S. residents only</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Compatibilidad Migratoria">Immigration Compatibility</td><td data-es="Alta — cualquier titular de visa puede ser propietario">Ownership is generally allowed, but your visa determines whether you can actively work in the business.</td><td data-es="Alta — requerida para algunas visas">High — required for some visas</td><td data-es="Baja — solo residentes de EE.UU.">Low — U.S. residents only</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Costo de Constitución">Formation Cost</td><td data-es="Tarifa de registro en FL de $125">$125 FL filing fee</td><td data-es="Tarifa de registro en FL de $70 + estatutos">$70 FL filing fee + bylaws</td><td data-es="Tarifa de registro de $70 + formulario de elección S">$70 filing + S-election form</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Complejidad">Complexity</td><td data-es="Baja — formalidades continuas mínimas">Low — minimal ongoing formalities</td><td data-es="Alta — junta directiva, actas, informes anuales">High — board, minutes, annual reports</td><td data-es="Media — formalidades corporativas requeridas">Medium — corporate formalities required</td></tr></tbody>
     </table>
@@ -180,12 +189,12 @@
       <strong data-es="Tendré más de 5 empleados y necesito una estructura corporativa formal">I will have 5+ employees and need a formal corporate structure</strong>
       
     </button>
-    <button class="scenario-choice" onclick="makeBranchingChoice('branch-scenario-1-1-decision-tree', 3)" data-outcome="You may qualify for S-Corp status — but only if ALL shareholders are U.S. citizens or permanent residents. S-Corp gives you pass-through taxation (like an LLC) with potential savings on self-employment tax. However, most participants in this program are international founders, which makes S-Corp unavailable. If you have a U.S. co-founder, consult a tax attorney about whether a mixed structure could work." data-outcome-es="Podría calificar para el estatus de S-Corp — pero solo si TODOS los accionistas son ciudadanos o residentes permanentes de EE.UU. La S-Corp le brinda transparencia fiscal (como una LLC) con potenciales ahorros en impuestos de trabajo por cuenta propia. Sin embargo, la mayoría de los participantes en este programa son fundadores internacionales, lo que hace que la S-Corp no esté disponible. Si tiene un cofundador estadounidense, consulte a un abogado tributario sobre si una estructura mixta podría funcionar." data-is-good="false" data-is-end="true">
+    <button class="scenario-choice" onclick="makeBranchingChoice('branch-scenario-1-1-decision-tree', 3)" data-outcome="You may qualify for S-Corp status — but only if ALL shareholders are U.S. citizens or permanent residents. S-Corp gives you pass-through taxation (like an LLC) with potential savings on self-employment tax. However, many participants in this program are international founders, which makes S-Corp unavailable. If you have a U.S. co-founder, consult a tax attorney about whether a mixed structure could work." data-outcome-es="Podría calificar para el estatus de S-Corp — pero solo si TODOS los accionistas son ciudadanos o residentes permanentes de EE.UU. La S-Corp le brinda transparencia fiscal (como una LLC) con potenciales ahorros en impuestos de trabajo por cuenta propia. Sin embargo, la mayoría de los participantes en este programa son fundadores internacionales, lo que hace que la S-Corp no esté disponible. Si tiene un cofundador estadounidense, consulte a un abogado tributario sobre si una estructura mixta podría funcionar." data-is-good="false" data-is-end="true">
       <strong data-es="Soy ciudadano o residente permanente de EE.UU. buscando ahorros tributarios">I'm a U.S. citizen or permanent resident wanting tax savings</strong>
       
     </button>
   </div>
-  <div class="scenario-feedback" id="branch-scenario-1-1-decision-tree-feedback"></div>
+  <div class="scenario-feedback" id="branch-scenario-1-1-decision-tree-feedback" aria-live="polite" role="status"></div>
 </div>
 <div class="rt-scenario" data-scenario-id="branch-scenario-1-1-entity">
   <h3 data-es="Práctica: ¿Qué Entidad Le Conviene a Este Fundador?">Practice: Which Entity Fits This Founder?</h3>
@@ -200,12 +209,12 @@
       <strong data-es="C-Corp — listo para inversionistas desde el día uno">C-Corp — investor-ready from day one</strong>
       
     </button>
-    <button class="scenario-choice" onclick="makeBranchingChoice('branch-scenario-1-1-entity', 2)" data-outcome="An S-Corp offers tax advantages for U.S. citizens, but it requires ALL shareholders to be U.S. citizens or permanent residents. As an international founder, you are ineligible. This option is off the table for most participants in this program." data-outcome-es="Una S-Corp ofrece ventajas tributarias para ciudadanos de EE.UU., pero requiere que TODOS los accionistas sean ciudadanos o residentes permanentes de EE.UU. Como fundador internacional, usted no es elegible. Esta opción no está disponible para la mayoría de los participantes de este programa." data-is-good="false" data-is-end="true">
+    <button class="scenario-choice" onclick="makeBranchingChoice('branch-scenario-1-1-entity', 2)" data-outcome="An S-Corp offers tax advantages for U.S. citizens, but it requires ALL shareholders to be U.S. citizens or permanent residents. As an international founder, you are ineligible. This option is off the table for many participants in this program." data-outcome-es="Una S-Corp ofrece ventajas tributarias para ciudadanos de EE.UU., pero requiere que TODOS los accionistas sean ciudadanos o residentes permanentes de EE.UU. Como fundador internacional, usted no es elegible. Esta opción no está disponible para la mayoría de los participantes de este programa." data-is-good="false" data-is-end="true">
       <strong data-es="S-Corp — mejor tratamiento tributario">S-Corp — best tax treatment</strong>
       
     </button>
   </div>
-  <div class="scenario-feedback" id="branch-scenario-1-1-entity-feedback"></div>
+  <div class="scenario-feedback" id="branch-scenario-1-1-entity-feedback" aria-live="polite" role="status"></div>
 </div><h2 data-es="Cómo Su Tipo de Entidad Se Conecta con Todo lo Demás">How Your Entity Type Connects to Everything Else</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Su elección de entidad crea una reacción en cadena en la banca, los impuestos, las visas y la recaudación de fondos. El edificio que elija en la ciudad determina a qué servicios puede acceder, cómo serán sus costos operativos y quién querrá hacer negocios con usted. Así es como se conectan las piezas:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Ahora, aquí es donde se complica. Una fundadora de software de Colombia eligió una LLC de Florida porque era rápida y económica. Ocho meses después, una inversionista de EE.UU. ofreció liderar su ronda semilla pero requería una C-Corp de Delaware. El cambio tomó tres meses, costó más de tres mil dólares en honorarios legales y casi mató el acuerdo. Ella dijo después: &quot;Si alguien me hubiera dicho que empezara con una C-Corp, me habría ahorrado un cuarto de mi primer año.&quot;&lt;/p&gt;&lt;/p&gt;
@@ -213,12 +222,12 @@
 &lt;p&gt;&lt;p&gt;&lt;strong&gt;Impuestos:&lt;/strong&gt; Las ganancias de una LLC pasan directamente a su declaración personal, con requisitos específicos del IRS para extranjeros no residentes. Una C-Corp presenta su propia declaración (Formulario 1120). La tienda tiene diferentes costos de servicios que la torre. El Módulo 2 profundiza más.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;&lt;strong&gt;Visas:&lt;/strong&gt; Los abogados de inmigración frecuentemente prefieren C-Corps para casos de visa E-2 de inversionista por tratado. Si una visa es parte de su plan, hable con un abogado antes de elegir su entidad.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;&lt;strong&gt;Inversionistas:&lt;/strong&gt; Las firmas de capital de riesgo de EE.UU. generalmente requieren una C-Corp de Delaware. Un fundador gastó miles de dólares y meses cambiando de una LLC de Florida a una C-Corp de Delaware cuando un inversionista lo requirió. Comenzar con la entidad correcta evita esto.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Your entity choice creates a chain reaction across banking, taxes, visas, and fundraising. The building you pick in the city determines which services you can access, what your operating costs look like, and who will want to do business with you. Here is how the pieces connect:</p></p>
-<p><p>Now, here is where it gets tricky. A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took three months, cost over three thousand dollars in legal fees, and nearly killed the deal. She later said: "If someone had told me to start with a C-Corp, I would have saved a quarter of my first year."</p></p>
-<p><p><strong>Banking:</strong> Having your articles of organization, EIN, and operating agreement ready before you visit a bank increases your chances of approval. The storefront and the tower have different paperwork at the bank counter. We cover this in detail in Lesson 3 of this module.</p></p>
-<p><p><strong>Taxes:</strong> LLC profits pass through to your personal return, with specific IRS requirements for non-resident aliens. A C-Corp files its own return (Form 1120). The storefront has different utility costs than the tower. Module 2 goes deeper.</p></p>
+"><p><p>Your entity choice creates a chain reaction across banking, taxes, visas, and fundraising. Here is how the pieces connect:</p></p>
+<p><p>A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took several months and significant legal fees, and nearly derailed the deal.</p></p>
+<p><p><strong>Banking:</strong> Having your articles of organization, EIN, and operating agreement ready before you visit a bank increases your chances of approval. LLCs and C-Corps require different documentation at the bank. We cover this in detail in Lesson 3 of this module.</p></p>
+<p><p><strong>Taxes:</strong> LLC profits pass through to your personal return, with specific IRS requirements for non-resident aliens. A C-Corp files its own return (Form 1120). Each structure has different tax obligations. Module 2 goes deeper.</p></p>
 <p><p><strong>Visas:</strong> Immigration lawyers often prefer C-Corps for E-2 treaty investor visa cases. If a visa is part of your plan, talk to a lawyer before choosing your entity.</p></p>
-<p><p><strong>Investors:</strong> U.S. venture capital firms usually require a Delaware C-Corp. One founder spent thousands of dollars and months switching from a Florida LLC to a Delaware C-Corp when an investor required it. Starting with the right entity avoids this.</p></p>
+<p><p><strong>Investors:</strong> U.S. venture capital firms usually require a Delaware C-Corp. Starting with the right entity avoids this.</p></p>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
@@ -226,15 +235,14 @@
     <p class="rt-callout-title" data-es="Errores Comunes que Cometen los Fundadores Internacionales">Common Mistakes International Founders Make</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Ahora, considere los errores que más tiempo y dinero les cuestan a los fundadores en esta etapa:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Elegir el tipo de entidad equivocado para su situación de visa o impuestos.&lt;/strong&gt; Un fundador que necesita una visa E-2 pero formó una LLC de un solo miembro puede necesitar reconstruir la estructura antes de que el proceso de visa pueda avanzar. Eso significa honorarios legales, demoras y estrés que podrían haberse evitado.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Usar cuentas bancarias personales para transacciones comerciales.&lt;/strong&gt; Esto se llama &quot;perforar el velo corporativo.&quot; Puede destruir la protección de responsabilidad que su entidad proporciona. Si mezcla fondos personales y de negocio, un tribunal puede hacerlo personalmente responsable por las deudas del negocio. Manténgalos separados desde el primer día.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ignorar la necesidad de un agente registrado.&lt;/strong&gt; La ley de Florida requiere que toda entidad empresarial tenga un agente registrado con una dirección física en Florida. Esto no es opcional. Si su agente registrado caduca, el estado puede disolver su entidad, lo que significa que su negocio legalmente deja de existir hasta que lo corrija.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-"><p><p>Now, consider the mistakes that cost founders the most time and money at this stage:</p></p>
-<p><ul><li><strong>Choosing the wrong entity type for their visa or tax situation.</strong> A founder who needs an E-2 visa but formed a single-member LLC may need to rebuild the structure before the visa process can move forward. That means legal fees, delays, and stress that could have been avoided.</li><li><strong>Using personal bank accounts for business transactions.</strong> This is called "piercing the corporate veil." It can destroy the liability protection your entity provides. If you mix personal and business funds, a court can hold you personally responsible for business debts. Keep them separate from day one.</li><li><strong>Ignoring the need for a registered agent.</strong> Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional. If your registered agent lapses, the state can dissolve your entity, meaning your business legally stops existing until you fix it.</li></ul></p>
+"><p><ul><li><strong>Choosing the wrong entity type for your visa or tax situation.</strong> A founder who needs an E-2 visa but formed a single-member LLC may need to rebuild the structure before the visa process can move forward. That means legal fees, delays, and stress that could have been avoided.</li><li><strong>Using personal bank accounts for business transactions.</strong> This is called "piercing the corporate veil." It can destroy the liability protection your entity provides. If you mix personal and business funds, a court can hold you personally responsible for business debts. Keep them separate from day one.</li><li><strong>Ignoring the need for a registered agent.</strong> Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional. If your registered agent lapses, the state can dissolve your entity, meaning your business legally stops existing until you fix it.</li></ul></p>
 </div>
   </div>
 </div><h2 data-es="Cuide Su Dinero: Lo Que Esto Realmente Cuesta">Watch Your Money: What This Actually Costs</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde importan los números. Los costos de constitución de entidad varían dependiendo del tipo de entidad, si usa un abogado y en qué estado se registra. Estos son rangos típicos:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;LLC de Florida:&lt;/strong&gt; Alrededor de $125 en tarifas de registro estatal, más $0-$500 si usa un abogado. Total típico $125-$625.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Corporación de Florida (C-Corp):&lt;/strong&gt; Alrededor de $70 en tarifas de registro estatal, más $300-$1,500 por asistencia de un abogado con los artículos, estatutos y emisión de acciones.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;C-Corp de Delaware (común para inversionistas):&lt;/strong&gt; Alrededor de $89 en registro estatal, más impuesto de franquicia anual de $300-$500, más honorarios de abogado. También necesita calificarse como entidad extranjera en Florida si opera allí. Los costos del primer año pueden ir desde alrededor de $960 hasta $2,600 o más.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Servicio de agente registrado:&lt;/strong&gt; Típicamente $100-$300 por año.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Solicitud de EIN:&lt;/strong&gt; Gratis del IRS.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;El camino más económico es frecuentemente una LLC de Florida registrada por usted mismo. Un camino común listo para inversionistas es una C-Corp de Delaware con un abogado. Elija según las necesidades de su negocio, no solo por el precio.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Here's where the numbers matter. Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p></p>
+"><p><p>Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p></p>
 <p><ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0-$500 if you use an attorney. Total typically $125-$625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300-$1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300-$500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960 to $2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100-$300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul></p>
 <p><p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p></p>
 </div>
@@ -246,7 +254,7 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Hispanic Chamber of Commerce of Metro Orlando:&lt;/strong&gt; Referencias a abogados de negocios bilingües, talleres sobre constitución de entidades y eventos de networking que lo conectan con otros empresarios latinoamericanos.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Prospera:&lt;/strong&gt; Asistencia gratuita y de bajo costo para la constitución de negocios para emprendedores hispanos, incluyendo ayuda con el registro de LLC, selección de agente registrado y documentos legales básicos.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Red de UCF BIP:&lt;/strong&gt; Acceso a abogados verificados que trabajan regularmente con fundadores internacionales de América Latina y entienden las consideraciones legales específicas para estructuras empresariales transfronterizas.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Tener un abogado bilingüe que entienda tanto la ley corporativa de EE.UU. como el entorno empresarial de su país de origen puede simplificar significativamente el proceso de constitución de la entidad.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p></p>
-<p><ul><li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando</a>:</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a>:</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul></p>
+<p><ul><li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando<span class="sr-only"> (opens in a new tab)</span></a>:</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera<span class="sr-only"> (opens in a new tab)</span></a>:</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network<span class="sr-only"> (opens in a new tab)</span></a>:</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul></p>
 <p><p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p></p>
 </div>
   </div>
@@ -269,24 +277,24 @@
     <p class="rt-kc-question" data-es="Es un fundador internacional que planea recaudar capital de riesgo dentro de los próximos 18 meses. Está a punto de registrar su primera entidad en EE.UU. ¿Cómo debería abordar esto?">You are an international founder planning to raise venture capital within the next 18 months. You are about to register your first U.S. entity. How should you approach this?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Registrar una LLC de Florida porque es la opción más barata y rápida">Register a Florida LLC because it is the cheapest and fastest option</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Formar una C-Corp, ya que los inversionistas de EE.UU. típicamente requieren esta estructura">Form a C-Corp, since U.S. investors typically require this structure</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Elegir el estatus de S-Corp para evitar la doble tributación">Elect S-Corp status to avoid double taxation</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Esperar hasta tener inversionistas antes de formar cualquier entidad">Wait until you have investors before forming any entity</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Las firmas de capital de riesgo de EE.UU. generalmente requieren una C-Corp (frecuentemente una C-Corp de Delaware). Comenzar con la estructura correcta evita una conversión costosa más adelante. La S-Corp generalmente no está disponible para fundadores extranjeros no residentes.">U.S. venture capital firms generally require a C-Corp (often a Delaware C-Corp). Starting with the right structure avoids a costly conversion later. The S-Corp is generally not available to non-resident alien founders.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Las firmas de capital de riesgo de EE.UU. generalmente requieren una C-Corp (frecuentemente una C-Corp de Delaware). Comenzar con la estructura correcta evita una conversión costosa más adelante. La S-Corp generalmente no está disponible para fundadores extranjeros no residentes.">U.S. venture capital firms generally require a C-Corp (often a Delaware C-Corp). Starting with the right structure avoids a costly conversion later. The S-Corp is generally not available to non-resident alien founders.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -294,49 +302,49 @@
     <p class="rt-kc-question" data-es="Un colega fundador le dice: 'Simplemente forma una LLC como yo lo hice. A mí me funcionó.' ¿Cómo debería evaluar este consejo?">A fellow founder tells you: 'Just form an LLC like I did. It worked for me.' How should you evaluate this advice?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Considerarlo, pero reconocer que su visa, impuestos y planes de crecimiento pueden requerir una estructura diferente">Consider it, but recognize that your visa, tax, and growth plans may require a different structure</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Seguirlo. Si le funcionó a él, le funcionará a usted">Follow it. If it worked for them, it will work for you</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Ignorar todo consejo de otros fundadores; solo los abogados pueden ayudar">Ignore all advice from other founders; only attorneys can help</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Formar tanto una LLC como una C-Corp para cubrir todos los frentes">Form both an LLC and a C-Corp to cover all bases</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La situación de cada fundador es diferente. Lo que funciona para un consultor independiente de Canadá puede no funcionar para un fundador de startup tecnológica de Brasil que planea recaudar capital. La elección de entidad depende de su estatus de visa, tratado tributario, industria y planes de crecimiento. Seguir ciegamente el camino de otro fundador ignora estas diferencias, mientras que descartar completamente el consejo de colegas o formar dos entidades desperdicia tiempo y dinero.">Every founder's situation is different. What works for a freelance consultant from Canada may not work for a tech startup founder from Brazil who plans to raise capital. Entity choice depends on your visa status, tax treaty, industry, and growth plans. Blindly following another founder's path ignores these differences, while dismissing peer advice entirely or forming two entities wastes time and money.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La situación de cada fundador es diferente. Lo que funciona para un consultor independiente de Canadá puede no funcionar para un fundador de startup tecnológica de Brasil que planea recaudar capital. La elección de entidad depende de su estatus de visa, tratado tributario, industria y planes de crecimiento. Seguir ciegamente el camino de otro fundador ignora estas diferencias, mientras que descartar completamente el consejo de colegas o formar dos entidades desperdicia tiempo y dinero.">Every founder's situation is different. What works for a freelance consultant from Canada may not work for a tech startup founder from Brazil who plans to raise capital. Entity choice depends on your visa status, tax treaty, industry, and growth plans. Blindly following another founder's path ignores these differences, while dismissing peer advice entirely or forming two entities wastes time and money.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
   <div class="rt-kc-step" data-step="2" hidden>
-    <p class="rt-kc-question" data-es="Formó una LLC de Florida hace ocho meses. Ahora un inversionista de EE.UU. quiere liderar una ronda semilla, pero requiere una C-Corp de Delaware. ¿Cuál es el impacto probable?">You formed a Florida LLC eight months ago. Now a U.S. investor wants to lead a seed round, but they require a Delaware C-Corp. What is the likely impact?</p>
+    <p class="rt-kc-question" data-es="Formó una LLC de Florida hace ocho meses. Ahora un inversionista de EE.UU. quiere liderar una ronda semilla, pero requiere una C-Corp de Delaware. ¿Cuál es el impacto probable?">You are forming a Florida LLC as an international founder. You do not live in the United States and have no physical U.S. address. Which of the following is required by Florida law?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="Sin impacto. El inversionista aceptará la LLC">No impact. The investor will accept the LLC</span>
+        <span class="rt-kc-text" data-es="Sin impacto. El inversionista aceptará la LLC">You must open a Florida bank account before filing with SunBiz</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="Simplemente puede elegir el estatus de S-Corp para satisfacer al inversionista">You can simply elect S-Corp status to satisfy the investor</span>
+        <span class="rt-kc-text" data-es="Simplemente puede elegir el estatus de S-Corp para satisfacer al inversionista">You need a registered agent with a physical Florida address</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="Necesitará cerrar la LLC y esperar un año antes de formar una nueva entidad">You will need to close the LLC and wait a year before forming a new entity</span>
+        <span class="rt-kc-text" data-es="Necesitará cerrar la LLC y esperar un año antes de formar una nueva entidad">You must have a U.S. Social Security Number to form an LLC</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="Necesitará convertir su entidad, lo que típicamente cuesta miles de dólares y toma semanas o meses">You will need to convert your entity, which typically costs thousands of dollars and takes weeks or months</span>
+        <span class="rt-kc-text" data-es="Necesitará convertir su entidad, lo que típicamente cuesta miles de dólares y toma semanas o meses">You need to hire a Florida-based attorney to file on your behalf</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Convertir de una LLC de Florida a una C-Corp de Delaware implica honorarios legales, nuevos registros estatales y posibles consecuencias tributarias. Este es un error común y costoso. El inversionista no simplemente aceptará una LLC cuando requiere una C-Corp para términos de inversión estándar. El estatus de S-Corp no está disponible para extranjeros no residentes y no satisfaría el requisito de C-Corp de un inversionista. No necesita esperar un año, pero el proceso de conversión en sí es costoso y consume tiempo.">Converting from a Florida LLC to a Delaware C-Corp involves legal fees, new state filings, and potential tax consequences. This is a common and costly mistake. The investor will not simply accept an LLC when they require a C-Corp for standard investment terms. S-Corp status is unavailable to non-resident aliens and would not satisfy an investor's C-Corp requirement. You do not need to wait a year, but the conversion process itself is costly and time-consuming.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Convertir de una LLC de Florida a una C-Corp de Delaware implica honorarios legales, nuevos registros estatales y posibles consecuencias tributarias. Este es un error común y costoso. El inversionista no simplemente aceptará una LLC cuando requiere una C-Corp para términos de inversión estándar. El estatus de S-Corp no está disponible para extranjeros no residentes y no satisfaría el requisito de C-Corp de un inversionista. No necesita esperar un año, pero el proceso de conversión en sí es costoso y consume tiempo.">Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional — if your registered agent lapses, the state can dissolve your entity. You do not need a bank account, SSN, or attorney to file with SunBiz, though all can be helpful. Commercial registered agent services are available for $50 to $200 per year.</p></div>
     
   </div>
 </div>
@@ -344,7 +352,7 @@
   <h3 data-es="Conclusión Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La idea central es esta: su tipo de entidad es el cimiento de su negocio en EE.UU. Afecta los impuestos, la banca, las visas y si los inversionistas trabajarán con usted. Para la mayoría de los fundadores internacionales, la verdadera elección está entre una LLC (simple, flexible, económica) y una C-Corp (lista para inversionistas, más estructura). La S-Corp generalmente no está disponible para fundadores que no son ciudadanos. Ya sea que se instale en la tienda o en la torre, esa decisión moldea cada paso que sigue.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;No se decida por defecto por la opción más barata sin saber cómo se conecta con su panorama general. Si su situación involucra temas de visa, futuros inversionistas o tratados tributarios de su país de origen, considere reunirse con un abogado de negocios antes de presentar cualquier documento. Una reunión de una hora puede costar unos cientos de dólares. Corregir la elección de entidad equivocada después puede costar varios miles, más meses de retrasos.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The key insight is this: your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. For most international founders, the real choice is between an LLC (simple, flexible, affordable) and a C-Corp (investor-ready, more structure). The S-Corp is generally not available to non-citizen founders. Whether you set up in the storefront or the tower, that choice shapes every step that follows.</p></p>
+"><p><p>The key insight is this: your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. For many international founders, the real choice is between an LLC (simple, flexible, affordable) and a C-Corp (investor-ready, more structure). The S-Corp is generally not available to non-citizen founders. Whether you choose an LLC or a C-Corp, that choice shapes every step that follows.</p></p>
 <p><p>Don't default to the cheapest option without knowing how it connects to your bigger picture. If your situation involves visa concerns, future investors, or home-country tax treaties, think about meeting with a business attorney before you file anything. A one-hour meeting may cost a few hundred dollars. Fixing the wrong entity choice later can cost several thousand, plus months of delays.</p></p>
 </div>
 </div>

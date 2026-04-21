@@ -7,18 +7,13 @@
     "mood": "warm, aspirational, cinematic, professional",
     "style": "cinematic-digital-painting",
     "model": "qwen-2512-gguf",
-    "resolution": "1824x1024",
-    "format": "16:9 landscape"
+    "resolution": "1824x512",
+    "format": "ultra-wide panoramic banner (3.5:1)"
   },
-  "generatedAt": "2026-03-23T17:45:00Z",
-  "totalPrompts": 25,
-  "diversityMetrics": {
-    "configSource": "project-config.json",
-    "allowedDemographics": ["African American", "Hispanic Latino", "Asian American", "Caucasian", "South Asian", "multiracial"],
-    "genders": ["female", "male"],
-    "ageRanges": ["20s", "30s", "40s", "50s"],
-    "rotationApplied": true
-  },
+  "generatedAt": "2026-04-14T18:00:00Z",
+  "totalPrompts": 26,
+  "imageType": "scenic-landscape",
+  "noHumanFigures": true,
   "prompts": [
     {
       "lessonId": "lesson-0-1",
@@ -27,18 +22,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a confident African American woman in her late 20s standing at a crossroads on a wide sun-drenched boulevard in Central Florida, wearing a tailored navy blue blazer over a crisp white blouse and charcoal slacks, her left hand resting on a leather portfolio tucked under her arm, her right hand slightly raised as she gazes toward a modern city skyline ahead with glass towers catching golden light. A contemporary university campus entrance with sleek architecture and palm trees frames the left side of the composition. The road ahead splits into multiple paths symbolizing possibility and choice. Dramatic golden hour lighting casts long warm shadows across the pavement, painterly brushstrokes visible throughout, atmospheric haze softening the distant buildings, warm saturated colors with amber and deep blue tones dominating the palette, concept art quality, rich and atmospheric. Lush tropical landscaping with sabal palms and bird of paradise plants line the boulevard edges. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a wide Florida highway stretching toward the horizon through dense subtropical vegetation, tall sabal palms and slash pines lining both sides, golden sunset light flooding the asphalt with long warm shadows, a misty atmospheric haze softening the distant vanishing point, warm saturated colors with amber and deep blue tones dominating the palette. Painterly brushstrokes visible throughout the sky and foliage, concept art quality, rich and atmospheric. Wild bird of paradise plants and saw palmetto at the road edges. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "African American",
-        "gender": "female",
-        "age": "20s",
-        "index": 0
       },
       "priority": "high"
     },
@@ -49,18 +37,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Hispanic Latino man in his early 30s standing on a downtown Central Florida street at golden hour, wearing a fitted charcoal gray suit jacket over a light blue dress shirt with no tie and dark trousers, his right hand in his pocket and his left hand holding a slim briefcase at his side. He looks contemplatively between a charming small brick storefront with a striped awning on his left and a gleaming modern corporate glass tower rising on his right, representing the spectrum of business entity choices. The street is lined with young royal palm trees and decorative streetlights. Warm amber sunlight floods the scene from behind the tall building, casting dramatic rays through the urban canyon. Painterly brushstrokes visible in the sky and building surfaces, atmospheric haze wraps around the tower's upper floors, warm saturated colors with burnt orange and steel blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, an Orlando downtown skyline with gleaming modern glass towers catching dramatic golden light, viewed from street level looking upward between the buildings, royal palm trees and decorative wrought-iron streetlights framing the composition, warm amber sunset light flooding the urban canyon, painterly brushstrokes visible in the sky and on building facades, atmospheric haze wrapping around the towers upper floors, warm saturated colors with burnt orange and steel blue tones, concept art quality, rich and atmospheric. Tropical landscaping with bromeliads and ornamental grasses at street level. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Hispanic Latino",
-        "gender": "male",
-        "age": "30s",
-        "index": 1
       },
       "priority": "high"
     },
@@ -71,18 +52,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an Asian American woman in her early 40s walking purposefully up the wide granite steps toward a modern government administration building in Central Florida, wearing a structured burgundy blazer over a cream silk blouse and tailored black trousers, her right hand gripping a manila folder of documents and her left arm swinging naturally at her side. The government building has a contemporary facade with large glass panels and clean concrete columns, flanked by manicured hedges and tall Florida slash pines. An American flag waves gently on a pole to the right of the entrance. Dramatic golden hour lighting bathes the building facade in warm amber tones, casting the woman's elongated shadow down the steps behind her. Painterly brushstrokes visible in the sky and foliage, atmospheric haze creates depth between the foreground steps and the building entrance, warm saturated colors with gold and deep teal accents, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a modern government administration building in Central Florida with a contemporary facade of large glass panels and clean concrete columns, wide granite steps leading up to the entrance, an American flag waving gently on a tall pole to the right, manicured hedges and Florida slash pines flanking the building, dramatic morning golden light bathing the facade in warm amber tones, painterly brushstrokes visible in the sky and architectural surfaces, atmospheric haze creating depth, warm saturated colors with gold and deep teal accents, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Asian American",
-        "gender": "female",
-        "age": "40s",
-        "index": 2
       },
       "priority": "high"
     },
@@ -93,18 +67,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Caucasian man in his early 50s approaching the entrance of a stately bank building in a Central Florida financial district, wearing a well-fitted dark navy suit with a subtle pinstripe, a pale lavender dress shirt, and polished brown oxford shoes, his left hand reaching toward the brass door handle and his right hand carrying a leather attaché case. The bank building features tall arched windows with polished stone columns and ornate metalwork above the entrance. Mature live oak trees with hanging Spanish moss frame the scene on either side, and the sidewalk is paved with decorative brick. Dramatic golden hour lighting streams between the buildings, illuminating the bank facade with rich amber warmth while the street falls into soft blue shadow. Painterly brushstrokes visible in the architectural details and tree canopy, atmospheric haze adds depth to the streetscape, warm saturated colors with copper and midnight blue tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a downtown Central Florida street at warm evening golden hour showing diverse building facades side by side, a charming small red-brick storefront with a striped awning on the left and a sleek modern corporate glass tower rising on the right, young royal palm trees and decorative lampposts lining the street, warm amber and rose-gold sunset light reflecting off windows, painterly brushstrokes visible throughout, atmospheric haze softening the background, warm saturated colors with terracotta and midnight blue tones, concept art quality, rich and atmospheric. Flowering bougainvillea cascading from a balcony. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Caucasian",
-        "gender": "male",
-        "age": "50s",
-        "index": 3
       },
       "priority": "high"
     },
@@ -115,18 +82,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a South Asian woman in her mid-30s seated in a well-appointed accountant's office in Central Florida, wearing a structured emerald green blazer over a white button-down blouse, her hair neatly pulled back. She leans forward slightly with her right hand resting on a stack of printed financial documents and her left hand touching the edge of an open laptop computer on the mahogany desk. The office features built-in wooden bookshelves filled with reference volumes, a desk lamp casting warm focused light, and a large window behind her showing the golden-hour glow of a Central Florida financial district with palm trees silhouetted against the sky. Tax forms, a calculator, and a coffee mug sit organized on the desk surface. Dramatic golden hour lighting pours through the window blinds creating striped light patterns across the desk. Painterly brushstrokes visible in the wood grain and window light, atmospheric haze in the outdoor view, warm saturated colors with emerald and amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a classical banking building with imposing stone Corinthian columns and an ornate carved facade, a large reflecting pool in the foreground mirroring the golden sky, symmetrical topiary gardens flanking the entrance steps, dramatic golden hour light casting long shadows across the marble-like steps, painterly brushstrokes visible in the water reflections and sky, atmospheric haze adding depth behind the building, warm saturated colors with honey gold and deep navy tones, concept art quality, rich and atmospheric. Manicured tropical hedges and sabal palms framing the composition. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "South Asian",
-        "gender": "female",
-        "age": "30s",
-        "index": 4
       },
       "priority": "high"
     },
@@ -137,18 +97,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a multiracial man in his late 20s sitting at a clean modern desk working intently on organized financial documents and accounting ledgers, wearing a fitted steel blue button-down shirt with rolled sleeves and dark chinos. His right hand holds a stylus pointing at figures on a tablet screen and his left hand rests flat on a printed ledger beside it. The desk is neatly arranged with a small potted succulent, a ceramic coffee mug, and color-coded folders. Behind him a large window reveals a cozy Central Florida coffee shop across the street with warm interior lights glowing through its glass facade, palm trees lining the sidewalk outside. Dramatic golden hour lighting enters from the window at a low angle, illuminating the ledger pages and casting warm highlights across his focused expression. Painterly brushstrokes visible in the fabric textures and window reflections, atmospheric haze softens the street scene beyond the glass, warm saturated colors with steel blue and burnt sienna tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a modern financial office building with floor-to-ceiling glass curtain walls reflecting dramatic sunset clouds in shades of amber and violet, a plaza with a circular fountain and tropical landscaping in the foreground, sleek contemporary architecture with clean geometric lines, warm golden light streaming between buildings, painterly brushstrokes visible on glass reflections and water surface, atmospheric haze creating depth in the urban canyon, warm saturated colors with copper and deep indigo tones, concept art quality, rich and atmospheric. Bird of paradise plants and queen palms in the plaza. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "multiracial",
-        "gender": "male",
-        "age": "20s",
-        "index": 5
       },
       "priority": "high"
     },
@@ -159,18 +112,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an African American woman in her mid-40s standing inside a grand bank lobby with polished marble floors reflecting warm golden light, wearing a tailored camel-colored wool coat over a black turtleneck and charcoal tailored trousers, her left hand resting on the smooth marble counter and her right hand gesturing conversationally toward an unseen banker. The bank interior features soaring ceilings with ornamental molding, tall arched windows letting in dramatic shafts of golden hour sunlight, classical columns, and polished brass fixtures. A few other patrons are visible in the deep background as small figures, giving the space a sense of scale and activity. The marble floor catches reflections of the golden window light in luminous pools. Painterly brushstrokes visible in the marble textures and light shafts, atmospheric haze fills the upper reaches of the vaulted ceiling, warm saturated colors with camel gold and deep charcoal tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a row of varied financial institutions along a tree-lined boulevard at dusk in Central Florida, a stately classical bank with carved stone details next to a modern credit union with curved glass facade next to a boutique advisory firm with warm interior glow, mature live oak trees with spreading canopy creating a tunnel effect over the boulevard, warm amber streetlight glow mixing with fading sunset, painterly brushstrokes visible throughout the foliage and architecture, atmospheric golden haze, warm saturated colors with amber and slate blue tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "African American",
-        "gender": "female",
-        "age": "40s",
-        "index": 6
       },
       "priority": "high"
     },
@@ -181,18 +127,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Hispanic Latino man in his early 50s standing on an elevated observation platform at a sprawling research facility and launch complex in Central Florida, wearing a dark charcoal three-piece suit with a muted gold tie and pocket square, his right hand resting on a metal safety railing and his left hand holding a leather portfolio at his side. Behind him a massive rocket gantry and launch tower rise against the golden hour sky, with industrial science campus buildings, fuel storage spheres, and assembly hangars stretching across the flat coastal landscape. A wide concrete service road leads toward the launch pad in the distance. Dramatic golden hour lighting bathes the entire facility in rich amber warmth, the launch tower casting a long dramatic shadow across the flat terrain. Painterly brushstrokes visible in the industrial structures and cloud formations, atmospheric haze softens the distant launch pad and coastline, warm saturated colors with mahogany and gold tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, Kennedy Space Center landscape with static launch towers and the massive Vehicle Assembly Building visible on the horizon, vast Florida marshland with tall golden sawgrass stretching into the foreground, dramatic towering cumulus clouds billowing in a deep blue sky lit by golden light from the right, a straight road cutting through the marsh toward the distant launch complex, painterly brushstrokes visible throughout the clouds and grassland, atmospheric haze creating layers of depth, warm saturated colors with golden amber and deep sky blue tones, concept art quality, rich and atmospheric. Wading birds perched on marsh grass in silhouette. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Hispanic Latino",
-        "gender": "male",
-        "age": "50s",
-        "index": 7
       },
       "priority": "high"
     },
@@ -203,18 +142,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an Asian American woman in her early 30s standing confidently in the safety and compliance control room of a research facility near a rocket launch complex in Central Florida, wearing a structured plum blazer over a soft gray silk camisole and black tailored trousers, her right hand resting on a large illuminated facility map mounted on the wall and her left hand holding a bound safety procedures manual at her side. The control room has rows of monitoring stations with glowing indicator panels, thick safety glass windows overlooking the launch pad outside, and industrial ventilation ducts running along the ceiling. Through the panoramic windows behind her a tall rocket assembly building and launch gantry tower rise against the golden hour sky, with safety perimeter fencing and emergency response vehicles positioned at intervals across the facility grounds. A large status board on the wall shows a checklist of safety protocols with illuminated green indicators. Dramatic golden hour lighting streams through the control room windows from the west, painting the monitoring equipment and her face in warm amber tones. Painterly brushstrokes visible in the industrial architecture and cloud formations, atmospheric haze creates layers of depth through the windows to the distant launch infrastructure, warm saturated colors with plum and golden amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a rocket garden display area with several static rockets and spacecraft models on concrete pedestals in a manicured park-like setting, lush green lawns and tropical landscaping surrounding the exhibits, a dramatic blue sky with towering white and golden clouds, palm trees framing the composition, warm golden afternoon light casting dramatic shadows from the rockets, painterly brushstrokes visible in the clouds and metallic rocket surfaces, atmospheric haze softening the background, warm saturated colors with silver and sky blue and amber tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Asian American",
-        "gender": "female",
-        "age": "30s",
-        "index": 8
       },
       "priority": "high"
     },
@@ -225,18 +157,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Caucasian man in his late 30s sitting across from a professional advisor at an outdoor meeting area within a research and launch facility campus in Central Florida, wearing a smart olive green sport coat over a white oxford shirt and navy chinos, leaning slightly forward with his hands clasped together on the table. The advisor is partially visible on the opposite side of the small round meeting table. Behind them a wide view of the facility campus stretches out with low industrial research buildings, a tall vertical integration building, and distant launch towers silhouetted against the golden hour sky. A concrete walkway and manicured low hedges separate the meeting area from the facility grounds. A notepad and two coffee cups sit on the table between them. Dramatic golden hour lighting enters at a low angle from behind the distant launch infrastructure, creating warm amber tones across both figures and long shadows on the ground. Painterly brushstrokes visible in the industrial architecture and sky gradients, atmospheric haze softens the distant launch complex, warm saturated colors with olive and warm amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, Cape Canaveral coastal facility at sunset with launch gantry silhouettes and industrial structures along the shoreline, calm dark water reflecting the dramatic orange and purple sunset sky, a weathered concrete seawall and dock structures in the foreground, distant space center buildings creating a dramatic industrial skyline, painterly brushstrokes visible in the sky gradients and water reflections, atmospheric haze blurring the horizon, warm saturated colors with deep orange and violet and charcoal tones, concept art quality, rich and atmospheric. Pelicans perched on pilings in silhouette. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Caucasian",
-        "gender": "male",
-        "age": "30s",
-        "index": 9
       },
       "priority": "high"
     },
@@ -247,18 +172,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a South Asian woman in her mid-20s and a multiracial man in his early 30s having an animated professional conversation on a wide pedestrian promenade outside a vibrant theme park entertainment district in Central Florida, the woman wearing a coral fitted blazer over a white crew-neck top and dark jeans, the man wearing a heather gray henley shirt and dark chinos. The woman stands with her right hand gesturing expressively, while the man leans against a decorative railing listening intently. Behind them a colorful entertainment district stretches out with the silhouettes of roller coaster tracks, a tall drop tower ride, and a spinning observation wheel visible against the golden hour sky. Festive string lights and tropical landscaping with tall palms line the promenade. Other visitors walk in the soft background. Dramatic golden hour lighting streams across the promenade from the west, casting warm amber light across both figures and the vibrant entertainment architecture. Painterly brushstrokes visible in the ride silhouettes and string light glow, atmospheric haze in the deeper background, warm saturated colors with coral and warm amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, an ornate castle-style entrance to a theme park district with a grand stone archway decorated with carved details and decorative turrets, festive warm-white string lights draped between tall palm trees creating a canopy of light, colorful pennant banners in red blue and gold hanging from ornamental lampposts, lush tropical gardens with hibiscus and plumeria flanking the entrance path, dramatic twilight sky fading from deep blue to warm amber, painterly brushstrokes visible in the stonework and sky, atmospheric haze creating a magical glow around the lights, warm saturated colors with golden amber and royal blue tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "South Asian",
-        "gender": "female",
-        "age": "20s",
-        "index": 10
       },
       "priority": "high"
     },
@@ -269,18 +187,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a multiracial man in his mid-40s standing on a scenic overlook bridge within a sprawling theme park resort area in Central Florida, carefully examining official documents held in both hands at chest height, wearing a tailored dark teal suit jacket over a crisp white dress shirt and charcoal trousers, a slim leather messenger bag slung over his left shoulder. Behind him a panoramic view of the entertainment district stretches out with the dramatic curves of roller coaster tracks, colorful spires of attraction buildings, and a tall Ferris wheel silhouetted against the golden hour sky. Lush tropical landscaping with flowering hibiscus and tall royal palms frames the overlook, and a decorative iron railing runs along the bridge edge. Dramatic golden hour lighting illuminates the theme park skyline in rich amber tones while the bridge catches long warm shadows. Painterly brushstrokes visible in the ride structures and sky gradients, atmospheric haze softens the distant attractions and tree line, warm saturated colors with teal and warm amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a grand entertainment promenade lined with decorative facade buildings featuring arched windows and Mediterranean-style architecture, hanging flower baskets overflowing with bougainvillea from ornamental wrought-iron balconies, tall ornamental lampposts with warm amber globe lights, cobblestone pathway leading into the distance, warm golden sunset glow streaming down the promenade, painterly brushstrokes visible in the architectural details and flower textures, atmospheric haze creating depth along the promenade, warm saturated colors with terracotta and warm gold and sage green tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "multiracial",
-        "gender": "male",
-        "age": "40s",
-        "index": 11
       },
       "priority": "high"
     },
@@ -291,18 +202,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an African American man in his early 30s working at a portable standing desk set up at an open-air business pavilion within a theme park resort campus in Central Florida, wearing a crisp light blue button-down shirt with rolled sleeves and dark navy trousers, his right hand moving a wireless mouse while his left hand rests on the edge of the desk near a keyboard. A laptop displays colorful charts. Behind him the vibrant theme park landscape stretches out with winding pathways, a towering water attraction complex, colorful attraction facades, and the sweeping arc of a steel roller coaster track catching the golden light. Tropical landscaping with tall palms and bougainvillea frames the pavilion. Other professionals walk along the pathways in the middle distance. Dramatic golden hour lighting enters from behind the distant attractions, backlighting the man and creating a warm rim of amber around his silhouette. Painterly brushstrokes visible in the ride structures and tropical foliage, atmospheric haze in the distant park landscape, warm saturated colors with sky blue and golden tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, an evening entertainment district with illuminated building facades in warm amber and soft white, decorative string lights criss-crossing overhead between elegant buildings, ornate architectural signage frames and decorative moldings on storefronts, palm trees with uplighting creating dramatic shadows, a wide pedestrian walkway stretching into the distance under the canopy of lights, painterly brushstrokes visible in the illuminated surfaces and night sky, atmospheric warm glow creating a magical atmosphere, rich saturated colors with deep purple sky and warm amber and cream building tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "African American",
-        "gender": "male",
-        "age": "30s",
-        "index": 12
       },
       "priority": "high"
     },
@@ -313,18 +217,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Hispanic Latino woman in her early 40s walking along a wide waterfront promenade at a busy commercial port and outlet shopping center in Central Florida at golden hour, wearing a fitted terracotta-colored linen blazer over a black scoop-neck top and tailored cream trousers, her right hand holding a smartphone at her side and her left hand swinging naturally as she strides forward with purpose. Behind her a bustling port stretches out with massive cargo container ships docked at loading cranes, colorful shipping containers stacked in rows, and beyond them a large open-air outlet shopping center with modern storefronts and covered walkways. Other shoppers and port workers are visible as soft blurred figures in the middle distance. Tall royal palms and tropical plantings line the promenade railing. Dramatic golden hour lighting pours across the harbor from the west, illuminating the woman from the front and painting the cargo ships and shopping center facades in warm amber and deep purple shadow. Painterly brushstrokes visible in the ship hulls and water reflections, atmospheric haze creates depth across the port and shopping district, warm saturated colors with terracotta and deep amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, Port Canaveral container terminal with towering blue gantry cranes rising against a dramatic golden sky, colorful stacked shipping containers in red blue and green creating geometric patterns, a large cargo vessel docked at the wharf with its hull reflecting in the calm harbor water, industrial port infrastructure stretching across the composition, warm golden sunset light casting long shadows across the docks, painterly brushstrokes visible in the water reflections and cloud formations, atmospheric haze softening the distant harbor, warm saturated colors with industrial steel blue and sunset amber tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Hispanic Latino",
-        "gender": "female",
-        "age": "40s",
-        "index": 13
       },
       "priority": "high"
     },
@@ -335,18 +232,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an Asian American man in his late 20s standing at the head of an outdoor meeting area at a large outlet shopping center near a commercial port in Central Florida, giving a confident presentation to a small diverse group of four seated professionals, wearing a slim-fit dark navy blazer over a white crew-neck shirt and gray chinos, his right hand extended toward a portable display easel and his left hand holding notes. The seated audience members are partially visible from behind, leaning in with interest. Behind the group a sprawling outlet mall stretches out with modern retail facades, covered pedestrian walkways, and colorful awnings. In the distance beyond the shopping center, port cranes and the masts of cargo ships are visible against the golden hour sky. Tropical landscaping with fan palms and flowering shrubs frames the meeting area. Dramatic golden hour lighting floods across the shopping district from the west, highlighting the presenter's face and casting warm amber across the retail architecture. Painterly brushstrokes visible in the storefront facades and ship silhouettes, atmospheric haze creates depth across the commercial landscape, warm saturated colors with navy and golden tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a harbor promenade at sunset with weathered wooden dock pilings and iron bollards lining the waterfront, cruise terminal buildings with modern glass architecture in the background, calm dark water reflecting the golden and rose sunset sky, distant city skyline silhouetted against the horizon, a wooden boardwalk stretching along the waterfront, painterly brushstrokes visible in the water surface and sky gradients, atmospheric haze blending the sky and water at the horizon, warm saturated colors with deep rose gold and navy and warm grey tones, concept art quality, rich and atmospheric. Seabirds perched on dock pilings. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Asian American",
-        "gender": "male",
-        "age": "20s",
-        "index": 14
       },
       "priority": "high"
     },
@@ -357,18 +247,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Caucasian woman in her mid-30s and a South Asian man in his early 40s shaking hands firmly on a wide wooden boardwalk overlooking a beautiful Florida beach at golden hour, the woman wearing a tailored ivory blazer over a navy blouse and dark trousers, the man wearing a charcoal suit with an open-collar pale blue shirt. Both are smiling warmly with direct eye contact, the handshake centered in the composition. Behind them the Atlantic Ocean stretches to the horizon with gentle turquoise waves rolling onto white sand, sea oats swaying on low dunes, and a few beach umbrellas dotting the shoreline. The boardwalk features weathered wood railings and decorative posts, with a casual beachside restaurant with an open patio visible in the background. Dramatic golden hour lighting floods across the ocean from low on the horizon, casting warm amber light across the boardwalk and creating luminous reflections on the wet sand. Painterly brushstrokes visible in the ocean waves and cloud formations, atmospheric haze over the water creates a dreamy coastal depth, warm saturated colors with ivory and warm amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a wide Cocoa Beach panorama with pristine white sand stretching across the foreground, golden sea oats and tall dune grass waving gently on sand dunes, a weathered wooden fishing pier extending far into calm turquoise-green water, scattered cabbage palms silhouetted against a warm golden hour sky, gentle waves lapping at the shoreline, painterly brushstrokes visible throughout the ocean surface and cloud formations, atmospheric haze softening the distant horizon, warm saturated colors with turquoise and warm sand gold and soft coral tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Caucasian",
-        "gender": "female",
-        "age": "30s",
-        "index": 15
       },
       "priority": "high"
     },
@@ -379,18 +262,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a South Asian man in his late 50s arriving at an open-air beachside business meeting under a large canvas cabana on a Florida beach, wearing a well-tailored dark brown suit with a cream dress shirt and burgundy pocket square, his right hand lifting the cabana curtain and his left hand carrying a slim leather folio. Inside the cabana three professionals are already seated around a rustic driftwood table with notebooks and iced drinks, turning to acknowledge the arriving figure with welcoming expressions. The beach stretches out behind the cabana with white sand, gentle turquoise waves, and a long wooden fishing pier extending into the ocean in the middle distance. Sea birds wheel overhead and beach grasses sway in the warm breeze. Dramatic golden hour lighting pours across the beach from low on the horizon, casting the cabana in warm amber while the ocean glows with reflected gold and pink light. Painterly brushstrokes visible in the ocean surface and cloud formations, atmospheric haze over the water creates dreamy coastal depth, warm saturated colors with chocolate brown and amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a coastal boardwalk with weathered wooden railings stretching along the beach at sunset, a classic white lifeguard tower standing tall on the sand, gentle turquoise waves rolling onto the shore, scattered palm trees casting long dramatic shadows, warm golden and rose sunset light flooding the entire scene, painterly brushstrokes visible in the wood grain and water texture, atmospheric haze creating a dreamy quality at the horizon, warm saturated colors with peach and turquoise and warm driftwood brown tones, concept art quality, rich and atmospheric. Sea grape plants along the boardwalk edge. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "South Asian",
-        "gender": "male",
-        "age": "50s",
-        "index": 16
       },
       "priority": "high"
     },
@@ -401,18 +277,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a multiracial woman in her early 30s seated at an outdoor table at a casual beachfront restaurant on a Florida beach boardwalk, wearing a sophisticated sage green wrap dress with gold stud earrings, her right hand holding a water glass and her left hand resting on the weathered wood table near a plate. Across the table a business companion is partially visible, and the table is set with casual beach dining ware and a small succulent centerpiece. The restaurant has an open-air design with a thatched roof, string lights, and wide views of the sandy beach and turquoise ocean beyond a low wooden railing. Surfers and beach walkers are visible in the distance along the shoreline. A colorful lifeguard tower stands on the sand nearby. Dramatic golden hour lighting enters from over the ocean casting warm diagonal light across the table setting, making the glassware sparkle with amber highlights and painting the sand in warm gold. Painterly brushstrokes visible in the ocean waves and beach textures, atmospheric haze over the water and distant coastline, warm saturated colors with sage green and warm gold tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a sheltered beach cove with calm turquoise waters gently lapping against fine white sand, mature sea grape trees with large round leaves framing the composition from both sides, natural sand dunes covered in golden beach grass, dramatic sunset clouds in deep orange and magenta reflected in the wet sand, painterly brushstrokes visible in the water surface and tropical foliage, atmospheric golden haze creating a serene warm glow, rich saturated colors with turquoise and deep coral and warm honey tones, concept art quality, rich and atmospheric. Coconut palms leaning over the cove. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "multiracial",
-        "gender": "female",
-        "age": "30s",
-        "index": 17
       },
       "priority": "high"
     },
@@ -423,18 +292,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an African American man in his mid-40s walking along a wide wooden boardwalk trail through a crystal-clear Florida natural spring river environment, wearing a smart casual outfit of a fitted dark olive field jacket over a white polo shirt and khaki chinos, his right hand holding a trail guide brochure at waist level and his left hand relaxed at his side. The boardwalk winds through ancient bald cypress trees draped with Spanish moss, their knobby knees emerging from the shallow crystal-clear turquoise spring water below. A gentle manatee surfaces in the spring run nearby, and a great blue heron stands motionless on a submerged log. The spring water is impossibly transparent, revealing white sand bottom and aquatic plants swaying in the gentle current. Lush ferns, cabbage palms, and native Florida vegetation create a dense subtropical canopy overhead. Dramatic golden hour lighting filters through the cypress canopy in warm amber shafts, dappling the boardwalk and water surface with pools of golden light. Painterly brushstrokes visible in the Spanish moss and water transparency, atmospheric haze creates depth through the dense forest, warm saturated colors with olive and warm gold tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a crystal-clear natural Florida spring pool with stunning turquoise water so transparent the sandy bottom and limestone formations are visible, ancient bald cypress trees draped in flowing Spanish moss towering above the spring, lush green ferns and native palmettos surrounding the water edge, golden sunbeams streaming through the dense canopy creating dramatic god-rays on the water surface, painterly brushstrokes visible in the moss textures and water clarity, atmospheric morning mist rising from the warm spring water, rich saturated colors with ethereal turquoise and deep forest green and golden light tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "African American",
-        "gender": "male",
-        "age": "40s",
-        "index": 18
       },
       "priority": "high"
     },
@@ -445,62 +307,56 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a sweeping view of a pristine Florida natural spring river at golden hour, showing the winding turquoise waterway cutting through dense subtropical forest. In the foreground a Hispanic Latino woman in her late 20s stands at a wooden observation deck railing overlooking the spring river, wearing a bright cobalt blue blazer over a white blouse and tan trousers, her hands resting on the rustic wooden railing as she surveys the natural vista. Below her the crystal-clear spring water flows gently over white sand, revealing every detail of the riverbed, submerged logs, and swaying eelgrass. Tall bald cypress trees with massive buttressed trunks line both banks, their canopies draped in cascading Spanish moss. A small group of manatees drifts lazily in the spring run, and a white ibis perches on a cypress knee. The vast sky above fills the upper third of the composition with dramatic golden hour clouds in amber, pink, and deep violet filtering through the cypress canopy. Painterly brushstrokes visible in the cloud formations and water transparency, atmospheric haze creates deep layers of recession along the winding river, warm saturated colors with cobalt blue and amber sunset tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a spring-fed river winding through a dense subtropical forest in Central Florida, massive overhanging live oak branches draped in Spanish moss creating a natural tunnel over the water, lush ferns and wild palmettos crowding the riverbanks, dappled golden morning light filtering through the canopy and sparkling on the clear slow-moving water, a wooden kayak launch dock barely visible at the river bend, painterly brushstrokes visible in the moss and water ripples, atmospheric haze creating layers of green depth, rich saturated colors with emerald and jade green and warm golden accent tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Hispanic Latino",
-        "gender": "female",
-        "age": "20s",
-        "index": 19
       },
       "priority": "high"
     },
     {
       "lessonId": "lesson-7-3",
-      "lessonTitle": "Why Central Florida — The Data Behind the Choice",
+      "lessonTitle": "Central Florida by the Numbers — Economic Data",
       "moduleId": "module-7",
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an Asian American woman in her early 50s standing on a rustic wooden dock extending into a crystal-clear Florida spring river, wearing a structured burgundy leather jacket over a black crew-neck top and dark tailored trousers, her right hand holding an open tablet displaying colorful charts and her left hand resting on a weathered dock post. The spring water below is impossibly transparent, revealing white limestone riverbed, schools of fish, and swaying aquatic vegetation. Ancient bald cypress trees tower on both riverbanks, their massive trunks reflected perfectly in the still water, Spanish moss hanging in long silvery curtains from every branch. An alligator basks on a sunny log on the far bank, and turtles line up on a half-submerged branch nearby. Native wildflowers and ferns carpet the forest floor visible through gaps in the cypress trunks. Dramatic golden hour lighting filters through the dense canopy creating spectacular shafts of warm amber light across the water surface. Painterly brushstrokes visible in the water reflections and Spanish moss textures, atmospheric haze creates depth along the winding spring run, warm saturated colors with burgundy and warm amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a wooden boardwalk bridge arching over crystal-clear turquoise spring water surrounded by lush tropical vegetation, ancient bald cypress knees protruding from the shallow water, dense ferns and bromeliads growing along the banks, misty morning atmosphere with soft golden light filtering through the tree canopy, the turquoise water glowing with an almost magical luminescence, painterly brushstrokes visible in the wood grain and water surface, atmospheric mist creating an enchanted forest quality, rich saturated colors with deep turquoise and warm brown and mossy green tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Asian American",
-        "gender": "female",
-        "age": "50s",
-        "index": 20
       },
       "priority": "high"
     },
     {
       "lessonId": "lesson-7-4",
+      "lessonTitle": "The LATAM Trade Corridor — Your Location Decision",
+      "moduleId": "module-7",
+      "imageType": "hero",
+      "template": "intro",
+      "model": "qwen-2512-gguf",
+      "qwenPrompt": "Cinematic digital painting, a spring creek flowing through a mossy old-growth Florida forest, ancient live oak trees with massive twisted trunks covered in resurrection fern, curtains of Spanish moss hanging from every branch creating ethereal drapes, golden fog and soft rays of light penetrating through the dense canopy, the clear water revealing a sandy bottom with submerged aquatic grasses, painterly brushstrokes visible in the moss curtains and fog effects, atmospheric ethereal quality with warm diffused light, rich saturated colors with warm amber fog and deep forest green and pale turquoise water tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
+      "specifications": {
+        "textFree": true,
+        "noHumanFigures": true,
+        "subjectPosition": "CENTER"
+      },
+      "priority": "high"
+    },
+    {
+      "lessonId": "lesson-7-5",
       "lessonTitle": "UCF BIP Programs — Your Next Step",
       "moduleId": "module-7",
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a Caucasian man in his late 20s walking confidently along a nature trail boardwalk that follows a crystal-clear Florida spring river, wearing a fitted forest green blazer over a light gray crew-neck sweater and dark jeans, a backpack slung over his right shoulder and his left hand trailing along the wooden railing. The boardwalk winds through a pristine natural spring environment with towering bald cypress trees draped in Spanish moss creating a cathedral-like canopy overhead. The spring water below is perfectly transparent, showing white sand bottom, fish swimming in schools, and bright green aquatic plants. A family of river otters plays near the far bank, and a snowy egret wades in the shallows. Native Florida vegetation — saw palmetto, wild ferns, and resurrection ferns on the cypress trunks — creates a lush primeval atmosphere. A few other visitors walk ahead on the boardwalk in the distance. Dramatic golden hour lighting filters through the dense canopy, creating brilliant amber shafts of light across the boardwalk and water surface. Painterly brushstrokes visible in the Spanish moss and water transparency, atmospheric haze softens the winding trail ahead, warm saturated colors with forest green and amber tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a Wekiwa-style spring head in Central Florida with a perfectly clear turquoise pool surrounded by native sword ferns and cinnamon ferns, tall sabal palms and mature live oaks with spreading canopy creating a natural amphitheater around the spring, warm afternoon golden light streaming through gaps in the canopy illuminating the spring water from above, gentle steam rising from the warm water surface, painterly brushstrokes visible in the fern fronds and water clarity, atmospheric warm haze in the background forest, rich saturated colors with deep crystal turquoise and warm green and golden afternoon tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "Caucasian",
-        "gender": "male",
-        "age": "20s",
-        "index": 21
       },
       "priority": "high"
     },
@@ -511,18 +367,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a South Asian woman in her mid-40s standing on the front steps of a modern university incubator and headquarters building on the UCF campus in Central Florida at sunset, wearing a sophisticated dark plum blazer over a gold silk blouse and black tailored trousers, her right hand resting on a sleek metal handrail and her left hand holding a closed notebook against her hip. Behind her the contemporary academic building features a dramatic glass curtain wall facade, clean geometric architecture, a wide covered entrance canopy, and a clean geometric entrance canopy with brushed metal architectural accents above the main doors. The surrounding campus stretches out with interconnected walkways, modern research buildings, a landscaped quad with live oaks and sabal palms, and a reflecting pool catching the sunset light. A few students and professionals walk across the campus in the middle distance. The sky is a spectacular gradient from deep violet blue at the top through amber and molten gold near the horizon, with wispy cirrus clouds painted in rose and orange. Dramatic golden hour lighting illuminates her face and blazer in warm amber while the campus buildings glow. Painterly brushstrokes visible throughout the sky and campus architecture, atmospheric haze creates layers of depth across the academic landscape, warm saturated colors with deep plum and molten gold tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, UCF campus with modern red brick academic buildings flanking a wide pedestrian plaza, mature live oaks with spreading canopy providing dappled shade, a central fountain with water jets catching golden light, palm trees and manicured subtropical landscaping along the walkways, bright blue sky with scattered white clouds, warm afternoon sunlight casting rich shadows across the red brick facades, painterly brushstrokes visible in the brick texture and tree canopy, atmospheric clarity with warm tones, rich saturated colors with warm red brick and deep green canopy and bright blue sky tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "South Asian",
-        "gender": "female",
-        "age": "40s",
-        "index": 22
       },
       "priority": "high"
     },
@@ -533,18 +382,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, a multiracial man in his early 50s seated at a polished desk inside a modern open-concept workspace within the UCF headquarters and business incubator building in Central Florida, wearing a relaxed but polished steel blue linen shirt with the top button open and dark chinos, his right hand on a laptop trackpad and his left hand holding a stylus over a tablet displaying colorful analytics visuals. The workspace is bright and contemporary with modular furniture, collaborative seating areas visible in the background, and whiteboards with colorful notes on nearby walls. Floor-to-ceiling windows behind him reveal the UCF campus at golden hour — contemporary academic buildings with glass facades, walkways connecting research centers, mature live oaks, and students crossing a landscaped plaza. The desk is neatly organized with a wireless keyboard, color-coded folders, a ceramic pen holder, and a potted succulent. Dramatic golden hour lighting streams through the large campus-facing windows, creating warm amber highlights on the desk surface and his face while the laptop casts cool blue fill light. Painterly brushstrokes visible in the campus architecture and window reflections, atmospheric haze across the campus vista, warm saturated colors with steel blue and golden tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, a university courtyard with contemporary glass and red brick buildings surrounding a landscaped green space, palm-lined walkways converging at a central area with a decorative Pegasus statue on a stone pedestal, modern architectural details with large windows reflecting warm afternoon sky, subtropical garden beds with tropical plants and flowering bushes, warm golden afternoon light creating long shadows across the courtyard, painterly brushstrokes visible in the glass reflections and garden textures, atmospheric warm clarity, rich saturated colors with warm brick red and glass blue and lush green tones, concept art quality, rich and atmospheric. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "multiracial",
-        "gender": "male",
-        "age": "50s",
-        "index": 23
       },
       "priority": "high"
     },
@@ -555,18 +397,11 @@
       "imageType": "hero",
       "template": "intro",
       "model": "qwen-2512-gguf",
-      "qwenPrompt": "Cinematic digital painting, an African American woman in her early 30s walking confidently along a wide landscaped walkway through the UCF campus and incubator headquarters complex in Central Florida toward a brilliant golden horizon, wearing a vibrant amber-orange blazer over a white V-neck top and dark tailored trousers, her right arm swinging forward in mid-stride and her left hand carrying a slim portfolio case at her side. The walkway is flanked by modern university buildings with glass and steel architecture, interconnected by covered corridors and landscaped plazas with live oaks and sabal palms. Ahead of her the main incubator headquarters building rises with its contemporary glass curtain wall facade glowing warmly in the sunset light, its entrance canopy welcoming and modern. Students and professionals walk nearby, and research lab buildings with clean lines extend on either side. Her long shadow stretches behind her on the warm concrete pathway. Dramatic golden hour lighting at its most intense — the sun nearly in frame behind the headquarters building — creates a powerful sense of arriving at a destination and a bright future. Painterly brushstrokes visible in the glass facades and light rays, atmospheric haze creates a luminous glow around the sun and campus skyline, warm saturated colors with amber-orange and rich gold tones, concept art quality, rich and atmospheric. No text, no words, no letters. Wide composition, 16:9 aspect ratio. NOT a photograph, NOT photorealistic.",
+      "qwenPrompt": "Cinematic digital painting, UCF campus at dramatic golden sunset with a columned building entrance casting long shadows, tall royal palm trees silhouetted against a brilliant amber and deep orange sky, warm golden light bathing the red brick facades and white limestone columns, a reflecting pool or water feature in the foreground catching the sunset colors, painterly brushstrokes visible in the sky gradients and architectural details, atmospheric golden haze creating a celebratory and aspirational mood, rich saturated colors with deep amber and warm brick and sunset gold tones, concept art quality, rich and atmospheric. Live oaks framing the composition from the sides. No text, no words, no letters, no people, no figures, no faces, completely empty scene. Ultra-wide panoramic banner composition, extremely horizontal, 3.5:1 aspect ratio, landscape elements spread across the full width. NOT a photograph, NOT photorealistic.",
       "specifications": {
         "textFree": true,
-        "traumaInformed": false,
-        "diverseRepresentation": true,
+        "noHumanFigures": true,
         "subjectPosition": "CENTER"
-      },
-      "diversity": {
-        "ethnicity": "African American",
-        "gender": "female",
-        "age": "30s",
-        "index": 24
       },
       "priority": "high"
     }

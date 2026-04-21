@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IPV Recognition & Response Course">
+    <title>Self-Assessment — Are You Ready? - IPV Course</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Centralized CSS (External - Cached) -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/celebrations.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/interactive-components.css">
+    <style>
+/* ═══════════════════════════════════════════════════════════════
+   LESSON NAVIGATION (Next/Previous Buttons) - Inline overrides
+   ═══════════════════════════════════════════════════════════════ */
+.lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border, #e5e7eb);
+}
+
+.lesson-nav-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: white;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--color-text, #1a1a2e);
+    transition: all 0.2s ease;
+    flex: 1;
+    max-width: 400px;
+}
+
+.lesson-nav-button:hover {
+    background: var(--color-light-gray, #f5f5f7);
+    border-color: var(--color-ocean-blue, #2a5a7a);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-nav-prev {
+    justify-content: flex-start;
+}
+
+.lesson-nav-next {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.lesson-nav-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.lesson-nav-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted, #6b7280);
+}
+
+.lesson-nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text, #1a1a2e);
+}
+
+.lesson-nav-button svg {
+    flex-shrink: 0;
+    stroke: var(--color-ocean-blue, #2a5a7a);
+}
+
+@media (max-width: 768px) {
+    .lesson-navigation {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .lesson-nav-button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .lesson-nav-next {
+        margin-left: 0;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   DESKTOP SIDEBAR TOGGLE
+   ═══════════════════════════════════════════════════════════════ */
+.desktop-menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--color-text, #1a1a2e);
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+}
+
+.desktop-menu-toggle:hover {
+    background: var(--color-light-gray, #f5f5f7);
+}
+
+.desktop-menu-toggle svg {
+    display: block;
+}
+
+/* Show desktop toggle on desktop, hide mobile toggle */
+@media (min-width: 1024px) {
+    .desktop-menu-toggle {
+        display: block;
+    }
+
+    .mobile-menu-toggle {
+        display: none;
+    }
+}
+
+/* Sidebar hidden state for desktop */
+body.sidebar-hidden .lesson-sidebar {
+    transform: translateX(-100%);
+}
+
+body.sidebar-hidden .lesson-main {
+    margin-left: 0;
+    max-width: 100%;
+}
+
+body.sidebar-hidden .lesson-layout {
+    grid-template-columns: 0 1fr;
+}
+
+/* Smooth transitions for sidebar toggle */
+@media (min-width: 1024px) {
+    .lesson-sidebar {
+        transition: transform 0.3s ease;
+    }
+
+    .lesson-main {
+        transition: margin-left 0.3s ease, max-width 0.3s ease;
+    }
+
+    .lesson-layout {
+        transition: grid-template-columns 0.3s ease;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-left">
+            <button class="back-button" onclick="window.location.href='../index.html'" aria-label="Back to course home">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Back</span>
+            </button>
+            <a href="../index.html" class="logo" aria-label="Salus Community Home">
+                <div class="logo-icon">S</div>
+                <span class="logo-text">Salus Community</span>
+            </a>
+        </div>
+        <div class="header-right">
+            <!-- Desktop Menu Toggle (shown on desktop only) -->
+            <button class="desktop-menu-toggle" aria-label="Toggle navigation sidebar" onclick="toggleDesktopSidebar()" title="Toggle sidebar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="18" rx="1"/>
+                    <rect x="14" y="3" width="7" height="18" rx="1"/>
+                </svg>
+            </button>
+
+            <!-- Mobile Menu Toggle (shown on mobile only) -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" onclick="toggleMobileMenu()">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" role="main">
+        <div class="lesson-view active">
+            <!-- Lesson Hero -->
+            <section class="lesson-hero">
+                <div class="lesson-hero-content">
+                    <nav class="lesson-hero-breadcrumb" aria-label="Breadcrumb">
+                        <a href="../index.html">Home</a>
+                        <span>›</span>
+                        <a href="../index.html#module-9">Module 9</a>
+                        <span>›</span>
+                        <span aria-current="page">Lesson 1</span>
+                    </nav>
+                    <h1 class="lesson-hero-title">Self-Assessment — Are You Ready?</h1>
+                </div>
+            </section>
+
+            <!-- Lesson Layout -->
+            <div class="lesson-layout">
+                <!-- Sidebar -->
+                <aside class="lesson-sidebar" aria-label="Course navigation">
+                    
+    <nav class="lesson-nav-sidebar" aria-label="Course navigation">
+        <div class="nav-header">
+            <a href="../index.html" class="nav-back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Course Overview
+            </a>
+        </div>
+  
+        <div class="nav-module " data-module="1">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(1)" aria-expanded="false">
+                <span class="nav-module-number">1</span>
+                <span class="nav-module-title">Welcome — What It Actually Takes</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-1">
+    
+                <a href="lesson-0-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Before You Begin — What This Program Will (and Won't) Do for You</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="2">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(2)" aria-expanded="false">
+                <span class="nav-module-number">2</span>
+                <span class="nav-module-title">Getting Your Foot in the Door</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-2">
+    
+                <a href="lesson-1-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Choosing Your U.S. Business Entity</span>
+                </a>
+      
+                <a href="lesson-1-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Registering with SunBiz — Step by Step</span>
+                </a>
+      
+                <a href="lesson-1-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Opening a U.S. Bank Account — The First Hurdle</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="3">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(3)" aria-expanded="false">
+                <span class="nav-module-number">3</span>
+                <span class="nav-module-title">Watch Your Money</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-3">
+    
+                <a href="lesson-2-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Federal and State Taxes — What You Actually Owe</span>
+                </a>
+      
+                <a href="lesson-2-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Sales Tax, Accounting, and Keeping the Books</span>
+                </a>
+      
+                <a href="lesson-2-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Banking Deep Dive — The Reality for International Founders</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="4">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(4)" aria-expanded="false">
+                <span class="nav-module-number">4</span>
+                <span class="nav-module-title">Protecting What You're Building</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-4">
+    
+                <a href="lesson-3-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">U.S. Intellectual Property — Copyright, Trademark, Patent</span>
+                </a>
+      
+                <a href="lesson-3-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Contracts, Insurance, and Regulatory Exposure</span>
+                </a>
+      
+                <a href="lesson-3-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">When to Bring In a Lawyer — And What It Costs</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="5">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(5)" aria-expanded="false">
+                <span class="nav-module-number">5</span>
+                <span class="nav-module-title">Building Your Team</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-5">
+    
+                <a href="lesson-4-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Your First U.S. Hire — Contractor vs. Employee</span>
+                </a>
+      
+                <a href="lesson-4-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Visa Pathways — What's Actually Realistic</span>
+                </a>
+      
+                <a href="lesson-4-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Payroll, Taxes, and Employer Obligations</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="6">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(6)" aria-expanded="false">
+                <span class="nav-module-number">6</span>
+                <span class="nav-module-title">Understanding U.S. Customers</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-6">
+    
+                <a href="lesson-5-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Why Your Product Probably Needs to Change</span>
+                </a>
+      
+                <a href="lesson-5-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">U.S. Customer Acquisition — How Americans Buy</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="7">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(7)" aria-expanded="false">
+                <span class="nav-module-number">7</span>
+                <span class="nav-module-title">How Business Actually Works Here</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-7">
+    
+                <a href="lesson-6-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Speed, Directness, and Trust Signals</span>
+                </a>
+      
+                <a href="lesson-6-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Meeting Etiquette, Negotiation, and Follow-Through</span>
+                </a>
+      
+                <a href="lesson-6-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Cultural Missteps That Cost Real Money</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="8">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(8)" aria-expanded="false">
+                <span class="nav-module-number">8</span>
+                <span class="nav-module-title">You're Not Alone — Central Florida's Business Support Ecosystem</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-8">
+    
+                <a href="lesson-7-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Key Organizations — Business Support Available to Help You</span>
+                </a>
+      
+                <a href="lesson-7-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Central Florida — Your Market Opportunity</span>
+                </a>
+      
+                <a href="lesson-7-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Why Central Florida — The Data Behind the Choice</span>
+                </a>
+      
+                <a href="lesson-7-4.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">4</span>
+                    <span class="nav-lesson-title">UCF BIP Programs — Your Next Step</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module active" data-module="9">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(9)" aria-expanded="true">
+                <span class="nav-module-number">9</span>
+                <span class="nav-module-title">Wrap-Up — Is the U.S. Right for You?</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-9">
+    
+                <a href="lesson-8-1.html"
+                   class="nav-lesson-link current">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Self-Assessment — Your U.S. Market Readiness</span>
+                </a>
+      
+                <a href="lesson-8-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Resource Downloads & Digital Credential</span>
+                </a>
+      
+                <a href="lesson-8-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Next Steps — Your UCF BIP Pathway</span>
+                </a>
+      
+            </div>
+        </div>
+    
+    </nav>
+  
+                </aside>
+
+                <!-- Main Lesson Content -->
+                <div class="lesson-main">
+                    <div class="lesson-article">
+                        
+    <div class="video-section" style="margin-bottom: 2rem;">
+      <div style="background: #e5e7eb; border-radius: 0.75rem; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 3rem; text-align: center;">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin: 0 auto 1rem auto; opacity: 0.5;">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <h2 style="margin-bottom: 0.5rem; color: #6b7280;">Video: Self-Assessment â€” Are You Ready?</h2>
+        <p style="color: #9ca3af; font-size: 0.875rem;">7 scenes • 5 minutes</p>
+        <p style="margin-top: 1rem; color: #9ca3af; font-size: 0.875rem; font-style: italic;">Video will be embedded after assembly</p>
+      </div>
+    </div>
+  
+
+                        <h2></h2>
+<div class="intro-callout">
+  <p><p>After seven modules and dozens of topics, you have arrived at the final destination on this road trip: the UCF campus and its Business Incubation Program headquarters. Picture the modern buildings, the research labs, the incubator offices where startups are already working. This is home base. But how much do you actually remember, and more importantly, where are the gaps you still need to fill?</p></p>
+</div>
+<p><p>Standing here on campus, it is time to take an honest look at where you stand. You covered seven modules. Having info is not the same as being ready. The goal here is to know where the gaps are and what help you need before you spend money.</p></p>
+<p><h4>The Four Themes as Your Decision Filter</h4></p>
+<p><p>Here's how this plays out: before you sign anything, hire anyone, or transfer money, recall the four themes:</p></p>
+<p><ul><li><strong>Reduce Risk</strong> . Avoid the legal, financial, and operational traps.</li><li><strong>Watch Your Money</strong> . Know the realistic costs before committing.</li><li><strong>Avoid Common Mistakes</strong> . Don't repeat the errors other founders make.</li><li><strong>Understand the Culture</strong> . Know how American business actually works.</li></ul></p>
+
+
+
+<h2>Did You Know?</h2>
+<p><p>UCF enrolls over 70,000 students, making it one of the largest universities in the United States by enrollment. The UCF Business Incubation Program has helped launch and grow hundreds of companies since 1999, generating billions in revenue across Central Florida. The university's research park, located adjacent to campus, is home to more than 100 high-tech companies and research labs, creating a dense innovation corridor that founders can tap into from day one.</p></p>
+
+
+
+<h2>Important Reminder: This Was Educational Guidance</h2>
+<p><p>Now, consider this carefully. Everything you covered in this program was <strong>general educational information</strong> intended to help you understand the U.S. business environment. It is not legal, tax, immigration, or financial advice. Before you take action on any topic: entity formation, banking, taxes, IP, hiring, or visas, consult a qualified professional who can review your specific situation. Knowledge is the starting point. Professional guidance is how you turn knowledge into safe action.</p></p>
+
+
+
+<h2></h2>
+<p><p>Before you leave headquarters and head into the U.S. market, you need a readiness review. This is yours. For each topic, honestly rate yourself: clear on what to do, or still have major questions? No passing score. The point is clarity.</p></p>
+<p><h4>Module 1: Legal Setup</h4></p>
+<p><p>Is your foundation solid? Entity, EIN, registered agent — these are the structural systems that keep everything else from collapsing.</p></p>
+<p><ul><li>Do you know which entity type fits your business goals and visa situation?</li><li>Have you checked [SunBiz](https://sunbiz.org) for name availability?</li><li>Do you understand the registered agent requirement?</li><li>Do you know what documents you need for a U.S. business bank account?</li></ul></p>
+<p><p>If unclear, consult a business attorney or CPA before filing.</p></p>
+<p><h4>Module 2: Finances and Taxes</h4></p>
+<p><p>Are your accounts and funding in order? Banking, taxes, accounting — these power everything that follows once you step out of headquarters.</p></p>
+<p><ul><li>Can you explain federal income tax vs. state sales tax?</li><li>Do you understand how U.S. sales tax differs from VAT?</li><li>Have you identified an accountant who understands international founders?</li></ul></p>
+<p><p>If unclear, an international-focused accountant saves you from penalties that cost far more than their fee.</p></p>
+<p><h4>Module 3: Protecting Your Business</h4></p>
+<p><p>Are your legal protections in place? IP, insurance, and contracts are your safety net — invisible until you need them, catastrophic without them.</p></p>
+<p><ul><li>Does your home-country IP protection cover you in the U.S.?</li><li>Can you list the insurance types your business needs?</li><li>Have you identified which contracts you need before starting?</li></ul></p>
+<p><p>If uncertain, an IP attorney conversation is a high-priority next step.</p></p>
+<p><h4>Module 4: Building Your Team</h4></p>
+<p><p>Is your team assembled? Classification, payroll, compliance — your support team is critical, and getting the roster wrong stalls you before you start.</p></p>
+<p><ul><li>Do you understand contractor vs. employee in the U.S.?</li><li>Are you aware of true hiring cost (salary plus 15-30% overhead)?</li><li>Do you know your visa authorization status?</li></ul></p>
+<p><p>Misclassifying a worker can result in back taxes, penalties, and legal liability.</p></p>
+<p><p>Now, let's continue with the remaining modules.</p><h4>Module 5: Understanding U.S. Customers</h4></p>
+<p><p>Is your market strategy configured for the U.S.? Product adaptation, pricing, acquisition strategy — these determine whether your business actually reaches your target market.</p></p>
+<p><ul><li>Have you researched your U.S. competitive set?</li><li>Do you know how U.S. pricing expectations differ from your home market?</li><li>Do you understand vendor onboarding requirements (W-9, insurance certificates, procurement)?</li><li>Can you describe your first U.S. customer acquisition strategy?</li></ul></p>
+<p><p>If you haven't done U.S.-specific competitive research, block time for that before selling.</p></p>
+<p><h4>Module 6: U.S. Business Culture</h4></p>
+<p><p>Have you studied the local conditions? Communication, meetings, trust-building — this is the atmosphere you will be operating in, and misjudging it stalls even the best-prepared founders.</p></p>
+<p><ul><li>Can you explain American friendliness vs. business commitment?</li><li>Do you know follow-up expectations after meetings?</li><li>Are you aware of how directness and decision-making differ in U.S. business?</li></ul></p>
+<p><p>Cultural missteps cost real money. If these feel abstract, find a mentor who has operated in both cultures.</p></p>
+<p><h4>Module 7: Central Florida Ecosystem</h4></p>
+<p><p>Do you know your advisory network? SBDC, chambers, [UCF BIP](https://incubator.ucf.edu) — no founder succeeds without a support team on the ground.</p></p>
+<p><ul><li>Can you name three organizations offering free support to international founders?</li><li>Do you know Central Florida's advantages vs. Miami, NYC, or Silicon Valley?</li><li>Are you aware of what phases 2 and 3 of the [UCF BIP](https://incubator.ucf.edu) program offer?</li></ul></p>
+<p><p>If you cannot name specific resources you plan to contact, revisit Module 7.</p></p>
+
+
+
+<h2></h2>
+<p><p>No preparation is perfect. The smartest founders identify what is missing and get help before they leave headquarters. Feeling swamped is normal. You are not supposed to be an expert in all seven areas. That is exactly why UCF's campus has an entire ecosystem of advisors, mentors, and professional connections waiting in the buildings around you. You need to know enough to ask the right questions and avoid expensive mistakes.</p></p>
+<p><h4>Where to Get Help</h4></p>
+<p><ul><li><strong>Legal (entity, contracts, compliance)</strong> . Business attorney with international experience. SBDC connects you with pro bono legal clinics.</li><li><strong>Taxes and accounting</strong> . CPA with international experience. Ask: "Do you work with foreign-owned businesses?"</li><li><strong>Immigration and visas</strong> . Immigration attorney. Not optional.</li><li><strong>IP protection</strong> . IP attorney. [USPTO](https://www.uspto.gov) has resources, but filing strategy needs professional guidance.</li><li><strong>Banking</strong> . Start with the bank directly. Bring documents; expect the first visit to be a consultation.</li><li><strong>Customer acquisition</strong> . SBDC and SCORE offer free advising. [UCF BIP](https://incubator.ucf.edu) connects you with mentors.</li><li><strong>General guidance</strong> . The [UCF BIP](https://incubator.ucf.edu) team is available for a conversation once you complete Module 8.</li></ul></p>
+<p><p>Your readiness scores are your map. Prioritize professionals based on your lowest scores.</p></p>
+
+
+
+<h2>One of the Biggest Risks Is Going It Alone</h2>
+<p><p>Think about this: you now know more than many international founders who enter the U.S. market without structured preparation. Many founders jump in without a structured program. They figure things out by making mistakes. You have the chance to skip the most expensive mistakes entirely. But knowing alone does not cut risk. <strong>Action</strong> cuts risk. Use your self-assessment scores. Contact the professionals. Reach out to the organizations. Central Florida, and this campus in particular, has built an ecosystem specifically to help founders like you succeed. Use it.</p></p>
+
+
+
+<h2>Key Takeaway</h2>
+<p><p>You do not need to have everything figured out. You need to know what to figure out first and who can help. That is what this program gave you. Your readiness self-assessment is not a test score. It is your pre-departure checklist. The areas where you rated yourself lowest are your highest-priority next steps. Apply your scores to prioritize next steps: evaluate which gaps need professional guidance first, then create a specific action plan for each one. You have arrived at campus headquarters for a reason. Use these priorities to guide your 1:1 conversation with the [UCF BIP](https://incubator.ucf.edu) team.</p></p>
+
+
+
+
+                        <div class="quiz-container">
+<div class="knowledge-check" data-question-index="0" data-question-type="multiple-choice">
+  <h3>What Would You Do?</h3>
+  <p>A founder rates herself a '2' on the Legal Setup section of the readiness self-assessment. According to the scoring guide, what should she do before taking action on entity formation?</p>
+  <div class="quiz-options" role="radiogroup" aria-label="What Would You Do?">
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="0"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications."
+             aria-label="Proceed with forming an LLC since it is the most common choice for international founders">
+      <span>Proceed with forming an LLC since it is the most common choice for international founders</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="1"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications."
+             aria-label="Re-read Module 1 and then file on [SunBiz](https://sunbiz.org) immediately">
+      <span>Re-read Module 1 and then file on [SunBiz](https://sunbiz.org) immediately</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="2"
+             data-correct="true"
+             data-feedback="&#10003; Correct! The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications."
+             aria-label="Consult a business attorney or CPA before filing anything, because a score of 1 or 2 signals the need for professional guidance">
+      <span>Consult a business attorney or CPA before filing anything, because a score of 1 or 2 signals the need for professional guidance</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="3"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. The readiness self-assessment scoring guide states that any area rated 1 or 2 is a priority for professional consultation before taking action. Getting entity selection wrong costs more than the filing fee. It can mean months of restructuring and potential tax complications."
+             aria-label="Skip entity formation and operate as a sole proprietor until she feels more confident">
+      <span>Skip entity formation and operate as a sole proprietor until she feels more confident</span>
+    </label>
+  </div>
+  <div class="question-feedback" aria-live="polite" role="status"></div>
+  <button onclick="checkAnswer(0)" aria-label="Submit answer">Submit Answer</button>
+</div>
+</div>
+
+<script>
+// Legacy activity handlers (drag-drop, sorting, etc. for non-quiz activities)
+function setupDragDrop() {
+  document.querySelectorAll('.drag-drop-activity').forEach(function(activity) {
+    var draggables = activity.querySelectorAll('.draggable-item');
+    var dropZones = activity.querySelectorAll('.drop-area');
+
+    draggables.forEach(function(draggable) {
+      draggable.addEventListener('dragstart', function() {
+        this.classList.add('dragging');
+        this.style.opacity = '0.5';
+      });
+      draggable.addEventListener('dragend', function() {
+        this.classList.remove('dragging');
+        this.style.opacity = '1';
+      });
+    });
+
+    dropZones.forEach(function(zone) {
+      zone.addEventListener('dragover', function(e) {
+        e.preventDefault();
+        zone.style.background = '#f3f4f6';
+      });
+      zone.addEventListener('dragleave', function() {
+        zone.style.background = '';
+      });
+      zone.addEventListener('drop', function(e) {
+        e.preventDefault();
+        var draggable = document.querySelector('.dragging');
+        if (draggable) {
+          zone.appendChild(draggable);
+        }
+        zone.style.background = '';
+      });
+    });
+  });
+}
+
+function checkDragDropActivity(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var dropZones = activity.querySelectorAll('.drop-zone');
+  var correct = 0;
+  var total = 0;
+
+  dropZones.forEach(function(zone) {
+    var category = zone.dataset.category;
+    var items = zone.querySelectorAll('.draggable-item');
+
+    items.forEach(function(item) {
+      total++;
+      if (item.dataset.correctCategory === category) {
+        correct++;
+        item.style.background = '#d1fae5';
+        item.style.borderColor = '#10b981';
+      } else {
+        item.style.background = '#fee2e2';
+        item.style.borderColor = '#ef4444';
+      }
+    });
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / total) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'You got ' + correct + ' out of ' + total + ' correct (' + percentage + '%).';
+}
+
+function setupSortingActivity() {
+  document.querySelectorAll('.sorting-activity').forEach(function(activity) {
+    var list = activity.querySelector('.sortable-list');
+    var items = Array.from(list.querySelectorAll('.sortable-item'));
+
+    items.forEach(function(item) {
+      item.addEventListener('dragstart', function() {
+        this.classList.add('dragging');
+        this.style.opacity = '0.5';
+      });
+      item.addEventListener('dragend', function() {
+        this.classList.remove('dragging');
+        this.style.opacity = '1';
+      });
+    });
+
+    list.addEventListener('dragover', function(e) {
+      e.preventDefault();
+      var dragging = list.querySelector('.dragging');
+      var siblings = Array.from(list.querySelectorAll('.sortable-item:not(.dragging)'));
+      var after = null;
+      for (var s = 0; s < siblings.length; s++) {
+        var box = siblings[s].getBoundingClientRect();
+        var offset = e.clientY - box.top - box.height / 2;
+        if (offset < 0) { after = siblings[s]; break; }
+      }
+      if (after) list.insertBefore(dragging, after);
+      else list.appendChild(dragging);
+    });
+  });
+}
+
+function checkSorting(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var items = activity.querySelectorAll('.sortable-item');
+  var correct = 0;
+
+  items.forEach(function(item, currentIndex) {
+    var correctPosition = parseInt(item.dataset.correctPosition) - 1;
+    if (currentIndex === correctPosition) {
+      correct++;
+      item.style.background = '#d1fae5';
+      item.style.borderColor = '#10b981';
+    } else {
+      item.style.background = '#fee2e2';
+      item.style.borderColor = '#ef4444';
+    }
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / items.length) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'You got ' + correct + ' out of ' + items.length + ' in the correct position (' + percentage + '%).';
+}
+
+function showHotSpotInfo(activityId, spotIndex) {
+  var details = document.getElementById(activityId + '-details');
+  if (details) details.innerHTML = '<h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Hot Spot ' + (spotIndex + 1) + '</h3><p style="color: #374151;">Information about this area will appear here.</p>';
+}
+
+function checkCaseStudy(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var questions = activity.querySelectorAll('.case-question');
+  var correct = 0;
+  var total = 0;
+
+  questions.forEach(function(question) {
+    var radios = question.querySelectorAll('input[type="radio"]');
+    var checkboxes = question.querySelectorAll('input[type="checkbox"]');
+    if (radios.length > 0) {
+      var selected = question.querySelector('input[type="radio"]:checked');
+      if (selected) { total++; if (selected.dataset.correct === 'true') correct++; }
+    }
+    if (checkboxes.length > 0) {
+      checkboxes.forEach(function(cb) {
+        total++;
+        if (cb.checked === (cb.dataset.correct === 'true')) correct++;
+      });
+    }
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / total) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'Score: ' + correct + '/' + total + ' (' + percentage + '%)';
+}
+
+function makeBranchingChoice(activityId, choiceIndex) {
+  alert('Branching scenario choice ' + choiceIndex + ' - full implementation pending');
+}
+
+function selectSimulationResponse(activityId, responseIndex) {
+  alert('Simulation response ' + responseIndex + ' - full implementation pending');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  setupDragDrop();
+  setupSortingActivity();
+});
+</script>
+
+
+                        <nav class="lesson-navigation" aria-label="Lesson navigation">
+      <a href="lesson-7-4.html" class="lesson-nav-button lesson-nav-prev">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        <div class="lesson-nav-text">
+          <div class="lesson-nav-label">Previous</div>
+          <div class="lesson-nav-title">UCF BIP Programs — Your Next Step</div>
+        </div>
+      </a>
+    
+      <a href="lesson-8-2.html" class="lesson-nav-button lesson-nav-next">
+        <div class="lesson-nav-text">
+          <div class="lesson-nav-label">Next</div>
+          <div class="lesson-nav-title">Resource Downloads & Digital Credential</div>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Shared JavaScript (External - Cached) -->
+    <script src="js/navigation.js"></script>
+    <script src="js/interactive.js"></script>
+    <script src="js/video-player.js"></script>
+    <script src="js/celebrations.js"></script>
+    <script src="js/course-search.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/interactive-components.js"></script>
+</body>
+</html>

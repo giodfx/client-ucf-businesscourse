@@ -14,7 +14,7 @@
       "type": "text",
       "id": "text-3-2-1",
       "title": "Shielding Your Business: Insurance and Risk Management",
-      "content": "<p>Now that you have locked down your intellectual property inside the launch facility, walk over to the safety and compliance wing. No business should operate without proper insurance and risk management.</p>\n\n<p>A founder from Costa Rica lost $22,000 because he closed a deal with a handshake instead of a contract. In the U.S., that handshake is worth almost nothing — three months later, the distributor changed payment terms and refused to pay outstanding invoices. Without a signed contract, the founder had no legal leverage. This is why contracts matter (we cover contract types in the next lesson), but first, you need to understand the insurance and risk management foundations that protect your business every day.</p>\n\n<p>Many international founders focus on the legal setup — entity formation, IP, contracts — and forget to guard against day-to-day business risks. One lawsuit without insurance coverage can shut you down. One slip-and-fall at your office, one product defect, one professional error that costs a client money. Insurance is your safety net for the risks you cannot predict.</p>",
+      "content": "<p>Now that you have locked down your intellectual property, it is time to focus on safety and compliance. No business should operate without proper insurance and risk management.</p>\n\n<p>A Brazilian founder renting a shared office in Orlando had a client trip over an extension cord during a meeting. The medical bill was $14,000. Without general liability insurance, he paid it out of pocket. Insurance is the safety net that protects your business from the risks you cannot predict, and it needs to be in place before you start operating.</p>",
       "wordCount": 152
     },
     {
@@ -82,13 +82,13 @@
       "id": "callout-3-2-funfact",
       "variant": "fun-fact",
       "title": "Did You Know?",
-      "content": "<p>Central Florida's Space Coast has hosted over 4,000 rocket launches since 1950, including every crewed NASA mission. The same culture of risk management that keeps rockets safe also drives the region's insurance industry: Florida has one of the largest property insurance markets in the country. For business founders, the parallel is clear — just as every launch requires a safety review, every business needs protection against the risks that could ground your operation.</p>"
+      "content": "<p>Central Florida's Space Coast has hosted over 4,000 rocket launches since 1950, including every crewed NASA mission. The same culture of risk management that keeps rockets safe also drives the region's insurance industry: Florida has one of the largest property insurance markets in the country. That focus on risk assessment applies to every business operating in Florida today.</p>"
     },
     {
       "type": "text",
       "id": "text-3-2-2",
       "title": "Business Insurance, What You Need and What Can Wait",
-      "content": "<p>Insurance in the U.S. is not optional. Some types are required by law. Others are required in practice, since clients and landlords demand proof.</p>\n\n<p><strong>General Liability Insurance (GL):</strong> Your most important policy. It covers third-party bodily injury, property damage, and advertising injury. Cost: $400–$800/year. Many landlords and B2B clients require proof before they will work with you.</p>\n\n<p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm — a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p>\n\n<p><strong>Workers' Compensation:</strong> Required in Florida with four or more employees (one in construction). Cost varies by industry and payroll.</p>\n\n<p><strong>Commercial Property Insurance:</strong> Covers equipment, inventory, and office contents. Skip if working from home; get it for a physical office or warehouse.</p>\n\n<p>A Nigerian founder found that U.S. vendor onboarding required proof of $1 million GL and $1 million E&O before clients would sign. Budget for insurance before you need it.</p>",
+      "content": "<p>Insurance in the U.S. is not optional. Some types are required by law. Others are required in practice, since clients and landlords demand proof.</p>\n\n<p><strong>General Liability Insurance (GL):</strong> Your most important policy. It covers third-party bodily injury, property damage, and advertising injury. Cost: $400–$800/year. Many landlords and B2B clients require proof before they will work with you.</p>\n\n<p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm, a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p>\n\n<p><strong>Workers' Compensation:</strong> Required in Florida with four or more employees (one in construction). Cost varies by industry and payroll.</p>\n\n<p><strong>Commercial Property Insurance:</strong> Covers equipment, inventory, and office contents. Skip if working from home; get it for a physical office or warehouse.</p>\n\n<p>A Nigerian founder found that U.S. vendor onboarding required proof of $1 million GL and $1 million E&O before clients would sign. Budget for insurance before you need it.</p>",
       "wordCount": 147
     },
     {
@@ -96,7 +96,7 @@
       "id": "callout-3-2-2",
       "variant": "common-mistake",
       "title": "Operating Without General Liability Insurance",
-      "content": "<p>Here's where the risk is real. One slip-and-fall, one product issue, one bad contract — and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can \"pierce the corporate veil\" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p>"
+      "content": "<p>One slip-and-fall, one product issue, one bad contract, and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can \"pierce the corporate veil\" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p>"
     },
     {
       "type": "accordion",
@@ -109,7 +109,7 @@
         },
         {
           "heading": "Professional Liability (E&O)",
-          "content": "**Covers:** Claims of negligence, errors, or failure to deliver professional services.\n\n**Cost:** $500–$3,000/year depending on industry.\n\n**Who needs it:** Consultants, IT companies, any service-based business."
+          "content": "**Covers:** Claims of negligence, errors, or failure to deliver professional services.\n\n**Cost:** $500–$2,500/year depending on industry.\n\n**Who needs it:** Consultants, IT companies, any service-based business."
         },
         {
           "heading": "Workers' Compensation",
@@ -205,15 +205,15 @@
           "explanation": "Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel. Filing a trademark (option B) is important but not a regulatory requirement for food sales. Cyber liability insurance (option C) and workers' comp (option D) are not the most likely missing step for a food product launch."
         },
         {
-          "stem": "A founder from Vietnam is preparing to sign her first client contract with a U.S. marketing agency. The agency wants to discuss her proprietary analytics methodology before signing. She has no written agreements in place yet. Which contract should she ask the agency to sign first?",
+          "stem": "A founder from Peru is opening a small food packaging operation in Central Florida. She has general liability insurance and product liability insurance. Her lease requires one additional document before she can move in. What is it?",
           "options": [
-            "A service agreement covering scope, payment terms, and deliverables for the project",
-            "A terms-of-service document for her company website",
-            "An operating agreement for her LLC defining member responsibilities",
-            "A non-disclosure agreement (NDA) to protect her proprietary methodology before sharing details"
+            "A Certificate of Insurance (COI) naming the landlord as an additional insured",
+            "A copy of her LLC operating agreement",
+            "Proof of workers' compensation insurance",
+            "A signed non-disclosure agreement with the landlord"
           ],
-          "correctAnswer": 3,
-          "explanation": "Before sharing proprietary information, the founder should have the agency sign an NDA. This protects her analytics methodology during the discussion phase. A service agreement (option A) comes after both parties agree on terms. Terms of service (option B) is for her website users, not a client negotiation. An operating agreement (option C) is an internal LLC document, not relevant to a client relationship."
+          "correctAnswer": 0,
+          "explanation": "Most commercial landlords require a Certificate of Insurance (COI) before allowing a tenant to occupy the space. The COI proves you carry general liability coverage and typically names the landlord as an additional insured party. This is standard practice in U.S. commercial leasing."
         }
       ]
     },
@@ -236,12 +236,30 @@
           "label": "Business Type",
           "labelEs": "Tipo de Negocio",
           "options": [
-            { "label": "Professional Services", "value": "services" },
-            { "label": "Technology / SaaS", "value": "tech" },
-            { "label": "Retail", "value": "retail" },
-            { "label": "Food & Beverage", "value": "food" },
-            { "label": "Construction", "value": "construction" },
-            { "label": "General / Other", "value": "other" }
+            {
+              "label": "Professional Services",
+              "value": "services"
+            },
+            {
+              "label": "Technology / SaaS",
+              "value": "tech"
+            },
+            {
+              "label": "Retail",
+              "value": "retail"
+            },
+            {
+              "label": "Food & Beverage",
+              "value": "food"
+            },
+            {
+              "label": "Construction",
+              "value": "construction"
+            },
+            {
+              "label": "General / Other",
+              "value": "other"
+            }
           ]
         },
         {
@@ -283,7 +301,7 @@
       "type": "key-takeaway",
       "id": "kt-3-2-1",
       "title": "Key Takeaway",
-      "content": "<p>The takeaway is clear: get your contracts in writing — every time, with every partner. Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p>"
+      "content": "<p>Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p>"
     }
   ]
 }

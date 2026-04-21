@@ -13,8 +13,8 @@
     {
       "type": "text",
       "id": "text-1-1-0",
-      "title": "Welcome to the City — Where Your Business Takes Shape",
-      "content": "<p>Every city has a downtown, a place where businesses file their papers, hang their signs, and open their doors. In Central Florida, that process starts online through a portal called [SunBiz](https://sunbiz.org). But before you file anything, you need to make one key choice: what kind of business entity to form.</p>\n\n<p>What does that mean for you? Think of it like choosing where to set up your office in the city. A small storefront (LLC) gives you freedom and low overhead. A corporate tower (C-Corp) gives you the structure investors expect. Both protect you from personal risk. But they work very differently when it comes to taxes, visas, and raising money.</p>\n\n<p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p>",
+      "title": "Choosing Your Entity — The First Decision",
+      "content": "<p>Before you file anything in Florida, you need to make one key decision: what kind of business entity to form. In Central Florida, the process starts online through a portal called <a href=\"https://sunbiz.org\">SunBiz</a>.</p>\n\n<p>An LLC gives you flexibility and low overhead. A C-Corp gives you the structure investors expect. Both protect you from personal liability. But they work very differently when it comes to taxes, visas, and raising money.</p>\n\n<p>This lesson walks you through the two main options that work for international founders, and one that usually does not.</p>",
       "wordCount": 132
     },
     {
@@ -22,13 +22,13 @@
       "id": "callout-1-1-funfact",
       "variant": "fun-fact",
       "title": "Did You Know?",
-      "content": "<p>Interestingly, Florida has no state personal income tax, but that is not the only reason founders keep choosing it. The Orlando metro area has over 30,000 businesses started by foreign-born owners, and the state processes new LLC filings faster than most others. Some founders have gone from zero to an active entity in under 48 hours.</p>"
+      "content": "<p>Florida has no state personal income tax, but that is not the only reason founders keep choosing it. Central Florida has over 30,000 businesses started by foreign-born owners, and the state processes new LLC filings faster than most others. Some founders have gone from zero to an active entity in under 48 hours.</p>"
     },
     {
       "type": "text",
       "id": "text-1-1-entity-intro",
       "title": "Three Structures, Three Different Paths",
-      "content": "<p>Think of it this way: an LLC is like opening a flexible storefront — easy to set up, simple to run, and it keeps your personal assets separate from the business. A C-Corp is more like building a glass tower — more paperwork and formality, but it is the structure investors expect if you plan to raise venture capital. An S-Corp exists too, but it requires all shareholders to be U.S. citizens or residents, which rules out many international founders.</p>\n\n<p>The comparison below breaks down the key differences to help you decide which structure fits your situation.</p>"
+      "content": "<p>An LLC is simple to set up, easy to run, and it keeps your personal assets separate from the business. A C-Corp requires more paperwork and formality, but it is the structure investors expect if you plan to raise venture capital. An S-Corp exists too, but it requires all shareholders to be U.S. citizens or residents, which rules out many international founders.</p>\n\n<p>The comparison below breaks down the key differences to help you decide which structure fits your situation.</p>"
     },
     {
       "type": "comparison-card",
@@ -52,7 +52,7 @@
             },
             {
               "label": "Immigration Compatibility",
-              "value": "High — any visa holder can own"
+              "value": "Ownership is generally allowed, but your visa determines whether you can actively work in the business."
             },
             {
               "label": "Formation Cost",
@@ -153,7 +153,7 @@
         },
         {
           "label": "I'm a U.S. citizen or permanent resident wanting tax savings",
-          "outcome": "You may qualify for S-Corp status — but only if ALL shareholders are U.S. citizens or permanent residents. S-Corp gives you pass-through taxation (like an LLC) with potential savings on self-employment tax. However, most participants in this program are international founders, which makes S-Corp unavailable. If you have a U.S. co-founder, consult a tax attorney about whether a mixed structure could work.",
+          "outcome": "You may qualify for S-Corp status — but only if ALL shareholders are U.S. citizens or permanent residents. S-Corp gives you pass-through taxation (like an LLC) with potential savings on self-employment tax. However, many participants in this program are international founders, which makes S-Corp unavailable. If you have a U.S. co-founder, consult a tax attorney about whether a mixed structure could work.",
           "isRecommended": false
         }
       ]
@@ -176,7 +176,7 @@
         },
         {
           "label": "S-Corp — best tax treatment",
-          "outcome": "An S-Corp offers tax advantages for U.S. citizens, but it requires ALL shareholders to be U.S. citizens or permanent residents. As an international founder, you are ineligible. This option is off the table for most participants in this program.",
+          "outcome": "An S-Corp offers tax advantages for U.S. citizens, but it requires ALL shareholders to be U.S. citizens or permanent residents. As an international founder, you are ineligible. This option is off the table for many participants in this program.",
           "isRecommended": false
         }
       ]
@@ -185,7 +185,7 @@
       "type": "text",
       "id": "text-1-1-4",
       "title": "How Your Entity Type Connects to Everything Else",
-      "content": "<p>Your entity choice creates a chain reaction across banking, taxes, visas, and fundraising. The building you pick in the city determines which services you can access, what your operating costs look like, and who will want to do business with you. Here is how the pieces connect:</p>\n\n<p>Now, here is where it gets tricky. A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took several months and significant legal fees, and nearly derailed the deal.</p>\n\n<p><strong>Banking:</strong> Having your articles of organization, EIN, and operating agreement ready before you visit a bank increases your chances of approval. The storefront and the tower have different paperwork at the bank counter. We cover this in detail in Lesson 3 of this module.</p>\n\n<p><strong>Taxes:</strong> LLC profits pass through to your personal return, with specific IRS requirements for non-resident aliens. A C-Corp files its own return (Form 1120). The storefront has different utility costs than the tower. Module 2 goes deeper.</p>\n\n<p><strong>Visas:</strong> Immigration lawyers often prefer C-Corps for E-2 treaty investor visa cases. If a visa is part of your plan, talk to a lawyer before choosing your entity.</p>\n\n<p><strong>Investors:</strong> U.S. venture capital firms usually require a Delaware C-Corp. One founder spent thousands of dollars and months switching from a Florida LLC to a Delaware C-Corp when an investor required it. Starting with the right entity avoids this.</p>",
+      "content": "<p>Your entity choice creates a chain reaction across banking, taxes, visas, and fundraising. Here is how the pieces connect:</p>\n\n<p>A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took several months and significant legal fees, and nearly derailed the deal.</p>\n\n<p><strong>Banking:</strong> Having your articles of organization, EIN, and operating agreement ready before you visit a bank increases your chances of approval. LLCs and C-Corps require different documentation at the bank. We cover this in detail in Lesson 3 of this module.</p>\n\n<p><strong>Taxes:</strong> LLC profits pass through to your personal return, with specific IRS requirements for non-resident aliens. A C-Corp files its own return (Form 1120). Each structure has different tax obligations. Module 2 goes deeper.</p>\n\n<p><strong>Visas:</strong> Immigration lawyers often prefer C-Corps for E-2 treaty investor visa cases. If a visa is part of your plan, talk to a lawyer before choosing your entity.</p>\n\n<p><strong>Investors:</strong> U.S. venture capital firms usually require a Delaware C-Corp. Starting with the right entity avoids this.</p>",
       "wordCount": 228
     },
     {
@@ -193,13 +193,13 @@
       "id": "callout-1-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Common Mistakes International Founders Make",
-      "content": "<p>Now, consider the mistakes that cost founders the most time and money at this stage:</p>\n\n<ul><li><strong>Choosing the wrong entity type for your visa or tax situation.</strong> A founder who needs an E-2 visa but formed a single-member LLC may need to rebuild the structure before the visa process can move forward. That means legal fees, delays, and stress that could have been avoided.</li><li><strong>Using personal bank accounts for business transactions.</strong> This is called \"piercing the corporate veil.\" It can destroy the liability protection your entity provides. If you mix personal and business funds, a court can hold you personally responsible for business debts. Keep them separate from day one.</li><li><strong>Ignoring the need for a registered agent.</strong> Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional. If your registered agent lapses, the state can dissolve your entity, meaning your business legally stops existing until you fix it.</li></ul>"
+      "content": "<ul><li><strong>Choosing the wrong entity type for your visa or tax situation.</strong> A founder who needs an E-2 visa but formed a single-member LLC may need to rebuild the structure before the visa process can move forward. That means legal fees, delays, and stress that could have been avoided.</li><li><strong>Using personal bank accounts for business transactions.</strong> This is called \"piercing the corporate veil.\" It can destroy the liability protection your entity provides. If you mix personal and business funds, a court can hold you personally responsible for business debts. Keep them separate from day one.</li><li><strong>Ignoring the need for a registered agent.</strong> Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional. If your registered agent lapses, the state can dissolve your entity, meaning your business legally stops existing until you fix it.</li></ul>"
     },
     {
       "type": "text",
       "id": "text-1-1-5",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>Here's where the numbers matter. Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p>\n\n<ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0-$500 if you use an attorney. Total typically $125-$625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300-$1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300-$500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960 to $2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100-$300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul>\n\n<p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p>",
+      "content": "<p>Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p>\n\n<ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0-$500 if you use an attorney. Total typically $125-$625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300-$1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300-$500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960 to $2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100-$300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul>\n\n<p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p>",
       "wordCount": 167
     },
     {
@@ -238,15 +238,15 @@
           "explanation": "Every founder's situation is different. What works for a freelance consultant from Canada may not work for a tech startup founder from Brazil who plans to raise capital. Entity choice depends on your visa status, tax treaty, industry, and growth plans. Blindly following another founder's path ignores these differences, while dismissing peer advice entirely or forming two entities wastes time and money."
         },
         {
-          "stem": "You formed a Florida LLC eight months ago. Now a U.S. investor wants to lead a seed round, but they require a Delaware C-Corp. What is the likely impact?",
+          "stem": "You are forming a Florida LLC as an international founder. You do not live in the United States and have no physical U.S. address. Which of the following is required by Florida law?",
           "options": [
-            "No impact. The investor will accept the LLC",
-            "You can simply elect S-Corp status to satisfy the investor",
-            "You will need to close the LLC and wait a year before forming a new entity",
-            "You will need to convert your entity, which typically costs thousands of dollars and takes weeks or months"
+            "You must open a Florida bank account before filing with SunBiz",
+            "You need a registered agent with a physical Florida address",
+            "You must have a U.S. Social Security Number to form an LLC",
+            "You need to hire a Florida-based attorney to file on your behalf"
           ],
-          "correctAnswer": 3,
-          "explanation": "Converting from a Florida LLC to a Delaware C-Corp involves legal fees, new state filings, and potential tax consequences. This is a common and costly mistake. The investor will not simply accept an LLC when they require a C-Corp for standard investment terms. S-Corp status is unavailable to non-resident aliens and would not satisfy an investor's C-Corp requirement. You do not need to wait a year, but the conversion process itself is costly and time-consuming."
+          "correctAnswer": 1,
+          "explanation": "Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional — if your registered agent lapses, the state can dissolve your entity. You do not need a bank account, SSN, or attorney to file with SunBiz, though all can be helpful. Commercial registered agent services are available for $50 to $200 per year."
         }
       ]
     },
@@ -254,7 +254,7 @@
       "type": "key-takeaway",
       "id": "kt-1-1-1",
       "title": "Key Takeaway",
-      "content": "<p>The key insight is this: your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. For many international founders, the real choice is between an LLC (simple, flexible, affordable) and a C-Corp (investor-ready, more structure). The S-Corp is generally not available to non-citizen founders. Whether you set up in the storefront or the tower, that choice shapes every step that follows.</p>\n\n<p>Don't default to the cheapest option without knowing how it connects to your bigger picture. If your situation involves visa concerns, future investors, or home-country tax treaties, think about meeting with a business attorney before you file anything. A one-hour meeting may cost a few hundred dollars. Fixing the wrong entity choice later can cost several thousand, plus months of delays.</p>"
+      "content": "<p>The key insight is this: your entity type is the foundation of your U.S. business. It affects taxes, banking, visas, and whether investors will work with you. For many international founders, the real choice is between an LLC (simple, flexible, affordable) and a C-Corp (investor-ready, more structure). The S-Corp is generally not available to non-citizen founders. Whether you choose an LLC or a C-Corp, that choice shapes every step that follows.</p>\n\n<p>Don't default to the cheapest option without knowing how it connects to your bigger picture. If your situation involves visa concerns, future investors, or home-country tax treaties, think about meeting with a business attorney before you file anything. A one-hour meeting may cost a few hundred dollars. Fixing the wrong entity choice later can cost several thousand, plus months of delays.</p>"
     }
   ]
 }

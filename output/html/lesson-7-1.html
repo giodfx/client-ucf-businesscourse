@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IPV Recognition & Response Course">
+    <title>Business Support Organizations Available to Help You - IPV Course</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Centralized CSS (External - Cached) -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/celebrations.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/interactive-components.css">
+    <style>
+/* ═══════════════════════════════════════════════════════════════
+   LESSON NAVIGATION (Next/Previous Buttons) - Inline overrides
+   ═══════════════════════════════════════════════════════════════ */
+.lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border, #e5e7eb);
+}
+
+.lesson-nav-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: white;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--color-text, #1a1a2e);
+    transition: all 0.2s ease;
+    flex: 1;
+    max-width: 400px;
+}
+
+.lesson-nav-button:hover {
+    background: var(--color-light-gray, #f5f5f7);
+    border-color: var(--color-ocean-blue, #2a5a7a);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-nav-prev {
+    justify-content: flex-start;
+}
+
+.lesson-nav-next {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.lesson-nav-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.lesson-nav-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted, #6b7280);
+}
+
+.lesson-nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text, #1a1a2e);
+}
+
+.lesson-nav-button svg {
+    flex-shrink: 0;
+    stroke: var(--color-ocean-blue, #2a5a7a);
+}
+
+@media (max-width: 768px) {
+    .lesson-navigation {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .lesson-nav-button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .lesson-nav-next {
+        margin-left: 0;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   DESKTOP SIDEBAR TOGGLE
+   ═══════════════════════════════════════════════════════════════ */
+.desktop-menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--color-text, #1a1a2e);
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+}
+
+.desktop-menu-toggle:hover {
+    background: var(--color-light-gray, #f5f5f7);
+}
+
+.desktop-menu-toggle svg {
+    display: block;
+}
+
+/* Show desktop toggle on desktop, hide mobile toggle */
+@media (min-width: 1024px) {
+    .desktop-menu-toggle {
+        display: block;
+    }
+
+    .mobile-menu-toggle {
+        display: none;
+    }
+}
+
+/* Sidebar hidden state for desktop */
+body.sidebar-hidden .lesson-sidebar {
+    transform: translateX(-100%);
+}
+
+body.sidebar-hidden .lesson-main {
+    margin-left: 0;
+    max-width: 100%;
+}
+
+body.sidebar-hidden .lesson-layout {
+    grid-template-columns: 0 1fr;
+}
+
+/* Smooth transitions for sidebar toggle */
+@media (min-width: 1024px) {
+    .lesson-sidebar {
+        transition: transform 0.3s ease;
+    }
+
+    .lesson-main {
+        transition: margin-left 0.3s ease, max-width 0.3s ease;
+    }
+
+    .lesson-layout {
+        transition: grid-template-columns 0.3s ease;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-left">
+            <button class="back-button" onclick="window.location.href='../index.html'" aria-label="Back to course home">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Back</span>
+            </button>
+            <a href="../index.html" class="logo" aria-label="Salus Community Home">
+                <div class="logo-icon">S</div>
+                <span class="logo-text">Salus Community</span>
+            </a>
+        </div>
+        <div class="header-right">
+            <!-- Desktop Menu Toggle (shown on desktop only) -->
+            <button class="desktop-menu-toggle" aria-label="Toggle navigation sidebar" onclick="toggleDesktopSidebar()" title="Toggle sidebar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="18" rx="1"/>
+                    <rect x="14" y="3" width="7" height="18" rx="1"/>
+                </svg>
+            </button>
+
+            <!-- Mobile Menu Toggle (shown on mobile only) -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" onclick="toggleMobileMenu()">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" role="main">
+        <div class="lesson-view active">
+            <!-- Lesson Hero -->
+            <section class="lesson-hero">
+                <div class="lesson-hero-content">
+                    <nav class="lesson-hero-breadcrumb" aria-label="Breadcrumb">
+                        <a href="../index.html">Home</a>
+                        <span>›</span>
+                        <a href="../index.html#module-8">Module 8</a>
+                        <span>›</span>
+                        <span aria-current="page">Lesson 1</span>
+                    </nav>
+                    <h1 class="lesson-hero-title">Business Support Organizations Available to Help You</h1>
+                </div>
+            </section>
+
+            <!-- Lesson Layout -->
+            <div class="lesson-layout">
+                <!-- Sidebar -->
+                <aside class="lesson-sidebar" aria-label="Course navigation">
+                    
+    <nav class="lesson-nav-sidebar" aria-label="Course navigation">
+        <div class="nav-header">
+            <a href="../index.html" class="nav-back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Course Overview
+            </a>
+        </div>
+  
+        <div class="nav-module " data-module="1">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(1)" aria-expanded="false">
+                <span class="nav-module-number">1</span>
+                <span class="nav-module-title">Welcome — What It Actually Takes</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-1">
+    
+                <a href="lesson-0-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Before You Begin — What This Program Will (and Won't) Do for You</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="2">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(2)" aria-expanded="false">
+                <span class="nav-module-number">2</span>
+                <span class="nav-module-title">Getting Your Foot in the Door</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-2">
+    
+                <a href="lesson-1-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Choosing Your U.S. Business Entity</span>
+                </a>
+      
+                <a href="lesson-1-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Registering with SunBiz — Step by Step</span>
+                </a>
+      
+                <a href="lesson-1-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Opening a U.S. Bank Account — The First Hurdle</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="3">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(3)" aria-expanded="false">
+                <span class="nav-module-number">3</span>
+                <span class="nav-module-title">Watch Your Money</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-3">
+    
+                <a href="lesson-2-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Federal and State Taxes — What You Actually Owe</span>
+                </a>
+      
+                <a href="lesson-2-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Sales Tax, Accounting, and Keeping the Books</span>
+                </a>
+      
+                <a href="lesson-2-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Banking Deep Dive — The Reality for International Founders</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="4">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(4)" aria-expanded="false">
+                <span class="nav-module-number">4</span>
+                <span class="nav-module-title">Protecting What You're Building</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-4">
+    
+                <a href="lesson-3-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">U.S. Intellectual Property — Copyright, Trademark, Patent</span>
+                </a>
+      
+                <a href="lesson-3-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Contracts, Insurance, and Regulatory Exposure</span>
+                </a>
+      
+                <a href="lesson-3-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">When to Bring In a Lawyer — And What It Costs</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="5">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(5)" aria-expanded="false">
+                <span class="nav-module-number">5</span>
+                <span class="nav-module-title">Building Your Team</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-5">
+    
+                <a href="lesson-4-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Your First U.S. Hire — Contractor vs. Employee</span>
+                </a>
+      
+                <a href="lesson-4-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Visa Pathways — What's Actually Realistic</span>
+                </a>
+      
+                <a href="lesson-4-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Payroll, Taxes, and Employer Obligations</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="6">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(6)" aria-expanded="false">
+                <span class="nav-module-number">6</span>
+                <span class="nav-module-title">Understanding U.S. Customers</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-6">
+    
+                <a href="lesson-5-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Why Your Product Probably Needs to Change</span>
+                </a>
+      
+                <a href="lesson-5-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">U.S. Customer Acquisition — How Americans Buy</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="7">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(7)" aria-expanded="false">
+                <span class="nav-module-number">7</span>
+                <span class="nav-module-title">How Business Actually Works Here</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-7">
+    
+                <a href="lesson-6-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Speed, Directness, and Trust Signals</span>
+                </a>
+      
+                <a href="lesson-6-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Meeting Etiquette, Negotiation, and Follow-Through</span>
+                </a>
+      
+                <a href="lesson-6-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Cultural Missteps That Cost Real Money</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module active" data-module="8">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(8)" aria-expanded="true">
+                <span class="nav-module-number">8</span>
+                <span class="nav-module-title">You're Not Alone — Central Florida's Business Support Ecosystem</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-8">
+    
+                <a href="lesson-7-1.html"
+                   class="nav-lesson-link current">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Key Organizations — Business Support Available to Help You</span>
+                </a>
+      
+                <a href="lesson-7-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Central Florida — Your Market Opportunity</span>
+                </a>
+      
+                <a href="lesson-7-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Why Central Florida — The Data Behind the Choice</span>
+                </a>
+      
+                <a href="lesson-7-4.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">4</span>
+                    <span class="nav-lesson-title">UCF BIP Programs — Your Next Step</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="9">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(9)" aria-expanded="false">
+                <span class="nav-module-number">9</span>
+                <span class="nav-module-title">Wrap-Up — Is the U.S. Right for You?</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-9">
+    
+                <a href="lesson-8-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Self-Assessment — Your U.S. Market Readiness</span>
+                </a>
+      
+                <a href="lesson-8-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Resource Downloads & Digital Credential</span>
+                </a>
+      
+                <a href="lesson-8-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Next Steps — Your UCF BIP Pathway</span>
+                </a>
+      
+            </div>
+        </div>
+    
+    </nav>
+  
+                </aside>
+
+                <!-- Main Lesson Content -->
+                <div class="lesson-main">
+                    <div class="lesson-article">
+                        
+    <div class="video-section" style="margin-bottom: 2rem;">
+      <div style="background: #e5e7eb; border-radius: 0.75rem; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 3rem; text-align: center;">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin: 0 auto 1rem auto; opacity: 0.5;">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <h2 style="margin-bottom: 0.5rem; color: #6b7280;">Video: Business Support Organizations Available to Help You</h2>
+        <p style="color: #9ca3af; font-size: 0.875rem;">7 scenes • 5 minutes</p>
+        <p style="margin-top: 1rem; color: #9ca3af; font-size: 0.875rem; font-style: italic;">Video will be embedded after assembly</p>
+      </div>
+    </div>
+  
+
+                        <h2></h2>
+<div class="intro-callout">
+  <p><p>Imagine stepping off a trail in Central Florida and discovering a crystal-clear natural spring. The water is so transparent you can see every detail of the riverbed below. Fish, turtles, manatees, cypress roots, aquatic plants: an entire ecosystem thriving because everything in it is interconnected. Central Florida's business support network works the same way. SBDC, SBA, chambers of commerce, UCF BIP, SCORE, Prospera: each one feeds into the same living system, and they are all here to support founders like you.</p></p>
+</div>
+<p><p>A Colombian founder spent $4,500 on a business consultant to put together a market entry plan for Central Florida. Three months later, she discovered the SBDC at UCF offers the same service, for free. She had been standing at the edge of the springs without realizing the whole ecosystem was already there.</p></p>
+<p><p>What does that mean for you? The U.S. has a full network of business support groups funded by federal, state, and local government. Most welcome foreign founders, many have bilingual staff, and almost all are free or low-cost. You are not asking for charity. These resources exist specifically for founders like you.</p></p>
+<p><p>A founder from Colombia spent $4,500 on a private consultant to help navigate U.S. business setup — then discovered that the Small Business Development Center at UCF offers the same guidance for free. Central Florida has several organizations specifically designed to help international founders, and most of them cost nothing.</p></p>
+<p><p>Here are the five you should know. Each one serves a different purpose — explore the directory below to find the right fit for where you are right now.</p></p>
+
+
+
+<h2>Did You Know?</h2>
+<p><p>Florida has more than 700 natural springs, the largest concentration of freshwater springs on Earth. Many of these springs discharge millions of gallons of water every day, feeding rivers, wetlands, and entire ecosystems downstream. The business support network in Central Florida works in a similar way: federal funding flows into the SBA, which feeds the SBDC, which connects to chambers and programs like UCF BIP. One resource leads to the next, and the whole system stays healthy because the parts are connected.</p></p>
+
+
+
+<h2>Watch Your Money: What This Actually Costs</h2>
+<p><p>Notice how affordable this ecosystem is. Support organization costs as of early 2026:</p></p>
+<p><ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul></p>
+<p><p><strong>Compare that to private help:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p></p>
+
+
+
+<h2>Common Mistakes International Founders Make — Resources</h2>
+<p><p>Why does this matter? Consider these common pitfalls:</p><ul><li><strong>Not knowing about free resources (SBDC, SBA counseling).</strong> Most international founders assume quality business advice costs money. The U.S. has an entire taxpayer-funded system built to help you for free.</li><li><strong>Paying consultants for advice available through government programs.</strong> Before you hire any consultant, check if the SBDC or SBA covers that topic first. You might save $5,000 or more.</li><li><strong>Not leveraging UCF BIP and chamber connections.</strong> These organizations exist to connect you with the right people. A warm introduction from UCF BIP or a chamber contact carries more weight than a cold email.</li></ul></p>
+
+
+
+<h2>Key Takeaway</h2>
+<p><p>The takeaway is simple. Central Florida's support ecosystem is like its natural springs: deep, clear, and interconnected. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. Try this: compare the free options to paid ones, then see which groups match your stage. The founders who succeed fastest are the ones who step into the ecosystem and use every available advantage.</p></p>
+
+
+
+
+                        <div class="quiz-container">
+<div class="knowledge-check" data-question-index="0" data-question-type="multiple-choice">
+  <h3>What Would You Do?</h3>
+  <p>Which organization provides free, ongoing one-on-one business counseling to international founders in Central Florida?</p>
+  <div class="quiz-options" role="radiogroup" aria-label="What Would You Do?">
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="0"
+             data-correct="true"
+             data-feedback="&#10003; Correct! The Florida SBDC (Small Business Development Center) at UCF provides free one-on-one business counseling. This is an ongoing relationship, not a one-time meeting. Advisors help with business planning, market research, financial analysis, and strategy at no cost."
+             aria-label="Florida SBDC at UCF">
+      <span>Florida SBDC at UCF</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="1"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. The Florida SBDC (Small Business Development Center) at UCF provides free one-on-one business counseling. This is an ongoing relationship, not a one-time meeting. Advisors help with business planning, market research, financial analysis, and strategy at no cost."
+             aria-label="Orlando Regional Chamber of Commerce">
+      <span>Orlando Regional Chamber of Commerce</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="2"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. The Florida SBDC (Small Business Development Center) at UCF provides free one-on-one business counseling. This is an ongoing relationship, not a one-time meeting. Advisors help with business planning, market research, financial analysis, and strategy at no cost."
+             aria-label="Orlando Economic Partnership">
+      <span>Orlando Economic Partnership</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="3"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. The Florida SBDC (Small Business Development Center) at UCF provides free one-on-one business counseling. This is an ongoing relationship, not a one-time meeting. Advisors help with business planning, market research, financial analysis, and strategy at no cost."
+             aria-label="Hispanic Chamber of Commerce">
+      <span>Hispanic Chamber of Commerce</span>
+    </label>
+  </div>
+  <div class="question-feedback" aria-live="polite" role="status"></div>
+  <button onclick="checkAnswer(0)" aria-label="Submit answer">Submit Answer</button>
+</div>
+</div>
+
+<script>
+// Legacy activity handlers (drag-drop, sorting, etc. for non-quiz activities)
+function setupDragDrop() {
+  document.querySelectorAll('.drag-drop-activity').forEach(function(activity) {
+    var draggables = activity.querySelectorAll('.draggable-item');
+    var dropZones = activity.querySelectorAll('.drop-area');
+
+    draggables.forEach(function(draggable) {
+      draggable.addEventListener('dragstart', function() {
+        this.classList.add('dragging');
+        this.style.opacity = '0.5';
+      });
+      draggable.addEventListener('dragend', function() {
+        this.classList.remove('dragging');
+        this.style.opacity = '1';
+      });
+    });
+
+    dropZones.forEach(function(zone) {
+      zone.addEventListener('dragover', function(e) {
+        e.preventDefault();
+        zone.style.background = '#f3f4f6';
+      });
+      zone.addEventListener('dragleave', function() {
+        zone.style.background = '';
+      });
+      zone.addEventListener('drop', function(e) {
+        e.preventDefault();
+        var draggable = document.querySelector('.dragging');
+        if (draggable) {
+          zone.appendChild(draggable);
+        }
+        zone.style.background = '';
+      });
+    });
+  });
+}
+
+function checkDragDropActivity(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var dropZones = activity.querySelectorAll('.drop-zone');
+  var correct = 0;
+  var total = 0;
+
+  dropZones.forEach(function(zone) {
+    var category = zone.dataset.category;
+    var items = zone.querySelectorAll('.draggable-item');
+
+    items.forEach(function(item) {
+      total++;
+      if (item.dataset.correctCategory === category) {
+        correct++;
+        item.style.background = '#d1fae5';
+        item.style.borderColor = '#10b981';
+      } else {
+        item.style.background = '#fee2e2';
+        item.style.borderColor = '#ef4444';
+      }
+    });
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / total) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'You got ' + correct + ' out of ' + total + ' correct (' + percentage + '%).';
+}
+
+function setupSortingActivity() {
+  document.querySelectorAll('.sorting-activity').forEach(function(activity) {
+    var list = activity.querySelector('.sortable-list');
+    var items = Array.from(list.querySelectorAll('.sortable-item'));
+
+    items.forEach(function(item) {
+      item.addEventListener('dragstart', function() {
+        this.classList.add('dragging');
+        this.style.opacity = '0.5';
+      });
+      item.addEventListener('dragend', function() {
+        this.classList.remove('dragging');
+        this.style.opacity = '1';
+      });
+    });
+
+    list.addEventListener('dragover', function(e) {
+      e.preventDefault();
+      var dragging = list.querySelector('.dragging');
+      var siblings = Array.from(list.querySelectorAll('.sortable-item:not(.dragging)'));
+      var after = null;
+      for (var s = 0; s < siblings.length; s++) {
+        var box = siblings[s].getBoundingClientRect();
+        var offset = e.clientY - box.top - box.height / 2;
+        if (offset < 0) { after = siblings[s]; break; }
+      }
+      if (after) list.insertBefore(dragging, after);
+      else list.appendChild(dragging);
+    });
+  });
+}
+
+function checkSorting(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var items = activity.querySelectorAll('.sortable-item');
+  var correct = 0;
+
+  items.forEach(function(item, currentIndex) {
+    var correctPosition = parseInt(item.dataset.correctPosition) - 1;
+    if (currentIndex === correctPosition) {
+      correct++;
+      item.style.background = '#d1fae5';
+      item.style.borderColor = '#10b981';
+    } else {
+      item.style.background = '#fee2e2';
+      item.style.borderColor = '#ef4444';
+    }
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / items.length) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'You got ' + correct + ' out of ' + items.length + ' in the correct position (' + percentage + '%).';
+}
+
+function showHotSpotInfo(activityId, spotIndex) {
+  var details = document.getElementById(activityId + '-details');
+  if (details) details.innerHTML = '<h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Hot Spot ' + (spotIndex + 1) + '</h3><p style="color: #374151;">Information about this area will appear here.</p>';
+}
+
+function checkCaseStudy(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var questions = activity.querySelectorAll('.case-question');
+  var correct = 0;
+  var total = 0;
+
+  questions.forEach(function(question) {
+    var radios = question.querySelectorAll('input[type="radio"]');
+    var checkboxes = question.querySelectorAll('input[type="checkbox"]');
+    if (radios.length > 0) {
+      var selected = question.querySelector('input[type="radio"]:checked');
+      if (selected) { total++; if (selected.dataset.correct === 'true') correct++; }
+    }
+    if (checkboxes.length > 0) {
+      checkboxes.forEach(function(cb) {
+        total++;
+        if (cb.checked === (cb.dataset.correct === 'true')) correct++;
+      });
+    }
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / total) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'Score: ' + correct + '/' + total + ' (' + percentage + '%)';
+}
+
+function makeBranchingChoice(activityId, choiceIndex) {
+  alert('Branching scenario choice ' + choiceIndex + ' - full implementation pending');
+}
+
+function selectSimulationResponse(activityId, responseIndex) {
+  alert('Simulation response ' + responseIndex + ' - full implementation pending');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  setupDragDrop();
+  setupSortingActivity();
+});
+</script>
+
+
+                        <nav class="lesson-navigation" aria-label="Lesson navigation">
+      <a href="lesson-6-3.html" class="lesson-nav-button lesson-nav-prev">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        <div class="lesson-nav-text">
+          <div class="lesson-nav-label">Previous</div>
+          <div class="lesson-nav-title">Cultural Missteps That Cost Real Money</div>
+        </div>
+      </a>
+    
+      <a href="lesson-7-2.html" class="lesson-nav-button lesson-nav-next">
+        <div class="lesson-nav-text">
+          <div class="lesson-nav-label">Next</div>
+          <div class="lesson-nav-title">Central Florida — Your Market Opportunity</div>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Shared JavaScript (External - Cached) -->
+    <script src="js/navigation.js"></script>
+    <script src="js/interactive.js"></script>
+    <script src="js/video-player.js"></script>
+    <script src="js/celebrations.js"></script>
+    <script src="js/course-search.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/interactive-components.js"></script>
+</body>
+</html>

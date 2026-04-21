@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)" aria-hidden="true">
     <img src="images/lesson-6-2-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/beach.svg" alt="" width="24" height="24"></span>
+      <span data-es="LA PLAYA">BEACH</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="14" r="8" fill="currentColor" opacity="0.8"/><path d="M8 38 Q16 28 24 32 Q32 36 40 30" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.6"/><path d="M6 42 Q18 34 28 36 Q36 38 42 34" fill="none" stroke="currentColor" stroke-width="2" opacity="0.4"/><line x1="24" y1="6" x2="24" y2="2" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="30" y1="8" x2="34" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="18" y1="8" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></svg>
+            <img src="images/Icons/beach.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 6</p>
+            <p class="rt-route-module-label">Beach</p>
             <p class="rt-route-module-title">How Business Actually Works Here</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-6-3.html" class="rt-stop-link" >Cultural Missteps That Cost Real Money</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #d69e2e 0%, #b7791f 100%)">Cocoa Beach</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Reuniones, Networking y Construcción de Confianza">Meetings, Networking, and Building Trust</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="LA PLAYA">Beach</h2>
+            <p class="rt-module-intro-desc" data-es="Descubra cómo los americanos se comunican, negocian y deciden">Discover how Americans communicate, negotiate, and make decisions</p>
+          </div>
 
           
 <section class="video-placeholder" aria-label="Video placeholder">
@@ -129,11 +138,11 @@
 &lt;p&gt;&lt;h4&gt;Durante la Reunión&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Comience a tiempo.&lt;/strong&gt; Uno a dos minutos de charla casual es normal; cinco minutos se siente como desperdicio.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Manténgase en el tema.&lt;/strong&gt; Los estadounidenses valoran las &lt;strong&gt;reuniones orientadas por agenda&lt;/strong&gt;. Las desviaciones se toleran cortésmente pero se registran internamente.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Termine con puntos de acción.&lt;/strong&gt; Aclare quién hace qué y para cuándo.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h4&gt;Los 30 Minutos por Defecto&lt;/h4&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La versión corta: comience con 30 minutos. Pedir una hora indica que usted no valora su tiempo. Si la reunión es productiva, ellos la extenderán o programarán una siguiente.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The beach may look relaxed, but the currents keep moving. The same is true for U.S. business meetings: the tone feels casual, but the clock is always running. What happens when you show up three minutes late to a U.S. business meeting? You lose the deal. A Peruvian founder joined a 30-minute introductory call three minutes late. The American was wrapping up by minute 25. The founder never got a second call.</p></p>
+"><p><p>U.S. business moves fast. That is especially true for U.S. business meetings: the tone feels casual, but the clock is always running. What happens when you show up three minutes late to a U.S. business meeting? You lose the deal. A Peruvian founder joined a 30-minute introductory call three minutes late. The American was wrapping up by minute 25. The founder never got a second call.</p></p>
 <p><h4>Before the Meeting</h4><ul><li><strong>Send an agenda.</strong> A three-bullet email shows you respect their time.</li><li><strong>Confirm the day before.</strong> "Looking forward to our call tomorrow at 2 PM ET" signals professionalism.</li><li><strong>Be ready five minutes early.</strong> Test your video link or arrive early enough to be composed.</li></ul></p>
 <p><h4>During the Meeting</h4><ul><li><strong>Start on time.</strong> One to two minutes of small talk is normal; five minutes feels wasteful.</li><li><strong>Stay on topic.</strong> Americans value <strong>agenda-driven meetings</strong>. Tangents are politely tolerated but internally noted.</li><li><strong>End with action items.</strong> Clarify who does what, by when.</li></ul></p>
 <p><h4>The 30-Minute Default</h4></p>
-<p><p>The short version: start with 30 minutes. Asking for an hour signals you don't value their time. If productive, they'll extend or schedule a follow-up.</p></p>
+<p><p>Start with 30 minutes. Asking for an hour signals you don't value their time. If productive, they'll extend or schedule a follow-up.</p></p>
 </div>
 <figure class="lesson-image" role="figure">
   <img src="images/scenarios/lesson-6-2-networking-event.jpg" alt="Networking Event — Elevator Pitch Moment" loading="lazy">
@@ -145,7 +154,7 @@
     <p class="rt-callout-title" data-es="El Correo de Resumen que Usted No Está Enviando">The Recap Email You're Not Sending</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde muchos fundadores pierden impulso. Después de cada reunión, envíe un correo corto dentro de las 24 horas. Incluya: qué se discutió, qué se acordó, próximos pasos y fechas límite. Esto no es opcional. En la cultura empresarial de EE.UU., &lt;strong&gt;si no está por escrito, no sucedió&lt;/strong&gt;. El correo de resumen también lo protege. Crea un registro. Si alguien luego afirma que no acordó algo, usted tiene el correo como referencia.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Manténgalo breve: 5 a 8 líneas. Ejemplo: &quot;Fue un gusto conversar hoy. Para resumir: usted enviará la solicitud de proveedor para el miércoles, y yo le tendré nuestra hoja de precios para el viernes. Avíseme si me faltó algo.&quot;&lt;/p&gt;&lt;/p&gt;
-"><p><p>Here's where many founders lose momentum. After every meeting, send a short email within 24 hours. Include: what was discussed, what was agreed, next steps, and deadlines. This isn't optional. In U.S. business culture, <strong>if it's not in writing, it didn't happen</strong>. The recap email also protects you. It creates a paper trail. If someone later claims they didn't agree to something, you have the email to reference.</p></p>
+"><p><p>After every meeting, send a short email within 24 hours. Include: what was discussed, what was agreed, next steps, and deadlines. This isn't optional. In U.S. business culture, <strong>if it's not in writing, it didn't happen</strong>. The recap email also protects you. It creates a paper trail. If someone later claims they didn't agree to something, you have the email to reference.</p></p>
 <p><p>Keep it brief: 5-8 lines. Example: "Great speaking today. To recap: you'll send the vendor application by Wednesday, and I'll have our pricing sheet to you by Friday. Let me know if I missed anything."</p></p>
 </div>
   </div>
@@ -155,7 +164,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Cambio Cultural — El Acuerdo de Palabra Ya No Existe">Culture Shift — The Handshake Deal Is Dead</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Piense en este cambio cultural. En muchos países, los negocios funcionan con base en confianza, lazos personales y acuerdos verbales. En EE.UU., el contrato ES la relación. Cuando un socio comercial estadounidense dice &quot;pongámoslo por escrito&quot;, no está expresando desconfianza — está demostrando profesionalismo. Acéptelo. Un contrato claro protege a ambas partes y previene el tipo de malentendidos que destruyen las alianzas.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Think about this cultural shift. In many countries, business runs on trust, personal ties, and verbal deals. In the U.S., the contract IS the relationship. When an American business partner says "let's put it in writing," they are not expressing distrust — they are showing professionalism. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships.</p></p>
+"><p><p>In many countries, business runs on trust, personal ties, and verbal deals. In the U.S., the contract IS the relationship. When an American business partner says "let's put it in writing," they are not expressing distrust. They are showing professionalism. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships.</p></p>
 </div>
   </div>
 </div>
@@ -176,19 +185,19 @@
 &lt;p&gt;&lt;p&gt;Tres reglas de networking que los fundadores pasan por alto:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Haga seguimiento dentro de 48 horas.&lt;/strong&gt; Referencie algo específico: &quot;Fue un gusto hablar sobre logística de cadena de suministro&quot; es mejor que &quot;Mucho gusto en conocerlo.&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Pregunte antes de presentar su oferta.&lt;/strong&gt; Lea la corriente de la conversación — pregunte sobre su negocio primero. Si hay encaje, describa brevemente lo que hace.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Dé antes de pedir.&lt;/strong&gt; Comparta un artículo, haga una presentación, ofrezca una perspectiva. Las mejores conexiones se forman como bancos de arena: gradualmente, a través de depósitos constantes con el tiempo.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 "><p><p>A Mexican SaaS founder spent three meetings building rapport before discussing terms. After the third, his American contact asked: "So, what's the number?" He wasn't ready with pricing. The deal stalled.</p></p>
-<p><p>Like a riptide that pulls you out before you realize it, U.S. negotiation moves fast:</p></p>
-<p><ol><li><strong>Both sides state their position early.</strong> Vague responses like "we're flexible" signal you haven't done your homework.</li><li><strong>Counter-offers are limited.</strong> Expect one to two rounds. Prolonged haggling signals distrust.</li><li><strong>First offers are close to final.</strong> If someone offers $45,000, they might settle at $42,000 — but expecting $30,000 will end the conversation.</li><li><strong>Written terms matter more than handshakes.</strong> Nothing is real until it's in a signed contract or detailed email.</li></ol></p>
+<p><p>U.S. negotiation moves fast — often faster than international founders expect:</p></p>
+<p><ol><li><strong>Both sides state their position early.</strong> Vague responses like "we're flexible" signal you haven't done your homework.</li><li><strong>Counter-offers are limited.</strong> Expect one to two rounds. Prolonged haggling signals distrust.</li><li><strong>First offers are close to final.</strong> If someone offers $45,000, they might settle at $42,000, but expecting $30,000 will end the conversation.</li><li><strong>Written terms matter more than handshakes.</strong> Nothing is real until it's in a signed contract or detailed email.</li></ol></p>
 <p><h4>Networking: Quality Over Quantity</h4></p>
-<p><p>You have 60 seconds to explain who you are and what you do. Networking events are the shoreline where everyone mingles — Americans speak with you for 5-10 minutes and move on. The goal is initial connections, not closing deals.</p></p>
+<p><p>You have 60 seconds to explain who you are and what you do. Networking events are the environment where everyone networks — Americans speak with you for 5-10 minutes and move on. The goal is initial connections, not closing deals.</p></p>
 <p><p>Three networking rules founders miss:</p></p>
-<p><ul><li><strong>Follow up within 48 hours.</strong> Reference something specific: "Great talking about supply chain logistics" beats "Nice to meet you."</li><li><strong>Ask before you pitch.</strong> Read the tide of the conversation — ask about their business first. If there's a fit, briefly describe what you do.</li><li><strong>Give before you ask.</strong> Share an article, make an introduction, offer an insight. The best connections form like sandbars: gradually, through steady deposits over time.</li></ul></p>
+<p><ul><li><strong>Follow up within 48 hours.</strong> Reference something specific: "Great talking about supply chain logistics" beats "Nice to meet you."</li><li><strong>Ask before you pitch.</strong> Read the direction of the conversation — ask about their business first. If there's a fit, briefly describe what you do.</li><li><strong>Give before you ask.</strong> Share an article, make an introduction, offer an insight. The best connections form gradually, through consistent engagement over time.</li></ul></p>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="La Prueba del Cumplimiento">The Follow-Through Test</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Considere esto: los estadounidenses prueban a los nuevos socios comerciales con compromisos pequeños: &quot;Envíame eso para el viernes.&quot; &quot;¿Puede conseguirme tres referencias?&quot; &quot;Comparta su presentación de empresa antes de nuestra próxima llamada.&quot; Cada uno de estos es una prueba silenciosa. Cumpla a tiempo y avanza. No cumpla la fecha límite, y la relación se estanca sin que nadie le diga por qué. &lt;strong&gt;Cada compromiso pequeño que cumple construye confianza para los más grandes.&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;
-"><p><p>Consider this: Americans test new business partners with small commitments: "Send me that by Friday." "Can you get me three references?" "Share your company deck before our next call." Each of these is a quiet test. Deliver on time and you move forward. Miss the deadline, and the relationship stalls without anyone telling you why. <strong>Every small commitment you keep builds trust for the bigger ones.</strong></p></p>
+"><p><p>Americans test new business partners with small commitments: "Send me that by Friday." "Can you get me three references?" "Share your company deck before our next call." Each of these is a quiet test. Deliver on time and you move forward. Miss the deadline, and the relationship stalls without anyone telling you why. <strong>Every small commitment you keep builds trust for the bigger ones.</strong></p></p>
 </div>
   </div>
 </div>
@@ -275,24 +284,24 @@
     <p class="rt-kc-question" data-es="Usted tiene una primera reunión con un socio comercial potencial en EE.UU. ¿Qué duración de reunión debería solicitar?">You have a first meeting with a potential U.S. business partner. What meeting duration should you request?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="15 minutos. Mantenerlo extremadamente breve">15 minutes. keep it extremely brief</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="60 minutos. Necesita suficiente tiempo para construir rapport">60 minutes. you need enough time to build rapport</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="90 minutos. Los temas complejos requieren discusión prolongada">90 minutes. complex topics require extended discussion</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="30 minutos. La duración estándar de reuniones de negocios en EE.UU.">30 minutes. the standard U.S. business meeting length</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="30 minutos es el estándar para reuniones de negocios en EE.UU., especialmente las primeras reuniones. Solicitar más tiempo a alguien que nunca ha conocido indica que no valora su agenda. Si la conversación va bien, ellos sugerirán extenderla o programar un seguimiento.">30 minutes is the default for U.S. business meetings, especially first meetings. Requesting more time from someone you've never met signals that you don't value their schedule. If the conversation goes well, they'll suggest extending or scheduling a follow-up.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="30 minutos es el estándar para reuniones de negocios en EE.UU., especialmente las primeras reuniones. Solicitar más tiempo a alguien que nunca ha conocido indica que no valora su agenda. Si la conversación va bien, ellos sugerirán extenderla o programar un seguimiento.">30 minutes is the default for U.S. business meetings, especially first meetings. Requesting more time from someone you've never met signals that you don't value their schedule. If the conversation goes well, they'll suggest extending or scheduling a follow-up.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -300,24 +309,24 @@
     <p class="rt-kc-question" data-es="Después de una reunión productiva, ¿cuándo debería enviar un correo de resumen?">After a productive meeting, when should you send a recap email?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Dentro de las 24 horas. Este es el estándar esperado">Within 24 hours. this is the expected standard</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Dentro de la hora, mientras los detalles están frescos">Within the hour, while details are fresh</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Dentro de una semana — deles tiempo antes de hacer seguimiento">Within a week — give them time before following up</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Solo si ellos lo piden específicamente">Only if they specifically ask for one</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La expectativa estándar en los negocios de EE.UU. es un resumen de seguimiento dentro de las 24 horas. Este correo debe resumir lo que se discutió, lo que se acordó y los próximos pasos con fechas límite. Esperar más tiempo arriesga perder impulso e indica que usted no está organizado.">The standard expectation in U.S. business is a follow-up recap within 24 hours. This email should summarize what was discussed, what was agreed, and next steps with deadlines. Waiting longer risks losing momentum and signals that you're not organized.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La expectativa estándar en los negocios de EE.UU. es un resumen de seguimiento dentro de las 24 horas. Este correo debe resumir lo que se discutió, lo que se acordó y los próximos pasos con fechas límite. Esperar más tiempo arriesga perder impulso e indica que usted no está organizado.">The standard expectation in U.S. business is a follow-up recap within 24 hours. This email should summarize what was discussed, what was agreed, and next steps with deadlines. Waiting longer risks losing momentum and signals that you're not organized.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -325,31 +334,31 @@
     <p class="rt-kc-question" data-es="Un fundador de Ecuador está negociando un contrato de software anual de $60,000 con una empresa de EE.UU. El comprador estadounidense abre con una oferta de $52,000. El fundador, acostumbrado a negociaciones prolongadas en su mercado local, contraoferta con $75,000 esperando encontrarse en el medio después de varias rondas. ¿Cuál es el resultado más probable en la cultura de negociación de EE.UU.?">A founder from Ecuador is negotiating a $60,000 annual software contract with a U.S. company. The American buyer opens with an offer of $52,000. The founder, accustomed to extended negotiation in his home market, counters at $75,000 expecting to meet in the middle after several rounds. What is the most likely result in U.S. negotiation culture?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="El estadounidense respetará la contraoferta agresiva y se encontrarán en $63,500 después de múltiples rondas">The American will respect the aggressive counter and meet at $63,500 after multiple rounds</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="El estadounidense pedirá a un gerente que apruebe un presupuesto mayor ya que el fundador claramente valora el producto">The American will ask a manager to approve a higher budget since the founder clearly values the product highly</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Es probable que el estadounidense se retire porque la contraoferta está demasiado lejos de su oferta inicial, y las negociaciones en EE.UU. típicamente involucran solo una o dos rondas de contraofertas">The American will likely disengage because the counter is too far from their opening offer, and U.S. negotiations typically involve only one to two rounds of counter-offers</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="El enfoque del fundador es correcto porque comenzar alto da más espacio para negociar a la baja">The founder's approach is correct because starting high gives more room to negotiate downward</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Las normas de negociación en EE.UU. involucran primeras ofertas cercanas al objetivo real y solo una o dos rondas de contraofertas. Una apertura de $52,000 probablemente significa que podrían llegar a $55,000-$58,000, pero una contraoferta de $75,000 indica ya sea un malentendido de las normas de EE.UU. o una valoración poco realista. El regateo prolongado se percibe como señal de desconfianza o desesperación en la cultura empresarial estadounidense.">U.S. negotiation norms involve first offers close to the actual target and only one to two rounds of counter-offers. An opening of $52,000 likely means they could go to $55,000-$58,000, but a counter of $75,000 signals either a misunderstanding of U.S. norms or an unrealistic valuation. Prolonged haggling is perceived as a sign of distrust or desperation in American business culture.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Las normas de negociación en EE.UU. involucran primeras ofertas cercanas al objetivo real y solo una o dos rondas de contraofertas. Una apertura de $52,000 probablemente significa que podrían llegar a $55,000-$58,000, pero una contraoferta de $75,000 indica ya sea un malentendido de las normas de EE.UU. o una valoración poco realista. El regateo prolongado se percibe como señal de desconfianza o desesperación en la cultura empresarial estadounidense.">U.S. negotiation norms involve first offers close to the actual target and only one to two rounds of counter-offers. An opening of $52,000 likely means they could go to $55,000-$58,000, but a counter of $75,000 signals either a misunderstanding of U.S. norms or an unrealistic valuation. Prolonged haggling is perceived as a sign of distrust or desperation in American business culture.</p></div>
     
   </div>
 </div>
 <div class="rt-key-takeaway">
   <h3 data-es="Conclusión Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es clara. Sea puntual, manténgase enfocado en la agenda y haga seguimiento por escrito dentro de las 24 horas. La negociación en EE.UU. se mueve rápido — llegue preparado con números específicos y espere una o dos rondas de contraofertas. En eventos de networking, escuche primero, presente su oferta después y siempre haga seguimiento al día siguiente. Cada compromiso pequeño que cumple construye confianza para los más grandes. Aprenda a leer las corrientes debajo de la superficie, y navegará las relaciones comerciales de EE.UU. con confianza.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is clear. Be on time, stay focused on the agenda, and follow up in writing within 24 hours. U.S. negotiation moves fast — come prepared with specific numbers and expect one to two rounds of counter-offers. At networking events, listen first, pitch second, and always follow up the next day. Every small commitment you keep builds trust for the bigger ones. Learn to read the currents beneath the surface, and you will navigate U.S. business relationships with confidence.</p></p>
+"><p><p>Be on time, stay focused on the agenda, and follow up in writing within 24 hours. U.S. negotiation moves fast — come prepared with specific numbers and expect one to two rounds of counter-offers. At networking events, listen first, pitch second, and always follow up the next day. Every small commitment you keep builds trust for the bigger ones. Learn to read the signals behind the words, and you will handle U.S. business relationships with confidence.</p></p>
 </div>
 </div>
 </section>

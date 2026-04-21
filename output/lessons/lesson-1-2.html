@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)" aria-hidden="true">
     <img src="images/lesson-1-2-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/downtown.svg" alt="" width="24" height="24"></span>
+      <span data-es="EL CENTRO">DOWNTOWN</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="18" width="8" height="26" rx="1" fill="currentColor" opacity="0.8"/><rect x="20" y="8" width="8" height="36" rx="1" fill="currentColor"/><rect x="32" y="14" width="8" height="30" rx="1" fill="currentColor" opacity="0.7"/><rect x="10" y="22" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="22" y="12" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="34" y="18" width="4" height="3" rx="0.5" fill="currentColor" opacity="0.3"/></svg>
+            <img src="images/Icons/downtown.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 1</p>
+            <p class="rt-route-module-label">Downtown</p>
             <p class="rt-route-module-title">Getting Your Foot in the Door</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-1-3.html" class="rt-stop-link" >Banking Basics for International Founders</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)">Downtown Orlando</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Registrarse en SunBiz — Paso a Paso">Registering with SunBiz — Step by Step</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="EL CENTRO">Downtown</h2>
+            <p class="rt-module-intro-desc" data-es="Aprenda a estructurar, registrar y abrir su negocio en EE.UU.">Learn how to structure, register, and open your U.S. business</p>
+          </div>
 
           
 <section class="video-section" aria-label="Lesson Video">
@@ -125,14 +134,14 @@
           <div class="rt-text-flow">
             <h2 data-es="De la Entidad al Registro — Haciéndolo Oficial">From Entity to Registration — Making It Official</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Ahora que ha elegido su estructura empresarial — ya sea una LLC o una C-Corp — es hora de hacerlo oficial. Florida es donde la mayoría de los fundadores internacionales en este programa se registrarán, y el proceso es sencillo una vez que conoce los pasos. La División de Corporaciones, conocida como SunBiz, maneja todos los registros empresariales en línea. No necesita estar físicamente presente en Florida para completar este proceso.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Now that you have chosen your business structure — whether an LLC or a C-Corp — it is time to make it official. Florida is where most international founders in this program will register, and the process is straightforward once you know the steps. The Division of Corporations, known as SunBiz, handles all business filings online. You do not need to be physically present in Florida to complete this process.</p></p>
+"><p><p>Now that you have chosen your business structure — whether an LLC or a C-Corp, it is time to make it official. Florida is where many international founders in this program will register, and the process is straightforward once you know the steps. The Division of Corporations, known as SunBiz, handles all business filings online. You do not need to be physically present in Florida to complete this process.</p></p>
 </div>
 <div class="rt-callout rt-callout--callout">
   <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="¿Sabía Usted?">Did You Know?</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;La constitución de una LLC en Florida a través de SunBiz se puede completar totalmente en línea — no necesita estar físicamente en Estados Unidos para registrarse. Algunos fundadores han registrado su entidad desde otro país por la mañana y la tenían activa antes del final de la semana. Muy pocos estados de EE.UU. ofrecen esta combinación de velocidad, facilidad y acceso remoto.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Florida LLC formation through SunBiz can be completed entirely online — you do not need to be physically in the United States to file. Some founders have registered their entity from another country in the morning and had it active before the end of the week. Very few U.S. states offer this mix of speed, ease, and remote access.</p></p>
+"><p><p>Florida LLC formation through SunBiz can be completed entirely online. You do not need to be physically in the United States to file. Some founders have registered their entity from another country in the morning and had it active before the end of the week. Very few U.S. states offer this mix of speed, ease, and remote access.</p></p>
 </div>
   </div>
 </div><h2 data-es="SunBiz — La División de Corporaciones de Florida">SunBiz — Florida's Division of Corporations</h2>
@@ -142,8 +151,8 @@
 &lt;p&gt;&lt;p&gt;Este es el proceso general:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ol&gt;&lt;li&gt;Vaya a sunbiz.org y seleccione &quot;Start a Business.&quot;&lt;/li&gt;&lt;li&gt;Elija su tipo de entidad.&lt;/li&gt;&lt;li&gt;Ingrese el nombre de su negocio (la disponibilidad generalmente se verifica en tiempo real).&lt;/li&gt;&lt;li&gt;Proporcione la información de los miembros o administradores.&lt;/li&gt;&lt;li&gt;Designe su agente registrado con su dirección física en Florida.&lt;/li&gt;&lt;li&gt;Ingrese sus direcciones principal y de correspondencia.&lt;/li&gt;&lt;li&gt;Pague la tarifa de registro — típicamente alrededor de $125 para una LLC o $70 para una Corporación.&lt;/li&gt;&lt;li&gt;Envíe. Su entidad frecuentemente está activa en unos pocos días hábiles.&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Con su información lista, el proceso generalmente se puede completar en unos 20 a 30 minutos.&lt;/p&gt;&lt;/p&gt;
-"><p><p>SunBiz (sunbiz.org) is Florida's official portal for registering business entities, filing annual reports, and updating records. Think of sunbiz.org as City Hall's online counter — you walk in, file your papers, and walk out with your business on the city registry.</p></p>
-<p><p>Here's how this plays out. Before you begin, you typically need three things:</p></p>
+"><p><p>SunBiz (sunbiz.org) is Florida's official portal for registering business entities, filing annual reports, and updating records. File your information and your business is officially on record.</p></p>
+<p><p>Before you begin, you typically need three things:</p></p>
 <p><ol><li><strong>Your entity type decision.</strong> LLC or Corporation? If you have not decided yet, review the previous lesson.</li><li><strong>A business name.</strong> It must be distinguishable from other Florida businesses and include a designator ("LLC," "Inc.," or "Corp."). You can check availability on SunBiz before filing.</li><li><strong>A registered agent.</strong> A person or service with a physical Florida street address (not a P.O. box) to receive legal documents on your behalf.</li></ol></p>
 <p><p>Here is the general process:</p></p>
 <p><ol><li>Go to sunbiz.org and select "Start a Business."</li><li>Choose your entity type.</li><li>Enter your business name (availability is typically checked in real time).</li><li>Provide member or manager information.</li><li>Designate your registered agent with their Florida street address.</li><li>Enter your principal and mailing addresses.</li><li>Pay the filing fee — typically around $125 for an LLC or $70 for a Corporation.</li><li>Submit. Your entity is often active within a few business days.</li></ol></p>
@@ -154,9 +163,9 @@
 &lt;p&gt;&lt;p&gt;&lt;strong&gt;Sin un SSN o ITIN:&lt;/strong&gt; Necesitará completar el Formulario SS-4 por fax (lo cual puede tomar varios días hábiles) o por correo (lo cual puede tomar varias semanas). La alternativa más rápida: llame a la línea internacional del IRS (267-941-1099), disponible de lunes a viernes, de 6 AM a 11 PM hora del este. Se ha reportado procesamiento el mismo día, aunque los tiempos de espera pueden variar mucho — algunos fundadores reportan estar en espera por una hora o más, mientras que otros pasan en minutos. Llamar temprano en la mañana tiende a tener tiempos de espera más cortos. Verifique que este número siga activo antes de depender de él, ya que las opciones de contacto del IRS pueden cambiar.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Un consejo útil: puede solicitar un ITIN al presentar su primera declaración de impuestos, lo que le abre el proceso de EIN en línea para futuras entidades.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;El EIN pertenece al negocio, no a usted personalmente. Cada empresa necesita su propio EIN. Guarde su carta de confirmación (CP 575) — los bancos y clientes en formularios W-9 se la pedirán.&lt;/p&gt;&lt;/p&gt;
-"><p><p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Your EIN is like the address number on your storefront — without it, no one can find you in the system. You will need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p></p>
-<p><p>The short version: <strong>With an SSN or ITIN:</strong> You can typically submit your request online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p></p>
-<p><p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot — some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p></p>
+"><p><p>After SunBiz registration, your next step is an Employer Identification Number (EIN) from the IRS. Your EIN is your business identity in the federal system. You need it for bank accounts, tax filings, hiring, and business licenses. The EIN is free.</p></p>
+<p><p><strong>With an SSN or ITIN:</strong> You can typically submit your request online at irs.gov. The process takes about 15 minutes and the EIN is often issued right away.</p></p>
+<p><p><strong>Without an SSN or ITIN:</strong> You will need to complete Form SS-4 by fax (which may take several business days) or by mail (which may take several weeks). The fastest alternative: call the IRS international line (267-941-1099), available Monday through Friday, 6 AM to 11 PM Eastern. Same-day processing has been reported, though wait times can vary a lot, some founders report being on hold for an hour or more, while others get through in minutes. Calling early in the morning tends to have shorter wait times. Verify this number is still active before relying on it, as IRS contact options can change.</p></p>
 <p><p>A useful tip: you can request an ITIN when filing your first tax return, which opens up the online EIN process for future entities.</p></p>
 <p><p>The EIN belongs to the business, not to you personally. Each company needs its own EIN. Keep your confirmation letter (CP 575) — banks and clients on W-9 forms will ask for it.</p></p>
 </div>
@@ -173,7 +182,7 @@
         <div class="rt-ig-print"><div class="rt-ig-foot rt-ig-foot--l" aria-hidden="true"></div><span class="rt-ig-num">1</span></div>
         <div class="rt-ig-step-body">
           <strong data-es="Elige Tu Tipo de Entidad">Choose Your Entity Type</strong>
-          <span data-es="LLC, Corp o LP. La mayoría de fundadores internacionales eligen LLC.">LLC, Corp, or LP. Most international founders choose LLC.</span>
+          <span data-es="LLC, Corp o LP. La mayoría de fundadores internacionales eligen LLC.">LLC, Corp, or LP. Many international founders choose LLC.</span>
         </div>
       </li>
       <li class="rt-ig-step" data-ig-step="1" hidden>
@@ -241,11 +250,11 @@
 &lt;p&gt;&lt;h4&gt;Servicios de Agente Registrado&lt;/h4&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Si no está en Florida a tiempo completo, un servicio de agente registrado es frecuentemente la solución más sencilla. Estos típicamente cuestan $100-$300 por año. Varios proveedores conocidos ofrecen este servicio en línea.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;No pase por alto este paso. Si su agente registrado caduca, Florida puede disolver su entidad, lo que significa que su negocio legalmente deja de existir hasta que lo corrija.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Florida requires every business entity to maintain a registered agent with a physical street address — not a P.O. box, not a virtual mailbox. Think of the registered agent as the doorman at your building address — someone who is there to receive official notices when you are not.</p></p>
+"><p><p>Florida requires every business entity to maintain a registered agent with a physical street address, not a P.O. box, not a virtual mailbox. A registered agent is a person or service at a physical Florida address who receives official legal and government notices on your behalf.</p></p>
 <p><h4>Addresses on SunBiz</h4></p>
-<p><p>Let's put this in perspective. SunBiz asks for three addresses:</p></p>
+<p><p>SunBiz asks for three addresses:</p></p>
 <p><ul><li><strong>Principal address:</strong> A coworking space, office, or incubator</li><li><strong>Mailing address:</strong> A virtual mailbox service (often $10-$30/month) or same as your principal address</li><li><strong>Registered agent address:</strong> A professional agent service, or your principal address if someone is physically present during business hours</li></ul></p>
-<p><p>UCF BIP offers flexible office space that founders can use as their business address. Ask your UCF BIP contact about availability.</p></p>
+<p><p>UCF BIP offers flexible office space that founders can use as your business address. Ask your UCF BIP contact about availability.</p></p>
 <p><h4>Registered Agent Services</h4></p>
 <p><p>If you are not in Florida full-time, a registered agent service is often the simplest solution. These typically run $100-$300 per year. Several well-known providers offer this service online.</p></p>
 <p><p>Don't overlook this step. If your registered agent lapses, Florida can dissolve your entity, which means your business legally stops existing until you fix it.</p></p>
@@ -322,7 +331,7 @@
     <p class="rt-callout-title" data-es="Errores Comunes de Registro que Retrasan Su Trámite">Common Filing Errors That Delay Your Registration</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde los fundadores pierden tiempo. Estos son los errores que más comúnmente causan que los registros en SunBiz sean rechazados o retrasados:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Nombre ya tomado.&lt;/strong&gt; Siempre verifique la disponibilidad en SunBiz antes de enviar. Si su nombre preferido ya está tomado, considere agregar un descriptor de industria o identificador geográfico. También verifique si el nombre de dominio web correspondiente está disponible — una vez que el nombre de su entidad se registra en SunBiz, no puede cambiarlo sin formar una nueva entidad.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Sufijo de entidad incorrecto.&lt;/strong&gt; Las LLC deben incluir &quot;LLC&quot; o &quot;L.L.C.&quot; en el nombre. Las Corporaciones deben incluir &quot;Inc.,&quot; &quot;Corp.&quot; o &quot;Co.&quot; Registrar sin el sufijo correcto puede ser rechazado.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Designación de agente registrado faltante.&lt;/strong&gt; El agente registrado debe consentir servir en ese rol. Si la información no coincide con lo que el agente tiene registrado ante el estado, el trámite puede estancarse.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Formato de dirección incorrecto.&lt;/strong&gt; SunBiz requiere una dirección física para las direcciones principal y del agente registrado. No se acepta un apartado postal para estos campos. Las direcciones internacionales son generalmente aceptables para la dirección de correspondencia.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-"><p><p>Here's where founders lose time. These are the mistakes that most commonly cause SunBiz filings to be rejected or delayed:</p></p>
+"><p><p>These are the mistakes that most commonly cause SunBiz filings to be rejected or delayed:</p></p>
 <p><ul><li><strong>Name already taken.</strong> Always check availability on SunBiz before you submit. If your preferred name is taken, consider adding an industry descriptor or geographic identifier. Also check whether the matching website domain name is available — once your entity name is filed with SunBiz, you cannot change it without forming a new entity.</li><li><strong>Wrong entity suffix.</strong> LLCs must include "LLC" or "L.L.C." in the name. Corporations must include "Inc.," "Corp.," or "Co." Filing without the correct suffix may be rejected.</li><li><strong>Missing registered agent designation.</strong> The registered agent must consent to serve in that role. If the information does not match what the agent has on file with the state, the filing may stall.</li><li><strong>Incorrect address format.</strong> SunBiz requires a street address for the principal and registered agent addresses. A P.O. box is not accepted for these fields. International addresses are generally acceptable for the mailing address.</li></ul></p>
 </div>
   </div>
@@ -334,8 +343,8 @@
     <div data-es-html="&lt;p&gt;&lt;p&gt;Note cómo los costos relacionados con el registro pueden acumularse más rápido de lo esperado. Estos son rangos típicos:&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Tarifa de registro en SunBiz:&lt;/strong&gt; Típicamente alrededor de $125 para una LLC o $70 para una Corporación.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Servicio de agente registrado:&lt;/strong&gt; Típicamente $100–$300 por año si no está en Florida a tiempo completo.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Buzón virtual (dirección de correspondencia):&lt;/strong&gt; Frecuentemente $10–$30 por mes.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Acuerdo operativo (redactado por abogado):&lt;/strong&gt; Frecuentemente $300–$800 para una LLC. Hay plantillas disponibles para hacerlo usted mismo, pero pueden omitir detalles específicos para entidades de propietarios extranjeros.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Solicitud de EIN:&lt;/strong&gt; Gratis del IRS — no hay razón para pagarle a un tercero por esto.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;El gasto excesivo más común en esta etapa es pagarle a un servicio cientos a miles de dólares por algo que puede hacer usted mismo en SunBiz en unos 30 minutos. El registro en sí es simple. Donde la ayuda experta realmente agrega valor es en la redacción de un acuerdo operativo, la configuración de estatutos corporativos o la asesoría sobre el tipo de entidad. Reserve su presupuesto para esas consultas.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Notice how registration-related costs can add up faster than expected. Here are typical ranges:</p></p>
-<p><ul><li><strong>SunBiz filing fee:</strong> Typically around $125 for an LLC or $70 for a Corporation.</li><li><strong>Registered agent service:</strong> Typically $100–$300 per year if you are not in Florida full-time.</li><li><strong>Virtual mailbox (mailing address):</strong> Often $10–$30 per month.</li><li><strong>Operating agreement (attorney-drafted):</strong> Often $300–$800 for an LLC. DIY templates are available, but may miss details specific to foreign-owned entities.</li><li><strong>EIN application:</strong> Free from the IRS — no reason to pay a third party for this.</li></ul></p>
+"><p><p>Registration-related costs can add up faster than expected. Here are typical ranges:</p></p>
+<p><ul><li><strong>SunBiz filing fee:</strong> Typically around $125 for an LLC or $70 for a Corporation.</li><li><strong>Registered agent service:</strong> Typically $100–$300 per year if you are not in Florida full-time.</li><li><strong>Virtual mailbox (mailing address):</strong> Often $10–$30 per month.</li><li><strong>Operating agreement (attorney-drafted):</strong> Often $300–$800 for an LLC. DIY templates are available, but may miss details specific to foreign-owned entities.</li><li><strong>EIN application:</strong> Free from the IRS, no reason to pay a third party for this.</li></ul></p>
 <p><p>The most common overspend at this stage is paying a service hundreds to thousands of dollars for something you can do yourself on SunBiz in about 30 minutes. The filing itself is simple. Where expert help truly adds value is drafting an operating agreement, setting up corporate bylaws, or advising on entity type. Save your budget for those talks.</p></p>
 </div>
   </div>
@@ -362,24 +371,24 @@
     <p class="rt-kc-question" data-es="Está listo para registrar su LLC en SunBiz, pero actualmente vive fuera de Estados Unidos. ¿Qué es lo más importante que debe organizar antes de comenzar el registro?">You are ready to register your LLC on SunBiz, but you are currently living outside the United States. What is the most important thing to arrange before you begin the filing?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Una licencia de conducir de EE.UU.">A U.S. driver's license</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Una cuenta bancaria personal en un banco de Florida">A personal bank account at a Florida bank</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Un agente registrado con una dirección física en Florida">A registered agent with a physical Florida street address</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Un contrato de arrendamiento de oficina firmado en Orlando">A signed office lease in Orlando</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Florida requiere que todo negocio tenga un agente registrado con una dirección física. Si no está en Florida, un servicio de agente registrado se encarga de esto por usted. No se requiere una licencia de conducir para el registro en SunBiz. Una cuenta bancaria personal es un paso separado que viene después de la constitución de la entidad. Un contrato de arrendamiento de oficina no es un prerrequisito para el registro.">Florida requires every business to have a registered agent with a physical street address. If you are not in Florida, a registered agent service handles this for you. A driver's license is not required for SunBiz filing. A personal bank account is a separate step that comes after entity formation. An office lease is not a prerequisite for registration.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Florida requiere que todo negocio tenga un agente registrado con una dirección física. Si no está en Florida, un servicio de agente registrado se encarga de esto por usted. No se requiere una licencia de conducir para el registro en SunBiz. Una cuenta bancaria personal es un paso separado que viene después de la constitución de la entidad. Un contrato de arrendamiento de oficina no es un prerrequisito para el registro.">Florida requires every business to have a registered agent with a physical street address. If you are not in Florida, a registered agent service handles this for you. A driver's license is not required for SunBiz filing. A personal bank account is a separate step that comes after entity formation. An office lease is not a prerequisite for registration.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -387,24 +396,24 @@
     <p class="rt-kc-question" data-es="Acaba de registrar su LLC de Florida en SunBiz. Antes de finalizar, un mentor le dice que también verifique el nombre de dominio web. ¿Por qué es importante?">You just registered your Florida LLC on SunBiz. Before you finalize, a mentor tells you to also check the website domain name. Why does this matter?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="El nombre de dominio debe coincidir exactamente con su registro en SunBiz o la LLC es inválida">The domain name must exactly match your SunBiz filing or the LLC is invalid</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="SunBiz reserva automáticamente el dominio .com cuando usted se registra">SunBiz automatically reserves the .com domain for you when you file</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Los nombres de dominio solo son relevantes cuando empiece a hacer marketing, así que puede esperar">Domain names are only relevant once you start marketing, so it can wait</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Una vez que el nombre de su entidad se registra en SunBiz, no puede cambiarlo — si el dominio correspondiente ya está tomado, puede quedar atrapado con un nombre que no funciona en línea">Once your entity name is filed with SunBiz, you cannot change it — if the matching domain is taken, you may be stuck with a name that does not work online</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="El nombre de su entidad en SunBiz no se puede cambiar después del registro sin formar una nueva entidad. Si descubre que el dominio correspondiente no está disponible después de registrar, tendrá una presencia web que no coincide o necesitará una nueva entidad. El dominio no necesita coincidir exactamente para que la LLC sea válida, SunBiz no reserva dominios, y esperar hasta el marketing arriesga descubrir un conflicto demasiado tarde. Verificar la disponibilidad del dominio antes de registrar toma dos minutos y puede ahorrar molestias significativas.">Your SunBiz entity name cannot be changed after filing without forming a new entity. If you discover the matching domain is unavailable after filing, you will either need a mismatched web presence or a new entity. The domain does not need to match exactly for the LLC to be valid, SunBiz does not reserve domains, and waiting until marketing starts risks discovering a conflict too late. Checking domain availability before filing takes two minutes and can save significant hassle.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="El nombre de su entidad en SunBiz no se puede cambiar después del registro sin formar una nueva entidad. Si descubre que el dominio correspondiente no está disponible después de registrar, tendrá una presencia web que no coincide o necesitará una nueva entidad. El dominio no necesita coincidir exactamente para que la LLC sea válida, SunBiz no reserva dominios, y esperar hasta el marketing arriesga descubrir un conflicto demasiado tarde. Verificar la disponibilidad del dominio antes de registrar toma dos minutos y puede ahorrar molestias significativas.">Your SunBiz entity name cannot be changed after filing without forming a new entity. If you discover the matching domain is unavailable after filing, you will either need a mismatched web presence or a new entity. The domain does not need to match exactly for the LLC to be valid, SunBiz does not reserve domains, and waiting until marketing starts risks discovering a conflict too late. Checking domain availability before filing takes two minutes and can save significant hassle.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -412,24 +421,24 @@
     <p class="rt-kc-question" data-es="Necesita un EIN para su nueva LLC de Florida pero no tiene un SSN o ITIN. ¿Cuál es típicamente la forma más rápida de obtener uno?">You need an EIN for your new Florida LLC but you do not have an SSN or ITIN. What is typically the fastest way to get one?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Llamar a la línea internacional del IRS — los tiempos de espera varían, pero se ha reportado procesamiento el mismo día">Call the IRS international line — wait times vary, but same-day processing has been reported</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Solicitar en línea en irs.gov — toma unos 15 minutos">Apply online at irs.gov — it takes about 15 minutes</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Enviar el Formulario SS-4 por correo al IRS">Mail Form SS-4 to the IRS</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Pedirle a su agente registrado que solicite en su nombre">Ask your registered agent to apply on your behalf</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Sin un SSN o ITIN, la solicitud en línea no está disponible. Llamar a la línea internacional del IRS al 267-941-1099 se ha reportado como la alternativa más rápida, aunque los tiempos de espera pueden variar. El método en línea requiere un SSN o ITIN que usted no tiene. Enviar el formulario por correo puede tomar varias semanas. Los agentes registrados típicamente no presentan solicitudes de EIN en su nombre. Verifique que el número de teléfono esté vigente antes de llamar.">Without an SSN or ITIN, the online application is not available. Calling the IRS international line at 267-941-1099 has been reported as the fastest alternative, though wait times can vary. The online method requires an SSN or ITIN you do not have. Mailing the form can take several weeks. Registered agents do not typically file EIN applications on your behalf. Verify the phone number is current before calling.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Sin un SSN o ITIN, la solicitud en línea no está disponible. Llamar a la línea internacional del IRS al 267-941-1099 se ha reportado como la alternativa más rápida, aunque los tiempos de espera pueden variar. El método en línea requiere un SSN o ITIN que usted no tiene. Enviar el formulario por correo puede tomar varias semanas. Los agentes registrados típicamente no presentan solicitudes de EIN en su nombre. Verifique que el número de teléfono esté vigente antes de llamar.">Without an SSN or ITIN, the online application is not available. Calling the IRS international line at 267-941-1099 has been reported as the fastest alternative, though wait times can vary. The online method requires an SSN or ITIN you do not have. Mailing the form can take several weeks. Registered agents do not typically file EIN applications on your behalf. Verify the phone number is current before calling.</p></div>
     
   </div>
 </div>
@@ -437,7 +446,7 @@
   <h3 data-es="Conclusión Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es esta: su visita a la alcaldía es una de las paradas más sencillas en la ciudad. El registro en Florida a través de SunBiz es uno de los pasos más directos en su proceso de constitución en EE.UU. La verdadera preparación ocurre antes de registrar: elegir el tipo de entidad correcto, asegurar un agente registrado y entender los requisitos de dirección.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La combinación de Florida de no tener impuesto estatal sobre la renta personal, registro en línea simple, conexiones globales y costos más bajos es gran parte de la razón por la que los fundadores la siguen eligiendo como su punto de entrada. Aplique este conocimiento antes de hacer clic en &quot;enviar&quot;: tenga listo su plan de EIN, agente registrado y estrategia de dirección. Compare las ventajas de Florida con otros estados, luego evalúe si el momento es adecuado para su registro.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is this: your trip to City Hall is one of the simplest stops in the city. Florida registration through SunBiz is one of the most straightforward steps in your U.S. setup process. The real preparation happens before you file: choosing the right entity type, securing a registered agent, and understanding the address requirements.</p></p>
+"><p><p>Filing with SunBiz is one of the simplest steps in your U.S. setup process. The real preparation happens before you file: choosing the right entity type, securing a registered agent, and understanding the address requirements.</p></p>
 <p><p>Florida's mix of no state personal income tax, simple online filing, global ties, and lower costs is a big part of why founders keep choosing it as their entry point. Apply this knowledge before you click "submit": have your EIN plan, registered agent, and address strategy ready. Compare Florida's advantages to other states, then evaluate whether the timing is right for your filing.</p></p>
 </div>
 </div>

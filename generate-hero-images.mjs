@@ -3,7 +3,7 @@
  * Generate hero images for all 25 lessons via ComfyUI API on laptop (Tailscale).
  * Reads prompts from qwen-optimized-prompts.json, sends to Qwen 2512 GGUF workflow.
  *
- * Usage: node generate-hero-images.mjs [--start N] [--only lesson-X-Y]
+ * Usage: node generate-hero-images.mjs [--start N] [--only lesson-X-Y] [--force]
  */
 
 import fs from 'fs';
@@ -11,7 +11,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const COMFYUI_URL = 'http://100.111.43.126:8188';
+const COMFYUI_URL = 'http://127.0.0.1:8188';
 const OUTPUT_DIR = path.join(__dirname, 'media', 'images', 'scenes');
 const PROMPTS_FILE = path.join(__dirname, 'qwen-optimized-prompts.json');
 
@@ -70,7 +70,7 @@ const WORKFLOW_TEMPLATE = {
     "_meta": { "title": "KSampler" }
   },
   "86:58": {
-    "inputs": { "width": 1824, "height": 1024, "batch_size": 1 },
+    "inputs": { "width": 1824, "height": 512, "batch_size": 1 },
     "class_type": "EmptySD3LatentImage",
     "_meta": { "title": "EmptySD3LatentImage" }
   },
@@ -157,12 +157,12 @@ async function downloadImage(filename, subfolder, outputPath) {
   return buffer.length;
 }
 
-async function generateImage(promptEntry, index) {
+async function generateImage(promptEntry, index, total, force = false) {
   const { lessonId, qwenPrompt, lessonTitle } = promptEntry;
   const outputPath = path.join(OUTPUT_DIR, `${lessonId}-hero.png`);
 
-  // Skip if already generated
-  if (fs.existsSync(outputPath)) {
+  // Skip if already generated (unless --force)
+  if (!force && fs.existsSync(outputPath)) {
     const stats = fs.statSync(outputPath);
     if (stats.size > 100000) { // >100KB means valid image
       console.log(`  SKIP ${lessonId} — already exists (${(stats.size / 1024 / 1024).toFixed(1)}MB)`);
@@ -170,7 +170,7 @@ async function generateImage(promptEntry, index) {
     }
   }
 
-  console.log(`\n[${ index + 1}/25] Generating: ${lessonId}`);
+  console.log(`\n[${ index + 1}/${total}] Generating: ${lessonId}`);
   console.log(`  Title: ${lessonTitle}`);
   console.log(`  Prompt: ${qwenPrompt.substring(0, 80)}...`);
 
@@ -214,10 +214,12 @@ async function main() {
   const args = process.argv.slice(2);
   let startFrom = 0;
   let onlyLesson = null;
+  let forceRegenerate = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--start' && args[i + 1]) startFrom = parseInt(args[i + 1]) - 1;
     if (args[i] === '--only' && args[i + 1]) onlyLesson = args[i + 1];
+    if (args[i] === '--force') forceRegenerate = true;
   }
 
   // Load prompts
@@ -248,7 +250,7 @@ async function main() {
     console.log(`GPU: ${gpu?.name || 'unknown'}`);
     console.log(`VRAM: ${((gpu?.vram_total || 0) / 1024 / 1024 / 1024).toFixed(1)}GB total, ${((gpu?.vram_free || 0) / 1024 / 1024 / 1024).toFixed(1)}GB free`);
     console.log(`Model: Qwen 2512 GGUF (Q4_K_M)`);
-    console.log(`Resolution: 1824x1024`);
+    console.log(`Resolution: 1824x512 (panoramic banner)`);
     console.log(`Prompts: ${prompts.length} to generate`);
     console.log(`Output: ${OUTPUT_DIR}`);
     console.log('='.repeat(70));
@@ -260,7 +262,7 @@ async function main() {
   // Generate sequentially (one at a time — 8GB VRAM constraint)
   const results = [];
   for (let i = 0; i < prompts.length; i++) {
-    const result = await generateImage(prompts[i], startFrom + i);
+    const result = await generateImage(prompts[i], startFrom + i, prompts.length, forceRegenerate);
     results.push(result);
   }
 

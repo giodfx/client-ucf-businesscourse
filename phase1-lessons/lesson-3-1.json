@@ -13,7 +13,7 @@
     {
       "type": "text",
       "id": "text-3-1-1",
-      "title": "Welcome to the Space Center, Protecting What You Have Built",
+      "title": "Protecting What You Have Built",
       "content": "<p>A founder from Chile built a successful delivery app across South America. When she expanded to Florida, she discovered that her Chilean trademark registration meant nothing in the United States. Intellectual property rights are territorial — protection in one country does not automatically extend to another. If you plan to operate in the U.S., you need U.S. protection.</p>\n\n<p>There are three main types of IP protection, each covering different aspects of your business. The comparison below explains what each one protects, what it costs, and when you need it.</p>",
       "wordCount": 244
     },
@@ -86,7 +86,7 @@
             },
             {
               "label": "Cost to Register",
-              "value": "$45–$65 (USPTO/Copyright Office)"
+              "value": "$45–$65 (U.S. Copyright Office)"
             },
             {
               "label": "Timeline",
@@ -235,21 +235,21 @@
       "id": "callout-3-1-2",
       "variant": "theme-reduce-risk",
       "title": "Reduce Risk — Register Your Trademark Before You Launch",
-      "content": "<p>Why does this matter? If someone else files your brand name in the U.S. first, you may lose it — even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is far less than the cost of rebranding.</p>"
+      "content": "<p>If someone else files your brand name in the U.S. first, you may lose it — even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is far less than the cost of rebranding.</p>"
     },
     {
       "type": "callout",
       "id": "callout-3-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Common Mistakes International Founders Make",
-      "content": "<ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. Trademarks, patents, and enforceable copyright all require separate U.S. filings. If you wait, someone else can register your brand name in the U.S. first — and they will have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</li><li><strong>Running without general liability insurance.</strong> This isn't an IP issue, but it's a Module 3 pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150-$300 and can prevent costly disputes later.</li></ul>"
+      "content": "<ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. Trademarks, patents, and enforceable copyright all require separate U.S. filings. If you wait, someone else can register your brand name in the U.S. first, and they will have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</li><li><strong>Running without general liability insurance.</strong> This is not an IP issue, but it is a common pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150-$300 and can prevent costly disputes later.</li></ul>"
     },
     {
       "type": "callout",
       "id": "callout-3-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>In other words, plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>Trademark filing (USPTO):</strong> $250–$350 per class, plus $300–$500 if using an attorney</li><li><strong>Patent application:</strong> $5,000–$15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45–$65 per work</li><li><strong>NDA or contract drafting:</strong> $200–$500 per document</li><li><strong>General liability insurance:</strong> $400–$800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500–$2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0–$300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200–$500 per document</li></ul>"
+      "content": "<p>Plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>Trademark filing (USPTO):</strong> $250–$350 per class, plus $300–$500 if using an attorney</li><li><strong>Patent application:</strong> $5,000–$15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45–$65 per work</li><li><strong>NDA or contract drafting:</strong> $200–$500 per document</li><li><strong>General liability insurance:</strong> $400–$800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500–$2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0–$300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200–$500 per document</li></ul>"
     },
     {
       "type": "in-lesson-image",
@@ -283,7 +283,7 @@
             "Trade secret: to protect proprietary processes"
           ],
           "correctAnswer": 2,
-          "explanation": "Most international founders need trademark protection first because it protects the brand name and logo they'll use in the U.S. market. Copyright exists automatically (though registration helps enforcement), and patents are only needed for genuine inventions. Trademark is the highest-priority IP filing for most new market entrants."
+          "explanation": "Many international founders need trademark protection first because it protects the brand name and logo they'll use in the U.S. market. Copyright exists automatically (though registration helps enforcement), and patents are only needed for genuine inventions. Trademark is the highest-priority IP filing for most new market entrants."
         },
         {
           "stem": "A founder from Ghana has developed a unique mobile payment algorithm and wants to protect both the technology and the brand name before entering the U.S. market. She has $10,000 budgeted for IP filings. Based on typical costs and timelines, which approach best uses her budget?",

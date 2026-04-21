@@ -1,0 +1,715 @@
+/**
+ * Celebration & Milestone UX Styles
+ *
+ * Provides visual feedback for quiz completion, lesson milestones, and course completion.
+ * Uses pure CSS confetti, score animations, and accessible modal overlays.
+ *
+ * CSS custom properties used for template compatibility:
+ *   --color-accent, --color-success, --color-warning
+ */
+
+/* ========================================================================
+   CUSTOM PROPERTY DEFAULTS
+   ======================================================================== */
+
+:root {
+    --celebration-accent: var(--color-accent, #6366f1);
+    --celebration-success: var(--color-success, #22c55e);
+    --celebration-warning: var(--color-warning, #f59e0b);
+    --celebration-gold: #fbbf24;
+    --celebration-bg: rgba(255, 255, 255, 0.97);
+    --celebration-text: #1f2937;
+    --celebration-text-muted: #6b7280;
+    --celebration-radius: 1rem;
+    --celebration-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================================================================
+   KEYFRAME ANIMATIONS
+   ======================================================================== */
+
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(-100%) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    25% {
+        transform: translateY(25vh) translateX(15px) rotate(90deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(50vh) translateX(-10px) rotate(180deg);
+        opacity: 0.9;
+    }
+    75% {
+        transform: translateY(75vh) translateX(20px) rotate(270deg);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(100vh) translateX(-5px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes confetti-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes score-countup {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes modal-entrance {
+    0% {
+        transform: scale(0.8) translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes star-burst {
+    0% { transform: scale(0); opacity: 0; }
+    40% { transform: scale(1.3); opacity: 1; }
+    60% { transform: scale(0.9); opacity: 1; }
+    80% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes overlay-fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+/* ========================================================================
+   CELEBRATION OVERLAY (BACKDROP)
+   ======================================================================== */
+
+.celebration-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    animation: overlay-fadein 0.3s ease-out;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* ========================================================================
+   CELEBRATION MODAL
+   ======================================================================== */
+
+.celebration-modal {
+    background: var(--celebration-bg);
+    border-radius: var(--celebration-radius);
+    box-shadow: var(--celebration-shadow);
+    padding: 2.5rem 2rem 2rem;
+    max-width: 440px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    animation: modal-entrance 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    outline: none;
+}
+
+.celebration-modal:focus {
+    outline: 3px solid var(--celebration-accent);
+    outline-offset: 2px;
+}
+
+/* ========================================================================
+   CONFETTI CONTAINER & PARTICLES
+   ======================================================================== */
+
+.celebration-confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10001;
+    overflow: hidden;
+}
+
+.confetti-particle {
+    position: absolute;
+    top: -10px;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    animation: confetti-fall 3s ease-in forwards;
+}
+
+/* Confetti particle shape variants */
+.confetti-particle--square {
+    border-radius: 2px;
+}
+
+.confetti-particle--circle {
+    border-radius: 50%;
+}
+
+.confetti-particle--strip {
+    width: 4px;
+    height: 14px;
+    border-radius: 2px;
+}
+
+/* ---- 12+ confetti particle variants via nth-child ---- */
+
+.confetti-particle:nth-child(1) {
+    left: 5%;
+    background: #ef4444;
+    width: 8px; height: 8px;
+    animation-delay: 0s;
+    animation-duration: 2.8s;
+}
+
+.confetti-particle:nth-child(2) {
+    left: 15%;
+    background: #f59e0b;
+    width: 12px; height: 12px;
+    animation-delay: 0.15s;
+    animation-duration: 3.2s;
+    border-radius: 50%;
+}
+
+.confetti-particle:nth-child(3) {
+    left: 25%;
+    background: #22c55e;
+    width: 6px; height: 14px;
+    animation-delay: 0.3s;
+    animation-duration: 2.6s;
+    border-radius: 2px;
+}
+
+.confetti-particle:nth-child(4) {
+    left: 35%;
+    background: #3b82f6;
+    width: 10px; height: 10px;
+    animation-delay: 0.1s;
+    animation-duration: 3s;
+}
+
+.confetti-particle:nth-child(5) {
+    left: 45%;
+    background: #a855f7;
+    width: 9px; height: 9px;
+    animation-delay: 0.4s;
+    animation-duration: 2.9s;
+    border-radius: 50%;
+}
+
+.confetti-particle:nth-child(6) {
+    left: 55%;
+    background: #ec4899;
+    width: 7px; height: 13px;
+    animation-delay: 0.05s;
+    animation-duration: 3.1s;
+    border-radius: 2px;
+}
+
+.confetti-particle:nth-child(7) {
+    left: 65%;
+    background: #14b8a6;
+    width: 11px; height: 11px;
+    animation-delay: 0.25s;
+    animation-duration: 2.7s;
+}
+
+.confetti-particle:nth-child(8) {
+    left: 75%;
+    background: #f97316;
+    width: 8px; height: 8px;
+    animation-delay: 0.35s;
+    animation-duration: 3.3s;
+    border-radius: 50%;
+}
+
+.confetti-particle:nth-child(9) {
+    left: 85%;
+    background: #6366f1;
+    width: 5px; height: 12px;
+    animation-delay: 0.2s;
+    animation-duration: 2.5s;
+    border-radius: 2px;
+}
+
+.confetti-particle:nth-child(10) {
+    left: 10%;
+    background: #eab308;
+    width: 10px; height: 10px;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+}
+
+.confetti-particle:nth-child(11) {
+    left: 30%;
+    background: #06b6d4;
+    width: 8px; height: 8px;
+    animation-delay: 0.12s;
+    animation-duration: 2.8s;
+    border-radius: 50%;
+}
+
+.confetti-particle:nth-child(12) {
+    left: 50%;
+    background: #e11d48;
+    width: 6px; height: 15px;
+    animation-delay: 0.45s;
+    animation-duration: 3.2s;
+    border-radius: 2px;
+}
+
+.confetti-particle:nth-child(13) {
+    left: 70%;
+    background: #84cc16;
+    width: 11px; height: 11px;
+    animation-delay: 0.08s;
+    animation-duration: 2.6s;
+}
+
+.confetti-particle:nth-child(14) {
+    left: 90%;
+    background: #d946ef;
+    width: 9px; height: 9px;
+    animation-delay: 0.55s;
+    animation-duration: 3.1s;
+    border-radius: 50%;
+}
+
+/* Particles 15+ cycle through positions for dense confetti */
+.confetti-particle:nth-child(n+15):nth-child(odd) {
+    animation-delay: 0.3s;
+}
+
+.confetti-particle:nth-child(n+15):nth-child(even) {
+    animation-delay: 0.6s;
+}
+
+.confetti-particle:nth-child(15) { left: 8%; background: #f43f5e; width: 7px; height: 7px; }
+.confetti-particle:nth-child(16) { left: 18%; background: #fbbf24; width: 10px; height: 10px; border-radius: 50%; }
+.confetti-particle:nth-child(17) { left: 28%; background: #34d399; width: 5px; height: 12px; border-radius: 2px; }
+.confetti-particle:nth-child(18) { left: 38%; background: #60a5fa; width: 9px; height: 9px; }
+.confetti-particle:nth-child(19) { left: 48%; background: #c084fc; width: 8px; height: 8px; border-radius: 50%; }
+.confetti-particle:nth-child(20) { left: 58%; background: #fb923c; width: 6px; height: 14px; border-radius: 2px; }
+.confetti-particle:nth-child(21) { left: 68%; background: #2dd4bf; width: 11px; height: 11px; }
+.confetti-particle:nth-child(22) { left: 78%; background: #818cf8; width: 7px; height: 7px; border-radius: 50%; }
+.confetti-particle:nth-child(23) { left: 88%; background: #fb7185; width: 10px; height: 10px; }
+.confetti-particle:nth-child(24) { left: 3%; background: #a3e635; width: 8px; height: 8px; border-radius: 50%; }
+.confetti-particle:nth-child(25) { left: 22%; background: #e879f9; width: 6px; height: 13px; border-radius: 2px; }
+.confetti-particle:nth-child(26) { left: 42%; background: #38bdf8; width: 9px; height: 9px; }
+.confetti-particle:nth-child(27) { left: 62%; background: #f87171; width: 10px; height: 10px; border-radius: 50%; }
+.confetti-particle:nth-child(28) { left: 82%; background: #facc15; width: 7px; height: 7px; }
+.confetti-particle:nth-child(29) { left: 12%; background: #4ade80; width: 5px; height: 11px; border-radius: 2px; }
+.confetti-particle:nth-child(30) { left: 52%; background: #c084fc; width: 8px; height: 8px; border-radius: 50%; }
+
+/* Additional particles beyond 30 get randomized positioning via inline styles from JS */
+
+/* ========================================================================
+   CELEBRATION ICON
+   ======================================================================== */
+
+.celebration-icon {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    animation: star-burst 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    display: inline-block;
+    line-height: 1;
+}
+
+/* ========================================================================
+   SCORE DISPLAY WITH COUNT-UP
+   ======================================================================== */
+
+.celebration-score {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0.75rem 0;
+    animation: score-countup 0.6s ease-out 0.2s both;
+    color: var(--celebration-text);
+}
+
+.celebration-score-label {
+    font-size: 1rem;
+    color: var(--celebration-text-muted);
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.celebration-score-detail {
+    font-size: 0.9rem;
+    color: var(--celebration-text-muted);
+    margin-top: 0.25rem;
+}
+
+/* ========================================================================
+   MESSAGE TEXT
+   ======================================================================== */
+
+.celebration-message {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--celebration-text);
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.celebration-submessage {
+    font-size: 1rem;
+    color: var(--celebration-text-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+/* ========================================================================
+   BUTTON CONTAINER
+   ======================================================================== */
+
+.celebration-actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.celebration-actions button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    line-height: 1.4;
+}
+
+.celebration-actions button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.celebration-actions button:focus-visible {
+    outline: 3px solid var(--celebration-accent);
+    outline-offset: 2px;
+}
+
+.celebration-actions button:active {
+    transform: translateY(0);
+}
+
+.celebration-btn-primary {
+    background: var(--celebration-accent);
+    color: #fff;
+}
+
+.celebration-btn-secondary {
+    background: #f3f4f6;
+    color: var(--celebration-text);
+}
+
+.celebration-btn-secondary:hover {
+    background: #e5e7eb;
+}
+
+/* ========================================================================
+   TYPE: QUIZ PASSED (Green/Gold Theme)
+   ======================================================================== */
+
+.celebration-type-quiz-passed .celebration-modal {
+    border-top: 4px solid var(--celebration-success);
+}
+
+.celebration-type-quiz-passed .celebration-score {
+    color: var(--celebration-success);
+}
+
+.celebration-type-quiz-passed .celebration-icon {
+    color: var(--celebration-gold);
+}
+
+.celebration-type-quiz-passed .celebration-btn-primary {
+    background: var(--celebration-success);
+}
+
+/* ========================================================================
+   TYPE: QUIZ FAILED (Encouraging Blue/Grey Theme)
+   ======================================================================== */
+
+.celebration-type-quiz-failed .celebration-modal {
+    border-top: 4px solid #94a3b8;
+}
+
+.celebration-type-quiz-failed .celebration-score {
+    color: #475569;
+}
+
+.celebration-type-quiz-failed .celebration-icon {
+    color: #60a5fa;
+}
+
+.celebration-type-quiz-failed .celebration-btn-primary {
+    background: #3b82f6;
+}
+
+/* ========================================================================
+   TYPE: LESSON COMPLETE (Milestone)
+   ======================================================================== */
+
+.celebration-type-lesson-complete .celebration-modal {
+    border-top: 4px solid var(--celebration-accent);
+}
+
+.celebration-type-lesson-complete .celebration-icon {
+    color: var(--celebration-gold);
+    font-size: 3.5rem;
+}
+
+.celebration-type-lesson-complete .celebration-message {
+    background: linear-gradient(135deg, var(--celebration-accent), var(--celebration-success));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ========================================================================
+   TYPE: MILESTONE
+   ======================================================================== */
+
+.celebration-type-milestone .celebration-modal {
+    border-top: 4px solid var(--celebration-gold);
+}
+
+.celebration-type-milestone .celebration-icon {
+    color: var(--celebration-gold);
+}
+
+.celebration-type-milestone .celebration-score {
+    color: var(--celebration-accent);
+}
+
+/* ========================================================================
+   TYPE: COURSE COMPLETE (Big Celebration)
+   ======================================================================== */
+
+.celebration-type-course-complete .celebration-modal {
+    border-top: 4px solid var(--celebration-gold);
+    padding: 3rem 2rem 2.5rem;
+}
+
+.celebration-type-course-complete .celebration-icon {
+    font-size: 4rem;
+    color: var(--celebration-gold);
+}
+
+.celebration-type-course-complete .celebration-message {
+    font-size: 1.75rem;
+    background: linear-gradient(135deg, var(--celebration-gold), var(--celebration-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.celebration-type-course-complete .celebration-submessage {
+    font-size: 1.05rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: #fefce8;
+    color: #92400e;
+    font-style: italic;
+}
+
+/* ========================================================================
+   PROGRESS BAR (for milestones)
+   ======================================================================== */
+
+.celebration-progress {
+    width: 100%;
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: 4px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+
+.celebration-progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--celebration-accent), var(--celebration-success));
+    transition: width 1s ease-out;
+}
+
+/* ========================================================================
+   REDUCED MOTION
+   ======================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .celebration-overlay {
+        animation: none;
+    }
+
+    .celebration-modal {
+        animation: none;
+    }
+
+    .celebration-confetti {
+        display: none;
+    }
+
+    .confetti-particle {
+        animation: none;
+        display: none;
+    }
+
+    .celebration-score {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+
+    .celebration-icon {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+
+    .celebration-progress-fill {
+        transition: none;
+    }
+}
+
+/* ========================================================================
+   MOBILE RESPONSIVE
+   ======================================================================== */
+
+@media (max-width: 480px) {
+    .celebration-overlay {
+        padding: 0;
+        align-items: flex-end;
+    }
+
+    .celebration-modal {
+        max-width: 100%;
+        border-radius: var(--celebration-radius) var(--celebration-radius) 0 0;
+        padding: 2rem 1.25rem 1.5rem;
+        margin: 0;
+    }
+
+    .celebration-score {
+        font-size: 2.75rem;
+    }
+
+    .celebration-message {
+        font-size: 1.25rem;
+    }
+
+    .celebration-actions {
+        flex-direction: column;
+    }
+
+    .celebration-actions button {
+        width: 100%;
+    }
+
+    .celebration-type-course-complete .celebration-modal {
+        padding: 2.5rem 1.25rem 2rem;
+    }
+
+    .celebration-type-course-complete .celebration-message {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .celebration-modal {
+        max-width: 400px;
+    }
+}
+
+/* ========================================================================
+   HIGH CONTRAST SUPPORT
+   ======================================================================== */
+
+@media (forced-colors: active) {
+    .celebration-modal {
+        border: 2px solid ButtonText;
+    }
+
+    .celebration-actions button {
+        border: 2px solid ButtonText;
+    }
+
+    .celebration-btn-primary {
+        background: ButtonFace;
+        color: ButtonText;
+        forced-color-adjust: none;
+    }
+
+    .celebration-score {
+        color: LinkText;
+    }
+
+    .confetti-particle {
+        display: none;
+    }
+}
+
+/* ========================================================================
+   FOCUS MANAGEMENT
+   ======================================================================== */
+
+.celebration-modal *:focus-visible {
+    outline: 2px solid var(--celebration-accent);
+    outline-offset: 2px;
+}
+
+/* Hidden close button for screen readers */
+.celebration-close-sr {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--celebration-text-muted);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    line-height: 1;
+}
+
+.celebration-close-sr:hover {
+    color: var(--celebration-text);
+    background: #f3f4f6;
+}

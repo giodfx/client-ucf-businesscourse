@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #c05621 0%, #9c4221 100%)" aria-hidden="true">
     <img src="images/lesson-4-3-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/theme_park.svg" alt="" width="24" height="24"></span>
+      <span data-es="LOS PARQUES TEMÁTICOS">THEME PARK DISTRICT</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity="0.7"/><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4"/><circle cx="24" cy="10" r="3" fill="currentColor" opacity="0.8"/><circle cx="24" cy="38" r="3" fill="currentColor" opacity="0.8"/><circle cx="10" cy="24" r="3" fill="currentColor" opacity="0.8"/><circle cx="38" cy="24" r="3" fill="currentColor" opacity="0.8"/></svg>
+            <img src="images/Icons/theme_park.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 4</p>
+            <p class="rt-route-module-label">Theme Park District</p>
             <p class="rt-route-module-title">Building Your Team</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-4-3.html" class="rt-stop-link rt-stop-link--current" aria-current="page">Payroll, Taxes, and Employer Obligations</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #c05621 0%, #9c4221 100%)">Theme Park District</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Nómina, Impuestos y Obligaciones del Empleador">Payroll, Taxes, and Employer Obligations</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="LOS PARQUES TEMÁTICOS">Theme Park District</h2>
+            <p class="rt-module-intro-desc" data-es="Forme su equipo en EE.UU. sin cometer errores legales costosos">Build your U.S. team without costly legal and compliance mistakes</p>
+          </div>
 
           
 <section class="video-placeholder" aria-label="Video placeholder">
@@ -123,21 +132,20 @@
           
 
           <div class="rt-text-flow">
-            <h2 data-es="Operando el Parque: Nómina, Impuestos y el Costo Real de Cada Miembro del Equipo">Running the Park: Payroll, Taxes, and the Real Cost of Every Team Member</h2>
+            <h2 data-es="Operando el Parque: Nómina, Impuestos y el Costo Real de Cada Miembro del Equipo">Payroll, Taxes, and the Real Cost of Every Team Member</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Ahora que tiene su pase tras bambalinas resuelto, es hora de ver lo que realmente cuesta mantener al equipo funcionando.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Cada atracción en el distrito de entretenimiento tiene un presupuesto operativo que va mucho más allá de los salarios. Hay inspecciones de seguridad, primas de seguros, equipos de mantenimiento y cumplimiento regulatorio. Contratar en EE.UU. funciona de la misma manera: el salario es solo el precio de la entrada. El costo real incluye una serie de impuestos, seguros y obligaciones que se acumulan rápidamente.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;¿Cuánto cuesta realmente un empleado de $55,000? Si adivinó $55,000, ya le faltan $11,000. Una fundadora mexicana contrató a su primera empleada en Orlando a $55,000, y luego descubrió que el costo real era cercano a $66,000 una vez que los impuestos del empleador, la compensación laboral y un estipendio de seguro de salud añadieron aproximadamente un 20%.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;¿Qué significa esto en el día a día? El precio de la entrada es solo la admisión — tras bambalinas, cada atracción tiene mantenimiento, inspecciones de seguridad y seguros. Con cada empleado funciona igual. En muchos países, los costos del empleador son una tarifa única. En EE.UU., usted tiene múltiples obligaciones: &lt;strong&gt;FICA del empleador&lt;/strong&gt; (Seguridad Social + Medicare) al 7.65%. &lt;strong&gt;FUTA&lt;/strong&gt; a aproximadamente $420/empleado/año. &lt;strong&gt;SUTA de Florida&lt;/strong&gt; de $18 a $378/año. &lt;strong&gt;Compensación laboral&lt;/strong&gt;, requerida en Florida para 4+ empleados, de $500 a $2,000/año para trabajo de oficina.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Now that you have your backstage pass sorted, it is time to look at what it actually costs to keep the team running.</p></p>
-<p><p>Every attraction in the entertainment district has an operating budget that goes well beyond wages. There are safety inspections, insurance premiums, maintenance crews, and regulatory compliance. Hiring in the U.S. works the same way: salary is just the ticket price. The real cost includes a stack of taxes, insurance, and obligations that add up fast.</p></p>
+"><p><p>Now that you understand visa requirements, it is time to look at what it actually costs to keep a team running. Salary is just the starting number. The real cost includes taxes, insurance, and obligations that add up fast.</p></p>
 <p><p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p></p>
-<p><p>What does this actually mean day to day? The ticket price is just the admission — behind the scenes, every ride has maintenance, safety inspections, and insurance. Every employee works the same way. In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p></p>
+<p><p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p></p>
 </div>
 <div class="rt-ctbl-wrap" data-table-id="table-4-3-1">
   <h3 class="rt-ctbl-title" data-es="Desglose de Costos del Empleador — Lo Que Se Suma al Salario">Employer Cost Breakdown — What Sits on Top of Salary</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th data-es="Obligación">Obligation</th><th data-es="Tasa o Costo">Rate or Cost</th><th data-es="Ejemplo sobre Salario de $60,000">Example on $60,000 Salary</th></tr></thead>
+      <thead><tr><th scope="col" data-es="Obligación">Obligation</th><th scope="col" data-es="Tasa o Costo">Rate or Cost</th><th scope="col" data-es="Ejemplo sobre Salario de $60,000">Example on $60,000 Salary</th></tr></thead>
       <tbody>
       <tr><td class="rt-ctbl-label" data-es="FICA del Empleador (Seguridad Social + Medicare)">Employer FICA (Social Security + Medicare)</td><td data-es="7.65% del salario">7.65% of wages</td><td data-es="$4,590/año">$4,590/year</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Desempleo Federal (FUTA)">Federal Unemployment (FUTA)</td><td data-es="6% sobre los primeros $7,000 (efectivamente ~$420 después del crédito estatal)">6% on first $7,000 (effectively ~$420 after state credit)</td><td data-es="~$420/año">~$420/year</td></tr>
@@ -152,6 +160,7 @@
 </div>
 <figure class="lesson-image" role="figure">
   <img src="images/scenarios/lesson-4-3-payroll-planning.jpg" alt="Business owner planning payroll and employee compensation at a desk" loading="lazy">
+  
 </figure>
 <div class="rt-sim" id="sim-employee-cost">
   <span class="rt-sim-badge" data-es="Herramienta Interactiva">Interactive Tool</span>
@@ -193,7 +202,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="¿Sabía Que?">Did You Know?</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Florida es el tercer estado más grande de EE.UU. por empleo, y Central Florida es uno de sus mercados laborales de más rápido crecimiento. El área metropolitana de Orlando sumó más de 45,000 empleos en un solo año reciente, muchos en servicios profesionales, tecnología y salud. Para los fundadores, este crecimiento significa un mercado de talento competitivo donde entender los costos reales del empleador y ofrecer beneficios competitivos no es opcional. Es la forma de atraer a las personas que hacen funcionar su negocio.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Florida is the third-largest state in the U.S. by employment, and Central Florida is one of its fastest-growing job markets. The Orlando metro area added over 45,000 jobs in a single recent year, many in professional services, tech, and healthcare. For founders, this growth means a competitive talent market where understanding true employer costs and offering competitive benefits is not optional. It is how you attract the people who make your business work.</p></p>
+"><p><p>Florida is the third-largest state in the U.S. by employment, and Central Florida is one of its fastest-growing job markets. Central Florida added over 45,000 jobs in a single recent year, many in professional services, tech, and healthcare. For founders, this growth means a competitive talent market where understanding true employer costs and offering competitive benefits is not optional. It is how you attract the people who make your business work.</p></p>
 </div>
   </div>
 </div><h2 data-es="Use un Servicio de Nómina — En Serio">Use a Payroll Service — Seriously</h2>
@@ -202,9 +211,9 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Gusto:&lt;/strong&gt; $40/mes + $6/empleado.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;ADP Run:&lt;/strong&gt; $59+/mes + por empleado.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;QuickBooks Payroll:&lt;/strong&gt; $45/mes + $6/empleado.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Una fundadora rumana que procesaba la nómina manualmente en Bucarest asumió que el mismo enfoque funcionaría en Florida: después de dos trimestres haciendo malabares con FICA, FUTA, SUTA y compensación laboral, se cambió a Gusto y lo llamó &quot;los mejores $50 al mes que gasto.&quot;&lt;/p&gt;&lt;/p&gt;
 "><p><p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p></p>
-<p><p>Here is the practical takeaway. Even the biggest theme parks do not run their own payroll in-house — they contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p></p>
+<p><p>Even large companies do not run payroll manually. They contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p></p>
 <p><ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul></p>
-<p><p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida : after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it "the best $50 a month I spend."</p></p>
+<p><p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida: after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it "the best $50 a month I spend."</p></p>
 </div>
 <div class="rt-checklist" data-checklist-id="int-4-3-1">
   <h3 class="rt-checklist-title" data-es="Lista de Verificación para la Primera Configuración de Nómina">First Payroll Setup Checklist</h3>
@@ -255,7 +264,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Antes de Gastar: Las Multas por Impuestos de Nómina Son Serias">Before You Spend Money: Payroll Tax Penalties Are Serious</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde se pone serio. El IRS trata los impuestos de nómina no pagados como una &lt;strong&gt;sanción de recuperación de fondos fiduciarios&lt;/strong&gt;. Esta es una de las pocas obligaciones fiscales que no se pueden descargar en una bancarrota. Si usted retiene impuestos del cheque de su empleado pero no envía ese dinero al IRS, puede ser responsable personalmente incluso si su empresa es una LLC o corporación. La multa es el 100% del monto no pagado, más intereses. Un servicio de nómina elimina este riesgo por menos que el costo de una sola notificación de sanción.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Here's where it gets serious. The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p></p>
+"><p><p>The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p></p>
 </div>
   </div>
 </div><h2 data-es="Lo Que los Empleados Estadounidenses Esperan Más Allá del Cheque">What U.S. Employees Expect Beyond the Paycheck</h2>
@@ -263,8 +272,8 @@
 &lt;p&gt;&lt;p&gt;¿Qué significa esto para usted? El &lt;strong&gt;tiempo libre pagado (PTO)&lt;/strong&gt; no es obligatorio a nivel federal, pero la mayoría de los empleadores ofrecen 10–15 días/año. Florida no exige &lt;strong&gt;licencia por enfermedad&lt;/strong&gt; pagada, pero 3–5 días es lo estándar.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;El &lt;strong&gt;seguro de salud&lt;/strong&gt; no es obligatorio para empresas con menos de 50 empleados, pero los candidatos suelen preguntar por él en las entrevistas. Considere un estipendio ($200–$500/mes) si aún no puede ofrecer cobertura grupal.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Los &lt;strong&gt;beneficios de jubilación&lt;/strong&gt; (401k) no se esperan en las etapas más tempranas. Otros beneficios valorados incluyen arreglos de trabajo flexibles y presupuestos de desarrollo profesional.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Legal rules are the floor. Theme parks keep their best performers by offering perks — food discounts, flexible schedules, free passes. U.S. employers compete for talent the same way: benefits are how you keep people from walking to the park next door. If you do not offer them, qualified candidates choose a competitor who does.</p></p>
-<p><p>What does that mean for you? <strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p></p>
+"><p><p>Legal rules are the floor. U.S. employers compete for talent through benefits: PTO, flexible schedules, health coverage. Benefits are how you keep people from leaving for a competitor. If you do not offer them, qualified candidates choose a competitor who does.</p></p>
+<p><p><strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p></p>
 <p><p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p></p>
 <p><p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p></p>
 </div>
@@ -276,90 +285,9 @@
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Prospera:&lt;/strong&gt; Ofrece talleres sobre los fundamentos de la ley laboral estadounidense para emprendedores hispanos, incluyendo clasificación de trabajadores, configuración de nómina y requisitos de cumplimiento.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hispanic Chamber of Commerce of Metro Orlando:&lt;/strong&gt; Lo conecta con consultores de recursos humanos bilingües y proveedores de nómina que entienden las necesidades de los propietarios de negocios internacionales.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Red del UCF BIP:&lt;/strong&gt; Referencias a abogados laborales con experiencia con fundadores internacionales, y acceso a la fuente de talento de UCF para reclutar graduados bilingües.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;La gran fuerza laboral bilingüe de Central Florida significa que a menudo puede encontrar empleados que sirvan de puente entre las operaciones de su mercado de origen y su equipo en EE.UU., una ventaja significativa al coordinar entre países.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Latin American founders in Central Florida have specific hiring advantages and resources:</p></p>
-<p><ul><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera</a>:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando</a>:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network</a>:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul></p>
+<p><ul><li><strong><a href="https://prosperausa.org/" target="_blank" rel="noopener">Prospera<span class="sr-only"> (opens in a new tab)</span></a>:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong><a href="https://hispanicchamber.com/" target="_blank" rel="noopener">Hispanic Chamber of Commerce of Metro Orlando<span class="sr-only"> (opens in a new tab)</span></a>:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong><a href="https://incubator.ucf.edu/" target="_blank" rel="noopener">UCF BIP network<span class="sr-only"> (opens in a new tab)</span></a>:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul></p>
 <p><p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p></p>
 </div>
-  </div>
-</div>
-<div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
-  <div class="rt-kc-header">
-    <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
-    <span class="rt-kc-progress" data-es-html="Pregunta &lt;span class='rt-kc-current'&gt;1&lt;/span&gt; de 3">Question <span class="rt-kc-current">1</span> of 3</span>
-  </div>
-
-  <div class="rt-kc-step" data-step="0">
-    <p class="rt-kc-question" data-es="Un empleado gana un salario base de $50,000 por año. Usando el multiplicador de costo del empleador de 1.15 a 1.30, ¿cuál es el costo total anual aproximado para el empleador?">An employee earns a base salary of $50,000 per year. Using the employer cost multiplier of 1.15 to 1.30, what is the approximate total annual cost to the employer?</p>
-    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="$50,000 — el salario es el único costo">$50,000 — salary is the only cost</span>
-      </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="$52,500 — agregue 5% por impuestos">$52,500 — add 5% for taxes</span>
-      </button>
-      <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
-        <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="$57,500 a $65,000 — salario más impuestos del empleador, seguros y beneficios potenciales">$57,500 to $65,000 — salary plus employer taxes, insurance, and potential benefits</span>
-      </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="$75,000 a $100,000 — el empleo en EE.UU. es extremadamente costoso">$75,000 to $100,000 — U.S. employment is extremely expensive</span>
-      </button>
-    </div>
-    <div class="rt-kc-explanation" hidden><p data-es="El multiplicador de costo del empleador de 1.15 a 1.30 incluye los impuestos FICA del empleador (7.65%), impuestos de desempleo federal y estatal, seguro de compensación laboral y beneficios opcionales. Sobre un salario de $50,000, esto significa $57,500 a $65,000 en costo total anual. La cifra exacta depende de su industria, estado y paquete de beneficios.">The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500 to $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package.</p></div>
-    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
-  </div>
-
-  <div class="rt-kc-step" data-step="1" hidden>
-    <p class="rt-kc-question" data-es="Una fundadora ha estado calculando la nómina manualmente para sus tres empleados usando hojas de cálculo. Presentó sus formularios trimestrales 941 con dos semanas de retraso. ¿Cuál es la consecuencia más probable?">A founder has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?</p>
-    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="Nada — el IRS proporciona un período de gracia para pequeñas empresas en su primer año">Nothing — the IRS provides a grace period for small businesses in their first year</span>
-      </button>
-      <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
-        <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="Notificaciones de multas del IRS por presentación tardía, más posibles intereses sobre impuestos de retención no pagados">IRS penalty notices for late filing, plus potential interest on unpaid withholding taxes</span>
-      </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="Una carta de advertencia sin sanción financiera para infractores primerizos">A warning letter with no financial penalty for first-time offenders</span>
-      </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="Revocación automática del EIN de la empresa y la licencia comercial">Automatic revocation of the company's EIN and business license</span>
-      </button>
-    </div>
-    <div class="rt-kc-explanation" hidden><p data-es="El IRS impone multas e intereses por presentaciones tardías de impuestos de nómina. No existe un período de gracia ni una exención para infractores primerizos en el caso de impuestos de nómina. Los impuestos de nómina no pagados se tratan como sanciones de recuperación de fondos fiduciarios, lo que significa que la fundadora puede ser responsable personalmente. Un servicio de nómina como Gusto o QuickBooks Payroll ($40-$100/mes) automatiza las presentaciones y previene estos errores costosos.">The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40-$100/month) automates filings and prevents these costly mistakes.</p></div>
-    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
-  </div>
-
-  <div class="rt-kc-step" data-step="2" hidden>
-    <p class="rt-kc-question" data-es="Una fundadora de Filipinas contrata a su quinta empleada en su oficina de Orlando. Ya tiene un servicio de nómina, retiene impuestos federales y estatales, y paga el FICA del empleador. Su contador le pregunta si tiene compensación laboral y seguro de desempleo. ¿Qué afirmación es correcta sobre sus obligaciones?">A founder from the Philippines hires her fifth employee at her Orlando office. She already has a payroll service, withholds federal and state taxes, and pays employer FICA. Her accountant asks whether she has workers' compensation and unemployment insurance in place. Which statement is correct about her obligations?</p>
-    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
-      
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="La compensación laboral es opcional en Florida independientemente del número de empleados, por lo que solo necesita seguro de desempleo">Workers' compensation is optional in Florida regardless of employee count, so she only needs unemployment insurance</span>
-      </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="Necesita seguro de desempleo pero puede esperar con la compensación laboral hasta tener 10 o más empleados">She needs unemployment insurance but can wait on workers' compensation until she has 10 or more employees</span>
-      </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
-        <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="Ni la compensación laboral ni el seguro de desempleo son requeridos en Florida para empresas con menos de 50 empleados">Neither workers' compensation nor unemployment insurance is required in Florida for businesses with fewer than 50 employees</span>
-      </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
-        <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="Debe tener ambos — la compensación laboral es obligatoria en Florida con 4 o más empleados, y el registro del impuesto de reempleo (desempleo) de Florida es requerido cuando tiene empleados">She is required to carry both — workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees</span>
-      </button>
-    </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Florida requiere seguro de compensación laboral para empresas con cuatro o más empleados (uno o más en construcción). El registro del impuesto de reempleo de Florida (seguro de desempleo) es requerido tan pronto como tenga empleados. Con cinco empleados, esta fundadora debe tener ambos. La opción A es incorrecta porque la compensación laboral no es opcional con su cantidad de empleados. La opción B da el umbral equivocado. La opción C afirma incorrectamente que ambos son opcionales para pequeñas empresas.">Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this founder must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses.</p></div>
-    
   </div>
 </div>
 <section class="rt-endcheck-section">
@@ -370,10 +298,91 @@
     </svg>
     <h2 class="rt-endcheck-title" data-es="Pon a Prueba tu Comprensión">Check Your Understanding</h2>
   </div>
+<div class="rt-knowledge-check rt-kc-stepper" id="kc-stepper-1" data-total="3">
+  <div class="rt-kc-header">
+    <h3 class="rt-kc-title" data-es="¿Qué Haría Usted?">What Would You Do?</h3>
+    <span class="rt-kc-progress" data-es-html="Pregunta &lt;span class='rt-kc-current'&gt;1&lt;/span&gt; de 3">Question <span class="rt-kc-current">1</span> of 3</span>
+  </div>
+
+  <div class="rt-kc-step" data-step="0">
+    <p class="rt-kc-question" data-es="Un empleado gana un salario base de $50,000 por año. Usando el multiplicador de costo del empleador de 1.15 a 1.30, ¿cuál es el costo total anual aproximado para el empleador?">An employee earns a base salary of $50,000 per year. Using the employer cost multiplier of 1.15 to 1.30, what is the approximate total annual cost to the employer?</p>
+    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
+      
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">A</span>
+        <span class="rt-kc-text" data-es="$50,000 — el salario es el único costo">$50,000 — salary is the only cost</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">B</span>
+        <span class="rt-kc-text" data-es="$52,500 — agregue 5% por impuestos">$52,500 — add 5% for taxes</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="true" onclick="checkKC(this)">
+        <span class="rt-kc-letter">C</span>
+        <span class="rt-kc-text" data-es="$57,500 a $65,000 — salario más impuestos del empleador, seguros y beneficios potenciales">$57,500 to $65,000 — salary plus employer taxes, insurance, and potential benefits</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">D</span>
+        <span class="rt-kc-text" data-es="$75,000 a $100,000 — el empleo en EE.UU. es extremadamente costoso">$75,000 to $100,000 — U.S. employment is extremely expensive</span>
+      </button>
+    </div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="El multiplicador de costo del empleador de 1.15 a 1.30 incluye los impuestos FICA del empleador (7.65%), impuestos de desempleo federal y estatal, seguro de compensación laboral y beneficios opcionales. Sobre un salario de $50,000, esto significa $57,500 a $65,000 en costo total anual. La cifra exacta depende de su industria, estado y paquete de beneficios.">The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500 to $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package.</p></div>
+    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
+  </div>
+
+  <div class="rt-kc-step" data-step="1" hidden>
+    <p class="rt-kc-question" data-es="Una fundadora ha estado calculando la nómina manualmente para sus tres empleados usando hojas de cálculo. Presentó sus formularios trimestrales 941 con dos semanas de retraso. ¿Cuál es la consecuencia más probable?">A founder has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?</p>
+    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
+      
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">A</span>
+        <span class="rt-kc-text" data-es="Nada — el IRS proporciona un período de gracia para pequeñas empresas en su primer año">Nothing — the IRS provides a grace period for small businesses in their first year</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
+        <span class="rt-kc-letter">B</span>
+        <span class="rt-kc-text" data-es="Notificaciones de multas del IRS por presentación tardía, más posibles intereses sobre impuestos de retención no pagados">IRS penalty notices for late filing, plus potential interest on unpaid withholding taxes</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">C</span>
+        <span class="rt-kc-text" data-es="Una carta de advertencia sin sanción financiera para infractores primerizos">A warning letter with no financial penalty for first-time offenders</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">D</span>
+        <span class="rt-kc-text" data-es="Revocación automática del EIN de la empresa y la licencia comercial">Automatic revocation of the company's EIN and business license</span>
+      </button>
+    </div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="El IRS impone multas e intereses por presentaciones tardías de impuestos de nómina. No existe un período de gracia ni una exención para infractores primerizos en el caso de impuestos de nómina. Los impuestos de nómina no pagados se tratan como sanciones de recuperación de fondos fiduciarios, lo que significa que la fundadora puede ser responsable personalmente. Un servicio de nómina como Gusto o QuickBooks Payroll ($40-$100/mes) automatiza las presentaciones y previene estos errores costosos.">The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40-$100/month) automates filings and prevents these costly mistakes.</p></div>
+    <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
+  </div>
+
+  <div class="rt-kc-step" data-step="2" hidden>
+    <p class="rt-kc-question" data-es="Una fundadora de Filipinas contrata a su quinta empleada en su oficina de Orlando. Ya tiene un servicio de nómina, retiene impuestos federales y estatales, y paga el FICA del empleador. Su contador le pregunta si tiene compensación laboral y seguro de desempleo. ¿Qué afirmación es correcta sobre sus obligaciones?">A founder from the Philippines hires her fifth employee at her Orlando office. She already has a payroll service, withholds federal and state taxes, and pays employer FICA. Her accountant asks whether she has workers' compensation and unemployment insurance in place. Which statement is correct about her obligations?</p>
+    <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
+      
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">A</span>
+        <span class="rt-kc-text" data-es="La compensación laboral es opcional en Florida independientemente del número de empleados, por lo que solo necesita seguro de desempleo">Workers' compensation is optional in Florida regardless of employee count, so she only needs unemployment insurance</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">B</span>
+        <span class="rt-kc-text" data-es="Necesita seguro de desempleo pero puede esperar con la compensación laboral hasta tener 10 o más empleados">She needs unemployment insurance but can wait on workers' compensation until she has 10 or more employees</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
+        <span class="rt-kc-letter">C</span>
+        <span class="rt-kc-text" data-es="Ni la compensación laboral ni el seguro de desempleo son requeridos en Florida para empresas con menos de 50 empleados">Neither workers' compensation nor unemployment insurance is required in Florida for businesses with fewer than 50 employees</span>
+      </button>
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="true" onclick="checkKC(this)">
+        <span class="rt-kc-letter">D</span>
+        <span class="rt-kc-text" data-es="Debe tener ambos — la compensación laboral es obligatoria en Florida con 4 o más empleados, y el registro del impuesto de reempleo (desempleo) de Florida es requerido cuando tiene empleados">She is required to carry both — workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees</span>
+      </button>
+    </div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Florida requiere seguro de compensación laboral para empresas con cuatro o más empleados (uno o más en construcción). El registro del impuesto de reempleo de Florida (seguro de desempleo) es requerido tan pronto como tenga empleados. Con cinco empleados, esta fundadora debe tener ambos. La opción A es incorrecta porque la compensación laboral no es opcional con su cantidad de empleados. La opción B da el umbral equivocado. La opción C afirma incorrectamente que ambos son opcionales para pequeñas empresas.">Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this founder must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses.</p></div>
+    
+  </div>
+</div>
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es clara. Un empleado cuesta entre 15 y 30% más que su salario base — al igual que cada atracción cuesta más de operar de lo que sugiere el precio visible. Use un servicio de nómina desde el primer día. Presupueste los impuestos del empleador, seguros y beneficios antes de hacer cualquier oferta. Las cuentas son simples una vez que conoce las piezas, y un servicio de nómina maneja los detalles para que usted pueda concentrarse en construir su negocio.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is clear. An employee costs 15 to 30% more than their base salary — just like every attraction costs more to operate than the sticker price suggests. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is simple once you know the pieces, and a payroll service handles the details so you can focus on building your business.</p></p>
+"><p><p>An employee costs 15 to 30% more than their base salary. Use a payroll service from day one. Budget for employer taxes, insurance, and benefits before making any offer. The math is simple once you know the pieces, and a payroll service handles the details so you can focus on building your business.</p></p>
 </div>
 </div>
 </section>

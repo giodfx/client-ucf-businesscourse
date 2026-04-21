@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IPV Recognition & Response Course">
+    <title>Cultural Missteps That Cost Real Money - IPV Course</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Centralized CSS (External - Cached) -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/celebrations.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/interactive-components.css">
+    <style>
+/* ═══════════════════════════════════════════════════════════════
+   LESSON NAVIGATION (Next/Previous Buttons) - Inline overrides
+   ═══════════════════════════════════════════════════════════════ */
+.lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border, #e5e7eb);
+}
+
+.lesson-nav-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: white;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--color-text, #1a1a2e);
+    transition: all 0.2s ease;
+    flex: 1;
+    max-width: 400px;
+}
+
+.lesson-nav-button:hover {
+    background: var(--color-light-gray, #f5f5f7);
+    border-color: var(--color-ocean-blue, #2a5a7a);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-nav-prev {
+    justify-content: flex-start;
+}
+
+.lesson-nav-next {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.lesson-nav-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.lesson-nav-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted, #6b7280);
+}
+
+.lesson-nav-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text, #1a1a2e);
+}
+
+.lesson-nav-button svg {
+    flex-shrink: 0;
+    stroke: var(--color-ocean-blue, #2a5a7a);
+}
+
+@media (max-width: 768px) {
+    .lesson-navigation {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .lesson-nav-button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .lesson-nav-next {
+        margin-left: 0;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   DESKTOP SIDEBAR TOGGLE
+   ═══════════════════════════════════════════════════════════════ */
+.desktop-menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--color-text, #1a1a2e);
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+}
+
+.desktop-menu-toggle:hover {
+    background: var(--color-light-gray, #f5f5f7);
+}
+
+.desktop-menu-toggle svg {
+    display: block;
+}
+
+/* Show desktop toggle on desktop, hide mobile toggle */
+@media (min-width: 1024px) {
+    .desktop-menu-toggle {
+        display: block;
+    }
+
+    .mobile-menu-toggle {
+        display: none;
+    }
+}
+
+/* Sidebar hidden state for desktop */
+body.sidebar-hidden .lesson-sidebar {
+    transform: translateX(-100%);
+}
+
+body.sidebar-hidden .lesson-main {
+    margin-left: 0;
+    max-width: 100%;
+}
+
+body.sidebar-hidden .lesson-layout {
+    grid-template-columns: 0 1fr;
+}
+
+/* Smooth transitions for sidebar toggle */
+@media (min-width: 1024px) {
+    .lesson-sidebar {
+        transition: transform 0.3s ease;
+    }
+
+    .lesson-main {
+        transition: margin-left 0.3s ease, max-width 0.3s ease;
+    }
+
+    .lesson-layout {
+        transition: grid-template-columns 0.3s ease;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-left">
+            <button class="back-button" onclick="window.location.href='../index.html'" aria-label="Back to course home">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Back</span>
+            </button>
+            <a href="../index.html" class="logo" aria-label="Salus Community Home">
+                <div class="logo-icon">S</div>
+                <span class="logo-text">Salus Community</span>
+            </a>
+        </div>
+        <div class="header-right">
+            <!-- Desktop Menu Toggle (shown on desktop only) -->
+            <button class="desktop-menu-toggle" aria-label="Toggle navigation sidebar" onclick="toggleDesktopSidebar()" title="Toggle sidebar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="18" rx="1"/>
+                    <rect x="14" y="3" width="7" height="18" rx="1"/>
+                </svg>
+            </button>
+
+            <!-- Mobile Menu Toggle (shown on mobile only) -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" onclick="toggleMobileMenu()">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" role="main">
+        <div class="lesson-view active">
+            <!-- Lesson Hero -->
+            <section class="lesson-hero">
+                <div class="lesson-hero-content">
+                    <nav class="lesson-hero-breadcrumb" aria-label="Breadcrumb">
+                        <a href="../index.html">Home</a>
+                        <span>›</span>
+                        <a href="../index.html#module-7">Module 7</a>
+                        <span>›</span>
+                        <span aria-current="page">Lesson 3</span>
+                    </nav>
+                    <h1 class="lesson-hero-title">Cultural Missteps That Cost Real Money</h1>
+                </div>
+            </section>
+
+            <!-- Lesson Layout -->
+            <div class="lesson-layout">
+                <!-- Sidebar -->
+                <aside class="lesson-sidebar" aria-label="Course navigation">
+                    
+    <nav class="lesson-nav-sidebar" aria-label="Course navigation">
+        <div class="nav-header">
+            <a href="../index.html" class="nav-back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Course Overview
+            </a>
+        </div>
+  
+        <div class="nav-module " data-module="1">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(1)" aria-expanded="false">
+                <span class="nav-module-number">1</span>
+                <span class="nav-module-title">Welcome — What It Actually Takes</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-1">
+    
+                <a href="lesson-0-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Before You Begin — What This Program Will (and Won't) Do for You</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="2">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(2)" aria-expanded="false">
+                <span class="nav-module-number">2</span>
+                <span class="nav-module-title">Getting Your Foot in the Door</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-2">
+    
+                <a href="lesson-1-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Choosing Your U.S. Business Entity</span>
+                </a>
+      
+                <a href="lesson-1-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Registering with SunBiz — Step by Step</span>
+                </a>
+      
+                <a href="lesson-1-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Opening a U.S. Bank Account — The First Hurdle</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="3">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(3)" aria-expanded="false">
+                <span class="nav-module-number">3</span>
+                <span class="nav-module-title">Watch Your Money</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-3">
+    
+                <a href="lesson-2-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Federal and State Taxes — What You Actually Owe</span>
+                </a>
+      
+                <a href="lesson-2-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Sales Tax, Accounting, and Keeping the Books</span>
+                </a>
+      
+                <a href="lesson-2-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Banking Deep Dive — The Reality for International Founders</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="4">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(4)" aria-expanded="false">
+                <span class="nav-module-number">4</span>
+                <span class="nav-module-title">Protecting What You're Building</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-4">
+    
+                <a href="lesson-3-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">U.S. Intellectual Property — Copyright, Trademark, Patent</span>
+                </a>
+      
+                <a href="lesson-3-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Contracts, Insurance, and Regulatory Exposure</span>
+                </a>
+      
+                <a href="lesson-3-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">When to Bring In a Lawyer — And What It Costs</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="5">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(5)" aria-expanded="false">
+                <span class="nav-module-number">5</span>
+                <span class="nav-module-title">Building Your Team</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-5">
+    
+                <a href="lesson-4-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Your First U.S. Hire — Contractor vs. Employee</span>
+                </a>
+      
+                <a href="lesson-4-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Visa Pathways — What's Actually Realistic</span>
+                </a>
+      
+                <a href="lesson-4-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Payroll, Taxes, and Employer Obligations</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="6">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(6)" aria-expanded="false">
+                <span class="nav-module-number">6</span>
+                <span class="nav-module-title">Understanding U.S. Customers</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-6">
+    
+                <a href="lesson-5-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Why Your Product Probably Needs to Change</span>
+                </a>
+      
+                <a href="lesson-5-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">U.S. Customer Acquisition — How Americans Buy</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module active" data-module="7">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(7)" aria-expanded="true">
+                <span class="nav-module-number">7</span>
+                <span class="nav-module-title">How Business Actually Works Here</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-7">
+    
+                <a href="lesson-6-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Speed, Directness, and Trust Signals</span>
+                </a>
+      
+                <a href="lesson-6-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Meeting Etiquette, Negotiation, and Follow-Through</span>
+                </a>
+      
+                <a href="lesson-6-3.html"
+                   class="nav-lesson-link current">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Cultural Missteps That Cost Real Money</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="8">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(8)" aria-expanded="false">
+                <span class="nav-module-number">8</span>
+                <span class="nav-module-title">You're Not Alone — Central Florida's Business Support Ecosystem</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-8">
+    
+                <a href="lesson-7-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Key Organizations — Business Support Available to Help You</span>
+                </a>
+      
+                <a href="lesson-7-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Central Florida — Your Market Opportunity</span>
+                </a>
+      
+                <a href="lesson-7-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Why Central Florida — The Data Behind the Choice</span>
+                </a>
+      
+                <a href="lesson-7-4.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">4</span>
+                    <span class="nav-lesson-title">UCF BIP Programs — Your Next Step</span>
+                </a>
+      
+            </div>
+        </div>
+    
+        <div class="nav-module " data-module="9">
+            <button class="nav-module-trigger" onclick="toggleSidebarModule(9)" aria-expanded="false">
+                <span class="nav-module-number">9</span>
+                <span class="nav-module-title">Wrap-Up — Is the U.S. Right for You?</span>
+                <svg class="nav-expand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"/>
+                </svg>
+            </button>
+            <div class="nav-lessons" id="nav-module-9">
+    
+                <a href="lesson-8-1.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">1</span>
+                    <span class="nav-lesson-title">Self-Assessment — Your U.S. Market Readiness</span>
+                </a>
+      
+                <a href="lesson-8-2.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">2</span>
+                    <span class="nav-lesson-title">Resource Downloads & Digital Credential</span>
+                </a>
+      
+                <a href="lesson-8-3.html"
+                   class="nav-lesson-link ">
+                    <span class="nav-lesson-number">3</span>
+                    <span class="nav-lesson-title">Next Steps — Your UCF BIP Pathway</span>
+                </a>
+      
+            </div>
+        </div>
+    
+    </nav>
+  
+                </aside>
+
+                <!-- Main Lesson Content -->
+                <div class="lesson-main">
+                    <div class="lesson-article">
+                        
+    <div class="video-section" style="margin-bottom: 2rem;">
+      <div style="background: #e5e7eb; border-radius: 0.75rem; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 3rem; text-align: center;">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin: 0 auto 1rem auto; opacity: 0.5;">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <h2 style="margin-bottom: 0.5rem; color: #6b7280;">Video: Cultural Missteps That Cost Real Money</h2>
+        <p style="color: #9ca3af; font-size: 0.875rem;">6 scenes • 4 minutes</p>
+        <p style="margin-top: 1rem; color: #9ca3af; font-size: 0.875rem; font-style: italic;">Video will be embedded after assembly</p>
+      </div>
+    </div>
+  
+
+                        <h2></h2>
+<div class="intro-callout">
+  <p><p>By now you know the beach has strong currents beneath its calm surface. This lesson is about the founders who got pulled under. Small cultural gaps lead to big money losses. An Argentine founder heard "I love your product. We should partner on this" at a Miami trade show. He spent $15,000 on legal fees for a partnership agreement. The American's response: "Oh, I was just saying we should explore it."</p></p>
+</div>
+<p><h4>Misstep #1: Reading Enthusiasm as Commitment</h4></p>
+<p><p>The surface looks inviting — a warm smile, enthusiastic words, "I love this." But do not dive in until you see written confirmation. "This is fantastic" means "I'm interested enough to keep listening" — not "I'm committing resources." The undercurrent here pulls founders into spending money on verbal promises.</p></p>
+<p><p><strong>What to do instead:</strong> Ask: "What would the next step look like on your end?" If the answer is vague, the deal is exploratory. Don't spend money until you see written commitment : a signed LOI, buy order, or detailed email with agreed terms.</p></p>
+<p><h4>Misstep #2: Gift-Giving in Business Settings</h4></p>
+<p><p>This is a sandbar you do not see coming. A South Korean founder brought high-end electronics to a meeting with a county procurement officer. The officer refused the gift and removed the company from the bidding process.</p></p>
+<p><p><strong>What to do instead:</strong> Skip gifts at first meetings. After deals close, keep gifts under $50 for corporate contacts. Check government gift policies before giving anything to public-sector partners.</p></p>
+
+
+
+<h2>Watch Your Money: What Cultural Missteps Actually Cost</h2>
+<p><p>Now, consider these real dollar figures from international founders who learned the hard way (as of early 2026):</p></p>
+<p><ul><li><strong>$15,000</strong> . Legal fees for a partnership agreement based on a casual "we should partner" comment that was never a commitment</li><li><strong>$8,000–$12,000</strong> . Wasted retainer for a business consultant hired based on a warm introduction that never converted to actual business</li><li><strong>$5,000–$20,000</strong> . Product customization costs for a "verbal commitment" from a U.S. buyer that evaporated when the order wasn't formalized in writing</li><li><strong>$3,000–$7,000</strong> . Flights, hotels, and travel costs for in-person meetings that could have been handled by a 30-minute video call first</li><li><strong>$2,000–$5,000</strong> . Marketing materials and trade show expenses targeting the wrong customer segment because the founder didn't validate market fit locally first</li></ul></p>
+<p><p><strong>Total avoidable loss for a single founder:</strong> $10,000–$50,000+ in the first year. These costs add up fast when every dollar matters.</p></p>
+
+
+
+<h2>Did You Know?</h2>
+<p><p>Central Florida's Atlantic beaches draw over 10 million visitors a year, and the region's beach culture has shaped local business norms in surprising ways. Meetings over lunch at a waterfront restaurant are common. Dress codes stay relaxed year-round. Business cards get exchanged at surf shops and boardwalk cafes. That casual energy is genuine, but the professionals behind it still expect contracts in writing, deadlines met, and follow-through on every commitment.</p></p>
+
+
+
+<h2></h2>
+<p><h4>Misstep #3: Avoiding Direct "No"</h4></p>
+<p><p>The calm surface again — friendliness is the default in American business, not a commitment. A Japanese founder said "We'll consider it carefully" instead of declining a joint venture. The American team spent six weeks preparing a proposal. When she finally said no, the relationship soured.</p></p>
+<p><p><strong>What to do instead:</strong> "Thank you for thinking of us, but this isn't the right fit right now." Americans respect a clean no — they don't respect a delayed no disguised as maybe.</p></p>
+<p><h4>Misstep #4: Over-Investing Before Validating</h4></p>
+<p><p>What does that mean for you? You have rented the beachfront property before you know where your customers are actually swimming. A Chilean tech startup signed a two-year Orlando office lease ($4,500/month) before having a single U.S. customer. Their clients ended up in Texas and California, and that added up to $81,000 on an office nobody used.</p></p>
+<p><p><strong>What to do instead:</strong> Start lean with coworking or virtual addresses. Validate with actual sales before committing to fixed overhead.</p></p>
+<p><h4>Misstep #5: Rushing the In-Person Trip</h4></p>
+<p><p>Founders spend $3,000-$7,000 per trip for meetings that could be video calls.</p></p>
+<p><p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p></p>
+
+
+
+<h2>Latin America Focus — Cultural Bridge Resources</h2>
+<p><p>Interestingly, Central Florida offers specific resources to help Latin American founders navigate U.S. business culture:</p></p>
+<p><ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong> . Networking events that bridge Latin American and U.S. business norms</li><li><strong>Prospera</strong> . Mentor matching program that pairs Latin American founders with bilingual U.S. business advisors</li><li><strong>SBDC Orlando</strong> . Bilingual business counseling sessions available</li><li><strong>CFITO trade delegations</strong> . Structured introductions to U.S. business contacts with cultural context built in</li></ul></p>
+
+
+
+<h2>Key Takeaway</h2>
+<p><p>The key insight is this: cultural slip-ups are costly. The beach looks inviting, but the undertow is real — and it pulls hardest when you feel most comfortable. The founders who avoid the biggest losses are the ones who learned to read the currents before wading in deep. They do not spend money based on praise. They wait for written commitment. They validate before they invest. Apply the phrase-decoding table from this lesson to every U.S. meeting. Evaluate statements carefully, read actions over words, and remember: in U.S. business, friendliness and commitment are two very different things.</p></p>
+
+
+
+
+                        <div class="quiz-container">
+<div class="knowledge-check" data-question-index="0" data-question-type="multiple-choice">
+  <h3>What Would You Do?</h3>
+  <p>A founder from Colombia meets a U.S. buyer at a conference. The buyer says, "I love your product -- let's definitely partner on this!" The founder is excited and considering hiring a lawyer to draft a partnership agreement. What should the founder do BEFORE spending any money?</p>
+  <div class="quiz-options" role="radiogroup" aria-label="What Would You Do?">
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="0"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. American enthusiasm does not equal commitment. Phrases like 'let's partner' often mean 'I'm interested enough to keep talking.' The correct approach is to ask a qualifying question and wait for written confirmation (signed LOI, purchase order, or detailed email with agreed terms) before spending money on legal fees or other deal-related costs."
+             aria-label="Immediately hire the lawyer because the American clearly committed to a partnership">
+      <span>Immediately hire the lawyer because the American clearly committed to a partnership</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="1"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. American enthusiasm does not equal commitment. Phrases like 'let's partner' often mean 'I'm interested enough to keep talking.' The correct approach is to ask a qualifying question and wait for written confirmation (signed LOI, purchase order, or detailed email with agreed terms) before spending money on legal fees or other deal-related costs."
+             aria-label="Wait two weeks for the American to send a formal partnership proposal since they expressed interest first">
+      <span>Wait two weeks for the American to send a formal partnership proposal since they expressed interest first</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="2"
+             data-correct="false"
+             data-feedback="&#10007; Incorrect. American enthusiasm does not equal commitment. Phrases like 'let's partner' often mean 'I'm interested enough to keep talking.' The correct approach is to ask a qualifying question and wait for written confirmation (signed LOI, purchase order, or detailed email with agreed terms) before spending money on legal fees or other deal-related costs."
+             aria-label="Bring an expensive gift to the next meeting to strengthen the relationship and accelerate the deal">
+      <span>Bring an expensive gift to the next meeting to strengthen the relationship and accelerate the deal</span>
+    </label>
+    <label class="quiz-option">
+      <input type="radio" name="question-0" value="3"
+             data-correct="true"
+             data-feedback="&#10003; Correct! American enthusiasm does not equal commitment. Phrases like 'let's partner' often mean 'I'm interested enough to keep talking.' The correct approach is to ask a qualifying question and wait for written confirmation (signed LOI, purchase order, or detailed email with agreed terms) before spending money on legal fees or other deal-related costs."
+             aria-label="Send a follow-up email asking a specific qualifying question like &quot;What would the next step look like on your end?&quot; and wait for written commitment before investing in legal work">
+      <span>Send a follow-up email asking a specific qualifying question like "What would the next step look like on your end?" and wait for written commitment before investing in legal work</span>
+    </label>
+  </div>
+  <div class="question-feedback" aria-live="polite" role="status"></div>
+  <button onclick="checkAnswer(0)" aria-label="Submit answer">Submit Answer</button>
+</div>
+</div>
+
+<script>
+// Legacy activity handlers (drag-drop, sorting, etc. for non-quiz activities)
+function setupDragDrop() {
+  document.querySelectorAll('.drag-drop-activity').forEach(function(activity) {
+    var draggables = activity.querySelectorAll('.draggable-item');
+    var dropZones = activity.querySelectorAll('.drop-area');
+
+    draggables.forEach(function(draggable) {
+      draggable.addEventListener('dragstart', function() {
+        this.classList.add('dragging');
+        this.style.opacity = '0.5';
+      });
+      draggable.addEventListener('dragend', function() {
+        this.classList.remove('dragging');
+        this.style.opacity = '1';
+      });
+    });
+
+    dropZones.forEach(function(zone) {
+      zone.addEventListener('dragover', function(e) {
+        e.preventDefault();
+        zone.style.background = '#f3f4f6';
+      });
+      zone.addEventListener('dragleave', function() {
+        zone.style.background = '';
+      });
+      zone.addEventListener('drop', function(e) {
+        e.preventDefault();
+        var draggable = document.querySelector('.dragging');
+        if (draggable) {
+          zone.appendChild(draggable);
+        }
+        zone.style.background = '';
+      });
+    });
+  });
+}
+
+function checkDragDropActivity(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var dropZones = activity.querySelectorAll('.drop-zone');
+  var correct = 0;
+  var total = 0;
+
+  dropZones.forEach(function(zone) {
+    var category = zone.dataset.category;
+    var items = zone.querySelectorAll('.draggable-item');
+
+    items.forEach(function(item) {
+      total++;
+      if (item.dataset.correctCategory === category) {
+        correct++;
+        item.style.background = '#d1fae5';
+        item.style.borderColor = '#10b981';
+      } else {
+        item.style.background = '#fee2e2';
+        item.style.borderColor = '#ef4444';
+      }
+    });
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / total) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'You got ' + correct + ' out of ' + total + ' correct (' + percentage + '%).';
+}
+
+function setupSortingActivity() {
+  document.querySelectorAll('.sorting-activity').forEach(function(activity) {
+    var list = activity.querySelector('.sortable-list');
+    var items = Array.from(list.querySelectorAll('.sortable-item'));
+
+    items.forEach(function(item) {
+      item.addEventListener('dragstart', function() {
+        this.classList.add('dragging');
+        this.style.opacity = '0.5';
+      });
+      item.addEventListener('dragend', function() {
+        this.classList.remove('dragging');
+        this.style.opacity = '1';
+      });
+    });
+
+    list.addEventListener('dragover', function(e) {
+      e.preventDefault();
+      var dragging = list.querySelector('.dragging');
+      var siblings = Array.from(list.querySelectorAll('.sortable-item:not(.dragging)'));
+      var after = null;
+      for (var s = 0; s < siblings.length; s++) {
+        var box = siblings[s].getBoundingClientRect();
+        var offset = e.clientY - box.top - box.height / 2;
+        if (offset < 0) { after = siblings[s]; break; }
+      }
+      if (after) list.insertBefore(dragging, after);
+      else list.appendChild(dragging);
+    });
+  });
+}
+
+function checkSorting(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var items = activity.querySelectorAll('.sortable-item');
+  var correct = 0;
+
+  items.forEach(function(item, currentIndex) {
+    var correctPosition = parseInt(item.dataset.correctPosition) - 1;
+    if (currentIndex === correctPosition) {
+      correct++;
+      item.style.background = '#d1fae5';
+      item.style.borderColor = '#10b981';
+    } else {
+      item.style.background = '#fee2e2';
+      item.style.borderColor = '#ef4444';
+    }
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / items.length) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'You got ' + correct + ' out of ' + items.length + ' in the correct position (' + percentage + '%).';
+}
+
+function showHotSpotInfo(activityId, spotIndex) {
+  var details = document.getElementById(activityId + '-details');
+  if (details) details.innerHTML = '<h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Hot Spot ' + (spotIndex + 1) + '</h3><p style="color: #374151;">Information about this area will appear here.</p>';
+}
+
+function checkCaseStudy(activityId) {
+  var activity = document.querySelector('[data-activity-id="' + activityId + '"]');
+  var questions = activity.querySelectorAll('.case-question');
+  var correct = 0;
+  var total = 0;
+
+  questions.forEach(function(question) {
+    var radios = question.querySelectorAll('input[type="radio"]');
+    var checkboxes = question.querySelectorAll('input[type="checkbox"]');
+    if (radios.length > 0) {
+      var selected = question.querySelector('input[type="radio"]:checked');
+      if (selected) { total++; if (selected.dataset.correct === 'true') correct++; }
+    }
+    if (checkboxes.length > 0) {
+      checkboxes.forEach(function(cb) {
+        total++;
+        if (cb.checked === (cb.dataset.correct === 'true')) correct++;
+      });
+    }
+  });
+
+  var feedback = activity.querySelector('.activity-feedback');
+  var percentage = Math.round((correct / total) * 100);
+  feedback.style.display = 'block';
+  feedback.style.background = percentage >= 70 ? '#d1fae5' : '#fee2e2';
+  feedback.style.color = percentage >= 70 ? '#065f46' : '#991b1b';
+  feedback.textContent = 'Score: ' + correct + '/' + total + ' (' + percentage + '%)';
+}
+
+function makeBranchingChoice(activityId, choiceIndex) {
+  alert('Branching scenario choice ' + choiceIndex + ' - full implementation pending');
+}
+
+function selectSimulationResponse(activityId, responseIndex) {
+  alert('Simulation response ' + responseIndex + ' - full implementation pending');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  setupDragDrop();
+  setupSortingActivity();
+});
+</script>
+
+
+                        <nav class="lesson-navigation" aria-label="Lesson navigation">
+      <a href="lesson-6-2.html" class="lesson-nav-button lesson-nav-prev">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        <div class="lesson-nav-text">
+          <div class="lesson-nav-label">Previous</div>
+          <div class="lesson-nav-title">Meeting Etiquette, Negotiation, and Follow-Through</div>
+        </div>
+      </a>
+    
+      <a href="lesson-7-1.html" class="lesson-nav-button lesson-nav-next">
+        <div class="lesson-nav-text">
+          <div class="lesson-nav-label">Next</div>
+          <div class="lesson-nav-title">Key Organizations — Business Support Available to Help You</div>
+        </div>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Shared JavaScript (External - Cached) -->
+    <script src="js/navigation.js"></script>
+    <script src="js/interactive.js"></script>
+    <script src="js/video-player.js"></script>
+    <script src="js/celebrations.js"></script>
+    <script src="js/course-search.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/interactive-components.js"></script>
+</body>
+</html>

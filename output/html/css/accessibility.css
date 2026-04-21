@@ -1,0 +1,1296 @@
+/**
+ * Accessibility CSS - WCAG 2.1 AA/AAA Compliant
+ * Course Factory - Shared across all course templates
+ *
+ * This file provides comprehensive accessibility support:
+ * - Skip navigation links
+ * - Visible focus indicators (high contrast)
+ * - Screen reader utilities
+ * - Reduced motion support
+ * - High contrast mode support
+ * - Minimum touch target sizes (44x44px per WCAG)
+ * - Text readability standards
+ * - Form accessibility
+ * - Color contrast helpers
+ *
+ * WCAG 2.1 Requirements Addressed:
+ * - 1.4.3 Contrast (Minimum) - AA
+ * - 1.4.6 Contrast (Enhanced) - AAA
+ * - 1.4.11 Non-text Contrast - AA
+ * - 2.1.1 Keyboard - A
+ * - 2.4.7 Focus Visible - AA
+ * - 2.5.5 Target Size - AAA (44x44px minimum)
+ * - 2.3.3 Animation from Interactions - AAA
+ */
+
+/* ============================================================================
+   SKIP NAVIGATION
+   Allows keyboard users to skip to main content
+   ============================================================================ */
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    background: var(--color-primary, #0066cc);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    z-index: 10000;
+    transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid var(--color-focus, #ffcc00);
+    outline-offset: 2px;
+}
+
+/* Multiple skip links for complex layouts */
+.skip-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    padding: 10px 20px;
+    background: var(--color-primary, #0066cc);
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 4px 4px;
+    transition: top 0.2s;
+}
+
+.skip-links a:nth-child(2) {
+    left: 200px;
+}
+
+.skip-links a:focus {
+    top: 0;
+    outline: 3px solid var(--color-focus, #ffcc00);
+    outline-offset: 2px;
+}
+
+/* ============================================================================
+   FOCUS INDICATORS
+   High-contrast, visible focus styles for keyboard navigation
+   WCAG 2.4.7 Focus Visible (AA)
+   ============================================================================ */
+
+/* Global focus outline - HIGH VISIBILITY */
+:focus {
+    outline: 3px solid var(--color-focus, #0066cc);
+    outline-offset: 2px;
+}
+
+/* Remove default outline only when custom focus is applied */
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Enhanced focus for keyboard users */
+:focus-visible {
+    outline: 3px solid var(--color-focus, #0066cc);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(0, 102, 204, 0.25);
+}
+
+/* High contrast focus for interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role="button"]:focus-visible,
+[role="link"]:focus-visible,
+[tabindex]:focus-visible {
+    outline: 3px solid var(--color-focus, #0066cc);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(0, 102, 204, 0.3);
+    border-radius: 4px;
+}
+
+/* Focus within containers (for custom components) */
+.focus-within:focus-within {
+    outline: 2px solid var(--color-focus, #0066cc);
+    outline-offset: 4px;
+}
+
+/* Dark theme focus adjustments */
+[data-theme="dark"] :focus-visible {
+    outline-color: var(--color-focus-dark, #ffcc00);
+    box-shadow: 0 0 0 6px rgba(255, 204, 0, 0.3);
+}
+
+/* ============================================================================
+   SCREEN READER UTILITIES
+   Visually hidden but accessible to assistive technologies
+   ============================================================================ */
+
+/* Visually hidden - accessible to screen readers */
+.sr-only,
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Focusable visually hidden (skip links, etc.) */
+.sr-only-focusable:focus,
+.sr-only-focusable:active,
+.visually-hidden-focusable:focus,
+.visually-hidden-focusable:active {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    padding: inherit !important;
+    margin: inherit !important;
+    overflow: visible !important;
+    clip: auto !important;
+    white-space: normal !important;
+}
+
+/* Hide from screen readers but keep visible */
+[aria-hidden="true"] {
+    speak: none;
+}
+
+/* Announce to screen readers */
+.announce {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Live regions for dynamic content */
+.live-region {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* ============================================================================
+   REDUCED MOTION
+   Respect user preference for reduced motion
+   WCAG 2.3.3 Animation from Interactions (AAA)
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    /* Disable smooth scrolling */
+    html {
+        scroll-behavior: auto;
+    }
+
+    /* Remove parallax effects */
+    .parallax,
+    [data-parallax] {
+        transform: none !important;
+    }
+
+    /* Static progress bars */
+    .progress-bar,
+    .loading-indicator {
+        animation: none !important;
+    }
+
+    /* Disable auto-playing content */
+    video[autoplay],
+    .carousel,
+    .slideshow {
+        animation: none !important;
+    }
+}
+
+/* Class to force reduced motion regardless of preference */
+.reduce-motion,
+.no-animation {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* ============================================================================
+   HIGH CONTRAST MODE
+   Support for Windows High Contrast and forced colors
+   ============================================================================ */
+
+@media (prefers-contrast: more) {
+    /* Force high contrast colors */
+    body {
+        color: #000 !important;
+        background-color: #fff !important;
+    }
+
+    /* Increase all borders */
+    *:not(hr) {
+        border-color: currentColor !important;
+    }
+
+    /* Ensure links are distinguishable */
+    a {
+        text-decoration: underline !important;
+        text-decoration-thickness: 2px !important;
+    }
+
+    /* Stronger focus indicators - 3px outline */
+    :focus-visible {
+        outline-width: 3px !important;
+        outline-style: solid !important;
+        outline-color: #000 !important;
+    }
+
+    /* Interactive elements get 2px borders */
+    button,
+    .btn,
+    [role="button"] {
+        border: 2px solid #000 !important;
+    }
+
+    input,
+    select,
+    textarea {
+        border: 2px solid #000 !important;
+    }
+
+    /* Cards and containers */
+    .card,
+    .lesson-card,
+    .content-card,
+    .info-box,
+    .callout,
+    .panel,
+    [class*="container"]:not(body):not(html) {
+        border: 2px solid #000 !important;
+    }
+
+    /* Quiz options and interactive choices */
+    .quiz-option,
+    .knowledge-check label,
+    .option-label,
+    [role="radio"],
+    [role="checkbox"],
+    .flashcard,
+    .accordion-trigger {
+        border: 2px solid #000 !important;
+    }
+
+    /* Tab buttons */
+    [role="tab"] {
+        border: 2px solid #000 !important;
+    }
+
+    /* Ensure text contrast */
+    p, li, span, div, td, th, label, h1, h2, h3, h4, h5, h6 {
+        color: #000 !important;
+    }
+
+    /* Backgrounds forced to white for readability */
+    .card,
+    .lesson-card,
+    .content-card,
+    .panel,
+    .quiz-option,
+    .knowledge-check label,
+    .tab-panel,
+    [role="tabpanel"] {
+        background-color: #fff !important;
+    }
+}
+
+/* Windows High Contrast Mode (forced-colors) */
+@media (forced-colors: active) {
+    /* Use system colors */
+    a {
+        color: LinkText;
+    }
+
+    a:visited {
+        color: VisitedText;
+    }
+
+    button,
+    .btn,
+    [role="button"] {
+        border: 2px solid ButtonText;
+        background: ButtonFace;
+        color: ButtonText;
+    }
+
+    button:hover,
+    .btn:hover {
+        background: Highlight;
+        color: HighlightText;
+    }
+
+    :focus-visible {
+        outline: 3px solid Highlight !important;
+    }
+
+    /* Preserve meaningful graphics */
+    img,
+    svg {
+        forced-color-adjust: none;
+    }
+
+    /* Mark decorative elements */
+    .decorative,
+    [role="presentation"] {
+        forced-color-adjust: auto;
+    }
+}
+
+/* ============================================================================
+   TOUCH TARGET SIZES
+   WCAG 2.5.5 Target Size (AAA) - Minimum 44x44px
+   ============================================================================ */
+
+/* Minimum touch target for all interactive elements */
+button,
+a,
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+select,
+[role="button"],
+[role="link"],
+[role="checkbox"],
+[role="radio"],
+[role="tab"],
+[role="menuitem"],
+[role="option"],
+.clickable,
+.tappable,
+.interactive {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Touch target helper class */
+.touch-target {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Larger touch targets for primary actions */
+.touch-target-large {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+/* Spacing between touch targets */
+.touch-targets-spaced > * + * {
+    margin-left: 8px;
+}
+
+/* Navigation links need adequate spacing */
+nav a,
+nav button,
+.nav-link {
+    padding: 12px 16px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Checkbox and radio custom styling with adequate size */
+input[type="checkbox"],
+input[type="radio"] {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Custom checkbox/radio with touch target */
+.custom-checkbox,
+.custom-radio {
+    position: relative;
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+    cursor: pointer;
+}
+
+.custom-checkbox input,
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 44px;
+    width: 44px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+/* ============================================================================
+   TEXT READABILITY
+   WCAG 1.4.8 Visual Presentation (AAA)
+   ============================================================================ */
+
+/* Base text settings for readability */
+body {
+    font-size: 1rem; /* 16px minimum */
+    line-height: 1.6; /* 1.5 minimum per WCAG */
+    letter-spacing: 0.01em;
+    word-spacing: 0.05em;
+}
+
+/* Paragraph spacing (1.5x font size) */
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Maximum line width for readability (80 characters) */
+.readable-width,
+article,
+.content,
+.lesson-content,
+main p,
+main li {
+    max-width: 80ch;
+}
+
+/* Full width option when needed */
+.full-width {
+    max-width: none;
+}
+
+/* Text size utilities */
+.text-small {
+    font-size: 0.875rem; /* 14px - use sparingly */
+    line-height: 1.7;
+}
+
+.text-normal {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.text-large {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.6;
+}
+
+.text-xlarge {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.5;
+}
+
+/* Ensure headings are distinguishable */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Don't justify text (causes uneven spacing) */
+.no-justify {
+    text-align: left !important;
+}
+
+/* ============================================================================
+   LINK ACCESSIBILITY
+   WCAG 1.4.1 Use of Color (A) - Links must be distinguishable
+   ============================================================================ */
+
+/* Links must have underline OR other non-color indicator */
+a {
+    color: var(--color-link, #0066cc);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    text-decoration-thickness: 2px;
+}
+
+a:visited {
+    color: var(--color-link-visited, #551a8b);
+}
+
+/* Links within content should always be underlined */
+article a,
+.content a,
+main p a,
+main li a {
+    text-decoration: underline !important;
+}
+
+/* Navigation links can have different styling */
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* External link indicator */
+a[target="_blank"]::after,
+a[rel*="external"]::after {
+    content: " \2197"; /* Arrow */
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+/* Screen reader text for external links */
+a[target="_blank"] .sr-only-external,
+a[rel*="external"] .sr-only-external {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+}
+
+/* ============================================================================
+   FORM ACCESSIBILITY
+   WCAG 1.3.1 Info and Relationships (A)
+   WCAG 3.3.2 Labels or Instructions (A)
+   ============================================================================ */
+
+/* Form labels must be visible and associated */
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+/* Required field indicator */
+.required::after,
+label[required]::after,
+label.required::after {
+    content: " *";
+    color: var(--color-error, #d32f2f);
+    font-weight: bold;
+}
+
+/* Form field styling */
+input:not([type="checkbox"]):not([type="radio"]),
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 2px solid var(--color-border, #ccc);
+    border-radius: 4px;
+    background: var(--color-input-bg, #fff);
+    color: var(--color-input-text, #333);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--color-focus, #0066cc);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.25);
+}
+
+/* Error state */
+input[aria-invalid="true"],
+select[aria-invalid="true"],
+textarea[aria-invalid="true"],
+.input-error {
+    border-color: var(--color-error, #d32f2f);
+    background-color: var(--color-error-bg, #fff5f5);
+}
+
+input[aria-invalid="true"]:focus,
+.input-error:focus {
+    box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.25);
+}
+
+/* Error messages */
+.error-message,
+[role="alert"],
+.field-error {
+    color: var(--color-error, #d32f2f);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.error-message::before {
+    content: "!";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background: var(--color-error, #d32f2f);
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Success state */
+input[aria-invalid="false"],
+.input-success {
+    border-color: var(--color-success, #2e7d32);
+}
+
+/* Help text / descriptions */
+.help-text,
+.field-description,
+[id$="-description"] {
+    font-size: 0.875rem;
+    color: var(--color-text-muted, #666);
+    margin-top: 0.25rem;
+}
+
+/* Fieldset and legend */
+fieldset {
+    border: 2px solid var(--color-border, #ddd);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+}
+
+/* ============================================================================
+   COLOR CONTRAST UTILITIES
+   WCAG 1.4.3 Contrast Minimum (AA) - 4.5:1 for normal text
+   WCAG 1.4.6 Contrast Enhanced (AAA) - 7:1 for normal text
+   ============================================================================ */
+
+/* High contrast text classes */
+.contrast-high {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.contrast-high-inverse {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+/* AA compliant text on backgrounds */
+.text-on-primary {
+    color: #ffffff;
+}
+
+.text-on-secondary {
+    color: #ffffff;
+}
+
+.text-on-light {
+    color: #1a1a1a;
+}
+
+.text-on-dark {
+    color: #f5f5f5;
+}
+
+/* Ensure adequate contrast for states */
+.success-text {
+    color: #1b5e20; /* Dark green - 7:1 on white */
+}
+
+.error-text {
+    color: #b71c1c; /* Dark red - 7:1 on white */
+}
+
+.warning-text {
+    color: #e65100; /* Dark orange - 4.5:1 on white */
+}
+
+.info-text {
+    color: #01579b; /* Dark blue - 7:1 on white */
+}
+
+/* Background colors with accessible text */
+.bg-success {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+
+.bg-error {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+}
+
+.bg-warning {
+    background-color: #fff3e0;
+    color: #e65100;
+}
+
+.bg-info {
+    background-color: #e3f2fd;
+    color: #01579b;
+}
+
+/* ============================================================================
+   IMAGE AND MEDIA ACCESSIBILITY
+   WCAG 1.1.1 Non-text Content (A)
+   ============================================================================ */
+
+/* Images should have alt text - visual indicator for devs */
+img:not([alt]) {
+    outline: 4px solid red !important;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Figure and figcaption */
+figure {
+    margin: 1.5rem 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: var(--color-text-muted, #666);
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+/* ============================================================================
+   Accessible Image Component
+   (Enhanced from original)
+   ============================================================================ */
+
+.accessible-image {
+    position: relative;
+    margin: 1.5rem 0;
+    border-radius: var(--cf-border-radius-lg, 12px);
+    overflow: hidden;
+}
+
+.accessible-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.accessible-image__info-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 44px; /* WCAG touch target */
+    height: 44px;
+    background: rgba(245, 158, 11, 0.9);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.accessible-image__info-btn:hover {
+    background: #f59e0b;
+    transform: scale(1.1);
+}
+
+.accessible-image__info-btn:focus {
+    outline: 3px solid #fbbf24;
+    outline-offset: 2px;
+}
+
+.accessible-image__info-btn:focus-visible {
+    outline: 3px solid #fbbf24;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 6px rgba(251, 191, 36, 0.3);
+}
+
+.accessible-image__info-btn.active {
+    background: #f59e0b;
+}
+
+.accessible-image__description {
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #f59e0b;
+    padding: 12px 16px;
+}
+
+.accessible-image__description.hidden {
+    display: none;
+}
+
+.accessible-image__label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #f59e0b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+.accessible-image__label::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #f59e0b;
+    border-radius: 50%;
+}
+
+.accessible-image__description p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+.accessible-image figcaption {
+    font-size: 0.875rem;
+    color: var(--cf-color-text-muted, #8b949e);
+    padding: 0.75rem 1rem;
+    background: var(--cf-color-surface, #1c2128);
+    text-align: center;
+}
+
+/* ============================================================================
+   Video Player Info Panel (Image Description)
+   ============================================================================ */
+
+.video-player__info-panel {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 2px solid #f59e0b;
+    padding: 12px 16px;
+    z-index: 95;
+    transition: opacity 0.3s ease;
+}
+
+.video-player__info-panel.hidden {
+    display: none;
+}
+
+.video-player__info-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #f59e0b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+.video-player__info-label::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #f59e0b;
+    border-radius: 50%;
+}
+
+.video-player__info-text {
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+.video-player__btn--info.active {
+    background: rgba(245, 158, 11, 0.4);
+    color: #fbbf24;
+}
+
+/* Video accessibility */
+video {
+    max-width: 100%;
+}
+
+.video-player__transcript {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 1rem;
+    background: var(--color-bg-alt, #fff);
+    border: 1px solid var(--color-border, #ddd);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* ============================================================================
+   TABLE ACCESSIBILITY
+   WCAG 1.3.1 Info and Relationships (A)
+   ============================================================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+/* Caption for table description */
+caption {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: left;
+    padding: 0.75rem 0;
+    caption-side: top;
+}
+
+th {
+    background: var(--color-surface, #f5f5f5);
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 16px;
+    border: 1px solid var(--color-border, #ddd);
+}
+
+td {
+    padding: 12px 16px;
+    border: 1px solid var(--color-border, #ddd);
+    vertical-align: top;
+}
+
+/* Scope indicators for complex tables */
+th[scope="col"] {
+    border-bottom: 2px solid var(--color-primary, #0066cc);
+}
+
+th[scope="row"] {
+    border-right: 2px solid var(--color-primary, #0066cc);
+}
+
+/* Zebra striping for readability */
+tbody tr:nth-child(even) {
+    background: var(--color-surface-alt, #fafafa);
+}
+
+/* Responsive tables */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ============================================================================
+   KEYBOARD NAVIGATION INDICATORS
+   ============================================================================ */
+
+/* Show keyboard navigation mode */
+body.keyboard-nav *:focus {
+    outline: 3px solid var(--color-focus, #0066cc) !important;
+    outline-offset: 3px !important;
+}
+
+/* Tab panel keyboard navigation */
+[role="tablist"] {
+    display: flex;
+    gap: 4px;
+}
+
+[role="tab"] {
+    padding: 12px 20px;
+    min-height: 44px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+[role="tab"][aria-selected="true"] {
+    border-bottom-color: var(--color-primary, #0066cc);
+    font-weight: 600;
+}
+
+[role="tab"]:focus-visible {
+    outline: 2px solid var(--color-focus, #0066cc);
+    outline-offset: -2px;
+}
+
+[role="tabpanel"] {
+    padding: 1.5rem;
+}
+
+[role="tabpanel"]:focus {
+    outline: none;
+}
+
+[role="tabpanel"]:focus-visible {
+    outline: 2px solid var(--color-focus, #0066cc);
+    outline-offset: 4px;
+}
+
+/* ============================================================================
+   LOADING AND STATUS INDICATORS
+   ============================================================================ */
+
+/* Loading state - accessible */
+.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+    border: 3px solid var(--color-border, #ddd);
+    border-top-color: var(--color-primary, #0066cc);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Status badges */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.status-badge::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.status-badge--success {
+    background: #c8e6c9;
+    color: #1b5e20;
+}
+
+.status-badge--success::before {
+    background: #2e7d32;
+}
+
+.status-badge--error {
+    background: #ffcdd2;
+    color: #b71c1c;
+}
+
+.status-badge--error::before {
+    background: #d32f2f;
+}
+
+.status-badge--warning {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.status-badge--warning::before {
+    background: #f57c00;
+}
+
+/* ============================================================================
+   PRINT ACCESSIBILITY
+   ============================================================================ */
+
+@media print {
+    /* Ensure all text is black on white */
+    * {
+        color: #000 !important;
+        background: #fff !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    /* Show URLs for links */
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+    }
+
+    /* Don't show URL for internal links */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+        content: "";
+    }
+
+    /* Hide non-essential elements */
+    nav,
+    .sidebar,
+    .skip-link,
+    .mobile-menu-toggle,
+    video,
+    audio,
+    .no-print {
+        display: none !important;
+    }
+
+    /* Page breaks */
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+
+    img, table, figure {
+        page-break-inside: avoid;
+    }
+}
+
+/* ============================================================================
+   MOBILE ACCESSIBILITY ADJUSTMENTS
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    /* Larger touch targets on mobile */
+    button,
+    a,
+    input,
+    select,
+    [role="button"] {
+        min-height: 48px;
+        min-width: 48px;
+    }
+
+    /* Ensure text doesn't get too small */
+    body {
+        font-size: 1rem;
+    }
+
+    /* Adequate spacing for touch */
+    nav a,
+    .nav-link {
+        padding: 14px 18px;
+    }
+
+    /* Form elements need more padding */
+    input:not([type="checkbox"]):not([type="radio"]),
+    select,
+    textarea {
+        padding: 14px 16px;
+        font-size: 16px; /* Prevents iOS zoom */
+    }
+
+    /* Accessible image adjustments */
+    .accessible-image__info-btn {
+        width: 44px;
+        height: 44px;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    .accessible-image__info-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .accessible-image__description {
+        padding: 10px 12px;
+    }
+
+    .accessible-image__label {
+        font-size: 10px;
+    }
+
+    .accessible-image__description p {
+        font-size: 12px;
+    }
+
+    /* Video player info panel */
+    .video-player__info-panel {
+        bottom: 45px;
+        padding: 8px 12px;
+    }
+
+    .video-player__info-label {
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .video-player__info-text {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 480px) {
+    .accessible-image__description {
+        padding: 8px 10px;
+    }
+
+    .accessible-image__label {
+        font-size: 9px;
+    }
+
+    .accessible-image__description p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    /* Video player info panel */
+    .video-player__info-panel {
+        bottom: 38px;
+        padding: 6px 10px;
+    }
+
+    .video-player__info-label {
+        font-size: 9px;
+    }
+
+    .video-player__info-text {
+        font-size: 10px;
+    }
+}

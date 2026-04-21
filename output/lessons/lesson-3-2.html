@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)" aria-hidden="true">
     <img src="images/lesson-3-2-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/space_center.svg" alt="" width="24" height="24"></span>
+      <span data-es="EL CENTRO ESPACIAL">SPACE CENTER</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
+            <img src="images/Icons/space_center.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 3</p>
+            <p class="rt-route-module-label">Space Center</p>
             <p class="rt-route-module-title">Protecting What You're Building</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-3-3.html" class="rt-stop-link" >When to Bring In a Lawyer — And What It Costs</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">Cape Canaveral</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Seguros y Gestión de Riesgos">Insurance and Risk Management</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="EL CENTRO ESPACIAL">Space Center</h2>
+            <p class="rt-module-intro-desc" data-es="Proteja su negocio con la propiedad intelectual, seguros y contratos correctos">Shield your business with the right IP, insurance, and contracts</p>
+          </div>
 
           
 <section class="video-placeholder" aria-label="Video placeholder">
@@ -127,9 +136,8 @@
 <div data-es-html="&lt;p&gt;&lt;p&gt;Ahora que ha asegurado su propiedad intelectual dentro de la instalación de lanzamiento, camine hacia el ala de seguridad y cumplimiento. Ningún negocio debería operar sin seguros adecuados y gestión de riesgos.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Un fundador de Costa Rica perdió $22,000 porque cerró un trato con un apretón de manos en vez de un contrato. En EE.UU., ese apretón de manos no vale casi nada — tres meses después, el distribuidor cambió los términos de pago y se negó a pagar las facturas pendientes. Sin un contrato firmado, el fundador no tenía poder legal. Por eso los contratos importan (cubrimos los tipos de contratos en la próxima lección), pero primero necesita entender los fundamentos de seguros y gestión de riesgos que protegen su negocio todos los días.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Muchos fundadores internacionales se enfocan en la configuración legal — formación de entidad, PI, contratos — y olvidan protegerse contra los riesgos diarios del negocio. Una demanda sin cobertura de seguro puede cerrar su negocio. Un resbalón y caída en su oficina, un defecto de producto, un error profesional que le cuesta dinero a un cliente. El seguro es su red de seguridad para los riesgos que no puede predecir.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Now that you have locked down your intellectual property inside the launch facility, walk over to the safety and compliance wing. No business should operate without proper insurance and risk management.</p></p>
-<p><p>A founder from Costa Rica lost $22,000 because he closed a deal with a handshake instead of a contract. In the U.S., that handshake is worth almost nothing — three months later, the distributor changed payment terms and refused to pay outstanding invoices. Without a signed contract, the founder had no legal leverage. This is why contracts matter (we cover contract types in the next lesson), but first, you need to understand the insurance and risk management foundations that protect your business every day.</p></p>
-<p><p>Many international founders focus on the legal setup — entity formation, IP, contracts — and forget to guard against day-to-day business risks. One lawsuit without insurance coverage can shut you down. One slip-and-fall at your office, one product defect, one professional error that costs a client money. Insurance is your safety net for the risks you cannot predict.</p></p>
+"><p><p>Now that you have locked down your intellectual property, it is time to focus on safety and compliance. No business should operate without proper insurance and risk management.</p></p>
+<p><p>A Brazilian founder renting a shared office in Orlando had a client trip over an extension cord during a meeting. The medical bill was $14,000. Without general liability insurance, he paid it out of pocket. Insurance is the safety net that protects your business from the risks you cannot predict, and it needs to be in place before you start operating.</p></p>
 </div>
 <div class="rt-infographic rt-ig-grid" id="ig-3-2-insurance" role="figure" aria-label="Business Insurance — What Coverage Do You Need?">
   <div class="rt-ig-header">
@@ -212,7 +220,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="¿Sabía Usted?">Did You Know?</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;La Space Coast de Central Florida ha albergado más de 4,000 lanzamientos de cohetes desde 1950, incluyendo todas las misiones tripuladas de la NASA. La misma cultura de gestión de riesgos que mantiene los cohetes seguros también impulsa la industria de seguros de la región: Florida tiene uno de los mercados de seguros de propiedad más grandes del país. Para los fundadores de negocios, el paralelo es claro — así como cada lanzamiento requiere una revisión de seguridad, cada negocio necesita protección contra los riesgos que podrían dejar su operación en tierra.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Central Florida's Space Coast has hosted over 4,000 rocket launches since 1950, including every crewed NASA mission. The same culture of risk management that keeps rockets safe also drives the region's insurance industry: Florida has one of the largest property insurance markets in the country. For business founders, the parallel is clear — just as every launch requires a safety review, every business needs protection against the risks that could ground your operation.</p></p>
+"><p><p>Central Florida's Space Coast has hosted over 4,000 rocket launches since 1950, including every crewed NASA mission. The same culture of risk management that keeps rockets safe also drives the region's insurance industry: Florida has one of the largest property insurance markets in the country. That focus on risk assessment applies to every business operating in Florida today.</p></p>
 </div>
   </div>
 </div><h2 data-es="Seguro Empresarial, Lo Que Necesita y Lo Que Puede Esperar">Business Insurance, What You Need and What Can Wait</h2>
@@ -224,7 +232,7 @@
 &lt;p&gt;&lt;p&gt;Un fundador nigeriano descubrió que la incorporación de proveedores en EE.UU. requería prueba de $1 millón en GL y $1 millón en E&amp;O antes de que los clientes firmaran. Presupueste para seguro antes de necesitarlo.&lt;/p&gt;&lt;/p&gt;
 "><p><p>Insurance in the U.S. is not optional. Some types are required by law. Others are required in practice, since clients and landlords demand proof.</p></p>
 <p><p><strong>General Liability Insurance (GL):</strong> Your most important policy. It covers third-party bodily injury, property damage, and advertising injury. Cost: $400–$800/year. Many landlords and B2B clients require proof before they will work with you.</p></p>
-<p><p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm — a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p></p>
+<p><p><strong>Professional Liability / E&O:</strong> Covers claims your professional services caused financial harm, a software bug, bad advice, or a missed deadline. Cost: $500–$2,500/year.</p></p>
 <p><p><strong>Workers' Compensation:</strong> Required in Florida with four or more employees (one in construction). Cost varies by industry and payroll.</p></p>
 <p><p><strong>Commercial Property Insurance:</strong> Covers equipment, inventory, and office contents. Skip if working from home; get it for a physical office or warehouse.</p></p>
 <p><p>A Nigerian founder found that U.S. vendor onboarding required proof of $1 million GL and $1 million E&O before clients would sign. Budget for insurance before you need it.</p></p>
@@ -234,7 +242,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Operar Sin Seguro de Responsabilidad General">Operating Without General Liability Insurance</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;Aquí es donde el riesgo es real. Un resbalón y caída, un problema con el producto, un mal contrato — y usted queda personalmente expuesto si su negocio no tiene cobertura GL. Incluso si su LLC proporciona protección de responsabilidad, los tribunales pueden &quot;levantar el velo corporativo&quot; si opera sin seguro básico. GL es asequible ($400–$800/año para la mayoría de pequeños negocios) y muchos arrendadores y clientes B2B lo requieren. No lo omita.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Here's where the risk is real. One slip-and-fall, one product issue, one bad contract — and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can "pierce the corporate veil" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p></p>
+"><p><p>One slip-and-fall, one product issue, one bad contract, and you're personally exposed if your business doesn't have GL coverage. Even if your LLC provides liability protection, courts can "pierce the corporate veil" if you're operating without basic insurance. GL is affordable ($400–$800/year for most small businesses) and many landlords and B2B clients require it. Don't skip it.</p></p>
 </div>
   </div>
 </div>
@@ -246,7 +254,7 @@
       <span class="rt-accordion-heading" data-es="Seguro de Responsabilidad General">General Liability Insurance</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-3-2-1-content-0" hidden>
+    <div class="rt-accordion-content" id="int-3-2-1-content-0" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Cubre:&lt;/strong&gt; Lesiones corporales a terceros, daños a propiedad, daños por publicidad.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $400–$1,500/año para pequeños negocios.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Quién lo necesita:&lt;/strong&gt; Casi todos los negocios. Frecuentemente requerido por arrendadores y contratos.&lt;/p&gt;
@@ -261,12 +269,12 @@
       <span class="rt-accordion-heading" data-es="Responsabilidad Profesional (E&amp;O)">Professional Liability (E&amp;O)</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-3-2-1-content-1" hidden>
+    <div class="rt-accordion-content" id="int-3-2-1-content-1" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Cubre:&lt;/strong&gt; Reclamos de negligencia, errores o falta de entrega de servicios profesionales.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $500–$3,000/año dependiendo de la industria.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Quién lo necesita:&lt;/strong&gt; Consultores, empresas de TI, cualquier negocio basado en servicios.&lt;/p&gt;
 "><p><strong>Covers:</strong> Claims of negligence, errors, or failure to deliver professional services.</p>
-<p><strong>Cost:</strong> $500–$3,000/year depending on industry.</p>
+<p><strong>Cost:</strong> $500–$2,500/year depending on industry.</p>
 <p><strong>Who needs it:</strong> Consultants, IT companies, any service-based business.</p>
 </div>
     </div>
@@ -276,7 +284,7 @@
       <span class="rt-accordion-heading" data-es="Compensación al Trabajador">Workers' Compensation</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-3-2-1-content-2" hidden>
+    <div class="rt-accordion-content" id="int-3-2-1-content-2" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Cubre:&lt;/strong&gt; Lesiones y enfermedades de empleados en el trabajo.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; Varía por industria y tamaño de nómina.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Quién lo necesita:&lt;/strong&gt; Requerido en Florida si tiene 4+ empleados (construcción: 1+ empleados).&lt;/p&gt;
@@ -291,7 +299,7 @@
       <span class="rt-accordion-heading" data-es="Seguro de Responsabilidad Cibernética">Cyber Liability Insurance</span>
       <svg class="rt-accordion-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
     </button>
-    <div class="rt-accordion-content" id="int-3-2-1-content-3" hidden>
+    <div class="rt-accordion-content" id="int-3-2-1-content-3" hidden tabindex="-1">
       <div data-es-html="&lt;p&gt;&lt;strong&gt;Cubre:&lt;/strong&gt; Violaciones de datos, ransomware, costos de notificación, defensa legal.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Costo:&lt;/strong&gt; $500–$5,000/año para pequeños negocios.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Quién lo necesita:&lt;/strong&gt; Cualquier negocio que almacene datos de clientes, procese pagos o dependa de tecnología.&lt;/p&gt;
@@ -319,7 +327,7 @@
   <h3 class="rt-ctbl-title" data-es="Costos de Seguros — Qué Presupuestar">Insurance Costs — What to Budget</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th data-es="Tipo de Seguro">Insurance Type</th><th data-es="Costo Anual (principios de 2026)">Annual Cost (as of early 2026)</th><th data-es="Cuándo Lo Necesita">When You Need It</th><th data-es="¿Requerido?">Required?</th></tr></thead>
+      <thead><tr><th scope="col" data-es="Tipo de Seguro">Insurance Type</th><th scope="col" data-es="Costo Anual (principios de 2026)">Annual Cost (as of early 2026)</th><th scope="col" data-es="Cuándo Lo Necesita">When You Need It</th><th scope="col" data-es="¿Requerido?">Required?</th></tr></thead>
       <tbody>
       <tr><td class="rt-ctbl-label" data-es="Responsabilidad General (GL)">General Liability (GL)</td><td data-es="$400–$800/año">$400–$800/year</td><td data-es="Antes de firmar un arrendamiento comercial o contratos B2B">Before signing a commercial lease or B2B contracts</td><td data-es="Prácticamente requerido — la mayoría de clientes y arrendadores lo exigen">Practically required — most clients and landlords demand it</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Responsabilidad Profesional (E&amp;O)">Professional Liability (E&O)</td><td data-es="$500–$2,500/año">$500–$2,500/year</td><td data-es="Antes de prestar servicios profesionales a clientes de EE.UU.">Before providing professional services to U.S. clients</td><td data-es="Requerido por muchos clientes B2B en industrias de servicios">Required by many B2B clients in service industries</td></tr>
@@ -340,24 +348,24 @@
     <p class="rt-kc-question" data-es="Un fundador que vende servicios de consultoría a empresas estadounidenses recibe una solicitud de prueba de seguro durante la incorporación como proveedor. ¿Cuáles dos tipos de seguro son los más probablemente requeridos?">A founder selling consulting services to U.S. companies is asked to provide proof of insurance during vendor onboarding. Which two types of insurance are most likely required?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Compensación al trabajador y seguro de propiedad comercial">Workers' compensation and commercial property insurance</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Responsabilidad general y responsabilidad profesional (E&amp;O)">General liability and professional liability (E&amp;O)</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Responsabilidad cibernética y seguro de directores y oficiales (D&amp;O)">Cyber liability and directors &amp; officers (D&amp;O) insurance</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Seguro de salud y seguro de discapacidad">Health insurance and disability insurance</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Las empresas estadounidenses comúnmente requieren que los proveedores tengan responsabilidad general (para riesgos físicos y de propiedad) y responsabilidad profesional/E&amp;O (para daño financiero por servicios profesionales). Estos son los dos tipos de seguro solicitados con más frecuencia durante la incorporación de proveedores B2B.">U.S. companies commonly require vendors to carry general liability (for physical and property risks) and professional liability/E&O (for financial harm from professional services). These are the two most frequently requested insurance types during B2B vendor onboarding.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Las empresas estadounidenses comúnmente requieren que los proveedores tengan responsabilidad general (para riesgos físicos y de propiedad) y responsabilidad profesional/E&amp;O (para daño financiero por servicios profesionales). Estos son los dos tipos de seguro solicitados con más frecuencia durante la incorporación de proveedores B2B.">U.S. companies commonly require vendors to carry general liability (for physical and property risks) and professional liability/E&O (for financial harm from professional services). These are the two most frequently requested insurance types during B2B vendor onboarding.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -365,49 +373,49 @@
     <p class="rt-kc-question" data-es="Una fundadora planea vender productos alimenticios empacados en EE.UU. a través de Amazon. Ya registró su LLC y obtuvo seguro de responsabilidad general. ¿Qué paso regulatorio probablemente le falta?">A founder plans to sell packaged food products in the U.S. through Amazon. She has already registered her LLC and obtained general liability insurance. What regulatory step is she most likely missing?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Obtener etiquetado compatible con FDA y cumplir los requisitos de FDACS antes de listar productos">Obtaining FDA-compliant labeling and meeting FDACS requirements before listing products</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Presentar una marca registrada para el nombre de su marca ante el USPTO">Filing a trademark for her brand name with the USPTO</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Comprar seguro de responsabilidad cibernética para proteger los datos de pago de los clientes">Purchasing cyber liability insurance to protect customer payment data</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Registrarse para seguro de compensación al trabajador en Florida">Registering for workers' compensation insurance in Florida</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Los negocios de alimentos y bebidas deben cumplir con las regulaciones de FDA (federal) y FDACS (Florida), incluyendo requisitos de etiquetado, inspecciones de instalaciones y potencialmente pruebas de producto. Estos requisitos regulatorios deben cumplirse antes de vender productos alimenticios en EE.UU., independientemente del canal de ventas. Presentar una marca (opción B) es importante pero no es un requisito regulatorio para la venta de alimentos. El seguro de responsabilidad cibernética (opción C) y la compensación al trabajador (opción D) no son el paso faltante más probable para el lanzamiento de un producto alimenticio.">Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel. Filing a trademark (option B) is important but not a regulatory requirement for food sales. Cyber liability insurance (option C) and workers' comp (option D) are not the most likely missing step for a food product launch.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Los negocios de alimentos y bebidas deben cumplir con las regulaciones de FDA (federal) y FDACS (Florida), incluyendo requisitos de etiquetado, inspecciones de instalaciones y potencialmente pruebas de producto. Estos requisitos regulatorios deben cumplirse antes de vender productos alimenticios en EE.UU., independientemente del canal de ventas. Presentar una marca (opción B) es importante pero no es un requisito regulatorio para la venta de alimentos. El seguro de responsabilidad cibernética (opción C) y la compensación al trabajador (opción D) no son el paso faltante más probable para el lanzamiento de un producto alimenticio.">Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel. Filing a trademark (option B) is important but not a regulatory requirement for food sales. Cyber liability insurance (option C) and workers' comp (option D) are not the most likely missing step for a food product launch.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
   <div class="rt-kc-step" data-step="2" hidden>
-    <p class="rt-kc-question" data-es="Una fundadora de Vietnam se prepara para firmar su primer contrato con una agencia de marketing estadounidense. La agencia quiere discutir su metodología propietaria de analítica antes de firmar. Ella no tiene acuerdos escritos aún. ¿Cuál contrato debería pedirle a la agencia que firme primero?">A founder from Vietnam is preparing to sign her first client contract with a U.S. marketing agency. The agency wants to discuss her proprietary analytics methodology before signing. She has no written agreements in place yet. Which contract should she ask the agency to sign first?</p>
+    <p class="rt-kc-question" data-es="Una fundadora de Vietnam se prepara para firmar su primer contrato con una agencia de marketing estadounidense. La agencia quiere discutir su metodología propietaria de analítica antes de firmar. Ella no tiene acuerdos escritos aún. ¿Cuál contrato debería pedirle a la agencia que firme primero?">A founder from Peru is opening a small food packaging operation in Central Florida. She has general liability insurance and product liability insurance. Her lease requires one additional document before she can move in. What is it?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
-        <span class="rt-kc-text" data-es="Un acuerdo de servicios que cubra alcance, términos de pago y entregables del proyecto">A service agreement covering scope, payment terms, and deliverables for the project</span>
+        <span class="rt-kc-text" data-es="Un acuerdo de servicios que cubra alcance, términos de pago y entregables del proyecto">A Certificate of Insurance (COI) naming the landlord as an additional insured</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
-        <span class="rt-kc-text" data-es="Un documento de términos de servicio para el sitio web de su empresa">A terms-of-service document for her company website</span>
+        <span class="rt-kc-text" data-es="Un documento de términos de servicio para el sitio web de su empresa">A copy of her LLC operating agreement</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
-        <span class="rt-kc-text" data-es="Un acuerdo operativo para su LLC que defina las responsabilidades de los miembros">An operating agreement for her LLC defining member responsibilities</span>
+        <span class="rt-kc-text" data-es="Un acuerdo operativo para su LLC que defina las responsabilidades de los miembros">Proof of workers' compensation insurance</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
-        <span class="rt-kc-text" data-es="Un acuerdo de confidencialidad (NDA) para proteger su metodología propietaria antes de compartir detalles">A non-disclosure agreement (NDA) to protect her proprietary methodology before sharing details</span>
+        <span class="rt-kc-text" data-es="Un acuerdo de confidencialidad (NDA) para proteger su metodología propietaria antes de compartir detalles">A signed non-disclosure agreement with the landlord</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Antes de compartir información propietaria, la fundadora debería hacer que la agencia firme un NDA. Esto protege su metodología de analítica durante la fase de discusión. Un acuerdo de servicios (opción A) viene después de que ambas partes acuerden los términos. Los términos de servicio (opción B) son para los usuarios de su sitio web, no para una negociación con clientes. Un acuerdo operativo (opción C) es un documento interno de la LLC, no relevante para una relación con clientes.">Before sharing proprietary information, the founder should have the agency sign an NDA. This protects her analytics methodology during the discussion phase. A service agreement (option A) comes after both parties agree on terms. Terms of service (option B) is for her website users, not a client negotiation. An operating agreement (option C) is an internal LLC document, not relevant to a client relationship.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Antes de compartir información propietaria, la fundadora debería hacer que la agencia firme un NDA. Esto protege su metodología de analítica durante la fase de discusión. Un acuerdo de servicios (opción A) viene después de que ambas partes acuerden los términos. Los términos de servicio (opción B) son para los usuarios de su sitio web, no para una negociación con clientes. Un acuerdo operativo (opción C) es un documento interno de la LLC, no relevante para una relación con clientes.">Most commercial landlords require a Certificate of Insurance (COI) before allowing a tenant to occupy the space. The COI proves you carry general liability coverage and typically names the landlord as an additional insured party. This is standard practice in U.S. commercial leasing.</p></div>
     
   </div>
 </div>
@@ -471,7 +479,7 @@
 <div class="rt-key-takeaway">
   <h3 data-es="Punto Clave">Key Takeaway</h3>
   <div data-es-html="&lt;p&gt;&lt;p&gt;La conclusión es clara: ponga sus contratos por escrito — siempre, con cada socio. Tenga seguro de responsabilidad general desde el primer día ($400–$800/año). Si presta servicios profesionales, agregue cobertura E&amp;O. Verifique si su industria tiene requisitos regulatorios específicos antes de comenzar a operar. Aplique estos pasos temprano: los costos son mucho menores que demandas, multas o contratos perdidos. Evalúe sus necesidades de cobertura ahora, antes de que un cliente o arrendador le pida prueba.&lt;/p&gt;&lt;/p&gt;
-"><p><p>The takeaway is clear: get your contracts in writing — every time, with every partner. Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p></p>
+"><p><p>Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p></p>
 </div>
 </div>
 </section>

@@ -1,7 +1,7 @@
 {
   "lessonId": "lesson-8-2",
   "moduleId": "module-8",
-  "landscapeTheme": "UCF Headquarters",
+  "landscapeTheme": "UCF Campus",
   "title": "Resource Downloads & Digital Credential",
   "duration": 5,
   "objectives": [
@@ -12,8 +12,8 @@
     {
       "type": "text",
       "id": "text-8-2-1",
-      "title": "Your Takeaway Resources from Campus HQ",
-      "content": "<p>With your readiness assessment complete, think of this as walking through the [UCF BIP](https://incubator.ucf.edu) resource center before heading out. You would not leave campus without picking up the materials that turn everything you learned into a real plan. These four downloadable resources do exactly that:</p>\n\n<ol><li><strong>U.S. Market Entry Checklist</strong> . Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong> . Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong> . Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong> . Structured go/no-go framework to consider whether now is the right time.</li></ol>\n\n<p>Download all four now. They pair directly with your 1:1 meeting with [UCF BIP](https://incubator.ucf.edu).</p>",
+      "title": "Your Takeaway Resources",
+      "content": "<p>With your readiness assessment complete, download the four resources that turn what you learned into an actionable plan:</p>\n\n<ol><li><strong>U.S. Market Entry Checklist</strong>. Module-by-module action list from legal setup to ecosystem resources.</li><li><strong>Florida Setup Roadmap</strong>. Step-by-step sequence from entity formation to fully operational.</li><li><strong>Central Florida Resource Guide</strong>. Directory of organizations, contacts, and programs for international founders.</li><li><strong>Expansion Decision Worksheet</strong>. Structured go/no-go framework to consider whether now is the right time.</li></ol>\n\n<p>Download all four now. They pair directly with your 1:1 meeting with [UCF BIP](https://incubator.ucf.edu).</p>",
       "wordCount": 101
     },
     {
@@ -27,7 +27,7 @@
       "type": "text",
       "id": "text-8-2-2",
       "title": "Resource 1: U.S. Market Entry Checklist",
-      "content": "<p>This is your pre-departure checklist — every item, verified. The <strong>U.S. Market Entry Checklist</strong> turns every major topic from this program into action items grouped by module: legal setup, finances, IP protection, team building, market entry, culture, and ecosystem resources. Each item includes a priority level and suggested timeframe.</p>\n\n<p>What does that mean for you? Tip: Start with the ecosystem section — it connects you with free resources before you start paying for services.</p>",
+      "content": "<p>This is your comprehensive checklist, every item, verified. The <strong>U.S. Market Entry Checklist</strong> turns every major topic from this program into action items grouped by module: legal setup, finances, IP protection, team building, market entry, culture, and ecosystem resources. Each item includes a priority level and suggested timeframe.</p>\n\n<p>Tip: Start with the ecosystem section. It connects you with free resources before you start paying for services.</p>",
       "wordCount": 65
     },
     {
@@ -41,14 +41,14 @@
       "type": "text",
       "id": "text-8-2-4",
       "title": "Resource 3: Central Florida Resource Guide",
-      "content": "<p>This is your campus directory — every support organization, one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, [UCF BIP](https://incubator.ucf.edu)), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through [UCF BIP](https://incubator.ucf.edu).</p>\n\n<p>Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p>",
+      "content": "<p>This guide puts every support organization one call away. The <strong>Central Florida Resource Guide</strong> puts all the groups from Module 7 into a single, easy-to-search reference. It covers business advising (SBDC, SCORE, [UCF BIP](https://incubator.ucf.edu)), incubators and accelerators, government programs (SBA, Enterprise Florida), professional services (attorneys, CPAs, banking contacts), networking and community organizations, and details on what comes after this course through [UCF BIP](https://incubator.ucf.edu).</p>\n\n<p>Each entry includes the organization name, what they offer, and their website. Bookmark it and update it as you discover new resources through networking.</p>",
       "wordCount": 80
     },
     {
       "type": "text",
       "id": "text-8-2-5",
       "title": "Resource 4: Expansion Decision Worksheet",
-      "content": "<p>This is your go/no-go decision — the honest assessment before you commit. The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five areas: market fit, financial readiness, legal readiness, operations, and timing.</p>\n\n<p>This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p>\n\n<p>Complete this before your 1:1 meeting with [UCF BIP](https://incubator.ucf.edu) — it helps the team give you targeted advice based on your specific readiness profile.</p>",
+      "content": "<p>This is your go/no-go decision, the honest assessment before you commit. The <strong>Expansion Decision Worksheet</strong> helps you decide whether to enter the U.S. market now. It scores you across five areas: market fit, financial readiness, legal readiness, operations, and timing.</p>\n\n<p>This is not pass/fail. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. The worksheet tells you what gap to close first.</p>\n\n<p>Complete this before your 1:1 meeting with [UCF BIP](https://incubator.ucf.edu). It helps the team give you targeted advice based on your specific readiness profile.</p>",
       "wordCount": 102
     },
     {
@@ -78,7 +78,7 @@
       "type": "text",
       "id": "text-8-2-6",
       "title": "Your Digital Credential",
-      "content": "<p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong> : a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the [UCF BIP](https://incubator.ucf.edu) U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p>\n\n<p>Now, here is where it gets tricky. The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification — but it signals you took a structured, university-backed program seriously.</p>\n\n<h4>How to Claim Your Credential</h4>\n\n<p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p>\n\n<ol><li>Open the email and select the claim link</li><li>Set up your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol>\n\n<p>The credential does not expire.</p>",
+      "content": "<p>Your completion credential — proof you finished the program. When you complete this program, you earn a <strong>digital credential</strong>: a verified badge for your LinkedIn profile, website, or email signature. It validates completion of the [UCF BIP](https://incubator.ucf.edu) U.S. Market Readiness Program, backed by one of the largest and most active university incubation ecosystems in the country.</p>\n\n<p>The credential is issued through <strong>POK Tech</strong>, the same provider used by Arizona State University and other major universities. It is a <strong>program completion credential</strong>, not a professional certification, but it signals you took a structured, university-backed program seriously.</p>\n\n<h4>How to Claim Your Credential</h4>\n\n<p>After completing the program, you receive an email from POK Tech. The process takes five minutes:</p>\n\n<ol><li>Open the email and select the claim link</li><li>Set up your POK Tech account (or log in)</li><li>Accept the credential</li><li>Share to LinkedIn using the built-in sharing tool</li></ol>\n\n<p>The credential does not expire.</p>",
       "wordCount": 135
     },
     {
@@ -102,7 +102,7 @@
             "Central Florida Resource Guide — it lists organizations and contacts available to founders"
           ],
           "correctAnswer": 1,
-          "explanation": "The Florida Setup Roadmap is organized by sequence rather than by topic. It walks founders through four phases : pre-arrival preparation, entity formation, financial infrastructure, and operational readiness — in the correct order. The Checklist organizes by module topic, while the Roadmap answers 'what do I do first, second, third?'"
+          "explanation": "The Florida Setup Roadmap is organized by sequence rather than by topic. It walks founders through four phases: pre-arrival preparation, entity formation, financial infrastructure, and operational readiness — in the correct order. The Checklist organizes by module topic, while the Roadmap answers 'what do I do first, second, third?'"
         },
         {
           "stem": "A founder completed the Expansion Decision Worksheet and scored high on market fit but low on financial readiness. Based on the lesson guidance, what is the most strategic response?",
@@ -132,7 +132,7 @@
       "type": "key-takeaway",
       "id": "kt-8-2-1",
       "title": "Key Takeaway",
-      "content": "<p>The takeaway is this: do not leave headquarters without your equipment. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the [UCF BIP](https://incubator.ucf.edu) team at campus headquarters. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p>"
+      "content": "<p>Download these resources before your 1:1 meeting with UCF BIP. These four resources are yours to keep, and they extend the value of this program beyond the screen and into your actual business planning. The checklist keeps you organized. The roadmap keeps you in sequence. The resource guide connects you to help. The decision worksheet keeps you honest about readiness. Apply these tools to your planning: download all four now, and bring them to your 1:1 meeting with the [UCF BIP](https://incubator.ucf.edu) team. And claim your digital credential on LinkedIn. It is a small step, but it signals to everyone in your network that you are serious about doing this the right way.</p>"
     }
   ]
 }

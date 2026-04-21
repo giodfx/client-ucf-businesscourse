@@ -186,6 +186,67 @@
     });
   });
 
+  /* ── Restore dashboard state when returning via Back button (bfcache) ──
+     When a user navigates back from a lesson, the browser may restore the page
+     from its back/forward cache with video paused and the transition layer
+     still visible. Reset everything so the looping background video plays again. */
+  window.addEventListener('pageshow', function (e) {
+    // Only intervene on bfcache restores — fresh loads already autoplay correctly
+    if (!e.persisted) return;
+
+    // Reset transition layer (in case user came back mid-transition)
+    if (transLayer) {
+      transLayer.classList.remove('is-playing');
+      transLayer.setAttribute('aria-hidden', 'true');
+    }
+    if (transVideo) {
+      try { transVideo.pause(); transVideo.removeAttribute('src'); transVideo.load(); } catch (err) {}
+    }
+    transitioning = false;
+
+    // Restart the looping background video
+    if (video) {
+      try {
+        video.currentTime = 0;
+        var p = video.play();
+        if (p && typeof p.catch === 'function') p.catch(function () {});
+      } catch (err) {}
+    }
+  });
+
+  /* ── Settings dropdown ── */
+
+  var btnSettings = document.getElementById('btnSettings');
+  var settingsDropdown = document.getElementById('settingsDropdown');
+
+  function toggleSettings(forceClose) {
+    if (!settingsDropdown || !btnSettings) return;
+    var isOpen = settingsDropdown.classList.contains('is-open');
+    if (forceClose || isOpen) {
+      settingsDropdown.classList.remove('is-open');
+      btnSettings.setAttribute('aria-expanded', 'false');
+    } else {
+      settingsDropdown.classList.add('is-open');
+      btnSettings.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  if (btnSettings) {
+    btnSettings.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleSettings();
+    });
+  }
+
+  // Close on outside click
+  document.addEventListener('click', function (e) {
+    if (settingsDropdown && settingsDropdown.classList.contains('is-open')) {
+      if (!settingsDropdown.contains(e.target) && e.target !== btnSettings) {
+        toggleSettings(true);
+      }
+    }
+  });
+
   /* ── Theme toggle (dark / light) ── */
 
   var THEME_KEY = 'vd-theme';
@@ -212,4 +273,119 @@
       applyTheme(current === 'light' ? 'dark' : 'light');
     });
   }
+
+  /* ── Rewatch / Disclaimer buttons ── */
+
+  var btnRewatch = document.getElementById('btnRewatch');
+  var btnDisclaimer = document.getElementById('btnDisclaimer');
+  var obGate = document.getElementById('obGate');
+
+  function showOnboardingStep(stepNum) {
+    toggleSettings(true);
+    if (!obGate) return;
+    obGate.hidden = false;
+    obGate.style.opacity = '1';
+    obGate.style.transition = '';
+    // Hide all steps, show target
+    document.querySelectorAll('.ob-step').forEach(function (s) {
+      s.classList.remove('ob-step--active');
+    });
+    var target = document.getElementById('obStep' + stepNum);
+    if (target) target.classList.add('ob-step--active');
+
+    // Stop the intro video whenever the modal closes (X, Escape, overlay click)
+    function stopIntroVideo() {
+      var introVid = document.getElementById('obIntroVideo');
+      if (introVid) {
+        try { introVid.pause(); introVid.currentTime = 0; } catch (e) {}
+      }
+    }
+
+    // Inject a visible close button into the active card
+    var card = target ? target.querySelector('.ob-card') : null;
+    if (card && !card.querySelector('.ob-close-btn')) {
+      card.style.position = 'relative';
+      var closeBtn = document.createElement('button');
+      closeBtn.className = 'ob-close-btn';
+      closeBtn.setAttribute('aria-label', 'Close');
+      closeBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>';
+      card.insertBefore(closeBtn, card.firstChild);
+      closeBtn.addEventListener('click', function () {
+        stopIntroVideo();
+        obGate.hidden = true;
+        closeBtn.remove();
+        document.removeEventListener('keydown', closeHandler);
+        obGate.removeEventListener('click', closeHandler);
+      });
+    }
+
+    // ESC or clicking overlay background closes
+    var closeHandler = function (e) {
+      if (e.key === 'Escape' || e.target === obGate) {
+        stopIntroVideo();
+        obGate.hidden = true;
+        var btn = obGate.querySelector('.ob-close-btn');
+        if (btn) btn.remove();
+        document.removeEventListener('keydown', closeHandler);
+        obGate.removeEventListener('click', closeHandler);
+      }
+    };
+    document.addEventListener('keydown', closeHandler);
+    obGate.addEventListener('click', closeHandler);
+  }
+
+  if (btnRewatch) {
+    btnRewatch.addEventListener('click', function () { showOnboardingStep(2); });
+  }
+  if (btnDisclaimer) {
+    btnDisclaimer.addEventListener('click', function () { showOnboardingStep(3); });
+  }
+
+  /* ── Progress calculation for destination cards ── */
+
+  // DEMO: seed sample progress so Downtown=100% and Space Center=33%
+  (function seedDemo() {
+    try {
+      var p = JSON.parse(localStorage.getItem('rt-progress') || '{}');
+      var v = p.visited || [];
+      var demoIds = ['lesson-1-1','lesson-1-2','lesson-1-3','lesson-3-1'];
+      var changed = false;
+      demoIds.forEach(function (id) {
+        if (v.indexOf(id) === -1) { v.push(id); changed = true; }
+      });
+      if (changed) { p.visited = v; localStorage.setItem('rt-progress', JSON.stringify(p)); }
+    } catch (e) {}
+  })();
+
+  function updateCardProgress() {
+    var progress;
+    try { progress = JSON.parse(localStorage.getItem('rt-progress') || '{}'); } catch (e) { progress = {}; }
+    var visited = progress.visited || [];
+
+    document.querySelectorAll('.vd-dest[data-lesson-ids]').forEach(function (card) {
+      var lessonIds = (card.getAttribute('data-lesson-ids') || '').split(',').filter(Boolean);
+      var total = lessonIds.length;
+      if (total === 0) return;
+
+      var done = 0;
+      lessonIds.forEach(function (lid) {
+        if (visited.indexOf(lid) !== -1) done++;
+      });
+
+      var pct = Math.round((done / total) * 100);
+      var fillEl = card.querySelector('.vd-dest-progress-fill');
+
+      if (fillEl) fillEl.style.width = pct + '%';
+
+      if (pct >= 100) {
+        card.classList.add('vd-dest--complete');
+      } else {
+        card.classList.remove('vd-dest--complete');
+      }
+    });
+  }
+
+  // Run on load
+  updateCardProgress();
+
 })();

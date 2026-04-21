@@ -17,7 +17,33 @@
     });
     btn.classList.add('rt-kc-selected');
     if (!isCorrect) btn.classList.add('rt-kc-incorrect');
-    if (explanation) explanation.hidden = false;
+    if (explanation) {
+      explanation.hidden = false;
+      // Inject avatar reaction image (correct/incorrect state)
+      if (!explanation.querySelector('.rt-feedback-avatar') && !explanation.querySelector('.rt-feedback-avatar-placeholder')) {
+        var modIdx = document.body.dataset.moduleIndex || '';
+        if (modIdx) {
+          var suffix = isCorrect ? '-correct' : '-incorrect';
+          var img = document.createElement('img');
+          img.className = 'rt-feedback-avatar' + (isCorrect ? ' rt-feedback-avatar--correct' : ' rt-feedback-avatar--incorrect');
+          img.src = 'images/avatars/reactions/module-' + modIdx + suffix + '.png';
+          img.alt = '';
+          img.setAttribute('aria-hidden', 'true');
+          img.onerror = function() {
+            // Fallback: show placeholder with SVG expression
+            this.style.display = 'none';
+            var ph = document.createElement('span');
+            ph.className = 'rt-feedback-avatar-placeholder' + (isCorrect ? ' rt-feedback-avatar-placeholder--correct' : ' rt-feedback-avatar-placeholder--incorrect');
+            ph.setAttribute('aria-hidden', 'true');
+            ph.innerHTML = isCorrect
+              ? '<svg viewBox="0 0 48 48" width="40" height="40" fill="none"><circle cx="24" cy="24" r="20" stroke="#22c55e" stroke-width="2"/><path d="M16 28c2 4 6 6 8 6s6-2 8-6" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/><circle cx="18" cy="20" r="2" fill="#22c55e"/><circle cx="30" cy="20" r="2" fill="#22c55e"/></svg>'
+              : '<svg viewBox="0 0 48 48" width="40" height="40" fill="none"><circle cx="24" cy="24" r="20" stroke="#f59e0b" stroke-width="2"/><path d="M16 30c2 2 5 3 8 3s6-1 8-3" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/><circle cx="18" cy="20" r="2" fill="#f59e0b"/><circle cx="30" cy="20" r="2" fill="#f59e0b"/></svg>';
+            this.parentNode.insertBefore(ph, this);
+          };
+          explanation.insertBefore(img, explanation.firstChild);
+        }
+      }
+    }
     if (nextBtn) nextBtn.hidden = false;
   };
 
@@ -182,7 +208,13 @@
     if (!isGood) chosen.classList.add('scenario-incorrect');
 
     if (feedback && outcome) {
-      feedback.innerHTML = (isGood ? '<strong>Good call!</strong> ' : '<strong>Not quite.</strong> ') + outcome;
+      var modIdx = document.body.dataset.moduleIndex || '';
+      var suffix = isGood ? '-correct' : '-incorrect';
+      var avatarHtml = '';
+      if (modIdx) {
+        avatarHtml = '<img class="rt-feedback-avatar ' + (isGood ? 'rt-feedback-avatar--correct' : 'rt-feedback-avatar--incorrect') + '" src="images/avatars/reactions/module-' + modIdx + suffix + '.png" alt="" aria-hidden="true" onerror="this.style.display=\'none\'">';
+      }
+      feedback.innerHTML = avatarHtml + (isGood ? '<strong>Good call!</strong> ' : '<strong>Not quite.</strong> ') + outcome;
       feedback.classList.add('show');
     }
   };

@@ -428,65 +428,124 @@
     // ========================================================================
 
     /**
-     * Inject language + theme controls into the hero banner
+     * Inject settings gear dropdown into the hero banner (replaces old lang+theme controls)
      */
-    function injectThemeToggle() {
-        // Skip if on index page (has its own toggle)
-        if (document.querySelector('.vd-theme-toggle')) return;
+    function injectSettingsGear() {
+        // Skip if on index page (has its own settings gear)
+        if (document.querySelector('.vd-settings-wrap')) return;
 
         var hero = document.querySelector('.rt-landscape-hero');
         if (!hero) return;
 
-        // Create controls container overlaying the hero top-right
-        var controls = document.createElement('div');
-        controls.className = 'rt-hero-controls';
+        // Remove old hero controls if present
+        var oldControls = hero.querySelector('.rt-hero-controls');
+        if (oldControls) oldControls.remove();
 
-        // Move language switch from header row into hero
-        var langSwitch = document.querySelector('.rt-lang-switch');
-        if (langSwitch) {
-            controls.appendChild(langSwitch);
-        } else {
-            // If lang mount exists but switch hasn't rendered yet, move the mount
-            var langMount = document.getElementById('rt-lang-mount');
-            if (langMount && langMount.parentNode) {
-                controls.appendChild(langMount);
-            }
-        }
-
-        // Create theme toggle
-        var btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'theme-toggle-btn rt-theme-toggle';
-        btn.setAttribute('aria-label', 'Toggle light/dark theme');
-        btn.innerHTML =
-            '<svg class="theme-icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">' +
-            '<circle cx="12" cy="12" r="5"/>' +
-            '<g stroke="currentColor" stroke-width="2" stroke-linecap="round">' +
-            '<line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>' +
-            '<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>' +
-            '<line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>' +
-            '<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>' +
-            '</g></svg>' +
-            '<svg class="theme-icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">' +
-            '<path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/>' +
-            '</svg>';
-        btn.addEventListener('click', function() { window.toggleTheme(); });
-        controls.appendChild(btn);
-
-        hero.appendChild(controls);
-
-        // Set initial icon state
         var dark = isDarkMode();
-        var sun = btn.querySelector('.theme-icon-sun');
-        var moon = btn.querySelector('.theme-icon-moon');
-        btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
-        if (sun) sun.style.display = dark ? 'block' : 'none';
-        if (moon) moon.style.display = dark ? 'none' : 'block';
+        var currentLang = 'en';
+        try {
+            var _p = JSON.parse(localStorage.getItem('rt-progress') || '{}');
+            if (_p.language) currentLang = _p.language;
+        } catch(e) {}
+
+        // Build the settings gear HTML
+        var wrap = document.createElement('div');
+        wrap.className = 'rt-settings-wrap';
+        wrap.innerHTML =
+            '<button class="rt-settings-btn" id="rtSettingsBtn" aria-label="Settings" aria-expanded="false" aria-haspopup="true">' +
+              '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+              '<circle cx="12" cy="12" r="3"/>' +
+              '<path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>' +
+              '</svg>' +
+            '</button>' +
+            '<div class="rt-settings-dropdown" id="rtSettingsDropdown">' +
+              '<div class="rt-settings-item">' +
+                '<span class="rt-settings-label">Language</span>' +
+                '<span class="rt-lang-pill">' +
+                  '<button class="rt-lang-pill-opt' + (currentLang === 'en' ? ' is-active' : '') + '" data-lang="en" aria-label="English">EN</button>' +
+                  '<button class="rt-lang-pill-opt' + (currentLang === 'es' ? ' is-active' : '') + '" data-lang="es" aria-label="Español">ES</button>' +
+                '</span>' +
+              '</div>' +
+              '<div class="rt-settings-divider"></div>' +
+              '<div class="rt-settings-item">' +
+                '<span class="rt-settings-label">Theme</span>' +
+                '<span class="rt-theme-pill">' +
+                  '<button class="rt-theme-pill-opt' + (!dark ? ' is-active' : '') + '" data-mode="light" aria-label="Light">' +
+                    '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><circle cx="12" cy="12" r="5"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></g></svg>' +
+                  '</button>' +
+                  '<button class="rt-theme-pill-opt' + (dark ? ' is-active' : '') + '" data-mode="dark" aria-label="Dark">' +
+                    '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>' +
+                  '</button>' +
+                '</span>' +
+              '</div>' +
+            '</div>';
+
+        // Append to body (not hero) — hero has aria-hidden="true" which blocks interactive children
+        document.body.appendChild(wrap);
+
+        // --- Event listeners ---
+        var gearBtn = document.getElementById('rtSettingsBtn');
+        var dropdown = document.getElementById('rtSettingsDropdown');
+
+        // Toggle dropdown
+        gearBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var open = dropdown.classList.toggle('is-open');
+            gearBtn.setAttribute('aria-expanded', open);
+        });
+
+        // Close on click outside
+        document.addEventListener('click', function(e) {
+            if (!wrap.contains(e.target)) {
+                dropdown.classList.remove('is-open');
+                gearBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Close on Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && dropdown.classList.contains('is-open')) {
+                dropdown.classList.remove('is-open');
+                gearBtn.setAttribute('aria-expanded', 'false');
+                gearBtn.focus();
+            }
+        });
+
+        // Theme pill clicks
+        wrap.querySelectorAll('.rt-theme-pill-opt').forEach(function(opt) {
+            opt.addEventListener('click', function() {
+                var mode = opt.dataset.mode;
+                window.setThemeMode(mode === 'dark');
+                wrap.querySelectorAll('.rt-theme-pill-opt').forEach(function(o) {
+                    o.classList.toggle('is-active', o.dataset.mode === mode);
+                });
+            });
+        });
+
+        // Language pill clicks — saves to rt-progress.language and reloads (same as rt-language.js)
+        wrap.querySelectorAll('.rt-lang-pill-opt').forEach(function(opt) {
+            opt.addEventListener('click', function() {
+                var newLang = opt.dataset.lang;
+                if (newLang === (window.rtLanguage || 'en')) return;
+                try {
+                    var progress = JSON.parse(localStorage.getItem('rt-progress') || '{}');
+                    progress.language = newLang;
+                    localStorage.setItem('rt-progress', JSON.stringify(progress));
+                } catch(e) {}
+                window.location.reload();
+            });
+        });
+
+        // Hide the old standalone lang switch (it's now in the gear dropdown)
+        var oldLangSwitch = document.querySelector('.rt-lang-switch');
+        if (oldLangSwitch) oldLangSwitch.style.display = 'none';
+        var oldLangMount = document.getElementById('rt-lang-mount');
+        if (oldLangMount) oldLangMount.style.display = 'none';
     }
 
     function init() {
         restoreTheme();
-        injectThemeToggle();
+        injectSettingsGear();
         restoreSidebarState();
         highlightActiveLesson();
         restoreExpandedModules();

@@ -26,11 +26,15 @@
   <!-- Scroll Progress -->
   <div class="rt-scroll-progress" aria-hidden="true"></div>
 
-  <!-- Landscape Hero — Painterly image with drip effect -->
+  <!-- Landscape Hero — Panoramic scenic image with module label -->
   <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)" aria-hidden="true">
     <img src="images/lesson-3-1-hero.jpg" alt="" class="rt-hero-img"
          onerror="this.style.display='none'" />
     <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true"><img src="images/Icons/space_center.svg" alt="" width="24" height="24"></span>
+      <span data-es="EL CENTRO ESPACIAL">SPACE CENTER</span>
+    </div>
     <div class="rt-hero-drips">
       <div class="rt-drip rt-drip--1"></div>
       <div class="rt-drip rt-drip--2"></div>
@@ -45,7 +49,7 @@
   <div class="rt-lesson-layout">
     <!-- Breadcrumb — overlaps hero drip zone -->
     <nav class="rt-breadcrumb" aria-label="Breadcrumb">
-      <a href="index.html">Dashboard</a>
+      <a href="index.html" data-es="Destinos">Destinations</a>
       <span class="rt-breadcrumb-sep" aria-hidden="true">
         <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </span>
@@ -60,17 +64,17 @@
     <button class="rt-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="toggleMobileNav()">
       <span></span><span></span><span></span>
     </button>
-    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()"></div>
+    <div class="rt-sidebar-backdrop" onclick="toggleMobileNav()" role="presentation" aria-hidden="true"></div>
 
     <div class="rt-lesson-grid">
       <!-- Route Sidebar -->
       <aside class="rt-route-sidebar" aria-label="Module stops">
         <div class="rt-route-header">
           <div class="rt-route-icon" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 28 L32 40 L24 36 L16 40 L20 28 Z" fill="currentColor" opacity="0.8"/><path d="M22 28 L18 40 M26 28 L30 40" stroke="currentColor" stroke-width="2" opacity="0.5"/><circle cx="24" cy="16" r="2" fill="currentColor" opacity="0.4"/><path d="M16 42 h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></svg>
+            <img src="images/Icons/space_center.svg" alt="" width="28" height="28">
           </div>
           <div>
-            <p class="rt-route-module-label">Destination 3</p>
+            <p class="rt-route-module-label">Space Center</p>
             <p class="rt-route-module-title">Protecting What You're Building</p>
           </div>
         </div>
@@ -91,9 +95,9 @@
               <a href="lesson-3-3.html" class="rt-stop-link" >When to Bring In a Lawyer — And What It Costs</a>
             </li>
         </ol>
-        <a href="index.html" class="rt-back-to-dash" data-es="Volver al Tablero">
+        <a href="index.html" class="rt-back-to-dash" data-es="Volver a Destinos">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Back to Dashboard
+          Back to Destinations
         </a>
       </aside>
 
@@ -102,11 +106,16 @@
         <article class="rt-lesson-content">
           <header class="rt-lesson-header">
             <div class="rt-lesson-header-row">
-              <span class="rt-lesson-tag" style="background: linear-gradient(135deg, #553c7b 0%, #3b2363 100%)">Cape Canaveral</span>
               <div id="rt-lang-mount"></div>
             </div>
             <h1 class="rt-lesson-title" data-es="Propiedad Intelectual — Protegiendo Sus Ideas en EE.UU.">Intellectual Property — Protecting Your Ideas in the U.S.</h1>
           </header>
+
+          <!-- Module Intro Accent -->
+          <div class="rt-module-intro">
+            <h2 class="rt-module-intro-title" data-es="EL CENTRO ESPACIAL">Space Center</h2>
+            <p class="rt-module-intro-desc" data-es="Proteja su negocio con la propiedad intelectual, seguros y contratos correctos">Shield your business with the right IP, insurance, and contracts</p>
+          </div>
 
           
 <section class="video-section" aria-label="Lesson Video">
@@ -123,19 +132,27 @@
           
 
           <div class="rt-text-flow">
-            <h2 data-es="Bienvenido a la Instalación de Lanzamiento, Protegiendo Lo Que Ha Construido">Welcome to the Launch Facility, Protecting What You Have Built</h2>
+            <h2 data-es="Bienvenido a la Instalación de Lanzamiento, Protegiendo Lo Que Ha Construido">Protecting What You Have Built</h2>
 <div data-es-html="&lt;p&gt;&lt;p&gt;Una fundadora de Chile construyó una aplicación de entregas exitosa en toda Sudamérica. Cuando se expandió a Florida, descubrió que su registro de marca chilena no significaba nada en Estados Unidos. Los derechos de propiedad intelectual son territoriales — la protección en un país no se extiende automáticamente a otro. Si planea operar en EE.UU., necesita protección en EE.UU.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;Existen tres tipos principales de protección de propiedad intelectual, cada uno cubriendo diferentes aspectos de su negocio. La comparación a continuación explica qué protege cada uno, cuánto cuesta y cuándo lo necesita.&lt;/p&gt;&lt;/p&gt;
 "><p><p>A founder from Chile built a successful delivery app across South America. When she expanded to Florida, she discovered that her Chilean trademark registration meant nothing in the United States. Intellectual property rights are territorial — protection in one country does not automatically extend to another. If you plan to operate in the U.S., you need U.S. protection.</p></p>
 <p><p>There are three main types of IP protection, each covering different aspects of your business. The comparison below explains what each one protects, what it costs, and when you need it.</p></p>
 </div>
+<div class="rt-callout rt-callout--callout">
+  <span class="rt-callout-icon" aria-hidden="true">&#8505;</span>
+  <div class="rt-callout-body">
+    <p class="rt-callout-title">Did You Know?</p>
+    <p><p>Kennedy Space Center at Cape Canaveral has generated more than 1,800 patent citations since the 1960s — including technologies that became the basis for scratch-resistant lenses, memory foam, and wireless headsets. The region's aerospace ecosystem created a culture of protecting ideas early. That same infrastructure of IP attorneys and technology licensing offices is now available to commercial founders building businesses across Central Florida.</p></p>
+
+  </div>
+</div>
 <div class="rt-ctbl-wrap" data-table-id="table-3-1-1">
   <h3 class="rt-ctbl-title" data-es="Tipos de Protección de PI — Resumen Rápido">IP Protection Types — Quick Overview</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th data-es="Tipo de Protección">Protection Type</th><th data-es="Qué Cubre">What It Covers</th><th data-es="Cómo Obtenerlo">How to Get It</th><th data-es="Costo (principios de 2026)">Cost (as of early 2026)</th><th data-es="Plazo">Timeline</th><th data-es="¿Necesita Abogado?">Need a Lawyer?</th></tr></thead>
+      <thead><tr><th scope="col" data-es="Tipo de Protección">Protection Type</th><th scope="col" data-es="Qué Cubre">What It Covers</th><th scope="col" data-es="Cómo Obtenerlo">How to Get It</th><th scope="col" data-es="Costo (principios de 2026)">Cost (as of early 2026)</th><th scope="col" data-es="Plazo">Timeline</th><th scope="col" data-es="¿Necesita Abogado?">Need a Lawyer?</th></tr></thead>
       <tbody>
-      <tr><td class="rt-ctbl-label" data-es="Derechos de Autor (Copyright)">Copyright</td><td data-es="Obras creativas: código, contenido, diseños, medios">Creative works: code, content, designs, media</td><td data-es="Automático al crear; registrar para hacer cumplir">Automatic on creation; register for enforcement</td><td data-es="$45–$65 por obra">$45–$65 per work</td><td data-es="3–6 meses para registro">3–6 months for registration</td><td data-es="Generalmente no se necesita para presentación básica">Usually not needed for basic filing</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Derechos de Autor (Copyright)">Copyright</td><td data-es="Obras creativas: código, contenido, diseños, medios">Creative works: code, content, designs, media</td><td data-es="Automático al crear; registrar para hacer cumplir">Automatic on creation; register for enforcement</td><td data-es="$45–$65 por obra">$45–$65 per work</td><td data-es="3–6 meses para registro">2–6 months for registration</td><td data-es="Generalmente no se necesita para presentación básica">Usually not needed for basic filing</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Marca Registrada (Trademark)">Trademark</td><td data-es="Identidad de marca: nombre, logo, eslogan">Brand identity: name, logo, slogan</td><td data-es="Presentar solicitud ante el USPTO">File application with USPTO</td><td data-es="$250–$350 por clase (solo tarifa de presentación)">$250–$350 per class (filing fee only)</td><td data-es="8–12 meses para aprobación">8–12 months for approval</td><td data-es="Recomendado — los errores retrasan el proceso">Recommended — mistakes delay the process</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Patente (Utility)">Patent (Utility)</td><td data-es="Invenciones: procesos, máquinas, métodos">Inventions: processes, machines, methods</td><td data-es="Presentar solicitud ante el USPTO">File application with USPTO</td><td data-es="$5,000–$15,000+ (con abogado)">$5,000–$15,000+ (with attorney)</td><td data-es="2–3 años para aprobación">2–3 years for approval</td><td data-es="Sí — las solicitudes de patente son complejas">Yes — patent applications are complex</td></tr>
       </tbody>
@@ -146,11 +163,11 @@
   <h3 class="rt-ctbl-title" data-es="Derechos de Autor vs. Marca Registrada vs. Patente">Copyright vs. Trademark vs. Patent</h3>
   <div class="rt-ctbl-scroll">
     <table class="rt-ctbl">
-      <thead><tr><th></th><th data-es="Derechos de Autor">Copyright</th><th data-es="Marca Registrada">Trademark</th><th data-es="Patente">Patent</th></tr></thead>
+      <thead><tr><th></th><th scope="col" data-es="Derechos de Autor">Copyright</th><th scope="col" data-es="Marca Registrada">Trademark</th><th scope="col" data-es="Patente">Patent</th></tr></thead>
       <tbody><tr><td class="rt-ctbl-label" data-es="Protege">Protects</td><td data-es="Obras creativas originales (código, texto, diseños, música)">Original creative works (code, text, designs, music)</td><td data-es="Nombres de marca, logos, eslóganes">Brand names, logos, slogans</td><td data-es="Invenciones, procesos, métodos únicos">Inventions, processes, unique methods</td></tr>
       <tr><td class="rt-ctbl-label" data-es="Duración">Duration</td><td data-es="Vida del autor + 70 años">Life of author + 70 years</td><td data-es="Indefinida (con renovación cada 10 años)">Indefinite (with renewal every 10 years)</td><td data-es="20 años desde la fecha de presentación">20 years from filing date</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Costo de Registro">Cost to Register</td><td data-es="$45–$65 (USPTO/Copyright Office)">$45–$65 (USPTO/Copyright Office)</td><td data-es="$250–$350 por clase (USPTO)">$250–$350 per class (USPTO)</td><td data-es="$5,000–$15,000+ (con abogado)">$5,000–$15,000+ (with attorney)</td></tr>
-      <tr><td class="rt-ctbl-label" data-es="Plazo">Timeline</td><td data-es="3–6 meses">3–6 months</td><td data-es="8–12 meses">8–12 months</td><td data-es="2–4 años">2–4 years</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Costo de Registro">Cost to Register</td><td data-es="$45–$65 (USPTO/Copyright Office)">$45–$65 (U.S. Copyright Office)</td><td data-es="$250–$350 por clase (USPTO)">$250–$350 per class (USPTO)</td><td data-es="$5,000–$15,000+ (con abogado)">$5,000–$15,000+ (with attorney)</td></tr>
+      <tr><td class="rt-ctbl-label" data-es="Plazo">Timeline</td><td data-es="3–6 meses">2–6 months</td><td data-es="8–12 meses">8–12 months</td><td data-es="2–4 años">2–4 years</td></tr>
       <tr><td class="rt-ctbl-label" data-es="¿Necesita Abogado?">Lawyer Needed?</td><td data-es="Generalmente no para presentación básica">Usually not for basic filing</td><td data-es="Recomendado — mejora las probabilidades de aprobación">Recommended — improves approval odds</td><td data-es="Sí — proceso complejo que requiere abogado de patentes">Yes — complex process requires patent attorney</td></tr>
       <tr><td class="rt-ctbl-label" data-es="¿Automático?">Automatic?</td><td data-es="Sí — existe al momento de la creación, el registro lo fortalece">Yes — exists at creation, registration strengthens it</td><td data-es="No — debe presentar ante el USPTO para protección federal">No — must file with USPTO for federal protection</td><td data-es="No — debe presentar y ser aprobado por el USPTO">No — must file and be approved by USPTO</td></tr></tbody>
     </table>
@@ -235,7 +252,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Reduzca el Riesgo — Registre Su Marca Antes de Lanzar">Reduce Risk — Register Your Trademark Before You Launch</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;¿Por qué es importante esto? Si otra persona presenta el nombre de su marca en EE.UU. primero, puede perderlo — incluso si lo ha usado durante años en otro país. El sistema de marcas registradas de EE.UU. otorga derechos fuertes al primer solicitante. Comience el proceso antes de invertir en marketing, empaque o señalización en EE.UU. La tarifa de presentación de $250–$350 es mucho menor que el costo de cambiar de marca.&lt;/p&gt;&lt;/p&gt;
-"><p><p>Why does this matter? If someone else files your brand name in the U.S. first, you may lose it — even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is far less than the cost of rebranding.</p></p>
+"><p><p>If someone else files your brand name in the U.S. first, you may lose it — even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is far less than the cost of rebranding.</p></p>
 </div>
   </div>
 </div>
@@ -244,7 +261,7 @@
   <div class="rt-callout-body">
     <p class="rt-callout-title" data-es="Errores Comunes que Cometen los Fundadores Internacionales">Common Mistakes International Founders Make</p>
     <div data-es-html="&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Asumir que la protección de PI de su país cubre EE.UU.&lt;/strong&gt; La protección de PI es país por país. Su marca registrada en Brasil, Alemania, Colombia o cualquier otro lugar le da cero cobertura en Estados Unidos. Las marcas registradas, patentes y derechos de autor ejecutables requieren presentaciones separadas en EE.UU. Si espera, otra persona puede registrar el nombre de su marca en EE.UU. primero — y tendrá el derecho legal de usarlo aquí. Presente su solicitud de marca en EE.UU. antes de comenzar a comercializar en EE.UU., no después.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Operar sin seguro de responsabilidad general.&lt;/strong&gt; Este no es un tema de PI, pero es un patrón del Módulo 3: los fundadores se enfocan en la configuración legal y olvidan protegerse contra los riesgos diarios del negocio. Una demanda sin cobertura puede cerrar su negocio. (Más sobre seguros en la próxima lección.)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Usar plantillas de contratos gratuitas sin revisión legal.&lt;/strong&gt; Las plantillas gratuitas de NDA y acuerdos de servicio de sitios web legales son un punto de partida, no un producto terminado. Pueden no seguir la ley de Florida, pueden faltar cláusulas clave o pueden no ajustarse a su situación. Una revisión de 30 minutos por un abogado cuesta $150-$300 y puede prevenir disputas costosas después.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-"><p><ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. Trademarks, patents, and enforceable copyright all require separate U.S. filings. If you wait, someone else can register your brand name in the U.S. first — and they will have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</li><li><strong>Running without general liability insurance.</strong> This isn't an IP issue, but it's a Module 3 pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150-$300 and can prevent costly disputes later.</li></ul></p>
+"><p><ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. Trademarks, patents, and enforceable copyright all require separate U.S. filings. If you wait, someone else can register your brand name in the U.S. first, and they will have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</li><li><strong>Running without general liability insurance.</strong> This is not an IP issue, but it is a common pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150-$300 and can prevent costly disputes later.</li></ul></p>
 </div>
   </div>
 </div>
@@ -254,7 +271,7 @@
     <p class="rt-callout-title" data-es="Cuide Su Dinero: Lo Que Realmente Cuesta">Watch Your Money: What This Actually Costs</p>
     <div data-es-html="&lt;p&gt;&lt;p&gt;En otras palabras, planifique su presupuesto de PI temprano. Costos de PI, seguro y legales que debe presupuestar (principios de 2026):&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Presentación de marca (USPTO):&lt;/strong&gt; $250–$350 por clase, más $300–$500 si usa un abogado&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Solicitud de patente:&lt;/strong&gt; $5,000–$15,000+ incluyendo honorarios de abogado y costos de presentación del USPTO&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Registro de derechos de autor:&lt;/strong&gt; $45–$65 por obra&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Redacción de NDA o contrato:&lt;/strong&gt; $200–$500 por documento&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Seguro de responsabilidad general:&lt;/strong&gt; $400–$800/año para pequeños negocios&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Responsabilidad profesional (E&amp;O):&lt;/strong&gt; $500–$2,500/año dependiendo de la industria&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Consulta legal inicial:&lt;/strong&gt; $0–$300 (muchos abogados ofrecen consultas iniciales gratuitas)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Revisión de contrato por abogado:&lt;/strong&gt; $200–$500 por documento&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-"><p><p>In other words, plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p></p>
+"><p><p>Plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p></p>
 <p><ul><li><strong>Trademark filing (USPTO):</strong> $250–$350 per class, plus $300–$500 if using an attorney</li><li><strong>Patent application:</strong> $5,000–$15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45–$65 per work</li><li><strong>NDA or contract drafting:</strong> $200–$500 per document</li><li><strong>General liability insurance:</strong> $400–$800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500–$2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0–$300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200–$500 per document</li></ul></p>
 </div>
   </div>
@@ -281,24 +298,24 @@
     <p class="rt-kc-question" data-es="Una fundadora ha estado usando un nombre de marca en Colombia durante tres años y ahora quiere vender productos bajo ese nombre en EE.UU. ¿Qué debería hacer primero?">A founder has been using a brand name in Colombia for three years and now wants to sell products under that name in the U.S. What should she do first?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Buscar en la base de datos del USPTO y presentar una solicitud de marca en EE.UU. antes de lanzar">Search the USPTO database and file a U.S. trademark application before launching</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Comenzar a vender inmediatamente. Su marca colombiana aplica automáticamente en EE.UU.">Start selling immediately. Her Colombian trademark automatically applies in the U.S.</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Esperar hasta tener ingresos en EE.UU., luego presentar una solicitud de marca">Wait until she has U.S. revenue, then file for a trademark</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Usar el símbolo TM y omitir el registro formal ya que tiene uso previo">Use the TM symbol and skip formal registration since she has prior use</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La protección de PI es territorial. Una marca colombiana no tiene efecto legal en EE.UU. La fundadora debería buscar en la base de datos del USPTO por conflictos y presentar una solicitud de marca en EE.UU. antes de invertir en marketing estadounidense. Esperar aumenta el riesgo de que otra persona presente el mismo nombre primero.">IP protection is territorial. A Colombian trademark has no legal effect in the U.S. The founder should search the USPTO database for conflicts and file a U.S. trademark application before investing in U.S. marketing. Waiting increases the risk that someone else files the same name first.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La protección de PI es territorial. Una marca colombiana no tiene efecto legal en EE.UU. La fundadora debería buscar en la base de datos del USPTO por conflictos y presentar una solicitud de marca en EE.UU. antes de invertir en marketing estadounidense. Esperar aumenta el riesgo de que otra persona presente el mismo nombre primero.">IP protection is territorial. A Colombian trademark has no legal effect in the U.S. The founder should search the USPTO database for conflicts and file a U.S. trademark application before investing in U.S. marketing. Waiting increases the risk that someone else files the same name first.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 0)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -306,24 +323,24 @@
     <p class="rt-kc-question" data-es="¿Qué tipo de protección de PI necesitan más comúnmente primero los fundadores internacionales que entran al mercado estadounidense?">Which type of IP protection is most commonly needed first by international founders entering the U.S. market?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Patente: para proteger su método de negocio">Patent: to protect their business method</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Derechos de autor: para proteger el contenido de su sitio web">Copyright: to protect their website content</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Marca registrada: para proteger el nombre y logo de su marca">Trademark: to protect their brand name and logo</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Secreto comercial: para proteger procesos propietarios">Trade secret: to protect proprietary processes</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="La mayoría de los fundadores internacionales necesitan protección de marca registrada primero porque protege el nombre de la marca y el logo que usarán en el mercado estadounidense. Los derechos de autor existen automáticamente (aunque el registro ayuda con la aplicación), y las patentes solo se necesitan para invenciones genuinas. La marca registrada es la presentación de PI de mayor prioridad para la mayoría de los nuevos entrantes al mercado.">Most international founders need trademark protection first because it protects the brand name and logo they'll use in the U.S. market. Copyright exists automatically (though registration helps enforcement), and patents are only needed for genuine inventions. Trademark is the highest-priority IP filing for most new market entrants.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="La mayoría de los fundadores internacionales necesitan protección de marca registrada primero porque protege el nombre de la marca y el logo que usarán en el mercado estadounidense. Los derechos de autor existen automáticamente (aunque el registro ayuda con la aplicación), y las patentes solo se necesitan para invenciones genuinas. La marca registrada es la presentación de PI de mayor prioridad para la mayoría de los nuevos entrantes al mercado.">Many international founders need trademark protection first because it protects the brand name and logo they'll use in the U.S. market. Copyright exists automatically (though registration helps enforcement), and patents are only needed for genuine inventions. Trademark is the highest-priority IP filing for most new market entrants.</p></div>
     <button class="rt-kc-next" hidden onclick="kcNext('kc-stepper-1', 1)" data-es="Siguiente Pregunta &rarr;">Next Question &rarr;</button>
   </div>
 
@@ -331,24 +348,24 @@
     <p class="rt-kc-question" data-es="Una fundadora de Ghana ha desarrollado un algoritmo único de pagos móviles y quiere proteger tanto la tecnología como el nombre de la marca antes de entrar al mercado estadounidense. Tiene $10,000 presupuestados para presentaciones de PI. Según los costos y plazos típicos, ¿qué enfoque aprovecha mejor su presupuesto?">A founder from Ghana has developed a unique mobile payment algorithm and wants to protect both the technology and the brand name before entering the U.S. market. She has $10,000 budgeted for IP filings. Based on typical costs and timelines, which approach best uses her budget?</p>
     <div class="rt-kc-options" role="radiogroup" aria-label="Answer choices">
       
-      <button class="rt-kc-option" data-index="0" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="0" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">A</span>
         <span class="rt-kc-text" data-es="Presentar tanto una patente como una marca registrada simultáneamente para ahorrar tiempo, ya que ambas pasan por el USPTO">File both a patent and a trademark simultaneously to save time, since both go through the USPTO</span>
       </button>
-      <button class="rt-kc-option" data-index="1" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="1" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">B</span>
         <span class="rt-kc-text" data-es="Omitir las presentaciones formales de PI y confiar en la protección automática de derechos de autor que su código ya tiene">Skip formal IP filings and rely on the automatic copyright protection her code already has</span>
       </button>
-      <button class="rt-kc-option" data-index="2" data-correct="false" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="2" data-correct="false" onclick="checkKC(this)">
         <span class="rt-kc-letter">C</span>
         <span class="rt-kc-text" data-es="Presentar una patente primero ya que ofrece la protección más amplia y cubre su nombre de marca también">File a patent first since it offers the broadest protection and covers her brand name as well</span>
       </button>
-      <button class="rt-kc-option" data-index="3" data-correct="true" onclick="checkKC(this)">
+      <button class="rt-kc-option" role="radio" aria-checked="false" data-index="3" data-correct="true" onclick="checkKC(this)">
         <span class="rt-kc-letter">D</span>
         <span class="rt-kc-text" data-es="Presentar el registro de derechos de autor de su código y solicitar la marca registrada ahora, luego presupuestar por separado para una solicitud de patente más adelante ya que las patentes cuestan $5,000–$15,000 y toman 2–3 años">File for copyright registration on her code and pursue trademark registration now, then budget separately for a patent application later since patents cost $5,000–$15,000 and take 2–3 years</span>
       </button>
     </div>
-    <div class="rt-kc-explanation" hidden><p data-es="Con $10,000, presentar tanto una marca registrada ($250–$850 con abogado) como derechos de autor ($45–$65) cabe en el presupuesto mientras protege el nombre de la marca y el código. Una solicitud de patente ($5,000–$15,000+) consumiría la mayoría o todo el presupuesto y toma 2–3 años en procesarse. Presentar la marca y los derechos de autor ahora — y luego presupuestar por separado para una patente — le da protección inmediata donde más importa. Las patentes no cubren nombres de marca, por lo que la opción C es incorrecta. Confiar solo en derechos de autor automáticos (opción B) deja el nombre de la marca sin protección. Presentar tanto una patente como una marca simultáneamente (opción A) excedería el presupuesto de $10,000.">With $10,000, filing both a trademark ($250–$850 with attorney) and copyright ($45–$65) fits the budget while protecting the brand name and code. A patent application ($5,000–$15,000+) would consume most or all of the budget and takes 2–3 years to process. Filing the trademark and copyright now — then budgeting separately for a patent — gives her immediate protection where it matters most. Patents do not cover brand names, so option C is incorrect. Relying only on automatic copyright (option B) leaves the brand name unprotected. Filing both a patent and trademark simultaneously (option A) would exceed the $10,000 budget.</p></div>
+    <div class="rt-kc-explanation" hidden aria-live="polite"><p data-es="Con $10,000, presentar tanto una marca registrada ($250–$850 con abogado) como derechos de autor ($45–$65) cabe en el presupuesto mientras protege el nombre de la marca y el código. Una solicitud de patente ($5,000–$15,000+) consumiría la mayoría o todo el presupuesto y toma 2–3 años en procesarse. Presentar la marca y los derechos de autor ahora — y luego presupuestar por separado para una patente — le da protección inmediata donde más importa. Las patentes no cubren nombres de marca, por lo que la opción C es incorrecta. Confiar solo en derechos de autor automáticos (opción B) deja el nombre de la marca sin protección. Presentar tanto una patente como una marca simultáneamente (opción A) excedería el presupuesto de $10,000.">With $10,000, filing both a trademark ($250–$850 with attorney) and copyright ($45–$65) fits the budget while protecting the brand name and code. A patent application ($5,000–$15,000+) would consume most or all of the budget and takes 2–3 years to process. Filing the trademark and copyright now — then budgeting separately for a patent — gives her immediate protection where it matters most. Patents do not cover brand names, so option C is incorrect. Relying only on automatic copyright (option B) leaves the brand name unprotected. Filing both a patent and trademark simultaneously (option A) would exceed the $10,000 budget.</p></div>
     
   </div>
 </div>

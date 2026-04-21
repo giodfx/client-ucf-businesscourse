@@ -1,0 +1,63 @@
+{
+  "lesson-1-2": [
+    "text-1-2-2"
+  ],
+  "lesson-2-1": [
+    "text-2-1-1",
+    "text-2-1-no-state-tax"
+  ],
+  "lesson-3-1": [
+    "text-3-1-1"
+  ],
+  "lesson-4-1": [
+    "kt-4-1-1"
+  ],
+  "lesson-4-2": [
+    "callout-4-2-funfact",
+    "kt-4-2-1",
+    "table-4-2-1"
+  ],
+  "lesson-4-3": [
+    "callout-4-3-funfact"
+  ],
+  "lesson-6-1": [
+    "kt-6-1-1",
+    "text-6-1-2"
+  ],
+  "lesson-6-2": [
+    "kt-6-2-1",
+    "text-6-2-2"
+  ],
+  "lesson-6-3": [
+    "text-6-3-1",
+    "text-6-3-2"
+  ],
+  "lesson-7-1": [
+    "kt-7-1-1",
+    "text-7-1-1"
+  ],
+  "lesson-7-2": [
+    "callout-7-2-latam",
+    "kt-7-2-1",
+    "text-7-2-1",
+    "text-7-2-3"
+  ],
+  "lesson-7-3": [
+    "text-7-3-1"
+  ],
+  "lesson-8-1": [
+    "kt-8-1-1",
+    "text-8-1-2",
+    "text-8-1-4"
+  ],
+  "lesson-8-2": [
+    "kt-8-2-1",
+    "text-8-2-1"
+  ],
+  "lesson-8-3": [
+    "int-8-3-1",
+    "kt-8-3-1",
+    "text-8-3-1",
+    "text-8-3-3"
+  ]
+}

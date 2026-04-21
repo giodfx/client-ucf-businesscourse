@@ -1,7 +1,7 @@
 {
   "moduleId": "module-7",
   "title": "You're Not Alone — Central Florida's Business Support Ecosystem",
-  "description": "The Central Florida ecosystem offers advantages designed to help international founders succeed — strong infrastructure, lower cost than many comparable U.S. markets, and international connectivity that few other regions can match. Key organizations, why Central Florida, UCF BIP programs, and community resources.",
+  "description": "Central Florida's ecosystem offers advantages designed to help international founders succeed — strong infrastructure, lower cost than many comparable U.S. markets, and international connectivity that few other regions can match. Key organizations, why Central Florida, UCF BIP programs, and community resources.",
   "landscapeTheme": "",
   "lessons": [
     {
@@ -19,8 +19,8 @@
         {
           "type": "text",
           "id": "text-7-1-1",
-          "title": "Discovering the Springs, Where Everything Connects",
-          "content": "<p>Imagine stepping off a trail in Central Florida and discovering a crystal-clear natural spring. The water is so transparent you can see every detail of the riverbed below. Fish, turtles, manatees, cypress roots, aquatic plants: an entire ecosystem thriving because everything in it is interconnected. Central Florida's business support network works the same way. SBDC, SBA, chambers of commerce, UCF BIP, SCORE, Prospera: each one feeds into the same living system, and they are all here to support founders like you.</p>\n\n<p>A Colombian founder spent $4,500 on a business consultant to put together a market entry plan for Central Florida. Three months later, she discovered the SBDC at UCF offers the same service, for free. She had been standing at the edge of the springs without realizing the whole ecosystem was already there.</p>\n\n<p>What does that mean for you? The U.S. has a full network of business support groups funded by federal, state, and local government. Most welcome foreign founders, many have bilingual staff, and almost all are free or low-cost. You are not asking for charity. These resources exist specifically for founders like you.</p>",
+          "title": "Your Support Network: Where Everything Connects",
+          "content": "<p>Central Florida has a business support network that many international founders never discover on their own. SBDC, SBA, chambers of commerce, UCF BIP, SCORE, Prospera: each one connects to the others, and they are all here to support founders like you.</p>\n\n<p>Many international founders spend thousands on private consultants for services that are available for free through these organizations.</p>\n\n<p>The U.S. has a full network of business support groups funded by federal, state, and local government. Most welcome foreign founders, many have bilingual staff, and almost all are free or low-cost. You are not asking for charity. These resources exist specifically for founders like you.</p>",
           "wordCount": 172
         },
         {
@@ -37,7 +37,7 @@
           "sections": [
             {
               "heading": "Florida SBDC at UCF",
-              "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at floridaSBDC.org. No cost, no obligation.\n\n**International-friendly:** Yes — they work extensively with international entrepreneurs."
+              "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at sbdcorlando.com. No cost, no obligation.\n\n**International-friendly:** Yes — they work extensively with international entrepreneurs."
             },
             {
               "heading": "SBA (Small Business Administration)",
@@ -114,21 +114,21 @@
           "id": "callout-7-1-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p>Florida has more than 700 natural springs, the largest concentration of freshwater springs on Earth. Many of these springs discharge millions of gallons of water every day, feeding rivers, wetlands, and entire ecosystems downstream. The business support network in Central Florida works in a similar way: federal funding flows into the SBA, which feeds the SBDC, which connects to chambers and programs like UCF BIP. One resource leads to the next, and the whole system stays healthy because the parts are connected.</p>"
+          "content": "<p>Florida has more than 700 natural springs, the largest concentration of freshwater springs on Earth. Many of these springs discharge millions of gallons of water every day, feeding rivers, wetlands, and entire ecosystems downstream. Central Florida is also home to one of the deepest networks of free business support organizations in the country.</p>"
         },
         {
           "type": "callout",
           "id": "callout-7-1-wm",
           "variant": "watch-money-costs",
           "title": "Watch Your Money: What This Actually Costs",
-          "content": "<p>Notice how affordable this ecosystem is. Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private help:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
+          "content": "<p>Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private help:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
         },
         {
           "type": "callout",
           "id": "callout-7-1-cm",
           "variant": "common-mistakes-repeating",
           "title": "Common Mistakes International Founders Make — Resources",
-          "content": "<p>Why does this matter? Consider these common pitfalls:</p><ul><li><strong>Not knowing about free resources (SBDC, SBA counseling).</strong> Most international founders assume quality business advice costs money. The U.S. has an entire taxpayer-funded system built to help you for free.</li><li><strong>Paying consultants for advice available through government programs.</strong> Before you hire any consultant, check if the SBDC or SBA covers that topic first. You might save $5,000 or more.</li><li><strong>Not leveraging UCF BIP and chamber connections.</strong> These organizations exist to connect you with the right people. A warm introduction from UCF BIP or a chamber contact carries more weight than a cold email.</li></ul>"
+          "content": "<p>Consider these common pitfalls:</p><ul><li><strong>Not knowing about free resources (SBDC, SBA counseling).</strong> Many international founders assume quality business advice costs money. The U.S. has an entire taxpayer-funded system built to help you for free.</li><li><strong>Paying consultants for advice available through government programs.</strong> Before you hire any consultant, check if the SBDC or SBA covers that topic first. You might save $5,000 or more.</li><li><strong>Not leveraging UCF BIP and chamber connections.</strong> These organizations exist to connect you with the right people. A warm introduction from UCF BIP or a chamber contact carries more weight than a cold email.</li></ul>"
         },
         {
           "type": "knowledge-check",
@@ -181,7 +181,7 @@
           "type": "key-takeaway",
           "id": "kt-7-1-1",
           "title": "Key Takeaway",
-          "content": "<p>The takeaway is simple. Central Florida's support ecosystem is like its natural springs: deep, clear, and interconnected. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. Try this: compare the free options to paid ones, then see which groups match your stage. The founders who succeed fastest are the ones who step into the ecosystem and use every available advantage.</p>"
+          "content": "<p>Central Florida's support ecosystem is deep, well-organized, and interconnected. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. Try this: compare the free options to paid ones, then see which groups match your stage. The founders who succeed fastest are the ones who engage the ecosystem and use every available advantage.</p>"
         }
       ]
     },
@@ -200,15 +200,15 @@
         {
           "type": "text",
           "id": "text-7-2-1",
-          "title": "The Living Ecosystem, Where Every Current Carries You Forward",
-          "content": "<p>Deeper into the springs, the water moves with purpose. Side channels branch out, each one leading to a different part of the river system, but they all stay connected to the same source. Central Florida's startup ecosystem works the same way: different organizations serve different needs, but they feed the same network of founders, mentors, and opportunities.</p>\n\n<p>What makes one U.S. city better than another for an international founder? It is not just the tax code. It is whether the ecosystem actually wants you there. The numbers matter (the next lesson covers them), but first you need to understand something harder to measure: whether a city truly supports founders who are new to the country. Central Florida does, and the evidence is in how the ecosystem behaves.</p>\n\n<p>What this means day to day: founders here describe the same thing. People answer emails. Introductions happen within days, not months. Groups like SBDC, CFITO, and the Hispanic Chamber run active programs, show up at events, and follow up. That responsiveness matters enormously when you are new to the country and building from zero.</p>",
+          "title": "The Living Ecosystem: Why Central Florida Works for Founders",
+          "content": "<p>Central Florida's startup ecosystem has a structure that works in your favor: different organizations serve different needs, but they all connect to the same network of founders, mentors, and opportunities.</p>\n\n<p>What makes one U.S. city better than another for an international founder? It is not just the tax code. It is whether the ecosystem actually wants you there. The numbers matter (the next lesson covers them), but first you need to understand something harder to measure: whether a city truly supports founders who are new to the country. Central Florida does, and the evidence is in how the ecosystem behaves.</p>\n\n<p>What this means day to day: founders here describe the same thing. People answer emails. Introductions happen within days, not months. Groups like SBDC, CFITO, and the Hispanic Chamber run active programs, show up at events, and follow up. That responsiveness matters enormously when you are new to the country and building from zero.</p>",
           "wordCount": 175
         },
         {
           "type": "text",
           "id": "text-7-2-2",
           "title": "UCF as the Anchor — The Research Corridor Effect",
-          "content": "<p>Now, consider the institutional backbone. Every strong startup ecosystem has an anchor body. In Central Florida, it's UCF — and understanding how UCF shapes the ecosystem explains why this region works for founders.</p>\n\n<p>In practice, UCF is a research engine tied to the industries around it. The Institute for Simulation and Training (IST) partners with defense contractors and government agencies, which is why 200+ simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and CS programs produce graduates who stay local — because the jobs are here.</p>\n\n<p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.</p>\n\n<p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p>",
+          "content": "<p>Every strong startup ecosystem has an anchor body. In Central Florida, it's UCF, and understanding how UCF shapes the ecosystem explains why this region works for founders.</p>\n\n<p>In practice, UCF is a research engine tied to the industries around it. The Institute for Simulation and Training (IST) partners with defense contractors and government agencies, which is why 200+ simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and CS programs produce graduates who stay local — because the jobs are here.</p>\n\n<p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.</p>\n\n<p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p>",
           "wordCount": 174
         },
         {
@@ -216,20 +216,20 @@
           "id": "callout-7-2-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p>Blue Spring State Park, just 30 minutes north of Orlando, is one of the largest winter gathering spots for West Indian manatees in the United States. Hundreds of manatees return each year because the spring maintains a constant 72 degrees Fahrenheit, creating a reliable, warm environment. Central Florida's business ecosystem has a similar draw: consistent support, year-round programs, and a welcoming environment that keeps international founders coming back and staying put.</p>"
+          "content": "<p>Blue Spring State Park, just 30 minutes north of Orlando, is one of the largest winter gathering spots for West Indian manatees in the United States. Hundreds of manatees return each year because the spring maintains a constant 72 degrees Fahrenheit, creating a reliable, warm environment.</p>"
         },
         {
           "type": "text",
           "id": "text-7-2-3",
           "title": "The Startup Culture — Who's Here and How They Work",
-          "content": "<p>Here is where Central Florida stands out. Just as a healthy spring ecosystem thrives because its species cooperate rather than compete for the same resources, the startup culture here is team-minded, not cutthroat. Founders describe it as \"pre-competitive\": people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p>\n\n<h4>Founder Accessibility</h4>\n\n<p>In short, successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p>\n\n<h4>Cross-Industry Connections</h4>\n\n<p>Because the ecosystem is mid-sized, founders meet people outside their sector regularly — a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p>\n\n<h4>Bilingual Business Community</h4>\n\n<p>Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p>\n\n<h4>The \"Gateway\" Mindset</h4>\n\n<p>A food-tech founder from Ecuador launched in Orlando because the hospitality cluster gave her immediate customers : within two years she had expanded to Miami, Atlanta, and Houston.</p>",
+          "content": "<p>Central Florida stands out for its startup culture. The here is team-minded, not cutthroat. Founders describe it as \"pre-competitive\": people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p>\n\n<h4>Founder Accessibility</h4>\n\n<p>In short, successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p>\n\n<h4>Cross-Industry Connections</h4>\n\n<p>Because the ecosystem is mid-sized, founders meet people outside their sector regularly, a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p>\n\n<h4>Bilingual Business Community</h4>\n\n<p>Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p>\n\n<h4>The \"Gateway\" Mindset</h4>\n\n<p>A food-tech founder from Ecuador launched in Orlando because the hospitality cluster gave her immediate customers: within two years she had expanded to Miami, Atlanta, and Houston.</p>",
           "wordCount": 193
         },
         {
           "type": "text",
           "id": "text-7-2-4",
           "title": "Living Here — The Human Side of Relocation",
-          "content": "<p>Think about this: international founders relocate not just a company but often a family. Central Florida's quality of life is part of what makes it work for founders.</p>\n\n<h4>Family and Community</h4>\n\n<p>For context, Orlando's international community is large and established : grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools in Orange and Seminole counties have experience with families who speak more than one language. Bilingual children's doctors, immigration attorneys, and WhatsApp groups connect international families.</p>\n\n<h4>Lifestyle and Climate</h4>\n\n<p>Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate — a positive for Latin American founders who find northeastern winters challenging.</p>\n\n<h4>Practical Reality</h4>\n\n<p>You will need a car — public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p>",
+          "content": "<p>International founders relocate not just a company but often a family. Central Florida's quality of life is part of what makes it work for founders.</p>\n\n<h4>Family and Community</h4>\n\n<p>For context, Orlando's international community is large and established: grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools in Orange and Seminole counties have experience with families who speak more than one language. Bilingual children's doctors, immigration attorneys, and WhatsApp groups connect international families.</p>\n\n<h4>Lifestyle and Climate</h4>\n\n<p>Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate, a positive for Latin American founders who find northeastern winters challenging.</p>\n\n<h4>Practical Reality</h4>\n\n<p>You will need a car — public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p>",
           "wordCount": 125
         },
         {
@@ -347,14 +347,14 @@
           "id": "callout-7-2-latam",
           "variant": "latam-supplement",
           "title": "Latin America Focus — Community and Connection",
-          "content": "<ul><li><strong>Prospera</strong> . Bilingual (Spanish/English) mentoring, training, and business planning for Hispanic entrepreneurs. They assign you a mentor who understands your background.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong> . Business matchmaking programs pairing international founders with established local businesses. Annual events draw hundreds of bilingual professionals.</li><li><strong>Colombian, Brazilian, Venezuelan community groups</strong> . Active WhatsApp and social media networks that share job leads, vendor recommendations, and family resources. Ask your BIP cohort-mates or SBDC counselor for introductions.</li><li><strong>Bilingual professional services</strong> . Immigration attorneys, CPAs, and business consultants who work in Spanish and Portuguese are well-established in the Orlando metro area.</li></ul>"
+          "content": "<ul><li><strong>Prospera</strong>. Bilingual (Spanish/English) mentoring, training, and business planning for Hispanic entrepreneurs. They assign you a mentor who understands your background.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Business matchmaking programs pairing international founders with established local businesses. Annual events draw hundreds of bilingual professionals.</li><li><strong>Colombian, Brazilian, Venezuelan community groups</strong>. Active WhatsApp and social media networks that share job leads, vendor recommendations, and family resources. Ask your BIP cohort-mates or SBDC counselor for introductions.</li><li><strong>Bilingual professional services</strong>. Immigration attorneys, CPAs, and business consultants who work in Spanish and Portuguese are well-established in Central Florida.</li></ul>"
         },
         {
           "type": "callout",
           "id": "callout-7-2-rc",
           "variant": "reality-check",
           "title": "Reality Check — The Ecosystem Is Growing, Not Finished",
-          "content": "<p>But here's what you should also know. Central Florida's startup ecosystem is strong and getting stronger, but it is not Silicon Valley or New York. Be honest about what that means:</p>\n\n<ul><li><strong>Niche industries may have fewer local contacts.</strong> If you're in a very specialized vertical (quantum computing, advanced materials), the local network will be thinner. You may need to build national connections from day one.</li><li><strong>Venture capital is growing but still smaller</strong> than in major hubs. If you need Series A or B capital, you'll likely pitch investors in Miami, New York, or San Francisco — but you can live and operate here while doing so.</li><li><strong>\"Based in Orlando\" carries less brand weight</strong> with some investors and partners than \"based in San Francisco.\" This gap is closing, but it exists. Let your traction speak louder than your zip code.</li></ul>"
+          "content": "<p>Central Florida's startup ecosystem is strong and getting stronger, but it is not Silicon Valley or New York. Be honest about what that means:</p>\n\n<ul><li><strong>Niche industries may have fewer local contacts.</strong> If you're in a very specialized vertical (quantum computing, advanced materials), the local network will be thinner. You may need to build national connections from day one.</li><li><strong>Venture capital is growing but still smaller</strong> than in major hubs. If you need Series A or B capital, you'll likely pitch investors in Miami, New York, or San Francisco, but you can live and operate here while doing so.</li><li><strong>\"Based in Orlando\" carries less brand weight</strong> with some investors and partners than \"based in San Francisco.\" This gap is closing, but it exists. Let your traction speak louder than your zip code.</li></ul>"
         },
         {
           "type": "in-lesson-image",
@@ -388,7 +388,7 @@
                 "Join three online forums and network exclusively through LinkedIn"
               ],
               "correctAnswer": 0,
-              "explanation": "Central Florida's ecosystem rewards physical presence and in-person connection. Attending local meetups introduces you to founders and hiring managers. Your SBDC counselor provides free, industry-specific guidance. And working from BIP space creates the chance encounters : with mentors, fellow founders, and program coordinators — that lead to introductions, partnerships, and early customers. Online networking is useful, but the ecosystem's strength is its accessibility in person."
+              "explanation": "Central Florida's ecosystem rewards physical presence and in-person connection. Attending local meetups introduces you to founders and hiring managers. Your SBDC counselor provides free, industry-specific guidance. And working from BIP space creates the chance encounters: with mentors, fellow founders, and program coordinators — that lead to introductions, partnerships, and early customers. Online networking is useful, but the ecosystem's strength is its accessibility in person."
             },
             {
               "stem": "A founder from Mexico is evaluating U.S. cities for her health tech startup. She wants to understand what makes UCF an 'anchor institution' in Central Florida's startup ecosystem. Which explanation best describes UCF's anchor role?",
@@ -407,7 +407,7 @@
           "type": "key-takeaway",
           "id": "kt-7-2-1",
           "title": "Key Takeaway",
-          "content": "<p>Central Florida's advantage for international founders goes beyond cost savings and flight schedules. Like a spring-fed river that sustains an entire ecosystem, the region has a collaborative startup culture anchored by UCF, a bilingual business community that actively supports foreign founders, and a network of events, spaces, and organizations designed to help new founders build traction. The ecosystem is mid-sized and growing, which means you get access, fast replies, and cross-industry connections that are harder to find in larger, more competitive metros. Step into the current, build relationships early, and use the community as your launchpad.</p>"
+          "content": "<p>Central Florida's advantage for international founders goes beyond cost savings and flight schedules. The region has a collaborative startup culture anchored by UCF, a bilingual business community that actively supports foreign founders, and a network of events, spaces, and organizations designed to help new founders build traction. The ecosystem is mid-sized and growing, which means you get access, fast replies, and cross-industry connections that are harder to find in larger, more competitive metros. Get involved early, build relationships, and use the community as your support system.</p>"
         }
       ]
     },
@@ -426,8 +426,8 @@
         {
           "type": "text",
           "id": "text-7-3-1",
-          "title": "Measuring the Flow, Central Florida by the Numbers",
-          "content": "<p>In the last lesson you explored the culture and connections of Central Florida's business ecosystem — the collaborative mindset, the bilingual community, the people who answer emails. Now it is time to look at the numbers that back it up. A natural spring's strength is measured by how many gallons per second it pushes to the surface. An ecosystem's strength is measured by what it produces.</p>\n\n<p>Numbers tell a story most pitch decks miss. A $500,000 seed fund buys you 10 months in Silicon Valley, but 17 months in Central Florida. That difference can mean the gap between finding product-market fit and running out of cash. This lesson is the spreadsheet: the numbers to cite when building a case for your board, co-founder, or family. All data as of early 2026 unless noted.</p>\n\n<h4>Population and Growth</h4>\n\n<p>Let's break this down. Orlando-Kissimmee-Sanford metro: ~2.8 million residents. Top five fastest-growing U.S. metro over the past five years : driving consumer demand, worker supply, and commercial real estate growth.</p>\n\n<h4>Regional GDP</h4>\n\n<p>Metro Orlando GDP exceeds $150 billion annually, spread across tourism ($75B), tech, aerospace, health care, education, and construction.</p>\n\n<h4>Business Formation</h4>\n\n<p>Florida handles 300,000+ new business filings each year via SunBiz — top three nationally. Florida LLC filing: $125. For reference: California charges $70 plus an $800 annual franchise tax, New York charges $200 plus biennial requirements. Florida's zero state income tax covers all pass-through business income.</p>",
+          "title": "Central Florida by the Numbers",
+          "content": "<p>In the last lesson you explored the culture and connections of Central Florida's business ecosystem, the collaborative mindset, the bilingual community, the people who answer emails. Now it is time to look at the numbers that back it up. An ecosystem's strength is measured by what it produces.</p>\n\n<p>Numbers tell a story most pitch decks miss. A $500,000 seed fund buys you 10 months in Silicon Valley, but 17 months in Central Florida. That difference can mean the gap between finding product-market fit and running out of cash. This lesson is the spreadsheet: the numbers to cite when building a case for your board, co-founder, or family. All data as of early 2026 unless noted.</p>\n\n<h4>Population and Growth</h4>\n\n<p>Orlando-Kissimmee-Sanford metro: ~2.8 million residents. Top five fastest-growing U.S. metro over the past five years: driving consumer demand, worker supply, and commercial real estate growth.</p>\n\n<h4>Regional GDP</h4>\n\n<p>Metro Orlando GDP exceeds $150 billion annually, spread across tourism ($75B), tech, aerospace, health care, education, and construction.</p>\n\n<h4>Business Formation</h4>\n\n<p>Florida handles 300,000+ new business filings each year via SunBiz — top three nationally. Florida LLC filing: $125. For reference: California charges $70 plus an $800 annual franchise tax, New York charges $200 plus biennial requirements. Florida's zero state income tax covers all pass-through business income.</p>",
           "wordCount": 205
         },
         {
@@ -593,7 +593,7 @@
           "id": "callout-7-3-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p>Florida's natural springs collectively discharge more than 8 billion gallons of water per day, enough to fill thousands of Olympic swimming pools. That constant, reliable flow sustains entire river systems and the wildlife that depends on them. Central Florida's economy works with a similar kind of momentum: 300,000+ new business filings per year, $150 billion in annual GDP, and a population growing faster than most U.S. metros. The numbers just keep flowing.</p>"
+          "content": "<p>Florida's natural springs collectively discharge more than 8 billion gallons of water per day, enough to fill thousands of Olympic swimming pools. That constant, reliable flow sustains entire river systems and the wildlife that depends on them.</p>"
         },
         {
           "type": "in-lesson-image",
@@ -795,7 +795,7 @@
           "type": "key-takeaway",
           "id": "kt-7-3-1",
           "title": "Key Takeaway",
-          "content": "<p>Central Florida's cost of living index (98) is nearly half of New York's (187) and well below Silicon Valley's (172). Developer salaries run $85K-$100K versus $130K-$160K in San Jose. Florida handles 300,000+ new business filings each year with a $125 LLC fee and zero state income tax. Six diversified industry clusters — from simulation and training ($6B) to aerospace (28 launches in 2025) to hospitality tech ($75B+ tourism GDP) — create demand across sectors. In the next lesson, you will see how the LATAM trade corridor connects this data to your specific market opportunity.</p>"
+          "content": "<p>Central Florida's cost of living index (98) is nearly half of New York's (187) and well below Silicon Valley's (172). Developer salaries run $85K-$100K versus $130K-$160K in San Jose. Florida handles 300,000+ new business filings each year with a $125 LLC fee and zero state income tax. Six diversified industry clusters, from simulation and training ($6B) to aerospace (28 launches in 2025) to hospitality tech ($75B+ tourism GDP) — create demand across sectors. In the next lesson, you will see how the LATAM trade corridor connects this data to your specific market opportunity.</p>"
         }
       ]
     },
@@ -815,7 +815,7 @@
           "type": "text",
           "id": "text-7-4-1",
           "title": "LATAM Trade Corridor — The Data",
-          "content": "<p>Most international founders in Central Florida are sitting on a trade advantage they haven’t fully mapped yet. Florida is the number one U.S. state for Latin American and Caribbean trade by value. Orlando sits at the center of that network — not Miami, not Tampa. Understanding these trade corridors is not geography trivia: it is a sourcing, distribution, and partnership shortcut that most founders discover too late.</p>\n\n<h4>Air Connectivity</h4>\n\n<p>MCO: direct flights to 30+ Latin American cities (Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose). ~58 million passengers in 2025, top 10 busiest U.S. airports. Terminal C (2022) added 15 international gates.</p>\n\n<h4>Port and Trade Volume</h4>\n\n<p>Florida's seaports handle $150B+ in international trade annually. Port Tampa Bay and Port Canaveral (60-90 min from Orlando) connect Latin America, the Caribbean, and the U.S. interior. Florida is the #1 U.S. state for LATAM/Caribbean trade by value.</p>\n\n<h4>Bilingual Workforce</h4>\n\n<p>30%+ of metro Orlando speaks Spanish. Bilingual accountants, attorneys, marketers, and sales professionals operate across English and Spanish daily. Hiring bilingual staff here costs much less than in Miami.</p>\n\n<h4>Growth Projections</h4>\n\n<p>Florida's LATAM trade grows ~4-5% annually. State population projected to reach 25 million by 2030 (from ~23M in 2025), which means an expanding customer base and workforce.</p>",
+          "content": "<p>Many international founders in Central Florida are sitting on a trade advantage they haven’t fully mapped yet. Florida is the number one U.S. state for Latin American and Caribbean trade by value. Orlando sits at the center of that network, not Miami, not Tampa. Understanding these trade corridors is not geography trivia: it is a sourcing, distribution, and partnership shortcut that most founders discover too late.</p>\n\n<h4>Air Connectivity</h4>\n\n<p>MCO: direct flights to 30+ Latin American cities (Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose). ~58 million passengers in 2025, top 10 busiest U.S. airports. Terminal C (2022) added 15 international gates.</p>\n\n<h4>Port and Trade Volume</h4>\n\n<p>Florida's seaports handle $150B+ in international trade annually. Port Tampa Bay and Port Canaveral (60-90 min from Orlando) connect Latin America, the Caribbean, and the U.S. interior. Florida is the #1 U.S. state for LATAM/Caribbean trade by value.</p>\n\n<h4>Bilingual Workforce</h4>\n\n<p>30%+ of metro Orlando speaks Spanish. Bilingual accountants, attorneys, marketers, and sales professionals operate across English and Spanish daily. Hiring bilingual staff here costs much less than in Miami.</p>\n\n<h4>Growth Projections</h4>\n\n<p>Florida's LATAM trade grows ~4-5% annually. State population projected to reach 25 million by 2030 (from ~23M in 2025), which means an expanding customer base and workforce.</p>",
           "wordCount": 172
         },
         {
@@ -823,7 +823,7 @@
           "id": "callout-7-4-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p>Central Florida's spring-fed rivers — including the St. Johns and the Econlockhatchee — flow eastward and eventually reach the Atlantic Coast, connecting the region's inland springs to open water. The region's trade infrastructure works the same way: goods, capital, and business relationships from Central Florida's inland business parks and incubators flow outward through Port Canaveral, Port Tampa Bay, and Miami International Airport to markets across Latin America, the Caribbean, and beyond.</p>"
+          "content": "<p>Central Florida's spring-fed rivers — including the St. Johns and the Econlockhatchee — flow eastward and eventually reach the Atlantic Coast, connecting the region's inland springs to open water. The St. Johns River is one of the few rivers in North America that flows north, traveling 310 miles from its headwaters near Vero Beach to the Atlantic Ocean at Jacksonville.</p>"
         },
         {
           "type": "in-lesson-image",
@@ -835,7 +835,7 @@
           "type": "text",
           "id": "text-7-4-2",
           "title": "How Central Florida Compares",
-          "content": "<p>International founders typically consider four U.S. entry points: Central Florida, Miami, New York City, and Austin or Silicon Valley. Each has real trade-offs in cost, access, culture, and infrastructure. The comparison below breaks down what each market actually offers — and where Central Florida has an edge.</p>",
+          "content": "<p>International founders typically consider four U.S. entry points: Central Florida, Miami, New York City, and Austin or Silicon Valley. Each has real trade-offs in cost, access, culture, and infrastructure. The comparison below breaks down what each market actually offers, and where Central Florida has an edge.</p>",
           "wordCount": 171
         },
         {
@@ -932,14 +932,14 @@
           "id": "callout-7-4-latam",
           "variant": "latam-supplement",
           "title": "Latin America Focus — Trade Data Resources",
-          "content": "<ul><li><strong>CFITO upcoming trade delegations</strong> . Check cfito.org for the current calendar of delegations to Latin American markets</li><li><strong>SelectFlorida</strong> . International business development resources and trade data from the state of Florida (selectflorida.org)</li><li><strong>Florida Department of State, Office of International Affairs</strong> . State-level trade statistics and international business relationships (dos.fl.gov)</li><li><strong>Orange County Global Investment Office</strong> . Local government resources and FDI data for international businesses locating in Orange County</li></ul>"
+          "content": "<ul><li><strong>CFITO upcoming trade delegations</strong>. Check cfito.org for the current calendar of delegations to Latin American markets</li><li><strong>SelectFlorida</strong>. International business development resources and trade data from the state of Florida (selectflorida.org)</li><li><strong>Florida Department of State, Office of International Affairs</strong>. State-level trade statistics and international business relationships (dos.fl.gov)</li><li><strong>Orange County Global Investment Office</strong>. Local government resources and FDI data for international businesses locating in Orange County</li></ul>"
         },
         {
           "type": "callout",
           "id": "callout-7-4-rc",
           "variant": "reality-check",
           "title": "Reality Check — Numbers Don’t Tell the Whole Story",
-          "content": "<p>Think about this carefully. The data favors Central Florida on cost and trade connectivity, but be honest about what the numbers do NOT capture:</p>\n\n<ul><li><strong>Vehicle costs add $300-$600/month.</strong> Orlando is car-dependent. Public transit is limited. Factor this into your cost comparison. It partially offsets the housing savings vs. NYC (where you may not need a car).</li><li><strong>The tech talent pool is smaller.</strong> UCF produces 10,000+ STEM grads/year, but the total tech workforce is a fraction of NYC’s or Silicon Valley’s. Specialized roles (ML engineers, senior DevOps) may require remote hiring.</li><li><strong>VC funding is growing but concentrated elsewhere.</strong> Florida attracted about $5.5B in venture capital in 2024 — roughly 4% of the U.S. total. California captured 48%. Build traction here, but plan to pitch investors nationally.</li></ul>\n\n<p>These gaps are measurable and manageable — but factor them into your choice.</p>"
+          "content": "<p>The data favors Central Florida on cost and trade connectivity, but be honest about what the numbers do NOT capture:</p>\n\n<ul><li><strong>Vehicle costs add $300-$600/month.</strong> Orlando is car-dependent. Public transit is limited. Factor this into your cost comparison. It partially offsets the housing savings vs. NYC (where you may not need a car).</li><li><strong>The tech talent pool is smaller.</strong> UCF produces 10,000+ STEM grads/year, but the total tech workforce is a fraction of NYC’s or Silicon Valley’s. Specialized roles (ML engineers, senior DevOps) may require remote hiring.</li><li><strong>VC funding is growing but concentrated elsewhere.</strong> Florida attracted about $5.5B in venture capital in 2024 — roughly 4% of the U.S. total. California captured 48%. Build traction here, but plan to pitch investors nationally.</li></ul>\n\n<p>These gaps are measurable and manageable, but factor them into your choice.</p>"
         },
         {
           "type": "knowledge-check",
@@ -986,7 +986,7 @@
           "type": "key-takeaway",
           "id": "kt-7-4-1",
           "title": "Key Takeaway",
-          "content": "<p>The LATAM trade corridor is backed by 30+ direct flight routes from MCO, $150B+ in annual Florida port trade, and a 30%+ Spanish-speaking metro workforce. City-by-city, Central Florida offers more runway than Miami, NYC, or Silicon Valley — and more international infrastructure than Austin. But factor in the trade-offs: car costs, a smaller specialized talent pool, and VC funding concentrated on the coasts. Apply these data points to your own business plan with the Location Decision Framework exercise. The data confirms what the springs reveal — the deepest aquifer sustains the strongest flow.</p>"
+          "content": "<p>The LATAM trade corridor is backed by 30+ direct flight routes from MCO, $150B+ in annual Florida port trade, and a 30%+ Spanish-speaking metro workforce. City-by-city, Central Florida offers more runway than Miami, NYC, or Silicon Valley, and more international infrastructure than Austin. But factor in the trade-offs: car costs, a smaller specialized talent pool, and VC funding concentrated on the coasts. Apply these data points to your own business plan with the Location Decision Framework exercise.</p>"
         }
       ]
     }
