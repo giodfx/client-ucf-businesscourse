@@ -477,4 +477,23 @@
   // Run on load — hydrate first, then render tile completion.
   hydrateFromServer().then(updateCardProgress);
 
+
+  // ─── Auto-open destinations on load ───
+  // Per April 29 review: skip the car-dashboard intermediate. Open the
+  // destinations modal/panel immediately so users land on the actual
+  // course-navigation surface. Brian: 'Just show all the destinations
+  // right away on load.'
+  function autoOpenDestinations() {
+    var btnNav = document.getElementById('btnNav');
+    if (btnNav) {
+      // Defer a tick so layout stabilizes, then click.
+      setTimeout(function() { try { btnNav.click(); } catch(e) {} }, 50);
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', autoOpenDestinations);
+  } else {
+    autoOpenDestinations();
+  }
+
 })();
