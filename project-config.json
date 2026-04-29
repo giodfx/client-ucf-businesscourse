@@ -1,6 +1,6 @@
 {
   "projectId": "ucf-business-course",
-  "reviewerSlug": "ucf-businesscourse",
+  "reviewerSlug": "ucf-business-course",
   "localization": {
     "region": "US",
     "country": "United States",
@@ -23,7 +23,7 @@
   "imageStyle": {
     "primary": "cinematic-digital-painting",
     "name": "Cinematic Digital Painting",
-    "description": "Rich atmospheric digital paintings with dramatic golden hour lighting, painterly brushstrokes visible, warm saturated colors. Concept art quality. Not photorealistic, not cartoonish — cinematic and aspirational.",
+    "description": "Rich atmospheric digital paintings with dramatic golden hour lighting, painterly brushstrokes visible, warm saturated colors. Concept art quality. Not photorealistic, not cartoonish \u2014 cinematic and aspirational.",
     "characteristics": [
       "Cinematic digital painting aesthetic",
       "Dramatic golden hour / sunset lighting",
@@ -56,14 +56,14 @@
   "contentContext": {
     "topic": "U.S. Market Readiness for International Founders",
     "targetAudience": "International entrepreneurs entering the U.S. market through UCF Business Incubation Program, primarily Latin American founders",
-    "setting": "Central Florida business environments — downtown offices, banks, coworking spaces, UCF campus, commercial corridors, suburban neighborhoods, tech hubs"
+    "setting": "Central Florida business environments \u2014 downtown offices, banks, coworking spaces, UCF campus, commercial corridors, suburban neighborhoods, tech hubs"
   },
   "avatarConfig": {
     "type": "infinitytalk",
     "character": "Confident Latina woman, early 30s, dark shoulder-length wavy hair",
     "style": "Cinematic digital painting, matching course visual identity",
     "framing": "Chest up, positioned on left third of frame with open space on right for text overlays",
-    "eyeContact": "Direct, warm, engaging — critical for InfinityTalk lip-sync",
+    "eyeContact": "Direct, warm, engaging \u2014 critical for InfinityTalk lip-sync",
     "facialRequirements": "Clean facial features with clear jawline and lips",
     "antiPhotorealism": "NOT a photograph NOT photorealistic, digital painting with visible paint texture",
     "outfitVariations": {
@@ -80,10 +80,10 @@
   },
   "copyrightRules": [
     "No recognizable brand logos, mascots, or iconography",
-    "Theme parks must be generic — no castles, no specific park elements",
+    "Theme parks must be generic \u2014 no castles, no specific park elements",
     "No university logos or mascots on campus scenes",
-    "No NASA/SpaceX branding — generic launch facility",
-    "No text rendered in images — all text via HTML overlays"
+    "No NASA/SpaceX branding \u2014 generic launch facility",
+    "No text rendered in images \u2014 all text via HTML overlays"
   ],
   "sampleTestsGenerated": 0,
   "sampleTestsPassed": false,
