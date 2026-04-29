@@ -131,5 +131,16 @@
       "title": "Punto Clave",
       "content": "<p>No necesita tener todo resuelto. Necesita saber qué resolver primero y quién puede ayudar. Su autoevaluación de preparación no es una nota de prueba; es su lista de verificación de prioridades. Las áreas donde se calificó más bajo son sus próximos pasos de mayor prioridad. Decida qué vacíos necesitan orientación profesional primero, luego cree un plan de acción específico para cada uno. Use estas prioridades para guiar su conversación 1:1 con el equipo de [UCF BIP](https://incubator.ucf.edu).</p>"
     }
+  ],
+  "_manualWidgets": [
+    {
+      "id": "rt-sa-quiz",
+      "lesson": "lesson-8-1",
+      "type": "self-assessment-quiz",
+      "description": "Interactive 9-step readiness self-assessment (intro + 7 module ratings + result). HTML/CSS/JS embedded in lesson-8-1.html between PRESERVE markers. Generator must NOT strip this region; if rebuilding the lesson, retain the block as-is.",
+      "preserveMarker": "<!-- PRESERVE: rt-sa-quiz",
+      "addedAt": "2026-04-29",
+      "addedBy": "April 29 review pass — Brian feedback: convert static rating-scale text into actual interactive quiz"
+    }
   ]
 }

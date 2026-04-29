@@ -131,5 +131,16 @@
       "title": "Key Takeaway",
       "content": "<p>You do not need to have everything figured out. You need to know what to figure out first and who can help. Your readiness self-assessment is not a test score, it is your priority checklist. The areas where you rated yourself lowest are your highest-priority next steps. Decide which gaps need professional guidance first, then create a specific action plan for each one. Use these priorities to guide your 1:1 conversation with the [UCF BIP](https://incubator.ucf.edu) team.</p>"
     }
+  ],
+  "_manualWidgets": [
+    {
+      "id": "rt-sa-quiz",
+      "lesson": "lesson-8-1",
+      "type": "self-assessment-quiz",
+      "description": "Interactive 9-step readiness self-assessment (intro + 7 module ratings + result). HTML/CSS/JS embedded in lesson-8-1.html between PRESERVE markers. Generator must NOT strip this region; if rebuilding the lesson, retain the block as-is.",
+      "preserveMarker": "<!-- PRESERVE: rt-sa-quiz",
+      "addedAt": "2026-04-29",
+      "addedBy": "April 29 review pass — Brian feedback: convert static rating-scale text into actual interactive quiz"
+    }
   ]
 }

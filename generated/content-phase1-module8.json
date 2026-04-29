@@ -414,5 +414,16 @@
       "Identify their logical next step (resources, Phase 2, or 1:1 consultation)"
     ],
     "courseLevelOutcomesAddressed": []
-  }
+  },
+  "_manualWidgets": [
+    {
+      "id": "rt-sa-quiz",
+      "lesson": "lesson-8-1",
+      "type": "self-assessment-quiz",
+      "description": "Interactive 9-step readiness self-assessment (intro + 7 module ratings + result). HTML/CSS/JS embedded in lesson-8-1.html between PRESERVE markers. Generator must NOT strip this region; if rebuilding the lesson, retain the block as-is.",
+      "preserveMarker": "<!-- PRESERVE: rt-sa-quiz",
+      "addedAt": "2026-04-29",
+      "addedBy": "April 29 review pass — Brian feedback: convert static rating-scale text into actual interactive quiz"
+    }
+  ]
 }
