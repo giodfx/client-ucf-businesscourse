@@ -24,6 +24,38 @@
     } catch(e) {}
   }
 
+  // ─── LMS Progress Bridge ───
+  // When this course is loaded inside the LearningPlatform (via the
+  // /api/courses/<id>/asset/... endpoint), hydrate localStorage from the
+  // server before rendering. Makes progress survive across devices,
+  // browsers, and incognito sessions. When loaded standalone (visualizer
+  // public share URL, file://) the regex below doesn't match — we fall
+  // back to localStorage-only behavior unchanged.
+  var lmsCourseIdMatch = window.location.pathname.match(/\/api\/courses\/([^/]+)\/asset\//);
+  var lmsCourseId = lmsCourseIdMatch ? lmsCourseIdMatch[1] : null;
+
+  function hydrateFromServer() {
+    if (!lmsCourseId) return Promise.resolve();
+    return fetch('/api/courses/' + lmsCourseId + '/native-content', {
+      credentials: 'same-origin'
+    })
+      .then(function(res) { return res.ok ? res.json() : null; })
+      .then(function(data) {
+        if (!data || !data.progress) return;
+        var local = getProgress();
+        var serverVisited = data.progress.completedNodes || [];
+        local.visited = local.visited || [];
+        // Union: server's known completions + any local-only progress.
+        // Server is authoritative for previously-known visits; local is
+        // authoritative for visits made since last sync (offline / racing).
+        serverVisited.forEach(function(id) {
+          if (local.visited.indexOf(id) === -1) local.visited.push(id);
+        });
+        saveProgress(local);
+      })
+      .catch(function() { /* offline / 401 / 404 — silent fallback */ });
+  }
+
   /* ---- Start Here gating ---- */
   function hasCompletedStartHere() {
     var progress = getProgress();
@@ -87,9 +119,11 @@
   }
 
   /* ---- Init ---- */
-  if (hasCompletedStartHere()) {
-    showDashboard();
-  } else {
-    showStartScreen();
-  }
+  hydrateFromServer().then(function() {
+    if (hasCompletedStartHere()) {
+      showDashboard();
+    } else {
+      showStartScreen();
+    }
+  });
 })();
