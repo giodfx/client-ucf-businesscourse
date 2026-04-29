@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Expansion Decision Worksheet — UCF BIP</title>
 <style>
   :root {
@@ -106,141 +105,151 @@
 </head>
 <body>
 <header>
-<h1 data-es="Hoja de Decisión de Expansión">Expansion Decision Worksheet</h1>
-<p data-es="Programa de Incubación de Empresas de UCF — Curso de Preparación para el Mercado">UCF Business Incubation Program — Market Readiness Course</p>
-<p data-es="Marco estructurado de avanzar/esperar • Calificúese honestamente en 5 dimensiones" style="margin-top:0.5rem; font-size:0.85rem;">Structured go/no-go framework • Score yourself honestly across 5 dimensions</p>
-<button class="print-btn" data-es="Imprimir / Guardar como PDF" onclick="window.print()">Print / Save as PDF</button>
+  <h1>Expansion Decision Worksheet</h1>
+  <p>UCF Business Incubation Program &mdash; Market Readiness Course</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem;">Structured go/no-go framework &bull; Score yourself honestly across 5 dimensions</p>
+  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
 </header>
+
 <div class="intro">
-<p data-es-html="Esta es su autoevaluación honesta antes de comprometerse con la entrada al mercado estadounidense. Califique cada dimensión de &lt;strong&gt;1 (No Listo)&lt;/strong&gt; a &lt;strong&gt;5 (Plenamente Listo)&lt;/strong&gt;. No hay respuestas incorrectas: una calificación baja le dice qué fortalecer antes de entrar, no que deba renunciar.">This is your honest self-assessment before committing to U.S. market entry. Score each dimension from <strong>1 (Not Ready)</strong> to <strong>5 (Fully Ready)</strong>. There are no wrong answers — a low score tells you what to strengthen before entering, not that you should give up.</p>
-<p data-es-html="Un fundador de Colombia obtuvo 2/5 en preparación financiera, pasó cuatro meses fortaleciendo los ingresos en su mercado de origen, volvió a calificarse en 4 y entró a EE.UU. con una base mucho más sólida." style="margin-top:0.5rem;">A founder from Colombia scored 2/5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation.</p>
+  <p>This is your honest self-assessment before committing to U.S. market entry. Score each dimension from <strong>1 (Not Ready)</strong> to <strong>5 (Fully Ready)</strong>. There are no wrong answers &mdash; a low score tells you what to strengthen before entering, not that you should give up.</p>
+  <p style="margin-top:0.5rem;">A founder from Colombia scored 2/5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation.</p>
 </div>
+
 <div class="dimension" data-dim="0">
-<div class="dim-header">
-<span class="dim-num">1</span>
-<span class="dim-title" data-es="Ajuste al Mercado">Market Fit</span>
+  <div class="dim-header">
+    <span class="dim-num">1</span>
+    <span class="dim-title">Market Fit</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(0,1)"><input type="radio" name="d0" value="1"><span class="num">1</span><span class="lbl">No validation</span></label>
+    <label class="s2" onclick="pick(0,2)"><input type="radio" name="d0" value="2"><span class="num">2</span><span class="lbl">Some research</span></label>
+    <label class="s3" onclick="pick(0,3)"><input type="radio" name="d0" value="3"><span class="num">3</span><span class="lbl">Early signals</span></label>
+    <label class="s4" onclick="pick(0,4)"><input type="radio" name="d0" value="4"><span class="num">4</span><span class="lbl">Validated</span></label>
+    <label class="s5" onclick="pick(0,5)"><input type="radio" name="d0" value="5"><span class="num">5</span><span class="lbl">Proven demand</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No research on U.S. market. Assuming home-market success will transfer directly.</td></tr>
+      <tr><td>2</td><td>Desk research done. Identified potential competitors. No U.S. customer conversations.</td></tr>
+      <tr><td>3</td><td>Talked to 5+ potential U.S. customers. Some interest but no commitments.</td></tr>
+      <tr><td>4</td><td>Pilot customers or LOIs from U.S. buyers. Clear value proposition adapted for market.</td></tr>
+      <tr><td>5</td><td>Active paying U.S. customers. Product-market fit validated with real revenue.</td></tr>
+    </table>
+  </div>
 </div>
-<div class="scale">
-<label class="s1" onclick="pick(0,1)"><input name="d0" type="radio" value="1"/><span class="num">1</span><span class="lbl" data-es="Sin validación">No validation</span></label>
-<label class="s2" onclick="pick(0,2)"><input name="d0" type="radio" value="2"/><span class="num">2</span><span class="lbl" data-es="Algo de investigación">Some research</span></label>
-<label class="s3" onclick="pick(0,3)"><input name="d0" type="radio" value="3"/><span class="num">3</span><span class="lbl" data-es="Señales tempranas">Early signals</span></label>
-<label class="s4" onclick="pick(0,4)"><input name="d0" type="radio" value="4"/><span class="num">4</span><span class="lbl" data-es="Validado">Validated</span></label>
-<label class="s5" onclick="pick(0,5)"><input name="d0" type="radio" value="5"/><span class="num">5</span><span class="lbl" data-es="Demanda comprobada">Proven demand</span></label>
-</div>
-<div class="criteria">
-<table class="score-table">
-<tr><td>1</td><td data-es="Sin investigación del mercado estadounidense. Asumir que el éxito en el mercado de origen se transferirá directamente.">No research on U.S. market. Assuming home-market success will transfer directly.</td></tr>
-<tr><td>2</td><td data-es="Investigación de escritorio realizada. Competidores potenciales identificados. Sin conversaciones con clientes estadounidenses.">Desk research done. Identified potential competitors. No U.S. customer conversations.</td></tr>
-<tr><td>3</td><td data-es="Habló con 5 o más clientes potenciales en EE.UU. Algo de interés pero sin compromisos.">Talked to 5+ potential U.S. customers. Some interest but no commitments.</td></tr>
-<tr><td>4</td><td data-es="Clientes piloto o cartas de intención de compradores estadounidenses. Propuesta de valor clara adaptada al mercado.">Pilot customers or LOIs from U.S. buyers. Clear value proposition adapted for market.</td></tr>
-<tr><td>5</td><td data-es="Clientes estadounidenses pagando activamente. Ajuste producto-mercado validado con ingresos reales.">Active paying U.S. customers. Product-market fit validated with real revenue.</td></tr>
-</table>
-</div>
-</div>
+
 <div class="dimension" data-dim="1">
-<div class="dim-header">
-<span class="dim-num">2</span>
-<span class="dim-title" data-es="Preparación Financiera">Financial Readiness</span>
+  <div class="dim-header">
+    <span class="dim-num">2</span>
+    <span class="dim-title">Financial Readiness</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(1,1)"><input type="radio" name="d1" value="1"><span class="num">1</span><span class="lbl">Underfunded</span></label>
+    <label class="s2" onclick="pick(1,2)"><input type="radio" name="d1" value="2"><span class="num">2</span><span class="lbl">Tight</span></label>
+    <label class="s3" onclick="pick(1,3)"><input type="radio" name="d1" value="3"><span class="num">3</span><span class="lbl">6-month runway</span></label>
+    <label class="s4" onclick="pick(1,4)"><input type="radio" name="d1" value="4"><span class="num">4</span><span class="lbl">12-month runway</span></label>
+    <label class="s5" onclick="pick(1,5)"><input type="radio" name="d1" value="5"><span class="num">5</span><span class="lbl">Well-capitalized</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No dedicated budget for U.S. expansion. Would need to fund from operations month-to-month.</td></tr>
+      <tr><td>2</td><td>Less than 3 months of U.S. operating costs available. No contingency buffer.</td></tr>
+      <tr><td>3</td><td>6 months of U.S. operating costs funded. Home market covers overhead.</td></tr>
+      <tr><td>4</td><td>12+ months runway. Budget for legal, marketing, and hiring. Home business stable.</td></tr>
+      <tr><td>5</td><td>Fully funded with investment or strong revenue. Can sustain U.S. ops independently.</td></tr>
+    </table>
+  </div>
 </div>
-<div class="scale">
-<label class="s1" onclick="pick(1,1)"><input name="d1" type="radio" value="1"/><span class="num">1</span><span class="lbl" data-es="Subfinanciado">Underfunded</span></label>
-<label class="s2" onclick="pick(1,2)"><input name="d1" type="radio" value="2"/><span class="num">2</span><span class="lbl" data-es="Ajustado">Tight</span></label>
-<label class="s3" onclick="pick(1,3)"><input name="d1" type="radio" value="3"/><span class="num">3</span><span class="lbl" data-es="6 meses de margen">6-month runway</span></label>
-<label class="s4" onclick="pick(1,4)"><input name="d1" type="radio" value="4"/><span class="num">4</span><span class="lbl" data-es="12 meses de margen">12-month runway</span></label>
-<label class="s5" onclick="pick(1,5)"><input name="d1" type="radio" value="5"/><span class="num">5</span><span class="lbl" data-es="Bien capitalizado">Well-capitalized</span></label>
-</div>
-<div class="criteria">
-<table class="score-table">
-<tr><td>1</td><td data-es="Sin presupuesto dedicado para la expansión a EE.UU. Tendría que financiarlo mes a mes con operaciones.">No dedicated budget for U.S. expansion. Would need to fund from operations month-to-month.</td></tr>
-<tr><td>2</td><td data-es="Menos de 3 meses de costos operativos en EE.UU. disponibles. Sin colchón de contingencia.">Less than 3 months of U.S. operating costs available. No contingency buffer.</td></tr>
-<tr><td>3</td><td data-es="6 meses de costos operativos en EE.UU. financiados. El mercado de origen cubre los gastos generales.">6 months of U.S. operating costs funded. Home market covers overhead.</td></tr>
-<tr><td>4</td><td data-es="12 meses o más de margen. Presupuesto para temas legales, marketing y contratación. Negocio de origen estable.">12+ months runway. Budget for legal, marketing, and hiring. Home business stable.</td></tr>
-<tr><td>5</td><td data-es="Plenamente financiado con inversión o ingresos sólidos. Puede sostener las operaciones en EE.UU. de forma independiente.">Fully funded with investment or strong revenue. Can sustain U.S. ops independently.</td></tr>
-</table>
-</div>
-</div>
+
 <div class="dimension" data-dim="2">
-<div class="dim-header">
-<span class="dim-num">3</span>
-<span class="dim-title" data-es="Preparación Legal">Legal Readiness</span>
+  <div class="dim-header">
+    <span class="dim-num">3</span>
+    <span class="dim-title">Legal Readiness</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(2,1)"><input type="radio" name="d2" value="1"><span class="num">1</span><span class="lbl">No plan</span></label>
+    <label class="s2" onclick="pick(2,2)"><input type="radio" name="d2" value="2"><span class="num">2</span><span class="lbl">Researching</span></label>
+    <label class="s3" onclick="pick(2,3)"><input type="radio" name="d2" value="3"><span class="num">3</span><span class="lbl">Entity chosen</span></label>
+    <label class="s4" onclick="pick(2,4)"><input type="radio" name="d2" value="4"><span class="num">4</span><span class="lbl">Formed</span></label>
+    <label class="s5" onclick="pick(2,5)"><input type="radio" name="d2" value="5"><span class="num">5</span><span class="lbl">Fully compliant</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No understanding of U.S. entity types, visa requirements, or regulatory landscape.</td></tr>
+      <tr><td>2</td><td>Know entity options (LLC/C-Corp). Haven't consulted attorney or started formation.</td></tr>
+      <tr><td>3</td><td>Entity type selected. Immigration pathway identified. Attorney engagement in progress.</td></tr>
+      <tr><td>4</td><td>U.S. entity formed. EIN obtained. Visa application filed or approved. Tax advisor engaged.</td></tr>
+      <tr><td>5</td><td>Fully incorporated, compliant, insured, and visa-approved. Operating agreement signed.</td></tr>
+    </table>
+  </div>
 </div>
-<div class="scale">
-<label class="s1" onclick="pick(2,1)"><input name="d2" type="radio" value="1"/><span class="num">1</span><span class="lbl" data-es="Sin plan">No plan</span></label>
-<label class="s2" onclick="pick(2,2)"><input name="d2" type="radio" value="2"/><span class="num">2</span><span class="lbl" data-es="Investigando">Researching</span></label>
-<label class="s3" onclick="pick(2,3)"><input name="d2" type="radio" value="3"/><span class="num">3</span><span class="lbl" data-es="Entidad elegida">Entity chosen</span></label>
-<label class="s4" onclick="pick(2,4)"><input name="d2" type="radio" value="4"/><span class="num">4</span><span class="lbl" data-es="Constituido">Formed</span></label>
-<label class="s5" onclick="pick(2,5)"><input name="d2" type="radio" value="5"/><span class="num">5</span><span class="lbl" data-es="Plenamente en regla">Fully compliant</span></label>
-</div>
-<div class="criteria">
-<table class="score-table">
-<tr><td>1</td><td data-es="Sin entender los tipos de entidad de EE.UU., los requisitos de visa o el entorno regulatorio.">No understanding of U.S. entity types, visa requirements, or regulatory landscape.</td></tr>
-<tr><td>2</td><td data-es="Conoce las opciones de entidad (LLC/C-Corp). No ha consultado a un abogado ni iniciado la formación.">Know entity options (LLC/C-Corp). Haven't consulted attorney or started formation.</td></tr>
-<tr><td>3</td><td data-es="Tipo de entidad seleccionado. Camino migratorio identificado. Contratación de abogado en proceso.">Entity type selected. Immigration pathway identified. Attorney engagement in progress.</td></tr>
-<tr><td>4</td><td data-es="Entidad en EE.UU. constituida. EIN obtenido. Solicitud de visa presentada o aprobada. Asesor fiscal contratado.">U.S. entity formed. EIN obtained. Visa application filed or approved. Tax advisor engaged.</td></tr>
-<tr><td>5</td><td data-es="Plenamente incorporado, en regla, asegurado y con visa aprobada. Acuerdo operativo firmado.">Fully incorporated, compliant, insured, and visa-approved. Operating agreement signed.</td></tr>
-</table>
-</div>
-</div>
+
 <div class="dimension" data-dim="3">
-<div class="dim-header">
-<span class="dim-num">4</span>
-<span class="dim-title" data-es="Operaciones">Operations</span>
+  <div class="dim-header">
+    <span class="dim-num">4</span>
+    <span class="dim-title">Operations</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(3,1)"><input type="radio" name="d3" value="1"><span class="num">1</span><span class="lbl">No presence</span></label>
+    <label class="s2" onclick="pick(3,2)"><input type="radio" name="d3" value="2"><span class="num">2</span><span class="lbl">Remote only</span></label>
+    <label class="s3" onclick="pick(3,3)"><input type="radio" name="d3" value="3"><span class="num">3</span><span class="lbl">Hybrid ready</span></label>
+    <label class="s4" onclick="pick(3,4)"><input type="radio" name="d3" value="4"><span class="num">4</span><span class="lbl">Team in place</span></label>
+    <label class="s5" onclick="pick(3,5)"><input type="radio" name="d3" value="5"><span class="num">5</span><span class="lbl">Fully operational</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>No U.S. contacts, infrastructure, or plan for physical/virtual presence.</td></tr>
+      <tr><td>2</td><td>Can operate remotely from home country. No U.S.-based team or workspace.</td></tr>
+      <tr><td>3</td><td>Coworking or virtual office secured. Can handle U.S. time zones. Some local contacts.</td></tr>
+      <tr><td>4</td><td>U.S.-based team member or partner. Workspace secured. Supply chain identified.</td></tr>
+      <tr><td>5</td><td>Full U.S. operations running. Team hired. Systems, vendors, and workspace in place.</td></tr>
+    </table>
+  </div>
 </div>
-<div class="scale">
-<label class="s1" onclick="pick(3,1)"><input name="d3" type="radio" value="1"/><span class="num">1</span><span class="lbl" data-es="Sin presencia">No presence</span></label>
-<label class="s2" onclick="pick(3,2)"><input name="d3" type="radio" value="2"/><span class="num">2</span><span class="lbl" data-es="Solo remoto">Remote only</span></label>
-<label class="s3" onclick="pick(3,3)"><input name="d3" type="radio" value="3"/><span class="num">3</span><span class="lbl" data-es="Híbrido listo">Hybrid ready</span></label>
-<label class="s4" onclick="pick(3,4)"><input name="d3" type="radio" value="4"/><span class="num">4</span><span class="lbl" data-es="Equipo establecido">Team in place</span></label>
-<label class="s5" onclick="pick(3,5)"><input name="d3" type="radio" value="5"/><span class="num">5</span><span class="lbl" data-es="Plenamente operativo">Fully operational</span></label>
-</div>
-<div class="criteria">
-<table class="score-table">
-<tr><td>1</td><td data-es="Sin contactos en EE.UU., infraestructura o plan para presencia física/virtual.">No U.S. contacts, infrastructure, or plan for physical/virtual presence.</td></tr>
-<tr><td>2</td><td data-es="Puede operar de forma remota desde el país de origen. Sin equipo o espacio de trabajo en EE.UU.">Can operate remotely from home country. No U.S.-based team or workspace.</td></tr>
-<tr><td>3</td><td data-es="Coworking u oficina virtual asegurada. Puede manejar los husos horarios de EE.UU. Algunos contactos locales.">Coworking or virtual office secured. Can handle U.S. time zones. Some local contacts.</td></tr>
-<tr><td>4</td><td data-es="Miembro del equipo o socio basado en EE.UU. Espacio de trabajo asegurado. Cadena de suministro identificada.">U.S.-based team member or partner. Workspace secured. Supply chain identified.</td></tr>
-<tr><td>5</td><td data-es="Operaciones completas funcionando en EE.UU. Equipo contratado. Sistemas, proveedores y espacio de trabajo establecidos.">Full U.S. operations running. Team hired. Systems, vendors, and workspace in place.</td></tr>
-</table>
-</div>
-</div>
+
 <div class="dimension" data-dim="4">
-<div class="dim-header">
-<span class="dim-num">5</span>
-<span class="dim-title" data-es="Momento Oportuno">Timing</span>
+  <div class="dim-header">
+    <span class="dim-num">5</span>
+    <span class="dim-title">Timing</span>
+  </div>
+  <div class="scale">
+    <label class="s1" onclick="pick(4,1)"><input type="radio" name="d4" value="1"><span class="num">1</span><span class="lbl">Poor timing</span></label>
+    <label class="s2" onclick="pick(4,2)"><input type="radio" name="d4" value="2"><span class="num">2</span><span class="lbl">Uncertain</span></label>
+    <label class="s3" onclick="pick(4,3)"><input type="radio" name="d4" value="3"><span class="num">3</span><span class="lbl">Reasonable</span></label>
+    <label class="s4" onclick="pick(4,4)"><input type="radio" name="d4" value="4"><span class="num">4</span><span class="lbl">Good window</span></label>
+    <label class="s5" onclick="pick(4,5)"><input type="radio" name="d4" value="5"><span class="num">5</span><span class="lbl">Perfect timing</span></label>
+  </div>
+  <div class="criteria">
+    <table class="score-table">
+      <tr><td>1</td><td>Home business is unstable. Personal circumstances make relocation impossible now.</td></tr>
+      <tr><td>2</td><td>Home market needs attention. U.S. market is interesting but no urgency or window.</td></tr>
+      <tr><td>3</td><td>Home business is stable. U.S. market opportunity exists. No blocking personal factors.</td></tr>
+      <tr><td>4</td><td>Market window is open. Competitive timing is good. Personal situation supports the move.</td></tr>
+      <tr><td>5</td><td>Clear market window, partner/customer pulling you in, home ops self-sustaining.</td></tr>
+    </table>
+  </div>
 </div>
-<div class="scale">
-<label class="s1" onclick="pick(4,1)"><input name="d4" type="radio" value="1"/><span class="num">1</span><span class="lbl" data-es="Mal momento">Poor timing</span></label>
-<label class="s2" onclick="pick(4,2)"><input name="d4" type="radio" value="2"/><span class="num">2</span><span class="lbl" data-es="Incierto">Uncertain</span></label>
-<label class="s3" onclick="pick(4,3)"><input name="d4" type="radio" value="3"/><span class="num">3</span><span class="lbl" data-es="Razonable">Reasonable</span></label>
-<label class="s4" onclick="pick(4,4)"><input name="d4" type="radio" value="4"/><span class="num">4</span><span class="lbl" data-es="Buena ventana">Good window</span></label>
-<label class="s5" onclick="pick(4,5)"><input name="d4" type="radio" value="5"/><span class="num">5</span><span class="lbl" data-es="Momento perfecto">Perfect timing</span></label>
-</div>
-<div class="criteria">
-<table class="score-table">
-<tr><td>1</td><td data-es="El negocio en el país de origen es inestable. Las circunstancias personales hacen imposible la reubicación ahora.">Home business is unstable. Personal circumstances make relocation impossible now.</td></tr>
-<tr><td>2</td><td data-es="El mercado de origen necesita atención. El mercado estadounidense es interesante pero no hay urgencia ni ventana.">Home market needs attention. U.S. market is interesting but no urgency or window.</td></tr>
-<tr><td>3</td><td data-es="El negocio en el país de origen es estable. Existe la oportunidad del mercado estadounidense. Sin factores personales bloqueantes.">Home business is stable. U.S. market opportunity exists. No blocking personal factors.</td></tr>
-<tr><td>4</td><td data-es="La ventana del mercado está abierta. El momento competitivo es bueno. La situación personal apoya el movimiento.">Market window is open. Competitive timing is good. Personal situation supports the move.</td></tr>
-<tr><td>5</td><td data-es="Ventana de mercado clara, un socio/cliente lo está atrayendo, operaciones de origen autosostenibles.">Clear market window, partner/customer pulling you in, home ops self-sustaining.</td></tr>
-</table>
-</div>
-</div>
+
 <div class="results" id="results">
-<h2 data-es="Su Puntaje de Preparación para Expandirse">Your Expansion Readiness Score</h2>
-<div class="total-score" id="totalScore">—</div>
-<div class="total-label" data-es="de 25">out of 25</div>
-<div class="verdict" id="verdict" style="display:none"></div>
-<div class="breakdown" id="breakdown"></div>
-<div class="recommendation" id="rec"></div>
+  <h2>Your Expansion Readiness Score</h2>
+  <div class="total-score" id="totalScore">—</div>
+  <div class="total-label">out of 25</div>
+  <div class="verdict" id="verdict" style="display:none"></div>
+  <div class="breakdown" id="breakdown"></div>
+  <div class="recommendation" id="rec"></div>
 </div>
+
 <div class="notes-section">
-<h3 data-es="Sus Notas y Acciones">Your Notes &amp; Action Items</h3>
-<textarea id="userNotes" placeholder="What are your top priorities before entering the U.S. market? What gaps will you close first?" data-placeholder-es="¿Cuáles son sus principales prioridades antes de entrar al mercado estadounidense? ¿Qué brechas cerrará primero?" aria-label="Your notes and action items"></textarea>
+  <h3>Your Notes &amp; Action Items</h3>
+  <textarea id="userNotes" placeholder="What are your top priorities before entering the U.S. market? What gaps will you close first?"></textarea>
 </div>
+
 <footer>
-<p>UCF Business Incubation Program — U.S. Market Readiness Course</p>
-<p data-es="Esta es una herramienta de autoevaluación, no asesoría profesional. Lleve sus resultados a su sesión personalizada con UCF BIP para orientación adaptada a su caso.">This is a self-assessment tool, not professional advice. Bring your results to your 1:1 meeting with UCF BIP for personalized guidance.</p>
+  <p>UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
+  <p>This is a self-assessment tool, not professional advice. Bring your results to your 1:1 meeting with UCF BIP for personalized guidance.</p>
 </footer>
+
 <script>
 (function(){
   var KEY = 'ucf-bip-worksheet';
@@ -281,13 +290,8 @@
     var bd = document.getElementById('breakdown');
     var rec = document.getElementById('rec');
 
-    var es = (window.rtLanguage === 'es');
-    var DIMS_LOC = es
-      ? ['Ajuste al Mercado','Preparación Financiera','Preparación Legal','Operaciones','Momento Oportuno']
-      : DIMS;
-
     if (filled < 5) {
-      el.textContent = filled + (es ? '/5 calificados' : '/5 rated');
+      el.textContent = filled + '/5 rated';
       verdict.style.display = 'none';
       bd.innerHTML = '';
       rec.innerHTML = '';
@@ -299,52 +303,35 @@
 
     if (total >= 20) {
       verdict.className = 'verdict go';
-      verdict.textContent = es
-        ? 'Avance Firme — Está listo para entrar al mercado estadounidense'
-        : 'Strong Go — You are ready to enter the U.S. market';
+      verdict.textContent = 'Strong Go — You are ready to enter the U.S. market';
     } else if (total >= 15) {
       verdict.className = 'verdict maybe';
-      verdict.textContent = es
-        ? 'Avance Condicional — Atienda las áreas débiles antes o durante la entrada'
-        : 'Conditional Go — Address weak areas before or during entry';
+      verdict.textContent = 'Conditional Go — Address weak areas before or during entry';
     } else if (total >= 10) {
       verdict.className = 'verdict maybe';
-      verdict.textContent = es
-        ? 'Proceda con Precaución — Se necesita preparación significativa'
-        : 'Proceed with Caution — Significant preparation needed';
+      verdict.textContent = 'Proceed with Caution — Significant preparation needed';
     } else {
       verdict.className = 'verdict wait';
-      verdict.textContent = es
-        ? 'Aún No — Fortalezca su base antes de entrar'
-        : 'Not Yet — Strengthen your foundation before entering';
+      verdict.textContent = 'Not Yet — Strengthen your foundation before entering';
     }
 
     var html = '';
     scores.forEach(function(s,i) {
-      html += '<div class="bd-item"><span>' + DIMS_LOC[i] + '</span><span class="bd-val">' + s + '/5</span></div>';
+      html += '<div class="bd-item"><span>' + DIMS[i] + '</span><span class="bd-val">' + s + '/5</span></div>';
     });
     bd.innerHTML = html;
 
     // Find weakest dimensions
     var weak = [];
-    scores.forEach(function(s,i) { if (s <= 2) weak.push(DIMS_LOC[i]); });
+    scores.forEach(function(s,i) { if (s <= 2) weak.push(DIMS[i]); });
     var recHtml = '';
     if (weak.length > 0) {
-      if (es) {
-        recHtml = '<p><strong>Áreas prioritarias a fortalecer:</strong> ' + weak.join(', ') + '</p>';
-        recHtml += '<p style="margin-top:0.5rem;">Enfóquese en elevar estas áreas a por lo menos 3/5 antes de comprometerse con la entrada al mercado estadounidense. Lleve esta hoja a su sesión 1:1 de UCF BIP para planes de acción específicos.</p>';
-      } else {
-        recHtml = '<p><strong>Priority areas to strengthen:</strong> ' + weak.join(', ') + '</p>';
-        recHtml += '<p style="margin-top:0.5rem;">Focus on raising these to at least 3/5 before committing to U.S. market entry. Bring this worksheet to your UCF BIP 1:1 meeting for specific action plans.</p>';
-      }
+      recHtml = '<p><strong>Priority areas to strengthen:</strong> ' + weak.join(', ') + '</p>';
+      recHtml += '<p style="margin-top:0.5rem;">Focus on raising these to at least 3/5 before committing to U.S. market entry. Bring this worksheet to your UCF BIP 1:1 meeting for specific action plans.</p>';
     } else if (total < 25) {
-      recHtml = es
-        ? '<p><strong>Está en buena forma.</strong> Afine sus áreas más débiles y avance con confianza. Su asesor de UCF BIP puede ayudarle a optimizar la estrategia de entrada.</p>'
-        : '<p><strong>You are in good shape.</strong> Fine-tune your weaker areas and move forward with confidence. Your UCF BIP advisor can help optimize your entry strategy.</p>';
+      recHtml = '<p><strong>You are in good shape.</strong> Fine-tune your weaker areas and move forward with confidence. Your UCF BIP advisor can help optimize your entry strategy.</p>';
     } else {
-      recHtml = es
-        ? '<p><strong>Excelente preparación en todas las dimensiones.</strong> Está bien posicionado para entrar al mercado estadounidense. Enfóquese en velocidad de ejecución y en construir su red local.</p>'
-        : '<p><strong>Excellent readiness across all dimensions.</strong> You are well-positioned for U.S. market entry. Focus on execution speed and building your local network.</p>';
+      recHtml = '<p><strong>Excellent readiness across all dimensions.</strong> You are well-positioned for U.S. market entry. Focus on execution speed and building your local network.</p>';
     }
     rec.innerHTML = recHtml;
   }
@@ -361,5 +348,5 @@
   document.getElementById('userNotes').addEventListener('input', save);
 })();
 </script>
-<script src="../js/rt-language.js"></script></body>
+</body>
 </html>
