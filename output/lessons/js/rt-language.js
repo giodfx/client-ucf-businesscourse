@@ -117,7 +117,6 @@
       '.rt-ls-switch{display:inline-flex;border:1px solid #d1d5db;border-radius:999px;overflow:hidden;}',
       '.rt-ls-sw-btn{padding:4px 12px;border:0;background:transparent;color:#6b7280;font-size:12px;font-weight:600;cursor:pointer;}',
       '.rt-ls-sw-btn--active{background:#f4a83b;color:#fff;}',
-      '#rt-lang-mount{display:none !important;}', // hide the legacy inline toggle
       '@media (max-width: 600px){.rt-ls-wrap{top:8px;right:10px;}.rt-ls-btn{width:36px;height:36px;}.rt-ls-btn svg{width:18px;height:18px;}}'
     ].join('\n');
     document.head.appendChild(s);
@@ -170,8 +169,6 @@
       '      <button class="rt-ls-sw-btn' + (currentTheme === 'light' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="light" role="radio" aria-checked="' + (currentTheme === 'light') + '" title="Light">☀️</button>',
       '    </div>',
       '  </div>',
-      '  <div class="rt-ls-divider"></div>',
-      '  <button type="button" class="rt-ls-action rt-ls-action--danger" id="rt-ls-reset" role="menuitem">' + t.resetProgress + '</button>',
       '</div>'
     ].join('\n');
 
@@ -231,24 +228,54 @@
       });
     });
 
-    // Reset progress
-    var resetBtn = document.getElementById('rt-ls-reset');
-    if (resetBtn) {
-      resetBtn.addEventListener('click', function() {
-        if (!window.confirm(t.resetConfirm)) return;
+  }
+
+  // ── Legacy renderToggle: fill the dashboard's #rt-lang-mount with EN/ES
+  // buttons. The dashboard's video-dashboard.js settings dropdown
+  // references this mount; we don't replace it on dashboard pages so
+  // the dashboard's existing settings UX (with Theme + Rewatch + Disclaimer)
+  // stays intact. Lesson pages don't have rt-lang-mount; they get the
+  // gear-button rendered by renderSettings() above.
+  function renderToggle() {
+    var mount = document.getElementById('rt-lang-mount');
+    if (!mount) return;
+    mount.innerHTML =
+      '<div class="rt-lang-switch" role="radiogroup" aria-label="Language">' +
+        '<button class="rt-lang-sw-btn' + (lang === 'en' ? ' rt-lang-sw-btn--active' : '') + '" data-lang="en" role="radio" aria-checked="' + (lang === 'en') + '">EN</button>' +
+        '<button class="rt-lang-sw-btn' + (lang === 'es' ? ' rt-lang-sw-btn--active' : '') + '" data-lang="es" role="radio" aria-checked="' + (lang === 'es') + '">ES</button>' +
+      '</div>';
+    mount.querySelectorAll('.rt-lang-sw-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var newLang = this.dataset.lang;
+        if (newLang === lang) return;
         var p = getProgress();
-        var keep = { language: p.language };
-        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(keep)); } catch (_) {}
-        try { localStorage.removeItem('ucf-bip-checklist'); } catch (_) {}
-        try { localStorage.removeItem('ucf-bip-worksheet'); } catch (_) {}
+        p.language = newLang;
+        saveProgress(p);
         window.location.reload();
       });
-    }
+    });
   }
 
   // Run on DOM ready
   function initLanguage() {
-    renderSettings();
+    // Dashboard has data-total-lessons; lesson pages have data-lesson-id.
+    // Dashboard uses its own settings dropdown (vd-settings) which contains
+    // #rt-lang-mount for our EN/ES toggle. Lesson pages get a fresh gear
+    // button (top-right) with Language + Theme.
+    var isDashboard = document.body.hasAttribute('data-total-lessons');
+    var isLesson = document.body.hasAttribute('data-lesson-id');
+
+    if (isLesson) {
+      renderSettings();
+    } else if (isDashboard) {
+      renderToggle();
+    } else {
+      // Fallback for older HTML / unknown contexts: try the mount first,
+      // fall back to the gear if the mount isn't present.
+      if (document.getElementById('rt-lang-mount')) renderToggle();
+      else renderSettings();
+    }
+
     setupSpanishVideo();
     applySpanishText();
     applySpanishHTML();
