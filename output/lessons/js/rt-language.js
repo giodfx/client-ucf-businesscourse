@@ -100,24 +100,25 @@
     if (document.getElementById('rt-lesson-settings-css')) return;
     var s = document.createElement('style');
     s.id = 'rt-lesson-settings-css';
+    // Dark theme matching the dashboard's vd-settings-dropdown look —
+    // translucent dark panel, white text, pill toggles, proper SVG icons.
     s.textContent = [
-      '.rt-ls-wrap{position:fixed;top:14px;right:18px;z-index:50;font-family:inherit;}',
-      '.rt-ls-btn{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,0.25);background:rgba(20,30,42,0.85);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);transition:transform 120ms,background 120ms;}',
-      '.rt-ls-btn:hover{background:rgba(40,55,75,0.95);transform:rotate(15deg);}',
-      '.rt-ls-btn:focus{outline:2px solid #f4a83b;outline-offset:2px;}',
+      '.rt-ls-wrap{position:fixed;top:18px;right:20px;z-index:50;font-family:inherit;}',
+      '.rt-ls-btn{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(20,28,40,0.88);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px);box-shadow:0 4px 12px rgba(0,0,0,0.3);transition:transform 200ms ease, background 200ms ease;}',
+      '.rt-ls-btn:hover{background:rgba(40,55,75,0.95);transform:rotate(20deg);}',
+      '.rt-ls-btn:focus-visible{outline:2px solid #f4a83b;outline-offset:3px;}',
       '.rt-ls-btn svg{width:22px;height:22px;}',
-      '.rt-ls-dropdown{position:absolute;top:52px;right:0;min-width:240px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.18);padding:12px;display:none;color:#1f2937;}',
+      '.rt-ls-dropdown{position:absolute;top:56px;right:0;min-width:280px;background:rgba(20,28,40,0.96);border:1px solid rgba(255,255,255,0.1);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,0.4);padding:14px;display:none;color:#e5e7eb;backdrop-filter:blur(12px);}',
       '.rt-ls-dropdown[data-open="true"]{display:block;}',
-      '.rt-ls-item{display:flex;align-items:center;justify-content:space-between;padding:8px 4px;}',
-      '.rt-ls-label{font-size:13px;font-weight:500;color:#374151;}',
-      '.rt-ls-divider{height:1px;background:#e5e7eb;margin:8px 0;}',
-      '.rt-ls-action{display:block;width:100%;text-align:left;padding:8px 4px;border:0;background:transparent;color:#374151;font-size:13px;cursor:pointer;border-radius:6px;}',
-      '.rt-ls-action:hover{background:#f3f4f6;}',
-      '.rt-ls-action--danger{color:#b91c1c;}',
-      '.rt-ls-switch{display:inline-flex;border:1px solid #d1d5db;border-radius:999px;overflow:hidden;}',
-      '.rt-ls-sw-btn{padding:4px 12px;border:0;background:transparent;color:#6b7280;font-size:12px;font-weight:600;cursor:pointer;}',
-      '.rt-ls-sw-btn--active{background:#f4a83b;color:#fff;}',
-      '@media (max-width: 600px){.rt-ls-wrap{top:8px;right:10px;}.rt-ls-btn{width:36px;height:36px;}.rt-ls-btn svg{width:18px;height:18px;}}'
+      '.rt-ls-item{display:flex;align-items:center;justify-content:space-between;padding:10px 6px;gap:12px;}',
+      '.rt-ls-label{font-size:14px;font-weight:500;color:#e5e7eb;}',
+      '.rt-ls-divider{height:1px;background:rgba(255,255,255,0.1);margin:6px 0;}',
+      '.rt-ls-switch{display:inline-flex;background:rgba(255,255,255,0.08);border-radius:999px;padding:3px;border:1px solid rgba(255,255,255,0.12);}',
+      '.rt-ls-sw-btn{display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:6px 12px;border:0;background:transparent;color:rgba(255,255,255,0.6);font-size:12px;font-weight:600;cursor:pointer;border-radius:999px;transition:background 150ms,color 150ms;}',
+      '.rt-ls-sw-btn:hover{color:#fff;}',
+      '.rt-ls-sw-btn--active{background:#f4a83b;color:#1a1a1a;}',
+      '.rt-ls-sw-btn svg{display:block;}',
+      '@media (max-width: 600px){.rt-ls-wrap{top:10px;right:12px;}.rt-ls-btn{width:38px;height:38px;}.rt-ls-btn svg{width:18px;height:18px;}}'
     ].join('\n');
     document.head.appendChild(s);
   }
@@ -165,8 +166,8 @@
       '  <div class="rt-ls-item">',
       '    <span class="rt-ls-label">' + t.theme + '</span>',
       '    <div class="rt-ls-switch" role="radiogroup" aria-label="' + t.theme + '">',
-      '      <button class="rt-ls-sw-btn' + (currentTheme === 'dark' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="dark" role="radio" aria-checked="' + (currentTheme === 'dark') + '" title="Dark">🌙</button>',
-      '      <button class="rt-ls-sw-btn' + (currentTheme === 'light' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="light" role="radio" aria-checked="' + (currentTheme === 'light') + '" title="Light">☀️</button>',
+      '      <button class="rt-ls-sw-btn' + (currentTheme === 'light' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="light" role="radio" aria-checked="' + (currentTheme === 'light') + '" aria-label="Light"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg></button>',
+      '      <button class="rt-ls-sw-btn' + (currentTheme === 'dark' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="dark" role="radio" aria-checked="' + (currentTheme === 'dark') + '" aria-label="Dark"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg></button>',
       '    </div>',
       '  </div>',
       '</div>'
@@ -264,8 +265,19 @@
     // button (top-right) with Language + Theme.
     var isDashboard = document.body.hasAttribute('data-total-lessons');
     var isLesson = document.body.hasAttribute('data-lesson-id');
+    // Pages that already have the dashboard's vd-settings UI (resources.html
+    // ships its own gear via video-dashboard.js + a #btnSettings element)
+    // should NOT get a second gear from us. Detect by the presence of
+    // #btnSettings or the rt-lang-mount that the dashboard UI wraps.
+    var hasDashboardSettings =
+      !!document.getElementById('btnSettings') ||
+      (!!document.getElementById('rt-lang-mount') && isLesson);
 
-    if (isLesson) {
+    if (hasDashboardSettings) {
+      // Resources / hybrid page — let the existing vd-settings dropdown
+      // own the UI; just fill its language mount with EN/ES buttons.
+      renderToggle();
+    } else if (isLesson) {
       renderSettings();
     } else if (isDashboard) {
       renderToggle();
