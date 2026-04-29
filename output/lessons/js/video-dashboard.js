@@ -425,7 +425,38 @@
     });
   }
 
-  // Run on load
-  updateCardProgress();
+  // ─── LMS Progress Bridge ───
+  // When this dashboard is loaded inside the LearningPlatform (URL path
+  // matches /api/courses/<id>/asset/...), hydrate the localStorage
+  // 'rt-progress' key from the server before rendering. Keeps tile
+  // completion in sync across devices, browsers, and incognito sessions.
+  // When loaded standalone (visualizer review URL, file://) the regex
+  // doesn't match and we fall back to localStorage-only behavior.
+  var lmsCourseIdMatch = window.location.pathname.match(/\/api\/courses\/([^/]+)\/asset\//);
+  var lmsCourseId = lmsCourseIdMatch ? lmsCourseIdMatch[1] : null;
+
+  function hydrateFromServer() {
+    if (!lmsCourseId) return Promise.resolve();
+    return fetch('/api/courses/' + lmsCourseId + '/native-content', {
+      credentials: 'same-origin'
+    })
+      .then(function(res) { return res.ok ? res.json() : null; })
+      .then(function(data) {
+        if (!data || !data.progress) return;
+        var local = {};
+        try { local = JSON.parse(localStorage.getItem('rt-progress') || '{}'); } catch (e) {}
+        var serverVisited = data.progress.completedNodes || [];
+        local.visited = local.visited || [];
+        // Union: server's known completions + any local-only progress.
+        serverVisited.forEach(function(id) {
+          if (local.visited.indexOf(id) === -1) local.visited.push(id);
+        });
+        try { localStorage.setItem('rt-progress', JSON.stringify(local)); } catch (e) {}
+      })
+      .catch(function() { /* offline / 401 / 404 — silent fallback */ });
+  }
+
+  // Run on load — hydrate first, then render.
+  hydrateFromServer().then(updateCardProgress);
 
 })();
