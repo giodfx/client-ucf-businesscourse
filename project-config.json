@@ -1,6 +1,7 @@
 {
   "projectId": "ucf-business-course",
   "reviewerSlug": "ucf-business-course",
+  "htmlGenerator": "generate-html-ucf-roadtrip",
   "localization": {
     "region": "US",
     "country": "United States",
