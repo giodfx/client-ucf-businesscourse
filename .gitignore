@@ -24,7 +24,12 @@ media/video/
 media/audio/scenes/
 media/audio/voice-tests/
 media/audio/bookend/
-output/lessons/videos/
+# Bookend video binaries stay out of git (~145MB total) — pushed to R2 via
+# cf:r2:upload. Small text assets the player needs (captions.js + .vtt
+# transcripts) ARE tracked so the cloud regen can produce HTML that finds them.
+output/lessons/videos/**/*.mp4
+output/lessons/videos/**/*.webm
+output/lessons/videos/**/*.mov
 
 # Editor / runtime artifacts
 .claude/
