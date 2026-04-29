@@ -267,23 +267,26 @@
     var isLesson = document.body.hasAttribute('data-lesson-id');
     // Pages that already have the dashboard's vd-settings UI (resources.html
     // ships its own gear via video-dashboard.js + a #btnSettings element)
-    // should NOT get a second gear from us. Detect by the presence of
-    // #btnSettings or the rt-lang-mount that the dashboard UI wraps.
-    var hasDashboardSettings =
-      !!document.getElementById('btnSettings') ||
-      (!!document.getElementById('rt-lang-mount') && isLesson);
+    // should NOT get a second gear from us. Detect ONLY by #btnSettings —
+    // not by #rt-lang-mount, because every lesson page has that mount in
+    // its header.
+    var hasDashboardSettings = !!document.getElementById('btnSettings');
 
     if (hasDashboardSettings) {
-      // Resources / hybrid page — let the existing vd-settings dropdown
-      // own the UI; just fill its language mount with EN/ES buttons.
+      // Resources / dashboard / hybrid page — let the existing vd-settings
+      // dropdown own the UI; we just fill its language mount with EN/ES.
       renderToggle();
     } else if (isLesson) {
+      // Plain lesson page — inject our gear with Language + Theme.
+      // Hide the inline #rt-lang-mount (only on lesson pages, scoped) so
+      // the EN/ES toggle doesn't appear inline at the top of content.
+      var mount = document.getElementById('rt-lang-mount');
+      if (mount) mount.style.display = 'none';
       renderSettings();
     } else if (isDashboard) {
       renderToggle();
     } else {
-      // Fallback for older HTML / unknown contexts: try the mount first,
-      // fall back to the gear if the mount isn't present.
+      // Fallback for older HTML / unknown contexts.
       if (document.getElementById('rt-lang-mount')) renderToggle();
       else renderSettings();
     }
