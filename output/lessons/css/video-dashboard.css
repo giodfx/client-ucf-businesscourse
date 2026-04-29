@@ -276,6 +276,23 @@ html, body {
   opacity: 0;
   transform: translateY(8px);
 }
+/* Kill underlines on the dashboard tile in every state — overrides
+   accessibility.css `a { text-decoration: underline }` which leaks into
+   inner spans during :hover / :focus / :active. */
+.vd-dest,
+.vd-dest:link,
+.vd-dest:visited,
+.vd-dest:hover,
+.vd-dest:focus,
+.vd-dest:focus-visible,
+.vd-dest:active,
+.vd-dest *,
+.vd-dest:hover *,
+.vd-dest:focus *,
+.vd-dest:focus-visible *,
+.vd-dest:active * {
+  text-decoration: none !important;
+}
 .vd-dest:hover {
   background: rgba(255,255,255,0.13);
   border-color: rgba(255,255,255,0.12);
