@@ -2,7 +2,7 @@
   "lessonId": "lesson-4-2",
   "moduleId": "module-4",
   "landscapeTheme": "Theme Park",
-  "title": "Vías de Visa — Lo Que Realmente Es Realista",
+  "title": "Vías de Visa, Lo Que Realmente Es Realista",
   "duration": 7,
   "objectives": [
     "Comparar las vías de visa que pueden estar disponibles (O-1, E-2, L-1, H-1B); todas las acciones de visa e inmigración deben ser evaluadas con un abogado de inmigración",
@@ -21,7 +21,7 @@
       "type": "text",
       "id": "text-4-2-1",
       "title": "Vías de Visa para Fundadores Internacionales",
-      "content": "<p>En la lección anterior, aprendió quién pertenece a su equipo y cómo EE.UU. clasifica cada rol. Ahora la pregunta vuelve hacia usted: ¿qué visa necesita para trabajar legalmente?</p>\n\n<p>Ser dueño de una empresa en EE.UU. no le da por sí mismo el derecho de trabajar aquí. Una fundadora colombiana con 50,000 usuarios de fintech asumió que podía volar a Miami y dirigir una oficina en EE.UU., pero su visa de turista no se lo permitía.</p>\n\n<p>Existen varias rutas de visa con distintas necesidades, costos y plazos. La ruta correcta depende de su ciudadanía, trayectoria, capital y negocio actual. Lo que sigue es una visión general a nivel informativo, no un sustituto de asesoría legal.</p>",
+      "content": "<p>En la lección anterior, aprendió quién pertenece a su equipo y cómo EE.UU. clasifica cada rol. Ahora la pregunta vuelve hacia usted: ¿qué visa necesita para trabajar legalmente?</p>\n\n<p>Ser dueño de una empresa en EE.UU. no le da por sí mismo el derecho de trabajar aquí. Una fundadora surcoreana con 50,000 usuarios de fintech asumió que podía volar a Miami y dirigir una oficina en EE.UU., pero su visa de turista no se lo permitía.</p>\n\n<p>Existen varias rutas de visa con distintas necesidades, costos y plazos. La ruta correcta depende de su ciudadanía, trayectoria, capital y negocio actual. Lo que sigue es una visión general a nivel informativo, no un sustituto de asesoría legal.</p>",
       "wordCount": 137
     },
     {
@@ -41,28 +41,28 @@
             "O-1A",
             "Fundadores con habilidad o logros extraordinarios",
             "Reconocimiento nacional/internacional sostenido en su campo",
-            "$5,000–$10,000+",
-            "2–6 meses (estándar); 15 días hábiles (premium)"
+            "$5,000, $10,000+",
+            "2, 6 meses (estándar); 15 días hábiles (premium)"
           ],
           [
             "E-2",
             "Inversionistas por tratado de países que califican",
             "Inversión sustancial en un negocio en EE.UU.; sin mínimo fijo, pero típicamente $100,000+",
-            "$3,000–$8,000+",
-            "4–8 meses (consular); varía según el país"
+            "$3,000, $8,000+",
+            "4, 8 meses (consular); varía según el país"
           ],
           [
             "L-1A",
             "Fundadores que se transfieren desde una empresa extranjera existente",
             "Rol gerencial en una empresa extranjera relacionada durante 1+ año",
-            "$4,000–$10,000+",
-            "4–8 meses (estándar); 15 días hábiles (premium)"
+            "$4,000, $10,000+",
+            "4, 8 meses (estándar); 15 días hábiles (premium)"
           ],
           [
             "H-1B",
             "Trabajadores en ocupación especializada (patrocinados por el empleador)",
             "El trabajo requiere un título universitario; sujeto a lotería anual",
-            "$2,000–$5,000+",
+            "$2,000, $5,000+",
             "Lotería en marzo, inicio en octubre; tasa de selección de ~25%"
           ]
         ]
@@ -92,19 +92,19 @@
       "sections": [
         {
           "heading": "O-1A: Habilidad Extraordinaria",
-          "content": "**Requisitos:** Demostrar habilidad extraordinaria en negocios, ciencia, educación o atletismo a través del reconocimiento nacional/internacional.\n\n**Cronograma:** 2–6 meses (procesamiento premium disponible)\n\n**Costo:** $5,000–$10,000+ (presentación + abogado)\n\n**Realista para:** Empresarios con publicaciones, premios, prensa significativa o historial salarial alto. Opción sólida si tiene evidencia de estar en la cima de su campo."
+          "content": "**Requisitos:** Demostrar habilidad extraordinaria en negocios, ciencia, educación o atletismo a través del reconocimiento nacional/internacional.\n\n**Cronograma:** 2, 6 meses (procesamiento premium disponible)\n\n**Costo:** $5,000, $10,000+ (presentación + abogado)\n\n**Realista para:** Empresarios con publicaciones, premios, prensa significativa o historial salarial alto. Opción sólida si tiene evidencia de estar en la cima de su campo."
         },
         {
           "heading": "E-2: Inversionista por Tratado",
-          "content": "**Requisitos:** Ciudadano de un país con tratado, inversión sustancial en un negocio en EE.UU., debe dirigir y desarrollar la empresa.\n\n**Cronograma:** 4–8 meses (procesamiento consular)\n\n**Costo:** $3,000–$8,000+ (la inversión debe ser 'sustancial', típicamente $100K+)\n\n**Realista para:** La mayoría de los fundadores de LATAM con capital para invertir. Brasil y algunos países NO son países con tratado; verifique elegibilidad primero."
+          "content": "**Requisitos:** Ciudadano de un país con tratado, inversión sustancial en un negocio en EE.UU., debe dirigir y desarrollar la empresa.\n\n**Cronograma:** 4, 8 meses (procesamiento consular)\n\n**Costo:** $3,000, $8,000+ (la inversión debe ser 'sustancial', típicamente $100K+)\n\n**Realista para:** La mayoría de los fundadores de LATAM con capital para invertir. Brasil y algunos países NO son países con tratado; verifique elegibilidad primero."
         },
         {
           "heading": "L-1A: Transferencia Intraempresarial",
-          "content": "**Requisitos:** Debe haber trabajado para una empresa relacionada en el extranjero durante 1+ año en un rol gerencial/ejecutivo. Transferencia a una oficina en EE.UU.\n\n**Cronograma:** 4–8 meses (estándar); 15 días hábiles (procesamiento premium)\n\n**Costo:** $3,000–$8,000 (presentación + abogado)\n\n**Realista para:** Fundadores que expanden una empresa existente a EE.UU. Debe demostrar que la entidad extranjera permanece activa."
+          "content": "**Requisitos:** Debe haber trabajado para una empresa relacionada en el extranjero durante 1+ año en un rol gerencial/ejecutivo. Transferencia a una oficina en EE.UU.\n\n**Cronograma:** 4, 8 meses (estándar); 15 días hábiles (procesamiento premium)\n\n**Costo:** $3,000, $8,000 (presentación + abogado)\n\n**Realista para:** Fundadores que expanden una empresa existente a EE.UU. Debe demostrar que la entidad extranjera permanece activa."
         },
         {
           "heading": "H-1B: Ocupación Especializada",
-          "content": "**Requisitos:** Título universitario en un campo especializado. El empleador (puede ser su propia empresa) le patrocina.\n\n**Cronograma:** Lotería anual (abril), fecha de inicio el 1 de octubre\n\n**Costo:** $3,000–$10,000\n\n**Realista para:** La menos ideal para emprendedores: basada en lotería, dependiente del empleador, tope de 6 años. Mejor para empleados que desea contratar."
+          "content": "**Requisitos:** Título universitario en un campo especializado. El empleador (puede ser su propia empresa) le patrocina.\n\n**Cronograma:** Lotería anual (abril), fecha de inicio el 1 de octubre\n\n**Costo:** $3,000, $10,000\n\n**Realista para:** La menos ideal para emprendedores: basada en lotería, dependiente del empleador, tope de 6 años. Mejor para empleados que desea contratar."
         }
       ]
     },
@@ -184,8 +184,8 @@
             {
               "label": "Duration",
               "labelEs": "Duración",
-              "value": "1–3 years initially, up to 7 years",
-              "valueEs": "1–3 años inicialmente, hasta 7 años"
+              "value": "1, 3 years initially, up to 7 years",
+              "valueEs": "1, 3 años inicialmente, hasta 7 años"
             },
             {
               "label": "Key requirement",
@@ -318,7 +318,7 @@
       "id": "callout-4-2-2",
       "variant": "before-you-spend",
       "title": "Antes de Gastar Dinero: Lo Que Realmente Cuestan las Solicitudes de Visa",
-      "content": "<p>Ahora veamos los números. A inicios de 2026, los costos totales de visa (honorarios de abogado + tarifas gubernamentales de presentación) típicamente oscilan entre:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000–$10,000+ (abogado) + $2,805 (procesamiento premium, opcional) + tarifas de presentación</li><li><strong>E-2:</strong> $3,000–$8,000+ (abogado) + $315 (tarifa de presentación) + capital de inversión</li><li><strong>L-1A:</strong> $4,000–$10,000+ (abogado) + $2,805 (procesamiento premium, opcional) + tarifas de presentación</li><li><strong>H-1B:</strong> $2,000–$5,000+ (abogado) + tarifa de registro + tarifas de presentación</li></ul>\n\n<p>Estos son solo los costos de abogado y presentación. La E-2 también requiere que demuestre una inversión de capital sustancial en el negocio mismo. Presupueste la consulta con el abogado ($250–$500 por hora) como su primer paso. Un buen abogado le dirá honestamente qué vías son realistas antes de que gaste miles en una solicitud.</p>"
+      "content": "<p>Ahora veamos los números. A inicios de 2026, los costos totales de visa (honorarios de abogado + tarifas gubernamentales de presentación) típicamente oscilan entre:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000, $10,000+ (abogado) + $2,805 (procesamiento premium, opcional) + tarifas de presentación</li><li><strong>E-2:</strong> $3,000, $8,000+ (abogado) + $315 (tarifa de presentación) + capital de inversión</li><li><strong>L-1A:</strong> $4,000, $10,000+ (abogado) + $2,805 (procesamiento premium, opcional) + tarifas de presentación</li><li><strong>H-1B:</strong> $2,000, $5,000+ (abogado) + tarifa de registro + tarifas de presentación</li></ul>\n\n<p>Estos son solo los costos de abogado y presentación. La E-2 también requiere que demuestre una inversión de capital sustancial en el negocio mismo. Presupueste la consulta con el abogado ($250, $500 por hora) como su primer paso. Un buen abogado le dirá honestamente qué vías son realistas antes de que gaste miles en una solicitud.</p>"
     },
     {
       "type": "text",
@@ -355,7 +355,7 @@
             "B-1, porque está asistiendo a reuniones de negocios en EE.UU."
           ],
           "correctAnswer": 1,
-          "explanation": "La L-1A (Transferencia Intraempresarial) está diseñada para empresarios y gerentes que ya dirigen una empresa extranjera y desean abrir o gestionar una oficina en EE.UU. Los requisitos clave —un rol gerencial en una empresa extranjera calificada durante al menos un año— se ajustan bien a la situación de esta fundadora. Sin embargo, un abogado de inmigración evaluaría todas las opciones según sus circunstancias específicas."
+          "explanation": "La L-1A (Transferencia Intraempresarial) está diseñada para empresarios y gerentes que ya dirigen una empresa extranjera y desean abrir o gestionar una oficina en EE.UU. Los requisitos clave, un rol gerencial en una empresa extranjera calificada durante al menos un año, se ajustan bien a la situación de esta fundadora. Sin embargo, un abogado de inmigración evaluaría todas las opciones según sus circunstancias específicas."
         },
         {
           "stem": "Una fundadora de México es dueña de una empresa rentable de comercio electrónico y tiene $120,000 para invertir en una operación en EE.UU. No tiene logros ni premios extraordinarios, y nunca ha gestionado una empresa afiliada a EE.UU. Su abogado de inmigración exploraría con mayor probabilidad ¿qué vía de visa primero?",
@@ -371,13 +371,13 @@
         {
           "stem": "Una fundadora de Argentina quiere abrir una oficina en EE.UU. en seis meses. Tiene $150,000 en capital de inversión, no tiene logros ni premios extraordinarios y nunca ha gestionado una empresa afiliada a EE.UU. Argentina es un país con tratado E-2. Con base en los datos de costos y plazos de esta lección, ¿qué debería presupuestar y planificar?",
           "options": [
-            "Presupuestar $3,000–$8,000+ para honorarios de abogado y tarifas de presentación de la E-2, comenzar el proceso ahora ya que el procesamiento consular toma 4–8 meses, y consultar a un abogado de inmigración para confirmar la elegibilidad",
-            "Presupuestar $2,000–$5,000 para una solicitud de H-1B y entrar a la lotería de marzo para una fecha de inicio en octubre",
+            "Presupuestar $3,000, $8,000+ para honorarios de abogado y tarifas de presentación de la E-2, comenzar el proceso ahora ya que el procesamiento consular toma 4, 8 meses, y consultar a un abogado de inmigración para confirmar la elegibilidad",
+            "Presupuestar $2,000, $5,000 para una solicitud de H-1B y entrar a la lotería de marzo para una fecha de inicio en octubre",
             "Saltarse al abogado y presentar la solicitud de visa ella misma para ahorrar dinero, ya que los formularios E-2 son sencillos",
             "Esperar hasta llegar a EE.UU. con una visa de turista, luego solicitar la autorización de trabajo desde dentro del país"
           ],
           "correctAnswer": 0,
-          "explanation": "La visa E-2 Inversionista por Tratado se ajusta a su perfil: Argentina es un país con tratado y tiene $150,000 en capital. Los costos de abogado y presentación típicamente oscilan entre $3,000–$8,000+, y el procesamiento consular toma de 4 a 8 meses, por lo que debería comenzar ahora para cumplir con su plazo de seis meses. La H-1B (opción B) es por lotería con tiempos rígidos y menos adecuada para emprendedores. Presentar uno mismo (opción C) es arriesgado para una solicitud de visa compleja. Trabajar con una visa de turista (opción D) viola la ley migratoria y puede resultar en deportación."
+          "explanation": "La visa E-2 Inversionista por Tratado se ajusta a su perfil: Argentina es un país con tratado y tiene $150,000 en capital. Los costos de abogado y presentación típicamente oscilan entre $3,000, $8,000+, y el procesamiento consular toma de 4 a 8 meses, por lo que debería comenzar ahora para cumplir con su plazo de seis meses. La H-1B (opción B) es por lotería con tiempos rígidos y menos adecuada para emprendedores. Presentar uno mismo (opción C) es arriesgado para una solicitud de visa compleja. Trabajar con una visa de turista (opción D) viola la ley migratoria y puede resultar en deportación."
         }
       ]
     },

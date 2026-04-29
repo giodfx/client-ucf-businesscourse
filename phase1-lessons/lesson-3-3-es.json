@@ -14,7 +14,7 @@
       "type": "text",
       "id": "text-3-3-1",
       "title": "¿Hacerlo Usted Mismo o Llamar a un Experto?",
-      "content": "<p>Su propiedad intelectual está asegurada y su seguro está en su lugar. La última pregunta importante de este módulo: ¿qué decisiones puede tomar por su cuenta y cuáles requieren un especialista?</p>\n\n<p>Un abogado de negocios en Central Florida cobra $200–$400 por hora. Llámelo para cada pregunta y agotará su presupuesto rápidamente. Un fundador de India ahorró $3,000 al presentar él mismo su LLC y EIN, y luego gastó $800 en un abogado para el acuerdo operativo y un contrato importante con un cliente. La comparación a continuación muestra dónde puede ahorrar y dónde debería invertir.</p>",
+      "content": "<p>Su propiedad intelectual está asegurada y su seguro está en su lugar. La última pregunta importante de este módulo: ¿qué decisiones puede tomar por su cuenta y cuáles requieren un especialista?</p>\n\n<p>Un abogado de negocios en Central Florida cobra $200, $400 por hora. Llámelo para cada pregunta y agotará su presupuesto rápidamente. Un fundador de India ahorró $3,000 al presentar él mismo su LLC y EIN, y luego gastó $800 en un abogado para el acuerdo operativo y un contrato importante con un cliente. La comparación a continuación muestra dónde puede ahorrar y dónde debería invertir.</p>",
       "wordCount": 197
     },
     {
@@ -67,42 +67,42 @@
         "rows": [
           [
             "Consulta inicial",
-            "$0–$300",
+            "$0, $300",
             "Muchos abogados ofrecen una consulta gratuita de 30 minutos. Pregunte siempre."
           ],
           [
             "Revisión de contrato",
-            "$200–$500 por documento",
+            "$200, $500 por documento",
             "Es común una tarifa fija para contratos simples. Los acuerdos complejos pueden ser por hora."
           ],
           [
             "Redacción de contrato (personalizado)",
-            "$500–$2,000",
+            "$500, $2,000",
             "Acuerdos de servicios, acuerdos de sociedad, acuerdos de licenciamiento."
           ],
           [
             "Constitución de entidad (con abogado)",
-            "$500–$1,500",
+            "$500, $1,500",
             "Incluye asesoría sobre selección de entidad, registro y redacción del acuerdo operativo."
           ],
           [
             "Registro de marca (con abogado)",
-            "$500–$1,000",
-            "Honorarios del abogado además de la tarifa de presentación del [USPTO](https://www.uspto.gov) ($250–$350)."
+            "$500, $1,000",
+            "Honorarios del abogado además de la tarifa de presentación del [USPTO](https://www.uspto.gov) ($250, $350)."
           ],
           [
             "Combo inmigración-negocio",
-            "$2,000–$10,000+",
+            "$2,000, $10,000+",
             "Cuando la estructura de su negocio afecta su vía de visa. Presupueste en el extremo superior."
           ],
           [
             "Disputa empresarial / carta de demanda",
-            "$1,000–$5,000",
+            "$1,000, $5,000",
             "Trabajo prelitigio. Si va a juicio, los costos escalan significativamente."
           ],
           [
             "Tarifa por hora (Central FL)",
-            "$200–$400 por hora",
+            "$200, $400 por hora",
             "Abogados de negocios. Los especialistas en inmigración pueden ser más altos."
           ]
         ]
@@ -116,7 +116,7 @@
       "id": "callout-3-3-1",
       "variant": "before-you-spend",
       "title": "Antes de Contratar a un Abogado",
-      "content": "<p>Antes de gastar dinero en honorarios legales, agote primero los recursos gratuitos disponibles para usted.</p>\n\n<ul><li><strong>SBDC (Centro de Desarrollo de Pequeñas Empresas):</strong> Asesoría empresarial gratuita uno a uno, incluyendo referencias a abogados. El UCF SBDC está ubicado en el campus y atiende a toda la región de Central Florida.</li><li><strong>[Red UCF BIP](https://incubator.ucf.edu/):</strong> Pida a sus asesores del programa referencias de abogados. Trabajan con abogados que comprenden a los fundadores internacionales.</li><li><strong>Servicio de Referencia de Abogados del [Florida Bar](https://www.floridabar.org/public/lrs/):</strong> Le conecta con abogados por especialidad para una consulta inicial (típicamente $25–$50 por 30 minutos).</li><li><strong>Sociedades de asistencia legal:</strong> Si su presupuesto es muy ajustado, algunas organizaciones de asistencia legal ofrecen servicios gratuitos o de costo reducido a emprendedores.</li></ul>\n\n<p>Cuando contrate a un abogado, pida cotizaciones a tarifa fija en lugar de facturación por hora. Verifique que tenga experiencia con clientes internacionales. Y siempre obtenga el acuerdo de honorarios por escrito antes de que comience el trabajo. Los sectores tecnológico y aeroespacial de Central Florida han creado una amplia reserva de abogados con experiencia en negocios internacionales, PI e inmigración, por lo que encontrar al especialista adecuado es más alcanzable aquí que en muchos otros mercados de EE.UU.</p>"
+      "content": "<p>Antes de gastar dinero en honorarios legales, agote primero los recursos gratuitos disponibles para usted.</p>\n\n<ul><li><strong>SBDC (Centro de Desarrollo de Pequeñas Empresas):</strong> Asesoría empresarial gratuita uno a uno, incluyendo referencias a abogados. El UCF SBDC está ubicado en el campus y atiende a toda la región de Central Florida.</li><li><strong>[Red UCF BIP](https://incubator.ucf.edu/):</strong> Pida a sus asesores del programa referencias de abogados. Trabajan con abogados que comprenden a los fundadores internacionales.</li><li><strong>Servicio de Referencia de Abogados del [Florida Bar](https://www.floridabar.org/public/lrs/):</strong> Le conecta con abogados por especialidad para una consulta inicial (típicamente $25, $50 por 30 minutos).</li><li><strong>Sociedades de asistencia legal:</strong> Si su presupuesto es muy ajustado, algunas organizaciones de asistencia legal ofrecen servicios gratuitos o de costo reducido a emprendedores.</li></ul>\n\n<p>Cuando contrate a un abogado, pida cotizaciones a tarifa fija en lugar de facturación por hora. Verifique que tenga experiencia con clientes internacionales. Y siempre obtenga el acuerdo de honorarios por escrito antes de que comience el trabajo. Los sectores tecnológico y aeroespacial de Central Florida han creado una amplia reserva de abogados con experiencia en negocios internacionales, PI e inmigración, por lo que encontrar al especialista adecuado es más alcanzable aquí que en muchos otros mercados de EE.UU.</p>"
     },
     {
       "type": "timeline",
@@ -141,7 +141,7 @@
         {
           "label": "Presentación de PI",
           "title": "Marca Registrada o Patente",
-          "content": "Las marcas registradas pueden presentarse solo, pero las patentes requieren un abogado de patentes. Presupueste $5K–$15K para el trabajo de patentes."
+          "content": "Las marcas registradas pueden presentarse solo, pero las patentes requieren un abogado de patentes. Presupueste $5K, $15K para el trabajo de patentes."
         },
         {
           "label": "Disputa",
@@ -154,7 +154,7 @@
       "type": "text",
       "id": "text-3-3-2",
       "title": "Encontrar al Abogado Adecuado: No Todos Son Iguales",
-      "content": "<p>\"Abogado\" es tan amplio como \"médico\". No iría a un cardiólogo para un brazo roto, y el mismo principio aplica a la asesoría legal. Diferentes situaciones requieren distintos especialistas.</p>\n\n<p><strong>Abogado de negocios:</strong> Constitución de entidad, contratos, disputas comerciales. Su relación legal principal.</p>\n\n<p><strong>Abogado de inmigración:</strong> Visas, autorización de trabajo, decisiones empresariales vinculadas a la inmigración. Esencial si la estructura de su negocio afecta su capacidad de permanecer en EE.UU. (común para titulares de E-2 o L-1).</p>\n\n<p><strong>Abogado de PI:</strong> Marcas registradas, patentes, exigencia de derechos de autor. Un abogado general de negocios no es suficiente para presentaciones de patentes o conflictos de marcas.</p>\n\n<p><strong>Abogado tributario:</strong> Tratados tributarios internacionales, auditorías del IRS, ingresos en varios países. Use un CPA para el trabajo rutinario; un abogado tributario para disputas que involucren responsabilidad de $50,000+.</p>\n\n<p>Preguntas que debe hacer antes de contratar:</p>\n\n<ol><li>¿Trabaja con empresarios internacionales?</li><li>¿Está familiarizado con las implicaciones de las visas E-2 / O-1 / L-1?</li><li>¿Ofrece facturación a tarifa fija?</li><li>¿Puede proporcionar referencias de fundadores internacionales?</li></ol>\n\n<p>Un fundador mexicano entrevistó a tres abogados; los primeros dos no tenían experiencia con negocios de propiedad extranjera; el tercero había ayudado a 15 fundadores internacionales y ofreció una tarifa fija de $1,200 por la constitución de la entidad y el acuerdo operativo.</p>",
+      "content": "<p>\"Abogado\" es tan amplio como \"médico\". No iría a un cardiólogo para un brazo roto, y el mismo principio aplica a la asesoría legal. Diferentes situaciones requieren distintos especialistas.</p>\n\n<p><strong>Abogado de negocios:</strong> Constitución de entidad, contratos, disputas comerciales. Su relación legal principal.</p>\n\n<p><strong>Abogado de inmigración:</strong> Visas, autorización de trabajo, decisiones empresariales vinculadas a la inmigración. Esencial si la estructura de su negocio afecta su capacidad de permanecer en EE.UU. (común para titulares de E-2 o L-1).</p>\n\n<p><strong>Abogado de PI:</strong> Marcas registradas, patentes, exigencia de derechos de autor. Un abogado general de negocios no es suficiente para presentaciones de patentes o conflictos de marcas.</p>\n\n<p><strong>Abogado tributario:</strong> Tratados tributarios internacionales, auditorías del IRS, ingresos en varios países. Use un CPA para el trabajo rutinario; un abogado tributario para disputas que involucren responsabilidad de $50,000+.</p>\n\n<p>Preguntas que debe hacer antes de contratar:</p>\n\n<ol><li>¿Trabaja con empresarios internacionales?</li><li>¿Está familiarizado con las implicaciones de las visas E-2 / O-1 / L-1?</li><li>¿Ofrece facturación a tarifa fija?</li><li>¿Puede proporcionar referencias de fundadores internacionales?</li></ol>\n\n<p>Un fundador indio entrevistó a tres abogados; los primeros dos no tenían experiencia con negocios de propiedad extranjera; el tercero había ayudado a 15 fundadores internacionales y ofreció una tarifa fija de $1,200 por la constitución de la entidad y el acuerdo operativo.</p>",
       "wordCount": 169
     },
     {
@@ -202,12 +202,12 @@
           "stem": "Una empresaria de Indonesia está planificando su primer año de operaciones en EE.UU. Necesita la constitución de una LLC con acuerdo operativo, la revisión de un contrato de servicio con cliente y una presentación de marca registrada. Usando los rangos de costos de esta lección, ¿cuál es el presupuesto legal total más realista que debería reservar?",
           "options": [
             "Menos de $500; puede manejar todo ella misma usando herramientas gratuitas en línea",
-            "$1,200–$3,000, cubriendo la constitución de entidad asistida por abogado ($500–$1,500), la revisión de contrato ($200–$500) y la presentación de marca con abogado ($500–$1,000 más las tarifas del [USPTO](https://www.uspto.gov))",
-            "$10,000–$20,000; los servicios legales en EE.UU. son extremadamente caros para todas las tareas",
-            "$5,000–$8,000; necesita un abogado a tiempo completo bajo retención durante el primer año"
+            "$1,200, $3,000, cubriendo la constitución de entidad asistida por abogado ($500, $1,500), la revisión de contrato ($200, $500) y la presentación de marca con abogado ($500, $1,000 más las tarifas del [USPTO](https://www.uspto.gov))",
+            "$10,000, $20,000; los servicios legales en EE.UU. son extremadamente caros para todas las tareas",
+            "$5,000, $8,000; necesita un abogado a tiempo completo bajo retención durante el primer año"
           ],
           "correctAnswer": 1,
-          "explanation": "Con base en los rangos de costos de esta lección: la constitución de entidad con abogado va de $500–$1,500, la revisión de contrato es de $200–$500 por documento, y la presentación de marca con abogado es de $500–$1,000 más la tarifa de $250–$350 del [USPTO](https://www.uspto.gov). El total cae en el rango de $1,200–$3,000. La opción A subestima el costo de la participación del abogado. Las opciones C y D sobrestiman significativamente los costos para estos servicios específicos."
+          "explanation": "Con base en los rangos de costos de esta lección: la constitución de entidad con abogado va de $500, $1,500, la revisión de contrato es de $200, $500 por documento, y la presentación de marca con abogado es de $500, $1,000 más la tarifa de $250, $350 del [USPTO](https://www.uspto.gov). El total cae en el rango de $1,200, $3,000. La opción A subestima el costo de la participación del abogado. Las opciones C y D sobrestiman significativamente los costos para estos servicios específicos."
         }
       ]
     },

@@ -38,7 +38,7 @@
       "tabs": [
         {
           "label": "Pricing",
-          "content": "**U.S. expectations:** Monthly subscriptions preferred over annual. Free trials expected (7–14 days minimum).\n\n**Common mistakes:** Pricing in your home currency, not accounting for U.S. sales tax, underpricing to 'break in.'\n\n**Action:** Research 3 U.S. competitors and position your price within 20% of the market average."
+          "content": "**U.S. expectations:** Monthly subscriptions preferred over annual. Free trials expected (7, 14 days minimum).\n\n**Common mistakes:** Pricing in your home currency, not accounting for U.S. sales tax, underpricing to 'break in.'\n\n**Action:** Research 3 U.S. competitors and position your price within 20% of the market average."
         },
         {
           "label": "Positioning",
@@ -75,7 +75,7 @@
       "type": "scenario",
       "id": "scenario-5-1-pricing",
       "title": "Your Price Is Too Low: What Do You Do?",
-      "description": "Your SaaS product costs $15/month in Latin America. A U.S. prospect says: 'At that price, I'd assume it doesn't include compliance features.' Your U.S. competitors charge $45–$65/month. What is your move?",
+      "description": "Your SaaS product costs $15/month in Latin America. A U.S. prospect says: 'At that price, I'd assume it doesn't include compliance features.' Your U.S. competitors charge $45, $65/month. What is your move?",
       "paths": [
         {
           "label": "Keep the $15 price: it is your competitive advantage",
@@ -99,14 +99,14 @@
       "id": "callout-5-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Common Mistakes International Founders Make: U.S. Customers",
-      "content": "<ul><li><strong>Launching with home-market pricing.</strong> U.S. pricing expectations are shaped by local competitors, not your cost structure at home. Too low and you look unreliable. Too high without clear differentiation and you lose to established players. A Colombian software company priced their project management tool at $5/user/month, U.S. prospects assumed it was a basic tool. After repositioning at $19/user/month with added features, conversion rates improved significantly. Research your competitive set before setting a price.</li><li><strong>Not following up fast enough on U.S. inquiries.</strong> American buyers expect same-day responses. In many markets, a two-or-three-day reply is normal. In the U.S., waiting more than a few hours means they have already contacted your competitor.</li><li><strong>Skipping vendor onboarding requirements.</strong> When selling to U.S. companies, you will often need to complete vendor registration including tax forms (W-9), proof of insurance, and compliance documentation. Not knowing this exists delays deals by weeks or kills them entirely.</li></ul>"
+      "content": "<ul><li><strong>Launching with home-market pricing.</strong> U.S. pricing expectations are shaped by local competitors, not your cost structure at home. Too low and you look unreliable. Too high without clear differentiation and you lose to established players. A Polish software company priced their project management tool at $5/user/month, U.S. prospects assumed it was a basic tool. After repositioning at $19/user/month with added features, conversion rates improved significantly. Research your competitive set before setting a price.</li><li><strong>Not following up fast enough on U.S. inquiries.</strong> American buyers expect same-day responses. In many markets, a two-or-three-day reply is normal. In the U.S., waiting more than a few hours means they have already contacted your competitor.</li><li><strong>Skipping vendor onboarding requirements.</strong> When selling to U.S. companies, you will often need to complete vendor registration including tax forms (W-9), proof of insurance, and compliance documentation. Not knowing this exists delays deals by weeks or kills them entirely.</li></ul>"
     },
     {
       "type": "callout",
       "id": "callout-5-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What Market Entry Actually Costs",
-      "content": "<p>As of early 2026, budget for these market entry costs:</p>\n\n<ul><li><strong>U.S. market research:</strong> $2,000–$10,000 outsourced; free through networking and cold outreach</li><li><strong>Product localization (beyond translation):</strong> $5,000–$25,000: regulatory compliance, payment integration, UI/UX changes</li><li><strong>Digital marketing (SEO, paid ads):</strong> $2,000–$5,000/month</li><li><strong>U.S. website and sales materials:</strong> $3,000–$15,000</li><li><strong>Trade shows (B2B):</strong> $3,000–$10,000 per event</li></ul>\n\n<p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p>"
+      "content": "<p>As of early 2026, budget for these market entry costs:</p>\n\n<ul><li><strong>U.S. market research:</strong> $2,000, $10,000 outsourced; free through networking and cold outreach</li><li><strong>Product localization (beyond translation):</strong> $5,000, $25,000: regulatory compliance, payment integration, UI/UX changes</li><li><strong>Digital marketing (SEO, paid ads):</strong> $2,000, $5,000/month</li><li><strong>U.S. website and sales materials:</strong> $3,000, $15,000</li><li><strong>Trade shows (B2B):</strong> $3,000, $10,000 per event</li></ul>\n\n<p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p>"
     },
     {
       "type": "knowledge-check",
@@ -123,7 +123,7 @@
             "U.S. customers see the low price as a quality signal and cannot reach support during their business hours"
           ],
           "correctAnswer": 3,
-          "explanation": "Two of the five common adaptation areas are likely failing here. The pricing ($8/month) may be perceived as too low in a market where competitors charge $20–$40, signaling a basic or unreliable product. And the lack of U.S.-hours support means American customers cannot get help when they need it. Fixing these two issues, adjusting pricing to U.S. competitive norms and providing U.S.-timezone support, would likely have more impact than increased advertising."
+          "explanation": "Two of the five common adaptation areas are likely failing here. The pricing ($8/month) may be perceived as too low in a market where competitors charge $20, $40, signaling a basic or unreliable product. And the lack of U.S.-hours support means American customers cannot get help when they need it. Fixing these two issues, adjusting pricing to U.S. competitive norms and providing U.S.-timezone support, would likely have more impact than increased advertising."
         },
         {
           "stem": "A successful food delivery app from Mexico wants to expand into the U.S. market. Their app works well in Spanish, and they plan to translate it to English and launch at the same price point ($3.99/month) they charge in Mexico. They have no U.S.-based customer support. Which adaptation area should they address FIRST to avoid the most immediate barrier to U.S. sales?",
@@ -140,12 +140,12 @@
           "stem": "A founder from South Korea built a cybersecurity monitoring tool that dominates the Korean market at ₩15,000/month (about $11 USD). For the U.S. launch, she hires a professional translation firm, converts the price to $11/month, and sets up a landing page. After two months, free trial signups are decent but almost nobody converts to paid. U.S. prospects keep asking, \"What's the catch?\" What should she change first?",
           "options": [
             "Add more features to justify the price, since the U.S. market expects a bigger product",
-            "Reposition the pricing to match U.S. competitor tiers ($25–$45/month) and reframe the value proposition around specific outcomes like reduced breach response time",
+            "Reposition the pricing to match U.S. competitor tiers ($25, $45/month) and reframe the value proposition around specific outcomes like reduced breach response time",
             "Keep the $11 price but add a premium enterprise tier at $50/month for larger companies",
             "Remove the free trial since it makes the product seem less serious to American buyers"
           ],
           "correctAnswer": 1,
-          "explanation": "The core issue is that U.S. buyers associate low pricing with low quality, $11/month in a market where competitors charge $25–$45 signals that something is missing. Translation alone is not adaptation. She needs to reprice for U.S. competitive norms and reposition around a specific, measurable value proposition (like \"reduces breach response time from 4 hours to 20 minutes\") rather than generic claims. The product may not need to change at all, the pricing and positioning around it do."
+          "explanation": "The core issue is that U.S. buyers associate low pricing with low quality, $11/month in a market where competitors charge $25, $45 signals that something is missing. Translation alone is not adaptation. She needs to reprice for U.S. competitive norms and reposition around a specific, measurable value proposition (like \"reduces breach response time from 4 hours to 20 minutes\") rather than generic claims. The product may not need to change at all, the pricing and positioning around it do."
         }
       ]
     },

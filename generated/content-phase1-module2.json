@@ -8,7 +8,7 @@
       "lessonId": "lesson-2-1",
       "moduleId": "module-2",
       "landscapeTheme": "Financial District",
-      "title": "Federal and State Taxes — What You Actually Owe",
+      "title": "Federal and State Taxes, What You Actually Owe",
       "duration": 9,
       "objectives": [
         "Distinguish between federal and Florida state tax obligations for foreign-owned entities",
@@ -78,7 +78,7 @@
           "id": "dataviz-2-1",
           "title": "What You'll Actually Owe: Tax Layer Breakdown",
           "chartType": "stacked-horizontal-bar",
-          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">What You'll Actually Owe, Tax Layer Breakdown</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Representative rates for a C-Corp vs LLC in Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp in Florida <span style=\"font-weight: 400; color: #666;\">,  ~27% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #8B5A0A; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5% (varies by county)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) in Florida <span style=\"font-weight: 400; color: #666;\">,  ~27.8% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Self-Employ 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal Income 12%</div><div style=\"width: 1.8%; background: #8B5A0A; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #1B6B40; font-weight: 600;\">Florida State Tax: 0%, No state income tax!</span><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Self-Employment</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>State / Federal Income</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #8B5A0A; border-radius: 2px; display: inline-block;\"></span>Local Fees</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #1B6B40; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Florida advantage:</strong> No personal state income tax saves LLC owners 4–13% compared to states like NY or CA.</div></div>",
+          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">What You'll Actually Owe, Tax Layer Breakdown</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Representative rates for a C-Corp vs LLC in Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp in Florida <span style=\"font-weight: 400; color: #666;\">,  ~27% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #8B5A0A; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5% (varies by county)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) in Florida <span style=\"font-weight: 400; color: #666;\">,  ~27.8% effective</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Self-Employ 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal Income 12%</div><div style=\"width: 1.8%; background: #8B5A0A; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #1B6B40; font-weight: 600;\">Florida State Tax: 0%, No state income tax!</span><span style=\"font-size: 0.72rem; color: #999;\">Local fees ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Self-Employment</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>State / Federal Income</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #8B5A0A; border-radius: 2px; display: inline-block;\"></span>Local Fees</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #1B6B40; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Florida advantage:</strong> No personal state income tax saves LLC owners 4, 13% compared to states like NY or CA.</div></div>",
           "data": {
             "scenarios": [
               {
@@ -207,7 +207,7 @@
             },
             {
               "label": "Local",
-              "content": "**Business Tax Receipt (BTR):** Required by Orange County and City of Orlando, typically $25–$100/year.\n\n**Tourist Development Tax:** 6% on short-term rentals (if applicable).\n\n**Impact fees:** Only for construction/development businesses.\n\n**Bottom line:** Local obligations are minimal for most service and technology businesses."
+              "content": "**Business Tax Receipt (BTR):** Required by Orange County and City of Orlando, typically $25, $100/year.\n\n**Tourist Development Tax:** 6% on short-term rentals (if applicable).\n\n**Impact fees:** Only for construction/development businesses.\n\n**Bottom line:** Local obligations are minimal for most service and technology businesses."
             }
           ]
         },
@@ -259,7 +259,7 @@
           "id": "callout-2-1-wm",
           "variant": "watch-money",
           "title": "Watch Your Money: What This Actually Costs",
-          "content": "<p>Plan ahead. Tax and accounting costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>CPA for annual tax prep (international clients):</strong> $500–$2,500/year depending on complexity</li><li><strong>Quarterly estimated tax payments:</strong> Varies by income, plan for 25–30% of net profit set aside each quarter</li><li><strong>ITIN application:</strong> Free (IRS Form W-7), but many founders pay $200–$400 for a Certified Acceptance Agent to help</li><li><strong>Bookkeeping software:</strong> $20–$60/month (QuickBooks, Xero, Wave)</li><li><strong>Penalty for missed quarterly payment:</strong> ~4–8% annualized interest on the underpayment</li><li><strong>FBAR filing (if you have foreign accounts over $10,000):</strong> Typically included in CPA fee, but penalties for not filing can exceed $10,000 per account</li></ul>"
+          "content": "<p>Plan ahead. Tax and accounting costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>CPA for annual tax prep (international clients):</strong> $500, $2,500/year depending on complexity</li><li><strong>Quarterly estimated tax payments:</strong> Varies by income, plan for 25, 30% of net profit set aside each quarter</li><li><strong>ITIN application:</strong> Free (IRS Form W-7), but many founders pay $200, $400 for a Certified Acceptance Agent to help</li><li><strong>Bookkeeping software:</strong> $20, $60/month (QuickBooks, Xero, Wave)</li><li><strong>Penalty for missed quarterly payment:</strong> ~4, 8% annualized interest on the underpayment</li><li><strong>FBAR filing (if you have foreign accounts over $10,000):</strong> Typically included in CPA fee, but penalties for not filing can exceed $10,000 per account</li></ul>"
         },
         {
           "type": "knowledge-check",
@@ -290,7 +290,7 @@
               "explanation": "An ITIN (Individual Taxpayer Identification Number) allows non-residents to meet their U.S. tax obligations when they don't qualify for a Social Security Number. It is specifically a tax filing tool issued by the IRS. Registering with the Florida Department of Revenue is a separate sales tax step that does not require an ITIN. SunBiz registration uses an EIN, not an ITIN. A Florida driver's license is unrelated to tax filing obligations."
             },
             {
-              "stem": "An entrepreneur from Brazil operates a single-member LLC in Florida and expects to owe $8,000 in federal taxes this year. She plans to pay everything when she files her annual return in April. What problem will she face?",
+              "stem": "An entrepreneur from France operates a single-member LLC in Florida and expects to owe $8,000 in federal taxes this year. She plans to pay everything when she files her annual return in April. What problem will she face?",
               "options": [
                 "She will owe penalties and interest for missing quarterly estimated payments throughout the year",
                 "No problem, annual payment is the standard method for LLCs",
@@ -306,7 +306,7 @@
           "type": "key-takeaway",
           "id": "kt-2-1-1",
           "title": "Key Takeaway",
-          "content": "<p>Florida's lack of state income tax is a real advantage, but federal obligations, quarterly estimated payments, and self-employment tax still apply at every level. Budget for a CPA who works with international clients in your first year. Professional help ($500–$2,500) costs a fraction of penalties for filing mistakes. Learn the federal rules before you file, and they work in your favor.</p>"
+          "content": "<p>Florida's lack of state income tax is a real advantage, but federal obligations, quarterly estimated payments, and self-employment tax still apply at every level. Budget for a CPA who works with international clients in your first year. Professional help ($500, $2,500) costs a fraction of penalties for filing mistakes. Learn the federal rules before you file, and they work in your favor.</p>"
         }
       ]
     },
@@ -340,7 +340,7 @@
           "type": "text",
           "id": "text-2-2-vat",
           "title": "How U.S. Sales Tax Compares to VAT: What You Already Know",
-          "content": "<p>If you're coming from almost any country outside the U.S., you may be familiar with a Value Added Tax (VAT) system. VAT is one national system with one set of rules. U.S. sales tax is the opposite: every state sets its own rates and rules, and you need to register separately in each one.</p><p><strong>VAT (what you know):</strong> One national rate. Applied at each stage of the supply chain. Businesses collect VAT on sales and claim credits for VAT paid on purchases. Registration thresholds and rates are set nationally and VAT is included in the price.</p><p><strong>U.S. Sales Tax (what you need to learn):</strong> No federal sales tax exists. Each state sets its own rate (or has no sales tax at all). Counties and cities can add surtax. You only collect tax where you have \"nexus\" (a physical or economic connection to that state). There is no input credit system. You collect sales tax from the customer at checkout and then you make payment to the state.</p><p>If you sell in multiple states, you register, collect, and remit in each one separately, filing paperwork with every state individually. A Colombian SaaS founder selling in Florida, Texas, and California spent $1,200 on a compliance service to handle multi-state filing.</p><p><strong>The biggest adjustment:</strong> There is no single government portal for U.S. sales tax. You deal with each state individually. Services like Avalara or TaxJar can automate multi-state compliance. VAT is one relationship with one government. U.S. sales tax can be dozens.</p>",
+          "content": "<p>If you're coming from almost any country outside the U.S., you may be familiar with a Value Added Tax (VAT) system. VAT is one national system with one set of rules. U.S. sales tax is the opposite: every state sets its own rates and rules, and you need to register separately in each one.</p><p><strong>VAT (what you know):</strong> One national rate. Applied at each stage of the supply chain. Businesses collect VAT on sales and claim credits for VAT paid on purchases. Registration thresholds and rates are set nationally and VAT is included in the price.</p><p><strong>U.S. Sales Tax (what you need to learn):</strong> No federal sales tax exists. Each state sets its own rate (or has no sales tax at all). Counties and cities can add surtax. You only collect tax where you have \"nexus\" (a physical or economic connection to that state). There is no input credit system. You collect sales tax from the customer at checkout and then you make payment to the state.</p><p>If you sell in multiple states, you register, collect, and remit in each one separately, filing paperwork with every state individually. A Polish SaaS founder selling in Florida, Texas, and California spent $1,200 on a compliance service to handle multi-state filing.</p><p><strong>The biggest adjustment:</strong> There is no single government portal for U.S. sales tax. You deal with each state individually. Services like Avalara or TaxJar can automate multi-state compliance. VAT is one relationship with one government. U.S. sales tax can be dozens.</p>",
           "wordCount": 241
         },
         {
@@ -447,8 +447,8 @@
           },
           "callout": "The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.",
           "calloutEs": "El mayor shock para los fundadores internacionales: los precios en la etiqueta NO son lo que pagas en la caja.",
-          "footer": "Florida: 6% base rate + county surtax (0.5%–1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.",
-          "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%–1.5%). Sin impuesto en la mayoría de servicios. Exenciones para equipo de manufactura y algunos alimentos."
+          "footer": "Florida: 6% base rate + county surtax (0.5%, 1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.",
+          "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%, 1.5%). Sin impuesto en la mayoría de servicios. Exenciones para equipo de manufactura y algunos alimentos."
         },
         {
           "type": "callout",
@@ -461,7 +461,7 @@
           "type": "text",
           "id": "text-2-2-2",
           "title": "U.S. Bookkeeping Expectations, Why It Matters More Here",
-          "content": "<p>Bookkeeping is the foundation that every other financial process depends on, banks want to see your records before lending, the IRS wants them to verify your returns, investors want profit-and-loss statements, and even landlords may review your financials before signing a lease.</p>\n\n<p>The standard is <strong>GAAP (Generally Accepted Accounting Principles)</strong>. For small businesses: separate business and personal finances, record all income and expenses, reconcile bank statements monthly, and keep receipts for at least three years (seven years for some records).</p>\n\n<p>A food truck business owner from the Netherlands kept receipts in a shoebox. When his CPA asked for quarterly expense reports, he spent an entire weekend matching paper receipts to bank transactions. QuickBooks from day one would have taken five minutes.</p>\n\n<p>The tools are affordable. <strong>QuickBooks Online</strong> ($30–$60/month) is one of the most widely used. <strong>Xero</strong> ($15–$78/month) is popular with international founders for its multi-currency support. <strong>Wave</strong> is free for basic invoicing and accounting. Pick one before your first sale and connect it to your bank account.</p>",
+          "content": "<p>Bookkeeping is the foundation that every other financial process depends on, banks want to see your records before lending, the IRS wants them to verify your returns, investors want profit-and-loss statements, and even landlords may review your financials before signing a lease.</p>\n\n<p>The standard is <strong>GAAP (Generally Accepted Accounting Principles)</strong>. For small businesses: separate business and personal finances, record all income and expenses, reconcile bank statements monthly, and keep receipts for at least three years (seven years for some records).</p>\n\n<p>A food truck business owner from the Netherlands kept receipts in a shoebox. When his CPA asked for quarterly expense reports, he spent an entire weekend matching paper receipts to bank transactions. QuickBooks from day one would have taken five minutes.</p>\n\n<p>The tools are affordable. <strong>QuickBooks Online</strong> ($30, $60/month) is one of the most widely used. <strong>Xero</strong> ($15, $78/month) is popular with international founders for its multi-currency support. <strong>Wave</strong> is free for basic invoicing and accounting. Pick one before your first sale and connect it to your bank account.</p>",
           "wordCount": 168
         },
         {
@@ -477,27 +477,27 @@
             "rows": [
               [
                 "Bookkeeping software",
-                "$20–$60/month ($240–$720/year)",
+                "$20, $60/month ($240, $720/year)",
                 "QuickBooks Online, Xero, or Wave (free tier available)"
               ],
               [
                 "CPA for tax preparation",
-                "$500–$2,500/year",
+                "$500, $2,500/year",
                 "Higher end for international clients with treaty filings, FBAR, or multi-state returns"
               ],
               [
                 "Sales tax filing",
-                "Often included with CPA or $20–$50/month",
+                "Often included with CPA or $20, $50/month",
                 "Avalara or TaxJar for multi-state automation"
               ],
               [
                 "Payroll service (if hiring)",
-                "$40–$100/month + per-employee fees",
+                "$40, $100/month + per-employee fees",
                 "Gusto, ADP Run, or Paychex. Handles withholding and filings."
               ],
               [
                 "Bookkeeping service (outsourced)",
-                "$200–$500/month",
+                "$200, $500/month",
                 "If you don't want to do it yourself. Bench, Pilot, or local firms."
               ]
             ]
@@ -521,7 +521,7 @@
             },
             {
               "heading": "DIY vs. Outsourced Bookkeeping",
-              "content": "**DIY tools:** QuickBooks Online ($30/mo), Wave (free), Xero ($15/mo)\n\n**Outsourced:** Virtual bookkeeper ($200–$500/mo), Local CPA ($300–$800/mo)\n\n**Rule of thumb:** DIY until revenue exceeds $100K/year, then outsource to free your time."
+              "content": "**DIY tools:** QuickBooks Online ($30/mo), Wave (free), Xero ($15/mo)\n\n**Outsourced:** Virtual bookkeeper ($200, $500/mo), Local CPA ($300, $800/mo)\n\n**Rule of thumb:** DIY until revenue exceeds $100K/year, then outsource to free your time."
             }
           ]
         },
@@ -575,7 +575,7 @@
                 "Over $10,000, international businesses always require a full-service accounting firm"
               ],
               "correctAnswer": 2,
-              "explanation": "A realistic first-year budget includes bookkeeping software ($240–$720/year), a CPA experienced with international clients ($500–$2,500/year), and possibly sales tax filing assistance. Under $200 ignores the need for a CPA who understands non-resident alien filing requirements. A $500 estimate underestimates CPA costs for international clients, who need treaty review and potentially FBAR filings. Over $10,000 is excessive for a small single-owner consulting firm with no employees and one state of operation."
+              "explanation": "A realistic first-year budget includes bookkeeping software ($240, $720/year), a CPA experienced with international clients ($500, $2,500/year), and possibly sales tax filing assistance. Under $200 ignores the need for a CPA who understands non-resident alien filing requirements. A $500 estimate underestimates CPA costs for international clients, who need treaty review and potentially FBAR filings. Over $10,000 is excessive for a small single-owner consulting firm with no employees and one state of operation."
             }
           ]
         },
@@ -583,7 +583,7 @@
           "type": "key-takeaway",
           "id": "kt-2-2-1",
           "title": "Key Takeaway",
-          "content": "<p>Sales tax compliance is mandatory and easy to mess up. Register with the Florida Department of Revenue before collecting tax. U.S. sales tax works nothing like VAT, it's state-by-state with no input credits. Budget for a CPA who understands international clients. Professional accounting ($500–$2,500/year) costs far less than IRS penalties and state compliance violations. Sales tax and bookkeeping are straightforward if you know the rules before you start.</p>"
+          "content": "<p>Sales tax compliance is mandatory and easy to mess up. Register with the Florida Department of Revenue before collecting tax. U.S. sales tax works nothing like VAT, it's state-by-state with no input credits. Budget for a CPA who understands international clients. Professional accounting ($500, $2,500/year) costs far less than IRS penalties and state compliance violations. Sales tax and bookkeeping are straightforward if you know the rules before you start.</p>"
         }
       ]
     },
@@ -591,7 +591,7 @@
       "lessonId": "lesson-2-3",
       "moduleId": "module-2",
       "landscapeTheme": "Financial District",
-      "title": "Banking Deep Dive — The Reality for International Founders",
+      "title": "Banking Deep Dive, The Reality for International Founders",
       "duration": 8,
       "objectives": [
         "Identify the physical presence and documentation requirements for major U.S. banks",
@@ -611,7 +611,7 @@
           "id": "callout-2-3-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Florida has more international bank branches than any U.S. state except New York, and several Latin American banks have established their first U.S. presence in the Miami and Orlando corridors. For an international founder, this matters: there are institutions in Florida that already understand cross-border finance, foreign income documentation, and the compliance requirements of founders who arrive without a U.S. credit history.</p>"
+          "content": "<p class=\"rt-inclusive-note\"><em></em></p>\n\n<p>Florida has more international bank branches than any U.S. state except New York, and several Latin American banks have established their first U.S. presence in the Miami and Orlando corridors. For an international founder, this matters: there are institutions in Florida that already understand cross-border finance, foreign income documentation, and the compliance requirements of founders who arrive without a U.S. credit history.</p>"
         },
         {
           "type": "image",
@@ -654,20 +654,20 @@
           "id": "callout-2-3-1",
           "variant": "reality-check",
           "title": "Reality Check: This Takes Longer Than You Think",
-          "content": "<p><strong>First bank account:</strong> 2 to 4 weeks if everything goes right. Some founders report 6 to 8 weeks with additional compliance review.</p>\n\n<p><strong>Business credit card:</strong> 2–6 months after account opening. Most require a U.S. credit score or a secured deposit.</p>\n\n<p><strong>Business credit line:</strong> 12–18 months of banking history and revenue documentation.</p>\n\n<p>Plan your cash flow around these timelines. Don't expect to walk into a bank on Monday and have an account by Friday.</p>"
+          "content": "<p><strong>First bank account:</strong> 2 to 4 weeks if everything goes right. Some founders report 6 to 8 weeks with additional compliance review.</p>\n\n<p><strong>Business credit card:</strong> 2, 6 months after account opening. Most require a U.S. credit score or a secured deposit.</p>\n\n<p><strong>Business credit line:</strong> 12, 18 months of banking history and revenue documentation.</p>\n\n<p>Plan your cash flow around these timelines. Don't expect to walk into a bank on Monday and have an account by Friday.</p>"
         },
         {
           "type": "text",
           "id": "text-2-3-2",
           "title": "Building U.S. Credit History From Zero",
-          "content": "<p>Building U.S. credit starts from zero. You arrive as a stranger to the system, no score, no history. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. Here is how to build credit:</p>\n\n<p><strong>Step 1: Secured credit card.</strong> Deposit $500–$2,000 as collateral, use it for small purchases, pay in full monthly. After 6–12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. [Mercury](https://mercury.com) offers a business card connected to your [Mercury](https://mercury.com) account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
+          "content": "<p>Building U.S. credit starts from zero. You arrive as a stranger to the system, no score, no history. Every successful transaction, every on-time payment, adds to your standing. Your U.S. credit score starts at nothing, not low, but truly absent. Many systems reject requests when no score exists. Here is how to build credit:</p>\n\n<p><strong>Step 1: Secured credit card.</strong> Deposit $500, $2,000 as collateral, use it for small purchases, pay in full monthly. After 6, 12 months, you'll have a basic score. Capital One, Discover, and some credit unions offer secured cards to non-residents with an ITIN.</p>\n\n<p><strong>Step 2: Business credit card (not requiring personal credit).</strong> Brex and Ramp use your EIN and business revenue instead of personal credit. [Mercury](https://mercury.com) offers a business card connected to your [Mercury](https://mercury.com) account.</p>\n\n<p><strong>Step 3: Credit-builder accounts.</strong> Services like Self or Grow Credit report monthly payments to credit bureaus, building your score without a traditional credit card.</p>\n\n<p>Credit affects more than banking. It shapes lease terms, vendor payment terms (Net 30/Net 60), and access to loans. A Peruvian founder paid three months' rent upfront ($6,000 in tied-up capital) because she had no U.S. credit history. Start building credit the day you open your bank account.</p>",
           "wordCount": 178
         },
         {
           "type": "text",
           "id": "text-2-3-3",
           "title": "Payment Processors, Wire Transfers, and Moving Money",
-          "content": "<p>While you work on getting a bank account, you still need to accept payments and move money.</p>\n\n<p><strong>Stripe:</strong> Requires a U.S. bank account for payouts. Fastest way to accept credit card payments online. Processing fee: 2.9% + $0.30 per transaction.</p>\n\n<p><strong>PayPal:</strong> Set up with an EIN and U.S. address. Useful as an interim solution, but known for freezing accounts with sudden transaction spikes. A Brazilian founder had $12,000 frozen for 21 days after a product launch triggered fraud detection.</p>\n\n<p><strong>Wise (formerly TransferWise):</strong> Gives you a U.S. account number and routing number for ACH payments. Not a full bank replacement, but excellent for moving money between countries at favorable exchange rates.</p>\n\n<p><strong>ACH vs. Wire vs. Check:</strong> ACH is the U.S. standard for recurring payments, free or low-cost, 1–3 business days. Wire transfers are for urgent or international payments ($25–$50 per transfer). Most B2B payments are ACH or credit card.</p>\n\n<p>International wire costs add up fast. Compare your bank ($30–$50 fee + 2–3% exchange markup) against Wise ($5–$10 fee + mid-market rate), the difference can save hundreds per month.</p>",
+          "content": "<p>While you work on getting a bank account, you still need to accept payments and move money.</p>\n\n<p><strong>Stripe:</strong> Requires a U.S. bank account for payouts. Fastest way to accept credit card payments online. Processing fee: 2.9% + $0.30 per transaction.</p>\n\n<p><strong>PayPal:</strong> Set up with an EIN and U.S. address. Useful as an interim solution, but known for freezing accounts with sudden transaction spikes. A Singaporean founder had $12,000 frozen for 21 days after a product launch triggered fraud detection.</p>\n\n<p><strong>Wise (formerly TransferWise):</strong> Gives you a U.S. account number and routing number for ACH payments. Not a full bank replacement, but excellent for moving money between countries at favorable exchange rates.</p>\n\n<p><strong>ACH vs. Wire vs. Check:</strong> ACH is the U.S. standard for recurring payments, free or low-cost, 1, 3 business days. Wire transfers are for urgent or international payments ($25, $50 per transfer). Most B2B payments are ACH or credit card.</p>\n\n<p>International wire costs add up fast. Compare your bank ($30, $50 fee + 2, 3% exchange markup) against Wise ($5, $10 fee + mid-market rate), the difference can save hundreds per month.</p>",
           "wordCount": 182
         },
         {
@@ -675,7 +675,7 @@
           "id": "callout-2-3-2",
           "variant": "watch-money",
           "title": "Watch Your Money: Wire Transfer Fees Are Real",
-          "content": "<p>International wires cost $25–$50 each direction through traditional banks, plus unfavorable exchange rates that add another 1 to 3%. ACH transfers are free or low-cost but domestic only. Plan your money movement strategy: batch international transfers to reduce fees, use Wise or similar services for better rates, and switch to ACH for domestic payments as soon as your U.S. bank account is active.</p>"
+          "content": "<p>International wires cost $25, $50 each direction through traditional banks, plus unfavorable exchange rates that add another 1 to 3%. ACH transfers are free or low-cost but domestic only. Plan your money movement strategy: batch international transfers to reduce fees, use Wise or similar services for better rates, and switch to ACH for domestic payments as soon as your U.S. bank account is active.</p>"
         },
         {
           "type": "flashcards",
@@ -684,11 +684,11 @@
           "cards": [
             {
               "front": "ACH Transfer",
-              "back": "Automated Clearing House, electronic bank-to-bank transfer. Takes 1–3 business days. Low or no fees."
+              "back": "Automated Clearing House, electronic bank-to-bank transfer. Takes 1, 3 business days. Low or no fees."
             },
             {
               "front": "Wire Transfer",
-              "back": "Same-day bank transfer for large amounts. Costs $15–$30 domestic, $35–$50 international."
+              "back": "Same-day bank transfer for large amounts. Costs $15, $30 domestic, $35, $50 international."
             },
             {
               "front": "ITIN",
@@ -712,7 +712,7 @@
           "type": "text",
           "id": "text-2-3-fund",
           "title": "A Quick Word About Funding and Investors",
-          "content": "<p>Can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong>: paying customers, revenue growth, or strong user metrics, before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>That's why many international founders bootstrap their first 6–12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the [UCF BIP](https://incubator.ucf.edu) market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
+          "content": "<p>Can you raise money from U.S. investors or get a loan? Yes, but not as easily as you might hope. Most early-stage investors want to see <strong>traction</strong>: paying customers, revenue growth, or strong user metrics, before writing a check. An idea and a pitch deck, no matter how good, rarely gets funded without evidence of U.S. market demand.</p>\n\n<p>That's why many international founders bootstrap their first 6, 12 months using personal savings, home-country revenue, or small investments from friends and family. Build traction first, then approach investors.</p>\n\n<p>The Small Business Administration (SBA) offers popular loan programs, but most require the borrower to be a U.S. citizen or green card holder. Non-citizen founders often don't qualify, even with a strong Florida business. Some CDFIs and microlenders have fewer restrictions, but the amounts are smaller.</p>\n\n<p>We cover funding pathways in more depth in phases 2 and 3 of the [UCF BIP](https://incubator.ucf.edu) market entry/soft landing program. Plan to fund your U.S. entry yourself for the first year.</p>",
           "wordCount": 167
         },
         {
@@ -720,7 +720,7 @@
           "id": "callout-2-3-3",
           "variant": "cultural-insight",
           "title": "Latin America Resources: Banking",
-          "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The [Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/) hosts banking workshops that cover account setup and credit building. The [SBDC at UCF](https://sbdcorlando.com/) offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://www.mercury.com\" target=\"_blank\" rel=\"noopener\">Mercury<span class=\"sr-only\"> (opens in a new tab)</span></a> and <a href=\"https://relayfi.com\" target=\"_blank\" rel=\"noopener\">Relay<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> Online business banks designed for international founders from any country, with documentation processes built around foreign nationals.</li><li><strong>Major international banks with U.S. presence:</strong> HSBC, Santander, BBVA, and Mizuho often offer easier account opening for clients with existing relationships in their home country.</li></ul>"
+          "content": "<p class=\"rt-inclusive-note\"><em></em></p>\n\n<p>Here's the key insight for Latin American founders. Central Florida has banking resources tailored for you. Several banks in the Orlando area have Spanish-speaking staff and are accustomed to working with international clients. The [Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/) hosts banking workshops that cover account setup and credit building. The [SBDC at UCF](https://sbdcorlando.com/) offers free one-on-one financial counseling sessions where you can get guidance on banking, accounting, and funding options specific to your situation.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://www.mercury.com\" target=\"_blank\" rel=\"noopener\">Mercury<span class=\"sr-only\"> (opens in a new tab)</span></a> and <a href=\"https://relayfi.com\" target=\"_blank\" rel=\"noopener\">Relay<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> Online business banks designed for international founders from any country, with documentation processes built around foreign nationals.</li><li><strong>Major international banks with U.S. presence:</strong> HSBC, Santander, BBVA, and Mizuho often offer easier account opening for clients with existing relationships in their home country.</li></ul>"
         },
         {
           "type": "knowledge-check",

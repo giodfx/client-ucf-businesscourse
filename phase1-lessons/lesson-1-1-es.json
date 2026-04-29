@@ -138,7 +138,7 @@
       "paths": [
         {
           "label": "Planeo levantar capital de riesgo o inversión ángel",
-          "outcome": "Opción típicamente más adecuada: C-Corp. Los inversionistas estadounidenses casi universalmente exigen una estructura C-Corp. Permite múltiples clases de acciones, planes de opciones sobre acciones e instrumentos estándar de inversión (SAFEs, notas convertibles). El papeleo adicional y la doble tributación son el costo de estar listo para inversionistas desde el primer día. La mayoría de los abogados recomendarán una C-Corp de Delaware si apunta a inversionistas institucionales. Costo estimado del primer año: $960–$2,600 (registro + agente registrado + abogado).",
+          "outcome": "Opción típicamente más adecuada: C-Corp. Los inversionistas estadounidenses casi universalmente exigen una estructura C-Corp. Permite múltiples clases de acciones, planes de opciones sobre acciones e instrumentos estándar de inversión (SAFEs, notas convertibles). El papeleo adicional y la doble tributación son el costo de estar listo para inversionistas desde el primer día. La mayoría de los abogados recomendarán una C-Corp de Delaware si apunta a inversionistas institucionales. Costo estimado del primer año: $960, $2,600 (registro + agente registrado + abogado).",
           "isRecommended": false
         },
         {
@@ -193,7 +193,7 @@
       "id": "callout-1-1-anecdote",
       "variant": "common-mistake",
       "title": "Caso Real: Entidad Equivocada, Cambio Costoso",
-      "content": "<p>Una fundadora de software de Colombia eligió una LLC de Florida porque era rápida y económica. Ocho meses después, un inversionista estadounidense se ofreció a liderar su ronda semilla, pero exigió una C-Corp de Delaware. El cambio tomó varios meses y honorarios legales significativos, y casi descarriló el acuerdo.</p>"
+      "content": "<p>Una fundadora de software de India eligió una LLC de Florida porque era rápida y económica. Ocho meses después, un inversionista estadounidense se ofreció a liderar su ronda semilla, pero exigió una C-Corp de Delaware. El cambio tomó varios meses y honorarios legales significativos, y casi descarriló el acuerdo.</p>"
     },
     {
       "type": "callout",
@@ -206,7 +206,7 @@
       "type": "text",
       "id": "text-1-1-5",
       "title": "Cuide Su Dinero: Lo Que Realmente Cuesta Esto",
-      "content": "<p>Los costos de constitución de la entidad varían según el tipo de entidad, si utiliza un abogado y el estado en el que se registra. Estos son los rangos típicos:</p>\n\n<ul><li><strong>LLC de Florida:</strong> Alrededor de $125 en tarifas estatales de registro, más $0–$500 si utiliza un abogado. Total típicamente $125–$625.</li><li><strong>Corporación de Florida (C-Corp):</strong> Alrededor de $70 en tarifas estatales de registro, más $300–$1,500 por la asistencia de un abogado con artículos, estatutos y emisión de acciones.</li><li><strong>C-Corp de Delaware (común para inversionistas):</strong> Alrededor de $89 de registro estatal, más un impuesto anual de franquicia de $300–$500, más honorarios legales. También necesita registrarse como entidad foránea en Florida si opera allí. Los costos del primer año pueden oscilar entre alrededor de $960–$2,600 o más.</li><li><strong>Servicio de agente registrado:</strong> Típicamente $100–$300 al año.</li><li><strong>Solicitud de EIN:</strong> Gratuita ante el IRS.</li></ul>\n\n<p>El camino más asequible suele ser una LLC de Florida presentada por usted mismo. Un camino común para estar listo ante inversionistas es una C-Corp de Delaware con un abogado. Elija según las necesidades de su negocio, no solo por el precio.</p>",
+      "content": "<p>Los costos de constitución de la entidad varían según el tipo de entidad, si utiliza un abogado y el estado en el que se registra. Estos son los rangos típicos:</p>\n\n<ul><li><strong>LLC de Florida:</strong> Alrededor de $125 en tarifas estatales de registro, más $0, $500 si utiliza un abogado. Total típicamente $125, $625.</li><li><strong>Corporación de Florida (C-Corp):</strong> Alrededor de $70 en tarifas estatales de registro, más $300, $1,500 por la asistencia de un abogado con artículos, estatutos y emisión de acciones.</li><li><strong>C-Corp de Delaware (común para inversionistas):</strong> Alrededor de $89 de registro estatal, más un impuesto anual de franquicia de $300, $500, más honorarios legales. También necesita registrarse como entidad foránea en Florida si opera allí. Los costos del primer año pueden oscilar entre alrededor de $960, $2,600 o más.</li><li><strong>Servicio de agente registrado:</strong> Típicamente $100, $300 al año.</li><li><strong>Solicitud de EIN:</strong> Gratuita ante el IRS.</li></ul>\n\n<p>El camino más asequible suele ser una LLC de Florida presentada por usted mismo. Un camino común para estar listo ante inversionistas es una C-Corp de Delaware con un abogado. Elija según las necesidades de su negocio, no solo por el precio.</p>",
       "wordCount": 167
     },
     {
@@ -253,7 +253,7 @@
             "Necesita contratar a un abogado con sede en Florida para presentar el registro en su nombre"
           ],
           "correctAnswer": 1,
-          "explanation": "La ley de Florida exige que cada entidad empresarial tenga un agente registrado con una dirección física en Florida. Esto no es opcional; si su agente registrado caduca, el estado puede disolver su entidad. No necesita una cuenta bancaria, SSN ni abogado para registrarse en SunBiz, aunque todos pueden ser útiles. Los servicios comerciales de agente registrado están disponibles por $50–$200 al año."
+          "explanation": "La ley de Florida exige que cada entidad empresarial tenga un agente registrado con una dirección física en Florida. Esto no es opcional; si su agente registrado caduca, el estado puede disolver su entidad. No necesita una cuenta bancaria, SSN ni abogado para registrarse en SunBiz, aunque todos pueden ser útiles. Los servicios comerciales de agente registrado están disponibles por $50, $200 al año."
         }
       ]
     },

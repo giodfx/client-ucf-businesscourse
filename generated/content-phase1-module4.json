@@ -8,7 +8,7 @@
       "lessonId": "lesson-4-1",
       "moduleId": "module-4",
       "landscapeTheme": "Theme Park",
-      "title": "Your First U.S. Hire — Contractor vs. Employee",
+      "title": "Your First U.S. Hire, Contractor vs. Employee",
       "duration": 7,
       "objectives": [
         "Distinguish between independent contractor and employee classifications under U.S. law",
@@ -20,7 +20,7 @@
           "type": "text",
           "id": "text-4-1-1",
           "title": "Your First U.S. Hire: Building a Team the Right Way",
-          "content": "<p>Every person you hire in the U.S. falls into a defined legal category with specific rules governing how they work. Classify people wrong, and you owe back taxes from day one.</p>\n\n<p>A Brazilian SaaS founder hired a developer in Orlando, called her an \"independent contractor,\" and paid her through Venmo for six months. The developer worked 9-to-5, used the company's laptop, and attended daily standups. When she filed for unemployment, Florida flagged it. The founder owed $14,000 in back taxes, penalties, and interest.</p>\n\n<p>The U.S. draws a hard legal line between contractors and employees based on how the person actually works, not what the contract says. An <strong>independent contractor</strong> sets their own schedule, uses their own tools, and serves multiple clients. An <strong>employee</strong> works under your direction: you set hours, provide equipment, and they work primarily for you. </p>",
+          "content": "<p>Every person you hire in the U.S. falls into a defined legal category with specific rules governing how they work. Classify people wrong, and you owe back taxes from day one.</p>\n\n<p>A Filipino SaaS founder hired a developer in Orlando, called her an \"independent contractor,\" and paid her through Venmo for six months. The developer worked 9-to-5, used the company's laptop, and attended daily standups. When she filed for unemployment, Florida flagged it. The founder owed $14,000 in back taxes, penalties, and interest.</p>\n\n<p>The U.S. draws a hard legal line between contractors and employees based on how the person actually works, not what the contract says. An <strong>independent contractor</strong> sets their own schedule, uses their own tools, and serves multiple clients. An <strong>employee</strong> works under your direction: you set hours, provide equipment, and they work primarily for you. </p>",
           "wordCount": 210
         },
         {
@@ -205,7 +205,7 @@
           "type": "text",
           "id": "text-4-1-ucf",
           "title": "The UCF Talent Pipeline: Your Hiring Advantage in Central Florida",
-          "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. The same region that staffs one of the world's largest entertainment workforces also produces over 17,000 graduates per year. UCF enrolls over 70,000 students across 230+ degree programs, giving you a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000–$70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000–$48,000</strong> versus $55,000–$65,000 in South Florida.</p>\n\n<p>A Vietnamese business owner used UCF's internship program to bring on two computer science students part-time, assessing fit over three months before extending full-time offers, saving the cost and risk of a bad hire.</p>",
+          "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. The same region that staffs one of the world's largest entertainment workforces also produces over 17,000 graduates per year. UCF enrolls over 70,000 students across 230+ degree programs, giving you a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000, $70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000, $48,000</strong> versus $55,000, $65,000 in South Florida.</p>\n\n<p>A Vietnamese business owner used UCF's internship program to bring on two computer science students part-time, assessing fit over three months before extending full-time offers, saving the cost and risk of a bad hire.</p>",
           "wordCount": 152
         },
         {
@@ -213,14 +213,14 @@
           "id": "callout-4-1-wm",
           "variant": "watch-money",
           "title": "Watch Your Money: What Hiring Actually Costs",
-          "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour, worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
+          "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000, $70,000 base salary + 15, 30% overhead (taxes, insurance, benefits) = $46,000, $91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50, $150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40, $100/month base + $6, $12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500, $2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250, $500/hour, worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
         },
         {
           "type": "callout",
           "id": "callout-4-1-cm",
           "variant": "common-mistake",
           "title": "Common Mistakes International Founders Make: Hiring",
-          "content": "<ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. Some founders label every worker as a 1099 contractor to avoid payroll taxes and benefits, but the IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong>. In serious cases, you face criminal prosecution. The IRS, state agencies, and workers themselves can all trigger an audit.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70–85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000–$78,000 in actual cost.</li></ul>"
+          "content": "<ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. Some founders label every worker as a 1099 contractor to avoid payroll taxes and benefits, but the IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong>. In serious cases, you face criminal prosecution. The IRS, state agencies, and workers themselves can all trigger an audit.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70, 85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000, $78,000 in actual cost.</li></ul>"
         },
         {
           "type": "simulation",
@@ -309,11 +309,11 @@
               "options": [
                 "San Francisco, because higher salaries attract better talent that saves money long-term",
                 "Miami, because proximity to Latin America reduces cultural friction",
-                "Central Florida, where entry-level developer salaries of $55,000–$70,000 are 30–45% below major coastal markets",
+                "Central Florida, where entry-level developer salaries of $55,000, $70,000 are 30, 45% below major coastal markets",
                 "New York, because venture capital access offsets the higher payroll costs"
               ],
               "correctAnswer": 2,
-              "explanation": "Central Florida offers entry-level software developer salaries of $55,000–$70,000, which is 30–40% lower than New York and 35–45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives entrepreneurs significantly more runway with the same budget."
+              "explanation": "Central Florida offers entry-level software developer salaries of $55,000, $70,000, which is 30, 40% lower than New York and 35, 45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives entrepreneurs significantly more runway with the same budget."
             },
             {
               "stem": "A founder from Poland hires a graphic designer in Orlando. The designer works 40 hours per week at the founder's office, uses the company's computer, follows the founder's daily task list, and has worked exclusively for this company for eight months. The founder classifies her as a 1099 contractor. An IRS audit reclassifies her as an employee. Which combination of penalties is the entrepreneur most likely facing?",
@@ -340,7 +340,7 @@
       "lessonId": "lesson-4-2",
       "moduleId": "module-4",
       "landscapeTheme": "Theme Park",
-      "title": "Visa Pathways — What's Actually Realistic",
+      "title": "Visa Pathways, What's Actually Realistic",
       "duration": 7,
       "objectives": [
         "Compare visa pathways that may be available (O-1, E-2, L-1, H-1B), all visa and immigration actions should be evaluated with an immigration attorney",
@@ -359,7 +359,7 @@
           "type": "text",
           "id": "text-4-2-1",
           "title": "Visa Pathways for International Founders",
-          "content": "<p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what visa do you need to work legally?</p>\n\n<p>Owning a U.S. company does not by itself give you the right to work here. A Colombian founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p>\n\n<p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p>",
+          "content": "<p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what visa do you need to work legally?</p>\n\n<p>Owning a U.S. company does not by itself give you the right to work here. A South Korean founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p>\n\n<p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p>",
           "wordCount": 137
         },
         {
@@ -379,28 +379,28 @@
                 "O-1A",
                 "Founders with extraordinary ability or achievement",
                 "Sustained national/international recognition in your field",
-                "$5,000–$10,000+",
-                "2–6 months (standard); 15 business days (premium)"
+                "$5,000, $10,000+",
+                "2, 6 months (standard); 15 business days (premium)"
               ],
               [
                 "E-2",
                 "Treaty investors from qualifying countries",
                 "Substantial investment in a U.S. business, no fixed minimum, but typically $100,000+",
-                "$3,000–$8,000+",
-                "4–8 months (consular); varies by country"
+                "$3,000, $8,000+",
+                "4, 8 months (consular); varies by country"
               ],
               [
                 "L-1A",
                 "Founders transferring from an existing foreign company",
                 "Managerial role at a related foreign company for 1+ year",
-                "$4,000–$10,000+",
-                "4–8 months (standard); 15 business days (premium)"
+                "$4,000, $10,000+",
+                "4, 8 months (standard); 15 business days (premium)"
               ],
               [
                 "H-1B",
                 "Specialty occupation workers (employer-sponsored)",
                 "Job requires a bachelor's degree; subject to annual lottery",
-                "$2,000–$5,000+",
+                "$2,000, $5,000+",
                 "Lottery in March, start in October; ~25% selection rate"
               ]
             ]
@@ -430,19 +430,19 @@
           "sections": [
             {
               "heading": "O-1A: Extraordinary Ability",
-              "content": "**Requirements:** Demonstrate extraordinary ability in business, science, education, or athletics through national/international recognition.\n\n**Timeline:** 2–6 months (premium processing available)\n\n**Cost:** $5,000–$10,000+ (filing + attorney)\n\n**Realistic for:** Business owners with publications, awards, significant press, or high salary history. Strong option if you have evidence of being in the top of your field."
+              "content": "**Requirements:** Demonstrate extraordinary ability in business, science, education, or athletics through national/international recognition.\n\n**Timeline:** 2, 6 months (premium processing available)\n\n**Cost:** $5,000, $10,000+ (filing + attorney)\n\n**Realistic for:** Business owners with publications, awards, significant press, or high salary history. Strong option if you have evidence of being in the top of your field."
             },
             {
               "heading": "E-2: Treaty Investor",
-              "content": "**Requirements:** Citizen of a treaty country, substantial investment in a U.S. business, must direct and develop the enterprise.\n\n**Timeline:** 4–8 months (consular processing)\n\n**Cost:** $3,000–$8,000+ (investment must be 'substantial', typically $100K+)\n\n**Realistic for:** Most LATAM founders with capital to invest. Brazil and some countries are NOT treaty countries, check eligibility first."
+              "content": "**Requirements:** Citizen of a treaty country, substantial investment in a U.S. business, must direct and develop the enterprise.\n\n**Timeline:** 4, 8 months (consular processing)\n\n**Cost:** $3,000, $8,000+ (investment must be 'substantial', typically $100K+)\n\n**Realistic for:** Most LATAM founders with capital to invest. Brazil and some countries are NOT treaty countries, check eligibility first."
             },
             {
               "heading": "L-1A: Intracompany Transfer",
-              "content": "**Requirements:** Must have worked for a related company abroad for 1+ year in a managerial/executive role. Transferring to a U.S. office.\n\n**Timeline:** 4–8 months (standard); 15 business days (premium processing)\n\n**Cost:** $3,000–$8,000 (filing + attorney)\n\n**Realistic for:** Founders expanding an existing company to the U.S. You must prove the foreign entity remains active."
+              "content": "**Requirements:** Must have worked for a related company abroad for 1+ year in a managerial/executive role. Transferring to a U.S. office.\n\n**Timeline:** 4, 8 months (standard); 15 business days (premium processing)\n\n**Cost:** $3,000, $8,000 (filing + attorney)\n\n**Realistic for:** Founders expanding an existing company to the U.S. You must prove the foreign entity remains active."
             },
             {
               "heading": "H-1B: Specialty Occupation",
-              "content": "**Requirements:** Bachelor's degree in a specialty field. Employer (can be your own company) sponsors you.\n\n**Timeline:** Annual lottery (April), start date October 1\n\n**Cost:** $3,000–$10,000\n\n**Realistic for:** Least ideal for entrepreneurs, lottery-based, employer-dependent, 6-year cap. Better for employees you want to hire."
+              "content": "**Requirements:** Bachelor's degree in a specialty field. Employer (can be your own company) sponsors you.\n\n**Timeline:** Annual lottery (April), start date October 1\n\n**Cost:** $3,000, $10,000\n\n**Realistic for:** Least ideal for entrepreneurs, lottery-based, employer-dependent, 6-year cap. Better for employees you want to hire."
             }
           ]
         },
@@ -522,8 +522,8 @@
                 {
                   "label": "Duration",
                   "labelEs": "Duración",
-                  "value": "1–3 years initially, up to 7 years",
-                  "valueEs": "1–3 años inicialmente, hasta 7 años"
+                  "value": "1, 3 years initially, up to 7 years",
+                  "valueEs": "1, 3 años inicialmente, hasta 7 años"
                 },
                 {
                   "label": "Key requirement",
@@ -656,7 +656,7 @@
           "id": "callout-4-2-2",
           "variant": "watch-money",
           "title": "Before You Spend Money: What Visa Applications Actually Cost",
-          "content": "<p>Now, let's look at the numbers. As of early 2026, total visa costs (attorney fees + government filing fees) typically range from:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>E-2:</strong> $3,000–$8,000+ (attorney) + $315 (filing fee) + investment capital</li><li><strong>L-1A:</strong> $4,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>H-1B:</strong> $2,000–$5,000+ (attorney) + registration fee + filing fees</li></ul>\n\n<p>These are attorney and filing costs only. The E-2 also requires you to show a substantial capital investment in the business itself. Budget for the attorney consultation ($250–$500/hour) as your first step. A good attorney will tell you honestly which pathways are realistic before you spend thousands on an application.</p>"
+          "content": "<p>Now, let's look at the numbers. As of early 2026, total visa costs (attorney fees + government filing fees) typically range from:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000, $10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>E-2:</strong> $3,000, $8,000+ (attorney) + $315 (filing fee) + investment capital</li><li><strong>L-1A:</strong> $4,000, $10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>H-1B:</strong> $2,000, $5,000+ (attorney) + registration fee + filing fees</li></ul>\n\n<p>These are attorney and filing costs only. The E-2 also requires you to show a substantial capital investment in the business itself. Budget for the attorney consultation ($250, $500/hour) as your first step. A good attorney will tell you honestly which pathways are realistic before you spend thousands on an application.</p>"
         },
         {
           "type": "text",
@@ -709,13 +709,13 @@
             {
               "stem": "A founder from Argentina wants to open a U.S. office in six months. She has $150,000 in investment capital, no extraordinary achievements or awards, and has never managed a U.S.-affiliated company. Argentina is an E-2 treaty country. Based on the cost and timeline data in this lesson, what should she budget and plan for?",
               "options": [
-                "Budget $3,000–$8,000+ for E-2 attorney and filing fees, begin the process now since consular processing takes 4–8 months, and consult an immigration attorney to confirm eligibility",
-                "Budget $2,000–$5,000 for an H-1B application and enter the March lottery for an October start date",
+                "Budget $3,000, $8,000+ for E-2 attorney and filing fees, begin the process now since consular processing takes 4, 8 months, and consult an immigration attorney to confirm eligibility",
+                "Budget $2,000, $5,000 for an H-1B application and enter the March lottery for an October start date",
                 "Skip the attorney and file the visa application herself to save money, since E-2 forms are straightforward",
                 "Wait until she arrives in the U.S. on a tourist visa, then apply for work authorization from within the country"
               ],
               "correctAnswer": 0,
-              "explanation": "The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for entrepreneurs. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation."
+              "explanation": "The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000, $8,000+, and consular processing takes 4, 8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for entrepreneurs. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation."
             }
           ]
         },
@@ -743,7 +743,7 @@
           "type": "text",
           "id": "text-4-3-1",
           "title": "Payroll, Taxes, and the Real Cost of Every Team Member",
-          "content": "<p>You understand visa requirements. Now look at what it actually costs to keep a team running. Salary is only the starting point. The true cost includes payroll taxes, required insurance, and optional but often expected benefits, and these add up quickly.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18–$378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500–$2,000/year for office work.</p>",
+          "content": "<p>You understand visa requirements. Now look at what it actually costs to keep a team running. Salary is only the starting point. The true cost includes payroll taxes, required insurance, and optional but often expected benefits, and these add up quickly.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Vietnamese founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18, $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500, $2,000/year for office work.</p>",
           "wordCount": 186
         },
         {
@@ -770,27 +770,27 @@
               [
                 "Florida State Unemployment (SUTA)",
                 "Varies by employer history",
-                "$18–$378/year (new employer)"
+                "$18, $378/year (new employer)"
               ],
               [
                 "Workers' Compensation Insurance",
                 "Varies by industry risk",
-                "$500–$2,000/year (office work)"
+                "$500, $2,000/year (office work)"
               ],
               [
                 "Health Insurance (optional but expected)",
                 "Employer contribution if offered",
-                "$3,000–$7,000/year per employee"
+                "$3,000, $7,000/year per employee"
               ],
               [
                 "Total Overhead (without health insurance)",
-                "~12–15% above salary",
-                "$65,500–$67,400/year"
+                "~12, 15% above salary",
+                "$65,500, $67,400/year"
               ],
               [
                 "Total Overhead (with health insurance)",
-                "~20–30% above salary",
-                "$68,500–$74,400/year"
+                "~20, 30% above salary",
+                "$68,500, $74,400/year"
               ]
             ]
           },
@@ -948,7 +948,7 @@
           "type": "text",
           "id": "text-4-3-3",
           "title": "What U.S. Employees Expect Beyond the Paycheck",
-          "content": "<p>Legal rules are the floor. U.S. employers compete for talent through benefits: PTO, flexible schedules, health coverage. Benefits are how you keep people from leaving for a competitor. If you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p><strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10–15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3–5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200–$500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
+          "content": "<p>Legal rules are the floor. U.S. employers compete for talent through benefits: PTO, flexible schedules, health coverage. Benefits are how you keep people from leaving for a competitor. If you do not offer them, qualified candidates choose a competitor who does.</p>\n\n<p><strong>Paid time off (PTO)</strong> is not federally mandated, but most employers offer 10, 15 days/year. Florida does not mandate paid <strong>sick leave</strong>, but 3, 5 days is standard.</p>\n\n<p><strong>Health insurance</strong> is not required for businesses with fewer than 50 employees, but candidates often ask about it in interviews. Consider a stipend ($200, $500/month) if you cannot offer group coverage yet.</p>\n\n<p><strong>Retirement benefits</strong> (401k) are not expected at the earliest stages. Other valued benefits include flexible work arrangements and professional development budgets.</p>",
           "wordCount": 115
         },
         {
@@ -956,7 +956,7 @@
           "id": "callout-4-3-latam",
           "variant": "cultural-insight",
           "title": "Latin America Resources: Hiring & Payroll",
-          "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> Talent matching and international hiring guidance.</li><li><strong>Country-specific business chambers:</strong> Orlando hosts active chapters of the German-American, French-American, British-American, Indian-American, and Korean-American chambers, each provides networking, hiring referrals, and country-specific labor guidance.</li></ul>"
+          "content": "<p class=\"rt-inclusive-note\"><em></em></p>\n\n<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> Talent matching and international hiring guidance.</li><li><strong>Country-specific business chambers:</strong> Orlando hosts active chapters of the German-American, French-American, British-American, Indian-American, and Korean-American chambers, each provides networking, hiring referrals, and country-specific labor guidance.</li></ul>"
         },
         {
           "type": "knowledge-check",
@@ -969,11 +969,11 @@
               "options": [
                 "$50,000, salary is the only cost",
                 "$52,500, add 5% for taxes",
-                "$57,500–$65,000, salary plus employer taxes, insurance, and potential benefits",
-                "$75,000–$100,000, U.S. employment is extremely expensive"
+                "$57,500, $65,000, salary plus employer taxes, insurance, and potential benefits",
+                "$75,000, $100,000, U.S. employment is extremely expensive"
               ],
               "correctAnswer": 2,
-              "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500–$65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
+              "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500, $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
             },
             {
               "stem": "A business owner has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
@@ -984,7 +984,7 @@
                 "Automatic revocation of the company's EIN and business license"
               ],
               "correctAnswer": 1,
-              "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40–$100/month) automates filings and prevents these costly mistakes."
+              "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40, $100/month) automates filings and prevents these costly mistakes."
             },
             {
               "stem": "A founder from the Philippines hires her fifth employee at her Orlando office. She already has a payroll service, withholds federal and state taxes, and pays employer FICA. Her accountant asks whether she has workers' compensation and unemployment insurance in place. Which statement is correct about her obligations?",

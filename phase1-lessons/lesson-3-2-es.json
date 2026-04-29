@@ -30,16 +30,16 @@
           "headingEs": "Responsabilidad Civil General",
           "desc": "Required by most: Covers customer injuries, property damage, lawsuits. Get this FIRST.",
           "descEs": "Requerido por la mayoría: Cubre lesiones a clientes, daños a propiedad, demandas. Obténgalo PRIMERO.",
-          "cost": "Cost: $400–$1,500/year",
-          "costEs": "Costo: $400–$1,500/año"
+          "cost": "Cost: $400, $1,500/year",
+          "costEs": "Costo: $400, $1,500/año"
         },
         {
           "heading": "Professional Liability / E&O",
           "headingEs": "Responsabilidad Profesional / E&O",
           "desc": "For service businesses: Covers mistakes, negligence claims, missed deadlines. Required if you give advice or provide professional services.",
           "descEs": "Para negocios de servicios: Cubre errores, reclamos por negligencia, plazos incumplidos. Requerido si da asesoría o servicios profesionales.",
-          "cost": "Cost: $500–$2,500/year",
-          "costEs": "Costo: $500–$2,500/año"
+          "cost": "Cost: $500, $2,500/year",
+          "costEs": "Costo: $500, $2,500/año"
         },
         {
           "heading": "Workers' Compensation",
@@ -54,24 +54,24 @@
           "headingEs": "Propiedad Comercial",
           "desc": "If you have a physical space: Covers equipment, inventory, office contents. Includes fire, theft, some natural disasters.",
           "descEs": "Si tiene un espacio físico: Cubre equipo, inventario, contenido de oficina. Incluye incendio, robo, algunos desastres naturales.",
-          "cost": "Cost: $500–$3,000/year",
-          "costEs": "Costo: $500–$3,000/año"
+          "cost": "Cost: $500, $3,000/year",
+          "costEs": "Costo: $500, $3,000/año"
         },
         {
           "heading": "Business Owner's Policy / BOP",
           "headingEs": "Póliza del Propietario / BOP",
           "desc": "Best value for small businesses: Bundles general liability + property insurance at a discount. Great starting point.",
           "descEs": "Mejor valor para pequeñas empresas: Combina responsabilidad civil general + seguro de propiedad con descuento. Excelente punto de partida.",
-          "cost": "Cost: $500–$2,000/year",
-          "costEs": "Costo: $500–$2,000/año"
+          "cost": "Cost: $500, $2,000/year",
+          "costEs": "Costo: $500, $2,000/año"
         },
         {
           "heading": "Cyber Liability",
           "headingEs": "Responsabilidad Cibernética",
           "desc": "For any business handling customer data: Covers data breaches, ransomware, notification costs. Increasingly essential.",
           "descEs": "Para cualquier negocio que maneje datos de clientes: Cubre violaciones de datos, ransomware, costos de notificación. Cada vez más esencial.",
-          "cost": "Cost: $500–$5,000/year",
-          "costEs": "Costo: $500–$5,000/año"
+          "cost": "Cost: $500, $5,000/year",
+          "costEs": "Costo: $500, $5,000/año"
         }
       ],
       "footer": "How to Buy: Get quotes from 3+ providers, use an independent insurance broker, review annually. Just starting? Get General Liability first. Adding employees? Add Workers' Comp. Handling data? Add Cyber Liability.",
@@ -88,7 +88,7 @@
       "type": "text",
       "id": "text-3-2-2",
       "title": "Seguro Empresarial: Lo Que Necesita y Lo Que Puede Esperar",
-      "content": "<p>El seguro en EE.UU. no es opcional. Algunos tipos son requeridos por ley. Otros son requeridos en la práctica, ya que los clientes y arrendadores exigen comprobante.</p>\n\n<p><strong>Seguro de Responsabilidad Civil General (GL):</strong> Su póliza más importante. Cubre las lesiones corporales a terceros, los daños a la propiedad y las lesiones publicitarias. Costo: $400–$800 al año. Muchos arrendadores y clientes B2B exigen comprobante antes de trabajar con usted.</p>\n\n<p><strong>Responsabilidad Profesional / E&O:</strong> Cubre los reclamos de que sus servicios profesionales causaron daños financieros: un error de software, mal asesoramiento o un plazo incumplido. Costo: $500–$2,500 al año.</p>\n\n<p><strong>Compensación al Trabajador:</strong> Requerida en Florida con cuatro o más empleados (uno en construcción). El costo varía según la industria y la nómina.</p>\n\n<p><strong>Seguro de Propiedad Comercial:</strong> Cubre equipo, inventario y contenido de oficina. Omítalo si trabaja desde casa; obténgalo para una oficina física o almacén.</p>\n\n<p>Una fundadora nigeriana descubrió que la incorporación como proveedor en EE.UU. requería comprobante de $1 millón en GL y $1 millón en E&O antes de que los clientes firmaran. Presupueste el seguro antes de necesitarlo.</p>",
+      "content": "<p>El seguro en EE.UU. no es opcional. Algunos tipos son requeridos por ley. Otros son requeridos en la práctica, ya que los clientes y arrendadores exigen comprobante.</p>\n\n<p><strong>Seguro de Responsabilidad Civil General (GL):</strong> Su póliza más importante. Cubre las lesiones corporales a terceros, los daños a la propiedad y las lesiones publicitarias. Costo: $400, $800 al año. Muchos arrendadores y clientes B2B exigen comprobante antes de trabajar con usted.</p>\n\n<p><strong>Responsabilidad Profesional / E&O:</strong> Cubre los reclamos de que sus servicios profesionales causaron daños financieros: un error de software, mal asesoramiento o un plazo incumplido. Costo: $500, $2,500 al año.</p>\n\n<p><strong>Compensación al Trabajador:</strong> Requerida en Florida con cuatro o más empleados (uno en construcción). El costo varía según la industria y la nómina.</p>\n\n<p><strong>Seguro de Propiedad Comercial:</strong> Cubre equipo, inventario y contenido de oficina. Omítalo si trabaja desde casa; obténgalo para una oficina física o almacén.</p>\n\n<p>Una fundadora nigeriana descubrió que la incorporación como proveedor en EE.UU. requería comprobante de $1 millón en GL y $1 millón en E&O antes de que los clientes firmaran. Presupueste el seguro antes de necesitarlo.</p>",
       "wordCount": 147
     },
     {
@@ -96,7 +96,7 @@
       "id": "callout-3-2-2",
       "variant": "common-mistake",
       "title": "Operar Sin Seguro de Responsabilidad Civil General",
-      "content": "<p>Un resbalón y caída, un problema de producto, un mal contrato, y queda expuesto personalmente si su negocio no tiene cobertura GL. Incluso si su LLC ofrece protección de responsabilidad, los tribunales pueden \"perforar el velo corporativo\" si está operando sin un seguro básico. El GL es asequible ($400–$800 al año para la mayoría de las pequeñas empresas) y muchos arrendadores y clientes B2B lo exigen. No lo omita.</p>"
+      "content": "<p>Un resbalón y caída, un problema de producto, un mal contrato, y queda expuesto personalmente si su negocio no tiene cobertura GL. Incluso si su LLC ofrece protección de responsabilidad, los tribunales pueden \"perforar el velo corporativo\" si está operando sin un seguro básico. El GL es asequible ($400, $800 al año para la mayoría de las pequeñas empresas) y muchos arrendadores y clientes B2B lo exigen. No lo omita.</p>"
     },
     {
       "type": "accordion",
@@ -105,11 +105,11 @@
       "sections": [
         {
           "heading": "Seguro de Responsabilidad Civil General",
-          "content": "**Cubre:** Lesiones corporales a terceros, daños a la propiedad, lesiones publicitarias.\n\n**Costo:** $400–$1,500 al año para pequeñas empresas.\n\n**Quién lo necesita:** Casi todo negocio. A menudo requerido por arrendadores y contratos."
+          "content": "**Cubre:** Lesiones corporales a terceros, daños a la propiedad, lesiones publicitarias.\n\n**Costo:** $400, $1,500 al año para pequeñas empresas.\n\n**Quién lo necesita:** Casi todo negocio. A menudo requerido por arrendadores y contratos."
         },
         {
           "heading": "Responsabilidad Profesional (E&O)",
-          "content": "**Cubre:** Reclamos por negligencia, errores o falta de entrega de servicios profesionales.\n\n**Costo:** $500–$2,500 al año dependiendo de la industria.\n\n**Quién lo necesita:** Consultores, empresas de TI, cualquier negocio basado en servicios."
+          "content": "**Cubre:** Reclamos por negligencia, errores o falta de entrega de servicios profesionales.\n\n**Costo:** $500, $2,500 al año dependiendo de la industria.\n\n**Quién lo necesita:** Consultores, empresas de TI, cualquier negocio basado en servicios."
         },
         {
           "heading": "Compensación al Trabajador",
@@ -117,7 +117,7 @@
         },
         {
           "heading": "Seguro de Responsabilidad Cibernética",
-          "content": "**Cubre:** Violaciones de datos, ransomware, costos de notificación, defensa legal.\n\n**Costo:** $500–$5,000 al año para pequeñas empresas.\n\n**Quién lo necesita:** Cualquier negocio que almacene datos de clientes, procese pagos o dependa de la tecnología."
+          "content": "**Cubre:** Violaciones de datos, ransomware, costos de notificación, defensa legal.\n\n**Costo:** $500, $5,000 al año para pequeñas empresas.\n\n**Quién lo necesita:** Cualquier negocio que almacene datos de clientes, procese pagos o dependa de la tecnología."
         }
       ]
     },
@@ -125,7 +125,7 @@
       "type": "text",
       "id": "text-3-2-3",
       "title": "Exposición Regulatoria: Industrias Que Necesitan Atención Adicional",
-      "content": "<p>Algunas industrias tienen reglas adicionales que debe seguir antes de operar en EE.UU. Las agencias regulatorias no autorizarán su negocio sin los permisos correctos, y el incumplimiento es costoso. La economía de Central Florida abarca aeroespacial, turismo, salud, tecnología y agricultura, cada una con sus propios requisitos regulatorios.</p>\n\n<p><strong>Alimentos y Bebidas:</strong> Cumplimiento con la FDA (federal) y FDACS (Florida), etiquetado, inspecciones, pruebas de productos. Una marca colombiana de café gastó $8,000 en etiquetado conforme con la FDA antes de listarse en Amazon.</p>\n\n<p><strong>Salud y Bienestar:</strong> Cumplimiento con HIPAA para información de salud protegida. Los dispositivos médicos necesitan autorización de la FDA. La telesalud enfrenta licencias estado por estado.</p>\n\n<p><strong>Servicios Financieros:</strong> Regulaciones de la SEC, FINRA y a nivel estatal. Las licencias de transmisión de dinero cuestan $10,000–$50,000+ en varios estados. Un fundador nigeriano redujo su alcance de 50 estados a cinco mercados clave, recortando el cumplimiento del primer año de $100,000+ a aproximadamente $25,000.</p>\n\n<p><strong>Productos Infantiles:</strong> Pruebas y certificación de la CPSC, plomo, piezas pequeñas, etiquetado. Las pruebas de terceros cuestan $1,000–$5,000 por línea de producto.</p>\n\n<p>Las sanciones por operar sin permisos incluyen multas, incautaciones de productos y cierres. Los asesores del SBDC y UCF BIP pueden ayudar a identificar qué regulaciones son relevantes para su negocio.</p>",
+      "content": "<p>Algunas industrias tienen reglas adicionales que debe seguir antes de operar en EE.UU. Las agencias regulatorias no autorizarán su negocio sin los permisos correctos, y el incumplimiento es costoso. La economía de Central Florida abarca aeroespacial, turismo, salud, tecnología y agricultura, cada una con sus propios requisitos regulatorios.</p>\n\n<p><strong>Alimentos y Bebidas:</strong> Cumplimiento con la FDA (federal) y FDACS (Florida), etiquetado, inspecciones, pruebas de productos. Una marca colombiana de café gastó $8,000 en etiquetado conforme con la FDA antes de listarse en Amazon.</p>\n\n<p><strong>Salud y Bienestar:</strong> Cumplimiento con HIPAA para información de salud protegida. Los dispositivos médicos necesitan autorización de la FDA. La telesalud enfrenta licencias estado por estado.</p>\n\n<p><strong>Servicios Financieros:</strong> Regulaciones de la SEC, FINRA y a nivel estatal. Las licencias de transmisión de dinero cuestan $10,000, $50,000+ en varios estados. Un fundador nigeriano redujo su alcance de 50 estados a cinco mercados clave, recortando el cumplimiento del primer año de $100,000+ a aproximadamente $25,000.</p>\n\n<p><strong>Productos Infantiles:</strong> Pruebas y certificación de la CPSC, plomo, piezas pequeñas, etiquetado. Las pruebas de terceros cuestan $1,000, $5,000 por línea de producto.</p>\n\n<p>Las sanciones por operar sin permisos incluyen multas, incautaciones de productos y cierres. Los asesores del SBDC y UCF BIP pueden ayudar a identificar qué regulaciones son relevantes para su negocio.</p>",
       "wordCount": 140
     },
     {
@@ -142,13 +142,13 @@
         "rows": [
           [
             "Responsabilidad Civil General (GL)",
-            "$400–$800 al año",
+            "$400, $800 al año",
             "Antes de firmar un contrato de arrendamiento comercial o contratos B2B",
             "Prácticamente requerido; la mayoría de los clientes y arrendadores lo exigen"
           ],
           [
             "Responsabilidad Profesional (E&O)",
-            "$500–$2,500 al año",
+            "$500, $2,500 al año",
             "Antes de proporcionar servicios profesionales a clientes en EE.UU.",
             "Requerido por muchos clientes B2B en industrias de servicios"
           ],
@@ -160,13 +160,13 @@
           ],
           [
             "Propiedad Comercial",
-            "$500–$2,000 al año",
+            "$500, $2,000 al año",
             "Cuando tenga una oficina física, almacén o inventario",
             "Requerido si tiene un contrato de arrendamiento comercial"
           ],
           [
             "Responsabilidad Cibernética",
-            "$500–$1,500 al año",
+            "$500, $1,500 al año",
             "Si maneja datos de clientes o procesa pagos",
             "Cada vez más requerido por clientes B2B"
           ]
@@ -301,7 +301,7 @@
       "type": "key-takeaway",
       "id": "kt-3-2-1",
       "title": "Punto Clave",
-      "content": "<p>Lleve seguro de responsabilidad civil general desde el primer día ($400–$800 al año). Si proporciona servicios profesionales, agregue cobertura E&O. Verifique si su industria tiene requisitos regulatorios específicos antes de comenzar a operar. Los costos son mucho más baratos que las demandas, las multas o los contratos perdidos. Revise sus necesidades de cobertura ahora, antes de que un cliente o arrendador le pida comprobante.</p>"
+      "content": "<p>Lleve seguro de responsabilidad civil general desde el primer día ($400, $800 al año). Si proporciona servicios profesionales, agregue cobertura E&O. Verifique si su industria tiene requisitos regulatorios específicos antes de comenzar a operar. Los costos son mucho más baratos que las demandas, las multas o los contratos perdidos. Revise sus necesidades de cobertura ahora, antes de que un cliente o arrendador le pida comprobante.</p>"
     }
   ]
 }

@@ -135,8 +135,8 @@
       },
       "callout": "The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.",
       "calloutEs": "El mayor shock para los fundadores internacionales: los precios en la etiqueta NO son lo que paga en la caja.",
-      "footer": "Florida: 6% base rate + county surtax (0.5%–1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.",
-      "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%–1.5%). Sin impuesto en la mayoría de los servicios. Exenciones para equipo de manufactura y algunos alimentos."
+      "footer": "Florida: 6% base rate + county surtax (0.5%, 1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.",
+      "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%, 1.5%). Sin impuesto en la mayoría de los servicios. Exenciones para equipo de manufactura y algunos alimentos."
     },
     {
       "type": "callout",
@@ -149,7 +149,7 @@
       "type": "text",
       "id": "text-2-2-2",
       "title": "Expectativas Contables en EE.UU.: Por Qué Importa Más Aquí",
-      "content": "<p>La contabilidad es la base de la que depende todo otro proceso financiero: los bancos quieren ver sus registros antes de prestar, el IRS los quiere para verificar sus declaraciones, los inversionistas quieren estados de pérdidas y ganancias, e incluso los arrendadores pueden revisar sus finanzas antes de firmar un contrato.</p>\n\n<p>El estándar es <strong>GAAP (Principios de Contabilidad Generalmente Aceptados)</strong>. Para pequeñas empresas: separe las finanzas del negocio y las personales, registre todos los ingresos y gastos, concilie los estados de cuenta bancarios mensualmente y conserve los recibos durante al menos tres años (siete años para algunos registros).</p>\n\n<p>Un dueño de food truck de los Países Bajos guardaba los recibos en una caja de zapatos. Cuando su CPA le pidió informes trimestrales de gastos, pasó un fin de semana entero emparejando recibos en papel con transacciones bancarias. QuickBooks desde el primer día le habría tomado cinco minutos.</p>\n\n<p>Las herramientas son asequibles. <strong>QuickBooks Online</strong> ($30–$60 al mes) es una de las más utilizadas. <strong>Xero</strong> ($15–$78 al mes) es popular entre los fundadores internacionales por su soporte multidivisa. <strong>Wave</strong> es gratuita para facturación y contabilidad básicas. Elija una antes de su primera venta y conéctela a su cuenta bancaria.</p>",
+      "content": "<p>La contabilidad es la base de la que depende todo otro proceso financiero: los bancos quieren ver sus registros antes de prestar, el IRS los quiere para verificar sus declaraciones, los inversionistas quieren estados de pérdidas y ganancias, e incluso los arrendadores pueden revisar sus finanzas antes de firmar un contrato.</p>\n\n<p>El estándar es <strong>GAAP (Principios de Contabilidad Generalmente Aceptados)</strong>. Para pequeñas empresas: separe las finanzas del negocio y las personales, registre todos los ingresos y gastos, concilie los estados de cuenta bancarios mensualmente y conserve los recibos durante al menos tres años (siete años para algunos registros).</p>\n\n<p>Un dueño de food truck de los Países Bajos guardaba los recibos en una caja de zapatos. Cuando su CPA le pidió informes trimestrales de gastos, pasó un fin de semana entero emparejando recibos en papel con transacciones bancarias. QuickBooks desde el primer día le habría tomado cinco minutos.</p>\n\n<p>Las herramientas son asequibles. <strong>QuickBooks Online</strong> ($30, $60 al mes) es una de las más utilizadas. <strong>Xero</strong> ($15, $78 al mes) es popular entre los fundadores internacionales por su soporte multidivisa. <strong>Wave</strong> es gratuita para facturación y contabilidad básicas. Elija una antes de su primera venta y conéctela a su cuenta bancaria.</p>",
       "wordCount": 168
     },
     {
@@ -165,27 +165,27 @@
         "rows": [
           [
             "Software de contabilidad",
-            "$20–$60 al mes ($240–$720 al año)",
+            "$20, $60 al mes ($240, $720 al año)",
             "QuickBooks Online, Xero o Wave (nivel gratuito disponible)"
           ],
           [
             "CPA para preparación de impuestos",
-            "$500–$2,500 al año",
+            "$500, $2,500 al año",
             "Lado más alto para clientes internacionales con declaraciones de tratado, FBAR o devoluciones de varios estados"
           ],
           [
             "Presentación del impuesto sobre las ventas",
-            "A menudo incluida con el CPA o $20–$50 al mes",
+            "A menudo incluida con el CPA o $20, $50 al mes",
             "Avalara o TaxJar para automatización en varios estados"
           ],
           [
             "Servicio de nómina (si contrata)",
-            "$40–$100 al mes + tarifas por empleado",
+            "$40, $100 al mes + tarifas por empleado",
             "Gusto, ADP Run o Paychex. Maneja retenciones y presentaciones."
           ],
           [
             "Servicio de contabilidad (tercerizado)",
-            "$200–$500 al mes",
+            "$200, $500 al mes",
             "Si no quiere hacerlo usted mismo. Bench, Pilot o firmas locales."
           ]
         ]
@@ -209,7 +209,7 @@
         },
         {
           "heading": "Contabilidad: Hacerlo Usted Mismo vs. Tercerizada",
-          "content": "**Herramientas para hacerlo usted mismo:** QuickBooks Online ($30/mes), Wave (gratis), Xero ($15/mes)\n\n**Tercerizada:** Contable virtual ($200–$500/mes), CPA local ($300–$800/mes)\n\n**Regla general:** Hágalo usted mismo hasta que los ingresos superen los $100K al año, luego terciarice para liberar su tiempo."
+          "content": "**Herramientas para hacerlo usted mismo:** QuickBooks Online ($30/mes), Wave (gratis), Xero ($15/mes)\n\n**Tercerizada:** Contable virtual ($200, $500/mes), CPA local ($300, $800/mes)\n\n**Regla general:** Hágalo usted mismo hasta que los ingresos superen los $100K al año, luego terciarice para liberar su tiempo."
         }
       ]
     },
@@ -263,7 +263,7 @@
             "Más de $10,000; los negocios internacionales siempre requieren una firma contable de servicio completo"
           ],
           "correctAnswer": 2,
-          "explanation": "Un presupuesto realista del primer año incluye software de contabilidad ($240–$720 al año), un CPA con experiencia con clientes internacionales ($500–$2,500 al año) y posiblemente asistencia con la presentación del impuesto sobre las ventas. Menos de $200 ignora la necesidad de un CPA que comprenda los requisitos de presentación para extranjeros no residentes. Una estimación de $500 subestima los costos del CPA para clientes internacionales, que necesitan revisión de tratados y posiblemente presentaciones FBAR. Más de $10,000 es excesivo para una pequeña firma de consultoría con un solo dueño, sin empleados y un solo estado de operación."
+          "explanation": "Un presupuesto realista del primer año incluye software de contabilidad ($240, $720 al año), un CPA con experiencia con clientes internacionales ($500, $2,500 al año) y posiblemente asistencia con la presentación del impuesto sobre las ventas. Menos de $200 ignora la necesidad de un CPA que comprenda los requisitos de presentación para extranjeros no residentes. Una estimación de $500 subestima los costos del CPA para clientes internacionales, que necesitan revisión de tratados y posiblemente presentaciones FBAR. Más de $10,000 es excesivo para una pequeña firma de consultoría con un solo dueño, sin empleados y un solo estado de operación."
         }
       ]
     },
@@ -271,7 +271,7 @@
       "type": "key-takeaway",
       "id": "kt-2-2-1",
       "title": "Punto Clave",
-      "content": "<p>El cumplimiento del impuesto sobre las ventas es obligatorio y fácil de equivocar. Regístrese en el Departamento de Ingresos de Florida antes de cobrar el impuesto. El impuesto sobre las ventas en EE.UU. no funciona en absoluto como el IVA: es estado por estado, sin créditos por insumos. Presupueste un CPA que comprenda a los clientes internacionales. La contabilidad profesional ($500–$2,500 al año) cuesta mucho menos que las multas del IRS y las violaciones de cumplimiento estatal. El impuesto sobre las ventas y la contabilidad son sencillos si conoce las reglas antes de comenzar.</p>"
+      "content": "<p>El cumplimiento del impuesto sobre las ventas es obligatorio y fácil de equivocar. Regístrese en el Departamento de Ingresos de Florida antes de cobrar el impuesto. El impuesto sobre las ventas en EE.UU. no funciona en absoluto como el IVA: es estado por estado, sin créditos por insumos. Presupueste un CPA que comprenda a los clientes internacionales. La contabilidad profesional ($500, $2,500 al año) cuesta mucho menos que las multas del IRS y las violaciones de cumplimiento estatal. El impuesto sobre las ventas y la contabilidad son sencillos si conoce las reglas antes de comenzar.</p>"
     }
   ]
 }

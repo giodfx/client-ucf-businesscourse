@@ -2,7 +2,7 @@
   "lessonId": "lesson-3-1",
   "moduleId": "module-3",
   "landscapeTheme": "Rocket Base",
-  "title": "Intellectual Property — Protecting Your Ideas in the U.S.",
+  "title": "Intellectual Property, Protecting Your Ideas in the U.S.",
   "duration": 7,
   "objectives": [
     "Distinguish between copyright, trademark, and patent protections in the U.S.",
@@ -42,24 +42,24 @@
             "Copyright",
             "Creative works: code, content, designs, media",
             "Automatic on creation; register for enforcement",
-            "$45–$65 per work",
-            "2–6 months for registration",
+            "$45, $65 per work",
+            "2, 6 months for registration",
             "Usually not needed for basic filing"
           ],
           [
             "Trademark",
             "Brand identity: name, logo, slogan",
             "File application with USPTO",
-            "$250–$350 per class (filing fee only)",
-            "8–12 months for approval",
+            "$250, $350 per class (filing fee only)",
+            "8, 12 months for approval",
             "Recommended, mistakes delay the process"
           ],
           [
             "Patent (Utility)",
             "Inventions: processes, machines, methods",
             "File application with USPTO",
-            "$5,000–$15,000+ (with attorney)",
-            "2–3 years for approval",
+            "$5,000, $15,000+ (with attorney)",
+            "2, 3 years for approval",
             "Yes, patent applications are complex"
           ]
         ]
@@ -86,11 +86,11 @@
             },
             {
               "label": "Cost to Register",
-              "value": "$45–$65 (U.S. Copyright Office)"
+              "value": "$45, $65 (U.S. Copyright Office)"
             },
             {
               "label": "Timeline",
-              "value": "2–6 months"
+              "value": "2, 6 months"
             },
             {
               "label": "Lawyer Needed?",
@@ -115,11 +115,11 @@
             },
             {
               "label": "Cost to Register",
-              "value": "$250–$350 per class (USPTO)"
+              "value": "$250, $350 per class (USPTO)"
             },
             {
               "label": "Timeline",
-              "value": "8–12 months"
+              "value": "8, 12 months"
             },
             {
               "label": "Lawyer Needed?",
@@ -144,11 +144,11 @@
             },
             {
               "label": "Cost to Register",
-              "value": "$5,000–$15,000+ (with attorney)"
+              "value": "$5,000, $15,000+ (with attorney)"
             },
             {
               "label": "Timeline",
-              "value": "2–4 years"
+              "value": "2, 4 years"
             },
             {
               "label": "Lawyer Needed?",
@@ -178,56 +178,56 @@
           "descEs": "TEAS Plus ($250/clase) o TEAS Standard ($350/clase). Incluir marca, descripción de bienes/servicios, muestra de uso."
         },
         {
-          "time": "Month 1–3",
-          "timeEs": "Mes 1–3",
+          "time": "Month 1, 3",
+          "timeEs": "Mes 1, 3",
           "label": "USPTO Review",
           "labelEs": "Revisión del USPTO",
-          "desc": "Examining attorney reviews for conflicts. Average wait: 3–4 months.",
-          "descEs": "El abogado examinador revisa conflictos. Espera promedio: 3–4 meses."
+          "desc": "Examining attorney reviews for conflicts. Average wait: 3, 4 months.",
+          "descEs": "El abogado examinador revisa conflictos. Espera promedio: 3, 4 meses."
         },
         {
-          "time": "Month 4–6",
-          "timeEs": "Mes 4–6",
+          "time": "Month 4, 6",
+          "timeEs": "Mes 4, 6",
           "label": "Office Actions (if any)",
           "labelEs": "Acciones de Oficina (si aplica)",
           "desc": "You may get a refusal or request for clarification. 3-month deadline to respond.",
           "descEs": "Puede recibir un rechazo o solicitud de aclaración. Plazo de 3 meses para responder."
         },
         {
-          "time": "Month 7–8",
-          "timeEs": "Mes 7–8",
+          "time": "Month 7, 8",
+          "timeEs": "Mes 7, 8",
           "label": "Publication",
           "labelEs": "Publicación",
           "desc": "Mark published in the Official Gazette for 30 days. Anyone can oppose.",
           "descEs": "Marca publicada en la Gaceta Oficial por 30 días. Cualquiera puede oponerse."
         },
         {
-          "time": "Month 9–12",
-          "timeEs": "Mes 9–12",
+          "time": "Month 9, 12",
+          "timeEs": "Mes 9, 12",
           "label": "Registration",
           "labelEs": "Registro",
-          "desc": "If no opposition: registration certificate issued. Total time: 8–12 months typical.",
-          "descEs": "Sin oposición: se emite el certificado de registro. Tiempo total: 8–12 meses típico."
+          "desc": "If no opposition: registration certificate issued. Total time: 8, 12 months typical.",
+          "descEs": "Sin oposición: se emite el certificado de registro. Tiempo total: 8, 12 meses típico."
         },
         {
           "time": "After Registration",
           "timeEs": "Después del Registro",
           "label": "Maintain",
           "labelEs": "Mantener",
-          "desc": "Declaration of Use at year 5–6 and renewal every 10 years.",
-          "descEs": "Declaración de Uso en el año 5–6 y renovación cada 10 años."
+          "desc": "Declaration of Use at year 5, 6 and renewal every 10 years.",
+          "descEs": "Declaración de Uso en el año 5, 6 y renovación cada 10 años."
         }
       ],
       "callout": "International founders: Your home country trademark does NOT protect you in the U.S. IP rights are territorial, you must register separately.",
       "calloutEs": "Fundadores internacionales: su marca registrada en su país NO lo protege en EE.UU. Los derechos de propiedad intelectual son territoriales, debe registrarse por separado.",
-      "footer": "Total cost: $250–$750 for filing + $0 if self-filed, $1,500–$3,000 with attorney.",
-      "footerEs": "Costo total: $250–$750 por presentación + $0 si lo hace solo, $1,500–$3,000 con abogado."
+      "footer": "Total cost: $250, $750 for filing + $0 if self-filed, $1,500, $3,000 with attorney.",
+      "footerEs": "Costo total: $250, $750 por presentación + $0 si lo hace solo, $1,500, $3,000 con abogado."
     },
     {
       "type": "text",
       "id": "text-3-1-2",
       "title": "Trademark Registration, What Actually Happens",
-      "content": "<p>A trademark is the emblem that distinguishes your business from everyone else's. The registration process through the USPTO is straightforward but takes patience.</p>\n\n<p><strong>Step 1: Search the USPTO database</strong> at trademark.uspto.gov. If a conflict exists, your application is rejected and your filing fee is not refunded.</p>\n\n<p><strong>Step 2: File your application</strong> online through TEAS. Choose the right class of goods or services (45 classes). Filing fee: $250 (TEAS Plus) or $350 (TEAS Standard) per class.</p>\n\n<p><strong>Step 3: Wait for examination.</strong> A USPTO examining attorney reviews your application in 3–4 months. They may issue an \"office action\" requesting changes; respond within the deadline or your application is abandoned.</p>\n\n<p><strong>Step 4: Publication period.</strong> Your trademark is published in the Official Gazette for 30 days. If no one opposes, you receive your registration certificate.</p>\n\n<p>Total timeline: 8–12 months. A Polish cybersecurity business owner hired a U.S. trademark attorney before opening her Orlando office. The $800 she spent was a fraction of the $15,000–$25,000 she would have paid to fight a conflict later.</p>",
+      "content": "<p>A trademark is the emblem that distinguishes your business from everyone else's. The registration process through the USPTO is straightforward but takes patience.</p>\n\n<p><strong>Step 1: Search the USPTO database</strong> at trademark.uspto.gov. If a conflict exists, your application is rejected and your filing fee is not refunded.</p>\n\n<p><strong>Step 2: File your application</strong> online through TEAS. Choose the right class of goods or services (45 classes). Filing fee: $250 (TEAS Plus) or $350 (TEAS Standard) per class.</p>\n\n<p><strong>Step 3: Wait for examination.</strong> A USPTO examining attorney reviews your application in 3, 4 months. They may issue an \"office action\" requesting changes; respond within the deadline or your application is abandoned.</p>\n\n<p><strong>Step 4: Publication period.</strong> Your trademark is published in the Official Gazette for 30 days. If no one opposes, you receive your registration certificate.</p>\n\n<p>Total timeline: 8, 12 months. A Polish cybersecurity business owner hired a U.S. trademark attorney before opening her Orlando office. The $800 she spent was a fraction of the $15,000, $25,000 she would have paid to fight a conflict later.</p>",
       "wordCount": 157
     },
     {
@@ -235,21 +235,21 @@
       "id": "callout-3-1-2",
       "variant": "theme-reduce-risk",
       "title": "Reduce Risk: Register Your Trademark Before You Launch",
-      "content": "<p>If someone else files your brand name in the U.S. first, you may lose it, even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250–$350 filing fee is far less than the cost of rebranding.</p>"
+      "content": "<p>If someone else files your brand name in the U.S. first, you may lose it, even if you've used it for years in another country. The U.S. trademark system gives strong rights to the first filer. Start the process before you invest in U.S. marketing, packaging, or signage. The $250, $350 filing fee is far less than the cost of rebranding.</p>"
     },
     {
       "type": "callout",
       "id": "callout-3-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Common Mistakes International Founders Make",
-      "content": "<ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. Trademarks, patents, and enforceable copyright all require separate U.S. filings. If you wait, someone else can register your brand name in the U.S. first, and they will have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</li><li><strong>Running without general liability insurance.</strong> This is not an IP issue, but it is a common pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150–$300 and can prevent costly disputes later.</li></ul>"
+      "content": "<ul><li><strong>Assuming home-country IP protection covers the U.S.</strong> IP protection is country-by-country. Your trademark filed in Brazil, Germany, Colombia, or anywhere else gives you zero coverage in the United States. Trademarks, patents, and enforceable copyright all require separate U.S. filings. If you wait, someone else can register your brand name in the U.S. first, and they will have the legal right to use it here. File your U.S. trademark application before you start marketing in the U.S., not after.</li><li><strong>Running without general liability insurance.</strong> This is not an IP issue, but it is a common pattern: founders focus on the legal setup and forget to guard against day-to-day business risks. One lawsuit without coverage can shut you down. (More on insurance in the next lesson.)</li><li><strong>Using free contract templates without legal review.</strong> Free NDA templates and service agreements from legal websites are a starting point, not a finished product. They may not follow Florida law, may be missing key clauses, or may not fit your situation. A 30-minute attorney review costs $150, $300 and can prevent costly disputes later.</li></ul>"
     },
     {
       "type": "callout",
       "id": "callout-3-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>Plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>Trademark filing (USPTO):</strong> $250–$350 per class, plus $300–$500 if using an attorney</li><li><strong>Patent application:</strong> $5,000–$15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45–$65 per work</li><li><strong>NDA or contract drafting:</strong> $200–$500 per document</li><li><strong>General liability insurance:</strong> $400–$800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500–$2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0–$300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200–$500 per document</li></ul>"
+      "content": "<p>Plan your IP budget early. IP, insurance, and legal costs you should budget for (as of early 2026):</p>\n\n<ul><li><strong>Trademark filing (USPTO):</strong> $250, $350 per class, plus $300, $500 if using an attorney</li><li><strong>Patent application:</strong> $5,000, $15,000+ including attorney fees and USPTO filing costs</li><li><strong>Copyright registration:</strong> $45, $65 per work</li><li><strong>NDA or contract drafting:</strong> $200, $500 per document</li><li><strong>General liability insurance:</strong> $400, $800/year for small businesses</li><li><strong>Professional liability (E&O):</strong> $500, $2,500/year depending on industry</li><li><strong>Initial legal consultation:</strong> $0, $300 (many attorneys offer free first consultations)</li><li><strong>Contract review by attorney:</strong> $200, $500 per document</li></ul>"
     },
     {
       "type": "in-lesson-image",
@@ -292,15 +292,15 @@
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "An entrepreneur has been using a brand name in Colombia for three years and now wants to sell products under that name in the U.S. What should she do first?",
+          "stem": "An entrepreneur has been using a brand name in Vietnam for three years and now wants to sell products under that name in the U.S. What should she do first?",
           "options": [
             "Search the USPTO database and file a U.S. trademark application before launching",
-            "Start selling immediately. Her Colombian trademark automatically applies in the U.S.",
+            "Start selling immediately. Her Vietnamese trademark automatically applies in the U.S.",
             "Wait until she has U.S. revenue, then file for a trademark",
             "Use the TM symbol and skip formal registration since she has prior use"
           ],
           "correctAnswer": 0,
-          "explanation": "IP protection is territorial. A Colombian trademark has no legal effect in the U.S. The founder should search the USPTO database for conflicts and file a U.S. trademark application before investing in U.S. marketing. Waiting increases the risk that someone else files the same name first."
+          "explanation": "IP protection is territorial. A Vietnamese trademark has no legal effect in the U.S. The founder should search the USPTO database for conflicts and file a U.S. trademark application before investing in U.S. marketing. Waiting increases the risk that someone else files the same name first."
         },
         {
           "stem": "Which type of IP protection is most commonly needed first by international founders entering the U.S. market?",
@@ -319,10 +319,10 @@
             "File both a patent and a trademark simultaneously to save time, since both go through the USPTO",
             "Skip formal IP filings and rely on the automatic copyright protection her code already has",
             "File a patent first since it offers the broadest protection and covers her brand name as well",
-            "File for copyright registration on her code and pursue trademark registration now, then budget separately for a patent application later since patents cost $5,000–$15,000 and take 2–3 years"
+            "File for copyright registration on her code and pursue trademark registration now, then budget separately for a patent application later since patents cost $5,000, $15,000 and take 2, 3 years"
           ],
           "correctAnswer": 3,
-          "explanation": "With $10,000, filing both a trademark ($250–$850 with attorney) and copyright ($45–$65) fits the budget while protecting the brand name and code. A patent application ($5,000–$15,000+) would consume most or all of the budget and takes 2–3 years to process. Filing the trademark and copyright now, then budgeting separately for a patent, gives her immediate protection where it matters most. Patents do not cover brand names, so option C is incorrect. Relying only on automatic copyright (option B) leaves the brand name unprotected. Filing both a patent and trademark simultaneously (option A) would exceed the $10,000 budget."
+          "explanation": "With $10,000, filing both a trademark ($250, $850 with attorney) and copyright ($45, $65) fits the budget while protecting the brand name and code. A patent application ($5,000, $15,000+) would consume most or all of the budget and takes 2, 3 years to process. Filing the trademark and copyright now, then budgeting separately for a patent, gives her immediate protection where it matters most. Patents do not cover brand names, so option C is incorrect. Relying only on automatic copyright (option B) leaves the brand name unprotected. Filing both a patent and trademark simultaneously (option A) would exceed the $10,000 budget."
         }
       ]
     },
@@ -330,7 +330,7 @@
       "type": "key-takeaway",
       "id": "kt-3-1-1",
       "title": "Key Takeaway",
-      "content": "<p>Trademark your brand name before you invest in U.S. marketing. Decide which IP protections your business needs, then create a filing plan. Start with a USPTO trademark search, file early, and budget $250–$850 for the trademark process. For patents, hire an attorney. For copyright, register before you need to enforce it. Your intellectual property is only as safe as the protections you put around it, act before someone else does.</p>"
+      "content": "<p>Trademark your brand name before you invest in U.S. marketing. Decide which IP protections your business needs, then create a filing plan. Start with a USPTO trademark search, file early, and budget $250, $850 for the trademark process. For patents, hire an attorney. For copyright, register before you need to enforce it. Your intellectual property is only as safe as the protections you put around it, act before someone else does.</p>"
     }
   ]
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Expansion Decision Worksheet — UCF BIP</title>
+<title>Expansion Decision Worksheet, UCF BIP</title>
 <style>
   :root {
     --bg: #0a1628; --surface: rgba(15,25,45,0.85); --border: rgba(212,168,67,0.25);
@@ -233,7 +233,7 @@
 
 <div class="results" id="results">
   <h2>Your Expansion Readiness Score</h2>
-  <div class="total-score" id="totalScore">—</div>
+  <div class="total-score" id="totalScore">, </div>
   <div class="total-label">out of 25</div>
   <div class="verdict" id="verdict" style="display:none"></div>
   <div class="breakdown" id="breakdown"></div>
@@ -303,16 +303,16 @@
 
     if (total >= 20) {
       verdict.className = 'verdict go';
-      verdict.textContent = 'Strong Go — You are ready to enter the U.S. market';
+      verdict.textContent = 'Strong Go, You are ready to enter the U.S. market';
     } else if (total >= 15) {
       verdict.className = 'verdict maybe';
-      verdict.textContent = 'Conditional Go — Address weak areas before or during entry';
+      verdict.textContent = 'Conditional Go, Address weak areas before or during entry';
     } else if (total >= 10) {
       verdict.className = 'verdict maybe';
-      verdict.textContent = 'Proceed with Caution — Significant preparation needed';
+      verdict.textContent = 'Proceed with Caution, Significant preparation needed';
     } else {
       verdict.className = 'verdict wait';
-      verdict.textContent = 'Not Yet — Strengthen your foundation before entering';
+      verdict.textContent = 'Not Yet, Strengthen your foundation before entering';
     }
 
     var html = '';

@@ -138,12 +138,12 @@
       "paths": [
         {
           "label": "I plan to raise venture capital or angel investment",
-          "outcome": "Typical best fit: C-Corp. U.S. investors almost universally require a C-Corp structure. It allows multiple share classes, stock option pools, and standard investment instruments (SAFEs, convertible notes). The extra paperwork and double taxation are the cost of being investor-ready from day one. Most attorneys will recommend a Delaware C-Corp if you are targeting institutional investors. Estimated first-year cost: $960–$2,600 (filing + registered agent + attorney).",
+          "outcome": "Typical best fit: C-Corp. U.S. investors almost universally require a C-Corp structure. It allows multiple share classes, stock option pools, and standard investment instruments (SAFEs, convertible notes). The extra paperwork and double taxation are the cost of being investor-ready from day one. Most attorneys will recommend a Delaware C-Corp if you are targeting institutional investors. Estimated first-year cost: $960, $2,600 (filing + registered agent + attorney).",
           "isRecommended": false
         },
         {
           "label": "I'm a solo founder: I want simple, low-cost, and flexible",
-          "outcome": "Typical best fit: LLC. A Florida LLC gives you full liability protection, pass-through taxation (no double tax), and minimal paperwork. At $125 to file, it is the most affordable path. You can always convert to a C-Corp later if your plans change, though that conversion typically costs $2,000–$5,000 in legal fees. If there is any chance you will seek investors, factor that conversion cost into your decision now.",
+          "outcome": "Typical best fit: LLC. A Florida LLC gives you full liability protection, pass-through taxation (no double tax), and minimal paperwork. At $125 to file, it is the most affordable path. You can always convert to a C-Corp later if your plans change, though that conversion typically costs $2,000, $5,000 in legal fees. If there is any chance you will seek investors, factor that conversion cost into your decision now.",
           "isRecommended": false
         },
         {
@@ -166,7 +166,7 @@
       "paths": [
         {
           "label": "LLC: keep it simple and flexible",
-          "outcome": "An LLC is simpler to set up and maintain, but most U.S. venture capital firms will not invest in an LLC. If you plan to raise institutional funding within 12 months, you will likely need to convert to a C-Corp later, adding $2,000–$5,000 in legal fees and tax complexity. Starting as a C-Corp avoids this.",
+          "outcome": "An LLC is simpler to set up and maintain, but most U.S. venture capital firms will not invest in an LLC. If you plan to raise institutional funding within 12 months, you will likely need to convert to a C-Corp later, adding $2,000, $5,000 in legal fees and tax complexity. Starting as a C-Corp avoids this.",
           "isRecommended": false
         },
         {
@@ -193,7 +193,7 @@
       "id": "callout-1-1-anecdote",
       "variant": "common-mistake",
       "title": "Real Case: Wrong Entity, Costly Switch",
-      "content": "<p>A software founder from Colombia chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took several months and significant legal fees, and nearly derailed the deal.</p>"
+      "content": "<p>A software founder from India chose a Florida LLC because it was fast and cheap. Eight months later, a U.S. investor offered to lead her seed round but required a Delaware C-Corp. The switch took several months and significant legal fees, and nearly derailed the deal.</p>"
     },
     {
       "type": "callout",
@@ -206,7 +206,7 @@
       "type": "text",
       "id": "text-1-1-5",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p>\n\n<ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0–$500 if you use an attorney. Total typically $125–$625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300–$1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300–$500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960–$2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100–$300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul>\n\n<p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p>",
+      "content": "<p>Entity formation costs vary depending on the type of entity, whether you use an attorney, and which state you register in. Here are typical ranges:</p>\n\n<ul><li><strong>Florida LLC:</strong> Around $125 in state filing fees, plus $0, $500 if you use an attorney. Total typically $125, $625.</li><li><strong>Florida Corporation (C-Corp):</strong> Around $70 in state filing fees, plus $300, $1,500 for attorney assistance with articles, bylaws, and stock issuance.</li><li><strong>Delaware C-Corp (common for investors):</strong> Around $89 in state filing, plus annual franchise tax of $300, $500, plus attorney fees. You also need to foreign-qualify in Florida if you operate there. First-year costs can range from around $960, $2,600 or more.</li><li><strong>Registered agent service:</strong> Typically $100, $300 per year.</li><li><strong>EIN application:</strong> Free from the IRS.</li></ul>\n\n<p>The most affordable path is often a Florida LLC filed on your own. A common investor-ready path is a Delaware C-Corp with an attorney. Choose based on your business needs, not just the price tag.</p>",
       "wordCount": 167
     },
     {
@@ -214,7 +214,7 @@
       "id": "callout-1-1-latam",
       "variant": "latam-supplement",
       "title": "Latin America Resources: Legal Setup",
-      "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>[Prospera](https://prosperausa.org/):</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> International business services, market entry advisory, and trade missions for founders from any country.</li><li><strong>Country consulate offices:</strong> Orlando hosts 20+ consulates that can connect you with country-specific business networks and legal resources. Search \"[your country] consulate Orlando\" for direct contact.</li></ul>"
+      "content": "<p class=\"rt-inclusive-note\"><em></em></p>\n\n<p>Central Florida has a deep network of bilingual attorneys and business services tailored to Latin American founders:</p>\n\n<ul><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Referrals to bilingual business attorneys, workshops on entity formation, and networking events connecting you with other Latin American business owners.</li><li><strong>[Prospera](https://prosperausa.org/):</strong> Free and low-cost business formation assistance for Hispanic entrepreneurs, including help with LLC filing, registered agent selection, and basic legal documents.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Access to vetted attorneys who regularly work with international founders from Latin America and understand the specific legal considerations for cross-border business structures.</li></ul>\n\n<p>Having a bilingual attorney who understands both U.S. corporate law and your home country's business environment can simplify the entity formation process significantly.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> International business services, market entry advisory, and trade missions for founders from any country.</li><li><strong>Country consulate offices:</strong> Orlando hosts 20+ consulates that can connect you with country-specific business networks and legal resources. Search \"[your country] consulate Orlando\" for direct contact.</li></ul>"
     },
     {
       "type": "knowledge-check",
@@ -253,7 +253,7 @@
             "You need to hire a Florida-based attorney to file on your behalf"
           ],
           "correctAnswer": 1,
-          "explanation": "Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional, if your registered agent lapses, the state can dissolve your entity. You do not need a bank account, SSN, or attorney to file with SunBiz, though all can be helpful. Commercial registered agent services are available for $50–$200 per year."
+          "explanation": "Florida law requires every business entity to have a registered agent with a physical Florida address. This is not optional, if your registered agent lapses, the state can dissolve your entity. You do not need a bank account, SSN, or attorney to file with SunBiz, though all can be helpful. Commercial registered agent services are available for $50, $200 per year."
         }
       ]
     },

@@ -21,7 +21,7 @@
       "type": "text",
       "id": "text-7-1-2",
       "title": "Free Help Is Closer Than You Think",
-      "content": "<p>A business owner from Colombia spent $4,500 on a private consultant to help navigate U.S. business setup, then discovered that the Small Business Development Center at UCF offers the same guidance for free. Central Florida has several organizations specifically designed to help international founders, and most of them cost nothing.</p>\n\n<p>Here are the five you should know. Each one serves a different purpose, explore the directory below to find the right fit for where you are right now.</p>",
+      "content": "<p>A business owner from Vietnam spent $4,500 on a private consultant to help navigate U.S. business setup, then discovered that the Small Business Development Center at UCF offers the same guidance for free. Central Florida has several organizations specifically designed to help international founders, and most of them cost nothing.</p>\n\n<p>Here are the five you should know. Each one serves a different purpose, explore the directory below to find the right fit for where you are right now.</p>",
       "wordCount": 242
     },
     {
@@ -115,7 +115,7 @@
       "id": "callout-7-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What This Actually Costs",
-      "content": "<p>Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private help:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
+      "content": "<p>Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200, $500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private help:</strong> $150, $350/hour for a business consultant, or $3,000, $10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
     },
     {
       "type": "callout",
@@ -150,7 +150,7 @@
             "Schedule a free appointment with the Florida SBDC at UCF"
           ],
           "correctAnswer": 3,
-          "explanation": "The SBDC should be your first stop for market research and business planning support. Their advisors provide exactly this service at no cost. Hiring a consultant for the same work could cost $3,000–$10,000. Always check free resources before paying for private help."
+          "explanation": "The SBDC should be your first stop for market research and business planning support. Their advisors provide exactly this service at no cost. Hiring a consultant for the same work could cost $3,000, $10,000. Always check free resources before paying for private help."
         },
         {
           "stem": "An entrepreneur from Peru just arrived in Central Florida. She needs help with market research, a business plan, and connections to potential customers. She has $8,000 set aside for consulting fees. Based on how the support ecosystem works, what should she expect when she engages with these organizations?",
@@ -161,7 +161,7 @@
             "These organizations only serve U.S. citizens, so she will need to hire a private consultant instead"
           ],
           "correctAnswer": 2,
-          "explanation": "The support ecosystem is interconnected but each organization serves a distinct role. The SBDC provides free, unlimited business counseling including market research and business plans. SCORE offers free mentorship from experienced executives. Chambers of commerce provide networking for a modest annual fee ($200–$500). These services are available to international founders regardless of citizenship status. The $8,000 she budgeted for consulting could be redirected to actual business operations."
+          "explanation": "The support ecosystem is interconnected but each organization serves a distinct role. The SBDC provides free, unlimited business counseling including market research and business plans. SCORE offers free mentorship from experienced executives. Chambers of commerce provide networking for a modest annual fee ($200, $500). These services are available to international founders regardless of citizenship status. The $8,000 she budgeted for consulting could be redirected to actual business operations."
         }
       ]
     },

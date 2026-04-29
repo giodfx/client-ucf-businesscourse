@@ -22,7 +22,7 @@
       "id": "callout-6-3-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What Cultural Missteps Actually Cost",
-      "content": "<p>These are real dollar figures from international founders who learned the hard way (as of early 2026):</p>\n\n<ul><li><strong>$15,000</strong>. Legal fees for a partnership agreement based on a casual \"we should partner\" comment that was never a commitment</li><li><strong>$8,000–$12,000</strong>. Wasted retainer for a business consultant hired based on a warm introduction that never converted to actual business</li><li><strong>$5,000–$20,000</strong>. Product customization costs for a \"verbal commitment\" from a U.S. buyer that evaporated when the order wasn't formalized in writing</li><li><strong>$3,000–$7,000</strong>. Flights, hotels, and travel costs for in-person meetings that could have been handled by a 30-minute video call first</li><li><strong>$2,000–$5,000</strong>. Marketing materials and trade show expenses targeting the wrong customer segment because the founder didn't validate market fit locally first</li></ul>\n\n<p><strong>Total avoidable loss for a single founder:</strong> $10,000–$50,000+ in the first year. These costs add up fast when every dollar matters.</p>"
+      "content": "<p>These are real dollar figures from international founders who learned the hard way (as of early 2026):</p>\n\n<ul><li><strong>$15,000</strong>. Legal fees for a partnership agreement based on a casual \"we should partner\" comment that was never a commitment</li><li><strong>$8,000, $12,000</strong>. Wasted retainer for a business consultant hired based on a warm introduction that never converted to actual business</li><li><strong>$5,000, $20,000</strong>. Product customization costs for a \"verbal commitment\" from a U.S. buyer that evaporated when the order wasn't formalized in writing</li><li><strong>$3,000, $7,000</strong>. Flights, hotels, and travel costs for in-person meetings that could have been handled by a 30-minute video call first</li><li><strong>$2,000, $5,000</strong>. Marketing materials and trade show expenses targeting the wrong customer segment because the founder didn't validate market fit locally first</li></ul>\n\n<p><strong>Total avoidable loss for a single founder:</strong> $10,000, $50,000+ in the first year. These costs add up fast when every dollar matters.</p>"
     },
     {
       "type": "callout",
@@ -35,7 +35,7 @@
       "type": "text",
       "id": "text-6-3-2",
       "title": "More Missteps That Drain Your Budget",
-      "content": "<h3>Misstep #3: Avoiding Direct \"No\"</h3>\n\n<p>Remember: friendliness is the default in American business, not a commitment. A Japanese entrepreneur said \"We'll consider it carefully\" instead of declining a joint venture. The American team spent six weeks preparing a proposal. When she finally said no, the relationship soured.</p>\n\n<p><strong>What to do instead:</strong> \"Thank you for thinking of us, but this isn't the right fit right now.\" Americans respect a clean no. They don't respect a delayed no disguised as maybe.</p>\n\n<h3>Misstep #4: Over-Investing Before Validating</h3>\n\n<p>You have committed resources before you know where your customers are actually buying. A Chilean tech startup signed a two-year Orlando office lease ($4,500/month) before having a single U.S. customer. Their clients ended up in Texas and California, and that added up to $81,000 on an office nobody used.</p>\n\n<p><strong>What to do instead:</strong> Start lean with coworking or virtual addresses. Validate with actual sales before committing to fixed overhead.</p>\n\n<h3>Misstep #5: Rushing the In-Person Trip</h3>\n\n<p>Many founders fly to the U.S. for preliminary meetings that could be handled on Zoom. A single trip costs $3,000–$7,000 in flights, hotels, and ground transportation.</p>\n\n<p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p>",
+      "content": "<h3>Misstep #3: Avoiding Direct \"No\"</h3>\n\n<p>Remember: friendliness is the default in American business, not a commitment. A Japanese entrepreneur said \"We'll consider it carefully\" instead of declining a joint venture. The American team spent six weeks preparing a proposal. When she finally said no, the relationship soured.</p>\n\n<p><strong>What to do instead:</strong> \"Thank you for thinking of us, but this isn't the right fit right now.\" Americans respect a clean no. They don't respect a delayed no disguised as maybe.</p>\n\n<h3>Misstep #4: Over-Investing Before Validating</h3>\n\n<p>You have committed resources before you know where your customers are actually buying. A Chilean tech startup signed a two-year Orlando office lease ($4,500/month) before having a single U.S. customer. Their clients ended up in Texas and California, and that added up to $81,000 on an office nobody used.</p>\n\n<p><strong>What to do instead:</strong> Start lean with coworking or virtual addresses. Validate with actual sales before committing to fixed overhead.</p>\n\n<h3>Misstep #5: Rushing the In-Person Trip</h3>\n\n<p>Many founders fly to the U.S. for preliminary meetings that could be handled on Zoom. A single trip costs $3,000, $7,000 in flights, hotels, and ground transportation.</p>\n\n<p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p>",
       "wordCount": 190
     },
     {
@@ -49,24 +49,24 @@
       "cols": 3,
       "cards": [
         {
-          "badge": "$5,000–$50,000 in lost deals",
-          "badgeEs": "$5,000–$50,000 en negocios perdidos",
+          "badge": "$5,000, $50,000 in lost deals",
+          "badgeEs": "$5,000, $50,000 en negocios perdidos",
           "heading": "Missing the Follow-Up Window",
           "headingEs": "Perder la Ventana de Seguimiento",
-          "desc": "U.S. partners expect a follow-up email within 24–48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.",
-          "descEs": "Los socios estadounidenses esperan un correo de seguimiento en 24–48 horas. En muchas culturas, esperar muestra respeto. En EE.UU., esperar = no estás interesado."
+          "desc": "U.S. partners expect a follow-up email within 24, 48 hours. In many cultures, waiting shows respect. In the U.S., waiting = you're not interested.",
+          "descEs": "Los socios estadounidenses esperan un correo de seguimiento en 24, 48 horas. En muchas culturas, esperar muestra respeto. En EE.UU., esperar = no estás interesado."
         },
         {
-          "badge": "$10,000–$100,000+ in disputes",
-          "badgeEs": "$10,000–$100,000+ en disputas",
+          "badge": "$10,000, $100,000+ in disputes",
+          "badgeEs": "$10,000, $100,000+ en disputas",
           "heading": "Handshake Deals Without Contracts",
           "headingEs": "Acuerdos de Palabra Sin Contratos",
           "desc": "In the U.S., if it's not in writing, it doesn't exist. Even friendly business relationships need signed agreements.",
           "descEs": "En EE.UU., si no está por escrito, no existe. Incluso las relaciones comerciales amistosas necesitan acuerdos firmados."
         },
         {
-          "badge": "$2,000–$20,000 in credibility damage",
-          "badgeEs": "$2,000–$20,000 en daño a credibilidad",
+          "badge": "$2,000, $20,000 in credibility damage",
+          "badgeEs": "$2,000, $20,000 en daño a credibilidad",
           "heading": "Over-Promising Timelines",
           "headingEs": "Prometer Plazos de Más",
           "desc": "Saying 'yes' to every deadline to be polite, then missing them. Americans plan around your committed dates.",
@@ -77,8 +77,8 @@
           "badgeEs": "$0 directo pero destruye relaciones",
           "heading": "Ignoring Small Talk",
           "headingEs": "Ignorar la Charla Casual",
-          "desc": "Skipping the 2–3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.",
-          "descEs": "Saltarse los 2–3 minutos de charla sobre clima/deportes/fin de semana antes de negocios. Los estadounidenses usan esto para generar confianza."
+          "desc": "Skipping the 2, 3 minutes of weather/sports/weekend chat before business. Americans use this to build trust.",
+          "descEs": "Saltarse los 2, 3 minutos de charla sobre clima/deportes/fin de semana antes de negocios. Los estadounidenses usan esto para generar confianza."
         },
         {
           "badge": "$0 direct but deal-slowing",
@@ -89,8 +89,8 @@
           "descEs": "Usar títulos excesivamente formales (Sr. Director, Dr.) cuando los estadounidenses usan nombres de pila, o ser demasiado casual muy pronto en industrias formales (derecho, finanzas)."
         },
         {
-          "badge": "$5,000–$25,000 in wasted preparation",
-          "badgeEs": "$5,000–$25,000 en preparación desperdiciada",
+          "badge": "$5,000, $25,000 in wasted preparation",
+          "badgeEs": "$5,000, $25,000 en preparación desperdiciada",
           "heading": "Assuming 'Sounds Great' Means Yes",
           "headingEs": "Asumir que 'Suena Genial' Significa Sí",
           "desc": "In U.S. business culture, 'Let me think about it' and 'Sounds interesting' usually mean NO. 'Let's do it' or a signed document means yes.",
@@ -222,7 +222,7 @@
       "id": "callout-6-3-latam",
       "variant": "latam-supplement",
       "title": "Latin America Focus: Cultural Bridge Resources",
-      "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Central Florida offers specific resources to help Latin American founders navigate U.S. business culture:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Networking events that bridge Latin American and U.S. business norms</li><li><strong>Prospera</strong>. Mentor matching program that pairs Latin American founders with bilingual U.S. business advisors</li><li><strong>SBDC Orlando</strong>. Bilingual business counseling sessions available</li><li><strong>CFITO trade delegations</strong>. Structured introductions to U.S. business contacts with cultural context built in</li></ul>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong>Country-of-origin business associations:</strong> The German-American Chamber, British-American Business Council, Indo-US Chamber, Japanese-American Society, and others run cultural-bridge programs and meetups in Orlando. They translate cultural nuances both ways.</li><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a> business etiquette workshops:</strong> Cross-cultural business communication training for founders from any region.</li></ul>"
+      "content": "<p class=\"rt-inclusive-note\"><em></em></p>\n\n<p>Central Florida offers specific resources to help Latin American founders navigate U.S. business culture:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Networking events that bridge Latin American and U.S. business norms</li><li><strong>Prospera</strong>. Mentor matching program that pairs Latin American founders with bilingual U.S. business advisors</li><li><strong>SBDC Orlando</strong>. Bilingual business counseling sessions available</li><li><strong>CFITO trade delegations</strong>. Structured introductions to U.S. business contacts with cultural context built in</li></ul>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong>Country-of-origin business associations:</strong> The German-American Chamber, British-American Business Council, Indo-US Chamber, Japanese-American Society, and others run cultural-bridge programs and meetups in Orlando. They translate cultural nuances both ways.</li><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a> business etiquette workshops:</strong> Cross-cultural business communication training for founders from any region.</li></ul>"
     },
     {
       "type": "knowledge-check",
@@ -231,7 +231,7 @@
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "A founder from Colombia meets a U.S. buyer at a conference. The buyer says, \"I love your product -- let's definitely partner on this!\" The entrepreneur is excited and considering hiring a lawyer to draft a partnership agreement. What should the founder do BEFORE spending any money?",
+          "stem": "A founder from Egypt meets a U.S. buyer at a conference. The buyer says, \"I love your product -- let's definitely partner on this!\" The entrepreneur is excited and considering hiring a lawyer to draft a partnership agreement. What should the founder do BEFORE spending any money?",
           "options": [
             "Immediately hire the lawyer because the American clearly committed to a partnership",
             "Wait two weeks for the American to send a formal partnership proposal since they expressed interest first",

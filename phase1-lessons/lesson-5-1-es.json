@@ -38,7 +38,7 @@
       "tabs": [
         {
           "label": "Precios",
-          "content": "**Expectativas en EE.UU.:** Se prefieren las suscripciones mensuales sobre las anuales. Se esperan pruebas gratuitas (mínimo 7–14 días).\n\n**Errores comunes:** Fijar precios en su moneda de origen, no contar con el impuesto sobre las ventas de EE.UU., subvalorar para 'entrar'.\n\n**Acción:** Investigue 3 competidores en EE.UU. y posicione su precio dentro del 20% del promedio del mercado."
+          "content": "**Expectativas en EE.UU.:** Se prefieren las suscripciones mensuales sobre las anuales. Se esperan pruebas gratuitas (mínimo 7, 14 días).\n\n**Errores comunes:** Fijar precios en su moneda de origen, no contar con el impuesto sobre las ventas de EE.UU., subvalorar para 'entrar'.\n\n**Acción:** Investigue 3 competidores en EE.UU. y posicione su precio dentro del 20% del promedio del mercado."
         },
         {
           "label": "Posicionamiento",
@@ -75,7 +75,7 @@
       "type": "scenario",
       "id": "scenario-5-1-pricing",
       "title": "Su Precio Es Demasiado Bajo: ¿Qué Hace?",
-      "description": "Su producto SaaS cuesta $15 al mes en América Latina. Un prospecto en EE.UU. dice: 'A ese precio, asumiría que no incluye funciones de cumplimiento.' Sus competidores en EE.UU. cobran $45–$65 al mes. ¿Cuál es su movimiento?",
+      "description": "Su producto SaaS cuesta $15 al mes en América Latina. Un prospecto en EE.UU. dice: 'A ese precio, asumiría que no incluye funciones de cumplimiento.' Sus competidores en EE.UU. cobran $45, $65 al mes. ¿Cuál es su movimiento?",
       "paths": [
         {
           "label": "Mantener el precio de $15: es su ventaja competitiva",
@@ -106,7 +106,7 @@
       "id": "callout-5-1-wm",
       "variant": "watch-money-costs",
       "title": "Cuide Su Dinero: Lo Que Realmente Cuesta la Entrada al Mercado",
-      "content": "<p>A inicios de 2026, presupueste estos costos de entrada al mercado:</p>\n\n<ul><li><strong>Investigación de mercado en EE.UU.:</strong> $2,000–$10,000 tercerizada; gratis a través de networking y contacto en frío</li><li><strong>Localización del producto (más allá de la traducción):</strong> $5,000–$25,000: cumplimiento regulatorio, integración de pagos, cambios de UI/UX</li><li><strong>Marketing digital (SEO, anuncios pagados):</strong> $2,000–$5,000 al mes</li><li><strong>Sitio web y materiales de venta para EE.UU.:</strong> $3,000–$15,000</li><li><strong>Ferias comerciales (B2B):</strong> $3,000–$10,000 por evento</li></ul>\n\n<p>Uno de los mayores costos es el tiempo gastado vendiendo a clientes que no encajan. Gaste dinero en investigación antes que en marketing.</p>"
+      "content": "<p>A inicios de 2026, presupueste estos costos de entrada al mercado:</p>\n\n<ul><li><strong>Investigación de mercado en EE.UU.:</strong> $2,000, $10,000 tercerizada; gratis a través de networking y contacto en frío</li><li><strong>Localización del producto (más allá de la traducción):</strong> $5,000, $25,000: cumplimiento regulatorio, integración de pagos, cambios de UI/UX</li><li><strong>Marketing digital (SEO, anuncios pagados):</strong> $2,000, $5,000 al mes</li><li><strong>Sitio web y materiales de venta para EE.UU.:</strong> $3,000, $15,000</li><li><strong>Ferias comerciales (B2B):</strong> $3,000, $10,000 por evento</li></ul>\n\n<p>Uno de los mayores costos es el tiempo gastado vendiendo a clientes que no encajan. Gaste dinero en investigación antes que en marketing.</p>"
     },
     {
       "type": "knowledge-check",
@@ -123,7 +123,7 @@
             "Los clientes en EE.UU. ven el precio bajo como una señal de calidad y no pueden contactar al soporte durante su horario comercial"
           ],
           "correctAnswer": 3,
-          "explanation": "Dos de las cinco áreas comunes de adaptación probablemente están fallando aquí. El precio ($8 al mes) puede percibirse como demasiado bajo en un mercado donde los competidores cobran $20–$40, lo que señala un producto básico o poco confiable. Y la falta de soporte en horario de EE.UU. significa que los clientes estadounidenses no pueden obtener ayuda cuando la necesitan. Solucionar estos dos problemas, ajustar los precios a las normas competitivas de EE.UU. y proporcionar soporte en zona horaria de EE.UU., probablemente tendría más impacto que aumentar la publicidad."
+          "explanation": "Dos de las cinco áreas comunes de adaptación probablemente están fallando aquí. El precio ($8 al mes) puede percibirse como demasiado bajo en un mercado donde los competidores cobran $20, $40, lo que señala un producto básico o poco confiable. Y la falta de soporte en horario de EE.UU. significa que los clientes estadounidenses no pueden obtener ayuda cuando la necesitan. Solucionar estos dos problemas, ajustar los precios a las normas competitivas de EE.UU. y proporcionar soporte en zona horaria de EE.UU., probablemente tendría más impacto que aumentar la publicidad."
         },
         {
           "stem": "Una exitosa aplicación de entrega de comida de México quiere expandirse al mercado de EE.UU. Su aplicación funciona bien en español, y planean traducirla al inglés y lanzar al mismo precio ($3.99 al mes) que cobran en México. No tienen soporte al cliente con sede en EE.UU. ¿Qué área de adaptación deberían abordar PRIMERO para evitar la barrera más inmediata para las ventas en EE.UU.?",
@@ -140,12 +140,12 @@
           "stem": "Una fundadora de Corea del Sur construyó una herramienta de monitoreo de ciberseguridad que domina el mercado coreano a ₩15,000 al mes (alrededor de $11 USD). Para el lanzamiento en EE.UU., contrata a una firma profesional de traducción, convierte el precio a $11 al mes y configura una página de aterrizaje. Después de dos meses, las inscripciones a la prueba gratuita son decentes pero casi nadie convierte a pagado. Los prospectos en EE.UU. siguen preguntando: \"¿Cuál es la trampa?\" ¿Qué debería cambiar primero?",
           "options": [
             "Agregar más funciones para justificar el precio, ya que el mercado de EE.UU. espera un producto más grande",
-            "Reposicionar los precios para que coincidan con los niveles de los competidores en EE.UU. ($25–$45 al mes) y replantear la propuesta de valor en torno a resultados específicos como la reducción del tiempo de respuesta a violaciones",
+            "Reposicionar los precios para que coincidan con los niveles de los competidores en EE.UU. ($25, $45 al mes) y replantear la propuesta de valor en torno a resultados específicos como la reducción del tiempo de respuesta a violaciones",
             "Mantener el precio de $11 pero agregar un nivel empresarial premium a $50 al mes para empresas más grandes",
             "Eliminar la prueba gratuita ya que hace que el producto parezca menos serio para los compradores estadounidenses"
           ],
           "correctAnswer": 1,
-          "explanation": "El problema central es que los compradores en EE.UU. asocian los precios bajos con baja calidad: $11 al mes en un mercado donde los competidores cobran $25–$45 señala que algo falta. La traducción por sí sola no es adaptación. Necesita reajustar los precios a las normas competitivas de EE.UU. y reposicionarse en torno a una propuesta de valor específica y medible (como \"reduce el tiempo de respuesta a violaciones de 4 horas a 20 minutos\") en lugar de afirmaciones genéricas. El producto puede no necesitar cambiar en absoluto; los precios y el posicionamiento a su alrededor sí."
+          "explanation": "El problema central es que los compradores en EE.UU. asocian los precios bajos con baja calidad: $11 al mes en un mercado donde los competidores cobran $25, $45 señala que algo falta. La traducción por sí sola no es adaptación. Necesita reajustar los precios a las normas competitivas de EE.UU. y reposicionarse en torno a una propuesta de valor específica y medible (como \"reduce el tiempo de respuesta a violaciones de 4 horas a 20 minutos\") en lugar de afirmaciones genéricas. El producto puede no necesitar cambiar en absoluto; los precios y el posicionamiento a su alrededor sí."
         }
       ]
     },

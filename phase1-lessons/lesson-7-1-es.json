@@ -21,7 +21,7 @@
       "type": "text",
       "id": "text-7-1-2",
       "title": "La Ayuda Gratuita Está Más Cerca de Lo Que Cree",
-      "content": "<p>Un empresario de Colombia gastó $4,500 en un consultor privado para ayudarle a navegar la constitución empresarial en EE.UU., y luego descubrió que el Centro de Desarrollo de Pequeñas Empresas en UCF ofrece la misma orientación de forma gratuita. Central Florida tiene varias organizaciones específicamente diseñadas para ayudar a fundadores internacionales, y la mayoría no cuestan nada.</p>\n\n<p>Aquí están las cinco que debería conocer. Cada una sirve a un propósito distinto; explore el directorio a continuación para encontrar el encaje correcto para donde está en este momento.</p>",
+      "content": "<p>Un empresario de Vietnam gastó $4,500 en un consultor privado para ayudarle a navegar la constitución empresarial en EE.UU., y luego descubrió que el Centro de Desarrollo de Pequeñas Empresas en UCF ofrece la misma orientación de forma gratuita. Central Florida tiene varias organizaciones específicamente diseñadas para ayudar a fundadores internacionales, y la mayoría no cuestan nada.</p>\n\n<p>Aquí están las cinco que debería conocer. Cada una sirve a un propósito distinto; explore el directorio a continuación para encontrar el encaje correcto para donde está en este momento.</p>",
       "wordCount": 242
     },
     {
@@ -115,7 +115,7 @@
       "id": "callout-7-1-wm",
       "variant": "watch-money-costs",
       "title": "Cuide Su Dinero: Lo Que Realmente Cuesta Esto",
-      "content": "<p>Costos de las organizaciones de apoyo a inicios de 2026:</p>\n\n<ul><li><strong>Asesoría empresarial del SBDC:</strong> Gratis (sesiones ilimitadas)</li><li><strong>Talleres del SBDC:</strong> Gratis a $50 por sesión</li><li><strong>Recursos y guías de SBA.gov:</strong> Gratis</li><li><strong>Consulta del Orlando Economic Partnership:</strong> Gratis</li><li><strong>Membresía de cámara de comercio:</strong> $200–$500 al año</li><li><strong>Mentoría de SCORE:</strong> Gratis (mentores empresariales voluntarios)</li><li><strong>Programas de Prospera:</strong> Gratis a bajo costo</li></ul>\n\n<p><strong>Compare eso con la ayuda privada:</strong> $150–$350 por hora por un consultor de negocios, o $3,000–$10,000 por una estrategia de entrada al mercado que el SBDC desarrolla con usted sin costo. Verifique siempre las opciones gratuitas primero.</p>"
+      "content": "<p>Costos de las organizaciones de apoyo a inicios de 2026:</p>\n\n<ul><li><strong>Asesoría empresarial del SBDC:</strong> Gratis (sesiones ilimitadas)</li><li><strong>Talleres del SBDC:</strong> Gratis a $50 por sesión</li><li><strong>Recursos y guías de SBA.gov:</strong> Gratis</li><li><strong>Consulta del Orlando Economic Partnership:</strong> Gratis</li><li><strong>Membresía de cámara de comercio:</strong> $200, $500 al año</li><li><strong>Mentoría de SCORE:</strong> Gratis (mentores empresariales voluntarios)</li><li><strong>Programas de Prospera:</strong> Gratis a bajo costo</li></ul>\n\n<p><strong>Compare eso con la ayuda privada:</strong> $150, $350 por hora por un consultor de negocios, o $3,000, $10,000 por una estrategia de entrada al mercado que el SBDC desarrolla con usted sin costo. Verifique siempre las opciones gratuitas primero.</p>"
     },
     {
       "type": "callout",
@@ -150,7 +150,7 @@
             "Programar una cita gratuita con el Florida SBDC en UCF"
           ],
           "correctAnswer": 3,
-          "explanation": "El SBDC debería ser su primera parada para apoyo en investigación de mercado y planificación empresarial. Sus asesores proporcionan exactamente este servicio sin costo. Contratar a un consultor para el mismo trabajo podría costar $3,000–$10,000. Verifique siempre los recursos gratuitos antes de pagar por ayuda privada."
+          "explanation": "El SBDC debería ser su primera parada para apoyo en investigación de mercado y planificación empresarial. Sus asesores proporcionan exactamente este servicio sin costo. Contratar a un consultor para el mismo trabajo podría costar $3,000, $10,000. Verifique siempre los recursos gratuitos antes de pagar por ayuda privada."
         },
         {
           "stem": "Una emprendedora de Perú acaba de llegar a Central Florida. Necesita ayuda con investigación de mercado, un plan de negocios y conexiones con clientes potenciales. Tiene $8,000 reservados para honorarios de consultoría. Con base en cómo funciona el ecosistema de apoyo, ¿qué debería esperar al interactuar con estas organizaciones?",
@@ -161,7 +161,7 @@
             "Estas organizaciones solo atienden a ciudadanos estadounidenses, así que tendrá que contratar a un consultor privado en su lugar"
           ],
           "correctAnswer": 2,
-          "explanation": "El ecosistema de apoyo está interconectado pero cada organización cumple un rol distinto. El SBDC proporciona asesoría empresarial gratuita e ilimitada que incluye investigación de mercado y planes de negocios. SCORE ofrece mentoría gratuita de ejecutivos experimentados. Las cámaras de comercio ofrecen networking por una modesta cuota anual ($200–$500). Estos servicios están disponibles para fundadores internacionales sin importar el estatus de ciudadanía. Los $8,000 que presupuestó para consultoría podrían redirigirse a operaciones reales del negocio."
+          "explanation": "El ecosistema de apoyo está interconectado pero cada organización cumple un rol distinto. El SBDC proporciona asesoría empresarial gratuita e ilimitada que incluye investigación de mercado y planes de negocios. SCORE ofrece mentoría de ejecutivos experimentados. Las cámaras de comercio ofrecen networking por una modesta cuota anual ($200, $500). Estos servicios están disponibles para fundadores internacionales sin importar el estatus de ciudadanía. Los $8,000 que presupuestó para consultoría podrían redirigirse a operaciones reales del negocio."
         }
       ]
     },

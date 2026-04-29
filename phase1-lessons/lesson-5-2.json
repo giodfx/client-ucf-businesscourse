@@ -35,7 +35,7 @@
       "type": "text",
       "id": "text-5-2-2",
       "title": "The U.S. Sales Cycle: Faster and More Direct Than You Expect",
-      "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 2–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
+      "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24, 48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1, 2 weeks. $10K, $100K in 4, 8 weeks. $100K+ in 2, 6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
       "wordCount": 83
     },
     {
@@ -57,7 +57,7 @@
         },
         {
           "label": "Key Insight",
-          "content": "U.S. B2B sales cycles are longer than many international founders expect.\n\n**Typical timeline:**\n- Initial contact → Quote: 1–3 days\n- Evaluation period: 2–6 weeks\n- Procurement/legal review: 2–4 weeks\n- Decision: 1–2 weeks\n\n**Total: 6–12 weeks** for mid-market deals. Enterprise can take 6+ months."
+          "content": "U.S. B2B sales cycles are longer than many international founders expect.\n\n**Typical timeline:**\n- Initial contact → Quote: 1, 3 days\n- Evaluation period: 2, 6 weeks\n- Procurement/legal review: 2, 4 weeks\n- Decision: 1, 2 weeks\n\n**Total: 6, 12 weeks** for mid-market deals. Enterprise can take 6+ months."
         }
       ]
     },
@@ -91,7 +91,7 @@
           "label": "W-9 form completed with your EIN (required by any U.S. company paying you $600+/year)"
         },
         {
-          "label": "General liability insurance policy active ($500–$2,000/year)"
+          "label": "General liability insurance policy active ($500, $2,000/year)"
         },
         {
           "label": "Certificate of Insurance (COI) ready to send on request"
@@ -138,10 +138,10 @@
           "explanation": "U.S. companies with formal procurement processes typically require a W-9 (tax identification), certificate of insurance (proof of liability coverage), and registration in their vendor system before they can issue payment. Having these documents ready in advance prevents delays that can stall or kill the deal."
         },
         {
-          "stem": "A B2B software founder from Brazil collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?",
+          "stem": "A B2B software founder from Spain collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?",
           "options": [
             "Both founders will have equal success because the product quality matters more than follow-up speed",
-            "The Brazilian founder will have an advantage because waiting shows patience and professionalism",
+            "The Spanish founder will have an advantage because waiting shows patience and professionalism",
             "The competitor will close significantly more deals because U.S. buyers move forward with whoever responds fastest",
             "Neither will close deals because trade show leads rarely convert to sales"
           ],

@@ -14,7 +14,7 @@
       "type": "text",
       "id": "text-4-3-1",
       "title": "Nómina, Impuestos y el Costo Real de Cada Miembro del Equipo",
-      "content": "<p>Comprende los requisitos de visa. Ahora vea lo que realmente cuesta mantener un equipo en funcionamiento. El salario es solo el punto de partida. El costo real incluye impuestos sobre la nómina, seguros requeridos y beneficios opcionales pero a menudo esperados, y se acumulan rápidamente.</p>\n\n<p>¿Cuánto le cuesta realmente un empleado de $55,000? Si adivinó $55,000, ya le faltan $11,000. Una fundadora mexicana contrató a su primera empleada en Orlando por $55,000 y luego descubrió que el costo real era cercano a $66,000 una vez que los impuestos del empleador, la compensación al trabajador y un estipendio de seguro de salud agregaron aproximadamente un 20%.</p>\n\n<p>En muchos países, los costos del empleador son una sola tasa. En EE.UU., tiene varias obligaciones: <strong>FICA del empleador</strong> (Seguro Social + Medicare) al 7.65%. <strong>FUTA</strong> a aproximadamente $420 por empleado al año. <strong>SUTA de Florida</strong> a $18–$378 al año. <strong>Compensación al trabajador</strong>, requerida en Florida con 4+ empleados, a $500–$2,000 al año para trabajo de oficina.</p>",
+      "content": "<p>Comprende los requisitos de visa. Ahora vea lo que realmente cuesta mantener un equipo en funcionamiento. El salario es solo el punto de partida. El costo real incluye impuestos sobre la nómina, seguros requeridos y beneficios opcionales pero a menudo esperados, y se acumulan rápidamente.</p>\n\n<p>¿Cuánto le cuesta realmente un empleado de $55,000? Si adivinó $55,000, ya le faltan $11,000. Una fundadora mexicana contrató a su primera empleada en Orlando por $55,000 y luego descubrió que el costo real era cercano a $66,000 una vez que los impuestos del empleador, la compensación al trabajador y un estipendio de seguro de salud agregaron aproximadamente un 20%.</p>\n\n<p>En muchos países, los costos del empleador son una sola tasa. En EE.UU., tiene varias obligaciones: <strong>FICA del empleador</strong> (Seguro Social + Medicare) al 7.65%. <strong>FUTA</strong> a aproximadamente $420 por empleado al año. <strong>SUTA de Florida</strong> a $18, $378 al año. <strong>Compensación al trabajador</strong>, requerida en Florida con 4+ empleados, a $500, $2,000 al año para trabajo de oficina.</p>",
       "wordCount": 186
     },
     {
@@ -41,27 +41,27 @@
           [
             "Desempleo Estatal de Florida (SUTA)",
             "Varía según el historial del empleador",
-            "$18–$378 al año (nuevo empleador)"
+            "$18, $378 al año (nuevo empleador)"
           ],
           [
             "Seguro de Compensación al Trabajador",
             "Varía según el riesgo de la industria",
-            "$500–$2,000 al año (trabajo de oficina)"
+            "$500, $2,000 al año (trabajo de oficina)"
           ],
           [
             "Seguro de Salud (opcional pero esperado)",
             "Aporte del empleador si se ofrece",
-            "$3,000–$7,000 al año por empleado"
+            "$3,000, $7,000 al año por empleado"
           ],
           [
             "Costos Generales Totales (sin seguro de salud)",
-            "~12–15% por encima del salario",
-            "$65,500–$67,400 al año"
+            "~12, 15% por encima del salario",
+            "$65,500, $67,400 al año"
           ],
           [
             "Costos Generales Totales (con seguro de salud)",
-            "~20–30% por encima del salario",
-            "$68,500–$74,400 al año"
+            "~20, 30% por encima del salario",
+            "$68,500, $74,400 al año"
           ]
         ]
       },
@@ -219,7 +219,7 @@
       "type": "text",
       "id": "text-4-3-3",
       "title": "Lo Que los Empleados de EE.UU. Esperan Más Allá del Cheque de Pago",
-      "content": "<p>Las reglas legales son el piso. Los empleadores en EE.UU. compiten por el talento a través de los beneficios: PTO, horarios flexibles, cobertura de salud. Los beneficios son cómo evita que las personas se vayan a un competidor. Si no los ofrece, los candidatos calificados eligen a un competidor que sí los ofrece.</p>\n\n<p>El <strong>tiempo libre pagado (PTO)</strong> no está exigido a nivel federal, pero la mayoría de los empleadores ofrecen 10–15 días al año. Florida no exige <strong>licencia por enfermedad</strong> pagada, pero 3–5 días es lo estándar.</p>\n\n<p>El <strong>seguro de salud</strong> no es requerido para negocios con menos de 50 empleados, pero los candidatos a menudo preguntan al respecto en entrevistas. Considere un estipendio ($200–$500 al mes) si aún no puede ofrecer cobertura grupal.</p>\n\n<p>Los <strong>beneficios de retiro</strong> (401k) no se esperan en las etapas iniciales. Otros beneficios valorados incluyen arreglos de trabajo flexibles y presupuestos para desarrollo profesional.</p>",
+      "content": "<p>Las reglas legales son el piso. Los empleadores en EE.UU. compiten por el talento a través de los beneficios: PTO, horarios flexibles, cobertura de salud. Los beneficios son cómo evita que las personas se vayan a un competidor. Si no los ofrece, los candidatos calificados eligen a un competidor que sí los ofrece.</p>\n\n<p>El <strong>tiempo libre pagado (PTO)</strong> no está exigido a nivel federal, pero la mayoría de los empleadores ofrecen 10, 15 días al año. Florida no exige <strong>licencia por enfermedad</strong> pagada, pero 3, 5 días es lo estándar.</p>\n\n<p>El <strong>seguro de salud</strong> no es requerido para negocios con menos de 50 empleados, pero los candidatos a menudo preguntan al respecto en entrevistas. Considere un estipendio ($200, $500 al mes) si aún no puede ofrecer cobertura grupal.</p>\n\n<p>Los <strong>beneficios de retiro</strong> (401k) no se esperan en las etapas iniciales. Otros beneficios valorados incluyen arreglos de trabajo flexibles y presupuestos para desarrollo profesional.</p>",
       "wordCount": 115
     },
     {
@@ -240,11 +240,11 @@
           "options": [
             "$50,000; el salario es el único costo",
             "$52,500; agregar 5% por impuestos",
-            "$57,500–$65,000; salario más impuestos del empleador, seguros y posibles beneficios",
-            "$75,000–$100,000; el empleo en EE.UU. es extremadamente caro"
+            "$57,500, $65,000; salario más impuestos del empleador, seguros y posibles beneficios",
+            "$75,000, $100,000; el empleo en EE.UU. es extremadamente caro"
           ],
           "correctAnswer": 2,
-          "explanation": "El multiplicador de costo del empleador de 1.15 a 1.30 considera los impuestos FICA del empleador (7.65%), los impuestos federales y estatales de desempleo, el seguro de compensación al trabajador y los beneficios opcionales. Sobre un salario de $50,000, esto significa $57,500–$65,000 en costo anual total. La cifra exacta depende de su industria, estado y paquete de beneficios."
+          "explanation": "El multiplicador de costo del empleador de 1.15 a 1.30 considera los impuestos FICA del empleador (7.65%), los impuestos federales y estatales de desempleo, el seguro de compensación al trabajador y los beneficios opcionales. Sobre un salario de $50,000, esto significa $57,500, $65,000 en costo anual total. La cifra exacta depende de su industria, estado y paquete de beneficios."
         },
         {
           "stem": "Una empresaria ha estado calculando manualmente la nómina para sus tres empleados usando hojas de cálculo. Presentó sus formularios 941 trimestrales con dos semanas de retraso. ¿Cuál es la consecuencia más probable?",
@@ -255,7 +255,7 @@
             "Revocación automática del EIN y la licencia comercial de la empresa"
           ],
           "correctAnswer": 1,
-          "explanation": "El IRS impone multas e intereses por presentaciones tardías de impuestos sobre la nómina. No hay un período de gracia ni una exención para infractores primerizos para los impuestos sobre la nómina. Los impuestos sobre la nómina no pagados se tratan como multas por recuperación de fondos fiduciarios, lo que significa que la fundadora puede ser personalmente responsable. Un servicio de nómina como Gusto o QuickBooks Payroll ($40–$100 al mes) automatiza las presentaciones y previene estos errores costosos."
+          "explanation": "El IRS impone multas e intereses por presentaciones tardías de impuestos sobre la nómina. No hay un período de gracia ni una exención para infractores primerizos para los impuestos sobre la nómina. Los impuestos sobre la nómina no pagados se tratan como multas por recuperación de fondos fiduciarios, lo que significa que la fundadora puede ser personalmente responsable. Un servicio de nómina como Gusto o QuickBooks Payroll ($40, $100 al mes) automatiza las presentaciones y previene estos errores costosos."
         },
         {
           "stem": "Una fundadora de Filipinas contrata a su quinta empleada en su oficina de Orlando. Ya tiene un servicio de nómina, retiene impuestos federales y estatales y paga FICA del empleador. Su contadora le pregunta si tiene compensación al trabajador y seguro de desempleo en su lugar. ¿Qué afirmación es correcta sobre sus obligaciones?",

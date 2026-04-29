@@ -101,7 +101,7 @@
       <track kind="captions" srclang="en" label="No audio (decorative)" src="data:text/vtt,WEBVTT%0A%0A">
     </video>
 
-    <!-- Chrome bar — course title + settings gear -->
+    <!-- Chrome bar, course title + settings gear -->
     <div class="vd-layer vd-layer-chrome">
       <div class="vd-chrome-bar">
         <span class="vd-course-badge" data-es="Preparación para el Mercado de EE.UU.">U.S. Market Readiness Program</span>
@@ -143,7 +143,7 @@
       </div>
     </div>
 
-    <!-- DESTINATIONS button — anchored to car dashboard screen -->
+    <!-- DESTINATIONS button, anchored to car dashboard screen -->
     <div class="vd-layer vd-layer-ui" id="layerUi">
       <button type="button" class="vd-btn-nav" id="btnNav" aria-label="Open course destinations">
         <svg class="vd-btn-nav-icon" viewBox="0 0 24 24" width="32" height="32" fill="none" aria-hidden="true">
@@ -348,7 +348,7 @@
     // Track current selected language (used by Continue/Skip handlers)
     var selectedLang = 'en';
 
-    // If already onboarded, hide gate + show stage — but DO NOT early-return,
+    // If already onboarded, hide gate + show stage, but DO NOT early-return,
     // we still need to define obGoStep / obSelectLang / obToggleAcknowledge / obFinishOnboarding
     // so the "Rewatch Intro Video" / "Disclaimer" buttons in settings can re-open the modal.
     var progress = getProgress();
