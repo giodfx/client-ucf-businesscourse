@@ -155,7 +155,8 @@
     <div class="rt-sim-field">
       <label class="rt-sim-label" for="sim-profit" data-es="Ganancia Neta Anual">Annual Net Profit</label>
       <div class="rt-sim-slider-row">
-        <input class="rt-sim-slider" id="sim-profit-slider" type="range" min="20000" max="500000" step="5000" value="100000" oninput="document.getElementById('sim-profit').value=this.value;document.getElementById('sim-profit-display').textContent='$'+Math.round(this.value/1000)+'K';simCalcTax('sim-tax-entity')">
+        <label for="sim-profit-slider" class="sr-only" data-es="Control deslizante de ganancia anual">Annual profit slider</label>
+        <input class="rt-sim-slider" id="sim-profit-slider" type="range" min="20000" max="500000" step="5000" value="100000" oninput="document.getElementById('sim-profit').value=this.value;document.getElementById('sim-profit-display').textContent='$'+Math.round(this.value/1000)+'K';simCalcTax('sim-tax-entity')" aria-label="Annual net profit">
         <span class="rt-sim-slider-val" id="sim-profit-display">$100K</span>
       </div>
       <input class="rt-sim-input" id="sim-profit" type="number" value="100000" min="20000" max="500000" step="5000" oninput="document.getElementById('sim-profit-slider').value=this.value;document.getElementById('sim-profit-display').textContent='$'+Math.round(this.value/1000)+'K';simCalcTax('sim-tax-entity')" style="margin-top:4px;">

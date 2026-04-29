@@ -8,15 +8,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/accessibility.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/video-dashboard.css">
 </head>
 <body data-total-modules="9" data-total-lessons="25">
-  <a href="#dest-heading" class="vd-skip-link">Skip to navigation</a>
+  <a href="#dest-heading" class="vd-skip-link">Skip to main content</a>
 
   <!-- ============ ONBOARDING GATE ============ -->
   <div class="ob-gate" id="obGate" role="dialog" aria-label="Course onboarding" aria-modal="true">
     <video class="ob-bg-video" autoplay muted loop playsinline aria-hidden="true">
       <source src="video/default.mp4" type="video/mp4">
+      <track kind="captions" srclang="en" label="No audio (decorative)" src="data:text/vtt,WEBVTT%0A%0A">
     </video>
     <div class="ob-overlay" aria-hidden="true"></div>
 
@@ -74,8 +78,8 @@
           <p>This program is provided for <strong>educational and informational purposes only</strong>. It does not constitute legal, financial, tax, or immigration advice.</p>
           <p>Always consult qualified professionals for decisions specific to your situation. The University of Central Florida and program authors are not liable for actions taken based on this content.</p>
         </div>
-        <label class="ob-checkbox-wrap" id="obCheckWrap">
-          <input type="checkbox" id="obAgreeCheck" onchange="obToggleAcknowledge()">
+        <label class="ob-checkbox-wrap" id="obCheckWrap" for="obAgreeCheck">
+          <input type="checkbox" id="obAgreeCheck" onchange="obToggleAcknowledge()" aria-label="I have read and understand this disclaimer">
           <span class="ob-checkmark"></span>
           <span id="obAgreeLabel">I have read and understand this disclaimer</span>
         </label>
@@ -90,10 +94,12 @@
   <div class="vd-stage" id="stage" style="display:none">
 
     <!-- Looping car video background -->
-    <video class="vd-layer vd-layer-video" id="sceneVideo"
+    <video class="vd-layer vd-layer-video" id="sceneVideo" aria-hidden="true"
            src="video/default.mp4"
            data-anchor-x="0.54" data-anchor-y="0.69"
-           preload="auto" autoplay muted loop playsinline></video>
+           preload="auto" autoplay muted loop playsinline>
+      <track kind="captions" srclang="en" label="No audio (decorative)" src="data:text/vtt,WEBVTT%0A%0A">
+    </video>
 
     <!-- Chrome bar — course title + settings gear -->
     <div class="vd-layer vd-layer-chrome">
@@ -149,7 +155,7 @@
 
         <header class="vd-panel-header">
           <div class="vd-panel-header-text">
-            <h1 id="dest-heading" class="vd-panel-title" data-es="Seleccione Su Destino">Select Your Destination</h1>
+            <h2 id="dest-heading" class="vd-panel-title" data-es="Seleccione Su Destino">Select Your Destination</h2>
             <p class="vd-panel-subtitle" data-es="Programa de Preparación para el Mercado de EE.UU.">U.S. Market Readiness Program</p>
           </div>
           <button type="button" class="vd-panel-close" id="btnClose" aria-label="Close navigation">
@@ -308,7 +314,9 @@
 
     <!-- Transition video layer (plays before navigating to module) -->
     <div class="vd-transition" id="vdTransition" aria-hidden="true">
-      <video class="vd-transition-video" id="vdTransitionVideo" preload="auto" playsinline></video>
+      <video class="vd-transition-video" id="vdTransitionVideo" aria-hidden="true" preload="auto" playsinline>
+        <track kind="captions" srclang="en" label="No audio (decorative)" src="data:text/vtt,WEBVTT%0A%0A">
+      </video>
     </div>
 
   </div>

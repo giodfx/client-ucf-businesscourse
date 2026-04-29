@@ -103,7 +103,7 @@
       "id": "dataviz-7-3a",
       "title": "Cómo Se Compara Central Florida: Comparación de Costos",
       "chartType": "grouped-bar",
-      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 780px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Cómo Se Compara Central Florida: Comparación de Costos</h3><p style=\"margin: 0 0 18px 0; font-size: 0.85rem; color: #666;\">5 ciudades en métricas clave de costo (menor es mejor)</p><div style=\"display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;\"><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Central FL</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Miami</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>NYC</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #D4622B; border-radius: 2px; display: inline-block;\"></span>Silicon Valley</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #48B07A; border-radius: 2px; display: inline-block;\"></span>Austin</span></div><div style=\"margin-top: 18px; background: #FFF8E7; border-left: 4px solid #E8A838; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem;\">El Índice de Costo de Vida de Central Florida de <strong>98</strong> (cerca del promedio nacional) significa que su capital de startup se estira más.</div><div style=\"margin-top: 10px; background: #1A3A5C; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; text-align: center;\">Un <strong>fondo semilla de $500K</strong> dura 10 meses en Silicon Valley vs. <strong>16–17 meses</strong> en Central Florida.</div></div>",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 780px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Cómo Se Compara Central Florida: Comparación de Costos</h3><p style=\"margin: 0 0 18px 0; font-size: 0.85rem; color: #666;\">5 ciudades en métricas clave de costo (menor es mejor)</p><div style=\"display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;\"><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #8B5A0A; border-radius: 2px; display: inline-block;\"></span>Central FL</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Miami</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>NYC</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #9C3D14; border-radius: 2px; display: inline-block;\"></span>Silicon Valley</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1B6B40; border-radius: 2px; display: inline-block;\"></span>Austin</span></div><div style=\"margin-top: 18px; background: #FFF8E7; border-left: 4px solid #8B5A0A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem;\">El Índice de Costo de Vida de Central Florida de <strong>98</strong> (cerca del promedio nacional) significa que su capital de startup se estira más.</div><div style=\"margin-top: 10px; background: #1A3A5C; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; text-align: center;\">Un <strong>fondo semilla de $500K</strong> dura 10 meses en Silicon Valley vs. <strong>16–17 meses</strong> en Central Florida.</div></div>",
       "data": {
         "categories": [
           "Espacio de Oficina ($/pie²/año)",
@@ -115,7 +115,7 @@
         "cities": [
           {
             "label": "Central Florida",
-            "color": "#E8A838",
+            "color": "#8B5A0A",
             "values": [
               30,
               300,
@@ -149,7 +149,7 @@
           },
           {
             "label": "Silicon Valley",
-            "color": "#D4622B",
+            "color": "#9C3D14",
             "values": [
               65,
               550,
@@ -160,7 +160,7 @@
           },
           {
             "label": "Austin",
-            "color": "#48B07A",
+            "color": "#1B6B40",
             "values": [
               48,
               400,
@@ -267,7 +267,7 @@
             "metric": "Impacto económico turístico de $92.5B",
             "value": 92,
             "growth": "estable",
-            "color": "#E8A838"
+            "color": "#8B5A0A"
           },
           {
             "label": "Simulación y Capacitación",
@@ -288,14 +288,14 @@
             "metric": "Más de 90K empleados de salud",
             "value": 90,
             "growth": "expandiéndose",
-            "color": "#48B07A"
+            "color": "#1B6B40"
           },
           {
             "label": "Tecnología y Fintech",
             "metric": "~2x más rápido que el promedio de EE.UU. (21% vs 11%, 2019-24)",
             "value": 34,
             "growth": "fuerte",
-            "color": "#D4622B"
+            "color": "#9C3D14"
           },
           {
             "label": "AgTech",
