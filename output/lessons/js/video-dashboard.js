@@ -425,7 +425,56 @@
     });
   }
 
-  // Run on load
-  updateCardProgress();
+  // ─── LMS Progress Hydration ───
+  // When the dashboard is loaded inside the LearningPlatform (URL path
+  // matches /api/courses/<id>/asset/...), fetch the server-side progress
+  // from /api/courses/<id>/native-content and merge into the local
+  // 'rt-progress' key BEFORE the dashboard renders tile completion.
+  // This makes progress survive across devices, browsers, and incognito
+  // sessions — the lesson side writes progress to assessmentResults.courseProgress
+  // via PATCH on every visit (see roadtrip-lesson.js LMS bridge), and we
+  // read it back here on dashboard load.
+  //
+  // Standalone loads (visualizer review URL, file://) skip the fetch and
+  // use localStorage as before.
+  var lmsCourseIdMatch = window.location.pathname.match(/\/api\/courses\/([^/]+)\/asset\//);
+  var lmsCourseId = lmsCourseIdMatch ? lmsCourseIdMatch[1] : null;
+
+  function hydrateFromServer() {
+    if (!lmsCourseId) return Promise.resolve();
+    return fetch('/api/courses/' + lmsCourseId + '/native-content', {
+      credentials: 'same-origin'
+    })
+      .then(function(res) { return res.ok ? res.json() : null; })
+      .then(function(data) {
+        if (!data || !data.progress) return;
+        // The lesson side writes the full rt-progress blob to
+        // assessmentResults.courseProgress on every visit. That's
+        // authoritative — overwrite localStorage with it (well, merge:
+        // union the visited arrays so we don't lose offline edits).
+        var serverBlob = (data.progress.assessmentResults && data.progress.assessmentResults.courseProgress) || null;
+        if (!serverBlob) return;
+
+        var local = {};
+        try { local = JSON.parse(localStorage.getItem('rt-progress') || '{}'); } catch (e) {}
+        var localVisited = local.visited || [];
+        var serverVisited = serverBlob.visited || [];
+
+        // Union of visited lessons (server + any local-only)
+        var merged = serverVisited.slice();
+        localVisited.forEach(function(id) {
+          if (merged.indexOf(id) === -1) merged.push(id);
+        });
+
+        // Server fields win for everything else (language, lastVisited, etc.)
+        // except localStorage-only flags the lesson side hasn't sent yet.
+        var hydrated = Object.assign({}, local, serverBlob, { visited: merged });
+        try { localStorage.setItem('rt-progress', JSON.stringify(hydrated)); } catch (e) {}
+      })
+      .catch(function() { /* offline / 401 / 404 — silent fallback */ });
+  }
+
+  // Run on load — hydrate first, then render tile completion.
+  hydrateFromServer().then(updateCardProgress);
 
 })();

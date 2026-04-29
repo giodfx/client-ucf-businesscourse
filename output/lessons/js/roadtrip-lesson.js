@@ -275,7 +275,49 @@
     bar.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
   });
 
-  // Mark lesson visited
+  // ─── Lesson visit tracking + LMS Progress Bridge ───
+  // Single-page DLCS courses (UCF Business Course) wrap all lessons under
+  // one manifest node ('ucf-business-course'). The LMS native-progress
+  // endpoint operates on that manifest schema, so we CAN'T send lesson
+  // IDs as completedNodes (the player would fail to render).
+  //
+  //   1. Track visited lesson IDs locally (rt-progress.visited)
+  //   2. Compute a real progressMeasure = visited / totalLessons
+  //   3. Send to the LMS:
+  //      - progressMeasure (drives gradebook + student-dashboard %)
+  //      - assessmentResults.courseProgress = full rt-progress blob
+  //        (opaque — LMS doesn't validate; course re-hydrates from this)
+  //      - currentNodeId pinned to the manifest's only node so the
+  //        player keeps rendering correctly
+  //   4. Render sidebar checkmarks for visited lessons
+  //
+  // When loaded standalone (visualizer review URL, file://) the regex
+  // doesn't match and we fall back to localStorage-only behavior.
+  var TOTAL_LESSONS_FALLBACK = 25; // from blueprint; lesson body doesn't expose
+  var SINGLE_PAGE_MANIFEST_NODE = 'ucf-business-course';
+
+  function injectSidebarStyles() {
+    if (document.getElementById('rt-route-done-css')) return;
+    var s = document.createElement('style');
+    s.id = 'rt-route-done-css';
+    s.textContent =
+      '.rt-route-stop--done > a::before,' +
+      '.rt-route-stop--done .rt-route-link::before{content:"\\2713 ";color:#16a34a;font-weight:700;display:inline-block;}' +
+      '.rt-route-stop--done > a,.rt-route-stop--done .rt-route-link{color:#16a34a;}';
+    document.head.appendChild(s);
+  }
+
+  function renderSidebarProgress(visited) {
+    injectSidebarStyles();
+    var stops = document.querySelectorAll('.rt-route-stop[data-lesson-id]');
+    stops.forEach(function(stop) {
+      var stopId = stop.getAttribute('data-lesson-id');
+      if (visited.indexOf(stopId) !== -1) {
+        stop.classList.add('rt-route-stop--done');
+      }
+    });
+  }
+
   try {
     var lid = document.body.dataset.lessonId;
     if (lid) {
@@ -283,7 +325,33 @@
       var progress = JSON.parse(localStorage.getItem(key) || '{}');
       if (!progress.visited) progress.visited = [];
       if (progress.visited.indexOf(lid) === -1) progress.visited.push(lid);
+      progress.lastVisitedAt = new Date().toISOString();
+      progress.lastLessonId = lid;
       localStorage.setItem(key, JSON.stringify(progress));
+
+      renderSidebarProgress(progress.visited);
+
+      // Server sync — fire-and-forget. localStorage already updated.
+      var lmsMatch = window.location.pathname.match(/\/api\/courses\/([^/]+)\/asset\//);
+      if (lmsMatch) {
+        var courseId = lmsMatch[1];
+        var totalLessons = parseInt(document.body.dataset.totalLessons || '0', 10) || TOTAL_LESSONS_FALLBACK;
+        var measure = Math.min(1, Math.max(0, progress.visited.length / totalLessons));
+        fetch('/api/courses/' + courseId + '/native-progress', {
+          method: 'PATCH',
+          credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            // Pin to the manifest's only node — never send lesson IDs as
+            // currentNodeId or completedNodes for single-page courses.
+            currentNodeId: SINGLE_PAGE_MANIFEST_NODE,
+            progressMeasure: measure,
+            // Opaque blob — the LMS stores it as JSON without validation.
+            // The course's dashboard reads this back on hydrate.
+            assessmentResults: { courseProgress: progress }
+          })
+        }).catch(function() { /* localStorage already has it; silent */ });
+      }
     }
   } catch(e) {}
 
