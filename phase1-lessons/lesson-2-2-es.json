@@ -2,19 +2,19 @@
   "lessonId": "lesson-2-2",
   "moduleId": "module-2",
   "landscapeTheme": "Financial District",
-  "title": "Impuesto sobre Ventas, Contabilidad y Llevar los Libros",
+  "title": "Impuesto Sobre las Ventas, Contabilidad y Llevar los Libros",
   "duration": 8,
   "objectives": [
-    "Explicar los requisitos de recaudación y remisión del impuesto sobre ventas en Florida",
-    "Describir las expectativas básicas de contabilidad en EE.UU. y por qué difieren de las prácticas de su país de origen",
-    "Estimar los costos anuales de contabilidad para un pequeño negocio de propietario extranjero"
+    "Explicar los requisitos de recaudación y remisión del impuesto sobre las ventas de Florida",
+    "Describir las expectativas básicas de contabilidad en EE.UU. y por qué difieren de las prácticas del país de origen",
+    "Estimar los costos contables anuales para un pequeño negocio de propiedad extranjera"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-2-2-1",
-      "title": "Impuesto sobre Ventas y Contabilidad — La Siguiente Parada en el Distrito Financiero",
-      "content": "<p>Usted salió de la oficina de impuestos y caminó una cuadra hasta el siguiente edificio del Distrito Financiero: la oficina de cumplimiento. Aquí es donde viven las reglas del impuesto sobre ventas y la contabilidad, y donde muchos fundadores descubren por primera vez que la reputación de Florida de \"sin impuesto sobre la renta\" no significa \"sin impuestos.\"</p>\n\n<p>¿Sabía que una fundadora debió $3,800 en multas porque no se registró para un certificado gratuito antes de cobrar el impuesto sobre ventas? Las reglas son simples una vez que las conoce, pero el costo de no saberlas es alto.</p>\n\n<p>Si vende bienes tangibles en Florida, debe cobrar impuesto sobre ventas. La tasa estatal base es del 6%, y la mayoría de los condados agregan una sobretasa del 0.5% al 1.5%. En Orange County (Orlando), la tasa combinada es del 6.5%. En Osceola County, es del 7.5%. La tasa depende de dónde ocurre la venta, no de dónde está ubicado su negocio.</p>\n\n<p>Aquí está la conclusión práctica. Una fundadora argentina que vendía artículos de cuero desde Orlando asumió que el impuesto sobre ventas solo aplicaba a los grandes minoristas. Después de nueve meses, el Florida Department of Revenue le envió una notificación: $3,800 en impuesto sobre ventas no cobrado más multas, pagados de su propio bolsillo.</p>\n\n<p>Antes de cobrar impuesto sobre ventas, regístrese para un <strong>Certificado de Impuesto sobre Ventas</strong> con el Florida Department of Revenue: es gratis, se hace en línea. Una vez registrado, cobre la tasa correcta en cada venta gravable y remita al estado mensual, trimestral o anualmente dependiendo del volumen.</p>\n\n<p>No todo es gravable. La mayoría de los servicios y comestibles (alimentos no preparados) están exentos. Los alimentos preparados, la ropa, la electrónica y la mayoría de los productos físicos son gravables. El software y el SaaS caen en una zona gris — consulte con un CPA si está vendiendo productos digitales.</p>",
+      "title": "Impuesto Sobre las Ventas y Contabilidad: Lo Que Necesita Saber",
+      "content": "<p>El impuesto sobre las ventas y la contabilidad son los puntos donde muchos fundadores aprenden por primera vez que la reputación de Florida de \"sin impuesto sobre la renta\" no significa \"sin impuestos\".</p>\n\n<p>Si vende bienes tangibles en Florida, debe cobrar el impuesto sobre las ventas. La tasa estatal base es del 6%, y la mayoría de los condados añaden una sobretasa del 0.5% al 1.5%. En Orange County (Orlando), la tasa combinada es del 6.5%. En Osceola County, es del 7.5%. La tasa depende de dónde ocurre la venta, no de dónde está ubicado su negocio.</p>\n\n<p>Una fundadora argentina que vendía artículos de cuero desde Orlando asumió que el impuesto sobre las ventas solo aplicaba a los grandes minoristas. Después de nueve meses, el Departamento de Ingresos de Florida le envió un aviso: $3,800 en impuesto sobre las ventas no recaudado más multas, pagado de su propio bolsillo.</p>\n\n<p>Antes de cobrar el impuesto sobre las ventas, regístrese para obtener un <strong>Certificado de Impuesto Sobre las Ventas</strong> con el Departamento de Ingresos de Florida: gratuito, hecho en línea. Una vez registrado, cobre la tasa correcta en cada venta gravable y remítala al estado mensual, trimestral o anualmente según el volumen.</p>\n\n<p>No todo es gravable. La mayoría de los servicios y los comestibles (alimentos no preparados) están exentos. Los alimentos preparados, la ropa, los electrónicos y la mayoría de los productos físicos son gravables. El software y SaaS caen en una zona gris, consulte con un CPA si está vendiendo productos digitales.</p>",
       "wordCount": 245
     },
     {
@@ -22,13 +22,13 @@
       "id": "callout-2-2-funfact",
       "variant": "fun-fact",
       "title": "¿Sabía Usted?",
-      "content": "<p>Florida recauda más de $37 mil millones anuales en impuestos sobre ventas y uso, convirtiéndolo en la fuente de ingresos más grande del estado. Como Florida no tiene impuesto sobre la renta personal, el impuesto sobre ventas carga una mayor proporción del presupuesto estatal que en la mayoría de los otros estados. Para los propietarios de negocios, esto significa que el cumplimiento del impuesto sobre ventas no es opcional — es la forma principal en que el estado financia la infraestructura, la educación y los servicios públicos de los que depende su negocio.</p>"
+      "content": "<p>Florida recauda más de $37 mil millones en ingresos por impuesto sobre las ventas y de uso anualmente, lo que la convierte en la mayor fuente única de ingresos del estado. Como Florida no tiene impuesto sobre la renta personal, el impuesto sobre las ventas representa una mayor parte del presupuesto estatal que en la mayoría de los demás estados. Para los empresarios, esto significa que el cumplimiento del impuesto sobre las ventas no es opcional. Es la principal forma en que el estado financia la infraestructura, la educación y los servicios públicos de los que depende su negocio.</p>"
     },
     {
       "type": "text",
       "id": "text-2-2-vat",
-      "title": "Cómo Se Compara el Impuesto sobre Ventas de EE.UU. con el IVA — Lo Que Usted Ya Sabe",
-      "content": "<p>Si viene de casi cualquier país fuera de EE.UU., está familiarizado con un sistema de Impuesto al Valor Agregado (IVA). En el Distrito Financiero, cada edificio tiene reglas diferentes para los visitantes. El IVA es como un edificio central con un solo conjunto de reglas. El impuesto sobre ventas de EE.UU. es como un distrito donde cada oficina hace las suyas — y usted necesita una credencial separada para cada una.</p>\n\n<p>¿Qué significa eso para usted? <strong>IVA (lo que usted conoce):</strong> Una tasa nacional. Se aplica en cada etapa de la cadena de suministro. Los negocios cobran IVA en las ventas y reclaman créditos por el IVA pagado en las compras. Los umbrales de registro y las tasas se establecen a nivel nacional.</p>\n\n<p><strong>Impuesto sobre Ventas de EE.UU. (lo que necesita aprender):</strong> No existe un impuesto federal sobre ventas. Cada estado establece su propia tasa (o no tiene impuesto sobre ventas en absoluto — Oregon, Montana, Delaware, New Hampshire cobran cero). Los condados y ciudades pueden agregar sobretasas. Usted solo cobra impuesto donde tiene \"nexo\" (una conexión física o económica con ese estado). No hay un sistema de créditos sobre insumos — usted cobra al cliente y remite al estado.</p>\n\n<p>Si vende en múltiples estados, se registra, cobra y remite en cada uno por separado — como presentar documentos en cada oficina del distrito individualmente. Un fundador colombiano de SaaS que vendía en Florida, Texas y California gastó $1,200 en un servicio de cumplimiento para manejar las declaraciones en múltiples estados.</p>\n\n<p><strong>El mayor ajuste:</strong> No existe un portal gubernamental único para el impuesto sobre ventas de EE.UU. Usted trata con cada estado individualmente. Servicios como Avalara o TaxJar pueden automatizar el cumplimiento en múltiples estados. El IVA es una relación con un solo gobierno. El impuesto sobre ventas de EE.UU. pueden ser docenas.</p>",
+      "title": "Cómo Se Compara el Impuesto Sobre las Ventas de EE.UU. con el IVA: Lo Que Ya Conoce",
+      "content": "<p>Si viene de casi cualquier país fuera de EE.UU., probablemente esté familiarizado con un sistema de Impuesto al Valor Agregado (IVA). El IVA es un sistema nacional con un solo conjunto de reglas. El impuesto sobre las ventas en EE.UU. es lo opuesto: cada estado establece sus propias tasas y reglas, y necesita registrarse por separado en cada uno.</p><p><strong>IVA (lo que ya conoce):</strong> Una tasa nacional. Aplicado en cada etapa de la cadena de suministro. Los negocios cobran IVA sobre las ventas y solicitan créditos por el IVA pagado en compras. Los umbrales de registro y las tasas se establecen a nivel nacional y el IVA está incluido en el precio.</p><p><strong>Impuesto sobre las Ventas en EE.UU. (lo que necesita aprender):</strong> No existe un impuesto federal sobre las ventas. Cada estado establece su propia tasa (o no tiene impuesto sobre las ventas en absoluto). Los condados y ciudades pueden añadir una sobretasa. Solo cobra impuesto donde tiene \"nexo\" (una conexión física o económica con ese estado). No hay sistema de crédito por insumos. Cobra el impuesto sobre las ventas al cliente al momento de la compra y luego hace el pago al estado.</p><p>Si vende en varios estados, se registra, cobra y remite en cada uno por separado, presentando la documentación con cada estado individualmente. Un fundador colombiano de SaaS que vendía en Florida, Texas y California gastó $1,200 en un servicio de cumplimiento para manejar la presentación en varios estados.</p><p><strong>El mayor ajuste:</strong> No hay un único portal gubernamental para el impuesto sobre las ventas en EE.UU. Trata con cada estado por separado. Servicios como Avalara o TaxJar pueden automatizar el cumplimiento en varios estados. El IVA es una relación con un gobierno. El impuesto sobre las ventas en EE.UU. pueden ser docenas.</p>",
       "wordCount": 241
     },
     {
@@ -36,7 +36,7 @@
       "style": "compare",
       "id": "ig-2-2-vat",
       "title": "VAT vs. U.S. Sales Tax",
-      "titleEs": "IVA vs. Impuesto sobre Ventas en EE.UU.",
+      "titleEs": "IVA vs. Impuesto sobre las Ventas en EE.UU.",
       "left": {
         "heading": "VAT (Value Added Tax)",
         "headingEs": "IVA (Impuesto al Valor Agregado)",
@@ -44,8 +44,8 @@
           {
             "label": "Where",
             "labelEs": "Dónde",
-            "value": "One national system — same rules everywhere in the country",
-            "valueEs": "Un sistema nacional — las mismas reglas en todo el país"
+            "value": "One national system, same rules everywhere in the country",
+            "valueEs": "Un sistema nacional, las mismas reglas en todo el país"
           },
           {
             "label": "Applied",
@@ -57,7 +57,7 @@
             "label": "Who Collects",
             "labelEs": "Quién Recauda",
             "value": "Every business in the chain collects and remits; input credits offset tax paid on purchases",
-            "valueEs": "Cada negocio en la cadena recauda y remite; créditos fiscales compensan el impuesto pagado en compras"
+            "valueEs": "Cada negocio en la cadena recauda y remite; los créditos por insumos compensan el impuesto pagado en compras"
           },
           {
             "label": "Rate",
@@ -67,9 +67,9 @@
           },
           {
             "label": "Included in Price",
-            "labelEs": "Incluido en Precio",
-            "value": "Yes — the price on the shelf is the price you pay",
-            "valueEs": "Sí — el precio en la etiqueta es el precio que pagas"
+            "labelEs": "Incluido en el Precio",
+            "value": "Yes, the price on the shelf is the price you pay",
+            "valueEs": "Sí, el precio en la etiqueta es el precio que paga"
           },
           {
             "label": "Filing",
@@ -81,19 +81,19 @@
             "label": "Example",
             "labelEs": "Ejemplo",
             "value": "A $100 product with 21% VAT → you pay $100 (tax already included)",
-            "valueEs": "Un producto de $100 con 21% IVA → pagas $100 (impuesto ya incluido)"
+            "valueEs": "Un producto de $100 con 21% IVA → paga $100 (impuesto ya incluido)"
           }
         ]
       },
       "right": {
         "heading": "U.S. Sales Tax",
-        "headingEs": "Impuesto sobre Ventas en EE.UU.",
+        "headingEs": "Impuesto sobre las Ventas en EE.UU.",
         "rows": [
           {
             "label": "Where",
             "labelEs": "Dónde",
-            "value": "State by state — each state sets its own rules, rates, and exemptions",
-            "valueEs": "Estado por estado — cada estado establece sus propias reglas, tasas y exenciones"
+            "value": "State by state, each state sets its own rules, rates, and exemptions",
+            "valueEs": "Estado por estado, cada estado establece sus propias reglas, tasas y exenciones"
           },
           {
             "label": "Applied",
@@ -105,7 +105,7 @@
             "label": "Who Collects",
             "labelEs": "Quién Recauda",
             "value": "Only the business selling to the end customer; no input credits",
-            "valueEs": "Solo el negocio que vende al cliente final; sin créditos fiscales"
+            "valueEs": "Solo el negocio que vende al cliente final; sin créditos por insumos"
           },
           {
             "label": "Rate",
@@ -115,78 +115,78 @@
           },
           {
             "label": "Included in Price",
-            "labelEs": "Incluido en Precio",
-            "value": "No — tax is added at the register. Shelf price ≠ what you pay",
-            "valueEs": "No — el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que pagas"
+            "labelEs": "Incluido en el Precio",
+            "value": "No, tax is added at the register. Shelf price ≠ what you pay",
+            "valueEs": "No, el impuesto se agrega en la caja. Precio en etiqueta ≠ lo que paga"
           },
           {
             "label": "Filing",
             "labelEs": "Declaración",
             "value": "Separate registration and filing in every state where you have nexus",
-            "valueEs": "Registro y declaración separados en cada estado donde tengas nexo"
+            "valueEs": "Registro y declaración por separado en cada estado donde tenga nexo"
           },
           {
             "label": "Example",
             "labelEs": "Ejemplo",
             "value": "A $100 product in Orlando → you pay $106.50 (6.5% added at register)",
-            "valueEs": "Un producto de $100 en Orlando → pagas $106.50 (6.5% agregado en caja)"
+            "valueEs": "Un producto de $100 en Orlando → paga $106.50 (6.5% agregado en caja)"
           }
         ]
       },
       "callout": "The biggest shock for international founders: prices on the shelf are NOT what you pay at the register.",
-      "calloutEs": "El mayor shock para los fundadores internacionales: los precios en la etiqueta NO son lo que pagas en la caja.",
+      "calloutEs": "El mayor shock para los fundadores internacionales: los precios en la etiqueta NO son lo que paga en la caja.",
       "footer": "Florida: 6% base rate + county surtax (0.5%–1.5%). No tax on most services. Exemptions for manufacturing equipment and some food items.",
-      "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%–1.5%). Sin impuesto en la mayoría de servicios. Exenciones para equipo de manufactura y algunos alimentos."
+      "footerEs": "Florida: tasa base del 6% + sobretasa del condado (0.5%–1.5%). Sin impuesto en la mayoría de los servicios. Exenciones para equipo de manufactura y algunos alimentos."
     },
     {
       "type": "callout",
       "id": "callout-2-2-1",
       "variant": "common-mistake",
-      "title": "Cobrar Impuesto sobre Ventas Sin Permiso",
-      "content": "<p>Aquí es donde los fundadores se equivocan. Algunos fundadores empiezan a cobrar impuesto sobre ventas antes de registrarse con el Florida Department of Revenue — eso es una violación de cumplimiento. Otros no cobran nada y absorben el costo ellos mismos — eso es una responsabilidad creciente. La secuencia correcta es: <strong>registrarse primero, luego cobrar.</strong> El registro es gratuito y toma unos 10 minutos en línea. No se salte este paso.</p>"
+      "title": "Cobrar Impuesto Sobre las Ventas Sin un Permiso",
+      "content": "<p>Algunos fundadores comienzan a cobrar el impuesto sobre las ventas antes de registrarse en el Departamento de Ingresos de Florida; eso es una violación de cumplimiento. Otros no cobran en absoluto y absorben el costo ellos mismos; eso es un pasivo creciente. La secuencia correcta: <strong>regístrese primero, luego cobre.</strong> El registro es gratuito y toma unos 10 minutos en línea. No omita este paso.</p>"
     },
     {
       "type": "text",
       "id": "text-2-2-2",
-      "title": "Expectativas de Contabilidad en EE.UU. — Por Qué Importa Más Aquí",
-      "content": "<p>Cruce el pasillo desde la oficina de cumplimiento hasta el ala de contabilidad. Esta es la oficina del Distrito Financiero a la que todos los demás edificios van a llamar — los bancos quieren ver sus registros antes de prestar, el IRS los quiere para verificar sus declaraciones, los inversionistas quieren estados de pérdidas y ganancias, e incluso los arrendadores pueden revisar sus finanzas antes de firmar un contrato de arrendamiento.</p>\n\n<p>La conclusión es esta: El estándar es <strong>GAAP (Generally Accepted Accounting Principles)</strong>. Para pequeños negocios: separe las finanzas personales de las del negocio, registre todos los ingresos y gastos, concilie los estados de cuenta bancarios mensualmente, y guarde los recibos durante al menos tres años (siete años para algunos registros).</p>\n\n<p>Un fundador de un food truck de Perú guardaba los recibos en una caja de zapatos. Cuando su CPA le pidió reportes trimestrales de gastos, pasó un fin de semana entero cruzando recibos de papel con transacciones bancarias. QuickBooks desde el día uno le habría tomado cinco minutos.</p>\n\n<p>Las herramientas son accesibles. <strong>QuickBooks Online</strong> ($30–$60/mes) es una de las más utilizadas. <strong>Xero</strong> ($15–$78/mes) es popular entre fundadores internacionales por su soporte multidivisa. <strong>Wave</strong> es gratuito para facturación y contabilidad básica. Elija uno antes de su primera venta y conéctelo a su cuenta bancaria.</p>",
+      "title": "Expectativas Contables en EE.UU.: Por Qué Importa Más Aquí",
+      "content": "<p>La contabilidad es la base de la que depende todo otro proceso financiero: los bancos quieren ver sus registros antes de prestar, el IRS los quiere para verificar sus declaraciones, los inversionistas quieren estados de pérdidas y ganancias, e incluso los arrendadores pueden revisar sus finanzas antes de firmar un contrato.</p>\n\n<p>El estándar es <strong>GAAP (Principios de Contabilidad Generalmente Aceptados)</strong>. Para pequeñas empresas: separe las finanzas del negocio y las personales, registre todos los ingresos y gastos, concilie los estados de cuenta bancarios mensualmente y conserve los recibos durante al menos tres años (siete años para algunos registros).</p>\n\n<p>Un dueño de food truck de los Países Bajos guardaba los recibos en una caja de zapatos. Cuando su CPA le pidió informes trimestrales de gastos, pasó un fin de semana entero emparejando recibos en papel con transacciones bancarias. QuickBooks desde el primer día le habría tomado cinco minutos.</p>\n\n<p>Las herramientas son asequibles. <strong>QuickBooks Online</strong> ($30–$60 al mes) es una de las más utilizadas. <strong>Xero</strong> ($15–$78 al mes) es popular entre los fundadores internacionales por su soporte multidivisa. <strong>Wave</strong> es gratuita para facturación y contabilidad básicas. Elija una antes de su primera venta y conéctela a su cuenta bancaria.</p>",
       "wordCount": 168
     },
     {
       "type": "table",
       "id": "table-2-2-1",
-      "title": "Costos Anuales de Contabilidad — Qué Presupuestar",
+      "title": "Costos Contables Anuales: Qué Presupuestar",
       "table": {
         "headers": [
           "Servicio",
-          "Rango de Costo (a principios de 2026)",
+          "Rango de Costos (a inicios de 2026)",
           "Notas"
         ],
         "rows": [
           [
             "Software de contabilidad",
-            "$20–$60/mes ($240–$720/año)",
-            "QuickBooks Online, Xero, o Wave (nivel gratuito disponible)"
+            "$20–$60 al mes ($240–$720 al año)",
+            "QuickBooks Online, Xero o Wave (nivel gratuito disponible)"
           ],
           [
             "CPA para preparación de impuestos",
-            "$500–$2,500/año",
-            "Rango superior para clientes internacionales con declaraciones de tratados, FBAR, o declaraciones en múltiples estados"
+            "$500–$2,500 al año",
+            "Lado más alto para clientes internacionales con declaraciones de tratado, FBAR o devoluciones de varios estados"
           ],
           [
-            "Declaración de impuesto sobre ventas",
-            "Frecuentemente incluido con el CPA o $20–$50/mes",
-            "Avalara o TaxJar para automatización en múltiples estados"
+            "Presentación del impuesto sobre las ventas",
+            "A menudo incluida con el CPA o $20–$50 al mes",
+            "Avalara o TaxJar para automatización en varios estados"
           ],
           [
-            "Servicio de nómina (si contrata empleados)",
-            "$40–$100/mes + tarifas por empleado",
-            "Gusto, ADP Run, o Paychex. Maneja retenciones y declaraciones."
+            "Servicio de nómina (si contrata)",
+            "$40–$100 al mes + tarifas por empleado",
+            "Gusto, ADP Run o Paychex. Maneja retenciones y presentaciones."
           ],
           [
             "Servicio de contabilidad (tercerizado)",
-            "$200–$500/mes",
-            "Si no quiere hacerlo usted mismo. Bench, Pilot, o firmas locales."
+            "$200–$500 al mes",
+            "Si no quiere hacerlo usted mismo. Bench, Pilot o firmas locales."
           ]
         ]
       },
@@ -197,19 +197,19 @@
     {
       "type": "accordion",
       "id": "int-2-2-1",
-      "title": "Métodos de Contabilidad — ¿Cuál Le Conviene?",
+      "title": "Métodos Contables: ¿Cuál Encaja?",
       "sections": [
         {
-          "heading": "Contabilidad de Caja (Cash Basis)",
-          "content": "**Cómo funciona:** Registre los ingresos cuando recibe el pago, y los gastos cuando los paga.\n\n**Ideal para:** Pequeños negocios con menos de $25M en ingresos. Simple e intuitivo.\n\n**Tenga cuidado:** Puede distorsionar su panorama si tiene grandes cuentas por cobrar o por pagar."
+          "heading": "Contabilidad de Caja",
+          "content": "**Cómo funciona:** Registra los ingresos cuando recibe el pago, los gastos cuando los paga.\n\n**Mejor para:** Pequeñas empresas con menos de $25M de ingresos. Simple e intuitivo.\n\n**Cuidado:** Puede distorsionar su panorama si tiene grandes cuentas por cobrar o por pagar."
         },
         {
-          "heading": "Contabilidad de Devengo (Accrual Basis)",
-          "content": "**Cómo funciona:** Registre los ingresos cuando se ganan y los gastos cuando se incurren, sin importar el pago.\n\n**Ideal para:** Negocios que buscan inversionistas, solicitan préstamos, o manejan inventario.\n\n**Tenga cuidado:** Más complejo — generalmente requiere un contador o tenedor de libros."
+          "heading": "Contabilidad de Devengo",
+          "content": "**Cómo funciona:** Registra los ingresos cuando se ganan y los gastos cuando se incurren, independientemente del pago.\n\n**Mejor para:** Negocios que buscan inversionistas, solicitan préstamos o tienen inventario.\n\n**Cuidado:** Más complejo, generalmente requiere un contador o contable."
         },
         {
-          "heading": "Contabilidad Propia vs. Tercerizada",
-          "content": "**Herramientas propias:** QuickBooks Online ($30/mes), Wave (gratis), Xero ($15/mes)\n\n**Tercerizado:** Contador virtual ($200–$500/mes), CPA local ($300–$800/mes)\n\n**Regla general:** Hágalo usted mismo hasta que los ingresos superen los $100K/año, luego tercerícelo para liberar su tiempo."
+          "heading": "Contabilidad: Hacerlo Usted Mismo vs. Tercerizada",
+          "content": "**Herramientas para hacerlo usted mismo:** QuickBooks Online ($30/mes), Wave (gratis), Xero ($15/mes)\n\n**Tercerizada:** Contable virtual ($200–$500/mes), CPA local ($300–$800/mes)\n\n**Regla general:** Hágalo usted mismo hasta que los ingresos superen los $100K al año, luego terciarice para liberar su tiempo."
         }
       ]
     },
@@ -217,8 +217,14 @@
       "type": "callout",
       "id": "callout-2-2-2",
       "variant": "before-you-spend",
-      "title": "Antes de Contratar un Contador",
-      "content": "<p>Piense en esto: no todos los CPAs son iguales — y no todos trabajan con negocios de propietarios extranjeros. Antes de contratar un contador, haga estas preguntas:</p>\n\n<ul><li>¿Tiene experiencia presentando declaraciones para extranjeros no residentes o LLC de propietarios extranjeros?</li><li>¿Está familiarizado con las disposiciones de tratados tributarios para mi país de origen?</li><li>¿Puede manejar declaraciones de FBAR (Foreign Bank Account Report)?</li><li>¿Cobra tarifas fijas o por hora? (La tarifa fija es casi siempre mejor para pequeños negocios.)</li><li>¿Puede ayudar con el cumplimiento del impuesto sobre ventas en múltiples estados?</li></ul>\n\n<p>El SBDC (Small Business Development Center) en Orlando puede referirlo a CPAs que trabajan con fundadores internacionales. Este es un servicio gratuito. El Distrito Financiero no tiene escasez de opciones — Central Florida alberga más de 12,000 firmas de contabilidad y servicios financieros, así que encontrar una que pueda navegar declaraciones internacionales es muy factible.</p>"
+      "title": "Antes de Contratar a un Contador",
+      "content": "<p>No todos los CPA son iguales, y no todos trabajan con negocios de propiedad extranjera. Antes de contratar a un contador, haga estas preguntas:</p>\n\n<ul><li>¿Tiene experiencia presentando declaraciones para extranjeros no residentes o LLCs de propiedad extranjera?</li><li>¿Está familiarizado con las disposiciones de tratados tributarios para mi país de origen?</li><li>¿Puede manejar las presentaciones FBAR (Reporte de Cuentas Bancarias Extranjeras)?</li><li>¿Cobra tarifas fijas o por hora? (La tarifa fija es casi siempre mejor para pequeñas empresas.)</li><li>¿Puede ayudar con el cumplimiento del impuesto sobre las ventas en varios estados?</li></ul>\n\n<p>El SBDC (Centro de Desarrollo de Pequeñas Empresas) en Orlando puede referirle a CPAs que trabajan con fundadores internacionales. Este es un servicio gratuito. Central Florida alberga más de 12,000 firmas de servicios contables y financieros, así que encontrar uno que pueda navegar las presentaciones internacionales es muy alcanzable.</p>"
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-2-2",
+      "imagePath": "images/scenarios/lesson-2-2-sales-tax-research.jpg",
+      "title": "Empresaria investigando los requisitos del impuesto sobre las ventas de Florida en una computadora portátil"
     },
     {
       "type": "knowledge-check",
@@ -227,37 +233,37 @@
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "¿Cuál es la diferencia más importante entre un sistema de IVA y el impuesto sobre ventas de EE.UU. que un fundador internacional debe entender?",
+          "stem": "¿Cuál es la diferencia más importante entre un sistema de IVA y el impuesto sobre las ventas de EE.UU. que un fundador internacional debe comprender?",
           "options": [
-            "Las tasas de IVA siempre son más altas que las tasas del impuesto sobre ventas de EE.UU.",
-            "El impuesto sobre ventas de EE.UU. solo aplica a servicios, mientras que el IVA solo aplica a bienes",
-            "El IVA se cobra en el punto de venta, mientras que el impuesto sobre ventas de EE.UU. se cobra en la manufactura",
-            "El impuesto sobre ventas de EE.UU. se maneja estado por estado sin un impuesto federal sobre ventas, mientras que el IVA es típicamente un sistema nacional"
+            "Las tasas de IVA siempre son más altas que las tasas del impuesto sobre las ventas en EE.UU.",
+            "El impuesto sobre las ventas en EE.UU. aplica solo a servicios, mientras que el IVA aplica solo a bienes",
+            "El IVA se cobra en el punto de venta, mientras que el impuesto sobre las ventas en EE.UU. se cobra en la fabricación",
+            "El impuesto sobre las ventas en EE.UU. se gestiona estado por estado sin impuesto federal sobre las ventas, mientras que el IVA típicamente es un sistema nacional"
           ],
           "correctAnswer": 3,
-          "explanation": "La diferencia fundamental es estructural: el IVA es un sistema nacional centralizado. El impuesto sobre ventas de EE.UU. es descentralizado — cada estado establece sus propias reglas, tasas y exenciones. No existe un impuesto federal sobre ventas. Las tasas de IVA no siempre son más altas que las de EE.UU. Tanto el IVA como el impuesto sobre ventas de EE.UU. pueden aplicar a bienes y servicios. Ambos se cobran en el punto de venta, no en la manufactura. Los fundadores que venden en múltiples estados pueden necesitar registrarse y declarar por separado en cada uno."
+          "explanation": "La diferencia central es estructural: el IVA es un sistema nacional y centralizado. El impuesto sobre las ventas en EE.UU. es descentralizado, cada estado establece sus propias reglas, tasas y exenciones. No existe impuesto federal sobre las ventas. Las tasas de IVA no siempre son más altas que las tasas en EE.UU. Tanto el IVA como el impuesto sobre las ventas en EE.UU. pueden aplicar a bienes y servicios. Ambos se cobran en el punto de venta, no en la fabricación. Los fundadores que venden en varios estados pueden necesitar registrarse y presentar por separado en cada uno."
         },
         {
-          "stem": "Una fundadora de Argentina ha estado vendiendo artículos de cuero en línea desde Orlando durante nueve meses sin registrarse para un Certificado de Impuesto sobre Ventas de Florida. ¿Cuál es la consecuencia más probable?",
+          "stem": "Una fundadora de Argentina ha estado vendiendo artículos de cuero en línea desde Orlando durante nueve meses sin registrarse para un Certificado de Impuesto Sobre las Ventas de Florida. ¿Cuál es la consecuencia más probable?",
           "options": [
-            "Nada — el impuesto sobre ventas solo aplica a negocios con más de $100,000 en ingresos",
-            "Recibirá una notificación del Florida Department of Revenue por impuesto sobre ventas no cobrado más multas, que debe pagar de su propio bolsillo",
+            "Nada; el impuesto sobre las ventas solo aplica a negocios con más de $100,000 en ingresos",
+            "Recibirá un aviso del Departamento de Ingresos de Florida por el impuesto sobre las ventas no recaudado más multas, que debe pagar de su propio bolsillo",
             "El IRS revocará su EIN y cerrará su negocio",
             "Sus clientes serán individualmente responsables del impuesto no pagado"
           ],
           "correctAnswer": 1,
-          "explanation": "La lección describe este escenario exacto: una fundadora argentina debió $3,800 en impuesto sobre ventas no cobrado más multas después de nueve meses. No existe un umbral de $100,000 en ingresos para el impuesto sobre ventas de Florida sobre bienes tangibles. El IRS no revoca EINs por violaciones de impuesto sobre ventas estatal. Los clientes no son individualmente responsables — el negocio tiene la responsabilidad de cobrar y remitir el impuesto sobre ventas. El registro es gratuito y toma unos 10 minutos."
+          "explanation": "La lección describe este escenario exacto: una fundadora argentina debió $3,800 en impuesto sobre las ventas no recaudado más multas después de nueve meses. No existe un umbral de $100,000 de ingresos para el impuesto sobre las ventas de Florida sobre bienes tangibles. El IRS no revoca EINs por violaciones del impuesto estatal sobre las ventas. Los clientes no son individualmente responsables; el negocio asume la responsabilidad de cobrar y remitir el impuesto sobre las ventas. El registro es gratuito y toma unos 10 minutos."
         },
         {
-          "stem": "Una fundadora de Chile está lanzando una firma de consultoría en Orlando. Necesita estimar sus costos contables del primer año para poder establecer un presupuesto realista. Su negocio tendrá un solo propietario, sin empleados, y clientes solo en Florida. ¿Cuál estimación es más realista?",
+          "stem": "Una fundadora de Corea del Sur está lanzando una firma de consultoría en Orlando. Necesita estimar sus costos contables del primer año para poder establecer un presupuesto realista. Su negocio tendrá una sola dueña, sin empleados y clientes solo en Florida. ¿Qué estimación es la más realista?",
           "options": [
-            "Menos de $200 en total — software de contabilidad gratis y sin necesidad de un CPA ya que Florida no tiene impuesto sobre la renta",
-            "Aproximadamente $500 — solo un CPA para la preparación anual de impuestos, ya que una firma de consultoría en un solo estado tiene mínima complejidad",
-            "Entre $1,000 y $3,000 — software de contabilidad, un CPA con experiencia en clientes internacionales, y posibles costos de declaración de impuesto sobre ventas",
-            "Más de $10,000 — los negocios internacionales siempre requieren una firma contable de servicio completo"
+            "Menos de $200 en total; software de contabilidad gratuito y sin necesidad de un CPA, ya que Florida no tiene impuesto sobre la renta",
+            "Alrededor de $500; solo un CPA para la preparación anual de impuestos, ya que una firma de consultoría en un solo estado tiene complejidad mínima",
+            "Entre $1,000 y $3,000; software de contabilidad, un CPA con experiencia con clientes internacionales y posibles costos de presentación del impuesto sobre las ventas",
+            "Más de $10,000; los negocios internacionales siempre requieren una firma contable de servicio completo"
           ],
           "correctAnswer": 2,
-          "explanation": "Un presupuesto realista del primer año incluye software de contabilidad ($240-$720/año), un CPA con experiencia en clientes internacionales ($500-$2,500/año), y posiblemente asistencia con la declaración de impuesto sobre ventas. Menos de $200 ignora la necesidad de un CPA que entienda los requisitos de declaración para extranjeros no residentes. Un estimado de $500 subestima los costos de CPA para clientes internacionales, que necesitan revisión de tratados y potencialmente declaraciones de FBAR. Más de $10,000 es excesivo para una pequeña firma de consultoría con un solo propietario, sin empleados y operación en un solo estado."
+          "explanation": "Un presupuesto realista del primer año incluye software de contabilidad ($240–$720 al año), un CPA con experiencia con clientes internacionales ($500–$2,500 al año) y posiblemente asistencia con la presentación del impuesto sobre las ventas. Menos de $200 ignora la necesidad de un CPA que comprenda los requisitos de presentación para extranjeros no residentes. Una estimación de $500 subestima los costos del CPA para clientes internacionales, que necesitan revisión de tratados y posiblemente presentaciones FBAR. Más de $10,000 es excesivo para una pequeña firma de consultoría con un solo dueño, sin empleados y un solo estado de operación."
         }
       ]
     },
@@ -265,7 +271,7 @@
       "type": "key-takeaway",
       "id": "kt-2-2-1",
       "title": "Punto Clave",
-      "content": "<p>La conclusión es simple. El cumplimiento del impuesto sobre ventas es obligatorio y fácil de arruinar. Regístrese con el Florida Department of Revenue antes de cobrar impuestos. El impuesto sobre ventas de EE.UU. no funciona como el IVA — es estado por estado y sin créditos sobre insumos. Presupueste un CPA que entienda clientes internacionales. El costo de la contabilidad profesional ($500–$2,500/año) es mucho menor que el costo de las multas del IRS y las violaciones de cumplimiento estatal. Su parada de cumplimiento en el Distrito Financiero es directa si conoce las reglas antes de entrar.</p>"
+      "content": "<p>El cumplimiento del impuesto sobre las ventas es obligatorio y fácil de equivocar. Regístrese en el Departamento de Ingresos de Florida antes de cobrar el impuesto. El impuesto sobre las ventas en EE.UU. no funciona en absoluto como el IVA: es estado por estado, sin créditos por insumos. Presupueste un CPA que comprenda a los clientes internacionales. La contabilidad profesional ($500–$2,500 al año) cuesta mucho menos que las multas del IRS y las violaciones de cumplimiento estatal. El impuesto sobre las ventas y la contabilidad son sencillos si conoce las reglas antes de comenzar.</p>"
     }
   ]
 }

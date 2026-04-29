@@ -27,7 +27,7 @@
     {
       "type": "table",
       "id": "table-4-1-1",
-      "title": "Contractor vs. Employee — Key Differences",
+      "title": "Contractor vs. Employee: Key Differences",
       "table": {
         "headers": [
           "Factor",
@@ -57,7 +57,7 @@
           ],
           [
             "Tax withholding",
-            "None — they pay their own taxes",
+            "None, they pay their own taxes",
             "You withhold federal, state, FICA"
           ],
           [
@@ -89,7 +89,7 @@
     {
       "type": "comparison-card",
       "id": "int-4-1-1",
-      "title": "Contractor vs. Employee — Decision Checklist",
+      "title": "Contractor vs. Employee: Decision Checklist",
       "columns": [
         {
           "heading": "Hire as Contractor If...",
@@ -116,7 +116,7 @@
             },
             {
               "label": "Risk Level",
-              "value": "Low overhead — but IRS penalties if you get it wrong"
+              "value": "Low overhead, but IRS penalties if you get it wrong"
             }
           ]
         },
@@ -145,7 +145,7 @@
             },
             {
               "label": "Risk Level",
-              "value": "Higher cost — but compliant and legally protected"
+              "value": "Higher cost, but compliant and legally protected"
             }
           ]
         }
@@ -156,12 +156,12 @@
       "id": "callout-4-1-funfact",
       "variant": "fun-fact",
       "title": "Did You Know?",
-      "content": "<p>Central Florida's theme park corridor employs over 100,000 people in hospitality and entertainment alone, making the region one of the largest single concentrations of service-industry workers in the United States. That workforce includes every classification you are learning about in this lesson: full-time employees, seasonal hires, and independent contractors. The region's entertainment industry generates more than $75 billion in annual economic impact for the state.</p>"
+      "content": "<p>Central Florida's theme park corridor employs over 100,000 people in hospitality and entertainment alone, making the region one of the largest single concentrations of service-industry workers in the United States. That workforce includes every classification you are learning about in this lesson: full-time employees, seasonal hires, and independent contractors. The region's entertainment industry generates more than $133.6 billion in annual economic impact for Florida (2024) <em>(<a href=\"https://www.flgov.com/eog/news/press/2025/tourism-florida-delivers-1336-billion-economic-impact-nearly-2000-household-tax\" target=\"_blank\" rel=\"noopener\">VISIT FLORIDA / Executive Office of the Governor, 2024 Tourism Impact</a>)</em>.</p>"
     },
     {
       "type": "text",
       "id": "text-4-1-2",
-      "title": "The IRS Test — How They Actually Decide",
+      "title": "The IRS Test: How They Actually Decide",
       "content": "<p>So what does this mean in practice? The IRS uses a three-part test to decide worker status.</p>\n\n<h4>Behavioral Control</h4>\n\n<p>Do you control <strong>how</strong> the work gets done? Detailed instructions and required hours point toward employee. If the worker decides how to accomplish the result, that points toward contractor.</p>\n\n<h4>Financial Control</h4>\n\n<p>Do you control the <strong>business aspects</strong> of the worker's job? Employees have expenses reimbursed and receive company tools. Contractors invest in their own equipment.</p>\n\n<h4>Relationship Type</h4>\n\n<p>Employee-type benefits, an ongoing relationship with no end date, and work that is a core part of your business all suggest employment.</p>\n\n<p>Practical shortcut: if you control when, where, and how someone works, they are almost certainly an employee regardless of what the contract says.</p>",
       "wordCount": 114
     },
@@ -172,12 +172,12 @@
       "description": "You hired a developer six months ago as a 1099 contractor. She works 40 hours a week, uses your company laptop, attends your daily standup meetings, and you set her schedule. She just asked about health insurance. What is your biggest risk?",
       "paths": [
         {
-          "label": "No risk — she signed a contractor agreement",
+          "label": "No risk: she signed a contractor agreement",
           "outcome": "Wrong. The IRS does not care what the contract says. They look at the ACTUAL working relationship. A signed agreement does not override the facts: if you control when, where, and how someone works, they are an employee in the eyes of the IRS regardless of what you call them.",
           "isRecommended": false
         },
         {
-          "label": "She is likely misclassified — convert her to W-2 employee immediately",
+          "label": "She is likely misclassified: convert her to W-2 employee immediately",
           "outcome": "Correct. Under the IRS three-factor test (behavioral control, financial control, relationship type), this worker is an employee. Converting her now limits your exposure. If the IRS reclassifies her, you owe back taxes, the employee's share of FICA, plus penalties that can reach $50 per misclassified W-2.",
           "isRecommended": true
         },
@@ -198,8 +198,8 @@
     {
       "type": "text",
       "id": "text-4-1-ucf",
-      "title": "The UCF Talent Pipeline — Your Hiring Advantage in Central Florida",
-      "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. The same region that staffs one of the world's largest entertainment workforces also produces over 17,000 graduates per year. UCF enrolls over 70,000 students across 230+ degree programs, giving you a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000-$70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000-$48,000</strong> versus $55,000-$65,000 in South Florida.</p>\n\n<p>A Vietnamese founder used UCF's internship program to bring on two computer science students part-time, assessing fit over three months before extending full-time offers, saving the cost and risk of a bad hire.</p>",
+      "title": "The UCF Talent Pipeline: Your Hiring Advantage in Central Florida",
+      "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. The same region that staffs one of the world's largest entertainment workforces also produces over 17,000 graduates per year. UCF enrolls over 70,000 students across 230+ degree programs, giving you a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000–$70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000–$48,000</strong> versus $55,000–$65,000 in South Florida.</p>\n\n<p>A Vietnamese business owner used UCF's internship program to bring on two computer science students part-time, assessing fit over three months before extending full-time offers, saving the cost and risk of a bad hire.</p>",
       "wordCount": 152
     },
     {
@@ -207,13 +207,13 @@
       "id": "callout-4-1-wm",
       "variant": "watch-money-costs",
       "title": "Watch Your Money: What Hiring Actually Costs",
-      "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour — worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
+      "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour, worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
     },
     {
       "type": "callout",
       "id": "callout-4-1-cm",
       "variant": "common-mistakes-repeating",
-      "title": "Common Mistakes International Founders Make — Hiring",
+      "title": "Common Mistakes International Founders Make: Hiring",
       "content": "<ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. Some founders label every worker as a 1099 contractor to avoid payroll taxes and benefits, but the IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong>. In serious cases, you face criminal prosecution. The IRS, state agencies, and workers themselves can all trigger an audit.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70–85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000–$78,000 in actual cost.</li></ul>"
     },
     {
@@ -307,10 +307,10 @@
             "New York, because venture capital access offsets the higher payroll costs"
           ],
           "correctAnswer": 2,
-          "explanation": "Central Florida offers entry-level software developer salaries of $55,000–$70,000, which is 30–40% lower than New York and 35–45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives founders significantly more runway with the same budget."
+          "explanation": "Central Florida offers entry-level software developer salaries of $55,000–$70,000, which is 30–40% lower than New York and 35–45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives entrepreneurs significantly more runway with the same budget."
         },
         {
-          "stem": "A founder from Poland hires a graphic designer in Orlando. The designer works 40 hours per week at the founder's office, uses the company's computer, follows the founder's daily task list, and has worked exclusively for this company for eight months. The founder classifies her as a 1099 contractor. An IRS audit reclassifies her as an employee. Which combination of penalties is the founder most likely facing?",
+          "stem": "A founder from Poland hires a graphic designer in Orlando. The designer works 40 hours per week at the founder's office, uses the company's computer, follows the founder's daily task list, and has worked exclusively for this company for eight months. The founder classifies her as a 1099 contractor. An IRS audit reclassifies her as an employee. Which combination of penalties is the entrepreneur most likely facing?",
           "options": [
             "Back payment of employer FICA taxes, FUTA, state unemployment, plus penalties and interest dating back to the start of the arrangement",
             "A warning letter requiring the founder to reclassify the worker going forward with no financial penalty",
@@ -318,7 +318,7 @@
             "No penalty because the designer signed a contractor agreement and accepted 1099 payment voluntarily"
           ],
           "correctAnswer": 0,
-          "explanation": "When the IRS reclassifies a worker as an employee, the employer owes all back taxes that should have been withheld (employer FICA at 7.65%, FUTA, state unemployment) plus penalties and interest from day one. The IRS looks at how the worker actually works — behavioral control, financial control, and relationship type — not what the contract says. A signed contractor agreement (option D) does not override the actual working conditions. There is no warning-only outcome (option B) or flat fine (option C) for payroll tax misclassification."
+          "explanation": "When the IRS reclassifies a worker as an employee, the employer owes all back taxes that should have been withheld (employer FICA at 7.65%, FUTA, state unemployment) plus penalties and interest from day one. The IRS looks at how the worker actually works, behavioral control, financial control, and relationship type, not what the contract says. A signed contractor agreement (option D) does not override the actual working conditions. There is no warning-only outcome (option B) or flat fine (option C) for payroll tax misclassification."
         }
       ]
     },
@@ -326,7 +326,7 @@
       "type": "key-takeaway",
       "id": "kt-4-1-1",
       "title": "Key Takeaway",
-      "content": "<p>Apply the IRS classification test from day one. The cost of misclassification far exceeds the cost of doing it correctly. Use contractors for defined projects with clear deliverables. Hire employees when you need ongoing, directed work. Evaluate candidates through UCF's talent pipeline and Central Florida's cost advantage to stretch your hiring budget further. When in doubt, consult an employment attorney before bringing anyone on board. Every role must be classified correctly from day one.</p>"
+      "content": "<p>Apply the IRS classification test from day one. Misclassification costs far more than doing it correctly. Use contractors for defined projects with clear deliverables. Hire employees when you need ongoing, directed work. Tap UCF's talent pipeline and Central Florida's cost advantage to stretch your hiring budget further. When in doubt, consult an employment attorney before bringing anyone on board.</p>"
     }
   ]
 }

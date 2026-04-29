@@ -2,19 +2,19 @@
   "lessonId": "lesson-1-2",
   "moduleId": "module-1",
   "landscapeTheme": "City Landscape",
-  "title": "Registrarse en SunBiz — Paso a Paso",
+  "title": "Cómo Registrarse en SunBiz — Paso a Paso",
   "duration": 10,
   "objectives": [
     "Describir el proceso completo de registro en SunBiz para una entidad empresarial de Florida",
     "Identificar los requisitos para un EIN, agente registrado y dirección registrada",
-    "Explicar por qué una dirección física registrada es importante y cómo UCF BIP puede ayudar"
+    "Explicar por qué importa una dirección registrada física y cómo el UCF BIP puede ayudar"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-1-2-0",
-      "title": "De la Entidad al Registro — Haciéndolo Oficial",
-      "content": "<p>Ahora que ha elegido su estructura empresarial — ya sea una LLC o una C-Corp — es hora de hacerlo oficial. Florida es donde la mayoría de los fundadores internacionales en este programa se registrarán, y el proceso es sencillo una vez que conoce los pasos. La División de Corporaciones, conocida como SunBiz, maneja todos los registros empresariales en línea. No necesita estar físicamente presente en Florida para completar este proceso.</p>",
+      "title": "De la Entidad al Registro: Hacerlo Oficial",
+      "content": "<p>Ya eligió la estructura de su negocio. Ahora es momento de hacerlo oficial. Florida es donde se registran muchos fundadores internacionales de este programa, y el proceso es sencillo una vez que conoce los pasos. La División de Corporaciones, conocida como SunBiz, gestiona en línea todos los registros empresariales. No necesita estar físicamente en Florida para completarlo.</p>",
       "wordCount": 189
     },
     {
@@ -22,20 +22,20 @@
       "id": "callout-1-2-funfact",
       "variant": "fun-fact",
       "title": "¿Sabía Usted?",
-      "content": "<p>La constitución de una LLC en Florida a través de SunBiz se puede completar totalmente en línea — no necesita estar físicamente en Estados Unidos para registrarse. Algunos fundadores han registrado su entidad desde otro país por la mañana y la tenían activa antes del final de la semana. Muy pocos estados de EE.UU. ofrecen esta combinación de velocidad, facilidad y acceso remoto.</p>"
+      "content": "<p>La constitución de una LLC de Florida a través de SunBiz puede completarse totalmente en línea. No necesita estar físicamente en Estados Unidos para presentarla. Algunos fundadores han registrado su entidad desde otro país por la mañana y la han tenido activa antes del fin de semana. Muy pocos estados de EE.UU. ofrecen esta combinación de velocidad, facilidad y acceso remoto.</p>"
     },
     {
       "type": "text",
       "id": "text-1-2-1",
-      "title": "SunBiz — La División de Corporaciones de Florida",
-      "content": "<p>SunBiz (sunbiz.org) es el portal oficial de Florida para registrar entidades empresariales, presentar informes anuales y actualizar registros. Piense en sunbiz.org como el mostrador en línea de la alcaldía — usted entra, presenta sus documentos y sale con su negocio en el registro de la ciudad.</p>\n\n<p>Así es como funciona. Antes de comenzar, típicamente necesita tres cosas:</p>\n\n<ol><li><strong>Su decisión sobre el tipo de entidad.</strong> ¿LLC o Corporación? Si aún no ha decidido, revise la lección anterior.</li><li><strong>Un nombre comercial.</strong> Debe ser distinguible de otros negocios de Florida e incluir un designador (\"LLC,\" \"Inc.\" o \"Corp.\"). Puede verificar la disponibilidad en SunBiz antes de registrar.</li><li><strong>Un agente registrado.</strong> Una persona o servicio con una dirección física en Florida (no un apartado postal) para recibir documentos legales en su nombre.</li></ol>\n\n<p>Este es el proceso general:</p>\n\n<ol><li>Vaya a sunbiz.org y seleccione \"Start a Business.\"</li><li>Elija su tipo de entidad.</li><li>Ingrese el nombre de su negocio (la disponibilidad generalmente se verifica en tiempo real).</li><li>Proporcione la información de los miembros o administradores.</li><li>Designe su agente registrado con su dirección física en Florida.</li><li>Ingrese sus direcciones principal y de correspondencia.</li><li>Pague la tarifa de registro — típicamente alrededor de $125 para una LLC o $70 para una Corporación.</li><li>Envíe. Su entidad frecuentemente está activa en unos pocos días hábiles.</li></ol>\n\n<p>Con su información lista, el proceso generalmente se puede completar en unos 20 a 30 minutos.</p>",
+      "title": "SunBiz: La División de Corporaciones de Florida",
+      "content": "<p>SunBiz (sunbiz.org) es el portal oficial de Florida para registrar entidades empresariales, presentar informes anuales y actualizar registros. Presente su información y su negocio quedará oficialmente registrado.</p>\n\n<p>Antes de comenzar, típicamente necesita tres cosas:</p>\n\n<ol><li><strong>La decisión sobre el tipo de entidad.</strong> ¿LLC o Corporación? Si aún no lo ha decidido, repase la lección anterior.</li><li><strong>Un nombre de negocio.</strong> Debe ser distinguible de otros negocios de Florida e incluir un designador (\"LLC\", \"Inc.\" o \"Corp.\"). Puede verificar la disponibilidad en SunBiz antes de presentarlo.</li><li><strong>Un agente registrado.</strong> Una persona o servicio con una dirección física en una calle de Florida (no un apartado postal) que reciba documentos legales en su nombre.</li></ol>\n\n<p>Este es el proceso general:</p>\n\n<ol><li>Vaya a sunbiz.org y seleccione \"Start a Business\" (Iniciar un Negocio).</li><li>Elija su tipo de entidad.</li><li>Ingrese el nombre de su negocio (la disponibilidad típicamente se verifica en tiempo real).</li><li>Proporcione la información de los miembros o gerentes.</li><li>Designe a su agente registrado con su dirección de calle en Florida.</li><li>Ingrese sus direcciones principal y postal.</li><li>Pague la tarifa de registro, típicamente alrededor de $125 para una LLC o $70 para una Corporación.</li><li>Envíe. Su entidad a menudo queda activa en pocos días hábiles.</li></ol>\n\n<p>Con su información lista, el proceso generalmente puede completarse en unos 20 a 30 minutos.</p>",
       "wordCount": 189
     },
     {
       "type": "text",
       "id": "text-1-2-2",
-      "title": "EIN — El Número de Identificación Tributaria de Su Negocio",
-      "content": "<p>Después del registro en SunBiz, su siguiente paso es obtener un Número de Identificación del Empleador (EIN) del IRS. Su EIN es como el número de dirección en su tienda — sin él, nadie puede encontrarlo en el sistema. Lo necesitará para cuentas bancarias, declaraciones de impuestos, contratación y licencias comerciales. El EIN es gratuito.</p>\n\n<p>En resumen: <strong>Con un SSN o ITIN:</strong> Generalmente puede enviar su solicitud en línea en irs.gov. El proceso toma unos 15 minutos y el EIN frecuentemente se emite de inmediato.</p>\n\n<p><strong>Sin un SSN o ITIN:</strong> Necesitará completar el Formulario SS-4 por fax (lo cual puede tomar varios días hábiles) o por correo (lo cual puede tomar varias semanas). La alternativa más rápida: llame a la línea internacional del IRS (267-941-1099), disponible de lunes a viernes, de 6 AM a 11 PM hora del este. Se ha reportado procesamiento el mismo día, aunque los tiempos de espera pueden variar mucho — algunos fundadores reportan estar en espera por una hora o más, mientras que otros pasan en minutos. Llamar temprano en la mañana tiende a tener tiempos de espera más cortos. Verifique que este número siga activo antes de depender de él, ya que las opciones de contacto del IRS pueden cambiar.</p>\n\n<p>Un consejo útil: puede solicitar un ITIN al presentar su primera declaración de impuestos, lo que le abre el proceso de EIN en línea para futuras entidades.</p>\n\n<p>El EIN pertenece al negocio, no a usted personalmente. Cada empresa necesita su propio EIN. Guarde su carta de confirmación (CP 575) — los bancos y clientes en formularios W-9 se la pedirán.</p>",
+      "title": "EIN: La Identificación Tributaria de Su Negocio",
+      "content": "<p>Después del registro en SunBiz, su siguiente paso es un Número de Identificación de Empleador (EIN) del IRS. Su EIN es la identidad de su negocio en el sistema federal. Lo necesita para cuentas bancarias, declaraciones de impuestos, contrataciones y licencias comerciales. El EIN es gratuito.</p>\n\n<p><strong>Con un SSN o ITIN:</strong> Típicamente puede presentar su solicitud en línea en irs.gov. El proceso toma unos 15 minutos y el EIN a menudo se emite de inmediato.</p>\n\n<p><strong>Sin un SSN o ITIN:</strong> Necesitará completar el Formulario SS-4 por fax (lo que puede tomar varios días hábiles) o por correo (lo que puede tomar varias semanas). La alternativa más rápida: llamar a la línea internacional del IRS (267-941-1099), disponible de lunes a viernes, de 6 AM a 11 PM hora del Este. Se ha reportado procesamiento el mismo día, aunque los tiempos de espera varían: algunos fundadores esperan en línea una hora o más, otros logran comunicarse en minutos. Llamar temprano tiende a significar esperas más cortas. Verifique que este número siga activo antes de depender de él, ya que las opciones de contacto del IRS pueden cambiar.</p>\n\n<p>Un consejo útil: puede solicitar un ITIN al presentar su primera declaración de impuestos, lo que abre el proceso de EIN en línea para futuras entidades.</p>\n\n<p>El EIN pertenece al negocio, no a usted personalmente. Cada empresa necesita su propio EIN. Conserve su carta de confirmación (CP 575); los bancos y los clientes en formularios W-9 se la pedirán.</p>",
       "wordCount": 232
     },
     {
@@ -43,99 +43,99 @@
       "id": "ig-1-2-sunbiz",
       "style": "steps",
       "title": "Registering Your Business on SunBiz.org",
-      "titleEs": "Registrar Tu Empresa en SunBiz.org",
+      "titleEs": "Cómo Registrar Su Negocio en SunBiz.org",
       "subtitle": "Step by Step",
       "subtitleEs": "Paso a Paso",
       "footer": "Estimated startup cost: $300–$500 (filing + registered agent + licenses)",
       "footerEs": "Costo estimado de inicio: $300–$500 (registro + agente registrado + licencias)",
       "sideLabel": "Total time: 1–2 weeks if prepared",
-      "sideLabelEs": "Tiempo total: 1–2 semanas si estás preparado",
+      "sideLabelEs": "Tiempo total: 1–2 semanas si está preparado",
       "steps": [
         {
           "label": "Choose Your Entity Type",
-          "labelEs": "Elige Tu Tipo de Entidad",
-          "desc": "LLC, Corp, or LP. Most international founders choose LLC.",
-          "descEs": "LLC, Corp o LP. La mayoría de fundadores internacionales eligen LLC."
+          "labelEs": "Elija Su Tipo de Entidad",
+          "desc": "LLC, Corp, or LP. Many international founders choose LLC.",
+          "descEs": "LLC, Corp o LP. Muchos fundadores internacionales eligen LLC."
         },
         {
           "label": "Search for Name Availability",
-          "labelEs": "Busca Disponibilidad de Nombre",
+          "labelEs": "Busque la Disponibilidad del Nombre",
           "desc": "Use SunBiz name search. Must be unique in Florida.",
-          "descEs": "Usa la búsqueda de nombres en SunBiz. Debe ser único en Florida."
+          "descEs": "Use la búsqueda de nombres en SunBiz. Debe ser único en Florida."
         },
         {
           "label": "Designate a Registered Agent",
-          "labelEs": "Designa un Agente Registrado",
+          "labelEs": "Designe un Agente Registrado",
           "desc": "Must have a Florida street address. You can use a service (~$100–$150/year).",
-          "descEs": "Debe tener una dirección física en Florida. Puedes usar un servicio (~$100–$150/año)."
+          "descEs": "Debe tener una dirección de calle en Florida. Puede usar un servicio (~$100–$150/año)."
         },
         {
           "label": "File Articles of Organization",
-          "labelEs": "Presenta los Artículos de Organización",
+          "labelEs": "Presente los Artículos de Organización",
           "desc": "Online via SunBiz. LLC filing fee: $125. Processing: 1–3 business days.",
-          "descEs": "En línea vía SunBiz. Costo de registro LLC: $125. Procesamiento: 1–3 días hábiles."
+          "descEs": "En línea vía SunBiz. Tarifa de registro de LLC: $125. Procesamiento: 1–3 días hábiles."
         },
         {
           "label": "Obtain Your EIN",
-          "labelEs": "Obtén Tu EIN",
+          "labelEs": "Obtenga Su EIN",
           "desc": "Apply free at IRS.gov (SS-4 form). This is your business's \"social security number.\"",
-          "descEs": "Solicítalo gratis en IRS.gov (formulario SS-4). Es el \"número de seguro social\" de tu empresa."
+          "descEs": "Solicítelo gratis en IRS.gov (formulario SS-4). Es el \"número de seguro social\" de su empresa."
         },
         {
           "label": "Open a Business Bank Account",
-          "labelEs": "Abre una Cuenta Bancaria Empresarial",
+          "labelEs": "Abra una Cuenta Bancaria Empresarial",
           "desc": "Bring: Articles of Organization, EIN letter, passport, Operating Agreement.",
-          "descEs": "Lleva: Artículos de Organización, carta EIN, pasaporte, Acuerdo Operativo."
+          "descEs": "Lleve: Artículos de Organización, carta de EIN, pasaporte, Acuerdo Operativo."
         },
         {
           "label": "Register for State Taxes",
-          "labelEs": "Regístrate para Impuestos Estatales",
+          "labelEs": "Regístrese para Impuestos Estatales",
           "desc": "If selling goods: register for Florida Sales Tax (DR-1). No state income tax registration needed.",
-          "descEs": "Si vendes bienes: regístrate para el Impuesto sobre Ventas de Florida (DR-1). No se necesita registro de impuesto estatal sobre la renta."
+          "descEs": "Si vende bienes: regístrese para el Impuesto sobre Ventas de Florida (DR-1). No se necesita registro de impuesto estatal sobre la renta."
         },
         {
           "label": "Obtain Local Licenses",
-          "labelEs": "Obtén Licencias Locales",
+          "labelEs": "Obtenga Licencias Locales",
           "desc": "Check county/city requirements. Orange County: Local Business Tax Receipt ($25–$50).",
-          "descEs": "Consulta los requisitos del condado/ciudad. Orange County: Recibo de Impuesto Empresarial Local ($25–$50)."
+          "descEs": "Consulte los requisitos del condado/ciudad. Orange County: Recibo de Impuesto Empresarial Local ($25–$50)."
         }
       ]
     },
     {
       "type": "text",
       "id": "text-1-2-3",
-      "title": "Agente Registrado y Dirección — El Requisito de Presencia Física",
-      "content": "<p>Florida requiere que toda entidad empresarial mantenga un agente registrado con una dirección física — no un apartado postal, no un buzón virtual. Piense en el agente registrado como el portero de su edificio — alguien que está allí para recibir avisos oficiales cuando usted no está.</p>\n\n<h4>Direcciones en SunBiz</h4>\n\n<p>Pongámoslo en perspectiva. SunBiz pide tres direcciones:</p>\n\n<ul><li><strong>Dirección principal:</strong> Un espacio de coworking, oficina o incubadora</li><li><strong>Dirección de correspondencia:</strong> Un servicio de buzón virtual (frecuentemente $10-$30/mes) o la misma que su dirección principal</li><li><strong>Dirección del agente registrado:</strong> Un servicio de agente profesional, o su dirección principal si alguien está físicamente presente durante el horario laboral</li></ul>\n\n<p>UCF BIP ofrece espacio de oficina flexible que los fundadores pueden usar como su dirección comercial. Pregunte a su contacto de UCF BIP sobre disponibilidad.</p>\n\n<h4>Servicios de Agente Registrado</h4>\n\n<p>Si no está en Florida a tiempo completo, un servicio de agente registrado es frecuentemente la solución más sencilla. Estos típicamente cuestan $100-$300 por año. Varios proveedores conocidos ofrecen este servicio en línea.</p>\n\n<p>No pase por alto este paso. Si su agente registrado caduca, Florida puede disolver su entidad, lo que significa que su negocio legalmente deja de existir hasta que lo corrija.</p>",
+      "title": "Agente Registrado y Dirección: El Requisito de Presencia Física",
+      "content": "<p>Florida exige que cada entidad empresarial mantenga un agente registrado con una dirección física de calle, no un apartado postal, no un buzón virtual. Un agente registrado es una persona o servicio en una dirección física de Florida que recibe avisos legales y gubernamentales oficiales en su nombre.</p>\n\n<h4>Direcciones en SunBiz</h4>\n\n<p>SunBiz solicita tres direcciones:</p>\n\n<ul><li><strong>Dirección principal:</strong> Un espacio de coworking, oficina o incubadora</li><li><strong>Dirección postal:</strong> Un servicio de buzón virtual (a menudo $10–$30 al mes) o la misma que su dirección principal</li><li><strong>Dirección del agente registrado:</strong> Un servicio profesional de agente, o su dirección principal si hay alguien físicamente presente durante el horario comercial</li></ul>\n\n<p>UCF BIP ofrece espacio de oficina flexible que los empresarios pueden usar como dirección de su negocio. Pregunte a su contacto en UCF BIP sobre la disponibilidad.</p>\n\n<h4>Servicios de Agente Registrado</h4>\n\n<p>Si no está en Florida a tiempo completo, un servicio de agente registrado suele ser la solución más sencilla. Estos típicamente cuestan entre $100 y $300 al año. Varios proveedores conocidos ofrecen este servicio en línea.</p>\n\n<p>No pase por alto este paso. Si su agente registrado caduca, Florida puede disolver su entidad, lo que significa que su negocio deja de existir legalmente hasta que lo arregle.</p>",
       "wordCount": 159
     },
     {
       "type": "timeline",
       "id": "int-1-2-1",
-      "title": "Cronograma de Registro — De Cero a Entidad",
+      "title": "Cronograma de Registro: De Cero a Entidad",
       "steps": [
         {
           "label": "Día 1",
           "title": "Elija Su Tipo de Entidad",
-          "content": "Decida entre LLC y C-Corp según su visa, financiamiento y necesidades tributarias. La S-Corp generalmente no está disponible para fundadores internacionales."
+          "content": "Decida entre LLC y C-Corp según sus necesidades de visa, financiamiento e impuestos. La S-Corp generalmente no está disponible para fundadores internacionales."
         },
         {
           "label": "Día 1–2",
-          "title": "Verificación de Disponibilidad de Nombre",
-          "content": "Busque en SunBiz.org para verificar que el nombre deseado para su negocio está disponible en Florida."
+          "title": "Verificación de Disponibilidad del Nombre",
+          "content": "Busque en SunBiz.org para verificar que el nombre de negocio que desea esté disponible en Florida."
         },
         {
           "label": "Día 2–3",
-          "title": "Presentar Documentos de Constitución y Designar Agente Registrado",
-          "content": "Presente los Artículos de Organización (LLC) o los Artículos de Incorporación (Corp) en línea a través de SunBiz. Durante el registro, designará un agente registrado basado en Florida con una dirección física para recibir documentos legales en su nombre."
+          "title": "Presente los Documentos de Constitución y Designe al Agente Registrado",
+          "content": "Envíe los Artículos de Organización (LLC) o los Artículos de Incorporación (Corp) en línea a través de SunBiz. Durante el registro, designará a un agente registrado con sede en Florida con una dirección física de calle para que reciba documentos legales en su nombre."
         },
         {
           "label": "Día 3–7",
-          "title": "Solicitar Su EIN",
-          "content": "Presente el Formulario SS-4 del IRS en línea para obtener su Número de Identificación del Empleador — es gratis y frecuentemente instantáneo."
+          "title": "Solicite Su EIN",
+          "content": "Presente el Formulario SS-4 del IRS en línea para obtener su Número de Identificación de Empleador; es gratis y a menudo instantáneo."
         },
         {
           "label": "Día 7–14",
-          "title": "Recibir Confirmación",
+          "title": "Reciba la Confirmación",
           "content": "Reciba su confirmación de registro de SunBiz y su carta de EIN del IRS. Está oficialmente registrado."
         }
       ]
@@ -144,15 +144,21 @@
       "type": "callout",
       "id": "callout-1-2-1",
       "variant": "common-mistake",
-      "title": "Errores Comunes de Registro que Retrasan Su Trámite",
-      "content": "<p>Aquí es donde los fundadores pierden tiempo. Estos son los errores que más comúnmente causan que los registros en SunBiz sean rechazados o retrasados:</p>\n\n<ul><li><strong>Nombre ya tomado.</strong> Siempre verifique la disponibilidad en SunBiz antes de enviar. Si su nombre preferido ya está tomado, considere agregar un descriptor de industria o identificador geográfico. También verifique si el nombre de dominio web correspondiente está disponible — una vez que el nombre de su entidad se registra en SunBiz, no puede cambiarlo sin formar una nueva entidad.</li><li><strong>Sufijo de entidad incorrecto.</strong> Las LLC deben incluir \"LLC\" o \"L.L.C.\" en el nombre. Las Corporaciones deben incluir \"Inc.,\" \"Corp.\" o \"Co.\" Registrar sin el sufijo correcto puede ser rechazado.</li><li><strong>Designación de agente registrado faltante.</strong> El agente registrado debe consentir servir en ese rol. Si la información no coincide con lo que el agente tiene registrado ante el estado, el trámite puede estancarse.</li><li><strong>Formato de dirección incorrecto.</strong> SunBiz requiere una dirección física para las direcciones principal y del agente registrado. No se acepta un apartado postal para estos campos. Las direcciones internacionales son generalmente aceptables para la dirección de correspondencia.</li></ul>"
+      "title": "Errores Comunes de Registro Que Retrasan Su Trámite",
+      "content": "<p>Estos son los errores que con más frecuencia hacen que los registros en SunBiz sean rechazados o se retrasen:</p>\n\n<ul><li><strong>Nombre ya tomado.</strong> Verifique siempre la disponibilidad en SunBiz antes de presentar el registro. Si su nombre preferido está tomado, considere agregar un descriptor de industria o un identificador geográfico. Verifique también si el nombre de dominio web correspondiente está disponible; una vez que el nombre de su entidad está registrado en SunBiz, no puede cambiarlo sin formar una nueva entidad.</li><li><strong>Sufijo de entidad incorrecto.</strong> Las LLC deben incluir \"LLC\" o \"L.L.C.\" en el nombre. Las Corporaciones deben incluir \"Inc.\", \"Corp.\" o \"Co.\" Presentar el registro sin el sufijo correcto puede ser rechazado.</li><li><strong>Designación de agente registrado faltante.</strong> El agente registrado debe consentir en desempeñar ese rol. Si la información no coincide con lo que el agente tiene archivado con el estado, el registro puede estancarse.</li><li><strong>Formato de dirección incorrecto.</strong> SunBiz exige una dirección de calle para las direcciones principal y del agente registrado. No se acepta un apartado postal para estos campos. Las direcciones internacionales generalmente son aceptables para la dirección postal.</li></ul>"
     },
     {
       "type": "callout",
       "id": "callout-1-2-wm",
       "variant": "watch-money-costs",
-      "title": "Cuide Su Dinero — Lo Que Realmente Cuesta el Registro",
-      "content": "<p>Note cómo los costos relacionados con el registro pueden acumularse más rápido de lo esperado. Estos son rangos típicos:</p>\n\n<ul><li><strong>Tarifa de registro en SunBiz:</strong> Típicamente alrededor de $125 para una LLC o $70 para una Corporación.</li><li><strong>Servicio de agente registrado:</strong> Típicamente $100–$300 por año si no está en Florida a tiempo completo.</li><li><strong>Buzón virtual (dirección de correspondencia):</strong> Frecuentemente $10–$30 por mes.</li><li><strong>Acuerdo operativo (redactado por abogado):</strong> Frecuentemente $300–$800 para una LLC. Hay plantillas disponibles para hacerlo usted mismo, pero pueden omitir detalles específicos para entidades de propietarios extranjeros.</li><li><strong>Solicitud de EIN:</strong> Gratis del IRS — no hay razón para pagarle a un tercero por esto.</li></ul>\n\n<p>El gasto excesivo más común en esta etapa es pagarle a un servicio cientos a miles de dólares por algo que puede hacer usted mismo en SunBiz en unos 30 minutos. El registro en sí es simple. Donde la ayuda experta realmente agrega valor es en la redacción de un acuerdo operativo, la configuración de estatutos corporativos o la asesoría sobre el tipo de entidad. Reserve su presupuesto para esas consultas.</p>"
+      "title": "Cuide Su Dinero: Lo Que Realmente Cuesta el Registro",
+      "content": "<p>Los costos relacionados con el registro pueden acumularse más rápido de lo esperado. Estos son los rangos típicos:</p>\n\n<ul><li><strong>Tarifa de registro de SunBiz:</strong> Típicamente alrededor de $125 para una LLC o $70 para una Corporación.</li><li><strong>Servicio de agente registrado:</strong> Típicamente $100–$300 al año si no está en Florida a tiempo completo.</li><li><strong>Buzón virtual (dirección postal):</strong> A menudo $10–$30 al mes.</li><li><strong>Acuerdo operativo (redactado por un abogado):</strong> A menudo $300–$800 para una LLC. Hay plantillas para hacerlo uno mismo, pero pueden omitir detalles específicos para entidades de propiedad extranjera.</li><li><strong>Solicitud de EIN:</strong> Gratuita ante el IRS; no hay razón para pagar a un tercero por esto.</li></ul>\n\n<p>El gasto excesivo más común en esta etapa es pagar a un servicio cientos o miles de dólares por algo que usted mismo puede hacer en SunBiz en unos 30 minutos. El registro en sí es simple. Donde la ayuda experta realmente añade valor es en la redacción de un acuerdo operativo, en la configuración de los estatutos corporativos o en el asesoramiento sobre el tipo de entidad. Reserve su presupuesto para esas conversaciones.</p>"
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-1-2",
+      "imagePath": "images/scenarios/lesson-1-2-registered-agent.jpg",
+      "title": "Agente registrado revisando documentos de constitución de empresas en Florida"
     },
     {
       "type": "knowledge-check",
@@ -165,30 +171,30 @@
           "options": [
             "Una licencia de conducir de EE.UU.",
             "Una cuenta bancaria personal en un banco de Florida",
-            "Un agente registrado con una dirección física en Florida",
+            "Un agente registrado con una dirección física de calle en Florida",
             "Un contrato de arrendamiento de oficina firmado en Orlando"
           ],
           "correctAnswer": 2,
-          "explanation": "Florida requiere que todo negocio tenga un agente registrado con una dirección física. Si no está en Florida, un servicio de agente registrado se encarga de esto por usted. No se requiere una licencia de conducir para el registro en SunBiz. Una cuenta bancaria personal es un paso separado que viene después de la constitución de la entidad. Un contrato de arrendamiento de oficina no es un prerrequisito para el registro."
+          "explanation": "Florida exige que cada negocio tenga un agente registrado con una dirección física de calle. Si no está en Florida, un servicio de agente registrado se encarga de esto por usted. No se requiere una licencia de conducir para el registro en SunBiz. Una cuenta bancaria personal es un paso aparte que viene después de la constitución de la entidad. Un contrato de arrendamiento de oficina no es un prerrequisito para el registro."
         },
         {
-          "stem": "Acaba de registrar su LLC de Florida en SunBiz. Antes de finalizar, un mentor le dice que también verifique el nombre de dominio web. ¿Por qué es importante?",
+          "stem": "Acaba de registrar su LLC de Florida en SunBiz. Antes de finalizar, un mentor le dice que también verifique el nombre de dominio del sitio web. ¿Por qué importa esto?",
           "options": [
             "El nombre de dominio debe coincidir exactamente con su registro en SunBiz o la LLC es inválida",
-            "SunBiz reserva automáticamente el dominio .com cuando usted se registra",
-            "Los nombres de dominio solo son relevantes cuando empiece a hacer marketing, así que puede esperar",
-            "Una vez que el nombre de su entidad se registra en SunBiz, no puede cambiarlo — si el dominio correspondiente ya está tomado, puede quedar atrapado con un nombre que no funciona en línea"
+            "SunBiz reserva automáticamente el dominio .com para usted cuando presenta el registro",
+            "Los nombres de dominio solo son relevantes una vez que comience a hacer marketing, así que puede esperar",
+            "Una vez que el nombre de su entidad está registrado en SunBiz, no puede cambiarlo; si el dominio correspondiente está tomado, podría quedarse con un nombre que no funciona en línea"
           ],
           "correctAnswer": 3,
-          "explanation": "El nombre de su entidad en SunBiz no se puede cambiar después del registro sin formar una nueva entidad. Si descubre que el dominio correspondiente no está disponible después de registrar, tendrá una presencia web que no coincide o necesitará una nueva entidad. El dominio no necesita coincidir exactamente para que la LLC sea válida, SunBiz no reserva dominios, y esperar hasta el marketing arriesga descubrir un conflicto demasiado tarde. Verificar la disponibilidad del dominio antes de registrar toma dos minutos y puede ahorrar molestias significativas."
+          "explanation": "El nombre de su entidad en SunBiz no se puede cambiar después del registro sin formar una nueva entidad. Si descubre que el dominio correspondiente no está disponible después del registro, necesitará una presencia web que no coincida o una nueva entidad. El dominio no necesita coincidir exactamente para que la LLC sea válida, SunBiz no reserva dominios y esperar hasta que comience el marketing arriesga descubrir un conflicto demasiado tarde. Verificar la disponibilidad del dominio antes del registro toma dos minutos y puede ahorrar molestias significativas."
         },
         {
-          "stem": "Necesita un EIN para su nueva LLC de Florida pero no tiene un SSN o ITIN. ¿Cuál es típicamente la forma más rápida de obtener uno?",
+          "stem": "Necesita un EIN para su nueva LLC de Florida pero no tiene SSN ni ITIN. ¿Cuál es típicamente la forma más rápida de obtener uno?",
           "options": [
-            "Llamar a la línea internacional del IRS — los tiempos de espera varían, pero se ha reportado procesamiento el mismo día",
-            "Solicitar en línea en irs.gov — toma unos 15 minutos",
+            "Llamar a la línea internacional del IRS; los tiempos de espera varían, pero se ha reportado procesamiento el mismo día",
+            "Solicitarlo en línea en irs.gov; toma unos 15 minutos",
             "Enviar el Formulario SS-4 por correo al IRS",
-            "Pedirle a su agente registrado que solicite en su nombre"
+            "Pedir a su agente registrado que solicite en su nombre"
           ],
           "correctAnswer": 0,
           "explanation": "Sin un SSN o ITIN, la solicitud en línea no está disponible. Llamar a la línea internacional del IRS al 267-941-1099 se ha reportado como la alternativa más rápida, aunque los tiempos de espera pueden variar. El método en línea requiere un SSN o ITIN que usted no tiene. Enviar el formulario por correo puede tomar varias semanas. Los agentes registrados típicamente no presentan solicitudes de EIN en su nombre. Verifique que el número de teléfono esté vigente antes de llamar."
@@ -198,8 +204,8 @@
     {
       "type": "key-takeaway",
       "id": "kt-1-2-1",
-      "title": "Conclusión Clave",
-      "content": "<p>La conclusión es esta: su visita a la alcaldía es una de las paradas más sencillas en la ciudad. El registro en Florida a través de SunBiz es uno de los pasos más directos en su proceso de constitución en EE.UU. La verdadera preparación ocurre antes de registrar: elegir el tipo de entidad correcto, asegurar un agente registrado y entender los requisitos de dirección.</p>\n\n<p>La combinación de Florida de no tener impuesto estatal sobre la renta personal, registro en línea simple, conexiones globales y costos más bajos es gran parte de la razón por la que los fundadores la siguen eligiendo como su punto de entrada. Aplique este conocimiento antes de hacer clic en \"enviar\": tenga listo su plan de EIN, agente registrado y estrategia de dirección. Compare las ventajas de Florida con otros estados, luego evalúe si el momento es adecuado para su registro.</p>"
+      "title": "Punto Clave",
+      "content": "<p>Presentar el registro en SunBiz es uno de los pasos más simples en su proceso de constitución en EE.UU. La verdadera preparación ocurre antes de presentar el registro: elegir el tipo de entidad correcto, asegurar un agente registrado y comprender los requisitos de dirección.</p>\n\n<p>La combinación de Florida —sin impuesto estatal sobre la renta personal, registro en línea simple, vínculos globales y costos más bajos— es una gran parte de por qué los fundadores la siguen eligiendo como su punto de entrada. Aplique este conocimiento antes de hacer clic en \"enviar\": tenga listos su plan de EIN, su agente registrado y su estrategia de dirección. Compare las ventajas de Florida con otros estados, luego evalúe si el momento es el adecuado para su registro.</p>"
     }
   ]
 }

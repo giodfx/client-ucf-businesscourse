@@ -498,46 +498,98 @@ html, .rt-lesson-body {
   transform: translateX(2px);
 }
 
-.rt-callout--common-mistake {
+/* Unified callout taxonomy (April 28 2026)
+   6 canonical variants, color + Lucide icon per type. */
+
+.rt-callout--reduce-risk {        /* Red — legal/IP/visa risk */
   background: rgba(252,129,129,0.08);
   border-color: #fc8181;
 }
 
-.rt-callout--reality-check {
-  background: rgba(245,166,35,0.08);
-  border-color: var(--rt-accent);
-}
-
-.rt-callout--before-you-spend {
-  background: rgba(72,187,120,0.08);
-  border-color: var(--rt-success);
-}
-
-.rt-callout--fun-fact {
-  background: rgba(99,179,237,0.08);
-  border-color: #63b3ed;
-}
-
-.rt-callout--info {
-  background: rgba(99,179,237,0.08);
-  border-color: #63b3ed;
-}
-
-.rt-callout--warning {
+.rt-callout--common-mistake {     /* Yellow — caution / mistakes to avoid */
   background: rgba(236,201,75,0.08);
   border-color: #ecc94b;
 }
 
-.rt-callout--tip {
+.rt-callout--watch-money {        /* Green — costs / before-you-spend */
   background: rgba(72,187,120,0.08);
   border-color: var(--rt-success);
 }
+
+.rt-callout--cultural-insight {   /* Blue — culture / regional notes */
+  background: rgba(99,179,237,0.08);
+  border-color: #63b3ed;
+}
+
+.rt-callout--reality-check {      /* Orange — disclaimer / important notice */
+  background: rgba(245,166,35,0.08);
+  border-color: var(--rt-accent);
+}
+
+.rt-callout--fun-fact {           /* Blue — Did You Know (avatar) */
+  background: rgba(99,179,237,0.08);
+  border-color: #63b3ed;
+}
+
+/* Legacy compatibility (CSS aliases for any --info/--warning/--tip in older content) */
+.rt-callout--info    { background: rgba(99,179,237,0.08); border-color: #63b3ed; }
+.rt-callout--warning { background: rgba(236,201,75,0.08); border-color: #ecc94b; }
+.rt-callout--tip     { background: rgba(72,187,120,0.08); border-color: var(--rt-success); }
 
 .rt-callout-icon {
   font-size: 22px;
   line-height: 1;
   flex-shrink: 0;
   filter: drop-shadow(0 1px 4px rgba(0,0,0,0.3));
+}
+
+/* Circular avatar treatment for callouts (replaces ascii icon when available) */
+.rt-callout-avatar {
+  flex-shrink: 0;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--rt-accent, #d4a843);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3), inset 0 0 0 1px rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.2);
+  align-self: flex-start;
+  margin-top: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.rt-callout-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.rt-callout:hover .rt-callout-avatar {
+  transform: scale(1.04);
+  box-shadow: 0 4px 12px rgba(212,168,67,0.35), inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+/* Variant-specific border tint on the avatar */
+.rt-callout--common-mistake .rt-callout-avatar,
+.rt-callout--common-mistakes-repeating .rt-callout-avatar,
+.rt-callout--theme-common-mistakes .rt-callout-avatar,
+.rt-callout--theme-avoid-mistakes .rt-callout-avatar {
+  border-color: #fc8181;
+}
+.rt-callout--watch-money-costs .rt-callout-avatar,
+.rt-callout--theme-watch-money .rt-callout-avatar {
+  border-color: #f6ad55;
+}
+.rt-callout--before-you-spend .rt-callout-avatar,
+.rt-callout--theme-reduce-risk .rt-callout-avatar {
+  border-color: #48bb78;
+}
+.rt-callout--reality-check .rt-callout-avatar {
+  border-color: #63b3ed;
+}
+
+@media (max-width: 640px) {
+  .rt-callout-avatar { width: 68px; height: 68px; }
 }
 
 .rt-callout-title {

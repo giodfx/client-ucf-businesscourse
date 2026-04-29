@@ -7,47 +7,47 @@
   "objectives": [
     "Identificar el SBDC, la SBA, las cámaras de comercio y las agencias de desarrollo económico relevantes para su negocio",
     "Describir lo que ofrece cada organización (asesoría, acceso a financiamiento, networking, capacitación)",
-    "Explicar cómo acceder a estos recursos y qué esperar del proceso de contacto"
+    "Explicar cómo acceder a estos recursos y qué esperar de la interacción"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-7-1-1",
-      "title": "Descubriendo los Manantiales, Donde Todo se Conecta",
-      "content": "<p>Imagínese saliendo de un sendero en Central Florida y descubriendo un manantial natural de agua cristalina. El agua es tan transparente que puede ver cada detalle del lecho del río. Peces, tortugas, manatíes, raíces de ciprés, plantas acuáticas: todo un ecosistema que prospera porque todo está interconectado. La red de apoyo empresarial de Central Florida funciona de la misma manera. SBDC, SBA, cámaras de comercio, UCF BIP, SCORE, Prospera: cada uno alimenta el mismo sistema vivo, y todos están aquí para apoyar a fundadores como usted.</p>\n\n<p>Una fundadora colombiana gastó $4,500 en un consultor de negocios para armar un plan de entrada al mercado de Central Florida. Tres meses después, descubrió que el SBDC en UCF ofrece el mismo servicio, gratis. Había estado parada al borde de los manantiales sin darse cuenta de que todo el ecosistema ya estaba ahí.</p>\n\n<p>¿Qué significa esto para usted? Estados Unidos tiene una red completa de grupos de apoyo empresarial financiados por el gobierno federal, estatal y local. La mayoría recibe a fundadores extranjeros, muchos tienen personal bilingüe, y casi todos son gratuitos o de bajo costo. Usted no está pidiendo caridad. Estos recursos existen específicamente para fundadores como usted.</p>",
+      "title": "Su Red de Apoyo: Donde Todo Se Conecta",
+      "content": "<p>Central Florida tiene una red de apoyo empresarial que muchos fundadores internacionales nunca descubren por su cuenta. SBDC, SBA, cámaras de comercio, UCF BIP, SCORE, Prospera: cada uno se conecta con los demás, y todos están aquí para apoyar a fundadores como usted.</p>\n\n<p>Muchos fundadores internacionales gastan miles en consultores privados por servicios disponibles gratuitamente a través de estas organizaciones.</p>\n\n<p>EE.UU. tiene una red de grupos de apoyo empresarial financiados por el gobierno federal, estatal y local. La mayoría dan la bienvenida a los fundadores extranjeros, muchos tienen personal bilingüe y casi todos son gratuitos o de bajo costo. No está pidiendo caridad. Estos recursos existen para fundadores como usted.</p>",
       "wordCount": 172
     },
     {
       "type": "text",
       "id": "text-7-1-2",
-      "title": "La Ayuda Gratuita Está Más Cerca de lo que Piensa",
-      "content": "<p>Una fundadora de Colombia gastó $4,500 en un consultor privado para navegar el proceso de establecer un negocio en EE.UU. — y luego descubrió que el Small Business Development Center en UCF ofrece la misma orientación gratis. Central Florida tiene varias organizaciones diseñadas específicamente para ayudar a fundadores internacionales, y la mayoría no cuestan nada.</p>\n\n<p>Aquí están las cinco que debe conocer. Cada una cumple un propósito diferente — explore el directorio a continuación para encontrar la que mejor se adapte a donde se encuentra ahora mismo.</p>",
+      "title": "La Ayuda Gratuita Está Más Cerca de Lo Que Cree",
+      "content": "<p>Un empresario de Colombia gastó $4,500 en un consultor privado para ayudarle a navegar la constitución empresarial en EE.UU., y luego descubrió que el Centro de Desarrollo de Pequeñas Empresas en UCF ofrece la misma orientación de forma gratuita. Central Florida tiene varias organizaciones específicamente diseñadas para ayudar a fundadores internacionales, y la mayoría no cuestan nada.</p>\n\n<p>Aquí están las cinco que debería conocer. Cada una sirve a un propósito distinto; explore el directorio a continuación para encontrar el encaje correcto para donde está en este momento.</p>",
       "wordCount": 242
     },
     {
       "type": "accordion",
       "id": "int-7-1-1",
-      "title": "Directorio de Recursos — Qué Hace Cada Organización",
+      "title": "Directorio de Recursos: Lo Que Hace Cada Organización",
       "sections": [
         {
           "heading": "Florida SBDC en UCF",
-          "content": "**Qué hacen:** Asesoría empresarial gratuita y confidencial. Investigación de mercado, proyecciones financieras, revisión de planes de negocio.\n\n**Ideal para:** Fundadores internacionales que necesitan orientación práctica para establecer operaciones.\n\n**Cómo acceder:** Agende una consulta en floridaSBDC.org. Sin costo, sin compromiso.\n\n**¿Amigable con internacionales?** Sí — trabajan ampliamente con emprendedores internacionales."
+          "content": "**Lo que hacen:** Asesoría empresarial gratuita y confidencial. Investigación de mercado, proyecciones financieras, revisión del plan de negocios.\n\n**Mejor para:** Fundadores internacionales que necesitan orientación práctica para configurar operaciones.\n\n**Cómo acceder:** Programe una consulta en sbdcorlando.com. Sin costo, sin obligación.\n\n**Amigable con internacionales:** Sí, trabajan extensivamente con emprendedores internacionales."
         },
         {
           "heading": "SBA (Small Business Administration)",
-          "content": "**Qué hacen:** Agencia federal que ofrece garantías de préstamos, capacitación y asistencia en contrataciones.\n\n**Ideal para:** Acceder a capital (los préstamos respaldados por la SBA tienen mejores condiciones que los préstamos convencionales).\n\n**Cómo acceder:** sba.gov — encuentre su oficina local del distrito SBA.\n\n**¿Amigable con internacionales?** Los préstamos requieren residencia en EE.UU., pero la capacitación está abierta para todos."
+          "content": "**Lo que hacen:** Agencia federal que proporciona garantías de préstamos, capacitación y asistencia con contratos.\n\n**Mejor para:** Acceder a capital (los préstamos respaldados por la SBA tienen mejores términos que los préstamos convencionales).\n\n**Cómo acceder:** sba.gov; encuentre su oficina de distrito local de la SBA.\n\n**Amigable con internacionales:** Los préstamos requieren residencia en EE.UU., pero la capacitación está abierta a todos."
         },
         {
           "heading": "Orlando Economic Partnership",
-          "content": "**Qué hacen:** Organización regional de desarrollo económico. Asistencia para reubicación empresarial, selección de ubicaciones, coordinación de incentivos.\n\n**Ideal para:** Empresas que planean reubicarse físicamente en Central Florida.\n\n**Cómo acceder:** orlando.org — solicite una consulta para expansión empresarial.\n\n**¿Amigable con internacionales?** Sí — tienen un equipo dedicado a negocios internacionales."
+          "content": "**Lo que hacen:** Organización regional de desarrollo económico. Asistencia para reubicación empresarial, selección de sitio, coordinación de incentivos.\n\n**Mejor para:** Empresas que planean reubicarse físicamente a Central Florida.\n\n**Cómo acceder:** orlando.org; solicite una consulta para expansión empresarial.\n\n**Amigable con internacionales:** Sí, tienen un equipo dedicado de negocios internacionales."
         },
         {
           "heading": "Prospera",
-          "content": "**Qué hacen:** Servicios bilingües de desarrollo empresarial específicamente para emprendedores hispanos.\n\n**Ideal para:** Fundadores hispanohablantes que desean apoyo en su idioma nativo.\n\n**Cómo acceder:** prosperausa.org — talleres gratuitos y consultoría individual.\n\n**¿Amigable con internacionales?** Diseñado específicamente para emprendedores inmigrantes."
+          "content": "**Lo que hacen:** Servicios bilingües de desarrollo empresarial específicamente para emprendedores hispanos.\n\n**Mejor para:** Fundadores hispanohablantes que quieren apoyo en su idioma nativo.\n\n**Cómo acceder:** prosperausa.org; talleres gratuitos y consultoría 1 a 1.\n\n**Amigable con internacionales:** Específicamente diseñado para emprendedores inmigrantes."
         },
         {
           "heading": "SCORE Orlando",
-          "content": "**Qué hacen:** Mentoría gratuita de ejecutivos de negocios jubilados. Series de talleres sobre fundamentos para startups.\n\n**Ideal para:** Fundadores que desean mentoría continua de emprendedores experimentados.\n\n**Cómo acceder:** score.org/orlando — encuentre un mentor.\n\n**¿Amigable con internacionales?** Sí, pero la mentoría es en inglés."
+          "content": "**Lo que hacen:** Mentoría gratuita de ejecutivos de negocios jubilados. Serie de talleres sobre los fundamentos de las startups.\n\n**Mejor para:** Fundadores que quieren mentoría continua de emprendedores experimentados.\n\n**Cómo acceder:** score.org/orlando; haga match con un mentor.\n\n**Amigable con internacionales:** Sí, pero la mentoría es en inglés."
         }
       ]
     },
@@ -56,14 +56,14 @@
       "style": "grid",
       "id": "ig-7-1-resource",
       "title": "Your Central Florida Resource Network",
-      "titleEs": "Tu Red de Recursos en Florida Central",
+      "titleEs": "Su Red de Recursos en Central Florida",
       "cols": 3,
       "cards": [
         {
           "heading": "UCF Business Incubation Program",
-          "headingEs": "Programa de Incubación Empresarial UCF",
+          "headingEs": "UCF Business Incubation Program",
           "desc": "Free mentoring, workshops, office space for startups. Located at UCF campus and East Orlando.",
-          "descEs": "Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus UCF y este de Orlando.",
+          "descEs": "Mentoría gratuita, talleres, espacio de oficina para startups. Ubicado en el campus de UCF y el este de Orlando.",
           "cost": "FREE",
           "costEs": "GRATIS"
         },
@@ -71,7 +71,7 @@
           "heading": "Small Business Development Center (SBDC)",
           "headingEs": "Centro de Desarrollo de Pequeñas Empresas (SBDC)",
           "desc": "Free 1:1 consulting, business plan help, market research. Downtown Orlando and multiple locations.",
-          "descEs": "Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y múltiples ubicaciones.",
+          "descEs": "Consultoría 1:1 gratuita, ayuda con plan de negocios, investigación de mercado. Downtown Orlando y varias ubicaciones.",
           "cost": "FREE",
           "costEs": "GRATIS"
         },
@@ -79,7 +79,7 @@
           "heading": "SCORE Orlando",
           "headingEs": "SCORE Orlando",
           "desc": "Free mentoring from retired business executives. Extensive experience across industries.",
-          "descEs": "Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en diversas industrias.",
+          "descEs": "Mentoría gratuita de ejecutivos de negocios jubilados. Amplia experiencia en distintas industrias.",
           "cost": "FREE",
           "costEs": "GRATIS"
         },
@@ -87,42 +87,42 @@
           "heading": "Enterprise Florida",
           "headingEs": "Enterprise Florida",
           "desc": "State organizational trade assistance, export development. Helps international businesses enter the U.S. market.",
-          "descEs": "Asistencia estatal de comercio organizacional, desarrollo de exportaciones. Ayuda a negocios internacionales a entrar al mercado de EE.UU.",
+          "descEs": "Asistencia comercial estatal, desarrollo de exportaciones. Ayuda a los negocios internacionales a entrar al mercado de EE.UU.",
           "cost": "FREE",
           "costEs": "GRATIS"
         },
         {
           "heading": "Orlando Economic Partnership",
-          "headingEs": "Alianza Económica de Orlando",
+          "headingEs": "Orlando Economic Partnership",
           "desc": "Regional economic development, relocation assistance, industry connections. Lake Nona and Downtown.",
-          "descEs": "Desarrollo económico regional, asistencia de reubicación, conexiones industriales. Lake Nona y Downtown.",
+          "descEs": "Desarrollo económico regional, asistencia para reubicación, conexiones con la industria. Lake Nona y Downtown.",
           "cost": "FREE",
           "costEs": "GRATIS"
         }
       ],
       "footer": "All organizations listed offer FREE or low-cost services for international entrepreneurs.",
-      "footerEs": "Todas las organizaciones listadas ofrecen servicios GRATIS o de bajo costo para emprendedores internacionales."
+      "footerEs": "Todas las organizaciones listadas ofrecen servicios GRATUITOS o de bajo costo para emprendedores internacionales."
     },
     {
       "type": "callout",
       "id": "callout-7-1-funfact",
       "variant": "fun-fact",
-      "title": "¿Sabía Que?",
-      "content": "<p>Florida tiene más de 700 manantiales naturales, la mayor concentración de manantiales de agua dulce en la Tierra. Muchos de estos manantiales descargan millones de galones de agua cada día, alimentando ríos, humedales y ecosistemas enteros río abajo. La red de apoyo empresarial en Central Florida funciona de manera similar: el financiamiento federal fluye hacia la SBA, que alimenta al SBDC, que se conecta con cámaras y programas como UCF BIP. Un recurso lleva al siguiente, y todo el sistema se mantiene saludable porque las partes están conectadas.</p>"
+      "title": "¿Sabía Usted?",
+      "content": "<p>Florida tiene más de 700 manantiales naturales, la mayor concentración de manantiales de agua dulce de la Tierra. Muchos de estos manantiales descargan millones de galones de agua cada día, alimentando ríos, humedales y ecosistemas enteros aguas abajo. Central Florida también alberga una de las redes más profundas de organizaciones de apoyo empresarial gratuito del país.</p>"
     },
     {
       "type": "callout",
       "id": "callout-7-1-wm",
       "variant": "watch-money-costs",
-      "title": "Cuide Su Dinero: Lo que Esto Realmente Cuesta",
-      "content": "<p>Observe lo accesible que es este ecosistema. Costos de las organizaciones de apoyo a principios de 2026:</p>\n\n<ul><li><strong>Asesoría empresarial del SBDC:</strong> Gratis (sesiones ilimitadas)</li><li><strong>Talleres del SBDC:</strong> Gratis a $50 por sesión</li><li><strong>Recursos y guías de SBA.gov:</strong> Gratis</li><li><strong>Consulta con Orlando Economic Partnership:</strong> Gratis</li><li><strong>Membresía en Cámara de Comercio:</strong> $200–$500/año</li><li><strong>Mentoría de SCORE:</strong> Gratis (mentores empresariales voluntarios)</li><li><strong>Programas de Prospera:</strong> Gratis a bajo costo</li></ul>\n\n<p><strong>Compare eso con la ayuda privada:</strong> $150–$350/hora por un consultor de negocios, o $3,000–$10,000 por una estrategia de entrada al mercado que el SBDC desarrolla con usted sin costo. Siempre consulte las opciones gratuitas primero.</p>"
+      "title": "Cuide Su Dinero: Lo Que Realmente Cuesta Esto",
+      "content": "<p>Costos de las organizaciones de apoyo a inicios de 2026:</p>\n\n<ul><li><strong>Asesoría empresarial del SBDC:</strong> Gratis (sesiones ilimitadas)</li><li><strong>Talleres del SBDC:</strong> Gratis a $50 por sesión</li><li><strong>Recursos y guías de SBA.gov:</strong> Gratis</li><li><strong>Consulta del Orlando Economic Partnership:</strong> Gratis</li><li><strong>Membresía de cámara de comercio:</strong> $200–$500 al año</li><li><strong>Mentoría de SCORE:</strong> Gratis (mentores empresariales voluntarios)</li><li><strong>Programas de Prospera:</strong> Gratis a bajo costo</li></ul>\n\n<p><strong>Compare eso con la ayuda privada:</strong> $150–$350 por hora por un consultor de negocios, o $3,000–$10,000 por una estrategia de entrada al mercado que el SBDC desarrolla con usted sin costo. Verifique siempre las opciones gratuitas primero.</p>"
     },
     {
       "type": "callout",
       "id": "callout-7-1-cm",
       "variant": "common-mistakes-repeating",
-      "title": "Errores Comunes que Cometen los Fundadores Internacionales — Recursos",
-      "content": "<p>¿Por qué importa esto? Considere estos errores frecuentes:</p><ul><li><strong>No saber que existen recursos gratuitos (SBDC, asesoría de la SBA).</strong> La mayoría de los fundadores internacionales asumen que la asesoría empresarial de calidad cuesta dinero. Estados Unidos tiene un sistema completo financiado con impuestos diseñado para ayudarle gratis.</li><li><strong>Pagar consultores por asesoría disponible a través de programas gubernamentales.</strong> Antes de contratar a cualquier consultor, verifique si el SBDC o la SBA cubren ese tema primero. Podría ahorrarse $5,000 o más.</li><li><strong>No aprovechar las conexiones de UCF BIP y las cámaras.</strong> Estas organizaciones existen para conectarle con las personas adecuadas. Una presentación cálida de UCF BIP o un contacto de la cámara tiene más peso que un correo electrónico en frío.</li></ul>"
+      "title": "Errores Comunes que Cometen los Fundadores Internacionales: Recursos",
+      "content": "<p>Considere estas trampas comunes:</p><ul><li><strong>No conocer los recursos gratuitos (asesoría del SBDC, SBA).</strong> Muchos fundadores internacionales asumen que la asesoría empresarial de calidad cuesta dinero. EE.UU. tiene todo un sistema financiado por los contribuyentes construido para ayudarle gratis.</li><li><strong>Pagar a consultores por asesoría disponible a través de programas gubernamentales.</strong> Antes de contratar a cualquier consultor, verifique si el SBDC o la SBA cubren ese tema primero. Podría ahorrar $5,000 o más.</li><li><strong>No aprovechar las conexiones de UCF BIP y de las cámaras.</strong> Estas organizaciones existen para conectarle con las personas correctas. Una presentación cordial de UCF BIP o de un contacto de la cámara tiene más peso que un correo electrónico en frío.</li></ul>"
     },
     {
       "type": "knowledge-check",
@@ -131,45 +131,51 @@
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "¿Cuál organización ofrece asesoría empresarial individual gratuita y continua a fundadores internacionales en Central Florida?",
+          "stem": "¿Qué organización proporciona asesoría empresarial gratuita y continua uno a uno a fundadores internacionales en Central Florida?",
           "options": [
             "Florida SBDC en UCF",
-            "Cámara de Comercio Regional de Orlando",
+            "Orlando Regional Chamber of Commerce",
             "Orlando Economic Partnership",
-            "Cámara de Comercio Hispana"
+            "Hispanic Chamber of Commerce"
           ],
           "correctAnswer": 0,
-          "explanation": "El Florida SBDC (Small Business Development Center) en UCF ofrece asesoría empresarial individual gratuita. Esta es una relación continua, no una reunión única. Los asesores ayudan con planificación empresarial, investigación de mercado, análisis financiero y estrategia sin costo alguno."
+          "explanation": "El Florida SBDC (Centro de Desarrollo de Pequeñas Empresas) en UCF proporciona asesoría empresarial gratuita uno a uno. Esta es una relación continua, no una reunión única. Los asesores ayudan con la planificación empresarial, la investigación de mercado, el análisis financiero y la estrategia sin costo."
         },
         {
           "stem": "Un fundador internacional quiere ayuda con investigación de mercado y un plan de negocios. ¿Qué debería hacer PRIMERO?",
           "options": [
-            "Contratar un consultor de negocios especializado en entrada al mercado",
-            "Unirse a la Cámara de Comercio Regional de Orlando",
+            "Contratar a un consultor de negocios especializado en entrada al mercado",
+            "Unirse a la Orlando Regional Chamber of Commerce",
             "Solicitar un préstamo de la SBA para financiar la investigación",
-            "Agendar una cita gratuita con el Florida SBDC en UCF"
+            "Programar una cita gratuita con el Florida SBDC en UCF"
           ],
           "correctAnswer": 3,
-          "explanation": "El SBDC debería ser su primera parada para apoyo en investigación de mercado y planificación empresarial. Sus asesores ofrecen exactamente este servicio sin costo. Contratar un consultor para el mismo trabajo podría costar $3,000–$10,000. Siempre consulte los recursos gratuitos antes de pagar por ayuda privada."
+          "explanation": "El SBDC debería ser su primera parada para apoyo en investigación de mercado y planificación empresarial. Sus asesores proporcionan exactamente este servicio sin costo. Contratar a un consultor para el mismo trabajo podría costar $3,000–$10,000. Verifique siempre los recursos gratuitos antes de pagar por ayuda privada."
         },
         {
-          "stem": "Una fundadora de Perú acaba de llegar a Central Florida. Necesita ayuda con investigación de mercado, un plan de negocios y conexiones con clientes potenciales. Tiene $8,000 reservados para honorarios de consultoría. Según cómo funciona el ecosistema de apoyo, ¿qué debería esperar cuando se conecte con estas organizaciones?",
+          "stem": "Una emprendedora de Perú acaba de llegar a Central Florida. Necesita ayuda con investigación de mercado, un plan de negocios y conexiones con clientes potenciales. Tiene $8,000 reservados para honorarios de consultoría. Con base en cómo funciona el ecosistema de apoyo, ¿qué debería esperar al interactuar con estas organizaciones?",
           "options": [
             "Necesitará pagar los $8,000 para acceder a asesoría empresarial de calidad a través del SBDC y SCORE",
             "Cada organización proporcionará servicios idénticos, así que solo necesita contactar a una",
-            "El SBDC le proporcionará asesoría continua gratuita para su plan de negocios e investigación de mercado, SCORE la emparejará con un mentor de la industria, y una cámara de comercio la conectará con eventos de networking — permitiéndole ahorrar la mayor parte de esos $8,000 para operaciones reales del negocio",
-            "Estas organizaciones solo atienden a ciudadanos estadounidenses, así que necesitará contratar un consultor privado"
+            "El SBDC proporcionará asesoría continua gratuita para su plan de negocios e investigación de mercado, SCORE le emparejará con un mentor de la industria, y una cámara de comercio la conectará a eventos de networking, permitiéndole ahorrar la mayor parte de esos $8,000 para operaciones reales del negocio",
+            "Estas organizaciones solo atienden a ciudadanos estadounidenses, así que tendrá que contratar a un consultor privado en su lugar"
           ],
           "correctAnswer": 2,
-          "explanation": "El ecosistema de apoyo está interconectado pero cada organización cumple un rol distinto. El SBDC ofrece asesoría empresarial gratuita e ilimitada incluyendo investigación de mercado y planes de negocio. SCORE ofrece mentoría gratuita de ejecutivos experimentados. Las cámaras de comercio proporcionan networking por una cuota anual modesta ($200-$500). Estos servicios están disponibles para fundadores internacionales sin importar el estatus de ciudadanía. Los $8,000 que presupuestó para consultoría podrían redirigirse a operaciones reales del negocio."
+          "explanation": "El ecosistema de apoyo está interconectado pero cada organización cumple un rol distinto. El SBDC proporciona asesoría empresarial gratuita e ilimitada que incluye investigación de mercado y planes de negocios. SCORE ofrece mentoría gratuita de ejecutivos experimentados. Las cámaras de comercio ofrecen networking por una modesta cuota anual ($200–$500). Estos servicios están disponibles para fundadores internacionales sin importar el estatus de ciudadanía. Los $8,000 que presupuestó para consultoría podrían redirigirse a operaciones reales del negocio."
         }
       ]
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-7-1",
+      "imagePath": "images/scenarios/lesson-7-1-advisory-consultation.jpg",
+      "title": "Fundador reuniéndose con un asesor empresarial en un centro de recursos de Central Florida"
     },
     {
       "type": "key-takeaway",
       "id": "kt-7-1-1",
       "title": "Punto Clave",
-      "content": "<p>La conclusión es simple. El ecosistema de apoyo de Central Florida es como sus manantiales naturales: profundo, claro e interconectado. El SBDC en UCF debería ser su primera llamada para planificación empresarial e investigación de mercado. La SBA ofrece recursos y guías federales. Las cámaras de comercio proporcionan networking y credibilidad. Use estos recursos antes de gastar dinero en consultores privados. Intente esto: compare las opciones gratuitas con las de pago, luego vea qué grupos se ajustan a su etapa. Los fundadores que tienen éxito más rápido son los que se sumergen en el ecosistema y aprovechan cada ventaja disponible.</p>"
+      "content": "<p>El ecosistema de apoyo de Central Florida es profundo, bien organizado e interconectado. El SBDC en UCF debería ser su primera llamada para la planificación empresarial y la investigación de mercado. La SBA ofrece recursos federales y guías. Las cámaras de comercio proporcionan networking y credibilidad. Use estos recursos antes de gastar dinero en consultores privados. Compare las opciones gratuitas con las pagadas, luego vea qué grupos coinciden con su etapa. Los fundadores que tienen éxito más rápido se involucran con el ecosistema y usan cada ventaja disponible.</p>"
     }
   ]
 }

@@ -249,7 +249,7 @@
 }
 
 .review-banner-link {
-    background: #f59e0b;
+    background: #b45309;
     color: white;
     padding: 6px 16px;
     border-radius: 6px;
@@ -259,7 +259,7 @@
 }
 
 .review-banner-link:hover {
-    background: #d97706;
+    background: #92400e;
 }
 
 .review-banner-dismiss {

@@ -2,70 +2,70 @@
   "lessonId": "lesson-0-1",
   "moduleId": "module-0",
   "landscapeTheme": "Highway / Dashboard Entry",
-  "title": "Comience Aquí — Qué Esperar y Cómo Usar Este Programa",
+  "title": "Qué Esperar y Cómo Usar Este Programa",
   "duration": 10,
   "objectives": [
-    "Explicar los cuatro temas recurrentes de este programa (Reducir el Riesgo, Cuide Su Dinero, Evitar Errores Comunes, Entender la Cultura)",
+    "Explicar los cuatro temas recurrentes de este programa (Reduzca el Riesgo, Cuide Su Dinero, Evite Errores Comunes, Comprenda la Cultura)",
     "Estimar plazos y costos realistas para la entrada al mercado de EE.UU.",
-    "Entender que la expansión a EE.UU. es una decisión estratégica — no una tarea de trámites"
+    "Comprender que la expansión a EE.UU. es una decisión estratégica, no una tarea de trámites"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-0-1-0",
       "title": "Lo Que Realmente Se Necesita",
-      "content": "<p>¿Y si el mayor riesgo de expandirse a EE.UU. no es lo que usted piensa? La mayoría de los fundadores asumen que lo difícil es el papeleo. El verdadero desafío es saber lo que usted no sabe.</p>\n\n<p>Este programa toma menos de 3 horas y cubre las realidades legales, financieras y culturales de operar un negocio en Estados Unidos: constitución de la entidad, registro en Florida, banca, impuestos, seguros, contratación, búsqueda de clientes y diferencias culturales.</p>\n\n<p>Piense en esto como el inicio de un viaje por el panorama empresarial de Central Florida. Su GPS está cargado, su tablero está encendido y siete destinos se extienden frente a usted. Para cuando regrese, conocerá el territorio, incluso si decide no mudarse allí todavía.</p>",
+      "content": "<p>¿Y si el mayor riesgo al expandirse a EE.UU. no es el papeleo, sino lo que aún no sabe?</p><p>Muchos fundadores asumen que lo difícil es constituir una empresa. En realidad, el desafío es comprender cómo funciona el sistema antes de empezar a gastar dinero.</p><p>En menos de 3 horas, este programa le ofrece una visión clara de cómo funcionan realmente los negocios en Estados Unidos, abarcando la constitución legal, la banca, los impuestos, la contratación, la adquisición de clientes y las diferencias culturales, para que pueda tomar decisiones informadas antes de comprometer tiempo o dinero.</p>",
       "wordCount": 306
     },
     {
       "type": "text",
       "id": "text-0-1-learn-first",
       "title": "Primero Aprenda, Después Decida",
-      "content": "<p>Este programa es el primer paso para prepararse para el mercado de EE.UU. Es de bajo compromiso a propósito: una introducción práctica para ayudarle a entender lo que se necesita, pensar si la expansión tiene sentido y evitar errores costosos al inicio. Algunas empresas podrían ser invitadas a participar en apoyo más avanzado a través del UCF Business Incubation Program.</p>\n\n<p>En esta etapa, muchos fundadores sienten la presión de \"empezar\" rápidamente. Muchos lo hacen al revés: registran una LLC, abren una cuenta bancaria y solo entonces empiezan a investigar si su producto encaja en el mercado. Este programa invierte ese orden. <strong>Primero aprenda, después decida.</strong></p>\n\n<p>Cada módulo combina consejos prácticos y recursos seleccionados para darle una visión clara y realista de cómo funcionan los negocios en Estados Unidos. El programa es a su propio ritmo, sin fechas límite ni exámenes.</p>"
+      "content": "<p>Este programa está diseñado como un primer paso de bajo compromiso. Le ayuda a evaluar si la expansión a EE.UU. tiene sentido para su negocio y le prepara para las realidades de operar aquí.</p><p>Para las empresas que decidan avanzar, existen oportunidades para continuar con un apoyo más profundo a través del UCF Business Incubation Program.</p><p>En esta etapa, muchos fundadores sienten la presión de \"empezar\" rápidamente. Muchos lo hacen al revés: registran una LLC, abren una cuenta bancaria y solo entonces comienzan a evaluar el encaje producto-mercado. Este programa invierte ese orden. <strong>Primero aprenda, después decida.</strong></p><p>Cada módulo combina consejos prácticos y recursos seleccionados para ofrecerle una visión clara y realista de cómo funcionan los negocios en Estados Unidos. El programa es a su propio ritmo, sin fechas límite ni exámenes. Este programa tiene 9 módulos en total: 1 módulo introductorio (este) más 8 módulos de contenido organizados en torno a 4 temas.</p>"
     },
     {
       "type": "callout",
       "id": "callout-0-1-funfact",
       "variant": "fun-fact",
       "title": "¿Sabía Usted?",
-      "content": "<p>La Interestatal 4 (I-4), la autopista que atraviesa el corazón de Central Florida, conecta dos de las áreas metropolitanas de más rápido crecimiento en Estados Unidos: Orlando y Tampa. El corredor de 212 kilómetros entre ellas ha sido llamado uno de los corredores económicos más importantes del sureste, generando más de $200 mil millones en PIB regional combinado. La misma autopista que lo lleva junto a parques temáticos, campus tecnológicos y plataformas de lanzamiento también conecta la infraestructura de apoyo empresarial que explorará en este programa.</p>"
+      "content": "<p>Florida tiene más empresarios nacidos en el extranjero per cápita que casi cualquier otro estado de EE.UU. La región de Orlando alberga más de 270 empresas de capital extranjero de más de 30 países, con el respaldo de 20 consulados y más de 20 cámaras de comercio internacionales. La comunidad empresarial bilingüe del estado significa que los fundadores internacionales pueden encontrar asesores, mentores y primeros clientes que ya comprenden los desafíos de la expansión transfronteriza, tanto profesional como culturalmente. <em>(Fuente: <a href=\"https://news.orlando.org/blog/global-orlando-international-opportunity/\" target=\"_blank\" rel=\"noopener\">Orlando Economic Partnership, Global Orlando</a>)</em></p>"
     },
     {
       "type": "callout",
       "id": "callout-0-1-legal",
       "variant": "reality-check",
       "title": "Aviso Legal, Migratorio y Educativo",
-      "content": "<p><strong>Este programa proporciona información educativa general para ayudar a fundadores internacionales a entender el entorno empresarial de EE.UU. No constituye asesoría legal, tributaria, migratoria ni financiera.</strong></p>\n\n<p>El contenido tiene como objetivo ofrecer orientación práctica y crear conciencia sobre temas comunes, pero no sustituye el consejo de expertos calificados. Los fundadores deben consultar con asesores legales, tributarios, financieros y migratorios antes de tomar decisiones de negocio. Cada empresa es diferente — los tipos de entidad, las obligaciones tributarias, las necesidades bancarias y las condiciones del mercado varían según su país de origen, los tratados vigentes y las circunstancias individuales.</p>\n\n<p><strong>Temas de Inmigración y Visas:</strong> La ley migratoria en Estados Unidos es compleja, cambia con frecuencia y depende en gran medida de su situación particular. El Módulo 4 ofrece una visión general de las vías de visa más comunes relevantes para fundadores internacionales — su objetivo es ayudarle a entender qué opciones existen, no recomendar un camino específico. Completar este programa no afecta ni mejora sus probabilidades para ningún resultado de visa o inmigración. <strong>Consulte con un abogado de inmigración calificado antes de tomar cualquier decisión sobre su estatus de visa o plan migratorio.</strong></p>\n\n<p>No se ofrecen garantías sobre resultados, plazos o éxito en el mercado de EE.UU. Las menciones de organizaciones externas, proveedores de servicios o recursos son solo informativas y no implican que los respaldemos o tengamos vínculos formales con ellos. <strong>Siempre confirme los detalles críticos con profesionales calificados antes de comprometer tiempo, dinero o firmar acuerdos.</strong></p>"
+      "content": "<p>Este programa proporciona información educativa general y no constituye asesoría legal, tributaria, migratoria ni financiera. Consulte siempre a profesionales calificados antes de tomar decisiones de negocio.</p>"
     },
     {
       "type": "text",
       "id": "text-0-1-1",
       "title": "La Expansión a EE.UU. Es una Estrategia, No una Lista de Tareas",
-      "content": "<p>Expandirse a EE.UU. no es simplemente marcar casillas. Muchos fundadores se lanzan, forman una LLC, abren una cuenta bancaria y piensan que ya terminaron. Ese enfoque frecuentemente lleva a sorpresas costosas con impuestos, elección de entidad y encaje en el mercado.</p>\n\n<p>¿La conclusión? La expansión a EE.UU. abarca cuatro áreas:</p>\n\n<ul><li><strong>Legal:</strong> estructura de la entidad, registro, contratos, propiedad intelectual</li><li><strong>Financiera:</strong> banca, impuestos, contabilidad, gestión de costos</li><li><strong>Cultural:</strong> normas de comunicación, estilos de negociación, expectativas de negocios</li><li><strong>Mercado:</strong> adaptación del producto, precios, adquisición de clientes, competencia</li></ul>\n\n<p>Si omite cualquiera de estas, introduce un riesgo que aparecerá después, generalmente a un costo mayor.</p>\n\n<p>Los siete módulos que siguen abordan una o más de estas áreas. Al final, estará mejor preparado para hacer las preguntas correctas, trabajar con los profesionales adecuados y evitar errores comunes.</p>",
+      "content": "<p>Expandirse a EE.UU. no es solo una serie de tareas que completar.</p><p>Muchos empresarios se lanzan, forman una empresa, abren una cuenta bancaria y siguen adelante, solo para enfrentar problemas más tarde con los impuestos, la estructura o el encaje en el mercado.</p><p>En realidad, la expansión a EE.UU. abarca cuatro áreas...</p><ul><li><p><strong>Legal:</strong> estructura de la entidad, registro, contratos, propiedad intelectual</p></li><li><p><strong>Financiera:</strong> banca, impuestos, contabilidad, gestión de costos</p></li><li><p><strong>Cultural:</strong> normas de comunicación, estilos de negociación, expectativas de negocios</p></li><li><p><strong>Mercado:</strong> adaptación del producto, precios, adquisición de clientes, competencia</p></li></ul><p>Si omite cualquiera de estas, introduce un riesgo que aparecerá después, generalmente a un costo mayor.</p><p>Los ocho módulos de contenido por delante están organizados en torno a estos cuatro temas. Cada módulo aborda una o más de estas áreas. Al final, estará mejor preparado para hacer las preguntas correctas, trabajar con los profesionales adecuados y evitar errores comunes.</p>",
       "wordCount": 128
     },
     {
       "type": "text",
       "id": "text-0-1-themes-intro",
       "title": "Cuatro Temas Recurrentes",
-      "content": "<p>A medida que avanza por cada módulo, cuatro temas recurrentes aparecen como recuadros en cada lección — son lentes para ayudarle a enfocarse en lo más importante:</p><ul><li><strong>Reducir el Riesgo</strong> — proteja su entidad, PI y operaciones de exposición evitable</li><li><strong>Cuide Su Dinero</strong> — conozca los costos reales antes de comprometerse</li><li><strong>Evitar Errores Comunes</strong> — aprenda de los errores que otros fundadores cometen en cada etapa</li><li><strong>Entender la Cultura</strong> — descifre cómo funcionan realmente los negocios en EE.UU.</li></ul><p>Seleccione cada tema a continuación para obtener más información.</p>"
+      "content": "<p>A medida que avanza por cada módulo, cuatro temas recurrentes aparecen como recuadros en cada lección. Son lentes que le ayudan a enfocarse en lo más importante:</p><ul><li><strong>Reduzca el Riesgo</strong>: proteja su entidad, PI y operaciones de exposiciones evitables</li><li><strong>Cuide Su Dinero</strong>: conozca los costos reales antes de comprometerse</li><li><strong>Evite Errores Comunes</strong>: aprenda de los errores que otros fundadores cometen en cada etapa</li><li><strong>Comprenda la Cultura</strong>: descifre cómo funcionan realmente los negocios en EE.UU.</li></ul><p>Seleccione cada tema a continuación para obtener más información.</p>"
     },
     {
       "type": "tabs",
       "id": "int-0-1-1",
-      "title": "Explorar Cada Tema",
+      "title": "Explore Cada Tema",
       "tabs": [
         {
-          "label": "Entender la Cultura",
-          "content": "**La cultura empresarial de EE.UU. tiene reglas no escritas** que hacen tropezar incluso a emprendedores internacionales experimentados.\n\nA lo largo de este curso, busque los recuadros de perspectiva cultural que decodifican el comportamiento empresarial estadounidense — desde estilos de comunicación hasta etiqueta de reuniones y cómo los estadounidenses realmente toman decisiones de compra."
+          "label": "Comprenda la Cultura",
+          "content": "**La cultura empresarial de EE.UU. tiene reglas no escritas** que hacen tropezar incluso a emprendedores internacionales experimentados.\n\nA lo largo de este curso, busque los recuadros de perspectiva cultural que decodifican el comportamiento empresarial estadounidense, desde estilos de comunicación hasta etiqueta en reuniones y cómo los estadounidenses realmente toman decisiones de compra."
         },
         {
-          "label": "Evitar Errores Costosos",
-          "content": "**Las lecciones más caras son las que se aprenden por las malas.** Cada módulo destaca los errores comunes que cometen los fundadores internacionales — y cómo evitarlos.\n\nPreste especial atención a los recuadros de 'Antes de Gastar' y 'Cuide Su Dinero' que señalan decisiones con consecuencias financieras reales."
+          "label": "Evite Errores Costosos",
+          "content": "**Las lecciones más caras son las que se aprenden por las malas.** Cada módulo destaca los errores comunes que cometen los fundadores internacionales y cómo evitarlos.\n\nPreste especial atención a los recuadros 'Antes de Gastar' y 'Cuide Su Dinero' que señalan decisiones con consecuencias financieras reales."
         },
         {
-          "label": "Reducir el Riesgo",
-          "content": "**Los fundadores inteligentes no solo se mueven rápido — gestionan el riesgo.** Le mostraremos cómo proteger su propiedad intelectual, estructurar correctamente su entidad y navegar los requisitos de cumplimiento.\n\nEl objetivo: tomar decisiones informadas que mantengan seguros sus activos personales y las operaciones de su negocio."
+          "label": "Reduzca el Riesgo",
+          "content": "**Los fundadores inteligentes no solo se mueven rápido, gestionan el riesgo.** Le mostraremos cómo proteger su propiedad intelectual, estructurar correctamente su entidad y navegar los requisitos de cumplimiento.\n\nEl objetivo: tomar decisiones informadas que mantengan seguros sus activos personales y las operaciones de su negocio."
         },
         {
           "label": "Cuide Su Dinero",
@@ -78,14 +78,20 @@
       "id": "callout-0-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Errores Comunes que Cometen los Fundadores Internacionales",
-      "content": "<p>Piense en los errores que más les cuestan a los fundadores. Cada módulo incluye un recuadro mostrando los errores frecuentes que los fundadores enfrentan en esa etapa. Conocerlos ahora puede ayudarle a evitar errores costosos o lentos más adelante.</p>\n\n<ul><li><strong>Módulo 1 (Constitución Legal):</strong> Elegir el tipo de entidad equivocado para su situación de visa o impuestos. <em>Consejo: Confirme la selección de entidad con profesionales legales y tributarios.</em></li><li><strong>Módulo 2 (Finanzas):</strong> Pasar por alto las obligaciones de impuesto sobre ventas de EE.UU. debido a diferencias con su país de origen.</li><li><strong>Módulo 3 (Protección):</strong> Asumir que el registro de propiedad intelectual de su país de origen lo protege automáticamente en EE.UU.</li><li><strong>Módulo 4 (Equipo):</strong> Clasificar erróneamente a empleados como contratistas independientes, arriesgándose a sanciones.</li><li><strong>Módulo 5 (Clientes):</strong> Lanzar con precios del mercado de origen que no reflejan las expectativas de EE.UU.</li><li><strong>Módulo 6 (Cultura):</strong> Asumir que las interacciones informales o amigables equivalen a acuerdos comerciales formales.</li><li><strong>Módulo 7 (Ecosistema):</strong> Pagar de más por asesoría cuando hay recursos gubernamentales o sin fines de lucro gratuitos o de bajo costo disponibles.</li></ul>\n\n<p><strong>Perspectiva Clave:</strong> Ignorar estos errores puede costarle tiempo, dinero y confianza. Identifíquelos temprano para planificar con inteligencia y evitar riesgo adicional.</p>"
+      "content": "<p>Cada módulo incluye un recuadro de \"Errores Comunes\" que muestra los errores que más cuestan a los emprendedores en esa etapa. Aquí dos ejemplos:</p>\n\n<ul><li><strong>Tipo de entidad equivocado:</strong> Elegir una LLC cuando su visa o sus planes con inversionistas requieren una C-Corp puede costar miles de dólares y meses de retraso para corregirlo.</li><li><strong>Ignorar el impuesto sobre las ventas:</strong> A diferencia de los sistemas de IVA que conocen muchos fundadores internacionales, el impuesto sobre las ventas en EE.UU. varía por estado e incluso por ciudad. No cumplir con los plazos de registro puede generar sanciones antes de que realice su primera venta.</li></ul>\n\n<p><strong>Busque este recuadro en cada módulo</strong> para identificar los errores que más importan en cada etapa.</p>"
     },
     {
       "type": "text",
       "id": "text-0-1-3",
       "title": "Cómo Usar Este Programa",
-      "content": "<p>Piense en este programa como un viaje por el panorama empresarial de Central Florida. Usted está al volante, y cada módulo es un destino, desde el centro de la ciudad donde se forman los negocios, hasta el distrito financiero donde ocurre la banca, hasta la base de cohetes donde protege sus ideas. Su tablero muestra todas las paradas, y usted elige por dónde empezar.</p>\n\n<p>Este programa a su propio ritmo está diseñado para ser flexible. Puede completar los módulos en cualquier orden y tomar varias sesiones para terminar.</p>\n\n<ul><li><strong>Navegación:</strong> Cada módulo es independiente. Salte a los destinos que coincidan con sus prioridades.</li>\n<li><strong>Verificaciones de Conocimiento:</strong> Verificaciones cortas y sin calificación que ayudan a confirmar conceptos clave. Intentos ilimitados, sin penalizaciones.</li>\n<li><strong>Recuadros Recurrentes:</strong> Busque \"Errores Comunes\" y \"Cuide Su Dinero\" en cada módulo para destacar consejos prácticos y evitar tropiezos costosos.</li>\n<li><strong>Recursos:</strong> El Módulo 8 incluye una Lista de Verificación para Entrada al Mercado, una Hoja de Ruta de Constitución en Florida, una Guía de Recursos de Central Florida y una Hoja de Trabajo de Decisión de Expansión.</li>\n<li><strong>Más Allá de la Fase 1:</strong> Unirse a las Fases 2 y 3 del UCF BIP es selectivo y se basa en la preparación, la etapa del negocio y los criterios del programa.</li>\n<li><strong>Consejo Clave:</strong> Profundice en el contenido primero, verifique los detalles con expertos calificados y planifique bien antes de comprometer tiempo o dinero.</li></ul>\n\n<h4>Cronograma Típico</h4>\n<p>Los fundadores frecuentemente preguntan: \"¿Cuánto tiempo toma estar listo en EE.UU.?\" No hay una respuesta única — cada negocio y experiencia de fundador es diferente. Basándose en experiencias típicas de fundadores internacionales:</p>\n\n<ul><li><strong>Constitución de la entidad:</strong> Frecuentemente se completa en unos pocos días en línea, pero puede tomar más si se requiere documentación adicional.</li><li><strong>Solicitud del EIN:</strong> Puede ser instantánea con una dirección en EE.UU.; las solicitudes internacionales pueden tomar varias semanas.</li><li><strong>Apertura de cuenta bancaria:</strong> Los plazos varían ampliamente dependiendo del banco, los documentos y las circunstancias del fundador.</li><li><strong>Primeros clientes / entrada al mercado:</strong> Construir confianza, completar la incorporación como proveedor y cumplir con los requisitos de seguros o adquisiciones puede tomar de varias semanas a meses.</li></ul>\n\n<p>Planifique con metas realistas, confirme los detalles con los proveedores de servicios y manténgase flexible. Su propio cronograma puede ser más corto o más largo. Concéntrese en conocer el proceso, no en alcanzar una fecha fija.</p>",
+      "content": "<p>Este programa es un conjunto de módulos independientes. Comience con el tema que más le importe y vuelva al resto más tarde. Sin fechas límite, sin exámenes, sin orden obligatorio.</p>\n\n<p>Dentro de cada módulo, verificaciones de conocimientos cortas le ayudan a confirmar conceptos clave a medida que avanza. No tienen calificación y puede repetirlas. Busque los recuadros recurrentes \"Errores Comunes\" y \"Cuide Su Dinero\". Señalan los consejos que más tiempo y dinero les ahorran a los fundadores.</p>\n\n<p>El Módulo 7 incluye una Lista de Verificación para Entrada al Mercado, una Hoja de Ruta de Constitución en Florida, una Guía de Recursos de Central Florida y una Hoja de Trabajo de Decisión de Expansión. Si desea continuar más allá de este programa, las Fases 2 y 3 del UCF BIP son selectivas, según la preparación, la etapa del negocio y los criterios del programa.</p>\n\n<p>Un consejo antes de comenzar: lea primero el contenido, verifique los detalles con profesionales calificados y planifique cuidadosamente antes de comprometer tiempo o dinero.</p>\n\n<h4>Cronograma Típico</h4>\n<p>Los fundadores a menudo preguntan: \"¿Cuánto tiempo toma estar listo en EE.UU.?\" Cada situación es diferente. Con base en experiencias comunes:</p>\n\n<ul><li><strong>Constitución de la entidad:</strong> A menudo unos pocos días en línea, más tiempo si se requiere documentación adicional.</li><li><strong>Solicitud del EIN:</strong> Puede ser instantánea con una dirección en EE.UU.; las solicitudes internacionales pueden tomar varias semanas.</li><li><strong>Apertura de cuenta bancaria:</strong> Los plazos varían según el banco, los documentos y las circunstancias del emprendedor.</li><li><strong>Primeros clientes / entrada al mercado:</strong> Construir confianza, completar la incorporación como proveedor y cumplir con los requisitos de seguros o adquisiciones puede tomar de varias semanas a meses.</li></ul>\n\n<p>Planifique con metas realistas, confirme los detalles con los proveedores de servicios y manténgase flexible. Concéntrese en conocer el proceso, no en alcanzar una fecha fija.</p>",
       "wordCount": 320
+    },
+    {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-0-1",
+      "imagePath": "images/scenarios/lesson-0-1-expansion-strategy.jpg",
+      "title": "Emprendedor internacional revisando documentos de estrategia de expansión en un espacio de trabajo moderno"
     },
     {
       "type": "knowledge-check",
@@ -102,7 +108,7 @@
             "Esperar a pensar en estrategia hasta después de su primera venta"
           ],
           "correctAnswer": 0,
-          "explanation": "La expansión a EE.UU. es una estrategia, no una lista de tareas. Tratarla como simple papeleo, enfocarse solo en una LLC y cuenta bancaria, o esperar hasta después de la primera venta deja vacíos críticos en la planificación legal, financiera, cultural o de mercado que aparecen después a un costo mayor."
+          "explanation": "La expansión a EE.UU. es una estrategia, no una lista de tareas. Tratarla como simple papeleo, enfocarse solo en una LLC y cuenta bancaria, o esperar hasta después de su primera venta deja vacíos críticos en la planificación legal, financiera, cultural o de mercado que aparecen después a un costo mayor."
         },
         {
           "stem": "Está tratando de planificar su cronograma para tener listas sus operaciones en EE.UU. ¿Cuál es el enfoque más realista?",
@@ -110,10 +116,10 @@
             "Esperar estar completamente operativo en 1-2 semanas",
             "Asumir que toma unos 30 días, pero ajustar si es necesario",
             "Enfocarse exclusivamente en encontrar la opción de constitución de empresa más barata",
-            "Planificar para 3-6 meses, incluyendo constitución, cumplimiento normativo e incorporación de clientes"
+            "Planificar para 2–6 meses, incluyendo constitución, cumplimiento normativo e incorporación de clientes"
           ],
           "correctAnswer": 3,
-          "explanation": "La constitución de la entidad puede tomar solo días, pero la banca, el cumplimiento normativo y la incorporación de clientes extienden el cronograma realista a 3-6 meses. Esperar estar operativo en 1-2 semanas ignora retrasos bancarios y pasos de cumplimiento. Un estimado de 30 días subestima el tiempo necesario para aprobaciones bancarias, configuración tributaria y entrada al mercado. Enfocarse solo en el costo pasa por alto el cronograma y la planificación estratégica que impulsan el éxito a largo plazo."
+          "explanation": "La constitución de la entidad puede tomar solo días, pero la banca, el cumplimiento normativo y la incorporación de clientes extienden el cronograma realista a 2–6 meses. Esperar estar operativo en 1-2 semanas ignora los retrasos bancarios y los pasos de cumplimiento. Un estimado de 30 días subestima el tiempo necesario para aprobaciones bancarias, configuración tributaria y entrada al mercado. Enfocarse solo en el costo pasa por alto el cronograma y la planificación estratégica que impulsan el éxito a largo plazo."
         },
         {
           "stem": "Está estimando los costos iniciales (licencias, seguros, honorarios profesionales y configuración de oficina). ¿Cómo se asegura de presupuestar con inteligencia?",
@@ -124,15 +130,15 @@
             "Presupuestar lo mismo que los costos de constitución en su país de origen"
           ],
           "correctAnswer": 2,
-          "explanation": "Los costos individuales de constitución pueden parecer pequeños, pero se acumulan rápidamente entre tarifas de registro, agentes registrados, documentos legales, banca y seguros. Asumir que los costos son mínimos ignora gastos acumulados que pueden llegar a miles de dólares. Esperar hasta tener ingresos significa comprometer dinero que no ha presupuestado. Los costos del país de origen rara vez se traducen directamente porque las tarifas de EE.UU., los requisitos de cumplimiento y las tarifas de servicios profesionales difieren significativamente."
+          "explanation": "Los costos individuales de constitución pueden parecer pequeños, pero se acumulan rápidamente entre tarifas de registro, agentes registrados, documentos legales, banca y seguros. Asumir que los costos son mínimos ignora gastos acumulados que pueden llegar a miles de dólares. Esperar hasta tener ingresos significa comprometer dinero que no ha presupuestado. Los costos del país de origen rara vez se traducen directamente porque las tarifas, los requisitos de cumplimiento y las tarifas de servicios profesionales en EE.UU. difieren significativamente."
         }
       ]
     },
     {
       "type": "key-takeaway",
       "id": "kt-0-1-1",
-      "title": "Conclusión Clave del Módulo 0",
-      "content": "<p>¡Felicitaciones, ha completado su primer módulo!</p>\n\n<p>Este módulo le da una visión clara de lo que se necesita para explorar el mercado de EE.UU., sin apresurarse con el papeleo primero. Muchos fundadores lo hacen al revés: forman una LLC, abren una cuenta bancaria y luego investigan si su producto encaja en el mercado. Este programa invierte ese orden: primero aprenda, después decida.</p>\n\n<p>En el camino, ha aprendido a identificar errores comunes, entender costos realistas y ver cómo las consideraciones legales, financieras, culturales y de mercado se interconectan. Use las reflexiones y verificaciones para evaluar dónde se encuentra y qué preguntas quiere explorar a continuación.</p>\n\n<p>Piense en este módulo como la primera parada en su viaje, la vista del tablero antes de empezar a conducir. No hará el trabajo por usted, pero le muestra los destinos adelante, las rutas a seguir y los desvíos a evitar. Ahora conoce el territorio. Es hora de explorar.</p>"
+      "title": "Punto Clave del Módulo 0",
+      "content": "<p>¡Felicitaciones, ha completado su primer módulo!</p><p>Este módulo le ofrece una visión clara de lo que se necesita para explorar el mercado de EE.UU., antes de apresurarse con la constitución.</p><p>Muchos fundadores lo hacen al revés: forman una empresa, abren una cuenta bancaria y luego averiguan el resto. Este programa invierte ese orden. Primero aprenda, después decida.</p><p>Ahora comprende cómo se conectan los factores legales, financieros, culturales y de mercado, y dónde tienden a ocurrir los errores.</p><p>Este es su punto de partida. Aún no ha entrado al mercado de EE.UU., pero ahora comprende lo que tiene por delante.</p>"
     }
   ]
 }

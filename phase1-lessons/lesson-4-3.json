@@ -14,13 +14,13 @@
       "type": "text",
       "id": "text-4-3-1",
       "title": "Payroll, Taxes, and the Real Cost of Every Team Member",
-      "content": "<p>Now that you understand visa requirements, it is time to look at what it actually costs to keep a team running. Salary is just the starting number. The real cost includes taxes, insurance, and obligations that add up fast.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p>",
+      "content": "<p>You understand visa requirements. Now look at what it actually costs to keep a team running. Salary is only the starting point. The true cost includes payroll taxes, required insurance, and optional but often expected benefits, and these add up quickly.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18–$378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500–$2,000/year for office work.</p>",
       "wordCount": 186
     },
     {
       "type": "table",
       "id": "table-4-3-1",
-      "title": "Employer Cost Breakdown — What Sits on Top of Salary",
+      "title": "Employer Cost Breakdown: What Sits on Top of Salary",
       "table": {
         "headers": [
           "Obligation",
@@ -81,8 +81,8 @@
       "simId": "sim-employee-cost",
       "title": "Employee Cost Calculator",
       "titleEs": "Calculadora de Costo del Empleado",
-      "description": "Enter a salary, pick your industry, and see the full employer cost — FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
-      "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
+      "description": "Enter a salary, pick your industry, and see the full employer cost, FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
+      "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador, FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
       "replaces": "dataviz-4-3",
       "scriptFile": "js/rt-simulations.js",
       "inputs": [
@@ -189,7 +189,7 @@
     {
       "type": "text",
       "id": "text-4-3-2",
-      "title": "Use a Payroll Service — Seriously",
+      "title": "Use a Payroll Service: Seriously",
       "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Even large companies do not run payroll manually. They contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida: after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
       "wordCount": 116
     },
@@ -226,8 +226,8 @@
       "type": "callout",
       "id": "callout-4-3-latam",
       "variant": "latam-supplement",
-      "title": "Latin America Resources — Hiring & Payroll",
-      "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
+      "title": "Latin America Resources: Hiring & Payroll",
+      "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando</a>:</strong> Talent matching and international hiring guidance.</li><li><strong>Country-specific business chambers:</strong> Orlando hosts active chapters of the German-American, French-American, British-American, Indian-American, and Korean-American chambers, each provides networking, hiring referrals, and country-specific labor guidance.</li></ul>"
     },
     {
       "type": "knowledge-check",
@@ -238,24 +238,24 @@
         {
           "stem": "An employee earns a base salary of $50,000 per year. Using the employer cost multiplier of 1.15 to 1.30, what is the approximate total annual cost to the employer?",
           "options": [
-            "$50,000 — salary is the only cost",
-            "$52,500 — add 5% for taxes",
-            "$57,500 to $65,000 — salary plus employer taxes, insurance, and potential benefits",
-            "$75,000 to $100,000 — U.S. employment is extremely expensive"
+            "$50,000, salary is the only cost",
+            "$52,500, add 5% for taxes",
+            "$57,500–$65,000, salary plus employer taxes, insurance, and potential benefits",
+            "$75,000–$100,000, U.S. employment is extremely expensive"
           ],
           "correctAnswer": 2,
-          "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500 to $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
+          "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500–$65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
         },
         {
-          "stem": "A founder has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
+          "stem": "A business owner has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
           "options": [
-            "Nothing — the IRS provides a grace period for small businesses in their first year",
+            "Nothing, the IRS provides a grace period for small businesses in their first year",
             "IRS penalty notices for late filing, plus potential interest on unpaid withholding taxes",
             "A warning letter with no financial penalty for first-time offenders",
             "Automatic revocation of the company's EIN and business license"
           ],
           "correctAnswer": 1,
-          "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40-$100/month) automates filings and prevents these costly mistakes."
+          "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40–$100/month) automates filings and prevents these costly mistakes."
         },
         {
           "stem": "A founder from the Philippines hires her fifth employee at her Orlando office. She already has a payroll service, withholds federal and state taxes, and pays employer FICA. Her accountant asks whether she has workers' compensation and unemployment insurance in place. Which statement is correct about her obligations?",
@@ -263,10 +263,10 @@
             "Workers' compensation is optional in Florida regardless of employee count, so she only needs unemployment insurance",
             "She needs unemployment insurance but can wait on workers' compensation until she has 10 or more employees",
             "Neither workers' compensation nor unemployment insurance is required in Florida for businesses with fewer than 50 employees",
-            "She is required to carry both — workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees"
+            "She is required to carry both, workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees"
           ],
           "correctAnswer": 3,
-          "explanation": "Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this founder must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses."
+          "explanation": "Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this entrepreneur must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses."
         }
       ]
     },

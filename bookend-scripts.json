@@ -1,0 +1,237 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "generated": "2026-04-28",
+    "scope": "All 17 videos — Brian-approved (Modules 0-5 April 27, Modules 6-8 April 28 02:54)",
+    "directives": "Per Brian Apr 28: keep 'Soft Landing' in English in Spanish (program name, not translated). 'Costly mistake' preferred over 'cost real money'. M8 outro frames as 'end of the roadmap'.",
+    "voice_refs": {
+      "female_en": {
+        "audio": "media/audio/voice-tests/NEw/FemaleLatina-English.mp3",
+        "transcription": "Welcome to the U.S. Market Readiness Program, created by the University of Central Florida's Business Incubation Program. Over the next eight modules, we're going to take you on a journey through Central Florida. Each destination represents a critical topic you need to understand before entering the U.S. Market. Ready? Let's hit the road!",
+        "instruction": "warm and professional, conversational pace, clear pronunciation"
+      },
+      "male_en": {
+        "audio": "media/audio/voice-tests/NEw/Male-English.mp3",
+        "transcription": "Welcome to the U.S. Market Readiness Program created by the University of Central Florida's Business Incubation Program. Over the next eight modules, we're going to take you on a journey through Central Florida. Each destination represents a critical topic you need to understand before entering the U.S. Market. Ready? Let's hit the road!",
+        "instruction": "confident and encouraging, conversational pace, clear pronunciation"
+      },
+      "female_es": {
+        "audio": "media/audio/voice-tests/NEw/FemaleLatina-Spanish.mp3",
+        "transcription": "Bienvenidos al Programa de Preparación para el Mercado de los Estados Unidos, creado por el Programa de Incubación de Empresas de la Universidad de Florida Central. A lo largo de los próximos ocho módulos los llevaremos en un viaje a través de Florida Central. Cada destino representa un tema fundamental que deben comprender antes de ingresar al mercado estadounidense. ¿Listos? Pongámonos en marcha.",
+        "instruction": "cálida y profesional, ritmo conversacional, pronunciación clara"
+      },
+      "male_es": {
+        "audio": "media/audio/voice-tests/NEw/Male-Spanish.mp3",
+        "transcription": "Bienvenidos al Programa de Preparación para el Mercado de los Estados Unidos, creado por el Programa de Incubación de Empresas de la Universidad de Florida Central. A lo largo de los próximos ocho módulos, los llevaremos en un viaje a través de Florida Central. Cada destino representa un tema fundamental que deben comprender antes de ingresar al mercado estadounidense. ¿Listos? ¡Pongámonos en marcha!",
+        "instruction": "confiada y profesional, ritmo conversacional, pronunciación clara"
+      }
+    }
+  },
+  "videos": [
+    {
+      "id": "course-intro",
+      "label": "COURSE INTRO",
+      "module": 0,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-0-1-avatar.png",
+      "placement": "top of lesson-0-1.html",
+      "approved": true,
+      "script_en": "Expanding into the U.S. market can unlock massive opportunity, but it also comes with challenges that catch many international businesses off guard. This roadmap is Phase 1 of the UCF Soft Landing program and it is designed to help you avoid those mistakes and move forward with confidence. Over the next eight modules, we'll travel through Central Florida together. Each destination on your dashboard covers a different piece of the puzzle, from legal setup, to taxes, to U.S. business culture. You can move at your own pace, in any order. Each section includes practical guidance, tools, and short checkpoints to help you apply what you're learning. Use the language toggle at anytime to switch between English and Spanish. One important note: this program provides general guidance, not legal, tax, or immigration advice. Always confirm the details with a qualified professional. When you're ready, head back to your dashboard and pick your first destination. Let's get started.",
+      "script_es": "Expandirse al mercado de Estados Unidos puede abrir oportunidades enormes, pero también viene con desafíos que sorprenden a muchas empresas internacionales. Esta hoja de ruta es la Fase 1 del programa Soft Landing de UCF, y está diseñada para ayudarle a evitar esos errores y avanzar con confianza. A lo largo de los próximos ocho módulos, recorreremos juntos Florida Central. Cada destino en su panel cubre una pieza diferente del rompecabezas: desde la formación legal, hasta los impuestos, hasta la cultura empresarial estadounidense. Puede avanzar a su propio ritmo, en cualquier orden. Cada sección incluye orientación práctica, herramientas y puntos de control cortos para ayudarle a aplicar lo que está aprendiendo. Use el selector de idioma en cualquier momento para cambiar entre inglés y español. Una nota importante: este programa proporciona orientación general, no asesoría legal, fiscal ni migratoria. Siempre confirme los detalles con un profesional calificado. Cuando esté listo, regrese a su panel y elija su primer destino. Comencemos."
+    },
+    {
+      "id": "module-1-intro",
+      "label": "MODULE 1 INTRO",
+      "module": 1,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-1-1-avatar.png",
+      "placement": "top of lesson-1-1.html",
+      "approved": true,
+      "script_en": "Welcome to Downtown, where you build the foundation for your US operations. The decisions you make here don't just set things up, they lock in your tax structure, affect your visa options, and determine whether U.S. investors can fund you. Get this right, and everything else gets easier. Get it wrong, and it's expensive to fix. In this module, you'll make four critical decisions: Choose the right entity, LLC or C-Corp, and understand why an S-Corp usually isn't an option for international founders. Register your business in Florida through Florida Division of Corporations. Set up a registered agent and obtain your EIN. Prepare what you actually need to open a U.S. business bank account. One key point: use the entity decision guide before you speak with an attorney, not after. It will help you ask the right questions and avoid costly mistakes. Let's get to work.",
+      "script_es": "Bienvenido al Centro, donde construye la base para sus operaciones en EE.UU. Las decisiones que tome aquí no solo configuran las cosas, fijan su estructura fiscal, afectan sus opciones de visa y determinan si los inversionistas estadounidenses pueden financiarle. Hágalo bien, y todo lo demás se vuelve más fácil. Hágalo mal, y es costoso corregirlo. En este módulo, tomará cuatro decisiones críticas: Elegir la entidad correcta, LLC o C-Corp, y comprender por qué una S-Corp generalmente no es una opción para fundadores internacionales. Registrar su negocio en Florida a través de la División de Corporaciones de Florida. Establecer un agente registrado y obtener su EIN. Preparar lo que realmente necesita para abrir una cuenta bancaria comercial en EE.UU. Un punto clave: use la guía de decisión de entidad antes de hablar con un abogado, no después. Le ayudará a hacer las preguntas correctas y evitar errores costosos. Manos a la obra."
+    },
+    {
+      "id": "module-1-outro",
+      "label": "MODULE 1 OUTRO",
+      "module": 1,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-1-3-avatar.png",
+      "placement": "end of lesson-1-3.html",
+      "approved": true,
+      "script_en": "You've completed the Downtown module. Here's what matters most as you move forward: Your entity type is the foundation, it shapes tax structure, visas, and whether investors will engage with you. SunBiz registration itself is straightforward, but the real work happens before you file. Banking takes longer than founders expect, call ahead, bring complete documents, and use payment processors as a bridge. When you're ready, head back to your dashboard and pick whatever destination you want to learn about next.",
+      "script_es": "Ha completado el módulo del Centro. Esto es lo más importante a medida que avanza: Su tipo de entidad es la base, define la estructura fiscal, las opciones de visa, y si los inversionistas trabajarán con usted. El registro en SunBiz en sí es directo, pero el verdadero trabajo ocurre antes de presentar la solicitud. La parte bancaria toma más tiempo de lo que los fundadores esperan, llame con anticipación, traiga la documentación completa, y use procesadores de pago como puente. Cuando esté listo, regrese a su panel y elija el destino que quiera explorar a continuación."
+    },
+    {
+      "id": "module-2-intro",
+      "label": "MODULE 2 INTRO",
+      "module": 2,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-2-1-avatar.png",
+      "placement": "top of lesson-2-1.html",
+      "approved": true,
+      "script_en": "Welcome to the Financial District. Florida's tax-friendly reputation is real, there's no state personal income tax. But that doesn't mean no taxes. Federal taxes apply. Sales tax applies. And the rules may look very different from what you're used to. In this module, you'll learn: Which federal, state, and local taxes actually apply to you, and how your entity choice changes the outcome. Why U.S. sales tax works nothing like VAT, and what that means for your pricing. What it takes to open a business account, build U.S. credit, and move money efficiently. Take your time with the tax comparison calculator. It's the fastest way to see what your real obligations look like. Let's begin.",
+      "script_es": "Bienvenida al Distrito Financiero. La reputación de Florida como amigable con los impuestos es real, no hay impuesto estatal sobre la renta personal. Pero eso no significa que no haya impuestos. Los impuestos federales aplican. El impuesto sobre las ventas aplica. Y las reglas pueden verse muy diferentes de lo que está acostumbrada. En este módulo, aprenderá: Qué impuestos federales, estatales y locales realmente le aplican, y cómo su elección de entidad cambia el resultado. Por qué el impuesto sobre las ventas en EE.UU. funciona muy diferente del IVA, y qué significa eso para sus precios. Qué se necesita para abrir una cuenta empresarial, construir crédito en EE.UU., y mover dinero de manera eficiente. Tómese su tiempo con la calculadora de comparación de impuestos. Es la forma más rápida de ver cómo se ven sus obligaciones reales. Comencemos."
+    },
+    {
+      "id": "module-2-outro",
+      "label": "MODULE 2 OUTRO",
+      "module": 2,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-2-3-avatar.png",
+      "placement": "end of lesson-2-3.html",
+      "approved": true,
+      "script_en": "That's the Financial District, where assumptions get replaced with clarity. Remember: No state income tax doesn't mean no taxes, federal, quarterly estimates, and self-employment tax still apply. U.S. sales tax is state-by-state, register with the Florida Department of Revenue before collecting sales tax in Florida. Banking is a preparation game, bring complete documents, and start building U.S. credit as soon as your account opens. When you're ready, head back to your dashboard and choose your next module.",
+      "script_es": "Ese es el Distrito Financiero, donde las suposiciones se reemplazan con claridad. Recuerde: Sin impuesto estatal sobre la renta no significa sin impuestos, los federales, los estimados trimestrales y el impuesto de trabajo por cuenta propia aún aplican. El impuesto sobre las ventas de EE.UU. es estado por estado, regístrese con el Departamento de Ingresos de Florida antes de cobrar impuestos sobre las ventas en Florida. La parte bancaria es un juego de preparación, traiga la documentación completa, y empiece a construir crédito en EE.UU. tan pronto como abra su cuenta. Cuando esté lista, regrese a su panel y elija su próximo módulo."
+    },
+    {
+      "id": "module-3-intro",
+      "label": "MODULE 3 INTRO",
+      "module": 3,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-3-1-avatar.png",
+      "placement": "top of lesson-3-1.html",
+      "approved": true,
+      "script_en": "We're at the Space Center. Like a space launch, your business needs the right protections before it leaves the pad. The most expensive mistakes here are the ones founders don't see until it's too late. In this module, you'll make three key protection decisions: Why your home-country IP protection does not cover you in the U.S., and what to file first. Which insurance policies you need from day one, and which can wait. When to handle legal work yourself, and when bringing in an attorney can actually save you money. If you take one thing from this module: file for U.S. trademark protection early, ideally before you invest in marketing. Let's get into it.",
+      "script_es": "Estamos en el Centro Espacial. Como un lanzamiento espacial, su negocio necesita las protecciones correctas antes de despegar. Los errores más costosos aquí son los que los fundadores no ven hasta que es demasiado tarde. En este módulo, tomará tres decisiones clave de protección: Por qué la protección de propiedad intelectual de su país de origen no le cubre en EE.UU., y qué presentar primero. Qué pólizas de seguro necesita desde el primer día, y cuáles pueden esperar. Cuándo manejar el trabajo legal usted mismo, y cuándo traer a un abogado realmente puede ahorrarle dinero. Si se lleva una sola cosa de este módulo: presente la protección de marca registrada de EE.UU. temprano, idealmente antes de invertir en marketing. Manos a la obra."
+    },
+    {
+      "id": "module-3-outro",
+      "label": "MODULE 3 OUTRO",
+      "module": 3,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-3-3-avatar.png",
+      "placement": "end of lesson-3-3.html",
+      "approved": true,
+      "script_en": "You've completed the Space Center. What matters moving forward: IP is territorial, file your U.S. trademark with the USPTO before you launch in the market. General liability insurance is the baseline, many clients and landlords require proof before they'll work with you. Use free resources and referrals to get oriented, then engage a qualified attorney for decisions that carry legal risk. When you're ready, head back to your dashboard and pick your next destination.",
+      "script_es": "Ha completado el Centro Espacial. Esto es lo que importa al avanzar: La propiedad intelectual es territorial, presente su marca registrada de EE.UU. con la USPTO antes de lanzar en el mercado. El seguro de responsabilidad civil general es la base, muchos clientes y arrendadores requieren prueba antes de trabajar con usted. Use recursos gratuitos y referidos para orientarse, luego contrate a un abogado calificado para decisiones que conllevan riesgo legal. Cuando esté listo, regrese a su panel y elija su próximo destino."
+    },
+    {
+      "id": "module-4-intro",
+      "label": "MODULE 4 INTRO",
+      "module": 4,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-4-1-avatar.png",
+      "placement": "top of lesson-4-1.html",
+      "approved": true,
+      "script_en": "Welcome to the Theme Park District. Great businesses are powered by a strong team. But hiring in the U.S. comes with rules that often surprise international founders, and mistakes here can be expensive and hard to resolve. In this module, you'll learn: The difference between an employee and a contractor, and how the IRS evaluates the actual working relationship, not just what your contract says. Common U.S. visa categories, and why forming a company does not automatically give you work authorization. The true cost of hiring in the U.S., salary plus roughly 15 to 30 percent in additional employment costs. Spend some time with the hiring cost calculator. It will save you from underestimating your first payroll. Let's begin.",
+      "script_es": "Bienvenida al Distrito de los Parques Temáticos. Los grandes negocios funcionan con un equipo fuerte. Pero la contratación en EE.UU. viene con reglas que a menudo sorprenden a los fundadores internacionales, y los errores aquí pueden ser costosos y difíciles de resolver. En este módulo, aprenderá: La diferencia entre un empleado y un contratista, y cómo el IRS evalúa la relación laboral real, no solo lo que dice su contrato. Categorías comunes de visas en EE.UU., y por qué formar una empresa no le da automáticamente autorización de trabajo. El costo real de contratar en EE.UU., salario más aproximadamente 15 a 30 por ciento en costos adicionales de empleo. Pase tiempo con la calculadora de costos de contratación. Le evitará subestimar su primera nómina. Comencemos."
+    },
+    {
+      "id": "module-4-outro",
+      "label": "MODULE 4 OUTRO",
+      "module": 4,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-4-3-avatar.png",
+      "placement": "end of lesson-4-3.html",
+      "approved": true,
+      "script_en": "You've completed the Theme Park District. What to take with you: Misclassifying a worker as a contractor when they should be an employee can create tax, compliance, and legal issues, get clarity before you hire. Your visa status determines what you can and cannot do in your own company, talk to an immigration attorney early. Plan for total employment cost at roughly 1.15 to 1.30 times base salary. When you're ready, head back to your dashboard and pick the next destination to explore.",
+      "script_es": "Ha completado el Distrito de los Parques Temáticos. Qué llevarse: Clasificar incorrectamente a un trabajador como contratista cuando debería ser empleado puede crear problemas fiscales, de cumplimiento y legales, obtenga claridad antes de contratar. Su estatus migratorio determina qué puede y qué no puede hacer en su propia empresa, hable temprano con un abogado de inmigración. Planifique para un costo total de empleo de aproximadamente 1.15 a 1.30 veces el salario base. Cuando esté lista, regrese a su panel y elija el próximo destino a explorar."
+    },
+    {
+      "id": "module-5-intro",
+      "label": "MODULE 5 INTRO",
+      "module": 5,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "placement": "top of lesson-5-1.html",
+      "approved": true,
+      "script_en": "We've reached the Harbor. Just like the goods moving through a port, your product needs to be ready for the U.S. market before it arrives. What worked in your home market won't always work the same way here. In this module, you'll learn: The key areas where international products typically need adaptation, pricing, positioning, compliance, support, and payments. How U.S. buyers actually find, compare, and decide, and why speed and responsiveness strongly influence conversion. What U.S. companies require before they can pay you, W-9 forms, insurance certificates, and vendor onboarding. Pay close attention to the pricing scenarios. Pricing that feels safe or familiar can still reduce conversion in the U.S. market. Let's get to it.",
+      "script_es": "Hemos llegado al Puerto. Al igual que las mercancías que pasan por un puerto, su producto necesita estar listo para el mercado estadounidense antes de llegar. Lo que funcionó en su mercado de origen no siempre funcionará igual aquí. En este módulo, aprenderá: Las áreas clave donde los productos internacionales típicamente necesitan adaptación, precios, posicionamiento, cumplimiento, soporte y pagos. Cómo los compradores estadounidenses realmente encuentran, comparan y deciden, y por qué la velocidad y la capacidad de respuesta influyen fuertemente en la conversión. Qué requieren las empresas de EE.UU. antes de poder pagarle, formularios W-9, certificados de seguro e incorporación de proveedores. Preste mucha atención a los escenarios de precios. Un precio que se siente seguro o familiar todavía puede reducir la conversión en el mercado estadounidense. Manos a la obra."
+    },
+    {
+      "id": "module-5-outro",
+      "label": "MODULE 5 OUTRO",
+      "module": 5,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-5-1-avatar.png",
+      "placement": "end of lesson-5-2.html",
+      "approved": true,
+      "script_en": "You've completed the Harbor. A few things to carry forward: U.S. buyers often interpret unusually low pricing as lower quality, stay within the competitive range and differentiate on value. Speed is a trust signal in U.S. sales, same-day responses are often the expectation, not the exception. Vendor onboarding can delay payment for weeks, prepare your W-9, insurance, and banking details before you start selling. When you're ready, head back to your dashboard and pick the topic you want to explore next.",
+      "script_es": "Ha completado el Puerto. Algunas cosas para llevar: Los compradores estadounidenses a menudo interpretan precios inusualmente bajos como menor calidad, manténgase dentro del rango competitivo y diferencie por valor. La velocidad es una señal de confianza en las ventas en EE.UU., las respuestas el mismo día a menudo son la expectativa, no la excepción. La incorporación como proveedor puede retrasar el pago por semanas, prepare su W-9, seguro y detalles bancarios antes de comenzar a vender. Cuando esté listo, regrese a su panel y elija el tema que quiera explorar a continuación.",
+      "_note": "Uses lesson-5-1 (male) shots — lesson-5-2 avatar is female and clashes with male voice."
+    },
+    {
+      "id": "module-6-intro",
+      "label": "MODULE 6 INTRO",
+      "module": 6,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-6-2-avatar.png",
+      "placement": "top of lesson-6-1.html",
+      "approved": true,
+      "script_en": "We're at the Beach. U.S. business culture looks casual on the surface, first names, coffee meetings, relaxed dress code. But underneath, expectations are high, and the signals aren't always obvious. In this module, you'll learn: The difference between American friendliness and real business intent, and how to recognize the difference. How U.S. meetings actually work, and what effective follow-up looks like. The cultural missteps that quietly break deals, and how to avoid them. If you've ever had a great meeting in the U.S. go cold without explanation, this will help you understand why. Let's begin.",
+      "script_es": "Estamos en La Playa. La cultura empresarial estadounidense parece informal en la superficie, nombres de pila, reuniones tomando café, código de vestimenta relajado. Pero por debajo, las expectativas son altas, y las señales no siempre son evidentes. En este módulo, aprenderá: La diferencia entre la amabilidad estadounidense y la intención comercial real, y cómo reconocer la diferencia. Cómo funcionan realmente las reuniones en EE.UU., y cómo se ve un seguimiento efectivo. Los errores culturales que silenciosamente rompen acuerdos, y cómo evitarlos. Si alguna vez ha tenido una excelente reunión en EE.UU. que se enfrió sin explicación, esto le ayudará a entender por qué. Comencemos."
+    },
+    {
+      "id": "module-6-outro",
+      "label": "MODULE 6 OUTRO",
+      "module": 6,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-6-2-avatar.png",
+      "placement": "end of lesson-6-3.html",
+      "approved": true,
+      "script_en": "You've completed the Beach module. A few things to remember: A friendly meeting is not a closed deal, look for clear, written confirmation before you spend money. In U.S. business, trust is built through follow-through as much as relationships. Speed signals professionalism, sending a recap within 24 hours is a common expectation. When you're ready, head back to your dashboard and explore another destination.",
+      "script_es": "Ha completado el módulo de La Playa. Algunas cosas para recordar: Una reunión amigable no es un acuerdo cerrado, busque confirmación clara y por escrito antes de gastar dinero. En los negocios estadounidenses, la confianza se construye tanto a través del seguimiento como de las relaciones. La velocidad es señal de profesionalismo, enviar un resumen dentro de 24 horas es una expectativa común. Cuando esté lista, regrese a su panel y explore otro destino."
+    },
+    {
+      "id": "module-7-intro",
+      "label": "MODULE 7 INTRO",
+      "module": 7,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "placement": "top of lesson-7-1.html",
+      "approved": true,
+      "script_en": "Welcome to the Natural Springs. The springs feed everything downstream, and this module is about the ecosystem that can feed your business. Central Florida offers a deep network of free founder resources, and many international founders never fully tap into it. In this module, you'll learn: The free resources available to you, SBDC, SCORE, the Orlando Economic Partnership, and the UCF Business Incubation Program. What makes the Central Florida ecosystem different, accessibility, cost, and connectivity. The factors that directly impact your runway, and how this region compares to Miami, New York, and Silicon Valley. Many founders pay for guidance that is available for free. This module shows you where to look first. Let's get into it.",
+      "script_es": "Bienvenido a Los Manantiales. Los manantiales alimentan todo lo que está río abajo, y este módulo trata sobre el ecosistema que puede alimentar su negocio. Florida Central ofrece una red profunda de recursos gratuitos para fundadores, y muchos fundadores internacionales nunca la aprovechan por completo. En este módulo, aprenderá: Los recursos gratuitos disponibles para usted, SBDC, SCORE, la Orlando Economic Partnership, y el Programa de Incubación de Empresas de UCF. Qué hace diferente al ecosistema de Florida Central, accesibilidad, costo y conectividad. Los factores que impactan directamente su runway, y cómo se compara esta región con Miami, Nueva York y Silicon Valley. Muchos fundadores pagan por orientación que está disponible gratis. Este módulo le muestra dónde buscar primero. Manos a la obra."
+    },
+    {
+      "id": "module-7-outro",
+      "label": "MODULE 7 OUTRO",
+      "module": 7,
+      "voice_en": "male_en",
+      "voice_es": "male_es",
+      "avatar": "media/images/avatars/scenes/lesson-7-4-avatar.png",
+      "placement": "end of lesson-7-4.html",
+      "approved": true,
+      "script_en": "You've completed the Natural Springs. Your support network: The SBDC at UCF offers free, ongoing business consulting, use it early to validate decisions before paying for private services. Lower operating costs in Central Florida can extend your runway by months, that's often the difference between reaching product-market fit and running out of cash. Founders who succeed here actively use the ecosystem, advisors, mentors, and partner organizations, to move faster and avoid costly mistakes. When you're ready, head back to your dashboard and choose what to explore next.",
+      "script_es": "Ha completado Los Manantiales. Su red de apoyo: El SBDC en UCF ofrece consultoría empresarial gratuita y continua, úsela temprano para validar decisiones antes de pagar por servicios privados. Costos operativos más bajos en Florida Central pueden extender su runway por meses, esa suele ser la diferencia entre alcanzar el ajuste producto-mercado y quedarse sin dinero. Los fundadores que tienen éxito aquí usan activamente el ecosistema, asesores, mentores y organizaciones aliadas, para avanzar más rápido y evitar errores costosos. Cuando esté listo, regrese a su panel y elija qué explorar a continuación."
+    },
+    {
+      "id": "module-8-intro",
+      "label": "MODULE 8 INTRO",
+      "module": 8,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-8-1-avatar.png",
+      "placement": "top of lesson-8-1.html",
+      "approved": true,
+      "script_en": "Welcome to UCF Campus, the final stop before you take action. You've worked through every major area of U.S. market entry. Now it's time to decide what you're ready to do, and what needs attention first. In this module, you'll: Complete a structured self-assessment across all core topics. Identify your highest-priority gaps and where to get the right support. Download the resources that turn what you've learned into an action plan. This isn't a test. It's a decision tool to help you choose what comes next. Let's take the next step.",
+      "script_es": "Bienvenida al Campus UCF, la parada final antes de actuar. Ha recorrido cada área importante de la entrada al mercado estadounidense. Ahora es el momento de decidir qué está lista para hacer, y qué necesita atención primero. En este módulo: Completará una autoevaluación estructurada en todos los temas clave. Identificará sus brechas de mayor prioridad y dónde obtener el apoyo adecuado. Descargará los recursos que convierten lo que ha aprendido en un plan de acción. Esto no es un examen. Es una herramienta de decisión para ayudarle a elegir qué viene después. Demos el siguiente paso."
+    },
+    {
+      "id": "module-8-outro",
+      "label": "MODULE 8 OUTRO · COURSE WRAP-UP",
+      "module": 8,
+      "voice_en": "female_en",
+      "voice_es": "female_es",
+      "avatar": "media/images/avatars/scenes/lesson-8-3-avatar.png",
+      "placement": "end of lesson-8-3.html",
+      "approved": true,
+      "script_en": "You've reached the end of the roadmap, this is where the execution begins. What matters most now: Progress comes from action, use what you've learned to move forward. Your lowest self-assessment scores define your highest-priority next steps. Book your one-on-one with the UCF Business Incubation Program team, this is where your plan becomes specific and actionable. Thank you for completing the U.S. Market Readiness Program. The next step is yours, and feel free to come back to your dashboard when you need to revisit a topic.",
+      "script_es": "Ha llegado al final de la hoja de ruta, aquí es donde comienza la ejecución. Lo que más importa ahora: El progreso viene de la acción, use lo que ha aprendido para avanzar. Sus puntajes más bajos en la autoevaluación definen sus próximos pasos de mayor prioridad. Reserve su sesión personalizada con el equipo del Programa de Incubación de Empresas de UCF, aquí es donde su plan se vuelve específico y accionable. Gracias por completar el Programa de Preparación para el Mercado de Estados Unidos. El siguiente paso es suyo, y siéntase libre de regresar a su panel cuando necesite revisar un tema."
+    }
+  ]
+}

@@ -379,6 +379,29 @@ html, body {
 .vd-layer-overlay.is-open .vd-dest:nth-child(7)  { transition-delay: 0.28s; }
 .vd-layer-overlay.is-open .vd-dest:nth-child(8)  { transition-delay: 0.32s; }
 .vd-layer-overlay.is-open .vd-dest:nth-child(9)  { transition-delay: 0.36s; }
+.vd-layer-overlay.is-open .vd-dest:nth-child(10) { transition-delay: 0.40s; }
+.vd-layer-overlay.is-open .vd-dest:nth-child(11) { transition-delay: 0.44s; }
+
+/* === RESOURCES ENTRY (sits in row 5, column 2 — under UCF Campus) === */
+.vd-dest--resources {
+  background: linear-gradient(135deg, rgba(212,168,67,0.04), rgba(212,168,67,0.10));
+  border: 1px solid rgba(212,168,67,0.2);
+}
+.vd-dest--resources:hover {
+  background: linear-gradient(135deg, rgba(212,168,67,0.10), rgba(212,168,67,0.18));
+  border-color: rgba(212,168,67,0.45);
+}
+.vd-dest--resources .vd-dest-icon {
+  color: #fff;
+  background: rgba(0,0,0,0.18);
+}
+.vd-dest--resources .vd-dest-icon img {
+  width: 56px;
+  height: 56px;
+}
+.vd-dest--resources .vd-dest-icon-col > .vd-dest-progress-bar {
+  display: none; /* Resources has no completion tracking */
+}
 
 /* === TRANSITION VIDEO (plays before navigating to module) === */
 .vd-transition {

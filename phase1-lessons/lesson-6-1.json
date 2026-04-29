@@ -14,13 +14,13 @@
       "type": "text",
       "id": "text-6-1-1",
       "title": "What Looks Casual Has Rules",
-      "content": "<p>U.S. business culture looks informal on the surface. Meetings start with small talk, first names are the norm, and dress codes are relaxed. But underneath that casual tone, the expectations are precise and the rules are unwritten.</p>\n\n<p>A Brazilian founder's American contact said, \"This is great, let's definitely move forward.\" She spent $3,000 on legal fees drafting a partnership agreement. Two weeks later she learned \"let's move forward\" meant \"I'm interested enough to keep talking.\"</p>\n\n<p>Learning to tell the difference between real commitment and polite interest is what this lesson is about. Once you see the pattern, you will read these situations accurately every time.</p>",
+      "content": "<p>U.S. business culture looks informal on the surface. Meetings start with small talk, first names are the norm, and dress codes are relaxed. But underneath that casual tone, the expectations are precise and the rules are unwritten.</p>\n\n<p>A Brazilian founder's American contact said, \"This is great, let's definitely move forward.\" She spent $3,000 on legal fees drafting a partnership agreement. Two weeks later she learned \"let's move forward\" meant \"I'm interested enough to keep talking.\"</p>\n\n<p>This lesson teaches you to tell real commitment from polite interest. Once you see the pattern, you will read these situations accurately.</p>",
       "wordCount": 338
     },
     {
       "type": "image",
       "id": "img-6-1-communication",
-      "title": "Two Founders in Meeting — Communication Styles",
+      "title": "Two Founders in Meeting: Communication Styles",
       "src": "images/scenarios/lesson-6-1-meeting-communication.jpg",
       "alt": "Illustration of two professionals with contrasting communication styles meeting at a round table in a modern coworking space, one leaning forward with open gestures and the other taking careful notes."
     },
@@ -28,7 +28,7 @@
       "type": "text",
       "id": "text-6-1-direct-indirect",
       "title": "The Direct Parts and the Hidden Signals",
-      "content": "<h4>The Direct Parts</h4>\n\n<p>When an American gives you a specific number, date, or action item, take it literally. \"Send me the proposal by Friday\" means Friday. \"Our budget is $50,000\" means $50,000. U.S. business emails are short — three to five sentences. Match that style.</p>\n\n<h4>The Hidden Signals</h4>\n\n<p>Americans avoid direct \"no\" in business. They use softening phrases that founders frequently misread. The pattern: when Americans are interested, they take <strong>clear action</strong>. They propose dates, send follow-ups, and make intros. When they are not, you hear vague praise and open-ended timelines. The flashcards below decode the most common phrases.</p>"
+      "content": "<h4>The Direct Parts</h4>\n\n<p>When an American gives you a specific number, date, or action item, take it literally. \"Send me the proposal by Friday\" means Friday. \"Our budget is $50,000\" means $50,000. U.S. business emails are short, three to five sentences. Match that style.</p>\n\n<h4>The Hidden Signals</h4>\n\n<p>Americans avoid direct \"no\" in business. They use softening phrases that founders frequently misread. The pattern: when Americans are interested, they take <strong>clear action</strong>. They propose dates, send follow-ups, and make intros. When they are not, you hear vague praise and open-ended timelines. The flashcards below decode the most common phrases.</p>"
     },
     {
       "type": "callout",
@@ -42,12 +42,12 @@
       "id": "callout-6-1-1",
       "variant": "theme-understand-culture",
       "title": "Speed Equals Professionalism",
-      "content": "<p>In U.S. business, <strong>response time is a trust signal</strong>. A same-day email reply tells your contact you're organized, reliable, and serious. Waiting three days to respond — even if the delay is normal in your home culture — signals that you are not interested or not on top of things. Aim to respond within 4 hours during business hours. Even a quick \"Got it, I'll send details by tomorrow\" keeps the relationship warm.</p>"
+      "content": "<p>In U.S. business, <strong>response time is a trust signal</strong>. A same-day email reply tells your contact you're organized, reliable, and serious. Waiting three days to respond, even if the delay is normal in your home culture, signals that you are not interested or not on top of things. Aim to respond within 4 hours during business hours. Even a quick \"Got it, I'll send details by tomorrow\" keeps the relationship warm.</p>"
     },
     {
       "type": "flashcards",
       "id": "int-6-1-1",
-      "title": "American Business Phrases — What They Actually Mean",
+      "title": "American Business Phrases: What They Really Mean",
       "cards": [
         {
           "front": "\"Let's circle back on that\"",
@@ -63,7 +63,7 @@
         },
         {
           "front": "\"We should get coffee sometime\"",
-          "back": "Translation: A social pleasantry — NOT a concrete invitation. Don't follow up to schedule it."
+          "back": "Translation: A social pleasantry, NOT a concrete invitation. Don't follow up to schedule it."
         },
         {
           "front": "\"I'll try to make it work\"",
@@ -72,38 +72,14 @@
         {
           "front": "\"Let's take this offline\"",
           "back": "Translation: This is too detailed for this meeting. Let's discuss separately (and actually do it)."
-        }
-      ]
-    },
-    {
-      "type": "matching",
-      "id": "matching-6-1-phrases",
-      "title": "Decode the Phrase — What Do They Really Mean?",
-      "instruction": "Match each American business phrase to its actual meaning.",
-      "pairs": [
-        {
-          "left": "Let's circle back on this",
-          "right": "Not interested right now"
         },
         {
-          "left": "That's really interesting",
-          "right": "Polite deflection — no follow-up coming"
+          "front": "\"Let's put a pin in that\"",
+          "back": "Translation: This topic is effectively dead. Polite way to shelve something without a hard \"no\". Move on."
         },
         {
-          "left": "Let me check with my team",
-          "right": "Decision isn’t mine alone — needs internal approval"
-        },
-        {
-          "left": "We should get coffee sometime",
-          "right": "Social pleasantry — not a real invitation"
-        },
-        {
-          "left": "Let's put a pin in that",
-          "right": "This topic is effectively dead"
-        },
-        {
-          "left": "Send me the proposal by Friday",
-          "right": "Literal deadline — they mean Friday"
+          "front": "\"Send me the proposal by Friday\"",
+          "back": "Translation: This one IS literal. When Americans give a direct deadline, they mean it. Friday means Friday , not \"sometime next week\"."
         }
       ]
     },
@@ -111,15 +87,15 @@
       "type": "text",
       "id": "text-6-1-2",
       "title": "Building Trust as an Outsider",
-      "content": "<p>Building trust takes practice, but every commitment you keep proves you belong in this market. In the U.S., trust comes from <strong>delivery</strong>, not relationships. As one Colombian founder put it: \"Back home, I'd take a partner to dinner three times before discussing terms. Here, he wanted a working prototype before he'd agree to lunch.\"</p>\n\n<h4>The Three Actions That Build U.S. Business Trust</h4><ol><li><strong>Respond quickly.</strong> Same-day replies. Acknowledge emails even when you need more time.</li><li><strong>Follow through on small commitments.</strong> Send the document by Monday if you promised Tuesday. Every deadline met is a credibility deposit.</li><li><strong>Be transparent about problems.</strong> \"We hit a delay — here's our new timeline\" builds more trust than silence followed by excuses.</li></ol>\n\n<p>Reading U.S. trust signals comes down to observation. Watch what people do after meetings, not what they say during them. An Indonesian founder selling supply chain software in Orlando adapted by leading with a clear value proposition and specific numbers instead of the extended relationship-building she used in Jakarta, and her close rate improved significantly.</p>\n\n<h4>Credibility Markers for International Founders</h4>\n\n<p>These are your credibility markers, the things that reduce perceived risk when Americans are deciding whether to trust you. Reduce perceived risk with:</p>\n\n<ul><li><strong>Local presence signals</strong>. U.S. phone number, business address, registered LLC.</li><li><strong>Professional digital presence</strong>. Clean LinkedIn profile, professional website, business email (not Gmail).</li><li><strong>References and social proof</strong>: Even one U.S. testimonial carries significant weight.</li><li><strong>Clear, concise communication</strong>. Emails that get to the point. Proposals that are well-organized.</li></ul>",
+      "content": "<p>Building trust takes practice, but every commitment you keep proves you belong in this market. In the U.S., trust comes from <strong>delivery</strong>, not relationships. As one Colombian founder put it: \"Back home, I'd take a partner to dinner three times before discussing terms. Here, he wanted a working prototype before he'd agree to lunch.\"</p>\n\n<h4>The Three Actions That Build U.S. Business Trust</h4><ol><li><strong>Respond quickly.</strong> Same-day replies. Acknowledge emails even when you need more time.</li><li><strong>Follow through on small commitments.</strong> Send the document by Monday if you promised Tuesday. Every deadline met is a credibility deposit.</li><li><strong>Be transparent about problems.</strong> \"We hit a delay, here's our new timeline\" builds more trust than silence followed by excuses.</li></ol>\n\n<p>Reading U.S. trust signals comes down to observation. Watch what people do after meetings, not what they say during them. An Indonesian business owner selling supply chain software in Orlando adapted by leading with a clear value proposition and specific numbers instead of the extended relationship-building she used in Jakarta, and her close rate improved significantly.</p>\n\n<h4>Credibility Markers for International Founders</h4>\n\n<p>These are your credibility markers, the things that reduce perceived risk when Americans are deciding whether to trust you. Reduce perceived risk with:</p>\n\n<ul><li><strong>Local presence signals</strong>. U.S. phone number, business address, registered LLC.</li><li><strong>Professional digital presence</strong>. Clean LinkedIn profile, professional website, business email (not Gmail).</li><li><strong>References and social proof</strong>: Even one U.S. testimonial carries significant weight.</li><li><strong>Clear, concise communication</strong>. Emails that get to the point. Proposals that are well-organized.</li></ul>",
       "wordCount": 212
     },
     {
       "type": "callout",
       "id": "callout-6-1-cm",
       "variant": "common-mistakes-repeating",
-      "title": "Common Mistakes International Founders Make — Communication",
-      "content": "<ul><li><strong>Mistaking American warmth for a business deal.</strong> A warm meeting and a handshake are not a deal. Watch for clear follow-up actions, not smiles.</li><li><strong>Spending too long on small talk before getting to business.</strong> Long social lead-ins can look unfocused. Get to the business purpose within the first few minutes of a meeting.</li><li><strong>Not sending written follow-up after meetings.</strong> In the U.S., if it's not in writing, it didn't happen. Always send a recap email within 24 hours.</li><li><strong>Assuming positive language means a deal is happening.</strong> Americans are generous with praise during meetings — \"I love this\" or \"This is amazing\" can simply mean \"I find this interesting.\" The real test comes after: Did they send a follow-up? Did they introduce you to a decision-maker? <strong>Actions after the meeting tell you more than words during the meeting.</strong></li></ul>"
+      "title": "Common Mistakes International Founders Make: Communication",
+      "content": "<ul><li><strong>Mistaking American warmth for a business deal.</strong> A warm meeting and a handshake are not a deal. Watch for clear follow-up actions, not smiles.</li><li><strong>Spending too long on small talk before getting to business.</strong> Long social lead-ins can look unfocused. Get to the business purpose within the first few minutes of a meeting.</li><li><strong>Not sending written follow-up after meetings.</strong> In the U.S., if it's not in writing, it didn't happen. Always send a recap email within 24 hours.</li><li><strong>Assuming positive language means a deal is happening.</strong> Americans are generous with praise during meetings, \"I love this\" or \"This is amazing\" can simply mean \"I find this interesting.\" The real test comes after: Did they send a follow-up? Did they introduce you to a decision-maker? <strong>Actions after the meeting tell you more than words during the meeting.</strong></li></ul>"
     },
     {
       "type": "knowledge-check",

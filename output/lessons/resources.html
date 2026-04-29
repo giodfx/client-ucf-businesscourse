@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="UCF Business Course — Resources Hub">
+<title>Resources, U.S. Market Readiness Program</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/accessibility.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/roadtrip-theme.css">
+<link rel="stylesheet" href="css/roadtrip-lesson.css">
+<link rel="stylesheet" href="css/video-dashboard.css">
+<link rel="stylesheet" href="css/celebrations.css">
+<style>
+  /* ===== Resources page — uses roadtrip-lesson hero/breadcrumb pattern,
+     plus self-contained category/search styles ===== */
+  :root {
+    --resources-bg: #0a1628;
+    --resources-bg2: #0f1d36;
+    --resources-surface: rgba(15,25,45,0.85);
+    --resources-surface2: rgba(20,35,60,0.7);
+    --resources-border: rgba(212,168,67,0.25);
+    --resources-border-strong: rgba(212,168,67,0.5);
+    --resources-accent: #d4a843;
+    --resources-accent2: #e8c66a;
+    --resources-text: #e2e8f0;
+    --resources-muted: #94a3b8;
+    --resources-internal: #60a5fa;
+    --resources-external: #34d399;
+  }
+
+  body.resources-body {
+    background: var(--resources-bg);
+    color: var(--resources-text);
+    font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Resources main container — sits below the hero */
+  .resources-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 1.25rem 4rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Search */
+  .resources-search-wrap {
+    position: sticky;
+    top: 0.5rem;
+    z-index: 5;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to bottom, var(--resources-bg) 70%, transparent);
+    padding: 0.5rem 0 0.75rem;
+  }
+  .resources-search-box {
+    position: relative;
+    background: var(--resources-surface);
+    border: 1px solid var(--resources-border-strong);
+    border-radius: 10px;
+    transition: border-color 0.2s;
+  }
+  .resources-search-box:focus-within { border-color: var(--resources-accent); }
+  .resources-search-box input[type="search"] {
+    width: 100% !important;
+    padding: 0.85rem 2.75rem 0.85rem 3rem !important;
+    background: transparent !important;
+    color: var(--resources-text) !important;
+    border: none !important;
+    outline: none !important;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+  }
+  .resources-search-box input::placeholder { color: var(--resources-muted); }
+  .resources-search-box .icon-search {
+    position: absolute;
+    left: 0.85rem; top: 50%;
+    transform: translateY(-50%);
+    color: var(--resources-muted);
+    pointer-events: none;
+  }
+  .resources-search-clear {
+    position: absolute;
+    right: 0.5rem; top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.05);
+    color: var(--resources-muted);
+    border: none;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .resources-search-clear:hover { background: rgba(255,255,255,0.12); color: var(--resources-text); }
+  .resources-search-clear.visible { display: flex; }
+
+  .resources-search-meta {
+    display: none;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(212,168,67,0.08);
+    border-left: 3px solid var(--resources-accent);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--resources-muted);
+  }
+  .resources-search-meta.visible { display: block; }
+
+  /* Category */
+  .resources-category {
+    margin-bottom: 2rem;
+    background: var(--resources-surface);
+    border: 1px solid var(--resources-border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .resources-category-header {
+    padding: 1.1rem 1.25rem;
+    border-bottom: 1px solid var(--resources-border);
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    background: linear-gradient(90deg, rgba(212,168,67,0.08), transparent);
+  }
+  .resources-category-icon {
+    width: 36px; height: 36px;
+    flex-shrink: 0;
+    background: rgba(212,168,67,0.12);
+    border: 1px solid var(--resources-border);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--resources-accent2);
+  }
+  .resources-category-icon svg { width: 20px; height: 20px; }
+  .resources-category-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.15rem; color: var(--resources-accent2); margin: 0; }
+  .resources-category-desc { color: var(--resources-muted); font-size: 0.85rem; margin-top: 0.15rem; margin-bottom: 0; }
+  .resources-category-body { padding: 0.5rem 0.75rem; }
+
+  /* Item */
+  .resources-item {
+    padding: 0.95rem 0.75rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    gap: 0.85rem;
+    align-items: start;
+    transition: background 0.15s;
+  }
+  .resources-item:last-child { border-bottom: none; }
+  .resources-item:hover { background: rgba(255,255,255,0.025); }
+  .resources-item-type-icon {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .resources-item-type-icon.internal { background: rgba(96,165,250,0.12); color: var(--resources-internal); }
+  .resources-item-type-icon.external { background: rgba(52,211,153,0.12); color: var(--resources-external); }
+  .resources-item-type-icon svg { width: 14px; height: 14px; }
+  .resources-item-body { min-width: 0; }
+  .resources-item-title {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-bottom: 0.2rem;
+    color: var(--resources-accent2);
+  }
+  .resources-item-title a { color: inherit; text-decoration: none; }
+  .resources-item-title a:hover { color: var(--resources-accent); text-decoration: underline; }
+  .resources-item-desc { color: var(--resources-text); font-size: 0.9rem; line-height: 1.5; }
+  .resources-item-tags { display: flex; gap: 0.35rem; flex-wrap: wrap; margin-top: 0.4rem; }
+  .resources-item-tag {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.05);
+    color: var(--resources-muted);
+    font-weight: 500;
+  }
+  .resources-item-action {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.45rem 0.85rem;
+    background: rgba(212,168,67,0.12);
+    color: var(--resources-accent2);
+    border: 1px solid var(--resources-border);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+  .resources-item-action:hover { background: var(--resources-accent); color: var(--resources-bg); border-color: var(--resources-accent); }
+  .resources-item-action svg { width: 12px; height: 12px; margin-left: 0.3rem; }
+
+  .resources-item.hidden { display: none; }
+  .resources-category.hidden { display: none; }
+
+  /* Empty state */
+  .resources-empty-state {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    color: var(--resources-muted);
+    font-size: 1.05rem;
+    display: none;
+  }
+  .resources-empty-state.visible { display: block; }
+
+  /* Loading state */
+  .resources-loading { text-align: center; padding: 3rem; color: var(--resources-muted); }
+
+  /* Footer note */
+  .resources-footer-note {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--resources-muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--resources-border);
+  }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .resources-main { padding: 0.75rem 0.75rem 3rem; }
+    .resources-item { grid-template-columns: 24px 1fr; gap: 0.6rem; }
+    .resources-item-action { grid-column: 2; margin-top: 0.5rem; justify-self: start; }
+  }
+
+  /* ===== Chrome bar — back link + settings dropdown ===== */
+  .rt-resources-chrome {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 12px 24px;
+    background: rgba(10, 22, 40, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .rt-resources-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.15s, color 0.15s;
+  }
+  .rt-resources-back:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+  }
+
+  /* Override .rt-lesson-main padding for resources — no sidebar means full width */
+  .rt-resources-main-wrap {
+    padding: 0 !important;
+  }
+
+  /* Hide the redundant rt-module-intro on resources (we have hero text already) — actually keep it for consistency */
+</style>
+</head>
+<body class="rt-lesson-body resources-body" data-lesson-id="resources" data-page-type="resources">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Chrome bar — back link + settings dropdown (matches dashboard pattern) -->
+  <div class="rt-resources-chrome">
+    <a href="index.html" class="rt-resources-back" aria-label="Back to destinations">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span data-es="Destinos">Destinations</span>
+    </a>
+    <div class="vd-settings-wrap">
+      <button type="button" class="vd-settings-btn" id="btnSettings" aria-label="Settings" aria-expanded="false" aria-controls="settingsDropdown">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.49.49 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96a.49.49 0 00-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.6 3.6 0 1115.6 12 3.611 3.611 0 0112 15.6z"/></svg>
+      </button>
+      <div class="vd-settings-dropdown" id="settingsDropdown" role="menu" aria-label="Settings menu">
+        <div class="vd-settings-item">
+          <span class="vd-settings-label" data-es="Idioma">Language</span>
+          <div id="rt-lang-mount"></div>
+        </div>
+        <div class="vd-settings-item">
+          <span class="vd-settings-label" data-es="Tema">Theme</span>
+          <button type="button" class="vd-theme-pill" id="btnTheme" role="switch" aria-label="Toggle light/dark theme">
+            <span class="vd-theme-pill-opt" data-mode="dark">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+            </span>
+            <span class="vd-theme-pill-opt" data-mode="light">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Landscape Hero — matches lesson hero pattern -->
+  <div class="rt-landscape-hero" style="--hero-gradient: linear-gradient(135deg, #1e3a5f 0%, #0f2440 100%)" aria-hidden="true">
+    <img src="images/resources-hero.jpg" alt="" class="rt-hero-img" onerror="this.style.display='none'" />
+    <div class="rt-hero-overlay"></div>
+    <div class="rt-hero-module-label">
+      <span class="rt-hero-module-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h6a2 2 0 012 2v14a2 2 0 00-2-2H4z"/>
+          <path d="M20 4h-6a2 2 0 00-2 2v14a2 2 0 012-2h6z"/>
+        </svg>
+      </span>
+      <span data-es="RECURSOS">RESOURCES</span>
+    </div>
+    <div class="rt-hero-drips">
+      <div class="rt-drip rt-drip--1"></div>
+      <div class="rt-drip rt-drip--2"></div>
+      <div class="rt-drip rt-drip--3"></div>
+      <div class="rt-drip rt-drip--4"></div>
+      <div class="rt-drip rt-drip--5"></div>
+      <div class="rt-drip rt-drip--6"></div>
+      <div class="rt-drip rt-drip--7"></div>
+    </div>
+  </div>
+
+  <div class="rt-lesson-layout">
+    <!-- Breadcrumb — matches lesson page pattern -->
+    <nav class="rt-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html" data-es="Destinos">Destinations</a>
+      <span class="rt-breadcrumb-sep" aria-hidden="true">
+        <svg viewBox="0 0 8 12" width="8" height="12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </span>
+      <span class="rt-breadcrumb-current" aria-current="page" data-es="Recursos">Resources</span>
+    </nav>
+
+    <!-- No left sidebar on Resources page (intentional — not a lesson) -->
+    <main id="main-content" class="rt-lesson-main rt-resources-main-wrap" role="main">
+        <article class="rt-lesson-content">
+          <header class="rt-lesson-header">
+            <h1 class="rt-lesson-title" data-es="Recursos">Resources</h1>
+          </header>
+
+          <div class="rt-module-intro">
+            <p class="rt-module-intro-desc" data-es="Recursos y herramientas que la mayoría de los emprendedores internacionales no descubren a tiempo. Búsquelos cuando los necesite.">Resources and tools most international entrepreneurs don't discover until later. Pull them up when you need them.</p>
+          </div>
+
+          <div class="resources-main">
+
+            <!-- Search -->
+            <div class="resources-search-wrap">
+              <div class="resources-search-box">
+                <span class="icon-search" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+                </span>
+                <input type="search" id="searchInput" placeholder="Search resources..." data-placeholder-es="Buscar recursos..." aria-label="Search resources">
+                <button type="button" class="resources-search-clear" id="searchClear" onclick="clearSearch()" aria-label="Clear search">×</button>
+              </div>
+              <div class="resources-search-meta" id="searchMeta"></div>
+            </div>
+
+            <!-- Categories -->
+            <div id="resourcesRoot" class="resources-loading" data-loading-es="Cargando recursos...">Loading resources...</div>
+
+            <div class="resources-empty-state" id="emptyState" data-es="No se encontraron recursos para su búsqueda. Intente otras palabras clave.">No resources match your search. Try different keywords.</div>
+
+          </div>
+        </article>
+      </main>
+  </div>
+
+  <!-- Inlined resources data (replaces fetch — works with file:// protocol) -->
+  <script type="application/json" id="resources-data">
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-27",
+    "note": "Single source of truth for the Resources page. Add or edit items here; the page reads this file at load."
+  },
+  "categories": [
+    {
+      "id": "course-tools",
+      "name": "Course Tools & Worksheets",
+      "nameEs": "Herramientas y Hojas de Trabajo",
+      "description": "Interactive resources designed for this program. Use them to plan, decide, and act.",
+      "descriptionEs": "Recursos interactivos diseñados para este programa. Úselos para planificar, decidir y actuar.",
+      "icon": "tool",
+      "items": [
+        {
+          "title": "U.S. Market Entry Checklist",
+          "titleEs": "Lista de Verificación para Entrada al Mercado de EE.UU.",
+          "description": "Module-by-module action checklist with priority and time estimates.",
+          "descriptionEs": "Lista de verificación módulo por módulo con prioridad y estimación de tiempo.",
+          "url": "resources/resource-checklist.html",
+          "type": "internal",
+          "tags": [
+            "checklist",
+            "planning",
+            "action"
+          ]
+        },
+        {
+          "title": "Florida Setup Roadmap",
+          "titleEs": "Hoja de Ruta para Establecerse en Florida",
+          "description": "Phased roadmap from formation through first customers, with timing.",
+          "descriptionEs": "Hoja de ruta por fases desde la formación hasta los primeros clientes.",
+          "url": "resources/resource-roadmap.html",
+          "type": "internal",
+          "tags": [
+            "roadmap",
+            "timing",
+            "florida"
+          ]
+        },
+        {
+          "title": "Central Florida Resource Guide",
+          "titleEs": "Guía de Recursos de Florida Central",
+          "description": "Local organizations, mentors, and free support directory.",
+          "descriptionEs": "Directorio de organizaciones locales, mentores y apoyo gratuito.",
+          "url": "resources/resource-guide.html",
+          "type": "internal",
+          "tags": [
+            "directory",
+            "local",
+            "support"
+          ]
+        },
+        {
+          "title": "Expansion Decision Worksheet",
+          "titleEs": "Hoja de Decisión para Expansión",
+          "description": "Self-assessment to evaluate your readiness across key dimensions.",
+          "descriptionEs": "Auto-evaluación para evaluar su preparación en dimensiones clave.",
+          "url": "resources/resource-worksheet.html",
+          "type": "internal",
+          "tags": [
+            "self-assessment",
+            "decision",
+            "readiness"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-formation",
+      "name": "Legal & Business Formation",
+      "nameEs": "Legal y Formación de Negocios",
+      "description": "Official portals and services for forming your U.S. business entity.",
+      "descriptionEs": "Portales oficiales y servicios para formar su entidad comercial en EE.UU.",
+      "icon": "scale",
+      "items": [
+        {
+          "title": "Florida SunBiz",
+          "titleEs": "SunBiz de Florida",
+          "description": "Florida Department of State business filing portal — register LLCs and Corps.",
+          "descriptionEs": "Portal de la Secretaría de Estado de Florida para registrar LLC y Corp.",
+          "url": "https://sunbiz.org",
+          "type": "external",
+          "tags": [
+            "florida",
+            "filing",
+            "official"
+          ]
+        },
+        {
+          "title": "IRS — Employer ID Numbers",
+          "titleEs": "IRS, Números de Identificación del Empleador",
+          "description": "Apply for your Federal Employer ID Number (EIN) free, directly from the IRS.",
+          "descriptionEs": "Solicite su Número de Identificación Federal del Empleador (EIN) gratis con el IRS.",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers",
+          "type": "external",
+          "tags": [
+            "ein",
+            "irs",
+            "official",
+            "free"
+          ]
+        },
+        {
+          "title": "Florida Bar — Lawyer Referral Service",
+          "titleEs": "Colegio de Abogados de Florida, Servicio de Referencia",
+          "description": "Find vetted Florida attorneys; first 30-minute consultation typically $25.",
+          "descriptionEs": "Encuentre abogados calificados de Florida; consulta inicial de 30 minutos típicamente $25.",
+          "url": "https://www.floridabar.org/public/lrs/",
+          "type": "external",
+          "tags": [
+            "lawyer",
+            "attorney",
+            "florida"
+          ]
+        },
+        {
+          "title": "LegalZoom",
+          "titleEs": "LegalZoom",
+          "description": "Online business formation and ongoing legal document services.",
+          "descriptionEs": "Formación de negocios en línea y servicios continuos de documentos legales.",
+          "url": "https://www.legalzoom.com",
+          "type": "external",
+          "tags": [
+            "formation",
+            "legal-docs"
+          ]
+        },
+        {
+          "title": "IncFile",
+          "titleEs": "IncFile",
+          "description": "Low-cost LLC and Corporation formation service.",
+          "descriptionEs": "Servicio de formación de LLC y Corp de bajo costo.",
+          "url": "https://www.incfile.com",
+          "type": "external",
+          "tags": [
+            "formation",
+            "low-cost"
+          ]
+        },
+        {
+          "title": "Stripe Atlas",
+          "titleEs": "Stripe Atlas",
+          "description": "Delaware C-Corp formation built for tech founders, includes banking.",
+          "descriptionEs": "Formación de C-Corp en Delaware diseñada para fundadores tecnológicos, incluye banca.",
+          "url": "https://stripe.com/atlas",
+          "type": "external",
+          "tags": [
+            "delaware",
+            "tech",
+            "formation",
+            "investor-ready"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tax-banking",
+      "name": "Tax, Banking & Accounting",
+      "nameEs": "Impuestos, Banca y Contabilidad",
+      "description": "Tools to manage taxes, open bank accounts, and keep clean books.",
+      "descriptionEs": "Herramientas para gestionar impuestos, abrir cuentas bancarias y llevar contabilidad limpia.",
+      "icon": "money",
+      "items": [
+        {
+          "title": "Mercury",
+          "titleEs": "Mercury",
+          "description": "Online business banking built for tech and international founders.",
+          "descriptionEs": "Banca digital de negocios para emprendedores tecnológicos e internacionales.",
+          "url": "https://mercury.com",
+          "type": "external",
+          "tags": [
+            "banking",
+            "online",
+            "international"
+          ]
+        },
+        {
+          "title": "Relay",
+          "titleEs": "Relay",
+          "description": "Online business banking with multi-account budgeting features.",
+          "descriptionEs": "Banca de negocios en línea con presupuesto de múltiples cuentas.",
+          "url": "https://relayfi.com",
+          "type": "external",
+          "tags": [
+            "banking",
+            "online"
+          ]
+        },
+        {
+          "title": "QuickBooks Online",
+          "titleEs": "QuickBooks Online",
+          "description": "Industry-standard small business accounting and bookkeeping.",
+          "descriptionEs": "Contabilidad estándar para pequeñas empresas.",
+          "url": "https://quickbooks.intuit.com",
+          "type": "external",
+          "tags": [
+            "accounting",
+            "bookkeeping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ip-protection",
+      "name": "Intellectual Property",
+      "nameEs": "Propiedad Intelectual",
+      "description": "Protect your brand, content, and inventions in the U.S.",
+      "descriptionEs": "Proteja su marca, contenido e invenciones en EE.UU.",
+      "icon": "shield",
+      "items": [
+        {
+          "title": "USPTO — U.S. Patent and Trademark Office",
+          "titleEs": "USPTO, Oficina de Patentes y Marcas de EE.UU.",
+          "description": "File trademarks and patents directly with the federal office.",
+          "descriptionEs": "Registre marcas y patentes directamente con la oficina federal.",
+          "url": "https://www.uspto.gov",
+          "type": "external",
+          "tags": [
+            "trademark",
+            "patent",
+            "official"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa-immigration",
+      "name": "Visa & Immigration",
+      "nameEs": "Visas e Inmigración",
+      "description": "Federal services and reputable immigration law firms.",
+      "descriptionEs": "Servicios federales y bufetes de inmigración de buena reputación.",
+      "icon": "plane",
+      "items": [
+        {
+          "title": "USCIS — U.S. Citizenship and Immigration Services",
+          "titleEs": "USCIS, Servicios de Ciudadanía e Inmigración de EE.UU.",
+          "description": "Federal portal for visa applications, status checks, and forms.",
+          "descriptionEs": "Portal federal para solicitudes de visa, verificación de estado y formularios.",
+          "url": "https://www.uscis.gov",
+          "type": "external",
+          "tags": [
+            "visa",
+            "official",
+            "uscis"
+          ]
+        },
+        {
+          "title": "AILA — American Immigration Lawyers Association",
+          "titleEs": "AILA, Asociación Americana de Abogados de Inmigración",
+          "description": "Find qualified immigration attorneys; lookup and lawyer search.",
+          "descriptionEs": "Encuentre abogados calificados de inmigración.",
+          "url": "https://www.ailalawyer.com",
+          "type": "external",
+          "tags": [
+            "immigration",
+            "attorney"
+          ]
+        },
+        {
+          "title": "Fragomen",
+          "titleEs": "Fragomen",
+          "description": "Top global immigration law firm with deep U.S. business experience.",
+          "descriptionEs": "Bufete de inmigración global con amplia experiencia en negocios de EE.UU.",
+          "url": "https://www.fragomen.com",
+          "type": "external",
+          "tags": [
+            "immigration",
+            "attorney",
+            "premium"
+          ]
+        },
+        {
+          "title": "Boundless",
+          "titleEs": "Boundless",
+          "description": "Tech-forward immigration services for founders and families.",
+          "descriptionEs": "Servicios de inmigración modernos para fundadores y familias.",
+          "url": "https://www.boundless.com",
+          "type": "external",
+          "tags": [
+            "immigration",
+            "online"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-support",
+      "name": "Free Support Organizations",
+      "nameEs": "Organizaciones de Apoyo Gratuito",
+      "description": "Free coaching, mentorship, and consulting for founders in Central Florida.",
+      "descriptionEs": "Asesoría, mentoría y consultoría gratuita en Florida Central.",
+      "icon": "users",
+      "items": [
+        {
+          "title": "Florida SBDC at UCF",
+          "titleEs": "Florida SBDC en UCF",
+          "description": "Free business consulting, training, and capital access support.",
+          "descriptionEs": "Consultoría empresarial, capacitación y apoyo gratuitos.",
+          "url": "https://sbdcorlando.com",
+          "type": "external",
+          "tags": [
+            "sbdc",
+            "free",
+            "ucf",
+            "consulting"
+          ]
+        },
+        {
+          "title": "SCORE Orlando",
+          "titleEs": "SCORE Orlando",
+          "description": "Free mentorship from retired and active executives.",
+          "descriptionEs": "Mentoría gratuita de ejecutivos jubilados y activos.",
+          "url": "https://orlando.score.org",
+          "type": "external",
+          "tags": [
+            "mentor",
+            "free"
+          ]
+        },
+        {
+          "title": "UCF Business Incubation Program",
+          "titleEs": "Programa de Incubación Empresarial de UCF",
+          "description": "UCF's incubator network across Central Florida.",
+          "descriptionEs": "Red de incubadoras de UCF en Florida Central.",
+          "url": "https://incubator.ucf.edu",
+          "type": "external",
+          "tags": [
+            "incubator",
+            "ucf",
+            "bip"
+          ]
+        },
+        {
+          "title": "Orlando Economic Partnership",
+          "titleEs": "Orlando Economic Partnership",
+          "description": "Regional economic development organization, market research and connections.",
+          "descriptionEs": "Organización regional de desarrollo económico.",
+          "url": "https://orlando.org",
+          "type": "external",
+          "tags": [
+            "economic-development"
+          ]
+        },
+        {
+          "title": "Prospera USA",
+          "titleEs": "Prospera USA",
+          "description": "Bilingual technical assistance for Hispanic-owned businesses.",
+          "descriptionEs": "Asistencia técnica bilingüe para negocios de propietarios hispanos.",
+          "url": "https://prosperausa.org/",
+          "type": "external",
+          "tags": [
+            "bilingual",
+            "hispanic",
+            "free"
+          ]
+        },
+        {
+          "title": "Hispanic Chamber of Commerce",
+          "titleEs": "Cámara de Comercio Hispana",
+          "description": "Networking, advocacy, and member services for Hispanic-owned businesses.",
+          "descriptionEs": "Redes, defensa y servicios para negocios de propietarios hispanos.",
+          "url": "https://hispanicchamber.com/",
+          "type": "external",
+          "tags": [
+            "hispanic",
+            "chamber",
+            "networking"
+          ]
+        },
+        {
+          "title": "Hispanic Business Initiative Fund (HBA Central Florida)",
+          "titleEs": "Iniciativa Empresarial Hispana de Florida Central",
+          "description": "Bilingual training and capital access for Hispanic entrepreneurs.",
+          "descriptionEs": "Capacitación bilingüe y acceso a capital para emprendedores hispanos.",
+          "url": "https://hbacf.com/",
+          "type": "external",
+          "tags": [
+            "bilingual",
+            "hispanic",
+            "training"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ucf-bip",
+      "name": "UCF BIP Next Steps",
+      "nameEs": "Próximos Pasos con UCF BIP",
+      "description": "Schedule a 1:1 consultation with the UCF Business Incubation Program team.",
+      "descriptionEs": "Programe una consulta 1:1 con el equipo de UCF BIP.",
+      "icon": "calendar",
+      "items": [
+        {
+          "title": "Book a 1:1 with UCF BIP",
+          "titleEs": "Reservar una sesión 1:1 con UCF BIP",
+          "description": "30-minute strategy session with the UCF BIP team.",
+          "descriptionEs": "Sesión de estrategia de 30 minutos con el equipo de UCF BIP.",
+          "url": "https://calendly.com/br770425-ucf/30min",
+          "type": "external",
+          "tags": [
+            "calendly",
+            "ucf",
+            "bip",
+            "consultation"
+          ]
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+  <!-- Page logic -->
+  <script>
+    /* ============================================================
+       UCF Resources Page
+       Single source: <script id="resources-data"> (inlined for file:// support)
+    ============================================================ */
+    const ICONS = {
+      tool: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>',
+      scale: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 16l3-8 3 8c-2 1-4 1-6 0M2 16l3-8 3 8c-2 1-4 1-6 0M7 21h10M12 3v18M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>',
+      money: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6"/></svg>',
+      shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+      plane: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>',
+      users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>',
+      calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>'
+    };
+    const TYPE_ICONS = {
+      internal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>',
+      external: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>'
+    };
+
+    let resourcesData = null;
+
+    function getCurrentLang() {
+      return (window.rtLanguage === 'es') ? 'es' : 'en';
+    }
+
+    function renderCategories(data) {
+      const root = document.getElementById('resourcesRoot');
+      const lang = getCurrentLang();
+      root.classList.remove('resources-loading');
+      root.innerHTML = '';
+
+      data.categories.forEach(cat => {
+        const catName = lang === 'es' && cat.nameEs ? cat.nameEs : cat.name;
+        const catDesc = lang === 'es' && cat.descriptionEs ? cat.descriptionEs : cat.description;
+        const iconHtml = ICONS[cat.icon] || ICONS.tool;
+
+        const itemsHtml = cat.items.map(item => {
+          const title = lang === 'es' && item.titleEs ? item.titleEs : item.title;
+          const desc = lang === 'es' && item.descriptionEs ? item.descriptionEs : item.description;
+          const typeIcon = TYPE_ICONS[item.type] || TYPE_ICONS.external;
+          const typeLabel = item.type === 'internal'
+            ? (lang === 'es' ? 'Recurso del programa' : 'Course resource')
+            : (lang === 'es' ? 'Enlace externo' : 'External link');
+          const target = item.type === 'external' ? ' target="_blank" rel="noopener noreferrer"' : '';
+          const actionLabel = item.type === 'internal'
+            ? (lang === 'es' ? 'Abrir' : 'Open')
+            : (lang === 'es' ? 'Visitar' : 'Visit');
+          const tags = (item.tags || []).slice(0, 4).map(t => `<span class="resources-item-tag">${t}</span>`).join('');
+          const searchBlob = [title, desc, ...(item.tags || [])].join(' ').toLowerCase();
+
+          return `
+            <div class="resources-item" data-search="${searchBlob.replace(/"/g, '&quot;')}">
+              <div class="resources-item-type-icon ${item.type}" title="${typeLabel}" aria-label="${typeLabel}">${typeIcon}</div>
+              <div class="resources-item-body">
+                <div class="resources-item-title"><a href="${item.url}"${target}>${title}</a></div>
+                <div class="resources-item-desc">${desc}</div>
+                ${tags ? `<div class="resources-item-tags">${tags}</div>` : ''}
+              </div>
+              <a href="${item.url}"${target} class="resources-item-action">${actionLabel}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>`;
+        }).join('');
+
+        const catHtml = `
+          <section class="resources-category" data-cat-id="${cat.id}">
+            <header class="resources-category-header">
+              <span class="resources-category-icon" aria-hidden="true">${iconHtml}</span>
+              <div>
+                <h2 class="resources-category-title">${catName}</h2>
+                ${catDesc ? `<p class="resources-category-desc">${catDesc}</p>` : ''}
+              </div>
+            </header>
+            <div class="resources-category-body">${itemsHtml}</div>
+          </section>`;
+        root.insertAdjacentHTML('beforeend', catHtml);
+      });
+    }
+
+    function applySearch(query) {
+      const q = query.trim().toLowerCase();
+      const lang = getCurrentLang();
+      const clear = document.getElementById('searchClear');
+      const meta = document.getElementById('searchMeta');
+      const empty = document.getElementById('emptyState');
+
+      clear.classList.toggle('visible', q.length > 0);
+
+      if (!q) {
+        document.querySelectorAll('.resources-item').forEach(el => el.classList.remove('hidden'));
+        document.querySelectorAll('.resources-category').forEach(el => el.classList.remove('hidden'));
+        meta.classList.remove('visible');
+        empty.classList.remove('visible');
+        return;
+      }
+
+      let total = 0;
+      document.querySelectorAll('.resources-category').forEach(cat => {
+        let visibleInCat = 0;
+        cat.querySelectorAll('.resources-item').forEach(item => {
+          const blob = item.getAttribute('data-search') || '';
+          const match = blob.includes(q);
+          item.classList.toggle('hidden', !match);
+          if (match) visibleInCat++;
+        });
+        cat.classList.toggle('hidden', visibleInCat === 0);
+        total += visibleInCat;
+      });
+
+      meta.classList.add('visible');
+      meta.textContent = lang === 'es'
+        ? `${total} ${total === 1 ? 'recurso encontrado' : 'recursos encontrados'} para "${query}"`
+        : `${total} ${total === 1 ? 'resource' : 'resources'} matching "${query}"`;
+      empty.classList.toggle('visible', total === 0);
+    }
+
+    function clearSearch() {
+      const input = document.getElementById('searchInput');
+      input.value = '';
+      applySearch('');
+      input.focus();
+    }
+
+    function loadResources() {
+      try {
+        const dataEl = document.getElementById('resources-data');
+        if (!dataEl) throw new Error('resources-data script element not found');
+        const data = JSON.parse(dataEl.textContent);
+        resourcesData = data;
+        renderCategories(data);
+        // Apply current language to placeholder
+        const input = document.getElementById('searchInput');
+        if (getCurrentLang() === 'es') {
+          input.placeholder = input.getAttribute('data-placeholder-es') || 'Buscar recursos...';
+        }
+      } catch (e) {
+        console.error('Resources load error:', e);
+        document.getElementById('resourcesRoot').innerHTML = `<div class="resources-empty-state visible">Could not load resources. Please refresh the page.</div>`;
+      }
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => applySearch(e.target.value));
+
+    // Re-render when language toggle fires (rt-language.js dispatches this event)
+    document.addEventListener('rt-language-changed', () => {
+      if (resourcesData) renderCategories(resourcesData);
+      const input = document.getElementById('searchInput');
+      input.placeholder = getCurrentLang() === 'es'
+        ? (input.getAttribute('data-placeholder-es') || 'Buscar recursos...')
+        : 'Search resources...';
+    });
+
+    // Initialize AFTER rt-language.js has set window.rtLanguage.
+    // We can't call loadResources() here — rt-language.js loads after this <script>,
+    // so window.rtLanguage is still undefined at this point. Wait for DOMContentLoaded
+    // (which fires after all defer/sync scripts in the body) before rendering.
+    if (window.rtLanguage !== undefined) {
+      loadResources();
+    } else {
+      window.addEventListener('DOMContentLoaded', loadResources);
+    }
+  </script>
+
+  <!-- Load language toggle (auto-renders into #rt-lang-mount) — must be BEFORE loadResources fires -->
+  <script src="js/rt-language.js"></script>
+
+  <!-- Load dashboard JS for settings dropdown + theme toggle handlers -->
+  <script src="js/video-dashboard.js"></script>
+
+  <!-- Mark Resources page as visited/completed in rt-progress -->
+  <script>
+    (function () {
+      try {
+        var KEY = 'rt-progress';
+        var p = JSON.parse(localStorage.getItem(KEY) || '{}');
+        p.resourcesVisited = true;
+        if (!Array.isArray(p.visited)) p.visited = [];
+        if (p.visited.indexOf('resources') === -1) p.visited.push('resources');
+        localStorage.setItem(KEY, JSON.stringify(p));
+      } catch (e) { /* localStorage blocked — silently ignore */ }
+    })();
+  </script>
+</body>
+</html>

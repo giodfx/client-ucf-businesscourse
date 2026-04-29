@@ -33,7 +33,7 @@
         {
           "type": "table",
           "id": "table-4-1-1",
-          "title": "Contractor vs. Employee — Key Differences",
+          "title": "Contractor vs. Employee: Key Differences",
           "table": {
             "headers": [
               "Factor",
@@ -63,7 +63,7 @@
               ],
               [
                 "Tax withholding",
-                "None — they pay their own taxes",
+                "None, they pay their own taxes",
                 "You withhold federal, state, FICA"
               ],
               [
@@ -95,7 +95,7 @@
         {
           "type": "comparison-card",
           "id": "int-4-1-1",
-          "title": "Contractor vs. Employee — Decision Checklist",
+          "title": "Contractor vs. Employee: Decision Checklist",
           "columns": [
             {
               "heading": "Hire as Contractor If...",
@@ -122,7 +122,7 @@
                 },
                 {
                   "label": "Risk Level",
-                  "value": "Low overhead — but IRS penalties if you get it wrong"
+                  "value": "Low overhead, but IRS penalties if you get it wrong"
                 }
               ]
             },
@@ -151,7 +151,7 @@
                 },
                 {
                   "label": "Risk Level",
-                  "value": "Higher cost — but compliant and legally protected"
+                  "value": "Higher cost, but compliant and legally protected"
                 }
               ]
             }
@@ -162,12 +162,12 @@
           "id": "callout-4-1-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p>Central Florida's theme park corridor employs over 100,000 people in hospitality and entertainment alone, making the region one of the largest single concentrations of service-industry workers in the United States. That workforce includes every classification you are learning about in this lesson: full-time employees, seasonal hires, and independent contractors. The region's entertainment industry generates more than $75 billion in annual economic impact for the state.</p>"
+          "content": "<p>Central Florida's theme park corridor employs over 100,000 people in hospitality and entertainment alone, making the region one of the largest single concentrations of service-industry workers in the United States. That workforce includes every classification you are learning about in this lesson: full-time employees, seasonal hires, and independent contractors. The region's entertainment industry generates more than $133.6 billion in annual economic impact for Florida (2024) <em>(<a href=\"https://www.flgov.com/eog/news/press/2025/tourism-florida-delivers-1336-billion-economic-impact-nearly-2000-household-tax\" target=\"_blank\" rel=\"noopener\">VISIT FLORIDA / Executive Office of the Governor, 2024 Tourism Impact</a>)</em>.</p>"
         },
         {
           "type": "text",
           "id": "text-4-1-2",
-          "title": "The IRS Test — How They Actually Decide",
+          "title": "The IRS Test: How They Actually Decide",
           "content": "<p>So what does this mean in practice? The IRS uses a three-part test to decide worker status.</p>\n\n<h4>Behavioral Control</h4>\n\n<p>Do you control <strong>how</strong> the work gets done? Detailed instructions and required hours point toward employee. If the worker decides how to accomplish the result, that points toward contractor.</p>\n\n<h4>Financial Control</h4>\n\n<p>Do you control the <strong>business aspects</strong> of the worker's job? Employees have expenses reimbursed and receive company tools. Contractors invest in their own equipment.</p>\n\n<h4>Relationship Type</h4>\n\n<p>Employee-type benefits, an ongoing relationship with no end date, and work that is a core part of your business all suggest employment.</p>\n\n<p>Practical shortcut: if you control when, where, and how someone works, they are almost certainly an employee regardless of what the contract says.</p>",
           "wordCount": 114
         },
@@ -178,12 +178,12 @@
           "description": "You hired a developer six months ago as a 1099 contractor. She works 40 hours a week, uses your company laptop, attends your daily standup meetings, and you set her schedule. She just asked about health insurance. What is your biggest risk?",
           "paths": [
             {
-              "label": "No risk — she signed a contractor agreement",
+              "label": "No risk: she signed a contractor agreement",
               "outcome": "Wrong. The IRS does not care what the contract says. They look at the ACTUAL working relationship. A signed agreement does not override the facts: if you control when, where, and how someone works, they are an employee in the eyes of the IRS regardless of what you call them.",
               "isRecommended": false
             },
             {
-              "label": "She is likely misclassified — convert her to W-2 employee immediately",
+              "label": "She is likely misclassified: convert her to W-2 employee immediately",
               "outcome": "Correct. Under the IRS three-factor test (behavioral control, financial control, relationship type), this worker is an employee. Converting her now limits your exposure. If the IRS reclassifies her, you owe back taxes, the employee's share of FICA, plus penalties that can reach $50 per misclassified W-2.",
               "isRecommended": true
             },
@@ -204,22 +204,22 @@
         {
           "type": "text",
           "id": "text-4-1-ucf",
-          "title": "The UCF Talent Pipeline — Your Hiring Advantage in Central Florida",
-          "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. The same region that staffs one of the world's largest entertainment workforces also produces over 17,000 graduates per year. UCF enrolls over 70,000 students across 230+ degree programs, giving you a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000-$70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000-$48,000</strong> versus $55,000-$65,000 in South Florida.</p>\n\n<p>A Vietnamese founder used UCF's internship program to bring on two computer science students part-time, assessing fit over three months before extending full-time offers, saving the cost and risk of a bad hire.</p>",
+          "title": "The UCF Talent Pipeline: Your Hiring Advantage in Central Florida",
+          "content": "<p>One of the biggest advantages of building in Central Florida is the <strong>University of Central Florida (UCF) talent pipeline</strong>. The same region that staffs one of the world's largest entertainment workforces also produces over 17,000 graduates per year. UCF enrolls over 70,000 students across 230+ degree programs, giving you a steady supply of candidates in engineering, computer science, business, and health sciences. <strong>Internship programs</strong> let you trial students before committing to a full hire, and UCF's <strong>career services</strong> and BIP network connect you with graduates and alumni.</p>\n\n<p>The cost advantage is significant. Entry-level software developers in Central Florida start at <strong>$55,000–$70,000</strong> (30-40% below New York, 35-45% below San Francisco). Marketing coordinators average <strong>$38,000–$48,000</strong> versus $55,000–$65,000 in South Florida.</p>\n\n<p>A Vietnamese business owner used UCF's internship program to bring on two computer science students part-time, assessing fit over three months before extending full-time offers, saving the cost and risk of a bad hire.</p>",
           "wordCount": 152
         },
         {
           "type": "callout",
           "id": "callout-4-1-wm",
-          "variant": "watch-money-costs",
+          "variant": "watch-money",
           "title": "Watch Your Money: What Hiring Actually Costs",
-          "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour — worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
+          "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour, worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
         },
         {
           "type": "callout",
           "id": "callout-4-1-cm",
-          "variant": "common-mistakes-repeating",
-          "title": "Common Mistakes International Founders Make — Hiring",
+          "variant": "common-mistake",
+          "title": "Common Mistakes International Founders Make: Hiring",
           "content": "<ul><li><strong>Misclassifying employees as independent contractors.</strong> One of the most expensive hiring mistakes. Some founders label every worker as a 1099 contractor to avoid payroll taxes and benefits, but the IRS actively audits this pattern. If they reclassify your workers, you owe all the back taxes you should have withheld, plus interest, plus penalties that can reach <strong>$50 per misclassified W-2</strong>. In serious cases, you face criminal prosecution. The IRS, state agencies, and workers themselves can all trigger an audit.</li><li><strong>Not understanding the true cost of hiring.</strong> Salary is only 70–85% of what an employee actually costs. Budget for employer FICA taxes (7.65%), unemployment insurance, workers' compensation, and benefits. A $60,000 salary means $69,000–$78,000 in actual cost.</li></ul>"
         },
         {
@@ -313,10 +313,10 @@
                 "New York, because venture capital access offsets the higher payroll costs"
               ],
               "correctAnswer": 2,
-              "explanation": "Central Florida offers entry-level software developer salaries of $55,000–$70,000, which is 30–40% lower than New York and 35–45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives founders significantly more runway with the same budget."
+              "explanation": "Central Florida offers entry-level software developer salaries of $55,000–$70,000, which is 30–40% lower than New York and 35–45% lower than San Francisco. Combined with lower office costs and access to UCF's 70,000+ graduate talent pipeline, Central Florida gives entrepreneurs significantly more runway with the same budget."
             },
             {
-              "stem": "A founder from Poland hires a graphic designer in Orlando. The designer works 40 hours per week at the founder's office, uses the company's computer, follows the founder's daily task list, and has worked exclusively for this company for eight months. The founder classifies her as a 1099 contractor. An IRS audit reclassifies her as an employee. Which combination of penalties is the founder most likely facing?",
+              "stem": "A founder from Poland hires a graphic designer in Orlando. The designer works 40 hours per week at the founder's office, uses the company's computer, follows the founder's daily task list, and has worked exclusively for this company for eight months. The founder classifies her as a 1099 contractor. An IRS audit reclassifies her as an employee. Which combination of penalties is the entrepreneur most likely facing?",
               "options": [
                 "Back payment of employer FICA taxes, FUTA, state unemployment, plus penalties and interest dating back to the start of the arrangement",
                 "A warning letter requiring the founder to reclassify the worker going forward with no financial penalty",
@@ -324,7 +324,7 @@
                 "No penalty because the designer signed a contractor agreement and accepted 1099 payment voluntarily"
               ],
               "correctAnswer": 0,
-              "explanation": "When the IRS reclassifies a worker as an employee, the employer owes all back taxes that should have been withheld (employer FICA at 7.65%, FUTA, state unemployment) plus penalties and interest from day one. The IRS looks at how the worker actually works — behavioral control, financial control, and relationship type — not what the contract says. A signed contractor agreement (option D) does not override the actual working conditions. There is no warning-only outcome (option B) or flat fine (option C) for payroll tax misclassification."
+              "explanation": "When the IRS reclassifies a worker as an employee, the employer owes all back taxes that should have been withheld (employer FICA at 7.65%, FUTA, state unemployment) plus penalties and interest from day one. The IRS looks at how the worker actually works, behavioral control, financial control, and relationship type, not what the contract says. A signed contractor agreement (option D) does not override the actual working conditions. There is no warning-only outcome (option B) or flat fine (option C) for payroll tax misclassification."
             }
           ]
         },
@@ -332,7 +332,7 @@
           "type": "key-takeaway",
           "id": "kt-4-1-1",
           "title": "Key Takeaway",
-          "content": "<p>Apply the IRS classification test from day one. The cost of misclassification far exceeds the cost of doing it correctly. Use contractors for defined projects with clear deliverables. Hire employees when you need ongoing, directed work. Evaluate candidates through UCF's talent pipeline and Central Florida's cost advantage to stretch your hiring budget further. When in doubt, consult an employment attorney before bringing anyone on board. Every role must be classified correctly from day one.</p>"
+          "content": "<p>Apply the IRS classification test from day one. Misclassification costs far more than doing it correctly. Use contractors for defined projects with clear deliverables. Hire employees when you need ongoing, directed work. Tap UCF's talent pipeline and Central Florida's cost advantage to stretch your hiring budget further. When in doubt, consult an employment attorney before bringing anyone on board.</p>"
         }
       ]
     },
@@ -343,7 +343,7 @@
       "title": "Visa Pathways — What's Actually Realistic",
       "duration": 7,
       "objectives": [
-        "Compare visa pathways that may be available (O-1, E-2, L-1, H-1B) — all visa and immigration actions should be evaluated with an immigration attorney",
+        "Compare visa pathways that may be available (O-1, E-2, L-1, H-1B), all visa and immigration actions should be evaluated with an immigration attorney",
         "Assess which visa pathway is realistic based on their specific situation",
         "Estimate visa application costs and processing timelines"
       ],
@@ -352,8 +352,8 @@
           "type": "callout",
           "id": "callout-4-2-visa",
           "variant": "reality-check",
-          "title": "Important Disclaimer — Read This First",
-          "content": "<p>What if you could work in the U.S. legally, but picked the wrong visa and lost months of progress? Completing this program does not influence or guarantee visa approval. This content is educational only, and visa outcomes depend on individual circumstances and are determined solely by U.S. immigration authorities.</p>\n\n<p>Immigration law is complex and highly individual. The information below provides a general awareness-level overview. <strong>All visa and immigration actions should be reviewed with a qualified immigration attorney</strong> who can assess your specific circumstances.</p>"
+          "title": "Important Disclaimer: Read This First",
+          "content": "<p>What if you could work in the U.S. legally, but picked the wrong visa and lost months of progress? Completing this program does not influence or guarantee visa approval. This content is educational only, and visa outcomes depend on individual circumstances and are determined solely by U.S. immigration authorities.</p>\n\n<p>U.S. immigration law is complex and highly fact-specific. The information below provides a general awareness-level overview.  Your ability and your team's ability to work in the United States depends on individual circumstances, country of citizenship, and current immigration policy. <strong>All visa and immigration actions should be reviewed with a qualified immigration attorney</strong> who can assess your specific circumstances.</p>"
         },
         {
           "type": "text",
@@ -385,7 +385,7 @@
               [
                 "E-2",
                 "Treaty investors from qualifying countries",
-                "Substantial investment in a U.S. business — no fixed minimum, but typically $100,000+",
+                "Substantial investment in a U.S. business, no fixed minimum, but typically $100,000+",
                 "$3,000–$8,000+",
                 "4–8 months (consular); varies by country"
               ],
@@ -420,29 +420,29 @@
           "type": "text",
           "id": "text-4-2-2",
           "title": "Four Pathways Into the U.S. Market",
-          "content": "<p>Each visa type has different requirements, costs, and timelines. The four pathways below are the ones most commonly used by international founders — explore each one to understand the requirements, costs, and realistic timelines.</p>",
+          "content": "<p>Each visa type has different requirements, costs, and timelines. The four pathways below are the ones most commonly used by international founders, explore each one to understand the requirements, costs, and realistic timelines.</p>",
           "wordCount": 112
         },
         {
           "type": "accordion",
           "id": "int-4-2-1",
-          "title": "Visa Pathways — Detailed Breakdown",
+          "title": "Visa Pathways: Detailed Breakdown",
           "sections": [
             {
-              "heading": "O-1A — Extraordinary Ability",
-              "content": "**Requirements:** Demonstrate extraordinary ability in business, science, education, or athletics through national/international recognition.\n\n**Timeline:** 2–6 months (premium processing available)\n\n**Cost:** $5,000–$10,000+ (filing + attorney)\n\n**Realistic for:** Founders with publications, awards, significant press, or high salary history. Strong option if you have evidence of being in the top of your field."
+              "heading": "O-1A: Extraordinary Ability",
+              "content": "**Requirements:** Demonstrate extraordinary ability in business, science, education, or athletics through national/international recognition.\n\n**Timeline:** 2–6 months (premium processing available)\n\n**Cost:** $5,000–$10,000+ (filing + attorney)\n\n**Realistic for:** Business owners with publications, awards, significant press, or high salary history. Strong option if you have evidence of being in the top of your field."
             },
             {
-              "heading": "E-2 — Treaty Investor",
-              "content": "**Requirements:** Citizen of a treaty country, substantial investment in a U.S. business, must direct and develop the enterprise.\n\n**Timeline:** 4–8 months (consular processing)\n\n**Cost:** $3,000–$8,000+ (investment must be 'substantial' — typically $100K+)\n\n**Realistic for:** Most LATAM founders with capital to invest. Brazil and some countries are NOT treaty countries — check eligibility first."
+              "heading": "E-2: Treaty Investor",
+              "content": "**Requirements:** Citizen of a treaty country, substantial investment in a U.S. business, must direct and develop the enterprise.\n\n**Timeline:** 4–8 months (consular processing)\n\n**Cost:** $3,000–$8,000+ (investment must be 'substantial', typically $100K+)\n\n**Realistic for:** Most LATAM founders with capital to invest. Brazil and some countries are NOT treaty countries, check eligibility first."
             },
             {
-              "heading": "L-1A — Intracompany Transfer",
+              "heading": "L-1A: Intracompany Transfer",
               "content": "**Requirements:** Must have worked for a related company abroad for 1+ year in a managerial/executive role. Transferring to a U.S. office.\n\n**Timeline:** 4–8 months (standard); 15 business days (premium processing)\n\n**Cost:** $3,000–$8,000 (filing + attorney)\n\n**Realistic for:** Founders expanding an existing company to the U.S. You must prove the foreign entity remains active."
             },
             {
-              "heading": "H-1B — Specialty Occupation",
-              "content": "**Requirements:** Bachelor's degree in a specialty field. Employer (can be your own company) sponsors you.\n\n**Timeline:** Annual lottery (April), start date October 1\n\n**Cost:** $3,000–$10,000\n\n**Realistic for:** Least ideal for founders — lottery-based, employer-dependent, 6-year cap. Better for employees you want to hire."
+              "heading": "H-1B: Specialty Occupation",
+              "content": "**Requirements:** Bachelor's degree in a specialty field. Employer (can be your own company) sponsors you.\n\n**Timeline:** Annual lottery (April), start date October 1\n\n**Cost:** $3,000–$10,000\n\n**Realistic for:** Least ideal for entrepreneurs, lottery-based, employer-dependent, 6-year cap. Better for employees you want to hire."
             }
           ]
         },
@@ -654,22 +654,22 @@
         {
           "type": "callout",
           "id": "callout-4-2-2",
-          "variant": "before-you-spend",
+          "variant": "watch-money",
           "title": "Before You Spend Money: What Visa Applications Actually Cost",
           "content": "<p>Now, let's look at the numbers. As of early 2026, total visa costs (attorney fees + government filing fees) typically range from:</p>\n\n<ul><li><strong>O-1A:</strong> $5,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>E-2:</strong> $3,000–$8,000+ (attorney) + $315 (filing fee) + investment capital</li><li><strong>L-1A:</strong> $4,000–$10,000+ (attorney) + $2,805 (premium processing, optional) + filing fees</li><li><strong>H-1B:</strong> $2,000–$5,000+ (attorney) + registration fee + filing fees</li></ul>\n\n<p>These are attorney and filing costs only. The E-2 also requires you to show a substantial capital investment in the business itself. Budget for the attorney consultation ($250–$500/hour) as your first step. A good attorney will tell you honestly which pathways are realistic before you spend thousands on an application.</p>"
         },
         {
           "type": "text",
           "id": "text-4-2-3",
-          "title": "Choosing Your Guide — How to Find the Right Immigration Attorney",
-          "content": "<p>Immigration law is complex. Look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other founders in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes, no one can promise which credential you will receive.</p>\n\n<p>Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p>\n\n<p>Keep in mind that standard visa processing can take <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee, but not all do. The H-1B lottery happens once per year in March, with an October start date if selected. Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing leads to weak applications and denials. A lawyer who is honest about your timeline is more valuable than one who promises speed.</p>",
+          "title": "Choosing Your Guide: How to Find the Right Immigration Attorney",
+          "content": "<p>Immigration law is complex. Look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other entrepreneurs in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes, no one can promise which credential you will receive.</p>\n\n<p>Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p>\n\n<p>Standard visa processing takes <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee. The H-1B lottery happens once per year in March, with an October start date if selected. Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing leads to weak applications and denials. A lawyer who is honest about your timeline is more valuable than one who promises speed.</p>",
           "wordCount": 68
         },
         {
           "type": "callout",
           "id": "callout-4-2-visa-warning",
-          "variant": "theme-common-mistakes",
-          "title": "Common Mistakes International Founders Make — Visa Authorization",
+          "variant": "common-mistake",
+          "title": "Common Mistakes International Founders Make: Visa Authorization",
           "content": "<p>One of the most serious mistakes: <strong>working in the U.S. without proper visa authorization.</strong> As a founder, your own visa status determines what work you can legally do. Hiring others does not exempt you from your own immigration requirements. Working outside your authorization can result in deportation and permanent bars from reentry. Make sure your visa covers the activities you are actually performing.</p>"
         },
         {
@@ -693,7 +693,7 @@
                 "B-1, because she is attending business meetings in the U.S."
               ],
               "correctAnswer": 1,
-              "explanation": "The L-1A (Intracompany Transfer) is designed for founders and managers who already run a foreign company and want to open or manage a U.S. office. The key requirements — a managerial role at a qualifying foreign company for at least one year — fit this founder's situation well. However, an immigration attorney would evaluate all options based on her specific circumstances."
+              "explanation": "The L-1A (Intracompany Transfer) is designed for business owners and managers who already run a foreign company and want to open or manage a U.S. office. The key requirements, a managerial role at a qualifying foreign company for at least one year, fit this founder's situation well. However, an immigration attorney would evaluate all options based on her specific circumstances."
             },
             {
               "stem": "A founder from Mexico owns a profitable e-commerce company and has $120,000 to invest in a U.S. operation. She has no extraordinary achievements or awards, and she has never managed a U.S.-affiliated company. Her immigration attorney would most likely explore which visa pathway first?",
@@ -704,7 +704,7 @@
                 "E-2 Treaty Investor, because Mexico is a treaty country and she has substantial capital to invest"
               ],
               "correctAnswer": 3,
-              "explanation": "The E-2 Treaty Investor visa fits this scenario best. Mexico has a treaty with the U.S., and the founder has $120,000 in investment capital, which exceeds the typical $100,000+ threshold attorneys recommend. The O-1A requires extraordinary ability evidence she does not have. The L-1A requires an existing qualifying relationship between a foreign and U.S. company. The H-1B is lottery-based and less common for founders."
+              "explanation": "The E-2 Treaty Investor visa fits this scenario best. Mexico has a treaty with the U.S., and the entrepreneur has $120,000 in investment capital, which exceeds the typical $100,000+ threshold attorneys recommend. The O-1A requires extraordinary ability evidence she does not have. The L-1A requires an existing qualifying relationship between a foreign and U.S. company. The H-1B is lottery-based and less common for founders."
             },
             {
               "stem": "A founder from Argentina wants to open a U.S. office in six months. She has $150,000 in investment capital, no extraordinary achievements or awards, and has never managed a U.S.-affiliated company. Argentina is an E-2 treaty country. Based on the cost and timeline data in this lesson, what should she budget and plan for?",
@@ -715,7 +715,7 @@
                 "Wait until she arrives in the U.S. on a tourist visa, then apply for work authorization from within the country"
               ],
               "correctAnswer": 0,
-              "explanation": "The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for founders. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation."
+              "explanation": "The E-2 Treaty Investor visa fits her profile: Argentina is a treaty country and she has $150,000 in capital. Attorney and filing costs typically run $3,000–$8,000+, and consular processing takes 4–8 months, so she should start now to meet her six-month timeline. The H-1B (option B) is lottery-based with rigid timing and less suited for entrepreneurs. Self-filing (option C) is risky for a complex visa application. Working on a tourist visa (option D) violates immigration law and can result in deportation."
             }
           ]
         },
@@ -723,7 +723,7 @@
           "type": "key-takeaway",
           "id": "kt-4-2-1",
           "title": "Key Takeaway",
-          "content": "<p>Four visa categories, four different requirements, but none are granted automatically. Start the visa process 6 to 12 months before you need to be working in the U.S. Work with an immigration attorney who specializes in business immigration and who will be honest about which credential fits your situation. Evaluate which pathway matches your track record and capital, then create a realistic schedule for the application process. The right legal guidance early on prevents expensive mistakes later.</p>"
+          "content": "<p>Four visa categories, four different requirements, none granted automatically. Start the visa process 6 to 12 months before you need to be working in the U.S. Work with an immigration attorney who specializes in business immigration and who will be honest about which credential fits your situation. Match your pathway to your track record and capital, then build a realistic schedule. The right legal guidance early prevents expensive mistakes later.</p>"
         }
       ]
     },
@@ -743,13 +743,13 @@
           "type": "text",
           "id": "text-4-3-1",
           "title": "Payroll, Taxes, and the Real Cost of Every Team Member",
-          "content": "<p>Now that you understand visa requirements, it is time to look at what it actually costs to keep a team running. Salary is just the starting number. The real cost includes taxes, insurance, and obligations that add up fast.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18 to $378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500 to $2,000/year for office work.</p>",
+          "content": "<p>You understand visa requirements. Now look at what it actually costs to keep a team running. Salary is only the starting point. The true cost includes payroll taxes, required insurance, and optional but often expected benefits, and these add up quickly.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Mexican founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18–$378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500–$2,000/year for office work.</p>",
           "wordCount": 186
         },
         {
           "type": "table",
           "id": "table-4-3-1",
-          "title": "Employer Cost Breakdown — What Sits on Top of Salary",
+          "title": "Employer Cost Breakdown: What Sits on Top of Salary",
           "table": {
             "headers": [
               "Obligation",
@@ -810,8 +810,8 @@
           "simId": "sim-employee-cost",
           "title": "Employee Cost Calculator",
           "titleEs": "Calculadora de Costo del Empleado",
-          "description": "Enter a salary, pick your industry, and see the full employer cost — FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
-          "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador — FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
+          "description": "Enter a salary, pick your industry, and see the full employer cost, FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
+          "descriptionEs": "Ingrese un salario, elija su industria y vea el costo total del empleador, FICA, FUTA, impuestos estatales, compensación laboral y seguro de salud opcional.",
           "replaces": "dataviz-4-3",
           "scriptFile": "js/rt-simulations.js",
           "inputs": [
@@ -918,7 +918,7 @@
         {
           "type": "text",
           "id": "text-4-3-2",
-          "title": "Use a Payroll Service — Seriously",
+          "title": "Use a Payroll Service: Seriously",
           "content": "<p>A Peruvian founder ran payroll manually, calculated withholding wrong for two quarters, filed 941 forms late, and got IRS penalties totaling $1,800. He switched to Gusto and the problem went away.</p>\n\n<p>Even large companies do not run payroll manually. They contract specialists to handle the complexity. Your business should do the same. A payroll service automates tax calculations, direct deposit, W-2 prep, and quarterly filings. As of early 2026:</p>\n\n<ul><li><strong>Gusto:</strong> $40/month + $6/employee.</li><li><strong>ADP Run:</strong> $59+/month + per employee.</li><li><strong>QuickBooks Payroll:</strong> $45/month + $6/employee.</li></ul>\n\n<p>A Romanian founder who ran payroll manually in Bucharest assumed the same approach would work in Florida: after two quarters juggling FICA, FUTA, SUTA, and workers' comp, she switched to Gusto and called it \"the best $50 a month I spend.\"</p>",
           "wordCount": 116
         },
@@ -940,7 +940,7 @@
         {
           "type": "callout",
           "id": "callout-4-3-1",
-          "variant": "before-you-spend",
+          "variant": "watch-money",
           "title": "Before You Spend Money: Payroll Tax Penalties Are Serious",
           "content": "<p>The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
         },
@@ -954,9 +954,9 @@
         {
           "type": "callout",
           "id": "callout-4-3-latam",
-          "variant": "latam-supplement",
-          "title": "Latin America Resources — Hiring & Payroll",
-          "content": "<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>"
+          "variant": "cultural-insight",
+          "title": "Latin America Resources: Hiring & Payroll",
+          "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong>[Hispanic Chamber of Commerce of Metro Orlando](https://hispanicchamber.com/):</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando</a>:</strong> Talent matching and international hiring guidance.</li><li><strong>Country-specific business chambers:</strong> Orlando hosts active chapters of the German-American, French-American, British-American, Indian-American, and Korean-American chambers, each provides networking, hiring referrals, and country-specific labor guidance.</li></ul>"
         },
         {
           "type": "knowledge-check",
@@ -967,24 +967,24 @@
             {
               "stem": "An employee earns a base salary of $50,000 per year. Using the employer cost multiplier of 1.15 to 1.30, what is the approximate total annual cost to the employer?",
               "options": [
-                "$50,000 — salary is the only cost",
-                "$52,500 — add 5% for taxes",
-                "$57,500 to $65,000 — salary plus employer taxes, insurance, and potential benefits",
-                "$75,000 to $100,000 — U.S. employment is extremely expensive"
+                "$50,000, salary is the only cost",
+                "$52,500, add 5% for taxes",
+                "$57,500–$65,000, salary plus employer taxes, insurance, and potential benefits",
+                "$75,000–$100,000, U.S. employment is extremely expensive"
               ],
               "correctAnswer": 2,
-              "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500 to $65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
+              "explanation": "The employer cost multiplier of 1.15 to 1.30 accounts for employer FICA taxes (7.65%), federal and state unemployment taxes, workers' compensation insurance, and optional benefits. On a $50,000 salary, this means $57,500–$65,000 in total annual cost. The exact figure depends on your industry, state, and benefits package."
             },
             {
-              "stem": "A founder has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
+              "stem": "A business owner has been manually calculating payroll for her three employees using spreadsheets. She filed her quarterly 941 forms two weeks late. What is the most likely consequence?",
               "options": [
-                "Nothing — the IRS provides a grace period for small businesses in their first year",
+                "Nothing, the IRS provides a grace period for small businesses in their first year",
                 "IRS penalty notices for late filing, plus potential interest on unpaid withholding taxes",
                 "A warning letter with no financial penalty for first-time offenders",
                 "Automatic revocation of the company's EIN and business license"
               ],
               "correctAnswer": 1,
-              "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40-$100/month) automates filings and prevents these costly mistakes."
+              "explanation": "The IRS imposes penalties and interest for late payroll tax filings. There is no grace period or first-time offender exemption for payroll taxes. Unpaid payroll taxes are treated as trust fund recovery penalties, which means the founder can be held personally liable. A payroll service like Gusto or QuickBooks Payroll ($40–$100/month) automates filings and prevents these costly mistakes."
             },
             {
               "stem": "A founder from the Philippines hires her fifth employee at her Orlando office. She already has a payroll service, withholds federal and state taxes, and pays employer FICA. Her accountant asks whether she has workers' compensation and unemployment insurance in place. Which statement is correct about her obligations?",
@@ -992,10 +992,10 @@
                 "Workers' compensation is optional in Florida regardless of employee count, so she only needs unemployment insurance",
                 "She needs unemployment insurance but can wait on workers' compensation until she has 10 or more employees",
                 "Neither workers' compensation nor unemployment insurance is required in Florida for businesses with fewer than 50 employees",
-                "She is required to carry both — workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees"
+                "She is required to carry both, workers' compensation is mandatory in Florida with 4 or more employees, and Florida reemployment (unemployment) tax registration is required when she has employees"
               ],
               "correctAnswer": 3,
-              "explanation": "Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this founder must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses."
+              "explanation": "Florida requires workers' compensation insurance for businesses with four or more employees (one or more in construction). Florida reemployment tax (unemployment insurance) registration is required as soon as you have employees. With five employees, this entrepreneur must have both in place. Option A is wrong because workers' comp is not optional at her employee count. Option B gives the wrong threshold. Option C incorrectly claims both are optional for small businesses."
             }
           ]
         },

@@ -49,7 +49,8 @@
         <div class="ob-video-wrap">
           <video id="obIntroVideo" controls playsinline preload="metadata"
                  poster="images/avatars/scenes/lesson-0-1-avatar.jpg">
-            <source src="../media/video/avatars/lesson-0-1-avatar.mp4" type="video/mp4">
+            <source src="videos/bookend/course-intro-en.mp4" type="video/mp4">
+            <track kind="captions" srclang="en" label="Captions" src="videos/bookend/course-intro-en.vtt" default>
           </video>
         </div>
         <div class="ob-actions">
@@ -286,6 +287,19 @@
             </span>
           </a>
 
+          <!-- Resources Hub (sits naturally as 10th grid item, under UCF Campus) -->
+          <a href="resources.html" class="vd-dest vd-dest--resources" data-resources="true">
+            <span class="vd-dest-icon-col">
+              <span class="vd-dest-icon" aria-hidden="true">
+                <img src="images/Icons/resources.svg" alt="" width="44" height="44">
+              </span>
+            </span>
+            <span class="vd-dest-body">
+              <span class="vd-dest-name" data-es="Recursos">Resources</span>
+              <span class="vd-dest-sub" data-es="Herramientas, plantillas y enlaces a organizaciones de apoyo">Tools, worksheets, and links to support organizations</span>
+            </span>
+          </a>
+
         </nav>
 
 
@@ -319,15 +333,18 @@
       catch(e) {}
     }
 
-    // If already onboarded, skip gate entirely
+    // Track current selected language (used by Continue/Skip handlers)
+    var selectedLang = 'en';
+
+    // If already onboarded, hide gate + show stage — but DO NOT early-return,
+    // we still need to define obGoStep / obSelectLang / obToggleAcknowledge / obFinishOnboarding
+    // so the "Rewatch Intro Video" / "Disclaimer" buttons in settings can re-open the modal.
     var progress = getProgress();
     if (progress.onboarded) {
       gate.hidden = true;
       stage.style.display = '';
-      return;
+      selectedLang = progress.language || 'en';
     }
-
-    var selectedLang = 'en';
 
     // Spanish text variants
     var esText = {
@@ -359,10 +376,16 @@
         document.getElementById('obAgreeLabel').textContent = esText.agreeLabel;
         document.getElementById('obAckLabel').textContent = esText.ackLabel;
 
-        // Swap intro video to Spanish variant if available
+        // Swap intro video and caption track to Spanish bookend
         var vid = document.getElementById('obIntroVideo');
         var src = vid.querySelector('source');
-        if (src) src.src = '../media/video/avatars/lesson-0-1-avatar-es.mp4';
+        if (src) src.src = 'videos/bookend/course-intro-es.mp4';
+        var trk = vid.querySelector('track');
+        if (trk) {
+          trk.src = 'videos/bookend/course-intro-es.vtt';
+          trk.srclang = 'es';
+          trk.label = 'Subtítulos';
+        }
         vid.load();
       }
 

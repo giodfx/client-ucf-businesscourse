@@ -293,6 +293,23 @@
     var target = document.getElementById('obStep' + stepNum);
     if (target) target.classList.add('ob-step--active');
 
+    // Sync intro video source + caption track to current language
+    if (stepNum === 2) {
+      var introVid = document.getElementById('obIntroVideo');
+      if (introVid) {
+        var curLang = (window.rtLanguage === 'es') ? 'es' : 'en';
+        var src = introVid.querySelector('source');
+        if (src) src.src = 'videos/bookend/course-intro-' + curLang + '.mp4';
+        var trk = introVid.querySelector('track');
+        if (trk) {
+          trk.src = 'videos/bookend/course-intro-' + curLang + '.vtt';
+          trk.srclang = curLang;
+          trk.label = curLang === 'es' ? 'Subtítulos' : 'Captions';
+        }
+        try { introVid.load(); } catch (e) {}
+      }
+    }
+
     // Stop the intro video whenever the modal closes (X, Escape, overlay click)
     function stopIntroVideo() {
       var introVid = document.getElementById('obIntroVideo');
@@ -361,6 +378,16 @@
     var progress;
     try { progress = JSON.parse(localStorage.getItem('rt-progress') || '{}'); } catch (e) { progress = {}; }
     var visited = progress.visited || [];
+
+    // Resources tile — has data-resources="true" and no data-lesson-ids.
+    // Mark complete when user has visited resources.html (sets progress.resourcesVisited).
+    document.querySelectorAll('.vd-dest[data-resources="true"]').forEach(function (card) {
+      if (progress.resourcesVisited) {
+        card.classList.add('vd-dest--complete');
+      } else {
+        card.classList.remove('vd-dest--complete');
+      }
+    });
 
     document.querySelectorAll('.vd-dest[data-lesson-ids]').forEach(function (card) {
       var lessonIds = (card.getAttribute('data-lesson-ids') || '').split(',').filter(Boolean);

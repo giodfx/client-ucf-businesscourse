@@ -20,13 +20,13 @@
           "type": "text",
           "id": "text-6-1-1",
           "title": "What Looks Casual Has Rules",
-          "content": "<p>U.S. business culture looks informal on the surface. Meetings start with small talk, first names are the norm, and dress codes are relaxed. But underneath that casual tone, the expectations are precise and the rules are unwritten.</p>\n\n<p>A Brazilian founder's American contact said, \"This is great, let's definitely move forward.\" She spent $3,000 on legal fees drafting a partnership agreement. Two weeks later she learned \"let's move forward\" meant \"I'm interested enough to keep talking.\"</p>\n\n<p>Learning to tell the difference between real commitment and polite interest is what this lesson is about. Once you see the pattern, you will read these situations accurately every time.</p>",
+          "content": "<p>U.S. business culture looks informal on the surface. Meetings start with small talk, first names are the norm, and dress codes are relaxed. But underneath that casual tone, the expectations are precise and the rules are unwritten.</p>\n\n<p>A Brazilian founder's American contact said, \"This is great, let's definitely move forward.\" She spent $3,000 on legal fees drafting a partnership agreement. Two weeks later she learned \"let's move forward\" meant \"I'm interested enough to keep talking.\"</p>\n\n<p>This lesson teaches you to tell real commitment from polite interest. Once you see the pattern, you will read these situations accurately.</p>",
           "wordCount": 338
         },
         {
           "type": "image",
           "id": "img-6-1-communication",
-          "title": "Two Founders in Meeting — Communication Styles",
+          "title": "Two Founders in Meeting: Communication Styles",
           "src": "images/scenarios/lesson-6-1-meeting-communication.jpg",
           "alt": "Illustration of two professionals with contrasting communication styles meeting at a round table in a modern coworking space, one leaning forward with open gestures and the other taking careful notes."
         },
@@ -34,7 +34,7 @@
           "type": "text",
           "id": "text-6-1-direct-indirect",
           "title": "The Direct Parts and the Hidden Signals",
-          "content": "<h4>The Direct Parts</h4>\n\n<p>When an American gives you a specific number, date, or action item, take it literally. \"Send me the proposal by Friday\" means Friday. \"Our budget is $50,000\" means $50,000. U.S. business emails are short — three to five sentences. Match that style.</p>\n\n<h4>The Hidden Signals</h4>\n\n<p>Americans avoid direct \"no\" in business. They use softening phrases that founders frequently misread. The pattern: when Americans are interested, they take <strong>clear action</strong>. They propose dates, send follow-ups, and make intros. When they are not, you hear vague praise and open-ended timelines. The flashcards below decode the most common phrases.</p>"
+          "content": "<h4>The Direct Parts</h4>\n\n<p>When an American gives you a specific number, date, or action item, take it literally. \"Send me the proposal by Friday\" means Friday. \"Our budget is $50,000\" means $50,000. U.S. business emails are short, three to five sentences. Match that style.</p>\n\n<h4>The Hidden Signals</h4>\n\n<p>Americans avoid direct \"no\" in business. They use softening phrases that founders frequently misread. The pattern: when Americans are interested, they take <strong>clear action</strong>. They propose dates, send follow-ups, and make intros. When they are not, you hear vague praise and open-ended timelines. The flashcards below decode the most common phrases.</p>"
         },
         {
           "type": "callout",
@@ -46,14 +46,14 @@
         {
           "type": "callout",
           "id": "callout-6-1-1",
-          "variant": "theme-understand-culture",
+          "variant": "cultural-insight",
           "title": "Speed Equals Professionalism",
-          "content": "<p>In U.S. business, <strong>response time is a trust signal</strong>. A same-day email reply tells your contact you're organized, reliable, and serious. Waiting three days to respond — even if the delay is normal in your home culture — signals that you are not interested or not on top of things. Aim to respond within 4 hours during business hours. Even a quick \"Got it, I'll send details by tomorrow\" keeps the relationship warm.</p>"
+          "content": "<p>In U.S. business, <strong>response time is a trust signal</strong>. A same-day email reply tells your contact you're organized, reliable, and serious. Waiting three days to respond, even if the delay is normal in your home culture, signals that you are not interested or not on top of things. Aim to respond within 4 hours during business hours. Even a quick \"Got it, I'll send details by tomorrow\" keeps the relationship warm.</p>"
         },
         {
           "type": "flashcards",
           "id": "int-6-1-1",
-          "title": "American Business Phrases — What They Actually Mean",
+          "title": "American Business Phrases: What They Really Mean",
           "cards": [
             {
               "front": "\"Let's circle back on that\"",
@@ -69,7 +69,7 @@
             },
             {
               "front": "\"We should get coffee sometime\"",
-              "back": "Translation: A social pleasantry — NOT a concrete invitation. Don't follow up to schedule it."
+              "back": "Translation: A social pleasantry, NOT a concrete invitation. Don't follow up to schedule it."
             },
             {
               "front": "\"I'll try to make it work\"",
@@ -78,38 +78,14 @@
             {
               "front": "\"Let's take this offline\"",
               "back": "Translation: This is too detailed for this meeting. Let's discuss separately (and actually do it)."
-            }
-          ]
-        },
-        {
-          "type": "matching",
-          "id": "matching-6-1-phrases",
-          "title": "Decode the Phrase — What Do They Really Mean?",
-          "instruction": "Match each American business phrase to its actual meaning.",
-          "pairs": [
-            {
-              "left": "Let's circle back on this",
-              "right": "Not interested right now"
             },
             {
-              "left": "That's really interesting",
-              "right": "Polite deflection — no follow-up coming"
+              "front": "\"Let's put a pin in that\"",
+              "back": "Translation: This topic is effectively dead. Polite way to shelve something without a hard \"no\". Move on."
             },
             {
-              "left": "Let me check with my team",
-              "right": "Decision isn’t mine alone — needs internal approval"
-            },
-            {
-              "left": "We should get coffee sometime",
-              "right": "Social pleasantry — not a real invitation"
-            },
-            {
-              "left": "Let's put a pin in that",
-              "right": "This topic is effectively dead"
-            },
-            {
-              "left": "Send me the proposal by Friday",
-              "right": "Literal deadline — they mean Friday"
+              "front": "\"Send me the proposal by Friday\"",
+              "back": "Translation: This one IS literal. When Americans give a direct deadline, they mean it. Friday means Friday , not \"sometime next week\"."
             }
           ]
         },
@@ -117,15 +93,15 @@
           "type": "text",
           "id": "text-6-1-2",
           "title": "Building Trust as an Outsider",
-          "content": "<p>Building trust takes practice, but every commitment you keep proves you belong in this market. In the U.S., trust comes from <strong>delivery</strong>, not relationships. As one Colombian founder put it: \"Back home, I'd take a partner to dinner three times before discussing terms. Here, he wanted a working prototype before he'd agree to lunch.\"</p>\n\n<h4>The Three Actions That Build U.S. Business Trust</h4><ol><li><strong>Respond quickly.</strong> Same-day replies. Acknowledge emails even when you need more time.</li><li><strong>Follow through on small commitments.</strong> Send the document by Monday if you promised Tuesday. Every deadline met is a credibility deposit.</li><li><strong>Be transparent about problems.</strong> \"We hit a delay — here's our new timeline\" builds more trust than silence followed by excuses.</li></ol>\n\n<p>Reading U.S. trust signals comes down to observation. Watch what people do after meetings, not what they say during them. An Indonesian founder selling supply chain software in Orlando adapted by leading with a clear value proposition and specific numbers instead of the extended relationship-building she used in Jakarta, and her close rate improved significantly.</p>\n\n<h4>Credibility Markers for International Founders</h4>\n\n<p>These are your credibility markers, the things that reduce perceived risk when Americans are deciding whether to trust you. Reduce perceived risk with:</p>\n\n<ul><li><strong>Local presence signals</strong>. U.S. phone number, business address, registered LLC.</li><li><strong>Professional digital presence</strong>. Clean LinkedIn profile, professional website, business email (not Gmail).</li><li><strong>References and social proof</strong>: Even one U.S. testimonial carries significant weight.</li><li><strong>Clear, concise communication</strong>. Emails that get to the point. Proposals that are well-organized.</li></ul>",
+          "content": "<p>Building trust takes practice, but every commitment you keep proves you belong in this market. In the U.S., trust comes from <strong>delivery</strong>, not relationships. As one Colombian founder put it: \"Back home, I'd take a partner to dinner three times before discussing terms. Here, he wanted a working prototype before he'd agree to lunch.\"</p>\n\n<h4>The Three Actions That Build U.S. Business Trust</h4><ol><li><strong>Respond quickly.</strong> Same-day replies. Acknowledge emails even when you need more time.</li><li><strong>Follow through on small commitments.</strong> Send the document by Monday if you promised Tuesday. Every deadline met is a credibility deposit.</li><li><strong>Be transparent about problems.</strong> \"We hit a delay, here's our new timeline\" builds more trust than silence followed by excuses.</li></ol>\n\n<p>Reading U.S. trust signals comes down to observation. Watch what people do after meetings, not what they say during them. An Indonesian business owner selling supply chain software in Orlando adapted by leading with a clear value proposition and specific numbers instead of the extended relationship-building she used in Jakarta, and her close rate improved significantly.</p>\n\n<h4>Credibility Markers for International Founders</h4>\n\n<p>These are your credibility markers, the things that reduce perceived risk when Americans are deciding whether to trust you. Reduce perceived risk with:</p>\n\n<ul><li><strong>Local presence signals</strong>. U.S. phone number, business address, registered LLC.</li><li><strong>Professional digital presence</strong>. Clean LinkedIn profile, professional website, business email (not Gmail).</li><li><strong>References and social proof</strong>: Even one U.S. testimonial carries significant weight.</li><li><strong>Clear, concise communication</strong>. Emails that get to the point. Proposals that are well-organized.</li></ul>",
           "wordCount": 212
         },
         {
           "type": "callout",
           "id": "callout-6-1-cm",
-          "variant": "common-mistakes-repeating",
-          "title": "Common Mistakes International Founders Make — Communication",
-          "content": "<ul><li><strong>Mistaking American warmth for a business deal.</strong> A warm meeting and a handshake are not a deal. Watch for clear follow-up actions, not smiles.</li><li><strong>Spending too long on small talk before getting to business.</strong> Long social lead-ins can look unfocused. Get to the business purpose within the first few minutes of a meeting.</li><li><strong>Not sending written follow-up after meetings.</strong> In the U.S., if it's not in writing, it didn't happen. Always send a recap email within 24 hours.</li><li><strong>Assuming positive language means a deal is happening.</strong> Americans are generous with praise during meetings — \"I love this\" or \"This is amazing\" can simply mean \"I find this interesting.\" The real test comes after: Did they send a follow-up? Did they introduce you to a decision-maker? <strong>Actions after the meeting tell you more than words during the meeting.</strong></li></ul>"
+          "variant": "common-mistake",
+          "title": "Common Mistakes International Founders Make: Communication",
+          "content": "<ul><li><strong>Mistaking American warmth for a business deal.</strong> A warm meeting and a handshake are not a deal. Watch for clear follow-up actions, not smiles.</li><li><strong>Spending too long on small talk before getting to business.</strong> Long social lead-ins can look unfocused. Get to the business purpose within the first few minutes of a meeting.</li><li><strong>Not sending written follow-up after meetings.</strong> In the U.S., if it's not in writing, it didn't happen. Always send a recap email within 24 hours.</li><li><strong>Assuming positive language means a deal is happening.</strong> Americans are generous with praise during meetings, \"I love this\" or \"This is amazing\" can simply mean \"I find this interesting.\" The real test comes after: Did they send a follow-up? Did they introduce you to a decision-maker? <strong>Actions after the meeting tell you more than words during the meeting.</strong></li></ul>"
         },
         {
           "type": "knowledge-check",
@@ -191,29 +167,29 @@
         {
           "type": "text",
           "id": "text-6-2-1",
-          "title": "Meetings — Time Is the Currency",
+          "title": "Meetings: Time Is the Currency",
           "content": "<p>U.S. business moves fast. That is especially true for U.S. business meetings: the tone feels casual, but the clock is always running. What happens when you show up three minutes late to a U.S. business meeting? You lose the deal. A Peruvian founder joined a 30-minute introductory call three minutes late. The American was wrapping up by minute 25. The founder never got a second call.</p>\n\n<h4>Before the Meeting</h4><ul><li><strong>Send an agenda.</strong> A three-bullet email shows you respect their time.</li><li><strong>Confirm the day before.</strong> \"Looking forward to our call tomorrow at 2 PM ET\" signals professionalism.</li><li><strong>Be ready five minutes early.</strong> Test your video link or arrive early enough to be composed.</li></ul>\n\n<h4>During the Meeting</h4><ul><li><strong>Start on time.</strong> One to two minutes of small talk is normal; five minutes feels wasteful.</li><li><strong>Stay on topic.</strong> Americans value <strong>agenda-driven meetings</strong>. Tangents are politely tolerated but internally noted.</li><li><strong>End with action items.</strong> Clarify who does what, by when.</li></ul>\n\n<h4>The 30-Minute Default</h4>\n\n<p>Start with 30 minutes. Asking for an hour signals you don't value their time. If productive, they'll extend or schedule a follow-up.</p>",
           "wordCount": 196
         },
         {
           "type": "image",
           "id": "img-6-2-networking",
-          "title": "Networking Event — Elevator Pitch Moment",
+          "title": "Networking Event: Elevator Pitch Moment",
           "src": "images/scenarios/lesson-6-2-networking-event.jpg",
           "alt": "Illustration of a distinguished professional at a networking event offering a business card to another attendee in a modern Central Florida venue with warm lighting."
         },
         {
           "type": "callout",
           "id": "callout-6-2-1",
-          "variant": "theme-avoid-mistakes",
+          "variant": "common-mistake",
           "title": "The Recap Email You're Not Sending",
           "content": "<p>After every meeting, send a short email within 24 hours. Include: what was discussed, what was agreed, next steps, and deadlines. This isn't optional. In U.S. business culture, <strong>if it's not in writing, it didn't happen</strong>. The recap email also protects you. It creates a paper trail. If someone later claims they didn't agree to something, you have the email to reference.</p>\n\n<p>Keep it brief: 5-8 lines. Example: \"Great speaking today. To recap: you'll send the vendor application by Wednesday, and I'll have our pricing sheet to you by Friday. Let me know if I missed anything.\"</p>"
         },
         {
           "type": "callout",
           "id": "callout-6-2-culture",
-          "variant": "theme-understand-culture",
-          "title": "Culture Shift — The Handshake Deal Is Dead",
+          "variant": "cultural-insight",
+          "title": "Culture Shift: The Handshake Deal Is Dead",
           "content": "<p>In many countries, business runs on trust, personal ties, and verbal deals. In the U.S., the contract IS the relationship. When an American business partner says \"let's put it in writing,\" they are not expressing distrust. They are showing professionalism. Embrace this. A clear contract protects both sides and prevents the kind of misunderstandings that destroy partnerships.</p>"
         },
         {
@@ -226,25 +202,25 @@
         {
           "type": "text",
           "id": "text-6-2-2",
-          "title": "Negotiation — More Direct Than You Expect",
-          "content": "<p>A Mexican SaaS founder spent three meetings building rapport before discussing terms. After the third, his American contact asked: \"So, what's the number?\" He wasn't ready with pricing. The deal stalled.</p>\n\n<p>U.S. negotiation moves fast — often faster than international founders expect:</p>\n\n<ol><li><strong>Both sides state their position early.</strong> Vague responses like \"we're flexible\" signal you haven't done your homework.</li><li><strong>Counter-offers are limited.</strong> Expect one to two rounds. Prolonged haggling signals distrust.</li><li><strong>First offers are close to final.</strong> If someone offers $45,000, they might settle at $42,000, but expecting $30,000 will end the conversation.</li><li><strong>Written terms matter more than handshakes.</strong> Nothing is real until it's in a signed contract or detailed email.</li></ol>\n\n<h4>Networking: Quality Over Quantity</h4>\n\n<p>You have 60 seconds to explain who you are and what you do. Networking events are the environment where everyone networks — Americans speak with you for 5-10 minutes and move on. The goal is initial connections, not closing deals.</p>\n\n<p>Three networking rules founders miss:</p>\n\n<ul><li><strong>Follow up within 48 hours.</strong> Reference something specific: \"Great talking about supply chain logistics\" beats \"Nice to meet you.\"</li><li><strong>Ask before you pitch.</strong> Read the direction of the conversation — ask about their business first. If there's a fit, briefly describe what you do.</li><li><strong>Give before you ask.</strong> Share an article, make an introduction, offer an insight. The best connections form gradually, through consistent engagement over time.</li></ul>",
+          "title": "Negotiation: More Direct Than You Expect",
+          "content": "<p>A Mexican SaaS founder spent three meetings building rapport before discussing terms. After the third, his American contact asked: \"So, what's the number?\" He wasn't ready with pricing. The deal stalled.</p>\n\n<p>U.S. negotiation moves fast, often faster than international founders expect:</p>\n\n<ol><li><strong>Both sides state their position early.</strong> Vague responses like \"we're flexible\" signal you haven't done your homework.</li><li><strong>Counter-offers are limited.</strong> Expect one to two rounds. Prolonged haggling signals distrust.</li><li><strong>First offers are close to final.</strong> If someone offers $45,000, they might settle at $42,000, but expecting $30,000 will end the conversation.</li><li><strong>Written terms matter more than handshakes.</strong> Nothing is real until it's in a signed contract or detailed email.</li></ol>\n\n<h4>Networking: Quality Over Quantity</h4>\n\n<p>You have 60 seconds to explain who you are and what you do. Networking events are the environment where everyone networks, Americans speak with you for 5-10 minutes and move on. The goal is initial connections, not closing deals.</p>\n\n<p>Three networking rules business owners miss:</p>\n\n<ul><li><strong>Follow up within 48 hours.</strong> Reference something specific: \"Great talking about supply chain logistics\" beats \"Nice to meet you.\"</li><li><strong>Ask before you pitch.</strong> Read the direction of the conversation, ask about their business first. If there's a fit, briefly describe what you do.</li><li><strong>Give before you ask.</strong> Share an article, make an introduction, offer an insight. The best connections form gradually, through consistent engagement over time.</li></ul>",
           "wordCount": 218
         },
         {
           "type": "callout",
           "id": "callout-6-2-2",
-          "variant": "theme-understand-culture",
+          "variant": "cultural-insight",
           "title": "The Follow-Through Test",
           "content": "<p>Americans test new business partners with small commitments: \"Send me that by Friday.\" \"Can you get me three references?\" \"Share your company deck before our next call.\" Each of these is a quiet test. Deliver on time and you move forward. Miss the deadline, and the relationship stalls without anyone telling you why. <strong>Every small commitment you keep builds trust for the bigger ones.</strong></p>"
         },
         {
           "type": "tabs",
           "id": "int-6-2-1",
-          "title": "The Meeting After the Meeting — Follow-Up Playbook",
+          "title": "The Meeting After the Meeting: Follow-Up Playbook",
           "tabs": [
             {
               "label": "Within 24 Hours",
-              "content": "**Send a thank-you email** within 24 hours. This is expected in U.S. business culture.\n\n**Include:**\n- Reference something specific from the conversation\n- Attach any materials you promised\n- Suggest a concrete next step with dates\n\n**Example:** 'Great meeting today — I especially appreciated your insight on the Orlando market. As discussed, I've attached our pricing sheet. Would Thursday at 2 PM work for a follow-up call?'"
+              "content": "**Send a thank-you email** within 24 hours. This is expected in U.S. business culture.\n\n**Include:**\n- Reference something specific from the conversation\n- Attach any materials you promised\n- Suggest a concrete next step with dates\n\n**Example:** 'Great meeting today, I especially appreciated your insight on the Orlando market. As discussed, I've attached our pricing sheet. Would Thursday at 2 PM work for a follow-up call?'"
             },
             {
               "label": "Within 1 Week",
@@ -252,7 +228,7 @@
             },
             {
               "label": "LinkedIn",
-              "content": "**Connect on LinkedIn within 48 hours** of meeting.\n\n**Personalize the request:** Reference where you met.\n\n**Engage with their content** — comment on a post before messaging again.\n\n**Do NOT:** Send a sales pitch in your connection request. Build the relationship first."
+              "content": "**Connect on LinkedIn within 48 hours** of meeting.\n\n**Personalize the request:** Reference where you met.\n\n**Engage with their content**, comment on a post before messaging again.\n\n**Do NOT:** Send a sales pitch in your connection request. Build the relationship first."
             },
             {
               "label": "Common Mistakes",
@@ -269,10 +245,10 @@
             {
               "stem": "You have a first meeting with a potential U.S. business partner. What meeting duration should you request?",
               "options": [
-                "15 minutes. keep it extremely brief",
-                "60 minutes. you need enough time to build rapport",
-                "90 minutes. complex topics require extended discussion",
-                "30 minutes. the standard U.S. business meeting length"
+                "15 minutes. Keep it extremely brief",
+                "60 minutes. You need enough time to build rapport",
+                "90 minutes. Complex topics require extended discussion",
+                "30 minutes. The standard U.S. business meeting length"
               ],
               "correctAnswer": 3,
               "explanation": "30 minutes is the default for U.S. business meetings, especially first meetings. Requesting more time from someone you've never met signals that you don't value their schedule. If the conversation goes well, they'll suggest extending or scheduling a follow-up."
@@ -280,9 +256,9 @@
             {
               "stem": "After a productive meeting, when should you send a recap email?",
               "options": [
-                "Within 24 hours. this is the expected standard",
+                "Within 24 hours. This is the expected standard",
                 "Within the hour, while details are fresh",
-                "Within a week — give them time before following up",
+                "Within a week, give them time before following up",
                 "Only if they specifically ask for one"
               ],
               "correctAnswer": 0,
@@ -292,12 +268,12 @@
               "stem": "A founder from Ecuador is negotiating a $60,000 annual software contract with a U.S. company. The American buyer opens with an offer of $52,000. The founder, accustomed to extended negotiation in his home market, counters at $75,000 expecting to meet in the middle after several rounds. What is the most likely result in U.S. negotiation culture?",
               "options": [
                 "The American will respect the aggressive counter and meet at $63,500 after multiple rounds",
-                "The American will ask a manager to approve a higher budget since the founder clearly values the product highly",
+                "The American will ask a manager to approve a higher budget since the entrepreneur clearly values the product highly",
                 "The American will likely disengage because the counter is too far from their opening offer, and U.S. negotiations typically involve only one to two rounds of counter-offers",
                 "The founder's approach is correct because starting high gives more room to negotiate downward"
               ],
               "correctAnswer": 2,
-              "explanation": "U.S. negotiation norms involve first offers close to the actual target and only one to two rounds of counter-offers. An opening of $52,000 likely means they could go to $55,000-$58,000, but a counter of $75,000 signals either a misunderstanding of U.S. norms or an unrealistic valuation. Prolonged haggling is perceived as a sign of distrust or desperation in American business culture."
+              "explanation": "U.S. negotiation norms involve first offers close to the actual target and only one to two rounds of counter-offers. An opening of $52,000 likely means they could go to $55,000–$58,000, but a counter of $75,000 signals either a misunderstanding of U.S. norms or an unrealistic valuation. Prolonged haggling is perceived as a sign of distrust or desperation in American business culture."
             }
           ]
         },
@@ -305,7 +281,7 @@
           "type": "key-takeaway",
           "id": "kt-6-2-1",
           "title": "Key Takeaway",
-          "content": "<p>Be on time, stay focused on the agenda, and follow up in writing within 24 hours. U.S. negotiation moves fast — come prepared with specific numbers and expect one to two rounds of counter-offers. At networking events, listen first, pitch second, and always follow up the next day. Every small commitment you keep builds trust for the bigger ones. Learn to read the signals behind the words, and you will handle U.S. business relationships with confidence.</p>"
+          "content": "<p>Be on time, stay focused on the agenda, and follow up in writing within 24 hours. U.S. negotiation moves fast, come prepared with specific numbers and expect one to two rounds of counter-offers. At networking events, listen first, pitch second, and always follow up the next day. Every small commitment you keep builds trust for the bigger ones. Learn to read the signals behind the words, and you will handle U.S. business relationships with confidence.</p>"
         }
       ]
     },
@@ -325,13 +301,13 @@
           "type": "text",
           "id": "text-6-3-1",
           "title": "The Mistakes You Didn't See Coming",
-          "content": "<p>U.S. business culture has hidden expectations that catch international founders off guard. This lesson is about the founders who learned the hard way. Small cultural gaps lead to big money losses. An Argentine founder heard \"I love your product. We should partner on this\" at a Miami trade show. He spent $15,000 on legal fees for a partnership agreement. The American's response: \"Oh, I was just saying we should explore it.\"</p>\n\n<h4>Misstep #1: Reading Enthusiasm as Commitment</h4>\n\n<p>The signals look positive, a warm smile, enthusiastic words, \"I love this.\" But do not commit until you see written confirmation. \"This is fantastic\" means \"I'm interested enough to keep listening\", not \"I'm committing resources.\" This pattern pulls founders into spending money on verbal promises.</p>\n\n<p><strong>What to do instead:</strong> Ask: \"What would the next step look like on your end?\" If the answer is vague, the deal is exploratory. Don't spend money until you see written commitment: a signed LOI, buy order, or detailed email with agreed terms.</p>\n\n<h4>Misstep #2: Gift-Giving in Business Settings</h4>\n\n<p>This is a mistake you do not see coming. A South Korean founder brought high-end electronics to a meeting with a county procurement officer. The officer refused the gift and removed the company from the bidding process.</p>\n\n<p><strong>What to do instead:</strong> Skip gifts at first meetings. After deals close, keep gifts under $50 for corporate contacts. Check government gift policies before giving anything to public-sector partners.</p>",
+          "content": "<p>U.S. business culture has hidden expectations that catch international founders off guard. This lesson is about the founders who learned the hard way. Small cultural gaps lead to big money losses. An Argentine founder heard \"I love your product. We should partner on this\" at a Miami trade show. He spent $15,000 on legal fees for a partnership agreement. The American's response: \"Oh, I was just saying we should explore it.\"</p>\n\n<h4>Misstep #1: Reading Enthusiasm as Commitment</h4>\n\n<p>The signals look positive, a warm smile, enthusiastic words, \"I love this.\" But do not commit until you see written confirmation. \"This is fantastic\" means \"I'm interested enough to keep listening\", not \"I'm committing resources.\" This pattern pulls founders into spending money on verbal promises.</p>\n\n<p><strong>What to do instead:</strong> Ask: \"What would the next step look like on your end?\" If the answer is vague, the deal is exploratory. Don't spend money until you see written commitment: a signed LOI, buy order, or detailed email with agreed terms.</p>\n\n<h4>Misstep #2: Gift-Giving in Business Settings</h4>\n\n<p>This is a mistake you do not see coming. A South Korean business owner brought high-end electronics to a meeting with a county procurement officer. The officer refused the gift and removed the company from the bidding process.</p>\n\n<p><strong>What to do instead:</strong> Skip gifts at first meetings. After deals close, keep gifts under $50 for corporate contacts. Check government gift policies before giving anything to public-sector partners.</p>",
           "wordCount": 216
         },
         {
           "type": "callout",
           "id": "callout-6-3-wm",
-          "variant": "watch-money-costs",
+          "variant": "watch-money",
           "title": "Watch Your Money: What Cultural Missteps Actually Cost",
           "content": "<p>These are real dollar figures from international founders who learned the hard way (as of early 2026):</p>\n\n<ul><li><strong>$15,000</strong>. Legal fees for a partnership agreement based on a casual \"we should partner\" comment that was never a commitment</li><li><strong>$8,000–$12,000</strong>. Wasted retainer for a business consultant hired based on a warm introduction that never converted to actual business</li><li><strong>$5,000–$20,000</strong>. Product customization costs for a \"verbal commitment\" from a U.S. buyer that evaporated when the order wasn't formalized in writing</li><li><strong>$3,000–$7,000</strong>. Flights, hotels, and travel costs for in-person meetings that could have been handled by a 30-minute video call first</li><li><strong>$2,000–$5,000</strong>. Marketing materials and trade show expenses targeting the wrong customer segment because the founder didn't validate market fit locally first</li></ul>\n\n<p><strong>Total avoidable loss for a single founder:</strong> $10,000–$50,000+ in the first year. These costs add up fast when every dollar matters.</p>"
         },
@@ -346,7 +322,7 @@
           "type": "text",
           "id": "text-6-3-2",
           "title": "More Missteps That Drain Your Budget",
-          "content": "<h4>Misstep #3: Avoiding Direct \"No\"</h4>\n\n<p>Remember: friendliness is the default in American business, not a commitment. A Japanese founder said \"We'll consider it carefully\" instead of declining a joint venture. The American team spent six weeks preparing a proposal. When she finally said no, the relationship soured.</p>\n\n<p><strong>What to do instead:</strong> \"Thank you for thinking of us, but this isn't the right fit right now.\" Americans respect a clean no. They don't respect a delayed no disguised as maybe.</p>\n\n<h4>Misstep #4: Over-Investing Before Validating</h4>\n\n<p>You have committed resources before you know where your customers are actually buying. A Chilean tech startup signed a two-year Orlando office lease ($4,500/month) before having a single U.S. customer. Their clients ended up in Texas and California, and that added up to $81,000 on an office nobody used.</p>\n\n<p><strong>What to do instead:</strong> Start lean with coworking or virtual addresses. Validate with actual sales before committing to fixed overhead.</p>\n\n<h4>Misstep #5: Rushing the In-Person Trip</h4>\n\n<p>Many founders fly to the U.S. for preliminary meetings that could be handled on Zoom. A single trip costs $3,000-$7,000 in flights, hotels, and ground transportation.</p>\n\n<p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p>",
+          "content": "<h4>Misstep #3: Avoiding Direct \"No\"</h4>\n\n<p>Remember: friendliness is the default in American business, not a commitment. A Japanese entrepreneur said \"We'll consider it carefully\" instead of declining a joint venture. The American team spent six weeks preparing a proposal. When she finally said no, the relationship soured.</p>\n\n<p><strong>What to do instead:</strong> \"Thank you for thinking of us, but this isn't the right fit right now.\" Americans respect a clean no. They don't respect a delayed no disguised as maybe.</p>\n\n<h4>Misstep #4: Over-Investing Before Validating</h4>\n\n<p>You have committed resources before you know where your customers are actually buying. A Chilean tech startup signed a two-year Orlando office lease ($4,500/month) before having a single U.S. customer. Their clients ended up in Texas and California, and that added up to $81,000 on an office nobody used.</p>\n\n<p><strong>What to do instead:</strong> Start lean with coworking or virtual addresses. Validate with actual sales before committing to fixed overhead.</p>\n\n<h4>Misstep #5: Rushing the In-Person Trip</h4>\n\n<p>Many founders fly to the U.S. for preliminary meetings that could be handled on Zoom. A single trip costs $3,000–$7,000 in flights, hotels, and ground transportation.</p>\n\n<p><strong>What to do instead:</strong> Keep your first two or three interactions virtual. Save in-person trips for signing deals or scheduled events.</p>",
           "wordCount": 190
         },
         {
@@ -414,7 +390,7 @@
         {
           "type": "table",
           "id": "table-6-3-1",
-          "title": "Reading Between the Lines — What Americans Really Mean",
+          "title": "Reading Between the Lines: What Americans Really Mean",
           "table": {
             "headers": [
               "What They Say",
@@ -439,7 +415,7 @@
               ],
               [
                 "\"We should definitely get together\"",
-                "Social pleasantry — no plan attached",
+                "Social pleasantry, no plan attached",
                 "If you want the meeting, propose a specific date and time."
               ],
               [
@@ -481,18 +457,18 @@
           "description": "You just had a great 45-minute meeting with a potential U.S. partner. They said: 'This is really exciting. We love what you're building. Let me run this by a few people internally and we'll circle back next week.' It has been 10 days with no follow-up. What is happening?",
           "paths": [
             {
-              "label": "They are busy — give them more time",
+              "label": "They are busy: give them more time",
               "outcome": "Unlikely. In U.S. business culture, if someone is genuinely excited about a deal, they follow up within the timeline they set. 'Next week' means next week. Ten days of silence after enthusiastic language is a strong signal that interest has cooled. Waiting longer wastes your time.",
               "isRecommended": false
             },
             {
-              "label": "Send one brief follow-up email — then move on if no response",
-              "outcome": "Correct approach. Send a short, specific follow-up: 'Hi [name], wanted to check in on our conversation from [date]. Happy to answer any questions from your team.' If no response within 3-4 business days, the opportunity is likely dead. Do not send multiple follow-ups — it signals desperation and damages the relationship for future opportunities.",
+              "label": "Send one brief follow-up email: then move on if no response",
+              "outcome": "Correct approach. Send a short, specific follow-up: 'Hi [name], wanted to check in on our conversation from [date]. Happy to answer any questions from your team.' If no response within 3-4 business days, the opportunity is likely dead. Do not send multiple follow-ups, it signals desperation and damages the relationship for future opportunities.",
               "isRecommended": true
             },
             {
               "label": "Call them directly to show enthusiasm and persistence",
-              "outcome": "In many Latin American business cultures, calling shows initiative. In U.S. business culture, an unexpected call after radio silence often feels pushy. Email first. If they want to talk, they will suggest a call. Persistence reads differently across cultures — in the U.S., one follow-up is professional, two is acceptable, three is aggressive.",
+              "outcome": "In many Latin American business cultures, calling shows initiative. In U.S. business culture, an unexpected call after radio silence often feels pushy. Email first. If they want to talk, they will suggest a call. Persistence reads differently across cultures, in the U.S., one follow-up is professional, two is acceptable, three is aggressive.",
               "isRecommended": false
             }
           ]
@@ -500,7 +476,7 @@
         {
           "type": "flashcards",
           "id": "int-6-3-1",
-          "title": "U.S. Business Phrases — What They Really Mean",
+          "title": "U.S. Business Phrases: What They Really Mean",
           "cards": [
             {
               "front": "\"We're excited about this!\"",
@@ -508,7 +484,7 @@
             },
             {
               "front": "\"Let me run the numbers\"",
-              "back": "Translation: I need to check whether we can actually afford this. Expect a slower response — don't push."
+              "back": "Translation: I need to check whether we can actually afford this. Expect a slower response, don't push."
             },
             {
               "front": "\"Can you be more specific?\"",
@@ -524,16 +500,16 @@
             },
             {
               "front": "\"Let's do lunch!\"",
-              "back": "Translation: Unlike in Latin America, this is often casual — not a formal business commitment. If you want to meet, suggest a specific date."
+              "back": "Translation: Unlike in Latin America, this is often casual, not a formal business commitment. If you want to meet, suggest a specific date."
             }
           ]
         },
         {
           "type": "callout",
           "id": "callout-6-3-latam",
-          "variant": "latam-supplement",
-          "title": "Latin America Focus — Cultural Bridge Resources",
-          "content": "<p>Central Florida offers specific resources to help Latin American founders navigate U.S. business culture:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Networking events that bridge Latin American and U.S. business norms</li><li><strong>Prospera</strong>. Mentor matching program that pairs Latin American founders with bilingual U.S. business advisors</li><li><strong>SBDC Orlando</strong>. Bilingual business counseling sessions available</li><li><strong>CFITO trade delegations</strong>. Structured introductions to U.S. business contacts with cultural context built in</li></ul>"
+          "variant": "cultural-insight",
+          "title": "Latin America Focus: Cultural Bridge Resources",
+          "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Central Florida offers specific resources to help Latin American founders navigate U.S. business culture:</p>\n\n<ul><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Networking events that bridge Latin American and U.S. business norms</li><li><strong>Prospera</strong>. Mentor matching program that pairs Latin American founders with bilingual U.S. business advisors</li><li><strong>SBDC Orlando</strong>. Bilingual business counseling sessions available</li><li><strong>CFITO trade delegations</strong>. Structured introductions to U.S. business contacts with cultural context built in</li></ul>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong>Country-of-origin business associations:</strong> The German-American Chamber, British-American Business Council, Indo-US Chamber, Japanese-American Society, and others run cultural-bridge programs and meetups in Orlando. They translate cultural nuances both ways.</li><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando</a> business etiquette workshops:</strong> Cross-cultural business communication training for founders from any region.</li></ul>"
         },
         {
           "type": "knowledge-check",
@@ -542,7 +518,7 @@
           "placement": "end-of-lesson",
           "questions": [
             {
-              "stem": "A founder from Colombia meets a U.S. buyer at a conference. The buyer says, \"I love your product -- let's definitely partner on this!\" The founder is excited and considering hiring a lawyer to draft a partnership agreement. What should the founder do BEFORE spending any money?",
+              "stem": "A founder from Colombia meets a U.S. buyer at a conference. The buyer says, \"I love your product -- let's definitely partner on this!\" The entrepreneur is excited and considering hiring a lawyer to draft a partnership agreement. What should the founder do BEFORE spending any money?",
               "options": [
                 "Immediately hire the lawyer because the American clearly committed to a partnership",
                 "Wait two weeks for the American to send a formal partnership proposal since they expressed interest first",
@@ -564,7 +540,7 @@
               "explanation": "In U.S. business culture, a delayed 'no' disguised as 'maybe' damages trust more than a direct, polite decline. Americans respect clear communication: 'Thank you for thinking of us, but this isn't the right fit for our business right now.' The American team invested six weeks based on perceived interest, and learning it was never real creates significant resentment and reputational damage."
             },
             {
-              "stem": "A founder from South Korea is preparing for her first meeting with a county procurement officer in Orlando. She wants to make a strong impression and is considering bringing a high-end gift. Based on what you learned about avoiding cultural friction, what should she do instead?",
+              "stem": "A business owner from South Korea is preparing for her first meeting with a county procurement officer in Orlando. She wants to make a strong impression and is considering bringing a high-end gift. Based on what you learned about avoiding cultural friction, what should she do instead?",
               "options": [
                 "Bring the gift but choose something under $100 to keep it appropriate",
                 "Skip the gift entirely, prepare a concise agenda, and follow up with a professional recap email within 24 hours",
@@ -580,7 +556,7 @@
           "type": "key-takeaway",
           "id": "kt-6-3-1",
           "title": "Key Takeaway",
-          "content": "<p>The key insight is this: cultural slip-ups are costly. U.S. business culture feels friendly, but the expectations are strict, and the costs hit hardest when you feel most comfortable. The founders who avoid the biggest losses are the ones who learned to read the signals before committing resources. They do not spend money based on praise. They wait for written commitment. They validate before they invest. Apply the phrase-decoding table from this lesson to every U.S. meeting. Evaluate statements carefully, read actions over words, and remember: in U.S. business, friendliness and commitment are two very different things.</p>"
+          "content": "<p>Cultural slip-ups are costly. U.S. business culture feels friendly, but the expectations are strict, and the costs hit hardest when you feel most comfortable. The founders who avoid the biggest losses learn to read the signals before committing resources. They do not spend money based on praise. They wait for written commitment. They validate before they invest. Apply the phrase-decoding table to every U.S. meeting, and remember: in U.S. business, friendliness and commitment are two very different things.</p>"
         }
       ]
     }

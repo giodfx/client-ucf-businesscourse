@@ -14,3 +14,24 @@ __pycache__/
 .process-tracker.json
 .gates/
 _fix-*.mjs
+
+# Heavy binaries — keep local, exclude from git
+.archive-*/
+.latam-removed-backup-*/
+.deprecated-video-data-*/
+**/.es-backup-*/
+media/video/
+media/audio/scenes/
+media/audio/voice-tests/
+media/audio/bookend/
+output/lessons/videos/
+
+# Editor / runtime artifacts
+.claude/
+tmp/
+
+# Process logs
+*.log
+
+# ComfyUI / pipeline scratch
+*.local.mjs

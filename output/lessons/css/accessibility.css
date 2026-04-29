@@ -761,7 +761,7 @@ legend {
 
 .bg-warning {
     background-color: #fff3e0;
-    color: #e65100;
+    color: #bf360c;
 }
 
 .bg-info {
@@ -1137,7 +1137,7 @@ body.keyboard-nav *:focus {
 
 .status-badge--warning {
     background: #fff3e0;
-    color: #e65100;
+    color: #bf360c;
 }
 
 .status-badge--warning::before {

@@ -5,24 +5,33 @@
   "title": "Impuestos Federales y Estatales — Lo Que Realmente Debe",
   "duration": 9,
   "objectives": [
-    "Distinguir entre las obligaciones tributarias federales y estatales de Florida para entidades de propietarios extranjeros",
-    "Identificar los requisitos clave de declaración ante el IRS incluyendo ITIN vs. SSN para fundadores extranjeros",
-    "Explicar cómo el tipo de entidad afecta su tratamiento tributario (pass-through vs. corporativo)"
+    "Distinguir entre las obligaciones tributarias federales y estatales de Florida para entidades de propiedad extranjera",
+    "Identificar los requisitos clave de presentación ante el IRS, incluyendo ITIN vs. SSN para fundadores extranjeros",
+    "Explicar cómo el tipo de entidad afecta su tratamiento fiscal (pass-through vs. corporativo)"
   ],
   "contentBlocks": [
     {
       "type": "text",
       "id": "text-2-1-1",
-      "title": "Bienvenido al Distrito Financiero",
-      "content": "<p>Usted ya estableció su entidad y eligió su estructura empresarial en la ciudad. Ahora el camino lo lleva al Distrito Financiero, un corredor de firmas contables, oficinas tributarias y sucursales bancarias donde se responden las preguntas reales sobre el dinero.</p>\n\n<p>¿Qué haría si el IRS le enviara una multa de $1,200 antes de siquiera generar ganancias? Una fundadora de Brasil estableció una LLC en Orlando y asumió que solo necesitaba declarar una vez al año. No hizo los pagos estimados trimestrales durante dos trimestres consecutivos, y la multa fue de $1,200 antes de que siquiera tuviera ganancias.</p>",
+      "title": "Impuestos Federales y Estatales: Lo Que Realmente Debe",
+      "content": "<p>Ya constituyó su entidad y eligió la estructura de su negocio. Ahora es momento de abordar el lado financiero: impuestos, contabilidad y las preguntas sobre dinero que toman desprevenidos a los fundadores.</p>\n\n<p>¿Qué haría si el IRS le enviara una multa de $1,200 antes incluso de obtener una ganancia? Una fundadora de Francia constituyó una LLC en Orlando y asumió que solo necesitaba presentar declaración una vez al año. Pasó por alto los pagos estimados trimestrales durante dos trimestres consecutivos, y la multa fue de $1,200 antes de que siquiera tuviera ganancias.</p>",
       "wordCount": 196
+    },
+    {
+      "type": "callout",
+      "id": "callout-2-1-funfact",
+      "variant": "fun-fact",
+      "title": "¿Sabía Usted?",
+      "content": "<p>Florida es uno de solo nueve estados de EE.UU. sin impuesto estatal sobre la renta personal, y no tiene impuesto corporativo sobre la renta para LLC ni para S-corporations gravadas como pass-through. Esa estructura atrae a miles de fundadores internacionales que establecen sus operaciones en EE.UU. aquí específicamente para reducir la carga fiscal general sobre su negocio, pero el sistema tributario federal sigue aplicándose por completo, y comprenderlo es de lo que trata esta lección.</p>"
     },
     {
       "type": "simulation",
       "id": "sim-2-1-tax",
       "simId": "sim-tax-entity",
       "title": "Calculadora de Comparación Tributaria por Entidad",
+      "titleEs": "Calculadora de Comparación Tributaria por Entidad",
       "description": "Compare cuánto pagaría en impuestos como LLC, C-Corp o S-Corp según su ganancia neta.",
+      "descriptionEs": "Compare cuánto pagaría en impuestos como LLC, C-Corp o S-Corp según su ganancia neta.",
       "replaces": "dataviz-2-1",
       "scriptFile": "js/rt-simulations.js",
       "inputs": [
@@ -30,16 +39,27 @@
           "id": "sim-entity-type",
           "type": "radio",
           "label": "Tipo de Entidad",
+          "labelEs": "Tipo de Entidad",
           "options": [
-            { "label": "Single-Member LLC", "value": "llc" },
-            { "label": "C-Corp", "value": "ccorp" },
-            { "label": "S-Corp", "value": "scorp" }
+            {
+              "label": "LLC Unipersonal",
+              "value": "llc"
+            },
+            {
+              "label": "C-Corp",
+              "value": "ccorp"
+            },
+            {
+              "label": "S-Corp",
+              "value": "scorp"
+            }
           ]
         },
         {
           "id": "sim-profit",
           "type": "range",
           "label": "Ganancia Neta Anual",
+          "labelEs": "Ganancia Neta Anual",
           "min": 20000,
           "max": 500000,
           "step": 5000,
@@ -48,40 +68,103 @@
       ]
     },
     {
+      "type": "data-visualization",
+      "id": "dataviz-2-1",
+      "title": "Lo Que Realmente Deberá: Desglose por Capa Tributaria",
+      "chartType": "stacked-horizontal-bar",
+      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 720px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Lo Que Realmente Deberá: Desglose por Capa Tributaria</h3><p style=\"margin: 0 0 22px 0; font-size: 0.85rem; color: #666;\">Tasas representativas para una C-Corp vs LLC en Florida</p><div style=\"margin-bottom: 24px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">C-Corp en Florida <span style=\"font-weight: 400; color: #666;\">,  ~27% efectivo</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 77.8%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal 21%</div><div style=\"width: 20.4%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.72rem; font-weight: 500;\">FL 5.5%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; justify-content: flex-end; margin-top: 4px;\"><span style=\"font-size: 0.72rem; color: #999;\">Tarifas locales ~0.5% (varían por condado)</span></div></div><div style=\"margin-bottom: 20px;\"><div style=\"font-weight: 600; font-size: 0.92rem; margin-bottom: 8px; color: #1A3A5C;\">LLC (Pass-Through) en Florida <span style=\"font-weight: 400; color: #666;\">,  ~27.8% efectivo</span></div><div style=\"display: flex; height: 44px; border-radius: 6px; overflow: hidden; background: #e0ddd7;\"><div style=\"width: 55%; background: #1A3A5C; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.73rem; font-weight: 500;\">Cuenta Propia 15.3%</div><div style=\"width: 43.2%; background: #2C5F8A; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 500;\">Federal Renta 12%</div><div style=\"width: 1.8%; background: #E8A838; display: flex; align-items: center; justify-content: center;\"></div></div><div style=\"display: flex; gap: 16px; margin-top: 4px; flex-wrap: wrap;\"><span style=\"font-size: 0.72rem; color: #48B07A; font-weight: 600;\">Impuesto Estatal de Florida: 0%, ¡Sin impuesto estatal sobre la renta!</span><span style=\"font-size: 0.72rem; color: #999;\">Tarifas locales ~0.5%</span></div></div><div style=\"display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px;\"><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>Federal / Cuenta Propia</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Estatal / Renta Federal</span><span style=\"display: inline-flex; align-items: center; gap: 5px; font-size: 0.75rem;\"><span style=\"width: 12px; height: 12px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Tarifas Locales</span></div><div style=\"background: #EBF5EC; border-left: 4px solid #48B07A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #2D2D2D;\"><strong>Ventaja de Florida:</strong> No tener impuesto estatal sobre la renta personal ahorra a los dueños de LLC entre 4 y 13% en comparación con estados como NY o CA.</div></div>",
+      "data": {
+        "scenarios": [
+          {
+            "label": "C-Corp en Florida",
+            "layers": [
+              {
+                "label": "Impuesto Federal Corporativo",
+                "value": 21,
+                "color": "#1A3A5C"
+              },
+              {
+                "label": "Impuesto Corporativo de Florida",
+                "value": 5.5,
+                "color": "#2C5F8A"
+              },
+              {
+                "label": "Tarifas y Licencias Locales",
+                "value": 0.5,
+                "color": "#E8A838",
+                "note": "varía por condado"
+              }
+            ],
+            "total": "~27% efectivo"
+          },
+          {
+            "label": "LLC (Pass-Through) en Florida",
+            "layers": [
+              {
+                "label": "Impuesto de Trabajo por Cuenta Propia",
+                "value": 15.3,
+                "color": "#1A3A5C"
+              },
+              {
+                "label": "Impuesto Federal sobre la Renta",
+                "value": 12,
+                "color": "#2C5F8A",
+                "note": "varía según el tramo"
+              },
+              {
+                "label": "Impuesto Estatal de Florida",
+                "value": 0,
+                "color": "#48B07A",
+                "note": "¡Sin impuesto estatal sobre la renta!"
+              },
+              {
+                "label": "Tarifas y Licencias Locales",
+                "value": 0.5,
+                "color": "#E8A838"
+              }
+            ],
+            "total": "~27.8% efectivo"
+          }
+        ],
+        "footer": "Ventaja de Florida: No tener impuesto estatal sobre la renta personal ahorra a los dueños de LLC entre 4 y 13% en comparación con estados como NY o CA."
+      },
+      "accessibilityNote": "Gráfico de barras horizontales apiladas que compara las capas tributarias para C-Corp versus LLC en Florida. La C-Corp muestra Impuesto Federal Corporativo del 21%, Impuesto Corporativo de Florida del 5.5% y Tarifas Locales del 0.5% para una tasa efectiva de aproximadamente 27%. La LLC muestra Impuesto de Trabajo por Cuenta Propia del 15.3%, Impuesto Federal sobre la Renta del 12%, Impuesto Estatal de Florida del 0% y Tarifas Locales del 0.5% para una tasa efectiva de aproximadamente 27.8%. Punto clave: Florida no tiene impuesto estatal sobre la renta personal, lo que ahorra a los dueños de LLC entre 4 y 13 por ciento en comparación con estados como Nueva York o California."
+    },
+    {
       "type": "text",
       "id": "text-2-1-no-state-tax",
-      "title": "Florida No Tiene Impuesto sobre la Renta — Pero Eso No Significa Que No Hay Impuestos",
-      "content": "<p>Esta es una de las mayores razones por las que los fundadores internacionales eligen Florida: no hay impuesto estatal sobre la renta personal. Eso es dinero real que se queda en su bolsillo. Florida es uno de solo nueve estados de EE.UU. sin impuesto estatal sobre la renta personal, y el área metropolitana de Orlando se ubica consistentemente entre las principales regiones del sureste para el crecimiento de pequeñas empresas.</p>\n\n<p>Pero no tener impuesto estatal sobre la renta no significa que no hay impuestos. Los impuestos federales aplican a todo negocio en EE.UU., y el IRS querrá saber de usted sin importar dónde se incorporó o cuántos ingresos generó.</p>\n\n<p><strong>Importante:</strong> Las obligaciones tributarias varían según su tipo de entidad, ingresos y estatus de residencia tributaria personal. La información aquí es educativa. Consulte con un CPA calificado o abogado tributario para su situación específica.</p>"
+      "title": "Florida No Tiene Impuesto Sobre la Renta: Pero Eso No Significa Sin Impuestos",
+      "content": "<p>Esta es una de las mayores razones por las que los fundadores internacionales eligen Florida: no hay impuesto estatal sobre la renta personal. Eso es dinero real que se queda en su bolsillo. Florida es uno de solo nueve estados de EE.UU. sin impuesto sobre la renta personal, y Central Florida se ubica consistentemente entre las regiones líderes del sureste para el crecimiento de las pequeñas empresas.</p>\n\n<p>Sin impuesto estatal sobre la renta no significa sin impuestos. Los impuestos federales aplican a todo negocio en EE.UU., y el IRS querrá saber de usted sin importar dónde se constituyó o cuánto ingreso generó.</p>\n\n<p><strong>Importante:</strong> Las obligaciones tributarias varían según el tipo de entidad, los ingresos y su estatus de residencia fiscal personal. La información aquí es educativa. Consulte a un CPA o abogado tributario calificado para su situación específica.</p>"
     },
     {
       "type": "table",
       "id": "table-2-1-1",
-      "title": "Federal vs. Estatal vs. Local — Qué Le Aplica",
+      "title": "Federal vs. Estatal vs. Local: Lo Que Le Aplica",
       "table": {
         "headers": [
-          "Nivel Tributario",
+          "Nivel de Impuesto",
           "Qué Cubre",
           "Quién Paga",
           "Detalles Clave"
         ],
         "rows": [
           [
-            "Federal — IRS",
-            "Impuesto sobre la renta, impuesto de autoempleo, impuesto de nómina",
+            "Federal, IRS",
+            "Impuesto sobre la renta, impuesto de trabajo por cuenta propia, impuesto sobre nómina",
             "Todos los negocios en EE.UU.",
-            "El tipo de entidad determina cómo declara. Las LLC pasan al retorno personal. Las C-Corps declaran por separado."
+            "El tipo de entidad determina cómo presenta su declaración. Las LLC pasan a las declaraciones personales. Las C-Corp presentan por separado."
           ],
           [
-            "Estatal — Florida",
-            "Sin impuesto sobre la renta personal; 5.5% de impuesto corporativo solo para C-Corps",
+            "Estatal de Florida",
+            "Sin impuesto sobre la renta personal; 5.5% de impuesto corporativo sobre la renta solo para C-Corps",
             "C-Corps con ingresos superiores a $50,000",
-            "Las LLC y S-Corps evitan el impuesto corporativo de Florida porque los ingresos pasan a los propietarios."
+            "Las LLC y S-Corps evitan el impuesto corporativo sobre la renta de Florida porque los ingresos pasan a los dueños."
           ],
           [
-            "Local — Condado/Ciudad",
-            "Licencias comerciales, impuesto sobre propiedad personal tangible",
+            "Local, Condado/Ciudad",
+            "Licencias comerciales, impuesto sobre la propiedad personal tangible",
             "Todos los negocios con presencia física",
-            "Orange County requiere un recibo de impuesto comercial. El impuesto sobre propiedad tangible aplica a equipos y mobiliario."
+            "Orange County exige un recibo de impuesto comercial. El impuesto sobre la propiedad tangible aplica a equipos y mobiliario."
           ]
         ]
       },
@@ -92,55 +175,61 @@
     {
       "type": "text",
       "id": "text-2-1-2",
-      "title": "ITIN, SSN, y Por Qué Su Identificación Tributaria Importa",
-      "content": "<p>Piense en su identificación tributaria como la llave para cada edificio en el Distrito Financiero. Antes de poder declarar cualquier cosa ante el IRS, necesita un número de identificación tributaria. Cuál necesita depende de su estatus migratorio.</p>\n\n<p>La conclusión es esta: Un <strong>SSN (Social Security Number)</strong> se emite a personas autorizadas para trabajar en EE.UU. Si tiene una visa de trabajo válida (E-2, O-1, L-1 o H-1B), puede solicitar un SSN. Este es el número preferido porque se conecta con el sistema crediticio y financiero más amplio.</p>\n\n<p>Un <strong>ITIN (Individual Taxpayer Identification Number)</strong> es para no residentes que tienen obligaciones tributarias en EE.UU. pero no califican para un SSN. Se solicita con el Formulario W-7 del IRS, y el proceso toma de 7 a 11 semanas.</p>\n\n<p>El problema práctico: algunos bancos no abren cuentas sin un SSN, y si solicita un ITIN por correo, puede necesitar enviar su pasaporte original al IRS. Un fundador colombiano estuvo sin su pasaporte durante nueve semanas mientras el IRS procesaba su solicitud.</p>\n\n<p><strong>La alternativa:</strong> Aplique en persona en un IRS Taxpayer Assistance Center. Verifican su pasaporte en el momento y usted se lo queda. El centro más cercano a Orlando está en Tampa — aproximadamente dos horas de ida y vuelta, pero evita enviar su pasaporte por correo.</p>",
+      "title": "ITIN, SSN y Por Qué Importa Su Identificación Tributaria",
+      "content": "<p>Antes de poder presentar cualquier cosa ante el IRS, necesita un número de identificación tributaria. Cuál depende de su estatus migratorio.</p>\n\n<p>Un <strong>SSN (Número de Seguro Social)</strong> se emite a personas autorizadas para trabajar en EE.UU. Si tiene una visa de trabajo válida (E-2, O-1, L-1 o H-1B), puede solicitar un SSN. Este es el número preferido porque conecta con el sistema crediticio y financiero más amplio.</p>\n\n<p>Un <strong>ITIN (Número de Identificación Personal del Contribuyente)</strong> es para no residentes que tienen obligaciones tributarias en EE.UU. pero no califican para un SSN. Lo solicita con el Formulario W-7 del IRS, y el proceso toma de 7 a 11 semanas.</p>\n\n<p>El problema práctico: algunos bancos no abren cuentas sin un SSN, y si solicita un ITIN por correo, puede que necesite enviar su pasaporte original al IRS. Un fundador italiano estuvo sin su pasaporte durante nueve semanas mientras el IRS procesaba su solicitud.</p>\n\n<p><strong>La alternativa:</strong> Solicitar en persona en un Centro de Asistencia al Contribuyente del IRS. Verifican su pasaporte en el momento y usted lo conserva. El centro más cercano a Orlando está en Tampa, alrededor de dos horas de viaje ida y vuelta, pero evita enviar su pasaporte por correo.</p>",
       "wordCount": 195
     },
     {
       "type": "text",
       "id": "text-2-1-3",
-      "title": "Cómo el Tipo de Entidad Afecta Su Tratamiento Tributario",
-      "content": "<p>Ahora que conoce la disposición del Distrito Financiero, entre a la oficina de impuestos. Su tipo de entidad decide cómo el IRS trata sus ingresos, qué formularios presenta, y cuánto debe. Esa es una de las principales razones por las que elegir la entidad correcta importa (cubierto en el Módulo 1).</p>\n\n<p>Pongámoslo en perspectiva. <strong>LLC (gravada como propietario único o sociedad):</strong> Los ingresos \"pasan\" a su declaración de impuestos personal. Usted paga impuesto federal sobre la renta a su tasa personal, más impuesto de autoempleo del 15.3% sobre las ganancias netas. Presenta el Schedule C (un solo miembro) o el Formulario 1065 (varios miembros) con su Formulario personal 1040-NR.</p>\n\n<p><strong>C-Corporation:</strong> Presenta su propia declaración (Formulario 1120) y paga impuesto corporativo sobre la renta a una tasa fija del 21%. Si se paga un salario o dividendos, también paga impuesto sobre la renta personal sobre esos ingresos — \"doble tributación\". La ventaja: las C-Corps son la estructura preferida para captar capital de inversión.</p>\n\n<p><strong>S-Corporation:</strong> Tratamiento pass-through similar al de una LLC, pero con posibles ahorros en el impuesto de autoempleo. El problema: los extranjeros no residentes no pueden ser accionistas de una S-Corp. Sin green card o ciudadanía, la S-Corp queda descartada.</p>\n\n<p>Un fundador alemán de tecnología eligió una C-Corp para captar capital de riesgo. Un fundador mexicano de servicios de alimentos eligió una LLC por la simplicidad de la tributación pass-through. La elección equivocada le habría costado a cada uno miles de dólares en impuestos innecesarios o tarifas de reestructuración.</p>",
+      "title": "Cómo el Tipo de Entidad Afecta Su Tratamiento Fiscal",
+      "content": "<p>Su tipo de entidad decide cómo el IRS trata sus ingresos, qué formularios presenta y cuánto debe. Esa es una de las principales razones por las que importa elegir la entidad correcta (cubierto en el Módulo 1).</p>\n\n<p><strong>LLC (gravada como propiedad única o sociedad):</strong> Los ingresos \"pasan\" a su declaración de impuestos personal. Paga el impuesto federal sobre la renta a su tasa personal, más un impuesto de trabajo por cuenta propia del 15.3% sobre las ganancias netas. Presenta el Anexo C (unipersonal) o el Formulario 1065 (varios miembros) con su Formulario 1040-NR personal.</p>\n\n<p><strong>C-Corporation:</strong> Presenta su propia declaración (Formulario 1120) y paga el impuesto corporativo sobre la renta a una tasa fija del 21%. Si se paga un salario o dividendos, también paga impuesto sobre la renta personal sobre ese ingreso, lo que se llama \"doble tributación\". El lado positivo: las C-Corps son la estructura preferida para levantar capital de inversión.</p>\n\n<p><strong>S-Corporation:</strong> Tratamiento pass-through similar al de una LLC, pero con posibles ahorros en el impuesto de trabajo por cuenta propia. La trampa: los extranjeros no residentes no pueden ser accionistas de una S-Corp. Sin green card ni ciudadanía, la S-Corp queda descartada.</p>\n\n<p>Un fundador alemán de tecnología eligió una C-Corp para levantar capital de riesgo. Un empresario mexicano del sector de servicios alimentarios eligió una LLC por la simple tributación pass-through. La elección equivocada le habría costado a cada uno miles en impuestos innecesarios o en honorarios de reestructuración.</p>",
       "wordCount": 204
     },
     {
       "type": "tabs",
       "id": "int-2-1-1",
-      "title": "Desglose Tributario por Jurisdicción — Una Mirada Más Detallada",
+      "title": "Desglose Tributario por Jurisdicción: Una Mirada Más Cercana",
       "tabs": [
         {
           "label": "Federal (IRS)",
-          "content": "**Lo que debe:** Impuesto corporativo sobre la renta (C-Corp: tasa fija del 21%) o impuesto sobre la renta pass-through (LLC/S-Corp: reportado en la declaración personal).\n\n**Formularios clave:** Formulario 1120 (C-Corp), Formulario 1065 (Sociedad), Schedule C (Propietario Único).\n\n**Pagos estimados:** Trimestrales (15 de abril, 15 de junio, 15 de septiembre, 15 de enero).\n\n**Particularidad internacional:** Se requiere ITIN si no califica para SSN. Los beneficios de tratados pueden reducir las retenciones."
+          "content": "**Lo que debe:** Impuesto corporativo sobre la renta (C-Corp: tasa fija del 21%) o impuesto sobre la renta pass-through (LLC/S-Corp: reportado en la declaración personal).\n\n**Formularios clave:** Formulario 1120 (C-Corp), Formulario 1065 (Sociedad), Anexo C (Propietario Único).\n\n**Pagos estimados:** Trimestrales (15 de abril, 15 de junio, 15 de septiembre, 15 de enero).\n\n**Giro internacional:** Se requiere ITIN si no califica para un SSN. Los beneficios de tratado pueden reducir la retención."
         },
         {
           "label": "Estatal (Florida)",
-          "content": "**Buenas noticias:** Florida NO tiene impuesto estatal sobre la renta personal.\n\n**Impuesto corporativo:** 5.5% sobre ingresos gravables superiores a $50,000 (solo C-Corps).\n\n**Impuesto sobre ventas:** Tasa estatal del 6% + sobretasa del condado (hasta 1.5% en Orange County).\n\n**Informe anual:** $138.75 (LLC/LP) o $150 (Corp) — debe presentarse antes del 1 de mayo de cada año a través de SunBiz."
+          "content": "**Buenas noticias:** Florida NO tiene impuesto estatal sobre la renta personal.\n\n**Impuesto corporativo:** 5.5% sobre ingresos gravables superiores a $50,000 (solo C-Corps).\n\n**Impuesto sobre las ventas:** Tasa estatal del 6% + sobretasa del condado (hasta 1.5% en Orange County).\n\n**Informe anual:** $138.75 (LLC/LP) o $150 (Corp), vence el 1 de mayo de cada año a través de SunBiz."
         },
         {
           "label": "Local",
-          "content": "**Recibo de Impuesto Comercial (BTR):** Requerido por Orange County y la Ciudad de Orlando — generalmente $25–$100/año.\n\n**Impuesto de Desarrollo Turístico:** 6% sobre alquileres de corto plazo (si aplica).\n\n**Tarifas de impacto:** Solo para negocios de construcción/desarrollo.\n\n**En resumen:** Las obligaciones locales son mínimas para la mayoría de los negocios de servicios y tecnología."
+          "content": "**Recibo de Impuesto Comercial (BTR):** Requerido por Orange County y la Ciudad de Orlando, típicamente $25–$100 al año.\n\n**Impuesto de Desarrollo Turístico:** 6% sobre alquileres a corto plazo (si aplica).\n\n**Tarifas de impacto:** Solo para negocios de construcción/desarrollo.\n\n**Conclusión:** Las obligaciones locales son mínimas para la mayoría de los negocios de servicios y tecnología."
         }
       ]
     },
     {
+      "type": "in-lesson-image",
+      "id": "scenario-img-lesson-2-1",
+      "imagePath": "images/scenarios/lesson-2-1-tax-advisor-meeting.jpg",
+      "title": "Fundador internacional consultando con un asesor tributario sobre impuestos empresariales en EE.UU."
+    },
+    {
       "type": "scenario",
       "id": "scenario-2-1-taxes",
-      "title": "No Hizo un Pago Trimestral — ¿Ahora Qué?",
-      "description": "Es julio. Usted estableció su LLC en enero y ha tenido ingresos desde marzo. Acaba de darse cuenta de que no ha hecho ningún pago estimado de impuestos al IRS. ¿Qué debería hacer?",
+      "title": "No Hizo un Pago Trimestral: ¿Y Ahora Qué?",
+      "description": "Es julio. Constituyó su LLC en enero y ha estado generando ingresos desde marzo. Acaba de darse cuenta de que no ha hecho ningún pago tributario estimado al IRS. ¿Qué debería hacer?",
       "paths": [
         {
-          "label": "Esperar hasta la fecha límite de la declaración anual para pagar todo de una vez",
-          "outcome": "Peligroso. El IRS cobra multas por cada trimestre que no paga. Esperar hasta abril significa que las multas se acumulan por Q1, Q2, Q3 y Q4. Entre más espere, más debe en intereses y multas — exactamente lo que le pasó a la fundadora brasileña que recibió una sorpresa de $1,200.",
+          "label": "Esperar hasta la fecha límite anual de presentación de impuestos para pagar todo de una vez",
+          "outcome": "Peligroso. El IRS cobra multas por cada trimestre que no pague. Esperar hasta abril significa que las multas se acumulan para el T1, T2, T3 y T4. Cuanto más espere, más deberá en intereses y multas, exactamente lo que le pasó a la fundadora francesa que recibió la sorpresa de $1,200.",
           "isRecommended": false
         },
         {
-          "label": "Hacer un pago estimado ahora y ponerse al día con los trimestres atrasados",
-          "outcome": "La mejor decisión. Pague lo que debe por Q1 y Q2 inmediatamente, luego establezca pagos trimestrales de aquí en adelante. El IRS puede cobrar una multa pequeña por los trimestres atrasados, pero será mucho menos que esperar. Use el Formulario 1040-ES o pague directamente en irs.gov/payments.",
+          "label": "Hacer un pago estimado ahora y ponerse al día con los trimestres faltantes",
+          "outcome": "Mejor decisión. Pague lo que debe del T1 y T2 de inmediato, luego configure pagos trimestrales en adelante. El IRS puede aún cobrar una pequeña multa por los trimestres atrasados, pero será mucho menor que esperar. Use el Formulario 1040-ES o pague directamente en irs.gov/payments.",
           "isRecommended": true
         },
         {
-          "label": "Llamar a su CPA y pedirle que lo maneje",
-          "outcome": "Buen instinto, pero no espere a la cita. Haga el pago ahora a través de irs.gov, luego consulte con su CPA sobre los montos trimestrales correctos de aquí en adelante. Cada día de retraso se suma al cálculo de la multa.",
+          "label": "Llamar a su CPA y pedirle que se encargue",
+          "outcome": "Buen instinto, pero no espere a la cita. Haga el pago ahora a través de irs.gov, luego consulte con su CPA sobre los montos trimestrales correctos en adelante. Cada día de retraso se suma al cálculo de la multa.",
           "isRecommended": false
         }
       ]
@@ -149,22 +238,22 @@
       "type": "callout",
       "id": "callout-2-1-2",
       "variant": "watch-money-costs",
-      "title": "Tratados Tributarios — Verifique Antes de Asumir",
-      "content": "<p>Piense en esto: su país de origen puede tener un tratado tributario con EE.UU. que reduzca su tasa impositiva, elimine la doble tributación, o cambie las reglas de retención. Por ejemplo, muchos países europeos y latinoamericanos tienen tratados que afectan cómo se gravan los ingresos por dividendos o las ganancias empresariales. No asuma que sus obligaciones en su país desaparecen cuando forma una entidad en EE.UU., y no asuma que le van a cobrar impuestos dos veces sin verificar. Un CPA que maneje clientes globales puede revisar su estatus de tratado en una sola reunión. Esa conversación puede ahorrarle miles de dólares.</p>"
+      "title": "Tratados Tributarios: Verifique Antes de Asumir",
+      "content": "<p>Su país de origen puede tener un tratado tributario con EE.UU. que reduzca su tasa impositiva, elimine la doble tributación o cambie las reglas de retención. Por ejemplo, muchos países europeos y latinoamericanos tienen tratados que afectan cómo se gravan los dividendos o las ganancias del negocio. No asuma que sus obligaciones del país de origen desaparecen cuando forma una entidad en EE.UU., y no asuma que será gravado dos veces sin verificar. Un CPA que maneja clientes globales puede revisar su estatus de tratado en una sola reunión. Esta sola conversación puede ahorrarle miles.</p>"
     },
     {
       "type": "callout",
       "id": "callout-2-1-cm",
       "variant": "common-mistakes-repeating",
       "title": "Errores Comunes que Cometen los Fundadores Internacionales",
-      "content": "<p>Observe estos patrones:</p><ul><li><strong>Ignorar la obligación del impuesto sobre ventas.</strong> Muchos fundadores internacionales asumen que su producto o servicio no está sujeto al impuesto sobre ventas, o no se dan cuenta de que necesitan registrarse antes de cobrarlo. El impuesto sobre ventas de Florida aplica a la mayoría de los bienes tangibles y algunos servicios. (Más sobre esto en la siguiente lección.)</li><li><strong>Esperar demasiado para contratar un contador que conozca clientes globales.</strong> Un CPA general puede no saber sobre la declaración de ITIN, las reglas de tratados tributarios, o las necesidades de FBAR para cuentas bancarias extranjeras. Para cuando los fundadores se dan cuenta de que necesitan un especialista, ya han cometido errores de declaración que cuestan dinero corregir.</li><li><strong>No hacer los pagos estimados trimestrales.</strong> Si espera deber $1,000 o más en impuestos federales, debe hacer pagos estimados trimestrales — con fecha límite el 15 de abril, 15 de junio, 15 de septiembre y 15 de enero. Si los omite, deberá multas e intereses incluso si paga todo cuando presente su declaración anual. Configure recordatorios en el calendario para las cuatro fechas.</li></ul>"
+      "content": "<ul><li><strong>Ignorar la obligación del impuesto sobre las ventas.</strong> Muchos fundadores internacionales asumen que su producto o servicio no está sujeto al impuesto sobre las ventas, o no se dan cuenta de que necesitan registrarse antes de cobrarlo. El impuesto sobre las ventas de Florida aplica a la mayoría de los bienes tangibles y a algunos servicios. (Más sobre esto en la próxima lección.)</li><li><strong>Esperar demasiado para contratar a un contador que conozca clientes globales.</strong> Un CPA general puede no saber sobre la presentación con ITIN, las reglas de tratados tributarios o las necesidades del FBAR para cuentas bancarias extranjeras. Para cuando los fundadores se dan cuenta de que necesitan un especialista, ya han cometido errores en sus declaraciones que cuesta dinero corregir.</li><li><strong>No hacer los pagos estimados trimestrales.</strong> Si espera deber $1,000 o más en impuestos federales, debe hacer pagos estimados trimestrales, que vencen el 15 de abril, 15 de junio, 15 de septiembre y 15 de enero. Si los omite, deberá multas e intereses incluso si paga todo cuando presente su declaración anual. Configure recordatorios en el calendario para las cuatro fechas.</li></ul>"
     },
     {
       "type": "callout",
       "id": "callout-2-1-wm",
       "variant": "watch-money-costs",
-      "title": "Cuide Su Dinero: Lo Que Esto Realmente Cuesta",
-      "content": "<p>En otras palabras, planifique con anticipación. Costos tributarios y contables que debería presupuestar (a principios de 2026):</p>\n\n<ul><li><strong>CPA para preparación de impuestos anuales (clientes internacionales):</strong> $500–$2,500/año dependiendo de la complejidad</li><li><strong>Pagos estimados trimestrales:</strong> Varía según los ingresos — planee separar un 25–30% de la ganancia neta cada trimestre</li><li><strong>Solicitud de ITIN:</strong> Gratis (Formulario W-7 del IRS), pero muchos fundadores pagan $200–$400 por un Agente de Aceptación Certificado para que les ayude</li><li><strong>Software de contabilidad:</strong> $20–$60/mes (QuickBooks, Xero, Wave)</li><li><strong>Multa por pago trimestral omitido:</strong> ~4–8% de interés anualizado sobre el monto no pagado</li><li><strong>Declaración de FBAR (si tiene cuentas en el extranjero por más de $10,000):</strong> Generalmente incluido en la tarifa del CPA, pero las multas por no declarar pueden superar los $10,000 por cuenta</li></ul>"
+      "title": "Cuide Su Dinero: Lo Que Realmente Cuesta Esto",
+      "content": "<p>Planifique con anticipación. Costos de impuestos y contabilidad que debe presupuestar (a inicios de 2026):</p>\n\n<ul><li><strong>CPA para preparación anual de impuestos (clientes internacionales):</strong> $500–$2,500 al año dependiendo de la complejidad</li><li><strong>Pagos tributarios estimados trimestrales:</strong> Varía según los ingresos; planifique reservar entre el 25 y 30% de la ganancia neta cada trimestre</li><li><strong>Solicitud de ITIN:</strong> Gratuita (Formulario W-7 del IRS), pero muchos fundadores pagan $200–$400 por un Agente Aceptador Certificado para que les ayude</li><li><strong>Software de contabilidad:</strong> $20–$60 al mes (QuickBooks, Xero, Wave)</li><li><strong>Multa por pago trimestral atrasado:</strong> ~4–8% de interés anualizado sobre el pago insuficiente</li><li><strong>Presentación FBAR (si tiene cuentas extranjeras de más de $10,000):</strong> Típicamente incluida en la tarifa del CPA, pero las multas por no presentarlo pueden superar los $10,000 por cuenta</li></ul>"
     },
     {
       "type": "knowledge-check",
@@ -173,37 +262,37 @@
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "Una LLC de un solo miembro en Florida genera $80,000 en ganancia neta. ¿Dónde reporta el propietario estos ingresos para fines tributarios?",
+          "stem": "Una LLC unipersonal en Florida obtiene $80,000 de ganancia neta. ¿Dónde reporta el dueño este ingreso para fines tributarios?",
           "options": [
-            "En la declaración corporativa separada de la LLC (Formulario 1120)",
-            "En la declaración personal del propietario como ingreso pass-through",
-            "Solo en la declaración de impuestos estatales de Florida",
-            "No se requiere ninguna declaración porque Florida no tiene impuesto estatal sobre la renta"
+            "En la declaración de impuestos corporativa separada de la LLC (Formulario 1120)",
+            "En la declaración de impuestos personal del dueño como ingreso pass-through",
+            "Solo en la declaración de impuestos estatal de Florida sobre la renta",
+            "No se requiere presentación porque Florida no tiene impuesto estatal sobre la renta"
           ],
           "correctAnswer": 1,
-          "explanation": "Los ingresos de la LLC pasan a la declaración personal del propietario. La LLC en sí no presenta una declaración corporativa separada (eso es para una C-Corp). La falta de impuesto estatal sobre la renta en Florida no elimina los requisitos de declaración federal."
+          "explanation": "Los ingresos de la LLC pasan a la declaración de impuestos personal del dueño. La LLC misma no presenta una declaración corporativa separada (eso es una C-Corp). La ausencia de impuesto estatal sobre la renta en Florida no elimina los requisitos de presentación federal."
         },
         {
           "stem": "¿Cuál es la razón principal por la que un fundador internacional sin visa de trabajo necesitaría un ITIN?",
           "options": [
-            "Para registrarse con el Florida Department of Revenue para retención de impuestos sobre la renta",
+            "Para registrarse en el Departamento de Ingresos de Florida para retención del impuesto sobre la renta",
             "Para registrar su negocio en SunBiz",
             "Para presentar declaraciones de impuestos en EE.UU. cuando no califica para un SSN",
             "Para solicitar una licencia de conducir de Florida"
           ],
           "correctAnswer": 2,
-          "explanation": "Un ITIN (Individual Taxpayer Identification Number) permite a los no residentes cumplir con sus obligaciones tributarias en EE.UU. cuando no califican para un Social Security Number. Es específicamente una herramienta de declaración tributaria emitida por el IRS. Registrarse con el Florida Department of Revenue es un paso separado de impuesto sobre ventas que no requiere un ITIN. El registro en SunBiz usa un EIN, no un ITIN. Una licencia de conducir de Florida no está relacionada con las obligaciones de declaración tributaria."
+          "explanation": "Un ITIN (Número de Identificación Personal del Contribuyente) permite a los no residentes cumplir con sus obligaciones tributarias en EE.UU. cuando no califican para un Número de Seguro Social. Es específicamente una herramienta de presentación de impuestos emitida por el IRS. Registrarse en el Departamento de Ingresos de Florida es un paso aparte de impuesto sobre las ventas que no requiere un ITIN. El registro en SunBiz usa un EIN, no un ITIN. Una licencia de conducir de Florida no se relaciona con las obligaciones de presentación de impuestos."
         },
         {
-          "stem": "Una fundadora de Brasil opera una LLC de un solo miembro en Florida y espera deber $8,000 en impuestos federales este año. Ella planea pagar todo cuando presente su declaración anual en abril. ¿Qué problema enfrentará?",
+          "stem": "Una emprendedora de Brasil opera una LLC unipersonal en Florida y espera deber $8,000 en impuestos federales este año. Planea pagar todo cuando presente su declaración anual en abril. ¿Qué problema enfrentará?",
           "options": [
-            "Deberá multas e intereses por no hacer los pagos estimados trimestrales durante el año",
-            "Ningún problema — el pago anual es el método estándar para las LLC",
-            "Florida le cobrará impuesto estatal sobre la renta como multa por pago tardío",
-            "El IRS convertirá automáticamente su LLC en una C-Corp por incumplimiento"
+            "Deberá multas e intereses por no haber hecho los pagos estimados trimestrales durante el año",
+            "Ningún problema; el pago anual es el método estándar para LLCs",
+            "Florida le cobrará el impuesto estatal sobre la renta como multa por pago atrasado",
+            "El IRS convertirá automáticamente su LLC en C-Corp por incumplimiento"
           ],
           "correctAnswer": 0,
-          "explanation": "El sistema tributario de EE.UU. requiere pagos estimados trimestrales (15 de abril, 15 de junio, 15 de septiembre, 15 de enero) si espera deber $1,000 o más. No cumplir con estas fechas genera multas e intereses incluso si paga el monto completo con su declaración anual. El pago anual no es el método estándar cuando debe más de $1,000. Florida no tiene impuesto estatal sobre la renta, así que no puede cobrarlo como multa. El IRS no convierte tipos de entidad por incumplimiento. La lección describe a una fundadora que debió $1,200 en multas por este mismo error."
+          "explanation": "El sistema tributario de EE.UU. exige pagos estimados trimestrales (15 de abril, 15 de junio, 15 de septiembre, 15 de enero) si espera deber $1,000 o más. No cumplir con estos plazos genera multas e intereses incluso si paga el monto total con su declaración anual. El pago anual no es el método estándar cuando debe más de $1,000. Florida no tiene impuesto estatal sobre la renta, por lo que no puede cobrar uno como multa. El IRS no convierte tipos de entidad por incumplimiento. La lección describe a una fundadora que debió $1,200 en multas por exactamente este error."
         }
       ]
     },
@@ -211,7 +300,7 @@
       "type": "key-takeaway",
       "id": "kt-2-1-1",
       "title": "Punto Clave",
-      "content": "<p>La conclusión es clara. La falta de impuesto estatal sobre la renta en Florida es una ventaja real, pero las obligaciones federales, los pagos estimados trimestrales y el impuesto de autoempleo aún aplican a los fundadores en todos los niveles. Presupueste un CPA que trabaje con clientes internacionales en su primer año. El costo de ayuda profesional ($500–$2,500) es una fracción del costo de las multas por errores en las declaraciones. El Distrito Financiero tiene sus propias reglas — apréndelas antes de entrar, y trabajarán a su favor.</p>"
+      "content": "<p>La ausencia de impuesto estatal sobre la renta en Florida es una ventaja real, pero las obligaciones federales, los pagos estimados trimestrales y el impuesto de trabajo por cuenta propia siguen aplicando en cada nivel. Presupueste un CPA que trabaje con clientes internacionales en su primer año. La ayuda profesional ($500–$2,500) cuesta una fracción de las multas por errores en las declaraciones. Aprenda las reglas federales antes de presentar, y trabajarán a su favor.</p>"
     }
   ]
 }

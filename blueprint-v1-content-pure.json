@@ -9,7 +9,9 @@
     "contentFormat": "standard",
     "primaryLanguage": "en",
     "localizationRequired": true,
-    "targetLanguages": ["es"]
+    "targetLanguages": [
+      "es"
+    ]
   },
   "targetAudience": {
     "jobRoles": [
@@ -46,30 +48,30 @@
     "modules": [
       {
         "id": "module-0",
-        "title": "Start Here — What To Expect And How To Use This Program",
+        "title": "Start Here: What To Expect And How To Use This Program",
         "description": "Sets expectations before the modules begin: realistic timelines, what this program covers and what it doesn't. Introduces the four core themes and common pitfalls. Establishes the check-for-understanding template used in all modules.",
         "duration": "10 minutes",
         "landscapeTheme": "Highway / Dashboard Entry",
         "learningOutcomes": [
           "Explain the four core themes of the program (risk, money, mistakes, culture)",
           "Estimate realistic timelines and costs for U.S. entry",
-          "Understand that U.S. expansion is a strategic decision — not a setup task"
+          "Understand that U.S. expansion is a strategic decision, not a setup task"
         ],
         "lessons": [
           {
             "id": "lesson-0-1",
-            "title": "Start Here — What To Expect And How To Use This Program",
+            "title": "What To Expect And How To Use This Program",
             "duration": 10,
             "objectives": [
               "Explain the four core themes of this program (risk, money, mistakes, culture)",
               "Estimate realistic timelines and costs for U.S. entry",
-              "Understand that U.S. expansion is a strategic decision — not a setup task"
+              "Understand that U.S. expansion is a strategic decision, not a setup task"
             ],
             "contentBlocks": [
               {
                 "type": "text",
                 "id": "text-0-1-1",
-                "title": "What This Program Is — And What It Isn't",
+                "title": "What This Program Is: And What It Isn't",
                 "description": "Honest framing: practical guidance from founders who've done this, not legal or financial advice. Sets the 'I wish someone had told me this' tone for the entire course."
               },
               {
@@ -77,25 +79,25 @@
                 "id": "callout-0-1-1",
                 "variant": "reality-check",
                 "title": "The Real Timeline",
-                "description": "Typical timeline overview: 3-6 months to be fully operational. Entity formation is fast — banking, compliance, and first customers take longer."
+                "description": "Typical timeline overview: 3-6 months to be fully operational. Entity formation is fast, banking, compliance, and first customers take longer."
               },
               {
                 "type": "text",
                 "id": "text-0-1-2",
                 "title": "Four Themes You'll See Throughout This Course",
-                "description": "Introduces Reduce Risk, Watch Your Money, Avoid Common Mistakes, Understand the Culture — the four lenses through which every module's content is framed."
+                "description": "Introduces Reduce Risk, Watch Your Money, Avoid Common Mistakes, Understand the Culture, the four lenses through which every module's content is framed."
               },
               {
                 "type": "table",
                 "id": "table-0-1-1",
-                "title": "What It Actually Costs — Ballpark Ranges",
+                "title": "What It Actually Costs: Ballpark Ranges",
                 "description": "High-level cost range table: entity formation, registered agent, EIN, bank account, trademark, first hire, legal consultation. Sets expectations before modules begin."
               },
               {
                 "type": "text",
                 "id": "text-0-1-3",
                 "title": "How to Use This Program",
-                "description": "Non-linear navigation explained — learners can do modules in any order. Recommendation to start with Module 1 (legal setup) but freedom to jump to what matters most."
+                "description": "Non-linear navigation explained, learners can do modules in any order. Recommendation to start with Module 1 (legal setup) but freedom to jump to what matters most."
               },
               {
                 "type": "callout",
@@ -107,7 +109,7 @@
               {
                 "type": "video-placeholder",
                 "id": "video-0-1-1",
-                "title": "Welcome Video — Avatar Host",
+                "title": "Welcome Video: Avatar Host",
                 "description": "60-90 second welcome video with avatar host. Program overview, what to expect, encouragement."
               }
             ]
@@ -139,14 +141,14 @@
               {
                 "type": "text",
                 "id": "text-1-1-1",
-                "title": "Choosing Your Entity — LLC vs. C-Corp for International Founders",
+                "title": "Choosing Your Entity: LLC vs. C-Corp for International Founders",
                 "description": "Overview of LLC and C-Corp from the perspective of a non-U.S. founder. Why entity choice affects banking, taxes, visa eligibility, and investor access. S-Corp noted as generally unavailable to non-citizens."
               },
               {
                 "type": "interactive",
                 "id": "int-1-1-1",
                 "component": "comparison-card",
-                "title": "LLC vs. C-Corp — Side by Side",
+                "title": "LLC vs. C-Corp: Side by Side",
                 "description": "Two-column comparison card: liability protection, tax treatment, investor appeal, immigration compatibility, formation cost, complexity. S-Corp noted as generally unavailable to non-citizen founders."
               },
               {
@@ -159,21 +161,21 @@
               {
                 "type": "table",
                 "id": "table-1-1-1",
-                "title": "Entity Formation — Cost Ranges and Timelines",
-                "description": "Table: LLC (typically around $125 state fee + $0-$500 attorney), C-Corp (around $70 state fee + $300-$1,500 attorney). Timeline: often a few business days online."
+                "title": "Entity Formation: Cost Ranges and Timelines",
+                "description": "Table: LLC (typically around $125 state fee + $0–$500 attorney), C-Corp (around $70 state fee + $300–$1,500 attorney). Timeline: often a few business days online."
               },
               {
                 "type": "callout",
                 "id": "callout-1-1-2",
                 "variant": "theme-reduce-risk",
-                "title": "Reduce Risk — Get It Right the First Time",
+                "title": "Reduce Risk: Get It Right the First Time",
                 "description": "Changing entity type later is expensive and disruptive. Spend the time now to choose correctly."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-1-1-1",
                 "title": "Key Takeaway",
-                "description": "Your entity type affects everything — taxes, banking, visas, investors. Don't default to LLC without understanding the implications for your specific situation."
+                "description": "Your entity type affects everything, taxes, banking, visas, investors. Don't default to LLC without understanding the implications for your specific situation."
               }
             ]
           },
@@ -190,26 +192,26 @@
               {
                 "type": "text",
                 "id": "text-1-2-1",
-                "title": "SunBiz — Florida's Division of Corporations",
+                "title": "SunBiz: Florida's Division of Corporations",
                 "description": "What SunBiz is, why Florida registration is your first concrete step, what you need before you start the process."
               },
               {
                 "type": "interactive",
                 "id": "int-1-2-1",
                 "component": "timeline",
-                "title": "Registration Timeline — From Zero to Entity",
+                "title": "Registration Timeline: From Zero to Entity",
                 "description": "Step-by-step timeline: 1) Choose entity type, 2) Name availability check, 3) File formation docs on SunBiz, 4) Designate registered agent, 5) Apply for EIN, 6) Receive confirmation. Estimated: 1-5 business days."
               },
               {
                 "type": "text",
                 "id": "text-1-2-2",
-                "title": "EIN — Your Business's Social Security Number",
-                "description": "What an EIN is, why you need it for banking and taxes, how to apply (IRS online — free, immediate for U.S.-based applicants; SS-4 form for international)."
+                "title": "EIN: Your Business's Social Security Number",
+                "description": "What an EIN is, why you need it for banking and taxes, how to apply (IRS online, free, immediate for U.S.-based applicants; SS-4 form for international)."
               },
               {
                 "type": "text",
                 "id": "text-1-2-3",
-                "title": "Registered Agent and Address — The Physical Presence Requirement",
+                "title": "Registered Agent and Address: The Physical Presence Requirement",
                 "description": "Why Florida requires a physical registered address (not P.O. box), what a registered agent does, UCF BIP flexible office space as an option."
               },
               {
@@ -224,13 +226,13 @@
                 "id": "callout-1-2-2",
                 "variant": "before-you-spend",
                 "title": "Before You Pay Anyone to File for You",
-                "description": "SunBiz filing is simple and inexpensive ($125 for LLC, $70 for Corp). Many founders pay $500-$2,000 to agents for something they can do in 30 minutes."
+                "description": "SunBiz filing is simple and inexpensive ($125 for LLC, $70 for Corp). Many founders pay $500–$2,000 to agents for something they can do in 30 minutes."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-1-2-1",
                 "title": "Key Takeaway",
-                "description": "Florida registration is fast and affordable. The complexity isn't in filing — it's in choosing the right entity type, registered agent, and address before you file."
+                "description": "Florida registration is fast and affordable. The complexity isn't in filing, it's in choosing the right entity type, registered agent, and address before you file."
               }
             ]
           },
@@ -255,7 +257,7 @@
                 "id": "callout-1-3-1",
                 "variant": "common-mistake",
                 "title": "Walking Into a Bank Without the Right Documents",
-                "description": "The documents you need are specific — and most banks won't tell you upfront what's missing. Arrive prepared or expect to make multiple trips."
+                "description": "The documents you need are specific, and most banks won't tell you upfront what's missing. Arrive prepared or expect to make multiple trips."
               },
               {
                 "type": "list",
@@ -266,21 +268,21 @@
               {
                 "type": "text",
                 "id": "text-1-3-2",
-                "title": "Payment Processors — An Alternative Starting Point",
+                "title": "Payment Processors: An Alternative Starting Point",
                 "description": "Stripe, Square, and PayPal as interim solutions while banking gets sorted. Foreign founder limitations with each. Why this isn't a replacement for a real bank account."
               },
               {
                 "type": "callout",
                 "id": "callout-1-3-2",
                 "variant": "theme-watch-money",
-                "title": "Watch Your Money — Bank Account Fees Add Up",
+                "title": "Watch Your Money: Bank Account Fees Add Up",
                 "description": "Monthly fees, wire transfer costs, minimum balance requirements. Compare before you commit."
               },
               {
                 "type": "text",
                 "id": "text-1-3-3",
                 "title": "We'll Go Deeper in Module 2",
-                "description": "Brief bridge to Module 2's banking deep dive — credit history, account rejections, realistic timelines."
+                "description": "Brief bridge to Module 2's banking deep dive, credit history, account rejections, realistic timelines."
               },
               {
                 "type": "key-takeaway",
@@ -318,13 +320,13 @@
                 "type": "text",
                 "id": "text-2-1-1",
                 "title": "The Good News: Florida Has No State Income Tax",
-                "description": "Florida's tax advantage for business. But federal taxes still apply — and they're more complex than most international founders expect."
+                "description": "Florida's tax advantage for business. But federal taxes still apply, and they're more complex than most international founders expect."
               },
               {
                 "type": "interactive",
                 "id": "int-2-1-1",
                 "component": "tabs",
-                "title": "Federal vs. State vs. Local — What Applies to You",
+                "title": "Federal vs. State vs. Local: What Applies to You",
                 "description": "Tabbed breakdown: Federal (IRS: income tax, self-employment, payroll), State (FL: no income tax, corporate income tax for C-Corps), Local (county/city business licenses, tangible personal property tax)."
               },
               {
@@ -344,14 +346,14 @@
                 "type": "callout",
                 "id": "callout-2-1-2",
                 "variant": "theme-watch-money",
-                "title": "Tax Treaties — Check Before You Assume",
+                "title": "Tax Treaties: Check Before You Assume",
                 "description": "Your home country may have a tax treaty with the U.S. that changes your obligations. Check with a CPA who handles international clients."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-2-1-1",
                 "title": "Key Takeaway",
-                "description": "Florida's lack of state income tax is real — but federal obligations, quarterly estimates, and payroll taxes still apply. Budget for a CPA in your first year."
+                "description": "Florida's lack of state income tax is real, but federal obligations, quarterly estimates, and payroll taxes still apply. Budget for a CPA in your first year."
               }
             ]
           },
@@ -368,7 +370,7 @@
               {
                 "type": "text",
                 "id": "text-2-2-1",
-                "title": "Florida Sales Tax — It's Not Optional",
+                "title": "Florida Sales Tax: It's Not Optional",
                 "description": "6% state rate + county surtax. Which products and services are taxable. How to register for a sales tax permit with the Florida Department of Revenue."
               },
               {
@@ -376,7 +378,7 @@
                 "id": "callout-2-2-1",
                 "variant": "common-mistake",
                 "title": "Collecting Sales Tax Without a Permit",
-                "description": "Some founders collect sales tax before registering — that's a compliance violation. Others don't collect at all — that's a liability. Register first, then collect."
+                "description": "Some founders collect sales tax before registering, that's a compliance violation. Others don't collect at all, that's a liability. Register first, then collect."
               },
               {
                 "type": "text",
@@ -387,8 +389,8 @@
               {
                 "type": "table",
                 "id": "table-2-2-1",
-                "title": "Annual Accounting Costs — What to Budget",
-                "description": "Table: Bookkeeping software ($20-$60/mo), CPA for tax prep ($500-$2,000/yr), sales tax filing (often included), payroll service ($40-$100/mo if hiring)."
+                "title": "Annual Accounting Costs: What to Budget",
+                "description": "Table: Bookkeeping software ($20–$60/mo), CPA for tax prep ($500–$2,000/yr), sales tax filing (often included), payroll service ($40–$100/mo if hiring)."
               },
               {
                 "type": "callout",
@@ -401,7 +403,7 @@
                 "type": "key-takeaway",
                 "id": "kt-2-2-1",
                 "title": "Key Takeaway",
-                "description": "Sales tax compliance is mandatory and easy to mess up. Budget for a CPA who understands international clients — it pays for itself in avoided penalties."
+                "description": "Sales tax compliance is mandatory and easy to mess up. Budget for a CPA who understands international clients, it pays for itself in avoided penalties."
               }
             ]
           },
@@ -418,7 +420,7 @@
               {
                 "type": "text",
                 "id": "text-2-3-1",
-                "title": "Why Banks Say No — And What to Do About It",
+                "title": "Why Banks Say No: And What to Do About It",
                 "description": "Common rejection reasons: no U.S. credit history, incomplete documentation, entity type mismatch, high-risk country flags. Which banks are more international-friendly."
               },
               {
@@ -432,7 +434,7 @@
                 "type": "text",
                 "id": "text-2-3-2",
                 "title": "Building U.S. Credit History From Zero",
-                "description": "Secured credit cards, business credit cards that don't require SSN, credit-builder accounts. Why U.S. credit history matters for everything — office leases, vendor terms, future financing."
+                "description": "Secured credit cards, business credit cards that don't require SSN, credit-builder accounts. Why U.S. credit history matters for everything, office leases, vendor terms, future financing."
               },
               {
                 "type": "text",
@@ -444,14 +446,14 @@
                 "type": "callout",
                 "id": "callout-2-3-2",
                 "variant": "theme-watch-money",
-                "title": "Watch Your Money — Wire Transfer Fees Are Real",
-                "description": "International wires cost $25-$50 each direction. ACH is free or low-cost but domestic only. Plan your money movement strategy."
+                "title": "Watch Your Money: Wire Transfer Fees Are Real",
+                "description": "International wires cost $25–$50 each direction. ACH is free or low-cost but domestic only. Plan your money movement strategy."
               },
               {
                 "type": "callout",
                 "id": "callout-2-3-3",
                 "variant": "latam-supplement",
-                "title": "Latin America Resources — Banking",
+                "title": "Latin America Resources: Banking",
                 "description": "Banks with Spanish-speaking staff in Central Florida. Hispanic Chamber banking workshops. SBDC Orlando financial counseling."
               },
               {
@@ -478,7 +480,7 @@
         "lessons": [
           {
             "id": "lesson-3-1",
-            "title": "U.S. Intellectual Property — Copyright, Trademark, Patent",
+            "title": "Intellectual Property — Protecting Your Ideas in the U.S.",
             "duration": 7,
             "objectives": [
               "Distinguish between copyright, trademark, and patent protections in the U.S.",
@@ -489,8 +491,8 @@
               {
                 "type": "text",
                 "id": "text-3-1-1",
-                "title": "Three Types of IP Protection — And Which Ones You Actually Need",
-                "description": "Copyright (automatic but register for enforcement), Trademark (your brand identity — register with USPTO), Patent (inventions — expensive and slow). Most international founders need trademark first."
+                "title": "Three Types of IP Protection: And Which Ones You Actually Need",
+                "description": "Copyright (automatic but register for enforcement), Trademark (your brand identity, register with USPTO), Patent (inventions, expensive and slow). Most international founders need trademark first."
               },
               {
                 "type": "interactive",
@@ -509,27 +511,27 @@
               {
                 "type": "table",
                 "id": "table-3-1-1",
-                "title": "IP Protection — Costs and Timelines",
-                "description": "Table: Trademark ($250-$350 per class, 8-12 months), Patent ($5,000-$15,000+, 2-3 years), Copyright ($45-$65, 3-6 months), NDA drafting ($200-$500)."
+                "title": "IP Protection: Costs and Timelines",
+                "description": "Table: Trademark ($250–$350 per class, 8-12 months), Patent ($5,000–$15,000+, 2-3 years), Copyright ($45–$65, 3-6 months), NDA drafting ($200–$500)."
               },
               {
                 "type": "callout",
                 "id": "callout-3-1-2",
                 "variant": "theme-reduce-risk",
-                "title": "Reduce Risk — Register Your Trademark Before You Launch",
+                "title": "Reduce Risk: Register Your Trademark Before You Launch",
                 "description": "If someone else files your brand name in the U.S. first, you may lose it. File early, even if it takes months to process."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-3-1-1",
                 "title": "Key Takeaway",
-                "description": "Trademark your brand name before you invest in U.S. marketing. IP protection is territorial — what you have at home doesn't follow you here."
+                "description": "Trademark your brand name before you invest in U.S. marketing. IP protection is territorial, what you have at home doesn't follow you here."
               }
             ]
           },
           {
             "id": "lesson-3-2",
-            "title": "Contracts, Insurance, and Regulatory Exposure",
+            "title": "Insurance and Risk Management",
             "duration": 7,
             "objectives": [
               "Identify essential contract types for U.S. business operations (NDAs, service agreements, terms of service)",
@@ -540,20 +542,20 @@
               {
                 "type": "text",
                 "id": "text-3-2-1",
-                "title": "Contracts in the U.S. — Everything Gets Written Down",
+                "title": "Contracts in the U.S.: Everything Gets Written Down",
                 "description": "U.S. business culture is contract-heavy. Verbal agreements carry little weight. What you need: NDA, service agreement, terms of service, operating agreement. What each one does."
               },
               {
                 "type": "callout",
                 "id": "callout-3-2-1",
                 "variant": "theme-understand-culture",
-                "title": "Culture Shift — The Handshake Deal Is Dead",
-                "description": "In many countries, business relationships run on trust and handshakes. In the U.S., the contract IS the relationship. This isn't distrust — it's how business operates."
+                "title": "Culture Shift: The Handshake Deal Is Dead",
+                "description": "In many countries, business relationships run on trust and handshakes. In the U.S., the contract IS the relationship. This isn't distrust, it's how business operates."
               },
               {
                 "type": "text",
                 "id": "text-3-2-2",
-                "title": "Business Insurance — What You Need and What Can Wait",
+                "title": "Business Insurance: What You Need and What Can Wait",
                 "description": "General liability, professional liability (E&O), workers' comp (required if hiring), commercial property. Costs and what's actually required vs. nice-to-have."
               },
               {
@@ -561,25 +563,25 @@
                 "id": "callout-3-2-2",
                 "variant": "common-mistake",
                 "title": "Operating Without General Liability Insurance",
-                "description": "One slip-and-fall, one product issue, one bad contract — and you're personally exposed if your LLC doesn't have GL coverage."
+                "description": "One slip-and-fall, one product issue, one bad contract, and you're personally exposed if your LLC doesn't have GL coverage."
               },
               {
                 "type": "text",
                 "id": "text-3-2-3",
-                "title": "Regulatory Exposure — Industries That Need Extra Attention",
+                "title": "Regulatory Exposure: Industries That Need Extra Attention",
                 "description": "Food/beverage (FDA, FDACS), healthcare (HIPAA), financial services (SEC/FINRA), children's products (CPSC). If you're in a regulated industry, budget for compliance."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-3-2-1",
                 "title": "Key Takeaway",
-                "description": "Get your contracts right, carry basic insurance, and know if your industry has specific regulatory requirements. These are costs — but they're cheaper than lawsuits."
+                "description": "Get your contracts right, carry basic insurance, and know if your industry has specific regulatory requirements. These are costs, but they're cheaper than lawsuits."
               }
             ]
           },
           {
             "id": "lesson-3-3",
-            "title": "When to Bring In a Lawyer — And What It Costs",
+            "title": "Contracts and When You Need a Lawyer",
             "duration": 6,
             "objectives": [
               "Identify situations that require professional legal counsel vs. what you can handle yourself",
@@ -596,8 +598,8 @@
               {
                 "type": "table",
                 "id": "table-3-3-1",
-                "title": "Legal Costs — Realistic Ranges",
-                "description": "Table: Initial consultation ($0-$300), contract review ($200-$500), entity formation with attorney ($500-$1,500), trademark filing ($500-$1,000), immigration-business combo ($2,000-$10,000+)."
+                "title": "Legal Costs: Realistic Ranges",
+                "description": "Table: Initial consultation ($0–$300), contract review ($200–$500), entity formation with attorney ($500–$1,500), trademark filing ($500–$1,000), immigration-business combo ($2,000–$10,000+)."
               },
               {
                 "type": "callout",
@@ -610,13 +612,13 @@
                 "type": "text",
                 "id": "text-3-3-2",
                 "title": "Finding the Right Attorney",
-                "description": "Business attorney vs. immigration attorney vs. IP attorney — they're different specialties. Florida Bar referral service. SBDC legal workshops. Questions to ask before hiring."
+                "description": "Business attorney vs. immigration attorney vs. IP attorney, they're different specialties. Florida Bar referral service. SBDC legal workshops. Questions to ask before hiring."
               },
               {
                 "type": "callout",
                 "id": "callout-3-3-2",
                 "variant": "latam-supplement",
-                "title": "Latin America Resources — Legal",
+                "title": "Latin America Resources: Legal",
                 "description": "Bilingual attorneys in Central Florida who specialize in international business. Hispanic Bar Association. Prospera legal workshops."
               },
               {
@@ -655,28 +657,28 @@
                 "type": "text",
                 "id": "text-4-1-1",
                 "title": "The #1 Mistake International Founders Make When Hiring",
-                "description": "Calling someone a 'contractor' when they're legally an employee. Why this matters: back taxes, penalties, benefits owed. The IRS doesn't care what your contract says — they care how the person actually works."
+                "description": "Calling someone a 'contractor' when they're legally an employee. Why this matters: back taxes, penalties, benefits owed. The IRS doesn't care what your contract says, they care how the person actually works."
               },
               {
                 "type": "interactive",
                 "id": "int-4-1-1",
                 "component": "comparison-card",
-                "title": "Contractor vs. Employee — Key Differences",
+                "title": "Contractor vs. Employee: Key Differences",
                 "description": "Side-by-side comparison: control over work, payment structure, benefits, tax withholding, termination, legal exposure."
               },
               {
                 "type": "callout",
                 "id": "callout-4-1-1",
                 "variant": "theme-reduce-risk",
-                "title": "Reduce Risk — The IRS ABC Test",
-                "description": "Three factors the IRS uses: behavioral control, financial control, relationship type. If you control WHEN, WHERE, and HOW someone works — they're an employee."
+                "title": "Reduce Risk: The IRS ABC Test",
+                "description": "Three factors the IRS uses: behavioral control, financial control, relationship type. If you control WHEN, WHERE, and HOW someone works, they're an employee."
               },
               {
                 "type": "callout",
                 "id": "callout-4-1-2",
                 "variant": "common-mistake",
                 "title": "Using a 1099 to Avoid Payroll Taxes",
-                "description": "Many founders try to save money by classifying everyone as 1099 contractors. The IRS actively audits this — penalties include back taxes, interest, and fines up to $50,000."
+                "description": "Many founders try to save money by classifying everyone as 1099 contractors. The IRS actively audits this, penalties include back taxes, interest, and fines up to $50,000."
               },
               {
                 "type": "text",
@@ -712,8 +714,8 @@
                 "type": "interactive",
                 "id": "int-4-2-1",
                 "component": "accordion",
-                "title": "Visa Pathways — Detailed Breakdown",
-                "description": "Expandable sections: O-1 (extraordinary ability — for proven track records), E-2 (treaty investor — requires substantial investment), L-1 (intracompany transfer — for existing companies), H-1B (specialty occupation — lottery-based, employer-sponsored). Each with: requirements, costs, timeline, realistic assessment."
+                "title": "Visa Pathways: Detailed Breakdown",
+                "description": "Expandable sections: O-1 (extraordinary ability, for proven track records), E-2 (treaty investor, requires substantial investment), L-1 (intracompany transfer, for existing companies), H-1B (specialty occupation, lottery-based, employer-sponsored). Each with: requirements, costs, timeline, realistic assessment."
               },
               {
                 "type": "callout",
@@ -725,8 +727,8 @@
               {
                 "type": "table",
                 "id": "table-4-2-1",
-                "title": "Visa Costs — What to Budget",
-                "description": "Table: O-1 ($5,000-$10,000 attorney + fees), E-2 ($3,000-$8,000 attorney + $315 filing), L-1 ($4,000-$10,000 attorney + fees), H-1B ($2,000-$5,000 + lottery)."
+                "title": "Visa Costs: What to Budget",
+                "description": "Table: O-1 ($5,000–$10,000 attorney + fees), E-2 ($3,000–$8,000 attorney + $315 filing), L-1 ($4,000–$10,000 attorney + fees), H-1B ($2,000–$5,000 + lottery)."
               },
               {
                 "type": "callout",
@@ -739,7 +741,7 @@
                 "type": "key-takeaway",
                 "id": "kt-4-2-1",
                 "title": "Key Takeaway",
-                "description": "Start your visa process early, be realistic about timelines, and work with an immigration attorney who is honest about your chances — not just optimistic."
+                "description": "Start your visa process early, be realistic about timelines, and work with an immigration attorney who is honest about your chances, not just optimistic."
               }
             ]
           },
@@ -763,27 +765,27 @@
                 "type": "table",
                 "id": "table-4-3-1",
                 "title": "Employer Cost Breakdown",
-                "description": "Table: Base salary, + FICA (7.65%), + FUTA (~$420/yr), + FL state unemployment (~$18-$378/yr), + workers' comp (varies by industry), + benefits (optional but expected). Total: salary x 1.15-1.30."
+                "description": "Table: Base salary, + FICA (7.65%), + FUTA (~$420/yr), + FL state unemployment (~$18–$378/yr), + workers' comp (varies by industry), + benefits (optional but expected). Total: salary x 1.15-1.30."
               },
               {
                 "type": "text",
                 "id": "text-4-3-2",
-                "title": "Payroll Services — Don't Do It Yourself",
-                "description": "Why DIY payroll is a bad idea for international founders. Services like Gusto, ADP, Paychex handle withholding, filing, and compliance. Costs $40-$100/mo + per-employee fees."
+                "title": "Payroll Services: Don't Do It Yourself",
+                "description": "Why DIY payroll is a bad idea for international founders. Services like Gusto, ADP, Paychex handle withholding, filing, and compliance. Costs $40–$100/mo + per-employee fees."
               },
               {
                 "type": "callout",
                 "id": "callout-4-3-1",
                 "variant": "theme-watch-money",
-                "title": "Watch Your Money — Payroll Tax Penalties Are Serious",
-                "description": "The IRS treats unpaid payroll taxes as a 'trust fund' violation — one of the few tax penalties that can't be discharged in bankruptcy. Don't mess this up."
+                "title": "Watch Your Money: Payroll Tax Penalties Are Serious",
+                "description": "The IRS treats unpaid payroll taxes as a 'trust fund' violation, one of the few tax penalties that can't be discharged in bankruptcy. Don't mess this up."
               },
               {
                 "type": "callout",
                 "id": "callout-4-3-2",
                 "variant": "theme-understand-culture",
                 "title": "What U.S. Employees Expect",
-                "description": "PTO, sick leave, health benefits — not always legally required for small businesses but culturally expected. Not offering them limits your hiring pool."
+                "description": "PTO, sick leave, health benefits, not always legally required for small businesses but culturally expected. Not offering them limits your hiring pool."
               },
               {
                 "type": "key-takeaway",
@@ -809,7 +811,7 @@
         "lessons": [
           {
             "id": "lesson-5-1",
-            "title": "Why Your Product Probably Needs to Change",
+            "title": "Adapting Your Product for the U.S.",
             "duration": 7,
             "objectives": [
               "Explain why successful products in other markets often fail when transferred directly to the U.S.",
@@ -821,14 +823,14 @@
                 "type": "text",
                 "id": "text-5-1-1",
                 "title": "What Works at Home Doesn't Automatically Work Here",
-                "description": "Common assumption: 'My product is successful — I just need to sell it in the U.S.' Reality: pricing expectations, packaging standards, competitive landscape, regulatory requirements, and customer expectations are all different."
+                "description": "Common assumption: 'My product is successful, I just need to sell it in the U.S.' Reality: pricing expectations, packaging standards, competitive landscape, regulatory requirements, and customer expectations are all different."
               },
               {
                 "type": "callout",
                 "id": "callout-5-1-1",
                 "variant": "common-mistake",
                 "title": "Launching With Your Home Market Price",
-                "description": "Pricing that works in Colombia or Germany often doesn't work in the U.S. — sometimes too low (perceived as cheap/unreliable), sometimes too high (established competitors). Research your U.S. competitive set."
+                "description": "Pricing that works in Colombia or Germany often doesn't work in the U.S., sometimes too low (perceived as cheap/unreliable), sometimes too high (established competitors). Research your U.S. competitive set."
               },
               {
                 "type": "text",
@@ -841,19 +843,19 @@
                 "id": "callout-5-1-2",
                 "variant": "theme-understand-culture",
                 "title": "U.S. Buyers Value Different Things",
-                "description": "Speed, convenience, customer service, social proof (reviews), money-back guarantees. These aren't optional extras — they're baseline expectations."
+                "description": "Speed, convenience, customer service, social proof (reviews), money-back guarantees. These aren't optional extras, they're baseline expectations."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-5-1-1",
                 "title": "Key Takeaway",
-                "description": "Plan to adapt your product, pricing, and messaging for the U.S. market. The founders who succeed here are the ones who listen to U.S. customers before they launch — not after."
+                "description": "Plan to adapt your product, pricing, and messaging for the U.S. market. The founders who succeed here are the ones who listen to U.S. customers before they launch, not after."
               }
             ]
           },
           {
             "id": "lesson-5-2",
-            "title": "U.S. Customer Acquisition — How Americans Buy",
+            "title": "Customer Acquisition and Selling to U.S. Companies",
             "duration": 7,
             "objectives": [
               "Describe common U.S. customer acquisition channels (digital, referral, direct, partnerships)",
@@ -870,8 +872,8 @@
               {
                 "type": "text",
                 "id": "text-5-2-2",
-                "title": "The U.S. Sales Cycle — Faster and More Direct",
-                "description": "U.S. buyers expect quick responses (same day), clear pricing (no hidden fees), and direct communication. Long relationship-building before a sale is rare in most sectors. Time is money — literally."
+                "title": "The U.S. Sales Cycle: Faster and More Direct",
+                "description": "U.S. buyers expect quick responses (same day), clear pricing (no hidden fees), and direct communication. Long relationship-building before a sale is rare in most sectors. Time is money, literally."
               },
               {
                 "type": "callout",
@@ -891,51 +893,7 @@
                 "type": "key-takeaway",
                 "id": "kt-5-2-1",
                 "title": "Key Takeaway",
-                "description": "Speed wins in the U.S. market. Respond fast, price transparently, and follow up consistently. The relationship builds through delivery — not before the first sale."
-              }
-            ]
-          },
-          {
-            "id": "lesson-5-3",
-            "title": "Central Florida — Your Market Opportunity",
-            "duration": 6,
-            "objectives": [
-              "Identify major Central Florida industry clusters and their relevance to international founders",
-              "Describe Central Florida's strategic advantages (LATAM trade connectivity, cost-of-living, talent pipeline)",
-              "Compare Central Florida's business environment to other U.S. entry points (Miami, NYC, Silicon Valley)"
-            ],
-            "contentBlocks": [
-              {
-                "type": "text",
-                "id": "text-5-3-1",
-                "title": "Why Central Florida — Not Just Theme Parks",
-                "description": "Industry clusters: simulation/training, aerospace/defense, life sciences, fintech, AgTech, hospitality technology. $150B+ regional GDP. Growing international business community."
-              },
-              {
-                "type": "interactive",
-                "id": "int-5-3-1",
-                "component": "tabs",
-                "title": "Central Florida vs. Other U.S. Entry Points",
-                "description": "Tabbed comparison: Central Florida vs. Miami vs. NYC vs. Silicon Valley vs. Austin. Cost of living, business costs, industry focus, international community, quality of life."
-              },
-              {
-                "type": "text",
-                "id": "text-5-3-2",
-                "title": "LATAM Trade Connectivity",
-                "description": "Orlando International Airport direct flights to 30+ Latin American cities. CFITO trade delegations. Hispanic Chamber partnerships. Central Florida as the gateway between Latin America and the U.S. market."
-              },
-              {
-                "type": "callout",
-                "id": "callout-5-3-1",
-                "variant": "latam-supplement",
-                "title": "Latin America Resources — Market Entry",
-                "description": "CFITO trade delegation calendar. Hispanic Chamber business matchmaking. Prospera market research support. SelectFlorida international business resources."
-              },
-              {
-                "type": "key-takeaway",
-                "id": "kt-5-3-1",
-                "title": "Key Takeaway",
-                "description": "Central Florida offers lower costs, strong LATAM connectivity, and growing tech clusters — a compelling alternative to Miami or Silicon Valley for international founders."
+                "description": "Speed wins in the U.S. market. Respond fast, price transparently, and follow up consistently. The relationship builds through delivery, not before the first sale."
               }
             ]
           }
@@ -955,7 +913,7 @@
         "lessons": [
           {
             "id": "lesson-6-1",
-            "title": "Speed, Directness, and Trust Signals",
+            "title": "Communication Styles — What Americans Actually Mean",
             "duration": 7,
             "objectives": [
               "Explain how U.S. business communication differs from other cultures (directness, brevity, time-sensitivity)",
@@ -966,7 +924,7 @@
               {
                 "type": "text",
                 "id": "text-6-1-1",
-                "title": "Americans Mean What They Say — Literally",
+                "title": "Americans Mean What They Say: Literally",
                 "description": "Low-context communication: direct, specific, action-oriented. 'Let's circle back' means you'll hear from them. 'That's interesting' might mean they're not interested. How to read and use U.S. business language."
               },
               {
@@ -993,13 +951,13 @@
                 "type": "key-takeaway",
                 "id": "kt-6-1-1",
                 "title": "Key Takeaway",
-                "description": "Be direct, be fast, and follow through. Trust in U.S. business is earned through action — not titles, credentials, or personal connections."
+                "description": "Be direct, be fast, and follow through. Trust in U.S. business is earned through action, not titles, credentials, or personal connections."
               }
             ]
           },
           {
             "id": "lesson-6-2",
-            "title": "Meeting Etiquette, Negotiation, and Follow-Through",
+            "title": "Meetings, Networking, and Building Trust",
             "duration": 7,
             "objectives": [
               "Apply U.S. meeting etiquette norms (punctuality, agenda-driven, action items)",
@@ -1010,7 +968,7 @@
               {
                 "type": "text",
                 "id": "text-6-2-1",
-                "title": "Meetings — Time Is the Currency",
+                "title": "Meetings: Time Is the Currency",
                 "description": "Start on time, end on time, have an agenda, leave with action items. 30-minute meetings are normal. Being 5 minutes late signals disrespect. Sending a recap email within 24 hours is expected, not optional."
               },
               {
@@ -1023,7 +981,7 @@
               {
                 "type": "text",
                 "id": "text-6-2-2",
-                "title": "Negotiation — More Direct Than You're Used To",
+                "title": "Negotiation: More Direct Than You're Used To",
                 "description": "U.S. negotiation is straightforward: both sides state their position, find the middle, close quickly. Prolonged negotiation is a red flag. First offers are usually close to final. Counter-offers are expected but limited (1-2 rounds)."
               },
               {
@@ -1068,7 +1026,7 @@
                 "type": "interactive",
                 "id": "int-6-3-1",
                 "component": "flashcards",
-                "title": "U.S. Business Phrases — What They Really Mean",
+                "title": "U.S. Business Phrases: What They Really Mean",
                 "description": "Flashcards: 'Let's circle back' (= probably not happening), 'That's interesting' (= polite deflection), 'Let me check with my team' (= soft no or stalling), 'Let's put a pin in it' (= topic is dead), 'We should get coffee sometime' (= don't wait for the invite)."
               },
               {
@@ -1076,19 +1034,19 @@
                 "id": "callout-6-3-1",
                 "variant": "common-mistake",
                 "title": "Confusing Friendliness With Commitment",
-                "description": "Americans are friendly in business settings — it's cultural, not personal. A warm lunch meeting doesn't mean they'll buy from you. Read the follow-up actions, not the smiles."
+                "description": "Americans are friendly in business settings, it's cultural, not personal. A warm lunch meeting doesn't mean they'll buy from you. Read the follow-up actions, not the smiles."
               },
               {
                 "type": "text",
                 "id": "text-6-3-2",
                 "title": "Investment Culture and Fundraising",
-                "description": "U.S. investor expectations: traction, market size, team, pitch deck. Getting money is not easy — even for Americans. For international founders, it's harder. Tease Phase 2 investor readiness resources."
+                "description": "U.S. investor expectations: traction, market size, team, pitch deck. Getting money is not easy, even for Americans. For international founders, it's harder. Tease Phase 2 investor readiness resources."
               },
               {
                 "type": "callout",
                 "id": "callout-6-3-2",
                 "variant": "latam-supplement",
-                "title": "Latin America Resources — Cultural Bridge",
+                "title": "Latin America Resources: Cultural Bridge",
                 "description": "Hispanic Chamber networking events. Prospera mentor matching. SBDC Orlando bilingual business counseling. Cultural bridge workshops."
               },
               {
@@ -1115,7 +1073,7 @@
         "lessons": [
           {
             "id": "lesson-7-1",
-            "title": "Key Organizations — Free Help You Didn't Know Existed",
+            "title": "Business Support Organizations Available to Help You",
             "duration": 7,
             "objectives": [
               "Identify SBDC, SBA, chambers of commerce, and economic development agencies relevant to their business",
@@ -1127,21 +1085,21 @@
                 "type": "text",
                 "id": "text-7-1-1",
                 "title": "You Don't Have to Figure This Out Alone",
-                "description": "Most international founders don't know these resources exist — or assume they're only for Americans. Every organization listed here is free or low-cost, and most actively welcome international entrepreneurs."
+                "description": "Most international founders don't know these resources exist, or assume they're only for Americans. Every organization listed here is free or low-cost, and most actively welcome international entrepreneurs."
               },
               {
                 "type": "interactive",
                 "id": "int-7-1-1",
                 "component": "accordion",
-                "title": "Resource Directory — What Each Organization Does",
+                "title": "Resource Directory: What Each Organization Does",
                 "description": "Expandable sections: SBDC Orlando (free business counseling, workshops, market research), SBA (loans, disaster relief, government contracting), Orlando Economic Partnership (relocation support, industry connections), Orange County Economic Development (local incentives, permits), Florida SBDC Network (statewide resources)."
               },
               {
                 "type": "callout",
                 "id": "callout-7-1-1",
                 "variant": "theme-watch-money",
-                "title": "Watch Your Money — These Resources Are Free",
-                "description": "SBDC counseling: free. SBA resources: free. Chamber memberships: $200-$500/yr but often worth it for networking and credibility. Don't pay a consultant for what you can get free."
+                "title": "Watch Your Money: These Resources Are Free",
+                "description": "SBDC counseling: free. SBA resources: free. Chamber memberships: $200–$500/yr but often worth it for networking and credibility. Don't pay a consultant for what you can get free."
               },
               {
                 "type": "callout",
@@ -1154,13 +1112,13 @@
                 "type": "key-takeaway",
                 "id": "kt-7-1-1",
                 "title": "Key Takeaway",
-                "description": "Central Florida has an entire ecosystem built to help businesses succeed — and most of it is free. Use it before you spend money on consultants."
+                "description": "Central Florida has an entire ecosystem built to help businesses succeed, and most of it is free. Use it before you spend money on consultants."
               }
             ]
           },
           {
             "id": "lesson-7-2",
-            "title": "Why Central Florida — The Data Behind the Choice",
+            "title": "Central Florida — Why This Market Works for Founders",
             "duration": 7,
             "objectives": [
               "Describe Central Florida's major industry clusters and economic data points",
@@ -1177,33 +1135,33 @@
               {
                 "type": "table",
                 "id": "table-7-2-1",
-                "title": "Cost Comparison — Central Florida vs. Other Hubs",
-                "description": "Table: Office space, average salary, cost of living, state income tax, business formation cost — Central Florida vs. Miami, NYC, San Francisco, Austin."
+                "title": "Cost Comparison: Central Florida vs. Other Hubs",
+                "description": "Table: Office space, average salary, cost of living, state income tax, business formation cost, Central Florida vs. Miami, NYC, San Francisco, Austin."
               },
               {
                 "type": "text",
                 "id": "text-7-2-2",
-                "title": "LATAM Gateway — Trade and Connectivity",
+                "title": "LATAM Gateway: Trade and Connectivity",
                 "description": "Orlando International Airport: 30+ direct routes to Latin America. CFITO trade delegations connect Central Florida businesses with Latin American partners. Growing Hispanic business community drives bilingual market access."
               },
               {
                 "type": "callout",
                 "id": "callout-7-2-1",
                 "variant": "latam-supplement",
-                "title": "Latin America Resources — Trade Connectivity",
+                "title": "Latin America Resources: Trade Connectivity",
                 "description": "CFITO upcoming trade delegations. SelectFlorida international business hub. dos.fl.gov Office of International Affairs. Orange County global investment resources."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-7-2-1",
                 "title": "Key Takeaway",
-                "description": "Central Florida isn't just affordable — it's strategically positioned for international founders, especially those connecting Latin American and U.S. markets."
+                "description": "Central Florida isn't just affordable, it's strategically positioned for international founders, especially those connecting Latin American and U.S. markets."
               }
             ]
           },
           {
             "id": "lesson-7-3",
-            "title": "UCF BIP Programs — Your Next Step",
+            "title": "Central Florida by the Numbers — (Data That Impacts Your Runway)",
             "duration": 6,
             "objectives": [
               "Describe the three UCF BIP programs (Traction, Growth, Soft Landing) and who each is designed for",
@@ -1214,15 +1172,15 @@
               {
                 "type": "text",
                 "id": "text-7-3-1",
-                "title": "UCF Business Incubation Program — Three Paths",
+                "title": "UCF Business Incubation Program: Three Paths",
                 "description": "Traction (early-stage, pre-revenue), Growth (scaling, post-revenue), Soft Landing (international market entry). What each program offers: mentorship, workspace, workshops, connections, credibility."
               },
               {
                 "type": "interactive",
                 "id": "int-7-3-1",
                 "component": "tabs",
-                "title": "UCF BIP Programs — Which One Is for You?",
-                "description": "Tabbed breakdown: Traction (who it's for, what you get, how to apply), Growth (same), Soft Landing (same). Each tab with a 'this might be for you if...' checklist."
+                "title": "UCF BIP Programs: Which One Is for You?",
+                "description": "Tabbed breakdown: Traction (who it's for, what you get, how to apply), Growth (same), Soft Landing (same). Each tab with a 'this might be for you if..' checklist."
               },
               {
                 "type": "text",
@@ -1234,15 +1192,15 @@
                 "type": "callout",
                 "id": "callout-7-3-1",
                 "variant": "latam-supplement",
-                "title": "Latin America Resources — Community",
+                "title": "Latin America Resources: Community",
                 "description": "Full directory: Hispanic Chamber (membership, events, advocacy), Prospera (mentoring, workshops, micro-lending), CFITO (trade delegations, export/import), Amway Center networking events."
               },
               {
                 "type": "callout",
                 "id": "callout-7-3-2",
                 "variant": "theme-reduce-risk",
-                "title": "Reduce Risk — Don't Go It Alone",
-                "description": "The founders who succeed in the U.S. market use their support network. Join a chamber, attend SBDC workshops, connect with UCF BIP. The cost is minimal — the ROI is real."
+                "title": "Reduce Risk: Don't Go It Alone",
+                "description": "The founders who succeed in the U.S. market use their support network. Join a chamber, attend SBDC workshops, connect with UCF BIP. The cost is minimal, the ROI is real."
               },
               {
                 "type": "key-takeaway",
@@ -1254,7 +1212,7 @@
           },
           {
             "id": "lesson-7-4",
-            "title": "UCF BIP Programs — Your Next Step",
+            "title": "UCF BIP Programs: Your Next Step",
             "duration": 6,
             "objectives": [
               "Describe UCF BIP phases 2 and 3 of the market entry/soft landing program and who each is designed for",
@@ -1267,7 +1225,7 @@
       },
       {
         "id": "module-8",
-        "title": "Wrap-Up — Is the U.S. Right for You?",
+        "title": "Wrap-Up: Is the U.S. Right for You?",
         "description": "Self-assessment reflection, value perception feedback, and three clear exit pathways: resource downloads, Phase 2 information, and 1:1 booking with the UCF BIP team.",
         "duration": "15 minutes",
         "landscapeTheme": "UCF Headquarters",
@@ -1278,7 +1236,7 @@
         "lessons": [
           {
             "id": "lesson-8-1",
-            "title": "Your Readiness — And What Comes Next",
+            "title": "Self-Assessment — Are You Ready?",
             "duration": 15,
             "objectives": [
               "Reflect on their U.S. market readiness across all seven module topics",
@@ -1289,8 +1247,8 @@
               {
                 "type": "text",
                 "id": "text-8-1-1",
-                "title": "What You Now Know — That Most Founders Don't",
-                "description": "Quick recap of the seven modules and the four themes. The goal was never to make you an expert — it was to help you ask the right questions and avoid the expensive mistakes."
+                "title": "What You Now Know: That Most Founders Don't",
+                "description": "Quick recap of the seven modules and the four themes. The goal was never to make you an expert, it was to help you ask the right questions and avoid the expensive mistakes."
               },
               {
                 "type": "interactive",
@@ -1309,7 +1267,7 @@
                 "type": "text",
                 "id": "text-8-1-3",
                 "title": "Three Ways to Continue",
-                "description": "1) Download your checklists and reference guides — everything from this program in one document. 2) Learn about Phase 2 — UCF BIP's ecosystem introduction program. 3) Schedule a 1:1 conversation with the UCF BIP team to discuss your specific situation."
+                "description": "1) Download your checklists and reference guides, everything from this program in one document. 2) Learn about Phase 2, UCF BIP's ecosystem introduction program. 3) Schedule a 1:1 conversation with the UCF BIP team to discuss your specific situation."
               },
               {
                 "type": "interactive",
@@ -1321,7 +1279,7 @@
               {
                 "type": "text",
                 "id": "text-8-1-4",
-                "title": "One Last Thing — Your Feedback Matters",
+                "title": "One Last Thing: Your Feedback Matters",
                 "description": "Value perception prompt and program improvement feedback. Two separate questions: 'Was this program worth your time?' and 'What would make it better?' Both feed into the admin dashboard."
               },
               {
@@ -1329,29 +1287,28 @@
                 "id": "callout-8-1-1",
                 "variant": "theme-reduce-risk",
                 "title": "The Biggest Risk Is Going It Alone",
-                "description": "You now know more than 90% of international founders who enter the U.S. market. Use that knowledge — and use the resources. Central Florida wants you to succeed."
+                "description": "You now know more than 90% of international founders who enter the U.S. market. Use that knowledge, and use the resources. Central Florida wants you to succeed."
               },
               {
                 "type": "key-takeaway",
                 "id": "kt-8-1-1",
                 "title": "Key Takeaway",
-                "description": "You don't need to have everything figured out. You need to know what to figure out first — and who can help. That's what this program gave you."
+                "description": "You don't need to have everything figured out. You need to know what to figure out first, and who can help. That's what this program gave you."
               }
             ]
           },
           {
             "id": "lesson-8-2",
-            "title": "Resource Downloads & Digital Credential",
+            "title": "Resource Downloads & Next Steps",
             "duration": 5,
             "objectives": [
-              "Download the U.S. Market Entry Checklist, Florida Setup Roadmap, Central Florida Resource Guide, and Expansion Decision Worksheet",
-              "Understand the POK Tech digital credential and how to display it on LinkedIn"
+              "Download the U.S. Market Entry Checklist, Florida Setup Roadmap, Central Florida Resource Guide, and Expansion Decision Worksheet"
             ],
             "contentBlocks": []
           },
           {
             "id": "lesson-8-3",
-            "title": "Next Steps — Your UCF BIP Pathway",
+            "title": "Next Steps: Your UCF BIP Pathway",
             "duration": 7,
             "objectives": [
               "Schedule a 1:1 consultation with the UCF BIP team",

@@ -21,8 +21,8 @@
       "type": "infographic",
       "style": "grid",
       "id": "ig-3-2-insurance",
-      "title": "Business Insurance — What Coverage Do You Need?",
-      "titleEs": "Seguro Empresarial — ¿Qué Cobertura Necesitas?",
+      "title": "Business Insurance: What Coverage Do You Need?",
+      "titleEs": "Seguro Empresarial, ¿Qué Cobertura Necesitas?",
       "cols": 3,
       "cards": [
         {
@@ -44,8 +44,8 @@
         {
           "heading": "Workers' Compensation",
           "headingEs": "Compensación al Trabajador",
-          "desc": "Required in Florida (4+ employees): Covers employee injuries on the job. Cost varies by industry and payroll. Mandatory — not optional.",
-          "descEs": "Requerido en Florida (4+ empleados): Cubre lesiones laborales. El costo varía por industria y nómina. Obligatorio — no opcional.",
+          "desc": "Required in Florida (4+ employees): Covers employee injuries on the job. Cost varies by industry and payroll. Mandatory, not optional.",
+          "descEs": "Requerido en Florida (4+ empleados): Cubre lesiones laborales. El costo varía por industria y nómina. Obligatorio, no opcional.",
           "cost": "Cost: varies by industry/payroll",
           "costEs": "Costo: varía por industria/nómina"
         },
@@ -101,7 +101,7 @@
     {
       "type": "accordion",
       "id": "int-3-2-1",
-      "title": "Insurance Types — What Each Policy Covers",
+      "title": "Insurance Types: What Each Policy Covers",
       "sections": [
         {
           "heading": "General Liability Insurance",
@@ -125,13 +125,13 @@
       "type": "text",
       "id": "text-3-2-3",
       "title": "Regulatory Exposure, Industries That Need Extra Attention",
-      "content": "<p>Some industries have additional rules you must follow before operating in the U.S. Regulatory agencies will not clear your business without the right permits, and the consequences of non-compliance are severe. Central Florida's economy spans aerospace, tourism, healthcare, technology, and agriculture, and each sector brings its own regulatory requirements.</p>\n\n<p><strong>Food and Beverage:</strong> FDA (federal) and FDACS (Florida) compliance — labeling, inspections, product testing. A Colombian coffee brand spent $8,000 on FDA-compliant labeling before listing on Amazon.</p>\n\n<p><strong>Healthcare and Wellness:</strong> HIPAA compliance for protected health information. Medical devices need FDA clearance. Telehealth faces state-by-state licensing.</p>\n\n<p><strong>Financial Services:</strong> SEC, FINRA, and state-level regulations. Money transmission licenses cost $10,000–$50,000+ across multiple states. A Nigerian founder scaled back from 50 states to five key markets, cutting first-year compliance from $100,000+ to roughly $25,000.</p>\n\n<p><strong>Children's Products:</strong> CPSC testing and certification — lead, small parts, labeling. Third-party testing costs $1,000–$5,000 per product line.</p>\n\n<p>Penalties for operating without permits include fines, product seizures, and shutdowns. The SBDC and UCF BIP advisors can help identify which regulations are relevant to your business.</p>",
+      "content": "<p>Some industries have additional rules you must follow before operating in the U.S. Regulatory agencies will not clear your business without the right permits, and non-compliance is costly. Central Florida's economy spans aerospace, tourism, healthcare, technology, and agriculture, each with its own regulatory requirements.</p>\n\n<p><strong>Food and Beverage:</strong> FDA (federal) and FDACS (Florida) compliance, labeling, inspections, product testing. A Colombian coffee brand spent $8,000 on FDA-compliant labeling before listing on Amazon.</p>\n\n<p><strong>Healthcare and Wellness:</strong> HIPAA compliance for protected health information. Medical devices need FDA clearance. Telehealth faces state-by-state licensing.</p>\n\n<p><strong>Financial Services:</strong> SEC, FINRA, and state-level regulations. Money transmission licenses cost $10,000–$50,000+ across multiple states. A Nigerian founder scaled back from 50 states to five key markets, cutting first-year compliance from $100,000+ to roughly $25,000.</p>\n\n<p><strong>Children's Products:</strong> CPSC testing and certification, lead, small parts, labeling. Third-party testing costs $1,000–$5,000 per product line.</p>\n\n<p>Penalties for operating without permits include fines, product seizures, and shutdowns. The SBDC and UCF BIP advisors can help identify which regulations are relevant to your business.</p>",
       "wordCount": 140
     },
     {
       "type": "table",
       "id": "table-3-2-1",
-      "title": "Insurance Costs — What to Budget",
+      "title": "Insurance Costs: What to Budget",
       "table": {
         "headers": [
           "Insurance Type",
@@ -144,7 +144,7 @@
             "General Liability (GL)",
             "$400–$800/year",
             "Before signing a commercial lease or B2B contracts",
-            "Practically required — most clients and landlords demand it"
+            "Practically required, most clients and landlords demand it"
           ],
           [
             "Professional Liability (E&O)",
@@ -205,7 +205,7 @@
           "explanation": "Food and beverage businesses must comply with FDA (federal) and FDACS (Florida) regulations, including labeling requirements, facility inspections, and potentially product testing. These regulatory requirements must be met before selling food products in the U.S., regardless of the sales channel. Filing a trademark (option B) is important but not a regulatory requirement for food sales. Cyber liability insurance (option C) and workers' comp (option D) are not the most likely missing step for a food product launch."
         },
         {
-          "stem": "A founder from Peru is opening a small food packaging operation in Central Florida. She has general liability insurance and product liability insurance. Her lease requires one additional document before she can move in. What is it?",
+          "stem": "A business owner from Peru is opening a small food packaging operation in Central Florida. She has general liability insurance and product liability insurance. Her lease requires one additional document before she can move in. What is it?",
           "options": [
             "A Certificate of Insurance (COI) naming the landlord as an additional insured",
             "A copy of her LLC operating agreement",
@@ -301,7 +301,7 @@
       "type": "key-takeaway",
       "id": "kt-3-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. Apply these steps early: the costs are far cheaper than lawsuits, fines, or lost contracts. Evaluate your coverage needs now, before a client or landlord asks for proof.</p>"
+      "content": "<p>Carry general liability insurance from day one ($400–$800/year). If you provide professional services, add E&O coverage. Check whether your industry has specific regulatory requirements before you start operating. The costs are far cheaper than lawsuits, fines, or lost contracts. Review your coverage needs now, before a client or landlord asks for proof.</p>"
     }
   ]
 }

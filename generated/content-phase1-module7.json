@@ -1,7 +1,7 @@
 {
   "moduleId": "module-7",
-  "title": "You're Not Alone — Central Florida's Business Support Ecosystem",
-  "description": "Central Florida's ecosystem offers advantages designed to help international founders succeed — strong infrastructure, lower cost than many comparable U.S. markets, and international connectivity that few other regions can match. Key organizations, why Central Florida, UCF BIP programs, and community resources.",
+  "title": "You're Not Alone: Central Florida's Business Support Ecosystem",
+  "description": "Central Florida's ecosystem offers advantages designed to help international founders succeed, strong infrastructure, lower cost than many comparable U.S. markets, and international connectivity that few other regions can match. Key organizations, why Central Florida, UCF BIP programs, and community resources.",
   "landscapeTheme": "",
   "lessons": [
     {
@@ -20,40 +20,40 @@
           "type": "text",
           "id": "text-7-1-1",
           "title": "Your Support Network: Where Everything Connects",
-          "content": "<p>Central Florida has a business support network that many international founders never discover on their own. SBDC, SBA, chambers of commerce, UCF BIP, SCORE, Prospera: each one connects to the others, and they are all here to support founders like you.</p>\n\n<p>Many international founders spend thousands on private consultants for services that are available for free through these organizations.</p>\n\n<p>The U.S. has a full network of business support groups funded by federal, state, and local government. Most welcome foreign founders, many have bilingual staff, and almost all are free or low-cost. You are not asking for charity. These resources exist specifically for founders like you.</p>",
+          "content": "<p>Central Florida has a business support network that many international founders never discover on their own. SBDC, SBA, chambers of commerce, UCF BIP, SCORE, Prospera: each one connects to the others, and they are all here to support founders like you.</p>\n\n<p>Many international founders spend thousands on private consultants for services available free through these organizations.</p>\n\n<p>The U.S. has a network of business support groups funded by federal, state, and local government. Most welcome foreign founders, many have bilingual staff, and almost all are free or low-cost. You are not asking for charity. These resources exist for founders like you.</p>",
           "wordCount": 172
         },
         {
           "type": "text",
           "id": "text-7-1-2",
           "title": "Free Help Is Closer Than You Think",
-          "content": "<p>A founder from Colombia spent $4,500 on a private consultant to help navigate U.S. business setup — then discovered that the Small Business Development Center at UCF offers the same guidance for free. Central Florida has several organizations specifically designed to help international founders, and most of them cost nothing.</p>\n\n<p>Here are the five you should know. Each one serves a different purpose — explore the directory below to find the right fit for where you are right now.</p>",
+          "content": "<p>A business owner from Colombia spent $4,500 on a private consultant to help navigate U.S. business setup, then discovered that the Small Business Development Center at UCF offers the same guidance for free. Central Florida has several organizations specifically designed to help international founders, and most of them cost nothing.</p>\n\n<p>Here are the five you should know. Each one serves a different purpose, explore the directory below to find the right fit for where you are right now.</p>",
           "wordCount": 242
         },
         {
           "type": "accordion",
           "id": "int-7-1-1",
-          "title": "Resource Directory — What Each Organization Does",
+          "title": "Resource Directory: What Each Organization Does",
           "sections": [
             {
               "heading": "Florida SBDC at UCF",
-              "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at sbdcorlando.com. No cost, no obligation.\n\n**International-friendly:** Yes — they work extensively with international entrepreneurs."
+              "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at sbdcorlando.com. No cost, no obligation.\n\n**International-friendly:** Yes, they work extensively with international entrepreneurs."
             },
             {
               "heading": "SBA (Small Business Administration)",
-              "content": "**What they do:** Federal agency providing loan guarantees, training, and contracting assistance.\n\n**Best for:** Accessing capital (SBA-backed loans have better terms than conventional loans).\n\n**How to access:** sba.gov — find your local SBA district office.\n\n**International-friendly:** Loans require U.S. residency, but training is open to all."
+              "content": "**What they do:** Federal agency providing loan guarantees, training, and contracting assistance.\n\n**Best for:** Accessing capital (SBA-backed loans have better terms than conventional loans).\n\n**How to access:** sba.gov, find your local SBA district office.\n\n**International-friendly:** Loans require U.S. residency, but training is open to all."
             },
             {
               "heading": "Orlando Economic Partnership",
-              "content": "**What they do:** Regional economic development organization. Business relocation assistance, site selection, incentive coordination.\n\n**Best for:** Companies planning to physically relocate to Central Florida.\n\n**How to access:** orlando.org — request a consultation for business expansion.\n\n**International-friendly:** Yes — they have a dedicated international business team."
+              "content": "**What they do:** Regional economic development organization. Business relocation assistance, site selection, incentive coordination.\n\n**Best for:** Companies planning to physically relocate to Central Florida.\n\n**How to access:** orlando.org, request a consultation for business expansion.\n\n**International-friendly:** Yes, they have a dedicated international business team."
             },
             {
               "heading": "Prospera",
-              "content": "**What they do:** Bilingual business development services specifically for Hispanic entrepreneurs.\n\n**Best for:** Spanish-speaking founders who want support in their native language.\n\n**How to access:** prosperausa.org — free workshops and 1-on-1 consulting.\n\n**International-friendly:** Specifically designed for immigrant entrepreneurs."
+              "content": "**What they do:** Bilingual business development services specifically for Hispanic entrepreneurs.\n\n**Best for:** Spanish-speaking founders who want support in their native language.\n\n**How to access:** prosperausa.org, free workshops and 1-on-1 consulting.\n\n**International-friendly:** Specifically designed for immigrant entrepreneurs."
             },
             {
               "heading": "SCORE Orlando",
-              "content": "**What they do:** Free mentoring from retired business executives. Workshop series on startup fundamentals.\n\n**Best for:** Founders who want ongoing mentorship from experienced entrepreneurs.\n\n**How to access:** score.org/orlando — match with a mentor.\n\n**International-friendly:** Yes, but mentoring is in English."
+              "content": "**What they do:** Free mentoring from retired business executives. Workshop series on startup fundamentals.\n\n**Best for:** Founders who want ongoing mentorship from experienced entrepreneurs.\n\n**How to access:** score.org/orlando, match with a mentor.\n\n**International-friendly:** Yes, but mentoring is in English."
             }
           ]
         },
@@ -119,15 +119,15 @@
         {
           "type": "callout",
           "id": "callout-7-1-wm",
-          "variant": "watch-money-costs",
+          "variant": "watch-money",
           "title": "Watch Your Money: What This Actually Costs",
           "content": "<p>Support organization costs as of early 2026:</p>\n\n<ul><li><strong>SBDC business counseling:</strong> Free (unlimited sessions)</li><li><strong>SBDC workshops:</strong> Free to $50 per session</li><li><strong>SBA.gov resources and guides:</strong> Free</li><li><strong>Orlando Economic Partnership consultation:</strong> Free</li><li><strong>Chamber of Commerce membership:</strong> $200–$500/year</li><li><strong>SCORE mentoring:</strong> Free (volunteer business mentors)</li><li><strong>Prospera programs:</strong> Free to low-cost</li></ul>\n\n<p><strong>Compare that to private help:</strong> $150–$350/hour for a business consultant, or $3,000–$10,000 for a market entry strategy that the SBDC develops with you at no cost. Always check the free options first.</p>"
         },
         {
           "type": "callout",
           "id": "callout-7-1-cm",
-          "variant": "common-mistakes-repeating",
-          "title": "Common Mistakes International Founders Make — Resources",
+          "variant": "common-mistake",
+          "title": "Common Mistakes International Founders Make: Resources",
           "content": "<p>Consider these common pitfalls:</p><ul><li><strong>Not knowing about free resources (SBDC, SBA counseling).</strong> Many international founders assume quality business advice costs money. The U.S. has an entire taxpayer-funded system built to help you for free.</li><li><strong>Paying consultants for advice available through government programs.</strong> Before you hire any consultant, check if the SBDC or SBA covers that topic first. You might save $5,000 or more.</li><li><strong>Not leveraging UCF BIP and chamber connections.</strong> These organizations exist to connect you with the right people. A warm introduction from UCF BIP or a chamber contact carries more weight than a cold email.</li></ul>"
         },
         {
@@ -159,15 +159,15 @@
               "explanation": "The SBDC should be your first stop for market research and business planning support. Their advisors provide exactly this service at no cost. Hiring a consultant for the same work could cost $3,000–$10,000. Always check free resources before paying for private help."
             },
             {
-              "stem": "A founder from Peru just arrived in Central Florida. She needs help with market research, a business plan, and connections to potential customers. She has $8,000 set aside for consulting fees. Based on how the support ecosystem works, what should she expect when she engages with these organizations?",
+              "stem": "An entrepreneur from Peru just arrived in Central Florida. She needs help with market research, a business plan, and connections to potential customers. She has $8,000 set aside for consulting fees. Based on how the support ecosystem works, what should she expect when she engages with these organizations?",
               "options": [
                 "She will need to pay the $8,000 to access quality business advising through the SBDC and SCORE",
                 "Each organization will provide identical services, so she only needs to contact one",
-                "The SBDC will provide free ongoing counseling for her business plan and market research, SCORE will match her with an industry mentor, and a chamber of commerce will connect her to networking events — allowing her to save most of that $8,000 for actual business operations",
+                "The SBDC will provide free ongoing counseling for her business plan and market research, SCORE will match her with an industry mentor, and a chamber of commerce will connect her to networking events, allowing her to save most of that $8,000 for actual business operations",
                 "These organizations only serve U.S. citizens, so she will need to hire a private consultant instead"
               ],
               "correctAnswer": 2,
-              "explanation": "The support ecosystem is interconnected but each organization serves a distinct role. The SBDC provides free, unlimited business counseling including market research and business plans. SCORE offers free mentorship from experienced executives. Chambers of commerce provide networking for a modest annual fee ($200-$500). These services are available to international founders regardless of citizenship status. The $8,000 she budgeted for consulting could be redirected to actual business operations."
+              "explanation": "The support ecosystem is interconnected but each organization serves a distinct role. The SBDC provides free, unlimited business counseling including market research and business plans. SCORE offers free mentorship from experienced executives. Chambers of commerce provide networking for a modest annual fee ($200–$500). These services are available to international founders regardless of citizenship status. The $8,000 she budgeted for consulting could be redirected to actual business operations."
             }
           ]
         },
@@ -181,7 +181,7 @@
           "type": "key-takeaway",
           "id": "kt-7-1-1",
           "title": "Key Takeaway",
-          "content": "<p>Central Florida's support ecosystem is deep, well-organized, and interconnected. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. Try this: compare the free options to paid ones, then see which groups match your stage. The founders who succeed fastest are the ones who engage the ecosystem and use every available advantage.</p>"
+          "content": "<p>Central Florida's support ecosystem is deep, well-organized, and interconnected. The SBDC at UCF should be your first call for business planning and market research. The SBA offers federal resources and guides. Chambers of commerce provide networking and credibility. Use these resources before you spend money on private consultants. Compare the free options to paid ones, then see which groups match your stage. The founders who succeed fastest engage the ecosystem and use every available advantage.</p>"
         }
       ]
     },
@@ -189,7 +189,7 @@
       "lessonId": "lesson-7-2",
       "moduleId": "module-7",
       "landscapeTheme": "River Springs",
-      "title": "Central Florida — Your Market Opportunity",
+      "title": "Central Florida — Why This Market Works for Founders",
       "duration": 6,
       "objectives": [
         "Describe the qualitative character of Central Florida's startup ecosystem and why it attracts international founders",
@@ -201,14 +201,14 @@
           "type": "text",
           "id": "text-7-2-1",
           "title": "The Living Ecosystem: Why Central Florida Works for Founders",
-          "content": "<p>Central Florida's startup ecosystem has a structure that works in your favor: different organizations serve different needs, but they all connect to the same network of founders, mentors, and opportunities.</p>\n\n<p>What makes one U.S. city better than another for an international founder? It is not just the tax code. It is whether the ecosystem actually wants you there. The numbers matter (the next lesson covers them), but first you need to understand something harder to measure: whether a city truly supports founders who are new to the country. Central Florida does, and the evidence is in how the ecosystem behaves.</p>\n\n<p>What this means day to day: founders here describe the same thing. People answer emails. Introductions happen within days, not months. Groups like SBDC, CFITO, and the Hispanic Chamber run active programs, show up at events, and follow up. That responsiveness matters enormously when you are new to the country and building from zero.</p>",
+          "content": "<p>Central Florida's startup ecosystem has a structure that works in your favor: different organizations serve different needs, but they all connect to the same network of business owners, mentors, and opportunities.</p>\n\n<p>What makes one U.S. city better than another for an international founder? Not just the tax code. It is whether the ecosystem actually wants you there. The numbers matter (the next lesson covers them), but first you need something harder to measure: whether a city truly supports founders new to the country. Central Florida does, and the evidence is in how the ecosystem behaves.</p>\n\n<p>Founders here describe the same thing. People answer emails. Introductions happen within days, not months. Groups like SBDC, CFITO, and the Hispanic Chamber run active programs, show up at events, and follow up. That responsiveness matters enormously when you are new to the country and building from zero.</p>",
           "wordCount": 175
         },
         {
           "type": "text",
           "id": "text-7-2-2",
-          "title": "UCF as the Anchor — The Research Corridor Effect",
-          "content": "<p>Every strong startup ecosystem has an anchor body. In Central Florida, it's UCF, and understanding how UCF shapes the ecosystem explains why this region works for founders.</p>\n\n<p>In practice, UCF is a research engine tied to the industries around it. The Institute for Simulation and Training (IST) partners with defense contractors and government agencies, which is why 200+ simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and CS programs produce graduates who stay local — because the jobs are here.</p>\n\n<p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.</p>\n\n<p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p>",
+          "title": "UCF as the Anchor: The Research Corridor Effect",
+          "content": "<p>Every strong startup ecosystem has an anchor body. In Central Florida, it's UCF, and understanding how UCF shapes the ecosystem explains why this region works for entrepreneurs.</p>\n\n<p>In practice, UCF is a research engine tied to the industries around it. The Institute for Simulation and Training (IST) partners with defense contractors and government agencies, which is why 370+ simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and CS programs produce graduates who stay local, because the jobs are here.</p>\n\n<p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.</p>\n\n<p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p>",
           "wordCount": 174
         },
         {
@@ -221,21 +221,21 @@
         {
           "type": "text",
           "id": "text-7-2-3",
-          "title": "The Startup Culture — Who's Here and How They Work",
-          "content": "<p>Central Florida stands out for its startup culture. The here is team-minded, not cutthroat. Founders describe it as \"pre-competitive\": people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p>\n\n<h4>Founder Accessibility</h4>\n\n<p>In short, successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p>\n\n<h4>Cross-Industry Connections</h4>\n\n<p>Because the ecosystem is mid-sized, founders meet people outside their sector regularly, a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p>\n\n<h4>Bilingual Business Community</h4>\n\n<p>Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p>\n\n<h4>The \"Gateway\" Mindset</h4>\n\n<p>A food-tech founder from Ecuador launched in Orlando because the hospitality cluster gave her immediate customers: within two years she had expanded to Miami, Atlanta, and Houston.</p>",
+          "title": "The Startup Culture: Who's Here and How They Work",
+          "content": "<p>Central Florida's startup culture is team-minded, not cutthroat. Founders describe it as \"pre-competitive\": people share introductions, advice, and vendor recommendations freely because the ecosystem is still growing.</p>\n\n<h4>Entrepreneur Accessibility</h4>\n\n<p>Successful founders here are reachable. A cold LinkedIn message to a local CEO is more likely to get a response in Orlando than in San Francisco. Several BIP alumni got their first paying customer from a personal introduction at a local event.</p>\n\n<h4>Cross-Industry Connections</h4>\n\n<p>Because the ecosystem is mid-sized, founders meet people outside their sector regularly: a health tech founder discovers an application for her platform through a conversation with a simulation executive at a networking event.</p>\n\n<h4>Bilingual Business Community</h4>\n\n<p>Meetings happen in English and Spanish. Organizations like Prospera offer services entirely in Spanish. You don't have to wait until your English is perfect to start building relationships.</p>\n\n<h4>The \"Gateway\" Mindset</h4>\n\n<p>A food-tech business owner from Ecuador launched in Orlando because the hospitality cluster gave her immediate customers: within two years she had expanded to Miami, Atlanta, and Houston.</p>",
           "wordCount": 193
         },
         {
           "type": "text",
           "id": "text-7-2-4",
-          "title": "Living Here — The Human Side of Relocation",
-          "content": "<p>International founders relocate not just a company but often a family. Central Florida's quality of life is part of what makes it work for founders.</p>\n\n<h4>Family and Community</h4>\n\n<p>For context, Orlando's international community is large and established: grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools in Orange and Seminole counties have experience with families who speak more than one language. Bilingual children's doctors, immigration attorneys, and WhatsApp groups connect international families.</p>\n\n<h4>Lifestyle and Climate</h4>\n\n<p>Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate, a positive for Latin American founders who find northeastern winters challenging.</p>\n\n<h4>Practical Reality</h4>\n\n<p>You will need a car — public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p>",
+          "title": "Living Here: The Human Side of Relocation",
+          "content": "<p>International founders relocate not just a company but often a family. Central Florida's quality of life is part of what makes it work for founders.</p>\n\n<h4>Family and Community</h4>\n\n<p>Orlando's international community is large and established: grocery stores, restaurants, churches, and organizations serving Brazilian, Colombian, Venezuelan, Mexican, Puerto Rican, and other communities. Schools in Orange and Seminole counties have experience with families who speak more than one language. Bilingual children's doctors, immigration attorneys, and WhatsApp groups connect international families.</p>\n\n<h4>Lifestyle and Climate</h4>\n\n<p>Year-round outdoor living. Both coasts within 60-90 minutes. Tropical climate, a positive for Latin American founders who find northeastern winters challenging.</p>\n\n<h4>Practical Reality</h4>\n\n<p>You will need a car, public transit is limited. Factor vehicle costs into your planning. Summer heat is intense June through September. Manageable trade-offs.</p>",
           "wordCount": 125
         },
         {
           "type": "accordion",
           "id": "int-7-2-1",
-          "title": "Central Florida Industry Clusters — Your Opportunity Map",
+          "title": "Central Florida Industry Clusters: Your Opportunity Map",
           "sections": [
             {
               "heading": "Technology & Software",
@@ -258,19 +258,19 @@
         {
           "type": "accordion",
           "id": "accordion-7-2-networking",
-          "title": "Your Networking Map — Where to Show Up",
+          "title": "Your Networking Map: Where to Show Up",
           "sections": [
             {
               "heading": "Events That Matter",
-              "content": "<p>Showing up in person is the fastest way to build your local network. Focus on these high-value events:</p><ul><li><strong>Orlando Tech Association meetups</strong> — Monthly, casual gatherings with local tech founders and service providers. Go within two weeks of arriving.</li><li><strong>Starter Studio Demo Days</strong> — Accelerator showcase events connecting you with investors and mentors, even if you are not in the program.</li><li><strong>CFITO Trade Events</strong> — Bring together importers, exporters, and logistics partners for businesses bridging Latin America and the U.S.</li><li><strong>UCF BIP Workshops</strong> — Cover IP, pitch preparation, and market validation. The cohort format builds founder relationships.</li></ul>"
+              "content": "<p>Showing up in person is the fastest way to build your local network. Focus on these high-value events:</p><ul><li><strong>Orlando Tech Association meetups</strong>: Monthly, casual gatherings with local tech founders and service providers. Go within two weeks of arriving.</li><li><strong>Starter Studio Demo Days</strong>: Accelerator showcase events connecting you with investors and mentors, even if you are not in the program.</li><li><strong>CFITO Trade Events</strong>: Bring together importers, exporters, and logistics partners for businesses bridging Latin America and the U.S.</li><li><strong>UCF BIP Workshops</strong>: Cover IP, pitch preparation, and market validation. The cohort format builds founder relationships.</li></ul>"
             },
             {
               "heading": "Places to Work and Meet",
-              "content": "<p>Where you work shapes who you meet. Choosing a workspace inside the support ecosystem increases the chance of running into the right people:</p><ul><li><strong>UCF Business Incubation facilities</strong> — Coworking space embedded in the support network with mentors and advisors nearby.</li><li><strong>Canvs at Creative Village</strong> — Downtown Orlando's coworking hub, popular with creative and tech startups.</li><li><strong>Orlando Public Library co-lab spaces</strong> — Free workspace and meeting rooms for budget-conscious founders.</li></ul>"
+              "content": "<p>Where you work shapes who you meet. Choosing a workspace inside the support ecosystem increases the chance of running into the right people:</p><ul><li><strong>UCF Business Incubation facilities</strong>: Coworking space embedded in the support network with mentors and advisors nearby.</li><li><strong>Canvs at Creative Village</strong>: Downtown Orlando's coworking hub, popular with creative and tech startups.</li><li><strong>Orlando Public Library co-lab spaces</strong>: Free workspace and meeting rooms for budget-conscious entrepreneurs.</li></ul>"
             },
             {
               "heading": "People to Connect With Early",
-              "content": "<p>Three relationships matter most in your first 90 days:</p><ol><li><strong>Your SBDC counselor</strong> — Free and matched to your industry.</li><li><strong>Your UCF BIP coordinator</strong> — Points you to the right programs and people.</li><li><strong>A founder 6-12 months ahead of you</strong> — What they wish they had known is often more valuable than any workshop.</li></ol>"
+              "content": "<p>Three relationships matter most in your first 90 days:</p><ol><li><strong>Your SBDC counselor</strong>: Free and matched to your industry.</li><li><strong>Your UCF BIP coordinator</strong>: Points you to the right programs and people.</li><li><strong>A founder 6-12 months ahead of you</strong>: What they wish they had known is often more valuable than any workshop.</li></ol>"
             }
           ]
         },
@@ -278,8 +278,8 @@
           "type": "infographic",
           "style": "grid",
           "id": "ig-7-2-network",
-          "title": "Where to Show Up — Central Florida Networking",
-          "titleEs": "Dónde Presentarse — Networking en Florida Central",
+          "title": "Where to Show Up: Central Florida Networking",
+          "titleEs": "Dónde Presentarse, Networking en Florida Central",
           "cols": 3,
           "cards": [
             {
@@ -345,15 +345,15 @@
         {
           "type": "callout",
           "id": "callout-7-2-latam",
-          "variant": "latam-supplement",
-          "title": "Latin America Focus — Community and Connection",
-          "content": "<ul><li><strong>Prospera</strong>. Bilingual (Spanish/English) mentoring, training, and business planning for Hispanic entrepreneurs. They assign you a mentor who understands your background.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Business matchmaking programs pairing international founders with established local businesses. Annual events draw hundreds of bilingual professionals.</li><li><strong>Colombian, Brazilian, Venezuelan community groups</strong>. Active WhatsApp and social media networks that share job leads, vendor recommendations, and family resources. Ask your BIP cohort-mates or SBDC counselor for introductions.</li><li><strong>Bilingual professional services</strong>. Immigration attorneys, CPAs, and business consultants who work in Spanish and Portuguese are well-established in Central Florida.</li></ul>"
+          "variant": "cultural-insight",
+          "title": "Latin America Focus: Community and Connection",
+          "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"../resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<ul><li><strong>Prospera</strong>. Bilingual (Spanish/English) mentoring, training, and business planning for Hispanic entrepreneurs. They assign you a mentor who understands your background.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Business matchmaking programs pairing international founders with established local businesses. Annual events draw hundreds of bilingual professionals.</li><li><strong>Colombian, Brazilian, Venezuelan community groups</strong>. Active WhatsApp and social media networks that share job leads, vendor recommendations, and family resources. Ask your BIP cohort-mates or SBDC counselor for introductions.</li><li><strong>Bilingual professional services</strong>. Immigration attorneys, CPAs, and business consultants who work in Spanish and Portuguese are well-established in Central Florida.</li></ul>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong>Bilateral business chambers in Orlando:</strong> 20+ active country chambers (German, French, British, Indian, Korean, Japanese, Italian, etc.) run regular networking events.</li><li><strong>Visit Orlando Business Events team:</strong> Connects international founders with industry-specific Orlando companies for partnership exploration.</li></ul>"
         },
         {
           "type": "callout",
           "id": "callout-7-2-rc",
           "variant": "reality-check",
-          "title": "Reality Check — The Ecosystem Is Growing, Not Finished",
+          "title": "Reality Check: The Ecosystem Is Growing, Not Finished",
           "content": "<p>Central Florida's startup ecosystem is strong and getting stronger, but it is not Silicon Valley or New York. Be honest about what that means:</p>\n\n<ul><li><strong>Niche industries may have fewer local contacts.</strong> If you're in a very specialized vertical (quantum computing, advanced materials), the local network will be thinner. You may need to build national connections from day one.</li><li><strong>Venture capital is growing but still smaller</strong> than in major hubs. If you need Series A or B capital, you'll likely pitch investors in Miami, New York, or San Francisco, but you can live and operate here while doing so.</li><li><strong>\"Based in Orlando\" carries less brand weight</strong> with some investors and partners than \"based in San Francisco.\" This gap is closing, but it exists. Let your traction speak louder than your zip code.</li></ul>"
         },
         {
@@ -369,7 +369,7 @@
           "placement": "end-of-lesson",
           "questions": [
             {
-              "stem": "A Brazilian edtech founder is considering Central Florida. Which factor BEST illustrates the qualitative advantage of the region's startup culture?",
+              "stem": "A Brazilian edtech entrepreneur is considering Central Florida. Which factor BEST illustrates the qualitative advantage of the region's startup culture?",
               "options": [
                 "Florida has no state income tax, saving the founder money",
                 "The cost of living is lower than in Miami or New York",
@@ -377,7 +377,7 @@
                 "UCF's research partnerships, accessible founders, bilingual support organizations, and a collaborative rather than cutthroat culture make it easier to build relationships and find early customers"
               ],
               "correctAnswer": 3,
-              "explanation": "While tax benefits, cost savings, and flight connectivity are genuine advantages (covered in the next lesson's data), the qualitative strength of Central Florida is its culture: UCF as an anchor institution, founders who respond to messages, bilingual organizations like Prospera and the Hispanic Chamber, and an ecosystem where introductions happen quickly. That collaborative environment is what makes the region work for international founders beyond what the numbers alone can show."
+              "explanation": "While tax benefits, cost savings, and flight connectivity are genuine advantages (covered in the next lesson's data), the qualitative strength of Central Florida is its culture: UCF as an anchor institution, business owners who respond to messages, bilingual organizations like Prospera and the Hispanic Chamber, and an ecosystem where introductions happen quickly. That collaborative environment is what makes the region work for international founders beyond what the numbers alone can show."
             },
             {
               "stem": "An international founder has just arrived in Central Florida and wants to build her local network quickly. Which combination of actions would give her the broadest initial connections?",
@@ -388,7 +388,7 @@
                 "Join three online forums and network exclusively through LinkedIn"
               ],
               "correctAnswer": 0,
-              "explanation": "Central Florida's ecosystem rewards physical presence and in-person connection. Attending local meetups introduces you to founders and hiring managers. Your SBDC counselor provides free, industry-specific guidance. And working from BIP space creates the chance encounters: with mentors, fellow founders, and program coordinators — that lead to introductions, partnerships, and early customers. Online networking is useful, but the ecosystem's strength is its accessibility in person."
+              "explanation": "Central Florida's ecosystem rewards physical presence and in-person connection. Attending local meetups introduces you to founders and hiring managers. Your SBDC counselor provides free, industry-specific guidance. And working from BIP space creates the chance encounters: with mentors, fellow founders, and program coordinators, that lead to introductions, partnerships, and early customers. Online networking is useful, but the ecosystem's strength is its accessibility in person."
             },
             {
               "stem": "A founder from Mexico is evaluating U.S. cities for her health tech startup. She wants to understand what makes UCF an 'anchor institution' in Central Florida's startup ecosystem. Which explanation best describes UCF's anchor role?",
@@ -399,7 +399,7 @@
                 "UCF's anchor role is primarily about its large student body creating consumer demand for local businesses"
               ],
               "correctAnswer": 1,
-              "explanation": "An anchor institution shapes the ecosystem around it. UCF's Institute for Simulation and Training partners with defense contractors (explaining 200+ simulation companies nearby). Its medical school feeds the Lake Nona health tech cluster. Engineering and CS programs produce graduates who stay local because industry jobs exist in the region. UCF BIP gives international founders a warm introduction to this entire network. The anchor effect is about research-to-market connections, not just size or office space."
+              "explanation": "An anchor institution shapes the ecosystem around it. UCF's Institute for Simulation and Training partners with defense contractors (explaining 370+ simulation companies nearby). Its medical school feeds the Lake Nona health tech cluster. Engineering and CS programs produce graduates who stay local because industry jobs exist in the region. UCF BIP gives international founders a warm introduction to this entire network. The anchor effect is about research-to-market connections, not just size or office space."
             }
           ]
         },
@@ -407,7 +407,7 @@
           "type": "key-takeaway",
           "id": "kt-7-2-1",
           "title": "Key Takeaway",
-          "content": "<p>Central Florida's advantage for international founders goes beyond cost savings and flight schedules. The region has a collaborative startup culture anchored by UCF, a bilingual business community that actively supports foreign founders, and a network of events, spaces, and organizations designed to help new founders build traction. The ecosystem is mid-sized and growing, which means you get access, fast replies, and cross-industry connections that are harder to find in larger, more competitive metros. Get involved early, build relationships, and use the community as your support system.</p>"
+          "content": "<p>Central Florida's advantage for international founders goes beyond cost savings and flight schedules. The region has a collaborative startup culture anchored by UCF, a bilingual business community that actively supports foreign founders, and a network of events, spaces, and organizations designed to help new entrepreneurs build traction. The ecosystem is mid-sized and growing, which means you get access, fast replies, and cross-industry connections that are harder to find in larger, more competitive metros. Get involved early, build relationships, and use the community as your support system.</p>"
         }
       ]
     },
@@ -415,7 +415,7 @@
       "lessonId": "lesson-7-3",
       "moduleId": "module-7",
       "landscapeTheme": "River Springs",
-      "title": "Central Florida by the Numbers — Economic Data",
+      "title": "Central Florida by the Numbers — (Data That Impacts Your Runway)",
       "duration": 4,
       "objectives": [
         "Interpret key economic indicators (GDP, population growth, business formation rates) that make Central Florida competitive for startups",
@@ -427,13 +427,13 @@
           "type": "text",
           "id": "text-7-3-1",
           "title": "Central Florida by the Numbers",
-          "content": "<p>In the last lesson you explored the culture and connections of Central Florida's business ecosystem, the collaborative mindset, the bilingual community, the people who answer emails. Now it is time to look at the numbers that back it up. An ecosystem's strength is measured by what it produces.</p>\n\n<p>Numbers tell a story most pitch decks miss. A $500,000 seed fund buys you 10 months in Silicon Valley, but 17 months in Central Florida. That difference can mean the gap between finding product-market fit and running out of cash. This lesson is the spreadsheet: the numbers to cite when building a case for your board, co-founder, or family. All data as of early 2026 unless noted.</p>\n\n<h4>Population and Growth</h4>\n\n<p>Orlando-Kissimmee-Sanford metro: ~2.8 million residents. Top five fastest-growing U.S. metro over the past five years: driving consumer demand, worker supply, and commercial real estate growth.</p>\n\n<h4>Regional GDP</h4>\n\n<p>Metro Orlando GDP exceeds $150 billion annually, spread across tourism ($75B), tech, aerospace, health care, education, and construction.</p>\n\n<h4>Business Formation</h4>\n\n<p>Florida handles 300,000+ new business filings each year via SunBiz — top three nationally. Florida LLC filing: $125. For reference: California charges $70 plus an $800 annual franchise tax, New York charges $200 plus biennial requirements. Florida's zero state income tax covers all pass-through business income.</p>",
+          "content": "<p>The last lesson covered the culture and connections of Central Florida's business ecosystem. Now look at the numbers that back it up. An ecosystem's strength is measured by what it produces.</p>\n\n<p>Numbers tell a story most pitch decks miss. A $500,000 seed fund buys you 10 months in Silicon Valley, but 17 months in Central Florida. That difference can mean the gap between finding product-market fit and running out of cash. This lesson is the spreadsheet: the numbers to cite when building a case for your board, co-founder, or family. All data as of early 2026 unless noted.</p>\n\n<h4>Population and Growth</h4>\n\n<p>Orlando-Kissimmee-Sanford metro: ~2.96 million residents (2025) <em>(<a href=\"https://www.census.gov/library/stories/2025/04/metro-area-trends.html\" target=\"_blank\" rel=\"noopener\">U.S. Census Bureau, 2025 Metro Area Estimates</a>)</em>. Top five fastest-growing U.S. metro over the past five years: driving consumer demand, worker supply, and commercial real estate growth.</p>\n\n<h4>Regional GDP</h4>\n\n<p>Metro Orlando GDP reached $217 billion (2023, latest BEA estimate) <em>(<a href=\"https://news.orlando.org/blog/orlando-economy-surpasses-200-billion-outpaces-u-s-economic-growth/\" target=\"_blank\" rel=\"noopener\">Orlando Economic Partnership, BEA data</a>)</em>, spread across tourism ($75B), tech, aerospace, health care, education, and construction.</p>\n\n<h4>Business Formation</h4>\n\n<p>Florida leads the U.S. in new business applications (U.S. Census BFS, 2024); SunBiz manages 3.5M+ active business entities. Florida LLC filing: $125. For reference: California charges $70 plus an $800 annual franchise tax, New York charges $200 plus biennial requirements. Florida's zero state income tax covers all pass-through business income.</p>",
           "wordCount": 205
         },
         {
           "type": "table",
           "id": "table-7-3-1",
-          "title": "Cost Comparison — Central Florida vs. Other U.S. Entry Points",
+          "title": "Cost Comparison: Central Florida vs. Other U.S. Entry Points",
           "table": {
             "headers": [
               "Factor",
@@ -514,9 +514,9 @@
         {
           "type": "data-visualization",
           "id": "dataviz-7-3a",
-          "title": "How Central Florida Stacks Up — Cost Comparison",
+          "title": "How Central Florida Stacks Up: Cost Comparison",
           "chartType": "grouped-bar",
-          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 780px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">How Central Florida Stacks Up — Cost Comparison</h3><p style=\"margin: 0 0 18px 0; font-size: 0.85rem; color: #666;\">5 cities across key cost metrics (lower is better)</p><div style=\"display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;\"><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Central FL</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Miami</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>NYC</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #D4622B; border-radius: 2px; display: inline-block;\"></span>Silicon Valley</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #48B07A; border-radius: 2px; display: inline-block;\"></span>Austin</span></div><div style=\"display: flex; flex-direction: column; gap: 18px;\"><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Office Space ($/sqft/yr)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 41%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$30</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 66%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$48</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$73</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 89%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$65</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 66%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$48</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Coworking ($/mo)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 43%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$300</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 68%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$475</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$700</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 79%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$550</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 57%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$400</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Dev Salary ($K)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 63%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$92K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 72%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$105K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 92%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$133K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$145K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 83%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$120K</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">1-BR Rent ($/mo)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 47%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$1.6K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 71%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$2.4K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$3.4K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 88%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$3.0K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 56%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$1.9K</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Cost of Living Index</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 52%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">98</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 64%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">120</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">187</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 92%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">172</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 58%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">108</div></div></div></div></div><div style=\"margin-top: 18px; background: #FFF8E7; border-left: 4px solid #E8A838; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem;\">Central Florida's COL Index of <strong>98</strong> (near national average) means your startup capital stretches further.</div><div style=\"margin-top: 10px; background: #1A3A5C; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; text-align: center;\">A <strong>$500K seed fund</strong> lasts 10 months in Silicon Valley vs. <strong>16–17 months</strong> in Central Florida.</div></div>",
+          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 780px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">How Central Florida Stacks Up, Cost Comparison</h3><p style=\"margin: 0 0 18px 0; font-size: 0.85rem; color: #666;\">5 cities across key cost metrics (lower is better)</p><div style=\"display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;\"><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #E8A838; border-radius: 2px; display: inline-block;\"></span>Central FL</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Miami</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>NYC</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #D4622B; border-radius: 2px; display: inline-block;\"></span>Silicon Valley</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #48B07A; border-radius: 2px; display: inline-block;\"></span>Austin</span></div><div style=\"display: flex; flex-direction: column; gap: 18px;\"><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Office Space ($/sqft/yr)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 41%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$30</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 66%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$48</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$73</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 89%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$65</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 66%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$48</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Coworking ($/mo)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 43%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$300</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 68%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$475</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$700</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 79%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$550</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 57%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$400</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Dev Salary ($K)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 63%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$92K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 72%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$105K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 92%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$133K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$145K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 83%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">$120K</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">1-BR Rent ($/mo)</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 47%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$1.6K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 71%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$2.4K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$3.4K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 88%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$3.0K</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 56%; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 600; color: #fff;\">$1.9K</div></div></div></div><div><div style=\"font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;\">Cost of Living Index</div><div style=\"display: flex; gap: 3px; align-items: flex-end; height: 36px;\"><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #E8A838; border-radius: 3px 3px 0 0; height: 52%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">98</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #2C5F8A; border-radius: 3px 3px 0 0; height: 64%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">120</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #1A3A5C; border-radius: 3px 3px 0 0; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">187</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #D4622B; border-radius: 3px 3px 0 0; height: 92%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">172</div></div><div style=\"width: 18%; height: 100%; display: flex; align-items: flex-end;\"><div style=\"width: 100%; background: #48B07A; border-radius: 3px 3px 0 0; height: 58%; display: flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 600; color: #fff;\">108</div></div></div></div></div><div style=\"margin-top: 18px; background: #FFF8E7; border-left: 4px solid #E8A838; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem;\">Central Florida's COL Index of <strong>98</strong> (near national average) means your startup capital stretches further.</div><div style=\"margin-top: 10px; background: #1A3A5C; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; text-align: center;\">A <strong>$500K seed fund</strong> lasts 10 months in Silicon Valley vs. <strong>16–17 months</strong> in Central Florida.</div></div>",
           "data": {
             "categories": [
               "Office Space ($/sqft/yr)",
@@ -611,7 +611,7 @@
         {
           "type": "table",
           "id": "table-7-3-2",
-          "title": "Central Florida Industry Clusters — Key Data Points",
+          "title": "Central Florida Industry Clusters: Key Data Points",
           "table": {
             "headers": [
               "Industry Cluster",
@@ -622,32 +622,32 @@
             "rows": [
               [
                 "Simulation & Training",
-                "200+ companies",
+                "370+ companies (NCS members)",
                 "~$6B annual contracts",
                 "Steady federal + growing commercial"
               ],
               [
                 "Aerospace & Defense",
                 "SpaceX, Blue Origin, L3Harris, Lockheed",
-                "28 orbital launches (2025)",
+                "100+ Florida orbital launches (2025)",
                 "Accelerating (commercial space)"
               ],
               [
                 "Life Sciences & Health Tech",
-                "90,000+ healthcare employees",
-                "~15% YoY venture growth since 2022",
+                "90,000+ healthcare jobs (Orlando metro)",
+                "Orlando VC funding ~doubled 2023-2025 ($400M to $743M)",
                 "Expanding (Lake Nona Medical City)"
               ],
               [
                 "Technology & Fintech",
                 "Siemens, Deloitte, KPMG centers",
-                "34% faster growth than U.S. avg",
-                "Strong (10K+ STEM grads/year)"
+                "~2x faster than U.S. avg (21% vs 11%, 2019-24)",
+                "Strong (4,500+ STEM grads/year, UCF)"
               ],
               [
                 "Hospitality Technology",
                 "75M+ annual visitors",
-                "$75B+ tourism GDP",
+                "$92.5B tourism economic impact",
                 "Stable (infrastructure-driven demand)"
               ],
               [
@@ -670,15 +670,15 @@
         {
           "type": "data-visualization",
           "id": "dataviz-7-3b",
-          "title": "Central Florida Industry Clusters — Scale at a Glance",
+          "title": "Central Florida Industry Clusters: Scale at a Glance",
           "chartType": "horizontal-bar-with-icons",
-          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Central Florida Industry Clusters — Scale at a Glance</h3><p style=\"margin: 0 0 20px 0; font-size: 0.85rem; color: #666;\">Relative scale of each cluster with growth trend</p><div style=\"display: flex; flex-direction: column; gap: 14px;\"><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Hospitality Technology</span><span style=\"font-size: 0.73rem; color: #666;\">$75B+ tourism GDP</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 100%; height: 100%; background: #E8A838; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">$75B+ &mdash; Stable</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Life Sciences &amp; Health</span><span style=\"font-size: 0.73rem; color: #666;\">90K+ healthcare employees</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 82%; height: 100%; background: #48B07A; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">90K+ jobs &mdash; Expanding</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Technology &amp; Fintech</span><span style=\"font-size: 0.73rem; color: #666;\">34% faster growth than U.S. avg</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 65%; height: 100%; background: #D4622B; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">+34% &mdash; Strong</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Aerospace &amp; Defense</span><span style=\"font-size: 0.73rem; color: #666;\">28 orbital launches (2025)</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 55%; height: 100%; background: #2C5F8A; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">28 launches &mdash; Accelerating</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Simulation &amp; Training</span><span style=\"font-size: 0.73rem; color: #666;\">$6B annual contracts</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 42%; height: 100%; background: #1A3A5C; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">$6B &mdash; Steady</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">AgTech</span><span style=\"font-size: 0.73rem; color: #666;\">UF/IFAS research partnerships</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 22%; height: 100%; background: #F5C842; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #2D2D2D;\">Emerging</span></div></div></div></div><div style=\"margin-top: 16px; font-size: 0.75rem; color: #999; font-style: italic;\">Bar lengths scaled for visual comparison — see table above for exact figures.</div></div>",
+          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Central Florida Industry Clusters, Scale at a Glance</h3><p style=\"margin: 0 0 20px 0; font-size: 0.85rem; color: #666;\">Relative scale of each cluster with growth trend</p><div style=\"display: flex; flex-direction: column; gap: 14px;\"><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Hospitality Technology</span><span style=\"font-size: 0.73rem; color: #666;\">$92.5B tourism economic impact</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 100%; height: 100%; background: #E8A838; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">$92.5B &mdash; Stable</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Life Sciences &amp; Health</span><span style=\"font-size: 0.73rem; color: #666;\">90K+ healthcare employees</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 82%; height: 100%; background: #48B07A; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">90K+ jobs &mdash; Expanding</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Technology &amp; Fintech</span><span style=\"font-size: 0.73rem; color: #666;\">~2x faster than U.S. avg (21% vs 11%, 2019-24)</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 65%; height: 100%; background: #D4622B; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">~2x U.S. &mdash; Strong</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Aerospace &amp; Defense</span><span style=\"font-size: 0.73rem; color: #666;\">100+ Florida orbital launches (2025)</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 55%; height: 100%; background: #2C5F8A; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">100+ launches &mdash; Accelerating</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Simulation &amp; Training</span><span style=\"font-size: 0.73rem; color: #666;\">$6B annual contracts</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 42%; height: 100%; background: #1A3A5C; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #fff;\">$6B &mdash; Steady</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">AgTech</span><span style=\"font-size: 0.73rem; color: #666;\">UF/IFAS research partnerships</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 30px; overflow: hidden;\"><div style=\"width: 22%; height: 100%; background: #F5C842; border-radius: 4px; display: flex; align-items: center; padding-left: 10px;\"><span style=\"font-size: 0.73rem; font-weight: 600; color: #2D2D2D;\">Emerging</span></div></div></div></div><div style=\"margin-top: 16px; font-size: 0.75rem; color: #999; font-style: italic;\">Bar lengths scaled for visual comparison, see table above for exact figures.</div></div>",
           "data": {
             "clusters": [
               {
                 "label": "Hospitality Technology",
-                "metric": "$75B+ tourism GDP",
-                "value": 75,
+                "metric": "$92.5B tourism economic impact",
+                "value": 92,
                 "growth": "stable",
                 "color": "#E8A838"
               },
@@ -691,8 +691,8 @@
               },
               {
                 "label": "Aerospace & Defense",
-                "metric": "28 orbital launches (2025)",
-                "value": 28,
+                "metric": "100+ Florida orbital launches (2025)",
+                "value": 100,
                 "growth": "accelerating",
                 "color": "#2C5F8A"
               },
@@ -705,7 +705,7 @@
               },
               {
                 "label": "Technology & Fintech",
-                "metric": "34% faster growth than U.S. avg",
+                "metric": "~2x faster than U.S. avg (21% vs 11%, 2019-24)",
                 "value": 34,
                 "growth": "strong",
                 "color": "#D4622B"
@@ -718,34 +718,34 @@
                 "color": "#F5C842"
               }
             ],
-            "note": "Values scaled for visual comparison — see table below for exact figures."
+            "note": "Values scaled for visual comparison, see table below for exact figures."
           },
-          "accessibilityNote": "Horizontal bar chart showing six Central Florida industry clusters ranked by relative scale. Hospitality Technology leads with $75B+ tourism GDP and stable growth. Life Sciences and Health has 90,000+ healthcare employees and is expanding. Technology and Fintech grows 34% faster than the U.S. average with strong momentum. Aerospace and Defense had 28 orbital launches in 2025 and is accelerating. Simulation and Training generates $6B in annual contracts with steady growth. AgTech is an emerging cluster with UF/IFAS research partnerships. Bar lengths are scaled for visual comparison."
+          "accessibilityNote": "Horizontal bar chart showing six Central Florida industry clusters ranked by relative scale. Hospitality Technology leads with $92.5B tourism economic impact and stable growth. Life Sciences and Health has 90,000+ healthcare jobs (Orlando metro) and is expanding. Technology and Fintech grows 34% faster than the U.S. average with strong momentum. Aerospace and Defense had 100+ Florida orbital launches in 2025 and is accelerating. Simulation and Training generates $6B in annual contracts with steady growth. AgTech is an emerging cluster with UF/IFAS research partnerships. Bar lengths are scaled for visual comparison."
         },
         {
           "type": "scenario",
           "id": "scenario-7-3-market-entry",
-          "title": "Reading the Numbers — Applying the Data",
+          "title": "Reading the Numbers: Applying the Data",
           "description": "Elena is a founder from Brazil evaluating U.S. market entry. She has $180,000 in capital, needs to hire one developer and one office coordinator, and is comparing Central Florida against two other U.S. markets. Based on the economic data in this lesson, which conclusion is best supported?",
           "paths": [
             {
               "label": "Central Florida gives Elena the longest operational runway",
-              "outcome": "Correct. Developer salaries in Central Florida run $85K–$100K versus $130K–$160K in Silicon Valley. The cost of living index is 98 — nearly half of New York (187). Florida charges $125 to form an LLC and zero state income tax. For a founder with $180,000, these differences are not marginal — they determine whether she reaches her next milestone or runs out of capital trying. Runway is the first filter at seed stage.",
+              "outcome": "Correct. Developer salaries in Central Florida run $85K–$100K versus $130K–$160K in Silicon Valley. The cost of living index is 98, nearly half of New York (187). Florida charges $125 to form an LLC and zero state income tax. For a business owner with $180,000, these differences are not marginal, they determine whether she reaches her next milestone or runs out of capital trying. Runway is the first filter at seed stage.",
               "isRecommended": true
             },
             {
               "label": "Silicon Valley is better because the tech talent pool is deeper",
-              "outcome": "This ignores what the data actually shows. A $40–$75K annual salary difference per developer is not a rounding error on a $180K budget — it is the difference between 18 months of runway and 10. A deeper talent pool does not help a founder who burns through capital before reaching traction. Central Florida has real tech, defense, and simulation clusters. For early-stage hiring, depth of pool is less important than cost-to-hire.",
+              "outcome": "This ignores what the data actually shows. A $40–$75K annual salary difference per developer is not a rounding error on a $180K budget, it is the difference between 18 months of runway and 10. A deeper talent pool does not help a founder who burns through capital before reaching traction. Central Florida has real tech, defense, and simulation clusters. For early-stage hiring, depth of pool is less important than cost-to-hire.",
               "isRecommended": false
             },
             {
               "label": "Industry cluster fit matters more than cost differences at this stage",
-              "outcome": "This reverses the correct priority order. Cluster fit matters — but it is a second-order filter, not the first. A founder who chooses a market based on cluster alignment but runs out of capital before traction gains nothing from that alignment. Central Florida has its own industry clusters (tech, simulation, defense, healthcare, logistics). Choosing it does not require a trade-off between cost and fit.",
+              "outcome": "This reverses the correct priority order. Cluster fit matters, but it is a second-order filter, not the first. A founder who chooses a market based on cluster alignment but runs out of capital before traction gains nothing from that alignment. Central Florida has its own industry clusters (tech, simulation, defense, healthcare, logistics). Choosing it does not require a trade-off between cost and fit.",
               "isRecommended": false
             },
             {
-              "label": "300,000+ annual business filings means the market is too competitive",
-              "outcome": "This misreads the data. High filing volume reflects economic activity and opportunity, not saturation. A market where 300,000+ businesses are forming each year is a market with active demand, supplier networks, and customer bases worth targeting. Saturation is sector-specific — not something you can read from total filing volume. The data point is an indicator of ecosystem health, not a warning sign.",
+              "label": "Florida leading the nation in business applications means the market is too competitive",
+              "outcome": "This misreads the data. High filing volume reflects economic activity and opportunity, not saturation. A market where 300,000+ businesses are forming each year is a market with active demand, supplier networks, and customer bases worth targeting. Saturation is sector-specific, not something you can read from total filing volume. The data point is an indicator of ecosystem health, not a warning sign.",
               "isRecommended": false
             }
           ]
@@ -757,37 +757,37 @@
           "placement": "end-of-lesson",
           "questions": [
             {
-              "stem": "A founder has $500,000 in seed funding and burns $50,000/month in Silicon Valley. Based on the cost data in this lesson, approximately how many EXTRA months of runway would she gain by relocating to Central Florida?",
+              "stem": "An entrepreneur has $500,000 in seed funding and burns $50,000/month in Silicon Valley. Based on the cost data in this lesson, approximately how many EXTRA months of runway would she gain by relocating to Central Florida?",
               "options": [
                 "1-2 extra months. The cost difference is marginal",
                 "3-5 extra months. Moderate savings on rent and salaries",
                 "7-10 extra months. The roughly 40% lower burn rate at ~$30,000/month extends the $500K significantly",
-                "18+ extra months — Central Florida is essentially free to operate in"
+                "18+ extra months, Central Florida is essentially free to operate in"
               ],
               "correctAnswer": 2,
-              "explanation": "At $50,000/month in Silicon Valley versus approximately $30,000/month in Central Florida (based on the salary, office, and housing differentials in the cost comparison), the founder saves roughly $20,000/month. On $500,000 in funding, that extends runway from 10 months (Silicon Valley) to approximately 16-17 months (Central Florida) — roughly 7 extra months. That is the difference between finding product-market fit and running out of cash."
+              "explanation": "At $50,000/month in Silicon Valley versus approximately $30,000/month in Central Florida (based on the salary, office, and housing differentials in the cost comparison), the founder saves roughly $20,000/month. On $500,000 in funding, that extends runway from 10 months (Silicon Valley) to approximately 16-17 months (Central Florida), roughly 7 extra months. That is the difference between finding product-market fit and running out of cash."
             },
             {
               "stem": "Which Central Florida industry cluster generates approximately $6 billion in annual contracts and is anchored by a U.S. Navy command headquarters?",
               "options": [
                 "Aerospace and Defense, anchored by SpaceX and Blue Origin operations at Cape Canaveral",
                 "Life Sciences and Health Tech, anchored by Lake Nona Medical City and the Burnham Institute",
-                "Simulation and Training, anchored by NAWCTSD and 200+ companies in modeling, simulation, and commercial VR",
+                "Simulation and Training, anchored by NAWCTSD and 370+ companies (NCS members) in modeling, simulation, and commercial VR",
                 "Hospitality Technology, anchored by Disney, Universal, and 450+ hotel properties"
               ],
               "correctAnswer": 2,
-              "explanation": "The Simulation and Training cluster generates ~$6B in annual contracts and is anchored by NAWCTSD (Naval Air Warfare Center Training Systems Division), making Orlando the global hub for modeling, simulation, and training. The cluster includes 200+ companies and is expanding into commercial applications like VR and surgical simulation."
+              "explanation": "The Simulation and Training cluster generates ~$6B in annual contracts and is anchored by NAWCTSD (Naval Air Warfare Center Training Systems Division), making Orlando the global hub for modeling, simulation, and training. The cluster includes 370+ companies (NCS members) and is expanding into commercial applications like VR and surgical simulation."
             },
             {
               "stem": "A founder from Argentina has a three-person team and $200,000 in capital. She is comparing Central Florida and New York City as her U.S. base. Based on the cost data in this lesson, which analysis best captures the financial difference?",
               "options": [
-                "New York's cost of living index is nearly double Central Florida's (187 vs. 98), developer salaries run $35K-$45K higher per hire, and office space costs two to three times more — meaning her $200K could cover roughly 18 months of operations in Orlando but only 8-10 months in NYC",
+                "New York's cost of living index is nearly double Central Florida's (187 vs. 98), developer salaries run $35K-$45K higher per hire, and office space costs two to three times more, meaning her $200K could cover roughly 18 months of operations in Orlando but only 8-10 months in NYC",
                 "The cost difference is minimal because New York's higher salaries are offset by its larger customer base and stronger investor network",
                 "Central Florida is cheaper on paper, but the lack of public transit adds $600/month per employee in vehicle costs, effectively erasing the savings",
                 "Both cities charge zero state income tax, so the main cost difference is limited to office rent and housing"
               ],
               "correctAnswer": 0,
-              "explanation": "The data shows a dramatic cost gap: COL index 98 vs. 187, developer salaries of $85K-$100K vs. $120K-$145K, office space at $25-$35/sq ft vs. $60-$85/sq ft, and apartments at $1,400-$1,800 vs. $2,800-$4,000. While vehicle costs are a real trade-off, they do not erase the savings. And New York does charge state income tax (4%-10.9%), unlike Florida."
+              "explanation": "The data shows a dramatic cost gap: COL index 98 vs. 187, developer salaries of $95K-$120K vs. $120K-$145K, office space at $25–$35/sq ft vs. $60–$85/sq ft, and apartments at $1,400–$1,800 vs. $2,800–$4,000. While vehicle costs are a real trade-off, they do not erase the savings. And New York does charge state income tax (4%-10.9%), unlike Florida."
             }
           ]
         },
@@ -795,7 +795,7 @@
           "type": "key-takeaway",
           "id": "kt-7-3-1",
           "title": "Key Takeaway",
-          "content": "<p>Central Florida's cost of living index (98) is nearly half of New York's (187) and well below Silicon Valley's (172). Developer salaries run $85K-$100K versus $130K-$160K in San Jose. Florida handles 300,000+ new business filings each year with a $125 LLC fee and zero state income tax. Six diversified industry clusters, from simulation and training ($6B) to aerospace (28 launches in 2025) to hospitality tech ($75B+ tourism GDP) — create demand across sectors. In the next lesson, you will see how the LATAM trade corridor connects this data to your specific market opportunity.</p>"
+          "content": "<p>Central Florida's cost of living index (98) is nearly half of New York's (187) and well below Silicon Valley's (172). Developer salaries run $95K-$120K versus $150K-$185K in San Jose. Florida handles 300,000+ new business filings each year with a $125 LLC fee and zero state income tax. Six diversified industry clusters, from simulation and training ($6B) to aerospace (100+ Florida launches in 2025) to hospitality tech ($92.5B tourism economic impact), create demand across sectors.</p>"
         }
       ]
     },
@@ -803,143 +803,134 @@
       "lessonId": "lesson-7-4",
       "moduleId": "module-7",
       "landscapeTheme": "River Springs",
-      "title": "The LATAM Trade Corridor — Your Location Decision",
-      "duration": 4,
+      "title": "UCF BIP Programs: Your Next Step",
+      "duration": 6,
       "objectives": [
-        "Analyze LATAM trade corridor data (flight routes, port volume, bilingual workforce percentage) to evaluate market-bridging potential",
-        "Compare Central Florida's practical advantages and trade-offs against Miami, NYC, Silicon Valley, and Austin for your specific business",
-        "Build a weighted location decision framework using real cost and connectivity data"
+        "Describe UCF BIP phases 2 and 3 of the market entry/soft landing program and who each is designed for",
+        "Identify community resources specifically for international founders (Hispanic Chamber, Prospera, CFITO)",
+        "Explain the next steps to engage with UCF BIP after completing this program"
       ],
       "contentBlocks": [
         {
           "type": "text",
           "id": "text-7-4-1",
-          "title": "LATAM Trade Corridor — The Data",
-          "content": "<p>Many international founders in Central Florida are sitting on a trade advantage they haven’t fully mapped yet. Florida is the number one U.S. state for Latin American and Caribbean trade by value. Orlando sits at the center of that network, not Miami, not Tampa. Understanding these trade corridors is not geography trivia: it is a sourcing, distribution, and partnership shortcut that most founders discover too late.</p>\n\n<h4>Air Connectivity</h4>\n\n<p>MCO: direct flights to 30+ Latin American cities (Bogota, Sao Paulo, Mexico City, Lima, Santiago, Panama City, San Jose). ~58 million passengers in 2025, top 10 busiest U.S. airports. Terminal C (2022) added 15 international gates.</p>\n\n<h4>Port and Trade Volume</h4>\n\n<p>Florida's seaports handle $150B+ in international trade annually. Port Tampa Bay and Port Canaveral (60-90 min from Orlando) connect Latin America, the Caribbean, and the U.S. interior. Florida is the #1 U.S. state for LATAM/Caribbean trade by value.</p>\n\n<h4>Bilingual Workforce</h4>\n\n<p>30%+ of metro Orlando speaks Spanish. Bilingual accountants, attorneys, marketers, and sales professionals operate across English and Spanish daily. Hiring bilingual staff here costs much less than in Miami.</p>\n\n<h4>Growth Projections</h4>\n\n<p>Florida's LATAM trade grows ~4-5% annually. State population projected to reach 25 million by 2030 (from ~23M in 2025), which means an expanding customer base and workforce.</p>",
-          "wordCount": 172
+          "title": "Following the Current Forward, Your Pathway Through UCF BIP",
+          "content": "<p>You have worked through every major topic in this program: entity setup, finance, IP, hiring, product adaptation, culture, and regional resources. The question now: what concrete support is available next? UCF BIP helps international founders turn knowledge into action. This Phase 1 program is the introduction. The hands-on support comes in phases 2 and 3.</p>\n\n<h4>Phases 2 and 3 of the UCF BIP Market Entry / Soft Landing Program</h4>\n\n<p>Let's break this down. <strong>Phase 2</strong> is for founders who have validated their market opportunity and are ready to establish initial U.S. operations:</p>\n\n<ul><li>One-on-one mentorship with industry-experienced advisors</li><li>UCF BIP workspace and professional business address</li><li>Warm introductions to customers, partners, and service providers</li><li>Advanced workshops: investor readiness, sales strategy, regulatory compliance</li><li>Peer community of international founders at a similar stage</li></ul>\n\n<p><strong>Phase 3</strong> is for founders with initial traction: early customers, revenue, or a signed partnership:</p>\n\n<ul><li>Growth strategy development with experienced advisors</li><li>Investor community connections (when ready)</li><li>Expanded networking through BIP's alumni network and partners</li><li>Operational support for hiring, legal, and financial infrastructure</li><li>Continued workspace and resource access</li></ul>\n\n<p>The transition between phases adapts to your pace. The goal is progress, not speed.</p>",
+          "wordCount": 202
+        },
+        {
+          "type": "text",
+          "id": "text-7-4-cs",
+          "title": "Success Stories: Companies That Benefited from UCF BIP",
+          "content": "<p>International founders have used UCF BIP to launch and grow U.S. operations across a range of industries. Here is a recent graduate of the UCF BIP Soft Landing Program facing a familiar crossroads:</p><h3>Case Study: Freshorize</h3><p><strong>Founded:</strong> 2002 &nbsp;·&nbsp; <strong>Industry:</strong> Airline hygiene &amp; wellbeing products &nbsp;·&nbsp; <strong>Products:</strong> Hand soaps, lotions, sanitizers, aircraft interior cleaners, wellbeing line</p><p>Freshorize had strong success in Europe but hit a ceiling. The EU airline supply market was mature and saturated, meaningful growth was stalling, and the largest opportunities sat with U.S. carriers. The problem: no U.S. customers, no procurement track record with American airlines, and no warm introductions. They needed a way in.</p>",
+          "wordCount": 108
+        },
+        {
+          "type": "scenario",
+          "id": "scenario-7-4-freshorize",
+          "title": "Step Into Freshorize's Shoes",
+          "titleEs": "Póngase en los Zapatos de Freshorize",
+          "description": "It's 2020. You run Freshorize — a European airline hygiene company founded in 2002. Your products are strong, your European brand is solid, but the EU market is saturated and growth has stalled. You want into the U.S. aviation market where the largest airlines are, but you have no U.S. customers, no procurement track record with American airlines, and no warm introductions. What is your next move?",
+          "descriptionEs": "Es 2020. Usted dirige Freshorize, una empresa europea de higiene para aerolíneas fundada en 2002. Sus productos son sólidos, su marca europea es firme, pero el mercado europeo está saturado y el crecimiento se ha estancado. Quiere entrar al mercado de aviación de EE.UU. donde están las aerolíneas más grandes, pero no tiene clientes en EE.UU., ningún historial de adquisiciones con aerolíneas americanas, ni introducciones de confianza. ¿Cuál es su próximo paso?",
+          "paths": [
+            {
+              "label": "Join a structured U.S. market entry program with airline industry connections, even though it means time and a learning curve",
+              "labelEs": "Unirse a un programa estructurado de entrada al mercado de EE.UU. con conexiones en la industria aérea, aunque implique tiempo y una curva de aprendizaje",
+              "outcome": "Correct. This is what Freshorize chose. They joined the UCF BIP Soft Landing Program in Orlando. Why it worked: airline procurement teams do not take meetings with unknown international suppliers, they need warm introductions and credibility signals like compliance, traceability, and supplier history. The program provided the network access and the procurement-readiness coaching needed to clear those gates. Outcome: contracts with Delta Air Lines and United Airlines, plus a scalable U.S. growth pathway.",
+              "outcomeEs": "Correcto. Esto es lo que Freshorize eligió. Se unieron al Programa Soft Landing de UCF BIP en Orlando. Por qué funcionó: los equipos de adquisiciones de aerolíneas no toman reuniones con proveedores internacionales desconocidos, necesitan introducciones de confianza y señales de credibilidad como cumplimiento, trazabilidad e historial de proveedor. El programa les brindó el acceso a la red y la preparación para adquisiciones que necesitaban para superar esas barreras. Resultado: contratos con Delta Air Lines y United Airlines, además de un camino de crecimiento escalable en EE.UU.",
+              "isRecommended": true
+            },
+            {
+              "label": "Hire a U.S.-based salesperson and run direct outreach to airline procurement teams",
+              "labelEs": "Contratar a un vendedor con base en EE.UU. y hacer alcance directo a los equipos de adquisiciones de aerolíneas",
+              "outcome": "This is what most international founders try first, and it usually stalls. Airline buyers receive hundreds of cold outreach attempts. Without warm introductions through industry channels, even a strong U.S. salesperson would spend 12 to 18 months before securing meetings, often without ever closing a contract. Direct outreach without credibility signals does not work in regulated procurement environments. The cost of the failed strategy is rarely just the salesperson's salary, it is the lost market window.",
+              "outcomeEs": "Esto es lo que la mayoría de los fundadores internacionales intentan primero, y suele estancarse. Los compradores de aerolíneas reciben cientos de intentos de contacto en frío. Sin introducciones de confianza a través de canales de la industria, incluso un vendedor sólido en EE.UU. pasaría de 12 a 18 meses antes de conseguir reuniones, a menudo sin cerrar nunca un contrato. El alcance directo sin señales de credibilidad no funciona en entornos de adquisiciones reguladas. El costo de la estrategia fallida rara vez es sólo el salario del vendedor, es la ventana de mercado perdida.",
+              "isRecommended": false
+            },
+            {
+              "label": "Lower prices significantly to undercut U.S. incumbents and win on cost",
+              "labelEs": "Bajar los precios significativamente para superar a los competidores establecidos en EE.UU. y ganar por costo",
+              "outcome": "This is a common instinct but a poor fit for the airline category. U.S. airline procurement decisions weight compliance, traceability, and supplier reliability over price. Aggressive lower pricing in this market often signals 'lower quality' or 'unstable supplier' to buyers. Established suppliers will also match aggressive pricing if needed, and they are protected by long-term procurement contracts and switching costs. Pricing as the entry strategy in regulated B2B sectors typically fails to produce a sustainable position.",
+              "outcomeEs": "Este es un instinto común pero un mal ajuste para la categoría de aerolíneas. Las decisiones de adquisiciones de aerolíneas estadounidenses ponderan cumplimiento, trazabilidad y confiabilidad del proveedor por encima del precio. Precios bajos agresivos en este mercado a menudo señalan 'menor calidad' o 'proveedor inestable' a los compradores. Los proveedores establecidos también igualarán precios agresivos si es necesario, y están protegidos por contratos de adquisición a largo plazo y costos de cambio. El precio como estrategia de entrada en sectores B2B regulados típicamente no produce una posición sostenible.",
+              "isRecommended": false
+            },
+            {
+              "label": "Stay in Europe and pivot to a different product category to reignite growth at home",
+              "labelEs": "Permanecer en Europa y pivotar a una categoría de producto diferente para reactivar el crecimiento en casa",
+              "outcome": "This avoids the U.S. challenge entirely, but it does not solve the underlying problem: a saturated home market with no clear growth ceiling. Pivoting product categories is a legitimate strategy in some cases, but it does not address geographic concentration risk. Freshorize's products were strong, the constraint was geography, not the product itself. The U.S. market represents the largest airline procurement opportunity globally, and avoiding it leaves significant value on the table.",
+              "outcomeEs": "Esto evita el desafío de EE.UU. por completo, pero no resuelve el problema subyacente: un mercado local saturado sin un techo de crecimiento claro. Pivotar a categorías de producto es una estrategia legítima en algunos casos, pero no aborda el riesgo de concentración geográfica. Los productos de Freshorize eran sólidos, la restricción era la geografía, no el producto en sí. El mercado de EE.UU. representa la mayor oportunidad de adquisiciones de aerolíneas a nivel mundial, y evitarlo deja un valor significativo sobre la mesa.",
+              "isRecommended": false
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "text-7-4-cs-results",
+          "title": "What Freshorize Actually Did, and What It Yielded",
+          "content": "<h3>What Freshorize Actually Did, and What It Yielded</h3><p>Freshorize chose the program path. With UCF BIP support, they:</p><ul><li>Refined positioning and supplier credentials for U.S. airline procurement standards</li><li>Got warm introductions to procurement decision-makers at major U.S. carriers</li><li>Navigated early-stage trust barriers without burning through capital on cold outreach</li><li>Built a repeatable sales motion, not a one-off win</li></ul><p>The results:</p><ul><li>Secured contracts with major U.S. airlines including <strong>Delta Air Lines</strong> and <strong>United Airlines</strong></li><li>Successfully expanded from a Europe-centric business into the U.S. aviation market</li><li>Established a scalable growth pathway beyond their original geography</li><li>Recently graduated from the UCF BIP Soft Landing Program</li></ul><blockquote><p><strong>Key Takeaway:</strong> International growth is not just about having a strong product, it is about access, credibility, and the right entry system. The UCF BIP Soft Landing Program provided the bridge from \"proven in Europe\" to \"trusted in the U.S. market.\"</p></blockquote>",
+          "wordCount": 143
         },
         {
           "type": "callout",
           "id": "callout-7-4-funfact",
           "variant": "fun-fact",
           "title": "Did You Know?",
-          "content": "<p>Central Florida's spring-fed rivers — including the St. Johns and the Econlockhatchee — flow eastward and eventually reach the Atlantic Coast, connecting the region's inland springs to open water. The St. Johns River is one of the few rivers in North America that flows north, traveling 310 miles from its headwaters near Vero Beach to the Atlantic Ocean at Jacksonville.</p>"
-        },
-        {
-          "type": "in-lesson-image",
-          "id": "scenario-img-lesson-7-4",
-          "imagePath": "images/scenarios/lesson-7-4-latam-gateway.jpg",
-          "title": "Florida as a gateway connecting Latin American and U.S. business markets"
+          "content": "<p>Wekiwa Springs, one of Central Florida's most popular natural springs, sits just 20 minutes from downtown Orlando. The Timucua people used these springs as a gathering place for trade and community long before European contact. Today, Central Florida's business support organizations are gathering places where business owners, mentors, and resources come together. The ecosystem has always been about connection.</p>"
         },
         {
           "type": "text",
           "id": "text-7-4-2",
-          "title": "How Central Florida Compares",
-          "content": "<p>International founders typically consider four U.S. entry points: Central Florida, Miami, New York City, and Austin or Silicon Valley. Each has real trade-offs in cost, access, culture, and infrastructure. The comparison below breaks down what each market actually offers, and where Central Florida has an edge.</p>",
-          "wordCount": 171
+          "title": "Community Resources for International Founders",
+          "content": "<p>UCF BIP is one spring feeding into a much larger river. Several partner organizations work alongside it, each serving a different need. You do not have to use all of them. Pick the ones that match where your business is right now and save the rest for later.</p>\n\n<h4>Hispanic Chamber of Commerce of Metro Orlando</h4>\n\n<p>Membership costs $200–$400 per year and gives you access to networking events, business workshops, and advocacy. Monthly events connect you with established bilingual business owners and service providers who understand both the U.S. market and the Latin American business mindset. Many founders find their first local partner or customer referral through chamber connections.</p>\n\n<h4>Prospera</h4>\n\n<p>This nonprofit supports Hispanic entrepreneurs through one-on-one mentoring, business training, and access to micro-lending. Programs are free or low-cost. What makes it especially useful is that the mentors have navigated the same cultural and business transition you are going through. They understand the challenges firsthand.</p>\n\n<h4>CFITO (Central Florida International Trade Office)</h4>\n\n<p>If your business involves import, export, or cross-border trade between Latin America, the Caribbean, and the United States, this is the organization to contact. They run structured trade delegations that include market research, partner identification, and face-to-face meetings with buyers and distributors.</p>\n\n<h4>SCORE</h4>\n\n<p>A national program that provides free business mentoring from volunteer advisors, many of them retired executives with decades of experience. The Orlando chapter matches you with a mentor in your industry for ongoing coaching. Sessions are free and available in person or virtually.</p>",
+          "wordCount": 213
         },
         {
-          "type": "tabs",
+          "type": "callout",
+          "id": "callout-7-4-reduce",
+          "variant": "reduce-risk",
+          "title": "Reduce Risk: Don't Go It Alone",
+          "content": "<p>The founders who succeed in the U.S. market use their support network. They join chambers, attend SBDC workshops, participate in UCF BIP advisory sessions, and connect with mentors through SCORE. The cost of joining is small. The cost of going alone is high. Founders who have been through it say the same thing: the network mattered as much as the knowledge.</p>"
+        },
+        {
+          "type": "text",
+          "id": "text-7-4-3",
+          "title": "Your Next Steps After This Program",
+          "content": "<p>Now, let's get concrete. You are almost finished with Phase 1. Here is what happens next:</p>\n\n<h4>Step 1: Complete the Self-Assessment (Module 8)</h4>\n\n<p>A structured self-assessment of your U.S. market readiness, not a test, but a tool to identify confident areas and gaps. The results guide your UCF BIP conversation.</p>\n\n<h4>Step 2: Schedule a 1:1 Meeting with UCF BIP</h4>\n\n<p>Your chance to:</p>\n\n<ul><li>Discuss your specific business and market entry plans</li><li>Ask about phases 2 and 3 of the market entry/soft landing program</li><li>Get tailored resource recommendations</li><li>Identify your three to five most important next steps</li></ul>\n\n<h4>Step 3: Connect with Your Support Network</h4>\n\n<p>Before your 1:1, take one concrete action:</p>\n\n<ul><li>Schedule a free SBDC counseling session (sbdcorlando.com)</li><li>Register for a chamber or networking event</li><li>Contact CFITO about trade programs</li><li>Sign up for SCORE mentoring</li></ul>\n\n<p>Showing up already in motion helps the team advise you more effectively.</p>",
+          "wordCount": 142
+        },
+        {
+          "type": "checklist",
           "id": "int-7-4-1",
-          "title": "Central Florida vs. Other U.S. Entry Points",
-          "tabs": [
-            {
-              "label": "Central Florida",
-              "content": "**Cost of living:** 15–30% below coastal metros\n\n**Office space:** $22–$35/sq ft (Class A)\n\n**Tax advantage:** No state income tax\n\n**LATAM community:** Large and growing — strong Brazilian, Colombian, Venezuelan presence\n\n**Industry focus:** Tech, simulation, hospitality, healthcare, defense\n\n**Best for:** Cost-conscious founders who want access to talent and a supportive ecosystem"
-            },
-            {
-              "label": "Miami",
-              "content": "**Cost of living:** 20–40% higher than Orlando\n\n**Office space:** $45–$65/sq ft (Class A)\n\n**Tax advantage:** No state income tax (same as Orlando)\n\n**LATAM community:** Largest in the U.S. — business conducted in Spanish/Portuguese\n\n**Industry focus:** Finance, real estate, trade, crypto\n\n**Best for:** FinTech founders who need proximity to Latin American trade routes"
-            },
-            {
-              "label": "New York City",
-              "content": "**Cost of living:** 2–3x higher than Orlando\n\n**Office space:** $60–$100+/sq ft\n\n**Tax burden:** State + city income tax (up to 12.7% combined)\n\n**LATAM community:** Large but dispersed across metro area\n\n**Industry focus:** Finance, media, fashion, enterprise SaaS\n\n**Best for:** Founders targeting Fortune 500 enterprise sales who need face-to-face access"
-            },
-            {
-              "label": "Austin / Silicon Valley",
-              "content": "**Cost of living:** Austin: comparable to Orlando. SV: 2–4x higher.\n\n**Office space:** Austin: $35–$55/sq ft. SV: $60–$90/sq ft\n\n**Tax advantage:** Texas: no state income tax. California: up to 13.3%\n\n**LATAM community:** Growing in Austin, moderate in SV\n\n**Industry focus:** Deep tech, AI, enterprise, VC ecosystem\n\n**Best for:** Founders seeking VC funding who need to be in the 'startup capital' network"
-            }
+          "title": "UCF BIP Application Readiness Checklist",
+          "items": [
+            "Company is incorporated (or ready to incorporate) in the U.S.",
+            "Have a clear product or service with initial market validation",
+            "Identified target customer segment in the U.S. market",
+            "Leadership team committed to U.S. market entry",
+            "Reviewed UCF BIP Phase 2 and Phase 3 program requirements",
+            "Prepared a 1-page company overview for application",
+            "Identified which UCF BIP track matches your stage (Traction, Growth, or Soft Landing)",
+            "Ready to commit time for program activities and mentorship"
           ]
         },
         {
-          "type": "data-visualization",
-          "id": "dataviz-7-4",
-          "title": "Your Dollar Goes Further — Startup Runway by City",
-          "chartType": "comparison-bars-with-runway",
-          "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Your Dollar Goes Further — Startup Runway by City</h3><p style=\"margin: 0 0 20px 0; font-size: 0.85rem; color: #666;\">How long $500K seed money lasts based on monthly burn rate</p><div style=\"display: flex; flex-direction: column; gap: 14px;\"><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.88rem; font-weight: 700; color: #E8A838;\">Central Florida</span><span style=\"font-size: 0.78rem; color: #666;\">$30K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 38px; overflow: hidden;\"><div style=\"width: 100%; height: 100%; background: linear-gradient(90deg, #E8A838 0%, #F5C842 100%); border-radius: 4px; display: flex; align-items: center; justify-content: space-between; padding: 0 12px;\"><span style=\"font-size: 0.82rem; font-weight: 700; color: #fff;\">16.7 months</span><span style=\"font-size: 0.7rem; font-weight: 500; color: rgba(255,255,255,0.9);\">+6.7 mo vs SV</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Austin</span><span style=\"font-size: 0.78rem; color: #666;\">$38K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 79%; height: 100%; background: #48B07A; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">13.2 months</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Miami</span><span style=\"font-size: 0.78rem; color: #666;\">$42K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 71%; height: 100%; background: #2C5F8A; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">11.9 months</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">Silicon Valley</span><span style=\"font-size: 0.78rem; color: #666;\">$50K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 60%; height: 100%; background: #D4622B; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">10.0 months</span></div></div></div><div><div style=\"display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;\"><span style=\"font-size: 0.85rem; font-weight: 600;\">NYC</span><span style=\"font-size: 0.78rem; color: #666;\">$55K/mo burn</span></div><div style=\"background: #e0ddd7; border-radius: 4px; height: 34px; overflow: hidden;\"><div style=\"width: 55%; height: 100%; background: #1A3A5C; border-radius: 4px; display: flex; align-items: center; padding-left: 12px;\"><span style=\"font-size: 0.8rem; font-weight: 600; color: #fff;\">9.1 months</span></div></div></div></div><div style=\"margin-top: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;\"><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">LATAM Direct Flights (MCO)</div><div style=\"font-size: 1rem; font-weight: 700; color: #1A3A5C;\">30+ cities</div></div><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">Bilingual Workforce</div><div style=\"font-size: 1rem; font-weight: 700; color: #1A3A5C;\">30%+ of metro</div></div><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">State Income Tax</div><div style=\"font-size: 1rem; font-weight: 700; color: #48B07A;\">0%</div></div><div style=\"background: #fff; border: 1px solid #e0ddd7; border-radius: 6px; padding: 10px 12px; text-align: center;\"><div style=\"font-size: 0.72rem; color: #666; margin-bottom: 2px;\">Florida VC (2024)</div><div style=\"font-size: 1rem; font-weight: 700; color: #1A3A5C;\">~$5.5B</div></div></div><div style=\"margin-top: 16px; background: #1A3A5C; color: #fff; padding: 12px 16px; border-radius: 6px; font-size: 0.85rem; text-align: center;\">Central Florida gives you <strong>6–7 extra months</strong> of runway compared to Silicon Valley on the same $500K seed round.</div></div>",
-          "data": {
-            "seedFunding": 500000,
-            "cities": [
-              {
-                "label": "Central Florida",
-                "monthlyBurn": 30000,
-                "runway": 16.7,
-                "color": "#E8A838",
-                "highlight": true
-              },
-              {
-                "label": "Austin",
-                "monthlyBurn": 38000,
-                "runway": 13.2,
-                "color": "#48B07A"
-              },
-              {
-                "label": "Miami",
-                "monthlyBurn": 42000,
-                "runway": 11.9,
-                "color": "#2C5F8A"
-              },
-              {
-                "label": "NYC",
-                "monthlyBurn": 55000,
-                "runway": 9.1,
-                "color": "#1A3A5C"
-              },
-              {
-                "label": "Silicon Valley",
-                "monthlyBurn": 50000,
-                "runway": 10,
-                "color": "#D4622B"
-              }
-            ],
-            "insight": "Central Florida gives you 6-7 extra months of runway compared to Silicon Valley on the same $500K seed round.",
-            "supplementary": {
-              "title": "Key Location Factors",
-              "items": [
-                {
-                  "label": "LATAM Direct Flights (MCO)",
-                  "value": "30+ cities"
-                },
-                {
-                  "label": "Bilingual Workforce",
-                  "value": "30%+ of metro Orlando"
-                },
-                {
-                  "label": "State Income Tax",
-                  "value": "0% (Florida)"
-                },
-                {
-                  "label": "Florida VC (2024)",
-                  "value": "~$5.5B (~4% of U.S.)"
-                }
-              ]
+          "type": "tabs",
+          "id": "int-7-4-bip-phases",
+          "title": "Match Your Stage to the Right UCF BIP Phase",
+          "tabs": [
+            {
+              "label": "Phase 1: U.S. Market Readiness (Where You Are Now)",
+              "content": "**For founders evaluating whether to expand to the U.S.**\n\nPhase 1 is the program you are completing right now. It is designed for international founders who have a working business in their home country and are considering U.S. expansion.\n\n**What you get:**\n- Self-paced online curriculum (8 modules, ~3 hours)\n- 1:1 strategy session with the UCF BIP team after completion\n- Access to Central Florida Resource Guide and decision worksheets\n- Bilingual support (English and Spanish)\n\n**Best fit:** You are still validating whether U.S. expansion makes sense for your business. You want a structured way to surface the questions you have not yet answered.\n\n**Cost:** No fee for Phase 1.\n\n**Outcome:** A clear go/no-go decision, plus a prioritized list of gaps to close before you take the next step."
+            },
+            {
+              "label": "Phase 2: Incubation (Active Setup)",
+              "content": "**For founders who have decided to enter the U.S. and are setting up operations.**\n\nPhase 2 is hands-on incubation: you have a U.S. entity (or are forming one), and you are working through the operational steps that turn a plan into a running business in Central Florida.\n\n**What you get:**\n- Dedicated incubation manager and quarterly business reviews\n- Discounted office space at one of UCF's incubator locations across Central Florida\n- Introductions to attorneys, accountants, banks, and service providers experienced with international founders\n- Access to UCF research, talent (interns, recent grads), and faculty consults\n- Workshops on hiring, sales, fundraising, and U.S. business culture\n\n**Best fit:** You have validated your opportunity, you are setting up or have just set up your U.S. entity, and you need infrastructure plus a peer network.\n\n**Cost:** Membership fee varies by site and stage. Contact your 1:1 advisor for current pricing.\n\n**Outcome:** A functioning U.S. operation with a board of advisors and the operational infrastructure to scale."
+            },
+            {
+              "label": "Phase 3: Acceleration (Scaling)",
+              "content": "**For founders with U.S. revenue and product-market fit, ready to scale.**\n\nPhase 3 is for established UCF BIP companies that have moved beyond setup and are scaling their U.S. business: hiring teams, raising capital, expanding into multiple markets.\n\n**What you get:**\n- Curated investor introductions (angel, VC, family offices)\n- Strategic advisors matched to your sector and stage\n- Access to UCF's broader corporate partner network (Lockheed, AdventHealth, Walt Disney, Siemens, and others)\n- Co-marketing opportunities with the regional economic development partners\n- Acceleration cohort programs (specific industry verticals or growth stages)\n\n**Best fit:** You have $500K+ U.S. revenue, a working U.S. team, and a credible plan to grow significantly over the next 12-18 months.\n\n**Cost:** Higher membership fee; some programs are equity-based or success-fee based.\n\n**Outcome:** Capital raised, partnerships closed, and a clear runway to your next major milestone (Series A, profitability, or exit)."
             }
-          },
-          "accessibilityNote": "Horizontal bar chart showing startup runway from a $500K seed round in 5 cities. Central Florida leads with 16.7 months at $30K monthly burn, highlighted in gold. Austin gets 13.2 months at $38K burn. Miami gets 11.9 months at $42K burn. Silicon Valley gets 10.0 months at $50K burn. NYC gets 9.1 months at $55K burn. Central Florida provides 6 to 7 extra months of runway compared to Silicon Valley. Supplementary data shows 30+ LATAM direct flights from MCO, 30%+ bilingual workforce, 0% state income tax, and approximately $5.5B in Florida venture capital in 2024."
-        },
-        {
-          "type": "callout",
-          "id": "callout-7-4-latam",
-          "variant": "latam-supplement",
-          "title": "Latin America Focus — Trade Data Resources",
-          "content": "<ul><li><strong>CFITO upcoming trade delegations</strong>. Check cfito.org for the current calendar of delegations to Latin American markets</li><li><strong>SelectFlorida</strong>. International business development resources and trade data from the state of Florida (selectflorida.org)</li><li><strong>Florida Department of State, Office of International Affairs</strong>. State-level trade statistics and international business relationships (dos.fl.gov)</li><li><strong>Orange County Global Investment Office</strong>. Local government resources and FDI data for international businesses locating in Orange County</li></ul>"
-        },
-        {
-          "type": "callout",
-          "id": "callout-7-4-rc",
-          "variant": "reality-check",
-          "title": "Reality Check — Numbers Don’t Tell the Whole Story",
-          "content": "<p>The data favors Central Florida on cost and trade connectivity, but be honest about what the numbers do NOT capture:</p>\n\n<ul><li><strong>Vehicle costs add $300-$600/month.</strong> Orlando is car-dependent. Public transit is limited. Factor this into your cost comparison. It partially offsets the housing savings vs. NYC (where you may not need a car).</li><li><strong>The tech talent pool is smaller.</strong> UCF produces 10,000+ STEM grads/year, but the total tech workforce is a fraction of NYC’s or Silicon Valley’s. Specialized roles (ML engineers, senior DevOps) may require remote hiring.</li><li><strong>VC funding is growing but concentrated elsewhere.</strong> Florida attracted about $5.5B in venture capital in 2024 — roughly 4% of the U.S. total. California captured 48%. Build traction here, but plan to pitch investors nationally.</li></ul>\n\n<p>These gaps are measurable and manageable, but factor them into your choice.</p>"
+          ]
         },
         {
           "type": "knowledge-check",
@@ -948,37 +939,37 @@
           "placement": "end-of-lesson",
           "questions": [
             {
-              "stem": "What combination of data points makes Central Florida a strong LATAM trade corridor?",
+              "stem": "What is the PRIMARY difference between Phase 2 and Phase 3 of the UCF BIP market entry/soft landing program?",
               "options": [
-                "Zero state income tax and low LLC filing fees",
-                "30+ direct flights to Latin American cities from MCO, Florida's #1 ranking in U.S.-LATAM trade by value, and a 30%+ Spanish-speaking metro population",
-                "A growing tech workforce, 10,000+ STEM graduates per year, and developer salaries below the national average",
-                "Strong port infrastructure, a cost of living index near the national average, and $150B+ in regional GDP"
+                "Phase 2 is free and Phase 3 requires payment",
+                "Phase 2 focuses on establishing initial U.S. operations, while Phase 3 focuses on scaling with early traction",
+                "Phase 2 is for technology companies only, Phase 3 is for all industries",
+                "Phase 2 is virtual and Phase 3 requires physical relocation to Orlando"
               ],
               "correctAnswer": 1,
-              "explanation": "The trade corridor argument is built on three data points: air connectivity (30+ direct LATAM routes from MCO), trade volume (Florida is the #1 U.S. state for trade with Latin America and the Caribbean by value, with $150B+ through Florida ports annually), and workforce (30%+ of metro Orlando speaks Spanish). Together, these numbers show that Central Florida is structurally positioned as a U.S.-LATAM business bridge."
+              "explanation": "Phase 2 is designed for founders who have validated their market opportunity and are ready to establish initial U.S. operations (workspace, mentorship, introductions). Phase 3 is for founders who already have early traction: customers, revenue, or partnerships, and need support scaling. The phases match different business stages, not different industries."
             },
             {
-              "stem": "A Brazilian SaaS founder is comparing Austin and Central Florida. Both have zero state income tax and similar costs of living. What is Central Florida’s primary advantage over Austin for a LATAM-focused business?",
+              "stem": "A Spanish-speaking entrepreneur from Ecuador wants free, bilingual mentoring and market research support tailored to Hispanic entrepreneurs. Which organization should she contact first?",
               "options": [
-                "Central Florida has a significantly larger tech talent pool and more venture capital funding than Austin",
-                "Central Florida offers structured international support programs (SBDC, CFITO, UCF BIP, Hispanic Chamber) and a LATAM trade corridor with 30+ direct flights that Austin lacks",
-                "Central Florida has lower developer salaries and cheaper office space than Austin",
-                "Central Florida’s tourism industry creates more B2B demand for SaaS products than Austin’s tech sector"
+                "SCORE, they provide volunteer business mentors matched by industry",
+                "Orlando Economic Partnership, they focus on attracting international businesses",
+                "Prospera, a nonprofit dedicated to supporting Hispanic entrepreneurs with bilingual mentoring, training, and micro-lending",
+                "CFITO, they organize trade delegations to Latin American markets"
               ],
-              "correctAnswer": 1,
-              "explanation": "Austin and Central Florida are close on cost (COL 108 vs. 98). Austin’s advantage is tech brand recognition. Central Florida’s advantage for LATAM founders is its structured international support infrastructure (SBDC, CFITO, UCF BIP, Hispanic Chamber) and the LATAM trade corridor — direct flights to 30+ Latin American cities, $150B+ in Florida port trade, and a 30%+ Spanish-speaking workforce. These are resources Austin simply does not have."
+              "correctAnswer": 2,
+              "explanation": "Prospera is a nonprofit specifically dedicated to supporting Hispanic entrepreneurs in Florida. Their programs include one-on-one bilingual mentoring, business training workshops, and access to micro-lending programs. Their advisors understand the specific challenges Latin American founders face in the U.S. market, and services are free or low-cost."
             },
             {
-              "stem": "The Reality Check section identifies three trade-offs of choosing Central Florida. Which combination accurately represents those limitations?",
+              "stem": "A founder from Costa Rica has just finished this Phase 1 program and is eager to move forward. He has not yet contacted any local organizations. According to the lesson's guidance on next steps, what sequence of actions should he take to engage with UCF BIP most effectively?",
               "options": [
-                "High crime rates, poor school systems, and limited healthcare access",
-                "Car-dependent transportation ($300-$600/month), a smaller specialized tech talent pool requiring remote hiring, and VC funding concentrated outside Florida (only ~4% of U.S. total)",
-                "Extreme weather risk, saturated startup market, and declining population growth",
-                "Limited international flight routes, expensive bilingual labor, and high commercial real estate costs"
+                "Apply directly to Phase 3 since he is ready to scale his business in the U.S. market",
+                "Wait until he has his first U.S. customer before contacting UCF BIP, since the program is only for founders with existing traction",
+                "Skip the 1:1 meeting and instead attend as many networking events as possible to build connections independently",
+                "Complete the Module 8 self-assessment and Expansion Decision Worksheet, take one concrete action like scheduling an SBDC session or registering for a chamber event, then bring those results to his 1:1 meeting with the UCF BIP team"
               ],
-              "correctAnswer": 1,
-              "explanation": "The Reality Check identifies three specific, data-backed trade-offs: (1) Orlando is car-dependent, adding $300-$600/month in vehicle costs that partially offset housing savings vs. NYC; (2) the tech talent pool is smaller than NYC or Silicon Valley, requiring remote hiring for specialized roles; and (3) Florida attracted only ~4% of U.S. venture capital in 2024 vs. California’s 48%, meaning founders should build traction locally but pitch investors nationally."
+              "correctAnswer": 3,
+              "explanation": "The lesson outlines a three-step sequence: (1) complete the self-assessment in Module 8 to identify strengths and gaps, (2) take one concrete action such as scheduling SBDC counseling or registering for a networking event, and (3) bring those results to the 1:1 meeting with UCF BIP. Showing up already in motion helps the team advise more effectively. Phase 3 is for business owners with early traction, not pre-entry founders, and the 1:1 meeting is a key part of the process, not something to skip."
             }
           ]
         },
@@ -986,7 +977,7 @@
           "type": "key-takeaway",
           "id": "kt-7-4-1",
           "title": "Key Takeaway",
-          "content": "<p>The LATAM trade corridor is backed by 30+ direct flight routes from MCO, $150B+ in annual Florida port trade, and a 30%+ Spanish-speaking metro workforce. City-by-city, Central Florida offers more runway than Miami, NYC, or Silicon Valley, and more international infrastructure than Austin. But factor in the trade-offs: car costs, a smaller specialized talent pool, and VC funding concentrated on the coasts. Apply these data points to your own business plan with the Location Decision Framework exercise.</p>"
+          "content": "<p>UCF BIP and the Central Florida ecosystem exist to help you succeed. Like a river fed by dozens of springs, the support network is deep and it keeps flowing. Phase 1 (this program) gave you the knowledge. Phases 2 and 3 of the UCF BIP market entry/soft landing program give you the hands-on support: mentorship, workspace, introductions, and structured advisory. Your next step: complete the self-assessment in Module 8, then schedule your 1:1 meeting with the UCF BIP team. The founders who step into the current this week are the ones who build momentum.</p>"
         }
       ]
     }

@@ -14,7 +14,7 @@
       "type": "text",
       "id": "text-3-3-1",
       "title": "DIY or Call an Expert?",
-      "content": "<p>You have secured your intellectual property and your insurance is in place. Now comes the last major question for this module: which decisions can you make on your own, and which ones require a specialist?</p>\n\n<p>A business attorney in Central Florida charges $200 to $400 per hour. Call one for every question and you will burn through your budget fast. A founder from Ecuador saved $3,000 by filing his own LLC and EIN, then spent $800 on an attorney for the operating agreement and a major client contract. The comparison below shows where you can save and where you should invest.</p>",
+      "content": "<p>Your intellectual property is secured and your insurance is in place. The last major question for this module: which decisions can you make on your own, and which ones require a specialist?</p>\n\n<p>A business attorney in Central Florida charges $200–$400 per hour. Call one for every question and you will burn through your budget fast. A founder from India saved $3,000 by filing his own LLC and EIN, then spent $800 on an attorney for the operating agreement and a major client contract. The comparison below shows where you can save and where you should invest.</p>",
       "wordCount": 197
     },
     {
@@ -32,7 +32,7 @@
         {
           "heading": "Handle It Yourself",
           "items": [
-            "[SunBiz](https://sunbiz.org) entity filing (LLC or Corp — $125)",
+            "[SunBiz](https://sunbiz.org) entity filing (LLC or Corp, $125)",
             "EIN application with the IRS (free)",
             "Basic NDA using a reputable template",
             "Sales tax registration with Florida DOR (free)",
@@ -57,7 +57,7 @@
     {
       "type": "table",
       "id": "table-3-3-1",
-      "title": "Legal Costs — Realistic Ranges",
+      "title": "Legal Costs: Realistic Ranges",
       "table": {
         "headers": [
           "Service",
@@ -121,7 +121,7 @@
     {
       "type": "timeline",
       "id": "int-3-3-1",
-      "title": "When Do You Need a Lawyer? — Decision Timeline",
+      "title": "When Do You Need a Lawyer?: Decision Timeline",
       "steps": [
         {
           "label": "Formation",
@@ -161,7 +161,7 @@
       "type": "callout",
       "id": "callout-3-3-2",
       "variant": "latam-supplement",
-      "title": "Latin America Resources — Legal",
+      "title": "Latin America Resources: Legal",
       "content": "<p>Central Florida has a strong network of bilingual attorneys who specialize in international business:</p>\n\n<ul><li><strong>[Hispanic Bar Association of Central Florida](https://hbacf.com/):</strong> Attorney referrals by specialty, networking events, and pro bono programs</li><li><strong>[Prospera](https://prosperausa.org/):</strong> Offers legal workshops for Hispanic entrepreneurs, including business formation and contract basics</li><li><strong>[UCF BIP network](https://incubator.ucf.edu/):</strong> Access to vetted attorneys who regularly work with international founders from Latin America</li></ul>\n\n<p>Having an attorney who speaks your language and understands your cultural context can make a significant difference, especially for immigration-linked business decisions.</p>"
     },
     {
@@ -185,7 +185,7 @@
             "Structuring a business to support an E-2 visa application"
           ],
           "correctAnswer": 0,
-          "explanation": "[SunBiz](https://sunbiz.org) LLC filing is straightforward and can be completed online for $125 without legal assistance. Investor agreements, IP disputes, and immigration-linked business structuring all involve significant legal complexity and financial risk — these situations warrant professional legal counsel."
+          "explanation": "[SunBiz](https://sunbiz.org) LLC filing is straightforward and can be completed online for $125 without legal assistance. Investor agreements, IP disputes, and immigration-linked business structuring all involve significant legal complexity and financial risk, these situations warrant professional legal counsel."
         },
         {
           "stem": "A founder needs to structure her U.S. business in a way that supports her E-2 visa application. She already has a business attorney who handled her LLC formation. What should she do?",
@@ -199,12 +199,12 @@
           "explanation": "Immigration-linked business structuring requires an immigration attorney, not a general business attorney. Just as you would not go to a cardiologist for a broken arm, visa-related decisions need a specialist who understands how business structure affects immigration status. The business attorney handles corporate matters; the immigration attorney handles visa-specific requirements."
         },
         {
-          "stem": "A founder from Indonesia is planning her first year of U.S. operations. She needs an LLC formation with operating agreement, one client service contract reviewed, and a trademark filing. Using the cost ranges from this lesson, what is the most realistic total legal budget she should set aside?",
+          "stem": "A business owner from Indonesia is planning her first year of U.S. operations. She needs an LLC formation with operating agreement, one client service contract reviewed, and a trademark filing. Using the cost ranges from this lesson, what is the most realistic total legal budget she should set aside?",
           "options": [
-            "Under $500 — she can handle everything herself using free online tools",
-            "$1,200–$3,000 — covering attorney-assisted entity formation ($500–$1,500), contract review ($200–$500), and trademark filing with attorney ($500–$1,000 plus [USPTO](https://www.uspto.gov) fees)",
-            "$10,000–$20,000 — U.S. legal services are extremely expensive for all tasks",
-            "$5,000–$8,000 — she needs a full-time attorney on retainer for the first year"
+            "Under $500, she can handle everything herself using free online tools",
+            "$1,200–$3,000, covering attorney-assisted entity formation ($500–$1,500), contract review ($200–$500), and trademark filing with attorney ($500–$1,000 plus [USPTO](https://www.uspto.gov) fees)",
+            "$10,000–$20,000, U.S. legal services are extremely expensive for all tasks",
+            "$5,000–$8,000, she needs a full-time attorney on retainer for the first year"
           ],
           "correctAnswer": 1,
           "explanation": "Based on the cost ranges in this lesson: entity formation with attorney runs $500–$1,500, contract review is $200–$500 per document, and trademark filing with attorney is $500–$1,000 plus the $250–$350 [USPTO](https://www.uspto.gov) fee. The total falls in the $1,200–$3,000 range. Option A underestimates the cost of attorney involvement. Options C and D significantly overestimate the costs for these specific services."
@@ -215,7 +215,7 @@
       "type": "key-takeaway",
       "id": "kt-3-3-1",
       "title": "Key Takeaway",
-      "content": "<p>Use free resources first: SBDC counseling, [UCF BIP](https://incubator.ucf.edu) referrals, and Florida Bar referral services. Handle simple filings yourself ([SunBiz](https://sunbiz.org), EIN, sales tax registration). Save your attorney budget for the decisions that carry real risk — investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Apply this principle: ask for flat fees, verify international experience, and always get the fee agreement in writing. Evaluate each legal need against the cost tables above before you commit. Make sure the right specialists are in the room before you make decisions that affect your business long-term.</p>"
+      "content": "<p>Use free resources first: SBDC counseling, [UCF BIP](https://incubator.ucf.edu) referrals, and Florida Bar referral services. Handle simple filings yourself ([SunBiz](https://sunbiz.org), EIN, sales tax registration). Save your attorney budget for decisions that carry real risk: investor agreements, IP protection, immigration-linked structuring, and contracts worth serious money. Ask for flat fees, verify international experience, and get the fee agreement in writing. Make sure the right specialists are in the room before you make decisions that affect your business long-term.</p>"
     }
   ]
 }

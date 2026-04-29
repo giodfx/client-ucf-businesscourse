@@ -28,6 +28,8 @@
   var debug = (window.location.search.indexOf('scorm_debug=1') !== -1); // Enable via ?scorm_debug=1
   var isUnloading = false; // Set true during page dismissal
   var isInIframe = (window !== window.top); // True when running inside an iframe (e.g., DLCS mode)
+  var sessionStartMs = null; // Wall-clock timestamp when Initialize succeeded
+  var periodicCommitTimer = null;
 
   // ============================================================================
   // PRIVATE FUNCTIONS
@@ -53,34 +55,40 @@
     var maxAttempts = 500; // Prevent infinite loops
 
     while (win && attempts < maxAttempts) {
-      // Check for SCORM 2004 API first
-      if (win.API_1484_11) {
-        log('Found SCORM 2004 API');
-        scormVersion = '2004';
-        return win.API_1484_11;
+      // Every property access on a cross-origin parent throws SecurityError.
+      // Wrap each check so one frame-boundary crossing doesn't kill the whole walk.
+      try {
+        if (win.API_1484_11) {
+          log('Found SCORM 2004 API');
+          scormVersion = '2004';
+          return win.API_1484_11;
+        }
+        if (win.API) {
+          log('Found SCORM 1.2 API');
+          scormVersion = '1.2';
+          return win.API;
+        }
+      } catch (e) {
+        log('Cross-origin frame, skipping', e && e.message);
       }
 
-      // Check for SCORM 1.2 API
-      if (win.API) {
-        log('Found SCORM 1.2 API');
-        scormVersion = '1.2';
-        return win.API;
-      }
-
-      // Stop if we've reached the top
-      if (win.parent === win) {
+      try {
+        if (win.parent === win) break;
+        win = win.parent;
+      } catch (e) {
+        log('Cannot access win.parent (cross-origin) — stopping walk');
         break;
       }
-
-      win = win.parent;
       attempts++;
     }
 
     // Also check opener window (for popup scenarios)
-    if (window.opener && window.opener !== window) {
-      var openerAPI = findAPI(window.opener);
-      if (openerAPI) return openerAPI;
-    }
+    try {
+      if (window.opener && window.opener !== window) {
+        var openerAPI = findAPI(window.opener);
+        if (openerAPI) return openerAPI;
+      }
+    } catch (e) { /* opener may be cross-origin */ }
 
     return null;
   }
@@ -126,6 +134,50 @@
         : API.LMSGetErrorString(errorCode);
     } catch (e) {
       return '';
+    }
+  }
+
+  // ============================================================================
+  // SESSION TIME TRACKING
+  // ============================================================================
+
+  // ISO 8601 duration format required by SCORM 2004 (e.g. "PT1H30M45S").
+  // SCORM 1.2 uses a different format ("HH:MM:SS.SS") — handled below.
+  function formatDurationIso8601(seconds) {
+    seconds = Math.max(0, Math.floor(seconds));
+    var h = Math.floor(seconds / 3600);
+    var m = Math.floor((seconds % 3600) / 60);
+    var s = seconds % 60;
+    var out = 'PT';
+    if (h > 0) out += h + 'H';
+    if (m > 0) out += m + 'M';
+    out += s + 'S';
+    return out;
+  }
+
+  function formatDurationHms(seconds) {
+    seconds = Math.max(0, Math.floor(seconds));
+    var h = Math.floor(seconds / 3600);
+    var m = Math.floor((seconds % 3600) / 60);
+    var s = seconds % 60;
+    var pad = function(n) { return n < 10 ? '0' + n : String(n); };
+    return pad(h) + ':' + pad(m) + ':' + pad(s) + '.0';
+  }
+
+  // Called right before every Commit() so the LMS sees up-to-date session time.
+  // SCORM 2004: cmi.session_time, ISO 8601 duration.
+  // SCORM 1.2:  cmi.core.session_time, HHHH:MM:SS.SS format.
+  function updateSessionTime() {
+    if (!initialized || standalone || sessionStartMs === null || !API) return;
+    var elapsedSec = (Date.now() - sessionStartMs) / 1000;
+    try {
+      if (scormVersion === '2004') {
+        API.SetValue('cmi.session_time', formatDurationIso8601(elapsedSec));
+      } else {
+        API.LMSSetValue('cmi.core.session_time', formatDurationHms(elapsedSec));
+      }
+    } catch (e) {
+      log('updateSessionTime threw', e && e.message);
     }
   }
 
@@ -212,6 +264,7 @@
         var wasStandalonePre = standalone;
         initialized = true;
         standalone = false;
+        if (sessionStartMs === null) sessionStartMs = Date.now();
         this._stopRetry();
         if (wasStandalonePre) {
           this._migrateFromStorage();
@@ -228,6 +281,7 @@
           var wasStandalone = standalone;
           initialized = true;
           standalone = false;
+          if (sessionStartMs === null) sessionStartMs = Date.now();
           log('LMS Initialize successful (SCORM ' + scormVersion + ')');
           this._stopRetry();
 
@@ -418,13 +472,9 @@
         return true; // No commit needed in standalone
       }
 
-      // In an iframe during page dismissal, skip the commit — it uses sync XHR
-      // which Chrome blocks ("Synchronous XHR in page dismissal"). The parent
-      // handles final persistence via navigator.sendBeacon().
-      if (isUnloading && isInIframe) {
-        log('Skipping commit during page unload (parent handles via sendBeacon)');
-        return true;
-      }
+      // Stamp the current session duration so the LMS sees real time-on-task.
+      // SCORM 2004: cmi.session_time; SCORM 1.2: cmi.core.session_time.
+      updateSessionTime();
 
       try {
         var result = scormVersion === '2004'
@@ -438,7 +488,9 @@
         log('Commit successful');
         return true;
       } catch (e) {
-        logError('Exception in commit', e);
+        // Expected on iframe unload under scorm-again (sync XHR blocked).
+        // Safe to swallow — other LMSs' in-page APIs succeed synchronously.
+        log('Commit exception (likely page-unload in scorm-again iframe)', e && e.message);
         return false;
       }
     },
@@ -872,6 +924,68 @@
       }
 
       return true;
+    },
+
+    // ========================================================================
+    // INTERACTIVE ENGAGEMENT TRACKING (non-SCORM-standard)
+    // ========================================================================
+    //
+    // Captures formative widget engagement (flashcards, tabs, pillars,
+    // drag-drop, etc.) into suspend_data.ix so the LMS gradebook can show
+    // "Interactive Activities" per week. The shape matches what the
+    // Didactax / LearningXperience gradebook expects:
+    //
+    //   sd.ix = {
+    //     "1": {                         // container/week number
+    //       "flashcard-intro": {
+    //         t: "flashcard",             // type for teacher filtering
+    //         c: 3,                       // interaction count
+    //         s: null                     // score (null = unscored formative)
+    //       }
+    //     }
+    //   }
+    //
+    // TWO WAYS to record:
+    //
+    //   1. Direct JS call:
+    //        SCORM.recordInteractive('flashcard', 'card-1-2-a');
+    //
+    //   2. Declarative via HTML attribute (preferred — no JS wiring needed):
+    //        <button data-track-interactive="flashcard" data-interactive-id="card-1-2-a">
+    //      A click on any descendant of such an element records automatically.
+    //
+    // Does NOT commit immediately — scorm-again's autocommit at 10s picks
+    // up the suspend_data change. Keeps write pressure low.
+    recordInteractive: function(type, id, metadata) {
+      if (!initialized || standalone) return false;
+      try {
+        var lessonId = (metadata && metadata.lessonId)
+          || (document.body && document.body.dataset && document.body.dataset.lessonId)
+          || '';
+        var m = String(lessonId).match(/\d+/);
+        var containerNum = m ? parseInt(m[0], 10) : 1;
+
+        var raw = this.getValue('cmi.suspend_data');
+        var sd = {};
+        if (raw) {
+          try { sd = JSON.parse(raw) || {}; } catch (e) { sd = {}; }
+        }
+        if (!sd.ix) sd.ix = {};
+        if (!sd.ix[containerNum]) sd.ix[containerNum] = {};
+
+        var itemId = id || type || 'generic';
+        var existing = sd.ix[containerNum][itemId] || { t: type || 'generic', c: 0, s: null };
+        if (!existing.t) existing.t = type || 'generic';
+        existing.c = (existing.c || 0) + 1;
+        sd.ix[containerNum][itemId] = existing;
+
+        this.setValue('cmi.suspend_data', JSON.stringify(sd));
+        log('recordInteractive', { type: type, id: itemId, container: containerNum, count: existing.c });
+        return true;
+      } catch (e) {
+        logError('recordInteractive failed', e);
+        return false;
+      }
     }
   };
 
@@ -889,26 +1003,56 @@
     SCORM.init();
   }
 
-  // Auto-save on page unload: Commit only — do NOT Terminate.
-  // In an iframe (DLCS mode), skip commit entirely — the parent handles final
-  // persistence via navigator.sendBeacon(). scorm-again's LMSCommit uses sync XHR
-  // which Chrome blocks during page dismissal.
+  // Periodic commit so session_time keeps ticking on the LMS side during
+  // long sessions. 60s feels right — low enough to reflect real activity,
+  // high enough not to spam the LMS. Pauses when tab hidden.
+  periodicCommitTimer = setInterval(function() {
+    if (initialized && !standalone && document.visibilityState !== 'hidden') {
+      SCORM.commit();
+    }
+  }, 60000);
+
+  // Auto-save on page unload: always try to commit — do NOT Terminate.
+  // Most LMSs (SCORM Cloud, Moodle, TalentLMS, iSpring) expose a direct in-page
+  // JavaScript API so Commit() is synchronous and doesn't hit sync XHR blocks.
+  // Didactax's DLCS mode uses sendBeacon from the parent as a fallback; if the
+  // commit here fails there, it's a no-op (commit() returns false silently).
   window.addEventListener('beforeunload', function() {
-    isUnloading = true; // Flag checked by commit() to skip sync XHR in iframe
-    if (initialized && !standalone && !isInIframe) {
+    isUnloading = true;
+    if (initialized && !standalone) {
       SCORM.commit();
     }
   });
 
   // Handle visibility change (mobile/tab switching).
-  // In an iframe, skip this — the parent handles persistence via sendBeacon.
-  if (!isInIframe) {
-    document.addEventListener('visibilitychange', function() {
-      if (document.visibilityState === 'hidden' && initialized) {
-        SCORM.commit();
-      }
-    });
-  }
+  // Fire regardless of iframe — same reasoning as beforeunload.
+  document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState === 'hidden' && initialized && !standalone) {
+      SCORM.commit();
+    }
+  });
+
+  // Declarative interactive tracking. Any element with a
+  // data-track-interactive attribute auto-records engagement when clicked.
+  // Optional data-interactive-id overrides the default id (element.id or
+  // the type value itself). See recordInteractive doc above for schema.
+  //
+  // Course authors: add the attribute to any widget element — flashcards,
+  // tabs, drag-drop, etc. — and the platform gradebook's 'Interactive
+  // Activities' card populates automatically. No per-course JS wiring.
+  document.addEventListener('click', function(evt) {
+    try {
+      var target = evt.target;
+      if (!target || !target.closest) return;
+      var el = target.closest('[data-track-interactive]');
+      if (!el) return;
+      var type = el.getAttribute('data-track-interactive') || 'generic';
+      var id = el.getAttribute('data-interactive-id') || el.id || type;
+      SCORM.recordInteractive(type, id);
+    } catch (e) {
+      // Silent — tracking should never interfere with the user's clicks.
+    }
+  }, true); // capture phase so event is recorded even if widget stops propagation
 
   // Expose to global scope
   window.SCORM = SCORM;

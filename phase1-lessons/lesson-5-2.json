@@ -14,7 +14,7 @@
       "type": "text",
       "id": "text-5-2-1",
       "title": "How Americans Find, Compare, and Buy",
-      "content": "<p>You have adapted your product for the U.S. marketplace. Now it is time to get it off the shelf and into the buyer's hands.</p>\n\n<p>American buyers scan options, compare features, check reviews, and make decisions fast. That same behavior drives B2B purchasing too, just with bigger numbers and more paperwork. Finding and winning U.S. customers takes speed and systems. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p>\n\n<p>U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p>",
+      "content": "<p>You have adapted your product. Now get it off the shelf and into the buyer's hands.</p>\n\n<p>American buyers scan options, compare features, check reviews, and make decisions fast. The same behavior drives B2B purchasing, just with bigger numbers and more paperwork. Finding and winning U.S. customers takes speed and systems. An Argentine B2B company spent $30,000 at a Las Vegas trade show, collected 400 cards, and waited three weeks to follow up. Nobody remembered them. A Canadian competitor followed up within 24 hours and closed 12 deals.</p>\n\n<p>U.S. acquisition is <strong>digital-first</strong>. B2B: <strong>LinkedIn, content marketing, events, referrals</strong>. B2C: <strong>paid ads, SEO, Amazon</strong>. Pick two or three channels.</p>",
       "wordCount": 140
     },
     {
@@ -29,12 +29,12 @@
       "id": "callout-5-2-funfact",
       "variant": "fun-fact",
       "title": "Did You Know?",
-      "content": "<p>Central Florida attracts over 75 million visitors per year, making it the most-visited destination in the United States. That volume creates a massive consumer marketplace where businesses compete fiercely for attention and speed of service. The sales behaviors you learn in this lesson, fast follow-up, transparent pricing, digital-first acquisition, are standard practice in a region where every business is competing for the attention of millions of potential buyers.</p>"
+      "content": "<p>Central Florida attracts over 75.3 million visitors in 2024, making it the most-visited destination in the United States <em>(Source: <a href=\"https://www.visitorlando.org/media/press-releases/post/orlando-welcomed-753-million-visitors-in-2024/\" target=\"_blank\" rel=\"noopener\">Visit Orlando, 2024 Annual Visitor Statistics</a>)</em>. That volume creates a massive consumer marketplace where businesses compete fiercely for attention and speed of service. The sales behaviors you learn in this lesson, fast follow-up, transparent pricing, digital-first acquisition, are standard practice in a region where every business is competing for the attention of millions of potential buyers.</p>"
     },
     {
       "type": "text",
       "id": "text-5-2-2",
-      "title": "The U.S. Sales Cycle — Faster and More Direct Than You Expect",
+      "title": "The U.S. Sales Cycle: Faster and More Direct Than You Expect",
       "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 2–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
       "wordCount": 83
     },
@@ -49,7 +49,7 @@
         },
         {
           "label": "Best Response",
-          "content": "**Respond within 4 hours** — speed signals professionalism in U.S. sales culture.\n\n**Include in your quote:**\n- Clear pricing per user/month and annual option\n- Implementation timeline\n- Support SLA\n- Reference customer or case study\n\n**Follow up Friday morning** — don't wait for them to come to you."
+          "content": "**Respond within 4 hours**, speed signals professionalism in U.S. sales culture.\n\n**Include in your quote:**\n- Clear pricing per user/month and annual option\n- Implementation timeline\n- Support SLA\n- Reference customer or case study\n\n**Follow up Friday morning**, don't wait for them to come to you."
         },
         {
           "label": "Common Mistakes",
@@ -66,7 +66,7 @@
       "id": "callout-5-2-1",
       "variant": "theme-avoid-mistakes",
       "title": "Not Following Up Fast Enough",
-      "content": "<p>In many countries, a three-day response to a business inquiry is considered normal. In the U.S., if you do not respond within hours, the buyer has already contacted your competitor. A study by Harvard Business Review found that companies who responded to leads within one hour were <strong>seven times more likely</strong> to qualify the lead than those who waited even two hours. Speed does not just help. It is often the deciding factor.</p>"
+      "content": "<p>In many countries, a three-day response to a business inquiry is considered normal. In the U.S., if you do not respond within hours, the buyer has already contacted your competitor. A study by Harvard Business Review found that companies who responded to leads within one hour were <strong>seven times more likely</strong> to qualify the lead than those who waited even two hours. <em>(Source: <a href=\"https://hbr.org/2011/03/the-short-life-of-online-sales-leads\" target=\"_blank\" rel=\"noopener\">Oldroyd, McElheran &amp; Elkington, Harvard Business Review, March 2011</a>)</em> Speed does not just help. It is often the deciding factor.</p>"
     },
     {
       "type": "text",
@@ -78,8 +78,8 @@
     {
       "type": "text",
       "id": "text-5-2-vo",
-      "title": "Vendor Onboarding — What U.S. Companies Require From You",
-      "content": "<p>This blindsides many founders selling B2B. Your product must pass through a buyer's procurement process before you see payment. The buyer says yes, then the purchasing team sends a packet with forms you have never heard of. Have everything ready before you start selling.</p>",
+      "title": "Vendor Onboarding: What U.S. Companies Require From You",
+      "content": "<p>This blindsides many B2B founders. Your product must pass through a buyer's procurement process before you see payment. The buyer says yes, then the purchasing team sends a packet with forms you have never heard of. Have everything ready before you start selling.</p>",
       "wordCount": 92
     },
     {
@@ -91,7 +91,7 @@
           "label": "W-9 form completed with your EIN (required by any U.S. company paying you $600+/year)"
         },
         {
-          "label": "General liability insurance policy active ($500-$2,000/year)"
+          "label": "General liability insurance policy active ($500–$2,000/year)"
         },
         {
           "label": "Certificate of Insurance (COI) ready to send on request"
@@ -100,7 +100,7 @@
           "label": "Professional or cyber liability insurance (if selling services or handling data)"
         },
         {
-          "label": "Vendor registration completed in buyer's procurement system (Ariba, Coupa, Oracle — allow 1-4 weeks)"
+          "label": "Vendor registration completed in buyer's procurement system (Ariba, Coupa, Oracle: allow 1-4 weeks)"
         },
         {
           "label": "Sample invoice template with U.S.-standard format (Net 30 terms, EIN, bank details)"
@@ -149,7 +149,7 @@
           "explanation": "Speed is a decisive factor in U.S. sales. The Harvard Business Review study cited in this lesson found that companies responding within one hour were seven times more likely to qualify a lead. Waiting five days means most prospects have already engaged with faster competitors. In U.S. business, the first company to follow up with a clear offer has a major advantage."
         },
         {
-          "stem": "A founder from Nigeria built an HR compliance platform and just landed a verbal \"yes\" from a 200-person U.S. company. The buyer says, \"Great — I'll send you over to procurement.\" Procurement emails him a vendor onboarding packet requesting a W-9 form, a certificate of insurance, and registration in their Coupa system. He has none of these ready. He tells procurement he'll \"get back to them in a couple of weeks.\" Meanwhile, the buyer's team is also evaluating a U.S.-based competitor. What is the most likely outcome?",
+          "stem": "An entrepreneur from Nigeria built an HR compliance platform and just landed a verbal \"yes\" from a 200-person U.S. company. The buyer says, \"Great, I'll send you over to procurement.\" Procurement emails him a vendor onboarding packet requesting a W-9 form, a certificate of insurance, and registration in their Coupa system. He has none of these ready. He tells procurement he'll \"get back to them in a couple of weeks.\" Meanwhile, the buyer's team is also evaluating a U.S.-based competitor. What is the most likely outcome?",
           "options": [
             "The buyer will wait because they already committed verbally and switching vendors is too much work",
             "The deal stalls or dies. The competitor who has vendor documents ready closes while he is still gathering paperwork",
@@ -165,7 +165,7 @@
       "type": "key-takeaway",
       "id": "kt-5-2-1",
       "title": "Key Takeaway",
-      "content": "<p>Speed wins in the U.S. market. Respond fast, price clearly based on U.S. market norms, and follow up with care. For B2B sales, prepare your vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. are the ones who make it easy for buyers to say yes — your paperwork is ready and your business is open when the opportunity arrives.</p>"
+      "content": "<p>Speed wins in the U.S. market. Respond fast, price clearly to U.S. norms, and follow up with care. For B2B sales, prepare vendor onboarding documents (W-9, insurance certificates, company registration) before you start selling. The founders who close deals in the U.S. make it easy for buyers to say yes: paperwork ready, business open when the opportunity arrives.</p>"
     }
   ]
 }

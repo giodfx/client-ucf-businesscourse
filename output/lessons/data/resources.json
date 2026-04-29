@@ -1,0 +1,313 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-27",
+    "note": "Single source of truth for the Resources page. Add or edit items here; the page reads this file at load."
+  },
+  "categories": [
+    {
+      "id": "course-tools",
+      "name": "Course Tools & Worksheets",
+      "nameEs": "Herramientas y Hojas de Trabajo",
+      "description": "Interactive resources designed for this program. Use them to plan, decide, and act.",
+      "descriptionEs": "Recursos interactivos diseñados para este programa. Úselos para planificar, decidir y actuar.",
+      "icon": "tool",
+      "items": [
+        {
+          "title": "U.S. Market Entry Checklist",
+          "titleEs": "Lista de Verificación para Entrada al Mercado de EE.UU.",
+          "description": "Module-by-module action checklist with priority and time estimates.",
+          "descriptionEs": "Lista de verificación módulo por módulo con prioridad y estimación de tiempo.",
+          "url": "resources/resource-checklist.html",
+          "type": "internal",
+          "tags": ["checklist", "planning", "action"]
+        },
+        {
+          "title": "Florida Setup Roadmap",
+          "titleEs": "Hoja de Ruta para Establecerse en Florida",
+          "description": "Phased roadmap from formation through first customers, with timing.",
+          "descriptionEs": "Hoja de ruta por fases desde la formación hasta los primeros clientes.",
+          "url": "resources/resource-roadmap.html",
+          "type": "internal",
+          "tags": ["roadmap", "timing", "florida"]
+        },
+        {
+          "title": "Central Florida Resource Guide",
+          "titleEs": "Guía de Recursos de Florida Central",
+          "description": "Local organizations, mentors, and free support directory.",
+          "descriptionEs": "Directorio de organizaciones locales, mentores y apoyo gratuito.",
+          "url": "resources/resource-guide.html",
+          "type": "internal",
+          "tags": ["directory", "local", "support"]
+        },
+        {
+          "title": "Expansion Decision Worksheet",
+          "titleEs": "Hoja de Decisión para Expansión",
+          "description": "Self-assessment to evaluate your readiness across key dimensions.",
+          "descriptionEs": "Auto-evaluación para evaluar su preparación en dimensiones clave.",
+          "url": "resources/resource-worksheet.html",
+          "type": "internal",
+          "tags": ["self-assessment", "decision", "readiness"]
+        }
+      ]
+    },
+    {
+      "id": "legal-formation",
+      "name": "Legal & Business Formation",
+      "nameEs": "Legal y Formación de Negocios",
+      "description": "Official portals and services for forming your U.S. business entity.",
+      "descriptionEs": "Portales oficiales y servicios para formar su entidad comercial en EE.UU.",
+      "icon": "scale",
+      "items": [
+        {
+          "title": "Florida SunBiz",
+          "titleEs": "SunBiz de Florida",
+          "description": "Florida Department of State business filing portal — register LLCs and Corps.",
+          "descriptionEs": "Portal de la Secretaría de Estado de Florida para registrar LLC y Corp.",
+          "url": "https://sunbiz.org",
+          "type": "external",
+          "tags": ["florida", "filing", "official"]
+        },
+        {
+          "title": "IRS — Employer ID Numbers",
+          "titleEs": "IRS, Números de Identificación del Empleador",
+          "description": "Apply for your Federal Employer ID Number (EIN) free, directly from the IRS.",
+          "descriptionEs": "Solicite su Número de Identificación Federal del Empleador (EIN) gratis con el IRS.",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers",
+          "type": "external",
+          "tags": ["ein", "irs", "official", "free"]
+        },
+        {
+          "title": "Florida Bar — Lawyer Referral Service",
+          "titleEs": "Colegio de Abogados de Florida, Servicio de Referencia",
+          "description": "Find vetted Florida attorneys; first 30-minute consultation typically $25.",
+          "descriptionEs": "Encuentre abogados calificados de Florida; consulta inicial de 30 minutos típicamente $25.",
+          "url": "https://www.floridabar.org/public/lrs/",
+          "type": "external",
+          "tags": ["lawyer", "attorney", "florida"]
+        },
+        {
+          "title": "LegalZoom",
+          "titleEs": "LegalZoom",
+          "description": "Online business formation and ongoing legal document services.",
+          "descriptionEs": "Formación de negocios en línea y servicios continuos de documentos legales.",
+          "url": "https://www.legalzoom.com",
+          "type": "external",
+          "tags": ["formation", "legal-docs"]
+        },
+        {
+          "title": "IncFile",
+          "titleEs": "IncFile",
+          "description": "Low-cost LLC and Corporation formation service.",
+          "descriptionEs": "Servicio de formación de LLC y Corp de bajo costo.",
+          "url": "https://www.incfile.com",
+          "type": "external",
+          "tags": ["formation", "low-cost"]
+        },
+        {
+          "title": "Stripe Atlas",
+          "titleEs": "Stripe Atlas",
+          "description": "Delaware C-Corp formation built for tech founders, includes banking.",
+          "descriptionEs": "Formación de C-Corp en Delaware diseñada para fundadores tecnológicos, incluye banca.",
+          "url": "https://stripe.com/atlas",
+          "type": "external",
+          "tags": ["delaware", "tech", "formation", "investor-ready"]
+        }
+      ]
+    },
+    {
+      "id": "tax-banking",
+      "name": "Tax, Banking & Accounting",
+      "nameEs": "Impuestos, Banca y Contabilidad",
+      "description": "Tools to manage taxes, open bank accounts, and keep clean books.",
+      "descriptionEs": "Herramientas para gestionar impuestos, abrir cuentas bancarias y llevar contabilidad limpia.",
+      "icon": "money",
+      "items": [
+        {
+          "title": "Mercury",
+          "titleEs": "Mercury",
+          "description": "Online business banking built for tech and international founders.",
+          "descriptionEs": "Banca digital de negocios para emprendedores tecnológicos e internacionales.",
+          "url": "https://mercury.com",
+          "type": "external",
+          "tags": ["banking", "online", "international"]
+        },
+        {
+          "title": "Relay",
+          "titleEs": "Relay",
+          "description": "Online business banking with multi-account budgeting features.",
+          "descriptionEs": "Banca de negocios en línea con presupuesto de múltiples cuentas.",
+          "url": "https://relayfi.com",
+          "type": "external",
+          "tags": ["banking", "online"]
+        },
+        {
+          "title": "QuickBooks Online",
+          "titleEs": "QuickBooks Online",
+          "description": "Industry-standard small business accounting and bookkeeping.",
+          "descriptionEs": "Contabilidad estándar para pequeñas empresas.",
+          "url": "https://quickbooks.intuit.com",
+          "type": "external",
+          "tags": ["accounting", "bookkeeping"]
+        }
+      ]
+    },
+    {
+      "id": "ip-protection",
+      "name": "Intellectual Property",
+      "nameEs": "Propiedad Intelectual",
+      "description": "Protect your brand, content, and inventions in the U.S.",
+      "descriptionEs": "Proteja su marca, contenido e invenciones en EE.UU.",
+      "icon": "shield",
+      "items": [
+        {
+          "title": "USPTO — U.S. Patent and Trademark Office",
+          "titleEs": "USPTO, Oficina de Patentes y Marcas de EE.UU.",
+          "description": "File trademarks and patents directly with the federal office.",
+          "descriptionEs": "Registre marcas y patentes directamente con la oficina federal.",
+          "url": "https://www.uspto.gov",
+          "type": "external",
+          "tags": ["trademark", "patent", "official"]
+        }
+      ]
+    },
+    {
+      "id": "visa-immigration",
+      "name": "Visa & Immigration",
+      "nameEs": "Visas e Inmigración",
+      "description": "Federal services and reputable immigration law firms.",
+      "descriptionEs": "Servicios federales y bufetes de inmigración de buena reputación.",
+      "icon": "plane",
+      "items": [
+        {
+          "title": "USCIS — U.S. Citizenship and Immigration Services",
+          "titleEs": "USCIS, Servicios de Ciudadanía e Inmigración de EE.UU.",
+          "description": "Federal portal for visa applications, status checks, and forms.",
+          "descriptionEs": "Portal federal para solicitudes de visa, verificación de estado y formularios.",
+          "url": "https://www.uscis.gov",
+          "type": "external",
+          "tags": ["visa", "official", "uscis"]
+        },
+        {
+          "title": "AILA — American Immigration Lawyers Association",
+          "titleEs": "AILA, Asociación Americana de Abogados de Inmigración",
+          "description": "Find qualified immigration attorneys; lookup and lawyer search.",
+          "descriptionEs": "Encuentre abogados calificados de inmigración.",
+          "url": "https://www.ailalawyer.com",
+          "type": "external",
+          "tags": ["immigration", "attorney"]
+        },
+        {
+          "title": "Fragomen",
+          "titleEs": "Fragomen",
+          "description": "Top global immigration law firm with deep U.S. business experience.",
+          "descriptionEs": "Bufete de inmigración global con amplia experiencia en negocios de EE.UU.",
+          "url": "https://www.fragomen.com",
+          "type": "external",
+          "tags": ["immigration", "attorney", "premium"]
+        },
+        {
+          "title": "Boundless",
+          "titleEs": "Boundless",
+          "description": "Tech-forward immigration services for founders and families.",
+          "descriptionEs": "Servicios de inmigración modernos para fundadores y familias.",
+          "url": "https://www.boundless.com",
+          "type": "external",
+          "tags": ["immigration", "online"]
+        }
+      ]
+    },
+    {
+      "id": "free-support",
+      "name": "Free Support Organizations",
+      "nameEs": "Organizaciones de Apoyo Gratuito",
+      "description": "Free coaching, mentorship, and consulting for founders in Central Florida.",
+      "descriptionEs": "Asesoría, mentoría y consultoría gratuita en Florida Central.",
+      "icon": "users",
+      "items": [
+        {
+          "title": "Florida SBDC at UCF",
+          "titleEs": "Florida SBDC en UCF",
+          "description": "Free business consulting, training, and capital access support.",
+          "descriptionEs": "Consultoría empresarial, capacitación y apoyo gratuitos.",
+          "url": "https://sbdcorlando.com",
+          "type": "external",
+          "tags": ["sbdc", "free", "ucf", "consulting"]
+        },
+        {
+          "title": "SCORE Orlando",
+          "titleEs": "SCORE Orlando",
+          "description": "Free mentorship from retired and active executives.",
+          "descriptionEs": "Mentoría gratuita de ejecutivos jubilados y activos.",
+          "url": "https://orlando.score.org",
+          "type": "external",
+          "tags": ["mentor", "free"]
+        },
+        {
+          "title": "UCF Business Incubation Program",
+          "titleEs": "Programa de Incubación Empresarial de UCF",
+          "description": "UCF's incubator network across Central Florida.",
+          "descriptionEs": "Red de incubadoras de UCF en Florida Central.",
+          "url": "https://incubator.ucf.edu",
+          "type": "external",
+          "tags": ["incubator", "ucf", "bip"]
+        },
+        {
+          "title": "Orlando Economic Partnership",
+          "titleEs": "Orlando Economic Partnership",
+          "description": "Regional economic development organization, market research and connections.",
+          "descriptionEs": "Organización regional de desarrollo económico.",
+          "url": "https://orlando.org",
+          "type": "external",
+          "tags": ["economic-development"]
+        },
+        {
+          "title": "Prospera USA",
+          "titleEs": "Prospera USA",
+          "description": "Bilingual technical assistance for Hispanic-owned businesses.",
+          "descriptionEs": "Asistencia técnica bilingüe para negocios de propietarios hispanos.",
+          "url": "https://prosperausa.org/",
+          "type": "external",
+          "tags": ["bilingual", "hispanic", "free"]
+        },
+        {
+          "title": "Hispanic Chamber of Commerce",
+          "titleEs": "Cámara de Comercio Hispana",
+          "description": "Networking, advocacy, and member services for Hispanic-owned businesses.",
+          "descriptionEs": "Redes, defensa y servicios para negocios de propietarios hispanos.",
+          "url": "https://hispanicchamber.com/",
+          "type": "external",
+          "tags": ["hispanic", "chamber", "networking"]
+        },
+        {
+          "title": "Hispanic Business Initiative Fund (HBA Central Florida)",
+          "titleEs": "Iniciativa Empresarial Hispana de Florida Central",
+          "description": "Bilingual training and capital access for Hispanic entrepreneurs.",
+          "descriptionEs": "Capacitación bilingüe y acceso a capital para emprendedores hispanos.",
+          "url": "https://hbacf.com/",
+          "type": "external",
+          "tags": ["bilingual", "hispanic", "training"]
+        }
+      ]
+    },
+    {
+      "id": "ucf-bip",
+      "name": "UCF BIP Next Steps",
+      "nameEs": "Próximos Pasos con UCF BIP",
+      "description": "Schedule a 1:1 consultation with the UCF Business Incubation Program team.",
+      "descriptionEs": "Programe una consulta 1:1 con el equipo de UCF BIP.",
+      "icon": "calendar",
+      "items": [
+        {
+          "title": "Book a 1:1 with UCF BIP",
+          "titleEs": "Reservar una sesión 1:1 con UCF BIP",
+          "description": "30-minute strategy session with the UCF BIP team.",
+          "descriptionEs": "Sesión de estrategia de 30 minutos con el equipo de UCF BIP.",
+          "url": "https://calendly.com/br770425-ucf/30min",
+          "type": "external",
+          "tags": ["calendly", "ucf", "bip", "consultation"]
+        }
+      ]
+    }
+  ]
+}
