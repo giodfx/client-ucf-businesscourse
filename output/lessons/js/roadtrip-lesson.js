@@ -282,34 +282,8 @@
       var key = 'rt-progress';
       var progress = JSON.parse(localStorage.getItem(key) || '{}');
       if (!progress.visited) progress.visited = [];
-      var wasNew = progress.visited.indexOf(lid) === -1;
-      if (wasNew) progress.visited.push(lid);
+      if (progress.visited.indexOf(lid) === -1) progress.visited.push(lid);
       localStorage.setItem(key, JSON.stringify(progress));
-
-      // ─── LMS Progress Bridge: sync to server ───
-      // Only fires when this page is loaded inside the LearningPlatform
-      // (URL path matches /api/courses/<id>/asset/...). Standalone loads
-      // — visualizer public share, file:// — skip the POST and stay
-      // localStorage-only. Fire-and-forget: localStorage already updated,
-      // we just need the server to know. Failure is silent.
-      if (wasNew) {
-        var lmsMatch = window.location.pathname.match(/\/api\/courses\/([^/]+)\/asset\//);
-        if (lmsMatch) {
-          var courseId = lmsMatch[1];
-          var totalLessons = parseInt(document.body.dataset.totalLessons || '0', 10);
-          var measure = totalLessons > 0 ? progress.visited.length / totalLessons : 0;
-          fetch('/api/courses/' + courseId + '/native-progress', {
-            method: 'PATCH',
-            credentials: 'same-origin',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              currentNodeId: lid,
-              completedNodes: progress.visited,
-              progressMeasure: measure
-            })
-          }).catch(function() { /* silent — localStorage has the change */ });
-        }
-      }
     }
   } catch(e) {}
 
