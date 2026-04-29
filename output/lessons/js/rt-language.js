@@ -129,9 +129,20 @@
     injectSettingsStyles();
 
     var labels = {
-      en: { settings: 'Settings', language: 'Language', resetProgress: 'Reset Progress', resetConfirm: 'Reset all course progress? This will clear completed lessons. Your language preference will be kept.' },
-      es: { settings: 'Configuración', language: 'Idioma', resetProgress: 'Restablecer Progreso', resetConfirm: '¿Restablecer todo el progreso del curso? Esto borrará las lecciones completadas. Su preferencia de idioma se mantendrá.' }
+      en: { settings: 'Settings', language: 'Language', theme: 'Theme', resetProgress: 'Reset Progress', resetConfirm: 'Reset all course progress? This will clear completed lessons. Your language and theme preferences will be kept.' },
+      es: { settings: 'Configuración', language: 'Idioma', theme: 'Tema', resetProgress: 'Restablecer Progreso', resetConfirm: '¿Restablecer todo el progreso del curso? Esto borrará las lecciones completadas. Sus preferencias de idioma y tema se mantendrán.' }
     };
+
+    // Read current theme from localStorage (matches video-dashboard.js
+    // convention: 'vd-theme' primary, 'theme-mode' fallback). Apply to
+    // document so the lesson respects the user's choice immediately.
+    var THEME_KEY = 'vd-theme';
+    var currentTheme = 'dark';
+    try {
+      currentTheme = localStorage.getItem(THEME_KEY) || localStorage.getItem('theme-mode') || 'dark';
+    } catch (_) {}
+    if (currentTheme !== 'light' && currentTheme !== 'dark') currentTheme = 'dark';
+    document.documentElement.setAttribute('data-theme', currentTheme);
     var t = labels[lang === 'es' ? 'es' : 'en'];
 
     var wrap = document.createElement('div');
@@ -150,6 +161,13 @@
       '    <div class="rt-ls-switch" role="radiogroup" aria-label="' + t.language + '">',
       '      <button class="rt-ls-sw-btn' + (lang === 'en' ? ' rt-ls-sw-btn--active' : '') + '" data-lang="en" role="radio" aria-checked="' + (lang === 'en') + '">EN</button>',
       '      <button class="rt-ls-sw-btn' + (lang === 'es' ? ' rt-ls-sw-btn--active' : '') + '" data-lang="es" role="radio" aria-checked="' + (lang === 'es') + '">ES</button>',
+      '    </div>',
+      '  </div>',
+      '  <div class="rt-ls-item">',
+      '    <span class="rt-ls-label">' + t.theme + '</span>',
+      '    <div class="rt-ls-switch" role="radiogroup" aria-label="' + t.theme + '">',
+      '      <button class="rt-ls-sw-btn' + (currentTheme === 'dark' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="dark" role="radio" aria-checked="' + (currentTheme === 'dark') + '" title="Dark">🌙</button>',
+      '      <button class="rt-ls-sw-btn' + (currentTheme === 'light' ? ' rt-ls-sw-btn--active' : '') + '" data-theme="light" role="radio" aria-checked="' + (currentTheme === 'light') + '" title="Light">☀️</button>',
       '    </div>',
       '  </div>',
       '  <div class="rt-ls-divider"></div>',
@@ -182,7 +200,7 @@
     });
 
     // Language toggle inside dropdown
-    wrap.querySelectorAll('.rt-ls-sw-btn').forEach(function(b) {
+    wrap.querySelectorAll('.rt-ls-sw-btn[data-lang]').forEach(function(b) {
       b.addEventListener('click', function() {
         var newLang = this.dataset.lang;
         if (newLang === lang) return;
@@ -190,6 +208,26 @@
         p.language = newLang;
         saveProgress(p);
         window.location.reload();
+      });
+    });
+
+    // Theme toggle inside dropdown — matches video-dashboard.js applyTheme
+    wrap.querySelectorAll('.rt-ls-sw-btn[data-theme]').forEach(function(b) {
+      b.addEventListener('click', function() {
+        var newTheme = this.dataset.theme;
+        if (newTheme === currentTheme) return;
+        currentTheme = newTheme;
+        document.documentElement.setAttribute('data-theme', newTheme);
+        try {
+          localStorage.setItem(THEME_KEY, newTheme);
+          localStorage.setItem('theme-mode', newTheme);
+        } catch (_) {}
+        // Update button visual state
+        wrap.querySelectorAll('.rt-ls-sw-btn[data-theme]').forEach(function(btn) {
+          var isActive = btn.dataset.theme === newTheme;
+          btn.classList.toggle('rt-ls-sw-btn--active', isActive);
+          btn.setAttribute('aria-checked', isActive ? 'true' : 'false');
+        });
       });
     });
 
