@@ -358,7 +358,7 @@
         trackInteraction(activityId, 'dragdrop', { completed: true, score: ddScore, correct: correct, total: total });
     };
 
-    // Keyboard fallback: move item to selected category via <select>
+    // Keyboard fallback for drag-drop: moves item via <select> change
     window.ddKbAssign = function(activityId, sel) {
         var item = sel.closest('.draggable-item');
         if (!item || !sel.value) return;
@@ -896,6 +896,8 @@
             content.style.maxHeight = content.scrollHeight + 'px';
             trigger?.setAttribute('aria-expanded', 'true');
             if (icon) icon.style.transform = 'rotate(180deg)';
+            // Move focus to expanded content for screen readers (content needs tabindex="-1" in HTML)
+            content.focus();
         }
     };
 
@@ -946,6 +948,22 @@
             switchTab(tabId, containerId);
         }
     };
+
+    // Global arrow-key navigation for any [role="tab"] elements (WCAG 2.1 AA)
+    document.addEventListener('keydown', function(e) {
+        var tab = e.target.closest && e.target.closest('[role="tab"]');
+        if (!tab) return;
+        var tablist = tab.closest('[role="tablist"]');
+        if (!tablist) return;
+        var tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+        var idx = tabs.indexOf(tab);
+        var next = -1;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { next = (idx + 1) % tabs.length; }
+        else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { next = (idx - 1 + tabs.length) % tabs.length; }
+        else if (e.key === 'Home') { next = 0; }
+        else if (e.key === 'End') { next = tabs.length - 1; }
+        if (next >= 0) { e.preventDefault(); tabs[next].focus(); tabs[next].click(); }
+    });
 
     // ========================================================================
     // VENN DIAGRAM
@@ -1230,8 +1248,12 @@
         document.querySelectorAll('.knowledge-check label').forEach(label => {
             label.addEventListener('click', function() {
                 const container = this.closest('.knowledge-check');
-                container?.querySelectorAll('label').forEach(l => l.classList.remove('selected'));
+                container?.querySelectorAll('label').forEach(l => {
+                    l.classList.remove('selected');
+                    l.setAttribute('aria-checked', 'false');
+                });
                 this.classList.add('selected');
+                this.setAttribute('aria-checked', 'true');
             });
         });
 
