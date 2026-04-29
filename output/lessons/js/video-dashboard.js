@@ -360,19 +360,32 @@
 
   /* ── Progress calculation for destination cards ── */
 
-  // DEMO: seed sample progress so Downtown=100% and Space Center=33%
-  (function seedDemo() {
-    try {
-      var p = JSON.parse(localStorage.getItem('rt-progress') || '{}');
-      var v = p.visited || [];
-      var demoIds = ['lesson-1-1','lesson-1-2','lesson-1-3','lesson-3-1'];
-      var changed = false;
-      demoIds.forEach(function (id) {
-        if (v.indexOf(id) === -1) { v.push(id); changed = true; }
-      });
-      if (changed) { p.visited = v; localStorage.setItem('rt-progress', JSON.stringify(p)); }
-    } catch (e) {}
-  })();
+  /* ── Reset Progress action — clears visited lessons + resourcesVisited flag,
+        keeps language/theme/onboarding-acknowledgment so the user isn't
+        forced through the intro modal again. ── */
+  var btnResetProgress = document.getElementById('btnResetProgress');
+  if (btnResetProgress) {
+    btnResetProgress.addEventListener('click', function () {
+      var msg = (window.rtLanguage === 'es')
+        ? '¿Reiniciar todo el progreso del curso? Se borrarán las lecciones completadas, los puntajes de los cuestionarios y el progreso del video. Sus preferencias de idioma y tema se mantendrán.'
+        : 'Reset all course progress? This will clear completed lessons, quiz scores, and video progress. Your language and theme preferences will be kept.';
+      if (!confirm(msg)) return;
+      try {
+        var p = JSON.parse(localStorage.getItem('rt-progress') || '{}');
+        // Wipe progress fields, preserve user preferences
+        var keep = {
+          language: p.language,
+          theme: p.theme,
+          obAcknowledged: p.obAcknowledged,
+        };
+        localStorage.setItem('rt-progress', JSON.stringify(keep));
+        // Also wipe any per-resource state
+        try { localStorage.removeItem('ucf-bip-checklist'); } catch (e) {}
+        try { localStorage.removeItem('ucf-bip-worksheet'); } catch (e) {}
+      } catch (e) {}
+      window.location.reload();
+    });
+  }
 
   function updateCardProgress() {
     var progress;
