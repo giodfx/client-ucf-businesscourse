@@ -1,0 +1,86 @@
+{
+  "courseId": "ucf-business-course",
+  "courseTitle": "U.S. Market Readiness Program",
+  "description": "Maps course-level learning outcomes to modules and lessons. Derived from blueprint.json learning objectives — refine manually if more nuanced mappings are needed.",
+  "generatedAt": "2026-04-29T14:59:46.775953Z",
+  "totalOutcomes": 11,
+  "courseLearningOutcomes": [
+    {
+      "id": "CLO-1",
+      "outcome": "Compare LLC, C-Corp, and S-Corp structures and identify which entity type fits their business goals and immigration status",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-2",
+      "outcome": "Describe the step-by-step process for registering a Florida business through SunBiz, obtaining an EIN, and establishing a registered address",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-3",
+      "outcome": "Explain U.S. federal and state tax obligations, sales tax requirements, and realistic accounting expectations for foreign-owned entities",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-4",
+      "outcome": "Identify the documentation, physical presence requirements, and common rejection reasons for opening a U.S. business bank account",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-5",
+      "outcome": "Distinguish between U.S. intellectual property protections (copyright, trademark, patent) and assess when professional legal counsel is needed",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-6",
+      "outcome": "Analyze the differences between contractor and employee classifications, visa pathway options, and employer compliance obligations",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-7",
+      "outcome": "Apply U.S. customer acquisition strategies, pricing expectations, and market entry approaches to their specific business context",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-8",
+      "outcome": "Explain key U.S. business cultural norms including communication style, meeting etiquette, negotiation patterns, and trust-building signals",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-9",
+      "outcome": "Identify Central Florida ecosystem resources (SBDC, SBA, CFITO, Hispanic Chamber, UCF BIP phases 2 and 3) and match them to their business needs",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-10",
+      "outcome": "Assess whether U.S. market expansion is realistic for their company and business stage",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    },
+    {
+      "id": "CLO-11",
+      "outcome": "Produce actionable deliverables including checklists, a Florida setup roadmap, and a U.S. market readiness assessment",
+      "primaryModules": [],
+      "reinforcedIn": [],
+      "assessedIn": []
+    }
+  ]
+}

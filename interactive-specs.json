@@ -1,0 +1,1280 @@
+{
+  "projectPath": "clients/UCF/BusinessCourse",
+  "generatedAt": "2026-04-29T14:59:46.773953Z",
+  "totalSpecs": 91,
+  "totalLessons": 32,
+  "lessonsWithSpecs": 32,
+  "sourceFile": "generated/content-phase1-module*.json (extracted from inline interactive blocks)",
+  "note": "BusinessCourse authors interactives inline in content JSON rather than via a separate phase-2 opportunities file. This spec documents what is present so the cloud phase 4 (which requires interactive-specs.json) can run.",
+  "componentTypeCounts": {
+    "knowledge-check": 32,
+    "scenario": 15,
+    "tabs": 10,
+    "accordion": 7,
+    "comparison-card": 5,
+    "checklist": 5,
+    "simulation": 5,
+    "data-visualization": 5,
+    "flashcards": 4,
+    "timeline": 3
+  },
+  "specs": [
+    {
+      "specId": "int-0-1-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-0-1",
+      "title": "Explore Each Theme",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-0-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "kc-0-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-0-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-0-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-1-1-1",
+      "componentType": "comparison-card",
+      "lessonId": "lesson-1-1",
+      "title": "LLC vs. C-Corp vs. S-Corp: Side by Side",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-1-1-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "scenario-1-1-decision-tree",
+      "componentType": "scenario",
+      "lessonId": "lesson-1-1",
+      "title": "Find Your Entity: Interactive Decision Guide",
+      "description": "Answer based on YOUR situation right now. Which of the following best describes your plans for the next 12-18 months?",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-1-1-decision-tree"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "scenario-1-1-entity",
+      "componentType": "scenario",
+      "lessonId": "lesson-1-1",
+      "title": "Practice: Which Entity Fits This Entrepreneur?",
+      "description": "You are launching a tech startup with a co-founder. You have $80,000 in savings, a working prototype, and plan to pitch U.S. investors within 12 months. Which entity structure makes the most sense?",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-1-1-entity"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-1-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-1-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-1-2-1",
+      "componentType": "timeline",
+      "lessonId": "lesson-1-2",
+      "title": "Registration Timeline: From Zero to Entity",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-1-2-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 5
+    },
+    {
+      "specId": "kc-1-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-1-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-1-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-1-3-1",
+      "componentType": "checklist",
+      "lessonId": "lesson-1-3",
+      "title": "Bank Account Opening: Document Checklist",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-1-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 6
+    },
+    {
+      "specId": "kc-1-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-1-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-1-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "sim-2-1-tax",
+      "componentType": "simulation",
+      "lessonId": "lesson-2-1",
+      "title": "Tax Entity Comparison Calculator",
+      "description": "Compare how much you'd pay in taxes as an LLC, C-Corp, or S-Corp based on your net profit.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "sim-2-1-tax"
+      },
+      "source": "inline-content-block",
+      "itemCount": 2
+    },
+    {
+      "specId": "dataviz-2-1",
+      "componentType": "data-visualization",
+      "lessonId": "lesson-2-1",
+      "title": "What You'll Actually Owe: Tax Layer Breakdown",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "dataviz-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "int-2-1-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-2-1",
+      "title": "Tax Breakdown by Jurisdiction: A Closer Look",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-2-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-2-1-taxes",
+      "componentType": "scenario",
+      "lessonId": "lesson-2-1",
+      "title": "You Missed a Quarterly Payment: Now What?",
+      "description": "It is July. You set up your LLC in January and have been earning revenue since March. You just realized you have not made any estimated tax payments to the IRS. What should you do?",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-2-1-taxes"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-2-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-2-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-2-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-2-2-1",
+      "componentType": "accordion",
+      "lessonId": "lesson-2-2",
+      "title": "Bookkeeping Methods: Which One Fits?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-2-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "kc-2-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-2-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-2-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-2-3-bank-rejection",
+      "componentType": "scenario",
+      "lessonId": "lesson-2-3",
+      "title": "The Bank Said No: What's Your Next Move?",
+      "description": "You applied for a business checking account at a major national bank. After two weeks of waiting, you received an email: 'We are unable to open an account at this time.' No explanation. What do you do",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-2-3-bank-rejection"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-2-3-1",
+      "componentType": "flashcards",
+      "lessonId": "lesson-2-3",
+      "title": "Banking Terminology: Key Terms for International Founders",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-2-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 6
+    },
+    {
+      "specId": "kc-2-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-2-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-2-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-0-1-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-0-1",
+      "title": "Explore Each Theme",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-0-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "kc-0-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-0-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-0-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-1-1-1",
+      "componentType": "comparison-card",
+      "lessonId": "lesson-1-1",
+      "title": "LLC vs. C-Corp vs. S-Corp: Side by Side",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-1-1-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "scenario-1-1-decision-tree",
+      "componentType": "scenario",
+      "lessonId": "lesson-1-1",
+      "title": "Find Your Entity: Interactive Decision Guide",
+      "description": "Answer based on YOUR situation right now. Which of the following best describes your plans for the next 12-18 months?",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-1-1-decision-tree"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "scenario-1-1-entity",
+      "componentType": "scenario",
+      "lessonId": "lesson-1-1",
+      "title": "Practice: Which Entity Fits This Entrepreneur?",
+      "description": "You are launching a tech startup with a co-founder. You have $80,000 in savings, a working prototype, and plan to pitch U.S. investors within 12 months. Which entity structure makes the most sense?",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-1-1-entity"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-1-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-1-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-1-2-1",
+      "componentType": "timeline",
+      "lessonId": "lesson-1-2",
+      "title": "Registration Timeline: From Zero to Entity",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-1-2-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 5
+    },
+    {
+      "specId": "kc-1-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-1-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-1-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-1-3-1",
+      "componentType": "checklist",
+      "lessonId": "lesson-1-3",
+      "title": "Bank Account Opening: Document Checklist",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-1-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 6
+    },
+    {
+      "specId": "kc-1-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-1-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-1-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "sim-2-1-tax",
+      "componentType": "simulation",
+      "lessonId": "lesson-2-1",
+      "title": "Tax Entity Comparison Calculator",
+      "description": "Compare how much you'd pay in taxes as an LLC, C-Corp, or S-Corp based on your net profit.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "sim-2-1-tax"
+      },
+      "source": "inline-content-block",
+      "itemCount": 2
+    },
+    {
+      "specId": "dataviz-2-1",
+      "componentType": "data-visualization",
+      "lessonId": "lesson-2-1",
+      "title": "What You'll Actually Owe: Tax Layer Breakdown",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "dataviz-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "int-2-1-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-2-1",
+      "title": "Tax Breakdown by Jurisdiction: A Closer Look",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-2-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-2-1-taxes",
+      "componentType": "scenario",
+      "lessonId": "lesson-2-1",
+      "title": "You Missed a Quarterly Payment: Now What?",
+      "description": "It is July. You set up your LLC in January and have been earning revenue since March. You just realized you have not made any estimated tax payments to the IRS. What should you do?",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-2-1-taxes"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-2-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-2-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-2-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-2-2-1",
+      "componentType": "accordion",
+      "lessonId": "lesson-2-2",
+      "title": "Bookkeeping Methods: Which One Fits?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-2-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "kc-2-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-2-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-2-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-2-3-bank-rejection",
+      "componentType": "scenario",
+      "lessonId": "lesson-2-3",
+      "title": "The Bank Said No: What's Your Next Move?",
+      "description": "You applied for a business checking account at a major national bank. After two weeks of waiting, you received an email: 'We are unable to open an account at this time.' No explanation. What do you do",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-2-3-bank-rejection"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-2-3-1",
+      "componentType": "flashcards",
+      "lessonId": "lesson-2-3",
+      "title": "Banking Terminology: Key Terms for International Founders",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-2-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 6
+    },
+    {
+      "specId": "kc-2-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-2-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-2-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-3-1-1",
+      "componentType": "comparison-card",
+      "lessonId": "lesson-3-1",
+      "title": "Copyright vs. Trademark vs. Patent",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-3-1-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "scenario-3-1-ip-strategy",
+      "componentType": "scenario",
+      "lessonId": "lesson-3-1",
+      "title": "Find Your IP Strategy: Match the Founder to the Right Protection",
+      "description": "Each founder below has different intellectual property worth protecting. Pick the path that fits each one. Read the explanation to confirm your reasoning.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-3-1-ip-strategy"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "kc-3-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-3-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-3-2-1",
+      "componentType": "accordion",
+      "lessonId": "lesson-3-2",
+      "title": "Insurance Types: What Each Policy Covers",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-3-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "kc-3-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-3-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-3-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "sim-3-2-insurance",
+      "componentType": "simulation",
+      "lessonId": "lesson-3-2",
+      "title": "Insurance Portfolio Builder",
+      "description": "Now build YOUR insurance stack. Select your business profile and see which policies you need.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "sim-3-2-insurance"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "comparison-3-3-diy-vs-lawyer",
+      "componentType": "comparison-card",
+      "lessonId": "lesson-3-3",
+      "title": "DIY vs. Hire a Lawyer",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "comparison-3-3-diy-vs-lawyer"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "int-3-3-1",
+      "componentType": "timeline",
+      "lessonId": "lesson-3-3",
+      "title": "When Do You Need a Lawyer?: Decision Timeline",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-3-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 5
+    },
+    {
+      "specId": "kc-3-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-3-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-3-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-4-1-1",
+      "componentType": "comparison-card",
+      "lessonId": "lesson-4-1",
+      "title": "Contractor vs. Employee: Decision Checklist",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-4-1-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "scenario-4-1-classification",
+      "componentType": "scenario",
+      "lessonId": "lesson-4-1",
+      "title": "Contractor or Employee? The IRS Is Watching",
+      "description": "You hired a developer six months ago as a 1099 contractor. She works 40 hours a week, uses your company laptop, attends your daily standup meetings, and you set her schedule. She just asked about heal",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-4-1-classification"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "sim-4-1-hiring",
+      "componentType": "simulation",
+      "lessonId": "lesson-4-1",
+      "title": "Hiring Cost Calculator",
+      "description": "Select a role and adjust the variables to compare the true cost of an employee vs. a contractor in Central Florida.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "sim-4-1-hiring"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-4-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-4-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-4-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-4-2-1",
+      "componentType": "accordion",
+      "lessonId": "lesson-4-2",
+      "title": "Visa Pathways: Detailed Breakdown",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-4-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "kc-4-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-4-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-4-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "sim-4-3-payroll",
+      "componentType": "simulation",
+      "lessonId": "lesson-4-3",
+      "title": "Employee Cost Calculator",
+      "description": "Enter a salary, pick your industry, and see the full employer cost, FICA, FUTA, state taxes, workers' comp, and optional health insurance.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "sim-4-3-payroll"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "dataviz-4-3",
+      "componentType": "data-visualization",
+      "lessonId": "lesson-4-3",
+      "title": "The True Cost of a $60,000 Employee",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "dataviz-4-3"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "int-4-3-1",
+      "componentType": "checklist",
+      "lessonId": "lesson-4-3",
+      "title": "First Payroll Setup Checklist",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-4-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 8
+    },
+    {
+      "specId": "kc-4-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-4-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-4-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-5-1-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-5-1",
+      "title": "Market Adaptation: Key Areas to Localize",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-5-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 5
+    },
+    {
+      "specId": "scenario-5-1-pricing",
+      "componentType": "scenario",
+      "lessonId": "lesson-5-1",
+      "title": "Your Price Is Too Low: What Do You Do?",
+      "description": "Your SaaS product costs $15/month in Latin America. A U.S. prospect says: 'At that price, I'd assume it doesn't include compliance features.' Your U.S. competitors charge $45–$65/month. What is your m",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-5-1-pricing"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-5-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-5-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-5-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-5-2-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-5-2",
+      "title": "Sales Scenario: A U.S. Customer Wants a Quote",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-5-2-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "checklist-5-2-vendor",
+      "componentType": "checklist",
+      "lessonId": "lesson-5-2",
+      "title": "Vendor Readiness Checklist",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "checklist-5-2-vendor"
+      },
+      "source": "inline-content-block",
+      "itemCount": 8
+    },
+    {
+      "specId": "kc-5-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-5-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-5-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-6-1-1",
+      "componentType": "flashcards",
+      "lessonId": "lesson-6-1",
+      "title": "American Business Phrases: What They Really Mean",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-6-1-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 8
+    },
+    {
+      "specId": "kc-6-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-6-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-6-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-6-2-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-6-2",
+      "title": "The Meeting After the Meeting: Follow-Up Playbook",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-6-2-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "kc-6-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-6-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-6-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-6-3-cultural",
+      "componentType": "scenario",
+      "lessonId": "lesson-6-3",
+      "title": "What Did They Really Mean?",
+      "description": "You just had a great 45-minute meeting with a potential U.S. partner. They said: 'This is really exciting. We love what you're building. Let me run this by a few people internally and we'll circle bac",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-6-3-cultural"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-6-3-1",
+      "componentType": "flashcards",
+      "lessonId": "lesson-6-3",
+      "title": "U.S. Business Phrases: What They Really Mean",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-6-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 6
+    },
+    {
+      "specId": "kc-6-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-6-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-6-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-7-1-1",
+      "componentType": "accordion",
+      "lessonId": "lesson-7-1",
+      "title": "Resource Directory: What Each Organization Does",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-7-1-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "kc-7-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-7-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-7-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-7-2-1",
+      "componentType": "accordion",
+      "lessonId": "lesson-7-2",
+      "title": "Central Florida Industry Clusters: Your Opportunity Map",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-7-2-1"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "accordion-7-2-networking",
+      "componentType": "accordion",
+      "lessonId": "lesson-7-2",
+      "title": "Your Networking Map: Where to Show Up",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "accordion-7-2-networking"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "kc-7-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-7-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-7-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "dataviz-7-3a",
+      "componentType": "data-visualization",
+      "lessonId": "lesson-7-3",
+      "title": "How Central Florida Stacks Up: Cost Comparison",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "dataviz-7-3a"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "dataviz-7-3b",
+      "componentType": "data-visualization",
+      "lessonId": "lesson-7-3",
+      "title": "Central Florida Industry Clusters: Scale at a Glance",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "dataviz-7-3b"
+      },
+      "source": "inline-content-block"
+    },
+    {
+      "specId": "scenario-7-3-market-entry",
+      "componentType": "scenario",
+      "lessonId": "lesson-7-3",
+      "title": "Reading the Numbers: Applying the Data",
+      "description": "Elena is a founder from Brazil evaluating U.S. market entry. She has $180,000 in capital, needs to hire one developer and one office coordinator, and is comparing Central Florida against two other U.S",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-7-3-market-entry"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "kc-7-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-7-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-7-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-7-4-freshorize",
+      "componentType": "scenario",
+      "lessonId": "lesson-7-4",
+      "title": "Step Into Freshorize's Shoes",
+      "description": "It's 2020. You run Freshorize — a European airline hygiene company founded in 2002. Your products are strong, your European brand is solid, but the EU market is saturated and growth has stalled. You w",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-7-4-freshorize"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "int-7-4-1",
+      "componentType": "checklist",
+      "lessonId": "lesson-7-4",
+      "title": "UCF BIP Application Readiness Checklist",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-7-4-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 8
+    },
+    {
+      "specId": "int-7-4-bip-phases",
+      "componentType": "tabs",
+      "lessonId": "lesson-7-4",
+      "title": "Match Your Stage to the Right UCF BIP Phase",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-7-4-bip-phases"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-7-4",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-7-4",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-7-4"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-8-1-2",
+      "componentType": "tabs",
+      "lessonId": "lesson-8-1",
+      "title": "Your Next Steps",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-8-1-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "kc-8-1",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-8-1",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-8-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "scenario-8-2-resource-match",
+      "componentType": "scenario",
+      "lessonId": "lesson-8-2",
+      "title": "Match Your Situation to the Right Takeaway Resource",
+      "description": "You have four downloadable resources. Each serves a different purpose. Pick which fits each founder's situation, then check the explanation.",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "scenario-8-2-resource-match"
+      },
+      "source": "inline-content-block",
+      "itemCount": 4
+    },
+    {
+      "specId": "kc-8-2",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-8-2",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-8-2"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    },
+    {
+      "specId": "int-8-3-1",
+      "componentType": "tabs",
+      "lessonId": "lesson-8-3",
+      "title": "Course Completion: What You've Achieved",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "int-8-3-1"
+      },
+      "source": "inline-content-block",
+      "itemCount": 2
+    },
+    {
+      "specId": "kc-8-3",
+      "componentType": "knowledge-check",
+      "lessonId": "lesson-8-3",
+      "title": "What Would You Do?",
+      "description": "",
+      "priority": "medium",
+      "placement": {
+        "position": "inline",
+        "anchorBlock": "kc-8-3"
+      },
+      "source": "inline-content-block",
+      "itemCount": 3
+    }
+  ]
+}
