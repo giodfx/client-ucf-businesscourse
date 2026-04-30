@@ -2,7 +2,7 @@
   "lessonId": "lesson-7-2",
   "moduleId": "module-7",
   "landscapeTheme": "River Springs",
-  "title": "Florida Central, Por Qué Este Mercado Funciona para los Fundadores",
+  "title": "Florida Central: Por Qué Este Mercado Funciona para los Fundadores",
   "duration": 6,
   "objectives": [
     "Describir el carácter cualitativo del ecosistema de startups de Central Florida y por qué atrae a fundadores internacionales",
@@ -60,7 +60,7 @@
         },
         {
           "heading": "Tecnología de Hospitalidad y Turismo",
-          "content": "**Actores clave:** Disney, Universal, SeaWorld, Marriott\n\n**Tasa de crecimiento:** Economía turística anual de más de $75B\n\n**Oportunidades:** Tecnología de hospitalidad, experiencias, tecnología de viajes, innovación en servicios alimentarios\n\n**Conexión con UCF:** Rosen College of Hospitality Management (top 5 a nivel mundial)"
+          "content": "**Actores clave:** Disney, Universal, SeaWorld, Marriott\n\n**Tasa de crecimiento:** Economía turística anual de más de $90B\n\n**Oportunidades:** Tecnología de hospitalidad, experiencias, tecnología de viajes, innovación en servicios alimentarios\n\n**Conexión con UCF:** Rosen College of Hospitality Management (top 5 a nivel mundial)"
         },
         {
           "heading": "Energía Limpia y Sostenibilidad",
@@ -75,15 +75,11 @@
       "sections": [
         {
           "heading": "Eventos Que Importan",
-          "content": "<p>Presentarse en persona es la forma más rápida de construir su red local. Concéntrese en estos eventos de alto valor:</p><ul><li><strong>Reuniones de Orlando Tech Association</strong>: Mensuales, casuales, con fundadores tecnológicos locales y proveedores de servicios. Vaya dentro de las dos semanas de su llegada.</li><li><strong>Demo Days de Starter Studio</strong>: Eventos de muestra de aceleradoras que le conectan con inversionistas y mentores, incluso si no está en el programa.</li><li><strong>Eventos comerciales de CFITO</strong>: Reúnen a importadores, exportadores y socios logísticos para negocios que conectan a América Latina y EE.UU.</li><li><strong>Talleres de UCF BIP</strong>: Cubren PI, preparación de pitch y validación de mercado. El formato de cohorte construye relaciones entre fundadores.</li></ul>"
-        },
-        {
-          "heading": "Lugares para Trabajar y Reunirse",
-          "content": "<p>Donde trabaja moldea a quién conoce. Elegir un espacio de trabajo dentro del ecosistema de apoyo aumenta la posibilidad de encontrarse con las personas correctas:</p><ul><li><strong>Instalaciones del UCF Business Incubation</strong>: Espacio de coworking integrado en la red de apoyo con mentores y asesores cerca.</li><li><strong>Canvs en Creative Village</strong>: El hub de coworking en Downtown Orlando, popular entre las startups creativas y tecnológicas.</li><li><strong>Espacios co-lab de la Orlando Public Library</strong>: Espacio de trabajo y salas de reuniones gratuitas para emprendedores con presupuesto ajustado.</li></ul>"
+          "content": "<p>Presentarse en persona es la forma más rápida de construir su red local. Concéntrese en estos eventos de alto valor:</p><ul><li><strong>Reuniones de Orlando Tech Association</strong>: Mensuales, casuales, con fundadores tecnológicos locales y proveedores de servicios. Vaya dentro de las dos semanas de su llegada.</li><li><strong>Eventos comerciales de CFITO</strong>: Reúnen a importadores, exportadores y socios logísticos para negocios que conectan a América Latina y EE.UU.</li><li><strong>Talleres de UCF BIP</strong>: Cubren PI, preparación de pitch y validación de mercado. El formato de cohorte construye relaciones entre fundadores.</li></ul>"
         },
         {
           "heading": "Personas con Quienes Conectarse Temprano",
-          "content": "<p>Tres relaciones importan más en sus primeros 90 días:</p><ol><li><strong>Su asesor del SBDC</strong>: Gratis y emparejado con su industria.</li><li><strong>Su coordinador de UCF BIP</strong>: Le señala los programas y personas correctas.</li><li><strong>Un fundador 6, 12 meses por delante de usted</strong>: Lo que desearían haber sabido es a menudo más valioso que cualquier taller.</li></ol>"
+          "content": "<p>Tres relaciones importan más en sus primeros 90 días:</p><ol><li><strong>Su asesor del SBDC</strong>: Gratis y emparejado con su industria.</li><li><strong>Su coordinador de UCF BIP</strong>: Le señala los programas y personas correctas.</li><li><strong>Un fundador 6–12 meses por delante de usted</strong>: Lo que desearían haber sabido es a menudo más valioso que cualquier taller.</li></ol>"
         }
       ]
     },
@@ -110,22 +106,6 @@
           "headingEs": "Orlando Tech Week",
           "desc": "Annual multi-day conference. Downtown Orlando. Connects startups with investors and mentors.",
           "descEs": "Conferencia anual de varios días. Downtown Orlando. Conecta a las startups con inversionistas y mentores."
-        },
-        {
-          "badge": "Coworking",
-          "badgeEs": "Coworking",
-          "heading": "StarterStudio",
-          "headingEs": "StarterStudio",
-          "desc": "Downtown Orlando accelerator and coworking. Mentorship programs and demo days.",
-          "descEs": "Aceleradora y coworking en Downtown Orlando. Programas de mentoría y días de demostración."
-        },
-        {
-          "badge": "Coworking",
-          "badgeEs": "Coworking",
-          "heading": "Canvs",
-          "headingEs": "Canvs",
-          "desc": "Downtown Orlando coworking hub. Densest concentration of startups in the region.",
-          "descEs": "Hub de coworking en Downtown Orlando. La mayor concentración de startups de la región."
         },
         {
           "badge": "Key Zone",
@@ -160,7 +140,8 @@
       "id": "callout-7-2-latam",
       "variant": "latam-supplement",
       "title": "Enfoque en América Latina: Comunidad y Conexión",
-      "content": "<p class=\"rt-inclusive-note\"><em>Los recursos a continuación son particularmente útiles para fundadores de LATAM. Si viene de otra región, la <a href=\"../resources.html\">página de Recursos</a> ofrece apoyo internacional más amplio; considere esta sección como contenido adicional.</em></p>\n\n<ul><li><strong>Prospera</strong>. Mentoría, capacitación y planificación empresarial bilingüe (español/inglés) para emprendedores hispanos. Le asignan un mentor que comprende su trasfondo.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Programas de emparejamiento empresarial que conectan a fundadores internacionales con negocios locales establecidos. Los eventos anuales atraen a cientos de profesionales bilingües.</li><li><strong>Grupos comunitarios colombianos, brasileños, venezolanos</strong>. Redes activas de WhatsApp y redes sociales que comparten oportunidades de empleo, recomendaciones de proveedores y recursos familiares. Pida a sus compañeros de cohorte de BIP o a su asesor del SBDC presentaciones.</li><li><strong>Servicios profesionales bilingües</strong>. Los abogados de inmigración, los CPA y los consultores de negocios que trabajan en español y portugués están bien establecidos en Central Florida.</li></ul>\n\n<p><strong>Fundadores de otras regiones:</strong></p><ul><li><strong>Cámaras empresariales bilaterales en Orlando:</strong> Más de 20 cámaras activas por país (alemana, francesa, británica, india, coreana, japonesa, italiana, etc.) que organizan eventos regulares de networking.</li><li><strong>Equipo de eventos empresariales de Visit Orlando:</strong> Conecta a fundadores internacionales con empresas de Orlando específicas de la industria para explorar asociaciones.</li></ul>"
+      "content": "<p class=\"rt-inclusive-note\"><em>Los recursos a continuación son particularmente útiles para fundadores de LATAM. Si viene de otra región, la <a href=\"resources.html\">página de Recursos</a> ofrece apoyo internacional más amplio; considere esta sección como contenido adicional.</em></p>\n\n<ul><li><strong>Prospera</strong>. Mentoría, capacitación y planificación empresarial bilingüe (español/inglés) para emprendedores hispanos. Le asignan un mentor que comprende su trasfondo.</li><li><strong>Hispanic Chamber of Commerce of Metro Orlando</strong>. Programas de emparejamiento empresarial que conectan a fundadores internacionales con negocios locales establecidos. Los eventos anuales atraen a cientos de profesionales bilingües.</li><li><strong>Grupos comunitarios colombianos, brasileños, venezolanos</strong>. Redes activas de WhatsApp y redes sociales que comparten oportunidades de empleo, recomendaciones de proveedores y recursos familiares. Pida a sus compañeros de cohorte de BIP o a su asesor del SBDC presentaciones.</li><li><strong>Servicios profesionales bilingües</strong>. Los abogados de inmigración, los CPA y los consultores de negocios que trabajan en español y portugués están bien establecidos en Central Florida.</li></ul>\n\n<p><strong>Fundadores de otras regiones:</strong></p><ul><li><strong>Cámaras empresariales bilaterales en Orlando:</strong> Más de 20 cámaras activas por país (alemana, francesa, británica, india, coreana, japonesa, italiana, etc.) que organizan eventos regulares de networking.</li><li><strong>Equipo de eventos empresariales de Visit Orlando:</strong> Conecta a fundadores internacionales con empresas de Orlando específicas de la industria para explorar asociaciones.</li></ul>",
+      "showOnly": "es"
     },
     {
       "type": "callout",

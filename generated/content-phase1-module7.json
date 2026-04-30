@@ -209,13 +209,6 @@
           "wordCount": 175
         },
         {
-          "type": "text",
-          "id": "text-7-2-2",
-          "title": "UCF as the Anchor: The Research Corridor Effect",
-          "content": "<p>Every strong startup ecosystem has an anchor body. In Central Florida, it's UCF, and understanding how UCF shapes the ecosystem explains why this region works for entrepreneurs.</p>\n\n<p>In practice, UCF is a research engine tied to the industries around it. The Institute for Simulation and Training (IST) partners with defense contractors and government agencies, which is why 370+ simulation companies operate nearby. UCF's medical school at Lake Nona feeds the health tech ecosystem. Engineering and CS programs produce graduates who stay local, because the jobs are here.</p>\n\n<p>For international founders, UCF BIP gives you a warm introduction to the ecosystem. Faculty consult on technical problems. Graduate students become interns and early hires. One Brazilian edtech founder found her first three customers, her lead developer, and her SBDC counselor through connections that started at the BIP welcome session.</p>\n\n<p>The corridor from UCF through Research Park to Lake Nona concentrates most innovation activity. If your business touches simulation, health tech, or defense tech, proximity to this corridor gives you a structural advantage.</p>",
-          "wordCount": 174
-        },
-        {
           "type": "callout",
           "id": "callout-7-2-funfact",
           "variant": "fun-fact",
@@ -266,11 +259,7 @@
           "sections": [
             {
               "heading": "Events That Matter",
-              "content": "<p>Showing up in person is the fastest way to build your local network. Focus on these high-value events:</p><ul><li><strong>Orlando Tech Association meetups</strong>: Monthly, casual gatherings with local tech founders and service providers. Go within two weeks of arriving.</li><li><strong>Starter Studio Demo Days</strong>: Accelerator showcase events connecting you with investors and mentors, even if you are not in the program.</li><li><strong>CFITO Trade Events</strong>: Bring together importers, exporters, and logistics partners for businesses bridging Latin America and the U.S.</li><li><strong>UCF BIP Workshops</strong>: Cover IP, pitch preparation, and market validation. The cohort format builds founder relationships.</li></ul>"
-            },
-            {
-              "heading": "Places to Work and Meet",
-              "content": "<p>Where you work shapes who you meet. Choosing a workspace inside the support ecosystem increases the chance of running into the right people:</p><ul><li><strong>UCF Business Incubation facilities</strong>: Coworking space embedded in the support network with mentors and advisors nearby.</li><li><strong>Canvs at Creative Village</strong>: Downtown Orlando's coworking hub, popular with creative and tech startups.</li><li><strong>Orlando Public Library co-lab spaces</strong>: Free workspace and meeting rooms for budget-conscious entrepreneurs.</li></ul>"
+              "content": "<p>Showing up in person is the fastest way to build your local network. Focus on these high-value events:</p><ul><li><strong>Orlando Tech Association meetups</strong>: Monthly, casual gatherings with local tech founders and service providers. Go within two weeks of arriving.</li><li><strong>CFITO Trade Events</strong>: Bring together importers, exporters, and logistics partners for businesses bridging Latin America and the U.S.</li><li><strong>UCF BIP Workshops</strong>: Cover IP, pitch preparation, and market validation. The cohort format builds founder relationships.</li></ul>"
             },
             {
               "heading": "People to Connect With Early",
@@ -301,22 +290,6 @@
               "headingEs": "Orlando Tech Week",
               "desc": "Annual multi-day conference. Downtown Orlando. Connects startups with investors and mentors.",
               "descEs": "Conferencia anual de varios días. Downtown Orlando. Conecta startups con inversionistas y mentores."
-            },
-            {
-              "badge": "Coworking",
-              "badgeEs": "Coworking",
-              "heading": "StarterStudio",
-              "headingEs": "StarterStudio",
-              "desc": "Downtown Orlando accelerator and coworking. Mentorship programs and demo days.",
-              "descEs": "Aceleradora y coworking en Downtown Orlando. Programas de mentoría y días de demostración."
-            },
-            {
-              "badge": "Coworking",
-              "badgeEs": "Coworking",
-              "heading": "Canvs",
-              "headingEs": "Canvs",
-              "desc": "Downtown Orlando coworking hub. Densest concentration of startups in the region.",
-              "descEs": "Hub de coworking en Downtown Orlando. Mayor concentración de startups en la región."
             },
             {
               "badge": "Key Zone",
@@ -934,13 +907,13 @@
             {
               "stem": "A founder from Costa Rica has just finished this Phase 1 program and is eager to move forward. He has not yet contacted any local organizations. According to the lesson's guidance on next steps, what sequence of actions should he take to engage with UCF BIP most effectively?",
               "options": [
-                "Apply directly to Phase 3 since he is ready to scale his business in the U.S. market",
+                "Skip the self-assessment and book the 1:1 meeting immediately to save time",
                 "Wait until he has his first U.S. customer before contacting UCF BIP, since the program is only for founders with existing traction",
                 "Skip the 1:1 meeting and instead attend as many networking events as possible to build connections independently",
                 "Complete the Module 8 self-assessment and Expansion Decision Worksheet, take one concrete action like scheduling an SBDC session or registering for a chamber event, then bring those results to his 1:1 meeting with the UCF BIP team"
               ],
               "correctAnswer": 3,
-              "explanation": "The lesson outlines a three-step sequence: (1) complete the self-assessment in Module 8 to identify strengths and gaps, (2) take one concrete action such as scheduling SBDC counseling or registering for a networking event, and (3) bring those results to the 1:1 meeting with UCF BIP. Showing up already in motion helps the team advise more effectively. Phase 3 is for business owners with early traction, not pre-entry founders, and the 1:1 meeting is a key part of the process, not something to skip."
+              "explanation": "The lesson outlines a three-step sequence: (1) complete the self-assessment in Module 8 to identify strengths and gaps, (2) take one concrete action such as scheduling SBDC counseling or registering for a networking event, and (3) bring those results to the 1:1 meeting with UCF BIP. Showing up already in motion helps the team advise more effectively. Skipping the self-assessment leaves you without the data the team needs to give targeted advice, and the 1:1 meeting is a key part of the process, not something to skip."
             }
           ]
         },
@@ -948,7 +921,7 @@
           "type": "key-takeaway",
           "id": "kt-7-4-1",
           "title": "Key Takeaway",
-          "content": "<p>UCF BIP and the Central Florida ecosystem exist to help you succeed. Like a river fed by dozens of springs, the support network is deep and it keeps flowing. Phase 1 (this program) gave you the knowledge. Phases 2 and 3 of the UCF BIP market entry/soft landing program give you the hands-on support: mentorship, workspace, introductions, and structured advisory. Your next step: complete the self-assessment in Module 8, then schedule your 1:1 meeting with the UCF BIP team. The founders who step into the current this week are the ones who build momentum.</p>"
+          "content": "<p>UCF BIP and the Central Florida ecosystem exist to help you succeed. Like a river fed by dozens of springs, the support network is deep and it keeps flowing. This program gave you the knowledge. Your next step: complete the self-assessment in Module 8, then schedule your 1:1 meeting with the UCF BIP team to map out concrete, tailored next actions. The founders who step into the current this week are the ones who build momentum.</p>"
         }
       ]
     }

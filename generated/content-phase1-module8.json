@@ -177,34 +177,6 @@
           "title": "Entrepreneur organizing resources and preparation materials for U.S. market entry"
         },
         {
-          "type": "scenario",
-          "id": "scenario-8-2-resource-match",
-          "title": "Match Your Situation to the Right Takeaway Resource",
-          "description": "You have four downloadable resources. Each serves a different purpose. Pick which fits each founder's situation, then check the explanation.",
-          "paths": [
-            {
-              "label": "Sara just finalized her business plan and wants a single document that lists every action item across all 8 modules, organized by topic",
-              "outcome": "<strong>U.S. Market Entry Checklist.</strong> The checklist organizes every major topic from the program (legal, taxes, IP, hiring, customers, culture, ecosystem) into action items with priority levels and timeframes. Sara can use it as her master to-do list and check items off as she completes them. Best for founders who think topic-by-topic.",
-              "isRecommended": false
-            },
-            {
-              "label": "Carlos wants to know exactly what to do first, second, and third, in chronological order, from \"I am still in my home country\" to \"I am operational in Florida\"",
-              "outcome": "<strong>Florida Setup Roadmap.</strong> The roadmap is sorted by sequence (not by topic). It walks through four phases: pre-arrival preparation (you can do this remotely), entity formation and registration, financial infrastructure, and operational readiness. Best for founders who want to know \"what comes next\" rather than \"what topics exist.\" It also flags which steps require physical presence in Florida vs. which you can complete from home.",
-              "isRecommended": false
-            },
-            {
-              "label": "Aisha needs to find local mentors, attorneys, banks, and support organizations, with names and contact info she can actually call",
-              "outcome": "<strong>Central Florida Resource Guide.</strong> The guide is the single-document directory of every support organization, professional service, and program covered in Module 7. It includes business advising (SBDC, SCORE, UCF BIP), incubators, government programs, attorneys, CPAs, banking contacts, and networking organizations. Best when you have already decided to act and now need names and numbers.",
-              "isRecommended": false
-            },
-            {
-              "label": "Hiroshi is 90% sure he wants to expand to the U.S., but his board wants a structured go/no-go before approving the budget",
-              "outcome": "<strong>Expansion Decision Worksheet.</strong> The worksheet scores readiness across five dimensions: market fit, financial readiness, legal readiness, operations, and timing. It is a decision tool, not a pass/fail test. A founder from Colombia scored 2 out of 5 on financial readiness, spent four months strengthening home-market revenue, re-scored at 4, and entered the U.S. with a much stronger foundation. Hiroshi can complete it before his board meeting and use the output to drive the conversation.",
-              "isRecommended": false
-            }
-          ]
-        },
-        {
           "type": "accordion",
           "id": "int-8-2-resource-library",
           "title": "Resource Library: Quick Reference",
@@ -337,13 +309,6 @@
           "variant": "reality-check",
           "title": "Important Reminder Before You Go",
           "content": "<p>This program provides general educational information to help international founders understand the U.S. business environment. It does not constitute legal, tax, immigration, or financial advice. Founders should consult qualified professionals before making business decisions.</p>\n\n<p>This is not a formality. The information in this program gives you a strong foundation, but every founder's case is different. Your entity choice, tax duties, visa pathway, and IP strategy depend on your specific situation. The experts you work with will tailor the general knowledge here to your business, country of origin, industry, and goals. That is how knowledge becomes safe action.</p>"
-        },
-        {
-          "type": "text",
-          "id": "text-8-3-4",
-          "title": "One Last Thing: Your Feedback Matters",
-          "content": "<p>Now, before you close this program, two questions. Your answers help make this better for every founder after you.</p>\n\n<h3>Was This Program Worth Your Time?</h3>\n\n<p>Did it change your understanding of U.S. market entry? Help you avoid at least one costly mistake? Be honest. Positive and critical answers help equally.</p>\n\n<h3>What Would Make It Better?</h3>\n\n<p>A topic in more depth? An area too basic? A resource you wished existed? Share your thoughts during your 1:1 or send them to the UCF BIP team.</p>",
-          "wordCount": 83
         },
         {
           "type": "tabs",
