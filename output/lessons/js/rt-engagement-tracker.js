@@ -41,7 +41,7 @@
     if (!DEBUG) return;
     try { console.log.apply(console, ['[rt-engagement]'].concat(Array.from(arguments))); } catch (_) {}
   }
-  log('script loaded — version 2026-04-30-v2');
+  log('script loaded — version 2026-04-30-v3');
 
   // Heartbeat marker — proves the tracker is actually running (vs. cached
   // old HTML). Writes a timestamp into rt-progress.engagementTrackerLoadedAt
@@ -49,7 +49,7 @@
   try {
     var bootP = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
     bootP.engagementTrackerLoadedAt = new Date().toISOString();
-    bootP.engagementTrackerVersion = '2026-04-30-v2';
+    bootP.engagementTrackerVersion = '2026-04-30-v3';
     localStorage.setItem(STORAGE_KEY, JSON.stringify(bootP));
   } catch (_) {}
 
@@ -81,6 +81,8 @@
       v.addEventListener('play', function() {
         state.lastTime = v.currentTime;
         state.sceneSet.add(idx);
+        state.hasActivity = true;
+        log('video: play event scene', idx, 'on lesson', lid);
       });
       v.addEventListener('timeupdate', function() {
         if (v.paused || v.ended) return;
@@ -111,12 +113,20 @@
       lastSavedAt: 0,
       sceneSet: new Set(),
       doneFlag: false,
+      hasActivity: false,
       totalScenes: function() { return document.querySelectorAll('video').length; },
       flush: function() {
         var now = Date.now();
         if (now - state.lastSavedAt < VIDEO_FLUSH_MS && !state.doneFlag) return;
-        state.lastSavedAt = now;
+        // Don't write phantom vp entries if no actual video activity has
+        // occurred yet on this lesson. Without this gate, the visibilitychange
+        // handler writes { sc: [], tot: N, wt: 0 } the moment the user tabs
+        // away from a lesson that has a video — even if they never pressed
+        // play — making the gradebook show "Module N — 0/1".
         var p = getProgress();
+        var existed = !!(p.vp && p.vp[lid]);
+        if (!state.hasActivity && !existed) return;
+        state.lastSavedAt = now;
         if (!p.vp) p.vp = {};
         var prior = p.vp[lid] || { sc: [], tot: state.totalScenes(), wt: 0, done: false };
         var mergedSc = new Set(prior.sc || []);
@@ -204,28 +214,29 @@
         '.knowledge-check, .rt-knowledge-check, .rt-kc-step'
       );
       if (!blocks.length) return;
+      // UCF actual answer markers (verified against interactive.js + quiz.js +
+      // roadtrip-lesson.js):
+      //   - roadtrip-lesson.js: .rt-kc-correct / .rt-kc-incorrect on the button
+      //   - interactive.js:     .correct / .incorrect on a child <label>
+      //   - quiz.js:            .correct-answer / .incorrect-answer on <label>
+      var CORRECT_SELECTORS   = '.rt-kc-correct, label.correct, label.correct-answer';
+      var INCORRECT_SELECTORS = '.rt-kc-incorrect, label.incorrect, label.incorrect-answer';
       var correct = 0;
       var answered = 0;
       blocks.forEach(function(kc, i) {
         var v = kc.dataset.answered;
-        if (v === 'correct') { correct++; answered++; }
-        else if (v === 'incorrect') { answered++; }
-        // also check for the visual signals quiz.js / interactive.js use
-        if (!v) {
-          if (kc.querySelector('.rt-kc-correct, .quiz-correct, .knowledge-check-correct')) {
-            correct++; answered++;
-          } else if (kc.querySelector('.rt-kc-incorrect, .quiz-incorrect, .knowledge-check-incorrect')) {
-            answered++;
-          }
-        }
+        var hasCorrect = v === 'correct' || !!kc.querySelector(CORRECT_SELECTORS) || kc.classList.contains('rt-kc-correct');
+        var hasIncorrect = v === 'incorrect' || !!kc.querySelector(INCORRECT_SELECTORS) || kc.classList.contains('rt-kc-incorrect');
+        if (hasCorrect) { correct++; answered++; }
+        else if (hasIncorrect) { answered++; }
         // record per-block in ix
-        if (answered > 0 || v) {
+        if (hasCorrect || hasIncorrect) {
           var p2 = ensureBlocks();
           var key = 'kc-' + i;
           p2.ix[lid][key] = {
             t: 'kc',
-            c: !!(v === 'correct' || kc.querySelector('.rt-kc-correct, .quiz-correct, .knowledge-check-correct')),
-            s: (v === 'correct' || kc.querySelector('.rt-kc-correct, .quiz-correct, .knowledge-check-correct')) ? 100 : 0
+            c: hasCorrect,
+            s: hasCorrect ? 100 : 0
           };
           saveProgress(p2);
         }
@@ -250,13 +261,16 @@
       var p = ensureBlocks();
       var changed = false;
 
-      // Drag-drop completion
+      // Drag-drop completion. Actual interactive.js markers:
+      //   - .correct-zone / .incorrect-zone on drop targets
+      //   - .answered on items
       document.querySelectorAll('.drag-drop, .rt-drag-drop, [data-drag-drop-id]').forEach(function(dd, i) {
+        var zones = dd.querySelectorAll('.drop-zone, .rt-drag-target');
+        var correctZones = dd.querySelectorAll('.correct-zone');
         var done = dd.classList.contains('rt-drag-drop--complete') ||
                    dd.dataset.completed === 'true' ||
-                   (dd.querySelectorAll('.drop-correct, .rt-drag-correct').length > 0 &&
-                    dd.querySelectorAll('.drop-zone, .rt-drag-target').length ===
-                    dd.querySelectorAll('.drop-correct, .rt-drag-correct').length);
+                   (zones.length > 0 && correctZones.length === zones.length) ||
+                   dd.querySelectorAll('.answered').length > 0;
         if (done) {
           var k = 'drag-' + i;
           if (!p.ix[lid][k] || !p.ix[lid][k].c) {
