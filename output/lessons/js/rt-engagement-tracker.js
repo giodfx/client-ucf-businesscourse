@@ -67,71 +67,111 @@
   }
 
   // ─── Video watch-time tracking ──────────────────────────────────────────
-  function setupVideoTracking() {
-    var lid = getLessonId();
-    if (!lid) { log('video: no lesson id, skipping'); return; }
-    var videos = document.querySelectorAll('video');
-    log('video: found', videos.length, 'video(s) on lesson', lid);
-    if (!videos.length) return;
+  // Note: rt-bookend.js creates <video> elements DYNAMICALLY at
+  // DOMContentLoaded — sometimes after this tracker runs. We use a
+  // MutationObserver to attach listeners to videos added later.
+  var videoListenersAttached = new WeakSet();
 
-    var watchedSeconds = 0;
-    var lastTime = 0;
-    var lastSavedAt = 0;
-    var sceneSet = new Set();
-    var doneFlag = false;
-    var totalScenes = videos.length; // each <video> on the page = a scene
-
-    function flush() {
-      var now = Date.now();
-      if (now - lastSavedAt < VIDEO_FLUSH_MS && !doneFlag) return;
-      lastSavedAt = now;
-      var p = getProgress();
-      if (!p.vp) p.vp = {};
-      // Accumulate across visits — sum into existing.
-      var prior = p.vp[lid] || { sc: [], tot: totalScenes, wt: 0, done: false };
-      // Merge scene set
-      var mergedSc = new Set(prior.sc || []);
-      sceneSet.forEach(function(i) { mergedSc.add(i); });
-      p.vp[lid] = {
-        sc: Array.from(mergedSc),
-        tot: Math.max(totalScenes, prior.tot || 0),
-        wt: Math.round((prior.wt || 0) + watchedSeconds),
-        done: prior.done || doneFlag
-      };
-      watchedSeconds = 0;
-      // Also mirror into legacy videoMinutes for any reader that prefers a
-      // simple seconds-per-lesson map.
-      if (!p.videoMinutes) p.videoMinutes = {};
-      p.videoMinutes[lid] = p.vp[lid].wt;
-      saveProgress(p);
-    }
-
+  function attachVideoListenersTo(videos, lid, state) {
+    var attached = 0;
     videos.forEach(function(v, idx) {
+      if (videoListenersAttached.has(v)) return;
+      videoListenersAttached.add(v);
+      attached++;
       v.addEventListener('play', function() {
-        lastTime = v.currentTime;
-        sceneSet.add(idx);
+        state.lastTime = v.currentTime;
+        state.sceneSet.add(idx);
       });
       v.addEventListener('timeupdate', function() {
         if (v.paused || v.ended) return;
-        var delta = v.currentTime - lastTime;
-        // Skip negative deltas (scrubbed back) and large jumps (scrubbed forward);
-        // only credit normal playback (~0.25s ticks).
-        if (delta > 0 && delta < 2) watchedSeconds += delta;
-        lastTime = v.currentTime;
-        flush();
+        var delta = v.currentTime - state.lastTime;
+        if (delta > 0 && delta < 2) state.watchedSeconds += delta;
+        state.lastTime = v.currentTime;
+        state.flush();
       });
-      v.addEventListener('pause', function() { flush(); });
+      v.addEventListener('pause', function() { state.flush(); });
       v.addEventListener('ended', function() {
-        sceneSet.add(idx);
-        if (sceneSet.size >= totalScenes) doneFlag = true;
-        flush();
+        state.sceneSet.add(idx);
+        if (state.sceneSet.size >= state.totalScenes()) state.doneFlag = true;
+        state.flush();
       });
     });
+    if (attached > 0) {
+      log('video: attached listeners to', attached, 'new video(s) (total tracked:', videos.length, ')');
+    }
+  }
+
+  function setupVideoTracking() {
+    var lid = getLessonId();
+    if (!lid) { log('video: no lesson id, skipping'); return; }
+
+    var state = {
+      watchedSeconds: 0,
+      lastTime: 0,
+      lastSavedAt: 0,
+      sceneSet: new Set(),
+      doneFlag: false,
+      totalScenes: function() { return document.querySelectorAll('video').length; },
+      flush: function() {
+        var now = Date.now();
+        if (now - state.lastSavedAt < VIDEO_FLUSH_MS && !state.doneFlag) return;
+        state.lastSavedAt = now;
+        var p = getProgress();
+        if (!p.vp) p.vp = {};
+        var prior = p.vp[lid] || { sc: [], tot: state.totalScenes(), wt: 0, done: false };
+        var mergedSc = new Set(prior.sc || []);
+        state.sceneSet.forEach(function(i) { mergedSc.add(i); });
+        p.vp[lid] = {
+          sc: Array.from(mergedSc),
+          tot: Math.max(state.totalScenes(), prior.tot || 0),
+          wt: Math.round((prior.wt || 0) + state.watchedSeconds),
+          done: prior.done || state.doneFlag
+        };
+        state.watchedSeconds = 0;
+        if (!p.videoMinutes) p.videoMinutes = {};
+        p.videoMinutes[lid] = p.vp[lid].wt;
+        saveProgress(p);
+      }
+    };
+
+    // Initial scan.
+    var initialVideos = document.querySelectorAll('video');
+    log('video: initial scan found', initialVideos.length, 'video(s) on lesson', lid);
+    attachVideoListenersTo(initialVideos, lid, state);
+
+    // Watch for videos added later (rt-bookend.js creates them dynamically).
+    if (window.MutationObserver) {
+      var mo = new MutationObserver(function(mutations) {
+        var found = false;
+        for (var i = 0; i < mutations.length; i++) {
+          var added = mutations[i].addedNodes;
+          for (var j = 0; j < added.length; j++) {
+            var n = added[j];
+            if (!n || n.nodeType !== 1) continue;
+            if (n.tagName === 'VIDEO') { found = true; }
+            else if (n.querySelector && n.querySelector('video')) { found = true; }
+          }
+        }
+        if (found) {
+          attachVideoListenersTo(document.querySelectorAll('video'), lid, state);
+        }
+      });
+      mo.observe(document.body, { childList: true, subtree: true });
+    }
+
+    // Also retry every 500ms for the first 5 seconds — covers edge cases
+    // where MutationObserver attachment misses early mutations.
+    var retries = 0;
+    var retryInterval = setInterval(function() {
+      retries++;
+      attachVideoListenersTo(document.querySelectorAll('video'), lid, state);
+      if (retries >= 10) clearInterval(retryInterval);
+    }, 500);
 
     document.addEventListener('visibilitychange', function() {
       if (document.visibilityState === 'hidden') {
-        lastSavedAt = 0;
-        flush();
+        state.lastSavedAt = 0;
+        state.flush();
       }
     });
   }

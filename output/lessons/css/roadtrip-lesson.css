@@ -3632,11 +3632,32 @@ html, .rt-lesson-body {
 /* ============================================================
    LIGHT THEME — Simulation overrides
    ============================================================ */
+/* Radio label (used by .rt-sim radio inputs) — class-based color so the
+   light-theme override below can flip it. Was previously inline-styled
+   to white, which broke light theme. */
+.rt-sim-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+.rt-sim-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
 [data-theme="light"] .rt-sim {
   background: rgba(255, 255, 255, 0.95);
   border-color: rgba(0,0,0,0.12);
   border-left-color: var(--rt-accent);
   box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+[data-theme="light"] .rt-sim-radio-label {
+  color: #1a202c;
 }
 [data-theme="light"] .rt-sim-title {
   color: #1a202c;
@@ -4184,3 +4205,166 @@ html, .rt-lesson-body {
   background: #1e3a5f;
   color: #ffffff;
 }
+
+/* === Light-theme overrides — comprehensive sweep 2026-04-30 === */
+/* Catches remaining .rt-* selectors that hardcoded light text/bg/border
+   values in the dark cascade and lacked an explicit light override.
+   Grouped by component for ease of maintenance. */
+
+/* --- Route sidebar internals --- */
+[data-theme="light"] .rt-route-list::before {
+  background: rgba(0,0,0,0.1);
+}
+[data-theme="light"] .rt-route-header {
+  border-bottom-color: rgba(0,0,0,0.08);
+}
+[data-theme="light"] .rt-stop-dot {
+  background: rgba(0,0,0,0.15);
+  border-color: rgba(255,255,255,0.95);
+}
+[data-theme="light"] .rt-back-to-dash {
+  color: #475569;
+  border-top-color: rgba(0,0,0,0.08);
+}
+
+/* --- Lesson body / nav dividers --- */
+[data-theme="light"] .rt-lesson-nav {
+  border-top-color: rgba(0,0,0,0.08);
+}
+
+/* --- Inline H3 headings inside text-flow (was light-blue #90b4d8) --- */
+[data-theme="light"] .rt-text-flow h3 {
+  color: #1e3a5f;
+}
+
+/* --- Lesson images / figcaption --- */
+[data-theme="light"] .lesson-image {
+  border-color: rgba(0,0,0,0.08);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+[data-theme="light"] .lesson-image figcaption {
+  color: #64748b;
+  background: rgba(241,245,249,0.85);
+  border-top-color: rgba(0,0,0,0.06);
+}
+
+/* --- Comparison stepper (rt-cmp) --- */
+[data-theme="light"] .rt-cmp-category {
+  color: #64748b;
+}
+[data-theme="light"] .rt-cmp-card {
+  background: rgba(241,245,249,0.7);
+  border-color: rgba(0,0,0,0.08);
+}
+[data-theme="light"] .rt-cmp-card p {
+  color: #334155;
+}
+[data-theme="light"] .rt-cmp-vs {
+  color: #94a3b8;
+}
+[data-theme="light"] .rt-cmp-callout {
+  background: rgba(245,166,35,0.08);
+  color: #92400e;
+}
+
+/* --- Avatars (KC + feedback) — flip white border --- */
+[data-theme="light"] .rt-kc-avatar,
+[data-theme="light"] .rt-feedback-avatar {
+  border-color: rgba(0,0,0,0.15);
+}
+[data-theme="light"] .rt-callout-avatar {
+  background: rgba(0,0,0,0.04);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08), inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+/* --- Video placeholder (empty state) --- */
+[data-theme="light"] .video-placeholder-inner {
+  background: rgba(241,245,249,0.7);
+  border-color: rgba(0,0,0,0.12);
+  color: #64748b;
+}
+[data-theme="light"] .video-placeholder-title {
+  color: #475569;
+}
+[data-theme="light"] .video-placeholder-info {
+  color: #64748b;
+}
+
+/* --- Exercise textarea --- */
+[data-theme="light"] .rt-exercise textarea {
+  background: #fff;
+  border-color: rgba(0,0,0,0.15);
+  color: #1a202c;
+}
+[data-theme="light"] .rt-exercise textarea::placeholder {
+  color: rgba(0,0,0,0.35);
+}
+
+/* --- Generic text-flow tables --- */
+[data-theme="light"] .rt-text-flow th {
+  background: #1e3a5f;
+  color: #ffffff;
+  border-color: rgba(0,0,0,0.12);
+}
+[data-theme="light"] .rt-text-flow td {
+  color: #334155;
+  border-color: rgba(0,0,0,0.08);
+}
+[data-theme="light"] .rt-text-flow tr:nth-child(even) td {
+  background: rgba(241,245,249,0.5);
+}
+
+/* --- Custom RT accordion items --- */
+[data-theme="light"] .rt-accordion-item {
+  border-color: rgba(0,0,0,0.1);
+}
+[data-theme="light"] .rt-accordion-trigger[aria-expanded="true"] {
+  background: rgba(245,166,35,0.1);
+  color: #92400e;
+}
+
+/* --- Custom RT tab panel (alias for the existing .rt-tab-content rule) --- */
+[data-theme="light"] .rt-tab-panel {
+  color: #334155;
+}
+
+/* --- Checklist row dividers --- */
+[data-theme="light"] .rt-checklist-item {
+  border-bottom-color: rgba(0,0,0,0.06);
+}
+
+/* --- Reflection wrapper (textarea border + scenario edges) --- */
+[data-theme="light"] .scenario-feedback {
+  color: #334155;
+}
+
+/* --- Feature card grid: defensive border tint --- */
+[data-theme="light"] .rt-feat-card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* --- Sim insight border (default uses rgba light, light-mode needs visible) --- */
+[data-theme="light"] .rt-sim-insight {
+  border-left-color: var(--rt-accent);
+}
+[data-theme="light"] .rt-sim-result-header {
+  border-bottom-color: rgba(0,0,0,0.08);
+}
+[data-theme="light"] .rt-sim-toggle-slider::after {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+[data-theme="light"] .rt-sim-hire-card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+[data-theme="light"] .rt-sim-insurance-card {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+/* --- Sim bar segment text (white on colored bar — leave; colored bars stay)
+   No override needed — the segment text sits on a saturated bar fill. */
+
+/* --- Hero module label fade in light theme ---
+   Stays #fff; the hero image carries its own dark gradient overlay
+   which we keep softer in light mode (already handled at .rt-hero-overlay). */
+
