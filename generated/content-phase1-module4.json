@@ -20,7 +20,7 @@
           "type": "text",
           "id": "text-4-1-1",
           "title": "Your First U.S. Hire: Building a Team the Right Way",
-          "content": "<p>Every person you hire in the U.S. falls into a defined legal category with specific rules governing how they work. Classify people wrong, and you owe back taxes from day one.</p>\n\n<p>An Irish SaaS founder hired a developer in Orlando, called her an \"independent contractor,\" and paid her through Venmo for six months. The developer worked 9-to-5, used the company's laptop, and attended daily standups. When she filed for unemployment, Florida flagged it. The founder owed $14,000 in back taxes, penalties, and interest.</p>\n\n<p>The U.S. draws a hard legal line between contractors and employees based on how the person actually works, not what the contract says. An <strong>independent contractor</strong> sets their own schedule, uses their own tools, and serves multiple clients. An <strong>employee</strong> works under your direction: you set hours, provide equipment, and they work primarily for you. </p>",
+          "content": "<p>Every person you hire in the U.S. falls into a defined legal category with specific rules governing how they work. Classify people wrong, and you owe back taxes from day one.</p>\n\n<p>A Filipino SaaS founder hired a developer in Orlando, called her an \"independent contractor,\" and paid her through Venmo for six months. The developer worked 9-to-5, used the company's laptop, and attended daily standups. When she filed for unemployment, Florida flagged it. The founder owed $14,000 in back taxes, penalties, and interest.</p>\n\n<p>The U.S. draws a hard legal line between contractors and employees based on how the person actually works, not what the contract says. An <strong>independent contractor</strong> sets their own schedule, uses their own tools, and serves multiple clients. An <strong>employee</strong> works under your direction: you set hours, provide equipment, and they work primarily for you. </p>",
           "wordCount": 210
         },
         {
@@ -168,7 +168,7 @@
           "type": "text",
           "id": "text-4-1-2",
           "title": "The IRS Test: How They Actually Decide",
-          "content": "<p>So what does this mean in practice? The IRS uses a three-part test to decide worker status.</p>\n\n<h3>Behavioral Control</h3>\n\n<p>Do you control <strong>how</strong> the work gets done? Detailed instructions and required hours point toward employee. If the worker decides how to accomplish the result, that points toward contractor.</p>\n\n<h3>Financial Control</h3>\n\n<p>Do you control the <strong>business aspects</strong> of the worker's job? Employees have expenses reimbursed and receive company tools. Contractors invest in their own equipment.</p>\n\n<h3>Relationship Type</h3>\n\n<p>Employee-type benefits, an ongoing relationship with no end date, and work that is a core part of your business all suggest employment.</p>\n\n<p>Practical shortcut: if you control when, where, and how someone works, they are almost certainly an employee regardless of what the contract says.</p>",
+          "content": "<p>So what does this mean in practice? The IRS uses a three-part test to decide worker status.</p>\n\n<h3>Behavioral Control</h3>\n\n<p>Do you control <strong>how</strong> the work gets done? Detailed instructions and required hours point toward employee. If the worker decides how to accomplish the result, that points toward contractor.</p>\n\n<h3>Financial Control</h3>\n\n<p>Do you control the <strong>business aspects</strong> of the worker's job? Employees have expenses reimbursed and receive company tools. Contractors invest in their own equipment.</p>\n\n<h3>Relationship Type</h3>\n\n<p>Employee-type benefits, an ongoing relationship with no end date, and work that is a core part of your business all suggest employment.</p>\n\n<p>Practical shortcut: if you control when, where, and how someone works, they are almost certainly an employee regardless of what the contract says.</p>\n\n<p><em>These are general guidelines. Worker classification decisions should be reviewed with an employment attorney or qualified advisor based on your specific situation.</em></p>",
           "wordCount": 114
         },
         {
@@ -196,9 +196,16 @@
         },
         {
           "type": "text",
+          "id": "text-4-1-key-insight",
+          "title": "Key Insight for Founders",
+          "content": "<p>Classification is based on how the work is structured&mdash;not how you describe it. When in doubt, structure the role correctly from the start or get professional guidance before scaling the relationship.</p>",
+          "wordCount": 35
+        },
+        {
+          "type": "text",
           "id": "text-4-1-3",
           "title": "When Contractors Actually Make Sense",
-          "content": "<p>Contractors work well for project-based tasks (a website, a marketing campaign, a financial model) and temporary expertise. The distinction is straightforward: a freelance web designer who builds your site and moves on is a contractor. A marketing coordinator who works 9-to-5 at your direction is an employee. Platforms like <strong>Upwork</strong>, <strong>Toptal</strong>, and <strong>Fiverr</strong> make finding U.S.-based contractors straightforward.</p>\n\n<p>Get paperwork right from day one: a written <strong>Independent Contractor Agreement</strong> defining scope, payment, IP ownership, and confidentiality, plus a completed <strong>W-9 form</strong> before any payments for year-end 1099-NEC filing.</p>",
+          "content": "<p>Contractors work well for project-based tasks (a website, a marketing campaign, a financial model) and temporary expertise. The distinction is straightforward: a freelance web designer who builds your site and moves on is a contractor. A marketing coordinator who works 9-to-5 at your direction is an employee. Platforms like <strong>Upwork</strong>, <strong>Toptal</strong>, and <strong>Fiverr</strong> make finding U.S.-based contractors straightforward.</p>\n\n<p>Get paperwork right from day one: a written <strong>Independent Contractor Agreement</strong> defining scope, payment, IP ownership, and confidentiality, plus a completed <strong>W-9 form</strong> before any payments for year-end 1099-NEC filing.</p>\n\n<p>When in doubt, have an employment attorney or qualified advisor review the classification before you engage the worker&mdash;fixing it early is far easier than correcting it later.</p>",
           "wordCount": 92
         },
         {
@@ -213,7 +220,7 @@
           "id": "callout-4-1-wm",
           "variant": "watch-money",
           "title": "Watch Your Money: What Hiring Actually Costs",
-          "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour, worth it for proper classification</li></ul>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
+          "content": "<p>Put simply, here is what to budget for your first U.S. hire as of early 2026 in Central Florida:</p>\n\n<ul><li><strong>Entry-level employee (full-time):</strong> $40,000–$70,000 base salary + 15–30% overhead (taxes, insurance, benefits) = $46,000–$91,000 total annual cost</li><li><strong>Contractor (project-based):</strong> $50–$150/hour depending on specialty, no overhead costs</li><li><strong>Payroll service:</strong> $40–$100/month base + $6–$12 per employee per pay period</li><li><strong>Workers' compensation insurance:</strong> $500–$2,000/year for low-risk office work</li><li><strong>Employment attorney (initial consultation):</strong> $250–$500/hour, worth it for proper classification</li></ul>\n\n<p><strong>What drives the extra 15&ndash;30% on top of salary?</strong> Employer FICA (7.65%), federal and state unemployment taxes, workers&rsquo; compensation insurance, and optional benefits like health insurance.</p>\n\n<p>The true cost of an employee is their salary multiplied by 1.15 to 1.30. Budget for the higher end until you know your exact obligations.</p>"
         },
         {
           "type": "callout",
@@ -359,7 +366,7 @@
           "type": "text",
           "id": "text-4-2-1",
           "title": "Visa Pathways for International Founders",
-          "content": "<p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what visa do you need to work legally?</p>\n\n<p>Owning a U.S. company does not by itself give you the right to work here. A South Korean founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p>\n\n<p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p>",
+          "content": "<p>In the last lesson, you learned who belongs on your team and how the U.S. classifies each role. Now the question turns to you: what visa do you need to work legally?</p>\n\n<p>Owning a U.S. company does not by itself give you the right to work here. A South Korean founder with 50,000 fintech users assumed she could fly to Miami and run a U.S. office, but her tourist visa did not allow it.</p>\n\n<p>Several visa paths exist with different needs, costs, and timelines. The right path depends on your citizenship, track record, capital, and current business. What follows is an awareness-level overview, not a substitute for legal advice.</p>\n\n<h3>Why This Matters for Founders</h3>\n\n<p>You&rsquo;ve learned how to build your team. Now there&rsquo;s a critical constraint: every person working in the U.S.&mdash;including you&mdash;must have proper work authorization.</p>\n\n<p>Owning a U.S. company does not automatically give you the right to work in it. Hiring employees also requires confirming that each person is legally authorized to work in the U.S.</p>\n\n<p>Mistakes here can delay your launch, disrupt operations, or create legal exposure.</p>\n\n<h3>What You Need to Plan For</h3>\n\n<p>As a founder, think about immigration in two categories:</p>\n\n<ul><li>Your own ability to work in the U.S.</li><li>Your ability to hire and retain talent legally</li></ul>\n\n<p>Different visa categories exist, each with different requirements, timelines, and constraints. The right path depends on factors like ownership structure, your background, available capital, and the role being performed.</p>",
           "wordCount": 137
         },
         {
@@ -660,9 +667,29 @@
         },
         {
           "type": "text",
+          "id": "text-4-2-bringing-employees",
+          "title": "Bringing Employees to the U.S.",
+          "content": "<p>If you plan to hire international talent, keep in mind:</p>\n\n<ul><li>Not all candidates can work in the U.S. immediately.</li><li>Some roles require employer-sponsored visas, which add cost, time, and uncertainty.</li><li>Certain visas (like H-1B) are quota-limited and lottery-based.</li><li>Others (like L-1) require an existing international company structure.</li></ul>\n\n<p>In many early-stage cases, founders:</p>\n\n<ul><li>Hire U.S.-authorized workers locally, or</li><li>Keep international team members working outside the U.S. initially.</li></ul>",
+          "wordCount": 90
+        },
+        {
+          "type": "text",
+          "id": "text-4-2-hiring-strategy",
+          "title": "What This Means for Your Hiring Strategy",
+          "content": "<p>Immigration constraints directly impact how you build your team:</p>\n\n<ul><li>Hiring locally in places like Central Florida is often faster and lower risk.</li><li>Sponsoring visas can take months and require legal coordination.</li><li>Your own visa status may limit what roles you can perform day-to-day.</li></ul>\n\n<p>Planning early helps you avoid delays when you are ready to scale.</p>",
+          "wordCount": 65
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-4-2-mid-1",
+          "title": "Key Takeaway",
+          "content": "<p>Work authorization is a foundational constraint in building your U.S. business. Before hiring or relocating: confirm that you are authorized to perform your role, ensure each team member has valid work authorization, and align your hiring plan with realistic immigration timelines. When in doubt, get qualified legal guidance early. Immigration decisions are difficult to fix after the fact&mdash;and delays can slow down your entire business.</p>"
+        },
+        {
+          "type": "text",
           "id": "text-4-2-3",
           "title": "Choosing Your Guide: How to Find the Right Immigration Attorney",
-          "content": "<p>Immigration law is complex. Look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other entrepreneurs in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes, no one can promise which credential you will receive.</p>\n\n<p>Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p>\n\n<p>Standard visa processing takes <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee. The H-1B lottery happens once per year in March, with an October start date if selected. Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing leads to weak applications and denials. A lawyer who is honest about your timeline is more valuable than one who promises speed.</p>",
+          "content": "<p>Immigration law is complex. Look for an attorney who <strong>specializes in business immigration</strong>, not general practice. Central Florida has a strong base of immigration attorneys experienced with international entrepreneurs, given the region's deep ties to global tourism and trade. The AILA directory is a starting point, but referrals from other entrepreneurs in the UCF BIP network are often more reliable. Be cautious of anyone who guarantees outcomes, no one can promise which credential you will receive.</p>\n\n<p>Prepare for your consultation with: passport, existing visa documentation, proof of business operations (revenue, employees, clients), evidence of achievements (awards, publications, patents), and your U.S. business plan.</p>\n\n<p>Standard visa processing takes <strong>4 to 8 months</strong> or longer depending on the visa type and your country of citizenship. Some visas offer premium processing (15 business days) for an additional fee. The H-1B lottery happens once per year in March, with an October start date if selected. Start exploring your visa options <strong>6 to 12 months</strong> before you need to be working in the U.S. Rushing leads to weak applications and denials. A lawyer who is honest about your timeline is more valuable than one who promises speed.</p>\n\n<h3>How to Prepare for Your Consultation</h3>\n\n<p>Arriving prepared helps you get more accurate guidance and reduces unnecessary follow-up costs. Bring:</p>\n\n<ul><li>Passport and current immigration documents (if applicable)</li><li>Summary of your current or planned U.S. business activity</li><li>Evidence of business traction (revenue, customers, contracts, or users)</li><li>Professional background (CV, awards, publications, or relevant achievements)</li><li>A clear outline of your U.S. business plan and intended role</li></ul>\n\n<p>The goal is not to &ldquo;pitch&rdquo; the attorney&mdash;it is to give them enough information to assess realistic options.</p>\n\n<h3>Timelines and Planning Reality</h3>\n\n<p>Visa processes vary widely depending on category, country of citizenship, and case complexity. In general:</p>\n\n<ul><li>Many visa processes take several months (often 4&ndash;8+).</li><li>Some categories allow premium processing, which can shorten government review times (where available).</li><li>The H-1B process operates on a fixed annual lottery cycle, with limited selection and defined start dates.</li></ul>\n\n<p>Because of these constraints, founders should begin exploring immigration options 6&ndash;12 months before they need to be operational in the U.S. Rushed applications often lead to incomplete documentation, avoidable delays, or weaker case presentation.</p>\n\n<p>A qualified attorney who is realistic about timelines is typically more valuable than one who emphasizes speed.</p>",
           "wordCount": 68
         },
         {
@@ -671,6 +698,12 @@
           "variant": "common-mistake",
           "title": "Common Mistakes International Founders Make: Visa Authorization",
           "content": "<p>One of the most serious mistakes: <strong>working in the U.S. without proper visa authorization.</strong> As a founder, your own visa status determines what work you can legally do. Hiring others does not exempt you from your own immigration requirements. Working outside your authorization can result in deportation and permanent bars from reentry. Make sure your visa covers the activities you are actually performing.</p>"
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-4-2-mid-2",
+          "title": "Key Takeaway",
+          "content": "<p>The right immigration attorney is not just a formality&mdash;they are part of your operational planning. Focus on specialists in business immigration, honest assessments (not guarantees), and early engagement (before major commitments are made). Getting guidance early helps you avoid delays, redesigns, and preventable compliance issues as you build your U.S. presence.</p>"
         },
         {
           "type": "in-lesson-image",
@@ -745,6 +778,13 @@
           "title": "Payroll, Taxes, and the Real Cost of Every Team Member",
           "content": "<p>You understand visa requirements. Now look at what it actually costs to keep a team running. Salary is only the starting point. The true cost includes payroll taxes, required insurance, and optional but often expected benefits, and these add up quickly.</p>\n\n<p>How much does a $55,000 employee actually cost you? If you guessed $55,000, you are already $11,000 short. A Vietnamese founder hired her first Orlando employee at $55,000, then discovered the actual cost was closer to $66,000 once employer taxes, workers' comp, and a health insurance stipend added roughly 20%.</p>\n\n<p>In many countries, employer costs are a single rate. In the U.S., you have multiple obligations: <strong>Employer FICA</strong> (Social Security + Medicare) at 7.65%. <strong>FUTA</strong> at roughly $420/employee/year. <strong>Florida SUTA</strong> at $18–$378/year. <strong>Workers' comp</strong>, required in Florida for 4+ employees, at $500–$2,000/year for office work.</p>",
           "wordCount": 186
+        },
+        {
+          "type": "text",
+          "id": "text-4-3-key-insight",
+          "title": "Key Insight for Founders",
+          "content": "<p>A U.S. employee is not just a salary decision&mdash;it is a fully loaded cost structure decision.</p>\n\n<p><strong>As a rule of thumb:</strong> Plan for total employment cost to be <strong>~1.15x to 1.30x base salary</strong>, depending on role, benefits, and compliance requirements. Until you have clarity on your specific obligations, it is safer to budget toward the higher end.</p>",
+          "wordCount": 70
         },
         {
           "type": "table",
@@ -945,6 +985,12 @@
           "content": "<p>The IRS treats unpaid payroll taxes as a <strong>trust fund recovery penalty</strong>. This is one of the few tax obligations that cannot be discharged in bankruptcy. If you withhold taxes from your employee's paycheck but fail to send that money to the IRS, you can be held personally liable even if your business is an LLC or corporation. The penalty is 100% of the unpaid amount, plus interest. A payroll service eliminates this risk for less than the cost of a single penalty notice.</p>"
         },
         {
+          "type": "key-takeaway",
+          "id": "kt-4-3-mid-1",
+          "title": "Key Takeaway",
+          "content": "<p>Payroll in the U.S. is a compliance system, not just a payment process. A payroll service is not just convenience&mdash;it is a risk-reduction tool that helps ensure taxes are calculated correctly, filings are submitted on time, and legal obligations are met consistently.</p>"
+        },
+        {
           "type": "text",
           "id": "text-4-3-3",
           "title": "What U.S. Employees Expect Beyond the Paycheck",
@@ -958,6 +1004,19 @@
           "title": "Latin America Resources: Hiring & Payroll",
           "content": "<p class=\"rt-inclusive-note\"><em>The resources below are particularly useful for LATAM founders. If you are coming from another region, the <a href=\"resources.html\">Resources page</a> has broader international support; treat this section as bonus content.</em></p>\n\n<p>Latin American founders in Central Florida have specific hiring advantages and resources:</p>\n\n<ul><li><strong><a href=\"https://prosperausa.org/\" target=\"_blank\" rel=\"noopener\">Prospera</a>:</strong> Offers workshops on U.S. employment law basics for Hispanic entrepreneurs, including worker classification, payroll setup, and compliance requirements.</li><li><strong><a href=\"https://hispanicchamber.com/\" target=\"_blank\" rel=\"noopener\">Hispanic Chamber of Commerce of Metro Orlando</a>:</strong> Connects you with bilingual HR consultants and payroll providers who understand the needs of international business owners.</li><li><strong><a href=\"https://incubator.ucf.edu/\" target=\"_blank\" rel=\"noopener\">UCF BIP network</a>:</strong> Referrals to employment attorneys experienced with international founders, and access to the UCF talent pipeline for recruiting bilingual graduates.</li></ul>\n\n<p>Central Florida's large bilingual workforce means you can often find employees who bridge both your home-market operations and your U.S. team, a significant advantage when coordinating across countries.</p>\n\n<p><strong>Founders from other regions:</strong></p><ul><li><strong><a href=\"https://wtcorlando.com\" target=\"_blank\" rel=\"noopener\">World Trade Center Orlando<span class=\"sr-only\"> (opens in a new tab)</span></a>:</strong> Talent matching and international hiring guidance.</li><li><strong>Country-specific business chambers:</strong> Orlando hosts active chapters of the German-American, French-American, British-American, Indian-American, and Korean-American chambers, each provides networking, hiring referrals, and country-specific labor guidance.</li></ul>",
           "showOnly": "es"
+        },
+        {
+          "type": "text",
+          "id": "text-4-3-why-cf",
+          "title": "Why This Matters in Central Florida",
+          "content": "<p>Central Florida has a large multi-lingual and internationally diverse workforce, supported by both universities and the region&rsquo;s tourism, tech, and healthcare industries.</p>\n\n<p>For founders, this creates a practical advantage: you can often hire employees who understand both U.S. business expectations and international communication contexts&mdash;reducing friction when building cross-border teams.</p>",
+          "wordCount": 65
+        },
+        {
+          "type": "key-takeaway",
+          "id": "kt-4-3-mid-2",
+          "title": "Key Takeaway",
+          "content": "<p>In the U.S., competitive hiring is not just about compensation&mdash;it is about the total employment experience. Founders who understand baseline expectations for PTO, benefits, and flexibility are better positioned to attract and retain strong talent, especially in competitive markets like Central Florida.</p>"
         },
         {
           "type": "knowledge-check",
