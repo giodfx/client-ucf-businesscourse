@@ -318,6 +318,39 @@
     });
   }
 
+  // Cross-device resume — if localStorage is empty (fresh browser/device)
+  // but the user has prior progress on the server, hydrate from there
+  // before the visited-list update below runs. Fire-and-forget: failures
+  // silently fall back to localStorage-only behavior.
+  function hydrateFromServer() {
+    return new Promise(function(resolve) {
+      try {
+        var existing = JSON.parse(localStorage.getItem('rt-progress') || '{}');
+        // Already have local progress with a lastLessonId — no need to hydrate.
+        if (existing && Array.isArray(existing.visited) && existing.visited.length > 0) {
+          return resolve();
+        }
+        var match = window.location.pathname.match(/\/api\/courses\/([^/]+)\/asset\//);
+        if (!match) return resolve();
+        var cid = match[1];
+        fetch('/api/courses/' + cid + '/native-content', { credentials: 'same-origin' })
+          .then(function(r) { return r.ok ? r.json() : null; })
+          .then(function(data) {
+            try {
+              var ar = data && data.progress && data.progress.assessmentResults;
+              var cp = ar && ar.courseProgress;
+              if (cp && Array.isArray(cp.visited) && cp.visited.length > 0) {
+                localStorage.setItem('rt-progress', JSON.stringify(cp));
+              }
+            } catch (_) {}
+            resolve();
+          })
+          .catch(function() { resolve(); });
+      } catch (_) { resolve(); }
+    });
+  }
+
+  hydrateFromServer().then(function() {
   try {
     var lid = document.body.dataset.lessonId;
     if (lid) {
@@ -364,6 +397,7 @@
       }
     }
   } catch(e) {}
+  });  // hydrateFromServer().then
 
   // Init on DOM ready
   if (document.readyState === 'loading') {

@@ -446,6 +446,29 @@
     } catch (e) {
       console.warn('[quiz] quizComplete dispatch failed:', e);
     }
+
+    // DLCS native-player capture — for single-page courses (UCF) that have
+    // no SCORM API, persist the score into rt-progress.lessonScores keyed by
+    // lesson id. roadtrip-lesson.js posts the full rt-progress blob to
+    // /api/courses/<id>/native-progress, so the LMS gradebook will surface
+    // these via assessmentResults.courseProgress.lessonScores. Keys match
+    // the visited[] list so the gradebook's "Week N" derivation groups
+    // them under the right week.
+    try {
+      var lessonId = document.body && document.body.dataset
+        ? document.body.dataset.lessonId
+        : null;
+      if (lessonId) {
+        var rtKey = 'rt-progress';
+        var rtProgress = {};
+        try { rtProgress = JSON.parse(localStorage.getItem(rtKey) || '{}'); } catch (_) {}
+        if (!rtProgress.lessonScores) rtProgress.lessonScores = {};
+        rtProgress.lessonScores[lessonId] = percentage;
+        localStorage.setItem(rtKey, JSON.stringify(rtProgress));
+      }
+    } catch (e) {
+      console.warn('[quiz] rt-progress.lessonScores capture failed:', e);
+    }
   }
 
   function reviewQuiz() {
