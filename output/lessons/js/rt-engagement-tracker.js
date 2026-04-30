@@ -41,15 +41,26 @@
     if (!DEBUG) return;
     try { console.log.apply(console, ['[rt-engagement]'].concat(Array.from(arguments))); } catch (_) {}
   }
-  log('script loaded — version 2026-04-30-v4');
+  log('script loaded — version 2026-04-30-v5');
 
   // Heartbeat marker — proves the tracker is actually running (vs. cached
   // old HTML). Writes a timestamp into rt-progress.engagementTrackerLoadedAt
   // so a quick D1 inspection confirms whether the iframe ever loaded this.
+  // Also runs a one-time KC migration on upgrade from <v4: pre-v4 trackers
+  // counted wrong answers as correct (the reveal-marker `.rt-kc-correct`
+  // short-circuited the count) so kcSummary and ix.kc-* entries from those
+  // sessions can't be trusted. Wipe them once so v4 rebuilds clean.
   try {
     var bootP = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    var priorVersion = bootP.engagementTrackerVersion || '';
+    var needsKcReset = priorVersion === '' || priorVersion < '2026-04-30-v5';
+    if (needsKcReset) {
+      log('KC migration: clearing stale kcSummary/ix from prior version', priorVersion || '(none)');
+      delete bootP.kcSummary;
+      delete bootP.ix;
+    }
     bootP.engagementTrackerLoadedAt = new Date().toISOString();
-    bootP.engagementTrackerVersion = '2026-04-30-v4';
+    bootP.engagementTrackerVersion = '2026-04-30-v5';
     localStorage.setItem(STORAGE_KEY, JSON.stringify(bootP));
   } catch (_) {}
 
