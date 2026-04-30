@@ -5,18 +5,11 @@
   "title": "UCF BIP Programs: Your Next Step",
   "duration": 6,
   "objectives": [
-    "Describe UCF BIP phases 2 and 3 of the market entry/soft landing program and who each is designed for",
+    "Recognize how international founders use UCF BIP and partner organizations to enter the U.S. market, illustrated by the Freshorize case study",
     "Identify community resources specifically for international founders (Hispanic Chamber, Prospera, CFITO)",
     "Explain the next steps to engage with UCF BIP after completing this program"
   ],
   "contentBlocks": [
-    {
-      "type": "text",
-      "id": "text-7-4-1",
-      "title": "Following the Current Forward, Your Pathway Through UCF BIP",
-      "content": "<p>You have worked through every major topic in this program: entity setup, finance, IP, hiring, product adaptation, culture, and regional resources. The question now: what concrete support is available next? UCF BIP helps international founders turn knowledge into action. This Phase 1 program is the introduction. The hands-on support comes in phases 2 and 3.</p>\n\n<h3>Phases 2 and 3 of the UCF BIP Market Entry / Soft Landing Program</h3>\n\n<p>Let's break this down. <strong>Phase 2</strong> is for founders who have validated their market opportunity and are ready to establish initial U.S. operations:</p>\n\n<ul><li>One-on-one mentorship with industry-experienced advisors</li><li>UCF BIP workspace and professional business address</li><li>Warm introductions to customers, partners, and service providers</li><li>Advanced workshops: investor readiness, sales strategy, regulatory compliance</li><li>Peer community of international founders at a similar stage</li></ul>\n\n<p><strong>Phase 3</strong> is for founders with initial traction: early customers, revenue, or a signed partnership:</p>\n\n<ul><li>Growth strategy development with experienced advisors</li><li>Investor community connections (when ready)</li><li>Expanded networking through BIP's alumni network and partners</li><li>Operational support for hiring, legal, and financial infrastructure</li><li>Continued workspace and resource access</li></ul>\n\n<p>The transition between phases adapts to your pace. The goal is progress, not speed.</p>",
-      "wordCount": 202
-    },
     {
       "type": "text",
       "id": "text-7-4-cs",
@@ -35,14 +28,14 @@
       "type": "text",
       "id": "text-7-4-2",
       "title": "Community Resources for International Founders",
-      "content": "<p>UCF BIP is one spring feeding into a much larger river. Several partner organizations work alongside it, each serving a different need. You do not have to use all of them. Pick the ones that match where your business is right now and save the rest for later.</p>\n\n<h3>Hispanic Chamber of Commerce of Metro Orlando</h3>\n\n<p>Membership costs $200, $400 per year and gives you access to networking events, business workshops, and advocacy. Monthly events connect you with established bilingual business owners and service providers who understand both the U.S. market and the Latin American business mindset. Many founders find their first local partner or customer referral through chamber connections.</p>\n\n<h3>Prospera</h3>\n\n<p>This nonprofit supports Hispanic entrepreneurs through one-on-one mentoring, business training, and access to micro-lending. Programs are free or low-cost. What makes it especially useful is that the mentors have navigated the same cultural and business transition you are going through. They understand the challenges firsthand.</p>\n\n<h3>CFITO (Central Florida International Trade Office)</h3>\n\n<p>If your business involves import, export, or cross-border trade between Latin America, the Caribbean, and the United States, this is the organization to contact. They run structured trade delegations that include market research, partner identification, and face-to-face meetings with buyers and distributors.</p>\n\n<h3>SCORE</h3>\n\n<p>A national program that provides free business mentoring from volunteer advisors, many of them retired executives with decades of experience. The Orlando chapter matches you with a mentor in your industry for ongoing coaching. Sessions are free and available in person or virtually.</p>",
+      "content": "<p>UCF BIP is one spring feeding into a much larger river. Several partner organizations work alongside it, each serving a different need. You do not have to use all of them. Pick the ones that match where your business is right now and save the rest for later.</p>\n\n<h3>Hispanic Chamber of Commerce of Metro Orlando</h3>\n\n<p>Membership costs $200–$400 per year and gives you access to networking events, business workshops, and advocacy. Monthly events connect you with established bilingual business owners and service providers who understand both the U.S. market and the Latin American business mindset. Many founders find their first local partner or customer referral through chamber connections.</p>\n\n<h3>Prospera</h3>\n\n<p>This nonprofit supports Hispanic entrepreneurs through one-on-one mentoring, business training, and access to micro-lending. Programs are free or low-cost. What makes it especially useful is that the mentors have navigated the same cultural and business transition you are going through. They understand the challenges firsthand.</p>\n\n<h3>CFITO (Central Florida International Trade Office)</h3>\n\n<p>If your business involves import, export, or cross-border trade between Latin America, the Caribbean, and the United States, this is the organization to contact. They run structured trade delegations that include market research, partner identification, and face-to-face meetings with buyers and distributors.</p>\n\n<h3>SCORE</h3>\n\n<p>A national program that provides free business mentoring from volunteer advisors, many of them retired executives with decades of experience. The Orlando chapter matches you with a mentor in your industry for ongoing coaching. Sessions are free and available in person or virtually.</p>",
       "wordCount": 213
     },
     {
       "type": "callout",
       "id": "callout-7-4-reduce",
       "variant": "theme-reduce-risk",
-      "title": "Reduce Risk: Don't Go It Alone",
+      "title": "Reduce Risk: Don't Build Alone",
       "content": "<p>The founders who succeed in the U.S. market use their support network. They join chambers, attend SBDC workshops, participate in UCF BIP advisory sessions, and connect with mentors through SCORE. The cost of joining is small. The cost of going alone is high. Founders who have been through it say the same thing: the network mattered as much as the knowledge.</p>"
     },
     {
@@ -53,55 +46,21 @@
       "wordCount": 142
     },
     {
-      "type": "checklist",
-      "id": "int-7-4-1",
-      "title": "UCF BIP Application Readiness Checklist",
-      "items": [
-        "Company is incorporated (or ready to incorporate) in the U.S.",
-        "Have a clear product or service with initial market validation",
-        "Identified target customer segment in the U.S. market",
-        "Leadership team committed to U.S. market entry",
-        "Reviewed UCF BIP Phase 2 and Phase 3 program requirements",
-        "Prepared a 1-page company overview for application",
-        "Identified which UCF BIP track matches your stage (Traction, Growth, or Soft Landing)",
-        "Ready to commit time for program activities and mentorship"
-      ]
-    },
-    {
-      "type": "tabs",
-      "id": "int-7-4-bip-phases",
-      "title": "Match Your Stage to the Right UCF BIP Phase",
-      "tabs": [
-        {
-          "label": "Phase 1: U.S. Market Readiness (Where You Are Now)",
-          "content": "**For founders evaluating whether to expand to the U.S.**\n\nPhase 1 is the program you are completing right now. It is designed for international founders who have a working business in their home country and are considering U.S. expansion.\n\n**What you get:**\n- Self-paced online curriculum (8 modules, ~3 hours)\n- 1:1 strategy session with the UCF BIP team after completion\n- Access to Central Florida Resource Guide and decision worksheets\n- Bilingual support (English and Spanish)\n\n**Best fit:** You are still validating whether U.S. expansion makes sense for your business. You want a structured way to surface the questions you have not yet answered.\n\n**Cost:** No fee for Phase 1.\n\n**Outcome:** A clear go/no-go decision, plus a prioritized list of gaps to close before you take the next step."
-        },
-        {
-          "label": "Phase 2: Incubation (Active Setup)",
-          "content": "**For founders who have decided to enter the U.S. and are setting up operations.**\n\nPhase 2 is hands-on incubation: you have a U.S. entity (or are forming one), and you are working through the operational steps that turn a plan into a running business in Central Florida.\n\n**What you get:**\n- Dedicated incubation manager and quarterly business reviews\n- Discounted office space at one of UCF's incubator locations across Central Florida\n- Introductions to attorneys, accountants, banks, and service providers experienced with international founders\n- Access to UCF research, talent (interns, recent grads), and faculty consults\n- Workshops on hiring, sales, fundraising, and U.S. business culture\n\n**Best fit:** You have validated your opportunity, you are setting up or have just set up your U.S. entity, and you need infrastructure plus a peer network.\n\n**Cost:** Membership fee varies by site and stage. Contact your 1:1 advisor for current pricing.\n\n**Outcome:** A functioning U.S. operation with a board of advisors and the operational infrastructure to scale."
-        },
-        {
-          "label": "Phase 3: Acceleration (Scaling)",
-          "content": "**For founders with U.S. revenue and product-market fit, ready to scale.**\n\nPhase 3 is for established UCF BIP companies that have moved beyond setup and are scaling their U.S. business: hiring teams, raising capital, expanding into multiple markets.\n\n**What you get:**\n- Curated investor introductions (angel, VC, family offices)\n- Strategic advisors matched to your sector and stage\n- Access to UCF's broader corporate partner network (Lockheed, AdventHealth, Walt Disney, Siemens, and others)\n- Co-marketing opportunities with the regional economic development partners\n- Acceleration cohort programs (specific industry verticals or growth stages)\n\n**Best fit:** You have $500K+ U.S. revenue, a working U.S. team, and a credible plan to grow significantly over the next 12-18 months.\n\n**Cost:** Higher membership fee; some programs are equity-based or success-fee based.\n\n**Outcome:** Capital raised, partnerships closed, and a clear runway to your next major milestone (Series A, profitability, or exit)."
-        }
-      ]
-    },
-    {
       "type": "knowledge-check",
       "id": "kc-7-4",
       "title": "What Would You Do?",
       "placement": "end-of-lesson",
       "questions": [
         {
-          "stem": "What is the PRIMARY difference between Phase 2 and Phase 3 of the UCF BIP market entry/soft landing program?",
+          "stem": "Freshorize had strong success in Europe but hit a ceiling in the EU airline supply market. According to the lesson, what was their primary obstacle when targeting U.S. airlines?",
           "options": [
-            "Phase 2 is free and Phase 3 requires payment",
-            "Phase 2 focuses on establishing initial U.S. operations, while Phase 3 focuses on scaling with early traction",
-            "Phase 2 is for technology companies only, Phase 3 is for all industries",
-            "Phase 2 is virtual and Phase 3 requires physical relocation to Orlando"
+            "Their European product formulations were not approved for use in the U.S.",
+            "Their European pricing was too high for U.S. carriers to consider",
+            "They had no U.S. customers, no procurement track record with American airlines, and no warm introductions",
+            "U.S. airlines exclusively buy from domestic suppliers and rejected them outright"
           ],
-          "correctAnswer": 1,
-          "explanation": "Phase 2 is designed for founders who have validated their market opportunity and are ready to establish initial U.S. operations (workspace, mentorship, introductions). Phase 3 is for founders who already have early traction: customers, revenue, or partnerships, and need support scaling. The phases match different business stages, not different industries."
+          "correctAnswer": 2,
+          "explanation": "Freshorize already had a proven product. Their obstacle was market access: no U.S. customers, no procurement track record with American airlines, and no warm introductions. This is a common pattern for international founders, the product works, but the path into the market is blocked by the absence of trust signals and relationships. Structured support programs like UCF BIP exist to shorten that gap."
         },
         {
           "stem": "A Spanish-speaking entrepreneur from Ecuador wants free, bilingual mentoring and market research support tailored to Hispanic entrepreneurs. Which organization should she contact first?",
