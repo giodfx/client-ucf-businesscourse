@@ -255,8 +255,34 @@
       if (hasCorrectPath) {
         prefix = isGood ? '<strong>Good call!</strong> ' : '<strong>Not quite.</strong> ';
       }
-      feedback.innerHTML = avatarHtml + prefix + outcome;
+      // Decision-guide mode: append an "Explore Other Options" button so the
+      // learner can pick a different path and see that recommendation. For
+      // quizzes we omit this — the answer is locked once submitted, the
+      // educational value is in seeing the explanation.
+      var retryHtml = '';
+      if (!hasCorrectPath) {
+        retryHtml = '<button type="button" class="rt-scenario-retry" onclick="resetBranchingScenario(\'' + scenarioId + '\')" data-es="\u2190 Explorar Otras Opciones">\u2190 Explore Other Options</button>';
+      }
+      feedback.innerHTML = avatarHtml + prefix + outcome + retryHtml;
       feedback.classList.add('show');
+    }
+  };
+
+  // Decision-guide retry: re-enables all paths, hides feedback, lets the
+  // learner explore a different recommendation. Called only from the
+  // retry button rendered by makeBranchingChoice in decision-guide mode.
+  window.resetBranchingScenario = function(scenarioId) {
+    var container = document.querySelector('[data-scenario-id="' + scenarioId + '"]');
+    if (!container) return;
+    var buttons = container.querySelectorAll('.scenario-choice');
+    buttons.forEach(function(btn) {
+      btn.disabled = false;
+      btn.classList.remove('scenario-correct', 'scenario-incorrect');
+    });
+    var feedback = document.getElementById(scenarioId + '-feedback');
+    if (feedback) {
+      feedback.innerHTML = '';
+      feedback.classList.remove('show');
     }
   };
 
