@@ -189,6 +189,24 @@
   };
 
   // Branching scenario
+  //
+  // Two interaction modes, auto-detected from the JSON shape (no per-block
+  // flag needed — the data tells us which mode to use, which keeps future
+  // decision-guide blocks working without code changes):
+  //
+  //   QUIZ mode — at least one path has data-is-good="true". A correct
+  //     answer exists; show "Good call!" / "Not quite." feedback and apply
+  //     correct/incorrect styling. (Works for branching scenarios, "what
+  //     would you do" prompts, etc.)
+  //
+  //   DECISION-GUIDE mode — NO path has data-is-good="true". Every option
+  //     is a valid life situation with its own tailored recommendation
+  //     (e.g. "Find Your Entity", "Match the Founder to the Right IP
+  //     Protection"). The previous behavior treated all picks as "Not
+  //     quite." which was a UX bug; the learner who correctly identifies
+  //     their own situation should see the recommendation, not a wrong-
+  //     answer prefix. Now: highlight the chosen path, show positive
+  //     avatar, render the outcome WITHOUT the judgmental prefix.
   window.makeBranchingChoice = function(scenarioId, choiceIndex) {
     var container = document.querySelector('[data-scenario-id="' + scenarioId + '"]');
     if (!container) return;
@@ -197,24 +215,47 @@
     var chosen = buttons[choiceIndex];
     if (!chosen) return;
 
+    var hasCorrectPath = Array.prototype.some.call(buttons, function(b) {
+      return b.dataset.isGood === 'true';
+    });
     var isGood = chosen.dataset.isGood === 'true';
     var outcome = chosen.dataset.outcome || '';
 
-    buttons.forEach(function(btn) {
-      btn.disabled = true;
-      btn.classList.remove('scenario-correct', 'scenario-incorrect');
-      if (btn.dataset.isGood === 'true') btn.classList.add('scenario-correct');
-    });
-    if (!isGood) chosen.classList.add('scenario-incorrect');
+    if (hasCorrectPath) {
+      // Quiz mode (existing behavior).
+      buttons.forEach(function(btn) {
+        btn.disabled = true;
+        btn.classList.remove('scenario-correct', 'scenario-incorrect');
+        if (btn.dataset.isGood === 'true') btn.classList.add('scenario-correct');
+      });
+      if (!isGood) chosen.classList.add('scenario-incorrect');
+    } else {
+      // Decision-guide mode: no "wrong" answer. Disable all paths, mark
+      // the chosen one as the active recommendation.
+      buttons.forEach(function(btn) {
+        btn.disabled = true;
+        btn.classList.remove('scenario-correct', 'scenario-incorrect');
+      });
+      chosen.classList.add('scenario-correct');
+    }
 
     if (feedback && outcome) {
       var modIdx = document.body.dataset.moduleIndex || '';
-      var suffix = isGood ? '-correct' : '-incorrect';
+      // Decision-guide picks always show the positive avatar — the learner
+      // successfully identified a situation that matches one of the paths.
+      var positive = !hasCorrectPath || isGood;
+      var suffix = positive ? '-correct' : '-incorrect';
       var avatarHtml = '';
       if (modIdx) {
-        avatarHtml = '<img class="rt-feedback-avatar ' + (isGood ? 'rt-feedback-avatar--correct' : 'rt-feedback-avatar--incorrect') + '" src="images/avatars/reactions/module-' + modIdx + suffix + '.png" alt="" aria-hidden="true" onerror="this.style.display=\'none\'">';
+        avatarHtml = '<img class="rt-feedback-avatar ' + (positive ? 'rt-feedback-avatar--correct' : 'rt-feedback-avatar--incorrect') + '" src="images/avatars/reactions/module-' + modIdx + suffix + '.png" alt="" aria-hidden="true" onerror="this.style.display=\'none\'">';
       }
-      feedback.innerHTML = avatarHtml + (isGood ? '<strong>Good call!</strong> ' : '<strong>Not quite.</strong> ') + outcome;
+      // Suppress the "Good call!/Not quite." prefix in decision-guide mode;
+      // the outcome text already starts with the recommendation itself.
+      var prefix = '';
+      if (hasCorrectPath) {
+        prefix = isGood ? '<strong>Good call!</strong> ' : '<strong>Not quite.</strong> ';
+      }
+      feedback.innerHTML = avatarHtml + prefix + outcome;
       feedback.classList.add('show');
     }
   };
