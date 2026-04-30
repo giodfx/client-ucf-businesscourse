@@ -41,7 +41,7 @@
     if (!DEBUG) return;
     try { console.log.apply(console, ['[rt-engagement]'].concat(Array.from(arguments))); } catch (_) {}
   }
-  log('script loaded — version 2026-04-30-v3');
+  log('script loaded — version 2026-04-30-v4');
 
   // Heartbeat marker — proves the tracker is actually running (vs. cached
   // old HTML). Writes a timestamp into rt-progress.engagementTrackerLoadedAt
@@ -49,7 +49,7 @@
   try {
     var bootP = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
     bootP.engagementTrackerLoadedAt = new Date().toISOString();
-    bootP.engagementTrackerVersion = '2026-04-30-v3';
+    bootP.engagementTrackerVersion = '2026-04-30-v4';
     localStorage.setItem(STORAGE_KEY, JSON.stringify(bootP));
   } catch (_) {}
 
@@ -227,8 +227,13 @@
         var v = kc.dataset.answered;
         var hasCorrect = v === 'correct' || !!kc.querySelector(CORRECT_SELECTORS) || kc.classList.contains('rt-kc-correct');
         var hasIncorrect = v === 'incorrect' || !!kc.querySelector(INCORRECT_SELECTORS) || kc.classList.contains('rt-kc-incorrect');
-        if (hasCorrect) { correct++; answered++; }
-        else if (hasIncorrect) { answered++; }
+        // Incorrect-wins precedence: when a learner picks wrong, the UI
+        // usually adds `.incorrect` to their selection AND `.correct` to
+        // reveal the right answer. If we let `.correct` short-circuit, every
+        // wrong answer counts as correct (the gradebook 100% bug). Treat
+        // any presence of `.incorrect` as "they got it wrong" first.
+        if (hasIncorrect) { answered++; }
+        else if (hasCorrect) { correct++; answered++; }
         // record per-block in ix
         if (hasCorrect || hasIncorrect) {
           var p2 = ensureBlocks();
