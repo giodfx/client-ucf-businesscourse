@@ -41,7 +41,7 @@
     if (!DEBUG) return;
     try { console.log.apply(console, ['[rt-engagement]'].concat(Array.from(arguments))); } catch (_) {}
   }
-  log('script loaded — version 2026-04-30-v6');
+  log('script loaded — version 2026-04-30-v7');
 
   // Heartbeat marker — proves the tracker is actually running (vs. cached
   // old HTML). Writes a timestamp into rt-progress.engagementTrackerLoadedAt
@@ -53,14 +53,14 @@
   try {
     var bootP = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
     var priorVersion = bootP.engagementTrackerVersion || '';
-    var needsKcReset = priorVersion === '' || priorVersion < '2026-04-30-v6';
+    var needsKcReset = priorVersion === '' || priorVersion < '2026-04-30-v7';
     if (needsKcReset) {
       log('KC migration: clearing stale kcSummary/ix from prior version', priorVersion || '(none)');
       delete bootP.kcSummary;
       delete bootP.ix;
     }
     bootP.engagementTrackerLoadedAt = new Date().toISOString();
-    bootP.engagementTrackerVersion = '2026-04-30-v6';
+    bootP.engagementTrackerVersion = '2026-04-30-v7';
     localStorage.setItem(STORAGE_KEY, JSON.stringify(bootP));
   } catch (_) {}
 
@@ -300,17 +300,45 @@
         }
       });
 
-      // Branching scenarios
-      document.querySelectorAll('.scenario, .rt-branching-scenario, [data-scenario-id]').forEach(function(s, i) {
-        var resultEl = s.querySelector(
-          '.scenario-result, .rt-scenario-outcome, [data-scenario-outcome-visible="true"], .rt-bs-result'
-        );
-        var done = (resultEl && resultEl.offsetParent !== null) ||
-                   s.querySelector('.scenario-choice[data-clicked="true"], button[data-scenario-choice][data-clicked="true"]');
+      // Branching scenarios. UCF roadtrip uses `rt-scenario` (not
+      // rt-branching-scenario). After the user picks, roadtrip-lesson.js
+      // adds `.scenario-correct` (always — the right answer is revealed)
+      // and `.scenario-incorrect` only on the user's pick if they were
+      // wrong. Use the same incorrect-wins precedence as KCs to avoid
+      // counting wrong picks as correct.
+      document.querySelectorAll('.rt-scenario, .scenario, .rt-branching-scenario, [data-scenario-id]').forEach(function(s, i) {
+        var hadIncorrect = !!s.querySelector('.scenario-incorrect');
+        var hadCorrect = !!s.querySelector('.scenario-correct');
+        var feedback = s.querySelector('[id$="-feedback"].show, .scenario-feedback.show, .rt-scenario-feedback.show');
+        var legacyResult = s.querySelector('.scenario-result, .rt-scenario-outcome, [data-scenario-outcome-visible="true"], .rt-bs-result');
+        var legacyResultVisible = legacyResult && legacyResult.offsetParent !== null;
+        var legacyClick = s.querySelector('.scenario-choice[data-clicked="true"], button[data-scenario-choice][data-clicked="true"]');
+        var done = hadIncorrect || hadCorrect || feedback || legacyResultVisible || legacyClick;
         if (done) {
+          var gotItRight = hadCorrect && !hadIncorrect;
           var k = 'scn-' + i;
-          if (!p.ix[lid][k] || !p.ix[lid][k].c) {
-            p.ix[lid][k] = { t: 'scenario', c: true };
+          // Only overwrite if the new state is different (so flickers don't
+          // un-correct a previously-correct entry)
+          var prior = p.ix[lid][k];
+          if (!prior || prior.c !== gotItRight || prior.s !== (gotItRight ? 100 : 0)) {
+            p.ix[lid][k] = { t: 'scenario', c: gotItRight, s: gotItRight ? 100 : 0 };
+            changed = true;
+          }
+        }
+      });
+
+      // Simulations / calculators (UCF: rt-sim — tax entity calc, employee
+      // cost calc, etc.). No right/wrong; engagement = the user changed
+      // inputs enough for the results panel to populate. Detect by checking
+      // if the `#sim-results-{id}` div has rendered HTML.
+      document.querySelectorAll('.rt-sim').forEach(function(sim, i) {
+        var simId = sim.id || ('sim-' + i);
+        var results = sim.querySelector('.rt-sim-results, [id^="sim-results-"]');
+        var engaged = !!(results && results.innerHTML && results.innerHTML.trim().length > 0);
+        if (engaged) {
+          var k = 'sim-' + (sim.id || i);
+          if (!p.ix[lid][k]) {
+            p.ix[lid][k] = { t: 'sim', c: true };
             changed = true;
           }
         }
