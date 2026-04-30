@@ -44,7 +44,7 @@
           "tabs": [
             {
               "label": "Pricing",
-              "content": "**U.S. expectations:** Monthly subscriptions preferred over annual. Free trials expected (7, 14 days minimum).\n\n**Common mistakes:** Pricing in your home currency, not accounting for U.S. sales tax, underpricing to 'break in.'\n\n**Action:** Research 3 U.S. competitors and position your price within 20% of the market average."
+              "content": "**U.S. expectations:** Monthly subscriptions preferred over annual. Free trials expected (7–14 days minimum).\n\n**Common mistakes:** Pricing in your home currency, not accounting for U.S. sales tax, underpricing to 'break in.'\n\n**Action:** Research 3 U.S. competitors and position your price within 20% of the market average."
             },
             {
               "label": "Positioning",
@@ -81,7 +81,7 @@
           "type": "scenario",
           "id": "scenario-5-1-pricing",
           "title": "Your Price Is Too Low: What Do You Do?",
-          "description": "Your SaaS product costs $15/month in Latin America. A U.S. prospect says: 'At that price, I'd assume it doesn't include compliance features.' Your U.S. competitors charge $45, $65/month. What is your move?",
+          "description": "Your SaaS product costs $15/month in Latin America. A U.S. prospect says: 'At that price, I'd assume it doesn't include compliance features.' Your U.S. competitors charge $45–$65/month. What is your move?",
           "paths": [
             {
               "label": "Keep the $15 price: it is your competitive advantage",
@@ -112,7 +112,7 @@
           "id": "callout-5-1-wm",
           "variant": "watch-money",
           "title": "Watch Your Money: What Market Entry Actually Costs",
-          "content": "<p>As of early 2026, budget for these market entry costs:</p>\n\n<ul><li><strong>U.S. market research:</strong> $2,000, $10,000 outsourced; free through networking and cold outreach</li><li><strong>Product localization (beyond translation):</strong> $5,000, $25,000: regulatory compliance, payment integration, UI/UX changes</li><li><strong>Digital marketing (SEO, paid ads):</strong> $2,000, $5,000/month</li><li><strong>U.S. website and sales materials:</strong> $3,000, $15,000</li><li><strong>Trade shows (B2B):</strong> $3,000, $10,000 per event</li></ul>\n\n<p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p>"
+          "content": "<p>As of early 2026, budget for these market entry costs:</p>\n\n<ul><li><strong>U.S. market research:</strong> $2,000–$10,000 outsourced; free through networking and cold outreach</li><li><strong>Product localization (beyond translation):</strong> $5,000–$25,000: regulatory compliance, payment integration, UI/UX changes</li><li><strong>Digital marketing (SEO, paid ads):</strong> $2,000–$5,000/month</li><li><strong>U.S. website and sales materials:</strong> $3,000–$15,000</li><li><strong>Trade shows (B2B):</strong> $3,000–$10,000 per event</li></ul>\n\n<p>One of the biggest costs is time spent selling to wrong-fit customers. Spend money on research before marketing.</p>"
         },
         {
           "type": "knowledge-check",
@@ -129,7 +129,7 @@
                 "U.S. customers see the low price as a quality signal and cannot reach support during their business hours"
               ],
               "correctAnswer": 3,
-              "explanation": "Two of the five common adaptation areas are likely failing here. The pricing ($8/month) may be perceived as too low in a market where competitors charge $20, $40, signaling a basic or unreliable product. And the lack of U.S.-hours support means American customers cannot get help when they need it. Fixing these two issues, adjusting pricing to U.S. competitive norms and providing U.S.-timezone support, would likely have more impact than increased advertising."
+              "explanation": "Two of the five common adaptation areas are likely failing here. The pricing ($8/month) may be perceived as too low in a market where competitors charge $20–$40, signaling a basic or unreliable product. And the lack of U.S.-hours support means American customers cannot get help when they need it. Fixing these two issues, adjusting pricing to U.S. competitive norms and providing U.S.-timezone support, would likely have more impact than increased advertising."
             },
             {
               "stem": "A successful food delivery app from Mexico wants to expand into the U.S. market. Their app works well in Spanish, and they plan to translate it to English and launch at the same price point ($3.99/month) they charge in Mexico. They have no U.S.-based customer support. Which adaptation area should they address FIRST to avoid the most immediate barrier to U.S. sales?",
@@ -146,12 +146,12 @@
               "stem": "A founder from South Korea built a cybersecurity monitoring tool that dominates the Korean market at ₩15,000/month (about $11 USD). For the U.S. launch, she hires a professional translation firm, converts the price to $11/month, and sets up a landing page. After two months, free trial signups are decent but almost nobody converts to paid. U.S. prospects keep asking, \"What's the catch?\" What should she change first?",
               "options": [
                 "Add more features to justify the price, since the U.S. market expects a bigger product",
-                "Reposition the pricing to match U.S. competitor tiers ($25, $45/month) and reframe the value proposition around specific outcomes like reduced breach response time",
+                "Reposition the pricing to match U.S. competitor tiers ($25–$45/month) and reframe the value proposition around specific outcomes like reduced breach response time",
                 "Keep the $11 price but add a premium enterprise tier at $50/month for larger companies",
                 "Remove the free trial since it makes the product seem less serious to American buyers"
               ],
               "correctAnswer": 1,
-              "explanation": "The core issue is that U.S. buyers associate low pricing with low quality, $11/month in a market where competitors charge $25, $45 signals that something is missing. Translation alone is not adaptation. She needs to reprice for U.S. competitive norms and reposition around a specific, measurable value proposition (like \"reduces breach response time from 4 hours to 20 minutes\") rather than generic claims. The product may not need to change at all, the pricing and positioning around it do."
+              "explanation": "The core issue is that U.S. buyers associate low pricing with low quality, $11/month in a market where competitors charge $25–$45 signals that something is missing. Translation alone is not adaptation. She needs to reprice for U.S. competitive norms and reposition around a specific, measurable value proposition (like \"reduces breach response time from 4 hours to 20 minutes\") rather than generic claims. The product may not need to change at all, the pricing and positioning around it do."
             }
           ]
         },
@@ -200,7 +200,7 @@
           "type": "text",
           "id": "text-5-2-2",
           "title": "The U.S. Sales Cycle: Faster and More Direct Than You Expect",
-          "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24, 48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1, 2 weeks. $10K, $100K in 4, 8 weeks. $100K+ in 2, 6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
+          "content": "<p>U.S. buyers expect you to get to the point: <strong>what you offer, how much it costs, what makes you different</strong>. They make decisions fast and move on if nothing grabs them.</p>\n\n<p>Typical B2B timeline:</p>\n\n<ul><li><strong>First response:</strong> Same day. Three days is too late.</li><li><strong>Demo:</strong> Within one week.</li><li><strong>Proposal:</strong> Within 24–48 hours of first call.</li><li><strong>Decision:</strong> Under $10K in 1–2 weeks. $10K–$100K in 4–8 weeks. $100K+ in 2–6 months.</li><li><strong>Follow-up:</strong> Within 3 business days, then weekly.</li></ul>\n\n<p>Set up automated sequences if you cannot respond within a few hours.</p>",
           "wordCount": 83
         },
         {
@@ -222,7 +222,7 @@
             },
             {
               "label": "Key Insight",
-              "content": "U.S. B2B sales cycles are longer than many international founders expect.\n\n**Typical timeline:**\n- Initial contact → Quote: 1, 3 days\n- Evaluation period: 2, 6 weeks\n- Procurement/legal review: 2, 4 weeks\n- Decision: 1, 2 weeks\n\n**Total: 6, 12 weeks** for mid-market deals. Enterprise can take 6+ months."
+              "content": "U.S. B2B sales cycles are longer than many international founders expect.\n\n**Typical timeline:**\n- Initial contact → Quote: 1–3 days\n- Evaluation period: 2–6 weeks\n- Procurement/legal review: 2–4 weeks\n- Decision: 1–2 weeks\n\n**Total: 6–12 weeks** for mid-market deals. Enterprise can take 6+ months."
             }
           ]
         },
@@ -256,7 +256,7 @@
               "label": "W-9 form completed with your EIN (required by any U.S. company paying you $600+/year)"
             },
             {
-              "label": "General liability insurance policy active ($500, $2,000/year)"
+              "label": "General liability insurance policy active ($500–$2,000/year)"
             },
             {
               "label": "Certificate of Insurance (COI) ready to send on request"
@@ -303,10 +303,10 @@
               "explanation": "U.S. companies with formal procurement processes typically require a W-9 (tax identification), certificate of insurance (proof of liability coverage), and registration in their vendor system before they can issue payment. Having these documents ready in advance prevents delays that can stall or kill the deal."
             },
             {
-              "stem": "A B2B software founder from Spain collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?",
+              "stem": "A B2B software founder from Brazil collects 200 business cards at a U.S. trade show. She plans to start sending follow-up emails the following Monday, five days after the event. Her competitor followed up with personalized demo links within 24 hours. Based on U.S. sales cycle expectations, what is the most likely outcome?",
               "options": [
                 "Both founders will have equal success because the product quality matters more than follow-up speed",
-                "The Spanish founder will have an advantage because waiting shows patience and professionalism",
+                "The Brazilian founder will have an advantage because waiting shows patience and professionalism",
                 "The competitor will close significantly more deals because U.S. buyers move forward with whoever responds fastest",
                 "Neither will close deals because trade show leads rarely convert to sales"
               ],
