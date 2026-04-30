@@ -370,7 +370,30 @@
     }, true);
   }
 
+  // One-time sweep: remove any vp entries that look like phantoms — written
+  // by an older version of this tracker before the hasActivity gate landed.
+  // Phantom = sc:[] AND wt:0 AND done!==true. After sweep, the next
+  // server PATCH will replace the bad blob in dlcs_learner_state.
+  function cleanPhantomVpEntries() {
+    var p = getProgress();
+    if (!p.vp || typeof p.vp !== 'object') return;
+    var changed = false;
+    Object.keys(p.vp).forEach(function(lid) {
+      var v = p.vp[lid] || {};
+      var noScenes = !v.sc || v.sc.length === 0;
+      var noTime = !v.wt || v.wt === 0;
+      var notDone = v.done !== true;
+      if (noScenes && noTime && notDone) {
+        log('video: removing phantom vp entry for lesson', lid);
+        delete p.vp[lid];
+        changed = true;
+      }
+    });
+    if (changed) saveProgress(p);
+  }
+
   function init() {
+    cleanPhantomVpEntries();
     setupVideoTracking();
     setupInteractiveTracking();
   }
