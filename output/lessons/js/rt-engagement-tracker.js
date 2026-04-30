@@ -36,6 +36,22 @@
   // How often to flush video watch-time updates (ms). 5s is plenty —
   // we only care about minutes-resolution engagement.
   var VIDEO_FLUSH_MS = 5000;
+  var DEBUG = true;
+  function log() {
+    if (!DEBUG) return;
+    try { console.log.apply(console, ['[rt-engagement]'].concat(Array.from(arguments))); } catch (_) {}
+  }
+  log('script loaded — version 2026-04-30-v2');
+
+  // Heartbeat marker — proves the tracker is actually running (vs. cached
+  // old HTML). Writes a timestamp into rt-progress.engagementTrackerLoadedAt
+  // so a quick D1 inspection confirms whether the iframe ever loaded this.
+  try {
+    var bootP = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    bootP.engagementTrackerLoadedAt = new Date().toISOString();
+    bootP.engagementTrackerVersion = '2026-04-30-v2';
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(bootP));
+  } catch (_) {}
 
   function getProgress() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
@@ -53,8 +69,9 @@
   // ─── Video watch-time tracking ──────────────────────────────────────────
   function setupVideoTracking() {
     var lid = getLessonId();
-    if (!lid) return;
+    if (!lid) { log('video: no lesson id, skipping'); return; }
     var videos = document.querySelectorAll('video');
+    log('video: found', videos.length, 'video(s) on lesson', lid);
     if (!videos.length) return;
 
     var watchedSeconds = 0;
@@ -122,7 +139,12 @@
   // ─── Knowledge-check + Interactive engagement tracking ──────────────────
   function setupInteractiveTracking() {
     var lid = getLessonId();
-    if (!lid) return;
+    if (!lid) { log('interactives: no lesson id, skipping'); return; }
+    var kcCount = document.querySelectorAll('.knowledge-check, .rt-knowledge-check, .rt-kc-step').length;
+    var ddCount = document.querySelectorAll('.drag-drop, .rt-drag-drop').length;
+    var scCount = document.querySelectorAll('.scenario, .rt-branching-scenario, [data-scenario-id]').length;
+    var fcCount = document.querySelectorAll('.flashcard, .rt-flashcard').length;
+    log('interactives: lesson', lid, '— kc:', kcCount, 'drag:', ddCount, 'scenario:', scCount, 'flashcard:', fcCount);
 
     function ensureBlocks() {
       var p = getProgress();
