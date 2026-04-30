@@ -41,7 +41,7 @@
     if (!DEBUG) return;
     try { console.log.apply(console, ['[rt-engagement]'].concat(Array.from(arguments))); } catch (_) {}
   }
-  log('script loaded — version 2026-04-30-v5');
+  log('script loaded — version 2026-04-30-v6');
 
   // Heartbeat marker — proves the tracker is actually running (vs. cached
   // old HTML). Writes a timestamp into rt-progress.engagementTrackerLoadedAt
@@ -53,14 +53,14 @@
   try {
     var bootP = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
     var priorVersion = bootP.engagementTrackerVersion || '';
-    var needsKcReset = priorVersion === '' || priorVersion < '2026-04-30-v5';
+    var needsKcReset = priorVersion === '' || priorVersion < '2026-04-30-v6';
     if (needsKcReset) {
       log('KC migration: clearing stale kcSummary/ix from prior version', priorVersion || '(none)');
       delete bootP.kcSummary;
       delete bootP.ix;
     }
     bootP.engagementTrackerLoadedAt = new Date().toISOString();
-    bootP.engagementTrackerVersion = '2026-04-30-v5';
+    bootP.engagementTrackerVersion = '2026-04-30-v6';
     localStorage.setItem(STORAGE_KEY, JSON.stringify(bootP));
   } catch (_) {}
 
@@ -243,16 +243,20 @@
         // reveal the right answer. If we let `.correct` short-circuit, every
         // wrong answer counts as correct (the gradebook 100% bug). Treat
         // any presence of `.incorrect` as "they got it wrong" first.
+        // Incorrect wins for the per-block ix record too — without this the
+        // gradebook's Interactive Activities panel shows 100% for every KC
+        // even when the learner got it wrong, because `.rt-kc-correct` is
+        // also placed on the reveal button regardless of the user's pick.
+        var gotItRight = hasCorrect && !hasIncorrect;
         if (hasIncorrect) { answered++; }
         else if (hasCorrect) { correct++; answered++; }
-        // record per-block in ix
         if (hasCorrect || hasIncorrect) {
           var p2 = ensureBlocks();
           var key = 'kc-' + i;
           p2.ix[lid][key] = {
             t: 'kc',
-            c: hasCorrect,
-            s: hasCorrect ? 100 : 0
+            c: gotItRight,
+            s: gotItRight ? 100 : 0
           };
           saveProgress(p2);
         }
