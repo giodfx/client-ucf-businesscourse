@@ -286,10 +286,11 @@
     var key = vttUrl.replace(/^.*\/|\.vtt$/g, ''); // "course-intro-en"
     var bag = (typeof window !== 'undefined' && window.RT_BOOKEND_CAPTIONS) || {};
     var cues = bag[key] || [];
-    var on = false;
+    // Captions ON by default — user must explicitly turn them off.
+    var on = true;
     var saved = null;
     try { saved = localStorage.getItem(CC_PREF_KEY); } catch (_) {}
-    if (saved === 'showing') on = true;
+    if (saved === 'hidden') on = false;
 
     function syncBtn() {
       btn.setAttribute('aria-label', on ? t.ccOn : t.ccOff);
@@ -575,6 +576,14 @@
     };
     return '<svg xmlns="http://www.w3.org/2000/svg" width="' + s + '" height="' + s + '" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">' + (paths[name] || '') + '</svg>';
   }
+
+  // Public API — lets pages without data-lesson-id (e.g., index.html intro)
+  // build the same custom player. Caller passes {videoId, src, vtt, lang, label}
+  // and inserts the returned element wherever they want.
+  window.rtBookend = {
+    buildPlayer: buildPlayer,
+    init: init
+  };
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);

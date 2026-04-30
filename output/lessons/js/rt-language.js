@@ -93,6 +93,16 @@
     });
   }
 
+  // ── Hide [data-show-only="<lang>"] elements when active language doesn't match ──
+  // Used for LATAM resource callouts that are kept in Spanish only per Brian's
+  // April 29 direction. Reload-driven, so no listener for live switches.
+  function applyShowOnly() {
+    document.querySelectorAll('[data-show-only]').forEach(function(el) {
+      var only = el.getAttribute('data-show-only');
+      if (only && only !== lang) el.style.display = 'none';
+    });
+  }
+
   // ── Inline styles for the lesson settings widget. Self-contained so
   // we don't need to ship a new CSS file. Mirrors the visual style of
   // the dashboard's vd-settings-* tokens. ──
@@ -104,10 +114,19 @@
     // translucent dark panel, white text, pill toggles, proper SVG icons.
     s.textContent = [
       '.rt-ls-wrap{position:fixed;top:18px;right:20px;z-index:50;font-family:inherit;}',
-      '.rt-ls-btn{width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(20,28,40,0.88);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px);box-shadow:0 4px 12px rgba(0,0,0,0.3);transition:transform 200ms ease, background 200ms ease;}',
+      // !important on width/min-width/padding defeats responsive.css button{padding}
+      // and accessibility.css button{min-width:48px} which would otherwise squeeze
+      // the content box and collapse the SVG. box-sizing:border-box ensures the
+      // explicit width/height aren't increased by padding/border.
+      '.rt-ls-btn{width:44px !important;height:44px !important;min-width:44px !important;min-height:44px !important;padding:0 !important;box-sizing:border-box !important;border-radius:50%;border:1px solid rgba(255,255,255,0.18);background:rgba(20,28,40,0.88);color:#fff;cursor:pointer;display:flex !important;align-items:center;justify-content:center;backdrop-filter:blur(10px);box-shadow:0 4px 12px rgba(0,0,0,0.3);transition:transform 200ms ease, background 200ms ease;}',
       '.rt-ls-btn:hover{background:rgba(40,55,75,0.95);transform:rotate(20deg);}',
       '.rt-ls-btn:focus-visible{outline:2px solid #f4a83b;outline-offset:3px;}',
-      '.rt-ls-btn svg{width:22px;height:22px;}',
+      // !important needed because base.css sets svg{height:auto} globally,
+      // which collapses the gear icon to almost-zero height inside the button.
+      // max-width:none defeats base.css svg{max-width:100%} which clamps the
+      // SVG to the parent's content-box width. Without this, the gear collapses.
+      '.rt-ls-btn svg{width:22px !important;height:22px !important;max-width:none !important;max-height:none !important;display:block !important;fill:currentColor;}',
+      '.rt-ls-btn svg path{fill:currentColor;}',
       '.rt-ls-dropdown{position:absolute;top:56px;right:0;min-width:280px;background:rgba(20,28,40,0.96);border:1px solid rgba(255,255,255,0.1);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,0.4);padding:14px;display:none;color:#e5e7eb;backdrop-filter:blur(12px);}',
       '.rt-ls-dropdown[data-open="true"]{display:block;}',
       '.rt-ls-item{display:flex;align-items:center;justify-content:space-between;padding:10px 6px;gap:12px;}',
@@ -117,7 +136,18 @@
       '.rt-ls-sw-btn{display:inline-flex;align-items:center;justify-content:center;min-width:36px;padding:6px 12px;border:0;background:transparent;color:rgba(255,255,255,0.6);font-size:12px;font-weight:600;cursor:pointer;border-radius:999px;transition:background 150ms,color 150ms;}',
       '.rt-ls-sw-btn:hover{color:#fff;}',
       '.rt-ls-sw-btn--active{background:#f4a83b;color:#1a1a1a;}',
-      '.rt-ls-sw-btn svg{display:block;}',
+      '.rt-ls-sw-btn svg{display:block !important;width:14px !important;height:14px !important;max-width:none !important;max-height:none !important;fill:currentColor;}',
+      // Light-theme overrides — flip the floating gear surface colors so
+      // the widget reads in light mode without losing the orange accent.
+      'html[data-theme="light"] .rt-ls-btn{background:rgba(255,255,255,0.92);border-color:rgba(0,0,0,0.12);color:#1e293b;box-shadow:0 4px 12px rgba(0,0,0,0.12);}',
+      'html[data-theme="light"] .rt-ls-btn:hover{background:#fff;}',
+      'html[data-theme="light"] .rt-ls-dropdown{background:rgba(255,255,255,0.96);border-color:rgba(0,0,0,0.08);color:#0f172a;box-shadow:0 12px 32px rgba(0,0,0,0.18);}',
+      'html[data-theme="light"] .rt-ls-label{color:#1e293b;}',
+      'html[data-theme="light"] .rt-ls-divider{background:rgba(0,0,0,0.08);}',
+      'html[data-theme="light"] .rt-ls-switch{background:rgba(0,0,0,0.05);border-color:rgba(0,0,0,0.12);}',
+      'html[data-theme="light"] .rt-ls-sw-btn{color:rgba(30,40,60,0.55);}',
+      'html[data-theme="light"] .rt-ls-sw-btn:hover{color:#1e293b;}',
+      'html[data-theme="light"] .rt-ls-sw-btn--active{background:#f4a83b;color:#1a1a1a;}',
       '@media (max-width: 600px){.rt-ls-wrap{top:10px;right:12px;}.rt-ls-btn{width:38px;height:38px;}.rt-ls-btn svg{width:18px;height:18px;}}'
     ].join('\n');
     document.head.appendChild(s);
@@ -295,6 +325,7 @@
     applySpanishHTML();
     applySpanishPlaceholders();
     applySpanishOutcomes();
+    applyShowOnly();
   }
 
   if (document.readyState === 'loading') {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-base-theme="default" data-theme="default">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,59 +68,85 @@
     .tag.either { background: #dcfce7; color: #166534; border-color: #86efac; }
     footer { color: #999; border-color: #ddd; }
   }
+
+  /* === Light-theme overrides for resource sub-pages === */
+  html[data-theme="light"] {
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --border: #cbd5e1;
+    --accent: #b8860b;
+    --accent2: #8b6508;
+    --text: #0f172a;
+    --muted: #475569;
+  }
+  html[data-theme="light"] body {
+    background: #f8fafc;
+    color: #0f172a;
+  }
+  html[data-theme="light"] header h1 { color: #8b6508; }
+  html[data-theme="light"] header p { color: #475569; }
+  html[data-theme="light"] .module {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+  }
+  html[data-theme="light"] .module h2 { color: #8b6508; border-bottom-color: #cbd5e1; }
+  html[data-theme="light"] .item { border-bottom-color: rgba(0,0,0,0.08); }
+  html[data-theme="light"] .item .desc { color: #0f172a; }
+  html[data-theme="light"] .item .desc.checked { color: #94a3b8; }
+
 </style>
 </head>
 <body>
 <header>
-  <h1>Florida Setup Roadmap</h1>
-  <p>UCF Business Incubation Program &mdash; Market Readiness Course</p>
-  <p style="margin-top:0.5rem; font-size:0.85rem;">Step-by-step sequence from entity formation to fully operational</p>
-  <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+  <h1 data-es="Hoja de Ruta de Establecimiento en Florida">Florida Setup Roadmap</h1>
+  <p data-es="UCF Business Incubation Program &mdash; Curso de Preparación para el Mercado">UCF Business Incubation Program &mdash; Market Readiness Course</p>
+  <p style="margin-top:0.5rem; font-size:0.85rem;" data-es="Secuencia paso a paso desde la formación de la entidad hasta estar plenamente operativo">Step-by-step sequence from entity formation to fully operational</p>
+  <button class="print-btn" onclick="window.print()" data-es="Imprimir / Guardar como PDF">Print / Save as PDF</button>
 </header>
 
 <div class="legend">
-  <span><span class="dot" style="background:#93c5fd"></span> Remote</span>
-  <span><span class="dot" style="background:#fcd34d"></span> In-Person</span>
-  <span><span class="dot" style="background:#86efac"></span> Either</span>
+  <span data-es-html="<span class=&quot;dot&quot; style=&quot;background:#93c5fd&quot;></span> Remoto"><span class="dot" style="background:#93c5fd"></span> Remote</span>
+  <span data-es-html="<span class=&quot;dot&quot; style=&quot;background:#fcd34d&quot;></span> Presencial"><span class="dot" style="background:#fcd34d"></span> In-Person</span>
+  <span data-es-html="<span class=&quot;dot&quot; style=&quot;background:#86efac&quot;></span> Cualquiera"><span class="dot" style="background:#86efac"></span> Either</span>
 </div>
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-num">Phase 1</span>
-    <span class="phase-title">Pre-Arrival Preparation</span>
-    <span class="phase-time">2&ndash;4 weeks before arrival</span>
+    <span class="phase-num" data-es="Fase 1">Phase 1</span>
+    <span class="phase-title" data-es="Preparación Antes de la Llegada">Pre-Arrival Preparation</span>
+    <span class="phase-time" data-es="2&ndash;4 semanas antes de la llegada">2&ndash;4 weeks before arrival</span>
   </div>
   <div class="step">
     <span class="step-num">1</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Investigar el tipo de entidad</strong> &mdash; Comparar LLC vs. C-Corp vs. S-Corp según su estatus migratorio, planes de inversionistas y objetivos fiscales. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Decisión clave: C-Corp si busca capital de riesgo (VC); LLC por simplicidad; S-Corp generalmente no disponible para no residentes.</div>">
       <strong>Research entity type</strong> &mdash; Compare LLC vs. C-Corp vs. S-Corp based on your visa status, investor plans, and tax goals. <span class="tag remote">Remote</span>
       <div class="step-note">Key decision: C-Corp if seeking VC; LLC for simplicity; S-Corp generally unavailable to non-residents.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">2</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Conseguir un agente registrado</strong> &mdash; Contratar un servicio de agente registrado con sede en Florida para recibir correo legal. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Costo: $100&ndash;$300/año. Requerido antes de presentar la solicitud en SunBiz.</div>">
       <strong>Secure a registered agent</strong> &mdash; Hire a Florida-based registered agent service to receive legal mail. <span class="tag remote">Remote</span>
       <div class="step-note">Cost: $100&ndash;$300/year. Required before filing with SunBiz.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">3</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Solicitar el EIN en línea</strong> &mdash; Presentar el Form SS-4 en IRS.gov. Los solicitantes internacionales pueden llamar al IRS al (267) 941-1099. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Gratis. Toma 15 minutos en línea (o ~30 min por teléfono para quienes no tienen SSN de EE.UU.).</div>">
       <strong>Apply for EIN online</strong> &mdash; File Form SS-4 on IRS.gov. International applicants can call IRS at (267) 941-1099. <span class="tag remote">Remote</span>
       <div class="step-note">Free. Takes 15 minutes online (or ~30 min by phone for non-U.S. SSN holders).</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">4</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Redactar el acuerdo operativo o los estatutos</strong> &mdash; Definir la estructura de propiedad, distribución de utilidades y derechos de administración. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Consejo: use un abogado empresarial de Florida. LegalZoom/Incfile ofrecen plantillas para casos más simples.</div>">
       <strong>Draft operating agreement or bylaws</strong> &mdash; Define ownership structure, profit distribution, and management rights. <span class="tag remote">Remote</span>
       <div class="step-note">Tip: Use a Florida business attorney. LegalZoom/Incfile offer templates for simpler setups.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">5</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Reunir los documentos bancarios</strong> &mdash; Preparar pasaporte, confirmación del EIN, documentos de formación y comprobante de domicilio. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Algunos bancos (Mercury, Relay) aceptan solicitudes completamente remotas con estos documentos.</div>">
       <strong>Gather banking documents</strong> &mdash; Prepare passport, EIN confirmation, formation docs, and proof of address. <span class="tag remote">Remote</span>
       <div class="step-note">Some banks (Mercury, Relay) accept fully remote applications with these documents.</div>
     </div>
@@ -129,34 +155,34 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-num">Phase 2</span>
-    <span class="phase-title">Entity Formation &amp; Registration</span>
-    <span class="phase-time">Week 1&ndash;2 after decision</span>
+    <span class="phase-num" data-es="Fase 2">Phase 2</span>
+    <span class="phase-title" data-es="Formación y Registro de la Entidad">Entity Formation &amp; Registration</span>
+    <span class="phase-time" data-es="Semanas 1&ndash;2 después de la decisión">Week 1&ndash;2 after decision</span>
   </div>
   <div class="step">
     <span class="step-num">6</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Presentar los Articles of Organization/Incorporation</strong> &mdash; Presentarlos en SunBiz.org. LLC = Articles of Organization; Corp = Articles of Incorporation. <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>Tarifa de presentación: ~$125 (LLC) o ~$70 (Corp) + designación de agente registrado.</div>">
       <strong>File Articles of Organization/Incorporation</strong> &mdash; Submit on SunBiz.org. LLC = Articles of Organization; Corp = Articles of Incorporation. <span class="tag either">Either</span>
       <div class="step-note">Filing fee: ~$125 (LLC) or ~$70 (Corp) + registered agent designation.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">7</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Obtener el recibo local del impuesto empresarial</strong> &mdash; Registrarse con su condado (Orange, Seminole, Osceola, etc.) y con la ciudad si se requiere. <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>El costo varía según la jurisdicción. El condado de Orange utiliza un portal en línea.</div>">
       <strong>Obtain local business tax receipt</strong> &mdash; Register with your county (Orange, Seminole, Osceola, etc.) and city if required. <span class="tag either">Either</span>
       <div class="step-note">Cost varies by jurisdiction. Orange County uses an online portal.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">8</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Registrarse para el impuesto sobre las ventas de Florida</strong> &mdash; Solicitar a través del FL Department of Revenue si vende bienes o servicios gravables. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Registro gratuito. Los permisos suelen llegar en 5 días hábiles.</div>">
       <strong>Register for Florida sales tax</strong> &mdash; Apply through the FL Department of Revenue if selling taxable goods or services. <span class="tag remote">Remote</span>
       <div class="step-note">Free registration. Permits typically arrive within 5 business days.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">9</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Solicitar los permisos requeridos por la industria</strong> &mdash; Verificar si su industria requiere licencias estatales o federales (alimentos, salud, construcción, etc.). <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>El Florida DBPR gestiona la mayoría de las licencias profesionales. Use el SBDC para orientación.</div>">
       <strong>Apply for required industry permits</strong> &mdash; Check if your industry requires state or federal licensing (food, healthcare, construction, etc.). <span class="tag either">Either</span>
       <div class="step-note">Florida DBPR handles most professional licenses. Use the SBDC for guidance.</div>
     </div>
@@ -165,41 +191,41 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-num">Phase 3</span>
-    <span class="phase-title">Financial Infrastructure</span>
-    <span class="phase-time">Week 2&ndash;4</span>
+    <span class="phase-num" data-es="Fase 3">Phase 3</span>
+    <span class="phase-title" data-es="Infraestructura Financiera">Financial Infrastructure</span>
+    <span class="phase-time" data-es="Semanas 2&ndash;4">Week 2&ndash;4</span>
   </div>
   <div class="step">
     <span class="step-num">10</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Abrir una cuenta bancaria empresarial</strong> &mdash; Solicitarla con Mercury o Relay (compatibles con apertura remota), o visitar una sucursal local con todos los documentos. <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>Lleve: EIN, Articles, acuerdo operativo, pasaporte, comprobante de domicilio. Algunos bancos requieren visita presencial.</div>">
       <strong>Open a business bank account</strong> &mdash; Apply with Mercury or Relay (remote-friendly), or visit a local bank branch with all documents. <span class="tag either">Either</span>
       <div class="step-note">Bring: EIN, Articles, operating agreement, passport, proof of address. Some banks require in-person visit.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">11</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Configurar el software de contabilidad</strong> &mdash; Configurar QuickBooks Online (o Xero/FreshBooks), conectar la cuenta bancaria, definir el plan de cuentas. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Registre cada transacción desde el primer día. Su CPA necesitará libros limpios al momento de impuestos.</div>">
       <strong>Set up accounting software</strong> &mdash; Configure QuickBooks Online (or Xero/FreshBooks), connect bank account, set chart of accounts. <span class="tag remote">Remote</span>
       <div class="step-note">Record every transaction from day one. Your CPA will need clean books at tax time.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">12</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Configurar el procesamiento de pagos</strong> &mdash; Registrarse con Stripe, Square o PayPal Business para aceptar pagos de clientes. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Stripe Atlas incluye formación de la empresa + banca + procesamiento de pagos en un solo paquete.</div>">
       <strong>Set up payment processing</strong> &mdash; Register with Stripe, Square, or PayPal Business for accepting customer payments. <span class="tag remote">Remote</span>
       <div class="step-note">Stripe Atlas includes company formation + banking + payment processing in one bundle.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">13</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Contratar a un CPA</strong> &mdash; Encontrar un contador con experiencia en empresas estadounidenses de propiedad internacional y en pagos trimestrales de impuestos estimados. <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>Pida referencias al UCF BIP o al SBDC. Presupueste $1,500&ndash;$5,000/año para la contabilidad de una pequeña empresa.</div>">
       <strong>Hire a CPA</strong> &mdash; Find an accountant experienced with international-owned U.S. businesses and estimated quarterly taxes. <span class="tag either">Either</span>
       <div class="step-note">Ask UCF BIP or SBDC for referrals. Budget $1,500&ndash;$5,000/year for small business accounting.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">14</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Configurar los pagos trimestrales de impuestos estimados</strong> &mdash; Calcular y programar los pagos federales de impuestos estimados (vencimientos: 15 abr, 15 jun, 15 sep, 15 ene). <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Florida no tiene impuesto estatal sobre la renta. Pagos federales vía EFTPS.gov.</div>">
       <strong>Set up quarterly estimated tax payments</strong> &mdash; Calculate and schedule federal estimated tax payments (due Apr 15, Jun 15, Sep 15, Jan 15). <span class="tag remote">Remote</span>
       <div class="step-note">Florida has no state income tax. Federal payments via EFTPS.gov.</div>
     </div>
@@ -208,41 +234,41 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-num">Phase 4</span>
-    <span class="phase-title">Operational Readiness</span>
-    <span class="phase-time">Month 2&ndash;3</span>
+    <span class="phase-num" data-es="Fase 4">Phase 4</span>
+    <span class="phase-title" data-es="Preparación Operativa">Operational Readiness</span>
+    <span class="phase-time" data-es="Meses 2&ndash;3">Month 2&ndash;3</span>
   </div>
   <div class="step">
     <span class="step-num">15</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Obtener seguro de Responsabilidad General</strong> &mdash; Cotizar con al menos 3 aseguradoras. La mayoría de los arrendadores y clientes exigen comprobante de GL. <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>Costo típico: $500&ndash;$1,500/año para una startup. Use un corredor de seguros independiente.</div>">
       <strong>Obtain General Liability insurance</strong> &mdash; Shop quotes from at least 3 carriers. Most landlords and clients require proof of GL. <span class="tag either">Either</span>
       <div class="step-note">Typical cost: $500&ndash;$1,500/year for a startup. Use an independent insurance broker.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">16</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Asegurar un espacio de trabajo</strong> &mdash; Evaluar espacios de coworking, el espacio de la incubadora UCF BIP o arrendamientos tradicionales de oficina. <span class=&quot;tag in-person&quot;>Presencial</span>&#10;      <div class=&quot;step-note&quot;>UCF BIP ofrece espacio de incubadora por debajo del precio de mercado, con mentoría. StarterStudio, Canvs y WeWork son alternativas populares.</div>">
       <strong>Secure workspace</strong> &mdash; Evaluate coworking spaces, UCF BIP incubator space, or traditional office leases. <span class="tag in-person">In-Person</span>
       <div class="step-note">UCF BIP offers below-market incubator space with mentorship. StarterStudio, Canvs, and WeWork are popular alternatives.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">17</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Configurar la nómina (si va a contratar)</strong> &mdash; Registrarse con un proveedor de nómina (Gusto, ADP, OnPay) y configurar el reporte de nuevas contrataciones. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Florida exige reportar nuevas contrataciones en un plazo de 20 días. Regístrese para el reemployment tax en FL DOR.</div>">
       <strong>Set up payroll (if hiring)</strong> &mdash; Register with a payroll provider (Gusto, ADP, OnPay) and set up new-hire reporting. <span class="tag remote">Remote</span>
       <div class="step-note">Florida requires new-hire reporting within 20 days. Register for reemployment tax on FL DOR.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">18</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Construir su red de asesores</strong> &mdash; Conectar con el SBDC, un mentor de SCORE, un asesor del UCF BIP y al menos un fundador colega. <span class=&quot;tag either&quot;>Cualquiera</span>&#10;      <div class=&quot;step-note&quot;>Los tres programas son gratuitos. Programe las reuniones iniciales en sus primeras 2 semanas.</div>">
       <strong>Build your advisory network</strong> &mdash; Connect with SBDC, SCORE mentor, UCF BIP advisor, and at least one peer founder. <span class="tag either">Either</span>
       <div class="step-note">All three programs are free. Schedule intake meetings within your first 2 weeks.</div>
     </div>
   </div>
   <div class="step">
     <span class="step-num">19</span>
-    <div class="step-content">
+    <div class="step-content" data-es-html="<strong>Lanzar su presencia en el mercado de EE.UU.</strong> &mdash; Activar el sitio web, los perfiles sociales y el contacto inicial con clientes objetivo. <span class=&quot;tag remote&quot;>Remoto</span>&#10;      <div class=&quot;step-note&quot;>Consejo: empiece a vender antes de que todo esté &quot;perfecto&quot;. Los ingresos validan su ajuste de mercado más rápido que cualquier plan.</div>">
       <strong>Launch your U.S. market presence</strong> &mdash; Go live with website, social profiles, and initial outreach to target customers. <span class="tag remote">Remote</span>
       <div class="step-note">Tip: Start selling before everything is "perfect." Revenue validates your market fit faster than any plan.</div>
     </div>
@@ -250,8 +276,9 @@
 </div>
 
 <footer>
-  <p>UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
-  <p>Timelines are estimates. Consult qualified professionals for legal, tax, and immigration guidance.</p>
+  <p data-es="UCF Business Incubation Program &mdash; Curso de Preparación para el Mercado de EE.UU.">UCF Business Incubation Program &mdash; U.S. Market Readiness Course</p>
+  <p data-es="Los plazos son estimaciones. Consulte con profesionales calificados para orientación legal, fiscal y migratoria.">Timelines are estimates. Consult qualified professionals for legal, tax, and immigration guidance.</p>
 </footer>
+<script src="../js/rt-language.js"></script>
 </body>
 </html>

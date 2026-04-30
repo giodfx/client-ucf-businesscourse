@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/accessibility.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/video-dashboard.css">
+  <link rel="stylesheet" href="css/rt-bookend.css">
 </head>
 <body data-total-modules="9" data-total-lessons="25">
   <a href="#dest-heading" class="vd-skip-link">Skip to main content</a>
@@ -50,9 +51,11 @@
         <div class="ob-step-indicator"><span class="ob-dot ob-dot--done"></span><span class="ob-dot ob-dot--active"></span><span class="ob-dot"></span></div>
         <h2 class="ob-title" id="obVideoTitle">Program Overview</h2>
         <p class="ob-subtitle" id="obVideoSub">Watch a brief introduction to the U.S. Market Readiness Program</p>
-        <div class="ob-video-wrap">
-          <video id="obIntroVideo" controls playsinline preload="metadata"
-                 poster="images/avatars/scenes/lesson-0-1-avatar.jpg">
+        <div class="ob-video-wrap" id="obIntroVideoMount">
+          <!-- rt-bookend custom player gets injected here on load. The native
+               video below is a fallback for when JS is disabled. -->
+          <video id="obIntroVideo" playsinline preload="metadata"
+                 poster="images/avatars/scenes/lesson-0-1-avatar.jpg" controls>
             <source src="videos/bookend/course-intro-en.mp4" type="video/mp4">
             <track kind="captions" srclang="en" label="Captions" src="videos/bookend/course-intro-en.vtt" default>
           </video>
@@ -326,6 +329,8 @@
   </div>
 
   <script src="js/rt-language.js"></script>
+  <script src="videos/bookend/captions.js"></script>
+  <script src="js/rt-bookend.js"></script>
   <script src="js/video-dashboard.js"></script>
 
   <!-- Onboarding gate logic -->
@@ -463,6 +468,34 @@
         }
       }, 500);
     };
+
+    // Replace the native <video controls> intro video with the rt-bookend
+    // custom player so the intro matches lessons (CC button, speed control,
+    // scrubber, fullscreen). rt-bookend.js exposes window.rtBookend.buildPlayer
+    // which returns a fully-wired <section> element.
+    function swapIntroToBookendPlayer() {
+      var mount = document.getElementById('obIntroVideoMount');
+      if (!mount || !window.rtBookend || !window.rtBookend.buildPlayer) return;
+      var lang = (window.rtLanguage === 'es') ? 'es' : 'en';
+      var player = window.rtBookend.buildPlayer({
+        videoId: 'course-intro',
+        lang: lang,
+        src: 'videos/bookend/course-intro-' + lang + '.mp4',
+        vtt: 'videos/bookend/course-intro-' + lang + '.vtt',
+        label: lang === 'es' ? 'Resumen del Programa' : 'Program Overview'
+      });
+      // Replace the native <video> fallback with the custom player.
+      mount.innerHTML = '';
+      mount.appendChild(player);
+      // Ensure the captions are ON by default — rt-bookend.js already defaults
+      // to on, but the rt-bookend caption renderer reads RT_BOOKEND_CAPTIONS
+      // from window so this also covers captions.js missing entries gracefully.
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', swapIntroToBookendPlayer);
+    } else {
+      swapIntroToBookendPlayer();
+    }
   })();
   </script>
 </body>

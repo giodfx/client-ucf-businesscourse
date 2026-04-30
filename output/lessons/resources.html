@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-base-theme="default" data-theme="default">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,6 +54,24 @@
     z-index: 2;
     box-sizing: border-box;
   }
+
+
+  /* Light theme overrides — flip dark surface vars to light values */
+  html[data-theme="light"] {
+    --resources-bg: #f8fafc;
+    --resources-bg2: #ffffff;
+    --resources-surface: rgba(255,255,255,0.95);
+    --resources-surface2: rgba(248,250,252,0.85);
+    --resources-border: rgba(180,140,40,0.35);
+    --resources-border-strong: rgba(180,140,40,0.6);
+    --resources-accent: #b8860b;
+    --resources-accent2: #8b6508;
+    --resources-text: #1e293b;
+    --resources-muted: #475569;
+  }
+  html[data-theme="light"] .resources-search-clear { background: rgba(0,0,0,0.05); }
+  html[data-theme="light"] .resources-search-clear:hover { background: rgba(0,0,0,0.12); }
+  html[data-theme="light"] .resources-search-meta { background: rgba(184,134,11,0.10); }
 
   /* Search */
   .resources-search-wrap {
@@ -279,6 +297,20 @@
   .rt-resources-back:hover {
     background: rgba(255, 255, 255, 0.06);
     color: #fff;
+  }
+
+  /* Light-theme overrides — flip the dark navy chrome bar to a light translucent bar
+     so the page matches body theme when user toggles to light. */
+  html[data-theme="light"] .rt-resources-chrome {
+    background: rgba(248, 250, 252, 0.92);
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+  }
+  html[data-theme="light"] .rt-resources-back {
+    color: rgba(30, 40, 60, 0.85);
+  }
+  html[data-theme="light"] .rt-resources-back:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #1e293b;
   }
 
   /* Override .rt-lesson-main padding for resources — no sidebar means full width */

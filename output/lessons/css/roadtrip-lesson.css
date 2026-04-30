@@ -4157,3 +4157,30 @@ html, .rt-lesson-body {
   position: static; width: auto; height: auto; margin: 0.25rem 0 0;
   clip: auto; overflow: visible; display: block;
 }
+
+
+/* === Light-theme contrast boost for cost comparison table (lesson 7-3) === */
+[data-theme="light"] .rt-ctbl td {
+  color: #0f172a;
+  font-weight: 500;
+}
+[data-theme="light"] .rt-ctbl tbody tr:nth-child(odd) {
+  background: #f1f5f9;
+}
+[data-theme="light"] .rt-ctbl tbody tr:nth-child(even) {
+  background: #ffffff;
+}
+[data-theme="light"] .rt-ctbl tbody tr {
+  border-bottom: 1px solid #cbd5e1;
+}
+[data-theme="light"] .rt-ctbl-label {
+  color: #704807;
+  font-weight: 800;
+}
+[data-theme="light"] .rt-ctbl-scroll {
+  border: 1px solid #94a3b8;
+}
+[data-theme="light"] .rt-ctbl thead th {
+  background: #1e3a5f;
+  color: #ffffff;
+}

@@ -877,8 +877,14 @@ html, body {
 .ob-close-btn {
   position: absolute;
   top: 0.75rem; right: 0.75rem;
-  display: flex; align-items: center; justify-content: center;
-  width: 2rem; height: 2rem;
+  display: flex !important; align-items: center; justify-content: center;
+  width: 2rem !important; height: 2rem !important;
+  /* min-width / padding overrides defeat responsive.css button{padding:12px 24px}
+     and accessibility.css button{min-width:48px} which would collapse the
+     content-box and hide the SVG inside. */
+  min-width: 2rem !important; min-height: 2rem !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 8px;
   background: rgba(255,255,255,0.08);
@@ -904,3 +910,162 @@ html, body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* === vd-lang-pill: shared EN/ES pill used by rt-language.js renderToggle ===
+   Mirrors .vd-theme-pill so the language pill and theme pill look identical
+   in the dashboard/resources/lesson settings dropdown. */
+.vd-lang-pill {
+  display: inline-flex; align-items: center;
+  border-radius: 20px; overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(0,0,0,0.3);
+  padding: 0;
+}
+.vd-lang-pill-opt {
+  display: flex; align-items: center; justify-content: center;
+  min-width: 36px; height: 24px; padding: 0 10px;
+  border: none; background: transparent;
+  color: rgba(255,255,255,0.4);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.vd-lang-pill-opt[aria-checked="true"] {
+  background: #f4a83b; color: #1a1a1a;
+}
+.vd-lang-pill-opt:hover:not([aria-checked="true"]) { color: #e2e8f0; }
+
+[data-theme="light"] .vd-lang-pill {
+  border-color: rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.05);
+}
+[data-theme="light"] .vd-lang-pill-opt { color: rgba(30,40,60,0.5); }
+[data-theme="light"] .vd-lang-pill-opt[aria-checked="true"] {
+  background: #f4a83b; color: #1a1a1a;
+}
+
+/* ============================================================
+   rt-language.js floating gear (lesson + resource sub-pages)
+   These rules duplicate injectSettingsStyles() so the widget
+   loads with the page (no JS-injection race) and so base.css's
+   global svg{height:auto} reset can't collapse the gear icon.
+   ============================================================ */
+.rt-ls-wrap { position: fixed; top: 18px; right: 20px; z-index: 50; font-family: inherit; }
+.rt-ls-btn {
+  width: 44px !important; height: 44px !important;
+  /* min-width / min-height defeat accessibility.css's `@media(max-width:768px) button{min-width:48px}` */
+  min-width: 44px !important; min-height: 44px !important;
+  /* padding:0 defeats responsive.css's `button{padding:12px 24px}` which would
+     squeeze the content-box to ~4px and collapse the SVG icon. */
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  border-radius: 50%; border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(20,28,40,0.88); color: #fff; cursor: pointer;
+  display: flex !important; align-items: center; justify-content: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 200ms ease, background 200ms ease;
+}
+.rt-ls-btn:hover { background: rgba(40,55,75,0.95); transform: rotate(20deg); }
+.rt-ls-btn:focus-visible { outline: 2px solid #f4a83b; outline-offset: 3px; }
+.rt-ls-btn svg {
+  width: 22px !important; height: 22px !important;
+  /* max-width:none / max-height:none defeat base.css svg{max-width:100%} which
+     would clamp the SVG to the parent's content-box width. */
+  max-width: none !important; max-height: none !important;
+  display: block !important;
+  fill: currentColor;
+}
+.rt-ls-btn svg path { fill: currentColor; }
+.rt-ls-dropdown {
+  position: absolute; top: 56px; right: 0; min-width: 280px;
+  background: rgba(20,28,40,0.96);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+  padding: 14px; display: none; color: #e5e7eb;
+  backdrop-filter: blur(12px);
+}
+.rt-ls-dropdown[data-open="true"] { display: block; }
+.rt-ls-item { display: flex; align-items: center; justify-content: space-between; padding: 10px 6px; gap: 12px; }
+.rt-ls-label { font-size: 14px; font-weight: 500; color: #e5e7eb; }
+.rt-ls-divider { height: 1px; background: rgba(255,255,255,0.1); margin: 6px 0; }
+.rt-ls-switch {
+  display: inline-flex; background: rgba(255,255,255,0.08);
+  border-radius: 999px; padding: 3px; border: 1px solid rgba(255,255,255,0.12);
+}
+.rt-ls-sw-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 36px; padding: 6px 12px;
+  border: 0; background: transparent;
+  color: rgba(255,255,255,0.6);
+  font-size: 12px; font-weight: 600; cursor: pointer;
+  border-radius: 999px;
+  transition: background 150ms, color 150ms;
+}
+.rt-ls-sw-btn:hover { color: #fff; }
+.rt-ls-sw-btn--active { background: #f4a83b; color: #1a1a1a; }
+.rt-ls-sw-btn svg {
+  display: block !important;
+  width: 14px !important; height: 14px !important;
+  fill: currentColor;
+}
+
+/* Light theme — flip the floating gear surfaces */
+html[data-theme="light"] .rt-ls-btn {
+  background: rgba(255,255,255,0.92);
+  border-color: rgba(0,0,0,0.12);
+  color: #1e293b;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+html[data-theme="light"] .rt-ls-btn:hover { background: #fff; }
+html[data-theme="light"] .rt-ls-dropdown {
+  background: rgba(255,255,255,0.96);
+  border-color: rgba(0,0,0,0.08);
+  color: #0f172a;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+}
+html[data-theme="light"] .rt-ls-label { color: #1e293b; }
+html[data-theme="light"] .rt-ls-divider { background: rgba(0,0,0,0.08); }
+html[data-theme="light"] .rt-ls-switch {
+  background: rgba(0,0,0,0.05); border-color: rgba(0,0,0,0.12);
+}
+html[data-theme="light"] .rt-ls-sw-btn { color: rgba(30,40,60,0.55); }
+html[data-theme="light"] .rt-ls-sw-btn:hover { color: #1e293b; }
+html[data-theme="light"] .rt-ls-sw-btn--active { background: #f4a83b; color: #1a1a1a; }
+
+@media (max-width: 600px) {
+  .rt-ls-wrap { top: 10px; right: 12px; }
+  .rt-ls-btn { width: 38px !important; height: 38px !important; }
+  .rt-ls-btn svg { width: 18px !important; height: 18px !important; }
+}
+
+/* === SVG icon size lockdown — defeat base.css svg{height:auto} reset
+   that was collapsing gear icons to near-zero height. Apply !important
+   to every gear/icon inside the settings widgets so the global reset
+   can't override their explicit dimensions. */
+.vd-settings-btn svg {
+  width: 20px !important; height: 20px !important;
+  max-width: none !important; max-height: none !important;
+  display: block !important;
+  fill: currentColor;
+}
+.vd-settings-btn svg path { fill: currentColor; }
+.vd-theme-pill-opt svg {
+  width: 14px !important; height: 14px !important;
+  max-width: none !important; max-height: none !important;
+  display: block !important;
+  fill: currentColor;
+}
+.vd-theme-pill-opt svg path { fill: currentColor; }
+/* Disclaimer / Rewatch close X — JS-injected by video-dashboard.js as
+   .ob-close-btn. Same lockdown so its SVG isn't clamped to a 0-width
+   content box. */
+.ob-close-btn svg {
+  width: 16px !important; height: 16px !important;
+  max-width: none !important; max-height: none !important;
+  display: block !important;
+  fill: currentColor;
+}
+.ob-close-btn svg path { fill: currentColor; }
