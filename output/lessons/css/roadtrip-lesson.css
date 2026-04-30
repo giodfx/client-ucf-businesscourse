@@ -957,8 +957,10 @@ html, .rt-lesson-body {
    Sits below the recommendation; clicking re-enables all paths so the
    learner can compare other situations. */
 .rt-scenario-retry {
-  display: inline-block;
-  margin-top: 14px;
+  display: block;
+  clear: both;          /* drop below the floated avatar instead of trailing the last text line */
+  width: fit-content;
+  margin: 20px 0 4px;   /* generous top gap to separate from the recommendation */
   padding: 8px 16px;
   background: transparent;
   border: 1px solid rgba(255,255,255,0.2);
