@@ -205,6 +205,30 @@
           ]
         },
         {
+          "type": "accordion",
+          "id": "int-8-2-resource-library",
+          "title": "Resource Library: Quick Reference",
+          "subtitle": "Do not try to use all of these. Start with the one resource that matches your biggest gap.",
+          "sections": [
+            {
+              "heading": "Legal & Formation",
+              "content": "- **[SunBiz](https://sunbiz.org)** (sunbiz.org) — Florida business registration\n- **[IRS EIN](https://www.irs.gov/businesses/small-businesses-self-employed/employer-id-numbers)** (irs.gov) — Free employer identification number\n- **[LegalZoom](https://www.legalzoom.com)** / **[Incfile](https://www.incfile.com)** — Paid services for business entity setup\n- **[USPTO](https://www.uspto.gov)** — Trademark and patent filings"
+            },
+            {
+              "heading": "Banking & Finance",
+              "content": "- **[Mercury](https://mercury.com)** — Online banking for startups (international-friendly)\n- **[Relay](https://relayfi.com)** — Free business banking with accounting integration\n- **[Stripe Atlas](https://stripe.com/atlas)** — Formation + banking bundle for international founders\n- **[QuickBooks Online](https://quickbooks.intuit.com)** — Bookkeeping software widely used in the U.S."
+            },
+            {
+              "heading": "Visas & Immigration",
+              "content": "- **[USCIS](https://www.uscis.gov)** (uscis.gov) — Official immigration information\n- **[Boundless](https://www.boundless.com)** — Immigration application assistance\n- **[AILA Lawyer Search](https://www.ailalawyer.com)** — Find a qualified immigration attorney\n- **[Fragomen](https://www.fragomen.com)** — International immigration law firm"
+            },
+            {
+              "heading": "Local Support",
+              "content": "- Florida **[SBDC at UCF](https://sbdcorlando.com/)** — Free business consulting\n- **[SCORE Orlando](https://orlando.score.org)** — Free mentorship from business veterans\n- **[Orlando Economic Partnership](https://orlando.org)** — Relocation and expansion support\n- **[Prospera](https://prosperausa.org/)** — Bilingual business support for Hispanic entrepreneurs\n- **[UCF BIP](https://incubator.ucf.edu)** — Business incubation programs"
+            }
+          ]
+        },
+        {
           "type": "text",
           "id": "text-8-2-credential",
           "title": "Your Digital Credential",

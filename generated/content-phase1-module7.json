@@ -37,23 +37,27 @@
           "sections": [
             {
               "heading": "Florida SBDC at UCF",
-              "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at sbdcorlando.com. No cost, no obligation.\n\n**International-friendly:** Yes, they work extensively with international entrepreneurs."
+              "content": "**What they do:** Free, confidential business consulting. Market research, financial projections, business plan review.\n\n**Best for:** International founders who need hands-on guidance setting up operations.\n\n**How to access:** Schedule a consultation at [sbdcorlando.com](https://sbdcorlando.com/). No cost, no obligation.\n\n**International-friendly:** Yes, they work extensively with international entrepreneurs."
             },
             {
               "heading": "SBA (Small Business Administration)",
-              "content": "**What they do:** Federal agency providing loan guarantees, training, and contracting assistance.\n\n**Best for:** Accessing capital (SBA-backed loans have better terms than conventional loans).\n\n**How to access:** sba.gov, find your local SBA district office.\n\n**International-friendly:** Loans require U.S. residency, but training is open to all."
+              "content": "**What they do:** Federal agency providing loan guarantees, training, and contracting assistance.\n\n**Best for:** Accessing capital (SBA-backed loans have better terms than conventional loans).\n\n**How to access:** [sba.gov](https://www.sba.gov), find your local SBA district office.\n\n**International-friendly:** Loans require U.S. residency, but training is open to all."
             },
             {
               "heading": "Orlando Economic Partnership",
-              "content": "**What they do:** Regional economic development organization. Business relocation assistance, site selection, incentive coordination.\n\n**Best for:** Companies planning to physically relocate to Central Florida.\n\n**How to access:** orlando.org, request a consultation for business expansion.\n\n**International-friendly:** Yes, they have a dedicated international business team."
+              "content": "**What they do:** Regional economic development organization. Business relocation assistance, site selection, incentive coordination.\n\n**Best for:** Companies planning to physically relocate to Central Florida.\n\n**How to access:** [orlando.org](https://orlando.org), request a consultation for business expansion.\n\n**International-friendly:** Yes, they have a dedicated international business team."
+            },
+            {
+              "heading": "Florida High Tech Corridor",
+              "content": "**What they do:** Connects companies with university research, talent, and industry partnerships across the Tampa-to-Space-Coast corridor.\n\n**Best for:** Organizations that want to connect to the entire Central Florida tech corridor, including Tampa to the Space Coast.\n\n**How to access:** [floridahightech.com](https://floridahightech.com/)"
             },
             {
               "heading": "Prospera",
-              "content": "**What they do:** Bilingual business development services specifically for Hispanic entrepreneurs.\n\n**Best for:** Spanish-speaking founders who want support in their native language.\n\n**How to access:** prosperausa.org, free workshops and 1-on-1 consulting.\n\n**International-friendly:** Specifically designed for immigrant entrepreneurs."
+              "content": "**What they do:** Bilingual business development services specifically for Hispanic entrepreneurs.\n\n**Best for:** Spanish-speaking founders who want support in their native language.\n\n**How to access:** [prosperausa.org](https://prosperausa.org/), free workshops and 1-on-1 consulting.\n\n**International-friendly:** Specifically designed for immigrant entrepreneurs."
             },
             {
               "heading": "SCORE Orlando",
-              "content": "**What they do:** Free mentoring from retired business executives. Workshop series on startup fundamentals.\n\n**Best for:** Founders who want ongoing mentorship from experienced entrepreneurs.\n\n**How to access:** score.org/orlando, match with a mentor.\n\n**International-friendly:** Yes, but mentoring is in English."
+              "content": "**What they do:** Free mentoring from retired business executives. Workshop series on startup fundamentals.\n\n**Best for:** Founders who want ongoing mentorship from experienced entrepreneurs.\n\n**How to access:** [score.org/orlando](https://orlando.score.org), match with a mentor.\n\n**International-friendly:** Yes, but mentoring is in English."
             }
           ]
         },
