@@ -48,7 +48,7 @@
     "modules": [
       {
         "id": "module-0",
-        "title": "Start Here: What To Expect And How To Use This Program",
+        "title": "Soft Landing in Central Florida",
         "description": "Sets expectations before the modules begin: realistic timelines, what this program covers and what it doesn't. Introduces the four core themes and common pitfalls. Establishes the check-for-understanding template used in all modules.",
         "duration": "10 minutes",
         "landscapeTheme": "Highway / Dashboard Entry",
@@ -181,7 +181,7 @@
           },
           {
             "id": "lesson-1-2",
-            "title": "Registering with SunBiz — Step by Step",
+            "title": "Registering with SunBiz: Step by Step",
             "duration": 10,
             "objectives": [
               "Describe the complete SunBiz registration process for a Florida business entity",
@@ -308,7 +308,7 @@
         "lessons": [
           {
             "id": "lesson-2-1",
-            "title": "Federal and State Taxes — What You Actually Owe",
+            "title": "Federal and State Taxes: What You Actually Owe",
             "duration": 9,
             "objectives": [
               "Distinguish between federal and Florida state tax obligations for foreign-owned entities",
@@ -409,7 +409,7 @@
           },
           {
             "id": "lesson-2-3",
-            "title": "Banking Deep Dive — The Reality for International Founders",
+            "title": "Banking Deep Dive: The Reality for International Founders",
             "duration": 8,
             "objectives": [
               "Identify the physical presence and documentation requirements for major U.S. banks",
@@ -480,7 +480,7 @@
         "lessons": [
           {
             "id": "lesson-3-1",
-            "title": "Intellectual Property — Protecting Your Ideas in the U.S.",
+            "title": "Intellectual Property: Protecting Your Ideas in the U.S.",
             "duration": 7,
             "objectives": [
               "Distinguish between copyright, trademark, and patent protections in the U.S.",
@@ -645,7 +645,7 @@
         "lessons": [
           {
             "id": "lesson-4-1",
-            "title": "Your First U.S. Hire — Contractor vs. Employee",
+            "title": "Your First U.S. Hire: Contractor vs. Employee",
             "duration": 8,
             "objectives": [
               "Distinguish between independent contractor and employee classifications under U.S. law",
@@ -696,7 +696,7 @@
           },
           {
             "id": "lesson-4-2",
-            "title": "Visa Pathways — What's Actually Realistic",
+            "title": "Visa Pathways: What's Actually Realistic",
             "duration": 9,
             "objectives": [
               "Compare O-1, E-2, L-1, and H-1B visa pathways for founders and key employees",
@@ -913,7 +913,7 @@
         "lessons": [
           {
             "id": "lesson-6-1",
-            "title": "Communication Styles — What Americans Actually Mean",
+            "title": "Communication Styles: What Americans Actually Mean",
             "duration": 7,
             "objectives": [
               "Explain how U.S. business communication differs from other cultures (directness, brevity, time-sensitivity)",
@@ -1118,7 +1118,7 @@
           },
           {
             "id": "lesson-7-2",
-            "title": "Central Florida — Why This Market Works for Founders",
+            "title": "Central Florida: Why This Market Works for Founders",
             "duration": 7,
             "objectives": [
               "Describe Central Florida's major industry clusters and economic data points",
@@ -1161,7 +1161,7 @@
           },
           {
             "id": "lesson-7-3",
-            "title": "Central Florida by the Numbers — (Data That Impacts Your Runway)",
+            "title": "Central Florida by the Numbers: Data That Impacts Your Runway",
             "duration": 6,
             "objectives": [
               "Describe the three UCF BIP programs (Traction, Growth, Soft Landing) and who each is designed for",
@@ -1236,7 +1236,7 @@
         "lessons": [
           {
             "id": "lesson-8-1",
-            "title": "Self-Assessment — Are You Ready?",
+            "title": "Self-Assessment: Are You Ready?",
             "duration": 15,
             "objectives": [
               "Reflect on their U.S. market readiness across all seven module topics",
