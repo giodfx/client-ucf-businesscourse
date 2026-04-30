@@ -337,6 +337,16 @@
         var courseId = lmsMatch[1];
         var totalLessons = parseInt(document.body.dataset.totalLessons || '0', 10) || TOTAL_LESSONS_FALLBACK;
         var measure = Math.min(1, Math.max(0, progress.visited.length / totalLessons));
+        // Embed totalLessons inside courseProgress so the LMS doesn't have
+        // to hardcode it. lessonScores stays undefined until quiz tracking
+        // wires up — the LMS gradebook's parser is forward-compatible and
+        // surfaces it automatically when present.
+        var courseProgressPayload = Object.assign({}, progress, {
+          totalLessons: totalLessons,
+          // Reserved for future quiz wiring — quiz.js will populate
+          // localStorage.rt-progress.lessonScores keyed by lesson id.
+          lessonScores: progress.lessonScores || undefined
+        });
         fetch('/api/courses/' + courseId + '/native-progress', {
           method: 'PATCH',
           credentials: 'same-origin',
@@ -348,7 +358,7 @@
             progressMeasure: measure,
             // Opaque blob — the LMS stores it as JSON without validation.
             // The course's dashboard reads this back on hydrate.
-            assessmentResults: { courseProgress: progress }
+            assessmentResults: { courseProgress: courseProgressPayload }
           })
         }).catch(function() { /* localStorage already has it; silent */ });
       }
