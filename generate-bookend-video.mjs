@@ -56,10 +56,15 @@ const COMFYUI_OUTPUT = 'D:/ComfyUI_windows_portable/ComfyUI/output';
 const PROJECT_ROOT = path.resolve(__dirname, '../../..');
 const COURSE_DIR = __dirname;
 
-const SEG_DURATION = 16;            // 16s segments (proven safe)
+// SEG_DURATION lowered from 16s -> 8s on 2026-05-01 to test crash-threshold theory.
+// Spanish render crashed twice at ~4 min mark within seg 1 inference (~6 min/seg).
+// Shorter segments = each inference finishes in ~3 min, below the crash threshold.
+// If this works, the bug is time-based corruption WITHIN a single inference,
+// not call-based or fragmentation-based. Assembly logic still works (more segs).
+const SEG_DURATION = 8;             // 8s segments — half the inference time, below crash window
 const CROSSFADE = 1.5;              // morph zone we skip on hard-cut assembly
 const EFFECTIVE_DUR = SEG_DURATION - CROSSFADE;
-const INTER_SEGMENT_PAUSE = 5000;   // 5s between segments
+const INTER_SEGMENT_PAUSE = 30000;  // 30s between segments — extra thermal/PSU recovery time
 const INTER_VIDEO_PAUSE = 5000;     // 5s between videos (after VRAM free)
 const ERROR_RECOVERY_PAUSE = 10000; // 10s after a segment error
 
@@ -239,9 +244,10 @@ async function generateSegments(video, lang, voiceKey) {
     workflow['60'].inputs.audioUI = '';
     workflow['54'].inputs.positive_prompt = INFINITYTALK_PROMPTS[voiceKey];
     workflow['54'].inputs.negative_prompt = INFINITYTALK_NEG;
-    workflow['52'].inputs.model = 'Wan2_1-InfiniteTalk-Single_fp8_e4m3fn_scaled_KJ.safetensors';
-    workflow['71'].inputs.model = 'Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors';
-    workflow['71'].inputs.base_precision = 'fp16_fast';
+    // Use models saved in workflow JSON (default: GGUF Q3_K_S + Q6_K, ~10GB) — fp8 override removed
+    // to avoid OOM crashes on sustained runs. base_precision is also left to workflow default
+    // (fp16, NOT fp16_fast) — fp16_fast is fragile on Windows + Triton + sageattention stack
+    // and has caused hard system crashes (kernel-power 41). See workflow JSON to change.
     workflow['61'].inputs.save_output = true;
     workflow['61'].inputs.filename_prefix = `bookend/${video.id}-${lang}-seg${seg}`;
     workflow['70'].inputs.seed = Math.floor(Math.random() * 1e15);
@@ -362,6 +368,16 @@ async function processVideo(video, lang) {
   console.log(`\n${'═'.repeat(60)}`);
   console.log(`  ${video.label} — ${lang.toUpperCase()}  (voice=${voiceKey})`);
   console.log(`${'═'.repeat(60)}`);
+
+  // CRITICAL: Free VRAM at the START of every video render. ComfyUI accumulates
+  // VRAM fragmentation across previous renders (even other ComfyUI activity since
+  // last launch — image gen, prior videos, etc). The /free endpoint forces an
+  // unload + cudaMalloc reset before we re-load the Wan models. Without this,
+  // the second/third video render in a session hits stale state and the SDPA-
+  // mitigated kernel fragility re-emerges, hard-rebooting the PC.
+  console.log('  [VRAM] Clearing before render...');
+  await freeVRAM();
+  await sleep(3000);
 
   try {
     const { segmentPaths, totalDur } = await generateSegments(video, lang, voiceKey);

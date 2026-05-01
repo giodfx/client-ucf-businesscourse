@@ -502,9 +502,10 @@ async function stageB_generateSegments(lesson) {
     // Prompt (node 54) — static background to prevent car/environment animation
     workflow['54'].inputs.positive_prompt = INFINITYTALK_PROMPTS[lesson.presenter];
     workflow['54'].inputs.negative_prompt = INFINITYTALK_NEG;
-    // Models — fp8 matching pair (CRITICAL)
-    workflow['52'].inputs.model = 'Wan2_1-InfiniteTalk-Single_fp8_e4m3fn_scaled_KJ.safetensors';
-    workflow['71'].inputs.model = 'Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors';
+    // Models — use whatever is saved in the workflow JSON (default: GGUF Q3_K_S + Q6_K, ~10GB).
+    // Previously we overrode with fp8 safetensors (~22GB) which OOM-crashed the system on
+    // sustained runs. The workflow file is the source of truth — if you want to change to
+    // fp8, update workflows/comfyui/infinityTalk - Single -Wan 2.1.json directly.
     workflow['71'].inputs.base_precision = 'fp16_fast';
     // Output (node 61)
     workflow['61'].inputs.save_output = true;

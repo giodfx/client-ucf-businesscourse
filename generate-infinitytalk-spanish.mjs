@@ -195,8 +195,7 @@ async function stageB_generateSegments(lesson, force) {
     workflow['60'].inputs.audioUI = '';
     workflow['54'].inputs.positive_prompt = INFINITYTALK_PROMPTS[lesson.presenter];
     workflow['54'].inputs.negative_prompt = INFINITYTALK_NEG;
-    workflow['52'].inputs.model = 'Wan2_1-InfiniteTalk-Single_fp8_e4m3fn_scaled_KJ.safetensors';
-    workflow['71'].inputs.model = 'Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors';
+    // Use models saved in workflow JSON (default: GGUF Q3_K_S + Q6_K, ~10GB) — fp8 override removed
     workflow['71'].inputs.base_precision = 'fp16_fast';
     workflow['61'].inputs.save_output = true;
     workflow['61'].inputs.filename_prefix = `video/ucf-${lesson.id}-es-seg${seg}`;
