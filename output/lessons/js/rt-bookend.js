@@ -76,10 +76,20 @@
       var moduleIntro = document.querySelector('.rt-module-intro');
       if (moduleIntro && moduleIntro.parentNode) {
         moduleIntro.parentNode.insertBefore(wrap, moduleIntro.nextSibling);
-        return;
+      } else {
+        var article = document.querySelector('article.rt-lesson-content');
+        if (article) article.insertBefore(wrap, article.firstChild);
       }
-      var article = document.querySelector('article.rt-lesson-content');
-      if (article) article.insertBefore(wrap, article.firstChild);
+      // Injecting the video at the top shifts all subsequent content down by
+      // the video's height. If the browser's scroll-restoration (or any other
+      // late event) has already moved the viewport, the user lands in mid-
+      // page content instead of seeing the video. Force scroll to top after
+      // injection ONLY when the URL has no fragment (so deep-links still work).
+      if (!window.location.hash) {
+        // Disable any pending scroll restore, then anchor to top
+        if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+        window.scrollTo(0, 0);
+      }
     } else {
       var article2 = document.querySelector('article.rt-lesson-content');
       if (article2) article2.appendChild(wrap);
