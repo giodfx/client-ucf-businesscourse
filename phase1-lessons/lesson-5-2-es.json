@@ -35,7 +35,7 @@
       "type": "text",
       "id": "text-5-2-2",
       "title": "El Ciclo de Ventas en EE.UU.: Más Rápido y Más Directo de lo Que Espera",
-      "content": "<p>Los compradores estadounidenses esperan que vaya al grano: <strong>qué ofrece, cuánto cuesta, qué le hace diferente</strong>. Toman decisiones rápidamente y siguen adelante si nada les llama la atención.</p>\n\n<p>Cronograma típico B2B:</p>\n\n<ul><li><strong>Primera respuesta:</strong> El mismo día. Tres días es demasiado tarde.</li><li><strong>Demo:</strong> Dentro de una semana.</li><li><strong>Propuesta:</strong> Dentro de 24, 48 horas después de la primera llamada.</li><li><strong>Decisión:</strong> Menos de $10K en 1, 2 semanas. $10K, $100K en 4, 8 semanas. $100K+ en 2, 6 meses.</li><li><strong>Seguimiento:</strong> Dentro de 3 días hábiles, luego semanalmente.</li></ul>\n\n<p>Configure secuencias automatizadas si no puede responder dentro de unas pocas horas.</p>",
+      "content": "<p>Los compradores estadounidenses esperan que vaya al grano: <strong>qué ofrece, cuánto cuesta, qué le hace diferente</strong>. Toman decisiones rápidamente y siguen adelante si nada les llama la atención.</p>\n\n<p>Cronograma típico B2B:</p>\n\n<ul><li><strong>Primera respuesta:</strong> El mismo día. Tres días es demasiado tarde.</li><li><strong>Demo:</strong> Dentro de una semana.</li><li><strong>Propuesta:</strong> Dentro de 24–48 horas después de la primera llamada.</li><li><strong>Decisión:</strong> Menos de $10K en 1–2 semanas. $10K–$100K en 4–8 semanas. $100K+ en 2–6 meses.</li><li><strong>Seguimiento:</strong> Dentro de 3 días hábiles, luego semanalmente.</li></ul>\n\n<p>Configure secuencias automatizadas si no puede responder dentro de unas pocas horas.</p>",
       "wordCount": 83
     },
     {
@@ -57,7 +57,7 @@
         },
         {
           "label": "Idea Clave",
-          "content": "Los ciclos de ventas B2B en EE.UU. son más largos de lo que muchos fundadores internacionales esperan.\n\n**Cronograma típico:**\n- Contacto inicial → Cotización: 1, 3 días\n- Período de evaluación: 2, 6 semanas\n- Revisión de adquisiciones/legal: 2, 4 semanas\n- Decisión: 1, 2 semanas\n\n**Total: 6, 12 semanas** para acuerdos del mercado medio. Las grandes empresas pueden tomar 6+ meses."
+          "content": "Los ciclos de ventas B2B en EE.UU. son más largos de lo que muchos fundadores internacionales esperan.\n\n**Cronograma típico:**\n- Contacto inicial → Cotización: 1–3 días\n- Período de evaluación: 2–6 semanas\n- Revisión de adquisiciones/legal: 2–4 semanas\n- Decisión: 1–2 semanas\n\n**Total: 6–12 semanas** para acuerdos del mercado medio. Las grandes empresas pueden tomar 6+ meses."
         }
       ]
     },
@@ -91,7 +91,7 @@
           "label": "Formulario W-9 completado con su EIN (requerido por cualquier empresa de EE.UU. que le pague $600+ al año)"
         },
         {
-          "label": "Póliza de seguro de responsabilidad civil general activa ($500, $2,000 al año)"
+          "label": "Póliza de seguro de responsabilidad civil general activa ($500–$2,000 al año)"
         },
         {
           "label": "Certificado de Seguro (COI) listo para enviar a solicitud"
@@ -138,10 +138,10 @@
           "explanation": "Las empresas de EE.UU. con procesos formales de adquisición típicamente requieren un W-9 (identificación tributaria), un certificado de seguro (comprobante de cobertura de responsabilidad) y registro en su sistema de proveedores antes de poder emitir el pago. Tener estos documentos listos con anticipación previene los retrasos que pueden estancar o matar el acuerdo."
         },
         {
-          "stem": "Una fundadora de software B2B de Brasil recolecta 200 tarjetas de presentación en una feria comercial en EE.UU. Planea comenzar a enviar correos electrónicos de seguimiento el siguiente lunes, cinco días después del evento. Su competidor hizo seguimiento con enlaces personalizados de demo dentro de 24 horas. Con base en las expectativas del ciclo de ventas en EE.UU., ¿cuál es el resultado más probable?",
+          "stem": "Una fundadora de software B2B de Japón recolecta 200 tarjetas de presentación en una feria comercial en EE.UU. Planea comenzar a enviar correos electrónicos de seguimiento el siguiente lunes, cinco días después del evento. Su competidor hizo seguimiento con enlaces personalizados de demo dentro de 24 horas. Con base en las expectativas del ciclo de ventas en EE.UU., ¿cuál es el resultado más probable?",
           "options": [
             "Ambos fundadores tendrán igual éxito porque la calidad del producto importa más que la velocidad de seguimiento",
-            "La fundadora brasileña tendrá una ventaja porque esperar muestra paciencia y profesionalismo",
+            "La fundadora alemana tendrá una ventaja porque esperar muestra paciencia y profesionalismo",
             "El competidor cerrará significativamente más acuerdos porque los compradores en EE.UU. avanzan con quien responda más rápido",
             "Ninguno cerrará acuerdos porque los leads de ferias comerciales rara vez se convierten en ventas"
           ],
