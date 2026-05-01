@@ -2,7 +2,7 @@
   "lessonId": "lesson-7-3",
   "moduleId": "module-7",
   "landscapeTheme": "River Springs",
-  "title": "Florida Central en Cifras, (Datos Que Impactan Su Runway)",
+  "title": "Florida Central en Cifras: Datos Que Impactan Su Runway",
   "duration": 4,
   "objectives": [
     "Interpretar los indicadores económicos clave (PIB, crecimiento poblacional, tasas de formación de negocios) que hacen a Central Florida competitiva para las startups",
@@ -14,8 +14,15 @@
       "type": "text",
       "id": "text-7-3-1",
       "title": "Central Florida en Cifras",
-      "content": "<p>La última lección cubrió la cultura y las conexiones del ecosistema empresarial de Central Florida. Ahora vea los números que lo respaldan. La fortaleza de un ecosistema se mide por lo que produce.</p>\n\n<p>Los números cuentan una historia que la mayoría de las presentaciones pierden. Un fondo semilla de $500,000 le compra 10 meses en Silicon Valley, pero 17 meses en Central Florida. Esa diferencia puede significar la brecha entre encontrar el encaje producto-mercado y quedarse sin efectivo. Esta lección es la hoja de cálculo: los números a citar al construir un caso para su junta, cofundador o familia. Todos los datos a inicios de 2026 a menos que se indique.</p>\n\n<h3>Población y Crecimiento</h3>\n\n<p>Metro de Orlando-Kissimmee-Sanford: ~2.96 millones de residentes (2025) <em>(<a href=\"https://www.census.gov/library/stories/2025/04/metro-area-trends.html\" target=\"_blank\" rel=\"noopener\">U.S. Census Bureau, 2025 Metro Area Estimates<span class=\"sr-only\"> (opens in a new tab)</span></a>)</em>. Entre los cinco metros estadounidenses de más rápido crecimiento en los últimos cinco años: impulsando la demanda del consumidor, la oferta de trabajadores y el crecimiento de bienes raíces comerciales.</p>\n\n<h3>PIB Regional</h3>\n\n<p>El PIB del metro de Orlando alcanzó los $217 mil millones (2023, última estimación de la BEA) <em>(<a href=\"https://news.orlando.org/blog/orlando-economy-surpasses-200-billion-outpaces-u-s-economic-growth/\" target=\"_blank\" rel=\"noopener\">Orlando Economic Partnership, datos de la BEA<span class=\"sr-only\"> (opens in a new tab)</span></a>)</em>, distribuido entre turismo ($75B), tecnología, aeroespacial, salud, educación y construcción.</p>\n\n<h3>Formación de Negocios</h3>\n\n<p>Florida lidera EE.UU. en nuevas solicitudes de negocios (BFS del U.S. Census, 2024); SunBiz gestiona más de 3.5M de entidades empresariales activas. Registro de LLC de Florida: $125. Como referencia: California cobra $70 más un impuesto anual de franquicia de $800, Nueva York cobra $200 más requisitos bienales. La ausencia de impuesto estatal sobre la renta de Florida cubre todos los ingresos empresariales pass-through.</p>",
+      "content": "<p>La última lección cubrió la cultura y las conexiones del ecosistema empresarial de Central Florida. Ahora vea los números que lo respaldan. La fortaleza de un ecosistema se mide por lo que produce.</p>\n\n<p>Los números cuentan una historia que la mayoría de las presentaciones pierden. Un fondo semilla de $500,000 le compra 10 meses en Silicon Valley, pero 17 meses en Central Florida. Esa diferencia puede significar la brecha entre encontrar el encaje producto-mercado y quedarse sin efectivo. Esta lección es la hoja de cálculo: los números a citar al construir un caso para su junta, cofundador o familia. Todos los datos a inicios de 2026 a menos que se indique.</p>\n\n<h3>Población y Crecimiento</h3>\n\n<p>Metro de Orlando-Kissimmee-Sanford: ~2.96 millones de residentes (2025) <em>(<a href=\"https://www.census.gov/library/stories/2025/04/metro-area-trends.html\" target=\"_blank\" rel=\"noopener\">U.S. Census Bureau, 2025 Metro Area Estimates<span class=\"sr-only\"> (opens in a new tab)</span></a>)</em>. Entre los cinco metros estadounidenses de más rápido crecimiento en los últimos cinco años: impulsando la demanda del consumidor, la oferta de trabajadores y el crecimiento de bienes raíces comerciales.</p>\n\n<h3>PIB Regional</h3>\n\n<p>El PIB del metro de Orlando alcanzó los $217 mil millones (2023, última estimación de la BEA) <em>(<a href=\"https://news.orlando.org/blog/orlando-economy-surpasses-200-billion-outpaces-u-s-economic-growth/\" target=\"_blank\" rel=\"noopener\">Orlando Economic Partnership, datos de la BEA<span class=\"sr-only\"> (opens in a new tab)</span></a>)</em>, distribuido entre turismo (más de $90B), tecnología, aeroespacial, salud, educación y construcción.</p>\n\n<h3>Formación de Negocios</h3>\n\n<p>Florida lidera EE.UU. en nuevas solicitudes de negocios (BFS del U.S. Census, 2024); SunBiz gestiona más de 3.5M de entidades empresariales activas. Registro de LLC de Florida: $125. Como referencia: California cobra $70 más un impuesto anual de franquicia de $800, Nueva York cobra $200 más requisitos bienales. La ausencia de impuesto estatal sobre la renta de Florida cubre todos los ingresos empresariales pass-through.</p>",
       "wordCount": 205
+    },
+    {
+      "type": "callout",
+      "id": "callout-7-3-disclaimer",
+      "variant": "note",
+      "title": "Nota sobre los números a continuación",
+      "content": "<p><em>Estos números son solo para fines ilustrativos. Los números reales pueden variar.</em></p>"
     },
     {
       "type": "table",
@@ -99,83 +106,6 @@
       "sectionId": "text-7-3-1"
     },
     {
-      "type": "data-visualization",
-      "id": "dataviz-7-3a",
-      "title": "Cómo Se Compara Central Florida: Comparación de Costos",
-      "chartType": "grouped-bar",
-      "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 780px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Cómo Se Compara Central Florida: Comparación de Costos</h3><p style=\"margin: 0 0 18px 0; font-size: 0.85rem; color: #666;\">5 ciudades en métricas clave de costo (menor es mejor)</p><div style=\"display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px;\"><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #8B5A0A; border-radius: 2px; display: inline-block;\"></span>Central FL</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #2C5F8A; border-radius: 2px; display: inline-block;\"></span>Miami</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1A3A5C; border-radius: 2px; display: inline-block;\"></span>NYC</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #9C3D14; border-radius: 2px; display: inline-block;\"></span>Silicon Valley</span><span style=\"display: inline-flex; align-items: center; gap: 4px; font-size: 0.73rem;\"><span style=\"width: 10px; height: 10px; background: #1B6B40; border-radius: 2px; display: inline-block;\"></span>Austin</span></div><div style=\"margin-top: 18px; background: #FFF8E7; border-left: 4px solid #8B5A0A; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 0.82rem;\">El Índice de Costo de Vida de Central Florida de <strong>98</strong> (cerca del promedio nacional) significa que su capital de startup se estira más.</div><div style=\"margin-top: 10px; background: #1A3A5C; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; text-align: center;\">Un <strong>fondo semilla de $500K</strong> dura 10 meses en Silicon Valley vs. <strong>16, 17 meses</strong> en Central Florida.</div></div>",
-      "data": {
-        "categories": [
-          "Espacio de Oficina ($/pie²/año)",
-          "Coworking ($/mes)",
-          "Salario de Desarrollador ($K)",
-          "Renta de 1 Habitación ($/mes)",
-          "Índice de Costo de Vida"
-        ],
-        "cities": [
-          {
-            "label": "Central Florida",
-            "color": "#8B5A0A",
-            "values": [
-              30,
-              300,
-              92,
-              1600,
-              98
-            ],
-            "highlight": true
-          },
-          {
-            "label": "Miami",
-            "color": "#2C5F8A",
-            "values": [
-              48,
-              475,
-              105,
-              2400,
-              120
-            ]
-          },
-          {
-            "label": "NYC",
-            "color": "#1A3A5C",
-            "values": [
-              73,
-              700,
-              133,
-              3400,
-              187
-            ]
-          },
-          {
-            "label": "Silicon Valley",
-            "color": "#9C3D14",
-            "values": [
-              65,
-              550,
-              145,
-              3000,
-              172
-            ]
-          },
-          {
-            "label": "Austin",
-            "color": "#1B6B40",
-            "values": [
-              48,
-              400,
-              120,
-              1900,
-              108
-            ]
-          }
-        ],
-        "footer": "El Índice de Costo de Vida de Central Florida de 98 (cerca del promedio nacional) significa que su capital de startup se estira más.",
-        "highlight": "Un fondo semilla de $500K dura 10 meses en Silicon Valley vs. 16, 17 meses en Central Florida."
-      },
-      "accessibilityNote": "Gráfico de barras agrupadas que compara 5 ciudades en 5 métricas de costo. Espacio de Oficina por pie² al año: Central Florida $30, Miami $48, NYC $73, Silicon Valley $65, Austin $48. Coworking por mes: Central Florida $300, Miami $475, NYC $700, Silicon Valley $550, Austin $400. Salario de Desarrollador: Central Florida $92K, Miami $105K, NYC $133K, Silicon Valley $145K, Austin $120K. Renta de una habitación al mes: Central Florida $1,600, Miami $2,400, NYC $3,400, Silicon Valley $3,000, Austin $1,900. Índice de Costo de Vida: Central Florida 98, Miami 120, NYC 187, Silicon Valley 172, Austin 108. Central Florida está destacada como la de menor costo en la mayoría de las métricas. Un fondo semilla de $500K dura 10 meses en Silicon Valley versus 16 a 17 meses en Central Florida."
-    },
-    {
       "type": "callout",
       "id": "callout-7-3-funfact",
       "variant": "fun-fact",
@@ -229,12 +159,12 @@
             "Tecnología y Fintech",
             "Centros de Siemens, Deloitte, KPMG",
             "~2x más rápido que el promedio de EE.UU. (21% vs 11%, 2019-24)",
-            "Fuerte (más de 4,500 graduados STEM al año, UCF)"
+            "Fuerte (más de 4,000 graduados STEM al año, UCF)"
           ],
           [
             "Tecnología de Hospitalidad",
             "Más de 75M de visitantes anuales",
-            "Impacto económico turístico de over $90B",
+            "Impacto económico turístico de más de $90B",
             "Estable (demanda impulsada por infraestructura)"
           ],
           [
@@ -257,14 +187,14 @@
     {
       "type": "data-visualization",
       "id": "dataviz-7-3b",
-      "title": "Clusters Industriales de Central Florida: Escala de un Vistazo",
+      "title": "",
       "chartType": "horizontal-bar-with-icons",
       "htmlContent": "<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #F8F6F1; border-radius: 12px; padding: 28px; max-width: 700px; margin: 0 auto; color: #2D2D2D;\"><h3 style=\"margin: 0 0 6px 0; font-size: 1.15rem; color: #1A3A5C;\">Clusters Industriales de Central Florida: Escala de un Vistazo</h3><p style=\"margin: 0 0 20px 0; font-size: 0.85rem; color: #666;\">Escala relativa de cada cluster con tendencia de crecimiento</p><div style=\"margin-top: 16px; font-size: 0.75rem; color: #999; font-style: italic;\">Las longitudes de las barras se han escalado para comparación visual; vea la tabla anterior para las cifras exactas.</div></div>",
       "data": {
         "clusters": [
           {
             "label": "Tecnología de Hospitalidad",
-            "metric": "Impacto económico turístico de over $90B",
+            "metric": "Impacto económico turístico de más de $90B",
             "value": 92,
             "growth": "estable",
             "color": "#8B5A0A"
@@ -307,7 +237,7 @@
         ],
         "note": "Valores escalados para comparación visual; vea la tabla a continuación para cifras exactas."
       },
-      "accessibilityNote": "Gráfico de barras horizontales que muestra seis clusters industriales de Central Florida clasificados por escala relativa. La Tecnología de Hospitalidad lidera con over $90B de impacto económico turístico y crecimiento estable. Las Ciencias de la Vida y la Salud tienen más de 90,000 empleos de salud (metro de Orlando) y se están expandiendo. La Tecnología y Fintech crece 34% más rápido que el promedio de EE.UU. con un fuerte impulso. La Aeroespacial y Defensa tuvo más de 100 lanzamientos orbitales en Florida en 2025 y está acelerando. La Simulación y Capacitación genera $6B en contratos anuales con un crecimiento constante. AgTech es un cluster emergente con asociaciones de investigación de UF/IFAS. Las longitudes de las barras se escalan para comparación visual."
+      "accessibilityNote": "Gráfico de barras horizontales que muestra seis clusters industriales de Central Florida clasificados por escala relativa. La Tecnología de Hospitalidad lidera con más de $90B de impacto económico turístico y crecimiento estable. Las Ciencias de la Vida y la Salud tienen más de 90,000 empleos de salud (metro de Orlando) y se están expandiendo. La Tecnología y Fintech crece 34% más rápido que el promedio de EE.UU. con un fuerte impulso. La Aeroespacial y Defensa tuvo más de 100 lanzamientos orbitales en Florida en 2025 y está acelerando. La Simulación y Capacitación genera $6B en contratos anuales con un crecimiento constante. AgTech es un cluster emergente con asociaciones de investigación de UF/IFAS. Las longitudes de las barras se escalan para comparación visual."
     },
     {
       "type": "scenario",
@@ -382,7 +312,7 @@
       "type": "key-takeaway",
       "id": "kt-7-3-1",
       "title": "Punto Clave",
-      "content": "<p>El índice de costo de vida de Central Florida (98) es casi la mitad del de Nueva York (187) y muy por debajo del de Silicon Valley (172). Los salarios de desarrollador son de $95K-$120K versus $150K-$185K en San Jose. Florida maneja más de 300,000 nuevos registros de negocios cada año con una tarifa de LLC de $125 y cero impuesto estatal sobre la renta. Seis clusters industriales diversificados, desde simulación y capacitación ($6B) hasta aeroespacial (más de 100 lanzamientos en Florida en 2025) y tecnología de hospitalidad (impacto económico turístico de over $90B), crean demanda en distintos sectores.</p>"
+      "content": "<p>El índice de costo de vida de Central Florida (98) es casi la mitad del de Nueva York (187) y muy por debajo del de Silicon Valley (172). Los salarios de desarrollador son de $95K-$120K versus $150K-$185K en San Jose. Florida maneja más de 300,000 nuevos registros de negocios cada año con una tarifa de LLC de $125 y cero impuesto estatal sobre la renta. Seis clusters industriales diversificados, desde simulación y capacitación ($6B) hasta aeroespacial (más de 100 lanzamientos en Florida en 2025) y tecnología de hospitalidad (impacto económico turístico de más de $90B), crean demanda en distintos sectores.</p>"
     }
   ]
 }
